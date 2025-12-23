@@ -1,0 +1,20 @@
+CHART: chart_06_biceps_tenodesis.txt
+
+PRIMARY CDI FOCUS:
+- Capture implant specifics and concomitant pathology findings.
+- Enhance documentation of conservative care and postoperative directives.
+
+RECOMMENDED IMPROVEMENTS:
+1. Implant Detail: Record screw size, manufacturer, and fixation position (suprapectoral vs. subpectoral) for supply billing.
+2. Conservative Measures: Outline physical therapy duration, medication trials, and injection history supporting failure of non-operative care.
+3. Tendon Pathology: Describe degree of tendon degeneration, partial tearing, or groove osteophytes to justify tenodesis.
+4. Subacromial Findings: Document bursal thickness, spur removal, and AC joint status if addressed.
+5. Blood Loss & Fluids: Provide quantitative EBL and mention irrigation volumes if significant.
+6. Rehabilitation Plan: Define sling duration, activity restrictions, and therapy start date with goals.
+7. Risk/Comorbidity: Include diabetes, smoking status, or other factors impacting healing if present.
+
+CODING IMPACT:
+- Supports CPT 29828 and 29826 by aligning with payer criteria for failed conservative management and implant use.
+- Precise implant documentation prevents supply denials.
+
+

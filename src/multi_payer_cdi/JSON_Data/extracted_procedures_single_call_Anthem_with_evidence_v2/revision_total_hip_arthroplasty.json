@@ -1,0 +1,41 @@
+{
+  "procedure_id": "revision_total_hip_arthroplasty",
+  "category": "Hip (Evidence: pg no: 22, L743)",
+  "section_title": "Revision Total Hip Arthroplasty (Evidence: pg no: 25, L894)",
+  "names": [
+    "Revision Total Hip Arthroplasty (Evidence: pg no: 25, L894)"
+  ],
+  "description": "Revision total hip arthroplasty is considered medically necessary when at least ONE of the following conditions is present. (Evidence: pg no: 25, L895-L896)",
+  "scope": "This guideline addresses hip arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 22, L756-L757)",
+  "general_requirements": {
+    "documentation": [
+      "Aseptic loosening (Evidence: pg no: 25, L897)",
+      "Substantial osteolysis of the weight bearing surfaces with or without periarticular osteolysis (Evidence: pg no: 25, L898)",
+      "Progressive soft tissue or bone reaction including symptomatic synovitis (Evidence: pg no: 25, L899)",
+      "Component instability, failure, or recall (Evidence: pg no: 25, L900)",
+      "Displaced periprosthetic fracture or irreducible dislocation (Evidence: pg no: 25, L901)",
+      "Hip reconstruction after previous removal of prosthesis due to infection or catastrophic failure (Evidence: pg no: 25, L902)",
+      "Metal on metal implant: An elevated synovial cobalt level, An increased cobalt/chromium level (Evidence: pg no: 25, L903-L906)",
+      "Recurrent disabling pain or significant functional disability that persists despite at least 3 months of conservative management (Evidence: pg no: 26, L907-L908)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "27134",
+      "system": "CPT",
+      "description": "Revision of total hip arthroplasty; both components, with or without autograft or allograft (Evidence: pg no: 27, L976)"
+    },
+    {
+      "code": "27137",
+      "system": "CPT",
+      "description": "Revision of total hip arthroplasty; acetabular component only, with or without autograft or allograft (Evidence: pg no: 27, L977)"
+    },
+    {
+      "code": "27138",
+      "system": "CPT",
+      "description": "Revision of total hip arthroplasty; femoral component only, with or without allograft (Evidence: pg no: 27, L978)"
+    }
+  ],
+  "notes": ""
+}

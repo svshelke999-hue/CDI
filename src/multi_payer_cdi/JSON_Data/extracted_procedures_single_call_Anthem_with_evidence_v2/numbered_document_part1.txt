@@ -1,0 +1,1143 @@
+L1| carelon.com
+L2| Status:  Revised        Effective Date:  11/05/2023
+L3| Doc ID: MSK0 2-1123.1         Last Review Date:  04/12/2023
+L4| Approval and implementation dates for specific health plans may vary. Please consult the applicable health plan for more details.
+L5| Clinical Appropriateness Guidelines
+L6| Musculoskeletal
+L7| Appropriate Use Criteria:
+L8| Joint Surgery
+L9| Proprietary
+L10| © 2023 Carelon Medical Benefits Management, Inc. All rights reserved.
+L11| Joint Surgery
+L12| © 2023 Carelon Medical Benefits Management. All rights reserved .  2 Table of Contents
+L13| Description and Application of the Guideli nes ................................ ................................ ................................ ..............................  4
+L14| General Clinical Guideline  ................................ ................................ ................................ ................................ ............................  5
+L15| Shoulder Arthroplasty (Total/Partial/Revision Shoulder Replacement)  ................................ ................................ ........................  7
+L16| Description and Scope  ................................ ................................ ................................ ................................ .............................  7
+L17| Clinical Indications  ................................ ................................ ................................ ................................ ................................ ... 7
+L18| Contraindications  ................................ ................................ ................................ ................................ ................................ ... 10
+L19| Exclusions  ................................ ................................ ................................ ................................ ................................ ..............  11
+L20| Selected References  ................................ ................................ ................................ ................................ ..............................  11
+L21| Codes  ................................ ................................ ................................ ................................ ................................ ....................  11
+L22| Shoulder Arthroscopy and Open Procedures  ................................ ................................ ................................ .............................  12
+L23| Description and Scope  ................................ ................................ ................................ ................................ ...........................  12
+L24| Clinical Indications  ................................ ................................ ................................ ................................ ................................ . 12
+L25| Exclusions  ................................ ................................ ................................ ................................ ................................ ..............  19
+L26| Selected References  ................................ ................................ ................................ ................................ ..............................  19
+L27| Codes  ................................ ................................ ................................ ................................ ................................ ....................  20
+L28| Hip Arthroplasty (Total/Partial/Revision Hip Replacement , Acetabuloplasty, Resection Arthroplasty)  ................................ ....... 22
+L29| Description and Scope  ................................ ................................ ................................ ................................ ...........................  22
+L30| Clinical Indications  ................................ ................................ ................................ ................................ ................................ . 22
+L31| Contraindications  ................................ ................................ ................................ ................................ ................................ ... 26
+L32| Exclusions  ................................ ................................ ................................ ................................ ................................ ..............  26
+L33| Selected Ref erences  ................................ ................................ ................................ ................................ ..............................  27
+L34| Codes  ................................ ................................ ................................ ................................ ................................ ....................  27
+L35| Hip Arthroscopy  ................................ ................................ ................................ ................................ ................................ ..........  28
+L36| Description and Scope  ................................ ................................ ................................ ................................ ...........................  28
+L37| Clinical Indications  ................................ ................................ ................................ ................................ ................................ . 28
+L38| Exclusions  ................................ ................................ ................................ ................................ ................................ ..............  32
+L39| Selected References  ................................ ................................ ................................ ................................ ..............................  32
+L40| Codes  ................................ ................................ ................................ ................................ ................................ ....................  33
+L41| Knee Arthroplasty (Total/Partial/Revision Knee Replace ment)  ................................ ................................ ................................ .. 34
+L42| Description and Scope  ................................ ................................ ................................ ................................ ...........................  34
+L43| Clinical Indications  ................................ ................................ ................................ ................................ ................................ . 34
+L44| Contraindications  ................................ ................................ ................................ ................................ ................................ ... 38
+L45| Exclusions  ................................ ................................ ................................ ................................ ................................ ..............  38
+L46| Selected References  ................................ ................................ ................................ ................................ ..............................  39
+L47| Codes  ................................ ................................ ................................ ................................ ................................ ....................  39
+L48| Knee Arthroscopy and Open Procedures  ................................ ................................ ................................ ................................ ... 40
+L49| Description and Scope  ................................ ................................ ................................ ................................ ...........................  40
+L50| Clinical Indications  ................................ ................................ ................................ ................................ ................................ . 40
+L51| Exclusions  ................................ ................................ ................................ ................................ ................................ ..............  48
+L52| Selected References  ................................ ................................ ................................ ................................ ..............................  48
+L53| Joint Surgery
+L54| © 2023 Carelon Medical Benefits Management. All rights reserved .  3 Codes  ................................ ................................ ................................ ................................ ................................ ....................  48
+L55| Meniscal Allograft Transplantation of the Knee  ................................ ................................ ................................ ..........................  51
+L56| Description  ................................ ................................ ................................ ................................ ................................ .............  51
+L57| Clinical Indications  ................................ ................................ ................................ ................................ ................................ . 51
+L58| Exclusions  ................................ ................................ ................................ ................................ ................................ ..............  52
+L59| Selected References  ................................ ................................ ................................ ................................ ..............................  52
+L60| Codes  ................................ ................................ ................................ ................................ ................................ ....................  53
+L61| Osteochondral Grafts  ................................ ................................ ................................ ................................ ................................ . 54
+L62| Description and Scope  ................................ ................................ ................................ ................................ ...........................  54
+L63| Clinical Indications  ................................ ................................ ................................ ................................ ................................ . 54
+L64| Contraindications  ................................ ................................ ................................ ................................ ................................ ... 58
+L65| Exclusions  ................................ ................................ ................................ ................................ ................................ ..............  58
+L66| Selected References  ................................ ................................ ................................ ................................ ..............................  59
+L67| Codes  ................................ ................................ ................................ ................................ ................................ ....................  59
+L68| Appendix  ................................ ................................ ................................ ................................ ................................ ....................  60
+L69| History  ................................ ................................ ................................ ................................ ................................ ........................  61
+L70| Joint Surgery
+L71| © 2023 Carelon Medical Benefits Management. All rights reserved .  4 Description and Application of the Guidelines
+L72| The Carelon Clinical Appropriateness Guidelines (hereinafter “the Carelon Clinical Appropria teness Guidelines” or
+L73| the “Guidelines”) are designed to assist providers in making the most appropriate treatment decision for a specific
+L74| clinical condition for an individual. As used by Carelon, the Guidelines establish objective and evidence -based
+L75| criter ia for medical necessity determinations where possible. In the process, multiple functions are accomplished:
+L76| • To establish criteria for when services are medically necessary (i.e., in general, shown to be effective in
+L77| improving health outcomes and considere d the most appropriate level of service)
+L78| • To assist the practitioner as an educational tool
+L79| • To encourage standardization of  medical practice patterns
+L80| • To curtail the performance of  inappropriate and/or duplicate services
+L81| • To advocate for  patient safety  concerns
+L82| • To enhance the quality of  health care
+L83| • To promote the most efficient and cost -effective use of services
+L84| The Carelon guideline development process complies with applicable accreditation standards, including the
+L85| requirement that the Guidelines be developed with involvement from appropriate providers with current clinical
+L86| expertise relevant to the Guidelines under review and be based on the most up -to-date clinical principles and best
+L87| practices.  Relevant citations are included in the R eferences section attached to each Guideline.  Carelon reviews
+L88| all of its Guidelines at least annuall y.
+L89| Carelon makes its Guidelines publicly available on its website twenty -four hours a day, seven days a week.
+L90| Copies of the Carelon Clinical Appropriateness  Guidelines are also available upon oral or written request.
+L91| Although the Guidelines are publicly -available, Carelon considers the Guidelines to be important, proprietary
+L92| information of Carelon, which cannot be sold, assigned, leased, licensed, reproduced or distributed without the
+L93| written consent of Carelon.
+L94| Carelon applies objective and evidence -based criteria, and takes individual circumstances and the local delivery
+L95| system into account when determining the medical appropriateness of health care services . The Carelon
+L96| Guidelines are just guidelines for the provision of specialty health services. These criteria are designed to guide
+L97| both providers and reviewers to the most appropriate services based on a patient’s unique circumstances. In all
+L98| cases, clinica l judgment consistent with the standards of good medical practice should be used when applying the
+L99| Guidelines. Guideline determinations are made based on the information provided at the time of the request. It is
+L100| expected that medical necessity decisions m ay change as new information is provided or based on unique
+L101| aspects of the patient’s condition. The treating clinician has final authority and responsibility for treatment
+L102| decisions regarding the care of the patient and for justifying and demonstrating the  existence of medical necessity
+L103| for the requested service. The Guidelines are not a substitute for the experience and judgment of a physician or
+L104| other health care professionals. Any clinician seeking to apply or consult the Guidelines is expected to use
+L105| independent medical judgment in the context of individual clinical circumstances to determine any patient’s care
+L106| or treatment.
+L107| The Guidelines do not address coverage, benefit or other plan specific issues. Applicable federal and state
+L108| coverage mandates take precedence over these clinical guidelines. If requested by a health plan, Carelon will
+L109| review requests based on health plan medical policy/guidelines in lieu of the Carelon Guidelines.
+L110| Pharmaceuticals, radiotracers, or medical devices used in any of the di agnostic or therapeutic interventions listed
+L111| in the Guidelines must be FDA approved or conditionally approved for the intended use. However, use of an FDA
+L112| approved or conditionally approved product does not constitute medical necessity or guarantee reimbur sement by
+L113| the respective health plan.
+L114| The Guidelines may also be used by the health plan or by Carelon for purposes of provider education, or to
+L115| review the medical necessity of services by any provider who has been notified of the need for medical necessit y
+L116| review, due to billing practices or claims that are not consistent with other providers in terms of frequency or some
+L117| other manner.
+L118| Joint Surgery
+L119| © 2023 Carelon Medical Benefits Management. All rights reserved .  5 General Clinical Guideline
+L120| Clinical Appropriateness Framework
+L121| Critical to any finding of clinical appropriateness under the guidelines for a specific diagnostic or therapeutic
+L122| intervention are the following elements:
+L123| • Prior to any intervention, it is essential that the clinician confirm the diagnosis or establish its pretest
+L124| likelihood based on a complete evaluation of the p atient. This includes a history and physical examination
+L125| and, where applicable, a review of relevant laboratory studies, diagnostic testing, and response to prior
+L126| therapeutic intervention.
+L127| • The anticipated benefit of the recommended intervention should outw eigh any potential harms that may
+L128| result (net benefit).
+L129| • Current literature and/or standards of medical practice should support that the recommended intervention
+L130| offers the greatest net benefit among competing alternatives.
+L131| • Based on the clinical evaluation , current literature, and standards of medical practice, there exists a
+L132| reasonable likelihood that the intervention will change management and/or lead to an improved outcome
+L133| for the patient.
+L134| If these elements are not established with respect to a given req uest, the determination of appropriateness will
+L135| most likely require a peer -to-peer conversation to understand the individual and unique facts that would
+L136| supersede the requirements set forth above. During the peer -to-peer conversation, factors such as patie nt acuity
+L137| and setting of service may also be taken into account.
+L138| Simultaneous Ordering of Multiple Diagnostic or Therapeutic Interventions
+L139| Requests for multiple diagnostic or therapeutic interventions at the same time will often require a peer -to-peer
+L140| conversation to understand the individual circumstances that support the medical necessity of performing all
+L141| interventions simultaneously. This is based on the fact that appropriateness of additional intervention is often
+L142| dependent on the outcome of the initi al intervention.
+L143| Additionally, either of the following may apply:
+L144| • Current literature and/or standards of medical practice support that one of the requested diagnostic or
+L145| therapeutic interventions is more appropriate in the clinical situation presented; or
+L146| • One of the diagnostic or therapeutic interventions requested is more likely to improve patient outcomes
+L147| based on current literature and/or standards of medical practice.
+L148| Repeat Diagnostic Intervention
+L149| In general, repeated testing of the same anatomic loca tion for the same indication should be limited to evaluation
+L150| following an intervention, or when there is a change in clinical status such that additional testing is required to
+L151| determine next steps in management. At times, it may be necessary to repeat a t est using different techniques or
+L152| protocols to clarify a finding or result of the original study.
+L153| Repeated testing for the same indication using the same or similar technology may be subject to additional review
+L154| or require peer -to-peer conversation in the following scenarios:
+L155| • Repeated diagnostic testing at the same facility due to technical issues
+L156| • Repeated diagnostic testing requested at a different facility due to provider preference or quality
+L157| concerns
+L158| • Repeated diagnostic testing of the same anatomic area based on persistent symptoms with no clinical
+L159| change, treatment, or intervention since the previ ous study
+L160| Joint Surgery
+L161| © 2023 Carelon Medical Benefits Management. All rights reserved .  6 • Repeated diagnostic testing of the same anatomic area by different providers for the same member over
+L162| a short period of time
+L163| Repeat Therapeutic Intervention
+L164| In general, repeated therapeutic intervention in the same anatomic area is considered app ropriate when the prior
+L165| intervention proved effective or beneficial and the expected duration of relief has lapsed. A repeat intervention
+L166| requested prior to the expected duration of relief is not appropriate unless it can be confirmed that the prior
+L167| interv ention was never administered.
+L168| Joint Surgery
+L169| © 2023 Carelon Medical Benefits Management. All rights reserved .  7 Shoulder Arthroplasty (Total/Partial/Revision Shoulder
+L170| Replacement)
+L171| Description and Scope
+L172| Shoulder arthroplasty includes several procedures to replace components of the shoulder joint, in part or in total,
+L173| with the goal of  improving function and reducing pain. Prosthetic replacement of the humeral head and the
+L174| glenoid (total arthroplasty) is most commonly performed for joint damage due to osteoarthritis. Total shoulder
+L175| arthroplasty requires an intact medial glenoid to suppo rt the glenoid prosthesis.
+L176| Shoulder hemiarthroplasty (partial replacement) may be used to address isolated humeral head pathology
+L177| (avascular necrosis), some fractures, or as an option for rotator cuff tear arthropathy.
+L178| Reverse total shoulder arthroplasty  is similar to standard arthroplasty in that both components of the joint are
+L179| replaced but the ball and socket portions of the joint are reversed, allowing the deltoid muscle to assume partial
+L180| function of the rotator cuff. This procedure is typically utili zed when there is concomitant rotator cuff disease.
+L181| This guideline addresses shoulder arthroplasty when performed as an elective, non -emergent  procedure and
+L182| not as part of the care of a congenital condition, acute or traumatic event such as fracture (excl uding fracture of
+L183| implant and periprosthetic fracture).
+L184| All shoulder arthroplasties are inclusive of the reattachment of any muscles divided for access to the shoulder,
+L185| accompanying excision of osteophytes, acromioplasty, synovectomy and shoulder arthroto my with associated
+L186| removal of debris.
+L187| Clinical Indications
+L188| The following general requirements apply to all indications except where they differ from the specific
+L189| requirements. The specific requirements take precedence over any stated general requirement.
+L190| General Information
+L191| The terms in the section provide operational definitions when they are referenced as requirements in the
+L192| guideline.
+L193| Documentation supporting medical necessity and a clearly stated plan of care should be submitted at the time of
+L194| the reque st and must include the following components:
+L195| Clinical notes  describing symptom duration and severity, specific functional limitations related to symptoms, and
+L196| type and duration of all therapeutic measures provided. If conservative management is not appro priate, the
+L197| reason must be clearly documented.
+L198| Conservative management1 must include a combination of strategies to reduce inflammation, alleviate pain, and
+L199| correct underlying dysfunction, including physical therapy AND  at least ONE  complementary conservat ive
+L200| treatment strategy.
+L201| • Physical therapy requirement  includes ANY  of the following:
+L202| o Physical therapy rendered by a qualified provider of physical therapy services
+L203| o Supervised home treatment program that includes  ALL of the following:
+L204| ▪ Participation in a patient -specific or tailored program
+L205| ▪ Initial active instruction by MD/DO/PT with redemonstration of patient ability to perform
+L206| exercises
+L207| ▪ Compliance (documented or by clinician attestation on follow -up evaluation)
+L208| Joint Surgery
+L209| © 2023 Carelon Medical Benefits Management. All rights reserved .  8 o Exception to the physica l therapy requirement in unusual circumstances (for instance,
+L210| intractable pain so severe that physical therapy is not possible) when clearly documented in the
+L211| medical record
+L212| • Complementary conservative treatment requirement  includes ANY  of the following:
+L213| o Anti-inflammatory medications and analgesics2
+L214| o Adjunctive medications such as nerve membrane stabilizers or muscle relaxants2
+L215| o Intra-articular corticosteroid injection(s)2
+L216| o Alternative therapies such as activity modification, and/or a trial period of rest (e. g., from the
+L217| aggravating/contributing factors), where applicable
+L218| 1 Additional condition or procedure -specific requirements may apply and can be found in the respective sections
+L219| of the guideline.
+L220| 2 In the absence of contraindications
+L221| Clinical reevaluation . In most cases, reevaluation should include a physical examination. Direct contact by other
+L222| methods, such as telephone communication or electronic messaging, may substitute for in -person evaluation
+L223| when circumstances preclude an office visit. Clinical reev aluation must be done in reasonable proximity to the
+L224| anticipated date of service such that the patient’s condition would be unlikely to change by the date of service.
+L225| Failure of conservative management requires ALL of the following:
+L226| • Patient has completed a  full course of conservative management (as defined above) for the current
+L227| episode of care
+L228| • Worsening of or no significant improvement in signs and/or symptoms upon clinical reevaluation
+L229| • More invasive forms of therapy are being considered
+L230| Documentation of compliance with a plan of therapy that includes elements from these areas is required where
+L231| conservative management is appropriate.
+L232| Reporting symptom severity . Severity of pain and its associated impact on activities of daily living (ADLs) and
+L233| instrumental  ADLs (IADLs) are key factors in determining the need for intervention. For purposes of this guideline,
+L234| significant pain and functional impairment refer to pain rated at least 3 out of 10 in intensity and associated with
+L235| inability to perform at least two ( 2) ADLs and/or IADLs.
+L236| Imaging reports  obtained within the past 12 months describing the degree of cartilage damage as determined by
+L237| either or both of the following methods:
+L238| • X-ray report or provider interpretation of x -rays that utilizes or can be correlat ed with the Kellgren -
+L239| Lawrence grading system of osteoarthritis
+L240| • MRI report from a radiologist that utilizes or can be correlated with the modified Outerbridge or similar
+L241| classification system related to articular cartilage injury and osteoarthritis
+L242| See Appendix  for a description of these grading systems.
+L243| For x -ray interpretation, t he provider shall submit a detailed imaging description that correlates with clinical
+L244| findings of the requested procedure. In the absence of a detailed description , the provider may submit a report
+L245| from an independent radiologist. The results of all imaging studies should correlate with the clinical findings in
+L246| support of the requested procedure.
+L247| For advanced imaging (CT, MRI, ultrasound, bone scan), there must be a report from a radiologist that correlates
+L248| with clinical findings. In the absence of such a report, the summary findings from the radiology report  should be
+L249| included  in the clinical records.
+L250| Imaging reports should be thorough and describe the presence or absence of subchondral cysts, subchondral
+L251| sclerosis, periarticular osteophytes, joint subluxation, avascular necrosis , or bone on bone articulations.  The
+L252| degree of joint space narrowing should also be noted.
+L253| Joint Surgery
+L254| © 2023 Carelon Medical Benefits Management. All rights reserved .  9 General Recommendations
+L255| Tobacco cessation . Adherence to a tobacco cessation program resulting in abstinence from tobacco for at least
+L256| 6 weeks prior to surgery is strongly recommended.
+L257| Diabetes . It is strongly recommended that a patient with a history of diabetes maintain a hemoglobin A1C of 8%
+L258| or less prior to any joint replacement surgery.
+L259| Body mass index (BMI) . It is strongly recommended that a patient with a BMI equal to or greater than 40 att empt
+L260| weight reduction prior to surgery.
+L261| Where there are patient specific modifiable comorbidities that may adversely impact patient reported outcomes or
+L262| the health status of the patient a shared decision -making process with the patient to discuss these mod ifiable
+L263| comorbidities is strongly recommended and should be documented.
+L264| Specific Requirements
+L265| ALL of the following conditions must be present regardless of indication for which the procedure is being
+L266| performed:
+L267| • Anticipated level of function should place l imited demands on the shoulder joint
+L268| • Deltoid muscle must be intact
+L269| • Shoulder joint must be anatomically and structurally suited to receive selected implants (i.e., adequate
+L270| bone stock to allow for firm fixation of implant)
+L271| Total Shoulder Arthroplasty
+L272| Tota l shoulder arthroplasty is considered medically necessary for ANY of the following indications:
+L273| • Proximal humerus fracture not amenable to internal fixation
+L274| • Malignancy involving the glenohumeral joint or surrounding soft tissue
+L275| • Advanced joint disease of th e shoulder due to osteoarthritis rheumatoid arthritis, avascular necrosis
+L276| (osteonecrosis) , or post -traumatic arthritis when ALL of the following requirements are met:
+L277| o Limited range of motion or crepitus of the glenohumeral joint on physical examination
+L278| o Pain and loss of function of at least 6 months’ duration that interferes with daily activities
+L279| o Radiographic evidence of destructive degenerative joint disease as evidenced by 2 or more of the
+L280| following:
+L281| ▪ Irregular joint surfaces
+L282| ▪ Glenoid sclerosis
+L283| ▪ Osteophyt e changes
+L284| ▪ Flattened glenoid
+L285| ▪ Cystic changes in the humeral head
+L286| ▪ Joint space narrowing
+L287| o Failure of conservative management of at least 6 weeks’ duration  (unless radiographs show
+L288| Kellgren -Lawence grade 4)
+L289| Hemiarthroplasty
+L290| Hemiarthroplasty is considered medically necessary for ANY of the following indications:
+L291| • Proximal humerus fracture not amenable to internal fixation
+L292| Joint Surgery
+L293| © 2023 Carelon Medical Benefits Management. All rights reserved .  10 • Malignancy involving the glenohumeral joint or surrounding soft tissue
+L294| • Advanced joint disease of the shou lder when criteria for total shoulder arthroplasty  are met  AND at least
+L295| ONE of the following conditions is present:
+L296| o Osteonecrosis of the humeral head without glenoid involvement
+L297| o Advanced joint disease due to rotator cuff tear arthropathy
+L298| o Glenoid bone stock inadequate t o support a glenoid prosthesis
+L299| o Glenohumeral osteoarthritis with irreparable rotator cuff tear
+L300| Reverse Shoulder Arthroplasty
+L301| Reverse shoulder arthroplasty is considered medically necessary for ANY of the following indications:
+L302| • Reconstruction after a tumor resection
+L303| • Glenohumeral osteoarthritis with irreparable rotator cuff tear
+L304| • Glenoid bone stock inadequate to support a glenoid prosthesis
+L305| • Failed hemiarthroplasty
+L306| • Failed total shoulder arthroplasty with non -repairable rotator cuff
+L307| • Shoulder fracture that is not  repairable or cannot be reconstructed with other techniques
+L308| • Advanced joint disease of the shoulder when criteria for total shoulder arthroplasty  are met  AND the
+L309| following co ndition is present:
+L310| o Deficient rotator cuff with limited ability to actively flex the upper extremity to 90 degrees against
+L311| gravity
+L312| Revision or Replacement of a Shoulder Prosthesis
+L313| Revision or replacement of a shoulder prosthesis is considered medically nec essary for ANY of the
+L314| following conditions when associated with pain and functional impairment:
+L315| • Aseptic loosening of one or more prosthetic components confirmed by imaging
+L316| • Fracture of one or more components of the prosthesis confirmed by imaging
+L317| • Reconstruction after the management of p eriprosthetic infection confirmed by gram stain and culture
+L318| • Instability of the glenoid or humeral components
+L319| • Migration of the humeral head
+L320| Contraindications
+L321| All arthroplasty procedures
+L322| • Active infection of the joint
+L323| • Active systemic bacteremia
+L324| • Active skin infection (exception recurrent cutaneous staph infections) or open wound within the planned
+L325| surgical site of the shoulder
+L326| • Rapidly progressive neurologic disease
+L327| • Intra-articular corticosteroid injection within the p ast 6 weeks in the joint being replaced
+L328| Joint Surgery
+L329| © 2023 Carelon Medical Benefits Management. All rights reserved .  11 Exclusions
+L330| Indications other than those addressed in this guideline are considered not medically necessary  including, but
+L331| not limited to, the following:
+L332| • Total shoulder arthroplasty or hemiarthroplasty under condition s which would result in excessive stress
+L333| on the implant including, but not limited to, Charcot joint and paralytic conditions of the shoulder
+L334| • Shoulder resurfacing, including total, hemi, or partial resurfacing  (e.g., Copeland ™, the Extended
+L335| Articulating S urface (EAS) ™ Resurfacing Heads, Global CAP ™ CTA Resurfacing Shoulder Humeral
+L336| Head)
+L337| Selected References
+L338| 1. Carter MJ, Mikuls TR, Nayak S, Fehringer EV, Michaud K. Impact of total shoulder arthroplasty on generic and shoulder -specific
+L339| health -related quality -of-life measures: a systematic literature review and meta -analysis. J Bone Joint Surg Am.
+L340| 2012;94(17):e127.
+L341| 2. Craig RS, Goodier H, Singh JA, Hopewell S, Rees JL. Shoulder replacement surgery for osteoarthritis and rotator cuff tear
+L342| arthropathy. Cochrane Databa se Syst Rev. 2020;4(4):Cd012879.
+L343| 3. Khan WS, Longo UG, Ahrens PM, Denaro V, Maffulli N. A systematic review of the reverse shoulder replacement in rotator cuff
+L344| arthropathy, rotator cuff tears, and rheumatoid arthritis. Sports Med Arthrosc Rev. 2011;19(4):366 -79.
+L345| 4. Khazzam M, Gee AO, Pearl M. Management of Glenohumeral Joint Osteoarthritis. J Am Acad Orthop Surg. 2020;28(19):781 -9.
+L346| 5. Rasmussen JV. Outcome and risk of revision following shoulder replacement in patients with glenohumeral osteoarthritis. Acta
+L347| Orthop S uppl. 2014;85(355):1 -23.
+L348| Codes
+L349| The following code list is not meant to be all -inclusive. Authorization requirements will vary by health plan. Please consult the
+L350| applicable health plan for guidance on specific procedure codes.
+L351| Specific CPT codes for service s should be used when available. Nonspecific or not otherwise classified codes may be subject
+L352| to additional documentation requirements and review.
+L353| Medical necessity reviews are initiated by submitting the correct AMA CPT codes. The submitted codes must acc urately
+L354| identify the service or procedure to be performed. If no such code exists, contact the health plan directly and report the se rvice
+L355| or procedure using the appropriate unlisted procedure or Not Otherwise Classified (NOC) code (which often end s in 99) . Do
+L356| not submit a code that is “close to” the procedure performed in lieu of an unlisted code. Correct coding demands that the cod e
+L357| reported is appropriate for the service provided (i.e., a code that most accurately represents the service provided), and no t a
+L358| code that is similar but represents another service. ( CPT® Assistant , December 2010)
+L359| CPT/HCPCS
+L360| CPT® (Current Procedural Terminology) is a registered trademark of the American Medical Association (AMA). CPT® five-digit codes,
+L361| nomenclature and other data are copyright by the American Medical Association. All Rights Reserved. AMA does not directly or indirectly
+L362| practice medicine or dispense medical services. AMA assumes no liability for the data contained herein or not contained herei n.
+L363| 23470  Arthroplasty, glenohumeral joint; hemiarthroplasty
+L364| 23472  Arthroplasty, glenohumeral joint; total shoulder (glen oid and proximal humeral replacement (eg, total shoulder))
+L365| 23473  Revision of total shoulder arthroplasty, including allograft when performed; humeral or glenoid component
+L366| 23474  Revision of total shoulder arthroplasty, including allograft when performed; humeral and glenoid component
+L367| Joint Surgery
+L368| © 2023 Carelon Medical Benefits Management. All rights reserved .  12 Shoulder Arthroscopy and Open Procedures
+L369| Description and Scope
+L370| Arthroscopy is a surgical procedure in which a small fiberoptic camera is inserted into the joint through a small
+L371| incision. In addition to allowing the surgeon  to visualize the joint, arthroscopy may also be utilized for treatment of
+L372| a variety of conditions involving the joint structures.
+L373| This guideline addresses shoulder arthroscopy and open procedures when performed as an elective, non -
+L374| emergent procedure  and not as part of the care of an acute fracture.
+L375| All arthroscopic procedures of the shoulder are inclusive of diagnostic arthroscopy and manipulation under
+L376| anesthesia.
+L377| All open procedures of the shoulder are inclusive of manipulation under anesthesia. Open rotator cuff repair
+L378| procedures are inclusive of diagnostic arthroscopy.
+L379| Clinical Indications
+L380| The following general requirements apply to all indications except where they differ from the specific
+L381| requirements. The specific requirements tak e precedence over any stated general requirement.
+L382| General Information
+L383| The terms in the section provide operational definitions when they are referenced as requirements in the
+L384| guideline.
+L385| Documentation supporting medical necessity and a clearly stated plan of care should be submitted at the time of
+L386| the request and must include the following components:
+L387| Imaging report . The provider shall submit a detailed imaging report for studies obtained within the past 12
+L388| months . In the absence of a detailed report, the  provider may submit a report from an independent radiologist.
+L389| The results of all imaging studies should correlate with the clinical findings in support of the requested procedure.
+L390| For x -ray interpretation, the provider shall submit a detailed imaging des cription that correlates with clinical
+L391| findings of the requested procedure. In the absence of a detailed description, the provider may submit a
+L392| radiologist’s report.
+L393| For advanced imaging (CT, MRI, ultrasound, bone scan), there must be a report from a radiologist that correlates
+L394| with clinical findings. In the absence of such a report, the summary findings from the radiology report should be
+L395| included in the clinical reco rds.
+L396| Conservative management . In the majority of cases, a period of conservative management is appropriate prior
+L397| to intervention. Conservative management1 must include a combination of strategies to reduce inflammation,
+L398| alleviate pain, and correct underlyi ng dysfunction, including physical therapy AND  at least ONE  complementary
+L399| conservative treatment strategy.
+L400| • Physical therapy requirement  includes ANY  of the following:
+L401| o Physical therapy rendered by a qualified provider of physical therapy services
+L402| o Supervise d home treatment program that includes ALL of the following:
+L403| ▪ Participation in a patient -specific or tailored program
+L404| ▪ Initial active instruction by MD/DO/PT with redemonstration of patient ability to perform
+L405| exercises
+L406| ▪ Compliance (documented or by clinician attestation on follow -up evaluation)
+L407| Joint Surgery
+L408| © 2023 Carelon Medical Benefits Management. All rights reserved .  13 o Exception to the physical therapy requirement in unusual circumstances (for instance,
+L409| intractable pain so severe that physical therapy is not possible) when clearly documented in the
+L410| medical record
+L411| • Complementary conser vative treatment requirement  includes ANY  of the following:
+L412| o Anti-inflammatory medications and analgesics2
+L413| o Adjunctive medications such as nerve membrane stabilizers or muscle relaxants2
+L414| o Intra-articular corticosteroid injection(s)2
+L415| o Alternative therapies suc h as activity modification, and/or a trial period of rest (e.g., from the
+L416| aggravating/contributing factors), where applicable
+L417| 1 Additional condition or procedure -specific requirements may apply and can be found in the respective sections
+L418| of the guideline.
+L419| 2 In the absence of contraindications
+L420| Clinical reevaluation . In most cases, reevaluation should include a physical examination. Direct contact by other
+L421| methods, such as telephone communication or electronic messaging, may substitute for in -person evaluatio n
+L422| when circumstances preclude an office visit.  Clinical reevaluation should be done in reasonable proximity to the
+L423| anticipated date of service  such that the patient’s condition would be unlikely to change by the date of service .
+L424| Failure of conservative ma nagement  requires ALL of the following:
+L425| • Patient has completed a full course of conservative management (as defined above) for the current
+L426| episode of care
+L427| • Worsening of or no significant improvement in signs and/or symptoms upon clinical reevaluation
+L428| • More i nvasive forms of therapy are being considered
+L429| Documentation of compliance with a plan of therapy that includes elements from these areas is required where
+L430| conservative management is appropriate.
+L431| Reporting severity reporting . Severity of pain and its assoc iated impact on activities of daily living (ADLs) and
+L432| instrumental ADLs (IADLs) are key factors in determining the need for intervention. For purposes of this guideline,
+L433| significant pain and functional impairment refer to pain rated at least 3 out of 10 in  intensity and associated with
+L434| inability to perform at least two (2) ADLs and/or IADLs.
+L435| Shoulder Arthroscopy
+L436| Diagnostic arthroscopy
+L437| Diagnostic arthroscopy of the shoulder joint is considered medically necessary for synovial biopsy or tissue
+L438| harvest (chondrocyte), or when the involved joint meets ALL of the following criteria:
+L439| • Presence of ONE  of the following symptoms
+L440| o Significant pain and functional limitation
+L441| o Instability (e.g., giving way, catching, clicking, locking)
+L442| o Limited range of motion
+L443| • Presence of ONE  of the following physical exam findings
+L444| o Limited range of motion
+L445| o Joint swelling
+L446| o Inconclusive specific diagnostic exam maneuvers
+L447| o Local muscle weakness or atrophy
+L448| Joint Surgery
+L449| © 2023 Carelon Medical Benefits Management. All rights reserved .  14 o Inconclusive x -ray and/or advanced imaging studies
+L450| o Failure of at least 6 weeks of conservative management
+L451| Exclusion
+L452| In-office diagnostic arthroscopy (e.g., mi -eye 2®)
+L453| Removal of loose body
+L454| Removal of loose body  is considered medically necessary when  BOTH  of the following are present:
+L455| • Radiographic evidence of acute, post -traumatic, intra -articular foreign body or displaced fracture fragment
+L456| larger than the size of an arthroscopy cannula (5 mm or larger)
+L457| • Shoulder pa in associated with grinding, catching, locking , or popping , and exam findings confirm pain
+L458| with limited range of motion
+L459| Exclusion
+L460| Removal of loose body  for Kellgren -Lawrence grade 4 osteoarthritis
+L461| Rotator Cuff Repair
+L462| Tobacco cessation . For primary rotator  cuff repair, a dherence to a tobacco cessation program resulting in
+L463| abstinence from tobacco for at least 6 weeks prior to surgery is strongly recommended.
+L464| Acute full thickness tear
+L465| Rotator cuff repair  is considered medically necessary for an acute full thickness tear when ALL of the following
+L466| criteria are met:
+L467| • Traumatic injury within the preceding 3 months with no preexisting shoulder pain  (For traumatic injuries
+L468| that occurred more than 3 months ago, se e chronic or degenerative full thickness tear )
+L469| • Shoulder pain ≥ 4 on the VAS scale exacerbated by movement
+L470| • Weakness of rotator cuff muscle(s)
+L471| • Physical exam demonstrating a positi ve response to at least ONE  of the following tests:
+L472| o Drop arm test
+L473| o Painful arc test
+L474| o Full/empty can test
+L475| o Weakness of external /internal  rotation
+L476| • Advanced imaging confirms features of an acute full thickness or high -grade partial tear
+L477| Chronic or degenerative  full thickness tear
+L478| Rotator cuff repair  is considered medically necessary for a chronic or degenerative full thickness tear when ALL
+L479| of the following criteria are met:
+L480| • Gradual onset of shoulder pain in the absence of a significant traumatic event  within t he preceding  3
+L481| months
+L482| • Pain ≥ 4 on the VAS scale which interferes with age -appropriate activities of daily living
+L483| • Weakness of rotator cuff muscle(s)
+L484| • Physical exam demonstrating a positive response to at least ONE  of the following tests:
+L485| o Drop arm test
+L486| Joint Surgery
+L487| © 2023 Carelon Medical Benefits Management. All rights reserved .  15 o Painful arc test
+L488| o Full/empty can test
+L489| o Weakness of external /internal  rotation  or abduction
+L490| • Recent advanced imaging confirms features of a degenerative full  thickness tear
+L491| • Failure of at least 6 weeks of conservative management
+L492| Partial thickness tear
+L493| Rotator cuff repair  is considered medically necessary for a partial thickness tear when ALL of the following criteria
+L494| are met:
+L495| • Pain ≥ 4 on the VAS scale which int erferes with age -appropriate activities of daily living
+L496| • Weakness of rotator cuff muscle(s)
+L497| • Physical exam demonstrating a positive response to at least ONE  of the following tests:
+L498| o Drop arm test
+L499| o Painful arc test
+L500| o Full/empty can test
+L501| o Weakness of external rot ation
+L502| • Recent advanced imaging confirm s a partial thickness tear
+L503| • Symptoms present for at least 3 months
+L504| • Failure of at least 6 weeks of conservative management
+L505| Revision Rotator Cuff Repair
+L506| Tobacco cessation  requirement . Adherence to a tobacco cessation program resulting in abstinence from
+L507| tobacco for at least 6 weeks prior to revision surgery is required.
+L508| Revision rotator cuff repair
+L509| Revision rotator cuff repair  is considered medically necessary when ALL of the following c riteria are met:
+L510| • Documentation of nicotine -free status for at least 6 weeks prior to surgery
+L511| • Shoulder pain ≥ 4 on the VAS scale exacerbated by movement
+L512| • Weakness of rotator cuff muscle(s) (less than grade 4/5 on manual muscle testing)
+L513| • Recent advanced imaging confirm s a full thickness tear
+L514| • Failure of at least 12 weeks of conservative management
+L515| Contraindications  rotator cuff repair
+L516| Rotator cuff repair  is contraindicated when ANY  of the following are present:
+L517| • Active infection of the joint
+L518| • Active systemic bacteremia
+L519| • Active skin infection (exception recurrent cutaneous staph infections) or open wound within the planned
+L520| surgical site of the shoulder
+L521| • Rapidly progressive neurological disease
+L522| Joint Surgery
+L523| © 2023 Carelon Medical Benefits Management. All rights reserved .  16 Revision rotator cuff repair is contraindicated when  ANY of the following  are present :
+L524| • Recent history of a revision surgery
+L525| • Rotator cuff arthropathy defined as a combination of arthritis and lack of rotator cuff
+L526| • Active infection of the joint
+L527| • Active systemic bacteremia
+L528| • Active skin infe ction (exception recurrent cutaneous staph infections) or open wound within the planned
+L529| surgical site of the shoulder
+L530| • Rapidly progressive neurological disease
+L531| • Wheelchair bound and/or assistive device dependent
+L532| Exclusions  rotator cuff repair
+L533| For treatment  of all rotator cuff tears, i ndications other than those addressed in this guideline are considered not
+L534| medically necessary  including, but not limited to, the following:
+L535| • Treatment of asymptomatic, full thickness rotator cuff tear
+L536| • Deltoid or rotator cuff paralysis
+L537| • Use of xenografts or biologic scaffold for augmentation or bridging reconstruction
+L538| • Use of platelet rich plasma or other biologics
+L539| • Concomitant subacromial decompression/acromioplasty
+L540| Labrum Repair
+L541| Labral tear including superior labral anter ior-posterior (SLAP) tears
+L542| Labrum repair  is considered medically necessary when ALL of the following criteria are met:
+L543| • Shoulder pain ≥ 4 on the VAS scale which interferes with age -appropriate activities of daily living
+L544| • Symptoms aggravated by heavy lifting,  pushing, and overhead motion
+L545| • Physical exam demonstrating a positive response to at least ONE  of the following tests:
+L546| o O’Brien (active compression) test
+L547| o Anterior slide test
+L548| o Biceps load test (I and II)
+L549| o Pain provocation test
+L550| o Crank test
+L551| o Jobe relocation test
+L552| o Forced shoulder abduction and elbow flexion test
+L553| o Resisted supination external rotation test
+L554| • MRI demonstrating a labral tear that is not a Bankart lesion and is consistent with subjective and objective
+L555| findings
+L556| • Failure of at least 12 weeks of conservative ma nagement
+L557| Joint Surgery
+L558| © 2023 Carelon Medical Benefits Management. All rights reserved .  17 Other Arthroscopic and Open Procedures
+L559| Acromioclavicular arthritis
+L560| Partial claviculectomy  (includes Mumford procedure) is considered medically necessary when ALL of the
+L561| following criteria are met:
+L562| • Pain at the acromioclavicular (AC) joint aggravate d by shoulder motion
+L563| • Positive cross -arm adduction test
+L564| • Tenderness over the acromioclavicular joint
+L565| • Imaging findings (x -ray or MRI) consistent with acromioclavicular joint arthritis  (ONE  of the following)
+L566| o Moderate to severe degenerative joint disease of the acromioclavicular joint, distal clavicle
+L567| edema, or osteolysis of the distal clavicle on MRI
+L568| o Moderate to severe acromioclavicular joint arthritis on x -ray
+L569| • Failure of at least 12 weeks of conservative man agement
+L570| Adhesive capsulitis
+L571| Arthroscopically assisted lysis of adhesions/capsular release is considered medically necessary for post -
+L572| traumatic, post -surgical, or idiopathic stiffness of the shoulder when ALL of the following criteria are met :
+L573| • Shoulder pai n ≥ 4 on the VAS scale which interferes with age -appropriate activities of daily living
+L574| • Reduced passive range of motion of the affected glenohumeral joint by at least 50% compared to
+L575| unaffected shoulder
+L576| • Failure of at least 12 weeks of conservative manageme nt
+L577| Manipulation under anesthesia (MUA)  is considered medically necessary for post -traumatic, post -
+L578| surgical, or idiopathic stiffness of the shoulder when ALL of the following criteria are met :
+L579| • Shoulder pain ≥ 4 on the VAS scale which interferes with age -appropriate activities of daily living
+L580| • Reduced passive range of motion of the affected glenohumeral joint by at least 50% compared to
+L581| unaffected shoulder
+L582| • Failure of at least 12 weeks of conservative management
+L583| Chronic shoulder instability or laxity
+L584| Capsulorrh aphy (Bankart procedure)  is considered medically necessary when ALL of the following criteria are
+L585| met:
+L586| • History of a shoulder dislocation or recurrent subluxation
+L587| • Positive apprehension/relocation test
+L588| • Shoulder pain and/or instability which interferes with  age-appropriate activities of daily living
+L589| • MRI demonstrates at least ONE  of the following:
+L590| o Bankart/labral lesion consistent with the clinical instability
+L591| o Hill-Sachs lesion
+L592| o Capsular tear
+L593| o Capsular redundancy with clinical multidirectional instability
+L594| • Failure of at least 12 weeks of conservative management (unless history of traumatic dislocation and
+L595| multiple dislocations during management)*
+L596| Joint Surgery
+L597| © 2023 Carelon Medical Benefits Management. All rights reserved .  18 *For traumatic instability, e arly surgery may be considered for patients with large bone defects or p atients
+L598| under age 35.
+L599| Subacromial impingement syndrome
+L600| Subacromial decompression/acromioplasty  may be considered medically necessary  for ANY  of the following
+L601| indications :
+L602| • Symptomatic os acromiale
+L603| • Malunited fractures of the acromion/proximal humerus resulting in symptomatic  mechanical impingement
+L604| • Local benign/malignant tumor resulting in symptomatic mechanical  impingement
+L605| Subacromial decompression/acromioplasty is otherwise considered not medically necessary  for all other
+L606| indications.
+L607| Synovectomy
+L608| Synovectomy  refers to removal of the synovial lining of the joint when it has become symptomatic due to
+L609| inflammation, irritation, or pathology. Synovectomy may be performed in a single joint compartment (limited) or
+L610| multiple compartme nts (extensive).
+L611| Partial or complete synovectomy  is considered medically necessary when BOTH  of the following criteria are
+L612| met:
+L613| • Symptomatic (pain, swelling, limited function) synovitis caused by ANY  of the following:
+L614| o Synovial plica (partial synovectomy)
+L615| o Inflammatory arthritides (e.g., rheumatoid arthritis, psoriatic arthritis)
+L616| o Crystalline arthropathy (e.g., gout, pseudogout)
+L617| o Felty’s syndrome
+L618| o Pigmented villonodular synovitis (PVNS)
+L619| o Synovial hemangioma
+L620| o Synovial chondromatosis/osteochondromatosis
+L621| o Hemophilic  synovitis or arthropathy
+L622| o Infection (bacterial or fungal septic arthritis)
+L623| • Failure of at least (6) 12 weeks of conservative management
+L624| Exclusion
+L625| Synovectomy performed solely for visualization or approach, traumatic reactive synovitis.
+L626| Debridement
+L627| Debridement of discrete structures of the shoulder (e.g., humeral bone, humeral articular cartilage, glenoid
+L628| bone, glenoid articular cartilage, biceps tendon, biceps anchor complex, labrum, articular capsule, articular side of
+L629| the rotator cuff , bursal side of the rotator cuff, subacromial bursa, foreign body[ies]) is considered medically
+L630| necessary when ALL of the following criteria are met:
+L631| • Shoulder pain unresponsive to 12 weeks of conservative management
+L632| • Surgical pathology is confirmed by imag ing
+L633| • Limited debridement involves 1 or 2 discrete structures
+L634| • Extensive debridement involves 3 or more discrete structures
+L635| Joint Surgery
+L636| © 2023 Carelon Medical Benefits Management. All rights reserved .  19 Tendinopathy of the long head of the biceps
+L637| Biceps tenodesis or tenotomy  is considered medically necessary for shoulder pain when EITH ER of the
+L638| following criteria are met:
+L639| • Criteria for SLAP tear
+L640| • ALL of the following:
+L641| o Pain in the front of the shoulder and/or clicking, popping , or catching sensation when using the
+L642| arm and shoulder
+L643| o Clinical exam is consistent with long head of biceps pathology (at least two of the following:
+L644| anterior shoulder pain, weakness, tenderness over the biceps groove, pain in the anterior
+L645| shoulder during resisted supination of the forearm [Yergason test], positive Speed test)
+L646| o MRI findings consistent with biceps tendinopathy
+L647| o Failure of at least 12 weeks of supervised conservative management (requirement is waived if
+L648| criteria for rotator cuff tear are met )
+L649| Exclusions
+L650| Indications other than those addressed in this guideline are considered not medically necessary  including, but
+L651| not limited to, the following:
+L652| • Subacromial (balloon) spacer
+L653| Selected References
+L654| 1. Davies A, Singh P, Reilly P, Sabharwal S, Malhas A. Superior capsule reconstruction, partial cuff repair, graft interposition ,
+L655| arthroscopic debridement or balloon spacers for large and massive irreparable rotator cuff tears: a systematic review and met a-
+L656| analysis. J Orthop Surg Res. 2022;17(1):552.
+L657| 2. Gebremariam L, Hay EM, Koes BW, Huisstede BM. Effectiveness of surgical and postsurgical interventions for the subacromial
+L658| impingement syndrome: a systematic review. Arch Phys Med Rehabil. 2011;92(11):1900 -13.
+L659| 3. Hughes JD, Davis B, Whicker E, Sprowls GR, Barrera L, Baradaran A, Sabzevari S, Burnham JM, Shah AA, Lin A.
+L660| Nonarthroplasty options for massive, irreparable rotator cuff tears have improvement in range of motion and patient -reported
+L661| outcomes at short -term fol low-up: a systematic review. Knee Surg Sports Traumatol Arthrosc. 2022;16:16.
+L662| 4. Huisstede BM, Koes BW, Gebremariam L, Keijsers E, Verhaar JA. Current evidence for effectiveness of interventions to treat
+L663| rotator cuff tears. Man Ther. 2011;16(3):217 -30.
+L664| 5. Itoi E . Rotator cuff tear: physical examination and conservative treatment. J Orthop Sci. 2013;18(2):197 -204.
+L665| 6. Karjalainen TV, Jain NB, Page CM, Lähdeoja TA, Johnston RV, Salamh P, Kavaja L, Ardern CL, Agarwal A, Vandvik PO,
+L666| Buchbinder R. Subacromial decompressio n surgery for rotator cuff disease. Cochrane Database Syst Rev. 2019;1(1):Cd005619.
+L667| 7. Khazzam M, Gee AO, Pearl M. Management of Glenohumeral Joint Osteoarthritis. J Am Acad Orthop Surg. 2020;28(19):781 -9.
+L668| 8. Lähdeoja T, Karjalainen T, Jokihaara J, Salamh P, Kav aja L, Agarwal A, Winters M, Buchbinder R, Guyatt G, Vandvik PO,
+L669| Ardern CL. Subacromial decompression surgery for adults with shoulder pain: a systematic review with meta -analysis. Br J
+L670| Sports Med. 2020;54(11):665 -73.
+L671| 9. Li Y, Zhao L, Zhu L, Li J, Chen A. Int ernal fixation versus nonoperative treatment for displaced 3 -part or 4 -part proximal humeral
+L672| fractures in elderly patients: a meta -analysis of randomized controlled trials. PloS one. 2013;8(9):e75464.
+L673| 10. Mao F, Zhang DH, Peng XC, Liao Y. Comparison of Surgica l versus Non -Surgical Treatment of Displaced 3 - and 4 -Part
+L674| Fractures of the Proximal Humerus: A Meta -Analysis. J Invest Surg. 2015;28(4):215 -24.
+L675| 11. Saltychev M, Virolainen P, Laimi K. Conservative treatment or surgery for shoulder impingement: updated meta -analysis.
+L676| Disability and rehabilitation. 2020;42(11):1634 -5.
+L677| 12. Song L, Miao L, Zhang P, Wang WL. Does concomitant acromioplasty facilitate arthroscopic repair of full -thickness rotator cuff
+L678| tears? A meta -analysis with trial sequential analysis of randomized co ntrolled trials. SpringerPlus. 2016;5(1):685.
+L679| 13. Sun Z, Fu W, Tang X, Chen G, Li J. Systematic review and Meta -analysis on acromioplasty in arthroscopic repair of full -thickness
+L680| rotator cuff tears. Acta Orthop Belg. 2018;84(1):54 -61.
+L681| Joint Surgery
+L682| © 2023 Carelon Medical Benefits Management. All rights reserved .  20 14. Vandvik PO, Lähdeoja T, A rdern C, Buchbinder R, Moro J, Brox JI, Burgers J, Hao Q, Karjalainen T, van den Bekerom M,
+L683| Noorduyn J, Lytvyn L, Siemieniuk RAC, Albin A, Shunjie SC, Fisch F, Proulx L, Guyatt G, Agoritsas T, Poolman RW.
+L684| Subacromial decompression surgery for adults with s houlder pain: a clinical practice guideline. BMJ. 2019;364:l294.
+L685| 15. Weber S, Chahal J. Management of Rotator Cuff Injuries. J Am Acad Orthop Surg. 2020;28(5):e193 -e201.
+L686| Codes
+L687| The following code list is not meant to be all -inclusive. Authorization requirements  will vary by health plan. Please consult the
+L688| applicable health plan for guidance on specific procedure codes.
+L689| Specific CPT codes for services should be used when available. Nonspecific or not otherwise classified codes may be subject
+L690| to additional documen tation requirements and review.
+L691| Medical necessity reviews are initiated by submitting the correct AMA CPT codes. The submitted codes must accurately
+L692| identify the service or procedure to be performed.  If no such code exists, contact the health plan directl y and report the
+L693| service or procedure using the appropriate unlisted procedure or Not Otherwise Classified (NOC) code (which often end s in
+L694| 99). Do not submit a code that is “close to” the procedure performed in lieu of an unlisted code. Correct coding dema nds that
+L695| the code reported is appropriate for the service provided (i.e., a code that most accurately represents the service provided) ,
+L696| and not a code that is similar but represents another service.  (CPT® Assistant,  December 2010)
+L697| CPT/HCPCS
+L698| CPT® (Current  Procedural Terminology) is a registered trademark of the American Medical Association (AMA). CPT® five-digit codes,
+L699| nomenclature and other data are copyright by the American Medical Association. All Rights Reserved. AMA does not directly or indirectly
+L700| practice medicine or dispense medical services. AMA assumes no liability for the data contained herein or not contained herein.
+L701| 23000  Removal of subdeltoid calcareous deposit
+L702| 23020  Capsular contracture release (eg, Sever type procedure)
+L703| 23105  Arthrotomy; glenohumeral joint, with synovectomy, with or without biopsy
+L704| 23107  Arthrotomy, glenohumeral joint, with joint exploration, with or without removal of loose or foreign body
+L705| 23120  Claviculectomy; partial
+L706| 23130  Acromioplasty or acromionectomy, partial, with or without coracoacromial ligament release
+L707| 23410  Repair of ruptured musculotendinous cuff (eg, rotator cuff) open; acute
+L708| 23412  Repair of ruptured musculotendinous cuff (eg, rotator cuff) open; chronic
+L709| 23415  Coracoacromial ligament release, with or without acromioplasty
+L710| 23420  Reconstruction of complete shoulder (rotator) cuff avulsion, chronic (includes acromioplasty)
+L711| 23430  Tenodesis of long tendon of biceps
+L712| 23440  Resection or transplantation of long tendon of biceps
+L713| 23450  Capsul orrhaphy, anterior; Putti -Platt procedure or Magnuson -type operation
+L714| 23455  Capsulorrhaphy, anterior; with labral repair (eg, Bankart procedure)
+L715| 23460  Capsulorrhaphy, anterior, any type; with bone block
+L716| 23462  Capsulorrhaphy, anterior, any type; with coracoid process transfer
+L717| 23465  Capsulorrhaphy, glenohumeral joint, posterior, with or without bone block
+L718| 23466  Capsulorrhaphy, glenohumeral joint, any type multidirectional instability
+L719| 23700  Manipulation under anesthesia, shoulder joint, including appl ication of fixation apparatus (dislocation excluded)
+L720| 29805  Arthroscopy, shoulder, diagnostic, with or without synovial biopsy (separate procedure)
+L721| 29806  Arthroscopy, shoulder, surgical; capsulorrhaphy
+L722| 29807  Arthroscopy, shoulder, surgical; repair of SLAP lesion
+L723| 29819  Arthroscopy, shoulder, surgical; with removal of loose body or foreign body
+L724| 29820  Arthroscopy, shoulder, surgical; synovectomy, partial
+L725| 29821  Arthroscopy, shoulder, surgical; synovectomy, complete
+L726| 29822  Arthroscopy, shoulder, surgical ; debridement, limited, 1 or 2 discrete structures (eg, humeral bone, humeral
+L727| articular cartilage, glenoid bone, glenoid articular cartilage, biceps tendon, biceps anchor complex, labrum,
+L728| Joint Surgery
+L729| © 2023 Carelon Medical Benefits Management. All rights reserved .  21 articular capsule, articular side of the rotator cuff, bursal side o f the rotator cuff, subacromial bursa, foreign
+L730| body[ies])
+L731| 29823  Arthroscopy, shoulder, surgical; debridement, extensive, 3 or more discrete structures (eg, humeral bone, humeral
+L732| articular cartilage, glenoid bone, glenoid articular cartilage, biceps tendon , biceps anchor complex, labrum,
+L733| articular capsule, articular side of the rotator cuff, bursal side of the rotator cuff, subacromial bursa, foreign
+L734| body[ies])
+L735| 29824  Arthroscopy, shoulder, surgical; distal claviculectomy including distal articular surface
+L736| 29825  Arthroscopy, shoulder, surgical; with lysis and resection of adhesions, with or without manipulation
+L737| 29826  Arthroscopy, shoulder, surgical; decompression of subacromial space with partial acromioplasty, with
+L738| coracoacromial ligament (i.e., a rch) release, when performed (list separately in addition to code for primary
+L739| procedure)
+L740| 29827  Arthroscopy, shoulder, surgical; with rotator cuff repair
+L741| 29828  Arthroscopy, shoulder, surgical; biceps tenodesis
+L742| Joint Surgery
+L743| © 2023 Carelon Medical Benefits Management. All rights reserved .  22 Hip Arthroplasty (Total/Partial/Revision Hip
+L744| Replacement , Acetabuloplasty, Resection Arthroplasty )
+L745| Description and Scope
+L746| Total hip arthroplasty (THA), also referred to as total hip replacement (THR), involves removal of the femoral head
+L747| and acetabulum and placement of a prosthesis anchored to the bone. Numerous implants composed of various
+L748| biomaterials have been approved by the U.S. Food and Drug Administration (FDA) for use in hip arthroplasty. The
+L749| goal of the procedure is long -term pain relief and restoration of function. All arthroplasty and
+L750| acetabuloplasty/resection arthroplasty procedures are inclusive of synovectomy, re moval of osteophytes, removal
+L751| of loose bodies, manipulation of the hip, and release or repair of structures to gain entrance to the hip joint.
+L752| Degenerative joint disease, or osteoarthritis, is the most common condition leading to the need for total hip
+L753| arthroplasty. Other conditions that may also cause significant hip joint damage include neoplasm, femoral
+L754| fracture, avascular necrosis (osteonecrosis), inflammatory arthritis (e.g., rheumatoid arthritis) and developmental
+L755| hip dysplasia.
+L756| This guideline addre sses hip arthroplasty when performed as an elective, non -emergent  procedure and not as
+L757| part of the care of an acute fracture (excluding fracture of implant and periprosthetic fracture).
+L758| Clinical Indications
+L759| The following general requirements apply to all i ndications except where they differ from the specific
+L760| requirements. The specific requirements take precedence over any stated general requirement.
+L761| General Information
+L762| The terms in the section provide operational definitions when they are referenced as req uirements in the
+L763| guideline.
+L764| Documentation supporting medical necessity  and a clearly stated plan of care  should be submitted at the time of
+L765| the request and must include the following components:
+L766| Clinical notes  describing symptom duration and severity, spe cific functional limitations related to symptoms, and
+L767| type and duration of all therapeutic measures provided. If conservative management is not appropriate, the
+L768| reason must be clearly documented.
+L769| Conservative management1 must include a combination of strat egies to reduce inflammation, alleviate pain, and
+L770| correct underlying dysfunction, including physical therapy AND  at least ONE  complementary conservative
+L771| treatment strategy.
+L772| • Physical therapy requirement  includes ANY  of the following:
+L773| o Physical therapy rende red by a qualified provider of physical therapy services
+L774| o Supervised home treatment program that includes ALL of the following:
+L775| ▪ Participation in a patient -specific or tailored program
+L776| ▪ Initial active instruction by MD/DO/PT with redemonstration of patient ab ility to
+L777| perform exercises
+L778| ▪ Compliance (documented or by clinician attestation on follow -up evaluation)
+L779| o Exception to the physical therapy requirement in unusual circumstances (for instance,
+L780| intractable pain so severe that physical therapy is not possible) w hen clearly documented in the
+L781| medical record
+L782| Joint Surgery
+L783| © 2023 Carelon Medical Benefits Management. All rights reserved .  23 • Complementary conservative treatment requirement  includes ANY  of the following:
+L784| o Anti-inflammatory medications and analgesics2
+L785| o Adjunctive medications such as nerve membrane stabilizers or muscle relaxants2
+L786| o Intra-articular corticosteroid injection(s)2
+L787| o Alternative therapies such as activity modification, and/or a trial period of rest (e.g., from the
+L788| aggravating/contributing factors), where applicable
+L789| 1 Additional condition or procedure -specific requirements may a pply and can be found in the respective sections
+L790| of the guideline.
+L791| 2 In the absence of contraindications
+L792| Clinical reevaluation . In most cases, reevaluation should include a physical examination. Direct contact by other
+L793| methods, such as telephone communication or electronic messaging, may substitute for in -person evaluation
+L794| when circumstances preclude an office visit. Clinical ree valuation must be done in reasonable proximity to the
+L795| anticipated date of service such that the patient’s condition would be unlikely to change by the date of service.
+L796| Failure of conservative management  requires ALL of the following:
+L797| • Patient has completed a full course of conservative management (as defined above) for the current
+L798| episode of care
+L799| • Worsening of or no significant improvement in signs and/or symptoms upon clinical reevaluation
+L800| • More invasive forms of therapy are being considered
+L801| Documentation of  compliance with a plan of therapy that includes elements from these areas is required where
+L802| conservative management is appropriate.
+L803| Reporting symptom severity . Severity of pain and its associated impact on activities of daily living (ADLs) and
+L804| instrumenta l ADLs (IADLs) are key factors in determining the need for intervention. For purposes of this guideline,
+L805| significant pain and functional impairment refer to pain rated at least 3 out of 10 in intensity and associated with
+L806| inability to perform at least two (2) ADLs and/or IADLs.
+L807| Imaging reports  obtained within the past 12 months describing the degree of cartilage damage as determined by
+L808| either or both of the following methods:
+L809| • X-ray report or provider interpretation of x -rays that utilizes or can be correlated with the Kellgren -
+L810| Lawrence grading system of osteoarthritis
+L811| • MRI report from a radiologist that utilizes or can be correlated with the modified Outerbridge or similar
+L812| classification system related to articular cartilage injury and osteoarthritis
+L813| See Appendix  for a description of these grading systems.
+L814| For x -ray interpretation, the provider shall submit a detailed imaging description that correlates with clinical
+L815| findings of the request ed procedure. In the absence of a detailed description , the provider may to submit a report
+L816| from an independent radiologist. The results of all imaging studies should correlate with the clinical findings in
+L817| support of the requested procedure.
+L818| For advanced  imaging (CT, MRI, ultrasound, bone scan), there must be a report from a radiologist that correlates
+L819| with clinical findings. In the absence of such a report, the summary findings from the radiology report should be
+L820| included in the clinical records .
+L821| Imagin g reports should be thorough and describe the presence or absence of subchondral cysts, subchondral
+L822| sclerosis, periarticular osteophytes, joint subluxation, avascular necrosis , or bone on bone articulations. The
+L823| degree of joint space narrowing should also be noted.
+L824| General Recommendations
+L825| Tobacco cessation . Adherence to a tobacco cessation program resulting in abstinence from tobacco for at least
+L826| 6 weeks prior to surgery is strongly recommended.
+L827| Joint Surgery
+L828| © 2023 Carelon Medical Benefits Management. All rights reserved .  24 Diabetes . It is strongly recommended that a patient with a history of diabetes maintain a hemoglobin A1C of 8%
+L829| or less prior to any joint replacement surgery.
+L830| Body mass index (BMI) . It is strongly recommended that a patient with a BMI equal to or greater than 40 attempt
+L831| weight reduction prior to surgery.
+L832| Where the re are patient specific modifiable comorbidities that may adversely impact patient reported outcomes or
+L833| the health status of the patient a shared decision -making process with the patient to discuss these modifiable
+L834| comorbidities is strongly recommended and  should be documented.
+L835| Primary Total Hip Arthroplasty
+L836| Primary total hip arthroplasty is considered medically necessary for ANY  of the following indications:
+L837| • Primary and secondary tumors of the proximal femur
+L838| • Hip fracture or complications including malunio n, nonunion or failed prior fixation
+L839| • Failed previous hip fracture fixation
+L840| • Avascular necrosis (osteonecrosis) with unresponsive severe pain
+L841| • Revision of hip arthrodesis
+L842| • Joint damage or destruction due to osteoarthritis, inflammatory disease or other chronic condition when
+L843| ALL of the following requirements have been met:
+L844| o Imaging evidence of significant joint destruction and cartilage loss, defined as Tönnis grade 3,
+L845| modifi ed Outerbridge grade III – IV, or Kellgren -Lawrence grade 3 – 4
+L846| o Limited range of motion, antalgic gait and disabling pain of at least 3 months’ duration
+L847| o Pain with passive motion of the hip
+L848| o Failure of at least 3 months of non -surgical conservative management (unless radiographs show
+L849| Kellgren -Lawence grade 4)
+L850| o Functional limitation secondary to hip pathology which interferes with the ability to perform age-
+L851| appropriate daily activities
+L852| Primary  Partial Hip Arthroplasty
+L853| Partial hip arthroplasty (unipolar, bipolar, hemi -) is considered medically necessary for ANY of the following
+L854| indications:
+L855| Femoral neck fracture not amenable to internal fixation or total hip arthroplasty , or
+L856| previous fixation  failed
+L857| Partial hip resurfacing
+L858| Partial hip resurfacing of the femoral head is considered medically necessary when ALL of the following criteria
+L859| are met :
+L860| • Osteonecrosis of the femoral head (less than 50% involvement) with subchondral collapse
+L861| • Imaging evidence of significant joint destruction and cartilage loss, defined as Tönnis grade 3, modified
+L862| Outerbridge grade III – IV, or Kellgren -Lawrence grade 3 – 4
+L863| • Limited range of motion, antalgic gait and disabling pain of at least 3 months’ duration
+L864| • Pain with passiv e internal or external rotation
+L865| • Failure of at least 3 months of non -surgical conservative management (unless radiographs show
+L866| Kellgren -Lawence grade 4)
+L867| Joint Surgery
+L868| © 2023 Carelon Medical Benefits Management. All rights reserved .  25 • Functional limitation secondary to hip pathology which interferes with the ability to perform  age-
+L869| appro priate daily activities
+L870| Total hip resurfacing
+L871| Total hip resurfacing arthroplasty (HRA) is considered medically necessary when ALL of the following criteria are
+L872| met:
+L873| • Active, fit individual
+L874| • Normal proximal femoral bone geometry and bone quality
+L875| • Otherwise eligible for a conventional primary total hip replacement (THR):
+L876| o Imaging evidence of significant joint destruction and cartilage loss, defined as Tönnis grade 3,
+L877| modified Outerbridge grade III – IV, or Kellgren -Lawrence grade 3 – 4
+L878| o Limited range of motion, antalgic gait and disabling pain of at least 3 months’ duration
+L879| o Pain with passive internal or external rotation
+L880| o Failure of at least 3 months of non -surgical conservative management (unless radiographs show
+L881| Kellgren -Lawence grade 4)
+L882| o Functional limitation secondary to hip pathology which interferes with the ability to perform  age-
+L883| appropriate daily activities
+L884| • Likely to outlive a current conventional total hip replacement
+L885| Contraindications for partial/ total hip resurfacing
+L886| • Advanced age
+L887| • Severe osteoporosis
+L888| • Renal insufficiency
+L889| • Known metal hypersensitivity
+L890| • Inadequate bone stock to support the femoral implant
+L891| • Femoral neck or head cysts
+L892| • Severe hip dysplasia
+L893| • Small or bone -deficient acetabulum
+L894| Revision Total Hip Arthroplasty
+L895| Revision total hip arthroplasty is considered medically necessary when at least ONE  of the following conditions is
+L896| present:
+L897| • Aseptic loosening
+L898| • Substantial osteolysis of the weight bearing surface s with or without periarticular osteolysis
+L899| • Progressive soft tissue or bone reaction including symptomatic synovitis
+L900| • Component instability, failure,  or recall
+L901| • Displaced periprosthetic fracture or irreducible dislocation
+L902| • Hip reconstruction after p revious removal of prosthesis due to infection or catastrophic failure
+L903| • Metal on metal implant:
+L904| o An elevated synovial cobalt level
+L905| Joint Surgery
+L906| © 2023 Carelon Medical Benefits Management. All rights reserved .  26 o An increased cobalt/chromium level
+L907| • Recurrent disabling pain or significant functional disability that persists despite at least 3 months of
+L908| conservative management in conjunction with ANY  of the following:
+L909| o Antalgic or Trendelenburg gait
+L910| o Abnormal findings confirmed by p lain radiography or imaging studies such as implant malposition
+L911| or impingement
+L912| o Leg length inequality
+L913| o Audible noise
+L914| Acetabuloplasty  (Whitman, Colonna, Haygrove s, or cup type *)
+L915| Acetabuloplasty is considered medically necessary when ONE  of the following is present:
+L916| • Acetabular arthritis where there is planned removal of articular cartilage and replacement with
+L917| interposition tissue
+L918| • Hip instability due to a structurally deficient acetabulum where acetabular augmentation is planned
+L919| *See Code section  for applicable CPT code 27120.
+L920| Resection Arthroplasty of the Hip
+L921| Resection arthroplasty of the hip, femoral head ostectomy, or Girdlestone resection arthroplasty is considered
+L922| medically necessary when at lea st ONE  of the following conditions is present:
+L923| • Painful stiff hip after infection (tuberculosis of the hip or otherwise)
+L924| • Peri-prosthetic infection
+L925| • Aseptic loosening of the hip
+L926| • Recurrent dislocation of the hip
+L927| • Failed internal fixation of a femoral neck fract ure
+L928| • Unsalvageable failed hip replacement
+L929| Contraindications
+L930| Total /Partial hip arthroplasty
+L931| • Presence of a skin infection at the surgical site
+L932| • Presence of a systemic infection
+L933| • Rapidly progressive neurological disease
+L934| • Neuropathic joint
+L935| • Intra-articular corticosteroid injection within the past 6 weeks in the joint being replaced
+L936| Exclusions
+L937| Indications for total hip arthroplasty , partial hip arthroplasty, total hip resurfacing , or partial hip resurfacing  other
+L938| than those addressed in this g uideline are considered not medically necessary .
+L939| Joint Surgery
+L940| © 2023 Carelon Medical Benefits Management. All rights reserved .  27 Selected References
+L941| 1. American Academy of Orthopaedic Surgeons. Management of Osteoarthritis of the hip - evidence -based clinical practice
+L942| guideline Rosemont IL: American Academy of Orthopedic Surgeons; 2017. Available from:
+L943| https://www.aaos.org/globalassets/quality -and-practice -resources/osteoarthritis -of-the-hip/oa -hip-cpg_6 -11-19.pdf.
+L944| 2. Arbab D, König DP. Atraumatic Femoral Head Necrosis in Adults. Dtsch Arztebl Int. 2016;113(3):31 -8.
+L945| 3. Department of Veterans Af fairs Department of Defense. VA/DoD Clinical Practice Guideline for the non -surgical management of
+L946| hip & knee osteoarthritis, 2020, Version 2.0. Retrieved from
+L947| https://www.healthquality.va.gov/guidelines/CD/OA/VADoDOACPG.pdf on May 17, 2023.
+L948| 4. Hagel A, Siekm ann H, Delank KS. Periprosthetic femoral fracture - an interdisciplinary challenge. Dtsch Arztebl Int.
+L949| 2014;111(39):658 -64.
+L950| 5. National Institute for Health and Care Excellence. Hip fracture: management. London: National Institute for Health and Care
+L951| Excellen ce (NICE); 2023 Jan 6. (NICE Clinical Guidelines, No. 124.) Available from: nice.org.uk.
+L952| 6. Nelson AE, Allen KD, Golightly YM, Goode AP, Jordan JM. A systematic review of recommendations and guidelines for the
+L953| management of osteoarthritis: The chronic osteoar thritis management initiative of the U.S. bone and joint initiative. Semin
+L954| Arthritis Rheum. 2014;43(6):701 -12.
+L955| Codes
+L956| The following code list is not meant to be all -inclusive. Authorization requirements will vary by health plan. Please consult the
+L957| applicabl e health plan for guidance on specific procedure codes.
+L958| Specific CPT codes for services should be used when available. Nonspecific or not otherwise classified codes may be subject
+L959| to additional documentation requirements and review.
+L960| Medical necessity revie ws are initiated by submitting the correct AMA CPT codes. The submitted codes must accurately
+L961| identify the service or procedure to be performed.  If no such code exists, contact the health plan directly and report the
+L962| service or procedure using the appropr iate unlisted procedure or Not Otherwise Classified (NOC) code (which often end s in
+L963| 99). Do not submit a code that is “close to” the procedure performed in lieu of an unlisted code. Correct coding demands that
+L964| the code reported is appropriate for the servi ce provided (i.e., a code that most accurately represents the service provided),
+L965| and not a code that is similar but represents another service. (CPT® Assistant,  December 2010)
+L966| CPT/HCPCS
+L967| CPT® (Current Procedural Terminology) is a registered trademark of the  American Medical Association (AMA). CPT® five-digit codes,
+L968| nomenclature and other data are copyright by the American Medical Association. All Rights Reserved. AMA does not directly or indirectly
+L969| practice medicine or dispense medical services. AMA assumes no liability for the data contained herein or not contained herein.
+L970| 27120  Acetabuloplasty; (eg, Whitman, Colonna, Haygroves, or cup type)
+L971| 27122  Acetabuloplasty; resection, femoral head (eg, Girdlestone procedure)
+L972| 27125  Hemiarthroplasty, hip, partial (eg, femoral stem prosthesis, bipolar arthroplasty)
+L973| 27130  Arthroplasty, acetabular and proximal femoral prosthetic replacement (total hip arthroplasty), with or without
+L974| autograft or allograft
+L975| 27132  Conversion of previous hip surgery to total hip arthroplasty, with or without autograft or allograft
+L976| 27134  Revision of total hip arthroplasty; both components, with or without autograft or allograft
+L977| 27137  Revision of total hip arthroplasty; acetabular component only, with or without autograft or allog raft
+L978| 27138  Revision of total hip arthroplasty; femoral component only, with or without allograft
+L979| S2118  Metal -on-metal total hip resurfacing, including acetabular and femoral components
+L980| Joint Surgery
+L981| © 2023 Carelon Medical Benefits Management. All rights reserved .  28 Hip Arthroscopy
+L982| Description and Scope
+L983| Hip arthroscopy is most often utilized in diagnosing and treating conditions of the joint space which impede
+L984| normal function and result in pain and disability. A more recent application of this procedure is treatment of
+L985| femoroacetabular impingement syndrom e (FAIS), a condition of the hip in which the acetabular rim of the pelvis
+L986| articulates abnormally with the femoral head. Over time, contact may result in damage to joint cartilage,
+L987| potentially leading to degenerative joint disease. Hip arthroscopy has also  been applied to the treatment of
+L988| symptomatic labral tears not associated with advanced arthritis of the hip joint.
+L989| Surgical treatment of FAIS and/or labral tears may involve an open approach, arthroscopic surgery, or a
+L990| combination of the two. The surgic al treatment of FAIS and labral tears is inclusive of the management of any
+L991| chondral or soft tissue debridement that is done. It is also inclusive of diagnostic hip arthroscopy. Components of
+L992| FAIS surgery include the following: labral repair , acetabuloplas ty, and f emoroplasty .
+L993| This guideline addresses hip arthroscopy when performed as an elective, non -emergent  procedure and not as
+L994| part of the care of an acute fracture.  It does not cover labral reconstructions, capsular plications, or endoscopic
+L995| procedures d one outside of the hip capsule.
+L996| Clinical Indications
+L997| General Information
+L998| The terms in the section provide operational definitions when they are referenced as requirements in the
+L999| guideline.
+L1000| Documentation supporting medical necessity and a clearly stated plan of care should be submitted at the time of
+L1001| the request and must include the following components:
+L1002| Imaging report . The provider shall submit a detailed imaging report for studies obtaine d within the past 12
+L1003| months that correlates with clinical findings of the requested procedure. In the absence of a detailed report, the
+L1004| provider will be required to submit a report from an independent radiologist. The results of all imaging studies
+L1005| should correlate with the clinical findings in support of the requested procedure.
+L1006| For x -ray interpretation, the provider shall submit a detailed imaging description that correlates with clinical
+L1007| findings of the requested procedure. In the absence of a detailed description, the provider may submit a
+L1008| radiologist’s report.
+L1009| For advanced imaging (CT, MRI, ultrasound, bone scan), there must be a report from a radiologist that correlates
+L1010| with clinical findings. In the absence of such a report, the summary findings fro m the radiology report should be
+L1011| included in the clinical records .
+L1012| Conservative management . In the majority of cases, a period of conservative management is appropriate prior
+L1013| to intervention. Conservative management1 must include a combination of strategie s to reduce inflammation,
+L1014| alleviate pain, and correct underlying dysfunction, including physical therapy AND  at least ONE  complementary
+L1015| conservative treatment strategy.
+L1016| • Physical therapy requirement  includes ANY  of the following:
+L1017| o Physical therapy rendered by a qualified provider of physical therapy services
+L1018| o Supervised home treatment program that includes ALL of the following:
+L1019| ▪ Participation in a patient -specific or tailored program
+L1020| ▪ Initial active instruction by MD/DO/PT with redemonstration of patient ability to
+L1021| perform exercises
+L1022| Joint Surgery
+L1023| © 2023 Carelon Medical Benefits Management. All rights reserved .  29 ▪ Compliance (documented or by clinician attestation on follow -up evaluation)
+L1024| o Exception to the physical therapy requirement in unusual circumstances (for inst ance,
+L1025| intractable pain so severe that physical therapy is not possible) when clearly documented in the
+L1026| medical record
+L1027| • Complementary conservative treatment requirement  includes ANY  of the following:
+L1028| o Anti-inflammatory medications and analgesics2
+L1029| o Adjunctive  medications such as nerve membrane stabilizers or muscle relaxants2
+L1030| o Intra-articular corticosteroid injection(s)2
+L1031| o Alternative therapies such as activity modification, and/or a trial period of rest (e.g., from the
+L1032| aggravating/contributing factors), where ap plicable
+L1033| 1 Additional condition or procedure -specific requirements may apply and can be found in the respective sections
+L1034| of the guideline.
+L1035| 2 In the absence of contraindications
+L1036| Clinical reevaluation . In most cases, reevaluation should include a physical ex amination. Direct contact by other
+L1037| methods, such as telephone communication or electronic messaging, may substitute for in -person evaluation
+L1038| when circumstances preclude an office visit. Clinical reevaluation must be done in reasonable proximity to the
+L1039| anticipated date of service such that the patient’s condition would be unlikely to change by the date of service.
+L1040| Failure of conservative management  requires ALL of the following:
+L1041| • Patient has completed a full course of conservative management (as defined above ) for the current
+L1042| episode of care
+L1043| • Worsening of or no significant improvement in signs and/or symptoms upon clinical reevaluation
+L1044| • More invasive forms of therapy are being considered
+L1045| Documentation of compliance with a plan of therapy that includes elements from these areas is required where
+L1046| conservative management is appropriate.
+L1047| Reporting symptom severity . Severity of pain and its associated impact on activities of daily living (ADLs ) and
+L1048| instrumental ADLs (IADLs) are key factors in determining the need for intervention. For purposes of this guideline,
+L1049| significant pain and functional impairment refer to pain rated at least 3 out of 10 in intensity and associated with
+L1050| inability to perf orm at least two (2) ADLs and/or IADLs.
+L1051| Table 1. Quantification of Hip Radiographic Measurements
+L1052| Measurement, range  Description
+L1053| Arthritis   Lateral center edge angle of Wiberg (CEA)
+L1054| < 2 mm joint space  Indicative of arthritis best
+L1055| managed non -arthroscopically  22°- 42° Normal
+L1056| Alpha angle   < 20°  Dysplastic
+L1057| < 55°  Normal  ≥ 20° and ≤ 25°  Borderline dysplastic
+L1058| > 55°  Cam femoroacetabular
+L1059| impingement  ≥ 40°  Overcovered
+L1060| Sharp (acetabular) angle   Tönnis angle
+L1061| 33° - 38° Normal  −10° to 10°  Normal
+L1062| < 32°  Insignificant  >10°  Acetabular dysplasia
+L1063| 39° - 42° Borderline  < -10° Pincer lesion
+L1064| > 42°  Dysplastic
+L1065| Joint Surgery
+L1066| © 2023 Carelon Medical Benefits Management. All rights reserved .  30 Mannava S, Geeslin AG, Frangiamore  SJ, et al. Comprehensive Clinical Evaluation of Femoroacetabular Impingement: Part 2,
+L1067| Plain Radiography. Arthrosc Tech. 2017;6(5):e2003 -e2009.
+L1068| Hip Arthroscopy
+L1069| See Table 1  for Quantification of Hip Radiographic Measurements .
+L1070| Diagnostic arthroscopy
+L1071| Diagnostic arthroscopy of the hip joint is considered medically necessary for synovial biopsy or tissue harvest
+L1072| (chondrocyte), or when the involved joint meets ALL of the following crite ria:
+L1073| • Presence of ONE  of the following symptoms
+L1074| o Significant pain and functional limitation
+L1075| o Instability (e.g., giving way, catching, clicking, locking)
+L1076| o Limited range of motion
+L1077| • Presence of ONE  of the following physical exam findings
+L1078| o Limited range of motion
+L1079| o Joint swelling
+L1080| o Inconclusive specific diagnostic exam maneuvers
+L1081| o Local muscle weakness or atrophy
+L1082| • Inconclusive x -ray and/or advanced imaging studies
+L1083| • Failure of at least 6 weeks of conservative management
+L1084| Exclusion s
+L1085| • In-office diagnostic arthroscopy (e.g., mi -eye 2®)
+L1086| • Non-intraarticular hip procedures
+L1087| Synovectomy
+L1088| Any combination of these procedures is considered medically necessary when the following criteria are met:
+L1089| • Hip pain associated with grinding, catching, locking , or popping, and ALL of the following:
+L1090| o Failure of least 3 months of conservative management
+L1091| o Exam findings confirm pain with limited range of motion
+L1092| o Imaging (x -ray, CT or MRI) which shows synovial proliferation, calcifications, nodularity,
+L1093| inflammation, pannus, or loose body
+L1094| Exclusion
+L1095| Synovectomy performed solely for visualization or approach, or for post traumatic reactive synovitis
+L1096| Removal of loose body
+L1097| Removal of loose body is considered medically necessary when BOTH  of the following are present:
+L1098| • Radiographic evidence of a cute, post -traumatic, intra -articular foreign body or displaced fracture fragment
+L1099| larger than the size of an arthroscopy cannula (5 mm or larger )
+L1100| • Hip pain associated with grinding, catching, locking , or popping , and exam findings confirm pain with
+L1101| limited range of motion
+L1102| Joint Surgery
+L1103| © 2023 Carelon Medical Benefits Management. All rights reserved .  31 Exclusion
+L1104| • Removal of loose body  for Kellgren -Lawrence grade 4  osteoarthritis
+L1105| Arthroscopic treatment of femoroacetabular impingement syndrome (FAIS)
+L1106| Acetabuloplasty – ALL of the following criteria are required:
+L1107| • Moderate to severe hip pain (primarily in the groin) worsened by flexion activities (e.g., squatting or
+L1108| prolonged sitting) that interferes with activities of daily living, which is not explained by another diagnosis.
+L1109| • Positive impingement sign on clinical examination, defined as pain elicited with 90 degrees of flexion and
+L1110| internal rotation and adduction of the femur, or extension and external rotation)
+L1111| • Imaging studies (radiographs, MRI or 3D computed tomography) sugges ting a diagnosis of FAIS,
+L1112| including cam impingement and/or pincer impingement as evidenced by ONE  or more of the following:
+L1113| o Lateral center edge angle of Wiberg (CEA) >/ - 40 degrees
+L1114| o Coxa Profunda or protrusion – acetabular fossa medial to ilioischial line
+L1115| o Posterior wall sign – cross -over sign
+L1116| • Failure of conservative management for a duration of at least 3 months*, including avoidance of hip
+L1117| stretching or any activity that elicits or aggravates symptoms
+L1118| • Documentation of a likely causal association between the femoroacetabular impingement morpho logy
+L1119| and damage to the acetabular margin or the femoral neck
+L1120| Femoroplasty when ALL of the following criteria are met:
+L1121| • Moderate to severe hip pain (primarily in the groin) worsened by flexion activities (e.g., squatting or
+L1122| prolonged sitting) that interferes  with activities of daily living, which is not explained by another diagnosis.
+L1123| • Positive impingement sign on clinical examination, defined as pain elicited with 90 degrees of flexion and
+L1124| internal rotation and adduction of the femur, or extension and externa l rotation)
+L1125| • Imaging studies (radiographs, MRI or 3D computed tomography) suggesting a diagnosis of FAIS,
+L1126| including cam impingement and/or pincer impingement as evidenced by ONE  or more of the following:
+L1127| o Pistol -grip deformity
+L1128| o Femoral head -neck offset with  an alpha angle greater than 55 degrees
+L1129| • Failure of conservative management for a duration of at least 3 months*, including avoidance of hip
+L1130| stretching or any activity that elicits or aggravates symptoms
+L1131| * Less than the full duration of conservative manage ment is permitted in the presence of an alpha angle
+L1132| greater than 65 degrees (a measure of asphericity of the femoral head).
+L1133| • Documentation of a likely causal association between the femoroacetabular impingement morphology
+L1134| and damage, e.g., a pistol -grip def ormity with a tear of the acetabular labrum and articular cartilage
+L1135| damage in the anterosuperior quadrant
+L1136| Labral tear
+L1137| Hip arthroscopy is considered medically necessary for treatment of labral tear when ALL of the following criteria
+L1138| are met:
+L1139| • Moderate to severe hip pain (primarily in the groin) worsened by flexion activities (e.g., squatting or
+L1140| prolonged sitting) that interferes with activities of daily living, which is not explained by another diagnosis
+L1141| • Positive impingement sign on clinical ex amination, defined as pain elicited with 90 degrees of flexion and
+L1142| internal rotation and adduction of the femur, or extension and external rotation
+L1143| • MRI report that defines or suggests a labral tear

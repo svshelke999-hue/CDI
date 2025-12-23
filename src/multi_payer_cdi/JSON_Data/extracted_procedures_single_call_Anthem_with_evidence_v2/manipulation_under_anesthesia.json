@@ -1,0 +1,26 @@
+{
+  "procedure_id": "manipulation_under_anesthesia",
+  "category": "Knee (Evidence: pg no: 2, L73)",
+  "section_title": "Manipulation Under Anesthesia (Evidence: pg no: 10, L497)",
+  "names": [
+    "Manipulation under anesthesia (Evidence: pg no: 10, L497)",
+    "MUA (Evidence: pg no: 10, L498)"
+  ],
+  "description": "Manipulation under anesthesia for post-traumatic, post-surgical, or idiopathic stiffness (Evidence: pg no: 10, L498-L502)",
+  "scope": "Treatment of knee stiffness (Evidence: pg no: 10, L497-L502)",
+  "general_requirements": {
+    "documentation": [
+      "Physical exam demonstrates limited range of motion of knee defined as less than 105 degrees of flexion or flexion contracture greater than 10 degrees (Evidence: pg no: 10, L500-L501)",
+      "Range of motion has failed to improve despite 6 weeks of conservative management (Evidence: pg no: 10, L502)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "27570",
+      "system": "CPT",
+      "description": "Manipulation of knee joint under general anesthesia (includes application of traction or other fixation devices) (Evidence: pg no: 16, L698)"
+    }
+  ],
+  "notes": ""
+}

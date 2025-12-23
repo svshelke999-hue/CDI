@@ -1,0 +1,47 @@
+{
+  "procedure_id": "meniscal_repair_meniscectomy_acute",
+  "category": "Knee (Evidence: pg no: 2, L73)",
+  "section_title": "Meniscal Repair or Meniscectomy - Acute Traumatic (Evidence: pg no: 9, L416-L417)",
+  "names": [
+    "Meniscal repair (Evidence: pg no: 9, L416)",
+    "Meniscectomy (Evidence: pg no: 9, L416)",
+    "Acute traumatic meniscal tear (Evidence: pg no: 9, L417)"
+  ],
+  "description": "Meniscal repair or meniscectomy for acute traumatic meniscal tear with sudden onset of joint-line pain (Evidence: pg no: 9, L418-L419)",
+  "scope": "Treatment of acute meniscal tears (Evidence: pg no: 9, L416-L440)",
+  "general_requirements": {
+    "documentation": [
+      "Knee injury within last 3 months with new onset knee pain (Evidence: pg no: 9, L420)",
+      "Moderate to severe pain associated with functional limitation (Evidence: pg no: 9, L421-L422)",
+      "Symptoms of catching, locking, or instability (Evidence: pg no: 9, L423)",
+      "Physical exam findings of at least TWO: Joint swelling or effusion, Positive McMurray or Apley test, Joint line tenderness, or Reduced range of motion (Evidence: pg no: 9, L424-L429)",
+      "Imaging confirms features of an acute meniscal tear (Evidence: pg no: 9, L432-L433)"
+    ]
+  },
+  "exclusions": [
+    "For x-rays with Kellgren-Lawrence grade 3 or 4 changes and knee pain preceding recent injury (Evidence: pg no: 10, L439-L440)"
+  ],
+  "codes": [
+    {
+      "code": "29880",
+      "system": "CPT",
+      "description": "Arthroscopy, knee, surgical; with meniscectomy (medial AND lateral, including any meniscal shaving) including debridement/shaving of articular cartilage (chondroplasty), same or separate compartment(s), when performed (Evidence: pg no: 16, L709-L710)"
+    },
+    {
+      "code": "29881",
+      "system": "CPT",
+      "description": "Arthroscopy, knee, surgical; with meniscectomy (medial OR lateral, including any meniscal shaving) including debridement/shaving of articular cartilage (chondroplasty), same or separate compartment(s), when performed (Evidence: pg no: 16, L711-L712)"
+    },
+    {
+      "code": "29882",
+      "system": "CPT",
+      "description": "Arthroscopy, knee, surgical; with meniscus repair (medial OR lateral) (Evidence: pg no: 16, L713)"
+    },
+    {
+      "code": "29883",
+      "system": "CPT",
+      "description": "Arthroscopy, knee, surgical; with meniscus repair (medial AND lateral) (Evidence: pg no: 16, L714)"
+    }
+  ],
+  "notes": "Partial meniscectomy considered medically necessary for symptomatic tears not amenable to repair. Meniscal repair considered medically necessary for symptomatic reducible tears that are peripheral (Evidence: pg no: 9, L434-L437)"
+}

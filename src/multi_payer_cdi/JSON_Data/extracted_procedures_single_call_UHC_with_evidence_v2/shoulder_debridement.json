@@ -1,0 +1,30 @@
+{
+  "procedure_id": "shoulder_debridement",
+  "category": "Shoulder (Evidence: pg no: 2, L73-L78)",
+  "section_title": "Shoulder Debridement (Evidence: pg no: 2, L73-L78)",
+  "names": [
+    "Debridement, limited (Evidence: pg no: 2, L73)",
+    "Debridement, extensive (Evidence: pg no: 2, L76)"
+  ],
+  "description": "Arthroscopic surgical debridement of shoulder structures, either limited (1 or 2 discrete structures) or extensive (3 or more discrete structures) including humeral bone, humeral articular cartilage, glenoid bone, glenoid articular cartilage, biceps tendon, biceps anchor complex, labrum, articular capsule, articular side of the rotator cuff, bursal side of the rotator cuff, subacromial bursa, foreign body(ies) (Evidence: pg no: 2, L73-L78)",
+  "scope": "Surgical debridement of shoulder structures via arthroscopic approach (Evidence: pg no: 2, L73-L78)",
+  "general_requirements": {
+    "documentation": [
+      "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "29822",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; debridement, limited, 1 or 2 discrete structures (Evidence: pg no: 2, L73-L75)"
+    },
+    {
+      "code": "29823",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; debridement, extensive, 3 or more discrete structures (Evidence: pg no: 2, L76-L78)"
+    }
+  ],
+  "notes": "Part of arthroscopic shoulder surgery procedures (Evidence: pg no: 2, L73-L78)"
+}

@@ -1,0 +1,26 @@
+{
+  "procedure_id": "partial_hip_resurfacing",
+  "category": "Hip (Evidence: pg no: 22, L743)",
+  "section_title": "Partial hip resurfacing (Evidence: pg no: 24, L857)",
+  "names": [
+    "Partial hip resurfacing (Evidence: pg no: 24, L857)",
+    "Partial hip resurfacing of the femoral head (Evidence: pg no: 24, L858)"
+  ],
+  "description": "Partial hip resurfacing of the femoral head is considered medically necessary when ALL of the following criteria are met. (Evidence: pg no: 24, L858-L859)",
+  "scope": "This guideline addresses hip arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 22, L756-L757)",
+  "general_requirements": {
+    "documentation": [
+      "Osteonecrosis of the femoral head (less than 50% involvement) with subchondral collapse (Evidence: pg no: 24, L860)",
+      "Imaging evidence of significant joint destruction and cartilage loss, defined as Tönnis grade 3, modified Outerbridge grade III – IV, or Kellgren-Lawrence grade 3 – 4 (Evidence: pg no: 24, L861-L862)",
+      "Limited range of motion, antalgic gait and disabling pain of at least 3 months' duration (Evidence: pg no: 24, L863)",
+      "Pain with passive internal or external rotation (Evidence: pg no: 24, L864)",
+      "Failure of at least 3 months of non-surgical conservative management (Evidence: pg no: 24, L865-L866)",
+      "Functional limitation secondary to hip pathology which interferes with the ability to perform age-appropriate daily activities (Evidence: pg no: 25, L868-L869)"
+    ]
+  },
+  "exclusions": [
+    "Indications for partial hip resurfacing other than those addressed in this guideline are considered not medically necessary (Evidence: pg no: 26, L937-L938)"
+  ],
+  "codes": [],
+  "notes": ""
+}

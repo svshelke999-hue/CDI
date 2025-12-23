@@ -1,0 +1,20 @@
+CHART: chart_02_revision_total_knee.txt
+
+PRIMARY CDI FOCUS:
+- Document reason for revision and component status in greater detail.
+- Capture implant specifications and intraoperative cultures.
+
+RECOMMENDED IMPROVEMENTS:
+1. Failure Etiology: Clarify mechanical vs. infectious failure; specify loosening, wear patterns, or instability metrics.
+2. Component Details: Record brand, size, constraint level, stem lengths, augments, and whether antibiotic cement was used.
+3. Explanted Hardware: Note which components were removed and condition of bone stock.
+4. Cultures/Pathology: Document whether synovial fluid or tissue samples were sent for culture/pathology, with preliminary results.
+5. Blood Loss & Transfusion: Provide precise EBL and note if cell saver or transfusions were necessary.
+6. Postoperative Plan: Outline DVT prophylaxis, weight-bearing restrictions, and rehab milestones.
+7. Medical Necessity: Reference preoperative imaging and failed conservative measures or bracing.
+
+CODING IMPACT:
+- Supports CPT 27487 with payer-required documentation for revision complexity.
+- Detailed component data aids device charge capture and implant tracking compliance.
+
+

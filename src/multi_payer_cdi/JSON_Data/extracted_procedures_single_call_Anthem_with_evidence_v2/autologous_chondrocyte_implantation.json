@@ -1,0 +1,47 @@
+{
+  "procedure_id": "autologous_chondrocyte_implantation",
+  "category": "Knee (Evidence: pg no: 2, L73)",
+  "section_title": "Autologous Chondrocyte Implantation (Evidence: pg no: 22, L974)",
+  "names": [
+    "Autologous chondrocyte implantation (Evidence: pg no: 22, L976)",
+    "ACI (Evidence: pg no: 22, L976)"
+  ],
+  "description": "Autologous chondrocyte implantation to treat cartilaginous defects of the knee/patella (Evidence: pg no: 22, L976-L992)",
+  "scope": "Treatment of knee and patellar cartilage defects (Evidence: pg no: 22, L974-L992)",
+  "general_requirements": {
+    "documentation": [
+      "Primary chondral defect is present or prior surgical procedure failed to correct defect (Evidence: pg no: 22, L979)",
+      "Size of cartilage defect is greater than or equal to 1.5 cm2 in total area, as documented by MRI or arthroscopy (Evidence: pg no: 22, L980-L981)",
+      "Condition involves focal, full thickness, grade III or IV isolated unipolar defect of knee involving weight bearing surface (Evidence: pg no: 22, L982-L984)",
+      "Defect involves only cartilage and not subchondral bone (with exception for OCD) (Evidence: pg no: 22, L985-L988)",
+      "Documented minimal to absent degenerative changes in surrounding articular cartilage (Evidence: pg no: 22, L989-L990)",
+      "Normal knee biomechanics or alignment and stability achieved concurrently (Evidence: pg no: 22, L991-L992)"
+    ]
+  },
+  "exclusions": [
+    "Known allergy to gentamicin or other aminoglycosides (Evidence: pg no: 22, L995)",
+    "Known sensitivity to porcine or bovine cultures (Evidence: pg no: 22, L996)",
+    "Severe osteoarthritis of knee (Kellgren-Lawrence grade 3 or 4) (Evidence: pg no: 22, L997)",
+    "Inflammatory arthritis, inflammatory joint disease, or uncorrected congenital blood coagulation disorders (Evidence: pg no: 22, L998)",
+    "Knee surgery within previous 6 months (except surgery to procure biopsy or concomitant procedure) (Evidence: pg no: 22, L999-L1000)",
+    "Inability to cooperate with physician-prescribed post-surgical rehabilitation program (Evidence: pg no: 22, L1001)"
+  ],
+  "codes": [
+    {
+      "code": "27412",
+      "system": "CPT",
+      "description": "Autologous chondrocyte implantation, knee (Evidence: pg no: 24, L1056)"
+    },
+    {
+      "code": "J7330",
+      "system": "HCPCS",
+      "description": "Autologous cultured chondrocytes, implant (Evidence: pg no: 24, L1066)"
+    },
+    {
+      "code": "S2112",
+      "system": "HCPCS",
+      "description": "Arthroscopy, knee, surgical for harvesting of cartilage (chondrocyte cells) (Evidence: pg no: 24, L1067)"
+    }
+  ],
+  "notes": "Defects greater than 7 cm2 may require more than one vial (Evidence: pg no: 22, L981)"
+}

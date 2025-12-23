@@ -1,0 +1,39 @@
+{
+  "procedure_id": "capsulorrhaphy",
+  "category": "Shoulder (Evidence: pg no: 12, L368)",
+  "section_title": "Capsulorrhaphy (Bankart procedure) (Evidence: pg no: 17, L584)",
+  "names": [
+    "Capsulorrhaphy (Evidence: pg no: 17, L584)",
+    "Bankart procedure (Evidence: pg no: 17, L584)"
+  ],
+  "description": "Capsulorrhaphy (Bankart procedure) is considered medically necessary when ALL of the following criteria are met. (Evidence: pg no: 17, L584-L585)",
+  "scope": "This guideline addresses shoulder arthroscopy and open procedures when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture. (Evidence: pg no: 12, L373-L374)",
+  "general_requirements": {
+    "documentation": [
+      "History of a shoulder dislocation or recurrent subluxation (Evidence: pg no: 17, L586)",
+      "Positive apprehension/relocation test (Evidence: pg no: 17, L587)",
+      "Shoulder pain and/or instability which interferes with age-appropriate activities of daily living (Evidence: pg no: 17, L588)",
+      "MRI demonstrates at least ONE of the following: Bankart/labral lesion consistent with the clinical instability, Hill-Sachs lesion, Capsular tear, Capsular redundancy with clinical multidirectional instability (Evidence: pg no: 17, L589-L593)",
+      "Failure of at least 12 weeks of conservative management (unless history of traumatic dislocation and multiple dislocations during management) (Evidence: pg no: 17, L594-L595)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "23450",
+      "system": "CPT",
+      "description": "Capsulorrhaphy, anterior; Putti-Platt procedure or Magnuson-type operation (Evidence: pg no: 20, L713)"
+    },
+    {
+      "code": "23455",
+      "system": "CPT",
+      "description": "Capsulorrhaphy, anterior; with labral repair (eg, Bankart procedure) (Evidence: pg no: 20, L714)"
+    },
+    {
+      "code": "29806",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; capsulorrhaphy (Evidence: pg no: 20, L721)"
+    }
+  ],
+  "notes": "For chronic shoulder instability or laxity. For traumatic instability, early surgery may be considered for patients with large bone defects or patients under age 35. (Evidence: pg no: 17, L583, L597-L598)"
+}

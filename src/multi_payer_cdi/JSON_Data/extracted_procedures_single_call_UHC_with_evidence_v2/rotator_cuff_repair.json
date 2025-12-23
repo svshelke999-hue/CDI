@@ -1,0 +1,24 @@
+{
+  "procedure_id": "rotator_cuff_repair",
+  "category": "Shoulder (Evidence: pg no: 2, L84)",
+  "section_title": "Rotator Cuff Repair (Evidence: pg no: 2, L84)",
+  "names": [
+    "Rotator cuff repair (Evidence: pg no: 2, L84)"
+  ],
+  "description": "Arthroscopic surgical repair of the rotator cuff (Evidence: pg no: 2, L84)",
+  "scope": "Surgical repair of rotator cuff via arthroscopic approach (Evidence: pg no: 2, L84)",
+  "general_requirements": {
+    "documentation": [
+      "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "29827",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; with rotator cuff repair (Evidence: pg no: 2, L84)"
+    }
+  ],
+  "notes": "Part of arthroscopic shoulder surgery procedures (Evidence: pg no: 2, L84)"
+}

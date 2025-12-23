@@ -1,0 +1,35 @@
+{
+  "procedure_id": "revision_knee_arthroplasty",
+  "category": "Knee (Evidence: pg no: 2, L73)",
+  "section_title": "Revision of Prior Knee Arthroplasty (Evidence: pg no: 5, L236)",
+  "names": [
+    "Revision of prior knee arthroplasty (Evidence: pg no: 5, L237)",
+    "Revision TKA (Evidence: pg no: 2, L80)"
+  ],
+  "description": "Revision of prior knee arthroplasty for various conditions (Evidence: pg no: 5, L237-L252)",
+  "scope": "Exchange of some or all components of prior knee replacement (Evidence: pg no: 2, L86-L88)",
+  "general_requirements": {
+    "documentation": [
+      "ANY of the following conditions: Aseptic loosening, Substantial osteolysis, Progressive soft tissue or bone reaction, Component instability/malalignment/failure/recall, Displaced periprosthetic fracture, Previous removal due to infection, Reconstruction after treatment of infection, or Recurrent disabling pain with specific findings (Evidence: pg no: 5, L239-L252)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "27486",
+      "system": "CPT",
+      "description": "Revision of total knee arthroplasty, with or without allograft; 1 component (Evidence: pg no: 7, L304)"
+    },
+    {
+      "code": "27487",
+      "system": "CPT",
+      "description": "Revision of total knee arthroplasty, with or without allograft; femoral and entire tibial component (Evidence: pg no: 7, L305)"
+    },
+    {
+      "code": "27488",
+      "system": "CPT",
+      "description": "Removal of prosthesis, including total knee prosthesis, methylmethacrylate with or without insertion of spacer, knee (Evidence: pg no: 7, L306-L307)"
+    }
+  ],
+  "notes": "Not inclusive of exchange of components for visualization or joint access alone (Evidence: pg no: 2, L87-L88)"
+}

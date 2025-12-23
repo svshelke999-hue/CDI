@@ -1,0 +1,24 @@
+{
+  "procedure_id": "arthroscopy_shoulder_diagnostic",
+  "category": "Shoulder (Evidence: pg no: 1, L28)",
+  "section_title": "Arthroscopy, Diagnostic, +/- Synovial Biopsy, Shoulder (Evidence: pg no: 1, L30)",
+  "names": [
+    "Arthroscopy, shoulder, diagnostic, with or without synovial biopsy (Evidence: pg no: 2, L67)"
+  ],
+  "description": "Diagnostic arthroscopy of the shoulder with or without synovial biopsy as a separate procedure (Evidence: pg no: 2, L67)",
+  "scope": "Diagnostic procedure for shoulder evaluation (Evidence: pg no: 2, L67)",
+  "general_requirements": {
+    "documentation": [
+      "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "29805",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, diagnostic, with or without synovial biopsy (separate procedure) (Evidence: pg no: 2, L67)"
+    }
+  ],
+  "notes": "Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)"
+}

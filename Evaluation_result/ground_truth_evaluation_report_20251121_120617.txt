@@ -1,0 +1,285 @@
+================================================================================
+CDI SYSTEM EVALUATION REPORT (Ground Truth Comparison)
+================================================================================
+Generated: 2025-11-21 12:06:17
+Evaluation Duration: 139.62 seconds
+
+================================================================================
+EXECUTIVE SUMMARY
+================================================================================
+Total Charts Evaluated:     10
+Successful Evaluations:     10 (100.0%)
+Failed Evaluations:         0
+Overall Score:              39.5%
+
+================================================================================
+SCORE BREAKDOWN
+================================================================================
+Average Coverage Score:     35.0%
+Average Quality Score:       40.0%
+Average Completeness Score: 34.3%
+Average Accuracy Score:     50.5%
+
+================================================================================
+IMPROVEMENT COVERAGE
+================================================================================
+Total Expected Improvements: 68
+Matched Improvements:       20
+Missed Improvements:        52
+Extra Recommendations:      27
+Coverage Rate:              29.4%
+
+================================================================================
+PAYER-SPECIFIC PERFORMANCE
+================================================================================
+
+Cigna:
+  Charts Evaluated:        16
+  Avg Coverage:            38.8%
+  Avg Quality:             43.8%
+  Avg Completeness:        37.9%
+  Avg Accuracy:            53.4%
+
+UnitedHealthcare:
+  Charts Evaluated:        16
+  Avg Coverage:            38.8%
+  Avg Quality:             43.8%
+  Avg Completeness:        37.9%
+  Avg Accuracy:            53.4%
+
+Anthem:
+  Charts Evaluated:        16
+  Avg Coverage:            38.8%
+  Avg Quality:             43.8%
+  Avg Completeness:        37.9%
+  Avg Accuracy:            53.4%
+
+================================================================================
+PROCESSING METRICS
+================================================================================
+Average Processing Time:     0.15s
+Total Processing Time:       1.48s
+
+================================================================================
+COST ANALYSIS
+================================================================================
+Total CDI Processing Cost:   $1.4666
+Total Evaluation Cost:       $0.1470
+Total Cost:                  $1.6136
+
+================================================================================
+DETAILED CHART RESULTS
+================================================================================
+
+chart_01_rotator_cuff_labrum:
+  Overall Score:           82.1%
+  Coverage:                75.0%
+  Quality:                 80.0%
+  Completeness:            83.0%
+  Accuracy:                95.0%
+  Matched:                 4
+  Missed:                  4
+  Extra:                   2
+  Strengths:
+    - Comprehensive coverage of medical necessity documentation requirements
+    - Payer-specific recommendations that enhance actionability
+    - Strong focus on conservative management documentation, which is critical for approval
+    - Clear identification of missing imaging documentation
+    - Medically accurate and clinically relevant recommendations
+  Weaknesses:
+    - No mention of documenting quantitative blood loss
+    - Lacks specificity regarding tear dimensions and tissue quality documentation
+    - No recommendations about documenting implant details (number, type, brand)
+    - Missing recommendations about postoperative plan documentation
+    - Does not address the need for comorbidity documentation that might impact recovery
+
+chart_02_revision_total_knee:
+  Overall Score:           0.0%
+  Coverage:                0.0%
+  Quality:                 0.0%
+  Completeness:            0.0%
+  Accuracy:                0.0%
+  Matched:                 0
+  Missed:                  7
+  Extra:                   1
+  Weaknesses:
+    - Complete misalignment with CDI purpose - system provides insurance coverage determinations instead of documentation improvement recommendations
+    - No clinical documentation improvement suggestions provided at all
+    - System references unrelated procedure policies (shoulder and hip) instead of knee arthroplasty
+    - Fails to address any of the expected clinical documentation improvements
+    - Does not provide actionable guidance for improving the operative report
+    - System appears to be designed for a different purpose than CDI
+
+chart_03_acl_reconstruction:
+  Overall Score:           0.0%
+  Coverage:                0.0%
+  Quality:                 0.0%
+  Completeness:            0.0%
+  Accuracy:                0.0%
+  Matched:                 0
+  Missed:                  6
+  Extra:                   1
+  Weaknesses:
+    - Complete failure to access or apply appropriate knee procedure guidelines
+    - No actual CDI recommendations provided for any aspect of the case
+    - System appears to be misconfigured with incorrect specialty guidelines
+    - No recognition of the documentation gaps identified in the expected improvements
+    - No actionable guidance provided to improve documentation quality
+    - Inability to identify basic CDI opportunities in orthopedic knee procedures
+
+chart_04_hip_labral_fai:
+  Overall Score:           54.5%
+  Coverage:                45.0%
+  Quality:                 60.0%
+  Completeness:            40.0%
+  Accuracy:                75.0%
+  Matched:                 2
+  Missed:                  5
+  Extra:                   4
+  Strengths:
+    - Accurately identifies the need for documenting conservative treatment history
+    - Correctly emphasizes the importance of documenting functional limitations
+    - Provides payer-specific requirements that would improve reimbursement likelihood
+    - Recommendations are actionable and specific to hip arthroscopy procedures
+    - Identifies multiple documentation gaps that would affect medical necessity determination
+  Weaknesses:
+    - Focuses almost exclusively on payer requirements rather than clinical documentation quality
+    - Misses critical technical surgical documentation improvements
+    - Does not address quantification of impingement morphology (primary CDI focus)
+    - Lacks recommendations for documenting surgical technique details and findings
+    - No mention of traction time documentation despite being a standard operative metric
+    - Overlooks implant documentation needs for supply reconciliation
+    - Recommendations are repetitive across different payers without tailoring to clinical needs
+
+chart_05_mpfl_reconstruction:
+  Overall Score:           0.0%
+  Coverage:                0.0%
+  Quality:                 0.0%
+  Completeness:            0.0%
+  Accuracy:                0.0%
+  Matched:                 0
+  Missed:                  7
+  Extra:                   1
+  Strengths:
+    - The system correctly identified that it was provided with inappropriate guidelines (shoulder instead of knee)
+    - The system appropriately declined to evaluate against irrelevant criteria
+  Weaknesses:
+    - Failed to provide any actual CDI recommendations despite documentation gaps being evident
+    - Did not address any of the expected improvements
+    - Did not attempt to apply general CDI principles when specific guidelines were unavailable
+    - Focused only on guideline mismatch rather than documentation improvement
+    - No recommendations for improving specificity of graft selection or fixation technique (primary CDI focus)
+    - No recommendations for documenting objective instability metrics (primary CDI focus)
+    - System appears entirely dependent on having exact matching guidelines and cannot generalize
+
+chart_06_biceps_tenodesis:
+  Overall Score:           69.5%
+  Coverage:                65.0%
+  Quality:                 70.0%
+  Completeness:            60.0%
+  Accuracy:                85.0%
+  Matched:                 4
+  Missed:                  3
+  Extra:                   4
+  Strengths:
+    - Comprehensive coverage of payer-specific requirements for medical necessity
+    - Detailed breakdown by procedure and payer
+    - Strong focus on pre-operative conservative management documentation
+    - Clear identification of missing diagnostic imaging documentation
+    - Accurate identification of missing clinical examination findings
+  Weaknesses:
+    - Limited focus on technical operative documentation improvements
+    - No mention of implant specifications needed for billing
+    - Minimal attention to post-operative care documentation needs
+    - No recommendations regarding quantification of blood loss
+    - Lacks recommendations for documenting specific rehabilitation protocols
+    - Overly focused on pre-procedure justification rather than balanced documentation improvement
+
+chart_07_reverse_shoulder_arthroplasty:
+  Overall Score:           69.5%
+  Coverage:                65.0%
+  Quality:                 70.0%
+  Completeness:            60.0%
+  Accuracy:                85.0%
+  Matched:                 3
+  Missed:                  5
+  Extra:                   4
+  Strengths:
+    - Accurately identifies the need for better documentation of cuff tear arthropathy
+    - Correctly emphasizes the importance of documenting functional limitations
+    - Provides payer-specific recommendations that would help with reimbursement
+    - Recommendations are clinically sound and relevant to the procedure
+    - Identifies the need for documentation of prior treatments, which is important for medical necessity
+  Weaknesses:
+    - Overly focused on payer requirements rather than comprehensive clinical documentation
+    - Misses important technical aspects of the procedure documentation (implant specifications)
+    - Does not address perioperative details like blood loss and neurovascular assessment
+    - Lacks recommendations for improved postoperative plan documentation
+    - No mention of bone quality assessment which is critical for shoulder arthroplasty outcomes
+
+chart_08_osteochondral_allograft_knee:
+  Overall Score:           0.0%
+  Coverage:                0.0%
+  Quality:                 0.0%
+  Completeness:            0.0%
+  Accuracy:                0.0%
+  Matched:                 0
+  Missed:                  7
+  Extra:                   3
+  Weaknesses:
+    - Complete failure to address any of the expected clinical documentation improvements
+    - Inappropriate focus on payer guideline availability rather than documentation quality
+    - Mischaracterization of the procedure as relating to shoulder or hip rather than knee
+    - No actionable recommendations provided for improving the operative note
+    - No recognition of missing clinical details critical for procedure justification
+    - No identification of documentation gaps related to tissue tracking requirements
+    - System appears to have malfunctioned or been incorrectly configured for this evaluation
+
+chart_09_total_hip_arthroplasty:
+  Overall Score:           31.5%
+  Coverage:                15.0%
+  Quality:                 30.0%
+  Completeness:            20.0%
+  Accuracy:                70.0%
+  Matched:                 1
+  Missed:                  6
+  Extra:                   3
+  Strengths:
+    - Accurately identifies missing elements for Anthem's approval criteria
+    - Correctly recognizes the need for more documentation about functional limitations
+    - Provides clear decision outcomes (Insufficient) for each payer evaluation
+  Weaknesses:
+    - Completely misses the primary CDI focus on implant specifications and alignment metrics
+    - Fails to address perioperative management documentation needs
+    - Focuses exclusively on payer approval criteria rather than comprehensive clinical documentation
+    - Does not address any of the technical surgical documentation improvements needed
+    - Provides no recommendations for documenting implant details which are critical for future care
+    - Ignores the need for specific DVT prophylaxis documentation
+    - No mention of pathology/culture documentation needs
+    - Lacks recommendations for detailed postoperative course documentation
+
+chart_10_subacromial_decompression:
+  Overall Score:           87.5%
+  Coverage:                85.0%
+  Quality:                 90.0%
+  Completeness:            80.0%
+  Accuracy:                95.0%
+  Matched:                 6
+  Missed:                  2
+  Extra:                   4
+  Strengths:
+    - Comprehensive coverage of conservative management documentation requirements
+    - Specific focus on objective pain measurements (VAS scale)
+    - Detailed requirements for physical examination documentation
+    - Consistent recommendations across multiple payers
+    - Clear connection between documentation gaps and medical necessity requirements
+    - Actionable feedback that can be directly implemented
+  Weaknesses:
+    - No mention of documenting specific surgical technique details (bone resection measurements, instrumentation)
+    - No recommendation regarding blood loss documentation
+    - Limited focus on postoperative rehabilitation plan details
+    - No mention of coracoacromial ligament management during procedure
+
+================================================================================
+END OF EVALUATION REPORT
+================================================================================

@@ -1,0 +1,25 @@
+{
+  "procedure_id": "reverse_shoulder_arthroplasty",
+  "category": "Shoulder (Evidence: pg no: 7, L169)",
+  "section_title": "Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)",
+  "names": [
+    "Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)",
+    "Reverse total shoulder arthroplasty (Evidence: pg no: 7, L178)"
+  ],
+  "description": "Reverse total shoulder arthroplasty is similar to standard arthroplasty in that both components of the joint are replaced but the ball and socket portions of the joint are reversed, allowing the deltoid muscle to assume partial function of the rotator cuff. This procedure is typically utilized when there is concomitant rotator cuff disease. (Evidence: pg no: 7, L178-L180)",
+  "scope": "This guideline addresses shoulder arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of a congenital condition, acute or traumatic event such as fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 7, L181-L183)",
+  "general_requirements": {
+    "documentation": [
+      "Reconstruction after a tumor resection (Evidence: pg no: 10, L302)",
+      "Glenohumeral osteoarthritis with irreparable rotator cuff tear (Evidence: pg no: 10, L303)",
+      "Glenoid bone stock inadequate to support a glenoid prosthesis (Evidence: pg no: 10, L304)",
+      "Failed hemiarthroplasty (Evidence: pg no: 10, L305)",
+      "Failed total shoulder arthroplasty with non-repairable rotator cuff (Evidence: pg no: 10, L306)",
+      "Shoulder fracture that is not repairable or cannot be reconstructed with other techniques (Evidence: pg no: 10, L307)",
+      "Deficient rotator cuff with limited ability to actively flex the upper extremity to 90 degrees against gravity (Evidence: pg no: 10, L310-L311)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [],
+  "notes": "Considered medically necessary for ANY of the listed indications when associated with pain and functional impairment. (Evidence: pg no: 10, L301)"
+}

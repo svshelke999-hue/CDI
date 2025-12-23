@@ -1,0 +1,26 @@
+{
+  "procedure_id": "plica_resection",
+  "category": "Knee (Evidence: pg no: 2, L73)",
+  "section_title": "Plica Resection (Evidence: pg no: 12, L588)",
+  "names": [
+    "Plica resection (Evidence: pg no: 12, L588)"
+  ],
+  "description": "Plica resection when at least TWO of five criteria are present AND BOTH additional criteria are met (Evidence: pg no: 12, L589-L599)",
+  "scope": "Treatment of plica syndrome (Evidence: pg no: 12, L588-L599)",
+  "general_requirements": {
+    "documentation": [
+      "At least TWO of the following: Anteromedial knee joint line pain, Audible clicking or snap during knee motion, Pain with activities, Positive Hughston plica test or positive duvet test, or Visible or palpable tender plica (Evidence: pg no: 12, L591-L596)",
+      "Exclusion of other causes of anteromedial knee pain (Evidence: pg no: 12, L598)",
+      "Failure of at least 12 weeks of conservative management (Evidence: pg no: 12, L599)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "29875",
+      "system": "CPT",
+      "description": "Arthroscopy, knee, surgical; synovectomy, limited (eg, plica or shelf resection) (separate procedure) (Evidence: pg no: 16, L704)"
+    }
+  ],
+  "notes": ""
+}

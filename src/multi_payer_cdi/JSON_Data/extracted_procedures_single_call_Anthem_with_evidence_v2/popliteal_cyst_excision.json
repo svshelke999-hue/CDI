@@ -1,0 +1,24 @@
+{
+  "procedure_id": "popliteal_cyst_excision",
+  "category": "Knee (Evidence: pg no: 2, L73)",
+  "section_title": "Excision of Popliteal Cyst (Evidence: pg no: 13, L600)",
+  "names": [
+    "Excision of popliteal cyst (Evidence: pg no: 13, L600)"
+  ],
+  "description": "Excision of a popliteal cyst when specific criteria are present (Evidence: pg no: 13, L601-L602)",
+  "scope": "Treatment of popliteal cysts (Evidence: pg no: 13, L600-L602)",
+  "general_requirements": {
+    "documentation": [
+      "Posterior knee pain ≥ 4 on the VAS scale of at least 8 weeks' duration (Evidence: pg no: 13, L602)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "27345",
+      "system": "CPT",
+      "description": "Excision synovial cyst popliteal space (Evidence: pg no: 16, L683)"
+    }
+  ],
+  "notes": ""
+}

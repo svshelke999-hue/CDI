@@ -1,0 +1,19 @@
+CHART: chart_03_acl_reconstruction.txt
+
+PRIMARY CDI FOCUS:
+- Identify graft source/type and fixation method.
+- Detail meniscal pathology and treatment extent.
+
+RECOMMENDED IMPROVEMENTS:
+1. Graft Documentation: Specify whether autograft or allograft was used, source (hamstring, patellar tendon, tibialis, etc.), and preparation technique.
+2. Tunnel Data: Include tunnel diameters, positions, and guidance system used to support appropriate implant selection.
+3. Meniscectomy Detail: Describe percentage of meniscus removed, zones involved, and remaining rim stability.
+4. Imaging History: Summarize MRI findings and pivot shift testing results preoperatively for medical necessity.
+5. Rehab Orders: Clarify brace settings, weight-bearing restrictions, and therapy timeline (phased protocol).
+6. Concomitant Findings: Document cartilage status and any addressed chondral lesions or ACL remnant handling.
+
+CODING IMPACT:
+- Supports CPT 29888 and 29881 with comprehensive documentation.
+- Detailed graft description protects against medical necessity denials and assists billing for implant supply charges.
+
+

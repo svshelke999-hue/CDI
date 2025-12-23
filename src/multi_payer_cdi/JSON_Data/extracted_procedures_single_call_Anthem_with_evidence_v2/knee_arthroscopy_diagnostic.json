@@ -1,0 +1,29 @@
+{
+  "procedure_id": "knee_arthroscopy_diagnostic",
+  "category": "Knee (Evidence: pg no: 2, L73)",
+  "section_title": "Diagnostic Arthroscopy (Evidence: pg no: 9, L392)",
+  "names": [
+    "Diagnostic arthroscopy (Evidence: pg no: 9, L392)"
+  ],
+  "description": "Diagnostic arthroscopy of the knee joint for synovial biopsy, tissue harvest, or when specific criteria are met (Evidence: pg no: 9, L393-L405)",
+  "scope": "Knee arthroscopy for diagnostic purposes (Evidence: pg no: 9, L392-L405)",
+  "general_requirements": {
+    "documentation": [
+      "Presence of ONE of the following symptoms: Significant pain and functional limitation, Instability, or Limited range of motion (Evidence: pg no: 9, L395-L398)",
+      "Presence of ONE of the following physical exam findings: Limited range of motion, Joint swelling, Inconclusive specific diagnostic exam maneuvers, or Local muscle weakness or atrophy (Evidence: pg no: 9, L399-L403)",
+      "Inconclusive x-ray and/or advanced imaging studies (Evidence: pg no: 9, L404)",
+      "Failure of at least 6 weeks of conservative management (Evidence: pg no: 9, L405)"
+    ]
+  },
+  "exclusions": [
+    "In-office diagnostic arthroscopy (e.g., mi-eye 2®) (Evidence: pg no: 9, L407)"
+  ],
+  "codes": [
+    {
+      "code": "29870",
+      "system": "CPT",
+      "description": "Arthroscopy, knee, diagnostic, with or without synovial biopsy (separate procedure) (Evidence: pg no: 16, L699)"
+    }
+  ],
+  "notes": ""
+}

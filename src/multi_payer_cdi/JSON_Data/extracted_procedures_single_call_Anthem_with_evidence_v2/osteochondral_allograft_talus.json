@@ -1,0 +1,18 @@
+{
+  "procedure_id": "osteochondral_allograft_talus",
+  "category": "Ankle (Evidence: pg no: 19, L826)",
+  "section_title": "Osteochondral Allograft Transplantation - Talus (Evidence: pg no: 21, L949)",
+  "names": [
+    "Osteochondral allograft transplantation (Evidence: pg no: 21, L950)"
+  ],
+  "description": "Osteochondral allograft transplantation to treat cartilaginous defects of the talus (Evidence: pg no: 21, L950-L956)",
+  "scope": "Treatment of talar cartilage defects (Evidence: pg no: 21, L949-L956)",
+  "general_requirements": {
+    "documentation": [
+      "EITHER large (area > 1.0 cm2) or cystic (volume > 3.0 cm3) osteochondral lesions of talus when autografting would be inadequate due to lesion size, depth, or location OR revision surgery after failed prior marrow stimulation for large or cystic osteochondral lesions (Evidence: pg no: 21, L952-L956)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [],
+  "notes": ""
+}

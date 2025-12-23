@@ -1,0 +1,38 @@
+{
+  "procedure_id": "labral_repair",
+  "category": "Shoulder (Evidence: pg no: 9, L372)",
+  "section_title": "Labral Repair (Evidence: pg no: 9, L372)",
+  "names": [
+    "Labral Repair (Evidence: pg no: 9, L372)",
+    "SLAP Repair (Evidence: pg no: 9, L382)",
+    "Bankart Repair (Evidence: pg no: 9, L382)"
+  ],
+  "description": "Repair of labral tears (e.g., SLAP, Bankart) with specific range of motion and orthopedic test requirements (Evidence: pg no: 9-10, L374-L402)",
+  "scope": "Arthroscopic or open labral repair (Evidence: pg no: 9, L374)",
+  "general_requirements": {
+    "documentation": [
+      "Function-limiting pain (Evidence: pg no: 9, L376-L378)",
+      "Failure of provider-directed non-surgical management for at least three (3) months in duration (Evidence: pg no: 9, L379-L380)",
+      "Advanced diagnostic imaging study (e.g., MRI, CT) demonstrates labral tear (e.g., SLAP, Bankart) and correlates with the individual's reported symptoms and physical exam findings (Evidence: pg no: 9, L381-L383)",
+      "Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain, cervical radiculopathy, and advanced glenohumeral osteoarthritis (Evidence: pg no: 9, L384-L386)",
+      "Minimally limited or full shoulder range of motion (Evidence: pg no: 9, L389)",
+      "ONE or MORE positive orthopedic tests including O'Brien's Test, Biceps Load Test, Clunk Test, Anterior Slide Test, Compression Rotation Test, Speed's Test, Modified dynamic labral shear (Evidence: pg no: 9-10, L390-L402)"
+    ]
+  },
+  "exclusions": [
+    "Any other indication or condition (Evidence: pg no: 10, L404-L405)"
+  ],
+  "codes": [
+    {
+      "code": "23455",
+      "system": "CPT",
+      "description": "Capsulorrhaphy, anterior; with labral repair (e.g. Bankart procedure) (Evidence: pg no: 13, L548)"
+    },
+    {
+      "code": "29807",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; repair of SLAP lesion (Evidence: pg no: 13, L558)"
+    }
+  ],
+  "notes": "Requires minimally limited or full range of motion and specific positive orthopedic tests (Evidence: pg no: 9-10, L387-L402)"
+}

@@ -1,0 +1,20 @@
+CHART: chart_04_hip_labral_fai.txt
+
+PRIMARY CDI FOCUS:
+- Quantify impingement morphology and traction metrics.
+- Strengthen documentation supporting combined labral repair and femoroplasty.
+
+RECOMMENDED IMPROVEMENTS:
+1. Morphology Measurements: Add alpha angle, lateral center-edge angle, and head-neck offset values from imaging or intraoperative assessment.
+2. Cartilage Grading: Document acetabular and femoral cartilage status using Outerbridge or Beck grading.
+3. Traction Time: Record total traction duration and intervals to comply with operative standards.
+4. Lesion Description: Describe labral tear extent in clock-face terms pre- and post-repair, including tissue quality.
+5. Implants: List anchor brand/size and orientation (trans-osseous vs. knotted) for supply reconciliation.
+6. Rehabilitation: Outline weight-bearing restrictions, brace settings, and specific therapy phases.
+7. Conservative Care: Summarize prior injections, physical therapy, or activity modification attempts with timelines.
+
+CODING IMPACT:
+- Supports CPT 29914 and 29916 when payer requests morphologic proof of impingement.
+- Detailed traction and implant data reduce documentation queries and speed utilization review approval.
+
+

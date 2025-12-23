@@ -1,0 +1,27 @@
+{
+  "procedure_id": "chondroplasty_debridement",
+  "category": "Knee (Evidence: pg no: 2, L73)",
+  "section_title": "Chondroplasty/Debridement (Evidence: pg no: 10, L457)",
+  "names": [
+    "Chondroplasty/debridement (Evidence: pg no: 10, L457)"
+  ],
+  "description": "Chondroplasty/debridement for specific criteria (Evidence: pg no: 10, L458-L466)",
+  "scope": "Smoothing or shaving of symptomatic partial-thickness cartilage lesions (Evidence: pg no: 8, L324-L325)",
+  "general_requirements": {
+    "documentation": [
+      "Pain or mechanical symptoms (Evidence: pg no: 10, L459)",
+      "Partial thickness cartilage lesion or unstable chondral flap documented by MRI (Evidence: pg no: 10, L460)",
+      "Failure to respond to at least a 6-week course of conservative management in the absence of a chondral flap (Evidence: pg no: 10, L461-L462)",
+      "Radiographic imaging consistent with Kellgren-Lawrence grade 2 or lower (Evidence: pg no: 10, L463)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "29877",
+      "system": "CPT",
+      "description": "Arthroscopy, knee, surgical; debridement/shaving of articular cartilage (chondroplasty) (Evidence: pg no: 16, L706)"
+    }
+  ],
+  "notes": "Chondroplasty performed along with meniscectomy in same knee is considered part of main procedure (Evidence: pg no: 10, L464-L466)"
+}

@@ -1,0 +1,25 @@
+{
+  "procedure_id": "distal_claviculectomy",
+  "category": "Shoulder (Evidence: pg no: 2, L79-L80)",
+  "section_title": "Distal Claviculectomy (Mumford Procedure) (Evidence: pg no: 2, L79-L80)",
+  "names": [
+    "Distal claviculectomy (Evidence: pg no: 2, L79)",
+    "Mumford procedure (Evidence: pg no: 2, L79-L80)"
+  ],
+  "description": "Arthroscopic surgical removal of the distal clavicle including distal articular surface (Evidence: pg no: 2, L79-L80)",
+  "scope": "Surgical removal of distal clavicle via arthroscopic approach (Evidence: pg no: 2, L79-L80)",
+  "general_requirements": {
+    "documentation": [
+      "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "29824",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; distal claviculectomy including distal articular surface (Mumford procedure) (Evidence: pg no: 2, L79-L80)"
+    }
+  ],
+  "notes": "Part of arthroscopic shoulder surgery procedures (Evidence: pg no: 2, L79-L80)"
+}

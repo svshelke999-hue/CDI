@@ -1,0 +1,34 @@
+{
+  "procedure_id": "lateral_retinacular_release",
+  "category": "Knee (Evidence: pg no: 2, L73)",
+  "section_title": "Patellar Compression Syndrome (Lateral Patellofemoral Impingement) (Evidence: pg no: 12, L549)",
+  "names": [
+    "Lateral retinacular release (Evidence: pg no: 12, L550)"
+  ],
+  "description": "Lateral retinacular release for patellar compression syndrome when specific criteria are met (Evidence: pg no: 12, L550-L558)",
+  "scope": "Treatment of lateral patellofemoral impingement (Evidence: pg no: 12, L549-L560)",
+  "general_requirements": {
+    "documentation": [
+      "Positive lateral patellar tilt established on imaging (axial view) (Evidence: pg no: 12, L551)",
+      "Failure of at least 6 months of conservative management (Evidence: pg no: 12, L552)",
+      "Radiographic imaging consistent with Kellgren-Lawrence grade 2 or lower patellofemoral osteoarthritis (Evidence: pg no: 12, L553)",
+      "At least ONE of the following: Positive patella glide test, Positive patella tilt test, or Lateral femoral trochlear or lateral patella facet cartilage lesion confirmed by imaging (Evidence: pg no: 12, L554-L558)"
+    ]
+  },
+  "exclusions": [
+    "Central or medial tracking of the patella (Evidence: pg no: 12, L560)"
+  ],
+  "codes": [
+    {
+      "code": "29873",
+      "system": "CPT",
+      "description": "Arthroscopy, knee, surgical; with lateral release (Evidence: pg no: 16, L701)"
+    },
+    {
+      "code": "27425",
+      "system": "CPT",
+      "description": "Lateral retinacular release, open (Evidence: pg no: 16, L693)"
+    }
+  ],
+  "notes": ""
+}

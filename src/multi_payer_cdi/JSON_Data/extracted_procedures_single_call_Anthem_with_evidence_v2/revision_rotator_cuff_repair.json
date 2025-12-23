@@ -1,0 +1,27 @@
+{
+  "procedure_id": "revision_rotator_cuff_repair",
+  "category": "Shoulder (Evidence: pg no: 12, L368)",
+  "section_title": "Revision Rotator Cuff Repair (Evidence: pg no: 15, L505)",
+  "names": [
+    "Revision Rotator Cuff Repair (Evidence: pg no: 15, L505)",
+    "Revision rotator cuff repair (Evidence: pg no: 15, L508)"
+  ],
+  "description": "Revision rotator cuff repair is considered medically necessary when ALL of the following criteria are met. (Evidence: pg no: 15, L509)",
+  "scope": "This guideline addresses shoulder arthroscopy and open procedures when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture. (Evidence: pg no: 12, L373-L374)",
+  "general_requirements": {
+    "documentation": [
+      "Documentation of nicotine-free status for at least 6 weeks prior to surgery (Evidence: pg no: 15, L510)",
+      "Shoulder pain ≥ 4 on the VAS scale exacerbated by movement (Evidence: pg no: 15, L511)",
+      "Weakness of rotator cuff muscle(s) (less than grade 4/5 on manual muscle testing) (Evidence: pg no: 15, L512)",
+      "Recent advanced imaging confirms a full thickness tear (Evidence: pg no: 15, L513)",
+      "Failure of at least 12 weeks of conservative management (Evidence: pg no: 15, L514)"
+    ]
+  },
+  "exclusions": [
+    "Recent history of a revision surgery (Evidence: pg no: 16, L524)",
+    "Rotator cuff arthropathy defined as a combination of arthritis and lack of rotator cuff (Evidence: pg no: 16, L525)",
+    "Wheelchair bound and/or assistive device dependent (Evidence: pg no: 16, L531)"
+  ],
+  "codes": [],
+  "notes": "Adherence to a tobacco cessation program resulting in abstinence from tobacco for at least 6 weeks prior to revision surgery is required. (Evidence: pg no: 15, L506-L507)"
+}

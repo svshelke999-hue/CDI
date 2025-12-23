@@ -1,0 +1,35 @@
+{
+  "procedure_id": "capsular_release_lysis_adhesions",
+  "category": "Shoulder (Evidence: pg no: 12, L488)",
+  "section_title": "Arthroscopic Capsular Release/Lysis of Adhesions (Evidence: pg no: 12, L488)",
+  "names": [
+    "Arthroscopic Capsular Release (Evidence: pg no: 12, L488)",
+    "Lysis of Adhesions (Evidence: pg no: 12, L488)"
+  ],
+  "description": "Arthroscopic capsular release/lysis of adhesions for chronic refractory adhesive capsulitis/arthrofibrosis with specific range of motion requirements (Evidence: pg no: 12, L490-L507)",
+  "scope": "Arthroscopic capsular release/lysis of adhesions for adhesive capsulitis/arthrofibrosis (Evidence: pg no: 12, L490-L492)",
+  "general_requirements": {
+    "documentation": [
+      "Function-limiting pain for at least six (6) months in duration (Evidence: pg no: 12, L494-L496)",
+      "Individual demonstrates functionally limited and painful global loss of active and passive range of motion of at least 50% when compared to the non-involved side (Evidence: pg no: 12, L497-L499)",
+      "Failure of provider-directed non-surgical management for at least three (3) months in duration, including a combination of anti-inflammatory medication, cortisone injection, and a trial of physical therapy (Evidence: pg no: 12, L500-L503)",
+      "Other potential diagnostic conditions including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain, cervical radiculopathy, and advanced glenohumeral osteoarthritis have been excluded (Evidence: pg no: 12, L504-L507)"
+    ]
+  },
+  "exclusions": [
+    "Any other indication or condition (Evidence: pg no: 12, L509-L510)"
+  ],
+  "codes": [
+    {
+      "code": "23020",
+      "system": "CPT",
+      "description": "Capsular contracture release (e.g. Sever type procedure) (Evidence: pg no: 13, L525)"
+    },
+    {
+      "code": "29825",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; with lysis and resection of adhesions, with or without manipulation (Evidence: pg no: 14, L580-L581)"
+    }
+  ],
+  "notes": "Requires at least 50% loss of range of motion and specific conservative management including anti-inflammatory medication, cortisone injection, and physical therapy (Evidence: pg no: 12, L498-L503)"
+}

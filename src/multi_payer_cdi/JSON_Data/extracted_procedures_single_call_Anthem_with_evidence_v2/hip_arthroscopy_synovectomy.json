@@ -1,0 +1,22 @@
+{
+  "procedure_id": "hip_arthroscopy_synovectomy",
+  "category": "Hip (Evidence: pg no: 1, L1)",
+  "section_title": "Hip Arthroscopy, Synovectomy (Evidence: pg no: 2, L61)",
+  "names": [
+    "Arthroscopy, hip, surgical; with synovectomy (Evidence: pg no: 2, L61)"
+  ],
+  "description": "Surgical arthroscopy of hip with synovectomy (Evidence: pg no: 2, L61)",
+  "scope": "Hip arthroscopic surgery (Evidence: pg no: 2, L61)",
+  "general_requirements": {
+    "documentation": []
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "29863",
+      "system": "CPT",
+      "description": "Arthroscopy, hip, surgical; with synovectomy (Evidence: pg no: 2, L61)"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,20 @@
+CHART: chart_08_osteochondral_allograft_knee.txt
+
+PRIMARY CDI FOCUS:
+- Provide lesion measurements and donor graft identifiers.
+- Clarify prior treatment failure justification.
+
+RECOMMENDED IMPROVEMENTS:
+1. Lesion Description: Document defect dimensions (length, width, depth) and location referencing clock-face or grid mapping.
+2. Donor Information: Record graft lot number, procurement source, and expiration to meet tissue tracking standards.
+3. Prior Procedures: Detail the previous microfracture (date, outcome) and other conservative measures such as injections or bracing.
+4. Cartilage Grading: Include Outerbridge grade and subchondral bone status.
+5. Fixation Technique: Note whether press-fit alone or adjunct fixation (screws/pins) was used.
+6. Blood Loss/Fluids: Provide precise EBL and whether tourniquet pressure/time met institutional protocols.
+7. Rehabilitation Plan: Outline weight-bearing progression, CPM duration, and restrictions to support medical necessity.
+
+CODING IMPACT:
+- Supports CPT 27415 or 29867 depending on approach; lesion metrics assist payer authorization.
+- Donor documentation satisfies regulatory tissue-tracking requirements.
+
+

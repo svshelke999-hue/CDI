@@ -1,0 +1,22 @@
+{
+  "procedure_id": "hip_arthroscopy_diagnostic",
+  "category": "Hip (Evidence: pg no: 1, L1)",
+  "section_title": "Hip Arthroscopy, Diagnostic (Evidence: pg no: 2, L57)",
+  "names": [
+    "Arthroscopy, hip, diagnostic (Evidence: pg no: 2, L57)"
+  ],
+  "description": "Diagnostic arthroscopy of hip with or without synovial biopsy (Evidence: pg no: 2, L57)",
+  "scope": "Separate procedure for hip diagnosis (Evidence: pg no: 2, L57)",
+  "general_requirements": {
+    "documentation": []
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "29860",
+      "system": "CPT",
+      "description": "Arthroscopy, hip, diagnostic with or without synovial biopsy (separate procedure) (Evidence: pg no: 2, L57)"
+    }
+  ],
+  "notes": ""
+}

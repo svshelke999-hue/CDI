@@ -1,0 +1,25 @@
+{
+  "procedure_id": "anterolateral_ligament_reconstruction",
+  "category": "Knee (Evidence: pg no: 2, L73)",
+  "section_title": "Anterolateral Ligament Reconstruction or Extra Articular Tenodesis (Evidence: pg no: 10, L503)",
+  "names": [
+    "Anterolateral ligament reconstruction (Evidence: pg no: 10, L503)",
+    "Extra articular tenodesis (Evidence: pg no: 10, L503)"
+  ],
+  "description": "Reconstruction of anterolateral ligament or extra articular tenodesis for knee stability (Evidence: pg no: 10, L504-L510)",
+  "scope": "Knee stability procedures (Evidence: pg no: 10, L503-L510)",
+  "general_requirements": {
+    "documentation": [
+      "ANY of the following criteria: Skeletal immaturity that makes ACL reconstruction not feasible, A revision ACL reconstruction is planned, Positive pivot shift or other evidence of rotational instability, or Ligamentous laxity as confirmed by Beighton or comparable score (Evidence: pg no: 10, L507-L510)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "27427",
+      "system": "CPT",
+      "description": "Ligamentous reconstruction (augmentation), knee; extra-articular (Evidence: pg no: 16, L694)"
+    }
+  ],
+  "notes": ""
+}

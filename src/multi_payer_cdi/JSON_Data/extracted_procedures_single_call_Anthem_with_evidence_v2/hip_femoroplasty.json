@@ -1,0 +1,23 @@
+{
+  "procedure_id": "hip_femoroplasty",
+  "category": "Hip (Evidence: pg no: 1, L1)",
+  "section_title": "Hip Femoroplasty (Evidence: pg no: 2, L62)",
+  "names": [
+    "Arthroscopy, hip, surgical; with femoroplasty (Evidence: pg no: 2, L62)",
+    "Treatment of cam lesion (Evidence: pg no: 2, L62)"
+  ],
+  "description": "Surgical arthroscopy of hip with femoroplasty for treatment of cam lesion (Evidence: pg no: 2, L62)",
+  "scope": "Hip arthroscopic surgery (Evidence: pg no: 2, L62)",
+  "general_requirements": {
+    "documentation": []
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "29914",
+      "system": "CPT",
+      "description": "Arthroscopy, hip, surgical; with femoroplasty (i.e., treatment of cam lesion) (Evidence: pg no: 2, L62)"
+    }
+  ],
+  "notes": ""
+}

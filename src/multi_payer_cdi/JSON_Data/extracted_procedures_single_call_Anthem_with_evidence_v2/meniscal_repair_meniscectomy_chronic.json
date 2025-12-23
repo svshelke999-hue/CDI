@@ -1,0 +1,42 @@
+{
+  "procedure_id": "meniscal_repair_meniscectomy_chronic",
+  "category": "Knee (Evidence: pg no: 2, L73)",
+  "section_title": "Meniscal Repair or Meniscectomy - Chronic Degenerative (Evidence: pg no: 10, L441)",
+  "names": [
+    "Chronic degenerative meniscal tear (Evidence: pg no: 10, L441)"
+  ],
+  "description": "Meniscal repair or meniscectomy for chronic degenerative meniscal tear without history of significant acute trauma (Evidence: pg no: 10, L442-L443)",
+  "scope": "Treatment of chronic degenerative meniscal tears (Evidence: pg no: 10, L441-L456)",
+  "general_requirements": {
+    "documentation": [
+      "Physical exam findings of at least TWO: Joint swelling or effusion, Positive McMurray or Apley test, Joint line tenderness, or Reduced range of motion (Evidence: pg no: 10, L444-L448)",
+      "Persistent or frequent mechanical symptoms or failure of conservative management for at least 3 months (Evidence: pg no: 10, L449-L450)",
+      "Imaging demonstrating a meniscal tear consistent with clinical presentation (Evidence: pg no: 10, L451)",
+      "X-ray findings demonstrating no more than moderate osteoarthritis (Evidence: pg no: 10, L452-L456)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "29880",
+      "system": "CPT",
+      "description": "Arthroscopy, knee, surgical; with meniscectomy (medial AND lateral, including any meniscal shaving) including debridement/shaving of articular cartilage (chondroplasty), same or separate compartment(s), when performed (Evidence: pg no: 16, L709-L710)"
+    },
+    {
+      "code": "29881",
+      "system": "CPT",
+      "description": "Arthroscopy, knee, surgical; with meniscectomy (medial OR lateral, including any meniscal shaving) including debridement/shaving of articular cartilage (chondroplasty), same or separate compartment(s), when performed (Evidence: pg no: 16, L711-L712)"
+    },
+    {
+      "code": "29882",
+      "system": "CPT",
+      "description": "Arthroscopy, knee, surgical; with meniscus repair (medial OR lateral) (Evidence: pg no: 16, L713)"
+    },
+    {
+      "code": "29883",
+      "system": "CPT",
+      "description": "Arthroscopy, knee, surgical; with meniscus repair (medial AND lateral) (Evidence: pg no: 16, L714)"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,39 @@
+{
+  "procedure_id": "shoulder_synovectomy",
+  "category": "Shoulder (Evidence: pg no: 12, L368)",
+  "section_title": "Synovectomy (Evidence: pg no: 18, L607)",
+  "names": [
+    "Synovectomy (Evidence: pg no: 18, L607)",
+    "Partial synovectomy (Evidence: pg no: 18, L611)",
+    "Complete synovectomy (Evidence: pg no: 18, L611)"
+  ],
+  "description": "Synovectomy refers to removal of the synovial lining of the joint when it has become symptomatic due to inflammation, irritation, or pathology. Synovectomy may be performed in a single joint compartment (limited) or multiple compartments (extensive). (Evidence: pg no: 18, L608-L610)",
+  "scope": "This guideline addresses shoulder arthroscopy and open procedures when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture. (Evidence: pg no: 12, L373-L374)",
+  "general_requirements": {
+    "documentation": [
+      "Symptomatic (pain, swelling, limited function) synovitis caused by ANY of the following: Synovial plica (partial synovectomy), Inflammatory arthritides (e.g., rheumatoid arthritis, psoriatic arthritis), Crystalline arthropathy (e.g., gout, pseudogout), Felty's syndrome, Pigmented villonodular synovitis (PVNS), Synovial hemangioma, Synovial chondromatosis/osteochondromatosis, Hemophilic synovitis or arthropathy, Infection (bacterial or fungal septic arthritis) (Evidence: pg no: 18, L613-L622)",
+      "Failure of at least (6) 12 weeks of conservative management (Evidence: pg no: 18, L623)"
+    ]
+  },
+  "exclusions": [
+    "Synovectomy performed solely for visualization or approach, traumatic reactive synovitis (Evidence: pg no: 18, L625)"
+  ],
+  "codes": [
+    {
+      "code": "23105",
+      "system": "CPT",
+      "description": "Arthrotomy; glenohumeral joint, with synovectomy, with or without biopsy (Evidence: pg no: 20, L703)"
+    },
+    {
+      "code": "29820",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; synovectomy, partial (Evidence: pg no: 20, L724)"
+    },
+    {
+      "code": "29821",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; synovectomy, complete (Evidence: pg no: 20, L725)"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,534 @@
+{
+  "document_info": {
+    "title": "Surgery of the Shoulder (Evidence: pg no: 1, L1, L6)",
+    "payer": "UnitedHealthcare Commercial and Individual Exchange (Evidence: pg no: 1, L2, L4)",
+    "date": "May 1, 2025 (Evidence: pg no: 1, L8)",
+    "total_procedures": 19
+  },
+  "procedures": [
+    {
+      "procedure_id": "arthroscopy_shoulder_diagnostic",
+      "category": "Shoulder (Evidence: pg no: 1, L28)",
+      "section_title": "Arthroscopy, Diagnostic, +/- Synovial Biopsy, Shoulder (Evidence: pg no: 1, L30)",
+      "names": [
+        "Arthroscopy, shoulder, diagnostic, with or without synovial biopsy (Evidence: pg no: 2, L67)"
+      ],
+      "description": "Diagnostic arthroscopy of the shoulder with or without synovial biopsy as a separate procedure (Evidence: pg no: 2, L67)",
+      "scope": "Diagnostic procedure for shoulder evaluation (Evidence: pg no: 2, L67)",
+      "general_requirements": {
+        "documentation": [
+          "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "29805",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, diagnostic, with or without synovial biopsy (separate procedure) (Evidence: pg no: 2, L67)"
+        }
+      ],
+      "notes": "Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)"
+    },
+    {
+      "procedure_id": "arthroscopy_shoulder_surgical",
+      "category": "Shoulder (Evidence: pg no: 1, L28)",
+      "section_title": "Arthroscopy or Arthroscopically Assisted Surgery, Shoulder (Evidence: pg no: 1, L28)",
+      "names": [
+        "Arthroscopy or Arthroscopically Assisted Surgery, Shoulder (Evidence: pg no: 1, L28)",
+        "Arthroscopy or Arthroscopically Assisted Surgery, Shoulder (Adolescent) (Evidence: pg no: 1, L29)"
+      ],
+      "description": "Surgical arthroscopy of the shoulder including various procedures such as capsulorrhaphy, SLAP repair, loose body removal, synovectomy, debridement, and other surgical interventions (Evidence: pg no: 2, L68-L86)",
+      "scope": "Surgical treatment of shoulder conditions via arthroscopic approach (Evidence: pg no: 2, L68-L86)",
+      "general_requirements": {
+        "documentation": [
+          "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "29806",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; capsulorrhaphy (Evidence: pg no: 2, L68)"
+        },
+        {
+          "code": "29807",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; repair of slap lesion (Evidence: pg no: 2, L69)"
+        },
+        {
+          "code": "29819",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; with removal of loose body or foreign body (Evidence: pg no: 2, L70)"
+        },
+        {
+          "code": "29820",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; synovectomy, partial (Evidence: pg no: 2, L71)"
+        },
+        {
+          "code": "29821",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; synovectomy, complete (Evidence: pg no: 2, L72)"
+        },
+        {
+          "code": "29822",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; debridement, limited, 1 or 2 discrete structures (Evidence: pg no: 2, L73-L75)"
+        },
+        {
+          "code": "29823",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; debridement, extensive, 3 or more discrete structures (Evidence: pg no: 2, L76-L78)"
+        },
+        {
+          "code": "29824",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; distal claviculectomy including distal articular surface (Mumford procedure) (Evidence: pg no: 2, L79-L80)"
+        },
+        {
+          "code": "29825",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; with lysis and resection of adhesions, with or without manipulation (Evidence: pg no: 2, L81)"
+        },
+        {
+          "code": "29826",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; decompression of subacromial space with partial acromioplasty, with coracoacromial ligament release, when performed (Evidence: pg no: 2, L82-L83)"
+        },
+        {
+          "code": "29827",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; with rotator cuff repair (Evidence: pg no: 2, L84)"
+        },
+        {
+          "code": "29828",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; biceps tenodesis (Evidence: pg no: 2, L85)"
+        },
+        {
+          "code": "29999",
+          "system": "CPT",
+          "description": "Unlisted procedure, arthroscopy (Evidence: pg no: 2, L86)"
+        }
+      ],
+      "notes": "Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)"
+    },
+    {
+      "procedure_id": "arthrotomy_shoulder",
+      "category": "Shoulder (Evidence: pg no: 1, L31)",
+      "section_title": "Arthrotomy, Shoulder (Evidence: pg no: 1, L31)",
+      "names": [
+        "Arthrotomy, Shoulder (Evidence: pg no: 1, L31)"
+      ],
+      "description": "Open surgical procedure involving incision into the shoulder joint (Evidence: pg no: 1, L31)",
+      "scope": "Open surgical treatment of shoulder conditions (Evidence: pg no: 1, L31)",
+      "general_requirements": {
+        "documentation": [
+          "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [],
+      "notes": "Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)"
+    },
+    {
+      "procedure_id": "joint_replacement_shoulder",
+      "category": "Shoulder (Evidence: pg no: 1, L32)",
+      "section_title": "Joint Replacement, Shoulder (Evidence: pg no: 1, L32)",
+      "names": [
+        "Joint Replacement, Shoulder (Evidence: pg no: 1, L32)",
+        "Arthroplasty, glenohumeral joint (Evidence: pg no: 2, L60-L62)"
+      ],
+      "description": "Surgical replacement of the shoulder joint including hemiarthroplasty and total shoulder replacement (Evidence: pg no: 2, L60-L62)",
+      "scope": "Joint replacement surgery for shoulder conditions (Evidence: pg no: 1, L32)",
+      "general_requirements": {
+        "documentation": [
+          "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "23470",
+          "system": "CPT",
+          "description": "Arthroplasty, glenohumeral joint; hemiarthroplasty (Evidence: pg no: 2, L60)"
+        },
+        {
+          "code": "23472",
+          "system": "CPT",
+          "description": "Arthroplasty, glenohumeral joint; total shoulder (glenoid and proximal humeral replacement (e.g., total shoulder) (Evidence: pg no: 2, L61-L62)"
+        }
+      ],
+      "notes": "Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)"
+    },
+    {
+      "procedure_id": "removal_replacement_tjr_shoulder",
+      "category": "Shoulder (Evidence: pg no: 1, L33)",
+      "section_title": "Removal and Replacement, Total Joint Replacement (TJR), Shoulder (Evidence: pg no: 1, L33)",
+      "names": [
+        "Removal and Replacement, Total Joint Replacement (TJR), Shoulder (Evidence: pg no: 1, L33)"
+      ],
+      "description": "Surgical removal and replacement of total joint replacement components in the shoulder (Evidence: pg no: 1, L33)",
+      "scope": "Revision surgery for shoulder joint replacement (Evidence: pg no: 1, L33)",
+      "general_requirements": {
+        "documentation": [
+          "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [],
+      "notes": "Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)"
+    },
+    {
+      "procedure_id": "revision_tjr_shoulder",
+      "category": "Shoulder (Evidence: pg no: 1, L34)",
+      "section_title": "Revision, Total Joint Replacement (TJR), Shoulder (Evidence: pg no: 1, L34)",
+      "names": [
+        "Revision, Total Joint Replacement (TJR), Shoulder (Custom) - UHG (Evidence: pg no: 1, L34)",
+        "Revision of total shoulder arthroplasty (Evidence: pg no: 2, L63-L66)"
+      ],
+      "description": "Revision surgery of total shoulder arthroplasty including allograft when performed, involving humeral or glenoid component or both (Evidence: pg no: 2, L63-L66)",
+      "scope": "Revision surgery for failed or problematic shoulder joint replacement (Evidence: pg no: 1, L34)",
+      "general_requirements": {
+        "documentation": [
+          "Medical necessity clinical coverage criteria per InterQual Client Defined, CP: Procedures (Evidence: pg no: 1, L34)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "23473",
+          "system": "CPT",
+          "description": "Revision of total shoulder arthroplasty, including allograft when performed; humeral or glenoid component (Evidence: pg no: 2, L63-L64)"
+        },
+        {
+          "code": "23474",
+          "system": "CPT",
+          "description": "Revision of total shoulder arthroplasty, including allograft when performed; humeral and glenoid component (Evidence: pg no: 2, L65-L66)"
+        }
+      ],
+      "notes": "Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)"
+    },
+    {
+      "procedure_id": "subacromial_balloon_spacers",
+      "category": "Shoulder (Evidence: pg no: 2, L89)",
+      "section_title": "Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)",
+      "names": [
+        "Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)",
+        "InSpace™ Subacromial Tissue Spacer System (Evidence: pg no: 2, L90)",
+        "Subacromial balloon spacer implantation (SBSI) (Evidence: pg no: 3, L124)",
+        "InSpace Biodegradable Subacromial Spacer (Evidence: pg no: 5, L254)"
+      ],
+      "description": "A minimally invasive, biodegradable balloon spacer for treating massive, inoperable rotator cuff tears (MIRCTs). It preserves musculoskeletal and bone tissues, does not require the use of an anchor, and does not require a permanent implant. It is used as a spacer to eliminate friction between the acromion and the humeral head or rotator cuff to restore shoulder function and reduce pain. It is designed to biodegrade over the course of twelve months (Evidence: pg no: 2, L90-L93)",
+      "scope": "Treatment of massive, irreparable rotator cuff tears (Evidence: pg no: 2, L90-L91)",
+      "general_requirements": {
+        "documentation": [
+          "Medical records documentation may be required to assess whether the member meets the clinical criteria for coverage (Evidence: pg no: 1, L40-L42)"
+        ]
+      },
+      "exclusions": [
+        "Unproven and not medically necessary due to insufficient evidence of efficacy (Evidence: pg no: 1, L37-L38)"
+      ],
+      "codes": [],
+      "notes": "The current published literature is at high-risk of bias due to the small sample size, single-center focus, retrospective design, and lack of randomization, blinding, and control. There are device-related complications, and long-term studies are necessary as short-term results appear to degrade over time (Evidence: pg no: 2, L94-L97)"
+    },
+    {
+      "procedure_id": "capsulorrhaphy_shoulder",
+      "category": "Shoulder (Evidence: pg no: 2, L68)",
+      "section_title": "Shoulder Capsulorrhaphy (Evidence: pg no: 2, L68)",
+      "names": [
+        "Capsulorrhaphy (Evidence: pg no: 2, L68)"
+      ],
+      "description": "Arthroscopic surgical repair of the shoulder capsule (Evidence: pg no: 2, L68)",
+      "scope": "Surgical repair of shoulder capsule via arthroscopic approach (Evidence: pg no: 2, L68)",
+      "general_requirements": {
+        "documentation": [
+          "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "29806",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; capsulorrhaphy (Evidence: pg no: 2, L68)"
+        }
+      ],
+      "notes": "Part of arthroscopic shoulder surgery procedures (Evidence: pg no: 2, L68)"
+    },
+    {
+      "procedure_id": "slap_repair",
+      "category": "Shoulder (Evidence: pg no: 2, L69)",
+      "section_title": "SLAP Lesion Repair (Evidence: pg no: 2, L69)",
+      "names": [
+        "Repair of SLAP lesion (Evidence: pg no: 2, L69)"
+      ],
+      "description": "Arthroscopic surgical repair of superior labrum anterior to posterior (SLAP) lesion (Evidence: pg no: 2, L69)",
+      "scope": "Surgical repair of SLAP lesions via arthroscopic approach (Evidence: pg no: 2, L69)",
+      "general_requirements": {
+        "documentation": [
+          "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "29807",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; repair of slap lesion (Evidence: pg no: 2, L69)"
+        }
+      ],
+      "notes": "Part of arthroscopic shoulder surgery procedures (Evidence: pg no: 2, L69)"
+    },
+    {
+      "procedure_id": "loose_body_removal_shoulder",
+      "category": "Shoulder (Evidence: pg no: 2, L70)",
+      "section_title": "Loose Body or Foreign Body Removal (Evidence: pg no: 2, L70)",
+      "names": [
+        "Removal of loose body or foreign body (Evidence: pg no: 2, L70)"
+      ],
+      "description": "Arthroscopic surgical removal of loose body or foreign body from the shoulder (Evidence: pg no: 2, L70)",
+      "scope": "Surgical removal of loose or foreign bodies via arthroscopic approach (Evidence: pg no: 2, L70)",
+      "general_requirements": {
+        "documentation": [
+          "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "29819",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; with removal of loose body or foreign body (Evidence: pg no: 2, L70)"
+        }
+      ],
+      "notes": "Part of arthroscopic shoulder surgery procedures (Evidence: pg no: 2, L70)"
+    },
+    {
+      "procedure_id": "synovectomy_shoulder",
+      "category": "Shoulder (Evidence: pg no: 2, L71-L72)",
+      "section_title": "Shoulder Synovectomy (Evidence: pg no: 2, L71-L72)",
+      "names": [
+        "Synovectomy, partial (Evidence: pg no: 2, L71)",
+        "Synovectomy, complete (Evidence: pg no: 2, L72)"
+      ],
+      "description": "Arthroscopic surgical removal of synovial tissue from the shoulder, either partial or complete (Evidence: pg no: 2, L71-L72)",
+      "scope": "Surgical removal of synovial tissue via arthroscopic approach (Evidence: pg no: 2, L71-L72)",
+      "general_requirements": {
+        "documentation": [
+          "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "29820",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; synovectomy, partial (Evidence: pg no: 2, L71)"
+        },
+        {
+          "code": "29821",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; synovectomy, complete (Evidence: pg no: 2, L72)"
+        }
+      ],
+      "notes": "Part of arthroscopic shoulder surgery procedures (Evidence: pg no: 2, L71-L72)"
+    },
+    {
+      "procedure_id": "shoulder_debridement",
+      "category": "Shoulder (Evidence: pg no: 2, L73-L78)",
+      "section_title": "Shoulder Debridement (Evidence: pg no: 2, L73-L78)",
+      "names": [
+        "Debridement, limited (Evidence: pg no: 2, L73)",
+        "Debridement, extensive (Evidence: pg no: 2, L76)"
+      ],
+      "description": "Arthroscopic surgical debridement of shoulder structures, either limited (1 or 2 discrete structures) or extensive (3 or more discrete structures) including humeral bone, humeral articular cartilage, glenoid bone, glenoid articular cartilage, biceps tendon, biceps anchor complex, labrum, articular capsule, articular side of the rotator cuff, bursal side of the rotator cuff, subacromial bursa, foreign body(ies) (Evidence: pg no: 2, L73-L78)",
+      "scope": "Surgical debridement of shoulder structures via arthroscopic approach (Evidence: pg no: 2, L73-L78)",
+      "general_requirements": {
+        "documentation": [
+          "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "29822",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; debridement, limited, 1 or 2 discrete structures (Evidence: pg no: 2, L73-L75)"
+        },
+        {
+          "code": "29823",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; debridement, extensive, 3 or more discrete structures (Evidence: pg no: 2, L76-L78)"
+        }
+      ],
+      "notes": "Part of arthroscopic shoulder surgery procedures (Evidence: pg no: 2, L73-L78)"
+    },
+    {
+      "procedure_id": "distal_claviculectomy",
+      "category": "Shoulder (Evidence: pg no: 2, L79-L80)",
+      "section_title": "Distal Claviculectomy (Mumford Procedure) (Evidence: pg no: 2, L79-L80)",
+      "names": [
+        "Distal claviculectomy (Evidence: pg no: 2, L79)",
+        "Mumford procedure (Evidence: pg no: 2, L79-L80)"
+      ],
+      "description": "Arthroscopic surgical removal of the distal clavicle including distal articular surface (Evidence: pg no: 2, L79-L80)",
+      "scope": "Surgical removal of distal clavicle via arthroscopic approach (Evidence: pg no: 2, L79-L80)",
+      "general_requirements": {
+        "documentation": [
+          "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "29824",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; distal claviculectomy including distal articular surface (Mumford procedure) (Evidence: pg no: 2, L79-L80)"
+        }
+      ],
+      "notes": "Part of arthroscopic shoulder surgery procedures (Evidence: pg no: 2, L79-L80)"
+    },
+    {
+      "procedure_id": "adhesion_lysis_shoulder",
+      "category": "Shoulder (Evidence: pg no: 2, L81)",
+      "section_title": "Lysis and Resection of Adhesions (Evidence: pg no: 2, L81)",
+      "names": [
+        "Lysis and resection of adhesions (Evidence: pg no: 2, L81)"
+      ],
+      "description": "Arthroscopic surgical lysis and resection of adhesions, with or without manipulation (Evidence: pg no: 2, L81)",
+      "scope": "Surgical treatment of shoulder adhesions via arthroscopic approach (Evidence: pg no: 2, L81)",
+      "general_requirements": {
+        "documentation": [
+          "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "29825",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; with lysis and resection of adhesions, with or without manipulation (Evidence: pg no: 2, L81)"
+        }
+      ],
+      "notes": "Part of arthroscopic shoulder surgery procedures (Evidence: pg no: 2, L81)"
+    },
+    {
+      "procedure_id": "subacromial_decompression",
+      "category": "Shoulder (Evidence: pg no: 2, L82-L83)",
+      "section_title": "Subacromial Decompression with Acromioplasty (Evidence: pg no: 2, L82-L83)",
+      "names": [
+        "Decompression of subacromial space with partial acromioplasty (Evidence: pg no: 2, L82-L83)"
+      ],
+      "description": "Arthroscopic surgical decompression of subacromial space with partial acromioplasty, with coracoacromial ligament (arch) release, when performed (Evidence: pg no: 2, L82-L83)",
+      "scope": "Surgical decompression of subacromial space via arthroscopic approach (Evidence: pg no: 2, L82-L83)",
+      "general_requirements": {
+        "documentation": [
+          "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "29826",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; decompression of subacromial space with partial acromioplasty, with coracoacromial ligament (i.e., arch) release, when performed (Evidence: pg no: 2, L82-L83)"
+        }
+      ],
+      "notes": "Listed separately in addition to code for primary procedure (Evidence: pg no: 2, L82-L83)"
+    },
+    {
+      "procedure_id": "rotator_cuff_repair",
+      "category": "Shoulder (Evidence: pg no: 2, L84)",
+      "section_title": "Rotator Cuff Repair (Evidence: pg no: 2, L84)",
+      "names": [
+        "Rotator cuff repair (Evidence: pg no: 2, L84)"
+      ],
+      "description": "Arthroscopic surgical repair of the rotator cuff (Evidence: pg no: 2, L84)",
+      "scope": "Surgical repair of rotator cuff via arthroscopic approach (Evidence: pg no: 2, L84)",
+      "general_requirements": {
+        "documentation": [
+          "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "29827",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; with rotator cuff repair (Evidence: pg no: 2, L84)"
+        }
+      ],
+      "notes": "Part of arthroscopic shoulder surgery procedures (Evidence: pg no: 2, L84)"
+    },
+    {
+      "procedure_id": "biceps_tenodesis",
+      "category": "Shoulder (Evidence: pg no: 2, L85)",
+      "section_title": "Biceps Tenodesis (Evidence: pg no: 2, L85)",
+      "names": [
+        "Biceps tenodesis (Evidence: pg no: 2, L85)"
+      ],
+      "description": "Arthroscopic surgical biceps tenodesis procedure (Evidence: pg no: 2, L85)",
+      "scope": "Surgical treatment of biceps tendon via arthroscopic approach (Evidence: pg no: 2, L85)",
+      "general_requirements": {
+        "documentation": [
+          "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "29828",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; biceps tenodesis (Evidence: pg no: 2, L85)"
+        }
+      ],
+      "notes": "Part of arthroscopic shoulder surgery procedures (Evidence: pg no: 2, L85)"
+    },
+    {
+      "procedure_id": "unlisted_arthroscopy",
+      "category": "Shoulder (Evidence: pg no: 2, L86)",
+      "section_title": "Unlisted Arthroscopy Procedure (Evidence: pg no: 2, L86)",
+      "names": [
+        "Unlisted procedure, arthroscopy (Evidence: pg no: 2, L86)"
+      ],
+      "description": "Unlisted arthroscopic procedure not otherwise specified (Evidence: pg no: 2, L86)",
+      "scope": "Unlisted arthroscopic procedures (Evidence: pg no: 2, L86)",
+      "general_requirements": {
+        "documentation": [
+          "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "29999",
+          "system": "CPT",
+          "description": "Unlisted procedure, arthroscopy (Evidence: pg no: 2, L86)"
+        }
+      ],
+      "notes": "Used for arthroscopic procedures not covered by other specific codes (Evidence: pg no: 2, L86)"
+    },
+    {
+      "procedure_id": "reverse_total_shoulder_arthroplasty",
+      "category": "Shoulder (Evidence: pg no: 3, L113, L117)",
+      "section_title": "Reverse Total Shoulder Arthroplasty (RTSA) (Evidence: pg no: 3, L117)",
+      "names": [
+        "Reverse total shoulder arthroplasty (Evidence: pg no: 3, L113)",
+        "RTSA (Evidence: pg no: 3, L117)"
+      ],
+      "description": "Surgical procedure involving reverse total shoulder arthroplasty, often used as a salvage procedure for failed treatments (Evidence: pg no: 3, L113, L117, L162)",
+      "scope": "Salvage procedure for failed shoulder treatments (Evidence: pg no: 4, L162)",
+      "general_requirements": {
+        "documentation": [
+          "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [],
+      "notes": "Mean time to conversion to reverse total shoulder arthroplasty was 11.0 versus 25.4 months for SAB versus debridement arm. 5% of participants needed salvage reverse shoulder arthroplasty (Evidence: pg no: 3, L113-L114, L162)"
+    }
+  ]
+}

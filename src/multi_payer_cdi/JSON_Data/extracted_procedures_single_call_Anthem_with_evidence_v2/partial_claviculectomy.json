@@ -1,0 +1,34 @@
+{
+  "procedure_id": "partial_claviculectomy",
+  "category": "Shoulder (Evidence: pg no: 12, L368)",
+  "section_title": "Partial claviculectomy (Evidence: pg no: 17, L560)",
+  "names": [
+    "Partial claviculectomy (Evidence: pg no: 17, L560)",
+    "Mumford procedure (Evidence: pg no: 17, L560)"
+  ],
+  "description": "Partial claviculectomy (includes Mumford procedure) is considered medically necessary when ALL of the following criteria are met. (Evidence: pg no: 17, L560-L561)",
+  "scope": "This guideline addresses shoulder arthroscopy and open procedures when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture. (Evidence: pg no: 12, L373-L374)",
+  "general_requirements": {
+    "documentation": [
+      "Pain at the acromioclavicular (AC) joint aggravated by shoulder motion (Evidence: pg no: 17, L562)",
+      "Positive cross-arm adduction test (Evidence: pg no: 17, L563)",
+      "Tenderness over the acromioclavicular joint (Evidence: pg no: 17, L564)",
+      "Imaging findings (x-ray or MRI) consistent with acromioclavicular joint arthritis (Evidence: pg no: 17, L565)",
+      "Failure of at least 12 weeks of conservative management (Evidence: pg no: 17, L569)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "23120",
+      "system": "CPT",
+      "description": "Claviculectomy; partial (Evidence: pg no: 20, L705)"
+    },
+    {
+      "code": "29824",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; distal claviculectomy including distal articular surface (Evidence: pg no: 21, L735)"
+    }
+  ],
+  "notes": "For acromioclavicular arthritis. (Evidence: pg no: 17, L559)"
+}

@@ -1,0 +1,24 @@
+{
+  "procedure_id": "capsulorrhaphy_shoulder",
+  "category": "Shoulder (Evidence: pg no: 2, L68)",
+  "section_title": "Shoulder Capsulorrhaphy (Evidence: pg no: 2, L68)",
+  "names": [
+    "Capsulorrhaphy (Evidence: pg no: 2, L68)"
+  ],
+  "description": "Arthroscopic surgical repair of the shoulder capsule (Evidence: pg no: 2, L68)",
+  "scope": "Surgical repair of shoulder capsule via arthroscopic approach (Evidence: pg no: 2, L68)",
+  "general_requirements": {
+    "documentation": [
+      "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "29806",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; capsulorrhaphy (Evidence: pg no: 2, L68)"
+    }
+  ],
+  "notes": "Part of arthroscopic shoulder surgery procedures (Evidence: pg no: 2, L68)"
+}

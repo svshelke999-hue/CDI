@@ -1,0 +1,26 @@
+{
+  "procedure_id": "osteochondritis_dissecans_juvenile",
+  "category": "Multiple Joints (Evidence: pg no: 19, L826)",
+  "section_title": "Osteochondritis Dissecans (Juvenile) (Evidence: pg no: 21, L928)",
+  "names": [
+    "Juvenile OCD (Evidence: pg no: 21, L928)",
+    "JOCD (Evidence: pg no: 21, L925)"
+  ],
+  "description": "Surgical treatment for juvenile osteochondritis dissecans occurring with open epiphyseal plate (Evidence: pg no: 21, L925-L933)",
+  "scope": "Treatment of OCD in children and adolescents (Evidence: pg no: 21, L922-L933)",
+  "general_requirements": {
+    "documentation": [
+      "Failure of 3 months of conservative management (e.g., immobilization, restricted weight-bearing, avoidance of sports activities) (Evidence: pg no: 21, L931-L932)",
+      "Presence of an unstable lesion (based on advanced imaging or arthroscopic evaluation) (Evidence: pg no: 21, L933)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "29879",
+      "system": "CPT",
+      "description": "Arthroscopy, knee, surgical; abrasion arthroplasty (includes chondroplasty where necessary) or multiple drilling or microfracture (Evidence: pg no: 24, L1062-L1063)"
+    }
+  ],
+  "notes": "OCD affects medial or lateral femoral condyles, not patella, femoral trochlea, or tibial plateau (Evidence: pg no: 21, L924-L925)"
+}

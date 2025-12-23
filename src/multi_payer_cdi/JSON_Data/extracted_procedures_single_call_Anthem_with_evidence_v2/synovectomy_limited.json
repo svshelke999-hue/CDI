@@ -1,0 +1,25 @@
+{
+  "procedure_id": "synovectomy_limited",
+  "category": "Knee (Evidence: pg no: 2, L73)",
+  "section_title": "Synovectomy (Limited) (Evidence: pg no: 13, L603)",
+  "names": [
+    "Limited synovial excision (Evidence: pg no: 13, L604)"
+  ],
+  "description": "Limited synovial excision when specific criteria are met (Evidence: pg no: 13, L604-L609)",
+  "scope": "Treatment of localized synovial proliferative processes (Evidence: pg no: 13, L603-L609)",
+  "general_requirements": {
+    "documentation": [
+      "EITHER imaging confirmation of primary localized synovial proliferative process OR physical exam findings and/or symptoms correlate with synovial proliferative process (Evidence: pg no: 13, L605-L608)",
+      "Documentation of at least 12 weeks of conservative management (Evidence: pg no: 13, L609)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "29875",
+      "system": "CPT",
+      "description": "Arthroscopy, knee, surgical; synovectomy, limited (eg, plica or shelf resection) (separate procedure) (Evidence: pg no: 16, L704)"
+    }
+  ],
+  "notes": ""
+}

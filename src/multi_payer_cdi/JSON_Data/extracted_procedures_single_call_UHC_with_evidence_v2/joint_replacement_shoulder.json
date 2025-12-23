@@ -1,0 +1,30 @@
+{
+  "procedure_id": "joint_replacement_shoulder",
+  "category": "Shoulder (Evidence: pg no: 1, L32)",
+  "section_title": "Joint Replacement, Shoulder (Evidence: pg no: 1, L32)",
+  "names": [
+    "Joint Replacement, Shoulder (Evidence: pg no: 1, L32)",
+    "Arthroplasty, glenohumeral joint (Evidence: pg no: 2, L60-L62)"
+  ],
+  "description": "Surgical replacement of the shoulder joint including hemiarthroplasty and total shoulder replacement (Evidence: pg no: 2, L60-L62)",
+  "scope": "Joint replacement surgery for shoulder conditions (Evidence: pg no: 1, L32)",
+  "general_requirements": {
+    "documentation": [
+      "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "23470",
+      "system": "CPT",
+      "description": "Arthroplasty, glenohumeral joint; hemiarthroplasty (Evidence: pg no: 2, L60)"
+    },
+    {
+      "code": "23472",
+      "system": "CPT",
+      "description": "Arthroplasty, glenohumeral joint; total shoulder (glenoid and proximal humeral replacement (e.g., total shoulder) (Evidence: pg no: 2, L61-L62)"
+    }
+  ],
+  "notes": "Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)"
+}

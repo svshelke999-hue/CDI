@@ -1,0 +1,128 @@
+OPERATIVE REPORT
+
+Patient Name: Sarah Johnson
+MRN: 987654321
+Date of Service: October 16, 2025
+Surgeon: Dr. Michael Brown, MD
+
+PROCEDURES PERFORMED:
+1. Arthroscopic rotator cuff repair, right shoulder
+2. Arthroscopic labral repair, right shoulder
+
+INDICATIONS:
+The patient is a 52-year-old female with a full-thickness rotator cuff tear and 
+labral pathology of the right shoulder. She has failed extensive conservative 
+management including physical therapy for 6 months and multiple corticosteroid 
+injections.
+
+PREOPERATIVE DIAGNOSIS:
+1. Full-thickness rotator cuff tear, right shoulder, supraspinatus tendon
+2. Superior labral tear (SLAP lesion), right shoulder
+3. Chronic shoulder pain with functional limitations
+
+POSTOPERATIVE DIAGNOSIS: Same as above
+
+PROCEDURE IN DETAIL:
+
+The patient was brought to the operating room and placed in beach chair position. 
+General anesthesia with interscalene block was administered. The right upper 
+extremity was prepped and draped in standard sterile fashion.
+
+DIAGNOSTIC ARTHROSCOPY:
+Standard posterior portal was established. Glenohumeral joint was inspected 
+revealing a superior labral tear extending from 10 o'clock to 2 o'clock position. 
+The biceps anchor was intact.
+
+LABRAL REPAIR:
+The labral tear was debrided back to stable tissue. Two knotless suture anchors 
+were placed at the superior glenoid to repair the SLAP lesion. The labrum was 
+securely reattached with good tissue quality.
+
+ROTATOR CUFF REPAIR:
+The arthroscope was moved to the subacromial space. A full-thickness tear of the 
+supraspinatus tendon measuring 2 cm x 1.5 cm was identified. The tear edges were 
+freshened and mobilized.
+
+The footprint on the greater tuberosity was prepared with removal of soft tissue 
+and light decortication. Two medial row anchors were placed followed by two 
+lateral row knotless anchors in a double-row configuration. The repair showed 
+excellent tissue quality and coverage of the footprint.
+
+CONSERVATIVE MANAGEMENT HISTORY:
+- Physical therapy: 24 weeks of dedicated rotator cuff rehabilitation
+  (documented sessions from 4/1/2025 to 9/30/2025)
+- Medications: NSAIDs (naproxen 500mg BID) for 20 weeks with minimal relief
+- Corticosteroid injections: 3 subacromial injections over 6 months, 
+  temporary relief only (4-6 weeks duration each)
+- Activity modification with persistent symptoms
+- Home exercise program with resistance band training, documented compliance
+- Ice therapy and anti-inflammatory modalities
+- Work restrictions in place for 4 months due to pain
+
+IMAGING STUDIES:
+- X-ray right shoulder (8/1/2025): Reduced subacromial space, mild AC joint 
+  arthritis, no fractures
+- MRI right shoulder (8/5/2025): 
+  * Full-thickness tear supraspinatus tendon, 2 cm retraction
+  * Superior labral tear (SLAP lesion type II)
+  * Moderate muscle atrophy of supraspinatus
+  * Intact subscapularis and infraspinatus tendons
+  * Moderate subacromial bursitis
+
+FUNCTIONAL LIMITATIONS DOCUMENTED:
+- Severe pain with overhead activities (8-9/10)
+- Unable to perform job duties (administrative assistant, computer work)
+- Difficulty with daily activities: reaching, lifting, dressing
+- Night pain interrupting sleep 5-6 nights per week
+- Inability to carry groceries or lift objects over 5 pounds
+- Significant impact on quality of life per validated outcome scores:
+  * ASES score: 35/100 (severe dysfunction)
+  * QuickDASH: 68/100 (severe disability)
+
+PHYSICAL EXAMINATION FINDINGS:
+- Positive painful arc test
+- Positive Hawkins-Kennedy impingement sign
+- Positive Neer impingement sign
+- Weakness with external rotation and abduction
+- Limited active range of motion: forward flexion 110°, abduction 95°
+- Positive O'Brien's test for SLAP lesion
+- Tenderness to palpation over anterior and lateral acromion
+
+MEDICAL CLEARANCE:
+- Internal medicine clearance obtained (9/25/2025)
+- Cardiac risk assessment: low risk
+- Medical optimization completed
+- No contraindications to surgery identified
+
+ESTIMATED BLOOD LOSS: 75 mL
+COMPLICATIONS: None intraoperative
+DRAINS: None placed
+TOURNIQUET: Not used
+
+SPECIMENS: None sent to pathology
+
+IMPLANTS USED:
+- Two 4.5mm knotless suture anchors (medial row)
+- Two 4.75mm knotless suture anchors (lateral row)
+- Two 3.0mm knotless labral repair anchors
+
+DISPOSITION: 
+Patient tolerated all procedures well and was transferred to PACU in stable 
+condition. Post-operative orders written including:
+- Pain management protocol
+- Immobilizer application
+- Physical therapy protocol to begin at 2 weeks
+- Follow-up instructions provided
+
+FOLLOW-UP PLAN:
+- 2 weeks: Wound check, suture removal
+- 6 weeks: Begin gentle active range of motion
+- 12 weeks: Advance strengthening program
+- 6 months: Return to full activities as tolerated
+
+PROGNOSIS: Good with appropriate rehabilitation
+
+Electronically signed by Dr. Michael Brown, MD
+Date: October 16, 2025
+Time: 14:30
+

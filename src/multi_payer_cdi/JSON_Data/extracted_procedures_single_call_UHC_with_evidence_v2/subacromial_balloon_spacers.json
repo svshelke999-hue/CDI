@@ -1,0 +1,23 @@
+{
+  "procedure_id": "subacromial_balloon_spacers",
+  "category": "Shoulder (Evidence: pg no: 2, L89)",
+  "section_title": "Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)",
+  "names": [
+    "Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)",
+    "InSpace™ Subacromial Tissue Spacer System (Evidence: pg no: 2, L90)",
+    "Subacromial balloon spacer implantation (SBSI) (Evidence: pg no: 3, L124)",
+    "InSpace Biodegradable Subacromial Spacer (Evidence: pg no: 5, L254)"
+  ],
+  "description": "A minimally invasive, biodegradable balloon spacer for treating massive, inoperable rotator cuff tears (MIRCTs). It preserves musculoskeletal and bone tissues, does not require the use of an anchor, and does not require a permanent implant. It is used as a spacer to eliminate friction between the acromion and the humeral head or rotator cuff to restore shoulder function and reduce pain. It is designed to biodegrade over the course of twelve months (Evidence: pg no: 2, L90-L93)",
+  "scope": "Treatment of massive, irreparable rotator cuff tears (Evidence: pg no: 2, L90-L91)",
+  "general_requirements": {
+    "documentation": [
+      "Medical records documentation may be required to assess whether the member meets the clinical criteria for coverage (Evidence: pg no: 1, L40-L42)"
+    ]
+  },
+  "exclusions": [
+    "Unproven and not medically necessary due to insufficient evidence of efficacy (Evidence: pg no: 1, L37-L38)"
+  ],
+  "codes": [],
+  "notes": "The current published literature is at high-risk of bias due to the small sample size, single-center focus, retrospective design, and lack of randomization, blinding, and control. There are device-related complications, and long-term studies are necessary as short-term results appear to degrade over time (Evidence: pg no: 2, L94-L97)"
+}

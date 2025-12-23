@@ -1,0 +1,25 @@
+{
+  "procedure_id": "unlisted_hip_procedures",
+  "category": "Hip (Evidence: pg no: 1, L1)",
+  "section_title": "Unlisted Hip Procedures (Evidence: pg no: 2, L65)",
+  "names": [
+    "Arthroscopic IT (Iliotibial) band lengthening (Evidence: pg no: 2, L68)",
+    "Arthroscopic repair of gluteus medius or minimus (Evidence: pg no: 2, L69)",
+    "Arthroscopic repair of gluteus medius or minimus (with biologic implant) (Evidence: pg no: 2, L70)",
+    "Arthroscopic trochanteric bursectomy (Evidence: pg no: 2, L71)"
+  ],
+  "description": "Unlisted procedures using CPT 29999 – Unlisted procedure, arthroscopy (Evidence: pg no: 2, L66)",
+  "scope": "Hip arthroscopic procedures not managed by Carelon (Evidence: pg no: 2, L66-L67)",
+  "general_requirements": {
+    "documentation": []
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "29999",
+      "system": "CPT",
+      "description": "Unlisted procedure, arthroscopy (Evidence: pg no: 2, L66)"
+    }
+  ],
+  "notes": "Not managed by Carelon Medical Benefits Management. Contact respective health plan for assistance (Evidence: pg no: 2, L66-L67)"
+}

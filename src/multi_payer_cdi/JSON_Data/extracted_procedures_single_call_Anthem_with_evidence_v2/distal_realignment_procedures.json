@@ -1,0 +1,43 @@
+{
+  "procedure_id": "distal_realignment_procedures",
+  "category": "Knee (Evidence: pg no: 2, L73)",
+  "section_title": "Distal Realignment Procedures (Evidence: pg no: 12, L567)",
+  "names": [
+    "Distal realignment procedures (Evidence: pg no: 12, L567)",
+    "Tibial tubercle transfer (Evidence: pg no: 12, L568)"
+  ],
+  "description": "Distal realignment procedures for patellar instability in skeletally mature patients (Evidence: pg no: 12, L568-L575)",
+  "scope": "Treatment of patellar instability (subluxation/dislocation) (Evidence: pg no: 12, L567-L575)",
+  "general_requirements": {
+    "documentation": [
+      "Recurrent patellofemoral instability associated with pain that limits function (Evidence: pg no: 12, L570)",
+      "Failure of at least 12 weeks of conservative management that includes physical therapy (Evidence: pg no: 12, L571)",
+      "Radiographic imaging consistent with Kellgren-Lawrence grade 2 or lower patellofemoral osteoarthritis (Evidence: pg no: 12, L572)",
+      "Presence of at least ONE: Tibial tubercle-trochlear groove (TT-TG) distance > 20 mm or Patella alta (Evidence: pg no: 12, L573-L575)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "27418",
+      "system": "CPT",
+      "description": "Anterior tibial tubercleplasty (eg, Maquet type procedure) (Evidence: pg no: 16, L688)"
+    },
+    {
+      "code": "27420",
+      "system": "CPT",
+      "description": "Reconstruction of dislocating patella; (eg, Hauser type procedure) (Evidence: pg no: 16, L689)"
+    },
+    {
+      "code": "27422",
+      "system": "CPT",
+      "description": "Reconstruction of dislocating patella; with extensor realignment and/or muscle advancement or release (eg, Campbell, Goldwaite type procedure) (Evidence: pg no: 16, L690-L691)"
+    },
+    {
+      "code": "27424",
+      "system": "CPT",
+      "description": "Reconstruction of dislocating patella; with patellectomy (Evidence: pg no: 16, L692)"
+    }
+  ],
+  "notes": ""
+}

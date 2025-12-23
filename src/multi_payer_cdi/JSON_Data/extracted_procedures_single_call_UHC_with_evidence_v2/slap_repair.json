@@ -1,0 +1,24 @@
+{
+  "procedure_id": "slap_repair",
+  "category": "Shoulder (Evidence: pg no: 2, L69)",
+  "section_title": "SLAP Lesion Repair (Evidence: pg no: 2, L69)",
+  "names": [
+    "Repair of SLAP lesion (Evidence: pg no: 2, L69)"
+  ],
+  "description": "Arthroscopic surgical repair of superior labrum anterior to posterior (SLAP) lesion (Evidence: pg no: 2, L69)",
+  "scope": "Surgical repair of SLAP lesions via arthroscopic approach (Evidence: pg no: 2, L69)",
+  "general_requirements": {
+    "documentation": [
+      "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "29807",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; repair of slap lesion (Evidence: pg no: 2, L69)"
+    }
+  ],
+  "notes": "Part of arthroscopic shoulder surgery procedures (Evidence: pg no: 2, L69)"
+}

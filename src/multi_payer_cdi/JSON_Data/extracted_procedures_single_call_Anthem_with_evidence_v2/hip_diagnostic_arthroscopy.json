@@ -1,0 +1,25 @@
+{
+  "procedure_id": "hip_diagnostic_arthroscopy",
+  "category": "Hip (Evidence: pg no: 28, L981)",
+  "section_title": "Diagnostic arthroscopy (Evidence: pg no: 30, L1070)",
+  "names": [
+    "Diagnostic arthroscopy (Evidence: pg no: 30, L1070)",
+    "Diagnostic arthroscopy of the hip joint (Evidence: pg no: 30, L1071)"
+  ],
+  "description": "Diagnostic arthroscopy of the hip joint is considered medically necessary for synovial biopsy or tissue harvest (chondrocyte), or when the involved joint meets ALL of the following criteria. (Evidence: pg no: 30, L1071-L1072)",
+  "scope": "This guideline addresses hip arthroscopy when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture. It does not cover labral reconstructions, capsular plications, or endoscopic procedures done outside of the hip capsule. (Evidence: pg no: 28, L993-L995)",
+  "general_requirements": {
+    "documentation": [
+      "Presence of ONE of the following symptoms: Significant pain and functional limitation, Instability (e.g., giving way, catching, clicking, locking), Limited range of motion (Evidence: pg no: 30, L1073-L1076)",
+      "Presence of ONE of the following physical exam findings: Limited range of motion, Joint swelling, Inconclusive specific diagnostic exam maneuvers, Local muscle weakness or atrophy (Evidence: pg no: 30, L1077-L1081)",
+      "Inconclusive x-ray and/or advanced imaging studies (Evidence: pg no: 30, L1082)",
+      "Failure of at least 6 weeks of conservative management (Evidence: pg no: 30, L1083)"
+    ]
+  },
+  "exclusions": [
+    "In-office diagnostic arthroscopy (e.g., mi-eye 2®) (Evidence: pg no: 30, L1085)",
+    "Non-intraarticular hip procedures (Evidence: pg no: 30, L1086)"
+  ],
+  "codes": [],
+  "notes": ""
+}

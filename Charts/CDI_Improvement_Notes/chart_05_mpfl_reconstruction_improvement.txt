@@ -1,0 +1,20 @@
+CHART: chart_05_mpfl_reconstruction.txt
+
+PRIMARY CDI FOCUS:
+- Specify graft selection and fixation technique.
+- Provide objective instability metrics supporting reconstruction.
+
+RECOMMENDED IMPROVEMENTS:
+1. Graft Detail: Indicate whether autograft or allograft was used, harvest site, diameter, and preparation steps.
+2. Imaging Metrics: Document trochlear dysplasia grade, TT-TG distance, patellar height (Caton-Deschamps), or MRI findings.
+3. Fixation Hardware: List screw sizes, tunnel locations, and any suture anchors employed.
+4. Conservative Therapy: Detail bracing, therapy, taping, and duration of non-operative management with outcomes.
+5. Lateral Release Rationale: Clarify intraoperative findings prompting lateral release and extent performed.
+6. Postoperative Protocol: Provide weight-bearing limitations, brace settings, and rehab progression.
+7. Comorbid Considerations: Include BMI or connective tissue disorders influencing instability if applicable.
+
+CODING IMPACT:
+- Supports CPT 27427 and adjunct release codes by demonstrating medical necessity.
+- Thorough graft and hardware documentation aligns with payer implant tracking requirements.
+
+

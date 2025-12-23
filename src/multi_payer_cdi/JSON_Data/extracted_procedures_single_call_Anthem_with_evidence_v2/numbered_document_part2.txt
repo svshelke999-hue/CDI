@@ -1,0 +1,1193 @@
+L1| Joint Surgery
+L2| © 2023 Carelon Medical Benefits Management. All rights reserved .  32 • Failure of conservative management for a duration of at le ast 3 months, including avoidance of hip
+L3| stretching or any activity that elicits or aggravates symptoms
+L4| • No evidence of advanced osteoarthritis, defined as Tönnis grade 2 or greater, or joint space of less than 2
+L5| mm
+L6| • No evidence of severe (Outerbridge grade  IV) chondral damage
+L7| Exclusion
+L8| Arthroscopic lavage and debridement for advanced osteoarthritis of the hip joint
+L9| Exclusions
+L10| Indications other than those addressed in this guideline are considered not medically necessary  including, but
+L11| not limited to, the fo llowing:
+L12| For hip debridement/chondroplasty
+L13| • When done solely for treatment of hip osteoarthritis (Kellgren -Lawrence grade 2  or greater, Tönnis  grade
+L14| 2 or greater)
+L15| For treatment of FAIS /Labral repair
+L16| • Use of capsular plication as the sole treatment of FAIS
+L17| • Capsular plication, capsular repair, labral reconstruction, iliotibial band windowing, trochanteric
+L18| bursectomy, abductor muscle repair, and/or iliopsoas tenotomy, when performed at the time of any FAIS
+L19| surgery, would be considered a component of and inciden tal to the FAIS procedure
+L20| • Evidence of advanced osteoarthritis, defined as Tönnis grade ≥ 2, or joint space narrowing ≤ 2 mm along
+L21| the lateral/medial sourcil (roof or weight -bearing area of acetabulum)
+L22| • Evidence of severe (Outerbridge grade IV) chondral damage
+L23| • Positive broken Shenton line
+L24| • Inclination Tönnis angle greater than 13 -15 degrees
+L25| • Labral repair in the presence of untreated severe hip dysplasia
+L26| Selected References
+L27| 1. Bedi A, Kelly BT. Femoroacetabular impingement. J Bone Joint Surg Am . 2013;95(1):82 -92.
+L28| 2. de SA D, Phillips M, Philippon MJ, Letkemann S, Simunovic N, Ayeni OR. Ligamentum teres injuries of the hip: a systematic
+L29| review examining surgical indications, treatment options, and outcomes. Arthroscopy. 2014 Dec;30(12):1634 -41.
+L30| 3. Kroger EW, Griesser MJ, Kolovich GP, Ellis TJ. Efficacy of surgery for internal snapping hip. Int J Sports Med. 2013
+L31| Oct;34(10):851 -5.
+L32| 4. Lustenberger DP, Ng VY, Best TM, et al. Efficacy of treatment of trochanteric bursitis: a systematic review. Clin J Sp ort Med.
+L33| 2011;21(5):447 -53.
+L34| 5. Mannava S, Geeslin AG, Frangiamore SJ, et al. Comprehensive Clinical Evaluation of Femoroacetabular Impingement: Part 2,
+L35| Plain Radiography. Arthrosc Tech. 2017;6(5):e2003 -e2009.
+L36| 6.  Minkara AA, Westermann RW, Rosneck J, Lync h TS . Systematic Review and Meta -analysis of Outcomes After Hip Arthroscopy
+L37| in Femoroacetabular Impingement. Am J Sports Med. 2019;47(2):488 -500.
+L38| 7. Nelson S J, Webb M L, Lukasiewicz A M, Varthi A G, Samuel A M, Grauer J N.  Is outpatient total hip arthropl asty safe?  J
+L39| Arthroplasty  2017;  32(5): 1439 –42.
+L40| 8. Oliver D, Griffiths R, Roche J, Sahota O. Hip fracture. BMJ Clin Evid. 2010;2010:1110 .
+L41| Joint Surgery
+L42| © 2023 Carelon Medical Benefits Management. All rights reserved .  33 Codes
+L43| The following code list is not meant to be all -inclusive. Authorization requirements will vary by health plan. P lease consult the
+L44| applicable health plan for guidance on specific procedure codes.
+L45| Specific CPT codes for services should be used when available. Nonspecific or not otherwise classified codes may be subject
+L46| to additional documentation requirements and revi ew.
+L47| Medical necessity reviews are initiated by submitting the correct AMA CPT codes. The submitted codes must accurately
+L48| identify the service or procedure to be performed. If no such code exists, contact the health plan directly and report the se rvice
+L49| or procedure using the appropriate unlisted procedure or Not Otherwise Classified (NOC) code (which often end s in 99). Do
+L50| not submit a code that is “close to” the procedure performed in lieu of an unlisted code. Correct coding demands that the cod e
+L51| reported is  appropriate for the service provided (i.e., a code that most accurately represents the service provided), and not a
+L52| code that is similar but represents another service. (CPT® Assistant,  December 2010)
+L53| CPT/HCPCS
+L54| CPT® (Current Procedural Terminology) is a r egistered trademark of the American Medical Association (AMA). CPT® five-digit codes,
+L55| nomenclature and other data are copyright by the American Medical Association. All Rights Reserved. AMA does not directly or indirectly
+L56| practice medicine or dispense medi cal services. AMA assumes no liability for the data contained herein or not contained herein.
+L57| 29860  Arthroscopy, hip, diagnostic with or without synovial biopsy (separate procedure)
+L58| 29861  Arthroscopy, hip, surgical; with removal of loose body or foreign body
+L59| 29862  Arthroscopy, hip, surgical; with debridement/shaving of articular cartilage (chondroplasty), abrasion arthroplasty,
+L60| and/or resection of labrum
+L61| 29863  Arthroscopy, hip, surgical; with synovectomy
+L62| 29914  Arthroscopy, hip, surgical; with f emoroplasty (i.e., treatment of cam lesion)
+L63| 29915  Arthroscopy, hip, surgical; with acetabuloplasty (i.e., treatment of pincer lesion)
+L64| 29916  Arthroscopy, hip, surgical; with labral repair [when repair of the labral tear is associated with FAIS]
+L65| Unliste d Procedures
+L66| The following unlisted procedures (CPT 29999 – Unlisted procedure, arthroscopy) are not managed by Carelon
+L67| Medical Benefits Management. Please contact the respective health plan for further assistance.
+L68| • Arthroscopic IT (Iliotibial) band lengthening
+L69| • Arthroscopic repair of gluteus medius or minimus
+L70| • Arthroscopic repair of gluteus medius or minimus (with biologic implant)
+L71| • Arthroscopic trochanteric bursectomy
+L72| Joint Surgery
+L73| © 2023 Carelon Medical Benefits Management. All rights reserved .  34 Knee Arthroplasty (Total/Partial/Revision Knee
+L74| Replacement)
+L75| Description and Scope
+L76| Knee arthroplasty involves removal of some or all of the diseased articular surfaces of the knee, followed by
+L77| resurfacing with metal and polyethylene prosthetic components. Numerous implants composed of various
+L78| biomaterials have been approved by the  U.S. Food and Drug Administration (FDA) for use in knee arthroplasty
+L79| procedures. The goal of the procedure is long -term pain relief and restoration of function.
+L80| This guideline addresses total knee arthroplasty  (TKA), revision TKA, patellar and patella fe moral arthroplasty,
+L81| and unicompartmental knee arthroplasty (UKA) performed as elective, non -emergent  procedures and not as
+L82| part of the care of a congenital condition, acute or traumatic event such as fracture (excluding periprosthetic
+L83| fracture).
+L84| All knee arthroplasties are inclusive of the reattachment of any muscles divided for access to the knee,
+L85| accompanying excision of osteophytes, synovectomy and knee arthrotomy with associated removal of debris.
+L86| Revision knee arthroplasty is inclusive of the exchang e of some or all of the components of a prior knee
+L87| replacement with permanent replacements. It is not inclusive of exchange of components for visualization or joint
+L88| access alone.
+L89| Clinical Indications
+L90| The following general requirements apply to all indicat ions except where they differ from the specific
+L91| requirements. The specific requirements take precedence over any stated general requirement.
+L92| General Information
+L93| The terms in the section provide operational definitions when they are referenced as requiremen ts in the
+L94| guideline.
+L95| Documentation supporting medical necessity and a clearly stated plan of care should be submitted at the time of
+L96| the request and must include the following components:
+L97| Clinical notes  describing symptom duration and severity, specific functional limitations related to symptoms, and
+L98| type and duration of all therapeutic measures provided. If conservative management is not appropriate, the
+L99| reason must be clearly documented.
+L100| Conservative management1 must include a combination of strategies to reduce inflammation, alleviate pain, and
+L101| correct underlying dysfunction, including physical therapy AND  at least ONE  complementary conservative
+L102| treatment strategy.
+L103| • Physical therapy requirement  includes ANY  of the following:
+L104| o Physical therapy rendered by  a qualified provider of physical therapy services
+L105| o Supervised home treatment program that includes ALL of the following:
+L106| ▪ Participation in a patient -specific or tailored program
+L107| ▪ Initial active instruction by MD/DO/PT with redemonstration of patient ability to
+L108| perform exercises
+L109| ▪ Compliance (documented or by clinician attestation on follow -up evaluation)
+L110| Joint Surgery
+L111| © 2023 Carelon Medical Benefits Management. All rights reserved .  35 o Exception to the physical therapy requirement in unusual circumstances (for inst ance,
+L112| intractable pain so severe that physical therapy is not possible) when clearly documented in the
+L113| medical record
+L114| • Complementary conservative treatment requirement  includes ANY  of the following:
+L115| o Anti-inflammatory medications and analgesics2
+L116| o Adjunctive medications such as nerve membrane stabilizers or muscle relaxants2
+L117| o Intra-articular corticosteroid injection(s)2
+L118| o Alternative therapies such as activity modification, and/or a trial period of rest (e.g., from the
+L119| aggravating/contributing factors) , where applicable
+L120| 1 Additional condition or procedure -specific requirements may apply and can be found in the respective sections
+L121| of the guideline.
+L122| 2 In the absence of contraindications
+L123| Clinical reevaluation . In most cases, reevaluation should include a physical examination. Direct contact by other
+L124| methods, such as telephone communication or electronic messaging, may substitute for in -person evaluation
+L125| when circumstances preclude an office visit. Clinical reevaluation must be done in reasonable proximity to the
+L126| anticipated date of service such that the patient’s condition would be unlikely to change by the date of service.
+L127| Failure of conservative management  requires ALL of the following:
+L128| • Patient has completed a full course of conservative management (as de fined above) for the current
+L129| episode of care
+L130| • Worsening of or no significant improvement in signs and/or symptoms upon clinical reevaluation
+L131| • More invasive forms of therapy are being considered
+L132| Documentation of compliance with a plan of therapy that include s elements from these areas is required where
+L133| conservative management is appropriate.
+L134| Reporting symptom severity . Severity of pain and its associated impact on activities of daily living (ADLs) and
+L135| instrumental ADLs (IADLs) are key factors in determining t he need for intervention. For purposes of this guideline,
+L136| significant pain and functional impairment refer to pain rated at least 3 out of 10 in intensity and associated with
+L137| inability to perform at least two (2) ADLs and/or IADLs.
+L138| Imaging reports obtaine d within the past 12 months describing the degree of cartilage damage as determined by
+L139| either or both of the following methods:
+L140| • X-ray report or provider interpretation of x -rays that utilizes or can be correlated with the Kellgren -
+L141| Lawrence grading system o f osteoarthritis
+L142| • MRI report from a radiologist that utilizes or can be correlated with the modified Outerbridge or similar
+L143| classification system related to articular cartilage injury and osteoarthritis
+L144| See Appendix  for a description of these grading systems.
+L145| For x -ray interpretation, the provider shall submit a detailed imaging description that correlates with clinical
+L146| findings of the requested procedure. In the absence of a detailed description , the provider may submit a report
+L147| from an independent radiologist. The results of all imaging studies should correlate with the clinical findings in
+L148| support of the requested procedure.
+L149| For advanced imaging (CT, MRI, ultrasound, bone scan), there must be a report from a radiologist that correlates
+L150| with clinical findings. In the absence of such a report, the summary findings from the radiology report should be
+L151| included in the clinical records .
+L152| Imaging reports should be thorough and describe the presence or absence of subchondral cysts, subchondral
+L153| sclerosis, periarticular osteophytes, joint subluxation, avascular necrosis , or bone on bone articulations. The
+L154| degree of joint space narrowing should also be noted.
+L155| Joint Surgery
+L156| © 2023 Carelon Medical Benefits Management. All rights reserved .  36 General Recommendations
+L157| Tobacco cessation . Adherence to a tobacco cessation program resulting in abstinence from tobacco for at least
+L158| 6 weeks prior to surgery is strongly recommended.
+L159| Diabetes . It is strongly recommended that a patient with a history of diabetes maintain a hemog lobin A1C of 8%
+L160| or less prior to any joint replacement surgery.
+L161| Body mass index (BMI) . It is strongly recommended that a patient with a BMI equal to or greater than 40 attempt
+L162| weight reduction prior to surgery.
+L163| Where there are patient specific modifiable comorbidities that may adversely impact patient reported outcomes or
+L164| the health status of the patient a shared decision -making process with the patient to discuss these modifiable
+L165| comorbidities is strongly recommended and should be documented.
+L166| Total Knee A rthroplasty
+L167| Elective total knee arthroplasty is considered medically necessary for ANY of the following indications:
+L168| • Post-traumatic arthritis
+L169| • Primary or metastatic tumor with limb salvage surgery
+L170| • Unicompartmental, b icompartmental, tricompartmental, or iso lated patellofemoral joint damage or
+L171| destruction due to osteoarthritis, inflammatory disease , avascular necrosis (osteonecrosis) , or other
+L172| chronic conditions when ALL of the following criteria  are met:
+L173| o Imaging evidence of significant joint destruction and cartilage loss, defined as modified
+L174| Outerbridge grade III - IV or Kellgren -Lawrence grade 3 - 4
+L175| o Failure of at least 3 months of non -surgical conservative management (unless radiographs show
+L176| Kellgren -Lawence grade 4)
+L177| o Functional limitation secondary to knee pathology which interferes with the ability to perform  age-
+L178| appropriate daily activities
+L179| See Contraindications .
+L180| Unicompartmental Knee Arthroplasty/Partial Knee Replacement
+L181| Elective m edial or lateral unicompartmental knee arthroplasty (UKA)/partial knee replacement (PKA) is
+L182| considered medically necessary when ALL of the following criteria  are met:
+L183| • Osteoarthritis isolated to the medial or lateral knee compartment with no degenerative changes in the
+L184| opposite compartment
+L185| • Intact anterior cruciate ligament  or documentation of stable knee examination (UKA may done with
+L186| concurrent ACL reconstruction if all other criteria are met)
+L187| • Less than 10 degrees of fixed varus deformity for medial UKA
+L188| • Less than 15 degrees of valgus deformity for lateral UKA
+L189| • Failure of at least 3 months of non -surgical conservative treatments
+L190| • Failure of at least 3 months of non -surgical conservative management (unless radiographs show
+L191| Kellgren -Lawence grade 4 )
+L192| Contraindications
+L193| Medial or lateral UKA is contraindicated when ANY  of the following conditions are present:
+L194| • Inflammatory arthritis
+L195| Joint Surgery
+L196| © 2023 Carelon Medical Benefits Management. All rights reserved .  37 • Moderate -to-severe degenerative changes of the lateral facet of the patellofemoral  joint when considering
+L197| medial compartment replacement ( Kellgren -Lawrence grade 3 or 4)
+L198| • Anterior cruciate ligament deficiency
+L199| • Flexion contracture greater than 15 degrees
+L200| • Fixed varus defo rmity greater than 10 degrees
+L201| • Fixed valgus deformity greater than 15 degrees
+L202| • Flexion less than 110 degrees
+L203| • Previous meniscectomy in another  compartment
+L204| Patellofemoral Arthroplasty
+L205| Elective patellofemoral arthroplasty is considered medically necessary whe n ALL of the following criteria
+L206| are met:
+L207| • ONE  of the following disease states:
+L208| o Advanced symptomatic primary or secondary isolated patellofemoral osteoarthritis (PFOA)
+L209| o Failed extensor mechanism unloading procedures (e.g., lateral retinacular release, recon struction
+L210| of the medal patellar femoral ligament, quadricepsplasty, and bony procedures for realignment
+L211| involving the tibial tuberosity)
+L212| o Symptomatic patellofemoral cartilage defects greater than 4 cm2 after a failed cartilage repair
+L213| procedure, such as autologous chondrocyte implantation (ACI)
+L214| • Failure of at least 3 months of non -surgical conservative management
+L215| • Functional limitation secondary to knee pathology which interferes with the ability to perfor m age-
+L216| appropriate daily activities
+L217| Contraindications
+L218| Patellofemoral arthroplasty is contraindicated when ANY  of the following conditions are present:
+L219| • Tibiofemoral osteoarthritis
+L220| • Inflammatory arthritis
+L221| • Patellofemoral malalignment
+L222| • Knee instability (ligame nts and/or menisci injuries)
+L223| • Limb malalignment (valgus deformity greater than 8 degrees or varus deformity greater than 5 degrees)
+L224| • Fixed flexion contracture greater than 10 degrees
+L225| See Contraindications  including those specific to patellofemoral arthroplasty .
+L226| Primary Hinge Arthroplasty
+L227| Primary hinge arthroplasty is considered medically necessary when ONE of the following criteria are met:
+L228| • Global ligament instability
+L229| • Severe bone loss or deformity
+L230| • Absence or deficit of muscular control
+L231| • Tumoral surgery (bone block resection with ligamentou s insertions needed)
+L232| • Congenital dislocation of knee
+L233| Joint Surgery
+L234| © 2023 Carelon Medical Benefits Management. All rights reserved .  38 • Ankylosis with severe instability after surgical exposition
+L235| See Contraindications .
+L236| Revision of Prior Knee Arthroplasty
+L237| Revision of  prior knee arthroplasty is considered medically necessary when ANY of the following
+L238| conditions are present:
+L239| • Aseptic loosening
+L240| • Substantial osteolysis of the distal femur, proximal tibia, or patella
+L241| • Progressive soft tissue or bone reaction including bearin g surface wear or symptomatic synovitis
+L242| • Component instability, malalignment, failure, or recall
+L243| • Displaced periprosthetic fracture or irreducible dislocation
+L244| • Previous removal of knee prosthesis due to infection or catastrophic failure
+L245| • Reconstruction after treatment of post knee replacement infection
+L246| • Recurrent disabling pain or significant functional disability that persists despite at least 3 months of
+L247| conservative management in conjunction with ANY  of the following:
+L248| o Antalgic gait
+L249| o Abnormal findings confirmed by plain radiography or imaging studies such as implant malposition
+L250| or impingement
+L251| o Knee stiffness  attributable to the prior implants that has failed at least 6 weeks of conservative
+L252| treatment
+L253| See Contraindications .
+L254| Contraindications
+L255| All procedures listed
+L256| • Skin infection at the surgical site
+L257| • Systemic infection
+L258| • Rapidly progressive neurologic disease
+L259| • Extensor mechanism deficiency, not amendable to surgical correction
+L260| • Neuropathic joint
+L261| • Intra-articular corticosteroid injection within the past 6 weeks in the joint being replaced
+L262| Exclusions
+L263| Indications other than those addressed in this guideline are considered not medically necessary  including, but
+L264| not limited to, the following:
+L265| • Bi-unicompartmental knee arthroplasty (medial and lateral tibiofemoral compartments with absence of
+L266| patellofemoral osteoarthritis)
+L267| • Bicompartmental arthroplasty (e.g., medial and patellofemoral compartments of the knee)
+L268| • Focal resurfacing of a single knee joint defect
+L269| • Unicompartmental free -floating (unfixed) interpositional device
+L270| Joint Surgery
+L271| © 2023 Carelon Medical Benefits Management. All rights reserved .  39 Selected References
+L272| 1. American Academy of Orthopaedic Surgeons. Management of Osteoarthritis of the Knee (Arthroplasty) Evidence -Based Clinical
+L273| Practice Guideline. https://www.aaos.org/oak3cpg Published August 30, 2021.
+L274| 2. Aujla RS, Esler CN. Total Knee Arthroplasty for Osteoarthritis in Patients Less Than Fifty -Five Years of Age: A Systematic
+L275| Review. J Arthroplasty. 2017;32(8):2598 -603.e1.
+L276| 3. Nelson AE, Allen KD, Golightl y YM, Goode AP, Jordan JM. A systematic review of recommendations and guidelines for the
+L277| management of osteoarthritis: The chronic osteoarthritis management initiative of the U.S. bone and joint initiative. Semin
+L278| Arthritis Rheum. 2014;43(6):701 -12.
+L279| Codes
+L280| The following code list is not meant to be all -inclusive. Authorization requirements will vary by health plan. Please consult the
+L281| applicable health plan for guidance on specific procedure codes.
+L282| Specific CPT codes for services should be used when available.  Nonspecific or not otherwise classified codes may be subject
+L283| to additional documentation requirements and review.
+L284| Medical necessity reviews are initiated by submitting the correct AMA CPT codes. The submitted codes must accurately
+L285| identify the service or procedure to be performed.  If no such code exists, contact the health plan directly and report the
+L286| service or procedure using the appropriate unlisted procedure or Not Otherwise Classified (NOC) code (which often end s in
+L287| 99). Do not submit a code that is “close to” the procedure performed in lieu of an unlisted code. Correct coding demands that
+L288| the code reported is appropriate for the service provided (i.e., a code that most accurately represents the service provided) ,
+L289| and not a code that is similar but re presents another service.  (CPT® Assistant,  December 2010)
+L290| CPT/HCPCS
+L291| CPT® (Current Procedural Terminology) is a registered trademark of the American Medical Association (AMA). CPT® five-digit codes,
+L292| nomenclature and other data are copyright by the American Medical Association. All Rights Reserved. AMA does not directly or indirectly
+L293| practice medicine or dispense medical services. AMA assumes no liability for the data contained herein or not co ntained herein.
+L294| 27437  Arthroplasty, patella; without prosthesis
+L295| 27438  Arthroplasty, patella; with prosthesis
+L296| 27440  Arthroplasty, knee; tibial plateau
+L297| 27441  Arthroplasty, knee, tibial plateau; with debridement and partial synovectomy
+L298| 27442  Arthroplasty, femoral condyles or tibial plateau(s), knee
+L299| 27443  Arthroplasty, femoral condyles or tibial plateau(s), knee; with debridement and partial synovectomy
+L300| 27445  Arthroplasty, knee, hinge prosthesis (eg, Walldius type)
+L301| 27446  Arthroplasty, knee, condyle and plateau; medial OR lateral compartment
+L302| 27447  Arthroplasty, knee, condyle and plateau; medial AND lateral compartments with or without patella resurfacing (total
+L303| knee arthroplasty)
+L304| 27486  Revision of total knee arthroplasty,  with or without allograft; 1 component
+L305| 27487  Revision of total knee arthroplasty, with or without allograft; femoral and entire tibial component
+L306| 27488  Removal of prosthesis, including total knee prosthesis, methylmethacrylate with or without insertion o f spacer,
+L307| knee
+L308| Joint Surgery
+L309| © 2023 Carelon Medical Benefits Management. All rights reserved .  40 Knee Arthroscopy and Open Procedures
+L310| Description and Scope
+L311| Knee arthroscopy is a surgical procedure in which a fiberoptic camera is inserted into the knee joint through a
+L312| small incision. In addition to allowing the surgeon to visualize the joint, arthroscopy may also be utilized for
+L313| treatment of a variety of condi tions involving the joint structures.
+L314| This guideline addresses knee arthroscopy when performed as an elective, non -emergent  procedure and not as
+L315| part of the care of an acute fracture.
+L316| Articular cartilage lesions in weight -bearing joints often fail to heal  spontaneously and may be associated with
+L317| pain, loss of function, and long -term complications such as osteoarthritis. A number of surgical techniques have
+L318| been developed to treat these lesions.
+L319| Procedures to treat focal articular cartilage defects can be c lassified as:
+L320| 1. Palliative (lavage, chondroplasty)
+L321| 2. Reparative (microfracture, abrasion arthroplasty)
+L322| 3. Restorative (autologous chondrocyte implantation, osteochondral allograft, or osteochondral autograft)*.
+L323| *See Treatment of Osteochondral Defects
+L324| Chondroplast y or debridement is a smoothing or shaving of symptomatic partial -thickness cartilage lesions or
+L325| chondral flaps (unstable mechanical source of pain).
+L326| Microfracture involves drilling multiple holes through the subchondral bone to promote bleeding and fibroc artilage
+L327| growth.
+L328| Abrasion arthroplasty involves abrading the subchondral bone to the depth necessary to promote bleeding and
+L329| fibrocartilage growth.
+L330| Both microfracture and abrasion arthroplasty are typically performed on lesions less than 4 cm2.
+L331| All arthros copic and open knee procedure codes are inclusive of diagnostic arthroscopy and manipulation under
+L332| anesthesia.
+L333| Clinical Indications
+L334| The following general requirements apply to all indications except where they differ from the specific
+L335| requirements. The spe cific requirements take precedence over any stated general requirement.
+L336| General Information
+L337| The terms in the section provide operational definitions when they are referenced as requirements in the
+L338| guideline.
+L339| Documentation supporting medical necessity and a  clearly stated plan of care should be submitted at the time of
+L340| the request and must include the following components:
+L341| Imaging report . The provider shall submit a detailed imaging report for studies obtained within the past 12
+L342| months that correlates with  clinical findings of the requested procedure. In the absence of a detailed report, the
+L343| provider will be required to submit a report from an independent radiologist. The results of all imaging studies
+L344| should correlate with the clinical findings in support of the requested procedure.
+L345| For x -ray interpretation, the provider shall submit a detailed imaging description that correlates with clinical
+L346| findings of the requested procedure. In the absence of a detailed description, the provider may submit a
+L347| radiologi st’s report.
+L348| Joint Surgery
+L349| © 2023 Carelon Medical Benefits Management. All rights reserved .  41 For advanced imaging (CT, MRI, ultrasound, bone scan), there must be a report from a radiologist that correlates
+L350| with clinical findings. In the absence of such a re port, the summary findings from the radiology report should be
+L351| included in the  clinical records .
+L352| Conservative management . In the majority of cases, a period of conservative management is appropriate prior
+L353| to intervention. Conservative management1 must include a combination of strategies to reduce inflammation,
+L354| alleviate pain, and co rrect underlying dysfunction, including physical therapy AND  at least ONE  complementary
+L355| conservative treatment strategy.
+L356| • Physical therapy requirement  includes ANY  of the following:
+L357| o Physical therapy rendered by a qualified provider of physical therapy services
+L358| o Supervised home treatment program that includes ALL of the following:
+L359| ▪ Participation in a patient -specific or tailored program
+L360| ▪ Initial active instruction by MD/DO/PT with redemonstration of patient ability to
+L361| perform exercises
+L362| ▪ Compliance (documented or by clinician attestation on follow -up evaluation)
+L363| o Exception to the physical therapy requirement in unusual circumstances (for instance,
+L364| intractable pain so severe that physical therapy is not possible) when clearly documented in t he
+L365| medical record
+L366| • Complementary conservative treatment requirement  includes ANY  of the following:
+L367| o Anti-inflammatory medications and analgesics2
+L368| o Adjunctive medications such as nerve membrane stabilizers or muscle relaxants2
+L369| o Intra-articular corticosteroid injection(s)2
+L370| o Alternative therapies such as activity modification, and/or a trial period of rest (e.g., from the
+L371| aggravating/contributing factors), where applicable
+L372| 1 Additional condition or procedure -specific requirements may apply and can be found in th e respective sections
+L373| of the guideline.
+L374| 2 In the absence of contraindications
+L375| Clinical reevaluation . In most cases, reevaluation should include a physical examination. Direct contact by other
+L376| methods, such as telephone communication or electronic messaging , may substitute for in -person evaluation
+L377| when circumstances preclude an office visit. Clinical reevaluation must be done in reasonable proximity to the
+L378| anticipated date of service such that the patient’s condition would be unlikely to change by the date o f service.
+L379| Failure of conservative management  requires ALL of the following:
+L380| • Patient has completed a full course of conservative management (as defined above) for the current
+L381| episode of care
+L382| • Worsening of or no significant improvement in signs and/or sympto ms upon clinical reevaluation
+L383| • More invasive forms of therapy are being considered
+L384| Documentation of compliance with a plan of therapy that includes elements from these areas is required where
+L385| conservative management is appropriate.
+L386| Reporting symptom sever ity. Severity of pain and its associated impact on activities of daily living (ADLs) and
+L387| instrumental ADLs (IADLs) are key factors in determining the need for intervention. For purposes of this guideline,
+L388| significant pain and functional impairment refer to  pain rated at least 3 out of 10 in intensity and associated with
+L389| inability to perform at least two (2) ADLs and/or IADLs.
+L390| Joint Surgery
+L391| © 2023 Carelon Medical Benefits Management. All rights reserved .  42 Knee Arthroscopy /Open Procedures
+L392| Diagnostic arthroscopy
+L393| Diagnostic arthroscopy of the knee joint is considered medically necessary for synovial biopsy or tissue harvest
+L394| (chondrocyte), or when the involved joint meets ALL of the following criteria:
+L395| • Presence of ONE  of the following symptoms
+L396| o Significant pain and functional limitation
+L397| o Instability (e.g., giving way, catching, clicking, locking)
+L398| o Limited range of motion
+L399| • Presence of ONE  of the following physical exam findings
+L400| o Limited range of motion
+L401| o Joint swelling
+L402| o Inconclusive specific diagnostic exam maneuvers
+L403| o Local muscle weakness or atrophy
+L404| • Inconclusive x -ray and/or advanced i maging studies
+L405| • Failure of at least 6 weeks of conservative management
+L406| Exclusion
+L407| In-office diagnostic arthroscopy (e.g., mi -eye 2®)
+L408| Removal of loose body
+L409| Removal of loose body  is considered medically necessary when BOTH  of the following are present:
+L410| • Radiographic evidence of acute, post -traumatic, intra -articular foreign body or displaced fracture fragment
+L411| larger than the size of an arthroscopy cannula (5 mm or larger ) when other knee procedur e codes are
+L412| authorized
+L413| • Knee pain associated with grinding, c atching , or popping
+L414| Exclusion
+L415| Removal of loose body  for Kellgren -Lawrence grade 4  osteoarthritis
+L416| Meniscal repair or meniscectomy
+L417| Acute traumatic meniscal tear
+L418| Meniscal repair or meniscectomy is considered medically necessary for acute traumatic meniscal tear (sudden
+L419| onset of joint -line pain associated with significant knee injury) when ALL of the following requirements are met:
+L420| • Knee injury within last 3 months with new onset knee pain
+L421| • Moderate to severe pain associated with functional limitation, which interferes with the ability to perform
+L422| age-appropriate daily activities
+L423| • Symptoms of catching, locking, or instability
+L424| • Physical exam findings * of at least TWO (2)  of the following:
+L425| o Joint  swelling or effusion
+L426| o Positive McMurray or Apley test
+L427| Joint Surgery
+L428| © 2023 Carelon Medical Benefits Management. All rights reserved .  43 o Joint line tenderness
+L429| o Reduced range of motion
+L430| *If there is a planned concurrent ligament reconstruction and documented menisc al tear, physical exam
+L431| findings specific to meniscus  are not necessary.
+L432| • Imaging confirms features of an acute meniscal tear (e.g., root avulsion, longitudinal vertical, radial, flap,
+L433| posterolateral root, bucket handle, posterior horn, and complex tears, or displaced meniscal fragment)
+L434| Partial meniscectomy is considered medica lly necessary for symptomatic tears not amenable to repair, especially
+L435| when the peripheral meniscal rim is intact.
+L436| Meniscal repair is considered medically necessary for symptomatic reducible tears that are peripheral (e.g., near
+L437| the capsular attachment) a nd horizontal or longitudinal in nature.
+L438| Exclusion
+L439| For x -rays with Kellgren -Lawrence  grade 3 or 4 changes and knee pain preceding recent injury , see Chronic
+L440| degenerative menisc al tear.
+L441| Chronic degenerative meniscal tear
+L442| Meniscal repair or meniscectomy is considered medically necessary for chronic degenerative meniscal tear
+L443| (without any history of significant acute trauma) when ALL of the following are present:
+L444| • Physical exa m findings of at least TWO (2)  of the following:
+L445| o Joint swelling or effusion
+L446| o Positive McMurray or Apley test
+L447| o Joint line tenderness
+L448| o Reduced range of motion
+L449| • Persistent or frequent mechanical symptoms (catching, locking, or instability) or failure of conserva tive
+L450| management for at least 3 months
+L451| • Imaging demonstrating a meniscal tear consistent with the clinical presentation
+L452| • X-ray findings demonstrating no more than moderate osteoarthritis as evidenced by imaging showing
+L453| ONE  of the following:
+L454| o Greater than or e qual to 50% joint space preservation (mild to moderate)
+L455| o Less than or equal to grade 2 Kellgren -Lawrence
+L456| o Less than or equal to grade III modified Outerbridge changes
+L457| Chondroplasty/debridement
+L458| Chondroplasty/debridement is considered medically necessary when ALL of the following criteria are met:
+L459| • Pain or mechanical symptoms
+L460| • Partial thickness cartilage lesion or unstable chondral flap documented by MRI
+L461| • Failure to respond to at least a 6 -week cour se of conservative management in the absence of a chondral
+L462| flap
+L463| • Radiographic imaging consistent with Kellgren -Lawrence grade 2 or lower
+L464| Note: Chondroplasty performed along with a meniscectomy in the same knee is considered part of the main
+L465| (meniscectomy) procedure.  Meniscectomy performed along with a chondroplasty in the same knee is considered
+L466| part of the main (chondroplasty) procedure .
+L467| Joint Surgery
+L468| © 2023 Carelon Medical Benefits Management. All rights reserved .  44 Abrasion arthroplasty/microfracture (knee including patella)
+L469| Abrasion arthroplasty/microfracture (knee in cluding patella) is considered medically necessary when ALL of the
+L470| following lesion and joint criteria are met:
+L471| • Absence of “kissing” knee lesions (lesion must be single and involve only one side of the joint)
+L472| • Lesion is largely contained with near normal s urrounding articular cartilage and articulating cartilage.
+L473| • Full-thickness lesion involving a focal, (grade III or IV) isolated defect of the weight -bearing surface
+L474| • Documented minimal to absent degenerative changes in the surrounding articular cartilage (O uterbridge
+L475| grade II or less), and normal -appearing hyaline cartilage surrounding the border of the defect
+L476| • Knee joint is stable, with functionally intact menisci (knee) and ligaments, and has normal alignment
+L477| • Lesion involves a focal, full thickness, (grade III or IV) isolated defect of the weight -bearing surface
+L478| greater than 1 cm2 – 2.5 cm2
+L479| Corrective procedures (e.g., ligament or tendon repair, osteotomy for realignment, meniscal allograft transplant or
+L480| repair) may be performed in combination with, or prior  to, abrasion arthroplasty/microfracture.
+L481| Debridement/drainage/lavage
+L482| Debridement/drainage/lavage is considered medically necessary for ALL of the following conditions:
+L483| • Rheumatoid arthritis with failure of medical management (DMARDs)
+L484| • Septic joint or oste omyelitis
+L485| • Septic prosthetic joint
+L486| • Postoperative arthrofibrosis with limited range of motion and failure of at least 6 weeks of conservative
+L487| management
+L488| Exclusion
+L489| Debridement or lavage for isolated primary diagnosis of osteoarthritis of the knee
+L490| Arthroscopically assisted lysis of adhesions
+L491| Arthroscopically assisted lysis of adhesions is considered medically necessary for post -traumatic, post -surgical, or
+L492| idiopathic stiffness of the knee when ALL of the following criteria are met:
+L493| • Physical exam de monstrates limited range of motion of the knee, defined as less than 105 degrees of
+L494| flexion or a flexion contracture greater than 10 degrees
+L495| • Range of motion of the knee has failed to improve despite 6 weeks of conservative management
+L496| • Failure of prior mani pulation under anesthesia or manipulation under anesthesia is planned concurrently
+L497| Manipulation under anesthesia
+L498| Manipulation under anesthesia (MUA) is considered medically necessary for post -traumatic, post -surgical, or
+L499| idiopathic stiffness of the knee when ALL of the following criteria are met:
+L500| • Physical exam demonstrates limited range of motion of the knee defined as less than 105 degrees of
+L501| flexion or a flexion contracture greater than 10 degrees
+L502| • Range of motion of the knee has failed to improve despit e 6 weeks of conservative management
+L503| Anterolateral ligament reconstruction or extra articular tenodesis
+L504| Reconstruction of the anterolateral ligament or an extra articular tenodesis for knee stability may be required if
+L505| ANY  of the following criteria are met :
+L506| Joint Surgery
+L507| © 2023 Carelon Medical Benefits Management. All rights reserved .  45 • Skeletal immaturity that makes ACL ligament reconstruction not feasible
+L508| • A revision ACL reconstruction is planned
+L509| • Positive pivot shift or other evidence of rotational instability
+L510| • Ligamentous laxity as confirmed by use of Beighton or comparable score
+L511| Anter ior cruciate ligament reconstruction
+L512| Anterior cruciate ligament (ACL) reconstruction  is considered medically necessary  when  ALL of the following
+L513| criteria are met:
+L514| • There is not advanced knee arthritis (Kellgren -Lawrence grade 4 )
+L515| • A diagnosis of ACL tear as established by EITHER  of the following:
+L516| o Exam findings of a positive anterior drawer sign, pivot shift test or Lachman test
+L517| o Report of CT or MRI which demonstrates an ACL tear
+L518| • At least ONE  of the following scenarios is present:
+L519| o ACL tear occurring in conjunction with a meniscal tear or ligamentous injury (i.e., medial or
+L520| posterior collateral ligament, posterior cruciate ligament, or posterolateral corner ligamentous
+L521| injury)
+L522| o The patient is in volved in a physically demanding occupation (e.g., firefighter, law enforcement,
+L523| construction), or regularly engages in activities which include cutting, jumping, and/or pivoting
+L524| (e.g., skiing, basketball, football)
+L525| o Two (2) weeks of conservative care has been tried and failed (e.g., physical therapy, activity
+L526| modification, oral analgesics)
+L527| Posterior cruciate ligament repair or reconstruction
+L528| Posterior cruciate ligament (PCL) repair or reconstruction  is considered medically necessary  when  ALL of
+L529| the following criteria are met:
+L530| • There is not advanced knee arthritis ( Kellgren -Lawrence grade 4 )
+L531| • A diagnosis of PCL tear as established by EITHER  of the following:
+L532| o Exam findings of a positive posterior drawer sign, reversed pivot shift test, or posterior sag sign
+L533| o CT or MRI performed within the past 12 months demonstrating a PCL tear
+L534| • Associated ligamentous injuries (i.e., injury to posterolateral corner of the knee, medial collateral ligament
+L535| tear, ACL tear, avulsion fracture of fibular head or avulsion of the tibia distal to the lateral plateau)
+L536| Posterolateral corner injury
+L537| Posterolateral corner reconstruction is considered medically necessary when ALL of the following criteria are met:
+L538| • Imaging confirmation of injury to the posterolateral structures
+L539| • Exam fi ndings consistent with a posterolateral corner injury
+L540| • Associated ligamentous injuries necessitating treatment
+L541| Collateral  or extra-articular ligament injury
+L542| Collateral or extra -articular ligament reconstruction is considered medically necessary when EITHER  of the
+L543| following criteria are met :
+L544| • Diagnosis of ligament injury by either  of the following with conservative management  for 6 weeks :
+L545| Joint Surgery
+L546| © 2023 Carelon Medical Benefits Management. All rights reserved .  46 o Advanced imaging evidence of a complete tear
+L547| o Physical exam findings consistent with instability due to the ligament injury
+L548| • Associated ligamentous injury treatment
+L549| Patellar compression syndrome (lateral patellofemoral impingement)
+L550| Lateral retinacular release is considered medically necessary when ALL of the following criteria are met:
+L551| • Positive lateral patellar tilt est ablished on imaging (axial view)
+L552| • Failure of at least 6 months of conservative management
+L553| • Radiographic imaging consistent with Kellgren -Lawrence grade 2 or lower patellofemoral osteoarthritis
+L554| • At least ONE  of the following is present:
+L555| o Positive patella glide test
+L556| o Positive patella tilt test
+L557| o Lateral femoral trochlear or lateral patella facet cartilage lesion confirmed by imaging within the
+L558| past 12 months, when symptoms are consistent with a cartilage defect
+L559| Exclusion
+L560| Central or medial tracking of the patella
+L561| Quadricepsplasty
+L562| Quadricepsplasty is considered medically necessary for knee extension contracture secondary to prior
+L563| femur/knee fracture or surgery when ALL of the following criteria are met:
+L564| • Knee flexion  less than 90 degrees
+L565| • Failure of at least 12 weeks of conservative management
+L566| • Failure of an arthroscopic lysis of adhesions
+L567| Distal realignment procedures
+L568| Distal realignment procedures (tibial tubercle transfer) for patellar instability (subluxation/disloca tion) are
+L569| considered medically necessary in skeletally mature patients when ALL of the following criteria are met:
+L570| • Recurrent patellofemoral instability associated with pain that limits function
+L571| • Failure of at least 12 weeks of conservative management that i ncludes physical therapy
+L572| • Radiographic imaging consistent with Kellgren -Lawrence grade 2 or lower patellofemoral osteoarthritis
+L573| • Presence of at least ONE  of the following:
+L574| o Tibial tubercle -trochlear groove (TT -TG) distance > 20 mm
+L575| o Patella alta  (e.g., Caton -Deschamps index > 1.2)
+L576| Medial patellofemoral ligament reconstruction
+L577| Medial patellofemoral ligament (MPFL) reconstruction is considered medically necessary when EITHER  of the
+L578| following apply:
+L579| • Performed in combination with distal realignment for patellofemoral instability
+L580| • ALL of the following criteria are met:
+L581| Joint Surgery
+L582| © 2023 Carelon Medical Benefits Management. All rights reserved .  47 o Recurrent patellofemoral instability associated with pain that limits function  OR Failure of at least 12
+L583| weeks of conservative management
+L584| o Radiographic imaging consistent with Kellgren -Lawrence grade 2 or lower patellofemoral
+L585| osteoarthritis
+L586| o Presence  of tibial tubercle -trochlear groove (TT -TG) distance < 20 mm , normal trochlear morphology ,
+L587| and a bsence of patella alta
+L588| Plica resection
+L589| Plica resection is considered medically necessary when at least TWO of the following (5) are present  AND
+L590| BOTH additional criteria  are met :
+L591| • Anteromedial knee joint line pain, especially at the medial femoral condyle
+L592| • Audible clicking or snap during knee motion – painful arc 30 to 60 degrees
+L593| • Pain with activities: ascending and descending stairs, squatting, rising from a chair, or sitting for extended
+L594| periods
+L595| • Positive Hughston plica test or positive duvet test (duvet between knees for relief)
+L596| • Visible or palpable (tender) plica
+L597| Additional criteria (BOTH are required)
+L598| • Exclusion of other causes of anteromedial knee pain
+L599| • Failure of at least 12 weeks of conservative management
+L600| Excision of popliteal cyst
+L601| Excision of a popliteal cyst is considered medically necessary when the following is present:
+L602| o Posterior knee pain ≥ 4 on the VAS scale of at least 8 weeks’ duration
+L603| Synovectomy (Limited)
+L604| Limited synovial excision is considered medically necessary when  BOTH  of the following criteria are met:
+L605| • EITHER  of the following
+L606| o Imaging confirmation of a primary  localized synovial proliferative process (e.g., Hoffa’s fat pad
+L607| syndrome, plica, post procedure focal synovial hypertrophy)
+L608| o Physical exam findings and/or symptoms correlat e with the synovial proliferative process
+L609| • Documentation of at least 12 weeks of cons ervative management
+L610| Synovectomy  (Extensive)
+L611| Synovectomy is considered medically necessary for ANY  of the following conditions:
+L612| • Rheumatoid arthritis or other chronic inflammatory arthropathies with failure of conservative management
+L613| • Hemophilic joint disease
+L614| • Other diffuse synovial proliferative disorders , such as:
+L615| o Localized pigmented villonodular synovitis
+L616| o Synovial hemangioma
+L617| o Synovial chondromatosis/osteochondromatosis
+L618| o Infecti ous synovitis  (bacterial or fungal septic arthritis)
+L619| Joint Surgery
+L620| © 2023 Carelon Medical Benefits Management. All rights reserved .  48 Repair of osteochondral defec t
+L621| See Treatment of Osteochondral Defects  guideline.
+L622| Exclusions
+L623| Indications other than those addressed in this guideline are considered not medically necessary  including, but
+L624| not limited to, the following:
+L625| • Arthroscopic debridement or lavage for isolated pr imary diagnosis of osteoarthritis of the knee
+L626| • Lateral retinacular release for central or medial tracking of the patella for patellar compression syndrome
+L627| (lateral patellofemoral impingement)
+L628| • Synovectomy for exposure or visualization, or for post traumatic  reactive synovitis
+L629| • Meniscal repair or partial meniscectomy when meniscal tear is associated with Kellgren -Lawrence grade
+L630| ≥ 3 or modified Outerbridge grade > III osteoarthritis of the knee (exception may be granted for patients
+L631| under age 40)
+L632| • Partial menis cectomy for degenerative tears (horizontal cleavage, intrameniscal linear MRI signal
+L633| penetrating one or both surfaces of the meniscus) with no associated mechanical symptoms
+L634| Selected References
+L635| 1. American Academy of Orthopaedic  Surgeons Management of Osteoarthritis of the Knee (NonArthroplasty) Evidence -Based
+L636| Clinical Practice Guideline. https://www.aaos.org/oak3cpg Published August 30, 2021.
+L637| 2. Arthroscopic Debridement of the Knee: An Evidence Update. Ontario health technology ass essment series. 2014;14(13):1 -43.
+L638| 3. Beaufils P, Hulet C, Dhénain M, Nizard R, Nourissat G, Pujol N. Clinical practice guidelines for the management of meniscal
+L639| lesions and isolated lesions of the anterior cruciate ligament of the knee in adults. Orthop Traum atol Surg Res. 2009;95(6):437 -
+L640| 42.
+L641| 4. Brignardello -Petersen R, Guyatt GH, Buchbinder R, Poolman RW, Schandelmaier S, Chang Y, Sadeghirad B, Evaniew N,
+L642| Vandvik PO. Knee arthroscopy versus conservative management in patients with degenerative knee disease: a sys tematic
+L643| review. BMJ Open. 2017;7(5):e016114.
+L644| 5. Katz JN, Wright J, Spindler KP, Mandl LA, Safran -Norton CE, Reinke EK, Levy BA, Wright RW, Jones MH, Martin SD, Marx RG,
+L645| Losina E. Predictors and Outcomes of Crossover to Surgery from Physical Therapy for Menisc al Tear and Osteoarthritis: A
+L646| Randomized Trial Comparing Physical Therapy and Surgery. J Bone Joint Surg Am. 2016;98(22):1890 -6.
+L647| 6. Khan M, Evaniew N, Bedi A, Ayeni OR, Bhandari M. Arthroscopic surgery for degenerative tears of the meniscus: a systematic
+L648| review and meta -analysis. Cmaj. 2014;186(14):1057 -64.
+L649| 7. Monk AP, Davies LJ, Hopewell S, Harris K, Beard DJ, Price AJ. Surgical versus conservative interventions for treating anterio r
+L650| cruciate ligament injuries. Cochrane Database Syst Rev. 2016;4(4):Cd011166.
+L651| 8. Østerås H. A 12 -week medical exercise therapy program leads to significant improvement in knee function after degenerative
+L652| meniscectomy: a randomized controlled trial with one year follow -up. J Bodyw Mov Ther. 2014;18(3):374 -82.
+L653| 9. Papalia R, Osti L, Del Buono A , Denaro V, Maffulli N. Management of combined ACL -MCL tears: a systematic review. Br Med
+L654| Bull. 2010;93:201 -15.
+L655| 10. Petersen W, Achtnich A, Lattermann C, Kopf S. The Treatment of Non -Traumatic Meniscus Lesions. Dtsch Arztebl Int.
+L656| 2015;112(42):705 -13.
+L657| 11. Quinn RHM , J.; Pezold, R. The American Academy of Orthopaedic Surgeons Appropriate Use Criteria for Surgical Management
+L658| of Osteoarthritis of the Knee. J Bone Joint Surg Am. 2017;99(8):697 -9.
+L659| 12. Smith TO, Postle K, Penny F, McNamara I, Mann CJ. Is reconstruction the be st management strategy for anterior cruciate
+L660| ligament rupture? A systematic review and meta -analysis comparing anterior cruciate ligament reconstruction versus non -
+L661| operative treatment. Knee. 2014;21(2):462 -70.
+L662| Codes
+L663| The following code list is not meant to be all -inclusive. Authorization requirements will vary by health plan. Please consult the
+L664| applicable health plan for guidance on specific procedure codes.
+L665| Joint Surgery
+L666| © 2023 Carelon Medical Benefits Management. All rights reserved .  49 Specific CPT codes for services should be used when available. Nonspecific or not otherwise classifie d codes may be subject
+L667| to additional documentation requirements and review.
+L668| Medical necessity reviews are initiated by submitting the correct AMA CPT codes. The submitted codes must accurately
+L669| identify the service or procedure to be performed.  If no such code exists, contact the health plan directly and report the
+L670| service or procedure using the appropriate unlisted procedure or Not Otherwise Classified (NOC) code (which often end s in
+L671| 99). Do not submit a code that is “close to” the procedure performed in l ieu of an unlisted code. Correct coding demands that
+L672| the code reported is appropriate for the service provided (i.e., a code that most accurately represents the service provided) ,
+L673| and not a code that is similar but represents another service.  (CPT® Assista nt, December 2010)
+L674| CPT/HCPCS
+L675| CPT® (Current Procedural Terminology) is a registered trademark of the American Medical Association (AMA). CPT® five-digit codes,
+L676| nomenclature and other data are copyright by the American Medical Association. All Rights Reserve d. AMA does not directly or indirectly
+L677| practice medicine or dispense medical services. AMA assumes no liability for the data contained herein or not contained herei n.
+L678| 27331  Arthrotomy, knee; including joint exploration, biopsy, or removal of loose or forei gn bodies
+L679| 27332  Arthrotomy, with excision of semilunar cartilage (meniscectomy) knee; medial OR lateral
+L680| 27333  Arthrotomy, with excision of semilunar cartilage (meniscectomy) knee; medial AND lateral
+L681| 27334  Arthrotomy, with synovectomy, knee; anterior OR posterior
+L682| 27335  Arthrotomy, with synovectomy, knee; anterior AND posterior including popliteal area
+L683| 27345  Excision synovial cyst popliteal space
+L684| 27403  Arthrotomy with meniscus repair, knee
+L685| 27405  Repair, primary, torn ligament and/or capsule, knee; collateral
+L686| 27407  Repair, primary, torn ligament and/or capsule, knee; cruciate
+L687| 27409  Repair, primary, torn ligament and/or capsule, knee; collateral and cruciate ligaments
+L688| 27418  Anterior tibial tubercleplasty (eg, Maquet type procedure)
+L689| 27420  Reconstruction of dislocating patella; (eg, Hauser type procedure)
+L690| 27422  Reconstruction of dislocating patella; with extensor realignment and/or muscle advancement or release (eg,
+L691| Campbell, Goldwaite type procedure)
+L692| 27424  Reconstruction of dislocat ing patella; with patellectomy
+L693| 27425  Lateral retinacular release, open
+L694| 27427  Ligamentous reconstruction (augmentation), knee; extra -articular
+L695| 27428  Ligamentous reconstruction (augmentation), knee; intra -articular (open)
+L696| 27429  Ligamentous reconstruction (augmentation), knee; intra -articular (open) and extra -articular
+L697| 27430  Quadricepsplasty (eg, Bennett or Thompson type)
+L698| 27570  Manipulation of knee joint under general anesthesia (includes application of traction or other fixation devices)
+L699| 29870  Arthroscopy, knee, diagnostic, with or without synovial biopsy (separate procedure)
+L700| 29871  Arthroscopy, knee, surgical; for infection, lavage and drainage
+L701| 29873  Arthroscopy, knee, surgical; with lateral release
+L702| 29874  Arthroscopy, knee, surgical; for removal of loose body or foreign body (eg, osteochondritis dissecans
+L703| fragmentation, chondral fragmentation)
+L704| 29875  Arthroscopy, knee, surgical; synovectomy, limited (eg, plica or shelf resection) (separate procedure)
+L705| 29876  Arthroscopy, knee,  surgical; synovectomy, major, 2 or more compartments (eg, medial or lateral)
+L706| 29877  Arthroscopy, knee, surgical; debridement/shaving of articular cartilage (chondroplasty)
+L707| 29879  Arthroscopy, knee, surgical; abrasion arthroplasty (includes chondroplasty where necessary) or multiple drilling or
+L708| microfracture
+L709| 29880  Arthroscopy, knee, surgical; with meniscectomy (medial AND lateral, including any meniscal shaving) including
+L710| debridement/shaving of articular cartilage (chondroplasty), same or se parate compartment(s), when performed
+L711| 29881  Arthroscopy, knee, surgical; with meniscectomy (medial OR lateral, including any meniscal shaving) including
+L712| debridement/shaving of articular cartilage (chondroplasty), same or separate compartment(s), when perf ormed
+L713| 29882  Arthroscopy, knee, surgical; with meniscus repair (medial OR lateral)
+L714| 29883  Arthroscopy, knee, surgical; with meniscus repair (medial AND lateral)
+L715| Joint Surgery
+L716| © 2023 Carelon Medical Benefits Management. All rights reserved .  50 29884  Arthroscopy, knee, surgical; with lysis of adhesions, with or without manipulation (sepa rate procedure)
+L717| 29885  Arthroscopy, knee, surgical; drilling for osteochondritis dissecans with bone grafting, with or without internal
+L718| fixation (including debridement of base of lesion)
+L719| 29886  Arthroscopy, knee, surgical; drilling for intact osteochondritis dissecans lesion
+L720| 29887  Arthroscopy, knee, surgical; drilling for intact osteochondritis dissecans lesion with internal fixation
+L721| 29888  Arthroscopically aided anterior cruciate ligament repair/augmentation or reconstruction
+L722| 29889  Arthrosco pically aided posterior cruciate ligament repair/augmentation or reconstruction
+L723| G0289  Arthroscopy, knee, surgical, for removal of loose body, foreign body, debridement/shaving of articular cartilage
+L724| (chondroplasty) at the time of other surgical knee arthr oscopy in a different compartment of the same knee
+L725| Joint Surgery
+L726| © 2023 Carelon Medical Benefits Management. All rights reserved .  51 Meniscal Allograft Transplantation of the Knee
+L727| Description
+L728| Meniscal allograft transplantation of the knee is a surgical procedure used to restore normal meniscal function by
+L729| replacing a damaged or absent meniscus with donor cadaver allograft cartilage. The procedure is an option for a
+L730| subset of patients who have p ain or disability attributed to insufficient cushioning and lubrication of the joint.
+L731| A significant subset of these patients have undergone one or more procedures to remove portions of the
+L732| meniscus due to tears or other injury. The goal of the procedure i s reduction in pain, prevention of degenerative
+L733| changes to the cartilage and subchondral bone, and restoration of the mechanical properties of the knee joint.
+L734| Clinical Indications
+L735| The following general requirements apply to all indications except where th ey differ from the specific
+L736| requirements. The specific requirements take precedence over any stated general requirement.
+L737| General Information
+L738| The terms in the section provide operational definitions when they are referenced as requirements in the
+L739| guideline.
+L740| Documentation supporting medical necessity and a clearly stated plan of care should be submitted at the time of
+L741| the request and must include the following components:
+L742| Operative report of a prior arthroscopic procedure and/or MRI of the knee performed wit hin the past 12
+L743| months . The provider shall submit a detailed imaging report that correlates with clinical findings of the requested
+L744| procedure. In the absence of a detailed report, the provider will be required to submit a report from an
+L745| independent radiolo gist. The results of all imaging studies should correlate with the clinical findings in support of
+L746| the requested procedure.
+L747| Conservative management1 must include a combination of strategies to reduce inflammation, alleviate pain, and
+L748| correct underlying dys function, including physical therapy AND  at least ONE  complementary conservative
+L749| treatment strategy.
+L750| • Physical therapy requirement  includes ANY  of the following:
+L751| o Physical therapy rendered by a qualified provider of physical therapy services
+L752| o Supervised home treatment program which includes flexibility and muscle strengthening
+L753| exercises that includes ALL of the following:
+L754| ▪ Participation in a patient -specific or tailored program
+L755| ▪ Initial active instruction by MD/DO/PT with redemonstration of patie nt ability to perform
+L756| exercises
+L757| ▪ Compliance (documented or by clinician attestation on follow -up evaluation)
+L758| o Exception to the physical therapy requirement in unusual circumstances (for instance
+L759| intractable pain so severe that physical therapy is not possibl e) when clearly documented in the
+L760| medical record
+L761| • Complementary conservative treatment requirement  includes ANY  of the following:
+L762| o Anti-inflammatory medications and analgesics2
+L763| o Adjunctive medications such as nerve membrane stabilizers or muscle relaxants2
+L764| o Intra-articular corticosteroid injection(s)2
+L765| Joint Surgery
+L766| © 2023 Carelon Medical Benefits Management. All rights reserved .  52 o Alternative therapies such as activity modification, and/or a trial period of rest (e.g., from the
+L767| aggravating/contributing factors), where applicable
+L768| 1 Additional condition or procedure -specific requirements may  apply and can be found in the respective sections
+L769| of the guideline.
+L770| 2 In the absence of contraindications
+L771| Clinical reevaluation . In most cases, reevaluation should include a physical examination. Direct contact by other
+L772| methods, such as telephone communic ation or electronic messaging, may substitute for in -person evaluation
+L773| when circumstances preclude an office visit. Clinical reevaluation must be done in reasonable proximity to the
+L774| anticipated date of service such that the patient’s condition would be unl ikely to change by the date of service.
+L775| Failure of conservative management  requires ALL of the following:
+L776| • Patient has completed a full course of conservative management (as defined above) for the current
+L777| episode of care
+L778| • Worsening of or no significant improvement in signs and/or symptoms upon clinical reevaluation
+L779| • More invasive forms of therapy are being considered
+L780| Documentation of compliance with a plan of therapy that includes elements from these areas is required where
+L781| conservative management is appropriate.
+L782| Reporting symptom severity . Severity of pain and its associated impact on activities of daily living (ADLs) and
+L783| instrumental ADLs (IADLs) are key factors in determining the need for intervention. For purposes of th is guideline,
+L784| significant pain and functional impairment refer to pain rated at least 3 out of 10 in intensity and associated with
+L785| inability to perform at least two (2) ADLs and/or IADLs.
+L786| Meniscal Allograft Transplantation of the Knee
+L787| Meniscal allograft t ransplantation of the knee is considered medically necessary as a treatment for individuals
+L788| with significant partial (more than 50%) or complete loss of the meniscus, as documented by previous operative
+L789| reports, MRI, or diagnostic arthroscopy, when ALL of the following criteria are met:
+L790| • Age 55 or younger and skeletally mature
+L791| • Knee pain refractory to conservative treatment
+L792| • Ligamentous stability either prior to surgery or achieved concurrently with meniscal transplantation
+L793| • Normal alignment without varus or va lgus deformities
+L794| • Mild to moderate articular damage (Outerbridge grade II or less)
+L795| Exclusions
+L796| Indications other than those addressed in this guideline are considered not medically necessary  including, but
+L797| not limited to, the following:
+L798| • Treatment for asympto matic individuals with partial or complete loss of the meniscus
+L799| • Use of other meniscal implants incorporating materials such as collagen and polyurethane
+L800| Selected References
+L801| 1. Beaufils P, Hulet C, Dhénain M, Nizard R, Nourissat G, Pujol N. Clinical practice g uidelines for the management of meniscal
+L802| lesions and isolated lesions of the anterior cruciate ligament of the knee in adults. Orthop Traumatol Surg Res. 2009;95(6):4 37-
+L803| 42.
+L804| 2. De Bruycker M, Verdonk PCM, Verdonk RC. Meniscal allograft transplantation: a meta -analysis. Sicot -J. 2017;3:33.
+L805| Joint Surgery
+L806| © 2023 Carelon Medical Benefits Management. All rights reserved .  53 3. Quinn RHM, J.; Pezold, R. The American Academy of Orthopaedic Surgeons Appropriate Use Criteria for Surgical Management
+L807| of Osteoarthritis of the Knee. J Bone Joint Surg Am. 2017;99(8):697 -9.
+L808| Codes
+L809| The following code list is no t meant to be all -inclusive. Authorization requirements will vary by health plan. Please consult the
+L810| applicable health plan for guidance on specific procedure codes.
+L811| Specific CPT codes for services should be used when available. Nonspecific or not otherwis e classified codes may be subject
+L812| to additional documentation requirements and review.
+L813| Medical necessity reviews are initiated by submitting the correct AMA CPT codes. The submitted codes must accurately
+L814| identify the service or procedure to be performed.  If no such code exists, contact the health plan directly and report the
+L815| service or procedure using the appropriate unlisted procedure or Not Otherwise Classified (NOC) code (which often end s in
+L816| 99). Do not submit a code that is “close to” the procedure per formed in lieu of an unlisted code. Correct coding demands that
+L817| the code reported is appropriate for the service provided (i.e., a code that most accurately represents the service provided) ,
+L818| and not a code that is similar but represents another service.  (CPT® Assistant,  December 2010)
+L819| CPT/HCPCS
+L820| CPT® (Current Procedural Terminology) is a registered trademark of the American Medical Association (AMA). CPT® five-digit codes,
+L821| nomenclature and other data are copyright by the American Medical Association. All Rights Reserved. AMA does not directly or indirectly
+L822| practice medicine or dispense medical services. AMA assumes no liability for the data contained herein or not co ntained herein.
+L823| 29868  Arthroscopy, knee, surgical; meniscal transplantation (includes arthrotomy for meniscal insertion), medial or lateral
+L824| G0428  Collagen meniscus implant procedure for filling meniscal defects (eg, CMI, collagen scaffold, Menaflex)
+L825| Joint Surgery
+L826| © 2023 Carelon Medical Benefits Management. All rights reserved .  54  Osteochondral Grafts
+L827| Description and Scope
+L828| Articular cartilage lesions in weight -bearing joints often fail to heal spontaneously and may be associated with
+L829| pain, loss of function, and long -term complications such as osteoarthritis. A number of surgical te chniques have
+L830| been developed to treat these lesions, but an established therapy with long -term efficacy remains elusive.
+L831| Procedures to treat focal articular cartilage defects can be classified as:
+L832| 1. Palliative (lavage, chondroplasty)
+L833| 2. Reparative (microfractur e, abrasion arthroplasty)
+L834| 3. Restorative (autologous chondrocyte implantation, osteochondral allograft, or osteochondral autograft)*
+L835| The most widely used are bone marrow stimulation techniques to induce an influx of mesenchymal stem cells into
+L836| the defect.
+L837| Chondroplasty or debridement is a smoothing or shaving of symptomatic partial -thickness cartilage lesions or
+L838| chondral flaps (unstable mechanical source of pain). See knee arthroscopy section.
+L839| Microfracture involves drilling multiple holes through the subc hondral bone to promote bleeding and fibrocartilage
+L840| growth. See knee arthroscopy section.
+L841| Abrasion arthroplasty involves abrading the subchondral bone to the depth necessary to promote bleeding and
+L842| fibrocartilage growth. See Knee Arthroscopy  section.
+L843| Both microfracture and abrasion arthroplasty are typically performed on lesions less than 4 cm2.
+L844| Other techniques involve transplantation of osteochondral tissue from non -weight bearin g sites, autologous
+L845| chrondrocyte transplant, and use of synthetic bone filler material or scaffolds.
+L846| This guideline addresses treatment of osteochondral defects of the knee, ankle, and other joints using the
+L847| following procedures or devices:
+L848| • Autologous cho ndrocyte transplant (ACT)
+L849| • Minced cartilage repair
+L850| • Osteochondral allograft
+L851| • Osteochondral autograft (OATS/mosaicplasty)
+L852| • Resorbable synthetic bone filler materials
+L853| • Microfracture
+L854| Clinical Indications
+L855| The following general requirements apply to all indication s except where they differ from the specific
+L856| requirements. The specific requirements take precedence over any stated general requirement.
+L857| General Information
+L858| The terms in the section provide operational definitions when they are referenced as requirements  in the
+L859| guideline.
+L860| Documentation supporting medical necessity and a clearly stated plan of care should be submitted at the time of
+L861| the request and must include the following components:
+L862| Joint Surgery
+L863| © 2023 Carelon Medical Benefits Management. All rights reserved .  55 Operative report of a prior arthroscopic procedure and/or MRI of the knee performed within the past 12
+L864| months . The provider shall submit a detailed imaging report that correlates with clinical findings of the requested
+L865| procedure. In the absence of a detailed report, the provider will be required to submit a report from an
+L866| independent radiologist. The results of all imaging studies should correlate with the clinical findings in support of
+L867| the requested procedure.
+L868| Conservative management1 must include a combination of strategies to reduce inflammation, alleviate pain, and
+L869| correct underlying dysfunction, including physical therapy AND  at least ONE  complementary conservative
+L870| treatment strategy.
+L871| • Physical therapy requirement  includes ANY  of the following:
+L872| o Physical therapy rendered by a qualified provider of physical therapy servic es
+L873| o Supervised home treatment program that includes ALL of the following:
+L874| ▪ Participation in a patient -specific or tailored program
+L875| ▪ Initial active instruction by MD/DO/PT with redemonstration of patient ability to perform
+L876| exercises
+L877| ▪ Compliance (documented or b y clinician attestation on follow -up evaluation)
+L878| o Exception to the physical therapy requirement in unusual circumstances (for instance,
+L879| intractable pain so severe that physical therapy is not possible) when clearly documented in the
+L880| medical record
+L881| • Complementary conservative treatment requirement  includes ANY  of the following:
+L882| o Anti-inflammatory medi cations and analgesics2
+L883| o Adjunctive medications such as nerve membrane stabilizers or muscle relaxants2
+L884| o Intra-articular corticosteroid injection(s)2
+L885| o Alternative therapies such as activity modification, and/or a trial period of rest (e.g., from the
+L886| aggravati ng/contributing factors), where applicable
+L887| 1 Additional condition or procedure -specific requirements may apply and can be found in the respective sections
+L888| of the guideline.
+L889| 2 In the absence of contraindications
+L890| Clinical reevaluation . In most cases, reeval uation should include a physical examination. Direct contact by other
+L891| methods, such as telephone communication or electronic messaging, may substitute for in -person evaluation
+L892| when circumstances preclude an office visit. Clinical reevaluation must be done in reasonable proximity to the
+L893| anticipated date of service such that the patient’s condition would be unlikely to change by the date of service.
+L894| Failure of conservative management  requires ALL of the following:
+L895| • Patient has completed a full course of conser vative management (as defined above) for the current
+L896| episode of care
+L897| • Worsening of or no significant improvement in signs and/or symptoms upon clinical reevaluation
+L898| • More invasive forms of therapy are being considered
+L899| Documentation of compliance with a plan  of therapy that includes elements from these areas is required where
+L900| conservative management is appropriate.
+L901| Reporting symptom severity . Severity of pain and its associated impact on activities of daily living (ADLs) and
+L902| instrumental ADLs (IADLs) are key  factors in determining the need for intervention. For purposes of this guideline,
+L903| significant pain and functional impairment refer to pain rated at least 3 out of 10 in intensity and associated with
+L904| inability to perform at least two (2) ADLs and/or IADLs.
+L905| Joint Surgery
+L906| © 2023 Carelon Medical Benefits Management. All rights reserved .  56 Patient Selection Requirements
+L907| Candidates for procedures included in this guideline must meet ALL of the following requirements:
+L908| • Skeletal maturity as documented by closure of growth plates
+L909| • Disabling localized knee or ankle pain for at least 3 months, whi ch has failed to respond to at least 6
+L910| weeks of conservative treatment , unless a symptomatic loose body  is present
+L911| • Absence of localized or systemic infection
+L912| • No history of cancer in the bones, cartilage, fat or muscle of the affected limb
+L913| • Willingness and a bility to comply with post -operative weight -bearing restrictions and rehabilitation
+L914| ALL of the following lesion and joint characteristics must be present:
+L915| • Lesion is discrete, single, and involves only one side of the joint
+L916| • Lesion is largely contained with near normal surrounding articular cartilage and articulating cartilage
+L917| • Joint space is normal without evidence of inflammation or degenerative changes
+L918| • Knee or ankle joint is stable with functionally intact menisci (knee) an d ligaments, and normal alignment
+L919| Corrective procedures (e.g., ligament or tendon repair, osteotomy for realignment, meniscal allograft transplant or
+L920| repair) may be performed in combination with, or prior to, transplantation.
+L921| Osteochondritis Dissecans (Juv enile and Adult)
+L922| Osteochondritis dissecans (OCD) is a distinct condition that develops primarily in children and adolescents. A
+L923| focal area of ischemia in the bone results in a progressive separation of a small segment of bone and overlying
+L924| cartilage. OCD a ffects the medial or lateral femoral condyles (not the patella, femoral trochlea, or tibial plateau)
+L925| (AAOS AUC). OCD is usually regarded as either juvenile OCD (JOCD) (occurring with an open epiphyseal plate)
+L926| or adult OCD (AOCD) (after the physis has close d). The etiology of OCD lesions remains unclear and is
+L927| characterized by an aseptic necrosis in the subchondral bone area. OCD is not associated with acute trauma.
+L928| Juvenile OCD
+L929| Surgical treatment (e.g., microfracture, pin fixation) is considered medically n ecessary when BOTH  of the
+L930| following criteria are met :
+L931| • Failure of 3 months of conservative management (e.g., immobilization, restricted weight -bearing,
+L932| avoidance of sports activities)
+L933| • Presence of an unstable lesion (based on advanced imaging or arthroscopic  evaluation)
+L934| Adult OCD
+L935| Surgical treatment (e.g., microfracture, pin fixation, osteochondral graft) is considered medically necessary when
+L936| BOTH  of the following criteria are met :
+L937| • Failure of 3 months of conservative management (e.g., immobilization, restrict ed weight -bearing,
+L938| avoidance of sports activities)
+L939| • Presence of an unstable lesion (based on advanced imaging or arthroscopic evaluation)
+L940| Joint Surgery
+L941| © 2023 Carelon Medical Benefits Management. All rights reserved .  57 Osteochondral Allograft Transplantation
+L942| Cartilaginous defects of the knee
+L943| Osteochondral allograft transplantation to t reat cartilaginous defects of the knee is considered medically
+L944| necessary when BOTH  of the following criteria are met:
+L945| • Size of the cartilage defect is greater than or equal to 1.0 cm2 in total area, as documented by MRI or
+L946| arthroscopy
+L947| • Condition involves a f ocal, full thickness, (grade III or IV) isolated defect of the weight -bearing surface of
+L948| the medial or lateral femoral condyles or trochlear region (trochlear groove of the femur)
+L949| Cartilaginous defects of the talus
+L950| Osteochondral allograft transplantation t o treat cartilaginous defects of the talus is considered medically
+L951| necessary when EITHER  of the following criteria are met:
+L952| • Large (area > 1. 0 cm2) or cystic (volume > 3.0 cm3) osteochondral lesions of the talus when autografting
+L953| would be inadequate due to lesion size, depth, or location
+L954| • Revision surgery after failed prior marrow stimulation for large (area > 1. 0 cm2) or cystic (volume > 3.0
+L955| cm3) osteochondral lesions of the talus when autografting would be inadequate due to lesion size, depth,
+L956| or location
+L957| Osteochondral Autograft Transplantation
+L958| Cartilaginous defects of the knee
+L959| Osteochondral autograft transplantation, either osteochondral autograft transplant (OAT) or autologous
+L960| mosaicplasty, is considered medically necessary to tr eat cartilaginous defects of the knee when ALL of the
+L961| following criteria are met:
+L962| • Size of the cartilage defect is between 1.0 cm and 2.5 cm2 in total area, as documented by MRI or
+L963| arthroscopy
+L964| • Condition involves a focal, full thickness, (grade III or IV) is olated defect of the knee involving the weight
+L965| bearing surface of the medial or lateral femoral condyles or trochlear region (trochlear groove of the
+L966| femur)
+L967| • Absence of “kissing” knee lesions (lesion must be single and involve only one side of the joint)
+L968| Cartilaginous defects of the talus
+L969| Osteochondral autograft transplantation or microfracture, either osteochondral autograft transplant (OAT) or
+L970| autologous mosaicplasty, is considered medically necessary to treat cartilaginous defects of the talus when
+L971| EITH ER of the following criteria is met:
+L972| • Large (area > 1. 0 cm2) or cystic (volume > 3.0 cm3) osteochondral lesions of the talus
+L973| • Revision surgery after failed marrow stimulation for osteochondral lesions of the talus
+L974| Autologous Chondrocyte Implantation
+L975| Cartilag inous defects of the knee/patella
+L976| Autologous chondrocyte implantation (ACI) is considered medically necessary to treat cartilaginous defects of the
+L977| knee/patella when ALL of the following criteria are met:
+L978| Joint Surgery
+L979| © 2023 Carelon Medical Benefits Management. All rights reserved .  58 • Primary chondral defect is present or prior surgica l procedure failed to correct the defect
+L980| • Size of the cartilage defect is greater than or equal to 1.5 cm2 in total area, as documented by MRI or
+L981| arthroscopy  (defects greater than 7 cm2 may require more than one vial)
+L982| • Condition involves a focal, full thickn ess, (grade III or IV) isolated unipolar defect of the knee involving the
+L983| weight bearing surface of the medial or lateral femoral condyles or patellofemoral region (includes
+L984| trochlear region, trochlear groove, and patella)
+L985| • Defect involves only the cartila ge and not the subchondral bone. (Exception to this requirement :
+L986| treatment of osteochondritis dissecans [OCD] associated with a bony defect of 10 mm or less in depth,
+L987| which has failed prior conservative treatment. OCD lesions associated with a bony lesion greater than 10
+L988| mm in depth must also undergo corrective bone grafting).
+L989| • Documented minimal to absent degenerative changes in the surrounding articular cartilage (Outerbridge
+L990| grade II or less), and normal -appearing hyaline cartilage surrounding the border of the defect
+L991| • Normal knee biomechanics or alignment and stability achieved concurrently with autologous chondrocyte
+L992| implantation (ACI).
+L993| Contraindications
+L994| All procedures listed
+L995| • Known allergy to gentamicin or other aminoglycosides
+L996| • Known sensitivity to porci ne or bovine cultures
+L997| • Severe osteoarthritis of the knee (Kellgren -Lawrence grade 3 or 4)
+L998| • Inflammatory arthritis, inflammatory joint disease, or uncorrected congenital blood coagulation disorders.
+L999| • Knee surgery within the previous 6 months (except surgery to procure a biopsy or a concomitant
+L1000| procedure to prepare the knee for a MACI implant)
+L1001| • Inability to cooperate with a physician -prescribed post -surgical rehabilitation program
+L1002| Exclusions
+L1003| Indications other than those addressed in this guideline are c onsidered not medically necessary  including, but
+L1004| not limited to, the following:
+L1005| • Use of non -autologous mosaicplasty with resorbable synthetic bone filler materials including, but not
+L1006| limited to, plugs and granules to repair osteochondral defects of the knee  or ankle
+L1007| • Use of minced articular cartilage (whether synthetic, allograft or autograft) to repair osteochondral defects
+L1008| of the knee or ankle
+L1009| • Use of decellularized osteochondral allograft plugs (e.g., Chondrofix®) or reduced osteochondral allograft
+L1010| discs (e.g., ProChondrix®, Cartiform®) to repair osteochondral defects of the knee or ankle
+L1011| • Use of autologous chondrocyte implantation (ACI) in joints other than the knee (investigational)
+L1012| • Allografts preserved by nonstandard tissue bank methods (e.g., Missouri O steochondral Allograft
+L1013| Preservation System)
+L1014| • Use of larger allografts that involve removing and replacing half or more of the articular surfaces of the
+L1015| knee as an alternative to traditional total joint replacement  (e.g., hemi condylar or total condylar for
+L1016| degenerative conditions)
+L1017| Joint Surgery
+L1018| © 2023 Carelon Medical Benefits Management. All rights reserved .  59 Selected References
+L1019| 1. Chambers HG, Shea KG, Carey JL. AAOS Clinical Practice Guideline: diagnosis and treatment of osteochondritis dissecans. J
+L1020| Am Acad Orthop Surg. 2011;19(5):307 -9.
+L1021| 2. Devitt BM, Bell SW, Webster KE, Feller JA, Whitehead TS. Surgical treatments of cartilage de fects of the knee: Systematic
+L1022| review of randomised controlled trials. Knee. 2017;24(3):508 -17.
+L1023| 3. DiBartola AC, Wright BM, Magnussen RA, Flanigan DC. Clinical Outcomes After Autologous Chondrocyte Implantation in
+L1024| Adolescents' Knees: A Systematic Review. Ar throscopy. 2016;32(9):1905 -16.
+L1025| 4. Goyal D, Goyal A, Keyhani S, Lee EH, Hui JH. Evidence -based status of second - and third -generation autologous chondrocyte
+L1026| implantation over first generation: a systematic review of level I and II studies. Arthroscopy. 2013 ;29(11):1872 -8.
+L1027| 5. Mistry H, Connock M, Pink J, Shyangdan D, Clar C, Royle P, Court R, Biant LC, Metcalfe A, Waugh N. Autologous chondrocyte
+L1028| implantation in the knee: systematic review and economic evaluation. Health Technol Assess. 2017;21(6):1 -294.
+L1029| 6. Mundi R, Bedi A, Chow L, Crouch S, Simunovic N, Sibilsky Enselman E, Ayeni OR. Cartilage Restoration of the Knee: A
+L1030| Systematic Review and Meta -analysis of Level 1 Studies. Am J Sports Med. 2016;44(7):1888 -95.
+L1031| 7. Niemeyer P, Laute V, Zinser W, Becher C, Kolom be T, Fay J, Pietsch S, Kuzma T, Widuchowski W, Fickert S. A Prospective,
+L1032| Randomized, Open -Label, Multicenter, Phase III Noninferiority Trial to Compare the Clinical Efficacy of Matrix -Associated
+L1033| Autologous Chondrocyte Implantation With Spheroid Technology  Versus Arthroscopic Microfracture for Cartilage Defects of the
+L1034| Knee. Orthop. 2019;7(7):2325967119854442.
+L1035| Codes
+L1036| The following code list is not meant to be all -inclusive. Authorization requirements will vary by health plan. Please consult the
+L1037| applicable hea lth plan for guidance on specific procedure codes.
+L1038| Specific CPT codes for services should be used when available. Nonspecific or not otherwise classified codes may be subject
+L1039| to additional documentation requirements and review.
+L1040| Medical necessity reviews are initiated by submitting the correct AMA CPT codes. The submitted codes must accurately
+L1041| identify the service or procedure to be performed.  If no such code exists, contact the health plan directly and report the
+L1042| service or procedure using the ap propriate unlisted procedure or Not Otherwise Classified (NOC) code (which often end s in
+L1043| 99). Do not submit a code that is “close to” the procedure performed in lieu of an unlisted code. Correct coding demands that
+L1044| the code reported is appropriate for the service provided (i.e., a code that most accurately represents the service provided),
+L1045| and not a code that is similar but represents another service.  (CPT® Assistant,  December 2010)
+L1046| CPT/HCPCS
+L1047| CPT® (Current Procedural Terminology) is a registered trademark o f the American Medical Association (AMA). CPT® five-digit codes,
+L1048| nomenclature and other data are copyright by the American Medical Association. All Rights Reserved. AMA does not directly or indirectly
+L1049| practice medicine or dispense medical services. AMA ass umes no liability for the data contained herein or not contained herein.
+L1050| 20932  Allograft, includes templating, cutting, placement and internal fixation, when performed; osteoarticular, including
+L1051| articular surface and contiguous bone (List separately in add ition to code for primary procedure)
+L1052| 20933  Allograft, includes templating, cutting, placement and internal fixation, when performed; hemicortical intercalary,
+L1053| partial (ie, hemicylindrical) (List separately in addition to code for primary procedure)
+L1054| 20934  Allograft, includes templating, cutting, placement and internal fixation, when performed; intercalary, complete (ie,
+L1055| cylindrical) (List separately in addition to code for primary procedure)
+L1056| 27412  Autologous chondrocyte implantation, knee
+L1057| 27415  Osteoch ondral allograft, knee, open [when specified as osteochondral allograft]
+L1058| 27416  Osteochondral autograft(s), knee, open (eg, mosaicplasty) includes harvesting of autograft[s])
+L1059| 28446  Open osteochondral autograft, talus (includes obtaining graft[s])
+L1060| 29866  Arthroscopy, knee, surgical; osteochondral autograft(s) (eg, mosaicplasty) (includes harvesting of the autograft)
+L1061| 29867  Arthroscopy, knee, surgical; osteochondral allograft (eg, mosaicplasty)
+L1062| 29879  Arthroscopy, knee, surgical; abrasion  arthroplasty (includes chondroplasty where necessary) or multiple drilling or
+L1063| microfracture
+L1064| 29892  Arthroscopically aided repair of large osteochondritis dissecans lesion, talar dome fracture, or tibial plafond
+L1065| fracture, with or without internal fixation (includes arthroscopy)
+L1066| J7330  Autologous cultured chondrocytes, implant
+L1067| S2112  Arthroscopy, knee, surgical for harvesting of cartilage (chondrocyte cells)
+L1068| Joint Surgery
+L1069| © 2023 Carelon Medical Benefits Management. All rights reserved .  60 Appendix
+L1070| Kellgren -Lawrence grading system for radiographic assessment of cartilage damage
+L1071| Grade  Description
+L1072| 0 Normal
+L1073| 1 Doubtful narrowing of joint space and possible osteophytic lipping
+L1074| 2 Definite osteophytes, definite narrowing of joint space
+L1075| 3 Moderate multiple osteophytes, definite narrowing of joint space, some sclerosis and possible deformity of
+L1076| bone contour
+L1077| 4 Large osteophytes, marked narrowing of joint space, severe sclerosis and definite deformity of bone contour
+L1078| Modified Outerbridge grading system for MRI assessment of cartilage damage
+L1079| Grade  Description
+L1080| 0 Normal
+L1081| I Signal intensity alterations with an intact surface of the articular cartilage compared with the surrounding
+L1082| normal cartilage
+L1083| II Partial -thickness defect with fissures on the surface that do not reach subchondral bone or exceed 1.5 cm in
+L1084| diameter
+L1085| III Fissuring to the level of subchondral bone in an area with a diameter more than 1.5 cm
+L1086| IV Exposed subchondral bone head
+L1087| Tönnis grading system for radiographic assessment of osteoarthritis
+L1088| Grade  Description
+L1089| 0 No signs of osteoarthritis
+L1090| 1 Mild: increased sclerosis, slight narrowing of the joint space, no or slight loss of head sphericity
+L1091| 2 Moderate: small cysts, moderate narrowing of the joint space, and moderate loss of head sphericity
+L1092| 3 Severe: large cysts, severe narrowing or obliteration of the joint space, severe deformity of the head
+L1093| Joint Surgery
+L1094| © 2023 Carelon Medical Benefits Management. All rights reserved .  61 History
+L1095| Status  Review Date  Effective Date  Action
+L1096| Revised  04/12/2023  11/05/2023  Independent Multispecialty Physician Panel (IMPP) review. Multiple joints:
+L1097| Added indications for removal of loose body . Added conservative
+L1098| management requirement  for synovectomy, and ex clusion for traumatic
+L1099| reactive sy novitis ; added indications for limited and extensive
+L1100| synovectomy in the knee . Shoulder: Modified  conservative management
+L1101| requirement s RCT, adhesive capsulitis, shoulder debridement. Added
+L1102| exclusion s for subacromial balloon spacer and shoulder resurfacing .
+L1103| Added indications for symptomatic os acromiale and symptomatic
+L1104| mechanical impingement . Hip: Added indications for primary partial hip
+L1105| arthroplasty and partial /total hip resurfacin g; added exclusion for non -
+L1106| intraarticular hip procedures . Knee: Modified conservative management
+L1107| requirements for unicompartmental knee arthroplasty . Revision knee
+L1108| arthroplasty – added indication for reconstruction after post knee
+L1109| replacement infection . Patellar compression syndrome – added exclusion
+L1110| for central or medial tracking of the patella . Osteochondral grafts : Revised
+L1111| patient selection requirements, added indications and exclusions.  Added
+L1112| CPT codes 20932, 20933, 20934; HCPCS  code S2118.  Updated
+L1113| references.
+L1114| Revised  11/11/2021  09/11/2022  Independent Multispecialty Physician Panel (IMPP) review. For total
+L1115| shoulder arthroplasty, added fracture indication and exception for
+L1116| Kellgren -Lawence grade 4. For hemiarthroplasty, added indications for
+L1117| malignancy of the gle nohumeral joint and for glenohumeral arthritis with
+L1118| irreparable rotator cuff tear (exclusion removed). For reverse shoulder
+L1119| arthroplasty, added indication for when glenoid bone stock inadequate to
+L1120| support prosthesis. For labrum repair, removed requirement that SLAP
+L1121| lesion is traumatic on MRI. For adhesive capsulitis, matched
+L1122| requirements in knee arthroscopy; reduced timeframe of conservative
+L1123| management to 6 weeks post -surgery for lysis of adhesions/capsular
+L1124| release and MUA. Added patellofemoral osteoarthrit is as an indication for
+L1125| total knee arthroplasty. For knee arthroscopy, new indication for abrasion
+L1126| arthroplasty/microfracture; removed 12 -week post -surgery requirement
+L1127| for MUA and arthroscopically assisted lysis of adhesions. Added CPT
+L1128| code 27345. Removed BMI from patient criteria in treatment of
+L1129| osteochondral defects. Added contraindications for autologous
+L1130| chondrocyte implantation per MACI package insert. Updated references.
+L1131| Revised  12/03/2020  09/12/2021  IMPP review. Aligned conservative care definitions across
+L1132| musculoskeletal surgery and extremity imaging guidelines. Added a more
+L1133| rigorous definition of the supervised home PT requirement for cervical
+L1134| and lumbar surgery, and removed cognitive behavioral the rapy as a
+L1135| conservative care modality. New indication for diagnostic shoulder, hip,
+L1136| and knee arthroscopy. Removed massive tear as a contraindication for
+L1137| rotator cuff repair. Added recurrent subluxation as a new indication for
+L1138| capsulorrhaphy. Added new crite ria and removed foreign body criteria for
+L1139| synovectomy. New indication for debridement. Removed rotator cuff tear
+L1140| as a criterion for tenodesis/tenotomy in select patients. For primary total
+L1141| hip arthroplasty and total knee arthroplasty, added an exception to
+L1142| conservative management for end -stage osteoarthritis. For hip
+L1143| arthroscopy, modified conservative management requirements; added an
+L1144| exception to full conservative management based on alpha angle;
+L1145| removed age as an exclusion for FAIS but further defined rad iographic
+L1146| exclusions. For knee arthroplasty, added degenerative change of the
+L1147| patellofemoral joint as a contraindication. For knee arthroscopy, more
+L1148| expansive approach to physical exam findings; aligned with criteria for
+L1149| MUA; added radiographic criteria fo r distal realignment procedures and
+L1150| MPFL reconstruction. New criteria for plica resection.
+L1151| Revised  07/08/2020  03/14/2021  IMPP review. For knee arthroscopy and open procedures, added
+L1152| indications for quadricepsplasty, distal realignment procedures for patel lar
+L1153| instability (subluxation/dislocation), and medial patellofemoral ligament
+L1154| Joint Surgery
+L1155| © 2023 Carelon Medical Benefits Management. All rights reserved .  62 Status  Review Date  Effective Date  Action
+L1156| reconstruction. Added CPT codes 23000, 23020, 27418, 27420, 27422,
+L1157| 27424, and 27430.
+L1158| Updated  - 01/01/2021  2021 Annual CPT code update: descriptions changed for 23466, 29822,
+L1159| and 29823.
+L1160| Revised  08/12/2019  05/17/2020  IMPP review. Added steroid injection within the past 6 weeks as a
+L1161| contraindication for shoulder and hip arthroplasty. For shoulder
+L1162| arthroscopy, added exclusions for xenografts, platelet rich plasma, and
+L1163| subacromial decompression, and removed indication for  subacromial
+L1164| impingement with rotator cuff tear. Added new labral tear indication for hip
+L1165| arthroscopy. For knee arthroscopy, added new chondroplasty indication,
+L1166| narrowed use of lateral release to lateral compression as a cause for
+L1167| anterior knee pain or cho ndromalacia patella, added conservative
+L1168| management and advanced osteoarthritis exclusion for patellar
+L1169| compression syndrome. Added CPT codes 27425 and 27570.
+L1170| Revised  11/28/2018  06/29/2019  IMPP review. All sections: Clarified conservative management option s
+L1171| and removed nicotine -free documentation requirement. For shoulder
+L1172| arthroscopy, updated criteria for subacromial impingement syndrome and
+L1173| tendinopathy of the long head of the biceps. New indication for
+L1174| synovectomy/debridement. Added steroid injection excl usion for shoulder,
+L1175| hip, and knee arthroplasty. Updated criteria for primary and revision total
+L1176| hip arthroplasty; new guideline for resection arthroplasty. For hip
+L1177| arthroscopy, expanded appropriate techniques for FAI surgery to include
+L1178| acetabuloplasty and femoroplasty, added radiographic and clinical criteria
+L1179| to include FAIS -related symptoms. New guideline for elective
+L1180| patellofemoral arthroplasty, and added clinical scenarios for revision of
+L1181| prior knee arthroplasty. For knee arthroscopy, changes to meniscal
+L1182| repair/meniscectomy, and new guideline for arthroscopically assisted lysis
+L1183| of adhesions and manipulation under anesthesia. Meniscal allograft
+L1184| transplantation: Added exclusion for collagen meniscal implants. New
+L1185| criteria for talar osteochondral defects, al low patellar surface autologous
+L1186| chondrocyte implantation, and exclude use of decellularized
+L1187| osteochondral allograft plugs and reduced osteochondral allograft discs to
+L1188| repair osteochondral defects. Added CPT codes 27120, 27122, 27437,
+L1189| 27445, 27488, 28446, 2 9871, and 29892. Added HCPCS code G0428.
+L1190| Revised  07/11/2018  03/09/2019  IMPP review. Added the General Clinical Guideline.
+L1191| Updated  – 01/01/2019  2019 Annual CPT and HCPCS code updates: added 23700, G0289,
+L1192| G0428, J7330, and S2112.
+L1193| Created  07/17/2017  11/01/2017  IMPP review. Original effective date.

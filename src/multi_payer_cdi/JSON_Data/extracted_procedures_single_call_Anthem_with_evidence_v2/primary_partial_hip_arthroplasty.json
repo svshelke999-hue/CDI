@@ -1,0 +1,28 @@
+{
+  "procedure_id": "primary_partial_hip_arthroplasty",
+  "category": "Hip (Evidence: pg no: 22, L743)",
+  "section_title": "Primary Partial Hip Arthroplasty (Evidence: pg no: 24, L852)",
+  "names": [
+    "Primary Partial Hip Arthroplasty (Evidence: pg no: 24, L852)",
+    "Partial hip arthroplasty (Evidence: pg no: 24, L853)",
+    "Hemiarthroplasty (Evidence: pg no: 24, L853)"
+  ],
+  "description": "Partial hip arthroplasty (unipolar, bipolar, hemi-) is considered medically necessary for ANY of the following indications. (Evidence: pg no: 24, L853-L854)",
+  "scope": "This guideline addresses hip arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 22, L756-L757)",
+  "general_requirements": {
+    "documentation": [
+      "Femoral neck fracture not amenable to internal fixation or total hip arthroplasty, or previous fixation failed (Evidence: pg no: 24, L855-L856)"
+    ]
+  },
+  "exclusions": [
+    "Indications for partial hip arthroplasty other than those addressed in this guideline are considered not medically necessary (Evidence: pg no: 26, L937-L938)"
+  ],
+  "codes": [
+    {
+      "code": "27125",
+      "system": "CPT",
+      "description": "Hemiarthroplasty, hip, partial (eg, femoral stem prosthesis, bipolar arthroplasty) (Evidence: pg no: 27, L972)"
+    }
+  ],
+  "notes": ""
+}

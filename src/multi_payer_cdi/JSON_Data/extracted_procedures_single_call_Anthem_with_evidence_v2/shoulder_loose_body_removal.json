@@ -1,0 +1,27 @@
+{
+  "procedure_id": "shoulder_loose_body_removal",
+  "category": "Shoulder (Evidence: pg no: 12, L368)",
+  "section_title": "Removal of loose body (Evidence: pg no: 14, L453)",
+  "names": [
+    "Removal of loose body (Evidence: pg no: 14, L453)"
+  ],
+  "description": "Removal of loose body is considered medically necessary when BOTH of the following are present. (Evidence: pg no: 14, L454)",
+  "scope": "This guideline addresses shoulder arthroscopy and open procedures when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture. (Evidence: pg no: 12, L373-L374)",
+  "general_requirements": {
+    "documentation": [
+      "Radiographic evidence of acute, post-traumatic, intra-articular foreign body or displaced fracture fragment larger than the size of an arthroscopy cannula (5 mm or larger) (Evidence: pg no: 14, L455-L456)",
+      "Shoulder pain associated with grinding, catching, locking, or popping, and exam findings confirm pain with limited range of motion (Evidence: pg no: 14, L457-L458)"
+    ]
+  },
+  "exclusions": [
+    "Removal of loose body for Kellgren-Lawrence grade 4 osteoarthritis (Evidence: pg no: 14, L460)"
+  ],
+  "codes": [
+    {
+      "code": "29819",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; with removal of loose body or foreign body (Evidence: pg no: 20, L723)"
+    }
+  ],
+  "notes": ""
+}

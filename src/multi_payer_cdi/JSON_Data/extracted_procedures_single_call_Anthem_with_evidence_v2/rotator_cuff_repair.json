@@ -1,0 +1,44 @@
+{
+  "procedure_id": "rotator_cuff_repair",
+  "category": "Shoulder (Evidence: pg no: 12, L368)",
+  "section_title": "Rotator Cuff Repair (Evidence: pg no: 14, L461)",
+  "names": [
+    "Rotator Cuff Repair (Evidence: pg no: 14, L461)"
+  ],
+  "description": "Rotator cuff repair is considered medically necessary for acute full thickness tear, chronic or degenerative full thickness tear, and partial thickness tear when specific criteria are met. (Evidence: pg no: 14, L465, L478, L493)",
+  "scope": "This guideline addresses shoulder arthroscopy and open procedures when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture. (Evidence: pg no: 12, L373-L374)",
+  "general_requirements": {
+    "documentation": [
+      "For acute full thickness tear: Traumatic injury within the preceding 3 months with no preexisting shoulder pain (Evidence: pg no: 14, L467-L468)",
+      "Shoulder pain ≥ 4 on the VAS scale exacerbated by movement (Evidence: pg no: 14, L469)",
+      "Weakness of rotator cuff muscle(s) (Evidence: pg no: 14, L470)",
+      "Physical exam demonstrating a positive response to at least ONE of the following tests: Drop arm test, Painful arc test, Full/empty can test, Weakness of external/internal rotation (Evidence: pg no: 14, L471-L475)",
+      "Advanced imaging confirms features of an acute full thickness or high-grade partial tear (Evidence: pg no: 14, L476)"
+    ]
+  },
+  "exclusions": [
+    "Treatment of asymptomatic, full thickness rotator cuff tear (Evidence: pg no: 16, L535)",
+    "Deltoid or rotator cuff paralysis (Evidence: pg no: 16, L536)",
+    "Use of xenografts or biologic scaffold for augmentation or bridging reconstruction (Evidence: pg no: 16, L537)",
+    "Use of platelet rich plasma or other biologics (Evidence: pg no: 16, L538)",
+    "Concomitant subacromial decompression/acromioplasty (Evidence: pg no: 16, L539)"
+  ],
+  "codes": [
+    {
+      "code": "23407",
+      "system": "CPT",
+      "description": "Repair of ruptured musculotendinous cuff (eg, rotator cuff) open; acute (Evidence: pg no: 20, L707)"
+    },
+    {
+      "code": "23412",
+      "system": "CPT",
+      "description": "Repair of ruptured musculotendinous cuff (eg, rotator cuff) open; chronic (Evidence: pg no: 20, L708)"
+    },
+    {
+      "code": "29827",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; with rotator cuff repair (Evidence: pg no: 21, L740)"
+    }
+  ],
+  "notes": "For primary rotator cuff repair, adherence to a tobacco cessation program resulting in abstinence from tobacco for at least 6 weeks prior to surgery is strongly recommended. (Evidence: pg no: 14, L462-L463)"
+}

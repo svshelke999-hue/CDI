@@ -1,0 +1,26 @@
+{
+  "procedure_id": "debridement_drainage_lavage",
+  "category": "Knee (Evidence: pg no: 2, L73)",
+  "section_title": "Debridement/Drainage/Lavage (Evidence: pg no: 10, L481)",
+  "names": [
+    "Debridement/drainage/lavage (Evidence: pg no: 10, L481)"
+  ],
+  "description": "Debridement/drainage/lavage for specific conditions (Evidence: pg no: 10, L482-L487)",
+  "scope": "Treatment of specific knee conditions (Evidence: pg no: 10, L481-L489)",
+  "general_requirements": {
+    "documentation": [
+      "ALL of the following conditions: Rheumatoid arthritis with failure of medical management (DMARDs), Septic joint or osteomyelitis, Septic prosthetic joint, or Postoperative arthrofibrosis with limited range of motion and failure of at least 6 weeks of conservative management (Evidence: pg no: 10, L483-L487)"
+    ]
+  },
+  "exclusions": [
+    "Debridement or lavage for isolated primary diagnosis of osteoarthritis of the knee (Evidence: pg no: 10, L489)"
+  ],
+  "codes": [
+    {
+      "code": "29871",
+      "system": "CPT",
+      "description": "Arthroscopy, knee, surgical; for infection, lavage and drainage (Evidence: pg no: 16, L700)"
+    }
+  ],
+  "notes": ""
+}

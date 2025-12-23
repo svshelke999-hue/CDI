@@ -1,0 +1,62 @@
+{
+  "procedure_id": "shoulder_instability_surgery",
+  "category": "Shoulder (Evidence: pg no: 11, L446)",
+  "section_title": "Arthroscopic or Open Surgical Procedures for Shoulder Instability and/or Laxity (Evidence: pg no: 11, L446-L447)",
+  "names": [
+    "Shoulder Instability Surgery (Evidence: pg no: 11, L446)",
+    "Shoulder Stabilization (Evidence: pg no: 11, L450)"
+  ],
+  "description": "Surgical procedures for post-traumatic or atraumatic shoulder instability and/or laxity with specific instability test requirements (Evidence: pg no: 11, L450-L472)",
+  "scope": "Arthroscopic or open surgical procedures for shoulder instability and/or laxity (Evidence: pg no: 11, L450-L451)",
+  "general_requirements": {
+    "documentation": [
+      "Documented history of 'post-traumatic' or 'atraumatic' instability and/or laxity that has resulted in function-limiting pain (Evidence: pg no: 11, L452-L455)",
+      "Individual demonstrates ONE OR MORE positive orthopedic tests including Anterior or Posterior Apprehension Test, Sulcus Sign, Load and Shift Test (Evidence: pg no: 11, L456-L460)",
+      "Failure of provider-directed non-surgical management for at least three (3) months in duration that includes shoulder stabilization/strengthening exercises, except when irreducible shoulder dislocation or anterior shoulder instability in competitive contact or collision athletes (Evidence: pg no: 11, L461-L466)",
+      "Advanced diagnostic imaging study (e.g., MRI, CT) demonstrates labral tear (e.g., Bankart, capsular tear) and correlates with symptoms and physical exam findings (Evidence: pg no: 11, L467-L469)",
+      "Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain, cervical radiculopathy, and advanced glenohumeral osteoarthritis (Evidence: pg no: 11, L470-L472)"
+    ]
+  },
+  "exclusions": [
+    "Any other indication or condition (Evidence: pg no: 11, L476-L477)",
+    "Superior capsular reconstruction using any type of graft - considered experimental, investigational, or unproven (Evidence: pg no: 11, L481-L482)"
+  ],
+  "codes": [
+    {
+      "code": "23447",
+      "system": "CPT",
+      "description": "Capsulorrhaphy, anterior; Putti-Platt procedure or Magnuson type operation (Evidence: pg no: 13, L547)"
+    },
+    {
+      "code": "23455",
+      "system": "CPT",
+      "description": "Capsulorrhaphy, anterior; with labral repair (e.g. Bankart procedure) (Evidence: pg no: 13, L548)"
+    },
+    {
+      "code": "23460",
+      "system": "CPT",
+      "description": "Capsulorrhaphy, anterior, any type; with bone block (Evidence: pg no: 13, L549)"
+    },
+    {
+      "code": "23462",
+      "system": "CPT",
+      "description": "Capsulorrhaphy, anterior, any type; with coracoid process transfer (Evidence: pg no: 13, L550)"
+    },
+    {
+      "code": "23465",
+      "system": "CPT",
+      "description": "Capsulorrhaphy, glenohumeral joint, posterior, with or without bone block (Evidence: pg no: 13, L551)"
+    },
+    {
+      "code": "23466",
+      "system": "CPT",
+      "description": "Capsulorrhaphy, glenohumeral joint, any type multi-directional instability (Evidence: pg no: 13, L552)"
+    },
+    {
+      "code": "29806",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; capsulorrhaphy (Evidence: pg no: 13, L557)"
+    }
+  ],
+  "notes": "Conservative management exceptions for irreducible shoulder dislocation or anterior shoulder instability in competitive contact or collision athletes (Evidence: pg no: 11, L463-L466)"
+}

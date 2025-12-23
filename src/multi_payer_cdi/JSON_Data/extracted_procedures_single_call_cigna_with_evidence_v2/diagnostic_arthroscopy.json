@@ -1,0 +1,32 @@
+{
+  "procedure_id": "diagnostic_arthroscopy",
+  "category": "Shoulder (Evidence: pg no: 4, L152)",
+  "section_title": "Diagnostic Arthroscopy (Evidence: pg no: 4, L152)",
+  "names": [
+    "Diagnostic Arthroscopy (Evidence: pg no: 4, L152)"
+  ],
+  "description": "Diagnostic arthroscopy as a stand-alone procedure for evaluation of shoulder pathology when advanced imaging is inconclusive (Evidence: pg no: 4, L154-L155)",
+  "scope": "Stand-alone diagnostic procedure (Evidence: pg no: 4, L154-L155)",
+  "general_requirements": {
+    "documentation": [
+      "Function-limiting pain for at least six (6) months in duration (Evidence: pg no: 4, L156-L157)",
+      "Abnormal shoulder physical examination findings compared to non-involved side including functionally limited range of motion or measurable loss in strength (Evidence: pg no: 4, L158-L161)",
+      "Positive Neer Impingement Test or Hawkins-Kennedy Impingement Test (Evidence: pg no: 4, L162)",
+      "Failure of provider-directed non-surgical management for at least three (3) months in duration (Evidence: pg no: 4, L163-L164)",
+      "Advanced diagnostic imaging study (e.g., MRI, CT) is inconclusive for internal derangement/pathology (Evidence: pg no: 4, L165)",
+      "Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain and advanced glenohumeral osteoarthritis (Evidence: pg no: 4, L166-L168)"
+    ]
+  },
+  "exclusions": [
+    "Any other indication or condition (Evidence: pg no: 5, L171-L172)",
+    "In-office diagnostic arthroscopy (e.g., Mi-Eye™, VisionScope®) - considered experimental, investigational, or unproven (Evidence: pg no: 5, L175-L176)"
+  ],
+  "codes": [
+    {
+      "code": "29805",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, diagnostic, with or without synovial biopsy (separate procedure) (Evidence: pg no: 13, L556)"
+    }
+  ],
+  "notes": "Considered medically necessary only when ALL criteria are met (Evidence: pg no: 4, L155)"
+}

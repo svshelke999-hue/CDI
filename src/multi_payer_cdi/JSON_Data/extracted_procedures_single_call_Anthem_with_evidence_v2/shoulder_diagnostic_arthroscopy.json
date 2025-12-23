@@ -1,0 +1,30 @@
+{
+  "procedure_id": "shoulder_diagnostic_arthroscopy",
+  "category": "Shoulder (Evidence: pg no: 12, L368)",
+  "section_title": "Diagnostic arthroscopy (Evidence: pg no: 13, L436)",
+  "names": [
+    "Diagnostic arthroscopy (Evidence: pg no: 13, L436)",
+    "Diagnostic arthroscopy of the shoulder joint (Evidence: pg no: 13, L437)"
+  ],
+  "description": "Diagnostic arthroscopy of the shoulder joint is considered medically necessary for synovial biopsy or tissue harvest (chondrocyte), or when the involved joint meets ALL of the following criteria. (Evidence: pg no: 13, L437-L438)",
+  "scope": "This guideline addresses shoulder arthroscopy and open procedures when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture. (Evidence: pg no: 12, L373-L374)",
+  "general_requirements": {
+    "documentation": [
+      "Presence of ONE of the following symptoms: Significant pain and functional limitation, Instability (e.g., giving way, catching, clicking, locking), Limited range of motion (Evidence: pg no: 13, L439-L442)",
+      "Presence of ONE of the following physical exam findings: Limited range of motion, Joint swelling, Inconclusive specific diagnostic exam maneuvers, Local muscle weakness or atrophy (Evidence: pg no: 13, L443-L447)",
+      "Inconclusive x-ray and/or advanced imaging studies (Evidence: pg no: 14, L448-L449)",
+      "Failure of at least 6 weeks of conservative management (Evidence: pg no: 14, L450)"
+    ]
+  },
+  "exclusions": [
+    "In-office diagnostic arthroscopy (e.g., mi-eye 2®) (Evidence: pg no: 14, L452)"
+  ],
+  "codes": [
+    {
+      "code": "29805",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, diagnostic, with or without synovial biopsy (separate procedure) (Evidence: pg no: 20, L720)"
+    }
+  ],
+  "notes": "All arthroscopic procedures of the shoulder are inclusive of diagnostic arthroscopy and manipulation under anesthesia. (Evidence: pg no: 12, L375-L376)"
+}

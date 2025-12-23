@@ -1,0 +1,21 @@
+{
+  "procedure_id": "hip_loose_body_removal",
+  "category": "Hip (Evidence: pg no: 28, L981)",
+  "section_title": "Removal of loose body (Evidence: pg no: 30, L1096)",
+  "names": [
+    "Removal of loose body (Evidence: pg no: 30, L1096)"
+  ],
+  "description": "Removal of loose body is considered medically necessary when BOTH of the following are present. (Evidence: pg no: 30, L1097)",
+  "scope": "This guideline addresses hip arthroscopy when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture. (Evidence: pg no: 28, L993-L994)",
+  "general_requirements": {
+    "documentation": [
+      "Radiographic evidence of acute, post-traumatic, intra-articular foreign body or displaced fracture fragment larger than the size of an arthroscopy cannula (5 mm or larger) (Evidence: pg no: 30, L1098-L1099)",
+      "Hip pain associated with grinding, catching, locking, or popping, and exam findings confirm pain with limited range of motion (Evidence: pg no: 30, L1100-L1101)"
+    ]
+  },
+  "exclusions": [
+    "Removal of loose body for Kellgren-Lawrence grade 4 osteoarthritis (Evidence: pg no: 31, L1104)"
+  ],
+  "codes": [],
+  "notes": ""
+}

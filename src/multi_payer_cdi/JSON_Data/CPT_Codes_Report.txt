@@ -1,0 +1,426 @@
+===============================================================================
+                    CPT CODES WITH PROCEDURE ID AND PAYER NAME
+===============================================================================
+Generated: November 6, 2025
+Source: Multi-Payer CDI JSON Data Analysis
+
+===============================================================================
+PAYER: ANTHEM (Carelon Medical Benefits Management)
+===============================================================================
+
+Procedure ID: abrasion_arthroplasty_microfracture
+CPT Code: 29879
+
+Procedure ID: acetabuloplasty
+CPT Code: 27120
+
+Procedure ID: acl_reconstruction
+CPT Code: 29888
+CPT Code: 27428
+CPT Code: 27429
+
+Procedure ID: anterolateral_ligament_reconstruction
+CPT Code: 27427
+
+Procedure ID: arthroscopic_lysis_adhesions
+CPT Code: 29884
+
+Procedure ID: arthrotomy_knee_exploration
+CPT Code: 27331
+
+Procedure ID: arthrotomy_meniscectomy
+CPT Code: 27332
+CPT Code: 27333
+
+Procedure ID: arthrotomy_meniscus_repair
+CPT Code: 27403
+
+Procedure ID: autologous_chondrocyte_implantation
+CPT Code: 27412
+CPT Code: J7330 (HCPCS)
+CPT Code: S2112 (HCPCS)
+
+Procedure ID: biceps_tenodesis_tenotomy
+CPT Code: 23430
+CPT Code: 23440
+CPT Code: 29828
+
+Procedure ID: capsular_release
+CPT Code: 23020
+CPT Code: 29825
+
+Procedure ID: capsulorrhaphy
+CPT Code: 23450
+CPT Code: 23455
+CPT Code: 29806
+
+Procedure ID: chondroplasty_debridement
+CPT Code: 29877
+
+Procedure ID: collateral_ligament_reconstruction
+CPT Code: 27405
+CPT Code: 27409
+
+Procedure ID: debridement_drainage_lavage
+CPT Code: 29871
+
+Procedure ID: distal_realignment_procedures
+CPT Code: 27418
+CPT Code: 27422
+CPT Code: 27424
+
+Procedure ID: fais_labral_repair
+CPT Code: 29914
+CPT Code: 29915
+CPT Code: 29916
+
+Procedure ID: hip_acetabuloplasty
+CPT Code: 29915
+
+Procedure ID: hip_arthroscopy_debridement
+CPT Code: 29862
+CPT Code: 29863
+
+Procedure ID: hip_arthroscopy_diagnostic
+CPT Code: 29860
+
+Procedure ID: hip_arthroscopy_loose_body_removal
+CPT Code: 29861
+
+Procedure ID: hip_arthroscopy_synovectomy
+CPT Code: 29866
+
+Procedure ID: hip_debridement_chondroplasty
+CPT Code: 29862
+CPT Code: 29863
+
+Procedure ID: hip_diagnostic_arthroscopy
+CPT Code: 29860
+
+Procedure ID: hip_femoroplasty
+CPT Code: 29914
+
+Procedure ID: hip_labral_tear_treatment
+CPT Code: 29916
+
+Procedure ID: hip_loose_body_removal
+CPT Code: 29861
+
+Procedure ID: hip_synovectomy
+CPT Code: 29866
+
+Procedure ID: knee_arthroscopy_diagnostic
+CPT Code: 29870
+
+Procedure ID: knee_loose_body_removal
+CPT Code: 29874
+
+Procedure ID: labrum_repair
+CPT Code: 29807
+
+Procedure ID: lateral_retinacular_release
+CPT Code: 27425
+
+Procedure ID: manipulation_under_anesthesia
+CPT Code: 27570
+
+Procedure ID: manipulation_under_anesthesia_shoulder
+CPT Code: 23700
+
+Procedure ID: meniscal_allograft_transplantation
+CPT Code: 29868
+
+Procedure ID: meniscal_repair_meniscectomy_acute
+CPT Code: 29880
+CPT Code: 29881
+CPT Code: 29882
+CPT Code: 29883
+
+Procedure ID: meniscal_repair_meniscectomy_chronic
+CPT Code: 29880
+CPT Code: 29881
+CPT Code: 29882
+CPT Code: 29883
+
+Procedure ID: mpfl_reconstruction
+CPT Code: 27422
+
+Procedure ID: osteochondral_allograft_knee
+CPT Code: 27415
+CPT Code: 29867
+
+Procedure ID: osteochondral_allograft_talus
+CPT Code: 27415
+CPT Code: 29892
+
+Procedure ID: osteochondral_autograft_knee
+CPT Code: 27416
+CPT Code: 29866
+
+Procedure ID: osteochondral_autograft_talus
+CPT Code: 27415
+CPT Code: 29892
+
+Procedure ID: osteochondritis_dissecans_adult
+CPT Code: 29885
+CPT Code: 29887
+
+Procedure ID: osteochondritis_dissecans_juvenile
+CPT Code: 29885
+CPT Code: 29887
+
+Procedure ID: partial_claviculectomy
+CPT Code: 23120
+CPT Code: 29824
+
+Procedure ID: partial_hip_resurfacing
+CPT Code: 27132
+
+Procedure ID: patellofemoral_arthroplasty
+CPT Code: 27446
+
+Procedure ID: pcl_reconstruction
+CPT Code: 27409
+CPT Code: 27427
+
+Procedure ID: plica_resection
+CPT Code: 29876
+
+Procedure ID: popliteal_cyst_excision
+CPT Code: 27345
+
+Procedure ID: posterolateral_corner_reconstruction
+CPT Code: 27427
+
+Procedure ID: primary_hinge_arthroplasty
+CPT Code: 27445
+
+Procedure ID: primary_partial_hip_arthroplasty
+CPT Code: 27125
+
+Procedure ID: primary_total_hip_arthroplasty
+CPT Code: 27130
+
+Procedure ID: quadricepsplasty
+CPT Code: 27430
+
+Procedure ID: resection_arthroplasty_hip
+CPT Code: 27122
+
+Procedure ID: reverse_shoulder_arthroplasty
+CPT Code: 23472
+
+Procedure ID: revision_knee_arthroplasty
+CPT Code: 27486
+CPT Code: 27487
+
+Procedure ID: revision_rotator_cuff_repair
+CPT Code: 29827
+
+Procedure ID: revision_total_hip_arthroplasty
+CPT Code: 27134
+CPT Code: 27137
+CPT Code: 27138
+
+Procedure ID: rotator_cuff_repair
+CPT Code: 23407
+CPT Code: 23412
+CPT Code: 29827
+
+Procedure ID: shoulder_debridement
+CPT Code: 29822
+CPT Code: 29823
+
+Procedure ID: shoulder_diagnostic_arthroscopy
+CPT Code: 29805
+
+Procedure ID: shoulder_hemiarthroplasty
+CPT Code: 23470
+
+Procedure ID: shoulder_loose_body_removal
+CPT Code: 29819
+
+Procedure ID: shoulder_prosthesis_revision
+CPT Code: 23473
+CPT Code: 23474
+
+Procedure ID: shoulder_synovectomy
+CPT Code: 23105
+CPT Code: 29820
+CPT Code: 29821
+
+Procedure ID: subacromial_decompression
+CPT Code: 23130
+CPT Code: 29826
+
+Procedure ID: synovectomy_extensive
+CPT Code: 29876
+
+Procedure ID: synovectomy_limited
+CPT Code: 29875
+
+Procedure ID: total_hip_resurfacing
+CPT Code: 27132
+
+Procedure ID: total_knee_arthroplasty
+CPT Code: 27447
+
+Procedure ID: total_shoulder_arthroplasty
+CPT Code: 23472
+
+Procedure ID: unicompartmental_knee_arthroplasty
+CPT Code: 27446
+
+Procedure ID: unlisted_hip_procedures
+CPT Code: 27299
+
+===============================================================================
+PAYER: UHC (UnitedHealthcare)
+===============================================================================
+
+Procedure ID: adhesion_lysis_shoulder
+CPT Code: 29825
+
+Procedure ID: arthroscopy_shoulder_diagnostic
+CPT Code: 29805
+
+Procedure ID: arthroscopy_shoulder_surgical
+CPT Code: 29806
+CPT Code: 29807
+CPT Code: 29819
+CPT Code: 29820
+CPT Code: 29821
+CPT Code: 29822
+CPT Code: 29823
+CPT Code: 29824
+CPT Code: 29825
+CPT Code: 29826
+CPT Code: 29827
+CPT Code: 29828
+CPT Code: 29999
+
+Procedure ID: arthrotomy_shoulder
+(No CPT codes listed)
+
+Procedure ID: biceps_tenodesis
+CPT Code: 29828
+
+Procedure ID: capsulorrhaphy_shoulder
+CPT Code: 29806
+
+Procedure ID: distal_claviculectomy
+CPT Code: 29824
+
+Procedure ID: joint_replacement_shoulder
+CPT Code: 23470
+CPT Code: 23472
+
+Procedure ID: loose_body_removal_shoulder
+CPT Code: 29819
+
+Procedure ID: removal_replacement_tjr_shoulder
+(No CPT codes listed)
+
+Procedure ID: reverse_total_shoulder_arthroplasty
+(No CPT codes listed)
+
+Procedure ID: revision_tjr_shoulder
+CPT Code: 23473
+CPT Code: 23474
+
+Procedure ID: rotator_cuff_repair
+CPT Code: 29827
+
+Procedure ID: shoulder_debridement
+CPT Code: 29822
+CPT Code: 29823
+
+Procedure ID: slap_repair
+CPT Code: 29807
+
+Procedure ID: subacromial_balloon_spacers
+(No CPT codes listed)
+
+Procedure ID: subacromial_decompression
+CPT Code: 29826
+
+Procedure ID: synovectomy_shoulder
+CPT Code: 29820
+CPT Code: 29821
+
+Procedure ID: unlisted_arthroscopy
+CPT Code: 29999
+
+===============================================================================
+PAYER: CIGNA
+===============================================================================
+
+Procedure ID: biceps_tenodesis
+CPT Code: 23430
+CPT Code: 23440
+CPT Code: 29828
+
+Procedure ID: capsular_release_lysis_adhesions
+CPT Code: 23020
+CPT Code: 29825
+
+Procedure ID: coracoplasty_subcoracoid_decompression
+(No CPT codes listed - Experimental/Investigational)
+
+Procedure ID: debridement
+CPT Code: 29822
+CPT Code: 29823
+
+Procedure ID: diagnostic_arthroscopy
+CPT Code: 29805
+
+Procedure ID: distal_clavicle_excision
+CPT Code: 23120
+CPT Code: 23125
+CPT Code: 23130
+CPT Code: 29824
+CPT Code: 29826
+
+Procedure ID: fracture_tumor_infection_foreign_body_surgery
+CPT Code: 23145
+CPT Code: 23155
+CPT Code: 23172
+CPT Code: 23174
+
+Procedure ID: labral_repair
+CPT Code: 23455
+CPT Code: 29807
+
+Procedure ID: loose_body_foreign_body_removal
+CPT Code: 29819
+
+Procedure ID: rotator_cuff_repair
+CPT Code: 23410
+CPT Code: 23412
+CPT Code: 23420
+CPT Code: 29827
+
+Procedure ID: shoulder_instability_surgery
+CPT Code: 23447
+CPT Code: 23455
+CPT Code: 23460
+CPT Code: 23462
+CPT Code: 23465
+CPT Code: 23466
+CPT Code: 29806
+
+Procedure ID: synovectomy
+CPT Code: 29820
+CPT Code: 29821
+
+===============================================================================
+                                END OF REPORT
+===============================================================================
+
+Total Payers Analyzed: 3 (Anthem, UHC, Cigna)
+Total Unique Procedures: 108+
+
+Note: Some procedures may have multiple CPT codes. HCPCS codes are also 
+included where applicable. Procedures marked with "No CPT codes listed" 
+either have no specific codes in the source data or are considered 
+experimental/investigational.

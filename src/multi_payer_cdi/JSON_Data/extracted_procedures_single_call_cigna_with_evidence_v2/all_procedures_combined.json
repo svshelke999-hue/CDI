@@ -1,0 +1,487 @@
+{
+  "document_info": {
+    "title": "Shoulder Surgery – Arthroscopic and Open Procedures (Evidence: pg no: 1, L2-L3)",
+    "payer": "Cigna (Evidence: pg no: 1, L1)",
+    "date": "May 31, 2023 (Evidence: pg no: 1, L4)",
+    "total_procedures": 12
+  },
+  "procedures": [
+    {
+      "procedure_id": "diagnostic_arthroscopy",
+      "category": "Shoulder (Evidence: pg no: 4, L152)",
+      "section_title": "Diagnostic Arthroscopy (Evidence: pg no: 4, L152)",
+      "names": [
+        "Diagnostic Arthroscopy (Evidence: pg no: 4, L152)"
+      ],
+      "description": "Diagnostic arthroscopy as a stand-alone procedure for evaluation of shoulder pathology when advanced imaging is inconclusive (Evidence: pg no: 4, L154-L155)",
+      "scope": "Stand-alone diagnostic procedure (Evidence: pg no: 4, L154-L155)",
+      "general_requirements": {
+        "documentation": [
+          "Function-limiting pain for at least six (6) months in duration (Evidence: pg no: 4, L156-L157)",
+          "Abnormal shoulder physical examination findings compared to non-involved side including functionally limited range of motion or measurable loss in strength (Evidence: pg no: 4, L158-L161)",
+          "Positive Neer Impingement Test or Hawkins-Kennedy Impingement Test (Evidence: pg no: 4, L162)",
+          "Failure of provider-directed non-surgical management for at least three (3) months in duration (Evidence: pg no: 4, L163-L164)",
+          "Advanced diagnostic imaging study (e.g., MRI, CT) is inconclusive for internal derangement/pathology (Evidence: pg no: 4, L165)",
+          "Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain and advanced glenohumeral osteoarthritis (Evidence: pg no: 4, L166-L168)"
+        ]
+      },
+      "exclusions": [
+        "Any other indication or condition (Evidence: pg no: 5, L171-L172)",
+        "In-office diagnostic arthroscopy (e.g., Mi-Eye™, VisionScope®) - considered experimental, investigational, or unproven (Evidence: pg no: 5, L175-L176)"
+      ],
+      "codes": [
+        {
+          "code": "29805",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, diagnostic, with or without synovial biopsy (separate procedure) (Evidence: pg no: 13, L556)"
+        }
+      ],
+      "notes": "Considered medically necessary only when ALL criteria are met (Evidence: pg no: 4, L155)"
+    },
+    {
+      "procedure_id": "loose_body_foreign_body_removal",
+      "category": "Shoulder (Evidence: pg no: 5, L182)",
+      "section_title": "Loose Body/Foreign Body Removal (Evidence: pg no: 5, L182)",
+      "names": [
+        "Loose Body Removal (Evidence: pg no: 5, L182)",
+        "Foreign Body Removal (Evidence: pg no: 5, L182)"
+      ],
+      "description": "Removal of loose bodies or foreign bodies from the shoulder joint causing mechanical symptoms (Evidence: pg no: 5, L184-L194)",
+      "scope": "Arthroscopic or open removal of loose or foreign bodies (Evidence: pg no: 5, L184)",
+      "general_requirements": {
+        "documentation": [
+          "Function-limiting pain (Evidence: pg no: 5, L186-L188)",
+          "Mechanical symptoms including painful locking, clicking, catching, or popping (Evidence: pg no: 5, L189)",
+          "Failure of provider-directed non-surgical management for at least three (3) months in duration, except when the loose body or foreign body has caused an acute restriction of shoulder joint range of motion (Evidence: pg no: 5, L190-L192)",
+          "Advanced diagnostic imaging study (e.g., MRI, CT) is conclusive for the presence of a loose body or foreign body within the shoulder joint (Evidence: pg no: 5, L193-L194)",
+          "Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain, and advanced glenohumeral osteoarthritis (Evidence: pg no: 5, L195-L197)"
+        ]
+      },
+      "exclusions": [
+        "Any other indication or condition (Evidence: pg no: 5, L199-L200)"
+      ],
+      "codes": [
+        {
+          "code": "29819",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; with removal of loose body or foreign body (Evidence: pg no: 13, L559)"
+        }
+      ],
+      "notes": "Exception for acute restriction of shoulder joint range of motion (i.e., locking) where conservative management period may be waived (Evidence: pg no: 5, L191-L192)"
+    },
+    {
+      "procedure_id": "synovectomy",
+      "category": "Shoulder (Evidence: pg no: 6, L201)",
+      "section_title": "Synovectomy (Evidence: pg no: 6, L201)",
+      "names": [
+        "Synovectomy (Evidence: pg no: 6, L201)",
+        "Partial Synovectomy (Evidence: pg no: 6, L203)",
+        "Complete Synovectomy (Evidence: pg no: 6, L203)"
+      ],
+      "description": "Partial or complete removal of synovial tissue for specific inflammatory or pathological conditions (Evidence: pg no: 6, L203-L234)",
+      "scope": "Partial or complete synovectomy (Evidence: pg no: 6, L203)",
+      "general_requirements": {
+        "documentation": [
+          "Function-limiting pain (Evidence: pg no: 6, L205-L207)",
+          "Individual demonstrates functionally limited range of motion (active or passive) on physical examination as compared to the non-involved side (Evidence: pg no: 6, L208-L209)",
+          "Failure of provider-directed non-surgical management for at least three (3) months in duration (Evidence: pg no: 6, L210-L211)",
+          "Advanced diagnostic imaging study (e.g., MRI, CT) demonstrates underlying pathology consistent with the individual's reported medical condition (Evidence: pg no: 6, L212-L214)",
+          "Presence of any ONE of the following: Inflammatory arthritis, Pigmented villonodular synovitis (PVNS), Synovial chondromatosis, Lyme synovitis, Hemophilia, Hemochromatosis, Non-specific synovitis, Recurrent hemarthrosis (Evidence: pg no: 6, L215-L231)",
+          "Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain, and advanced glenohumeral osteoarthritis (Evidence: pg no: 6, L232-L234)"
+        ]
+      },
+      "exclusions": [
+        "Any other indication or condition (Evidence: pg no: 6, L236-L237)"
+      ],
+      "codes": [
+        {
+          "code": "29820",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; synovectomy, partial (Evidence: pg no: 13, L560)"
+        },
+        {
+          "code": "29821",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; synovectomy, complete (Evidence: pg no: 13, L561)"
+        }
+      ],
+      "notes": "Requires presence of specific underlying pathological conditions (Evidence: pg no: 6, L215)"
+    },
+    {
+      "procedure_id": "debridement",
+      "category": "Shoulder (Evidence: pg no: 6, L238)",
+      "section_title": "Debridement (Evidence: pg no: 6, L238)",
+      "names": [
+        "Debridement (Evidence: pg no: 6, L238)",
+        "Limited Debridement (Evidence: pg no: 6, L240)",
+        "Extensive Debridement (Evidence: pg no: 6, L240)"
+      ],
+      "description": "Limited or extensive debridement of shoulder structures with specific orthopedic test requirements (Evidence: pg no: 6, L240-L277)",
+      "scope": "Limited or extensive debridement (Evidence: pg no: 6, L240)",
+      "general_requirements": {
+        "documentation": [
+          "Function-limiting pain (Evidence: pg no: 6, L242-L244)",
+          "Individual demonstrates functionally limited range of motion OR measurable loss of strength (Evidence: pg no: 6, L245-L248)",
+          "ONE OR MORE positive orthopedic tests/signs including Drop Arm Test, Painful Arc Test, Jobe or Empty Can Test, External Rotation Lag Sign, Lift-Off Test, Belly-Press Test, Cross Body Adduction Test, Resisted AC Joint Extension Test, Neer Impingement Test, Hawkins-Kennedy Impingement Test, O'Brien's Test, Biceps Load Test, Clunk Test, Anterior Slide Test, Compression Rotation Test, Speed's Test (Evidence: pg no: 6-7, L249-L265)",
+          "Failure of provider-directed non-surgical management for at least three (3) months in duration (Evidence: pg no: 7, L271-L272)",
+          "Advanced diagnostic imaging study (e.g., MRI, CT) demonstrates underlying pathology which correlates with the individual's reported symptoms and physical exam findings (Evidence: pg no: 7, L273-L274)",
+          "Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain, and advanced glenohumeral osteoarthritis (Evidence: pg no: 7, L275-L277)"
+        ]
+      },
+      "exclusions": [
+        "Any other indication or condition (Evidence: pg no: 7, L279-L280)"
+      ],
+      "codes": [
+        {
+          "code": "29822",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; debridement, limited, 1 or 2 discrete structures (Evidence: pg no: 13, L562-L565)"
+        },
+        {
+          "code": "29823",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; debridement, extensive, 3 or more discrete structures (Evidence: pg no: 13, L566-L569)"
+        }
+      ],
+      "notes": "Requires specific positive orthopedic tests and correlation with imaging findings (Evidence: pg no: 6-7, L249-L274)"
+    },
+    {
+      "procedure_id": "rotator_cuff_repair",
+      "category": "Shoulder (Evidence: pg no: 7, L281)",
+      "section_title": "Rotator Cuff Repair (Evidence: pg no: 7, L281)",
+      "names": [
+        "Rotator Cuff Repair (Evidence: pg no: 7, L281)"
+      ],
+      "description": "Repair of Grade 2 or 3 partial-thickness or full-thickness rotator cuff tears with specific orthopedic test requirements (Evidence: pg no: 7-8, L283-L323)",
+      "scope": "Arthroscopic or open rotator cuff repair (Evidence: pg no: 7, L283)",
+      "general_requirements": {
+        "documentation": [
+          "Function-limiting pain (Evidence: pg no: 7, L285-L287)",
+          "Individual demonstrates functionally limited range of motion OR measurable loss of strength of the rotator cuff musculature (Evidence: pg no: 7, L288-L291)",
+          "ONE or MORE positive orthopedic tests/signs including Drop Arm Test, Painful Arc Test, Jobe or Empty Can Test, External Rotation Lag Sign, Internal Rotation Lag Sign, Lift-Off Test, Bear Hug Test, Belly-Press Test, Neer Impingement Test, Hawkins-Kennedy Impingement Test, Hornblower Test (Evidence: pg no: 7-8, L292-L303)",
+          "Failure of provider-directed non-surgical management for at least three (3) months in duration, except for discrete traumatic event resulting in acute full-thickness rotator cuff tear (Evidence: pg no: 8, L304-L307)",
+          "Advanced diagnostic imaging demonstrates a Grade 2 or 3 partial-thickness rotator cuff tear (Ellman classification) or a full-thickness rotator cuff tear (Cofield classification) (Evidence: pg no: 8, L317-L320)",
+          "Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain and advanced glenohumeral osteoarthritis (Evidence: pg no: 8, L321-L323)"
+        ]
+      },
+      "exclusions": [
+        "Any other indication or condition (Evidence: pg no: 8, L326-L327)",
+        "Superior capsular reconstruction using any type of graft - considered experimental, investigational, or unproven (Evidence: pg no: 8, L331-L332)"
+      ],
+      "codes": [
+        {
+          "code": "23410",
+          "system": "CPT",
+          "description": "Repair of ruptured musculotendinous cuff (e.g. rotator cuff) open; acute (Evidence: pg no: 13, L541)"
+        },
+        {
+          "code": "23412",
+          "system": "CPT",
+          "description": "Repair of ruptured musculotendinous cuff (e.g. rotator cuff) open; chronic (Evidence: pg no: 13, L542)"
+        },
+        {
+          "code": "23420",
+          "system": "CPT",
+          "description": "Reconstruction of complete shoulder (rotator) cuff avulsion, chronic (includes acromioplasty) (Evidence: pg no: 13, L544)"
+        },
+        {
+          "code": "29827",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; with rotator cuff repair (Evidence: pg no: 14, L585)"
+        }
+      ],
+      "notes": "Conservative management requirement waived for acute traumatic tears, but required if fatty infiltration and/or muscle atrophy present (Evidence: pg no: 8, L308-L316)"
+    },
+    {
+      "procedure_id": "distal_clavicle_excision",
+      "category": "Shoulder (Evidence: pg no: 8, L333)",
+      "section_title": "Distal Clavicle Excision/Subacromial Decompression/Acromioplasty (Evidence: pg no: 8, L333)",
+      "names": [
+        "Distal Clavicle Excision (Evidence: pg no: 8, L334)",
+        "Subacromial Decompression (Evidence: pg no: 9, L363)",
+        "Acromioplasty (Evidence: pg no: 9, L363)"
+      ],
+      "description": "Excision of distal clavicle for AC joint pathology; subacromial decompression/acromioplasty only as add-on procedures (Evidence: pg no: 8-9, L335-L371)",
+      "scope": "Distal clavicle excision as standalone; subacromial decompression/acromioplasty as add-on only (Evidence: pg no: 9, L364-L366)",
+      "general_requirements": {
+        "documentation": [
+          "Function-limiting pain (Evidence: pg no: 8, L337-L339)",
+          "Individual demonstrates localized tenderness to palpation of the acromioclavicular (AC) joint and ONE or MORE positive orthopedic tests including Cross Body Adduction Test, Resisted AC Joint Extension Test, Neer Impingement Test, Hawkins-Kennedy Impingement Test (Evidence: pg no: 8-9, L340-L347)",
+          "Failure of provider-directed non-surgical management for at least three (3) months in duration (Evidence: pg no: 9, L348-L349)",
+          "Plain radiographs demonstrate findings consistent with pathology in the subacromial space and/or at the AC joint (Evidence: pg no: 9, L350)",
+          "Advanced diagnostic imaging study demonstrates underlying pathology (e.g., AC joint arthritis, impingement) which correlates with symptoms and physical exam findings (Evidence: pg no: 9, L351)",
+          "Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain, and advanced glenohumeral osteoarthritis (Evidence: pg no: 9, L360-L362)"
+        ]
+      },
+      "exclusions": [
+        "Any other indication or condition (Evidence: pg no: 9, L370)",
+        "Arthroscopic subacromial decompression/acromioplasty as a stand-alone procedure (Evidence: pg no: 9, L371)"
+      ],
+      "codes": [
+        {
+          "code": "23120",
+          "system": "CPT",
+          "description": "Claviculectomy; partial (Evidence: pg no: 13, L526)"
+        },
+        {
+          "code": "23125",
+          "system": "CPT",
+          "description": "Claviculectomy; total (Evidence: pg no: 13, L527)"
+        },
+        {
+          "code": "23130",
+          "system": "CPT",
+          "description": "Acromioplasty or acromionectomy, partial, with or without coracoacromial ligament release (Evidence: pg no: 13, L528)"
+        },
+        {
+          "code": "29824",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; distal claviculectomy including distal articular surface (Mumford procedure) (Evidence: pg no: 13, L570-L571)"
+        },
+        {
+          "code": "29826",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; decompression of subacromial space with partial acromioplasty, with coracoacromial ligament release when performed (Evidence: pg no: 14, L582-L584)"
+        }
+      ],
+      "notes": "Advanced diagnostic imaging not required for isolated distal clavicle excision when not associated with subacromial decompression/acromioplasty surgery (Evidence: pg no: 9, L357-L359)"
+    },
+    {
+      "procedure_id": "labral_repair",
+      "category": "Shoulder (Evidence: pg no: 9, L372)",
+      "section_title": "Labral Repair (Evidence: pg no: 9, L372)",
+      "names": [
+        "Labral Repair (Evidence: pg no: 9, L372)",
+        "SLAP Repair (Evidence: pg no: 9, L382)",
+        "Bankart Repair (Evidence: pg no: 9, L382)"
+      ],
+      "description": "Repair of labral tears (e.g., SLAP, Bankart) with specific range of motion and orthopedic test requirements (Evidence: pg no: 9-10, L374-L402)",
+      "scope": "Arthroscopic or open labral repair (Evidence: pg no: 9, L374)",
+      "general_requirements": {
+        "documentation": [
+          "Function-limiting pain (Evidence: pg no: 9, L376-L378)",
+          "Failure of provider-directed non-surgical management for at least three (3) months in duration (Evidence: pg no: 9, L379-L380)",
+          "Advanced diagnostic imaging study (e.g., MRI, CT) demonstrates labral tear (e.g., SLAP, Bankart) and correlates with the individual's reported symptoms and physical exam findings (Evidence: pg no: 9, L381-L383)",
+          "Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain, cervical radiculopathy, and advanced glenohumeral osteoarthritis (Evidence: pg no: 9, L384-L386)",
+          "Minimally limited or full shoulder range of motion (Evidence: pg no: 9, L389)",
+          "ONE or MORE positive orthopedic tests including O'Brien's Test, Biceps Load Test, Clunk Test, Anterior Slide Test, Compression Rotation Test, Speed's Test, Modified dynamic labral shear (Evidence: pg no: 9-10, L390-L402)"
+        ]
+      },
+      "exclusions": [
+        "Any other indication or condition (Evidence: pg no: 10, L404-L405)"
+      ],
+      "codes": [
+        {
+          "code": "23455",
+          "system": "CPT",
+          "description": "Capsulorrhaphy, anterior; with labral repair (e.g. Bankart procedure) (Evidence: pg no: 13, L548)"
+        },
+        {
+          "code": "29807",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; repair of SLAP lesion (Evidence: pg no: 13, L558)"
+        }
+      ],
+      "notes": "Requires minimally limited or full range of motion and specific positive orthopedic tests (Evidence: pg no: 9-10, L387-L402)"
+    },
+    {
+      "procedure_id": "biceps_tenodesis",
+      "category": "Shoulder (Evidence: pg no: 10, L406)",
+      "section_title": "Biceps Tenodesis (Evidence: pg no: 10, L406)",
+      "names": [
+        "Biceps Tenodesis (Evidence: pg no: 10, L406)"
+      ],
+      "description": "Tenodesis of biceps tendon for labral tear/biceps tendon pathology with specific range of motion and physical exam requirements (Evidence: pg no: 10, L408-L437)",
+      "scope": "Arthroscopic or open biceps tenodesis (Evidence: pg no: 10, L408)",
+      "general_requirements": {
+        "documentation": [
+          "Function-limiting pain (Evidence: pg no: 10, L410-L412)",
+          "Failure of provider-directed non-surgical management for at least three (3) months in duration, except for discrete traumatic event resulting in acute proximal biceps tendon rupture (Evidence: pg no: 10, L413-L416)",
+          "Advanced diagnostic imaging study (e.g., MRI, CT) demonstrates labral tear/biceps tendon pathology (e.g., SLAP, Bankart, full-thickness subscapularis tear) and correlates with symptoms and physical exam findings (Evidence: pg no: 10, L417-L420)",
+          "Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain, cervical radiculopathy, and advanced glenohumeral osteoarthritis (Evidence: pg no: 10, L421-L423)",
+          "Minimally limited or full shoulder range of motion (Evidence: pg no: 10, L426)",
+          "ONE OR MORE positive physical exam findings including O'Brien's Test, Biceps Load Test, Clunk Test, Anterior Slide Test, Compression Rotation Test, Speed's Test, Upper cut test, Popeye sign, Yergason's test, Proximal biceps (groove) tenderness (Evidence: pg no: 10, L427-L437)"
+        ]
+      },
+      "exclusions": [
+        "Any other indication or condition (Evidence: pg no: 10, L439-L440)"
+      ],
+      "codes": [
+        {
+          "code": "23430",
+          "system": "CPT",
+          "description": "Tenodesis of long tendon of biceps (Evidence: pg no: 13, L545)"
+        },
+        {
+          "code": "23440",
+          "system": "CPT",
+          "description": "Resection or transplantation of long tendon of biceps (Evidence: pg no: 13, L546)"
+        },
+        {
+          "code": "29828",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; biceps tenodesis (Evidence: pg no: 14, L586)"
+        }
+      ],
+      "notes": "Conservative management exception for acute proximal biceps tendon rupture (Evidence: pg no: 10, L414-L416)"
+    },
+    {
+      "procedure_id": "shoulder_instability_surgery",
+      "category": "Shoulder (Evidence: pg no: 11, L446)",
+      "section_title": "Arthroscopic or Open Surgical Procedures for Shoulder Instability and/or Laxity (Evidence: pg no: 11, L446-L447)",
+      "names": [
+        "Shoulder Instability Surgery (Evidence: pg no: 11, L446)",
+        "Shoulder Stabilization (Evidence: pg no: 11, L450)"
+      ],
+      "description": "Surgical procedures for post-traumatic or atraumatic shoulder instability and/or laxity with specific instability test requirements (Evidence: pg no: 11, L450-L472)",
+      "scope": "Arthroscopic or open surgical procedures for shoulder instability and/or laxity (Evidence: pg no: 11, L450-L451)",
+      "general_requirements": {
+        "documentation": [
+          "Documented history of 'post-traumatic' or 'atraumatic' instability and/or laxity that has resulted in function-limiting pain (Evidence: pg no: 11, L452-L455)",
+          "Individual demonstrates ONE OR MORE positive orthopedic tests including Anterior or Posterior Apprehension Test, Sulcus Sign, Load and Shift Test (Evidence: pg no: 11, L456-L460)",
+          "Failure of provider-directed non-surgical management for at least three (3) months in duration that includes shoulder stabilization/strengthening exercises, except when irreducible shoulder dislocation or anterior shoulder instability in competitive contact or collision athletes (Evidence: pg no: 11, L461-L466)",
+          "Advanced diagnostic imaging study (e.g., MRI, CT) demonstrates labral tear (e.g., Bankart, capsular tear) and correlates with symptoms and physical exam findings (Evidence: pg no: 11, L467-L469)",
+          "Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain, cervical radiculopathy, and advanced glenohumeral osteoarthritis (Evidence: pg no: 11, L470-L472)"
+        ]
+      },
+      "exclusions": [
+        "Any other indication or condition (Evidence: pg no: 11, L476-L477)",
+        "Superior capsular reconstruction using any type of graft - considered experimental, investigational, or unproven (Evidence: pg no: 11, L481-L482)"
+      ],
+      "codes": [
+        {
+          "code": "23447",
+          "system": "CPT",
+          "description": "Capsulorrhaphy, anterior; Putti-Platt procedure or Magnuson type operation (Evidence: pg no: 13, L547)"
+        },
+        {
+          "code": "23455",
+          "system": "CPT",
+          "description": "Capsulorrhaphy, anterior; with labral repair (e.g. Bankart procedure) (Evidence: pg no: 13, L548)"
+        },
+        {
+          "code": "23460",
+          "system": "CPT",
+          "description": "Capsulorrhaphy, anterior, any type; with bone block (Evidence: pg no: 13, L549)"
+        },
+        {
+          "code": "23462",
+          "system": "CPT",
+          "description": "Capsulorrhaphy, anterior, any type; with coracoid process transfer (Evidence: pg no: 13, L550)"
+        },
+        {
+          "code": "23465",
+          "system": "CPT",
+          "description": "Capsulorrhaphy, glenohumeral joint, posterior, with or without bone block (Evidence: pg no: 13, L551)"
+        },
+        {
+          "code": "23466",
+          "system": "CPT",
+          "description": "Capsulorrhaphy, glenohumeral joint, any type multi-directional instability (Evidence: pg no: 13, L552)"
+        },
+        {
+          "code": "29806",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; capsulorrhaphy (Evidence: pg no: 13, L557)"
+        }
+      ],
+      "notes": "Conservative management exceptions for irreducible shoulder dislocation or anterior shoulder instability in competitive contact or collision athletes (Evidence: pg no: 11, L463-L466)"
+    },
+    {
+      "procedure_id": "capsular_release_lysis_adhesions",
+      "category": "Shoulder (Evidence: pg no: 12, L488)",
+      "section_title": "Arthroscopic Capsular Release/Lysis of Adhesions (Evidence: pg no: 12, L488)",
+      "names": [
+        "Arthroscopic Capsular Release (Evidence: pg no: 12, L488)",
+        "Lysis of Adhesions (Evidence: pg no: 12, L488)"
+      ],
+      "description": "Arthroscopic capsular release/lysis of adhesions for chronic refractory adhesive capsulitis/arthrofibrosis with specific range of motion requirements (Evidence: pg no: 12, L490-L507)",
+      "scope": "Arthroscopic capsular release/lysis of adhesions for adhesive capsulitis/arthrofibrosis (Evidence: pg no: 12, L490-L492)",
+      "general_requirements": {
+        "documentation": [
+          "Function-limiting pain for at least six (6) months in duration (Evidence: pg no: 12, L494-L496)",
+          "Individual demonstrates functionally limited and painful global loss of active and passive range of motion of at least 50% when compared to the non-involved side (Evidence: pg no: 12, L497-L499)",
+          "Failure of provider-directed non-surgical management for at least three (3) months in duration, including a combination of anti-inflammatory medication, cortisone injection, and a trial of physical therapy (Evidence: pg no: 12, L500-L503)",
+          "Other potential diagnostic conditions including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain, cervical radiculopathy, and advanced glenohumeral osteoarthritis have been excluded (Evidence: pg no: 12, L504-L507)"
+        ]
+      },
+      "exclusions": [
+        "Any other indication or condition (Evidence: pg no: 12, L509-L510)"
+      ],
+      "codes": [
+        {
+          "code": "23020",
+          "system": "CPT",
+          "description": "Capsular contracture release (e.g. Sever type procedure) (Evidence: pg no: 13, L525)"
+        },
+        {
+          "code": "29825",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; with lysis and resection of adhesions, with or without manipulation (Evidence: pg no: 14, L580-L581)"
+        }
+      ],
+      "notes": "Requires at least 50% loss of range of motion and specific conservative management including anti-inflammatory medication, cortisone injection, and physical therapy (Evidence: pg no: 12, L498-L503)"
+    },
+    {
+      "procedure_id": "coracoplasty_subcoracoid_decompression",
+      "category": "Shoulder (Evidence: pg no: 12, L511)",
+      "section_title": "Arthroscopic or Open Coracoplasty/Subcoracoid Decompression (Evidence: pg no: 12, L511)",
+      "names": [
+        "Coracoplasty (Evidence: pg no: 12, L511)",
+        "Subcoracoid Decompression (Evidence: pg no: 12, L511)"
+      ],
+      "description": "Considered experimental, investigational or unproven for treatment of subcoracoid impingement (Evidence: pg no: 12, L512-L514)",
+      "scope": "Arthroscopic or open coracoplasty/subcoracoid decompression (Evidence: pg no: 12, L512-L513)",
+      "general_requirements": {
+        "documentation": []
+      },
+      "exclusions": [
+        "All indications - considered experimental, investigational or unproven based on lack of scientific safety and efficacy (Evidence: pg no: 12, L512-L514)"
+      ],
+      "codes": [],
+      "notes": "Based on lack of scientific safety and efficacy, considered experimental, investigational or unproven (EIU) (Evidence: pg no: 12, L512-L514)"
+    },
+    {
+      "procedure_id": "fracture_tumor_infection_foreign_body_surgery",
+      "category": "Shoulder (Evidence: pg no: 4, L149)",
+      "section_title": "Arthroscopic or Open Procedure for Fracture, Tumor, Infection, or Foreign Body (Evidence: pg no: 4, L149)",
+      "names": [
+        "Shoulder Surgery for Fracture (Evidence: pg no: 4, L149)",
+        "Shoulder Surgery for Tumor (Evidence: pg no: 4, L149)",
+        "Shoulder Surgery for Infection (Evidence: pg no: 4, L149)",
+        "Shoulder Surgery for Foreign Body (Evidence: pg no: 4, L149)"
+      ],
+      "description": "Shoulder arthroscopic or open procedures for fracture, tumor, infection, or foreign body that has led to or will likely lead to progressive destruction (Evidence: pg no: 4, L149-L151)",
+      "scope": "Arthroscopic or open procedures for specific pathological conditions (Evidence: pg no: 4, L149-L150)",
+      "general_requirements": {
+        "documentation": [
+          "Surgery being performed for fracture, tumor, infection, or foreign body that has led to or will likely lead to progressive destruction (Evidence: pg no: 4, L150-L151)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "23145",
+          "system": "CPT",
+          "description": "Excision or curettage of bone cyst or benign tumor of clavicle or scapula; with autograft (includes obtaining graft) (Evidence: pg no: 13, L529-L530)"
+        },
+        {
+          "code": "23155",
+          "system": "CPT",
+          "description": "Excision or curettage of bone cyst or benign tumor of proximal humerus; with autograft (includes obtaining graft) (Evidence: pg no: 13, L531-L532)"
+        },
+        {
+          "code": "23172",
+          "system": "CPT",
+          "description": "Sequestrectomy (e.g. for osteomyelitis or bone abscess), scapula (Evidence: pg no: 13, L533)"
+        },
+        {
+          "code": "23174",
+          "system": "CPT",
+          "description": "Sequestrectomy (e.g. for osteomyelitis or bone abscess), humeral head to surgical neck (Evidence: pg no: 13, L534)"
+        }
+      ],
+      "notes": "May be considered medically necessary when surgery addresses progressive destruction (Evidence: pg no: 4, L149-L151)"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "procedure_id": "quadricepsplasty",
+  "category": "Knee (Evidence: pg no: 2, L73)",
+  "section_title": "Quadricepsplasty (Evidence: pg no: 12, L561)",
+  "names": [
+    "Quadricepsplasty (Evidence: pg no: 12, L561)"
+  ],
+  "description": "Quadricepsplasty for knee extension contracture secondary to prior femur/knee fracture or surgery (Evidence: pg no: 12, L562-L566)",
+  "scope": "Treatment of knee extension contracture (Evidence: pg no: 12, L561-L566)",
+  "general_requirements": {
+    "documentation": [
+      "Knee flexion less than 90 degrees (Evidence: pg no: 12, L564)",
+      "Failure of at least 12 weeks of conservative management (Evidence: pg no: 12, L565)",
+      "Failure of an arthroscopic lysis of adhesions (Evidence: pg no: 12, L566)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "27430",
+      "system": "CPT",
+      "description": "Quadricepsplasty (eg, Bennett or Thompson type) (Evidence: pg no: 16, L697)"
+    }
+  ],
+  "notes": ""
+}

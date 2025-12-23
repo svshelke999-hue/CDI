@@ -1,0 +1,19 @@
+{
+  "procedure_id": "coracoplasty_subcoracoid_decompression",
+  "category": "Shoulder (Evidence: pg no: 12, L511)",
+  "section_title": "Arthroscopic or Open Coracoplasty/Subcoracoid Decompression (Evidence: pg no: 12, L511)",
+  "names": [
+    "Coracoplasty (Evidence: pg no: 12, L511)",
+    "Subcoracoid Decompression (Evidence: pg no: 12, L511)"
+  ],
+  "description": "Considered experimental, investigational or unproven for treatment of subcoracoid impingement (Evidence: pg no: 12, L512-L514)",
+  "scope": "Arthroscopic or open coracoplasty/subcoracoid decompression (Evidence: pg no: 12, L512-L513)",
+  "general_requirements": {
+    "documentation": []
+  },
+  "exclusions": [
+    "All indications - considered experimental, investigational or unproven based on lack of scientific safety and efficacy (Evidence: pg no: 12, L512-L514)"
+  ],
+  "codes": [],
+  "notes": "Based on lack of scientific safety and efficacy, considered experimental, investigational or unproven (EIU) (Evidence: pg no: 12, L512-L514)"
+}

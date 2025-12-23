@@ -1,0 +1,31 @@
+{
+  "procedure_id": "loose_body_foreign_body_removal",
+  "category": "Shoulder (Evidence: pg no: 5, L182)",
+  "section_title": "Loose Body/Foreign Body Removal (Evidence: pg no: 5, L182)",
+  "names": [
+    "Loose Body Removal (Evidence: pg no: 5, L182)",
+    "Foreign Body Removal (Evidence: pg no: 5, L182)"
+  ],
+  "description": "Removal of loose bodies or foreign bodies from the shoulder joint causing mechanical symptoms (Evidence: pg no: 5, L184-L194)",
+  "scope": "Arthroscopic or open removal of loose or foreign bodies (Evidence: pg no: 5, L184)",
+  "general_requirements": {
+    "documentation": [
+      "Function-limiting pain (Evidence: pg no: 5, L186-L188)",
+      "Mechanical symptoms including painful locking, clicking, catching, or popping (Evidence: pg no: 5, L189)",
+      "Failure of provider-directed non-surgical management for at least three (3) months in duration, except when the loose body or foreign body has caused an acute restriction of shoulder joint range of motion (Evidence: pg no: 5, L190-L192)",
+      "Advanced diagnostic imaging study (e.g., MRI, CT) is conclusive for the presence of a loose body or foreign body within the shoulder joint (Evidence: pg no: 5, L193-L194)",
+      "Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain, and advanced glenohumeral osteoarthritis (Evidence: pg no: 5, L195-L197)"
+    ]
+  },
+  "exclusions": [
+    "Any other indication or condition (Evidence: pg no: 5, L199-L200)"
+  ],
+  "codes": [
+    {
+      "code": "29819",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; with removal of loose body or foreign body (Evidence: pg no: 13, L559)"
+    }
+  ],
+  "notes": "Exception for acute restriction of shoulder joint range of motion (i.e., locking) where conservative management period may be waived (Evidence: pg no: 5, L191-L192)"
+}

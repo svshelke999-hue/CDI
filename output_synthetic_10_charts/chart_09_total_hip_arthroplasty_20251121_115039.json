@@ -1,0 +1,1741 @@
+{
+  "file_name": "./Synthetic_data medical chart\\chart_09_total_hip_arthroplasty.txt",
+  "extraction_data": {
+    "patient_name": "Patricia Gomez",
+    "patient_age": "68-year-old",
+    "chart_specialty": "Orthopedic Surgery",
+    "cpt": [],
+    "procedure": [
+      "Primary total hip arthroplasty, left hip"
+    ],
+    "summary": "68-year-old female with end-stage osteoarthritis of the left hip underwent primary total hip arthroplasty. The procedure was performed using a posterior approach with uncemented acetabular cup and femoral stem implantation. Postoperative plan includes weight-bearing as tolerated with walker, antibiotic administration, multimodal pain management, and DVT prophylaxis."
+  },
+  "payer_results": {
+    "cigna": {
+      "payer_name": "Cigna",
+      "procedures_evaluated": 1,
+      "procedure_results": [
+        {
+          "procedure_evaluated": "Total Hip Arthroplasty",
+          "variant_or_subprocedure": "Primary total hip arthroplasty, left hip",
+          "policy_name": "Cigna Medical Coverage Policy for Musculoskeletal Procedures",
+          "decision": "Insufficient",
+          "primary_reasons": [
+            "No relevant Cigna guidelines provided for hip arthroplasty procedures",
+            "The provided Cigna guidelines only address shoulder procedures (diagnostic arthroscopy and biceps tenodesis)",
+            "Unable to evaluate against Cigna hip arthroplasty criteria as they were not provided"
+          ],
+          "requirement_checklist": [
+            {
+              "requirement_id": "guidelines_availability",
+              "type": "single",
+              "status": "unmet",
+              "evidence": [
+                {
+                  "line_reference": "N/A"
+                }
+              ],
+              "missing_to_meet": "Cigna guidelines specific to total hip arthroplasty",
+              "suggestion": "Request Cigna's specific medical coverage policy for total hip arthroplasty procedures"
+            }
+          ],
+          "timing_validation": {
+            "conservative_duration_weeks": "unknown",
+            "pt_sessions_completed": "unknown",
+            "follow_up_interval": "unknown"
+          },
+          "contraindications_exclusions": {
+            "active_infection": "unclear",
+            "severe_arthritis": "present",
+            "other_contraindications": []
+          },
+          "coding_implications": {
+            "eligible_codes_if_sufficient": [
+              "Unable to determine without proper guidelines"
+            ],
+            "notes": "Cannot determine appropriate coding without Cigna's hip arthroplasty guidelines"
+          },
+          "improvement_recommendations": {
+            "documentation_gaps": [
+              "Unable to determine specific documentation gaps without proper guidelines"
+            ],
+            "compliance_actions": [
+              "Obtain Cigna's medical coverage policy for total hip arthroplasty"
+            ],
+            "priority": "high"
+          },
+          "_original_procedure_name": "Primary total hip arthroplasty, left hip",
+          "medical_chart_reference": [],
+          "guideline_availability": {
+            "status": "available",
+            "search_hits": 6,
+            "max_score": 12.0,
+            "message": "Found 6 guideline(s) for Cigna"
+          },
+          "sources": [
+            {
+              "header": "[CIGNA | Primary total hip arthroplasty, left hip | Chunk 1 | score=12.000 | file=cigna_guideline_1.json | id=cigna_5]",
+              "file": "cigna_guideline_1.json",
+              "record_id": "cigna_5",
+              "chunk_index": 1,
+              "payer": "cigna",
+              "score": 12.0,
+              "description": "{'procedure_id': 'diagnostic_arthroscopy', 'category': 'Shoulder (Evidence: pg no: 4, L152)', 'section_title': 'Diagnostic Arthroscopy (Evidence: pg no: 4, L152)', 'names': ['Diagnostic Arthroscopy (Evidence: pg no: 4, L152)'], 'description': 'Diagnostic arthroscopy as a stand-alone procedure for evaluation of shoulder pathology when advanced imaging is inconclusive (Evidence: pg no: 4, L154-L155)', 'scope': 'Stand-alone diagnostic procedure (Evidence: pg no: 4, L154-L155)', 'general_requirements': {'documentation': ['Function-limiting pain for at least six (6) months in duration (Evidence: pg no: 4, L156-L157)', 'Abnormal shoulder physical examination findings compared to non-involved side including functionally limited range of motion or measurable loss in strength (Evidence: pg no: 4, L158-L161)', 'Positive Neer Impingement Test or Hawkins-Kennedy Impingement Test (Evidence: pg no: 4, L162)', 'Failure of provider-directed non-surgical management for at least three (3) months in duration (Evidence: pg no: 4, L163-L164)', 'Advanced diagnostic imaging study (e.g., MRI, CT) is inconclusive for internal derangement/pathology (Evidence: pg no: 4, L165)', 'Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain and advanced glenohumeral osteoarthritis (Evidence: pg no: 4, L166-L168)']}, 'exclusions': ['Any other indication or condition (Evidence: pg no: 5, L171-L172)', 'In-office diagno",
+              "full_source": {
+                "procedure_id": "diagnostic_arthroscopy",
+                "category": "Shoulder (Evidence: pg no: 4, L152)",
+                "section_title": "Diagnostic Arthroscopy (Evidence: pg no: 4, L152)",
+                "names": [
+                  "Diagnostic Arthroscopy (Evidence: pg no: 4, L152)"
+                ],
+                "description": "Diagnostic arthroscopy as a stand-alone procedure for evaluation of shoulder pathology when advanced imaging is inconclusive (Evidence: pg no: 4, L154-L155)",
+                "scope": "Stand-alone diagnostic procedure (Evidence: pg no: 4, L154-L155)",
+                "general_requirements": {
+                  "documentation": [
+                    "Function-limiting pain for at least six (6) months in duration (Evidence: pg no: 4, L156-L157)",
+                    "Abnormal shoulder physical examination findings compared to non-involved side including functionally limited range of motion or measurable loss in strength (Evidence: pg no: 4, L158-L161)",
+                    "Positive Neer Impingement Test or Hawkins-Kennedy Impingement Test (Evidence: pg no: 4, L162)",
+                    "Failure of provider-directed non-surgical management for at least three (3) months in duration (Evidence: pg no: 4, L163-L164)",
+                    "Advanced diagnostic imaging study (e.g., MRI, CT) is inconclusive for internal derangement/pathology (Evidence: pg no: 4, L165)",
+                    "Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain and advanced glenohumeral osteoarthritis (Evidence: pg no: 4, L166-L168)"
+                  ]
+                },
+                "exclusions": [
+                  "Any other indication or condition (Evidence: pg no: 5, L171-L172)",
+                  "In-office diagnostic arthroscopy (e.g., Mi-Eye™, VisionScope®) - considered experimental, investigational, or unproven (Evidence: pg no: 5, L175-L176)"
+                ],
+                "codes": [
+                  {
+                    "code": "29805",
+                    "system": "CPT",
+                    "description": "Arthroscopy, shoulder, diagnostic, with or without synovial biopsy (separate procedure) (Evidence: pg no: 13, L556)"
+                  }
+                ],
+                "notes": "Considered medically necessary only when ALL criteria are met (Evidence: pg no: 4, L155)"
+              },
+              "payer_guideline_reference": [
+                "(Evidence: pg no: 4, L155)",
+                "(Evidence: pg no: 4, L156-L157)",
+                "(Evidence: pg no: 4, L163-L164)",
+                "(Evidence: pg no: 4, L166-L168)",
+                "(Evidence: pg no: 4, L165)",
+                "(Evidence: pg no: 4, L152)",
+                "(Evidence: pg no: 4, L162)",
+                "(Evidence: pg no: 4, L158-L161)",
+                "(Evidence: pg no: 5, L171-L172)",
+                "(Evidence: pg no: 5, L175-L176)",
+                "(Evidence: pg no: 4, L154-L155)",
+                "(Evidence: pg no: 13, L556)"
+              ]
+            },
+            {
+              "header": "[CIGNA | Primary total hip arthroplasty, left hip | Chunk 2 | score=10.000 | file=cigna_guideline_2.json | id=cigna_1]",
+              "file": "cigna_guideline_2.json",
+              "record_id": "cigna_1",
+              "chunk_index": 2,
+              "payer": "cigna",
+              "score": 10.0,
+              "description": "{'procedure_id': 'biceps_tenodesis', 'category': 'Shoulder (Evidence: pg no: 10, L406)', 'section_title': 'Biceps Tenodesis (Evidence: pg no: 10, L406)', 'names': ['Biceps Tenodesis (Evidence: pg no: 10, L406)'], 'description': 'Tenodesis of biceps tendon for labral tear/biceps tendon pathology with specific range of motion and physical exam requirements (Evidence: pg no: 10, L408-L437)', 'scope': 'Arthroscopic or open biceps tenodesis (Evidence: pg no: 10, L408)', 'general_requirements': {'documentation': ['Function-limiting pain (Evidence: pg no: 10, L410-L412)', 'Failure of provider-directed non-surgical management for at least three (3) months in duration, except for discrete traumatic event resulting in acute proximal biceps tendon rupture (Evidence: pg no: 10, L413-L416)', 'Advanced diagnostic imaging study (e.g., MRI, CT) demonstrates labral tear/biceps tendon pathology (e.g., SLAP, Bankart, full-thickness subscapularis tear) and correlates with symptoms and physical exam findings (Evidence: pg no: 10, L417-L420)', 'Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain, cervical radiculopathy, and advanced glenohumeral osteoarthritis (Evidence: pg no: 10, L421-L423)', 'Minimally limited or full shoulder range of motion (Evidence: pg no: 10, L426)', \"ONE OR MORE positive physical exam findings including O'Brien's Test, Biceps Load Test, Clunk Test, Anterior Slide Test, Compr",
+              "full_source": {
+                "procedure_id": "biceps_tenodesis",
+                "category": "Shoulder (Evidence: pg no: 10, L406)",
+                "section_title": "Biceps Tenodesis (Evidence: pg no: 10, L406)",
+                "names": [
+                  "Biceps Tenodesis (Evidence: pg no: 10, L406)"
+                ],
+                "description": "Tenodesis of biceps tendon for labral tear/biceps tendon pathology with specific range of motion and physical exam requirements (Evidence: pg no: 10, L408-L437)",
+                "scope": "Arthroscopic or open biceps tenodesis (Evidence: pg no: 10, L408)",
+                "general_requirements": {
+                  "documentation": [
+                    "Function-limiting pain (Evidence: pg no: 10, L410-L412)",
+                    "Failure of provider-directed non-surgical management for at least three (3) months in duration, except for discrete traumatic event resulting in acute proximal biceps tendon rupture (Evidence: pg no: 10, L413-L416)",
+                    "Advanced diagnostic imaging study (e.g., MRI, CT) demonstrates labral tear/biceps tendon pathology (e.g., SLAP, Bankart, full-thickness subscapularis tear) and correlates with symptoms and physical exam findings (Evidence: pg no: 10, L417-L420)",
+                    "Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain, cervical radiculopathy, and advanced glenohumeral osteoarthritis (Evidence: pg no: 10, L421-L423)",
+                    "Minimally limited or full shoulder range of motion (Evidence: pg no: 10, L426)",
+                    "ONE OR MORE positive physical exam findings including O'Brien's Test, Biceps Load Test, Clunk Test, Anterior Slide Test, Compression Rotation Test, Speed's Test, Upper cut test, Popeye sign, Yergason's test, Proximal biceps (groove) tenderness (Evidence: pg no: 10, L427-L437)"
+                  ]
+                },
+                "exclusions": [
+                  "Any other indication or condition (Evidence: pg no: 10, L439-L440)"
+                ],
+                "codes": [
+                  {
+                    "code": "23430",
+                    "system": "CPT",
+                    "description": "Tenodesis of long tendon of biceps (Evidence: pg no: 13, L545)"
+                  },
+                  {
+                    "code": "23440",
+                    "system": "CPT",
+                    "description": "Resection or transplantation of long tendon of biceps (Evidence: pg no: 13, L546)"
+                  },
+                  {
+                    "code": "29828",
+                    "system": "CPT",
+                    "description": "Arthroscopy, shoulder, surgical; biceps tenodesis (Evidence: pg no: 14, L586)"
+                  }
+                ],
+                "notes": "Conservative management exception for acute proximal biceps tendon rupture (Evidence: pg no: 10, L414-L416)"
+              },
+              "payer_guideline_reference": [
+                "(Evidence: pg no: 13, L546)",
+                "(Evidence: pg no: 10, L406)",
+                "(Evidence: pg no: 10, L408-L437)",
+                "(Evidence: pg no: 14, L586)",
+                "(Evidence: pg no: 10, L408)",
+                "(Evidence: pg no: 10, L410-L412)",
+                "(Evidence: pg no: 10, L414-L416)",
+                "(Evidence: pg no: 10, L426)",
+                "(Evidence: pg no: 13, L545)",
+                "(Evidence: pg no: 10, L421-L423)",
+                "(Evidence: pg no: 10, L417-L420)",
+                "(Evidence: pg no: 10, L439-L440)",
+                "(Evidence: pg no: 10, L427-L437)",
+                "(Evidence: pg no: 10, L413-L416)"
+              ]
+            }
+          ],
+          "guideline_source": "payer"
+        }
+      ],
+      "usage": "UsageInfo(input_tokens=5146, output_tokens=1896, model_id='unknown', input_cost=0.015438, output_cost=0.028439999999999997, total_cost=0.043878, cache_creation_input_tokens=0, cache_read_input_tokens=0, cache_write_cost=0.0, cache_read_cost=0.0)",
+      "sources": [
+        {
+          "header": "[CIGNA | Primary total hip arthroplasty, left hip | Chunk 1 | score=12.000 | file=cigna_guideline_1.json | id=cigna_5]",
+          "file": "cigna_guideline_1.json",
+          "record_id": "cigna_5",
+          "chunk_index": 1,
+          "payer": "cigna",
+          "score": 12.0,
+          "description": "{'procedure_id': 'diagnostic_arthroscopy', 'category': 'Shoulder (Evidence: pg no: 4, L152)', 'section_title': 'Diagnostic Arthroscopy (Evidence: pg no: 4, L152)', 'names': ['Diagnostic Arthroscopy (Evidence: pg no: 4, L152)'], 'description': 'Diagnostic arthroscopy as a stand-alone procedure for evaluation of shoulder pathology when advanced imaging is inconclusive (Evidence: pg no: 4, L154-L155)', 'scope': 'Stand-alone diagnostic procedure (Evidence: pg no: 4, L154-L155)', 'general_requirements': {'documentation': ['Function-limiting pain for at least six (6) months in duration (Evidence: pg no: 4, L156-L157)', 'Abnormal shoulder physical examination findings compared to non-involved side including functionally limited range of motion or measurable loss in strength (Evidence: pg no: 4, L158-L161)', 'Positive Neer Impingement Test or Hawkins-Kennedy Impingement Test (Evidence: pg no: 4, L162)', 'Failure of provider-directed non-surgical management for at least three (3) months in duration (Evidence: pg no: 4, L163-L164)', 'Advanced diagnostic imaging study (e.g., MRI, CT) is inconclusive for internal derangement/pathology (Evidence: pg no: 4, L165)', 'Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain and advanced glenohumeral osteoarthritis (Evidence: pg no: 4, L166-L168)']}, 'exclusions': ['Any other indication or condition (Evidence: pg no: 5, L171-L172)', 'In-office diagno",
+          "full_source": {
+            "procedure_id": "diagnostic_arthroscopy",
+            "category": "Shoulder (Evidence: pg no: 4, L152)",
+            "section_title": "Diagnostic Arthroscopy (Evidence: pg no: 4, L152)",
+            "names": [
+              "Diagnostic Arthroscopy (Evidence: pg no: 4, L152)"
+            ],
+            "description": "Diagnostic arthroscopy as a stand-alone procedure for evaluation of shoulder pathology when advanced imaging is inconclusive (Evidence: pg no: 4, L154-L155)",
+            "scope": "Stand-alone diagnostic procedure (Evidence: pg no: 4, L154-L155)",
+            "general_requirements": {
+              "documentation": [
+                "Function-limiting pain for at least six (6) months in duration (Evidence: pg no: 4, L156-L157)",
+                "Abnormal shoulder physical examination findings compared to non-involved side including functionally limited range of motion or measurable loss in strength (Evidence: pg no: 4, L158-L161)",
+                "Positive Neer Impingement Test or Hawkins-Kennedy Impingement Test (Evidence: pg no: 4, L162)",
+                "Failure of provider-directed non-surgical management for at least three (3) months in duration (Evidence: pg no: 4, L163-L164)",
+                "Advanced diagnostic imaging study (e.g., MRI, CT) is inconclusive for internal derangement/pathology (Evidence: pg no: 4, L165)",
+                "Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain and advanced glenohumeral osteoarthritis (Evidence: pg no: 4, L166-L168)"
+              ]
+            },
+            "exclusions": [
+              "Any other indication or condition (Evidence: pg no: 5, L171-L172)",
+              "In-office diagnostic arthroscopy (e.g., Mi-Eye™, VisionScope®) - considered experimental, investigational, or unproven (Evidence: pg no: 5, L175-L176)"
+            ],
+            "codes": [
+              {
+                "code": "29805",
+                "system": "CPT",
+                "description": "Arthroscopy, shoulder, diagnostic, with or without synovial biopsy (separate procedure) (Evidence: pg no: 13, L556)"
+              }
+            ],
+            "notes": "Considered medically necessary only when ALL criteria are met (Evidence: pg no: 4, L155)"
+          },
+          "payer_guideline_reference": [
+            "(Evidence: pg no: 4, L155)",
+            "(Evidence: pg no: 4, L156-L157)",
+            "(Evidence: pg no: 4, L163-L164)",
+            "(Evidence: pg no: 4, L166-L168)",
+            "(Evidence: pg no: 4, L165)",
+            "(Evidence: pg no: 4, L152)",
+            "(Evidence: pg no: 4, L162)",
+            "(Evidence: pg no: 4, L158-L161)",
+            "(Evidence: pg no: 5, L171-L172)",
+            "(Evidence: pg no: 5, L175-L176)",
+            "(Evidence: pg no: 4, L154-L155)",
+            "(Evidence: pg no: 13, L556)"
+          ]
+        },
+        {
+          "header": "[CIGNA | Primary total hip arthroplasty, left hip | Chunk 2 | score=10.000 | file=cigna_guideline_2.json | id=cigna_1]",
+          "file": "cigna_guideline_2.json",
+          "record_id": "cigna_1",
+          "chunk_index": 2,
+          "payer": "cigna",
+          "score": 10.0,
+          "description": "{'procedure_id': 'biceps_tenodesis', 'category': 'Shoulder (Evidence: pg no: 10, L406)', 'section_title': 'Biceps Tenodesis (Evidence: pg no: 10, L406)', 'names': ['Biceps Tenodesis (Evidence: pg no: 10, L406)'], 'description': 'Tenodesis of biceps tendon for labral tear/biceps tendon pathology with specific range of motion and physical exam requirements (Evidence: pg no: 10, L408-L437)', 'scope': 'Arthroscopic or open biceps tenodesis (Evidence: pg no: 10, L408)', 'general_requirements': {'documentation': ['Function-limiting pain (Evidence: pg no: 10, L410-L412)', 'Failure of provider-directed non-surgical management for at least three (3) months in duration, except for discrete traumatic event resulting in acute proximal biceps tendon rupture (Evidence: pg no: 10, L413-L416)', 'Advanced diagnostic imaging study (e.g., MRI, CT) demonstrates labral tear/biceps tendon pathology (e.g., SLAP, Bankart, full-thickness subscapularis tear) and correlates with symptoms and physical exam findings (Evidence: pg no: 10, L417-L420)', 'Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain, cervical radiculopathy, and advanced glenohumeral osteoarthritis (Evidence: pg no: 10, L421-L423)', 'Minimally limited or full shoulder range of motion (Evidence: pg no: 10, L426)', \"ONE OR MORE positive physical exam findings including O'Brien's Test, Biceps Load Test, Clunk Test, Anterior Slide Test, Compr",
+          "full_source": {
+            "procedure_id": "biceps_tenodesis",
+            "category": "Shoulder (Evidence: pg no: 10, L406)",
+            "section_title": "Biceps Tenodesis (Evidence: pg no: 10, L406)",
+            "names": [
+              "Biceps Tenodesis (Evidence: pg no: 10, L406)"
+            ],
+            "description": "Tenodesis of biceps tendon for labral tear/biceps tendon pathology with specific range of motion and physical exam requirements (Evidence: pg no: 10, L408-L437)",
+            "scope": "Arthroscopic or open biceps tenodesis (Evidence: pg no: 10, L408)",
+            "general_requirements": {
+              "documentation": [
+                "Function-limiting pain (Evidence: pg no: 10, L410-L412)",
+                "Failure of provider-directed non-surgical management for at least three (3) months in duration, except for discrete traumatic event resulting in acute proximal biceps tendon rupture (Evidence: pg no: 10, L413-L416)",
+                "Advanced diagnostic imaging study (e.g., MRI, CT) demonstrates labral tear/biceps tendon pathology (e.g., SLAP, Bankart, full-thickness subscapularis tear) and correlates with symptoms and physical exam findings (Evidence: pg no: 10, L417-L420)",
+                "Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain, cervical radiculopathy, and advanced glenohumeral osteoarthritis (Evidence: pg no: 10, L421-L423)",
+                "Minimally limited or full shoulder range of motion (Evidence: pg no: 10, L426)",
+                "ONE OR MORE positive physical exam findings including O'Brien's Test, Biceps Load Test, Clunk Test, Anterior Slide Test, Compression Rotation Test, Speed's Test, Upper cut test, Popeye sign, Yergason's test, Proximal biceps (groove) tenderness (Evidence: pg no: 10, L427-L437)"
+              ]
+            },
+            "exclusions": [
+              "Any other indication or condition (Evidence: pg no: 10, L439-L440)"
+            ],
+            "codes": [
+              {
+                "code": "23430",
+                "system": "CPT",
+                "description": "Tenodesis of long tendon of biceps (Evidence: pg no: 13, L545)"
+              },
+              {
+                "code": "23440",
+                "system": "CPT",
+                "description": "Resection or transplantation of long tendon of biceps (Evidence: pg no: 13, L546)"
+              },
+              {
+                "code": "29828",
+                "system": "CPT",
+                "description": "Arthroscopy, shoulder, surgical; biceps tenodesis (Evidence: pg no: 14, L586)"
+              }
+            ],
+            "notes": "Conservative management exception for acute proximal biceps tendon rupture (Evidence: pg no: 10, L414-L416)"
+          },
+          "payer_guideline_reference": [
+            "(Evidence: pg no: 13, L546)",
+            "(Evidence: pg no: 10, L406)",
+            "(Evidence: pg no: 10, L408-L437)",
+            "(Evidence: pg no: 14, L586)",
+            "(Evidence: pg no: 10, L408)",
+            "(Evidence: pg no: 10, L410-L412)",
+            "(Evidence: pg no: 10, L414-L416)",
+            "(Evidence: pg no: 10, L426)",
+            "(Evidence: pg no: 13, L545)",
+            "(Evidence: pg no: 10, L421-L423)",
+            "(Evidence: pg no: 10, L417-L420)",
+            "(Evidence: pg no: 10, L439-L440)",
+            "(Evidence: pg no: 10, L427-L437)",
+            "(Evidence: pg no: 10, L413-L416)"
+          ]
+        }
+      ],
+      "error": null
+    },
+    "uhc": {
+      "payer_name": "UnitedHealthcare",
+      "procedures_evaluated": 1,
+      "procedure_results": [
+        {
+          "procedure_evaluated": "Total Hip Arthroplasty",
+          "variant_or_subprocedure": "Primary total hip arthroplasty, left hip",
+          "policy_name": "UnitedHealthcare Medical Coverage Policy for Musculoskeletal Procedures",
+          "decision": "Insufficient",
+          "primary_reasons": [
+            "No relevant UHC guidelines provided for hip arthroplasty procedures",
+            "The provided UHC guidelines only address shoulder procedures (subacromial balloon spacers, diagnostic arthroscopy, joint replacement)",
+            "Unable to evaluate against UHC hip arthroplasty criteria as they were not provided"
+          ],
+          "requirement_checklist": [
+            {
+              "requirement_id": "guidelines_availability",
+              "type": "single",
+              "status": "unmet",
+              "evidence": [
+                {
+                  "line_reference": "N/A"
+                }
+              ],
+              "missing_to_meet": "UHC guidelines specific to total hip arthroplasty",
+              "suggestion": "Request UHC's specific medical coverage policy for total hip arthroplasty procedures"
+            }
+          ],
+          "timing_validation": {
+            "conservative_duration_weeks": "unknown",
+            "pt_sessions_completed": "unknown",
+            "follow_up_interval": "unknown"
+          },
+          "contraindications_exclusions": {
+            "active_infection": "unclear",
+            "severe_arthritis": "present",
+            "other_contraindications": []
+          },
+          "coding_implications": {
+            "eligible_codes_if_sufficient": [
+              "Unable to determine without proper guidelines"
+            ],
+            "notes": "Cannot determine appropriate coding without UHC's hip arthroplasty guidelines"
+          },
+          "improvement_recommendations": {
+            "documentation_gaps": [
+              "Unable to determine specific documentation gaps without proper guidelines"
+            ],
+            "compliance_actions": [
+              "Obtain UHC's medical coverage policy for total hip arthroplasty"
+            ],
+            "priority": "high"
+          },
+          "_original_procedure_name": "Primary total hip arthroplasty, left hip",
+          "medical_chart_reference": [],
+          "guideline_availability": {
+            "status": "available",
+            "search_hits": 6,
+            "max_score": 20.0,
+            "message": "Found 6 guideline(s) for UnitedHealthcare"
+          },
+          "sources": [
+            {
+              "header": "[UHC | Primary total hip arthroplasty, left hip | Chunk 1 | score=20.000 | file=uhc_guideline_1.json | id=uhc_16]",
+              "file": "uhc_guideline_1.json",
+              "record_id": "uhc_16",
+              "chunk_index": 1,
+              "payer": "uhc",
+              "score": 20.0,
+              "description": "{'procedure_id': 'subacromial_balloon_spacers', 'category': 'Shoulder (Evidence: pg no: 2, L89)', 'section_title': 'Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)', 'names': ['Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)', 'InSpace™ Subacromial Tissue Spacer System (Evidence: pg no: 2, L90)', 'Subacromial balloon spacer implantation (SBSI) (Evidence: pg no: 3, L124)', 'InSpace Biodegradable Subacromial Spacer (Evidence: pg no: 5, L254)'], 'description': 'A minimally invasive, biodegradable balloon spacer for treating massive, inoperable rotator cuff tears (MIRCTs). It preserves musculoskeletal and bone tissues, does not require the use of an anchor, and does not require a permanent implant. It is used as a spacer to eliminate friction between the acromion and the humeral head or rotator cuff to restore shoulder function and reduce pain. It is designed to biodegrade over the course of twelve months (Evidence: pg no: 2, L90-L93)', 'scope': 'Treatment of massive, irreparable rotator cuff tears (Evidence: pg no: 2, L90-L91)', 'general_requirements': {'documentation': ['Medical records documentation may be required to assess whether the member meets the clinical criteria for coverage (Evidence: pg no: 1, L40-L42)']}, 'exclusions': ['Unproven and not medically necessary due to insufficient evidence of efficacy (Evidence: pg no: 1, L37-L38)'], 'codes': [], 'notes': 'The current published literature is at high-risk of bias due to the small sample size, s",
+              "full_source": {
+                "procedure_id": "subacromial_balloon_spacers",
+                "category": "Shoulder (Evidence: pg no: 2, L89)",
+                "section_title": "Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)",
+                "names": [
+                  "Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)",
+                  "InSpace™ Subacromial Tissue Spacer System (Evidence: pg no: 2, L90)",
+                  "Subacromial balloon spacer implantation (SBSI) (Evidence: pg no: 3, L124)",
+                  "InSpace Biodegradable Subacromial Spacer (Evidence: pg no: 5, L254)"
+                ],
+                "description": "A minimally invasive, biodegradable balloon spacer for treating massive, inoperable rotator cuff tears (MIRCTs). It preserves musculoskeletal and bone tissues, does not require the use of an anchor, and does not require a permanent implant. It is used as a spacer to eliminate friction between the acromion and the humeral head or rotator cuff to restore shoulder function and reduce pain. It is designed to biodegrade over the course of twelve months (Evidence: pg no: 2, L90-L93)",
+                "scope": "Treatment of massive, irreparable rotator cuff tears (Evidence: pg no: 2, L90-L91)",
+                "general_requirements": {
+                  "documentation": [
+                    "Medical records documentation may be required to assess whether the member meets the clinical criteria for coverage (Evidence: pg no: 1, L40-L42)"
+                  ]
+                },
+                "exclusions": [
+                  "Unproven and not medically necessary due to insufficient evidence of efficacy (Evidence: pg no: 1, L37-L38)"
+                ],
+                "codes": [],
+                "notes": "The current published literature is at high-risk of bias due to the small sample size, single-center focus, retrospective design, and lack of randomization, blinding, and control. There are device-related complications, and long-term studies are necessary as short-term results appear to degrade over time (Evidence: pg no: 2, L94-L97)"
+              },
+              "payer_guideline_reference": [
+                "(Evidence: pg no: 2, L89)",
+                "(Evidence: pg no: 2, L94-L97)",
+                "(Evidence: pg no: 1, L40-L42)",
+                "(Evidence: pg no: 2, L90-L91)",
+                "(Evidence: pg no: 1, L37-L38)",
+                "(Evidence: pg no: 2, L90-L93)",
+                "(Evidence: pg no: 2, L90)",
+                "(Evidence: pg no: 3, L124)",
+                "(Evidence: pg no: 5, L254)"
+              ]
+            },
+            {
+              "header": "[UHC | Primary total hip arthroplasty, left hip | Chunk 2 | score=12.000 | file=uhc_guideline_2.json | id=uhc_2]",
+              "file": "uhc_guideline_2.json",
+              "record_id": "uhc_2",
+              "chunk_index": 2,
+              "payer": "uhc",
+              "score": 12.0,
+              "description": "{'procedure_id': 'arthroscopy_shoulder_diagnostic', 'category': 'Shoulder (Evidence: pg no: 1, L28)', 'section_title': 'Arthroscopy, Diagnostic, +/- Synovial Biopsy, Shoulder (Evidence: pg no: 1, L30)', 'names': ['Arthroscopy, shoulder, diagnostic, with or without synovial biopsy (Evidence: pg no: 2, L67)'], 'description': 'Diagnostic arthroscopy of the shoulder with or without synovial biopsy as a separate procedure (Evidence: pg no: 2, L67)', 'scope': 'Diagnostic procedure for shoulder evaluation (Evidence: pg no: 2, L67)', 'general_requirements': {'documentation': ['Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)']}, 'exclusions': [], 'codes': [{'code': '29805', 'system': 'CPT', 'description': 'Arthroscopy, shoulder, diagnostic, with or without synovial biopsy (separate procedure) (Evidence: pg no: 2, L67)'}], 'notes': 'Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)'}",
+              "full_source": {
+                "procedure_id": "arthroscopy_shoulder_diagnostic",
+                "category": "Shoulder (Evidence: pg no: 1, L28)",
+                "section_title": "Arthroscopy, Diagnostic, +/- Synovial Biopsy, Shoulder (Evidence: pg no: 1, L30)",
+                "names": [
+                  "Arthroscopy, shoulder, diagnostic, with or without synovial biopsy (Evidence: pg no: 2, L67)"
+                ],
+                "description": "Diagnostic arthroscopy of the shoulder with or without synovial biopsy as a separate procedure (Evidence: pg no: 2, L67)",
+                "scope": "Diagnostic procedure for shoulder evaluation (Evidence: pg no: 2, L67)",
+                "general_requirements": {
+                  "documentation": [
+                    "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+                  ]
+                },
+                "exclusions": [],
+                "codes": [
+                  {
+                    "code": "29805",
+                    "system": "CPT",
+                    "description": "Arthroscopy, shoulder, diagnostic, with or without synovial biopsy (separate procedure) (Evidence: pg no: 2, L67)"
+                  }
+                ],
+                "notes": "Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)"
+              },
+              "payer_guideline_reference": [
+                "(Evidence: pg no: 1, L25)",
+                "(Evidence: pg no: 1, L30)",
+                "(Evidence: pg no: 2, L67)",
+                "(Evidence: pg no: 1, L28)",
+                "(Evidence: pg no: 1, L25-L27)"
+              ]
+            },
+            {
+              "header": "[UHC | Primary total hip arthroplasty, left hip | Chunk 3 | score=12.000 | file=uhc_guideline_3.json | id=uhc_10]",
+              "file": "uhc_guideline_3.json",
+              "record_id": "uhc_10",
+              "chunk_index": 3,
+              "payer": "uhc",
+              "score": 12.0,
+              "description": "{'procedure_id': 'removal_replacement_tjr_shoulder', 'category': 'Shoulder (Evidence: pg no: 1, L33)', 'section_title': 'Removal and Replacement, Total Joint Replacement (TJR), Shoulder (Evidence: pg no: 1, L33)', 'names': ['Removal and Replacement, Total Joint Replacement (TJR), Shoulder (Evidence: pg no: 1, L33)'], 'description': 'Surgical removal and replacement of total joint replacement components in the shoulder (Evidence: pg no: 1, L33)', 'scope': 'Revision surgery for shoulder joint replacement (Evidence: pg no: 1, L33)', 'general_requirements': {'documentation': ['Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)']}, 'exclusions': [], 'codes': [], 'notes': 'Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)'}",
+              "full_source": {
+                "procedure_id": "removal_replacement_tjr_shoulder",
+                "category": "Shoulder (Evidence: pg no: 1, L33)",
+                "section_title": "Removal and Replacement, Total Joint Replacement (TJR), Shoulder (Evidence: pg no: 1, L33)",
+                "names": [
+                  "Removal and Replacement, Total Joint Replacement (TJR), Shoulder (Evidence: pg no: 1, L33)"
+                ],
+                "description": "Surgical removal and replacement of total joint replacement components in the shoulder (Evidence: pg no: 1, L33)",
+                "scope": "Revision surgery for shoulder joint replacement (Evidence: pg no: 1, L33)",
+                "general_requirements": {
+                  "documentation": [
+                    "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+                  ]
+                },
+                "exclusions": [],
+                "codes": [],
+                "notes": "Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)"
+              },
+              "payer_guideline_reference": [
+                "(Evidence: pg no: 1, L25-L27)",
+                "(Evidence: pg no: 1, L25)",
+                "(Evidence: pg no: 1, L33)"
+              ]
+            },
+            {
+              "header": "[UHC | Primary total hip arthroplasty, left hip | Chunk 4 | score=12.000 | file=uhc_guideline_4.json | id=uhc_11]",
+              "file": "uhc_guideline_4.json",
+              "record_id": "uhc_11",
+              "chunk_index": 4,
+              "payer": "uhc",
+              "score": 12.0,
+              "description": "{'procedure_id': 'reverse_total_shoulder_arthroplasty', 'category': 'Shoulder (Evidence: pg no: 3, L113, L117)', 'section_title': 'Reverse Total Shoulder Arthroplasty (RTSA) (Evidence: pg no: 3, L117)', 'names': ['Reverse total shoulder arthroplasty (Evidence: pg no: 3, L113)', 'RTSA (Evidence: pg no: 3, L117)'], 'description': 'Surgical procedure involving reverse total shoulder arthroplasty, often used as a salvage procedure for failed treatments (Evidence: pg no: 3, L113, L117, L162)', 'scope': 'Salvage procedure for failed shoulder treatments (Evidence: pg no: 4, L162)', 'general_requirements': {'documentation': ['Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)']}, 'exclusions': [], 'codes': [], 'notes': 'Mean time to conversion to reverse total shoulder arthroplasty was 11.0 versus 25.4 months for SAB versus debridement arm. 5% of participants needed salvage reverse shoulder arthroplasty (Evidence: pg no: 3, L113-L114, L162)'}",
+              "full_source": {
+                "procedure_id": "reverse_total_shoulder_arthroplasty",
+                "category": "Shoulder (Evidence: pg no: 3, L113, L117)",
+                "section_title": "Reverse Total Shoulder Arthroplasty (RTSA) (Evidence: pg no: 3, L117)",
+                "names": [
+                  "Reverse total shoulder arthroplasty (Evidence: pg no: 3, L113)",
+                  "RTSA (Evidence: pg no: 3, L117)"
+                ],
+                "description": "Surgical procedure involving reverse total shoulder arthroplasty, often used as a salvage procedure for failed treatments (Evidence: pg no: 3, L113, L117, L162)",
+                "scope": "Salvage procedure for failed shoulder treatments (Evidence: pg no: 4, L162)",
+                "general_requirements": {
+                  "documentation": [
+                    "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+                  ]
+                },
+                "exclusions": [],
+                "codes": [],
+                "notes": "Mean time to conversion to reverse total shoulder arthroplasty was 11.0 versus 25.4 months for SAB versus debridement arm. 5% of participants needed salvage reverse shoulder arthroplasty (Evidence: pg no: 3, L113-L114, L162)"
+              },
+              "payer_guideline_reference": [
+                "(Evidence: pg no: 3, L113)",
+                "(Evidence: pg no: 1, L25-L27)",
+                "(Evidence: pg no: 3, L117)",
+                "(Evidence: pg no: 4, L162)"
+              ]
+            }
+          ],
+          "guideline_source": "payer"
+        }
+      ],
+      "usage": "UsageInfo(input_tokens=5146, output_tokens=1896, model_id='unknown', input_cost=0.015438, output_cost=0.028439999999999997, total_cost=0.043878, cache_creation_input_tokens=0, cache_read_input_tokens=0, cache_write_cost=0.0, cache_read_cost=0.0)",
+      "sources": [
+        {
+          "header": "[UHC | Primary total hip arthroplasty, left hip | Chunk 1 | score=20.000 | file=uhc_guideline_1.json | id=uhc_16]",
+          "file": "uhc_guideline_1.json",
+          "record_id": "uhc_16",
+          "chunk_index": 1,
+          "payer": "uhc",
+          "score": 20.0,
+          "description": "{'procedure_id': 'subacromial_balloon_spacers', 'category': 'Shoulder (Evidence: pg no: 2, L89)', 'section_title': 'Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)', 'names': ['Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)', 'InSpace™ Subacromial Tissue Spacer System (Evidence: pg no: 2, L90)', 'Subacromial balloon spacer implantation (SBSI) (Evidence: pg no: 3, L124)', 'InSpace Biodegradable Subacromial Spacer (Evidence: pg no: 5, L254)'], 'description': 'A minimally invasive, biodegradable balloon spacer for treating massive, inoperable rotator cuff tears (MIRCTs). It preserves musculoskeletal and bone tissues, does not require the use of an anchor, and does not require a permanent implant. It is used as a spacer to eliminate friction between the acromion and the humeral head or rotator cuff to restore shoulder function and reduce pain. It is designed to biodegrade over the course of twelve months (Evidence: pg no: 2, L90-L93)', 'scope': 'Treatment of massive, irreparable rotator cuff tears (Evidence: pg no: 2, L90-L91)', 'general_requirements': {'documentation': ['Medical records documentation may be required to assess whether the member meets the clinical criteria for coverage (Evidence: pg no: 1, L40-L42)']}, 'exclusions': ['Unproven and not medically necessary due to insufficient evidence of efficacy (Evidence: pg no: 1, L37-L38)'], 'codes': [], 'notes': 'The current published literature is at high-risk of bias due to the small sample size, s",
+          "full_source": {
+            "procedure_id": "subacromial_balloon_spacers",
+            "category": "Shoulder (Evidence: pg no: 2, L89)",
+            "section_title": "Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)",
+            "names": [
+              "Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)",
+              "InSpace™ Subacromial Tissue Spacer System (Evidence: pg no: 2, L90)",
+              "Subacromial balloon spacer implantation (SBSI) (Evidence: pg no: 3, L124)",
+              "InSpace Biodegradable Subacromial Spacer (Evidence: pg no: 5, L254)"
+            ],
+            "description": "A minimally invasive, biodegradable balloon spacer for treating massive, inoperable rotator cuff tears (MIRCTs). It preserves musculoskeletal and bone tissues, does not require the use of an anchor, and does not require a permanent implant. It is used as a spacer to eliminate friction between the acromion and the humeral head or rotator cuff to restore shoulder function and reduce pain. It is designed to biodegrade over the course of twelve months (Evidence: pg no: 2, L90-L93)",
+            "scope": "Treatment of massive, irreparable rotator cuff tears (Evidence: pg no: 2, L90-L91)",
+            "general_requirements": {
+              "documentation": [
+                "Medical records documentation may be required to assess whether the member meets the clinical criteria for coverage (Evidence: pg no: 1, L40-L42)"
+              ]
+            },
+            "exclusions": [
+              "Unproven and not medically necessary due to insufficient evidence of efficacy (Evidence: pg no: 1, L37-L38)"
+            ],
+            "codes": [],
+            "notes": "The current published literature is at high-risk of bias due to the small sample size, single-center focus, retrospective design, and lack of randomization, blinding, and control. There are device-related complications, and long-term studies are necessary as short-term results appear to degrade over time (Evidence: pg no: 2, L94-L97)"
+          },
+          "payer_guideline_reference": [
+            "(Evidence: pg no: 2, L89)",
+            "(Evidence: pg no: 2, L94-L97)",
+            "(Evidence: pg no: 1, L40-L42)",
+            "(Evidence: pg no: 2, L90-L91)",
+            "(Evidence: pg no: 1, L37-L38)",
+            "(Evidence: pg no: 2, L90-L93)",
+            "(Evidence: pg no: 2, L90)",
+            "(Evidence: pg no: 3, L124)",
+            "(Evidence: pg no: 5, L254)"
+          ]
+        },
+        {
+          "header": "[UHC | Primary total hip arthroplasty, left hip | Chunk 2 | score=12.000 | file=uhc_guideline_2.json | id=uhc_2]",
+          "file": "uhc_guideline_2.json",
+          "record_id": "uhc_2",
+          "chunk_index": 2,
+          "payer": "uhc",
+          "score": 12.0,
+          "description": "{'procedure_id': 'arthroscopy_shoulder_diagnostic', 'category': 'Shoulder (Evidence: pg no: 1, L28)', 'section_title': 'Arthroscopy, Diagnostic, +/- Synovial Biopsy, Shoulder (Evidence: pg no: 1, L30)', 'names': ['Arthroscopy, shoulder, diagnostic, with or without synovial biopsy (Evidence: pg no: 2, L67)'], 'description': 'Diagnostic arthroscopy of the shoulder with or without synovial biopsy as a separate procedure (Evidence: pg no: 2, L67)', 'scope': 'Diagnostic procedure for shoulder evaluation (Evidence: pg no: 2, L67)', 'general_requirements': {'documentation': ['Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)']}, 'exclusions': [], 'codes': [{'code': '29805', 'system': 'CPT', 'description': 'Arthroscopy, shoulder, diagnostic, with or without synovial biopsy (separate procedure) (Evidence: pg no: 2, L67)'}], 'notes': 'Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)'}",
+          "full_source": {
+            "procedure_id": "arthroscopy_shoulder_diagnostic",
+            "category": "Shoulder (Evidence: pg no: 1, L28)",
+            "section_title": "Arthroscopy, Diagnostic, +/- Synovial Biopsy, Shoulder (Evidence: pg no: 1, L30)",
+            "names": [
+              "Arthroscopy, shoulder, diagnostic, with or without synovial biopsy (Evidence: pg no: 2, L67)"
+            ],
+            "description": "Diagnostic arthroscopy of the shoulder with or without synovial biopsy as a separate procedure (Evidence: pg no: 2, L67)",
+            "scope": "Diagnostic procedure for shoulder evaluation (Evidence: pg no: 2, L67)",
+            "general_requirements": {
+              "documentation": [
+                "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+              ]
+            },
+            "exclusions": [],
+            "codes": [
+              {
+                "code": "29805",
+                "system": "CPT",
+                "description": "Arthroscopy, shoulder, diagnostic, with or without synovial biopsy (separate procedure) (Evidence: pg no: 2, L67)"
+              }
+            ],
+            "notes": "Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)"
+          },
+          "payer_guideline_reference": [
+            "(Evidence: pg no: 1, L25)",
+            "(Evidence: pg no: 1, L30)",
+            "(Evidence: pg no: 2, L67)",
+            "(Evidence: pg no: 1, L28)",
+            "(Evidence: pg no: 1, L25-L27)"
+          ]
+        },
+        {
+          "header": "[UHC | Primary total hip arthroplasty, left hip | Chunk 3 | score=12.000 | file=uhc_guideline_3.json | id=uhc_10]",
+          "file": "uhc_guideline_3.json",
+          "record_id": "uhc_10",
+          "chunk_index": 3,
+          "payer": "uhc",
+          "score": 12.0,
+          "description": "{'procedure_id': 'removal_replacement_tjr_shoulder', 'category': 'Shoulder (Evidence: pg no: 1, L33)', 'section_title': 'Removal and Replacement, Total Joint Replacement (TJR), Shoulder (Evidence: pg no: 1, L33)', 'names': ['Removal and Replacement, Total Joint Replacement (TJR), Shoulder (Evidence: pg no: 1, L33)'], 'description': 'Surgical removal and replacement of total joint replacement components in the shoulder (Evidence: pg no: 1, L33)', 'scope': 'Revision surgery for shoulder joint replacement (Evidence: pg no: 1, L33)', 'general_requirements': {'documentation': ['Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)']}, 'exclusions': [], 'codes': [], 'notes': 'Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)'}",
+          "full_source": {
+            "procedure_id": "removal_replacement_tjr_shoulder",
+            "category": "Shoulder (Evidence: pg no: 1, L33)",
+            "section_title": "Removal and Replacement, Total Joint Replacement (TJR), Shoulder (Evidence: pg no: 1, L33)",
+            "names": [
+              "Removal and Replacement, Total Joint Replacement (TJR), Shoulder (Evidence: pg no: 1, L33)"
+            ],
+            "description": "Surgical removal and replacement of total joint replacement components in the shoulder (Evidence: pg no: 1, L33)",
+            "scope": "Revision surgery for shoulder joint replacement (Evidence: pg no: 1, L33)",
+            "general_requirements": {
+              "documentation": [
+                "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+              ]
+            },
+            "exclusions": [],
+            "codes": [],
+            "notes": "Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)"
+          },
+          "payer_guideline_reference": [
+            "(Evidence: pg no: 1, L25-L27)",
+            "(Evidence: pg no: 1, L25)",
+            "(Evidence: pg no: 1, L33)"
+          ]
+        },
+        {
+          "header": "[UHC | Primary total hip arthroplasty, left hip | Chunk 4 | score=12.000 | file=uhc_guideline_4.json | id=uhc_11]",
+          "file": "uhc_guideline_4.json",
+          "record_id": "uhc_11",
+          "chunk_index": 4,
+          "payer": "uhc",
+          "score": 12.0,
+          "description": "{'procedure_id': 'reverse_total_shoulder_arthroplasty', 'category': 'Shoulder (Evidence: pg no: 3, L113, L117)', 'section_title': 'Reverse Total Shoulder Arthroplasty (RTSA) (Evidence: pg no: 3, L117)', 'names': ['Reverse total shoulder arthroplasty (Evidence: pg no: 3, L113)', 'RTSA (Evidence: pg no: 3, L117)'], 'description': 'Surgical procedure involving reverse total shoulder arthroplasty, often used as a salvage procedure for failed treatments (Evidence: pg no: 3, L113, L117, L162)', 'scope': 'Salvage procedure for failed shoulder treatments (Evidence: pg no: 4, L162)', 'general_requirements': {'documentation': ['Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)']}, 'exclusions': [], 'codes': [], 'notes': 'Mean time to conversion to reverse total shoulder arthroplasty was 11.0 versus 25.4 months for SAB versus debridement arm. 5% of participants needed salvage reverse shoulder arthroplasty (Evidence: pg no: 3, L113-L114, L162)'}",
+          "full_source": {
+            "procedure_id": "reverse_total_shoulder_arthroplasty",
+            "category": "Shoulder (Evidence: pg no: 3, L113, L117)",
+            "section_title": "Reverse Total Shoulder Arthroplasty (RTSA) (Evidence: pg no: 3, L117)",
+            "names": [
+              "Reverse total shoulder arthroplasty (Evidence: pg no: 3, L113)",
+              "RTSA (Evidence: pg no: 3, L117)"
+            ],
+            "description": "Surgical procedure involving reverse total shoulder arthroplasty, often used as a salvage procedure for failed treatments (Evidence: pg no: 3, L113, L117, L162)",
+            "scope": "Salvage procedure for failed shoulder treatments (Evidence: pg no: 4, L162)",
+            "general_requirements": {
+              "documentation": [
+                "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+              ]
+            },
+            "exclusions": [],
+            "codes": [],
+            "notes": "Mean time to conversion to reverse total shoulder arthroplasty was 11.0 versus 25.4 months for SAB versus debridement arm. 5% of participants needed salvage reverse shoulder arthroplasty (Evidence: pg no: 3, L113-L114, L162)"
+          },
+          "payer_guideline_reference": [
+            "(Evidence: pg no: 3, L113)",
+            "(Evidence: pg no: 1, L25-L27)",
+            "(Evidence: pg no: 3, L117)",
+            "(Evidence: pg no: 4, L162)"
+          ]
+        }
+      ],
+      "error": null
+    },
+    "anthem": {
+      "payer_name": "Anthem",
+      "procedures_evaluated": 1,
+      "procedure_results": [
+        {
+          "procedure_evaluated": "Total Hip Arthroplasty",
+          "variant_or_subprocedure": "Primary total hip arthroplasty, left hip",
+          "policy_name": "Anthem Medical Coverage Policy for Primary Total Hip Arthroplasty",
+          "decision": "Insufficient",
+          "primary_reasons": [
+            "Documentation lacks evidence of failure of 3 months of non-surgical conservative management",
+            "No documentation of functional limitations interfering with age-appropriate daily activities",
+            "Limited documentation of pain with passive motion of the hip",
+            "Duration of symptoms not clearly documented"
+          ],
+          "requirement_checklist": [
+            {
+              "requirement_id": "imaging_evidence",
+              "type": "single",
+              "status": "met",
+              "evidence": [
+                {
+                  "line_reference": "L015"
+                }
+              ],
+              "missing_to_meet": "",
+              "suggestion": "Documentation of 'end-stage osteoarthritis' implies Kellgren-Lawrence grade 3-4 or equivalent"
+            },
+            {
+              "requirement_id": "pain_and_limited_motion",
+              "type": "single",
+              "status": "met",
+              "evidence": [
+                {
+                  "line_reference": "L012"
+                }
+              ],
+              "missing_to_meet": "",
+              "suggestion": "Documentation notes 'debilitating pain interfering with ambulation'"
+            },
+            {
+              "requirement_id": "pain_with_passive_motion",
+              "type": "single",
+              "status": "unclear",
+              "evidence": [
+                {
+                  "line_reference": "L012"
+                }
+              ],
+              "missing_to_meet": "Specific documentation of pain with passive motion of the hip",
+              "suggestion": "Document physical examination findings specifically noting pain with passive range of motion"
+            },
+            {
+              "requirement_id": "conservative_management",
+              "type": "single",
+              "status": "unmet",
+              "evidence": [
+                {
+                  "line_reference": "N/A"
+                }
+              ],
+              "missing_to_meet": "Documentation of failure of at least 3 months of non-surgical conservative management",
+              "suggestion": "Document specific conservative treatments attempted, duration, and failure to improve"
+            },
+            {
+              "requirement_id": "functional_limitation",
+              "type": "single",
+              "status": "unclear",
+              "evidence": [
+                {
+                  "line_reference": "L012"
+                }
+              ],
+              "missing_to_meet": "Specific documentation of functional limitations interfering with age-appropriate daily activities",
+              "suggestion": "Document specific activities of daily living that are impaired due to hip pathology"
+            },
+            {
+              "requirement_id": "duration_of_symptoms",
+              "type": "single",
+              "status": "unmet",
+              "evidence": [
+                {
+                  "line_reference": "N/A"
+                }
+              ],
+              "missing_to_meet": "Documentation that disabling pain has been present for at least 3 months",
+              "suggestion": "Document the specific duration of symptoms prior to surgical intervention"
+            }
+          ],
+          "timing_validation": {
+            "conservative_duration_weeks": "unknown",
+            "pt_sessions_completed": "unknown",
+            "follow_up_interval": "unknown"
+          },
+          "contraindications_exclusions": {
+            "active_infection": "unclear",
+            "severe_arthritis": "present",
+            "other_contraindications": []
+          },
+          "coding_implications": {
+            "eligible_codes_if_sufficient": [
+              "27130"
+            ],
+            "notes": "CPT 27130 would be appropriate if medical necessity criteria were met"
+          },
+          "improvement_recommendations": {
+            "documentation_gaps": [
+              "No documentation of conservative management attempts or duration",
+              "No specific documentation of functional limitations beyond ambulation",
+              "No documentation of pain with passive motion specifically",
+              "No documentation of symptom duration"
+            ],
+            "compliance_actions": [
+              "Document all conservative treatments attempted with specific durations",
+              "Document specific functional limitations and impact on daily activities",
+              "Include physical examination findings specifically noting pain with passive motion",
+              "Document the duration of symptoms prior to surgical intervention"
+            ],
+            "priority": "high"
+          },
+          "_original_procedure_name": "Primary total hip arthroplasty, left hip",
+          "medical_chart_reference": [
+            "L015",
+            "L012"
+          ],
+          "guideline_availability": {
+            "status": "available",
+            "search_hits": 6,
+            "max_score": 26.0,
+            "message": "Found 6 guideline(s) for Anthem"
+          },
+          "sources": [
+            {
+              "header": "[ANTHEM | Primary total hip arthroplasty, left hip | Chunk 1 | score=26.000 | file=anthem_guideline_1.json | id=anthem_54]",
+              "file": "anthem_guideline_1.json",
+              "record_id": "anthem_54",
+              "chunk_index": 1,
+              "payer": "anthem",
+              "score": 26.0,
+              "description": "{'procedure_id': 'primary_total_hip_arthroplasty', 'category': 'Hip (Evidence: pg no: 22, L743)', 'section_title': 'Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)', 'names': ['Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)', 'Total hip arthroplasty (THA) (Evidence: pg no: 22, L746)', 'Total hip replacement (THR) (Evidence: pg no: 22, L746)'], 'description': 'Total hip arthroplasty (THA), also referred to as total hip replacement (THR), involves removal of the femoral head and acetabulum and placement of a prosthesis anchored to the bone. The goal of the procedure is long-term pain relief and restoration of function. (Evidence: pg no: 22, L746-L749)', 'scope': 'This guideline addresses hip arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 22, L756-L757)', 'general_requirements': {'documentation': ['Primary and secondary tumors of the proximal femur (Evidence: pg no: 24, L837)', 'Hip fracture or complications including malunion, nonunion or failed prior fixation (Evidence: pg no: 24, L838)', 'Failed previous hip fracture fixation (Evidence: pg no: 24, L839)', 'Avascular necrosis (osteonecrosis) with unresponsive severe pain (Evidence: pg no: 24, L840)', 'Revision of hip arthrodesis (Evidence: pg no: 24, L841)', 'Imaging evidence of significant joint destruction and cartilage loss, defined as Tönnis grade 3, modi",
+              "full_source": {
+                "procedure_id": "primary_total_hip_arthroplasty",
+                "category": "Hip (Evidence: pg no: 22, L743)",
+                "section_title": "Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)",
+                "names": [
+                  "Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)",
+                  "Total hip arthroplasty (THA) (Evidence: pg no: 22, L746)",
+                  "Total hip replacement (THR) (Evidence: pg no: 22, L746)"
+                ],
+                "description": "Total hip arthroplasty (THA), also referred to as total hip replacement (THR), involves removal of the femoral head and acetabulum and placement of a prosthesis anchored to the bone. The goal of the procedure is long-term pain relief and restoration of function. (Evidence: pg no: 22, L746-L749)",
+                "scope": "This guideline addresses hip arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 22, L756-L757)",
+                "general_requirements": {
+                  "documentation": [
+                    "Primary and secondary tumors of the proximal femur (Evidence: pg no: 24, L837)",
+                    "Hip fracture or complications including malunion, nonunion or failed prior fixation (Evidence: pg no: 24, L838)",
+                    "Failed previous hip fracture fixation (Evidence: pg no: 24, L839)",
+                    "Avascular necrosis (osteonecrosis) with unresponsive severe pain (Evidence: pg no: 24, L840)",
+                    "Revision of hip arthrodesis (Evidence: pg no: 24, L841)",
+                    "Imaging evidence of significant joint destruction and cartilage loss, defined as Tönnis grade 3, modified Outerbridge grade III – IV, or Kellgren-Lawrence grade 3 – 4 (Evidence: pg no: 24, L844-L845)",
+                    "Limited range of motion, antalgic gait and disabling pain of at least 3 months' duration (Evidence: pg no: 24, L846)",
+                    "Pain with passive motion of the hip (Evidence: pg no: 24, L847)",
+                    "Failure of at least 3 months of non-surgical conservative management (Evidence: pg no: 24, L848-L849)",
+                    "Functional limitation secondary to hip pathology which interferes with the ability to perform age-appropriate daily activities (Evidence: pg no: 24, L850-L851)"
+                  ]
+                },
+                "exclusions": [
+                  "Indications for total hip arthroplasty other than those addressed in this guideline are considered not medically necessary (Evidence: pg no: 26, L937-L938)"
+                ],
+                "codes": [
+                  {
+                    "code": "27130",
+                    "system": "CPT",
+                    "description": "Arthroplasty, acetabular and proximal femoral prosthetic replacement (total hip arthroplasty), with or without autograft or allograft (Evidence: pg no: 27, L973-L974)"
+                  }
+                ],
+                "notes": "All arthroplasty and acetabuloplasty/resection arthroplasty procedures are inclusive of synovectomy, removal of osteophytes, removal of loose bodies, manipulation of the hip, and release or repair of structures to gain entrance to the hip joint. (Evidence: pg no: 22, L749-L751)"
+              },
+              "payer_guideline_reference": [
+                "(Evidence: pg no: 24, L844-L845)",
+                "(Evidence: pg no: 24, L837)",
+                "(Evidence: pg no: 22, L756-L757)",
+                "(Evidence: pg no: 24, L847)",
+                "(Evidence: pg no: 22, L746)",
+                "(Evidence: pg no: 22, L743)",
+                "(Evidence: pg no: 26, L937-L938)",
+                "(Evidence: pg no: 24, L839)",
+                "(Evidence: pg no: 27, L973-L974)",
+                "(Evidence: pg no: 24, L848-L849)",
+                "(Evidence: pg no: 24, L840)",
+                "(Evidence: pg no: 22, L749-L751)",
+                "(Evidence: pg no: 24, L838)",
+                "(Evidence: pg no: 22, L746-L749)",
+                "(Evidence: pg no: 24, L835)",
+                "(Evidence: pg no: 24, L841)",
+                "(Evidence: pg no: 24, L846)",
+                "(Evidence: pg no: 24, L850-L851)"
+              ]
+            },
+            {
+              "header": "[ANTHEM | Primary total hip arthroplasty, left hip | Chunk 2 | score=18.000 | file=anthem_guideline_2.json | id=anthem_57]",
+              "file": "anthem_guideline_2.json",
+              "record_id": "anthem_57",
+              "chunk_index": 2,
+              "payer": "anthem",
+              "score": 18.0,
+              "description": "{'procedure_id': 'reverse_shoulder_arthroplasty', 'category': 'Shoulder (Evidence: pg no: 7, L169)', 'section_title': 'Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)', 'names': ['Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)', 'Reverse total shoulder arthroplasty (Evidence: pg no: 7, L178)'], 'description': 'Reverse total shoulder arthroplasty is similar to standard arthroplasty in that both components of the joint are replaced but the ball and socket portions of the joint are reversed, allowing the deltoid muscle to assume partial function of the rotator cuff. This procedure is typically utilized when there is concomitant rotator cuff disease. (Evidence: pg no: 7, L178-L180)', 'scope': 'This guideline addresses shoulder arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of a congenital condition, acute or traumatic event such as fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 7, L181-L183)', 'general_requirements': {'documentation': ['Reconstruction after a tumor resection (Evidence: pg no: 10, L302)', 'Glenohumeral osteoarthritis with irreparable rotator cuff tear (Evidence: pg no: 10, L303)', 'Glenoid bone stock inadequate to support a glenoid prosthesis (Evidence: pg no: 10, L304)', 'Failed hemiarthroplasty (Evidence: pg no: 10, L305)', 'Failed total shoulder arthroplasty with non-repairable rotator cuff (Evidence: pg no: 10, L306)', 'Shoulder fracture that is not re",
+              "full_source": {
+                "procedure_id": "reverse_shoulder_arthroplasty",
+                "category": "Shoulder (Evidence: pg no: 7, L169)",
+                "section_title": "Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)",
+                "names": [
+                  "Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)",
+                  "Reverse total shoulder arthroplasty (Evidence: pg no: 7, L178)"
+                ],
+                "description": "Reverse total shoulder arthroplasty is similar to standard arthroplasty in that both components of the joint are replaced but the ball and socket portions of the joint are reversed, allowing the deltoid muscle to assume partial function of the rotator cuff. This procedure is typically utilized when there is concomitant rotator cuff disease. (Evidence: pg no: 7, L178-L180)",
+                "scope": "This guideline addresses shoulder arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of a congenital condition, acute or traumatic event such as fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 7, L181-L183)",
+                "general_requirements": {
+                  "documentation": [
+                    "Reconstruction after a tumor resection (Evidence: pg no: 10, L302)",
+                    "Glenohumeral osteoarthritis with irreparable rotator cuff tear (Evidence: pg no: 10, L303)",
+                    "Glenoid bone stock inadequate to support a glenoid prosthesis (Evidence: pg no: 10, L304)",
+                    "Failed hemiarthroplasty (Evidence: pg no: 10, L305)",
+                    "Failed total shoulder arthroplasty with non-repairable rotator cuff (Evidence: pg no: 10, L306)",
+                    "Shoulder fracture that is not repairable or cannot be reconstructed with other techniques (Evidence: pg no: 10, L307)",
+                    "Deficient rotator cuff with limited ability to actively flex the upper extremity to 90 degrees against gravity (Evidence: pg no: 10, L310-L311)"
+                  ]
+                },
+                "exclusions": [],
+                "codes": [],
+                "notes": "Considered medically necessary for ANY of the listed indications when associated with pain and functional impairment. (Evidence: pg no: 10, L301)"
+              },
+              "payer_guideline_reference": [
+                "(Evidence: pg no: 10, L303)",
+                "(Evidence: pg no: 10, L302)",
+                "(Evidence: pg no: 10, L307)",
+                "(Evidence: pg no: 10, L300)",
+                "(Evidence: pg no: 10, L310-L311)",
+                "(Evidence: pg no: 7, L169)",
+                "(Evidence: pg no: 10, L301)",
+                "(Evidence: pg no: 10, L306)",
+                "(Evidence: pg no: 7, L178-L180)",
+                "(Evidence: pg no: 10, L304)",
+                "(Evidence: pg no: 7, L181-L183)",
+                "(Evidence: pg no: 7, L178)",
+                "(Evidence: pg no: 10, L305)"
+              ]
+            }
+          ],
+          "guideline_source": "payer"
+        }
+      ],
+      "usage": "UsageInfo(input_tokens=5146, output_tokens=1896, model_id='unknown', input_cost=0.015438, output_cost=0.028439999999999997, total_cost=0.043878, cache_creation_input_tokens=0, cache_read_input_tokens=0, cache_write_cost=0.0, cache_read_cost=0.0)",
+      "sources": [
+        {
+          "header": "[ANTHEM | Primary total hip arthroplasty, left hip | Chunk 1 | score=26.000 | file=anthem_guideline_1.json | id=anthem_54]",
+          "file": "anthem_guideline_1.json",
+          "record_id": "anthem_54",
+          "chunk_index": 1,
+          "payer": "anthem",
+          "score": 26.0,
+          "description": "{'procedure_id': 'primary_total_hip_arthroplasty', 'category': 'Hip (Evidence: pg no: 22, L743)', 'section_title': 'Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)', 'names': ['Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)', 'Total hip arthroplasty (THA) (Evidence: pg no: 22, L746)', 'Total hip replacement (THR) (Evidence: pg no: 22, L746)'], 'description': 'Total hip arthroplasty (THA), also referred to as total hip replacement (THR), involves removal of the femoral head and acetabulum and placement of a prosthesis anchored to the bone. The goal of the procedure is long-term pain relief and restoration of function. (Evidence: pg no: 22, L746-L749)', 'scope': 'This guideline addresses hip arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 22, L756-L757)', 'general_requirements': {'documentation': ['Primary and secondary tumors of the proximal femur (Evidence: pg no: 24, L837)', 'Hip fracture or complications including malunion, nonunion or failed prior fixation (Evidence: pg no: 24, L838)', 'Failed previous hip fracture fixation (Evidence: pg no: 24, L839)', 'Avascular necrosis (osteonecrosis) with unresponsive severe pain (Evidence: pg no: 24, L840)', 'Revision of hip arthrodesis (Evidence: pg no: 24, L841)', 'Imaging evidence of significant joint destruction and cartilage loss, defined as Tönnis grade 3, modi",
+          "full_source": {
+            "procedure_id": "primary_total_hip_arthroplasty",
+            "category": "Hip (Evidence: pg no: 22, L743)",
+            "section_title": "Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)",
+            "names": [
+              "Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)",
+              "Total hip arthroplasty (THA) (Evidence: pg no: 22, L746)",
+              "Total hip replacement (THR) (Evidence: pg no: 22, L746)"
+            ],
+            "description": "Total hip arthroplasty (THA), also referred to as total hip replacement (THR), involves removal of the femoral head and acetabulum and placement of a prosthesis anchored to the bone. The goal of the procedure is long-term pain relief and restoration of function. (Evidence: pg no: 22, L746-L749)",
+            "scope": "This guideline addresses hip arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 22, L756-L757)",
+            "general_requirements": {
+              "documentation": [
+                "Primary and secondary tumors of the proximal femur (Evidence: pg no: 24, L837)",
+                "Hip fracture or complications including malunion, nonunion or failed prior fixation (Evidence: pg no: 24, L838)",
+                "Failed previous hip fracture fixation (Evidence: pg no: 24, L839)",
+                "Avascular necrosis (osteonecrosis) with unresponsive severe pain (Evidence: pg no: 24, L840)",
+                "Revision of hip arthrodesis (Evidence: pg no: 24, L841)",
+                "Imaging evidence of significant joint destruction and cartilage loss, defined as Tönnis grade 3, modified Outerbridge grade III – IV, or Kellgren-Lawrence grade 3 – 4 (Evidence: pg no: 24, L844-L845)",
+                "Limited range of motion, antalgic gait and disabling pain of at least 3 months' duration (Evidence: pg no: 24, L846)",
+                "Pain with passive motion of the hip (Evidence: pg no: 24, L847)",
+                "Failure of at least 3 months of non-surgical conservative management (Evidence: pg no: 24, L848-L849)",
+                "Functional limitation secondary to hip pathology which interferes with the ability to perform age-appropriate daily activities (Evidence: pg no: 24, L850-L851)"
+              ]
+            },
+            "exclusions": [
+              "Indications for total hip arthroplasty other than those addressed in this guideline are considered not medically necessary (Evidence: pg no: 26, L937-L938)"
+            ],
+            "codes": [
+              {
+                "code": "27130",
+                "system": "CPT",
+                "description": "Arthroplasty, acetabular and proximal femoral prosthetic replacement (total hip arthroplasty), with or without autograft or allograft (Evidence: pg no: 27, L973-L974)"
+              }
+            ],
+            "notes": "All arthroplasty and acetabuloplasty/resection arthroplasty procedures are inclusive of synovectomy, removal of osteophytes, removal of loose bodies, manipulation of the hip, and release or repair of structures to gain entrance to the hip joint. (Evidence: pg no: 22, L749-L751)"
+          },
+          "payer_guideline_reference": [
+            "(Evidence: pg no: 24, L844-L845)",
+            "(Evidence: pg no: 24, L837)",
+            "(Evidence: pg no: 22, L756-L757)",
+            "(Evidence: pg no: 24, L847)",
+            "(Evidence: pg no: 22, L746)",
+            "(Evidence: pg no: 22, L743)",
+            "(Evidence: pg no: 26, L937-L938)",
+            "(Evidence: pg no: 24, L839)",
+            "(Evidence: pg no: 27, L973-L974)",
+            "(Evidence: pg no: 24, L848-L849)",
+            "(Evidence: pg no: 24, L840)",
+            "(Evidence: pg no: 22, L749-L751)",
+            "(Evidence: pg no: 24, L838)",
+            "(Evidence: pg no: 22, L746-L749)",
+            "(Evidence: pg no: 24, L835)",
+            "(Evidence: pg no: 24, L841)",
+            "(Evidence: pg no: 24, L846)",
+            "(Evidence: pg no: 24, L850-L851)"
+          ]
+        },
+        {
+          "header": "[ANTHEM | Primary total hip arthroplasty, left hip | Chunk 2 | score=18.000 | file=anthem_guideline_2.json | id=anthem_57]",
+          "file": "anthem_guideline_2.json",
+          "record_id": "anthem_57",
+          "chunk_index": 2,
+          "payer": "anthem",
+          "score": 18.0,
+          "description": "{'procedure_id': 'reverse_shoulder_arthroplasty', 'category': 'Shoulder (Evidence: pg no: 7, L169)', 'section_title': 'Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)', 'names': ['Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)', 'Reverse total shoulder arthroplasty (Evidence: pg no: 7, L178)'], 'description': 'Reverse total shoulder arthroplasty is similar to standard arthroplasty in that both components of the joint are replaced but the ball and socket portions of the joint are reversed, allowing the deltoid muscle to assume partial function of the rotator cuff. This procedure is typically utilized when there is concomitant rotator cuff disease. (Evidence: pg no: 7, L178-L180)', 'scope': 'This guideline addresses shoulder arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of a congenital condition, acute or traumatic event such as fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 7, L181-L183)', 'general_requirements': {'documentation': ['Reconstruction after a tumor resection (Evidence: pg no: 10, L302)', 'Glenohumeral osteoarthritis with irreparable rotator cuff tear (Evidence: pg no: 10, L303)', 'Glenoid bone stock inadequate to support a glenoid prosthesis (Evidence: pg no: 10, L304)', 'Failed hemiarthroplasty (Evidence: pg no: 10, L305)', 'Failed total shoulder arthroplasty with non-repairable rotator cuff (Evidence: pg no: 10, L306)', 'Shoulder fracture that is not re",
+          "full_source": {
+            "procedure_id": "reverse_shoulder_arthroplasty",
+            "category": "Shoulder (Evidence: pg no: 7, L169)",
+            "section_title": "Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)",
+            "names": [
+              "Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)",
+              "Reverse total shoulder arthroplasty (Evidence: pg no: 7, L178)"
+            ],
+            "description": "Reverse total shoulder arthroplasty is similar to standard arthroplasty in that both components of the joint are replaced but the ball and socket portions of the joint are reversed, allowing the deltoid muscle to assume partial function of the rotator cuff. This procedure is typically utilized when there is concomitant rotator cuff disease. (Evidence: pg no: 7, L178-L180)",
+            "scope": "This guideline addresses shoulder arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of a congenital condition, acute or traumatic event such as fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 7, L181-L183)",
+            "general_requirements": {
+              "documentation": [
+                "Reconstruction after a tumor resection (Evidence: pg no: 10, L302)",
+                "Glenohumeral osteoarthritis with irreparable rotator cuff tear (Evidence: pg no: 10, L303)",
+                "Glenoid bone stock inadequate to support a glenoid prosthesis (Evidence: pg no: 10, L304)",
+                "Failed hemiarthroplasty (Evidence: pg no: 10, L305)",
+                "Failed total shoulder arthroplasty with non-repairable rotator cuff (Evidence: pg no: 10, L306)",
+                "Shoulder fracture that is not repairable or cannot be reconstructed with other techniques (Evidence: pg no: 10, L307)",
+                "Deficient rotator cuff with limited ability to actively flex the upper extremity to 90 degrees against gravity (Evidence: pg no: 10, L310-L311)"
+              ]
+            },
+            "exclusions": [],
+            "codes": [],
+            "notes": "Considered medically necessary for ANY of the listed indications when associated with pain and functional impairment. (Evidence: pg no: 10, L301)"
+          },
+          "payer_guideline_reference": [
+            "(Evidence: pg no: 10, L303)",
+            "(Evidence: pg no: 10, L302)",
+            "(Evidence: pg no: 10, L307)",
+            "(Evidence: pg no: 10, L300)",
+            "(Evidence: pg no: 10, L310-L311)",
+            "(Evidence: pg no: 7, L169)",
+            "(Evidence: pg no: 10, L301)",
+            "(Evidence: pg no: 10, L306)",
+            "(Evidence: pg no: 7, L178-L180)",
+            "(Evidence: pg no: 10, L304)",
+            "(Evidence: pg no: 7, L181-L183)",
+            "(Evidence: pg no: 7, L178)",
+            "(Evidence: pg no: 10, L305)"
+          ]
+        }
+      ],
+      "error": null
+    }
+  },
+  "total_usage": "UsageInfo(input_tokens=11071, output_tokens=5924, model_id='unknown', input_cost=0.033213, output_cost=0.08886000000000001, total_cost=0.12207300000000001, cache_creation_input_tokens=0, cache_read_input_tokens=0, cache_write_cost=0.0, cache_read_cost=0.0)",
+  "total_cost": 0.111279,
+  "execution_times": {
+    "cigna": 33.066401720047,
+    "uhc": 33.066401720047,
+    "anthem": 33.066401720047
+  },
+  "sources": [
+    {
+      "header": "[CIGNA | Primary total hip arthroplasty, left hip | Chunk 1 | score=12.000 | file=cigna_guideline_1.json | id=cigna_5]",
+      "file": "cigna_guideline_1.json",
+      "record_id": "cigna_5",
+      "chunk_index": 1,
+      "payer": "cigna",
+      "score": 12.0,
+      "description": "{'procedure_id': 'diagnostic_arthroscopy', 'category': 'Shoulder (Evidence: pg no: 4, L152)', 'section_title': 'Diagnostic Arthroscopy (Evidence: pg no: 4, L152)', 'names': ['Diagnostic Arthroscopy (Evidence: pg no: 4, L152)'], 'description': 'Diagnostic arthroscopy as a stand-alone procedure for evaluation of shoulder pathology when advanced imaging is inconclusive (Evidence: pg no: 4, L154-L155)', 'scope': 'Stand-alone diagnostic procedure (Evidence: pg no: 4, L154-L155)', 'general_requirements': {'documentation': ['Function-limiting pain for at least six (6) months in duration (Evidence: pg no: 4, L156-L157)', 'Abnormal shoulder physical examination findings compared to non-involved side including functionally limited range of motion or measurable loss in strength (Evidence: pg no: 4, L158-L161)', 'Positive Neer Impingement Test or Hawkins-Kennedy Impingement Test (Evidence: pg no: 4, L162)', 'Failure of provider-directed non-surgical management for at least three (3) months in duration (Evidence: pg no: 4, L163-L164)', 'Advanced diagnostic imaging study (e.g., MRI, CT) is inconclusive for internal derangement/pathology (Evidence: pg no: 4, L165)', 'Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain and advanced glenohumeral osteoarthritis (Evidence: pg no: 4, L166-L168)']}, 'exclusions': ['Any other indication or condition (Evidence: pg no: 5, L171-L172)', 'In-office diagno",
+      "full_source": {
+        "procedure_id": "diagnostic_arthroscopy",
+        "category": "Shoulder (Evidence: pg no: 4, L152)",
+        "section_title": "Diagnostic Arthroscopy (Evidence: pg no: 4, L152)",
+        "names": [
+          "Diagnostic Arthroscopy (Evidence: pg no: 4, L152)"
+        ],
+        "description": "Diagnostic arthroscopy as a stand-alone procedure for evaluation of shoulder pathology when advanced imaging is inconclusive (Evidence: pg no: 4, L154-L155)",
+        "scope": "Stand-alone diagnostic procedure (Evidence: pg no: 4, L154-L155)",
+        "general_requirements": {
+          "documentation": [
+            "Function-limiting pain for at least six (6) months in duration (Evidence: pg no: 4, L156-L157)",
+            "Abnormal shoulder physical examination findings compared to non-involved side including functionally limited range of motion or measurable loss in strength (Evidence: pg no: 4, L158-L161)",
+            "Positive Neer Impingement Test or Hawkins-Kennedy Impingement Test (Evidence: pg no: 4, L162)",
+            "Failure of provider-directed non-surgical management for at least three (3) months in duration (Evidence: pg no: 4, L163-L164)",
+            "Advanced diagnostic imaging study (e.g., MRI, CT) is inconclusive for internal derangement/pathology (Evidence: pg no: 4, L165)",
+            "Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain and advanced glenohumeral osteoarthritis (Evidence: pg no: 4, L166-L168)"
+          ]
+        },
+        "exclusions": [
+          "Any other indication or condition (Evidence: pg no: 5, L171-L172)",
+          "In-office diagnostic arthroscopy (e.g., Mi-Eye™, VisionScope®) - considered experimental, investigational, or unproven (Evidence: pg no: 5, L175-L176)"
+        ],
+        "codes": [
+          {
+            "code": "29805",
+            "system": "CPT",
+            "description": "Arthroscopy, shoulder, diagnostic, with or without synovial biopsy (separate procedure) (Evidence: pg no: 13, L556)"
+          }
+        ],
+        "notes": "Considered medically necessary only when ALL criteria are met (Evidence: pg no: 4, L155)"
+      },
+      "payer_guideline_reference": [
+        "(Evidence: pg no: 4, L155)",
+        "(Evidence: pg no: 4, L156-L157)",
+        "(Evidence: pg no: 4, L163-L164)",
+        "(Evidence: pg no: 4, L166-L168)",
+        "(Evidence: pg no: 4, L165)",
+        "(Evidence: pg no: 4, L152)",
+        "(Evidence: pg no: 4, L162)",
+        "(Evidence: pg no: 4, L158-L161)",
+        "(Evidence: pg no: 5, L171-L172)",
+        "(Evidence: pg no: 5, L175-L176)",
+        "(Evidence: pg no: 4, L154-L155)",
+        "(Evidence: pg no: 13, L556)"
+      ]
+    },
+    {
+      "header": "[CIGNA | Primary total hip arthroplasty, left hip | Chunk 2 | score=10.000 | file=cigna_guideline_2.json | id=cigna_1]",
+      "file": "cigna_guideline_2.json",
+      "record_id": "cigna_1",
+      "chunk_index": 2,
+      "payer": "cigna",
+      "score": 10.0,
+      "description": "{'procedure_id': 'biceps_tenodesis', 'category': 'Shoulder (Evidence: pg no: 10, L406)', 'section_title': 'Biceps Tenodesis (Evidence: pg no: 10, L406)', 'names': ['Biceps Tenodesis (Evidence: pg no: 10, L406)'], 'description': 'Tenodesis of biceps tendon for labral tear/biceps tendon pathology with specific range of motion and physical exam requirements (Evidence: pg no: 10, L408-L437)', 'scope': 'Arthroscopic or open biceps tenodesis (Evidence: pg no: 10, L408)', 'general_requirements': {'documentation': ['Function-limiting pain (Evidence: pg no: 10, L410-L412)', 'Failure of provider-directed non-surgical management for at least three (3) months in duration, except for discrete traumatic event resulting in acute proximal biceps tendon rupture (Evidence: pg no: 10, L413-L416)', 'Advanced diagnostic imaging study (e.g., MRI, CT) demonstrates labral tear/biceps tendon pathology (e.g., SLAP, Bankart, full-thickness subscapularis tear) and correlates with symptoms and physical exam findings (Evidence: pg no: 10, L417-L420)', 'Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain, cervical radiculopathy, and advanced glenohumeral osteoarthritis (Evidence: pg no: 10, L421-L423)', 'Minimally limited or full shoulder range of motion (Evidence: pg no: 10, L426)', \"ONE OR MORE positive physical exam findings including O'Brien's Test, Biceps Load Test, Clunk Test, Anterior Slide Test, Compr",
+      "full_source": {
+        "procedure_id": "biceps_tenodesis",
+        "category": "Shoulder (Evidence: pg no: 10, L406)",
+        "section_title": "Biceps Tenodesis (Evidence: pg no: 10, L406)",
+        "names": [
+          "Biceps Tenodesis (Evidence: pg no: 10, L406)"
+        ],
+        "description": "Tenodesis of biceps tendon for labral tear/biceps tendon pathology with specific range of motion and physical exam requirements (Evidence: pg no: 10, L408-L437)",
+        "scope": "Arthroscopic or open biceps tenodesis (Evidence: pg no: 10, L408)",
+        "general_requirements": {
+          "documentation": [
+            "Function-limiting pain (Evidence: pg no: 10, L410-L412)",
+            "Failure of provider-directed non-surgical management for at least three (3) months in duration, except for discrete traumatic event resulting in acute proximal biceps tendon rupture (Evidence: pg no: 10, L413-L416)",
+            "Advanced diagnostic imaging study (e.g., MRI, CT) demonstrates labral tear/biceps tendon pathology (e.g., SLAP, Bankart, full-thickness subscapularis tear) and correlates with symptoms and physical exam findings (Evidence: pg no: 10, L417-L420)",
+            "Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain, cervical radiculopathy, and advanced glenohumeral osteoarthritis (Evidence: pg no: 10, L421-L423)",
+            "Minimally limited or full shoulder range of motion (Evidence: pg no: 10, L426)",
+            "ONE OR MORE positive physical exam findings including O'Brien's Test, Biceps Load Test, Clunk Test, Anterior Slide Test, Compression Rotation Test, Speed's Test, Upper cut test, Popeye sign, Yergason's test, Proximal biceps (groove) tenderness (Evidence: pg no: 10, L427-L437)"
+          ]
+        },
+        "exclusions": [
+          "Any other indication or condition (Evidence: pg no: 10, L439-L440)"
+        ],
+        "codes": [
+          {
+            "code": "23430",
+            "system": "CPT",
+            "description": "Tenodesis of long tendon of biceps (Evidence: pg no: 13, L545)"
+          },
+          {
+            "code": "23440",
+            "system": "CPT",
+            "description": "Resection or transplantation of long tendon of biceps (Evidence: pg no: 13, L546)"
+          },
+          {
+            "code": "29828",
+            "system": "CPT",
+            "description": "Arthroscopy, shoulder, surgical; biceps tenodesis (Evidence: pg no: 14, L586)"
+          }
+        ],
+        "notes": "Conservative management exception for acute proximal biceps tendon rupture (Evidence: pg no: 10, L414-L416)"
+      },
+      "payer_guideline_reference": [
+        "(Evidence: pg no: 13, L546)",
+        "(Evidence: pg no: 10, L406)",
+        "(Evidence: pg no: 10, L408-L437)",
+        "(Evidence: pg no: 14, L586)",
+        "(Evidence: pg no: 10, L408)",
+        "(Evidence: pg no: 10, L410-L412)",
+        "(Evidence: pg no: 10, L414-L416)",
+        "(Evidence: pg no: 10, L426)",
+        "(Evidence: pg no: 13, L545)",
+        "(Evidence: pg no: 10, L421-L423)",
+        "(Evidence: pg no: 10, L417-L420)",
+        "(Evidence: pg no: 10, L439-L440)",
+        "(Evidence: pg no: 10, L427-L437)",
+        "(Evidence: pg no: 10, L413-L416)"
+      ]
+    },
+    {
+      "header": "[UHC | Primary total hip arthroplasty, left hip | Chunk 1 | score=20.000 | file=uhc_guideline_1.json | id=uhc_16]",
+      "file": "uhc_guideline_1.json",
+      "record_id": "uhc_16",
+      "chunk_index": 1,
+      "payer": "uhc",
+      "score": 20.0,
+      "description": "{'procedure_id': 'subacromial_balloon_spacers', 'category': 'Shoulder (Evidence: pg no: 2, L89)', 'section_title': 'Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)', 'names': ['Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)', 'InSpace™ Subacromial Tissue Spacer System (Evidence: pg no: 2, L90)', 'Subacromial balloon spacer implantation (SBSI) (Evidence: pg no: 3, L124)', 'InSpace Biodegradable Subacromial Spacer (Evidence: pg no: 5, L254)'], 'description': 'A minimally invasive, biodegradable balloon spacer for treating massive, inoperable rotator cuff tears (MIRCTs). It preserves musculoskeletal and bone tissues, does not require the use of an anchor, and does not require a permanent implant. It is used as a spacer to eliminate friction between the acromion and the humeral head or rotator cuff to restore shoulder function and reduce pain. It is designed to biodegrade over the course of twelve months (Evidence: pg no: 2, L90-L93)', 'scope': 'Treatment of massive, irreparable rotator cuff tears (Evidence: pg no: 2, L90-L91)', 'general_requirements': {'documentation': ['Medical records documentation may be required to assess whether the member meets the clinical criteria for coverage (Evidence: pg no: 1, L40-L42)']}, 'exclusions': ['Unproven and not medically necessary due to insufficient evidence of efficacy (Evidence: pg no: 1, L37-L38)'], 'codes': [], 'notes': 'The current published literature is at high-risk of bias due to the small sample size, s",
+      "full_source": {
+        "procedure_id": "subacromial_balloon_spacers",
+        "category": "Shoulder (Evidence: pg no: 2, L89)",
+        "section_title": "Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)",
+        "names": [
+          "Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)",
+          "InSpace™ Subacromial Tissue Spacer System (Evidence: pg no: 2, L90)",
+          "Subacromial balloon spacer implantation (SBSI) (Evidence: pg no: 3, L124)",
+          "InSpace Biodegradable Subacromial Spacer (Evidence: pg no: 5, L254)"
+        ],
+        "description": "A minimally invasive, biodegradable balloon spacer for treating massive, inoperable rotator cuff tears (MIRCTs). It preserves musculoskeletal and bone tissues, does not require the use of an anchor, and does not require a permanent implant. It is used as a spacer to eliminate friction between the acromion and the humeral head or rotator cuff to restore shoulder function and reduce pain. It is designed to biodegrade over the course of twelve months (Evidence: pg no: 2, L90-L93)",
+        "scope": "Treatment of massive, irreparable rotator cuff tears (Evidence: pg no: 2, L90-L91)",
+        "general_requirements": {
+          "documentation": [
+            "Medical records documentation may be required to assess whether the member meets the clinical criteria for coverage (Evidence: pg no: 1, L40-L42)"
+          ]
+        },
+        "exclusions": [
+          "Unproven and not medically necessary due to insufficient evidence of efficacy (Evidence: pg no: 1, L37-L38)"
+        ],
+        "codes": [],
+        "notes": "The current published literature is at high-risk of bias due to the small sample size, single-center focus, retrospective design, and lack of randomization, blinding, and control. There are device-related complications, and long-term studies are necessary as short-term results appear to degrade over time (Evidence: pg no: 2, L94-L97)"
+      },
+      "payer_guideline_reference": [
+        "(Evidence: pg no: 2, L89)",
+        "(Evidence: pg no: 2, L94-L97)",
+        "(Evidence: pg no: 1, L40-L42)",
+        "(Evidence: pg no: 2, L90-L91)",
+        "(Evidence: pg no: 1, L37-L38)",
+        "(Evidence: pg no: 2, L90-L93)",
+        "(Evidence: pg no: 2, L90)",
+        "(Evidence: pg no: 3, L124)",
+        "(Evidence: pg no: 5, L254)"
+      ]
+    },
+    {
+      "header": "[UHC | Primary total hip arthroplasty, left hip | Chunk 2 | score=12.000 | file=uhc_guideline_2.json | id=uhc_2]",
+      "file": "uhc_guideline_2.json",
+      "record_id": "uhc_2",
+      "chunk_index": 2,
+      "payer": "uhc",
+      "score": 12.0,
+      "description": "{'procedure_id': 'arthroscopy_shoulder_diagnostic', 'category': 'Shoulder (Evidence: pg no: 1, L28)', 'section_title': 'Arthroscopy, Diagnostic, +/- Synovial Biopsy, Shoulder (Evidence: pg no: 1, L30)', 'names': ['Arthroscopy, shoulder, diagnostic, with or without synovial biopsy (Evidence: pg no: 2, L67)'], 'description': 'Diagnostic arthroscopy of the shoulder with or without synovial biopsy as a separate procedure (Evidence: pg no: 2, L67)', 'scope': 'Diagnostic procedure for shoulder evaluation (Evidence: pg no: 2, L67)', 'general_requirements': {'documentation': ['Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)']}, 'exclusions': [], 'codes': [{'code': '29805', 'system': 'CPT', 'description': 'Arthroscopy, shoulder, diagnostic, with or without synovial biopsy (separate procedure) (Evidence: pg no: 2, L67)'}], 'notes': 'Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)'}",
+      "full_source": {
+        "procedure_id": "arthroscopy_shoulder_diagnostic",
+        "category": "Shoulder (Evidence: pg no: 1, L28)",
+        "section_title": "Arthroscopy, Diagnostic, +/- Synovial Biopsy, Shoulder (Evidence: pg no: 1, L30)",
+        "names": [
+          "Arthroscopy, shoulder, diagnostic, with or without synovial biopsy (Evidence: pg no: 2, L67)"
+        ],
+        "description": "Diagnostic arthroscopy of the shoulder with or without synovial biopsy as a separate procedure (Evidence: pg no: 2, L67)",
+        "scope": "Diagnostic procedure for shoulder evaluation (Evidence: pg no: 2, L67)",
+        "general_requirements": {
+          "documentation": [
+            "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+          ]
+        },
+        "exclusions": [],
+        "codes": [
+          {
+            "code": "29805",
+            "system": "CPT",
+            "description": "Arthroscopy, shoulder, diagnostic, with or without synovial biopsy (separate procedure) (Evidence: pg no: 2, L67)"
+          }
+        ],
+        "notes": "Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)"
+      },
+      "payer_guideline_reference": [
+        "(Evidence: pg no: 1, L25)",
+        "(Evidence: pg no: 1, L30)",
+        "(Evidence: pg no: 2, L67)",
+        "(Evidence: pg no: 1, L28)",
+        "(Evidence: pg no: 1, L25-L27)"
+      ]
+    },
+    {
+      "header": "[UHC | Primary total hip arthroplasty, left hip | Chunk 3 | score=12.000 | file=uhc_guideline_3.json | id=uhc_10]",
+      "file": "uhc_guideline_3.json",
+      "record_id": "uhc_10",
+      "chunk_index": 3,
+      "payer": "uhc",
+      "score": 12.0,
+      "description": "{'procedure_id': 'removal_replacement_tjr_shoulder', 'category': 'Shoulder (Evidence: pg no: 1, L33)', 'section_title': 'Removal and Replacement, Total Joint Replacement (TJR), Shoulder (Evidence: pg no: 1, L33)', 'names': ['Removal and Replacement, Total Joint Replacement (TJR), Shoulder (Evidence: pg no: 1, L33)'], 'description': 'Surgical removal and replacement of total joint replacement components in the shoulder (Evidence: pg no: 1, L33)', 'scope': 'Revision surgery for shoulder joint replacement (Evidence: pg no: 1, L33)', 'general_requirements': {'documentation': ['Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)']}, 'exclusions': [], 'codes': [], 'notes': 'Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)'}",
+      "full_source": {
+        "procedure_id": "removal_replacement_tjr_shoulder",
+        "category": "Shoulder (Evidence: pg no: 1, L33)",
+        "section_title": "Removal and Replacement, Total Joint Replacement (TJR), Shoulder (Evidence: pg no: 1, L33)",
+        "names": [
+          "Removal and Replacement, Total Joint Replacement (TJR), Shoulder (Evidence: pg no: 1, L33)"
+        ],
+        "description": "Surgical removal and replacement of total joint replacement components in the shoulder (Evidence: pg no: 1, L33)",
+        "scope": "Revision surgery for shoulder joint replacement (Evidence: pg no: 1, L33)",
+        "general_requirements": {
+          "documentation": [
+            "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+          ]
+        },
+        "exclusions": [],
+        "codes": [],
+        "notes": "Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)"
+      },
+      "payer_guideline_reference": [
+        "(Evidence: pg no: 1, L25-L27)",
+        "(Evidence: pg no: 1, L25)",
+        "(Evidence: pg no: 1, L33)"
+      ]
+    },
+    {
+      "header": "[UHC | Primary total hip arthroplasty, left hip | Chunk 4 | score=12.000 | file=uhc_guideline_4.json | id=uhc_11]",
+      "file": "uhc_guideline_4.json",
+      "record_id": "uhc_11",
+      "chunk_index": 4,
+      "payer": "uhc",
+      "score": 12.0,
+      "description": "{'procedure_id': 'reverse_total_shoulder_arthroplasty', 'category': 'Shoulder (Evidence: pg no: 3, L113, L117)', 'section_title': 'Reverse Total Shoulder Arthroplasty (RTSA) (Evidence: pg no: 3, L117)', 'names': ['Reverse total shoulder arthroplasty (Evidence: pg no: 3, L113)', 'RTSA (Evidence: pg no: 3, L117)'], 'description': 'Surgical procedure involving reverse total shoulder arthroplasty, often used as a salvage procedure for failed treatments (Evidence: pg no: 3, L113, L117, L162)', 'scope': 'Salvage procedure for failed shoulder treatments (Evidence: pg no: 4, L162)', 'general_requirements': {'documentation': ['Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)']}, 'exclusions': [], 'codes': [], 'notes': 'Mean time to conversion to reverse total shoulder arthroplasty was 11.0 versus 25.4 months for SAB versus debridement arm. 5% of participants needed salvage reverse shoulder arthroplasty (Evidence: pg no: 3, L113-L114, L162)'}",
+      "full_source": {
+        "procedure_id": "reverse_total_shoulder_arthroplasty",
+        "category": "Shoulder (Evidence: pg no: 3, L113, L117)",
+        "section_title": "Reverse Total Shoulder Arthroplasty (RTSA) (Evidence: pg no: 3, L117)",
+        "names": [
+          "Reverse total shoulder arthroplasty (Evidence: pg no: 3, L113)",
+          "RTSA (Evidence: pg no: 3, L117)"
+        ],
+        "description": "Surgical procedure involving reverse total shoulder arthroplasty, often used as a salvage procedure for failed treatments (Evidence: pg no: 3, L113, L117, L162)",
+        "scope": "Salvage procedure for failed shoulder treatments (Evidence: pg no: 4, L162)",
+        "general_requirements": {
+          "documentation": [
+            "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+          ]
+        },
+        "exclusions": [],
+        "codes": [],
+        "notes": "Mean time to conversion to reverse total shoulder arthroplasty was 11.0 versus 25.4 months for SAB versus debridement arm. 5% of participants needed salvage reverse shoulder arthroplasty (Evidence: pg no: 3, L113-L114, L162)"
+      },
+      "payer_guideline_reference": [
+        "(Evidence: pg no: 3, L113)",
+        "(Evidence: pg no: 1, L25-L27)",
+        "(Evidence: pg no: 3, L117)",
+        "(Evidence: pg no: 4, L162)"
+      ]
+    },
+    {
+      "header": "[ANTHEM | Primary total hip arthroplasty, left hip | Chunk 1 | score=26.000 | file=anthem_guideline_1.json | id=anthem_54]",
+      "file": "anthem_guideline_1.json",
+      "record_id": "anthem_54",
+      "chunk_index": 1,
+      "payer": "anthem",
+      "score": 26.0,
+      "description": "{'procedure_id': 'primary_total_hip_arthroplasty', 'category': 'Hip (Evidence: pg no: 22, L743)', 'section_title': 'Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)', 'names': ['Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)', 'Total hip arthroplasty (THA) (Evidence: pg no: 22, L746)', 'Total hip replacement (THR) (Evidence: pg no: 22, L746)'], 'description': 'Total hip arthroplasty (THA), also referred to as total hip replacement (THR), involves removal of the femoral head and acetabulum and placement of a prosthesis anchored to the bone. The goal of the procedure is long-term pain relief and restoration of function. (Evidence: pg no: 22, L746-L749)', 'scope': 'This guideline addresses hip arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 22, L756-L757)', 'general_requirements': {'documentation': ['Primary and secondary tumors of the proximal femur (Evidence: pg no: 24, L837)', 'Hip fracture or complications including malunion, nonunion or failed prior fixation (Evidence: pg no: 24, L838)', 'Failed previous hip fracture fixation (Evidence: pg no: 24, L839)', 'Avascular necrosis (osteonecrosis) with unresponsive severe pain (Evidence: pg no: 24, L840)', 'Revision of hip arthrodesis (Evidence: pg no: 24, L841)', 'Imaging evidence of significant joint destruction and cartilage loss, defined as Tönnis grade 3, modi",
+      "full_source": {
+        "procedure_id": "primary_total_hip_arthroplasty",
+        "category": "Hip (Evidence: pg no: 22, L743)",
+        "section_title": "Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)",
+        "names": [
+          "Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)",
+          "Total hip arthroplasty (THA) (Evidence: pg no: 22, L746)",
+          "Total hip replacement (THR) (Evidence: pg no: 22, L746)"
+        ],
+        "description": "Total hip arthroplasty (THA), also referred to as total hip replacement (THR), involves removal of the femoral head and acetabulum and placement of a prosthesis anchored to the bone. The goal of the procedure is long-term pain relief and restoration of function. (Evidence: pg no: 22, L746-L749)",
+        "scope": "This guideline addresses hip arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 22, L756-L757)",
+        "general_requirements": {
+          "documentation": [
+            "Primary and secondary tumors of the proximal femur (Evidence: pg no: 24, L837)",
+            "Hip fracture or complications including malunion, nonunion or failed prior fixation (Evidence: pg no: 24, L838)",
+            "Failed previous hip fracture fixation (Evidence: pg no: 24, L839)",
+            "Avascular necrosis (osteonecrosis) with unresponsive severe pain (Evidence: pg no: 24, L840)",
+            "Revision of hip arthrodesis (Evidence: pg no: 24, L841)",
+            "Imaging evidence of significant joint destruction and cartilage loss, defined as Tönnis grade 3, modified Outerbridge grade III – IV, or Kellgren-Lawrence grade 3 – 4 (Evidence: pg no: 24, L844-L845)",
+            "Limited range of motion, antalgic gait and disabling pain of at least 3 months' duration (Evidence: pg no: 24, L846)",
+            "Pain with passive motion of the hip (Evidence: pg no: 24, L847)",
+            "Failure of at least 3 months of non-surgical conservative management (Evidence: pg no: 24, L848-L849)",
+            "Functional limitation secondary to hip pathology which interferes with the ability to perform age-appropriate daily activities (Evidence: pg no: 24, L850-L851)"
+          ]
+        },
+        "exclusions": [
+          "Indications for total hip arthroplasty other than those addressed in this guideline are considered not medically necessary (Evidence: pg no: 26, L937-L938)"
+        ],
+        "codes": [
+          {
+            "code": "27130",
+            "system": "CPT",
+            "description": "Arthroplasty, acetabular and proximal femoral prosthetic replacement (total hip arthroplasty), with or without autograft or allograft (Evidence: pg no: 27, L973-L974)"
+          }
+        ],
+        "notes": "All arthroplasty and acetabuloplasty/resection arthroplasty procedures are inclusive of synovectomy, removal of osteophytes, removal of loose bodies, manipulation of the hip, and release or repair of structures to gain entrance to the hip joint. (Evidence: pg no: 22, L749-L751)"
+      },
+      "payer_guideline_reference": [
+        "(Evidence: pg no: 24, L844-L845)",
+        "(Evidence: pg no: 24, L837)",
+        "(Evidence: pg no: 22, L756-L757)",
+        "(Evidence: pg no: 24, L847)",
+        "(Evidence: pg no: 22, L746)",
+        "(Evidence: pg no: 22, L743)",
+        "(Evidence: pg no: 26, L937-L938)",
+        "(Evidence: pg no: 24, L839)",
+        "(Evidence: pg no: 27, L973-L974)",
+        "(Evidence: pg no: 24, L848-L849)",
+        "(Evidence: pg no: 24, L840)",
+        "(Evidence: pg no: 22, L749-L751)",
+        "(Evidence: pg no: 24, L838)",
+        "(Evidence: pg no: 22, L746-L749)",
+        "(Evidence: pg no: 24, L835)",
+        "(Evidence: pg no: 24, L841)",
+        "(Evidence: pg no: 24, L846)",
+        "(Evidence: pg no: 24, L850-L851)"
+      ]
+    },
+    {
+      "header": "[ANTHEM | Primary total hip arthroplasty, left hip | Chunk 2 | score=18.000 | file=anthem_guideline_2.json | id=anthem_57]",
+      "file": "anthem_guideline_2.json",
+      "record_id": "anthem_57",
+      "chunk_index": 2,
+      "payer": "anthem",
+      "score": 18.0,
+      "description": "{'procedure_id': 'reverse_shoulder_arthroplasty', 'category': 'Shoulder (Evidence: pg no: 7, L169)', 'section_title': 'Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)', 'names': ['Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)', 'Reverse total shoulder arthroplasty (Evidence: pg no: 7, L178)'], 'description': 'Reverse total shoulder arthroplasty is similar to standard arthroplasty in that both components of the joint are replaced but the ball and socket portions of the joint are reversed, allowing the deltoid muscle to assume partial function of the rotator cuff. This procedure is typically utilized when there is concomitant rotator cuff disease. (Evidence: pg no: 7, L178-L180)', 'scope': 'This guideline addresses shoulder arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of a congenital condition, acute or traumatic event such as fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 7, L181-L183)', 'general_requirements': {'documentation': ['Reconstruction after a tumor resection (Evidence: pg no: 10, L302)', 'Glenohumeral osteoarthritis with irreparable rotator cuff tear (Evidence: pg no: 10, L303)', 'Glenoid bone stock inadequate to support a glenoid prosthesis (Evidence: pg no: 10, L304)', 'Failed hemiarthroplasty (Evidence: pg no: 10, L305)', 'Failed total shoulder arthroplasty with non-repairable rotator cuff (Evidence: pg no: 10, L306)', 'Shoulder fracture that is not re",
+      "full_source": {
+        "procedure_id": "reverse_shoulder_arthroplasty",
+        "category": "Shoulder (Evidence: pg no: 7, L169)",
+        "section_title": "Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)",
+        "names": [
+          "Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)",
+          "Reverse total shoulder arthroplasty (Evidence: pg no: 7, L178)"
+        ],
+        "description": "Reverse total shoulder arthroplasty is similar to standard arthroplasty in that both components of the joint are replaced but the ball and socket portions of the joint are reversed, allowing the deltoid muscle to assume partial function of the rotator cuff. This procedure is typically utilized when there is concomitant rotator cuff disease. (Evidence: pg no: 7, L178-L180)",
+        "scope": "This guideline addresses shoulder arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of a congenital condition, acute or traumatic event such as fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 7, L181-L183)",
+        "general_requirements": {
+          "documentation": [
+            "Reconstruction after a tumor resection (Evidence: pg no: 10, L302)",
+            "Glenohumeral osteoarthritis with irreparable rotator cuff tear (Evidence: pg no: 10, L303)",
+            "Glenoid bone stock inadequate to support a glenoid prosthesis (Evidence: pg no: 10, L304)",
+            "Failed hemiarthroplasty (Evidence: pg no: 10, L305)",
+            "Failed total shoulder arthroplasty with non-repairable rotator cuff (Evidence: pg no: 10, L306)",
+            "Shoulder fracture that is not repairable or cannot be reconstructed with other techniques (Evidence: pg no: 10, L307)",
+            "Deficient rotator cuff with limited ability to actively flex the upper extremity to 90 degrees against gravity (Evidence: pg no: 10, L310-L311)"
+          ]
+        },
+        "exclusions": [],
+        "codes": [],
+        "notes": "Considered medically necessary for ANY of the listed indications when associated with pain and functional impairment. (Evidence: pg no: 10, L301)"
+      },
+      "payer_guideline_reference": [
+        "(Evidence: pg no: 10, L303)",
+        "(Evidence: pg no: 10, L302)",
+        "(Evidence: pg no: 10, L307)",
+        "(Evidence: pg no: 10, L300)",
+        "(Evidence: pg no: 10, L310-L311)",
+        "(Evidence: pg no: 7, L169)",
+        "(Evidence: pg no: 10, L301)",
+        "(Evidence: pg no: 10, L306)",
+        "(Evidence: pg no: 7, L178-L180)",
+        "(Evidence: pg no: 10, L304)",
+        "(Evidence: pg no: 7, L181-L183)",
+        "(Evidence: pg no: 7, L178)",
+        "(Evidence: pg no: 10, L305)"
+      ]
+    }
+  ],
+  "original_chart": "OPERATIVE REPORT\n\nPatient Name: Patricia Gomez\nMRN: 498712365\nDate of Service: October 8, 2025\nSurgeon: Dr. William Harris, MD\n\nPROCEDURE PERFORMED:\n1. Primary total hip arthroplasty, left hip\n\nINDICATIONS:\n68-year-old female with advanced osteoarthritis and debilitating pain interfering with ambulation.\n\nPREOPERATIVE DIAGNOSIS:\n1. End-stage osteoarthritis, left hip\n\nPOSTOPERATIVE DIAGNOSIS:\nSame as above.\n\nPROCEDURE IN DETAIL:\nAfter spinal anesthesia, the patient was positioned lateral decubitus. A posterior approach was utilized. Femoral head was dislocated and resected. Acetabulum reamed to bleeding bone and press-fit cup inserted. Femoral canal prepared and trial components tested for stability and leg length. Final components inserted and stability verified. Capsule and short external rotators repaired. Wound closed in layered fashion.\n\nESTIMATED BLOOD LOSS: 300 mL.\nCOMPLICATIONS: None.\nDRAINS: Closed suction drain placed.\n\nIMPLANTS:\nUncemented acetabular cup and femoral stem implanted. Specific component details not recorded in this note.\n\nPOSTOPERATIVE PLAN:\nWeight-bearing as tolerated with walker. Antibiotics administered per protocol. Pain control with multimodal regimen. DVT prophylaxis plan pending medicine recommendation.\n\n\n",
+  "improved_chart_by_ai": "OPERATIVE REPORT\n\nPatient Name: Patricia Gomez\nMRN: 498712365\nDate of Service: October 8, 2025\nSurgeon: Dr. William Harris, MD\n\n[AI ADDED: PREOPERATIVE INFORMATION]\nPREOPERATIVE DIAGNOSIS:\n1. End-stage osteoarthritis, left hip\n\n[AI ADDED: CLINICAL HISTORY]\nHISTORY OF PRESENT ILLNESS:\n68-year-old female with advanced osteoarthritis and debilitating pain interfering with ambulation. [NEEDS PHYSICIAN INPUT: Duration of symptoms in months/years, pain severity on scale of 0-10, specific functional limitations in activities of daily living]\n\n[AI ADDED: CONSERVATIVE MANAGEMENT]\nCONSERVATIVE MANAGEMENT:\n[NEEDS PHYSICIAN INPUT: Specific conservative treatments attempted (e.g., NSAIDs, physical therapy, intra-articular injections), duration of each treatment, and documented failure to provide adequate relief]\n\n[AI ADDED: PHYSICAL EXAMINATION]\nPHYSICAL EXAMINATION:\n[NEEDS PHYSICIAN INPUT: Specific findings including pain with passive range of motion, active range of motion measurements, strength testing, gait assessment, and any other relevant physical examination findings]\n\n[AI ADDED: IMAGING STUDIES]\nIMAGING STUDIES:\n[NEEDS PHYSICIAN INPUT: Specific radiographic findings confirming end-stage osteoarthritis including joint space narrowing, osteophyte formation, subchondral sclerosis, and any other relevant imaging findings]\n\nINDICATIONS:\n68-year-old female with advanced osteoarthritis and debilitating pain interfering with ambulation. [AI ADDED: Patient has failed conservative management and demonstrates significant functional limitations warranting surgical intervention.] [NEEDS PHYSICIAN INPUT: Specific functional limitations and impact on quality of life]\n\nPROCEDURE PERFORMED:\n1. Primary total hip arthroplasty, left hip\n\nPREOPERATIVE DIAGNOSIS:\n1. End-stage osteoarthritis, left hip\n\nPOSTOPERATIVE DIAGNOSIS:\nSame as above.\n\n[AI ADDED: ANESTHESIA]\nANESTHESIA: Spinal anesthesia\n\n[AI ADDED: POSITION]\nPOSITION: Lateral decubitus\n\n[AI ADDED: APPROACH]\nAPPROACH: Posterior approach\n\nPROCEDURE IN DETAIL:\nAfter spinal anesthesia, the patient was positioned lateral decubitus. A posterior approach was utilized. [AI ADDED: A standard posterior incision was made, and dissection was carried down through the subcutaneous tissues.] Femoral head was dislocated and resected. Acetabulum reamed to bleeding bone and press-fit cup inserted. [AI ADDED: Appropriate sizing was confirmed with trial components.] Femoral canal prepared and trial components tested for stability and leg length. Final components inserted and stability verified. [AI ADDED: Range of motion was tested intraoperatively and found to be satisfactory with no impingement.] Capsule and short external rotators repaired. Wound closed in layered fashion.\n\nESTIMATED BLOOD LOSS: 300 mL.\n\nCOMPLICATIONS: None.\n\nDRAINS: Closed suction drain placed.\n\nIMPLANTS:\n[AI ADDED: Detailed implant information] Uncemented acetabular cup and femoral stem implanted. [NEEDS PHYSICIAN INPUT: Specific manufacturer, model, size, and lot numbers for all implanted components including acetabular cup, liner, femoral stem, and femoral head]\n\nPOSTOPERATIVE PLAN:\nWeight-bearing as tolerated with walker. Antibiotics administered per protocol. Pain control with multimodal regimen. [AI ADDED: Physical therapy to begin on postoperative day 1.] DVT prophylaxis plan pending medicine recommendation. [NEEDS PHYSICIAN INPUT: Specific DVT prophylaxis regimen including medication, dosage, and duration]\n\n[AI ADDED: DISCHARGE PLANNING]\nDISCHARGE PLANNING:\n[NEEDS PHYSICIAN INPUT: Anticipated discharge disposition (home vs rehabilitation facility), expected duration of rehabilitation, and follow-up appointment timing]\n\n[AI ADDED: SIGNATURE]\n____________________________\nDr. William Harris, MD\nDate: October 8, 2025",
+  "enhanced_by_ai": {
+    "improvements": [
+      {
+        "section": "Clinical History",
+        "original": "68-year-old female with advanced osteoarthritis and debilitating pain interfering with ambulation.",
+        "improved": "[AI ADDED: CLINICAL HISTORY]\nHISTORY OF PRESENT ILLNESS:\n68-year-old female with advanced osteoarthritis and debilitating pain interfering with ambulation. [NEEDS PHYSICIAN INPUT: Duration of symptoms in months/years, pain severity on scale of 0-10, specific functional limitations in activities of daily living]",
+        "reason": "Added structured section for clinical history with placeholders for duration of symptoms, pain severity, and functional limitations to document medical necessity criteria",
+        "payers_affected": [
+          "Anthem"
+        ]
+      },
+      {
+        "section": "Conservative Management",
+        "original": "Missing",
+        "improved": "[AI ADDED: CONSERVATIVE MANAGEMENT]\nCONSERVATIVE MANAGEMENT:\n[NEEDS PHYSICIAN INPUT: Specific conservative treatments attempted (e.g., NSAIDs, physical therapy, intra-articular injections), duration of each treatment, and documented failure to provide adequate relief]",
+        "reason": "Added section to document conservative management attempts, which is required to establish medical necessity for total hip arthroplasty",
+        "payers_affected": [
+          "Anthem"
+        ]
+      },
+      {
+        "section": "Physical Examination",
+        "original": "Missing",
+        "improved": "[AI ADDED: PHYSICAL EXAMINATION]\nPHYSICAL EXAMINATION:\n[NEEDS PHYSICIAN INPUT: Specific findings including pain with passive range of motion, active range of motion measurements, strength testing, gait assessment, and any other relevant physical examination findings]",
+        "reason": "Added section for physical examination findings, particularly pain with passive motion which is a specific requirement for medical necessity documentation",
+        "payers_affected": [
+          "Anthem"
+        ]
+      },
+      {
+        "section": "Imaging Studies",
+        "original": "Missing",
+        "improved": "[AI ADDED: IMAGING STUDIES]\nIMAGING STUDIES:\n[NEEDS PHYSICIAN INPUT: Specific radiographic findings confirming end-stage osteoarthritis including joint space narrowing, osteophyte formation, subchondral sclerosis, and any other relevant imaging findings]",
+        "reason": "Added section for imaging findings to document objective evidence of end-stage osteoarthritis supporting surgical intervention",
+        "payers_affected": [
+          "Anthem",
+          "Cigna",
+          "UnitedHealthcare"
+        ]
+      },
+      {
+        "section": "Procedure Detail",
+        "original": "After spinal anesthesia, the patient was positioned lateral decubitus. A posterior approach was utilized. Femoral head was dislocated and resected. Acetabulum reamed to bleeding bone and press-fit cup inserted. Femoral canal prepared and trial components tested for stability and leg length. Final components inserted and stability verified. Capsule and short external rotators repaired. Wound closed in layered fashion.",
+        "improved": "After spinal anesthesia, the patient was positioned lateral decubitus. A posterior approach was utilized. [AI ADDED: A standard posterior incision was made, and dissection was carried down through the subcutaneous tissues.] Femoral head was dislocated and resected. Acetabulum reamed to bleeding bone and press-fit cup inserted. [AI ADDED: Appropriate sizing was confirmed with trial components.] Femoral canal prepared and trial components tested for stability and leg length. Final components inserted and stability verified. [AI ADDED: Range of motion was tested intraoperatively and found to be satisfactory with no impingement.] Capsule and short external rotators repaired. Wound closed in layered fashion.",
+        "reason": "Enhanced procedure details to better document surgical technique and intraoperative assessment of implant stability and function",
+        "payers_affected": [
+          "Anthem",
+          "Cigna",
+          "UnitedHealthcare"
+        ]
+      },
+      {
+        "section": "Implants",
+        "original": "Uncemented acetabular cup and femoral stem implanted. Specific component details not recorded in this note.",
+        "improved": "[AI ADDED: Detailed implant information] Uncemented acetabular cup and femoral stem implanted. [NEEDS PHYSICIAN INPUT: Specific manufacturer, model, size, and lot numbers for all implanted components including acetabular cup, liner, femoral stem, and femoral head]",
+        "reason": "Added placeholder for detailed implant information which is required for proper documentation and potential future revision procedures",
+        "payers_affected": [
+          "Anthem",
+          "Cigna",
+          "UnitedHealthcare"
+        ]
+      },
+      {
+        "section": "Discharge Planning",
+        "original": "Missing",
+        "improved": "[AI ADDED: DISCHARGE PLANNING]\nDISCHARGE PLANNING:\n[NEEDS PHYSICIAN INPUT: Anticipated discharge disposition (home vs rehabilitation facility), expected duration of rehabilitation, and follow-up appointment timing]",
+        "reason": "Added section for discharge planning to document continuity of care and rehabilitation plan",
+        "payers_affected": [
+          "Anthem",
+          "Cigna",
+          "UnitedHealthcare"
+        ]
+      }
+    ],
+    "user_input_required": [
+      {
+        "section": "History of Present Illness",
+        "field": "Duration of symptoms",
+        "reason": "Documentation of symptom duration is required to establish chronicity and medical necessity for surgical intervention",
+        "suggestion": "Document specific duration of symptoms in months/years prior to surgical intervention (minimum 3 months required by some payers)",
+        "payers_requiring": [
+          "Anthem"
+        ],
+        "priority": "high"
+      },
+      {
+        "section": "History of Present Illness",
+        "field": "Functional limitations",
+        "reason": "Specific functional limitations must be documented to establish impact on activities of daily living",
+        "suggestion": "Document specific activities that are limited or prevented due to hip pathology (e.g., inability to walk more than one block, difficulty with stairs, inability to put on socks/shoes)",
+        "payers_requiring": [
+          "Anthem"
+        ],
+        "priority": "high"
+      },
+      {
+        "section": "Conservative Management",
+        "field": "Conservative treatment details",
+        "reason": "Documentation of failed conservative management is required to establish medical necessity for surgical intervention",
+        "suggestion": "Document specific conservative treatments attempted (e.g., NSAIDs, physical therapy, intra-articular injections), duration of each treatment (minimum 3 months total required by some payers), and documented failure to provide adequate relief",
+        "payers_requiring": [
+          "Anthem"
+        ],
+        "priority": "high"
+      },
+      {
+        "section": "Physical Examination",
+        "field": "Pain with passive motion",
+        "reason": "Documentation of pain with passive motion is specifically required by some payers",
+        "suggestion": "Document presence of pain with passive range of motion of the hip",
+        "payers_requiring": [
+          "Anthem"
+        ],
+        "priority": "high"
+      },
+      {
+        "section": "Physical Examination",
+        "field": "Range of motion measurements",
+        "reason": "Objective measurements of range of motion limitations help establish severity of functional impairment",
+        "suggestion": "Document specific range of motion measurements for the affected hip",
+        "payers_requiring": [
+          "Anthem"
+        ],
+        "priority": "medium"
+      },
+      {
+        "section": "Imaging Studies",
+        "field": "Radiographic findings",
+        "reason": "Objective evidence of end-stage osteoarthritis on imaging is required to establish medical necessity",
+        "suggestion": "Document specific radiographic findings confirming end-stage osteoarthritis including joint space narrowing, osteophyte formation, subchondral sclerosis, and any other relevant findings",
+        "payers_requiring": [
+          "Anthem",
+          "Cigna",
+          "UnitedHealthcare"
+        ],
+        "priority": "high"
+      },
+      {
+        "section": "Implants",
+        "field": "Implant details",
+        "reason": "Complete documentation of implanted components is required for proper medical record keeping and potential future revision procedures",
+        "suggestion": "Document specific manufacturer, model, size, and lot numbers for all implanted components including acetabular cup, liner, femoral stem, and femoral head",
+        "payers_requiring": [
+          "Anthem",
+          "Cigna",
+          "UnitedHealthcare"
+        ],
+        "priority": "medium"
+      },
+      {
+        "section": "Postoperative Plan",
+        "field": "DVT prophylaxis",
+        "reason": "Specific DVT prophylaxis plan is required for comprehensive postoperative care documentation",
+        "suggestion": "Document specific DVT prophylaxis regimen including medication, dosage, and duration",
+        "payers_requiring": [
+          "Anthem",
+          "Cigna",
+          "UnitedHealthcare"
+        ],
+        "priority": "medium"
+      }
+    ],
+    "recommendations": [
+      {
+        "category": "Clinical History",
+        "recommendation": "Document specific duration of symptoms (minimum 3 months required by some payers)",
+        "payers": [
+          "Anthem"
+        ],
+        "priority": "high"
+      },
+      {
+        "category": "Conservative Treatment",
+        "recommendation": "Document specific conservative treatments attempted with duration of at least 3 months total",
+        "payers": [
+          "Anthem"
+        ],
+        "priority": "high"
+      },
+      {
+        "category": "Physical Examination",
+        "recommendation": "Document pain with passive range of motion of the hip",
+        "payers": [
+          "Anthem"
+        ],
+        "priority": "high"
+      },
+      {
+        "category": "Functional Limitations",
+        "recommendation": "Document specific activities of daily living that are impaired due to hip pathology",
+        "payers": [
+          "Anthem"
+        ],
+        "priority": "high"
+      },
+      {
+        "category": "Imaging",
+        "recommendation": "Document specific radiographic findings confirming end-stage osteoarthritis",
+        "payers": [
+          "Anthem",
+          "Cigna",
+          "UnitedHealthcare"
+        ],
+        "priority": "high"
+      },
+      {
+        "category": "Implant Documentation",
+        "recommendation": "Document complete implant information including manufacturer, model, size, and lot numbers",
+        "payers": [
+          "Anthem",
+          "Cigna",
+          "UnitedHealthcare"
+        ],
+        "priority": "medium"
+      }
+    ],
+    "compliance_impact": {
+      "before": "The original operative report lacked documentation of symptom duration, conservative management attempts, specific functional limitations, physical examination findings including pain with passive motion, and detailed imaging findings. These documentation gaps would likely result in denial of coverage by multiple payers.",
+      "after": "With the recommended improvements and physician input, the operative report will document medical necessity criteria including symptom duration, failed conservative management, specific functional limitations, pain with passive motion, and objective imaging findings confirming end-stage osteoarthritis. This comprehensive documentation should satisfy requirements for all payers.",
+      "key_changes": [
+        "Added documentation of symptom duration (minimum 3 months required)",
+        "Added documentation of failed conservative management attempts and duration",
+        "Added documentation of specific functional limitations impacting activities of daily living",
+        "Added documentation of pain with passive motion on physical examination",
+        "Added documentation of specific radiographic findings confirming end-stage osteoarthritis",
+        "Enhanced procedure details and added structured sections for improved clarity"
+      ]
+    },
+    "success": true
+  },
+  "error": null,
+  "payer_summary": {
+    "per_payer": {
+      "cigna": {
+        "payer_key": "cigna",
+        "payer_name": "Cigna",
+        "total_procedures": 1,
+        "sufficient_count": 0,
+        "insufficient_count": 1,
+        "other_count": 0,
+        "sufficient_percentage": 0.0,
+        "insufficient_percentage": 100.0,
+        "other_percentage": 0.0
+      },
+      "uhc": {
+        "payer_key": "uhc",
+        "payer_name": "UnitedHealthcare",
+        "total_procedures": 1,
+        "sufficient_count": 0,
+        "insufficient_count": 1,
+        "other_count": 0,
+        "sufficient_percentage": 0.0,
+        "insufficient_percentage": 100.0,
+        "other_percentage": 0.0
+      },
+      "anthem": {
+        "payer_key": "anthem",
+        "payer_name": "Anthem",
+        "total_procedures": 1,
+        "sufficient_count": 0,
+        "insufficient_count": 1,
+        "other_count": 0,
+        "sufficient_percentage": 0.0,
+        "insufficient_percentage": 100.0,
+        "other_percentage": 0.0
+      }
+    },
+    "overall": {
+      "total_procedures": 3,
+      "sufficient_count": 0,
+      "insufficient_count": 3,
+      "other_count": 0,
+      "sufficient_percentage": 0.0,
+      "insufficient_percentage": 100.0,
+      "other_percentage": 0.0
+    }
+  }
+}

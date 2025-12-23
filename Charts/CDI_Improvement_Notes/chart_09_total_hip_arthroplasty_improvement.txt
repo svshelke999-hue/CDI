@@ -1,0 +1,20 @@
+CHART: chart_09_total_hip_arthroplasty.txt
+
+PRIMARY CDI FOCUS:
+- Detail implant specifications and alignment metrics.
+- Clarify perioperative management plans.
+
+RECOMMENDED IMPROVEMENTS:
+1. Implant Specifics: Record cup size, liner type, femoral stem size/offset, head diameter, and bearing surface material.
+2. Alignment Data: Document cup abduction and anteversion angles plus leg length/offset restoration measurements.
+3. Blood Loss & Transfusion: Provide precise EBL, cell saver usage, and transfusion status.
+4. DVT Prophylaxis: State chosen regimen (medication, duration, mechanical devices) instead of "pending."
+5. Comorbidities & Risk: Mention BMI, diabetes, cardiovascular history, or other factors influencing outcomes.
+6. Pathology/Cultures: Note whether femoral head sent for pathology or cultures.
+7. Postoperative Course: Outline weight-bearing orders, hip precautions, and rehab timeline.
+
+CODING IMPACT:
+- Supports CPT 27130 and assists with DRG assignment by confirming implant type and perioperative planning.
+- Detailed prophylaxis documentation helps meet quality program requirements.
+
+

@@ -1,0 +1,40 @@
+{
+  "procedure_id": "biceps_tenodesis_tenotomy",
+  "category": "Shoulder (Evidence: pg no: 12, L368)",
+  "section_title": "Biceps tenodesis or tenotomy (Evidence: pg no: 19, L637)",
+  "names": [
+    "Biceps tenodesis (Evidence: pg no: 19, L637)",
+    "Biceps tenotomy (Evidence: pg no: 19, L637)",
+    "Tenodesis of long tendon of biceps (Evidence: pg no: 20, L711)"
+  ],
+  "description": "Biceps tenodesis or tenotomy is considered medically necessary for shoulder pain when EITHER of the following criteria are met. (Evidence: pg no: 19, L637-L638)",
+  "scope": "This guideline addresses shoulder arthroscopy and open procedures when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture. (Evidence: pg no: 12, L373-L374)",
+  "general_requirements": {
+    "documentation": [
+      "Criteria for SLAP tear (Evidence: pg no: 19, L639)",
+      "Pain in the front of the shoulder and/or clicking, popping, or catching sensation when using the arm and shoulder (Evidence: pg no: 19, L641-L642)",
+      "Clinical exam is consistent with long head of biceps pathology (Evidence: pg no: 19, L643-L645)",
+      "MRI findings consistent with biceps tendinopathy (Evidence: pg no: 19, L646)",
+      "Failure of at least 12 weeks of supervised conservative management (Evidence: pg no: 19, L647-L648)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "23430",
+      "system": "CPT",
+      "description": "Tenodesis of long tendon of biceps (Evidence: pg no: 20, L711)"
+    },
+    {
+      "code": "23440",
+      "system": "CPT",
+      "description": "Resection or transplantation of long tendon of biceps (Evidence: pg no: 20, L712)"
+    },
+    {
+      "code": "29828",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; biceps tenodesis (Evidence: pg no: 21, L741)"
+    }
+  ],
+  "notes": "For tendinopathy of the long head of the biceps. Requirement is waived if criteria for rotator cuff tear are met. (Evidence: pg no: 19, L636, L648)"
+}

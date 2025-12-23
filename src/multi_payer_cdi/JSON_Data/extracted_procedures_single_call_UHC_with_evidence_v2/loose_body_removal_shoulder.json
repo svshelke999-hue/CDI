@@ -1,0 +1,24 @@
+{
+  "procedure_id": "loose_body_removal_shoulder",
+  "category": "Shoulder (Evidence: pg no: 2, L70)",
+  "section_title": "Loose Body or Foreign Body Removal (Evidence: pg no: 2, L70)",
+  "names": [
+    "Removal of loose body or foreign body (Evidence: pg no: 2, L70)"
+  ],
+  "description": "Arthroscopic surgical removal of loose body or foreign body from the shoulder (Evidence: pg no: 2, L70)",
+  "scope": "Surgical removal of loose or foreign bodies via arthroscopic approach (Evidence: pg no: 2, L70)",
+  "general_requirements": {
+    "documentation": [
+      "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "29819",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; with removal of loose body or foreign body (Evidence: pg no: 2, L70)"
+    }
+  ],
+  "notes": "Part of arthroscopic shoulder surgery procedures (Evidence: pg no: 2, L70)"
+}

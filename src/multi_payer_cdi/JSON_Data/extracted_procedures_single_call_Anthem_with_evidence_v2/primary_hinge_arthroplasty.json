@@ -1,0 +1,24 @@
+{
+  "procedure_id": "primary_hinge_arthroplasty",
+  "category": "Knee (Evidence: pg no: 2, L73)",
+  "section_title": "Primary Hinge Arthroplasty (Evidence: pg no: 5, L226)",
+  "names": [
+    "Primary hinge arthroplasty (Evidence: pg no: 5, L226)"
+  ],
+  "description": "Primary hinge arthroplasty for specific conditions (Evidence: pg no: 5, L227)",
+  "scope": "Knee arthroplasty with hinge prosthesis (Evidence: pg no: 5, L226-L234)",
+  "general_requirements": {
+    "documentation": [
+      "ONE of the following criteria: Global ligament instability, Severe bone loss or deformity, Absence or deficit of muscular control, Tumoral surgery, Congenital dislocation of knee, or Ankylosis with severe instability after surgical exposition (Evidence: pg no: 5, L228-L234)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "27445",
+      "system": "CPT",
+      "description": "Arthroplasty, knee, hinge prosthesis (eg, Walldius type) (Evidence: pg no: 7, L300)"
+    }
+  ],
+  "notes": ""
+}

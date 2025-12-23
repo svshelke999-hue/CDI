@@ -1,0 +1,21 @@
+{
+  "procedure_id": "hip_labral_tear_treatment",
+  "category": "Hip (Evidence: pg no: 28, L981)",
+  "section_title": "Labral tear (Evidence: pg no: 31, L1136)",
+  "names": [
+    "Labral tear (Evidence: pg no: 31, L1136)",
+    "Hip arthroscopy for treatment of labral tear (Evidence: pg no: 31, L1137)"
+  ],
+  "description": "Hip arthroscopy is considered medically necessary for treatment of labral tear when ALL of the following criteria are met. (Evidence: pg no: 31, L1137-L1138)",
+  "scope": "This guideline addresses hip arthroscopy when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture. (Evidence: pg no: 28, L993-L994)",
+  "general_requirements": {
+    "documentation": [
+      "Moderate to severe hip pain (primarily in the groin) worsened by flexion activities (e.g., squatting or prolonged sitting) that interferes with activities of daily living, which is not explained by another diagnosis (Evidence: pg no: 31, L1139-L1140)",
+      "Positive impingement sign on clinical examination, defined as pain elicited with 90 degrees of flexion and internal rotation and adduction of the femur, or extension and external rotation (Evidence: pg no: 31, L1141-L1142)",
+      "MRI report that defines or suggests a labral tear (Evidence: pg no: 31, L1143)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [],
+  "notes": ""
+}

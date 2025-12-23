@@ -1,0 +1,19 @@
+{
+  "procedure_id": "reverse_total_shoulder_arthroplasty",
+  "category": "Shoulder (Evidence: pg no: 3, L113, L117)",
+  "section_title": "Reverse Total Shoulder Arthroplasty (RTSA) (Evidence: pg no: 3, L117)",
+  "names": [
+    "Reverse total shoulder arthroplasty (Evidence: pg no: 3, L113)",
+    "RTSA (Evidence: pg no: 3, L117)"
+  ],
+  "description": "Surgical procedure involving reverse total shoulder arthroplasty, often used as a salvage procedure for failed treatments (Evidence: pg no: 3, L113, L117, L162)",
+  "scope": "Salvage procedure for failed shoulder treatments (Evidence: pg no: 4, L162)",
+  "general_requirements": {
+    "documentation": [
+      "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [],
+  "notes": "Mean time to conversion to reverse total shoulder arthroplasty was 11.0 versus 25.4 months for SAB versus debridement arm. 5% of participants needed salvage reverse shoulder arthroplasty (Evidence: pg no: 3, L113-L114, L162)"
+}

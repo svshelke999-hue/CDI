@@ -1,0 +1,30 @@
+{
+  "procedure_id": "total_knee_arthroplasty",
+  "category": "Knee (Evidence: pg no: 2, L73)",
+  "section_title": "Total Knee Arthroplasty (Evidence: pg no: 3, L166)",
+  "names": [
+    "Total knee arthroplasty (Evidence: pg no: 2, L80)",
+    "TKA (Evidence: pg no: 2, L80)"
+  ],
+  "description": "Knee arthroplasty involves removal of some or all of the diseased articular surfaces of the knee, followed by resurfacing with metal and polyethylene prosthetic components (Evidence: pg no: 2, L76-L78)",
+  "scope": "Elective, non-emergent procedures not as part of care of congenital condition or acute traumatic event (Evidence: pg no: 2, L81-L83)",
+  "general_requirements": {
+    "documentation": [
+      "Clinical notes describing symptom duration and severity, specific functional limitations (Evidence: pg no: 2, L97-L98)",
+      "Conservative management must include physical therapy AND at least ONE complementary conservative treatment strategy (Evidence: pg no: 3, L100-L102)",
+      "Imaging reports obtained within past 12 months describing degree of cartilage damage (Evidence: pg no: 3, L138-L139)",
+      "Imaging evidence of significant joint destruction and cartilage loss, defined as modified Outerbridge grade III-IV or Kellgren-Lawrence grade 3-4 (Evidence: pg no: 4, L173-L174)",
+      "Failure of at least 3 months of non-surgical conservative management (unless radiographs show Kellgren-Lawrence grade 4) (Evidence: pg no: 4, L175-L176)",
+      "Functional limitation secondary to knee pathology which interferes with ability to perform age-appropriate daily activities (Evidence: pg no: 4, L177-L178)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "27447",
+      "system": "CPT",
+      "description": "Arthroplasty, knee, condyle and plateau; medial AND lateral compartments with or without patella resurfacing (total knee arthroplasty) (Evidence: pg no: 7, L302-L303)"
+    }
+  ],
+  "notes": "Considered medically necessary for post-traumatic arthritis, primary or metastatic tumor with limb salvage surgery, or joint damage due to osteoarthritis, inflammatory disease, avascular necrosis, or other chronic conditions (Evidence: pg no: 4, L168-L172)"
+}

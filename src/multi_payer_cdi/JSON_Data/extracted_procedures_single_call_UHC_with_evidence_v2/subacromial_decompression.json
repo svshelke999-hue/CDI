@@ -1,0 +1,24 @@
+{
+  "procedure_id": "subacromial_decompression",
+  "category": "Shoulder (Evidence: pg no: 2, L82-L83)",
+  "section_title": "Subacromial Decompression with Acromioplasty (Evidence: pg no: 2, L82-L83)",
+  "names": [
+    "Decompression of subacromial space with partial acromioplasty (Evidence: pg no: 2, L82-L83)"
+  ],
+  "description": "Arthroscopic surgical decompression of subacromial space with partial acromioplasty, with coracoacromial ligament (arch) release, when performed (Evidence: pg no: 2, L82-L83)",
+  "scope": "Surgical decompression of subacromial space via arthroscopic approach (Evidence: pg no: 2, L82-L83)",
+  "general_requirements": {
+    "documentation": [
+      "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "29826",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; decompression of subacromial space with partial acromioplasty, with coracoacromial ligament (i.e., arch) release, when performed (Evidence: pg no: 2, L82-L83)"
+    }
+  ],
+  "notes": "Listed separately in addition to code for primary procedure (Evidence: pg no: 2, L82-L83)"
+}

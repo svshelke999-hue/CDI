@@ -1,0 +1,37 @@
+{
+  "procedure_id": "primary_total_hip_arthroplasty",
+  "category": "Hip (Evidence: pg no: 22, L743)",
+  "section_title": "Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)",
+  "names": [
+    "Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)",
+    "Total hip arthroplasty (THA) (Evidence: pg no: 22, L746)",
+    "Total hip replacement (THR) (Evidence: pg no: 22, L746)"
+  ],
+  "description": "Total hip arthroplasty (THA), also referred to as total hip replacement (THR), involves removal of the femoral head and acetabulum and placement of a prosthesis anchored to the bone. The goal of the procedure is long-term pain relief and restoration of function. (Evidence: pg no: 22, L746-L749)",
+  "scope": "This guideline addresses hip arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 22, L756-L757)",
+  "general_requirements": {
+    "documentation": [
+      "Primary and secondary tumors of the proximal femur (Evidence: pg no: 24, L837)",
+      "Hip fracture or complications including malunion, nonunion or failed prior fixation (Evidence: pg no: 24, L838)",
+      "Failed previous hip fracture fixation (Evidence: pg no: 24, L839)",
+      "Avascular necrosis (osteonecrosis) with unresponsive severe pain (Evidence: pg no: 24, L840)",
+      "Revision of hip arthrodesis (Evidence: pg no: 24, L841)",
+      "Imaging evidence of significant joint destruction and cartilage loss, defined as Tönnis grade 3, modified Outerbridge grade III – IV, or Kellgren-Lawrence grade 3 – 4 (Evidence: pg no: 24, L844-L845)",
+      "Limited range of motion, antalgic gait and disabling pain of at least 3 months' duration (Evidence: pg no: 24, L846)",
+      "Pain with passive motion of the hip (Evidence: pg no: 24, L847)",
+      "Failure of at least 3 months of non-surgical conservative management (Evidence: pg no: 24, L848-L849)",
+      "Functional limitation secondary to hip pathology which interferes with the ability to perform age-appropriate daily activities (Evidence: pg no: 24, L850-L851)"
+    ]
+  },
+  "exclusions": [
+    "Indications for total hip arthroplasty other than those addressed in this guideline are considered not medically necessary (Evidence: pg no: 26, L937-L938)"
+  ],
+  "codes": [
+    {
+      "code": "27130",
+      "system": "CPT",
+      "description": "Arthroplasty, acetabular and proximal femoral prosthetic replacement (total hip arthroplasty), with or without autograft or allograft (Evidence: pg no: 27, L973-L974)"
+    }
+  ],
+  "notes": "All arthroplasty and acetabuloplasty/resection arthroplasty procedures are inclusive of synovectomy, removal of osteophytes, removal of loose bodies, manipulation of the hip, and release or repair of structures to gain entrance to the hip joint. (Evidence: pg no: 22, L749-L751)"
+}

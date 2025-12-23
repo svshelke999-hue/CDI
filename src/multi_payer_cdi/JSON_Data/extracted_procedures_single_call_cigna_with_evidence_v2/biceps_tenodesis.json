@@ -1,0 +1,41 @@
+{
+  "procedure_id": "biceps_tenodesis",
+  "category": "Shoulder (Evidence: pg no: 10, L406)",
+  "section_title": "Biceps Tenodesis (Evidence: pg no: 10, L406)",
+  "names": [
+    "Biceps Tenodesis (Evidence: pg no: 10, L406)"
+  ],
+  "description": "Tenodesis of biceps tendon for labral tear/biceps tendon pathology with specific range of motion and physical exam requirements (Evidence: pg no: 10, L408-L437)",
+  "scope": "Arthroscopic or open biceps tenodesis (Evidence: pg no: 10, L408)",
+  "general_requirements": {
+    "documentation": [
+      "Function-limiting pain (Evidence: pg no: 10, L410-L412)",
+      "Failure of provider-directed non-surgical management for at least three (3) months in duration, except for discrete traumatic event resulting in acute proximal biceps tendon rupture (Evidence: pg no: 10, L413-L416)",
+      "Advanced diagnostic imaging study (e.g., MRI, CT) demonstrates labral tear/biceps tendon pathology (e.g., SLAP, Bankart, full-thickness subscapularis tear) and correlates with symptoms and physical exam findings (Evidence: pg no: 10, L417-L420)",
+      "Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain, cervical radiculopathy, and advanced glenohumeral osteoarthritis (Evidence: pg no: 10, L421-L423)",
+      "Minimally limited or full shoulder range of motion (Evidence: pg no: 10, L426)",
+      "ONE OR MORE positive physical exam findings including O'Brien's Test, Biceps Load Test, Clunk Test, Anterior Slide Test, Compression Rotation Test, Speed's Test, Upper cut test, Popeye sign, Yergason's test, Proximal biceps (groove) tenderness (Evidence: pg no: 10, L427-L437)"
+    ]
+  },
+  "exclusions": [
+    "Any other indication or condition (Evidence: pg no: 10, L439-L440)"
+  ],
+  "codes": [
+    {
+      "code": "23430",
+      "system": "CPT",
+      "description": "Tenodesis of long tendon of biceps (Evidence: pg no: 13, L545)"
+    },
+    {
+      "code": "23440",
+      "system": "CPT",
+      "description": "Resection or transplantation of long tendon of biceps (Evidence: pg no: 13, L546)"
+    },
+    {
+      "code": "29828",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; biceps tenodesis (Evidence: pg no: 14, L586)"
+    }
+  ],
+  "notes": "Conservative management exception for acute proximal biceps tendon rupture (Evidence: pg no: 10, L414-L416)"
+}

@@ -1,0 +1,39 @@
+{
+  "procedure_id": "meniscal_allograft_transplantation",
+  "category": "Knee (Evidence: pg no: 2, L73)",
+  "section_title": "Meniscal Allograft Transplantation of the Knee (Evidence: pg no: 17, L726)",
+  "names": [
+    "Meniscal allograft transplantation (Evidence: pg no: 17, L728)",
+    "Meniscal allograft transplantation of the knee (Evidence: pg no: 17, L786)"
+  ],
+  "description": "Surgical procedure used to restore normal meniscal function by replacing damaged or absent meniscus with donor cadaver allograft cartilage (Evidence: pg no: 17, L728-L730)",
+  "scope": "Treatment for patients with pain or disability attributed to insufficient cushioning and lubrication of joint (Evidence: pg no: 17, L730-L733)",
+  "general_requirements": {
+    "documentation": [
+      "Operative report of prior arthroscopic procedure and/or MRI of knee performed within past 12 months (Evidence: pg no: 17, L742-L743)",
+      "Conservative management including physical therapy AND at least ONE complementary conservative treatment strategy (Evidence: pg no: 17, L747-L767)",
+      "Age 55 or younger and skeletally mature (Evidence: pg no: 18, L790)",
+      "Knee pain refractory to conservative treatment (Evidence: pg no: 18, L791)",
+      "Ligamentous stability either prior to surgery or achieved concurrently (Evidence: pg no: 18, L792)",
+      "Normal alignment without varus or valgus deformities (Evidence: pg no: 18, L793)",
+      "Mild to moderate articular damage (Outerbridge grade II or less) (Evidence: pg no: 18, L794)"
+    ]
+  },
+  "exclusions": [
+    "Treatment for asymptomatic individuals with partial or complete loss of meniscus (Evidence: pg no: 18, L798)",
+    "Use of other meniscal implants incorporating materials such as collagen and polyurethane (Evidence: pg no: 18, L799)"
+  ],
+  "codes": [
+    {
+      "code": "29868",
+      "system": "CPT",
+      "description": "Arthroscopy, knee, surgical; meniscal transplantation (includes arthrotomy for meniscal insertion), medial or lateral (Evidence: pg no: 19, L823)"
+    },
+    {
+      "code": "G0428",
+      "system": "HCPCS",
+      "description": "Collagen meniscus implant procedure for filling meniscal defects (eg, CMI, collagen scaffold, Menaflex) (Evidence: pg no: 19, L824)"
+    }
+  ],
+  "notes": "Goal is reduction in pain, prevention of degenerative changes, and restoration of mechanical properties (Evidence: pg no: 17, L732-L733)"
+}

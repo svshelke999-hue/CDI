@@ -1,0 +1,34 @@
+{
+  "procedure_id": "shoulder_prosthesis_revision",
+  "category": "Shoulder (Evidence: pg no: 7, L169)",
+  "section_title": "Revision or Replacement of a Shoulder Prosthesis (Evidence: pg no: 10, L312)",
+  "names": [
+    "Revision or Replacement of a Shoulder Prosthesis (Evidence: pg no: 10, L312)",
+    "Revision of total shoulder arthroplasty (Evidence: pg no: 11, L365)"
+  ],
+  "description": "Revision or replacement of a shoulder prosthesis is considered medically necessary for ANY of the following conditions when associated with pain and functional impairment. (Evidence: pg no: 10, L313-L314)",
+  "scope": "This guideline addresses shoulder arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of a congenital condition, acute or traumatic event such as fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 7, L181-L183)",
+  "general_requirements": {
+    "documentation": [
+      "Aseptic loosening of one or more prosthetic components confirmed by imaging (Evidence: pg no: 10, L315)",
+      "Fracture of one or more components of the prosthesis confirmed by imaging (Evidence: pg no: 10, L316)",
+      "Reconstruction after the management of periprosthetic infection confirmed by gram stain and culture (Evidence: pg no: 10, L317)",
+      "Instability of the glenoid or humeral components (Evidence: pg no: 10, L318)",
+      "Migration of the humeral head (Evidence: pg no: 10, L319)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "23473",
+      "system": "CPT",
+      "description": "Revision of total shoulder arthroplasty, including allograft when performed; humeral or glenoid component (Evidence: pg no: 11, L365)"
+    },
+    {
+      "code": "23474",
+      "system": "CPT",
+      "description": "Revision of total shoulder arthroplasty, including allograft when performed; humeral and glenoid component (Evidence: pg no: 11, L366)"
+    }
+  ],
+  "notes": "All conditions must be associated with pain and functional impairment. (Evidence: pg no: 10, L314)"
+}

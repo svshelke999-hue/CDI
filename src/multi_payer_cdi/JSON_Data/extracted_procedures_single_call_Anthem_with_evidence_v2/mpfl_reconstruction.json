@@ -1,0 +1,19 @@
+{
+  "procedure_id": "mpfl_reconstruction",
+  "category": "Knee (Evidence: pg no: 2, L73)",
+  "section_title": "Medial Patellofemoral Ligament Reconstruction (Evidence: pg no: 12, L576)",
+  "names": [
+    "Medial patellofemoral ligament reconstruction (Evidence: pg no: 12, L577)",
+    "MPFL reconstruction (Evidence: pg no: 12, L577)"
+  ],
+  "description": "Medial patellofemoral ligament reconstruction when specific criteria apply (Evidence: pg no: 12, L577-L587)",
+  "scope": "Treatment of patellofemoral instability (Evidence: pg no: 12, L576-L587)",
+  "general_requirements": {
+    "documentation": [
+      "EITHER performed in combination with distal realignment for patellofemoral instability OR ALL of the following criteria: Recurrent patellofemoral instability with pain that limits function OR failure of at least 12 weeks of conservative management, Radiographic imaging consistent with Kellgren-Lawrence grade 2 or lower patellofemoral osteoarthritis, and Presence of tibial tubercle-trochlear groove distance < 20 mm, normal trochlear morphology, and absence of patella alta (Evidence: pg no: 12, L579-L587)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [],
+  "notes": ""
+}

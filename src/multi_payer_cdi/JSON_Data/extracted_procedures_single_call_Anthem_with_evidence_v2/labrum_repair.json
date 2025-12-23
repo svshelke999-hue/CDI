@@ -1,0 +1,29 @@
+{
+  "procedure_id": "labrum_repair",
+  "category": "Shoulder (Evidence: pg no: 12, L368)",
+  "section_title": "Labrum Repair (Evidence: pg no: 16, L540)",
+  "names": [
+    "Labrum Repair (Evidence: pg no: 16, L540)",
+    "Labral tear including superior labral anterior-posterior (SLAP) tears (Evidence: pg no: 16, L541)"
+  ],
+  "description": "Labrum repair is considered medically necessary when ALL of the following criteria are met. (Evidence: pg no: 16, L542)",
+  "scope": "This guideline addresses shoulder arthroscopy and open procedures when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture. (Evidence: pg no: 12, L373-L374)",
+  "general_requirements": {
+    "documentation": [
+      "Shoulder pain ≥ 4 on the VAS scale which interferes with age-appropriate activities of daily living (Evidence: pg no: 16, L543)",
+      "Symptoms aggravated by heavy lifting, pushing, and overhead motion (Evidence: pg no: 16, L544)",
+      "Physical exam demonstrating a positive response to at least ONE of the following tests: O'Brien (active compression) test, Anterior slide test, Biceps load test (I and II), Pain provocation test, Crank test, Jobe relocation test, Forced shoulder abduction and elbow flexion test, Resisted supination external rotation test (Evidence: pg no: 16, L545-L553)",
+      "MRI demonstrating a labral tear that is not a Bankart lesion and is consistent with subjective and objective findings (Evidence: pg no: 16, L554-L555)",
+      "Failure of at least 12 weeks of conservative management (Evidence: pg no: 16, L556)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "29807",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; repair of SLAP lesion (Evidence: pg no: 20, L722)"
+    }
+  ],
+  "notes": ""
+}

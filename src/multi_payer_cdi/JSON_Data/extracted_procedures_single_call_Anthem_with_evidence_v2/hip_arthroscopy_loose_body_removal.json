@@ -1,0 +1,22 @@
+{
+  "procedure_id": "hip_arthroscopy_loose_body_removal",
+  "category": "Hip (Evidence: pg no: 1, L1)",
+  "section_title": "Hip Arthroscopy, Loose Body Removal (Evidence: pg no: 2, L58)",
+  "names": [
+    "Arthroscopy, hip, surgical; with removal of loose body or foreign body (Evidence: pg no: 2, L58)"
+  ],
+  "description": "Surgical arthroscopy of hip for removal of loose body or foreign body (Evidence: pg no: 2, L58)",
+  "scope": "Hip arthroscopic surgery (Evidence: pg no: 2, L58)",
+  "general_requirements": {
+    "documentation": []
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "29861",
+      "system": "CPT",
+      "description": "Arthroscopy, hip, surgical; with removal of loose body or foreign body (Evidence: pg no: 2, L58)"
+    }
+  ],
+  "notes": ""
+}

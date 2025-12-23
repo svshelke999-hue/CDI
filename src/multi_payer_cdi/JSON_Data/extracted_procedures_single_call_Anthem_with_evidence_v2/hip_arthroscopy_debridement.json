@@ -1,0 +1,22 @@
+{
+  "procedure_id": "hip_arthroscopy_debridement",
+  "category": "Hip (Evidence: pg no: 1, L1)",
+  "section_title": "Hip Arthroscopy, Debridement (Evidence: pg no: 2, L59-L60)",
+  "names": [
+    "Arthroscopy, hip, surgical; with debridement/shaving of articular cartilage (chondroplasty) (Evidence: pg no: 2, L59-L60)"
+  ],
+  "description": "Surgical arthroscopy of hip with debridement/shaving of articular cartilage, abrasion arthroplasty, and/or resection of labrum (Evidence: pg no: 2, L59-L60)",
+  "scope": "Hip arthroscopic surgery (Evidence: pg no: 2, L59-L60)",
+  "general_requirements": {
+    "documentation": []
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "29862",
+      "system": "CPT",
+      "description": "Arthroscopy, hip, surgical; with debridement/shaving of articular cartilage (chondroplasty), abrasion arthroplasty, and/or resection of labrum (Evidence: pg no: 2, L59-L60)"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,18 @@
+{
+  "procedure_id": "removal_replacement_tjr_shoulder",
+  "category": "Shoulder (Evidence: pg no: 1, L33)",
+  "section_title": "Removal and Replacement, Total Joint Replacement (TJR), Shoulder (Evidence: pg no: 1, L33)",
+  "names": [
+    "Removal and Replacement, Total Joint Replacement (TJR), Shoulder (Evidence: pg no: 1, L33)"
+  ],
+  "description": "Surgical removal and replacement of total joint replacement components in the shoulder (Evidence: pg no: 1, L33)",
+  "scope": "Revision surgery for shoulder joint replacement (Evidence: pg no: 1, L33)",
+  "general_requirements": {
+    "documentation": [
+      "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [],
+  "notes": "Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)"
+}

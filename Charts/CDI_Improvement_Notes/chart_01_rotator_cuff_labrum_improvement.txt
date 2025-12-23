@@ -1,0 +1,20 @@
+CHART: chart_01_rotator_cuff_labrum.txt
+
+PRIMARY CDI FOCUS:
+- Clarify conservative management timeline and response to support medical necessity.
+- Specify tear dimensions and tissue quality to justify anchor utilization.
+- Document quantitative blood loss.
+
+RECOMMENDED IMPROVEMENTS:
+1. Conservative Care: Capture detailed rehab history (duration, frequency, modalities) and prior injections or medications with outcomes.
+2. Imaging Findings: Add MRI specifics (tear size, retraction, muscle atrophy) and any labral imaging descriptors.
+3. Operative Detail: Quantify rotator cuff tear dimensions and state tendon quality; note the exact number and type (brand/size) of anchors placed for both labral and cuff repairs.
+4. Blood Loss: Record estimated blood loss and any hemostatic measures used.
+5. Postoperative Plan: Outline sling duration, therapy phases, and restrictions to align with payer protocols.
+6. Comorbidities/Risk: Include relevant comorbid conditions impacting perioperative risk or recovery if present.
+
+CODING IMPACT:
+- Supports CPT 29827 and 29807 with payer documentation requirements.
+- Detailed tear description assists in medical necessity review for combined procedures.
+
+

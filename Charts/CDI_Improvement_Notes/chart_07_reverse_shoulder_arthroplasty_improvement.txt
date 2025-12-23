@@ -1,0 +1,20 @@
+CHART: chart_07_reverse_shoulder_arthroplasty.txt
+
+PRIMARY CDI FOCUS:
+- Clarify indications for reverse configuration and implant specifics.
+- Improve perioperative detail for quality and registry reporting.
+
+RECOMMENDED IMPROVEMENTS:
+1. Indication Detail: Document rotator cuff status (tears, fatty infiltration grades) and range-of-motion deficits that necessitate reverse arthroplasty.
+2. Implant Inventory: Specify baseplate size, screw lengths, glenosphere diameter, humeral stem size, and polyethylene thickness.
+3. Bone Quality: Note glenoid bone stock, need for augments, and any grafting performed.
+4. Blood Loss: Provide quantitative EBL and whether tranexamic acid or cell saver was used.
+5. Neurovascular Assessment: Document brachial plexus or axillary nerve status pre- and post-implantation.
+6. Comorbidities: Mention osteoporosis, rheumatoid arthritis, or prior surgeries influencing complexity.
+7. Postoperative Plan: Detail sling type, duration, therapy milestones, and DVT prophylaxis.
+
+CODING IMPACT:
+- Supports CPT 23472 with payer-required documentation of indications.
+- Implant specificity aligns with device registry and charge capture requirements.
+
+

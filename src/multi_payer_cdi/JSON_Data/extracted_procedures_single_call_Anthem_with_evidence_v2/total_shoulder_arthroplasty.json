@@ -1,0 +1,34 @@
+{
+  "procedure_id": "total_shoulder_arthroplasty",
+  "category": "Shoulder (Evidence: pg no: 7, L169)",
+  "section_title": "Total Shoulder Arthroplasty (Evidence: pg no: 9, L271)",
+  "names": [
+    "Total Shoulder Arthroplasty (Evidence: pg no: 9, L271)",
+    "Total shoulder replacement (Evidence: pg no: 7, L174)"
+  ],
+  "description": "Prosthetic replacement of the humeral head and the glenoid (total arthroplasty) is most commonly performed for joint damage due to osteoarthritis. Total shoulder arthroplasty requires an intact medial glenoid to support the glenoid prosthesis. (Evidence: pg no: 7, L173-L175)",
+  "scope": "This guideline addresses shoulder arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of a congenital condition, acute or traumatic event such as fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 7, L181-L183)",
+  "general_requirements": {
+    "documentation": [
+      "Anticipated level of function should place limited demands on the shoulder joint (Evidence: pg no: 9, L267)",
+      "Deltoid muscle must be intact (Evidence: pg no: 9, L268)",
+      "Shoulder joint must be anatomically and structurally suited to receive selected implants (Evidence: pg no: 9, L269-L270)",
+      "Limited range of motion or crepitus of the glenohumeral joint on physical examination (Evidence: pg no: 9, L277)",
+      "Pain and loss of function of at least 6 months' duration that interferes with daily activities (Evidence: pg no: 9, L278)",
+      "Radiographic evidence of destructive degenerative joint disease (Evidence: pg no: 9, L279-L286)",
+      "Failure of conservative management of at least 6 weeks' duration (Evidence: pg no: 9, L287-L288)"
+    ]
+  },
+  "exclusions": [
+    "Total shoulder arthroplasty under conditions which would result in excessive stress on the implant including, but not limited to, Charcot joint and paralytic conditions of the shoulder (Evidence: pg no: 11, L332-L333)",
+    "Shoulder resurfacing, including total, hemi, or partial resurfacing (Evidence: pg no: 11, L334-L336)"
+  ],
+  "codes": [
+    {
+      "code": "23472",
+      "system": "CPT",
+      "description": "Arthroplasty, glenohumeral joint; total shoulder (glenoid and proximal humeral replacement (eg, total shoulder)) (Evidence: pg no: 11, L364)"
+    }
+  ],
+  "notes": "Indications include proximal humerus fracture not amenable to internal fixation, malignancy involving the glenohumeral joint or surrounding soft tissue, and advanced joint disease due to osteoarthritis, rheumatoid arthritis, avascular necrosis, or post-traumatic arthritis. (Evidence: pg no: 9, L272-L276)"
+}

@@ -1,0 +1,23 @@
+{
+  "procedure_id": "hip_acetabuloplasty",
+  "category": "Hip (Evidence: pg no: 1, L1)",
+  "section_title": "Hip Acetabuloplasty (Evidence: pg no: 2, L63)",
+  "names": [
+    "Arthroscopy, hip, surgical; with acetabuloplasty (Evidence: pg no: 2, L63)",
+    "Treatment of pincer lesion (Evidence: pg no: 2, L63)"
+  ],
+  "description": "Surgical arthroscopy of hip with acetabuloplasty for treatment of pincer lesion (Evidence: pg no: 2, L63)",
+  "scope": "Hip arthroscopic surgery (Evidence: pg no: 2, L63)",
+  "general_requirements": {
+    "documentation": []
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "29915",
+      "system": "CPT",
+      "description": "Arthroscopy, hip, surgical; with acetabuloplasty (i.e., treatment of pincer lesion) (Evidence: pg no: 2, L63)"
+    }
+  ],
+  "notes": ""
+}

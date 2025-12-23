@@ -1,0 +1,54 @@
+You are a medical coding and CDI specialist.
+
+TASK:
+Analyze the following operative report/medical chart and return a JSON object with:
+- "cpt": list of CPT codes mentioned (if none, return empty list),
+- "procedure": list of surgical/medical procedures performed,
+- "summary": a short summary (2-4 sentences) highlighting clinically important details for CDI.
+
+PROCEDURE EXTRACTION - FOLLOW THESE STEPS EXACTLY:
+
+STEP 1: Locate the Procedure Section
+- Find the section labeled "Procedure", "Procedures", "Operative Procedures", "Operations", or similar
+- Extract all procedures mentioned in this section (usually near the top of the report)
+
+STEP 2: Identify Each Listed Procedure
+- Read each procedure line carefully
+- Each numbered or bulleted item typically represents one or more procedures
+- Look for separators like commas, semicolons, or the word "and"
+
+STEP 3: Apply Splitting Rules CONSISTENTLY
+Split procedures ONLY when they involve different:
+- Laterality (left vs right): "Right knee arthroscopy and left knee arthroscopy" → 2 procedures
+- Spinal/anatomical levels: "L3-4 and L4-5 discectomy" → 2 procedures  
+- Different anatomical sites: "Hip replacement and knee replacement" → 2 procedures
+
+Do NOT split when:
+- It's a single procedure with multiple steps: "Incision and drainage" → 1 procedure
+- It's a single procedure with a modifier: "Open reduction and internal fixation" → 1 procedure
+- It describes one procedure: "Lysis of adhesions and exploration" → 1 procedure
+
+STEP 4: Format Each Procedure
+- Keep each procedure complete and self-contained
+- Include laterality (left/right) with each split procedure
+- Include anatomical level with each split procedure
+- Use exact medical terminology from the report
+
+EXAMPLE:
+Input: "Right L3-4 and left L2-3 laminotomy and microdiscectomy"
+Output (2 procedures):
+1. "Right L3-4 laminotomy and microdiscectomy"
+2. "Left L2-3 laminotomy and microdiscectomy"
+
+STEP 5: Validate Before Returning
+- Count your procedures
+- Verify each procedure is independently codable
+- Ensure no procedures were missed from the procedure section
+- Ensure no duplicate procedures
+
+Return ONLY valid JSON with keys exactly: cpt, procedure, summary.
+
+OPERATIVE REPORT:
+<<<
+{chart}
+>>>

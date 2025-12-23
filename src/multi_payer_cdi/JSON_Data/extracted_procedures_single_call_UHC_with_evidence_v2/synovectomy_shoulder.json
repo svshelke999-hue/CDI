@@ -1,0 +1,30 @@
+{
+  "procedure_id": "synovectomy_shoulder",
+  "category": "Shoulder (Evidence: pg no: 2, L71-L72)",
+  "section_title": "Shoulder Synovectomy (Evidence: pg no: 2, L71-L72)",
+  "names": [
+    "Synovectomy, partial (Evidence: pg no: 2, L71)",
+    "Synovectomy, complete (Evidence: pg no: 2, L72)"
+  ],
+  "description": "Arthroscopic surgical removal of synovial tissue from the shoulder, either partial or complete (Evidence: pg no: 2, L71-L72)",
+  "scope": "Surgical removal of synovial tissue via arthroscopic approach (Evidence: pg no: 2, L71-L72)",
+  "general_requirements": {
+    "documentation": [
+      "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "29820",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; synovectomy, partial (Evidence: pg no: 2, L71)"
+    },
+    {
+      "code": "29821",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; synovectomy, complete (Evidence: pg no: 2, L72)"
+    }
+  ],
+  "notes": "Part of arthroscopic shoulder surgery procedures (Evidence: pg no: 2, L71-L72)"
+}

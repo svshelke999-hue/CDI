@@ -1,0 +1,42 @@
+{
+  "procedure_id": "fracture_tumor_infection_foreign_body_surgery",
+  "category": "Shoulder (Evidence: pg no: 4, L149)",
+  "section_title": "Arthroscopic or Open Procedure for Fracture, Tumor, Infection, or Foreign Body (Evidence: pg no: 4, L149)",
+  "names": [
+    "Shoulder Surgery for Fracture (Evidence: pg no: 4, L149)",
+    "Shoulder Surgery for Tumor (Evidence: pg no: 4, L149)",
+    "Shoulder Surgery for Infection (Evidence: pg no: 4, L149)",
+    "Shoulder Surgery for Foreign Body (Evidence: pg no: 4, L149)"
+  ],
+  "description": "Shoulder arthroscopic or open procedures for fracture, tumor, infection, or foreign body that has led to or will likely lead to progressive destruction (Evidence: pg no: 4, L149-L151)",
+  "scope": "Arthroscopic or open procedures for specific pathological conditions (Evidence: pg no: 4, L149-L150)",
+  "general_requirements": {
+    "documentation": [
+      "Surgery being performed for fracture, tumor, infection, or foreign body that has led to or will likely lead to progressive destruction (Evidence: pg no: 4, L150-L151)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "23145",
+      "system": "CPT",
+      "description": "Excision or curettage of bone cyst or benign tumor of clavicle or scapula; with autograft (includes obtaining graft) (Evidence: pg no: 13, L529-L530)"
+    },
+    {
+      "code": "23155",
+      "system": "CPT",
+      "description": "Excision or curettage of bone cyst or benign tumor of proximal humerus; with autograft (includes obtaining graft) (Evidence: pg no: 13, L531-L532)"
+    },
+    {
+      "code": "23172",
+      "system": "CPT",
+      "description": "Sequestrectomy (e.g. for osteomyelitis or bone abscess), scapula (Evidence: pg no: 13, L533)"
+    },
+    {
+      "code": "23174",
+      "system": "CPT",
+      "description": "Sequestrectomy (e.g. for osteomyelitis or bone abscess), humeral head to surgical neck (Evidence: pg no: 13, L534)"
+    }
+  ],
+  "notes": "May be considered medically necessary when surgery addresses progressive destruction (Evidence: pg no: 4, L149-L151)"
+}

@@ -1,0 +1,2301 @@
+{
+  "document_info": {
+    "title": "Clinical Appropriateness Guidelines - Musculoskeletal - Joint Surgery (Evidence: pg no: 1, L5-L11)",
+    "payer": "Carelon Medical Benefits Management (Evidence: pg no: 1, L10)",
+    "date": "11/05/2023 (Evidence: pg no: 1, L2)",
+    "total_procedures": 77
+  },
+  "procedures": [
+    {
+      "procedure_id": "total_shoulder_arthroplasty",
+      "category": "Shoulder (Evidence: pg no: 7, L169)",
+      "section_title": "Total Shoulder Arthroplasty (Evidence: pg no: 9, L271)",
+      "names": [
+        "Total Shoulder Arthroplasty (Evidence: pg no: 9, L271)",
+        "Total shoulder replacement (Evidence: pg no: 7, L174)"
+      ],
+      "description": "Prosthetic replacement of the humeral head and the glenoid (total arthroplasty) is most commonly performed for joint damage due to osteoarthritis. Total shoulder arthroplasty requires an intact medial glenoid to support the glenoid prosthesis. (Evidence: pg no: 7, L173-L175)",
+      "scope": "This guideline addresses shoulder arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of a congenital condition, acute or traumatic event such as fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 7, L181-L183)",
+      "general_requirements": {
+        "documentation": [
+          "Anticipated level of function should place limited demands on the shoulder joint (Evidence: pg no: 9, L267)",
+          "Deltoid muscle must be intact (Evidence: pg no: 9, L268)",
+          "Shoulder joint must be anatomically and structurally suited to receive selected implants (Evidence: pg no: 9, L269-L270)",
+          "Limited range of motion or crepitus of the glenohumeral joint on physical examination (Evidence: pg no: 9, L277)",
+          "Pain and loss of function of at least 6 months' duration that interferes with daily activities (Evidence: pg no: 9, L278)",
+          "Radiographic evidence of destructive degenerative joint disease (Evidence: pg no: 9, L279-L286)",
+          "Failure of conservative management of at least 6 weeks' duration (Evidence: pg no: 9, L287-L288)"
+        ]
+      },
+      "exclusions": [
+        "Total shoulder arthroplasty under conditions which would result in excessive stress on the implant including, but not limited to, Charcot joint and paralytic conditions of the shoulder (Evidence: pg no: 11, L332-L333)",
+        "Shoulder resurfacing, including total, hemi, or partial resurfacing (Evidence: pg no: 11, L334-L336)"
+      ],
+      "codes": [
+        {
+          "code": "23472",
+          "system": "CPT",
+          "description": "Arthroplasty, glenohumeral joint; total shoulder (glenoid and proximal humeral replacement (eg, total shoulder)) (Evidence: pg no: 11, L364)"
+        }
+      ],
+      "notes": "Indications include proximal humerus fracture not amenable to internal fixation, malignancy involving the glenohumeral joint or surrounding soft tissue, and advanced joint disease due to osteoarthritis, rheumatoid arthritis, avascular necrosis, or post-traumatic arthritis. (Evidence: pg no: 9, L272-L276)"
+    },
+    {
+      "procedure_id": "shoulder_hemiarthroplasty",
+      "category": "Shoulder (Evidence: pg no: 7, L169)",
+      "section_title": "Hemiarthroplasty (Evidence: pg no: 9, L289)",
+      "names": [
+        "Hemiarthroplasty (Evidence: pg no: 9, L289)",
+        "Shoulder hemiarthroplasty (Evidence: pg no: 7, L176)",
+        "Partial replacement (Evidence: pg no: 7, L176)"
+      ],
+      "description": "Shoulder hemiarthroplasty (partial replacement) may be used to address isolated humeral head pathology (avascular necrosis), some fractures, or as an option for rotator cuff tear arthropathy. (Evidence: pg no: 7, L176-L177)",
+      "scope": "This guideline addresses shoulder arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of a congenital condition, acute or traumatic event such as fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 7, L181-L183)",
+      "general_requirements": {
+        "documentation": [
+          "Proximal humerus fracture not amenable to internal fixation (Evidence: pg no: 9, L291)",
+          "Malignancy involving the glenohumeral joint or surrounding soft tissue (Evidence: pg no: 10, L293)",
+          "Advanced joint disease of the shoulder when criteria for total shoulder arthroplasty are met AND at least ONE of the following conditions is present (Evidence: pg no: 10, L294-L295)"
+        ]
+      },
+      "exclusions": [
+        "Total shoulder arthroplasty or hemiarthroplasty under conditions which would result in excessive stress on the implant including, but not limited to, Charcot joint and paralytic conditions of the shoulder (Evidence: pg no: 11, L332-L333)"
+      ],
+      "codes": [
+        {
+          "code": "23470",
+          "system": "CPT",
+          "description": "Arthroplasty, glenohumeral joint; hemiarthroplasty (Evidence: pg no: 11, L363)"
+        }
+      ],
+      "notes": "Specific conditions include osteonecrosis of the humeral head without glenoid involvement, advanced joint disease due to rotator cuff tear arthropathy, glenoid bone stock inadequate to support a glenoid prosthesis, and glenohumeral osteoarthritis with irreparable rotator cuff tear. (Evidence: pg no: 10, L296-L299)"
+    },
+    {
+      "procedure_id": "reverse_shoulder_arthroplasty",
+      "category": "Shoulder (Evidence: pg no: 7, L169)",
+      "section_title": "Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)",
+      "names": [
+        "Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)",
+        "Reverse total shoulder arthroplasty (Evidence: pg no: 7, L178)"
+      ],
+      "description": "Reverse total shoulder arthroplasty is similar to standard arthroplasty in that both components of the joint are replaced but the ball and socket portions of the joint are reversed, allowing the deltoid muscle to assume partial function of the rotator cuff. This procedure is typically utilized when there is concomitant rotator cuff disease. (Evidence: pg no: 7, L178-L180)",
+      "scope": "This guideline addresses shoulder arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of a congenital condition, acute or traumatic event such as fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 7, L181-L183)",
+      "general_requirements": {
+        "documentation": [
+          "Reconstruction after a tumor resection (Evidence: pg no: 10, L302)",
+          "Glenohumeral osteoarthritis with irreparable rotator cuff tear (Evidence: pg no: 10, L303)",
+          "Glenoid bone stock inadequate to support a glenoid prosthesis (Evidence: pg no: 10, L304)",
+          "Failed hemiarthroplasty (Evidence: pg no: 10, L305)",
+          "Failed total shoulder arthroplasty with non-repairable rotator cuff (Evidence: pg no: 10, L306)",
+          "Shoulder fracture that is not repairable or cannot be reconstructed with other techniques (Evidence: pg no: 10, L307)",
+          "Deficient rotator cuff with limited ability to actively flex the upper extremity to 90 degrees against gravity (Evidence: pg no: 10, L310-L311)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [],
+      "notes": "Considered medically necessary for ANY of the listed indications when associated with pain and functional impairment. (Evidence: pg no: 10, L301)"
+    },
+    {
+      "procedure_id": "shoulder_prosthesis_revision",
+      "category": "Shoulder (Evidence: pg no: 7, L169)",
+      "section_title": "Revision or Replacement of a Shoulder Prosthesis (Evidence: pg no: 10, L312)",
+      "names": [
+        "Revision or Replacement of a Shoulder Prosthesis (Evidence: pg no: 10, L312)",
+        "Revision of total shoulder arthroplasty (Evidence: pg no: 11, L365)"
+      ],
+      "description": "Revision or replacement of a shoulder prosthesis is considered medically necessary for ANY of the following conditions when associated with pain and functional impairment. (Evidence: pg no: 10, L313-L314)",
+      "scope": "This guideline addresses shoulder arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of a congenital condition, acute or traumatic event such as fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 7, L181-L183)",
+      "general_requirements": {
+        "documentation": [
+          "Aseptic loosening of one or more prosthetic components confirmed by imaging (Evidence: pg no: 10, L315)",
+          "Fracture of one or more components of the prosthesis confirmed by imaging (Evidence: pg no: 10, L316)",
+          "Reconstruction after the management of periprosthetic infection confirmed by gram stain and culture (Evidence: pg no: 10, L317)",
+          "Instability of the glenoid or humeral components (Evidence: pg no: 10, L318)",
+          "Migration of the humeral head (Evidence: pg no: 10, L319)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "23473",
+          "system": "CPT",
+          "description": "Revision of total shoulder arthroplasty, including allograft when performed; humeral or glenoid component (Evidence: pg no: 11, L365)"
+        },
+        {
+          "code": "23474",
+          "system": "CPT",
+          "description": "Revision of total shoulder arthroplasty, including allograft when performed; humeral and glenoid component (Evidence: pg no: 11, L366)"
+        }
+      ],
+      "notes": "All conditions must be associated with pain and functional impairment. (Evidence: pg no: 10, L314)"
+    },
+    {
+      "procedure_id": "shoulder_diagnostic_arthroscopy",
+      "category": "Shoulder (Evidence: pg no: 12, L368)",
+      "section_title": "Diagnostic arthroscopy (Evidence: pg no: 13, L436)",
+      "names": [
+        "Diagnostic arthroscopy (Evidence: pg no: 13, L436)",
+        "Diagnostic arthroscopy of the shoulder joint (Evidence: pg no: 13, L437)"
+      ],
+      "description": "Diagnostic arthroscopy of the shoulder joint is considered medically necessary for synovial biopsy or tissue harvest (chondrocyte), or when the involved joint meets ALL of the following criteria. (Evidence: pg no: 13, L437-L438)",
+      "scope": "This guideline addresses shoulder arthroscopy and open procedures when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture. (Evidence: pg no: 12, L373-L374)",
+      "general_requirements": {
+        "documentation": [
+          "Presence of ONE of the following symptoms: Significant pain and functional limitation, Instability (e.g., giving way, catching, clicking, locking), Limited range of motion (Evidence: pg no: 13, L439-L442)",
+          "Presence of ONE of the following physical exam findings: Limited range of motion, Joint swelling, Inconclusive specific diagnostic exam maneuvers, Local muscle weakness or atrophy (Evidence: pg no: 13, L443-L447)",
+          "Inconclusive x-ray and/or advanced imaging studies (Evidence: pg no: 14, L448-L449)",
+          "Failure of at least 6 weeks of conservative management (Evidence: pg no: 14, L450)"
+        ]
+      },
+      "exclusions": [
+        "In-office diagnostic arthroscopy (e.g., mi-eye 2®) (Evidence: pg no: 14, L452)"
+      ],
+      "codes": [
+        {
+          "code": "29805",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, diagnostic, with or without synovial biopsy (separate procedure) (Evidence: pg no: 20, L720)"
+        }
+      ],
+      "notes": "All arthroscopic procedures of the shoulder are inclusive of diagnostic arthroscopy and manipulation under anesthesia. (Evidence: pg no: 12, L375-L376)"
+    },
+    {
+      "procedure_id": "shoulder_loose_body_removal",
+      "category": "Shoulder (Evidence: pg no: 12, L368)",
+      "section_title": "Removal of loose body (Evidence: pg no: 14, L453)",
+      "names": [
+        "Removal of loose body (Evidence: pg no: 14, L453)"
+      ],
+      "description": "Removal of loose body is considered medically necessary when BOTH of the following are present. (Evidence: pg no: 14, L454)",
+      "scope": "This guideline addresses shoulder arthroscopy and open procedures when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture. (Evidence: pg no: 12, L373-L374)",
+      "general_requirements": {
+        "documentation": [
+          "Radiographic evidence of acute, post-traumatic, intra-articular foreign body or displaced fracture fragment larger than the size of an arthroscopy cannula (5 mm or larger) (Evidence: pg no: 14, L455-L456)",
+          "Shoulder pain associated with grinding, catching, locking, or popping, and exam findings confirm pain with limited range of motion (Evidence: pg no: 14, L457-L458)"
+        ]
+      },
+      "exclusions": [
+        "Removal of loose body for Kellgren-Lawrence grade 4 osteoarthritis (Evidence: pg no: 14, L460)"
+      ],
+      "codes": [
+        {
+          "code": "29819",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; with removal of loose body or foreign body (Evidence: pg no: 20, L723)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "procedure_id": "rotator_cuff_repair",
+      "category": "Shoulder (Evidence: pg no: 12, L368)",
+      "section_title": "Rotator Cuff Repair (Evidence: pg no: 14, L461)",
+      "names": [
+        "Rotator Cuff Repair (Evidence: pg no: 14, L461)"
+      ],
+      "description": "Rotator cuff repair is considered medically necessary for acute full thickness tear, chronic or degenerative full thickness tear, and partial thickness tear when specific criteria are met. (Evidence: pg no: 14, L465, L478, L493)",
+      "scope": "This guideline addresses shoulder arthroscopy and open procedures when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture. (Evidence: pg no: 12, L373-L374)",
+      "general_requirements": {
+        "documentation": [
+          "For acute full thickness tear: Traumatic injury within the preceding 3 months with no preexisting shoulder pain (Evidence: pg no: 14, L467-L468)",
+          "Shoulder pain ≥ 4 on the VAS scale exacerbated by movement (Evidence: pg no: 14, L469)",
+          "Weakness of rotator cuff muscle(s) (Evidence: pg no: 14, L470)",
+          "Physical exam demonstrating a positive response to at least ONE of the following tests: Drop arm test, Painful arc test, Full/empty can test, Weakness of external/internal rotation (Evidence: pg no: 14, L471-L475)",
+          "Advanced imaging confirms features of an acute full thickness or high-grade partial tear (Evidence: pg no: 14, L476)"
+        ]
+      },
+      "exclusions": [
+        "Treatment of asymptomatic, full thickness rotator cuff tear (Evidence: pg no: 16, L535)",
+        "Deltoid or rotator cuff paralysis (Evidence: pg no: 16, L536)",
+        "Use of xenografts or biologic scaffold for augmentation or bridging reconstruction (Evidence: pg no: 16, L537)",
+        "Use of platelet rich plasma or other biologics (Evidence: pg no: 16, L538)",
+        "Concomitant subacromial decompression/acromioplasty (Evidence: pg no: 16, L539)"
+      ],
+      "codes": [
+        {
+          "code": "23407",
+          "system": "CPT",
+          "description": "Repair of ruptured musculotendinous cuff (eg, rotator cuff) open; acute (Evidence: pg no: 20, L707)"
+        },
+        {
+          "code": "23412",
+          "system": "CPT",
+          "description": "Repair of ruptured musculotendinous cuff (eg, rotator cuff) open; chronic (Evidence: pg no: 20, L708)"
+        },
+        {
+          "code": "29827",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; with rotator cuff repair (Evidence: pg no: 21, L740)"
+        }
+      ],
+      "notes": "For primary rotator cuff repair, adherence to a tobacco cessation program resulting in abstinence from tobacco for at least 6 weeks prior to surgery is strongly recommended. (Evidence: pg no: 14, L462-L463)"
+    },
+    {
+      "procedure_id": "revision_rotator_cuff_repair",
+      "category": "Shoulder (Evidence: pg no: 12, L368)",
+      "section_title": "Revision Rotator Cuff Repair (Evidence: pg no: 15, L505)",
+      "names": [
+        "Revision Rotator Cuff Repair (Evidence: pg no: 15, L505)",
+        "Revision rotator cuff repair (Evidence: pg no: 15, L508)"
+      ],
+      "description": "Revision rotator cuff repair is considered medically necessary when ALL of the following criteria are met. (Evidence: pg no: 15, L509)",
+      "scope": "This guideline addresses shoulder arthroscopy and open procedures when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture. (Evidence: pg no: 12, L373-L374)",
+      "general_requirements": {
+        "documentation": [
+          "Documentation of nicotine-free status for at least 6 weeks prior to surgery (Evidence: pg no: 15, L510)",
+          "Shoulder pain ≥ 4 on the VAS scale exacerbated by movement (Evidence: pg no: 15, L511)",
+          "Weakness of rotator cuff muscle(s) (less than grade 4/5 on manual muscle testing) (Evidence: pg no: 15, L512)",
+          "Recent advanced imaging confirms a full thickness tear (Evidence: pg no: 15, L513)",
+          "Failure of at least 12 weeks of conservative management (Evidence: pg no: 15, L514)"
+        ]
+      },
+      "exclusions": [
+        "Recent history of a revision surgery (Evidence: pg no: 16, L524)",
+        "Rotator cuff arthropathy defined as a combination of arthritis and lack of rotator cuff (Evidence: pg no: 16, L525)",
+        "Wheelchair bound and/or assistive device dependent (Evidence: pg no: 16, L531)"
+      ],
+      "codes": [],
+      "notes": "Adherence to a tobacco cessation program resulting in abstinence from tobacco for at least 6 weeks prior to revision surgery is required. (Evidence: pg no: 15, L506-L507)"
+    },
+    {
+      "procedure_id": "labrum_repair",
+      "category": "Shoulder (Evidence: pg no: 12, L368)",
+      "section_title": "Labrum Repair (Evidence: pg no: 16, L540)",
+      "names": [
+        "Labrum Repair (Evidence: pg no: 16, L540)",
+        "Labral tear including superior labral anterior-posterior (SLAP) tears (Evidence: pg no: 16, L541)"
+      ],
+      "description": "Labrum repair is considered medically necessary when ALL of the following criteria are met. (Evidence: pg no: 16, L542)",
+      "scope": "This guideline addresses shoulder arthroscopy and open procedures when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture. (Evidence: pg no: 12, L373-L374)",
+      "general_requirements": {
+        "documentation": [
+          "Shoulder pain ≥ 4 on the VAS scale which interferes with age-appropriate activities of daily living (Evidence: pg no: 16, L543)",
+          "Symptoms aggravated by heavy lifting, pushing, and overhead motion (Evidence: pg no: 16, L544)",
+          "Physical exam demonstrating a positive response to at least ONE of the following tests: O'Brien (active compression) test, Anterior slide test, Biceps load test (I and II), Pain provocation test, Crank test, Jobe relocation test, Forced shoulder abduction and elbow flexion test, Resisted supination external rotation test (Evidence: pg no: 16, L545-L553)",
+          "MRI demonstrating a labral tear that is not a Bankart lesion and is consistent with subjective and objective findings (Evidence: pg no: 16, L554-L555)",
+          "Failure of at least 12 weeks of conservative management (Evidence: pg no: 16, L556)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "29807",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; repair of SLAP lesion (Evidence: pg no: 20, L722)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "procedure_id": "partial_claviculectomy",
+      "category": "Shoulder (Evidence: pg no: 12, L368)",
+      "section_title": "Partial claviculectomy (Evidence: pg no: 17, L560)",
+      "names": [
+        "Partial claviculectomy (Evidence: pg no: 17, L560)",
+        "Mumford procedure (Evidence: pg no: 17, L560)"
+      ],
+      "description": "Partial claviculectomy (includes Mumford procedure) is considered medically necessary when ALL of the following criteria are met. (Evidence: pg no: 17, L560-L561)",
+      "scope": "This guideline addresses shoulder arthroscopy and open procedures when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture. (Evidence: pg no: 12, L373-L374)",
+      "general_requirements": {
+        "documentation": [
+          "Pain at the acromioclavicular (AC) joint aggravated by shoulder motion (Evidence: pg no: 17, L562)",
+          "Positive cross-arm adduction test (Evidence: pg no: 17, L563)",
+          "Tenderness over the acromioclavicular joint (Evidence: pg no: 17, L564)",
+          "Imaging findings (x-ray or MRI) consistent with acromioclavicular joint arthritis (Evidence: pg no: 17, L565)",
+          "Failure of at least 12 weeks of conservative management (Evidence: pg no: 17, L569)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "23120",
+          "system": "CPT",
+          "description": "Claviculectomy; partial (Evidence: pg no: 20, L705)"
+        },
+        {
+          "code": "29824",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; distal claviculectomy including distal articular surface (Evidence: pg no: 21, L735)"
+        }
+      ],
+      "notes": "For acromioclavicular arthritis. (Evidence: pg no: 17, L559)"
+    },
+    {
+      "procedure_id": "capsular_release",
+      "category": "Shoulder (Evidence: pg no: 12, L368)",
+      "section_title": "Arthroscopically assisted lysis of adhesions/capsular release (Evidence: pg no: 17, L571)",
+      "names": [
+        "Arthroscopically assisted lysis of adhesions/capsular release (Evidence: pg no: 17, L571)",
+        "Capsular release (Evidence: pg no: 20, L702)"
+      ],
+      "description": "Arthroscopically assisted lysis of adhesions/capsular release is considered medically necessary for post-traumatic, post-surgical, or idiopathic stiffness of the shoulder when ALL of the following criteria are met. (Evidence: pg no: 17, L571-L572)",
+      "scope": "This guideline addresses shoulder arthroscopy and open procedures when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture. (Evidence: pg no: 12, L373-L374)",
+      "general_requirements": {
+        "documentation": [
+          "Shoulder pain ≥ 4 on the VAS scale which interferes with age-appropriate activities of daily living (Evidence: pg no: 17, L573)",
+          "Reduced passive range of motion of the affected glenohumeral joint by at least 50% compared to unaffected shoulder (Evidence: pg no: 17, L574-L575)",
+          "Failure of at least 12 weeks of conservative management (Evidence: pg no: 17, L576)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "23020",
+          "system": "CPT",
+          "description": "Capsular contracture release (eg, Sever type procedure) (Evidence: pg no: 20, L702)"
+        },
+        {
+          "code": "29825",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; with lysis and resection of adhesions, with or without manipulation (Evidence: pg no: 21, L736)"
+        }
+      ],
+      "notes": "For adhesive capsulitis. (Evidence: pg no: 17, L570)"
+    },
+    {
+      "procedure_id": "manipulation_under_anesthesia_shoulder",
+      "category": "Shoulder (Evidence: pg no: 12, L368)",
+      "section_title": "Manipulation under anesthesia (MUA) (Evidence: pg no: 17, L577)",
+      "names": [
+        "Manipulation under anesthesia (MUA) (Evidence: pg no: 17, L577)",
+        "Manipulation under anesthesia, shoulder joint (Evidence: pg no: 20, L719)"
+      ],
+      "description": "Manipulation under anesthesia (MUA) is considered medically necessary for post-traumatic, post-surgical, or idiopathic stiffness of the shoulder when ALL of the following criteria are met. (Evidence: pg no: 17, L577-L578)",
+      "scope": "This guideline addresses shoulder arthroscopy and open procedures when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture. (Evidence: pg no: 12, L373-L374)",
+      "general_requirements": {
+        "documentation": [
+          "Shoulder pain ≥ 4 on the VAS scale which interferes with age-appropriate activities of daily living (Evidence: pg no: 17, L579)",
+          "Reduced passive range of motion of the affected glenohumeral joint by at least 50% compared to unaffected shoulder (Evidence: pg no: 17, L580-L581)",
+          "Failure of at least 12 weeks of conservative management (Evidence: pg no: 17, L582)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "23700",
+          "system": "CPT",
+          "description": "Manipulation under anesthesia, shoulder joint, including application of fixation apparatus (dislocation excluded) (Evidence: pg no: 20, L719)"
+        }
+      ],
+      "notes": "All open procedures of the shoulder are inclusive of manipulation under anesthesia. (Evidence: pg no: 12, L377)"
+    },
+    {
+      "procedure_id": "capsulorrhaphy",
+      "category": "Shoulder (Evidence: pg no: 12, L368)",
+      "section_title": "Capsulorrhaphy (Bankart procedure) (Evidence: pg no: 17, L584)",
+      "names": [
+        "Capsulorrhaphy (Evidence: pg no: 17, L584)",
+        "Bankart procedure (Evidence: pg no: 17, L584)"
+      ],
+      "description": "Capsulorrhaphy (Bankart procedure) is considered medically necessary when ALL of the following criteria are met. (Evidence: pg no: 17, L584-L585)",
+      "scope": "This guideline addresses shoulder arthroscopy and open procedures when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture. (Evidence: pg no: 12, L373-L374)",
+      "general_requirements": {
+        "documentation": [
+          "History of a shoulder dislocation or recurrent subluxation (Evidence: pg no: 17, L586)",
+          "Positive apprehension/relocation test (Evidence: pg no: 17, L587)",
+          "Shoulder pain and/or instability which interferes with age-appropriate activities of daily living (Evidence: pg no: 17, L588)",
+          "MRI demonstrates at least ONE of the following: Bankart/labral lesion consistent with the clinical instability, Hill-Sachs lesion, Capsular tear, Capsular redundancy with clinical multidirectional instability (Evidence: pg no: 17, L589-L593)",
+          "Failure of at least 12 weeks of conservative management (unless history of traumatic dislocation and multiple dislocations during management) (Evidence: pg no: 17, L594-L595)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "23450",
+          "system": "CPT",
+          "description": "Capsulorrhaphy, anterior; Putti-Platt procedure or Magnuson-type operation (Evidence: pg no: 20, L713)"
+        },
+        {
+          "code": "23455",
+          "system": "CPT",
+          "description": "Capsulorrhaphy, anterior; with labral repair (eg, Bankart procedure) (Evidence: pg no: 20, L714)"
+        },
+        {
+          "code": "29806",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; capsulorrhaphy (Evidence: pg no: 20, L721)"
+        }
+      ],
+      "notes": "For chronic shoulder instability or laxity. For traumatic instability, early surgery may be considered for patients with large bone defects or patients under age 35. (Evidence: pg no: 17, L583, L597-L598)"
+    },
+    {
+      "procedure_id": "subacromial_decompression",
+      "category": "Shoulder (Evidence: pg no: 12, L368)",
+      "section_title": "Subacromial decompression/acromioplasty (Evidence: pg no: 18, L600)",
+      "names": [
+        "Subacromial decompression/acromioplasty (Evidence: pg no: 18, L600)",
+        "Acromioplasty (Evidence: pg no: 20, L706)"
+      ],
+      "description": "Subacromial decompression/acromioplasty may be considered medically necessary for ANY of the following indications. (Evidence: pg no: 18, L600-L601)",
+      "scope": "This guideline addresses shoulder arthroscopy and open procedures when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture. (Evidence: pg no: 12, L373-L374)",
+      "general_requirements": {
+        "documentation": [
+          "Symptomatic os acromiale (Evidence: pg no: 18, L602)",
+          "Malunited fractures of the acromion/proximal humerus resulting in symptomatic mechanical impingement (Evidence: pg no: 18, L603)",
+          "Local benign/malignant tumor resulting in symptomatic mechanical impingement (Evidence: pg no: 18, L604)"
+        ]
+      },
+      "exclusions": [
+        "Subacromial decompression/acromioplasty is otherwise considered not medically necessary for all other indications (Evidence: pg no: 18, L605-L606)"
+      ],
+      "codes": [
+        {
+          "code": "23130",
+          "system": "CPT",
+          "description": "Acromioplasty or acromionectomy, partial, with or without coracoacromial ligament release (Evidence: pg no: 20, L706)"
+        },
+        {
+          "code": "29826",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; decompression of subacromial space with partial acromioplasty, with coracoacromial ligament (i.e., arch) release, when performed (Evidence: pg no: 21, L737-L739)"
+        }
+      ],
+      "notes": "For subacromial impingement syndrome. (Evidence: pg no: 18, L599)"
+    },
+    {
+      "procedure_id": "shoulder_synovectomy",
+      "category": "Shoulder (Evidence: pg no: 12, L368)",
+      "section_title": "Synovectomy (Evidence: pg no: 18, L607)",
+      "names": [
+        "Synovectomy (Evidence: pg no: 18, L607)",
+        "Partial synovectomy (Evidence: pg no: 18, L611)",
+        "Complete synovectomy (Evidence: pg no: 18, L611)"
+      ],
+      "description": "Synovectomy refers to removal of the synovial lining of the joint when it has become symptomatic due to inflammation, irritation, or pathology. Synovectomy may be performed in a single joint compartment (limited) or multiple compartments (extensive). (Evidence: pg no: 18, L608-L610)",
+      "scope": "This guideline addresses shoulder arthroscopy and open procedures when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture. (Evidence: pg no: 12, L373-L374)",
+      "general_requirements": {
+        "documentation": [
+          "Symptomatic (pain, swelling, limited function) synovitis caused by ANY of the following: Synovial plica (partial synovectomy), Inflammatory arthritides (e.g., rheumatoid arthritis, psoriatic arthritis), Crystalline arthropathy (e.g., gout, pseudogout), Felty's syndrome, Pigmented villonodular synovitis (PVNS), Synovial hemangioma, Synovial chondromatosis/osteochondromatosis, Hemophilic synovitis or arthropathy, Infection (bacterial or fungal septic arthritis) (Evidence: pg no: 18, L613-L622)",
+          "Failure of at least (6) 12 weeks of conservative management (Evidence: pg no: 18, L623)"
+        ]
+      },
+      "exclusions": [
+        "Synovectomy performed solely for visualization or approach, traumatic reactive synovitis (Evidence: pg no: 18, L625)"
+      ],
+      "codes": [
+        {
+          "code": "23105",
+          "system": "CPT",
+          "description": "Arthrotomy; glenohumeral joint, with synovectomy, with or without biopsy (Evidence: pg no: 20, L703)"
+        },
+        {
+          "code": "29820",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; synovectomy, partial (Evidence: pg no: 20, L724)"
+        },
+        {
+          "code": "29821",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; synovectomy, complete (Evidence: pg no: 20, L725)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "procedure_id": "shoulder_debridement",
+      "category": "Shoulder (Evidence: pg no: 12, L368)",
+      "section_title": "Debridement (Evidence: pg no: 18, L626)",
+      "names": [
+        "Debridement (Evidence: pg no: 18, L626)",
+        "Limited debridement (Evidence: pg no: 18, L633)",
+        "Extensive debridement (Evidence: pg no: 18, L634)"
+      ],
+      "description": "Debridement of discrete structures of the shoulder (e.g., humeral bone, humeral articular cartilage, glenoid bone, glenoid articular cartilage, biceps tendon, biceps anchor complex, labrum, articular capsule, articular side of the rotator cuff, bursal side of the rotator cuff, subacromial bursa, foreign body[ies]) is considered medically necessary when ALL of the following criteria are met. (Evidence: pg no: 18, L627-L630)",
+      "scope": "This guideline addresses shoulder arthroscopy and open procedures when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture. (Evidence: pg no: 12, L373-L374)",
+      "general_requirements": {
+        "documentation": [
+          "Shoulder pain unresponsive to 12 weeks of conservative management (Evidence: pg no: 18, L631)",
+          "Surgical pathology is confirmed by imaging (Evidence: pg no: 18, L632)",
+          "Limited debridement involves 1 or 2 discrete structures (Evidence: pg no: 18, L633)",
+          "Extensive debridement involves 3 or more discrete structures (Evidence: pg no: 18, L634)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "29822",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; debridement, limited, 1 or 2 discrete structures (Evidence: pg no: 20, L726-L730)"
+        },
+        {
+          "code": "29823",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; debridement, extensive, 3 or more discrete structures (Evidence: pg no: 21, L731-L734)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "procedure_id": "biceps_tenodesis_tenotomy",
+      "category": "Shoulder (Evidence: pg no: 12, L368)",
+      "section_title": "Biceps tenodesis or tenotomy (Evidence: pg no: 19, L637)",
+      "names": [
+        "Biceps tenodesis (Evidence: pg no: 19, L637)",
+        "Biceps tenotomy (Evidence: pg no: 19, L637)",
+        "Tenodesis of long tendon of biceps (Evidence: pg no: 20, L711)"
+      ],
+      "description": "Biceps tenodesis or tenotomy is considered medically necessary for shoulder pain when EITHER of the following criteria are met. (Evidence: pg no: 19, L637-L638)",
+      "scope": "This guideline addresses shoulder arthroscopy and open procedures when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture. (Evidence: pg no: 12, L373-L374)",
+      "general_requirements": {
+        "documentation": [
+          "Criteria for SLAP tear (Evidence: pg no: 19, L639)",
+          "Pain in the front of the shoulder and/or clicking, popping, or catching sensation when using the arm and shoulder (Evidence: pg no: 19, L641-L642)",
+          "Clinical exam is consistent with long head of biceps pathology (Evidence: pg no: 19, L643-L645)",
+          "MRI findings consistent with biceps tendinopathy (Evidence: pg no: 19, L646)",
+          "Failure of at least 12 weeks of supervised conservative management (Evidence: pg no: 19, L647-L648)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "23430",
+          "system": "CPT",
+          "description": "Tenodesis of long tendon of biceps (Evidence: pg no: 20, L711)"
+        },
+        {
+          "code": "23440",
+          "system": "CPT",
+          "description": "Resection or transplantation of long tendon of biceps (Evidence: pg no: 20, L712)"
+        },
+        {
+          "code": "29828",
+          "system": "CPT",
+          "description": "Arthroscopy, shoulder, surgical; biceps tenodesis (Evidence: pg no: 21, L741)"
+        }
+      ],
+      "notes": "For tendinopathy of the long head of the biceps. Requirement is waived if criteria for rotator cuff tear are met. (Evidence: pg no: 19, L636, L648)"
+    },
+    {
+      "procedure_id": "primary_total_hip_arthroplasty",
+      "category": "Hip (Evidence: pg no: 22, L743)",
+      "section_title": "Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)",
+      "names": [
+        "Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)",
+        "Total hip arthroplasty (THA) (Evidence: pg no: 22, L746)",
+        "Total hip replacement (THR) (Evidence: pg no: 22, L746)"
+      ],
+      "description": "Total hip arthroplasty (THA), also referred to as total hip replacement (THR), involves removal of the femoral head and acetabulum and placement of a prosthesis anchored to the bone. The goal of the procedure is long-term pain relief and restoration of function. (Evidence: pg no: 22, L746-L749)",
+      "scope": "This guideline addresses hip arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 22, L756-L757)",
+      "general_requirements": {
+        "documentation": [
+          "Primary and secondary tumors of the proximal femur (Evidence: pg no: 24, L837)",
+          "Hip fracture or complications including malunion, nonunion or failed prior fixation (Evidence: pg no: 24, L838)",
+          "Failed previous hip fracture fixation (Evidence: pg no: 24, L839)",
+          "Avascular necrosis (osteonecrosis) with unresponsive severe pain (Evidence: pg no: 24, L840)",
+          "Revision of hip arthrodesis (Evidence: pg no: 24, L841)",
+          "Imaging evidence of significant joint destruction and cartilage loss, defined as Tönnis grade 3, modified Outerbridge grade III – IV, or Kellgren-Lawrence grade 3 – 4 (Evidence: pg no: 24, L844-L845)",
+          "Limited range of motion, antalgic gait and disabling pain of at least 3 months' duration (Evidence: pg no: 24, L846)",
+          "Pain with passive motion of the hip (Evidence: pg no: 24, L847)",
+          "Failure of at least 3 months of non-surgical conservative management (Evidence: pg no: 24, L848-L849)",
+          "Functional limitation secondary to hip pathology which interferes with the ability to perform age-appropriate daily activities (Evidence: pg no: 24, L850-L851)"
+        ]
+      },
+      "exclusions": [
+        "Indications for total hip arthroplasty other than those addressed in this guideline are considered not medically necessary (Evidence: pg no: 26, L937-L938)"
+      ],
+      "codes": [
+        {
+          "code": "27130",
+          "system": "CPT",
+          "description": "Arthroplasty, acetabular and proximal femoral prosthetic replacement (total hip arthroplasty), with or without autograft or allograft (Evidence: pg no: 27, L973-L974)"
+        }
+      ],
+      "notes": "All arthroplasty and acetabuloplasty/resection arthroplasty procedures are inclusive of synovectomy, removal of osteophytes, removal of loose bodies, manipulation of the hip, and release or repair of structures to gain entrance to the hip joint. (Evidence: pg no: 22, L749-L751)"
+    },
+    {
+      "procedure_id": "primary_partial_hip_arthroplasty",
+      "category": "Hip (Evidence: pg no: 22, L743)",
+      "section_title": "Primary Partial Hip Arthroplasty (Evidence: pg no: 24, L852)",
+      "names": [
+        "Primary Partial Hip Arthroplasty (Evidence: pg no: 24, L852)",
+        "Partial hip arthroplasty (Evidence: pg no: 24, L853)",
+        "Hemiarthroplasty (Evidence: pg no: 24, L853)"
+      ],
+      "description": "Partial hip arthroplasty (unipolar, bipolar, hemi-) is considered medically necessary for ANY of the following indications. (Evidence: pg no: 24, L853-L854)",
+      "scope": "This guideline addresses hip arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 22, L756-L757)",
+      "general_requirements": {
+        "documentation": [
+          "Femoral neck fracture not amenable to internal fixation or total hip arthroplasty, or previous fixation failed (Evidence: pg no: 24, L855-L856)"
+        ]
+      },
+      "exclusions": [
+        "Indications for partial hip arthroplasty other than those addressed in this guideline are considered not medically necessary (Evidence: pg no: 26, L937-L938)"
+      ],
+      "codes": [
+        {
+          "code": "27125",
+          "system": "CPT",
+          "description": "Hemiarthroplasty, hip, partial (eg, femoral stem prosthesis, bipolar arthroplasty) (Evidence: pg no: 27, L972)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "procedure_id": "partial_hip_resurfacing",
+      "category": "Hip (Evidence: pg no: 22, L743)",
+      "section_title": "Partial hip resurfacing (Evidence: pg no: 24, L857)",
+      "names": [
+        "Partial hip resurfacing (Evidence: pg no: 24, L857)",
+        "Partial hip resurfacing of the femoral head (Evidence: pg no: 24, L858)"
+      ],
+      "description": "Partial hip resurfacing of the femoral head is considered medically necessary when ALL of the following criteria are met. (Evidence: pg no: 24, L858-L859)",
+      "scope": "This guideline addresses hip arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 22, L756-L757)",
+      "general_requirements": {
+        "documentation": [
+          "Osteonecrosis of the femoral head (less than 50% involvement) with subchondral collapse (Evidence: pg no: 24, L860)",
+          "Imaging evidence of significant joint destruction and cartilage loss, defined as Tönnis grade 3, modified Outerbridge grade III – IV, or Kellgren-Lawrence grade 3 – 4 (Evidence: pg no: 24, L861-L862)",
+          "Limited range of motion, antalgic gait and disabling pain of at least 3 months' duration (Evidence: pg no: 24, L863)",
+          "Pain with passive internal or external rotation (Evidence: pg no: 24, L864)",
+          "Failure of at least 3 months of non-surgical conservative management (Evidence: pg no: 24, L865-L866)",
+          "Functional limitation secondary to hip pathology which interferes with the ability to perform age-appropriate daily activities (Evidence: pg no: 25, L868-L869)"
+        ]
+      },
+      "exclusions": [
+        "Indications for partial hip resurfacing other than those addressed in this guideline are considered not medically necessary (Evidence: pg no: 26, L937-L938)"
+      ],
+      "codes": [],
+      "notes": ""
+    },
+    {
+      "procedure_id": "total_hip_resurfacing",
+      "category": "Hip (Evidence: pg no: 22, L743)",
+      "section_title": "Total hip resurfacing (Evidence: pg no: 25, L870)",
+      "names": [
+        "Total hip resurfacing (Evidence: pg no: 25, L870)",
+        "Total hip resurfacing arthroplasty (HRA) (Evidence: pg no: 25, L871)"
+      ],
+      "description": "Total hip resurfacing arthroplasty (HRA) is considered medically necessary when ALL of the following criteria are met. (Evidence: pg no: 25, L871-L872)",
+      "scope": "This guideline addresses hip arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 22, L756-L757)",
+      "general_requirements": {
+        "documentation": [
+          "Active, fit individual (Evidence: pg no: 25, L873)",
+          "Normal proximal femoral bone geometry and bone quality (Evidence: pg no: 25, L874)",
+          "Otherwise eligible for a conventional primary total hip replacement (THR) (Evidence: pg no: 25, L875-L883)",
+          "Likely to outlive a current conventional total hip replacement (Evidence: pg no: 25, L884)"
+        ]
+      },
+      "exclusions": [
+        "Advanced age (Evidence: pg no: 25, L886)",
+        "Severe osteoporosis (Evidence: pg no: 25, L887)",
+        "Renal insufficiency (Evidence: pg no: 25, L888)",
+        "Known metal hypersensitivity (Evidence: pg no: 25, L889)",
+        "Inadequate bone stock to support the femoral implant (Evidence: pg no: 25, L890)",
+        "Femoral neck or head cysts (Evidence: pg no: 25, L891)",
+        "Severe hip dysplasia (Evidence: pg no: 25, L892)",
+        "Small or bone-deficient acetabulum (Evidence: pg no: 25, L893)"
+      ],
+      "codes": [
+        {
+          "code": "S2118",
+          "system": "HCPCS",
+          "description": "Metal-on-metal total hip resurfacing, including acetabular and femoral components (Evidence: pg no: 27, L979)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "procedure_id": "revision_total_hip_arthroplasty",
+      "category": "Hip (Evidence: pg no: 22, L743)",
+      "section_title": "Revision Total Hip Arthroplasty (Evidence: pg no: 25, L894)",
+      "names": [
+        "Revision Total Hip Arthroplasty (Evidence: pg no: 25, L894)"
+      ],
+      "description": "Revision total hip arthroplasty is considered medically necessary when at least ONE of the following conditions is present. (Evidence: pg no: 25, L895-L896)",
+      "scope": "This guideline addresses hip arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 22, L756-L757)",
+      "general_requirements": {
+        "documentation": [
+          "Aseptic loosening (Evidence: pg no: 25, L897)",
+          "Substantial osteolysis of the weight bearing surfaces with or without periarticular osteolysis (Evidence: pg no: 25, L898)",
+          "Progressive soft tissue or bone reaction including symptomatic synovitis (Evidence: pg no: 25, L899)",
+          "Component instability, failure, or recall (Evidence: pg no: 25, L900)",
+          "Displaced periprosthetic fracture or irreducible dislocation (Evidence: pg no: 25, L901)",
+          "Hip reconstruction after previous removal of prosthesis due to infection or catastrophic failure (Evidence: pg no: 25, L902)",
+          "Metal on metal implant: An elevated synovial cobalt level, An increased cobalt/chromium level (Evidence: pg no: 25, L903-L906)",
+          "Recurrent disabling pain or significant functional disability that persists despite at least 3 months of conservative management (Evidence: pg no: 26, L907-L908)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "27134",
+          "system": "CPT",
+          "description": "Revision of total hip arthroplasty; both components, with or without autograft or allograft (Evidence: pg no: 27, L976)"
+        },
+        {
+          "code": "27137",
+          "system": "CPT",
+          "description": "Revision of total hip arthroplasty; acetabular component only, with or without autograft or allograft (Evidence: pg no: 27, L977)"
+        },
+        {
+          "code": "27138",
+          "system": "CPT",
+          "description": "Revision of total hip arthroplasty; femoral component only, with or without allograft (Evidence: pg no: 27, L978)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "procedure_id": "acetabuloplasty",
+      "category": "Hip (Evidence: pg no: 22, L743)",
+      "section_title": "Acetabuloplasty (Evidence: pg no: 26, L914)",
+      "names": [
+        "Acetabuloplasty (Evidence: pg no: 26, L914)",
+        "Whitman (Evidence: pg no: 26, L914)",
+        "Colonna (Evidence: pg no: 26, L914)",
+        "Haygroves (Evidence: pg no: 26, L914)",
+        "Cup type (Evidence: pg no: 26, L914)"
+      ],
+      "description": "Acetabuloplasty is considered medically necessary when ONE of the following is present. (Evidence: pg no: 26, L915)",
+      "scope": "This guideline addresses hip arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 22, L756-L757)",
+      "general_requirements": {
+        "documentation": [
+          "Acetabular arthritis where there is planned removal of articular cartilage and replacement with interposition tissue (Evidence: pg no: 26, L916-L917)",
+          "Hip instability due to a structurally deficient acetabulum where acetabular augmentation is planned (Evidence: pg no: 26, L918)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "27120",
+          "system": "CPT",
+          "description": "Acetabuloplasty; (eg, Whitman, Colonna, Haygroves, or cup type) (Evidence: pg no: 27, L970)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "procedure_id": "resection_arthroplasty_hip",
+      "category": "Hip (Evidence: pg no: 22, L743)",
+      "section_title": "Resection Arthroplasty of the Hip (Evidence: pg no: 26, L920)",
+      "names": [
+        "Resection Arthroplasty of the Hip (Evidence: pg no: 26, L920)",
+        "Femoral head ostectomy (Evidence: pg no: 26, L921)",
+        "Girdlestone resection arthroplasty (Evidence: pg no: 26, L921)"
+      ],
+      "description": "Resection arthroplasty of the hip, femoral head ostectomy, or Girdlestone resection arthroplasty is considered medically necessary when at least ONE of the following conditions is present. (Evidence: pg no: 26, L921-L922)",
+      "scope": "This guideline addresses hip arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 22, L756-L757)",
+      "general_requirements": {
+        "documentation": [
+          "Painful stiff hip after infection (tuberculosis of the hip or otherwise) (Evidence: pg no: 26, L923)",
+          "Peri-prosthetic infection (Evidence: pg no: 26, L924)",
+          "Aseptic loosening of the hip (Evidence: pg no: 26, L925)",
+          "Recurrent dislocation of the hip (Evidence: pg no: 26, L926)",
+          "Failed internal fixation of a femoral neck fracture (Evidence: pg no: 26, L927)",
+          "Unsalvageable failed hip replacement (Evidence: pg no: 26, L928)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "27122",
+          "system": "CPT",
+          "description": "Acetabuloplasty; resection, femoral head (eg, Girdlestone procedure) (Evidence: pg no: 27, L971)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "procedure_id": "hip_diagnostic_arthroscopy",
+      "category": "Hip (Evidence: pg no: 28, L981)",
+      "section_title": "Diagnostic arthroscopy (Evidence: pg no: 30, L1070)",
+      "names": [
+        "Diagnostic arthroscopy (Evidence: pg no: 30, L1070)",
+        "Diagnostic arthroscopy of the hip joint (Evidence: pg no: 30, L1071)"
+      ],
+      "description": "Diagnostic arthroscopy of the hip joint is considered medically necessary for synovial biopsy or tissue harvest (chondrocyte), or when the involved joint meets ALL of the following criteria. (Evidence: pg no: 30, L1071-L1072)",
+      "scope": "This guideline addresses hip arthroscopy when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture. It does not cover labral reconstructions, capsular plications, or endoscopic procedures done outside of the hip capsule. (Evidence: pg no: 28, L993-L995)",
+      "general_requirements": {
+        "documentation": [
+          "Presence of ONE of the following symptoms: Significant pain and functional limitation, Instability (e.g., giving way, catching, clicking, locking), Limited range of motion (Evidence: pg no: 30, L1073-L1076)",
+          "Presence of ONE of the following physical exam findings: Limited range of motion, Joint swelling, Inconclusive specific diagnostic exam maneuvers, Local muscle weakness or atrophy (Evidence: pg no: 30, L1077-L1081)",
+          "Inconclusive x-ray and/or advanced imaging studies (Evidence: pg no: 30, L1082)",
+          "Failure of at least 6 weeks of conservative management (Evidence: pg no: 30, L1083)"
+        ]
+      },
+      "exclusions": [
+        "In-office diagnostic arthroscopy (e.g., mi-eye 2®) (Evidence: pg no: 30, L1085)",
+        "Non-intraarticular hip procedures (Evidence: pg no: 30, L1086)"
+      ],
+      "codes": [],
+      "notes": ""
+    },
+    {
+      "procedure_id": "hip_synovectomy",
+      "category": "Hip (Evidence: pg no: 28, L981)",
+      "section_title": "Synovectomy (Evidence: pg no: 30, L1087)",
+      "names": [
+        "Synovectomy (Evidence: pg no: 30, L1087)"
+      ],
+      "description": "Any combination of these procedures is considered medically necessary when the following criteria are met. (Evidence: pg no: 30, L1088)",
+      "scope": "This guideline addresses hip arthroscopy when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture. (Evidence: pg no: 28, L993-L994)",
+      "general_requirements": {
+        "documentation": [
+          "Hip pain associated with grinding, catching, locking, or popping, and ALL of the following: Failure of least 3 months of conservative management, Exam findings confirm pain with limited range of motion, Imaging (x-ray, CT or MRI) which shows synovial proliferation, calcifications, nodularity, inflammation, pannus, or loose body (Evidence: pg no: 30, L1089-L1093)"
+        ]
+      },
+      "exclusions": [
+        "Synovectomy performed solely for visualization or approach, or for post traumatic reactive synovitis (Evidence: pg no: 30, L1095)"
+      ],
+      "codes": [],
+      "notes": ""
+    },
+    {
+      "procedure_id": "hip_loose_body_removal",
+      "category": "Hip (Evidence: pg no: 28, L981)",
+      "section_title": "Removal of loose body (Evidence: pg no: 30, L1096)",
+      "names": [
+        "Removal of loose body (Evidence: pg no: 30, L1096)"
+      ],
+      "description": "Removal of loose body is considered medically necessary when BOTH of the following are present. (Evidence: pg no: 30, L1097)",
+      "scope": "This guideline addresses hip arthroscopy when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture. (Evidence: pg no: 28, L993-L994)",
+      "general_requirements": {
+        "documentation": [
+          "Radiographic evidence of acute, post-traumatic, intra-articular foreign body or displaced fracture fragment larger than the size of an arthroscopy cannula (5 mm or larger) (Evidence: pg no: 30, L1098-L1099)",
+          "Hip pain associated with grinding, catching, locking, or popping, and exam findings confirm pain with limited range of motion (Evidence: pg no: 30, L1100-L1101)"
+        ]
+      },
+      "exclusions": [
+        "Removal of loose body for Kellgren-Lawrence grade 4 osteoarthritis (Evidence: pg no: 31, L1104)"
+      ],
+      "codes": [],
+      "notes": ""
+    },
+    {
+      "procedure_id": "hip_acetabuloplasty",
+      "category": "Hip (Evidence: pg no: 28, L981)",
+      "section_title": "Acetabuloplasty (Evidence: pg no: 31, L1106)",
+      "names": [
+        "Acetabuloplasty (Evidence: pg no: 31, L1106)"
+      ],
+      "description": "Acetabuloplasty – ALL of the following criteria are required. (Evidence: pg no: 31, L1106)",
+      "scope": "This guideline addresses hip arthroscopy when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture. (Evidence: pg no: 28, L993-L994)",
+      "general_requirements": {
+        "documentation": [
+          "Moderate to severe hip pain (primarily in the groin) worsened by flexion activities (e.g., squatting or prolonged sitting) that interferes with activities of daily living, which is not explained by another diagnosis (Evidence: pg no: 31, L1107-L1108)",
+          "Positive impingement sign on clinical examination, defined as pain elicited with 90 degrees of flexion and internal rotation and adduction of the femur, or extension and external rotation (Evidence: pg no: 31, L1109-L1110)",
+          "Imaging studies (radiographs, MRI or 3D computed tomography) suggesting a diagnosis of FAIS, including cam impingement and/or pincer impingement (Evidence: pg no: 31, L1111-L1115)",
+          "Failure of conservative management for a duration of at least 3 months, including avoidance of hip stretching or any activity that elicits or aggravates symptoms (Evidence: pg no: 31, L1116-L1117)",
+          "Documentation of a likely causal association between the femoroacetabular impingement morphology and damage to the acetabular margin or the femoral neck (Evidence: pg no: 31, L1118-L1119)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [],
+      "notes": "For arthroscopic treatment of femoroacetabular impingement syndrome (FAIS). (Evidence: pg no: 31, L1105)"
+    },
+    {
+      "procedure_id": "hip_femoroplasty",
+      "category": "Hip (Evidence: pg no: 28, L981)",
+      "section_title": "Femoroplasty (Evidence: pg no: 31, L1120)",
+      "names": [
+        "Femoroplasty (Evidence: pg no: 31, L1120)"
+      ],
+      "description": "Femoroplasty when ALL of the following criteria are met. (Evidence: pg no: 31, L1120)",
+      "scope": "This guideline addresses hip arthroscopy when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture. (Evidence: pg no: 28, L993-L994)",
+      "general_requirements": {
+        "documentation": [
+          "Moderate to severe hip pain (primarily in the groin) worsened by flexion activities (e.g., squatting or prolonged sitting) that interferes with activities of daily living, which is not explained by another diagnosis (Evidence: pg no: 31, L1122-L1123)",
+          "Positive impingement sign on clinical examination, defined as pain elicited with 90 degrees of flexion and internal rotation and adduction of the femur, or extension and external rotation (Evidence: pg no: 31, L1123-L1124)",
+          "Imaging studies (radiographs, MRI or 3D computed tomography) suggesting a diagnosis of FAIS, including cam impingement and/or pincer impingement (Evidence: pg no: 31, L1125-L1128)",
+          "Failure of conservative management for a duration of at least 3 months, including avoidance of hip stretching or any activity that elicits or aggravates symptoms (Evidence: pg no: 31, L1129-L1130)",
+          "Documentation of a likely causal association between the femoroacetabular impingement morphology and damage (Evidence: pg no: 31, L1133-L1135)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [],
+      "notes": "Less than the full duration of conservative management is permitted in the presence of an alpha angle greater than 65 degrees (a measure of asphericity of the femoral head). (Evidence: pg no: 31, L1131-L1132)"
+    },
+    {
+      "procedure_id": "hip_labral_tear_treatment",
+      "category": "Hip (Evidence: pg no: 28, L981)",
+      "section_title": "Labral tear (Evidence: pg no: 31, L1136)",
+      "names": [
+        "Labral tear (Evidence: pg no: 31, L1136)",
+        "Hip arthroscopy for treatment of labral tear (Evidence: pg no: 31, L1137)"
+      ],
+      "description": "Hip arthroscopy is considered medically necessary for treatment of labral tear when ALL of the following criteria are met. (Evidence: pg no: 31, L1137-L1138)",
+      "scope": "This guideline addresses hip arthroscopy when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture. (Evidence: pg no: 28, L993-L994)",
+      "general_requirements": {
+        "documentation": [
+          "Moderate to severe hip pain (primarily in the groin) worsened by flexion activities (e.g., squatting or prolonged sitting) that interferes with activities of daily living, which is not explained by another diagnosis (Evidence: pg no: 31, L1139-L1140)",
+          "Positive impingement sign on clinical examination, defined as pain elicited with 90 degrees of flexion and internal rotation and adduction of the femur, or extension and external rotation (Evidence: pg no: 31, L1141-L1142)",
+          "MRI report that defines or suggests a labral tear (Evidence: pg no: 31, L1143)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [],
+      "notes": ""
+    },
+    {
+      "procedure_id": "hip_debridement_chondroplasty",
+      "category": "Hip (Evidence: pg no: 1, L1)",
+      "section_title": "Hip Debridement/Chondroplasty (Evidence: pg no: 1, L12)",
+      "names": [
+        "Hip debridement/chondroplasty (Evidence: pg no: 1, L12)"
+      ],
+      "description": "Arthroscopic procedure for hip joint debridement and chondroplasty (Evidence: pg no: 1, L12-L14)",
+      "scope": "Treatment of hip conditions excluding osteoarthritis (Evidence: pg no: 1, L12-L14)",
+      "general_requirements": {
+        "documentation": [
+          "Failure of conservative management for at least 3 months (Evidence: pg no: 1, L2-L3)",
+          "Avoidance of hip stretching or activities that elicit symptoms (Evidence: pg no: 1, L2-L3)",
+          "No evidence of advanced osteoarthritis, defined as Tönnis grade 2 or greater (Evidence: pg no: 1, L4-L5)",
+          "No evidence of severe chondral damage (Outerbridge grade IV) (Evidence: pg no: 1, L6)"
+        ]
+      },
+      "exclusions": [
+        "When done solely for treatment of hip osteoarthritis (Kellgren-Lawrence grade 2 or greater, Tönnis grade 2 or greater) (Evidence: pg no: 1, L13-L14)",
+        "Arthroscopic lavage and debridement for advanced osteoarthritis of the hip joint (Evidence: pg no: 1, L8)"
+      ],
+      "codes": [],
+      "notes": "Part of FAIS surgery exclusions (Evidence: pg no: 1, L10-L25)"
+    },
+    {
+      "procedure_id": "fais_labral_repair",
+      "category": "Hip (Evidence: pg no: 1, L1)",
+      "section_title": "FAIS/Labral Repair (Evidence: pg no: 1, L15)",
+      "names": [
+        "FAIS/Labral repair (Evidence: pg no: 1, L15)",
+        "Femoroacetabular impingement syndrome treatment (Evidence: pg no: 1, L15)"
+      ],
+      "description": "Treatment of femoroacetabular impingement syndrome and labral repair (Evidence: pg no: 1, L15-L25)",
+      "scope": "Hip arthroscopic procedures for FAIS (Evidence: pg no: 1, L15-L25)",
+      "general_requirements": {
+        "documentation": []
+      },
+      "exclusions": [
+        "Use of capsular plication as the sole treatment of FAIS (Evidence: pg no: 1, L16)",
+        "Evidence of advanced osteoarthritis, defined as Tönnis grade ≥ 2 (Evidence: pg no: 1, L20-L21)",
+        "Evidence of severe (Outerbridge grade IV) chondral damage (Evidence: pg no: 1, L22)",
+        "Positive broken Shenton line (Evidence: pg no: 1, L23)",
+        "Inclination Tönnis angle greater than 13-15 degrees (Evidence: pg no: 1, L24)",
+        "Labral repair in the presence of untreated severe hip dysplasia (Evidence: pg no: 1, L25)"
+      ],
+      "codes": [
+        {
+          "code": "29916",
+          "system": "CPT",
+          "description": "Arthroscopy, hip, surgical; with labral repair [when repair of the labral tear is associated with FAIS] (Evidence: pg no: 2, L64)"
+        }
+      ],
+      "notes": "Capsular plication, capsular repair, labral reconstruction, iliotibial band windowing, trochanteric bursectomy, abductor muscle repair, and/or iliopsoas tenotomy are considered incidental to FAIS procedure (Evidence: pg no: 1, L17-L19)"
+    },
+    {
+      "procedure_id": "hip_arthroscopy_diagnostic",
+      "category": "Hip (Evidence: pg no: 1, L1)",
+      "section_title": "Hip Arthroscopy, Diagnostic (Evidence: pg no: 2, L57)",
+      "names": [
+        "Arthroscopy, hip, diagnostic (Evidence: pg no: 2, L57)"
+      ],
+      "description": "Diagnostic arthroscopy of hip with or without synovial biopsy (Evidence: pg no: 2, L57)",
+      "scope": "Separate procedure for hip diagnosis (Evidence: pg no: 2, L57)",
+      "general_requirements": {
+        "documentation": []
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "29860",
+          "system": "CPT",
+          "description": "Arthroscopy, hip, diagnostic with or without synovial biopsy (separate procedure) (Evidence: pg no: 2, L57)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "procedure_id": "hip_arthroscopy_loose_body_removal",
+      "category": "Hip (Evidence: pg no: 1, L1)",
+      "section_title": "Hip Arthroscopy, Loose Body Removal (Evidence: pg no: 2, L58)",
+      "names": [
+        "Arthroscopy, hip, surgical; with removal of loose body or foreign body (Evidence: pg no: 2, L58)"
+      ],
+      "description": "Surgical arthroscopy of hip for removal of loose body or foreign body (Evidence: pg no: 2, L58)",
+      "scope": "Hip arthroscopic surgery (Evidence: pg no: 2, L58)",
+      "general_requirements": {
+        "documentation": []
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "29861",
+          "system": "CPT",
+          "description": "Arthroscopy, hip, surgical; with removal of loose body or foreign body (Evidence: pg no: 2, L58)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "procedure_id": "hip_arthroscopy_debridement",
+      "category": "Hip (Evidence: pg no: 1, L1)",
+      "section_title": "Hip Arthroscopy, Debridement (Evidence: pg no: 2, L59-L60)",
+      "names": [
+        "Arthroscopy, hip, surgical; with debridement/shaving of articular cartilage (chondroplasty) (Evidence: pg no: 2, L59-L60)"
+      ],
+      "description": "Surgical arthroscopy of hip with debridement/shaving of articular cartilage, abrasion arthroplasty, and/or resection of labrum (Evidence: pg no: 2, L59-L60)",
+      "scope": "Hip arthroscopic surgery (Evidence: pg no: 2, L59-L60)",
+      "general_requirements": {
+        "documentation": []
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "29862",
+          "system": "CPT",
+          "description": "Arthroscopy, hip, surgical; with debridement/shaving of articular cartilage (chondroplasty), abrasion arthroplasty, and/or resection of labrum (Evidence: pg no: 2, L59-L60)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "procedure_id": "hip_arthroscopy_synovectomy",
+      "category": "Hip (Evidence: pg no: 1, L1)",
+      "section_title": "Hip Arthroscopy, Synovectomy (Evidence: pg no: 2, L61)",
+      "names": [
+        "Arthroscopy, hip, surgical; with synovectomy (Evidence: pg no: 2, L61)"
+      ],
+      "description": "Surgical arthroscopy of hip with synovectomy (Evidence: pg no: 2, L61)",
+      "scope": "Hip arthroscopic surgery (Evidence: pg no: 2, L61)",
+      "general_requirements": {
+        "documentation": []
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "29863",
+          "system": "CPT",
+          "description": "Arthroscopy, hip, surgical; with synovectomy (Evidence: pg no: 2, L61)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "procedure_id": "hip_femoroplasty",
+      "category": "Hip (Evidence: pg no: 1, L1)",
+      "section_title": "Hip Femoroplasty (Evidence: pg no: 2, L62)",
+      "names": [
+        "Arthroscopy, hip, surgical; with femoroplasty (Evidence: pg no: 2, L62)",
+        "Treatment of cam lesion (Evidence: pg no: 2, L62)"
+      ],
+      "description": "Surgical arthroscopy of hip with femoroplasty for treatment of cam lesion (Evidence: pg no: 2, L62)",
+      "scope": "Hip arthroscopic surgery (Evidence: pg no: 2, L62)",
+      "general_requirements": {
+        "documentation": []
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "29914",
+          "system": "CPT",
+          "description": "Arthroscopy, hip, surgical; with femoroplasty (i.e., treatment of cam lesion) (Evidence: pg no: 2, L62)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "procedure_id": "hip_acetabuloplasty",
+      "category": "Hip (Evidence: pg no: 1, L1)",
+      "section_title": "Hip Acetabuloplasty (Evidence: pg no: 2, L63)",
+      "names": [
+        "Arthroscopy, hip, surgical; with acetabuloplasty (Evidence: pg no: 2, L63)",
+        "Treatment of pincer lesion (Evidence: pg no: 2, L63)"
+      ],
+      "description": "Surgical arthroscopy of hip with acetabuloplasty for treatment of pincer lesion (Evidence: pg no: 2, L63)",
+      "scope": "Hip arthroscopic surgery (Evidence: pg no: 2, L63)",
+      "general_requirements": {
+        "documentation": []
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "29915",
+          "system": "CPT",
+          "description": "Arthroscopy, hip, surgical; with acetabuloplasty (i.e., treatment of pincer lesion) (Evidence: pg no: 2, L63)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "procedure_id": "total_knee_arthroplasty",
+      "category": "Knee (Evidence: pg no: 2, L73)",
+      "section_title": "Total Knee Arthroplasty (Evidence: pg no: 3, L166)",
+      "names": [
+        "Total knee arthroplasty (Evidence: pg no: 2, L80)",
+        "TKA (Evidence: pg no: 2, L80)"
+      ],
+      "description": "Knee arthroplasty involves removal of some or all of the diseased articular surfaces of the knee, followed by resurfacing with metal and polyethylene prosthetic components (Evidence: pg no: 2, L76-L78)",
+      "scope": "Elective, non-emergent procedures not as part of care of congenital condition or acute traumatic event (Evidence: pg no: 2, L81-L83)",
+      "general_requirements": {
+        "documentation": [
+          "Clinical notes describing symptom duration and severity, specific functional limitations (Evidence: pg no: 2, L97-L98)",
+          "Conservative management must include physical therapy AND at least ONE complementary conservative treatment strategy (Evidence: pg no: 3, L100-L102)",
+          "Imaging reports obtained within past 12 months describing degree of cartilage damage (Evidence: pg no: 3, L138-L139)",
+          "Imaging evidence of significant joint destruction and cartilage loss, defined as modified Outerbridge grade III-IV or Kellgren-Lawrence grade 3-4 (Evidence: pg no: 4, L173-L174)",
+          "Failure of at least 3 months of non-surgical conservative management (unless radiographs show Kellgren-Lawrence grade 4) (Evidence: pg no: 4, L175-L176)",
+          "Functional limitation secondary to knee pathology which interferes with ability to perform age-appropriate daily activities (Evidence: pg no: 4, L177-L178)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "27447",
+          "system": "CPT",
+          "description": "Arthroplasty, knee, condyle and plateau; medial AND lateral compartments with or without patella resurfacing (total knee arthroplasty) (Evidence: pg no: 7, L302-L303)"
+        }
+      ],
+      "notes": "Considered medically necessary for post-traumatic arthritis, primary or metastatic tumor with limb salvage surgery, or joint damage due to osteoarthritis, inflammatory disease, avascular necrosis, or other chronic conditions (Evidence: pg no: 4, L168-L172)"
+    },
+    {
+      "procedure_id": "unicompartmental_knee_arthroplasty",
+      "category": "Knee (Evidence: pg no: 2, L73)",
+      "section_title": "Unicompartmental Knee Arthroplasty/Partial Knee Replacement (Evidence: pg no: 4, L180)",
+      "names": [
+        "Unicompartmental knee arthroplasty (Evidence: pg no: 2, L81)",
+        "UKA (Evidence: pg no: 2, L81)",
+        "Partial knee replacement (Evidence: pg no: 4, L181)",
+        "PKA (Evidence: pg no: 4, L181)"
+      ],
+      "description": "Elective medial or lateral unicompartmental knee arthroplasty/partial knee replacement (Evidence: pg no: 4, L181-L182)",
+      "scope": "Knee arthroplasty for single compartment (Evidence: pg no: 4, L181-L182)",
+      "general_requirements": {
+        "documentation": [
+          "Osteoarthritis isolated to the medial or lateral knee compartment with no degenerative changes in the opposite compartment (Evidence: pg no: 4, L183-L184)",
+          "Intact anterior cruciate ligament or documentation of stable knee examination (Evidence: pg no: 4, L185-L186)",
+          "Less than 10 degrees of fixed varus deformity for medial UKA (Evidence: pg no: 4, L187)",
+          "Less than 15 degrees of valgus deformity for lateral UKA (Evidence: pg no: 4, L188)",
+          "Failure of at least 3 months of non-surgical conservative treatments (Evidence: pg no: 4, L189-L191)"
+        ]
+      },
+      "exclusions": [
+        "Inflammatory arthritis (Evidence: pg no: 4, L194)",
+        "Moderate-to-severe degenerative changes of the lateral facet of the patellofemoral joint when considering medial compartment replacement (Kellgren-Lawrence grade 3 or 4) (Evidence: pg no: 4, L196-L197)",
+        "Anterior cruciate ligament deficiency (Evidence: pg no: 4, L198)",
+        "Flexion contracture greater than 15 degrees (Evidence: pg no: 4, L199)",
+        "Fixed varus deformity greater than 10 degrees (Evidence: pg no: 4, L200)",
+        "Fixed valgus deformity greater than 15 degrees (Evidence: pg no: 4, L201)",
+        "Flexion less than 110 degrees (Evidence: pg no: 4, L202)",
+        "Previous meniscectomy in another compartment (Evidence: pg no: 4, L203)"
+      ],
+      "codes": [
+        {
+          "code": "27446",
+          "system": "CPT",
+          "description": "Arthroplasty, knee, condyle and plateau; medial OR lateral compartment (Evidence: pg no: 7, L301)"
+        }
+      ],
+      "notes": "UKA may be done with concurrent ACL reconstruction if all other criteria are met (Evidence: pg no: 4, L185-L186)"
+    },
+    {
+      "procedure_id": "patellofemoral_arthroplasty",
+      "category": "Knee (Evidence: pg no: 2, L73)",
+      "section_title": "Patellofemoral Arthroplasty (Evidence: pg no: 5, L204)",
+      "names": [
+        "Patellofemoral arthroplasty (Evidence: pg no: 5, L204)"
+      ],
+      "description": "Elective patellofemoral arthroplasty for specific disease states (Evidence: pg no: 5, L205-L206)",
+      "scope": "Patellofemoral joint replacement (Evidence: pg no: 5, L204-L216)",
+      "general_requirements": {
+        "documentation": [
+          "ONE of the following disease states: Advanced symptomatic primary or secondary isolated patellofemoral osteoarthritis (PFOA), Failed extensor mechanism unloading procedures, or Symptomatic patellofemoral cartilage defects greater than 4 cm2 after failed cartilage repair procedure (Evidence: pg no: 5, L207-L213)",
+          "Failure of at least 3 months of non-surgical conservative management (Evidence: pg no: 5, L214)",
+          "Functional limitation secondary to knee pathology which interferes with ability to perform age-appropriate daily activities (Evidence: pg no: 5, L215-L216)"
+        ]
+      },
+      "exclusions": [
+        "Tibiofemoral osteoarthritis (Evidence: pg no: 5, L219)",
+        "Inflammatory arthritis (Evidence: pg no: 5, L220)",
+        "Patellofemoral malalignment (Evidence: pg no: 5, L221)",
+        "Knee instability (ligaments and/or menisci injuries) (Evidence: pg no: 5, L222)",
+        "Limb malalignment (valgus deformity greater than 8 degrees or varus deformity greater than 5 degrees) (Evidence: pg no: 5, L223)",
+        "Fixed flexion contracture greater than 10 degrees (Evidence: pg no: 5, L224)"
+      ],
+      "codes": [
+        {
+          "code": "27437",
+          "system": "CPT",
+          "description": "Arthroplasty, patella; without prosthesis (Evidence: pg no: 7, L294)"
+        },
+        {
+          "code": "27438",
+          "system": "CPT",
+          "description": "Arthroplasty, patella; with prosthesis (Evidence: pg no: 7, L295)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "procedure_id": "primary_hinge_arthroplasty",
+      "category": "Knee (Evidence: pg no: 2, L73)",
+      "section_title": "Primary Hinge Arthroplasty (Evidence: pg no: 5, L226)",
+      "names": [
+        "Primary hinge arthroplasty (Evidence: pg no: 5, L226)"
+      ],
+      "description": "Primary hinge arthroplasty for specific conditions (Evidence: pg no: 5, L227)",
+      "scope": "Knee arthroplasty with hinge prosthesis (Evidence: pg no: 5, L226-L234)",
+      "general_requirements": {
+        "documentation": [
+          "ONE of the following criteria: Global ligament instability, Severe bone loss or deformity, Absence or deficit of muscular control, Tumoral surgery, Congenital dislocation of knee, or Ankylosis with severe instability after surgical exposition (Evidence: pg no: 5, L228-L234)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "27445",
+          "system": "CPT",
+          "description": "Arthroplasty, knee, hinge prosthesis (eg, Walldius type) (Evidence: pg no: 7, L300)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "procedure_id": "revision_knee_arthroplasty",
+      "category": "Knee (Evidence: pg no: 2, L73)",
+      "section_title": "Revision of Prior Knee Arthroplasty (Evidence: pg no: 5, L236)",
+      "names": [
+        "Revision of prior knee arthroplasty (Evidence: pg no: 5, L237)",
+        "Revision TKA (Evidence: pg no: 2, L80)"
+      ],
+      "description": "Revision of prior knee arthroplasty for various conditions (Evidence: pg no: 5, L237-L252)",
+      "scope": "Exchange of some or all components of prior knee replacement (Evidence: pg no: 2, L86-L88)",
+      "general_requirements": {
+        "documentation": [
+          "ANY of the following conditions: Aseptic loosening, Substantial osteolysis, Progressive soft tissue or bone reaction, Component instability/malalignment/failure/recall, Displaced periprosthetic fracture, Previous removal due to infection, Reconstruction after treatment of infection, or Recurrent disabling pain with specific findings (Evidence: pg no: 5, L239-L252)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "27486",
+          "system": "CPT",
+          "description": "Revision of total knee arthroplasty, with or without allograft; 1 component (Evidence: pg no: 7, L304)"
+        },
+        {
+          "code": "27487",
+          "system": "CPT",
+          "description": "Revision of total knee arthroplasty, with or without allograft; femoral and entire tibial component (Evidence: pg no: 7, L305)"
+        },
+        {
+          "code": "27488",
+          "system": "CPT",
+          "description": "Removal of prosthesis, including total knee prosthesis, methylmethacrylate with or without insertion of spacer, knee (Evidence: pg no: 7, L306-L307)"
+        }
+      ],
+      "notes": "Not inclusive of exchange of components for visualization or joint access alone (Evidence: pg no: 2, L87-L88)"
+    },
+    {
+      "procedure_id": "knee_arthroscopy_diagnostic",
+      "category": "Knee (Evidence: pg no: 2, L73)",
+      "section_title": "Diagnostic Arthroscopy (Evidence: pg no: 9, L392)",
+      "names": [
+        "Diagnostic arthroscopy (Evidence: pg no: 9, L392)"
+      ],
+      "description": "Diagnostic arthroscopy of the knee joint for synovial biopsy, tissue harvest, or when specific criteria are met (Evidence: pg no: 9, L393-L405)",
+      "scope": "Knee arthroscopy for diagnostic purposes (Evidence: pg no: 9, L392-L405)",
+      "general_requirements": {
+        "documentation": [
+          "Presence of ONE of the following symptoms: Significant pain and functional limitation, Instability, or Limited range of motion (Evidence: pg no: 9, L395-L398)",
+          "Presence of ONE of the following physical exam findings: Limited range of motion, Joint swelling, Inconclusive specific diagnostic exam maneuvers, or Local muscle weakness or atrophy (Evidence: pg no: 9, L399-L403)",
+          "Inconclusive x-ray and/or advanced imaging studies (Evidence: pg no: 9, L404)",
+          "Failure of at least 6 weeks of conservative management (Evidence: pg no: 9, L405)"
+        ]
+      },
+      "exclusions": [
+        "In-office diagnostic arthroscopy (e.g., mi-eye 2®) (Evidence: pg no: 9, L407)"
+      ],
+      "codes": [
+        {
+          "code": "29870",
+          "system": "CPT",
+          "description": "Arthroscopy, knee, diagnostic, with or without synovial biopsy (separate procedure) (Evidence: pg no: 16, L699)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "procedure_id": "knee_loose_body_removal",
+      "category": "Knee (Evidence: pg no: 2, L73)",
+      "section_title": "Removal of Loose Body (Evidence: pg no: 9, L408)",
+      "names": [
+        "Removal of loose body (Evidence: pg no: 9, L408)"
+      ],
+      "description": "Removal of loose body when specific criteria are present (Evidence: pg no: 9, L409-L413)",
+      "scope": "Knee arthroscopy for loose body removal (Evidence: pg no: 9, L408-L415)",
+      "general_requirements": {
+        "documentation": [
+          "Radiographic evidence of acute, post-traumatic, intra-articular foreign body or displaced fracture fragment larger than 5 mm when other knee procedure codes are authorized (Evidence: pg no: 9, L410-L412)",
+          "Knee pain associated with grinding, catching, or popping (Evidence: pg no: 9, L413)"
+        ]
+      },
+      "exclusions": [
+        "Removal of loose body for Kellgren-Lawrence grade 4 osteoarthritis (Evidence: pg no: 9, L415)"
+      ],
+      "codes": [
+        {
+          "code": "29874",
+          "system": "CPT",
+          "description": "Arthroscopy, knee, surgical; for removal of loose body or foreign body (eg, osteochondritis dissecans fragmentation, chondral fragmentation) (Evidence: pg no: 16, L702-L703)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "procedure_id": "meniscal_repair_meniscectomy_acute",
+      "category": "Knee (Evidence: pg no: 2, L73)",
+      "section_title": "Meniscal Repair or Meniscectomy - Acute Traumatic (Evidence: pg no: 9, L416-L417)",
+      "names": [
+        "Meniscal repair (Evidence: pg no: 9, L416)",
+        "Meniscectomy (Evidence: pg no: 9, L416)",
+        "Acute traumatic meniscal tear (Evidence: pg no: 9, L417)"
+      ],
+      "description": "Meniscal repair or meniscectomy for acute traumatic meniscal tear with sudden onset of joint-line pain (Evidence: pg no: 9, L418-L419)",
+      "scope": "Treatment of acute meniscal tears (Evidence: pg no: 9, L416-L440)",
+      "general_requirements": {
+        "documentation": [
+          "Knee injury within last 3 months with new onset knee pain (Evidence: pg no: 9, L420)",
+          "Moderate to severe pain associated with functional limitation (Evidence: pg no: 9, L421-L422)",
+          "Symptoms of catching, locking, or instability (Evidence: pg no: 9, L423)",
+          "Physical exam findings of at least TWO: Joint swelling or effusion, Positive McMurray or Apley test, Joint line tenderness, or Reduced range of motion (Evidence: pg no: 9, L424-L429)",
+          "Imaging confirms features of an acute meniscal tear (Evidence: pg no: 9, L432-L433)"
+        ]
+      },
+      "exclusions": [
+        "For x-rays with Kellgren-Lawrence grade 3 or 4 changes and knee pain preceding recent injury (Evidence: pg no: 10, L439-L440)"
+      ],
+      "codes": [
+        {
+          "code": "29880",
+          "system": "CPT",
+          "description": "Arthroscopy, knee, surgical; with meniscectomy (medial AND lateral, including any meniscal shaving) including debridement/shaving of articular cartilage (chondroplasty), same or separate compartment(s), when performed (Evidence: pg no: 16, L709-L710)"
+        },
+        {
+          "code": "29881",
+          "system": "CPT",
+          "description": "Arthroscopy, knee, surgical; with meniscectomy (medial OR lateral, including any meniscal shaving) including debridement/shaving of articular cartilage (chondroplasty), same or separate compartment(s), when performed (Evidence: pg no: 16, L711-L712)"
+        },
+        {
+          "code": "29882",
+          "system": "CPT",
+          "description": "Arthroscopy, knee, surgical; with meniscus repair (medial OR lateral) (Evidence: pg no: 16, L713)"
+        },
+        {
+          "code": "29883",
+          "system": "CPT",
+          "description": "Arthroscopy, knee, surgical; with meniscus repair (medial AND lateral) (Evidence: pg no: 16, L714)"
+        }
+      ],
+      "notes": "Partial meniscectomy considered medically necessary for symptomatic tears not amenable to repair. Meniscal repair considered medically necessary for symptomatic reducible tears that are peripheral (Evidence: pg no: 9, L434-L437)"
+    },
+    {
+      "procedure_id": "meniscal_repair_meniscectomy_chronic",
+      "category": "Knee (Evidence: pg no: 2, L73)",
+      "section_title": "Meniscal Repair or Meniscectomy - Chronic Degenerative (Evidence: pg no: 10, L441)",
+      "names": [
+        "Chronic degenerative meniscal tear (Evidence: pg no: 10, L441)"
+      ],
+      "description": "Meniscal repair or meniscectomy for chronic degenerative meniscal tear without history of significant acute trauma (Evidence: pg no: 10, L442-L443)",
+      "scope": "Treatment of chronic degenerative meniscal tears (Evidence: pg no: 10, L441-L456)",
+      "general_requirements": {
+        "documentation": [
+          "Physical exam findings of at least TWO: Joint swelling or effusion, Positive McMurray or Apley test, Joint line tenderness, or Reduced range of motion (Evidence: pg no: 10, L444-L448)",
+          "Persistent or frequent mechanical symptoms or failure of conservative management for at least 3 months (Evidence: pg no: 10, L449-L450)",
+          "Imaging demonstrating a meniscal tear consistent with clinical presentation (Evidence: pg no: 10, L451)",
+          "X-ray findings demonstrating no more than moderate osteoarthritis (Evidence: pg no: 10, L452-L456)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "29880",
+          "system": "CPT",
+          "description": "Arthroscopy, knee, surgical; with meniscectomy (medial AND lateral, including any meniscal shaving) including debridement/shaving of articular cartilage (chondroplasty), same or separate compartment(s), when performed (Evidence: pg no: 16, L709-L710)"
+        },
+        {
+          "code": "29881",
+          "system": "CPT",
+          "description": "Arthroscopy, knee, surgical; with meniscectomy (medial OR lateral, including any meniscal shaving) including debridement/shaving of articular cartilage (chondroplasty), same or separate compartment(s), when performed (Evidence: pg no: 16, L711-L712)"
+        },
+        {
+          "code": "29882",
+          "system": "CPT",
+          "description": "Arthroscopy, knee, surgical; with meniscus repair (medial OR lateral) (Evidence: pg no: 16, L713)"
+        },
+        {
+          "code": "29883",
+          "system": "CPT",
+          "description": "Arthroscopy, knee, surgical; with meniscus repair (medial AND lateral) (Evidence: pg no: 16, L714)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "procedure_id": "chondroplasty_debridement",
+      "category": "Knee (Evidence: pg no: 2, L73)",
+      "section_title": "Chondroplasty/Debridement (Evidence: pg no: 10, L457)",
+      "names": [
+        "Chondroplasty/debridement (Evidence: pg no: 10, L457)"
+      ],
+      "description": "Chondroplasty/debridement for specific criteria (Evidence: pg no: 10, L458-L466)",
+      "scope": "Smoothing or shaving of symptomatic partial-thickness cartilage lesions (Evidence: pg no: 8, L324-L325)",
+      "general_requirements": {
+        "documentation": [
+          "Pain or mechanical symptoms (Evidence: pg no: 10, L459)",
+          "Partial thickness cartilage lesion or unstable chondral flap documented by MRI (Evidence: pg no: 10, L460)",
+          "Failure to respond to at least a 6-week course of conservative management in the absence of a chondral flap (Evidence: pg no: 10, L461-L462)",
+          "Radiographic imaging consistent with Kellgren-Lawrence grade 2 or lower (Evidence: pg no: 10, L463)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "29877",
+          "system": "CPT",
+          "description": "Arthroscopy, knee, surgical; debridement/shaving of articular cartilage (chondroplasty) (Evidence: pg no: 16, L706)"
+        }
+      ],
+      "notes": "Chondroplasty performed along with meniscectomy in same knee is considered part of main procedure (Evidence: pg no: 10, L464-L466)"
+    },
+    {
+      "procedure_id": "abrasion_arthroplasty_microfracture",
+      "category": "Knee (Evidence: pg no: 2, L73)",
+      "section_title": "Abrasion Arthroplasty/Microfracture (Evidence: pg no: 10, L468)",
+      "names": [
+        "Abrasion arthroplasty/microfracture (Evidence: pg no: 10, L468)",
+        "Microfracture (Evidence: pg no: 8, L326)"
+      ],
+      "description": "Abrasion arthroplasty/microfracture for knee including patella when specific lesion and joint criteria are met (Evidence: pg no: 10, L469-L480)",
+      "scope": "Treatment of focal articular cartilage defects (Evidence: pg no: 8, L326-L330)",
+      "general_requirements": {
+        "documentation": [
+          "Absence of kissing knee lesions (lesion must be single and involve only one side of joint) (Evidence: pg no: 10, L471)",
+          "Lesion is largely contained with near normal surrounding articular cartilage (Evidence: pg no: 10, L472)",
+          "Full-thickness lesion involving focal, grade III or IV isolated defect of weight-bearing surface (Evidence: pg no: 10, L473)",
+          "Documented minimal to absent degenerative changes in surrounding articular cartilage (Outerbridge grade II or less) (Evidence: pg no: 10, L474-L475)",
+          "Knee joint is stable, with functionally intact menisci and ligaments, and has normal alignment (Evidence: pg no: 10, L476)",
+          "Lesion involves focal, full thickness, grade III or IV isolated defect greater than 1 cm2 – 2.5 cm2 (Evidence: pg no: 10, L477-L478)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "29879",
+          "system": "CPT",
+          "description": "Arthroscopy, knee, surgical; abrasion arthroplasty (includes chondroplasty where necessary) or multiple drilling or microfracture (Evidence: pg no: 16, L707-L708)"
+        }
+      ],
+      "notes": "Corrective procedures may be performed in combination with or prior to abrasion arthroplasty/microfracture (Evidence: pg no: 10, L479-L480)"
+    },
+    {
+      "procedure_id": "debridement_drainage_lavage",
+      "category": "Knee (Evidence: pg no: 2, L73)",
+      "section_title": "Debridement/Drainage/Lavage (Evidence: pg no: 10, L481)",
+      "names": [
+        "Debridement/drainage/lavage (Evidence: pg no: 10, L481)"
+      ],
+      "description": "Debridement/drainage/lavage for specific conditions (Evidence: pg no: 10, L482-L487)",
+      "scope": "Treatment of specific knee conditions (Evidence: pg no: 10, L481-L489)",
+      "general_requirements": {
+        "documentation": [
+          "ALL of the following conditions: Rheumatoid arthritis with failure of medical management (DMARDs), Septic joint or osteomyelitis, Septic prosthetic joint, or Postoperative arthrofibrosis with limited range of motion and failure of at least 6 weeks of conservative management (Evidence: pg no: 10, L483-L487)"
+        ]
+      },
+      "exclusions": [
+        "Debridement or lavage for isolated primary diagnosis of osteoarthritis of the knee (Evidence: pg no: 10, L489)"
+      ],
+      "codes": [
+        {
+          "code": "29871",
+          "system": "CPT",
+          "description": "Arthroscopy, knee, surgical; for infection, lavage and drainage (Evidence: pg no: 16, L700)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "procedure_id": "arthroscopic_lysis_adhesions",
+      "category": "Knee (Evidence: pg no: 2, L73)",
+      "section_title": "Arthroscopically Assisted Lysis of Adhesions (Evidence: pg no: 10, L490)",
+      "names": [
+        "Arthroscopically assisted lysis of adhesions (Evidence: pg no: 10, L490)"
+      ],
+      "description": "Arthroscopically assisted lysis of adhesions for post-traumatic, post-surgical, or idiopathic stiffness (Evidence: pg no: 10, L491-L496)",
+      "scope": "Treatment of knee stiffness (Evidence: pg no: 10, L490-L496)",
+      "general_requirements": {
+        "documentation": [
+          "Physical exam demonstrates limited range of motion of knee, defined as less than 105 degrees of flexion or flexion contracture greater than 10 degrees (Evidence: pg no: 10, L493-L494)",
+          "Range of motion has failed to improve despite 6 weeks of conservative management (Evidence: pg no: 10, L495)",
+          "Failure of prior manipulation under anesthesia or manipulation under anesthesia is planned concurrently (Evidence: pg no: 10, L496)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "29884",
+          "system": "CPT",
+          "description": "Arthroscopy, knee, surgical; with lysis of adhesions, with or without manipulation (separate procedure) (Evidence: pg no: 16, L716)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "procedure_id": "manipulation_under_anesthesia",
+      "category": "Knee (Evidence: pg no: 2, L73)",
+      "section_title": "Manipulation Under Anesthesia (Evidence: pg no: 10, L497)",
+      "names": [
+        "Manipulation under anesthesia (Evidence: pg no: 10, L497)",
+        "MUA (Evidence: pg no: 10, L498)"
+      ],
+      "description": "Manipulation under anesthesia for post-traumatic, post-surgical, or idiopathic stiffness (Evidence: pg no: 10, L498-L502)",
+      "scope": "Treatment of knee stiffness (Evidence: pg no: 10, L497-L502)",
+      "general_requirements": {
+        "documentation": [
+          "Physical exam demonstrates limited range of motion of knee defined as less than 105 degrees of flexion or flexion contracture greater than 10 degrees (Evidence: pg no: 10, L500-L501)",
+          "Range of motion has failed to improve despite 6 weeks of conservative management (Evidence: pg no: 10, L502)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "27570",
+          "system": "CPT",
+          "description": "Manipulation of knee joint under general anesthesia (includes application of traction or other fixation devices) (Evidence: pg no: 16, L698)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "procedure_id": "anterolateral_ligament_reconstruction",
+      "category": "Knee (Evidence: pg no: 2, L73)",
+      "section_title": "Anterolateral Ligament Reconstruction or Extra Articular Tenodesis (Evidence: pg no: 10, L503)",
+      "names": [
+        "Anterolateral ligament reconstruction (Evidence: pg no: 10, L503)",
+        "Extra articular tenodesis (Evidence: pg no: 10, L503)"
+      ],
+      "description": "Reconstruction of anterolateral ligament or extra articular tenodesis for knee stability (Evidence: pg no: 10, L504-L510)",
+      "scope": "Knee stability procedures (Evidence: pg no: 10, L503-L510)",
+      "general_requirements": {
+        "documentation": [
+          "ANY of the following criteria: Skeletal immaturity that makes ACL reconstruction not feasible, A revision ACL reconstruction is planned, Positive pivot shift or other evidence of rotational instability, or Ligamentous laxity as confirmed by Beighton or comparable score (Evidence: pg no: 10, L507-L510)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "27427",
+          "system": "CPT",
+          "description": "Ligamentous reconstruction (augmentation), knee; extra-articular (Evidence: pg no: 16, L694)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "procedure_id": "acl_reconstruction",
+      "category": "Knee (Evidence: pg no: 2, L73)",
+      "section_title": "Anterior Cruciate Ligament Reconstruction (Evidence: pg no: 11, L511)",
+      "names": [
+        "Anterior cruciate ligament reconstruction (Evidence: pg no: 11, L512)",
+        "ACL reconstruction (Evidence: pg no: 11, L512)"
+      ],
+      "description": "Anterior cruciate ligament reconstruction when specific criteria are met (Evidence: pg no: 11, L512-L526)",
+      "scope": "Treatment of ACL tears (Evidence: pg no: 11, L511-L526)",
+      "general_requirements": {
+        "documentation": [
+          "There is not advanced knee arthritis (Kellgren-Lawrence grade 4) (Evidence: pg no: 11, L514)",
+          "A diagnosis of ACL tear as established by exam findings or imaging (Evidence: pg no: 11, L515-L517)",
+          "At least ONE of the following scenarios: ACL tear with meniscal tear or ligamentous injury, patient involved in physically demanding occupation or activities, or two weeks of conservative care has been tried and failed (Evidence: pg no: 11, L518-L526)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "29888",
+          "system": "CPT",
+          "description": "Arthroscopically aided anterior cruciate ligament repair/augmentation or reconstruction (Evidence: pg no: 16, L721)"
+        },
+        {
+          "code": "27428",
+          "system": "CPT",
+          "description": "Ligamentous reconstruction (augmentation), knee; intra-articular (open) (Evidence: pg no: 16, L695)"
+        },
+        {
+          "code": "27429",
+          "system": "CPT",
+          "description": "Ligamentous reconstruction (augmentation), knee; intra-articular (open) and extra-articular (Evidence: pg no: 16, L696)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "procedure_id": "pcl_reconstruction",
+      "category": "Knee (Evidence: pg no: 2, L73)",
+      "section_title": "Posterior Cruciate Ligament Repair or Reconstruction (Evidence: pg no: 11, L527)",
+      "names": [
+        "Posterior cruciate ligament repair (Evidence: pg no: 11, L528)",
+        "Posterior cruciate ligament reconstruction (Evidence: pg no: 11, L528)",
+        "PCL repair (Evidence: pg no: 11, L528)",
+        "PCL reconstruction (Evidence: pg no: 11, L528)"
+      ],
+      "description": "Posterior cruciate ligament repair or reconstruction when specific criteria are met (Evidence: pg no: 11, L528-L535)",
+      "scope": "Treatment of PCL tears (Evidence: pg no: 11, L527-L535)",
+      "general_requirements": {
+        "documentation": [
+          "There is not advanced knee arthritis (Kellgren-Lawrence grade 4) (Evidence: pg no: 11, L530)",
+          "A diagnosis of PCL tear as established by exam findings or imaging (Evidence: pg no: 11, L531-L533)",
+          "Associated ligamentous injuries (Evidence: pg no: 11, L534-L535)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "29889",
+          "system": "CPT",
+          "description": "Arthroscopically aided posterior cruciate ligament repair/augmentation or reconstruction (Evidence: pg no: 16, L722)"
+        },
+        {
+          "code": "27407",
+          "system": "CPT",
+          "description": "Repair, primary, torn ligament and/or capsule, knee; cruciate (Evidence: pg no: 16, L686)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "procedure_id": "posterolateral_corner_reconstruction",
+      "category": "Knee (Evidence: pg no: 2, L73)",
+      "section_title": "Posterolateral Corner Injury (Evidence: pg no: 11, L536)",
+      "names": [
+        "Posterolateral corner reconstruction (Evidence: pg no: 11, L537)"
+      ],
+      "description": "Posterolateral corner reconstruction when specific criteria are met (Evidence: pg no: 11, L537-L540)",
+      "scope": "Treatment of posterolateral corner injuries (Evidence: pg no: 11, L536-L540)",
+      "general_requirements": {
+        "documentation": [
+          "Imaging confirmation of injury to posterolateral structures (Evidence: pg no: 11, L538)",
+          "Exam findings consistent with posterolateral corner injury (Evidence: pg no: 11, L539)",
+          "Associated ligamentous injuries necessitating treatment (Evidence: pg no: 11, L540)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [],
+      "notes": ""
+    },
+    {
+      "procedure_id": "collateral_ligament_reconstruction",
+      "category": "Knee (Evidence: pg no: 2, L73)",
+      "section_title": "Collateral or Extra-articular Ligament Injury (Evidence: pg no: 11, L541)",
+      "names": [
+        "Collateral ligament reconstruction (Evidence: pg no: 11, L542)",
+        "Extra-articular ligament reconstruction (Evidence: pg no: 11, L542)"
+      ],
+      "description": "Collateral or extra-articular ligament reconstruction when specific criteria are met (Evidence: pg no: 11, L542-L548)",
+      "scope": "Treatment of collateral ligament injuries (Evidence: pg no: 11, L541-L548)",
+      "general_requirements": {
+        "documentation": [
+          "EITHER diagnosis of ligament injury by advanced imaging evidence of complete tear or physical exam findings consistent with instability with conservative management for 6 weeks, OR associated ligamentous injury treatment (Evidence: pg no: 11, L544-L548)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "27405",
+          "system": "CPT",
+          "description": "Repair, primary, torn ligament and/or capsule, knee; collateral (Evidence: pg no: 16, L685)"
+        },
+        {
+          "code": "27409",
+          "system": "CPT",
+          "description": "Repair, primary, torn ligament and/or capsule, knee; collateral and cruciate ligaments (Evidence: pg no: 16, L687)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "procedure_id": "lateral_retinacular_release",
+      "category": "Knee (Evidence: pg no: 2, L73)",
+      "section_title": "Patellar Compression Syndrome (Lateral Patellofemoral Impingement) (Evidence: pg no: 12, L549)",
+      "names": [
+        "Lateral retinacular release (Evidence: pg no: 12, L550)"
+      ],
+      "description": "Lateral retinacular release for patellar compression syndrome when specific criteria are met (Evidence: pg no: 12, L550-L558)",
+      "scope": "Treatment of lateral patellofemoral impingement (Evidence: pg no: 12, L549-L560)",
+      "general_requirements": {
+        "documentation": [
+          "Positive lateral patellar tilt established on imaging (axial view) (Evidence: pg no: 12, L551)",
+          "Failure of at least 6 months of conservative management (Evidence: pg no: 12, L552)",
+          "Radiographic imaging consistent with Kellgren-Lawrence grade 2 or lower patellofemoral osteoarthritis (Evidence: pg no: 12, L553)",
+          "At least ONE of the following: Positive patella glide test, Positive patella tilt test, or Lateral femoral trochlear or lateral patella facet cartilage lesion confirmed by imaging (Evidence: pg no: 12, L554-L558)"
+        ]
+      },
+      "exclusions": [
+        "Central or medial tracking of the patella (Evidence: pg no: 12, L560)"
+      ],
+      "codes": [
+        {
+          "code": "29873",
+          "system": "CPT",
+          "description": "Arthroscopy, knee, surgical; with lateral release (Evidence: pg no: 16, L701)"
+        },
+        {
+          "code": "27425",
+          "system": "CPT",
+          "description": "Lateral retinacular release, open (Evidence: pg no: 16, L693)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "procedure_id": "quadricepsplasty",
+      "category": "Knee (Evidence: pg no: 2, L73)",
+      "section_title": "Quadricepsplasty (Evidence: pg no: 12, L561)",
+      "names": [
+        "Quadricepsplasty (Evidence: pg no: 12, L561)"
+      ],
+      "description": "Quadricepsplasty for knee extension contracture secondary to prior femur/knee fracture or surgery (Evidence: pg no: 12, L562-L566)",
+      "scope": "Treatment of knee extension contracture (Evidence: pg no: 12, L561-L566)",
+      "general_requirements": {
+        "documentation": [
+          "Knee flexion less than 90 degrees (Evidence: pg no: 12, L564)",
+          "Failure of at least 12 weeks of conservative management (Evidence: pg no: 12, L565)",
+          "Failure of an arthroscopic lysis of adhesions (Evidence: pg no: 12, L566)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "27430",
+          "system": "CPT",
+          "description": "Quadricepsplasty (eg, Bennett or Thompson type) (Evidence: pg no: 16, L697)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "procedure_id": "distal_realignment_procedures",
+      "category": "Knee (Evidence: pg no: 2, L73)",
+      "section_title": "Distal Realignment Procedures (Evidence: pg no: 12, L567)",
+      "names": [
+        "Distal realignment procedures (Evidence: pg no: 12, L567)",
+        "Tibial tubercle transfer (Evidence: pg no: 12, L568)"
+      ],
+      "description": "Distal realignment procedures for patellar instability in skeletally mature patients (Evidence: pg no: 12, L568-L575)",
+      "scope": "Treatment of patellar instability (subluxation/dislocation) (Evidence: pg no: 12, L567-L575)",
+      "general_requirements": {
+        "documentation": [
+          "Recurrent patellofemoral instability associated with pain that limits function (Evidence: pg no: 12, L570)",
+          "Failure of at least 12 weeks of conservative management that includes physical therapy (Evidence: pg no: 12, L571)",
+          "Radiographic imaging consistent with Kellgren-Lawrence grade 2 or lower patellofemoral osteoarthritis (Evidence: pg no: 12, L572)",
+          "Presence of at least ONE: Tibial tubercle-trochlear groove (TT-TG) distance > 20 mm or Patella alta (Evidence: pg no: 12, L573-L575)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "27418",
+          "system": "CPT",
+          "description": "Anterior tibial tubercleplasty (eg, Maquet type procedure) (Evidence: pg no: 16, L688)"
+        },
+        {
+          "code": "27420",
+          "system": "CPT",
+          "description": "Reconstruction of dislocating patella; (eg, Hauser type procedure) (Evidence: pg no: 16, L689)"
+        },
+        {
+          "code": "27422",
+          "system": "CPT",
+          "description": "Reconstruction of dislocating patella; with extensor realignment and/or muscle advancement or release (eg, Campbell, Goldwaite type procedure) (Evidence: pg no: 16, L690-L691)"
+        },
+        {
+          "code": "27424",
+          "system": "CPT",
+          "description": "Reconstruction of dislocating patella; with patellectomy (Evidence: pg no: 16, L692)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "procedure_id": "mpfl_reconstruction",
+      "category": "Knee (Evidence: pg no: 2, L73)",
+      "section_title": "Medial Patellofemoral Ligament Reconstruction (Evidence: pg no: 12, L576)",
+      "names": [
+        "Medial patellofemoral ligament reconstruction (Evidence: pg no: 12, L577)",
+        "MPFL reconstruction (Evidence: pg no: 12, L577)"
+      ],
+      "description": "Medial patellofemoral ligament reconstruction when specific criteria apply (Evidence: pg no: 12, L577-L587)",
+      "scope": "Treatment of patellofemoral instability (Evidence: pg no: 12, L576-L587)",
+      "general_requirements": {
+        "documentation": [
+          "EITHER performed in combination with distal realignment for patellofemoral instability OR ALL of the following criteria: Recurrent patellofemoral instability with pain that limits function OR failure of at least 12 weeks of conservative management, Radiographic imaging consistent with Kellgren-Lawrence grade 2 or lower patellofemoral osteoarthritis, and Presence of tibial tubercle-trochlear groove distance < 20 mm, normal trochlear morphology, and absence of patella alta (Evidence: pg no: 12, L579-L587)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [],
+      "notes": ""
+    },
+    {
+      "procedure_id": "plica_resection",
+      "category": "Knee (Evidence: pg no: 2, L73)",
+      "section_title": "Plica Resection (Evidence: pg no: 12, L588)",
+      "names": [
+        "Plica resection (Evidence: pg no: 12, L588)"
+      ],
+      "description": "Plica resection when at least TWO of five criteria are present AND BOTH additional criteria are met (Evidence: pg no: 12, L589-L599)",
+      "scope": "Treatment of plica syndrome (Evidence: pg no: 12, L588-L599)",
+      "general_requirements": {
+        "documentation": [
+          "At least TWO of the following: Anteromedial knee joint line pain, Audible clicking or snap during knee motion, Pain with activities, Positive Hughston plica test or positive duvet test, or Visible or palpable tender plica (Evidence: pg no: 12, L591-L596)",
+          "Exclusion of other causes of anteromedial knee pain (Evidence: pg no: 12, L598)",
+          "Failure of at least 12 weeks of conservative management (Evidence: pg no: 12, L599)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "29875",
+          "system": "CPT",
+          "description": "Arthroscopy, knee, surgical; synovectomy, limited (eg, plica or shelf resection) (separate procedure) (Evidence: pg no: 16, L704)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "procedure_id": "popliteal_cyst_excision",
+      "category": "Knee (Evidence: pg no: 2, L73)",
+      "section_title": "Excision of Popliteal Cyst (Evidence: pg no: 13, L600)",
+      "names": [
+        "Excision of popliteal cyst (Evidence: pg no: 13, L600)"
+      ],
+      "description": "Excision of a popliteal cyst when specific criteria are present (Evidence: pg no: 13, L601-L602)",
+      "scope": "Treatment of popliteal cysts (Evidence: pg no: 13, L600-L602)",
+      "general_requirements": {
+        "documentation": [
+          "Posterior knee pain ≥ 4 on the VAS scale of at least 8 weeks' duration (Evidence: pg no: 13, L602)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "27345",
+          "system": "CPT",
+          "description": "Excision synovial cyst popliteal space (Evidence: pg no: 16, L683)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "procedure_id": "synovectomy_limited",
+      "category": "Knee (Evidence: pg no: 2, L73)",
+      "section_title": "Synovectomy (Limited) (Evidence: pg no: 13, L603)",
+      "names": [
+        "Limited synovial excision (Evidence: pg no: 13, L604)"
+      ],
+      "description": "Limited synovial excision when specific criteria are met (Evidence: pg no: 13, L604-L609)",
+      "scope": "Treatment of localized synovial proliferative processes (Evidence: pg no: 13, L603-L609)",
+      "general_requirements": {
+        "documentation": [
+          "EITHER imaging confirmation of primary localized synovial proliferative process OR physical exam findings and/or symptoms correlate with synovial proliferative process (Evidence: pg no: 13, L605-L608)",
+          "Documentation of at least 12 weeks of conservative management (Evidence: pg no: 13, L609)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "29875",
+          "system": "CPT",
+          "description": "Arthroscopy, knee, surgical; synovectomy, limited (eg, plica or shelf resection) (separate procedure) (Evidence: pg no: 16, L704)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "procedure_id": "synovectomy_extensive",
+      "category": "Knee (Evidence: pg no: 2, L73)",
+      "section_title": "Synovectomy (Extensive) (Evidence: pg no: 13, L610)",
+      "names": [
+        "Synovectomy (Evidence: pg no: 13, L610)"
+      ],
+      "description": "Synovectomy for specific conditions (Evidence: pg no: 13, L611-L618)",
+      "scope": "Treatment of extensive synovial conditions (Evidence: pg no: 13, L610-L618)",
+      "general_requirements": {
+        "documentation": [
+          "ANY of the following conditions: Rheumatoid arthritis or other chronic inflammatory arthropathies with failure of conservative management, Hemophilic joint disease, or Other diffuse synovial proliferative disorders (Evidence: pg no: 13, L612-L618)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "29876",
+          "system": "CPT",
+          "description": "Arthroscopy, knee, surgical; synovectomy, major, 2 or more compartments (eg, medial or lateral) (Evidence: pg no: 16, L705)"
+        },
+        {
+          "code": "27334",
+          "system": "CPT",
+          "description": "Arthrotomy, with synovectomy, knee; anterior OR posterior (Evidence: pg no: 16, L681)"
+        },
+        {
+          "code": "27335",
+          "system": "CPT",
+          "description": "Arthrotomy, with synovectomy, knee; anterior AND posterior including popliteal area (Evidence: pg no: 16, L682)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "procedure_id": "meniscal_allograft_transplantation",
+      "category": "Knee (Evidence: pg no: 2, L73)",
+      "section_title": "Meniscal Allograft Transplantation of the Knee (Evidence: pg no: 17, L726)",
+      "names": [
+        "Meniscal allograft transplantation (Evidence: pg no: 17, L728)",
+        "Meniscal allograft transplantation of the knee (Evidence: pg no: 17, L786)"
+      ],
+      "description": "Surgical procedure used to restore normal meniscal function by replacing damaged or absent meniscus with donor cadaver allograft cartilage (Evidence: pg no: 17, L728-L730)",
+      "scope": "Treatment for patients with pain or disability attributed to insufficient cushioning and lubrication of joint (Evidence: pg no: 17, L730-L733)",
+      "general_requirements": {
+        "documentation": [
+          "Operative report of prior arthroscopic procedure and/or MRI of knee performed within past 12 months (Evidence: pg no: 17, L742-L743)",
+          "Conservative management including physical therapy AND at least ONE complementary conservative treatment strategy (Evidence: pg no: 17, L747-L767)",
+          "Age 55 or younger and skeletally mature (Evidence: pg no: 18, L790)",
+          "Knee pain refractory to conservative treatment (Evidence: pg no: 18, L791)",
+          "Ligamentous stability either prior to surgery or achieved concurrently (Evidence: pg no: 18, L792)",
+          "Normal alignment without varus or valgus deformities (Evidence: pg no: 18, L793)",
+          "Mild to moderate articular damage (Outerbridge grade II or less) (Evidence: pg no: 18, L794)"
+        ]
+      },
+      "exclusions": [
+        "Treatment for asymptomatic individuals with partial or complete loss of meniscus (Evidence: pg no: 18, L798)",
+        "Use of other meniscal implants incorporating materials such as collagen and polyurethane (Evidence: pg no: 18, L799)"
+      ],
+      "codes": [
+        {
+          "code": "29868",
+          "system": "CPT",
+          "description": "Arthroscopy, knee, surgical; meniscal transplantation (includes arthrotomy for meniscal insertion), medial or lateral (Evidence: pg no: 19, L823)"
+        },
+        {
+          "code": "G0428",
+          "system": "HCPCS",
+          "description": "Collagen meniscus implant procedure for filling meniscal defects (eg, CMI, collagen scaffold, Menaflex) (Evidence: pg no: 19, L824)"
+        }
+      ],
+      "notes": "Goal is reduction in pain, prevention of degenerative changes, and restoration of mechanical properties (Evidence: pg no: 17, L732-L733)"
+    },
+    {
+      "procedure_id": "osteochondritis_dissecans_juvenile",
+      "category": "Multiple Joints (Evidence: pg no: 19, L826)",
+      "section_title": "Osteochondritis Dissecans (Juvenile) (Evidence: pg no: 21, L928)",
+      "names": [
+        "Juvenile OCD (Evidence: pg no: 21, L928)",
+        "JOCD (Evidence: pg no: 21, L925)"
+      ],
+      "description": "Surgical treatment for juvenile osteochondritis dissecans occurring with open epiphyseal plate (Evidence: pg no: 21, L925-L933)",
+      "scope": "Treatment of OCD in children and adolescents (Evidence: pg no: 21, L922-L933)",
+      "general_requirements": {
+        "documentation": [
+          "Failure of 3 months of conservative management (e.g., immobilization, restricted weight-bearing, avoidance of sports activities) (Evidence: pg no: 21, L931-L932)",
+          "Presence of an unstable lesion (based on advanced imaging or arthroscopic evaluation) (Evidence: pg no: 21, L933)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "29879",
+          "system": "CPT",
+          "description": "Arthroscopy, knee, surgical; abrasion arthroplasty (includes chondroplasty where necessary) or multiple drilling or microfracture (Evidence: pg no: 24, L1062-L1063)"
+        }
+      ],
+      "notes": "OCD affects medial or lateral femoral condyles, not patella, femoral trochlea, or tibial plateau (Evidence: pg no: 21, L924-L925)"
+    },
+    {
+      "procedure_id": "osteochondritis_dissecans_adult",
+      "category": "Multiple Joints (Evidence: pg no: 19, L826)",
+      "section_title": "Osteochondritis Dissecans (Adult) (Evidence: pg no: 21, L934)",
+      "names": [
+        "Adult OCD (Evidence: pg no: 21, L934)",
+        "AOCD (Evidence: pg no: 21, L926)"
+      ],
+      "description": "Surgical treatment for adult osteochondritis dissecans after physis has closed (Evidence: pg no: 21, L935-L939)",
+      "scope": "Treatment of OCD in adults (Evidence: pg no: 21, L934-L939)",
+      "general_requirements": {
+        "documentation": [
+          "Failure of 3 months of conservative management (e.g., immobilization, restricted weight-bearing, avoidance of sports activities) (Evidence: pg no: 21, L937-L938)",
+          "Presence of an unstable lesion (based on advanced imaging or arthroscopic evaluation) (Evidence: pg no: 21, L939)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "29885",
+          "system": "CPT",
+          "description": "Arthroscopy, knee, surgical; drilling for osteochondritis dissecans with bone grafting, with or without internal fixation (including debridement of base of lesion) (Evidence: pg no: 16, L717-L718)"
+        },
+        {
+          "code": "29886",
+          "system": "CPT",
+          "description": "Arthroscopy, knee, surgical; drilling for intact osteochondritis dissecans lesion (Evidence: pg no: 16, L719)"
+        },
+        {
+          "code": "29887",
+          "system": "CPT",
+          "description": "Arthroscopy, knee, surgical; drilling for intact osteochondritis dissecans lesion with internal fixation (Evidence: pg no: 16, L720)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "procedure_id": "osteochondral_allograft_knee",
+      "category": "Knee (Evidence: pg no: 2, L73)",
+      "section_title": "Osteochondral Allograft Transplantation - Knee (Evidence: pg no: 21, L942)",
+      "names": [
+        "Osteochondral allograft transplantation (Evidence: pg no: 21, L943)"
+      ],
+      "description": "Osteochondral allograft transplantation to treat cartilaginous defects of the knee (Evidence: pg no: 21, L943-L948)",
+      "scope": "Treatment of knee cartilage defects (Evidence: pg no: 21, L942-L948)",
+      "general_requirements": {
+        "documentation": [
+          "Size of cartilage defect is greater than or equal to 1.0 cm2 in total area, as documented by MRI or arthroscopy (Evidence: pg no: 21, L945-L946)",
+          "Condition involves focal, full thickness, grade III or IV isolated defect of weight-bearing surface of medial or lateral femoral condyles or trochlear region (Evidence: pg no: 21, L947-L948)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "27415",
+          "system": "CPT",
+          "description": "Osteochondral allograft, knee, open [when specified as osteochondral allograft] (Evidence: pg no: 24, L1057)"
+        },
+        {
+          "code": "29867",
+          "system": "CPT",
+          "description": "Arthroscopy, knee, surgical; osteochondral allograft (eg, mosaicplasty) (Evidence: pg no: 24, L1061)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "procedure_id": "osteochondral_allograft_talus",
+      "category": "Ankle (Evidence: pg no: 19, L826)",
+      "section_title": "Osteochondral Allograft Transplantation - Talus (Evidence: pg no: 21, L949)",
+      "names": [
+        "Osteochondral allograft transplantation (Evidence: pg no: 21, L950)"
+      ],
+      "description": "Osteochondral allograft transplantation to treat cartilaginous defects of the talus (Evidence: pg no: 21, L950-L956)",
+      "scope": "Treatment of talar cartilage defects (Evidence: pg no: 21, L949-L956)",
+      "general_requirements": {
+        "documentation": [
+          "EITHER large (area > 1.0 cm2) or cystic (volume > 3.0 cm3) osteochondral lesions of talus when autografting would be inadequate due to lesion size, depth, or location OR revision surgery after failed prior marrow stimulation for large or cystic osteochondral lesions (Evidence: pg no: 21, L952-L956)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [],
+      "notes": ""
+    },
+    {
+      "procedure_id": "osteochondral_autograft_knee",
+      "category": "Knee (Evidence: pg no: 2, L73)",
+      "section_title": "Osteochondral Autograft Transplantation - Knee (Evidence: pg no: 21, L958)",
+      "names": [
+        "Osteochondral autograft transplantation (Evidence: pg no: 21, L959)",
+        "Osteochondral autograft transplant (Evidence: pg no: 21, L959)",
+        "OAT (Evidence: pg no: 21, L959)",
+        "Autologous mosaicplasty (Evidence: pg no: 21, L960)"
+      ],
+      "description": "Osteochondral autograft transplantation to treat cartilaginous defects of the knee (Evidence: pg no: 21, L959-L967)",
+      "scope": "Treatment of knee cartilage defects (Evidence: pg no: 21, L958-L967)",
+      "general_requirements": {
+        "documentation": [
+          "Size of cartilage defect is between 1.0 cm and 2.5 cm2 in total area, as documented by MRI or arthroscopy (Evidence: pg no: 21, L962-L963)",
+          "Condition involves focal, full thickness, grade III or IV isolated defect of knee involving weight bearing surface of medial or lateral femoral condyles or trochlear region (Evidence: pg no: 21, L964-L966)",
+          "Absence of kissing knee lesions (lesion must be single and involve only one side of joint) (Evidence: pg no: 21, L967)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "27416",
+          "system": "CPT",
+          "description": "Osteochondral autograft(s), knee, open (eg, mosaicplasty) includes harvesting of autograft[s]) (Evidence: pg no: 24, L1058)"
+        },
+        {
+          "code": "29866",
+          "system": "CPT",
+          "description": "Arthroscopy, knee, surgical; osteochondral autograft(s) (eg, mosaicplasty) (includes harvesting of the autograft) (Evidence: pg no: 24, L1060)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "procedure_id": "osteochondral_autograft_talus",
+      "category": "Ankle (Evidence: pg no: 19, L826)",
+      "section_title": "Osteochondral Autograft Transplantation - Talus (Evidence: pg no: 21, L968)",
+      "names": [
+        "Osteochondral autograft transplantation (Evidence: pg no: 21, L969)",
+        "Microfracture (Evidence: pg no: 21, L969)",
+        "Osteochondral autograft transplant (Evidence: pg no: 21, L969)",
+        "OAT (Evidence: pg no: 21, L969)",
+        "Autologous mosaicplasty (Evidence: pg no: 21, L970)"
+      ],
+      "description": "Osteochondral autograft transplantation or microfracture to treat cartilaginous defects of the talus (Evidence: pg no: 21, L969-L973)",
+      "scope": "Treatment of talar cartilage defects (Evidence: pg no: 21, L968-L973)",
+      "general_requirements": {
+        "documentation": [
+          "EITHER large (area > 1.0 cm2) or cystic (volume > 3.0 cm3) osteochondral lesions of talus OR revision surgery after failed marrow stimulation for osteochondral lesions of talus (Evidence: pg no: 21, L972-L973)"
+        ]
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "28446",
+          "system": "CPT",
+          "description": "Open osteochondral autograft, talus (includes obtaining graft[s]) (Evidence: pg no: 24, L1059)"
+        },
+        {
+          "code": "29892",
+          "system": "CPT",
+          "description": "Arthroscopically aided repair of large osteochondritis dissecans lesion, talar dome fracture, or tibial plafond fracture, with or without internal fixation (includes arthroscopy) (Evidence: pg no: 24, L1064-L1065)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "procedure_id": "autologous_chondrocyte_implantation",
+      "category": "Knee (Evidence: pg no: 2, L73)",
+      "section_title": "Autologous Chondrocyte Implantation (Evidence: pg no: 22, L974)",
+      "names": [
+        "Autologous chondrocyte implantation (Evidence: pg no: 22, L976)",
+        "ACI (Evidence: pg no: 22, L976)"
+      ],
+      "description": "Autologous chondrocyte implantation to treat cartilaginous defects of the knee/patella (Evidence: pg no: 22, L976-L992)",
+      "scope": "Treatment of knee and patellar cartilage defects (Evidence: pg no: 22, L974-L992)",
+      "general_requirements": {
+        "documentation": [
+          "Primary chondral defect is present or prior surgical procedure failed to correct defect (Evidence: pg no: 22, L979)",
+          "Size of cartilage defect is greater than or equal to 1.5 cm2 in total area, as documented by MRI or arthroscopy (Evidence: pg no: 22, L980-L981)",
+          "Condition involves focal, full thickness, grade III or IV isolated unipolar defect of knee involving weight bearing surface (Evidence: pg no: 22, L982-L984)",
+          "Defect involves only cartilage and not subchondral bone (with exception for OCD) (Evidence: pg no: 22, L985-L988)",
+          "Documented minimal to absent degenerative changes in surrounding articular cartilage (Evidence: pg no: 22, L989-L990)",
+          "Normal knee biomechanics or alignment and stability achieved concurrently (Evidence: pg no: 22, L991-L992)"
+        ]
+      },
+      "exclusions": [
+        "Known allergy to gentamicin or other aminoglycosides (Evidence: pg no: 22, L995)",
+        "Known sensitivity to porcine or bovine cultures (Evidence: pg no: 22, L996)",
+        "Severe osteoarthritis of knee (Kellgren-Lawrence grade 3 or 4) (Evidence: pg no: 22, L997)",
+        "Inflammatory arthritis, inflammatory joint disease, or uncorrected congenital blood coagulation disorders (Evidence: pg no: 22, L998)",
+        "Knee surgery within previous 6 months (except surgery to procure biopsy or concomitant procedure) (Evidence: pg no: 22, L999-L1000)",
+        "Inability to cooperate with physician-prescribed post-surgical rehabilitation program (Evidence: pg no: 22, L1001)"
+      ],
+      "codes": [
+        {
+          "code": "27412",
+          "system": "CPT",
+          "description": "Autologous chondrocyte implantation, knee (Evidence: pg no: 24, L1056)"
+        },
+        {
+          "code": "J7330",
+          "system": "HCPCS",
+          "description": "Autologous cultured chondrocytes, implant (Evidence: pg no: 24, L1066)"
+        },
+        {
+          "code": "S2112",
+          "system": "HCPCS",
+          "description": "Arthroscopy, knee, surgical for harvesting of cartilage (chondrocyte cells) (Evidence: pg no: 24, L1067)"
+        }
+      ],
+      "notes": "Defects greater than 7 cm2 may require more than one vial (Evidence: pg no: 22, L981)"
+    },
+    {
+      "procedure_id": "arthrotomy_knee_exploration",
+      "category": "Knee (Evidence: pg no: 2, L73)",
+      "section_title": "Arthrotomy, Knee Exploration (Evidence: pg no: 16, L678)",
+      "names": [
+        "Arthrotomy, knee (Evidence: pg no: 16, L678)"
+      ],
+      "description": "Arthrotomy of knee including joint exploration, biopsy, or removal of loose or foreign bodies (Evidence: pg no: 16, L678)",
+      "scope": "Open knee surgery (Evidence: pg no: 16, L678)",
+      "general_requirements": {
+        "documentation": []
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "27331",
+          "system": "CPT",
+          "description": "Arthrotomy, knee; including joint exploration, biopsy, or removal of loose or foreign bodies (Evidence: pg no: 16, L678)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "procedure_id": "arthrotomy_meniscectomy",
+      "category": "Knee (Evidence: pg no: 2, L73)",
+      "section_title": "Arthrotomy with Meniscectomy (Evidence: pg no: 16, L679-L680)",
+      "names": [
+        "Arthrotomy with excision of semilunar cartilage (Evidence: pg no: 16, L679)",
+        "Meniscectomy (Evidence: pg no: 16, L679)"
+      ],
+      "description": "Arthrotomy with excision of semilunar cartilage (meniscectomy) knee; medial OR lateral, or medial AND lateral (Evidence: pg no: 16, L679-L680)",
+      "scope": "Open meniscectomy (Evidence: pg no: 16, L679-L680)",
+      "general_requirements": {
+        "documentation": []
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "27332",
+          "system": "CPT",
+          "description": "Arthrotomy, with excision of semilunar cartilage (meniscectomy) knee; medial OR lateral (Evidence: pg no: 16, L679)"
+        },
+        {
+          "code": "27333",
+          "system": "CPT",
+          "description": "Arthrotomy, with excision of semilunar cartilage (meniscectomy) knee; medial AND lateral (Evidence: pg no: 16, L680)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "procedure_id": "arthrotomy_meniscus_repair",
+      "category": "Knee (Evidence: pg no: 2, L73)",
+      "section_title": "Arthrotomy with Meniscus Repair (Evidence: pg no: 16, L684)",
+      "names": [
+        "Arthrotomy with meniscus repair (Evidence: pg no: 16, L684)"
+      ],
+      "description": "Arthrotomy with meniscus repair, knee (Evidence: pg no: 16, L684)",
+      "scope": "Open meniscus repair (Evidence: pg no: 16, L684)",
+      "general_requirements": {
+        "documentation": []
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "27403",
+          "system": "CPT",
+          "description": "Arthrotomy with meniscus repair, knee (Evidence: pg no: 16, L684)"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "procedure_id": "unlisted_hip_procedures",
+      "category": "Hip (Evidence: pg no: 1, L1)",
+      "section_title": "Unlisted Hip Procedures (Evidence: pg no: 2, L65)",
+      "names": [
+        "Arthroscopic IT (Iliotibial) band lengthening (Evidence: pg no: 2, L68)",
+        "Arthroscopic repair of gluteus medius or minimus (Evidence: pg no: 2, L69)",
+        "Arthroscopic repair of gluteus medius or minimus (with biologic implant) (Evidence: pg no: 2, L70)",
+        "Arthroscopic trochanteric bursectomy (Evidence: pg no: 2, L71)"
+      ],
+      "description": "Unlisted procedures using CPT 29999 – Unlisted procedure, arthroscopy (Evidence: pg no: 2, L66)",
+      "scope": "Hip arthroscopic procedures not managed by Carelon (Evidence: pg no: 2, L66-L67)",
+      "general_requirements": {
+        "documentation": []
+      },
+      "exclusions": [],
+      "codes": [
+        {
+          "code": "29999",
+          "system": "CPT",
+          "description": "Unlisted procedure, arthroscopy (Evidence: pg no: 2, L66)"
+        }
+      ],
+      "notes": "Not managed by Carelon Medical Benefits Management. Contact respective health plan for assistance (Evidence: pg no: 2, L66-L67)"
+    }
+  ]
+}

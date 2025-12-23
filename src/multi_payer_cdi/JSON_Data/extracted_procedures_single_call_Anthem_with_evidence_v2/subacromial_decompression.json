@@ -1,0 +1,34 @@
+{
+  "procedure_id": "subacromial_decompression",
+  "category": "Shoulder (Evidence: pg no: 12, L368)",
+  "section_title": "Subacromial decompression/acromioplasty (Evidence: pg no: 18, L600)",
+  "names": [
+    "Subacromial decompression/acromioplasty (Evidence: pg no: 18, L600)",
+    "Acromioplasty (Evidence: pg no: 20, L706)"
+  ],
+  "description": "Subacromial decompression/acromioplasty may be considered medically necessary for ANY of the following indications. (Evidence: pg no: 18, L600-L601)",
+  "scope": "This guideline addresses shoulder arthroscopy and open procedures when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture. (Evidence: pg no: 12, L373-L374)",
+  "general_requirements": {
+    "documentation": [
+      "Symptomatic os acromiale (Evidence: pg no: 18, L602)",
+      "Malunited fractures of the acromion/proximal humerus resulting in symptomatic mechanical impingement (Evidence: pg no: 18, L603)",
+      "Local benign/malignant tumor resulting in symptomatic mechanical impingement (Evidence: pg no: 18, L604)"
+    ]
+  },
+  "exclusions": [
+    "Subacromial decompression/acromioplasty is otherwise considered not medically necessary for all other indications (Evidence: pg no: 18, L605-L606)"
+  ],
+  "codes": [
+    {
+      "code": "23130",
+      "system": "CPT",
+      "description": "Acromioplasty or acromionectomy, partial, with or without coracoacromial ligament release (Evidence: pg no: 20, L706)"
+    },
+    {
+      "code": "29826",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; decompression of subacromial space with partial acromioplasty, with coracoacromial ligament (i.e., arch) release, when performed (Evidence: pg no: 21, L737-L739)"
+    }
+  ],
+  "notes": "For subacromial impingement syndrome. (Evidence: pg no: 18, L599)"
+}

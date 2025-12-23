@@ -1,0 +1,27 @@
+{
+  "procedure_id": "knee_loose_body_removal",
+  "category": "Knee (Evidence: pg no: 2, L73)",
+  "section_title": "Removal of Loose Body (Evidence: pg no: 9, L408)",
+  "names": [
+    "Removal of loose body (Evidence: pg no: 9, L408)"
+  ],
+  "description": "Removal of loose body when specific criteria are present (Evidence: pg no: 9, L409-L413)",
+  "scope": "Knee arthroscopy for loose body removal (Evidence: pg no: 9, L408-L415)",
+  "general_requirements": {
+    "documentation": [
+      "Radiographic evidence of acute, post-traumatic, intra-articular foreign body or displaced fracture fragment larger than 5 mm when other knee procedure codes are authorized (Evidence: pg no: 9, L410-L412)",
+      "Knee pain associated with grinding, catching, or popping (Evidence: pg no: 9, L413)"
+    ]
+  },
+  "exclusions": [
+    "Removal of loose body for Kellgren-Lawrence grade 4 osteoarthritis (Evidence: pg no: 9, L415)"
+  ],
+  "codes": [
+    {
+      "code": "29874",
+      "system": "CPT",
+      "description": "Arthroscopy, knee, surgical; for removal of loose body or foreign body (eg, osteochondritis dissecans fragmentation, chondral fragmentation) (Evidence: pg no: 16, L702-L703)"
+    }
+  ],
+  "notes": ""
+}

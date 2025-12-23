@@ -1,0 +1,30 @@
+{
+  "procedure_id": "collateral_ligament_reconstruction",
+  "category": "Knee (Evidence: pg no: 2, L73)",
+  "section_title": "Collateral or Extra-articular Ligament Injury (Evidence: pg no: 11, L541)",
+  "names": [
+    "Collateral ligament reconstruction (Evidence: pg no: 11, L542)",
+    "Extra-articular ligament reconstruction (Evidence: pg no: 11, L542)"
+  ],
+  "description": "Collateral or extra-articular ligament reconstruction when specific criteria are met (Evidence: pg no: 11, L542-L548)",
+  "scope": "Treatment of collateral ligament injuries (Evidence: pg no: 11, L541-L548)",
+  "general_requirements": {
+    "documentation": [
+      "EITHER diagnosis of ligament injury by advanced imaging evidence of complete tear or physical exam findings consistent with instability with conservative management for 6 weeks, OR associated ligamentous injury treatment (Evidence: pg no: 11, L544-L548)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "27405",
+      "system": "CPT",
+      "description": "Repair, primary, torn ligament and/or capsule, knee; collateral (Evidence: pg no: 16, L685)"
+    },
+    {
+      "code": "27409",
+      "system": "CPT",
+      "description": "Repair, primary, torn ligament and/or capsule, knee; collateral and cruciate ligaments (Evidence: pg no: 16, L687)"
+    }
+  ],
+  "notes": ""
+}

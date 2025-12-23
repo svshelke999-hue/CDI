@@ -1,0 +1,31 @@
+{
+  "procedure_id": "resection_arthroplasty_hip",
+  "category": "Hip (Evidence: pg no: 22, L743)",
+  "section_title": "Resection Arthroplasty of the Hip (Evidence: pg no: 26, L920)",
+  "names": [
+    "Resection Arthroplasty of the Hip (Evidence: pg no: 26, L920)",
+    "Femoral head ostectomy (Evidence: pg no: 26, L921)",
+    "Girdlestone resection arthroplasty (Evidence: pg no: 26, L921)"
+  ],
+  "description": "Resection arthroplasty of the hip, femoral head ostectomy, or Girdlestone resection arthroplasty is considered medically necessary when at least ONE of the following conditions is present. (Evidence: pg no: 26, L921-L922)",
+  "scope": "This guideline addresses hip arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 22, L756-L757)",
+  "general_requirements": {
+    "documentation": [
+      "Painful stiff hip after infection (tuberculosis of the hip or otherwise) (Evidence: pg no: 26, L923)",
+      "Peri-prosthetic infection (Evidence: pg no: 26, L924)",
+      "Aseptic loosening of the hip (Evidence: pg no: 26, L925)",
+      "Recurrent dislocation of the hip (Evidence: pg no: 26, L926)",
+      "Failed internal fixation of a femoral neck fracture (Evidence: pg no: 26, L927)",
+      "Unsalvageable failed hip replacement (Evidence: pg no: 26, L928)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "27122",
+      "system": "CPT",
+      "description": "Acetabuloplasty; resection, femoral head (eg, Girdlestone procedure) (Evidence: pg no: 27, L971)"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,24 @@
+{
+  "procedure_id": "hip_debridement_chondroplasty",
+  "category": "Hip (Evidence: pg no: 1, L1)",
+  "section_title": "Hip Debridement/Chondroplasty (Evidence: pg no: 1, L12)",
+  "names": [
+    "Hip debridement/chondroplasty (Evidence: pg no: 1, L12)"
+  ],
+  "description": "Arthroscopic procedure for hip joint debridement and chondroplasty (Evidence: pg no: 1, L12-L14)",
+  "scope": "Treatment of hip conditions excluding osteoarthritis (Evidence: pg no: 1, L12-L14)",
+  "general_requirements": {
+    "documentation": [
+      "Failure of conservative management for at least 3 months (Evidence: pg no: 1, L2-L3)",
+      "Avoidance of hip stretching or activities that elicit symptoms (Evidence: pg no: 1, L2-L3)",
+      "No evidence of advanced osteoarthritis, defined as Tönnis grade 2 or greater (Evidence: pg no: 1, L4-L5)",
+      "No evidence of severe chondral damage (Outerbridge grade IV) (Evidence: pg no: 1, L6)"
+    ]
+  },
+  "exclusions": [
+    "When done solely for treatment of hip osteoarthritis (Kellgren-Lawrence grade 2 or greater, Tönnis grade 2 or greater) (Evidence: pg no: 1, L13-L14)",
+    "Arthroscopic lavage and debridement for advanced osteoarthritis of the hip joint (Evidence: pg no: 1, L8)"
+  ],
+  "codes": [],
+  "notes": "Part of FAIS surgery exclusions (Evidence: pg no: 1, L10-L25)"
+}

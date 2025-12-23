@@ -1,0 +1,27 @@
+{
+  "procedure_id": "manipulation_under_anesthesia_shoulder",
+  "category": "Shoulder (Evidence: pg no: 12, L368)",
+  "section_title": "Manipulation under anesthesia (MUA) (Evidence: pg no: 17, L577)",
+  "names": [
+    "Manipulation under anesthesia (MUA) (Evidence: pg no: 17, L577)",
+    "Manipulation under anesthesia, shoulder joint (Evidence: pg no: 20, L719)"
+  ],
+  "description": "Manipulation under anesthesia (MUA) is considered medically necessary for post-traumatic, post-surgical, or idiopathic stiffness of the shoulder when ALL of the following criteria are met. (Evidence: pg no: 17, L577-L578)",
+  "scope": "This guideline addresses shoulder arthroscopy and open procedures when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture. (Evidence: pg no: 12, L373-L374)",
+  "general_requirements": {
+    "documentation": [
+      "Shoulder pain ≥ 4 on the VAS scale which interferes with age-appropriate activities of daily living (Evidence: pg no: 17, L579)",
+      "Reduced passive range of motion of the affected glenohumeral joint by at least 50% compared to unaffected shoulder (Evidence: pg no: 17, L580-L581)",
+      "Failure of at least 12 weeks of conservative management (Evidence: pg no: 17, L582)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "23700",
+      "system": "CPT",
+      "description": "Manipulation under anesthesia, shoulder joint, including application of fixation apparatus (dislocation excluded) (Evidence: pg no: 20, L719)"
+    }
+  ],
+  "notes": "All open procedures of the shoulder are inclusive of manipulation under anesthesia. (Evidence: pg no: 12, L377)"
+}

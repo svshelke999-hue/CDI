@@ -1,0 +1,114 @@
+# ============================================================================
+# CDI PROJECT CONFIGURATION WITH PROMPT CACHING
+# ============================================================================
+# Copy this file to .env and fill in your values
+# ============================================================================
+
+# AWS Configuration
+# ============================================================================
+AWS_REGION=us-east-1
+AWS_ACCESS_KEY_ID=your_aws_access_key_here
+AWS_SECRET_ACCESS_KEY=your_aws_secret_key_here
+
+# Claude Model Configuration
+# ============================================================================
+# CRITICAL: Use cross-region inference profile for prompt caching to work!
+# The "us." prefix indicates a cross-region inference profile
+
+# Option 1: Use Model ID with region prefix (RECOMMENDED)
+# CRITICAL: The "us." prefix is REQUIRED for prompt caching to work!
+CLAUDE_MODEL_ID=us.anthropic.claude-3-7-sonnet-20250219-v1:0
+
+# Option 2: Use Inference Profile ARN (if you have one)
+# CLAUDE_INFERENCE_PROFILE_ARN=arn:aws:bedrock:us-east-1:123456789012:inference-profile/us.anthropic.claude-3-7-sonnet-20250219-v1:0
+
+# Fallback model (used if primary fails)
+CLAUDE_FALLBACK_MODEL_ID=anthropic.claude-3-5-sonnet-20240620-v1:0
+
+# Prompt Caching Configuration
+# ============================================================================
+# Enable Anthropic's server-side prompt caching (90% cost reduction!)
+ENABLE_PROMPT_CACHING=true
+
+# Minimum tokens required for caching:
+# - Claude 3.5 Haiku: 2048 tokens
+# - Claude 3.7 Sonnet: 1024 tokens
+# - Claude 3.5 Sonnet v2: 1024 tokens
+MIN_CACHE_TOKENS=1024
+
+# File-Based Cache Configuration (local disk caching)
+# ============================================================================
+ENABLE_CACHE=true
+CACHE_DIR=./cache
+CACHE_TTL_HOURS=24
+
+# Output and Logging
+# ============================================================================
+OUTPUT_DIR=./outputs
+LOG_DIR=./logs
+DEBUG_MODE=false
+
+# OpenSearch Configuration (if using OpenSearch data source)
+# ============================================================================
+OS_HOST=http://localhost:9200
+OS_USER=admin
+OS_PASS=admin
+OS_SSL_VERIFY=false
+OS_INDEX=rag-chunks
+
+# Data Source Configuration
+# ============================================================================
+# Options: 'opensearch' or 'json'
+DATA_SOURCE=json
+
+# Processing Configuration
+# ============================================================================
+TOP_K=6
+MAX_CONTEXT_CHARS=12000
+MIN_RELEVANCE_SCORE=10.0
+
+# Chart Input Directory
+# ============================================================================
+CHART_INPUT_DIR=./data
+
+# JSON Guideline Paths (if using JSON data source)
+# ============================================================================
+ANTHEM_JSON_PATH=C:\path\to\anthem\guidelines
+UHC_JSON_PATH=C:\path\to\uhc\guidelines
+CIGNA_JSON_PATH=C:\path\to\cigna\guidelines
+
+# ============================================================================
+# PROMPT CACHING NOTES
+# ============================================================================
+#
+# To enable prompt caching successfully:
+#
+# 1. Model Requirements:
+#    ✓ Use model ID with region prefix (us., eu., ap-southeast., etc.)
+#    ✓ Example: us.anthropic.claude-3-7-sonnet-20250219-v1:0
+#    ✗ DON'T use: anthropic.claude-3-7-sonnet-20250219-v1:0 (no prefix)
+#
+# 2. Token Requirements:
+#    ✓ System prompt must be >= MIN_CACHE_TOKENS
+#    ✓ Our CDI system prompt (~1,500 tokens) meets this requirement
+#
+# 3. Cost Structure:
+#    • First call (cache write): 25% more expensive
+#    • Subsequent calls (cache read): 90% cheaper!
+#    • Break-even: 2-3 calls
+#    • Overall savings: 40-50%
+#
+# 4. Cache Behavior:
+#    • Cache TTL: 5 minutes of inactivity
+#    • System prompt must be identical across calls
+#    • Cache is server-side (not local)
+#
+# 5. Testing:
+#    Run: python test_prompt_caching.py
+#    Expected: "✅ PROMPT CACHING IS WORKING CORRECTLY!"
+#
+# 6. Troubleshooting:
+#    See PROMPT_CACHING_GUIDE.md for detailed troubleshooting
+#
+# ============================================================================
+

@@ -1,0 +1,24 @@
+{
+  "procedure_id": "biceps_tenodesis",
+  "category": "Shoulder (Evidence: pg no: 2, L85)",
+  "section_title": "Biceps Tenodesis (Evidence: pg no: 2, L85)",
+  "names": [
+    "Biceps tenodesis (Evidence: pg no: 2, L85)"
+  ],
+  "description": "Arthroscopic surgical biceps tenodesis procedure (Evidence: pg no: 2, L85)",
+  "scope": "Surgical treatment of biceps tendon via arthroscopic approach (Evidence: pg no: 2, L85)",
+  "general_requirements": {
+    "documentation": [
+      "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "29828",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; biceps tenodesis (Evidence: pg no: 2, L85)"
+    }
+  ],
+  "notes": "Part of arthroscopic shoulder surgery procedures (Evidence: pg no: 2, L85)"
+}

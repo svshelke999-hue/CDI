@@ -1,0 +1,24 @@
+{
+  "procedure_id": "adhesion_lysis_shoulder",
+  "category": "Shoulder (Evidence: pg no: 2, L81)",
+  "section_title": "Lysis and Resection of Adhesions (Evidence: pg no: 2, L81)",
+  "names": [
+    "Lysis and resection of adhesions (Evidence: pg no: 2, L81)"
+  ],
+  "description": "Arthroscopic surgical lysis and resection of adhesions, with or without manipulation (Evidence: pg no: 2, L81)",
+  "scope": "Surgical treatment of shoulder adhesions via arthroscopic approach (Evidence: pg no: 2, L81)",
+  "general_requirements": {
+    "documentation": [
+      "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "29825",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; with lysis and resection of adhesions, with or without manipulation (Evidence: pg no: 2, L81)"
+    }
+  ],
+  "notes": "Part of arthroscopic shoulder surgery procedures (Evidence: pg no: 2, L81)"
+}

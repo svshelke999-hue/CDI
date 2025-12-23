@@ -1,0 +1,47 @@
+{
+  "procedure_id": "rotator_cuff_repair",
+  "category": "Shoulder (Evidence: pg no: 7, L281)",
+  "section_title": "Rotator Cuff Repair (Evidence: pg no: 7, L281)",
+  "names": [
+    "Rotator Cuff Repair (Evidence: pg no: 7, L281)"
+  ],
+  "description": "Repair of Grade 2 or 3 partial-thickness or full-thickness rotator cuff tears with specific orthopedic test requirements (Evidence: pg no: 7-8, L283-L323)",
+  "scope": "Arthroscopic or open rotator cuff repair (Evidence: pg no: 7, L283)",
+  "general_requirements": {
+    "documentation": [
+      "Function-limiting pain (Evidence: pg no: 7, L285-L287)",
+      "Individual demonstrates functionally limited range of motion OR measurable loss of strength of the rotator cuff musculature (Evidence: pg no: 7, L288-L291)",
+      "ONE or MORE positive orthopedic tests/signs including Drop Arm Test, Painful Arc Test, Jobe or Empty Can Test, External Rotation Lag Sign, Internal Rotation Lag Sign, Lift-Off Test, Bear Hug Test, Belly-Press Test, Neer Impingement Test, Hawkins-Kennedy Impingement Test, Hornblower Test (Evidence: pg no: 7-8, L292-L303)",
+      "Failure of provider-directed non-surgical management for at least three (3) months in duration, except for discrete traumatic event resulting in acute full-thickness rotator cuff tear (Evidence: pg no: 8, L304-L307)",
+      "Advanced diagnostic imaging demonstrates a Grade 2 or 3 partial-thickness rotator cuff tear (Ellman classification) or a full-thickness rotator cuff tear (Cofield classification) (Evidence: pg no: 8, L317-L320)",
+      "Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain and advanced glenohumeral osteoarthritis (Evidence: pg no: 8, L321-L323)"
+    ]
+  },
+  "exclusions": [
+    "Any other indication or condition (Evidence: pg no: 8, L326-L327)",
+    "Superior capsular reconstruction using any type of graft - considered experimental, investigational, or unproven (Evidence: pg no: 8, L331-L332)"
+  ],
+  "codes": [
+    {
+      "code": "23410",
+      "system": "CPT",
+      "description": "Repair of ruptured musculotendinous cuff (e.g. rotator cuff) open; acute (Evidence: pg no: 13, L541)"
+    },
+    {
+      "code": "23412",
+      "system": "CPT",
+      "description": "Repair of ruptured musculotendinous cuff (e.g. rotator cuff) open; chronic (Evidence: pg no: 13, L542)"
+    },
+    {
+      "code": "23420",
+      "system": "CPT",
+      "description": "Reconstruction of complete shoulder (rotator) cuff avulsion, chronic (includes acromioplasty) (Evidence: pg no: 13, L544)"
+    },
+    {
+      "code": "29827",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; with rotator cuff repair (Evidence: pg no: 14, L585)"
+    }
+  ],
+  "notes": "Conservative management requirement waived for acute traumatic tears, but required if fatty infiltration and/or muscle atrophy present (Evidence: pg no: 8, L308-L316)"
+}

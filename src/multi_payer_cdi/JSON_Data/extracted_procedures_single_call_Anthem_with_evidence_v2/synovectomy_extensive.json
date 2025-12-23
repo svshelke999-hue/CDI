@@ -1,0 +1,34 @@
+{
+  "procedure_id": "synovectomy_extensive",
+  "category": "Knee (Evidence: pg no: 2, L73)",
+  "section_title": "Synovectomy (Extensive) (Evidence: pg no: 13, L610)",
+  "names": [
+    "Synovectomy (Evidence: pg no: 13, L610)"
+  ],
+  "description": "Synovectomy for specific conditions (Evidence: pg no: 13, L611-L618)",
+  "scope": "Treatment of extensive synovial conditions (Evidence: pg no: 13, L610-L618)",
+  "general_requirements": {
+    "documentation": [
+      "ANY of the following conditions: Rheumatoid arthritis or other chronic inflammatory arthropathies with failure of conservative management, Hemophilic joint disease, or Other diffuse synovial proliferative disorders (Evidence: pg no: 13, L612-L618)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "29876",
+      "system": "CPT",
+      "description": "Arthroscopy, knee, surgical; synovectomy, major, 2 or more compartments (eg, medial or lateral) (Evidence: pg no: 16, L705)"
+    },
+    {
+      "code": "27334",
+      "system": "CPT",
+      "description": "Arthrotomy, with synovectomy, knee; anterior OR posterior (Evidence: pg no: 16, L681)"
+    },
+    {
+      "code": "27335",
+      "system": "CPT",
+      "description": "Arthrotomy, with synovectomy, knee; anterior AND posterior including popliteal area (Evidence: pg no: 16, L682)"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,54 @@
+{
+  "procedure_id": "distal_clavicle_excision",
+  "category": "Shoulder (Evidence: pg no: 8, L333)",
+  "section_title": "Distal Clavicle Excision/Subacromial Decompression/Acromioplasty (Evidence: pg no: 8, L333)",
+  "names": [
+    "Distal Clavicle Excision (Evidence: pg no: 8, L334)",
+    "Subacromial Decompression (Evidence: pg no: 9, L363)",
+    "Acromioplasty (Evidence: pg no: 9, L363)"
+  ],
+  "description": "Excision of distal clavicle for AC joint pathology; subacromial decompression/acromioplasty only as add-on procedures (Evidence: pg no: 8-9, L335-L371)",
+  "scope": "Distal clavicle excision as standalone; subacromial decompression/acromioplasty as add-on only (Evidence: pg no: 9, L364-L366)",
+  "general_requirements": {
+    "documentation": [
+      "Function-limiting pain (Evidence: pg no: 8, L337-L339)",
+      "Individual demonstrates localized tenderness to palpation of the acromioclavicular (AC) joint and ONE or MORE positive orthopedic tests including Cross Body Adduction Test, Resisted AC Joint Extension Test, Neer Impingement Test, Hawkins-Kennedy Impingement Test (Evidence: pg no: 8-9, L340-L347)",
+      "Failure of provider-directed non-surgical management for at least three (3) months in duration (Evidence: pg no: 9, L348-L349)",
+      "Plain radiographs demonstrate findings consistent with pathology in the subacromial space and/or at the AC joint (Evidence: pg no: 9, L350)",
+      "Advanced diagnostic imaging study demonstrates underlying pathology (e.g., AC joint arthritis, impingement) which correlates with symptoms and physical exam findings (Evidence: pg no: 9, L351)",
+      "Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain, and advanced glenohumeral osteoarthritis (Evidence: pg no: 9, L360-L362)"
+    ]
+  },
+  "exclusions": [
+    "Any other indication or condition (Evidence: pg no: 9, L370)",
+    "Arthroscopic subacromial decompression/acromioplasty as a stand-alone procedure (Evidence: pg no: 9, L371)"
+  ],
+  "codes": [
+    {
+      "code": "23120",
+      "system": "CPT",
+      "description": "Claviculectomy; partial (Evidence: pg no: 13, L526)"
+    },
+    {
+      "code": "23125",
+      "system": "CPT",
+      "description": "Claviculectomy; total (Evidence: pg no: 13, L527)"
+    },
+    {
+      "code": "23130",
+      "system": "CPT",
+      "description": "Acromioplasty or acromionectomy, partial, with or without coracoacromial ligament release (Evidence: pg no: 13, L528)"
+    },
+    {
+      "code": "29824",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; distal claviculectomy including distal articular surface (Mumford procedure) (Evidence: pg no: 13, L570-L571)"
+    },
+    {
+      "code": "29826",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; decompression of subacromial space with partial acromioplasty, with coracoacromial ligament release when performed (Evidence: pg no: 14, L582-L584)"
+    }
+  ],
+  "notes": "Advanced diagnostic imaging not required for isolated distal clavicle excision when not associated with subacromial decompression/acromioplasty surgery (Evidence: pg no: 9, L357-L359)"
+}

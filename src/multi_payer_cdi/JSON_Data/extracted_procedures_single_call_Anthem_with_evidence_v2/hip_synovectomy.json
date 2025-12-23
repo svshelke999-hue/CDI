@@ -1,0 +1,20 @@
+{
+  "procedure_id": "hip_synovectomy",
+  "category": "Hip (Evidence: pg no: 28, L981)",
+  "section_title": "Synovectomy (Evidence: pg no: 30, L1087)",
+  "names": [
+    "Synovectomy (Evidence: pg no: 30, L1087)"
+  ],
+  "description": "Any combination of these procedures is considered medically necessary when the following criteria are met. (Evidence: pg no: 30, L1088)",
+  "scope": "This guideline addresses hip arthroscopy when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture. (Evidence: pg no: 28, L993-L994)",
+  "general_requirements": {
+    "documentation": [
+      "Hip pain associated with grinding, catching, locking, or popping, and ALL of the following: Failure of least 3 months of conservative management, Exam findings confirm pain with limited range of motion, Imaging (x-ray, CT or MRI) which shows synovial proliferation, calcifications, nodularity, inflammation, pannus, or loose body (Evidence: pg no: 30, L1089-L1093)"
+    ]
+  },
+  "exclusions": [
+    "Synovectomy performed solely for visualization or approach, or for post traumatic reactive synovitis (Evidence: pg no: 30, L1095)"
+  ],
+  "codes": [],
+  "notes": ""
+}

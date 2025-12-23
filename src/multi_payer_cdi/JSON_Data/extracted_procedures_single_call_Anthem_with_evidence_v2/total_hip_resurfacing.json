@@ -1,0 +1,37 @@
+{
+  "procedure_id": "total_hip_resurfacing",
+  "category": "Hip (Evidence: pg no: 22, L743)",
+  "section_title": "Total hip resurfacing (Evidence: pg no: 25, L870)",
+  "names": [
+    "Total hip resurfacing (Evidence: pg no: 25, L870)",
+    "Total hip resurfacing arthroplasty (HRA) (Evidence: pg no: 25, L871)"
+  ],
+  "description": "Total hip resurfacing arthroplasty (HRA) is considered medically necessary when ALL of the following criteria are met. (Evidence: pg no: 25, L871-L872)",
+  "scope": "This guideline addresses hip arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 22, L756-L757)",
+  "general_requirements": {
+    "documentation": [
+      "Active, fit individual (Evidence: pg no: 25, L873)",
+      "Normal proximal femoral bone geometry and bone quality (Evidence: pg no: 25, L874)",
+      "Otherwise eligible for a conventional primary total hip replacement (THR) (Evidence: pg no: 25, L875-L883)",
+      "Likely to outlive a current conventional total hip replacement (Evidence: pg no: 25, L884)"
+    ]
+  },
+  "exclusions": [
+    "Advanced age (Evidence: pg no: 25, L886)",
+    "Severe osteoporosis (Evidence: pg no: 25, L887)",
+    "Renal insufficiency (Evidence: pg no: 25, L888)",
+    "Known metal hypersensitivity (Evidence: pg no: 25, L889)",
+    "Inadequate bone stock to support the femoral implant (Evidence: pg no: 25, L890)",
+    "Femoral neck or head cysts (Evidence: pg no: 25, L891)",
+    "Severe hip dysplasia (Evidence: pg no: 25, L892)",
+    "Small or bone-deficient acetabulum (Evidence: pg no: 25, L893)"
+  ],
+  "codes": [
+    {
+      "code": "S2118",
+      "system": "HCPCS",
+      "description": "Metal-on-metal total hip resurfacing, including acetabular and femoral components (Evidence: pg no: 27, L979)"
+    }
+  ],
+  "notes": ""
+}

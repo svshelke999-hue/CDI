@@ -1,0 +1,28 @@
+{
+  "procedure_id": "arthrotomy_meniscectomy",
+  "category": "Knee (Evidence: pg no: 2, L73)",
+  "section_title": "Arthrotomy with Meniscectomy (Evidence: pg no: 16, L679-L680)",
+  "names": [
+    "Arthrotomy with excision of semilunar cartilage (Evidence: pg no: 16, L679)",
+    "Meniscectomy (Evidence: pg no: 16, L679)"
+  ],
+  "description": "Arthrotomy with excision of semilunar cartilage (meniscectomy) knee; medial OR lateral, or medial AND lateral (Evidence: pg no: 16, L679-L680)",
+  "scope": "Open meniscectomy (Evidence: pg no: 16, L679-L680)",
+  "general_requirements": {
+    "documentation": []
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "27332",
+      "system": "CPT",
+      "description": "Arthrotomy, with excision of semilunar cartilage (meniscectomy) knee; medial OR lateral (Evidence: pg no: 16, L679)"
+    },
+    {
+      "code": "27333",
+      "system": "CPT",
+      "description": "Arthrotomy, with excision of semilunar cartilage (meniscectomy) knee; medial AND lateral (Evidence: pg no: 16, L680)"
+    }
+  ],
+  "notes": ""
+}

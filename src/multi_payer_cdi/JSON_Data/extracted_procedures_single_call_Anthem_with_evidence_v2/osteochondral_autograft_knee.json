@@ -1,0 +1,34 @@
+{
+  "procedure_id": "osteochondral_autograft_knee",
+  "category": "Knee (Evidence: pg no: 2, L73)",
+  "section_title": "Osteochondral Autograft Transplantation - Knee (Evidence: pg no: 21, L958)",
+  "names": [
+    "Osteochondral autograft transplantation (Evidence: pg no: 21, L959)",
+    "Osteochondral autograft transplant (Evidence: pg no: 21, L959)",
+    "OAT (Evidence: pg no: 21, L959)",
+    "Autologous mosaicplasty (Evidence: pg no: 21, L960)"
+  ],
+  "description": "Osteochondral autograft transplantation to treat cartilaginous defects of the knee (Evidence: pg no: 21, L959-L967)",
+  "scope": "Treatment of knee cartilage defects (Evidence: pg no: 21, L958-L967)",
+  "general_requirements": {
+    "documentation": [
+      "Size of cartilage defect is between 1.0 cm and 2.5 cm2 in total area, as documented by MRI or arthroscopy (Evidence: pg no: 21, L962-L963)",
+      "Condition involves focal, full thickness, grade III or IV isolated defect of knee involving weight bearing surface of medial or lateral femoral condyles or trochlear region (Evidence: pg no: 21, L964-L966)",
+      "Absence of kissing knee lesions (lesion must be single and involve only one side of joint) (Evidence: pg no: 21, L967)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "27416",
+      "system": "CPT",
+      "description": "Osteochondral autograft(s), knee, open (eg, mosaicplasty) includes harvesting of autograft[s]) (Evidence: pg no: 24, L1058)"
+    },
+    {
+      "code": "29866",
+      "system": "CPT",
+      "description": "Arthroscopy, knee, surgical; osteochondral autograft(s) (eg, mosaicplasty) (includes harvesting of the autograft) (Evidence: pg no: 24, L1060)"
+    }
+  ],
+  "notes": ""
+}

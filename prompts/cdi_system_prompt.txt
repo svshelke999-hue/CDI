@@ -1,0 +1,9 @@
+# Short extraction prompt (~700 tokens)
+extraction_prompt = """You are a medical coding and CDI specialist.
+
+Analyze the following operative report and return JSON with:
+- "cpt": list of CPT codes
+- "procedure": list of procedures
+- "summary": short summary
+
+Return ONLY valid JSON."""

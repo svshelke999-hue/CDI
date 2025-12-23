@@ -1,0 +1,37 @@
+{
+  "procedure_id": "acl_reconstruction",
+  "category": "Knee (Evidence: pg no: 2, L73)",
+  "section_title": "Anterior Cruciate Ligament Reconstruction (Evidence: pg no: 11, L511)",
+  "names": [
+    "Anterior cruciate ligament reconstruction (Evidence: pg no: 11, L512)",
+    "ACL reconstruction (Evidence: pg no: 11, L512)"
+  ],
+  "description": "Anterior cruciate ligament reconstruction when specific criteria are met (Evidence: pg no: 11, L512-L526)",
+  "scope": "Treatment of ACL tears (Evidence: pg no: 11, L511-L526)",
+  "general_requirements": {
+    "documentation": [
+      "There is not advanced knee arthritis (Kellgren-Lawrence grade 4) (Evidence: pg no: 11, L514)",
+      "A diagnosis of ACL tear as established by exam findings or imaging (Evidence: pg no: 11, L515-L517)",
+      "At least ONE of the following scenarios: ACL tear with meniscal tear or ligamentous injury, patient involved in physically demanding occupation or activities, or two weeks of conservative care has been tried and failed (Evidence: pg no: 11, L518-L526)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "29888",
+      "system": "CPT",
+      "description": "Arthroscopically aided anterior cruciate ligament repair/augmentation or reconstruction (Evidence: pg no: 16, L721)"
+    },
+    {
+      "code": "27428",
+      "system": "CPT",
+      "description": "Ligamentous reconstruction (augmentation), knee; intra-articular (open) (Evidence: pg no: 16, L695)"
+    },
+    {
+      "code": "27429",
+      "system": "CPT",
+      "description": "Ligamentous reconstruction (augmentation), knee; intra-articular (open) and extra-articular (Evidence: pg no: 16, L696)"
+    }
+  ],
+  "notes": ""
+}

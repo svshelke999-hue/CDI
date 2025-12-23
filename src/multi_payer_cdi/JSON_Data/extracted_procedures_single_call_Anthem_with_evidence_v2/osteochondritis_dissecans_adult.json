@@ -1,0 +1,36 @@
+{
+  "procedure_id": "osteochondritis_dissecans_adult",
+  "category": "Multiple Joints (Evidence: pg no: 19, L826)",
+  "section_title": "Osteochondritis Dissecans (Adult) (Evidence: pg no: 21, L934)",
+  "names": [
+    "Adult OCD (Evidence: pg no: 21, L934)",
+    "AOCD (Evidence: pg no: 21, L926)"
+  ],
+  "description": "Surgical treatment for adult osteochondritis dissecans after physis has closed (Evidence: pg no: 21, L935-L939)",
+  "scope": "Treatment of OCD in adults (Evidence: pg no: 21, L934-L939)",
+  "general_requirements": {
+    "documentation": [
+      "Failure of 3 months of conservative management (e.g., immobilization, restricted weight-bearing, avoidance of sports activities) (Evidence: pg no: 21, L937-L938)",
+      "Presence of an unstable lesion (based on advanced imaging or arthroscopic evaluation) (Evidence: pg no: 21, L939)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "29885",
+      "system": "CPT",
+      "description": "Arthroscopy, knee, surgical; drilling for osteochondritis dissecans with bone grafting, with or without internal fixation (including debridement of base of lesion) (Evidence: pg no: 16, L717-L718)"
+    },
+    {
+      "code": "29886",
+      "system": "CPT",
+      "description": "Arthroscopy, knee, surgical; drilling for intact osteochondritis dissecans lesion (Evidence: pg no: 16, L719)"
+    },
+    {
+      "code": "29887",
+      "system": "CPT",
+      "description": "Arthroscopy, knee, surgical; drilling for intact osteochondritis dissecans lesion with internal fixation (Evidence: pg no: 16, L720)"
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,33 @@
+{
+  "procedure_id": "osteochondral_autograft_talus",
+  "category": "Ankle (Evidence: pg no: 19, L826)",
+  "section_title": "Osteochondral Autograft Transplantation - Talus (Evidence: pg no: 21, L968)",
+  "names": [
+    "Osteochondral autograft transplantation (Evidence: pg no: 21, L969)",
+    "Microfracture (Evidence: pg no: 21, L969)",
+    "Osteochondral autograft transplant (Evidence: pg no: 21, L969)",
+    "OAT (Evidence: pg no: 21, L969)",
+    "Autologous mosaicplasty (Evidence: pg no: 21, L970)"
+  ],
+  "description": "Osteochondral autograft transplantation or microfracture to treat cartilaginous defects of the talus (Evidence: pg no: 21, L969-L973)",
+  "scope": "Treatment of talar cartilage defects (Evidence: pg no: 21, L968-L973)",
+  "general_requirements": {
+    "documentation": [
+      "EITHER large (area > 1.0 cm2) or cystic (volume > 3.0 cm3) osteochondral lesions of talus OR revision surgery after failed marrow stimulation for osteochondral lesions of talus (Evidence: pg no: 21, L972-L973)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "28446",
+      "system": "CPT",
+      "description": "Open osteochondral autograft, talus (includes obtaining graft[s]) (Evidence: pg no: 24, L1059)"
+    },
+    {
+      "code": "29892",
+      "system": "CPT",
+      "description": "Arthroscopically aided repair of large osteochondritis dissecans lesion, talar dome fracture, or tibial plafond fracture, with or without internal fixation (includes arthroscopy) (Evidence: pg no: 24, L1064-L1065)"
+    }
+  ],
+  "notes": ""
+}

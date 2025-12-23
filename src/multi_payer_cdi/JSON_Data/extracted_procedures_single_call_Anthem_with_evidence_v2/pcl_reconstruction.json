@@ -1,0 +1,34 @@
+{
+  "procedure_id": "pcl_reconstruction",
+  "category": "Knee (Evidence: pg no: 2, L73)",
+  "section_title": "Posterior Cruciate Ligament Repair or Reconstruction (Evidence: pg no: 11, L527)",
+  "names": [
+    "Posterior cruciate ligament repair (Evidence: pg no: 11, L528)",
+    "Posterior cruciate ligament reconstruction (Evidence: pg no: 11, L528)",
+    "PCL repair (Evidence: pg no: 11, L528)",
+    "PCL reconstruction (Evidence: pg no: 11, L528)"
+  ],
+  "description": "Posterior cruciate ligament repair or reconstruction when specific criteria are met (Evidence: pg no: 11, L528-L535)",
+  "scope": "Treatment of PCL tears (Evidence: pg no: 11, L527-L535)",
+  "general_requirements": {
+    "documentation": [
+      "There is not advanced knee arthritis (Kellgren-Lawrence grade 4) (Evidence: pg no: 11, L530)",
+      "A diagnosis of PCL tear as established by exam findings or imaging (Evidence: pg no: 11, L531-L533)",
+      "Associated ligamentous injuries (Evidence: pg no: 11, L534-L535)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "29889",
+      "system": "CPT",
+      "description": "Arthroscopically aided posterior cruciate ligament repair/augmentation or reconstruction (Evidence: pg no: 16, L722)"
+    },
+    {
+      "code": "27407",
+      "system": "CPT",
+      "description": "Repair, primary, torn ligament and/or capsule, knee; cruciate (Evidence: pg no: 16, L686)"
+    }
+  ],
+  "notes": ""
+}

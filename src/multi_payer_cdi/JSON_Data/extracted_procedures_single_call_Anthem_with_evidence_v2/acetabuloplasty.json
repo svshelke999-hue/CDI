@@ -1,0 +1,29 @@
+{
+  "procedure_id": "acetabuloplasty",
+  "category": "Hip (Evidence: pg no: 22, L743)",
+  "section_title": "Acetabuloplasty (Evidence: pg no: 26, L914)",
+  "names": [
+    "Acetabuloplasty (Evidence: pg no: 26, L914)",
+    "Whitman (Evidence: pg no: 26, L914)",
+    "Colonna (Evidence: pg no: 26, L914)",
+    "Haygroves (Evidence: pg no: 26, L914)",
+    "Cup type (Evidence: pg no: 26, L914)"
+  ],
+  "description": "Acetabuloplasty is considered medically necessary when ONE of the following is present. (Evidence: pg no: 26, L915)",
+  "scope": "This guideline addresses hip arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 22, L756-L757)",
+  "general_requirements": {
+    "documentation": [
+      "Acetabular arthritis where there is planned removal of articular cartilage and replacement with interposition tissue (Evidence: pg no: 26, L916-L917)",
+      "Hip instability due to a structurally deficient acetabulum where acetabular augmentation is planned (Evidence: pg no: 26, L918)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "27120",
+      "system": "CPT",
+      "description": "Acetabuloplasty; (eg, Whitman, Colonna, Haygroves, or cup type) (Evidence: pg no: 27, L970)"
+    }
+  ],
+  "notes": ""
+}

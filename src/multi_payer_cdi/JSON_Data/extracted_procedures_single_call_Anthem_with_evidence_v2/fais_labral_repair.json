@@ -1,0 +1,30 @@
+{
+  "procedure_id": "fais_labral_repair",
+  "category": "Hip (Evidence: pg no: 1, L1)",
+  "section_title": "FAIS/Labral Repair (Evidence: pg no: 1, L15)",
+  "names": [
+    "FAIS/Labral repair (Evidence: pg no: 1, L15)",
+    "Femoroacetabular impingement syndrome treatment (Evidence: pg no: 1, L15)"
+  ],
+  "description": "Treatment of femoroacetabular impingement syndrome and labral repair (Evidence: pg no: 1, L15-L25)",
+  "scope": "Hip arthroscopic procedures for FAIS (Evidence: pg no: 1, L15-L25)",
+  "general_requirements": {
+    "documentation": []
+  },
+  "exclusions": [
+    "Use of capsular plication as the sole treatment of FAIS (Evidence: pg no: 1, L16)",
+    "Evidence of advanced osteoarthritis, defined as Tönnis grade ≥ 2 (Evidence: pg no: 1, L20-L21)",
+    "Evidence of severe (Outerbridge grade IV) chondral damage (Evidence: pg no: 1, L22)",
+    "Positive broken Shenton line (Evidence: pg no: 1, L23)",
+    "Inclination Tönnis angle greater than 13-15 degrees (Evidence: pg no: 1, L24)",
+    "Labral repair in the presence of untreated severe hip dysplasia (Evidence: pg no: 1, L25)"
+  ],
+  "codes": [
+    {
+      "code": "29916",
+      "system": "CPT",
+      "description": "Arthroscopy, hip, surgical; with labral repair [when repair of the labral tear is associated with FAIS] (Evidence: pg no: 2, L64)"
+    }
+  ],
+  "notes": "Capsular plication, capsular repair, labral reconstruction, iliotibial band windowing, trochanteric bursectomy, abductor muscle repair, and/or iliopsoas tenotomy are considered incidental to FAIS procedure (Evidence: pg no: 1, L17-L19)"
+}

@@ -1,0 +1,30 @@
+{
+  "procedure_id": "revision_tjr_shoulder",
+  "category": "Shoulder (Evidence: pg no: 1, L34)",
+  "section_title": "Revision, Total Joint Replacement (TJR), Shoulder (Evidence: pg no: 1, L34)",
+  "names": [
+    "Revision, Total Joint Replacement (TJR), Shoulder (Custom) - UHG (Evidence: pg no: 1, L34)",
+    "Revision of total shoulder arthroplasty (Evidence: pg no: 2, L63-L66)"
+  ],
+  "description": "Revision surgery of total shoulder arthroplasty including allograft when performed, involving humeral or glenoid component or both (Evidence: pg no: 2, L63-L66)",
+  "scope": "Revision surgery for failed or problematic shoulder joint replacement (Evidence: pg no: 1, L34)",
+  "general_requirements": {
+    "documentation": [
+      "Medical necessity clinical coverage criteria per InterQual Client Defined, CP: Procedures (Evidence: pg no: 1, L34)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "23473",
+      "system": "CPT",
+      "description": "Revision of total shoulder arthroplasty, including allograft when performed; humeral or glenoid component (Evidence: pg no: 2, L63-L64)"
+    },
+    {
+      "code": "23474",
+      "system": "CPT",
+      "description": "Revision of total shoulder arthroplasty, including allograft when performed; humeral and glenoid component (Evidence: pg no: 2, L65-L66)"
+    }
+  ],
+  "notes": "Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)"
+}

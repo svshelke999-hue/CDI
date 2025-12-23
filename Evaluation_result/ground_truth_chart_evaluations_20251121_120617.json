@@ -1,0 +1,1195 @@
+[
+  {
+    "chart_name": "chart_01_rotator_cuff_labrum",
+    "processing_success": true,
+    "overall_score": 82.1,
+    "processing_time": 0.7393951416015625,
+    "llm_evaluation": {
+      "coverage_score": 75.0,
+      "quality_score": 80.0,
+      "completeness_score": 83.0,
+      "accuracy_score": 95.0,
+      "detailed_analysis": "The CDI system recommendations effectively identify the major documentation gaps related to medical necessity, conservative management, and imaging findings that align with the expected improvements. The system correctly flags the absence of conservative care documentation, which matches the expected improvement to 'capture detailed rehab history.' Similarly, the system identifies the lack of imaging specifics, aligning with the expected improvement for MRI details. The recommendations appropriately focus on payer-specific requirements, which enhances their actionability. However, the CDI system misses some important elements from the expected improvements, particularly regarding the need to document quantitative blood loss and specific tear dimensions/tissue quality. While the system identifies the need for more detailed imaging findings, it doesn't explicitly request tear size documentation. The recommendations are medically accurate and clinically sound, following standard CDI practices for orthopedic procedures. The system provides comprehensive coverage of medical necessity documentation requirements across multiple payers, which is valuable for ensuring reimbursement.",
+      "matched_improvements": [
+        "Clarify conservative management timeline and response to support medical necessity",
+        "Document imaging findings including MRI specifics",
+        "Include relevant clinical examination findings",
+        "Capture detailed rehab history (duration, frequency, modalities) and prior injections or medications with outcomes"
+      ],
+      "missed_improvements": [
+        "Document quantitative blood loss",
+        "Specify tear dimensions and tissue quality to justify anchor utilization",
+        "Note the exact number and type (brand/size) of anchors placed",
+        "Outline sling duration, therapy phases, and restrictions to align with payer protocols"
+      ],
+      "extra_recommendations": [
+        "Documentation of function-limiting pain",
+        "Payer-specific criteria alignment (Cigna, UnitedHealthcare, Anthem)"
+      ],
+      "strengths": [
+        "Comprehensive coverage of medical necessity documentation requirements",
+        "Payer-specific recommendations that enhance actionability",
+        "Strong focus on conservative management documentation, which is critical for approval",
+        "Clear identification of missing imaging documentation",
+        "Medically accurate and clinically relevant recommendations"
+      ],
+      "weaknesses": [
+        "No mention of documenting quantitative blood loss",
+        "Lacks specificity regarding tear dimensions and tissue quality documentation",
+        "No recommendations about documenting implant details (number, type, brand)",
+        "Missing recommendations about postoperative plan documentation",
+        "Does not address the need for comorbidity documentation that might impact recovery"
+      ]
+    },
+    "improvement_note": {
+      "chart_name": "chart_01_rotator_cuff_labrum.txt",
+      "primary_focus": [
+        "Clarify conservative management timeline and response to support medical necessity.",
+        "Specify tear dimensions and tissue quality to justify anchor utilization.",
+        "Document quantitative blood loss."
+      ],
+      "recommended_improvements": [
+        "Conservative Care: Capture detailed rehab history (duration, frequency, modalities) and prior injections or medications with outcomes.",
+        "Imaging Findings: Add MRI specifics (tear size, retraction, muscle atrophy) and any labral imaging descriptors.",
+        "Operative Detail: Quantify rotator cuff tear dimensions and state tendon quality; note the exact number and type (brand/size) of anchors placed for both labral and cuff repairs.",
+        "Blood Loss: Record estimated blood loss and any hemostatic measures used.",
+        "Postoperative Plan: Outline sling duration, therapy phases, and restrictions to align with payer protocols.",
+        "Comorbidities/Risk: Include relevant comorbid conditions impacting perioperative risk or recovery if present."
+      ],
+      "coding_impact": []
+    },
+    "cdi_recommendations": [
+      {
+        "payer": "Cigna",
+        "procedure": "Arthroscopic rotator cuff repair",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "No documentation of function-limiting pain",
+          "No documentation of failure of non-surgical management for at least 3 months",
+          "No documentation of advanced diagnostic imaging study results",
+          "No documentation of physical examination findings"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      },
+      {
+        "payer": "Cigna",
+        "procedure": "Arthroscopic labral repair",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "No documentation of function-limiting pain",
+          "No documentation of failure of non-surgical management for at least 3 months",
+          "No documentation of advanced diagnostic imaging study results confirming labral tear",
+          "No documentation of physical examination findings required by Cigna guidelines"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      },
+      {
+        "payer": "UnitedHealthcare",
+        "procedure": "Arthroscopic rotator cuff repair",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "Insufficient documentation of medical necessity per InterQual criteria",
+          "No documentation of conservative management attempts",
+          "No documentation of specific imaging findings"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      },
+      {
+        "payer": "UnitedHealthcare",
+        "procedure": "Arthroscopic labral repair",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "Insufficient documentation to meet InterQual CP: Procedures criteria",
+          "No documentation of medical necessity criteria for labral repair",
+          "Limited clinical information about pre-operative condition and treatments"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      },
+      {
+        "payer": "Anthem",
+        "procedure": "Arthroscopic rotator cuff repair",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "No documentation of pain and functional impairment",
+          "No documentation of conservative management attempts",
+          "No documentation of specific imaging findings"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      },
+      {
+        "payer": "Anthem",
+        "procedure": "Arthroscopic labral repair",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "No specific Anthem criteria for labral repair provided in the guidelines",
+          "Insufficient documentation of medical necessity for the procedure",
+          "Limited clinical information about pre-operative condition and treatments"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      }
+    ]
+  },
+  {
+    "chart_name": "chart_02_revision_total_knee",
+    "processing_success": true,
+    "overall_score": 0.0,
+    "processing_time": 0.04614424705505371,
+    "llm_evaluation": {
+      "coverage_score": 0.0,
+      "quality_score": 0.0,
+      "completeness_score": 0.0,
+      "accuracy_score": 0.0,
+      "detailed_analysis": "The CDI system recommendations completely fail to address the expected improvements for this revision total knee arthroplasty case. Instead of providing relevant clinical documentation improvement suggestions, the system only reports that there are no applicable payer policies for the procedure across three different payers (Cigna, UnitedHealthcare, and Anthem). The system appears to be focused solely on payer policy alignment rather than clinical documentation improvement. The recommendations note that the provided payer guidelines are for unrelated procedures (shoulder procedures and hip arthroplasty) rather than revision total knee arthroplasty. This represents a fundamental mismatch between the CDI system's function and the expected CDI improvements. None of the expected improvements - such as documenting failure etiology, component details, explanted hardware, cultures/pathology, blood loss details, postoperative plan specifics, or medical necessity documentation - are addressed in any way by the system recommendations. The system appears to be designed for insurance coverage determination rather than clinical documentation improvement, which represents a critical failure in meeting the needs of a CDI program.",
+      "matched_improvements": [],
+      "missed_improvements": [
+        "Failure Etiology: Clarify mechanical vs. infectious failure; specify loosening, wear patterns, or instability metrics",
+        "Component Details: Record brand, size, constraint level, stem lengths, augments, and whether antibiotic cement was used",
+        "Explanted Hardware: Note which components were removed and condition of bone stock",
+        "Cultures/Pathology: Document whether synovial fluid or tissue samples were sent for culture/pathology, with preliminary results",
+        "Blood Loss & Transfusion: Provide precise EBL and note if cell saver or transfusions were necessary",
+        "Postoperative Plan: Outline DVT prophylaxis, weight-bearing restrictions, and rehab milestones",
+        "Medical Necessity: Reference preoperative imaging and failed conservative measures or bracing"
+      ],
+      "extra_recommendations": [
+        "Payer policy alignment checks for Cigna, UnitedHealthcare, and Anthem (which are not relevant CDI recommendations)"
+      ],
+      "strengths": [],
+      "weaknesses": [
+        "Complete misalignment with CDI purpose - system provides insurance coverage determinations instead of documentation improvement recommendations",
+        "No clinical documentation improvement suggestions provided at all",
+        "System references unrelated procedure policies (shoulder and hip) instead of knee arthroplasty",
+        "Fails to address any of the expected clinical documentation improvements",
+        "Does not provide actionable guidance for improving the operative report",
+        "System appears to be designed for a different purpose than CDI"
+      ]
+    },
+    "improvement_note": {
+      "chart_name": "chart_02_revision_total_knee.txt",
+      "primary_focus": [
+        "Document reason for revision and component status in greater detail.",
+        "Capture implant specifications and intraoperative cultures."
+      ],
+      "recommended_improvements": [
+        "Failure Etiology: Clarify mechanical vs. infectious failure; specify loosening, wear patterns, or instability metrics.",
+        "Component Details: Record brand, size, constraint level, stem lengths, augments, and whether antibiotic cement was used.",
+        "Explanted Hardware: Note which components were removed and condition of bone stock.",
+        "Cultures/Pathology: Document whether synovial fluid or tissue samples were sent for culture/pathology, with preliminary results.",
+        "Blood Loss & Transfusion: Provide precise EBL and note if cell saver or transfusions were necessary.",
+        "Postoperative Plan: Outline DVT prophylaxis, weight-bearing restrictions, and rehab milestones.",
+        "Medical Necessity: Reference preoperative imaging and failed conservative measures or bracing."
+      ],
+      "coding_impact": []
+    },
+    "cdi_recommendations": [
+      {
+        "payer": "Cigna",
+        "procedure": "Revision total knee arthroplasty",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "No applicable Cigna policy provided for revision total knee arthroplasty",
+          "The provided Cigna guidelines are for shoulder procedures (biceps tenodesis and diagnostic shoulder arthroscopy) which are unrelated to the performed procedure"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      },
+      {
+        "payer": "UnitedHealthcare",
+        "procedure": "Revision total knee arthroplasty",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "No applicable UnitedHealthcare policy provided for revision total knee arthroplasty",
+          "The provided UHC guidelines are for shoulder procedures which are unrelated to the performed procedure"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      },
+      {
+        "payer": "Anthem",
+        "procedure": "Revision total knee arthroplasty",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "No applicable Anthem policy provided for revision total knee arthroplasty",
+          "The provided Anthem guidelines are for primary total hip arthroplasty and reverse shoulder arthroplasty which are unrelated to the performed procedure"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      }
+    ]
+  },
+  {
+    "chart_name": "chart_03_acl_reconstruction",
+    "processing_success": true,
+    "overall_score": 0.0,
+    "processing_time": 0.0645897388458252,
+    "llm_evaluation": {
+      "coverage_score": 0.0,
+      "quality_score": 0.0,
+      "completeness_score": 0.0,
+      "accuracy_score": 0.0,
+      "detailed_analysis": "The CDI system recommendations completely fail to address the expected improvements for this medical chart. Instead of providing specific documentation improvement suggestions related to the ACL reconstruction and meniscectomy procedures, the system only returns messages indicating that it lacks the appropriate guidelines to evaluate these procedures. All six recommendations simply state that the system has shoulder or hip procedure guidelines rather than knee-specific guidelines, making them entirely irrelevant to the case at hand. The system appears to be experiencing a fundamental configuration issue where it cannot access the appropriate clinical criteria for knee procedures. None of the expected improvements (graft documentation, tunnel data, meniscectomy details, imaging history, rehab orders, or concomitant findings) are addressed in any way. The recommendations provide no actionable guidance to improve the documentation quality of this operative report. This represents a complete system failure rather than merely inadequate recommendations.",
+      "matched_improvements": [],
+      "missed_improvements": [
+        "Graft Documentation: Specify whether autograft or allograft was used, source (hamstring, patellar tendon, tibialis, etc.), and preparation technique.",
+        "Tunnel Data: Include tunnel diameters, positions, and guidance system used to support appropriate implant selection.",
+        "Meniscectomy Detail: Describe percentage of meniscus removed, zones involved, and remaining rim stability.",
+        "Imaging History: Summarize MRI findings and pivot shift testing results preoperatively for medical necessity.",
+        "Rehab Orders: Clarify brace settings, weight-bearing restrictions, and therapy timeline (phased protocol).",
+        "Concomitant Findings: Document cartilage status and any addressed chondral lesions or ACL remnant handling."
+      ],
+      "extra_recommendations": [
+        "Multiple notifications that guidelines for shoulder/hip procedures were provided instead of knee-specific guidelines"
+      ],
+      "strengths": [],
+      "weaknesses": [
+        "Complete failure to access or apply appropriate knee procedure guidelines",
+        "No actual CDI recommendations provided for any aspect of the case",
+        "System appears to be misconfigured with incorrect specialty guidelines",
+        "No recognition of the documentation gaps identified in the expected improvements",
+        "No actionable guidance provided to improve documentation quality",
+        "Inability to identify basic CDI opportunities in orthopedic knee procedures"
+      ]
+    },
+    "improvement_note": {
+      "chart_name": "chart_03_acl_reconstruction.txt",
+      "primary_focus": [
+        "Identify graft source/type and fixation method.",
+        "Detail meniscal pathology and treatment extent."
+      ],
+      "recommended_improvements": [
+        "Graft Documentation: Specify whether autograft or allograft was used, source (hamstring, patellar tendon, tibialis, etc.), and preparation technique.",
+        "Tunnel Data: Include tunnel diameters, positions, and guidance system used to support appropriate implant selection.",
+        "Meniscectomy Detail: Describe percentage of meniscus removed, zones involved, and remaining rim stability.",
+        "Imaging History: Summarize MRI findings and pivot shift testing results preoperatively for medical necessity.",
+        "Rehab Orders: Clarify brace settings, weight-bearing restrictions, and therapy timeline (phased protocol).",
+        "Concomitant Findings: Document cartilage status and any addressed chondral lesions or ACL remnant handling."
+      ],
+      "coding_impact": []
+    },
+    "cdi_recommendations": [
+      {
+        "payer": "Cigna",
+        "procedure": "Arthroscopic anterior cruciate ligament reconstruction",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "No relevant Cigna guidelines provided for ACL reconstruction",
+          "Provided Cigna guidelines are for shoulder procedures, not knee procedures",
+          "Unable to evaluate against appropriate knee/ACL reconstruction criteria"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      },
+      {
+        "payer": "Cigna",
+        "procedure": "Arthroscopic partial medial meniscectomy",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "No relevant knee-specific guidelines provided for evaluation",
+          "Provided Cigna guidelines are for shoulder procedures only",
+          "Unable to assess medical necessity against knee meniscectomy criteria"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      },
+      {
+        "payer": "UnitedHealthcare",
+        "procedure": "Arthroscopic anterior cruciate ligament reconstruction",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "No relevant UHC guidelines provided for ACL reconstruction",
+          "Provided UHC guidelines are for shoulder procedures, not knee procedures",
+          "Unable to evaluate against appropriate knee/ACL reconstruction criteria"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      },
+      {
+        "payer": "UnitedHealthcare",
+        "procedure": "Arthroscopic partial medial meniscectomy",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "No relevant knee-specific guidelines provided for evaluation",
+          "Provided UHC guidelines are for shoulder procedures only",
+          "Unable to assess medical necessity against knee meniscectomy criteria"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      },
+      {
+        "payer": "Anthem",
+        "procedure": "Arthroscopic anterior cruciate ligament reconstruction",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "No relevant Anthem guidelines provided for ACL reconstruction",
+          "Provided Anthem guidelines are for hip and shoulder procedures, not knee procedures",
+          "Unable to evaluate against appropriate knee/ACL reconstruction criteria"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      },
+      {
+        "payer": "Anthem",
+        "procedure": "Arthroscopic partial medial meniscectomy",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "No relevant knee-specific guidelines provided for evaluation",
+          "Provided Anthem guidelines are for hip and shoulder procedures only",
+          "Unable to assess medical necessity against knee meniscectomy criteria"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      }
+    ]
+  },
+  {
+    "chart_name": "chart_04_hip_labral_fai",
+    "processing_success": true,
+    "overall_score": 54.5,
+    "processing_time": 0.1198277473449707,
+    "llm_evaluation": {
+      "coverage_score": 45.0,
+      "quality_score": 60.0,
+      "completeness_score": 40.0,
+      "accuracy_score": 75.0,
+      "detailed_analysis": "The CDI system recommendations partially address the expected improvements but focus heavily on payer-specific requirements rather than comprehensive clinical documentation improvements. The system correctly identifies the need for documenting conservative treatment history (aligning with expected improvement #7) and functional limitations (partially related to rehabilitation documentation in #6). However, the recommendations miss critical clinical elements like morphology measurements, cartilage grading, traction time documentation, detailed lesion descriptions, and specific implant information. The system's recommendations are accurate from a payer perspective but don't fully address the clinical documentation needs identified in the expected improvements. The recommendations appropriately highlight the importance of documenting medical necessity through conservative treatment history and functional limitations, which would strengthen the case for the procedures performed, but lack the technical surgical documentation improvements that would enhance the clinical value of the operative report.",
+      "matched_improvements": [
+        "Conservative Care: Summarize prior injections, physical therapy, or activity modification attempts with timelines.",
+        "Rehabilitation: Outline weight-bearing restrictions, brace settings, and specific therapy phases (partially matched through functional limitations requirements)."
+      ],
+      "missed_improvements": [
+        "Morphology Measurements: Add alpha angle, lateral center-edge angle, and head-neck offset values from imaging or intraoperative assessment.",
+        "Cartilage Grading: Document acetabular and femoral cartilage status using Outerbridge or Beck grading.",
+        "Traction Time: Record total traction duration and intervals to comply with operative standards.",
+        "Lesion Description: Describe labral tear extent in clock-face terms pre- and post-repair, including tissue quality.",
+        "Implants: List anchor brand/size and orientation (trans-osseous vs. knotted) for supply reconciliation."
+      ],
+      "extra_recommendations": [
+        "Documentation of moderate to severe hip pain worsened by flexion activities",
+        "Documentation of positive impingement sign on clinical examination",
+        "Documentation of MRI report defining or suggesting a labral tear",
+        "Documentation of functional limitations interfering with ADLs"
+      ],
+      "strengths": [
+        "Accurately identifies the need for documenting conservative treatment history",
+        "Correctly emphasizes the importance of documenting functional limitations",
+        "Provides payer-specific requirements that would improve reimbursement likelihood",
+        "Recommendations are actionable and specific to hip arthroscopy procedures",
+        "Identifies multiple documentation gaps that would affect medical necessity determination"
+      ],
+      "weaknesses": [
+        "Focuses almost exclusively on payer requirements rather than clinical documentation quality",
+        "Misses critical technical surgical documentation improvements",
+        "Does not address quantification of impingement morphology (primary CDI focus)",
+        "Lacks recommendations for documenting surgical technique details and findings",
+        "No mention of traction time documentation despite being a standard operative metric",
+        "Overlooks implant documentation needs for supply reconciliation",
+        "Recommendations are repetitive across different payers without tailoring to clinical needs"
+      ]
+    },
+    "improvement_note": {
+      "chart_name": "chart_04_hip_labral_fai.txt",
+      "primary_focus": [
+        "Quantify impingement morphology and traction metrics.",
+        "Strengthen documentation supporting combined labral repair and femoroplasty."
+      ],
+      "recommended_improvements": [
+        "Morphology Measurements: Add alpha angle, lateral center-edge angle, and head-neck offset values from imaging or intraoperative assessment.",
+        "Cartilage Grading: Document acetabular and femoral cartilage status using Outerbridge or Beck grading.",
+        "Traction Time: Record total traction duration and intervals to comply with operative standards.",
+        "Lesion Description: Describe labral tear extent in clock-face terms pre- and post-repair, including tissue quality.",
+        "Implants: List anchor brand/size and orientation (trans-osseous vs. knotted) for supply reconciliation.",
+        "Rehabilitation: Outline weight-bearing restrictions, brace settings, and specific therapy phases.",
+        "Conservative Care: Summarize prior injections, physical therapy, or activity modification attempts with timelines."
+      ],
+      "coding_impact": []
+    },
+    "cdi_recommendations": [
+      {
+        "payer": "Cigna",
+        "procedure": "Hip Arthroscopy",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "No documentation of provider-directed non-surgical management for at least three months",
+          "No documentation of specific conservative treatments attempted",
+          "Insufficient documentation of functional limitations"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      },
+      {
+        "payer": "Cigna",
+        "procedure": "Hip Arthroscopy",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "No Cigna-specific guidelines provided for hip capsular closure",
+          "Unable to evaluate against Cigna criteria for hip procedures",
+          "Provided Cigna guidelines only reference shoulder procedures"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      },
+      {
+        "payer": "UnitedHealthcare",
+        "procedure": "Hip Arthroscopy",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "Insufficient documentation of medical necessity per InterQual criteria",
+          "No documentation of conservative management duration or specific treatments",
+          "Missing documentation of functional limitations"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      },
+      {
+        "payer": "UnitedHealthcare",
+        "procedure": "Hip Arthroscopy",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "No UHC-specific guidelines provided for hip capsular closure",
+          "Unable to evaluate against UHC criteria for hip procedures",
+          "Provided UHC guidelines only reference shoulder procedures"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      },
+      {
+        "payer": "Anthem",
+        "procedure": "Hip Arthroscopy",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "No documentation of moderate to severe hip pain worsened by flexion activities",
+          "No documentation of positive impingement sign on clinical examination",
+          "No documentation of MRI report defining or suggesting a labral tear"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      },
+      {
+        "payer": "Anthem",
+        "procedure": "Hip Arthroscopy",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "Documentation does not establish moderate to severe hip pain interfering with ADLs",
+          "No documentation of positive impingement sign on clinical examination",
+          "No documentation of failure of 3 months of conservative management",
+          "Insufficient documentation of functional limitations"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      }
+    ]
+  },
+  {
+    "chart_name": "chart_05_mpfl_reconstruction",
+    "processing_success": true,
+    "overall_score": 0.0,
+    "processing_time": 0.06537103652954102,
+    "llm_evaluation": {
+      "coverage_score": 0.0,
+      "quality_score": 0.0,
+      "completeness_score": 0.0,
+      "accuracy_score": 0.0,
+      "detailed_analysis": "The CDI system recommendations completely fail to address the expected improvements for this medical chart. The system appears to have been provided with irrelevant guidelines (shoulder procedure guidelines instead of knee procedure guidelines) for all three payers (Cigna, UnitedHealthcare, and Anthem). As a result, the system correctly identified that it could not evaluate the procedures against appropriate criteria, but it did not provide any actual CDI recommendations to improve the documentation. The system merely stated that the documentation was 'Insufficient' for all payers and procedures because it lacked the appropriate guidelines to evaluate against. None of the expected improvements (graft details, imaging metrics, fixation hardware specifications, conservative therapy history, lateral release rationale, postoperative protocol, or comorbid considerations) were addressed in any way. The system did not attempt to identify documentation gaps based on general CDI principles or standard medical documentation requirements for orthopedic procedures. Instead, it only focused on the mismatch between the procedures performed and the guidelines it had available. This represents a complete failure of the CDI system to provide useful recommendations for improving the clinical documentation.",
+      "matched_improvements": [],
+      "missed_improvements": [
+        "Graft Detail: Indicate whether autograft or allograft was used, harvest site, diameter, and preparation steps.",
+        "Imaging Metrics: Document trochlear dysplasia grade, TT-TG distance, patellar height (Caton-Deschamps), or MRI findings.",
+        "Fixation Hardware: List screw sizes, tunnel locations, and any suture anchors employed.",
+        "Conservative Therapy: Detail bracing, therapy, taping, and duration of non-operative management with outcomes.",
+        "Lateral Release Rationale: Clarify intraoperative findings prompting lateral release and extent performed.",
+        "Postoperative Protocol: Provide weight-bearing limitations, brace settings, and rehab progression.",
+        "Comorbid Considerations: Include BMI or connective tissue disorders influencing instability if applicable."
+      ],
+      "extra_recommendations": [
+        "System noted insufficient guidelines for evaluation rather than providing actual documentation improvement recommendations"
+      ],
+      "strengths": [
+        "The system correctly identified that it was provided with inappropriate guidelines (shoulder instead of knee)",
+        "The system appropriately declined to evaluate against irrelevant criteria"
+      ],
+      "weaknesses": [
+        "Failed to provide any actual CDI recommendations despite documentation gaps being evident",
+        "Did not address any of the expected improvements",
+        "Did not attempt to apply general CDI principles when specific guidelines were unavailable",
+        "Focused only on guideline mismatch rather than documentation improvement",
+        "No recommendations for improving specificity of graft selection or fixation technique (primary CDI focus)",
+        "No recommendations for documenting objective instability metrics (primary CDI focus)",
+        "System appears entirely dependent on having exact matching guidelines and cannot generalize"
+      ]
+    },
+    "improvement_note": {
+      "chart_name": "chart_05_mpfl_reconstruction.txt",
+      "primary_focus": [
+        "Specify graft selection and fixation technique.",
+        "Provide objective instability metrics supporting reconstruction."
+      ],
+      "recommended_improvements": [
+        "Graft Detail: Indicate whether autograft or allograft was used, harvest site, diameter, and preparation steps.",
+        "Imaging Metrics: Document trochlear dysplasia grade, TT-TG distance, patellar height (Caton-Deschamps), or MRI findings.",
+        "Fixation Hardware: List screw sizes, tunnel locations, and any suture anchors employed.",
+        "Conservative Therapy: Detail bracing, therapy, taping, and duration of non-operative management with outcomes.",
+        "Lateral Release Rationale: Clarify intraoperative findings prompting lateral release and extent performed.",
+        "Postoperative Protocol: Provide weight-bearing limitations, brace settings, and rehab progression.",
+        "Comorbid Considerations: Include BMI or connective tissue disorders influencing instability if applicable."
+      ],
+      "coding_impact": []
+    },
+    "cdi_recommendations": [
+      {
+        "payer": "Cigna",
+        "procedure": "Medial patellofemoral ligament reconstruction",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "No relevant Cigna guidelines provided for MPFL reconstruction",
+          "The provided Cigna guidelines are for shoulder procedures, not knee procedures",
+          "Unable to evaluate against specific MPFL reconstruction criteria"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      },
+      {
+        "payer": "Cigna",
+        "procedure": "Lateral release, knee",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "No Cigna guidelines specific to lateral release of the knee were provided",
+          "The provided Cigna guidelines relate to shoulder procedures only",
+          "Cannot evaluate against knee-specific criteria when only shoulder guidelines are available"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      },
+      {
+        "payer": "UnitedHealthcare",
+        "procedure": "Medial patellofemoral ligament reconstruction",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "No relevant UHC guidelines provided for MPFL reconstruction",
+          "The provided UHC guidelines are for shoulder procedures, not knee procedures",
+          "Unable to evaluate against specific MPFL reconstruction criteria"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      },
+      {
+        "payer": "UnitedHealthcare",
+        "procedure": "Lateral release, knee",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "No UnitedHealthcare guidelines specific to lateral release of the knee were provided",
+          "The provided UHC guidelines relate to shoulder procedures only",
+          "Cannot evaluate against knee-specific criteria when only shoulder guidelines are available"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      },
+      {
+        "payer": "Anthem",
+        "procedure": "Medial patellofemoral ligament reconstruction",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "No relevant Anthem guidelines provided for MPFL reconstruction",
+          "The provided Anthem guidelines are for shoulder arthroplasty and diagnostic knee arthroscopy, not MPFL reconstruction",
+          "Unable to evaluate against specific MPFL reconstruction criteria"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      },
+      {
+        "payer": "Anthem",
+        "procedure": "Lateral release, knee",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "No Anthem guidelines specific to lateral release of the knee were provided",
+          "The provided Anthem guidelines for knee only address diagnostic arthroscopy, not lateral release",
+          "Cannot evaluate against lateral release-specific criteria without appropriate guidelines"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      }
+    ]
+  },
+  {
+    "chart_name": "chart_06_biceps_tenodesis",
+    "processing_success": true,
+    "overall_score": 69.5,
+    "processing_time": 0.09251213073730469,
+    "llm_evaluation": {
+      "coverage_score": 65.0,
+      "quality_score": 70.0,
+      "completeness_score": 60.0,
+      "accuracy_score": 85.0,
+      "detailed_analysis": "The CDI system recommendations focus heavily on payer-specific documentation requirements for medical necessity, which partially aligns with the expected improvements. The system correctly identifies the need for documenting conservative care history (physical therapy duration, medication trials) and some aspects of pathology findings. However, it misses several key areas from the expected improvements, particularly regarding implant details, quantitative blood loss documentation, and specific rehabilitation planning. The recommendations are medically accurate and clinically sound, focusing on documentation elements that would support medical necessity for the procedures performed. The system provides detailed payer-specific requirements, which is valuable, but doesn't address some of the more technical operative documentation improvements expected in the ground truth. The recommendations appropriately emphasize the need for documenting pre-operative conservative management, diagnostic imaging findings, and physical examination results - all critical for justifying medical necessity to payers.",
+      "matched_improvements": [
+        "Conservative Measures: Outline physical therapy duration, medication trials, and injection history supporting failure of non-operative care",
+        "Tendon Pathology: Describe degree of tendon degeneration, partial tearing, or groove osteophytes to justify tenodesis",
+        "Subacromial Findings: Document bursal thickness, spur removal, and AC joint status if addressed",
+        "Risk/Comorbidity: Include diabetes, smoking status, or other factors impacting healing if present"
+      ],
+      "missed_improvements": [
+        "Implant Detail: Record screw size, manufacturer, and fixation position (suprapectoral vs. subpectoral) for supply billing",
+        "Blood Loss & Fluids: Provide quantitative EBL and mention irrigation volumes if significant",
+        "Rehabilitation Plan: Define sling duration, activity restrictions, and therapy start date with goals"
+      ],
+      "extra_recommendations": [
+        "Documentation of function-limiting pain",
+        "Documentation of advanced diagnostic imaging study (MRI/CT) results",
+        "Documentation of specific physical exam findings required by various payers",
+        "Documentation of shoulder range of motion assessment"
+      ],
+      "strengths": [
+        "Comprehensive coverage of payer-specific requirements for medical necessity",
+        "Detailed breakdown by procedure and payer",
+        "Strong focus on pre-operative conservative management documentation",
+        "Clear identification of missing diagnostic imaging documentation",
+        "Accurate identification of missing clinical examination findings"
+      ],
+      "weaknesses": [
+        "Limited focus on technical operative documentation improvements",
+        "No mention of implant specifications needed for billing",
+        "Minimal attention to post-operative care documentation needs",
+        "No recommendations regarding quantification of blood loss",
+        "Lacks recommendations for documenting specific rehabilitation protocols",
+        "Overly focused on pre-procedure justification rather than balanced documentation improvement"
+      ]
+    },
+    "improvement_note": {
+      "chart_name": "chart_06_biceps_tenodesis.txt",
+      "primary_focus": [
+        "Capture implant specifics and concomitant pathology findings.",
+        "Enhance documentation of conservative care and postoperative directives."
+      ],
+      "recommended_improvements": [
+        "Implant Detail: Record screw size, manufacturer, and fixation position (suprapectoral vs. subpectoral) for supply billing.",
+        "Conservative Measures: Outline physical therapy duration, medication trials, and injection history supporting failure of non-operative care.",
+        "Tendon Pathology: Describe degree of tendon degeneration, partial tearing, or groove osteophytes to justify tenodesis.",
+        "Subacromial Findings: Document bursal thickness, spur removal, and AC joint status if addressed.",
+        "Blood Loss & Fluids: Provide quantitative EBL and mention irrigation volumes if significant.",
+        "Rehabilitation Plan: Define sling duration, activity restrictions, and therapy start date with goals.",
+        "Risk/Comorbidity: Include diabetes, smoking status, or other factors impacting healing if present."
+      ],
+      "coding_impact": []
+    },
+    "cdi_recommendations": [
+      {
+        "payer": "Cigna",
+        "procedure": "Arthroscopic biceps tenodesis",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "Insufficient documentation of function-limiting pain",
+          "No documentation of 3-month provider-directed non-surgical management",
+          "No documentation of advanced diagnostic imaging study (MRI/CT)",
+          "No documentation of physical exam findings required by Cigna"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      },
+      {
+        "payer": "Cigna",
+        "procedure": "Subacromial bursectomy",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "Insufficient documentation of function-limiting pain",
+          "No documentation of provider-directed non-surgical management for at least 3 months",
+          "No documentation of advanced diagnostic imaging study results",
+          "No documentation of shoulder range of motion assessment",
+          "No documentation of specific physical exam findings required by Cigna"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      },
+      {
+        "payer": "UnitedHealthcare",
+        "procedure": "Arthroscopic biceps tenodesis",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "Insufficient documentation to meet UHC medical necessity criteria",
+          "Missing required clinical documentation per InterQual CP: Procedures"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      },
+      {
+        "payer": "UnitedHealthcare",
+        "procedure": "Subacromial bursectomy",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "Insufficient documentation to meet InterQual CP: Procedures criteria",
+          "No documentation of medical necessity criteria for shoulder debridement",
+          "Limited clinical information about the subacromial bursitis condition"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      },
+      {
+        "payer": "Anthem",
+        "procedure": "Arthroscopic biceps tenodesis",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "Insufficient documentation of pain in front of shoulder and/or mechanical symptoms",
+          "No documentation of clinical exam consistent with long head of biceps pathology",
+          "No documentation of MRI findings consistent with biceps tendinopathy",
+          "No documentation of 12 weeks of supervised conservative management"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      },
+      {
+        "payer": "Anthem",
+        "procedure": "Subacromial bursectomy",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "No specific criteria for isolated subacromial bursectomy in provided guidelines",
+          "Insufficient documentation of biceps tendinopathy criteria for associated biceps tenodesis",
+          "No documentation of conservative management duration",
+          "No documentation of MRI findings consistent with biceps tendinopathy"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      }
+    ]
+  },
+  {
+    "chart_name": "chart_07_reverse_shoulder_arthroplasty",
+    "processing_success": true,
+    "overall_score": 69.5,
+    "processing_time": 0.08968472480773926,
+    "llm_evaluation": {
+      "coverage_score": 65.0,
+      "quality_score": 70.0,
+      "completeness_score": 60.0,
+      "accuracy_score": 85.0,
+      "detailed_analysis": "The CDI system recommendations partially address the expected improvements, with a focus on documentation requirements for medical necessity and payer criteria. The system correctly identifies the need for more detailed clinical information about the patient's condition, including rotator cuff status and functional limitations, which aligns with the expected improvements. However, the CDI recommendations are primarily payer-focused rather than comprehensive clinical documentation improvements. They emphasize medical necessity criteria and prior treatment documentation but miss several important clinical elements from the expected improvements. The recommendations accurately identify the need for better documentation of the cuff tear arthropathy, which is the primary diagnosis, but don't address implant specifications, bone quality assessment, blood loss quantification, or detailed postoperative planning. The system's focus on payer requirements is medically accurate and clinically relevant, but incomplete when compared to the full scope of expected improvements.",
+      "matched_improvements": [
+        "Document rotator cuff status (tears, fatty infiltration grades) and range-of-motion deficits that necessitate reverse arthroplasty",
+        "Comorbidities: Mention osteoporosis, rheumatoid arthritis, or prior surgeries influencing complexity",
+        "Clarify indications for reverse configuration"
+      ],
+      "missed_improvements": [
+        "Implant Inventory: Specify baseplate size, screw lengths, glenosphere diameter, humeral stem size, and polyethylene thickness",
+        "Bone Quality: Note glenoid bone stock, need for augments, and any grafting performed",
+        "Blood Loss: Provide quantitative EBL and whether tranexamic acid or cell saver was used",
+        "Neurovascular Assessment: Document brachial plexus or axillary nerve status pre- and post-implantation",
+        "Postoperative Plan: Detail sling type, duration, therapy milestones, and DVT prophylaxis"
+      ],
+      "extra_recommendations": [
+        "Documentation of function-limiting pain duration",
+        "Documentation of failed non-surgical management",
+        "Documentation of advanced diagnostic imaging results",
+        "Documentation to meet InterQual criteria"
+      ],
+      "strengths": [
+        "Accurately identifies the need for better documentation of cuff tear arthropathy",
+        "Correctly emphasizes the importance of documenting functional limitations",
+        "Provides payer-specific recommendations that would help with reimbursement",
+        "Recommendations are clinically sound and relevant to the procedure",
+        "Identifies the need for documentation of prior treatments, which is important for medical necessity"
+      ],
+      "weaknesses": [
+        "Overly focused on payer requirements rather than comprehensive clinical documentation",
+        "Misses important technical aspects of the procedure documentation (implant specifications)",
+        "Does not address perioperative details like blood loss and neurovascular assessment",
+        "Lacks recommendations for improved postoperative plan documentation",
+        "No mention of bone quality assessment which is critical for shoulder arthroplasty outcomes"
+      ]
+    },
+    "improvement_note": {
+      "chart_name": "chart_07_reverse_shoulder_arthroplasty.txt",
+      "primary_focus": [
+        "Clarify indications for reverse configuration and implant specifics.",
+        "Improve perioperative detail for quality and registry reporting."
+      ],
+      "recommended_improvements": [
+        "Indication Detail: Document rotator cuff status (tears, fatty infiltration grades) and range-of-motion deficits that necessitate reverse arthroplasty.",
+        "Implant Inventory: Specify baseplate size, screw lengths, glenosphere diameter, humeral stem size, and polyethylene thickness.",
+        "Bone Quality: Note glenoid bone stock, need for augments, and any grafting performed.",
+        "Blood Loss: Provide quantitative EBL and whether tranexamic acid or cell saver was used.",
+        "Neurovascular Assessment: Document brachial plexus or axillary nerve status pre- and post-implantation.",
+        "Comorbidities: Mention osteoporosis, rheumatoid arthritis, or prior surgeries influencing complexity.",
+        "Postoperative Plan: Detail sling type, duration, therapy milestones, and DVT prophylaxis."
+      ],
+      "coding_impact": []
+    },
+    "cdi_recommendations": [
+      {
+        "payer": "Cigna",
+        "procedure": "Reverse total shoulder arthroplasty",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "No documentation of function-limiting pain duration",
+          "No documentation of failed non-surgical management",
+          "No documentation of physical examination findings",
+          "No documentation of advanced diagnostic imaging results"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      },
+      {
+        "payer": "UnitedHealthcare",
+        "procedure": "Reverse total shoulder arthroplasty",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "Insufficient documentation to meet InterQual criteria",
+          "No documentation of specific medical necessity criteria",
+          "No documentation of failed prior treatments",
+          "Inadequate clinical details regarding cuff tear arthropathy"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      },
+      {
+        "payer": "Anthem",
+        "procedure": "Reverse total shoulder arthroplasty",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "Diagnosis of cuff tear arthropathy is documented but pain and functional impairment not adequately described",
+          "No documentation of limited ability to actively flex upper extremity to 90 degrees against gravity",
+          "Insufficient details regarding rotator cuff deficiency"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      }
+    ]
+  },
+  {
+    "chart_name": "chart_08_osteochondral_allograft_knee",
+    "processing_success": true,
+    "overall_score": 0.0,
+    "processing_time": 0.07105112075805664,
+    "llm_evaluation": {
+      "coverage_score": 0.0,
+      "quality_score": 0.0,
+      "completeness_score": 0.0,
+      "accuracy_score": 0.0,
+      "detailed_analysis": "The CDI system recommendations completely fail to address the expected improvements for this osteochondral allograft transplantation case. Instead of providing specific documentation improvement suggestions related to the procedure, the system only reports that it lacks relevant payer guidelines for three insurance companies (Cigna, UnitedHealthcare, and Anthem). The system incorrectly states that the provided guidelines only relate to shoulder or hip procedures, which appears to be a fundamental error in the CDI system's analysis. None of the expected improvements regarding lesion measurements, donor graft identifiers, prior treatment failure justification, cartilage grading, fixation technique details, blood loss documentation, or rehabilitation planning were addressed. The system appears to have malfunctioned by focusing exclusively on payer guideline availability rather than performing actual clinical documentation improvement analysis. This represents a complete failure of the CDI system to fulfill its intended purpose for this case.",
+      "matched_improvements": [],
+      "missed_improvements": [
+        "Lesion Description: Document defect dimensions (length, width, depth) and location referencing clock-face or grid mapping",
+        "Donor Information: Record graft lot number, procurement source, and expiration to meet tissue tracking standards",
+        "Prior Procedures: Detail the previous microfracture (date, outcome) and other conservative measures such as injections or bracing",
+        "Cartilage Grading: Include Outerbridge grade and subchondral bone status",
+        "Fixation Technique: Note whether press-fit alone or adjunct fixation (screws/pins) was used",
+        "Blood Loss/Fluids: Provide precise EBL and whether tourniquet pressure/time met institutional protocols",
+        "Rehabilitation Plan: Outline weight-bearing progression, CPM duration, and restrictions to support medical necessity"
+      ],
+      "extra_recommendations": [
+        "Statement about insufficient Cigna guidelines for osteochondral allograft transplantation",
+        "Statement about insufficient UnitedHealthcare guidelines for osteochondral allograft transplantation",
+        "Statement about insufficient Anthem guidelines for osteochondral allograft transplantation"
+      ],
+      "strengths": [],
+      "weaknesses": [
+        "Complete failure to address any of the expected clinical documentation improvements",
+        "Inappropriate focus on payer guideline availability rather than documentation quality",
+        "Mischaracterization of the procedure as relating to shoulder or hip rather than knee",
+        "No actionable recommendations provided for improving the operative note",
+        "No recognition of missing clinical details critical for procedure justification",
+        "No identification of documentation gaps related to tissue tracking requirements",
+        "System appears to have malfunctioned or been incorrectly configured for this evaluation"
+      ]
+    },
+    "improvement_note": {
+      "chart_name": "chart_08_osteochondral_allograft_knee.txt",
+      "primary_focus": [
+        "Provide lesion measurements and donor graft identifiers.",
+        "Clarify prior treatment failure justification."
+      ],
+      "recommended_improvements": [
+        "Lesion Description: Document defect dimensions (length, width, depth) and location referencing clock-face or grid mapping.",
+        "Donor Information: Record graft lot number, procurement source, and expiration to meet tissue tracking standards.",
+        "Prior Procedures: Detail the previous microfracture (date, outcome) and other conservative measures such as injections or bracing.",
+        "Cartilage Grading: Include Outerbridge grade and subchondral bone status.",
+        "Fixation Technique: Note whether press-fit alone or adjunct fixation (screws/pins) was used.",
+        "Blood Loss/Fluids: Provide precise EBL and whether tourniquet pressure/time met institutional protocols.",
+        "Rehabilitation Plan: Outline weight-bearing progression, CPM duration, and restrictions to support medical necessity."
+      ],
+      "coding_impact": []
+    },
+    "cdi_recommendations": [
+      {
+        "payer": "Cigna",
+        "procedure": "Osteochondral allograft transplantation",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "No relevant Cigna guidelines provided for osteochondral allograft transplantation",
+          "Unable to evaluate against Cigna's specific requirements for knee procedures",
+          "Provided Cigna guidelines relate to shoulder procedures only"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      },
+      {
+        "payer": "UnitedHealthcare",
+        "procedure": "Osteochondral allograft transplantation",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "No relevant UHC guidelines provided for osteochondral allograft transplantation",
+          "Unable to evaluate against UHC's specific requirements for knee procedures",
+          "Provided UHC guidelines relate to shoulder procedures only"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      },
+      {
+        "payer": "Anthem",
+        "procedure": "Osteochondral allograft transplantation",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "No relevant Anthem guidelines provided for osteochondral allograft transplantation",
+          "Unable to evaluate against Anthem's specific requirements for knee procedures",
+          "Provided Anthem guidelines relate to shoulder and hip procedures only"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      }
+    ]
+  },
+  {
+    "chart_name": "chart_09_total_hip_arthroplasty",
+    "processing_success": true,
+    "overall_score": 31.5,
+    "processing_time": 0.08177423477172852,
+    "llm_evaluation": {
+      "coverage_score": 15.0,
+      "quality_score": 30.0,
+      "completeness_score": 20.0,
+      "accuracy_score": 70.0,
+      "detailed_analysis": "The CDI system recommendations focus almost exclusively on payer-specific criteria for procedure approval rather than addressing the expected documentation improvements for a comprehensive operative report. The system identified that documentation was insufficient for Anthem's requirements, noting the lack of evidence for conservative management, functional limitations, and pain documentation. However, it completely missed addressing the primary CDI focus areas related to implant specifications, alignment metrics, and perioperative management plans. The system's recommendations were limited to payer approval criteria rather than comprehensive clinical documentation improvement. While the Anthem criteria mention functional limitations which somewhat relates to the expected improvement regarding comorbidities and risk factors, this connection is tenuous and lacks the specificity needed. The system's recommendations are medically accurate in terms of payer requirements but fail to address the clinical documentation needs that would improve the quality of the operative report for clinical care, outcomes tracking, and comprehensive medical record keeping.",
+      "matched_improvements": [
+        "Partial match: Anthem's requirement for 'functional limitations' somewhat relates to 'Comorbidities & Risk' improvement"
+      ],
+      "missed_improvements": [
+        "Implant Specifics: Record cup size, liner type, femoral stem size/offset, head diameter, and bearing surface material",
+        "Alignment Data: Document cup abduction and anteversion angles plus leg length/offset restoration measurements",
+        "Blood Loss & Transfusion: Provide precise EBL, cell saver usage, and transfusion status",
+        "DVT Prophylaxis: State chosen regimen (medication, duration, mechanical devices) instead of 'pending'",
+        "Pathology/Cultures: Note whether femoral head sent for pathology or cultures",
+        "Postoperative Course: Outline weight-bearing orders, hip precautions, and rehab timeline"
+      ],
+      "extra_recommendations": [
+        "Documentation of failure of 3 months of non-surgical conservative management",
+        "Documentation of pain with passive motion of the hip",
+        "Documentation of duration of symptoms"
+      ],
+      "strengths": [
+        "Accurately identifies missing elements for Anthem's approval criteria",
+        "Correctly recognizes the need for more documentation about functional limitations",
+        "Provides clear decision outcomes (Insufficient) for each payer evaluation"
+      ],
+      "weaknesses": [
+        "Completely misses the primary CDI focus on implant specifications and alignment metrics",
+        "Fails to address perioperative management documentation needs",
+        "Focuses exclusively on payer approval criteria rather than comprehensive clinical documentation",
+        "Does not address any of the technical surgical documentation improvements needed",
+        "Provides no recommendations for documenting implant details which are critical for future care",
+        "Ignores the need for specific DVT prophylaxis documentation",
+        "No mention of pathology/culture documentation needs",
+        "Lacks recommendations for detailed postoperative course documentation"
+      ]
+    },
+    "improvement_note": {
+      "chart_name": "chart_09_total_hip_arthroplasty.txt",
+      "primary_focus": [
+        "Detail implant specifications and alignment metrics.",
+        "Clarify perioperative management plans."
+      ],
+      "recommended_improvements": [
+        "Implant Specifics: Record cup size, liner type, femoral stem size/offset, head diameter, and bearing surface material.",
+        "Alignment Data: Document cup abduction and anteversion angles plus leg length/offset restoration measurements.",
+        "Blood Loss & Transfusion: Provide precise EBL, cell saver usage, and transfusion status.",
+        "DVT Prophylaxis: State chosen regimen (medication, duration, mechanical devices) instead of \"pending.\"",
+        "Comorbidities & Risk: Mention BMI, diabetes, cardiovascular history, or other factors influencing outcomes.",
+        "Pathology/Cultures: Note whether femoral head sent for pathology or cultures.",
+        "Postoperative Course: Outline weight-bearing orders, hip precautions, and rehab timeline."
+      ],
+      "coding_impact": []
+    },
+    "cdi_recommendations": [
+      {
+        "payer": "Cigna",
+        "procedure": "Total Hip Arthroplasty",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "No relevant Cigna guidelines provided for hip arthroplasty procedures",
+          "The provided Cigna guidelines only address shoulder procedures (diagnostic arthroscopy and biceps tenodesis)",
+          "Unable to evaluate against Cigna hip arthroplasty criteria as they were not provided"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      },
+      {
+        "payer": "UnitedHealthcare",
+        "procedure": "Total Hip Arthroplasty",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "No relevant UHC guidelines provided for hip arthroplasty procedures",
+          "The provided UHC guidelines only address shoulder procedures (subacromial balloon spacers, diagnostic arthroscopy, joint replacement)",
+          "Unable to evaluate against UHC hip arthroplasty criteria as they were not provided"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      },
+      {
+        "payer": "Anthem",
+        "procedure": "Total Hip Arthroplasty",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "Documentation lacks evidence of failure of 3 months of non-surgical conservative management",
+          "No documentation of functional limitations interfering with age-appropriate daily activities",
+          "Limited documentation of pain with passive motion of the hip",
+          "Duration of symptoms not clearly documented"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      }
+    ]
+  },
+  {
+    "chart_name": "chart_10_subacromial_decompression",
+    "processing_success": true,
+    "overall_score": 87.5,
+    "processing_time": 0.1078956127166748,
+    "llm_evaluation": {
+      "coverage_score": 85.0,
+      "quality_score": 90.0,
+      "completeness_score": 80.0,
+      "accuracy_score": 95.0,
+      "detailed_analysis": "The CDI system recommendations effectively address most of the expected improvements needed for the operative report. The system correctly identifies the lack of documentation regarding conservative management failure, which aligns with the expected improvement to enhance description of conservative management. The recommendations appropriately highlight the absence of objective pain and functional data, which matches another key expected improvement. The system also identifies the need for more detailed physical examination findings and specific characteristics of the rotator cuff tear, which corresponds to the expected improvement for rotator cuff assessment. However, the CDI system does not explicitly mention the need for documenting the exact millimeters of bone resected during acromioplasty or whether the coracoacromial ligament was released. The recommendations are clinically sound and align with payer requirements, focusing on medical necessity documentation, which is crucial for reimbursement. The system provides specific, actionable feedback that would help improve the documentation to meet payer requirements across multiple insurance companies.",
+      "matched_improvements": [
+        "Add objective pain and functional data (addressed in recommendations about VAS scale and functional limitations)",
+        "Rotator Cuff Assessment: Clarify depth of partial tear (addressed in recommendations about rotator cuff tear characteristics)",
+        "Conservative Therapy: Outline physical therapy duration, corticosteroid injections, and medication trials (addressed in multiple recommendations about non-surgical management documentation)",
+        "Imaging: Include MRI/X-ray findings (addressed in recommendation about advanced imaging findings)",
+        "Pain/Function Scores: Add preoperative pain scale and functional limitations (addressed in recommendations about pain severity and VAS scale)",
+        "Rehab Plan: State therapy start date, frequency, and activity restrictions (partially addressed in recommendations about conservative management)"
+      ],
+      "missed_improvements": [
+        "Acromioplasty Detail: Document millimeters of bone resected, instrumentation, and whether coracoacromial ligament was partially released",
+        "Blood Loss: Provide exact EBL and fluid balance"
+      ],
+      "extra_recommendations": [
+        "Documentation of positive impingement tests (Neer or Hawkins-Kennedy)",
+        "Documentation of abnormal physical examination findings compared to non-involved side",
+        "Documentation of function-limiting pain duration (6 months required)",
+        "Documentation of weakness of rotator cuff muscles"
+      ],
+      "strengths": [
+        "Comprehensive coverage of conservative management documentation requirements",
+        "Specific focus on objective pain measurements (VAS scale)",
+        "Detailed requirements for physical examination documentation",
+        "Consistent recommendations across multiple payers",
+        "Clear connection between documentation gaps and medical necessity requirements",
+        "Actionable feedback that can be directly implemented"
+      ],
+      "weaknesses": [
+        "No mention of documenting specific surgical technique details (bone resection measurements, instrumentation)",
+        "No recommendation regarding blood loss documentation",
+        "Limited focus on postoperative rehabilitation plan details",
+        "No mention of coracoacromial ligament management during procedure"
+      ]
+    },
+    "improvement_note": {
+      "chart_name": "chart_10_subacromial_decompression.txt",
+      "primary_focus": [
+        "Enhance description of decompression work and conservative management failure.",
+        "Add objective pain and functional data."
+      ],
+      "recommended_improvements": [
+        "Acromioplasty Detail: Document millimeters of bone resected, instrumentation, and whether coracoacromial ligament was partially released.",
+        "Rotator Cuff Assessment: Clarify depth of partial tear (Ellman grade) and any debridement percentage.",
+        "Conservative Therapy: Outline physical therapy duration, corticosteroid injections, and medication trials with dates/results.",
+        "Imaging: Include MRI/X-ray findings confirming impingement anatomy (acromial morphology, bursal thickening).",
+        "Pain/Function Scores: Add preoperative pain scale and functional limitations to support medical necessity.",
+        "Blood Loss: Provide exact EBL and fluid balance.",
+        "Rehab Plan: State therapy start date, frequency, and activity restrictions."
+      ],
+      "coding_impact": []
+    },
+    "cdi_recommendations": [
+      {
+        "payer": "Cigna",
+        "procedure": "Arthroscopic subacromial decompression",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "Insufficient documentation of function-limiting pain duration (6 months required)",
+          "No documentation of abnormal physical examination findings compared to non-involved side",
+          "No documentation of positive impingement tests (Neer or Hawkins-Kennedy)",
+          "Insufficient details on non-surgical management duration (3 months required)",
+          "No documentation of advanced imaging findings"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      },
+      {
+        "payer": "Cigna",
+        "procedure": "Arthroscopic debridement of partial-thickness rotator cuff tear",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "Insufficient documentation of function-limiting pain duration (6 months required)",
+          "No documentation of specific orthopedic tests (Neer/Hawkins-Kennedy)",
+          "No documentation of provider-directed non-surgical management for 3 months",
+          "No documentation of abnormal physical exam findings compared to non-involved side"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      },
+      {
+        "payer": "UnitedHealthcare",
+        "procedure": "Arthroscopic subacromial decompression",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "Insufficient documentation to meet InterQual CP: Procedures criteria",
+          "Limited clinical details regarding medical necessity",
+          "Inadequate documentation of prior conservative management",
+          "Lack of specific physical examination findings"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      },
+      {
+        "payer": "UnitedHealthcare",
+        "procedure": "Arthroscopic debridement of partial-thickness rotator cuff tear",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "Insufficient documentation to meet InterQual CP: Procedures criteria",
+          "Limited clinical information about pre-operative condition",
+          "No documentation of specific physical examination findings",
+          "No documentation of conservative management details"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      },
+      {
+        "payer": "Anthem",
+        "procedure": "Arthroscopic subacromial decompression",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "Insufficient documentation of pain severity (VAS scale)",
+          "No documentation of specific physical examination tests",
+          "Inadequate documentation of rotator cuff tear characteristics",
+          "Limited details on prior conservative management"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      },
+      {
+        "payer": "Anthem",
+        "procedure": "Arthroscopic debridement of partial-thickness rotator cuff tear",
+        "decision": "Insufficient",
+        "primary_reasons": [
+          "No documentation of pain level on VAS scale",
+          "No documentation of specific physical examination tests",
+          "No documentation of weakness of rotator cuff muscles",
+          "Insufficient documentation of conservative management"
+        ],
+        "missing_requirements": [],
+        "suggestions": []
+      }
+    ]
+  }
+]

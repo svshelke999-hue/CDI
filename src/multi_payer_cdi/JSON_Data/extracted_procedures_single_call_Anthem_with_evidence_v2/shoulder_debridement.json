@@ -1,0 +1,34 @@
+{
+  "procedure_id": "shoulder_debridement",
+  "category": "Shoulder (Evidence: pg no: 12, L368)",
+  "section_title": "Debridement (Evidence: pg no: 18, L626)",
+  "names": [
+    "Debridement (Evidence: pg no: 18, L626)",
+    "Limited debridement (Evidence: pg no: 18, L633)",
+    "Extensive debridement (Evidence: pg no: 18, L634)"
+  ],
+  "description": "Debridement of discrete structures of the shoulder (e.g., humeral bone, humeral articular cartilage, glenoid bone, glenoid articular cartilage, biceps tendon, biceps anchor complex, labrum, articular capsule, articular side of the rotator cuff, bursal side of the rotator cuff, subacromial bursa, foreign body[ies]) is considered medically necessary when ALL of the following criteria are met. (Evidence: pg no: 18, L627-L630)",
+  "scope": "This guideline addresses shoulder arthroscopy and open procedures when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture. (Evidence: pg no: 12, L373-L374)",
+  "general_requirements": {
+    "documentation": [
+      "Shoulder pain unresponsive to 12 weeks of conservative management (Evidence: pg no: 18, L631)",
+      "Surgical pathology is confirmed by imaging (Evidence: pg no: 18, L632)",
+      "Limited debridement involves 1 or 2 discrete structures (Evidence: pg no: 18, L633)",
+      "Extensive debridement involves 3 or more discrete structures (Evidence: pg no: 18, L634)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "29822",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; debridement, limited, 1 or 2 discrete structures (Evidence: pg no: 20, L726-L730)"
+    },
+    {
+      "code": "29823",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; debridement, extensive, 3 or more discrete structures (Evidence: pg no: 21, L731-L734)"
+    }
+  ],
+  "notes": ""
+}

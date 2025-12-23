@@ -1,0 +1,26 @@
+{
+  "procedure_id": "arthroscopic_lysis_adhesions",
+  "category": "Knee (Evidence: pg no: 2, L73)",
+  "section_title": "Arthroscopically Assisted Lysis of Adhesions (Evidence: pg no: 10, L490)",
+  "names": [
+    "Arthroscopically assisted lysis of adhesions (Evidence: pg no: 10, L490)"
+  ],
+  "description": "Arthroscopically assisted lysis of adhesions for post-traumatic, post-surgical, or idiopathic stiffness (Evidence: pg no: 10, L491-L496)",
+  "scope": "Treatment of knee stiffness (Evidence: pg no: 10, L490-L496)",
+  "general_requirements": {
+    "documentation": [
+      "Physical exam demonstrates limited range of motion of knee, defined as less than 105 degrees of flexion or flexion contracture greater than 10 degrees (Evidence: pg no: 10, L493-L494)",
+      "Range of motion has failed to improve despite 6 weeks of conservative management (Evidence: pg no: 10, L495)",
+      "Failure of prior manipulation under anesthesia or manipulation under anesthesia is planned concurrently (Evidence: pg no: 10, L496)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "29884",
+      "system": "CPT",
+      "description": "Arthroscopy, knee, surgical; with lysis of adhesions, with or without manipulation (separate procedure) (Evidence: pg no: 16, L716)"
+    }
+  ],
+  "notes": ""
+}

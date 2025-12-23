@@ -1,0 +1,42 @@
+{
+  "total_charts": 10,
+  "successful_processing": 10,
+  "failed_processing": 0,
+  "avg_coverage_score": 35.0,
+  "avg_quality_score": 40.0,
+  "avg_completeness_score": 34.3,
+  "avg_accuracy_score": 50.5,
+  "avg_overall_score": 39.46,
+  "total_expected_improvements": 68,
+  "total_matched_improvements": 20,
+  "total_missed_improvements": 52,
+  "total_extra_recommendations": 27,
+  "improvement_coverage_rate": 29.411764705882355,
+  "avg_processing_time": 0.1478245735168457,
+  "total_processing_time": 1.478245735168457,
+  "total_cost_usd": 1.4665919999999997,
+  "total_evaluation_cost_usd": 0.14700000000000002,
+  "payer_performance": {
+    "Cigna": {
+      "avg_coverage": 38.75,
+      "avg_quality": 43.75,
+      "avg_completeness": 37.875,
+      "avg_accuracy": 53.4375,
+      "charts_evaluated": 16
+    },
+    "UnitedHealthcare": {
+      "avg_coverage": 38.75,
+      "avg_quality": 43.75,
+      "avg_completeness": 37.875,
+      "avg_accuracy": 53.4375,
+      "charts_evaluated": 16
+    },
+    "Anthem": {
+      "avg_coverage": 38.75,
+      "avg_quality": 43.75,
+      "avg_completeness": 37.875,
+      "avg_accuracy": 53.4375,
+      "charts_evaluated": 16
+    }
+  }
+}

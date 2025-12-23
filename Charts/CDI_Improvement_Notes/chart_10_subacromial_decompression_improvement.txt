@@ -1,0 +1,20 @@
+CHART: chart_10_subacromial_decompression.txt
+
+PRIMARY CDI FOCUS:
+- Enhance description of decompression work and conservative management failure.
+- Add objective pain and functional data.
+
+RECOMMENDED IMPROVEMENTS:
+1. Acromioplasty Detail: Document millimeters of bone resected, instrumentation, and whether coracoacromial ligament was partially released.
+2. Rotator Cuff Assessment: Clarify depth of partial tear (Ellman grade) and any debridement percentage.
+3. Conservative Therapy: Outline physical therapy duration, corticosteroid injections, and medication trials with dates/results.
+4. Imaging: Include MRI/X-ray findings confirming impingement anatomy (acromial morphology, bursal thickening).
+5. Pain/Function Scores: Add preoperative pain scale and functional limitations to support medical necessity.
+6. Blood Loss: Provide exact EBL and fluid balance.
+7. Rehab Plan: State therapy start date, frequency, and activity restrictions.
+
+CODING IMPACT:
+- Supports CPT 29826 and 29822 by documenting acromial resection and cuff debridement extent.
+- Clear conservative failure rationale reduces payer denials for arthroscopic decompression.
+
+

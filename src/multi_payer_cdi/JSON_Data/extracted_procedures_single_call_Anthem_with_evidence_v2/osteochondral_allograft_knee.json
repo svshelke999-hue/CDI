@@ -1,0 +1,30 @@
+{
+  "procedure_id": "osteochondral_allograft_knee",
+  "category": "Knee (Evidence: pg no: 2, L73)",
+  "section_title": "Osteochondral Allograft Transplantation - Knee (Evidence: pg no: 21, L942)",
+  "names": [
+    "Osteochondral allograft transplantation (Evidence: pg no: 21, L943)"
+  ],
+  "description": "Osteochondral allograft transplantation to treat cartilaginous defects of the knee (Evidence: pg no: 21, L943-L948)",
+  "scope": "Treatment of knee cartilage defects (Evidence: pg no: 21, L942-L948)",
+  "general_requirements": {
+    "documentation": [
+      "Size of cartilage defect is greater than or equal to 1.0 cm2 in total area, as documented by MRI or arthroscopy (Evidence: pg no: 21, L945-L946)",
+      "Condition involves focal, full thickness, grade III or IV isolated defect of weight-bearing surface of medial or lateral femoral condyles or trochlear region (Evidence: pg no: 21, L947-L948)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "27415",
+      "system": "CPT",
+      "description": "Osteochondral allograft, knee, open [when specified as osteochondral allograft] (Evidence: pg no: 24, L1057)"
+    },
+    {
+      "code": "29867",
+      "system": "CPT",
+      "description": "Arthroscopy, knee, surgical; osteochondral allograft (eg, mosaicplasty) (Evidence: pg no: 24, L1061)"
+    }
+  ],
+  "notes": ""
+}

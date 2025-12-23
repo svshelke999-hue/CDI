@@ -1,0 +1,109 @@
+OPERATIVE REPORT
+
+Patient Name: John Doe
+MRN: 123456789
+Date of Service: October 16, 2025
+Surgeon: Dr. Jane Smith, MD
+
+CPT CODES: 27447, 29826
+
+PROCEDURES PERFORMED:
+1. Total knee arthroplasty, right knee
+2. Subacromial decompression, left shoulder
+3. Diagnostic arthroscopy, left knee
+4. Arthroscopic meniscectomy, medial meniscus
+
+INDICATIONS:
+The patient is a 65-year-old male with severe osteoarthritis of the right knee and 
+rotator cuff pathology of the left shoulder. He has failed conservative management 
+for over 12 weeks including physical therapy, NSAIDs, and corticosteroid injections.
+
+PREOPERATIVE DIAGNOSIS:
+1. Severe osteoarthritis, right knee
+2. Rotator cuff syndrome with impingement, left shoulder
+3. Meniscal tear, left knee medial meniscus
+4. Chronic knee pain, left knee
+
+POSTOPERATIVE DIAGNOSIS: Same as above
+
+PROCEDURE IN DETAIL:
+
+RIGHT KNEE - TOTAL KNEE ARTHROPLASTY (CPT 27447):
+After proper informed consent and surgical timeout, the patient was brought to the 
+operating room and placed in supine position. General anesthesia was administered. 
+The right lower extremity was prepped and draped in standard sterile fashion.
+
+A midline incision was made over the right knee. The joint was exposed through a 
+medial parapatellar approach. Severe arthritic changes were noted with complete 
+loss of joint space and exposed bone on bone contact. Osteophytes were removed.
+
+The femoral and tibial cuts were made using measured resection technique with 
+appropriate alignment guides. Trial components were placed and range of motion 
+was assessed. Final cemented components were implanted with good fixation.
+
+The wound was irrigated copiously. Hemostasis was achieved. The arthrotomy was 
+closed in layers. Sterile dressing was applied.
+
+LEFT SHOULDER - SUBACROMIAL DECOMPRESSION (CPT 29826):
+The patient was repositioned to beach chair position. The left shoulder was 
+prepped and draped in sterile fashion.
+
+Standard posterior and anterior portals were established. Diagnostic arthroscopy 
+revealed rotator cuff fraying but no complete tears. Subacromial space showed 
+significant impingement with bursal thickening.
+
+Subacromial decompression was performed with removal of anterior acromial spur 
+and resection of inflamed bursal tissue. The coracoacromial ligament was released. 
+Final arthroscopic inspection showed improved subacromial space.
+
+LEFT KNEE - DIAGNOSTIC ARTHROSCOPY AND MENISCECTOMY:
+Standard anteromedial and anterolateral portals were established. Diagnostic 
+arthroscopy revealed a complex tear of the medial meniscus. The lateral meniscus 
+and ACL were intact.
+
+Arthroscopic meniscectomy was performed with removal of the torn medial meniscus 
+fragment. The remaining meniscus was contoured and stable. Joint was irrigated.
+
+CONSERVATIVE MANAGEMENT HISTORY:
+- Physical therapy: 16 weeks (documented sessions from 6/1/2025 to 9/15/2025)
+- Medications: NSAIDs (ibuprofen 800mg TID) for 14 weeks, minimal relief
+- Corticosteroid injections: Right knee (2 injections, temporary relief only)
+- Activity modification attempted with persistent symptoms
+- Home exercise program compliance documented
+
+IMAGING STUDIES:
+- X-ray right knee (9/1/2025): Severe tricompartmental arthritis, bone-on-bone 
+  contact medial compartment, large osteophytes
+- MRI right knee (9/5/2025): Complete cartilage loss, subchondral edema, meniscal 
+  degeneration
+- X-ray left shoulder (8/15/2025): Acromial spur, reduced subacromial space
+- MRI left shoulder (8/20/2025): Rotator cuff tendinosis, subacromial bursitis, 
+  no complete tears
+
+FUNCTIONAL LIMITATIONS DOCUMENTED:
+- Unable to climb stairs without severe pain (10/10)
+- Difficulty with activities of daily living (dressing, bathing)
+- Interrupted sleep due to knee pain
+- Limited shoulder range of motion affecting overhead activities
+- Unable to work as construction worker for past 3 months
+
+MEDICAL CLEARANCE:
+- Cardiology clearance obtained (9/20/2025)
+- Medical optimization completed
+- Risk assessment documented and discussed with patient
+
+ESTIMATED BLOOD LOSS: 200 mL
+COMPLICATIONS: None
+DRAINS: None placed
+TOURNIQUET TIME: 65 minutes (right knee)
+
+DISPOSITION: Patient tolerated procedure well and was transferred to PACU in 
+stable condition. Post-operative orders written. Physical therapy to begin 
+post-operative day 1.
+
+FOLLOW-UP: Scheduled for 2 weeks post-operative, then 6 weeks, 12 weeks for 
+clinical and radiographic assessment.
+
+Electronically signed by Dr. Jane Smith, MD
+Date: October 16, 2025
+

@@ -1,0 +1,20 @@
+{
+  "procedure_id": "posterolateral_corner_reconstruction",
+  "category": "Knee (Evidence: pg no: 2, L73)",
+  "section_title": "Posterolateral Corner Injury (Evidence: pg no: 11, L536)",
+  "names": [
+    "Posterolateral corner reconstruction (Evidence: pg no: 11, L537)"
+  ],
+  "description": "Posterolateral corner reconstruction when specific criteria are met (Evidence: pg no: 11, L537-L540)",
+  "scope": "Treatment of posterolateral corner injuries (Evidence: pg no: 11, L536-L540)",
+  "general_requirements": {
+    "documentation": [
+      "Imaging confirmation of injury to posterolateral structures (Evidence: pg no: 11, L538)",
+      "Exam findings consistent with posterolateral corner injury (Evidence: pg no: 11, L539)",
+      "Associated ligamentous injuries necessitating treatment (Evidence: pg no: 11, L540)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [],
+  "notes": ""
+}

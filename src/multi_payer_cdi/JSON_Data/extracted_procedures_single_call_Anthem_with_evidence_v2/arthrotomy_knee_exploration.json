@@ -1,0 +1,22 @@
+{
+  "procedure_id": "arthrotomy_knee_exploration",
+  "category": "Knee (Evidence: pg no: 2, L73)",
+  "section_title": "Arthrotomy, Knee Exploration (Evidence: pg no: 16, L678)",
+  "names": [
+    "Arthrotomy, knee (Evidence: pg no: 16, L678)"
+  ],
+  "description": "Arthrotomy of knee including joint exploration, biopsy, or removal of loose or foreign bodies (Evidence: pg no: 16, L678)",
+  "scope": "Open knee surgery (Evidence: pg no: 16, L678)",
+  "general_requirements": {
+    "documentation": []
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "27331",
+      "system": "CPT",
+      "description": "Arthrotomy, knee; including joint exploration, biopsy, or removal of loose or foreign bodies (Evidence: pg no: 16, L678)"
+    }
+  ],
+  "notes": ""
+}

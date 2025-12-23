@@ -1,0 +1,38 @@
+{
+  "procedure_id": "debridement",
+  "category": "Shoulder (Evidence: pg no: 6, L238)",
+  "section_title": "Debridement (Evidence: pg no: 6, L238)",
+  "names": [
+    "Debridement (Evidence: pg no: 6, L238)",
+    "Limited Debridement (Evidence: pg no: 6, L240)",
+    "Extensive Debridement (Evidence: pg no: 6, L240)"
+  ],
+  "description": "Limited or extensive debridement of shoulder structures with specific orthopedic test requirements (Evidence: pg no: 6, L240-L277)",
+  "scope": "Limited or extensive debridement (Evidence: pg no: 6, L240)",
+  "general_requirements": {
+    "documentation": [
+      "Function-limiting pain (Evidence: pg no: 6, L242-L244)",
+      "Individual demonstrates functionally limited range of motion OR measurable loss of strength (Evidence: pg no: 6, L245-L248)",
+      "ONE OR MORE positive orthopedic tests/signs including Drop Arm Test, Painful Arc Test, Jobe or Empty Can Test, External Rotation Lag Sign, Lift-Off Test, Belly-Press Test, Cross Body Adduction Test, Resisted AC Joint Extension Test, Neer Impingement Test, Hawkins-Kennedy Impingement Test, O'Brien's Test, Biceps Load Test, Clunk Test, Anterior Slide Test, Compression Rotation Test, Speed's Test (Evidence: pg no: 6-7, L249-L265)",
+      "Failure of provider-directed non-surgical management for at least three (3) months in duration (Evidence: pg no: 7, L271-L272)",
+      "Advanced diagnostic imaging study (e.g., MRI, CT) demonstrates underlying pathology which correlates with the individual's reported symptoms and physical exam findings (Evidence: pg no: 7, L273-L274)",
+      "Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain, and advanced glenohumeral osteoarthritis (Evidence: pg no: 7, L275-L277)"
+    ]
+  },
+  "exclusions": [
+    "Any other indication or condition (Evidence: pg no: 7, L279-L280)"
+  ],
+  "codes": [
+    {
+      "code": "29822",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; debridement, limited, 1 or 2 discrete structures (Evidence: pg no: 13, L562-L565)"
+    },
+    {
+      "code": "29823",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; debridement, extensive, 3 or more discrete structures (Evidence: pg no: 13, L566-L569)"
+    }
+  ],
+  "notes": "Requires specific positive orthopedic tests and correlation with imaging findings (Evidence: pg no: 6-7, L249-L274)"
+}

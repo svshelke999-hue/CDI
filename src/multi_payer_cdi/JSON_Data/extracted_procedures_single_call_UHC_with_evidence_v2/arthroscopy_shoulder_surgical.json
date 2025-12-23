@@ -1,0 +1,85 @@
+{
+  "procedure_id": "arthroscopy_shoulder_surgical",
+  "category": "Shoulder (Evidence: pg no: 1, L28)",
+  "section_title": "Arthroscopy or Arthroscopically Assisted Surgery, Shoulder (Evidence: pg no: 1, L28)",
+  "names": [
+    "Arthroscopy or Arthroscopically Assisted Surgery, Shoulder (Evidence: pg no: 1, L28)",
+    "Arthroscopy or Arthroscopically Assisted Surgery, Shoulder (Adolescent) (Evidence: pg no: 1, L29)"
+  ],
+  "description": "Surgical arthroscopy of the shoulder including various procedures such as capsulorrhaphy, SLAP repair, loose body removal, synovectomy, debridement, and other surgical interventions (Evidence: pg no: 2, L68-L86)",
+  "scope": "Surgical treatment of shoulder conditions via arthroscopic approach (Evidence: pg no: 2, L68-L86)",
+  "general_requirements": {
+    "documentation": [
+      "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "29806",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; capsulorrhaphy (Evidence: pg no: 2, L68)"
+    },
+    {
+      "code": "29807",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; repair of slap lesion (Evidence: pg no: 2, L69)"
+    },
+    {
+      "code": "29819",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; with removal of loose body or foreign body (Evidence: pg no: 2, L70)"
+    },
+    {
+      "code": "29820",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; synovectomy, partial (Evidence: pg no: 2, L71)"
+    },
+    {
+      "code": "29821",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; synovectomy, complete (Evidence: pg no: 2, L72)"
+    },
+    {
+      "code": "29822",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; debridement, limited, 1 or 2 discrete structures (Evidence: pg no: 2, L73-L75)"
+    },
+    {
+      "code": "29823",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; debridement, extensive, 3 or more discrete structures (Evidence: pg no: 2, L76-L78)"
+    },
+    {
+      "code": "29824",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; distal claviculectomy including distal articular surface (Mumford procedure) (Evidence: pg no: 2, L79-L80)"
+    },
+    {
+      "code": "29825",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; with lysis and resection of adhesions, with or without manipulation (Evidence: pg no: 2, L81)"
+    },
+    {
+      "code": "29826",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; decompression of subacromial space with partial acromioplasty, with coracoacromial ligament release, when performed (Evidence: pg no: 2, L82-L83)"
+    },
+    {
+      "code": "29827",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; with rotator cuff repair (Evidence: pg no: 2, L84)"
+    },
+    {
+      "code": "29828",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; biceps tenodesis (Evidence: pg no: 2, L85)"
+    },
+    {
+      "code": "29999",
+      "system": "CPT",
+      "description": "Unlisted procedure, arthroscopy (Evidence: pg no: 2, L86)"
+    }
+  ],
+  "notes": "Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)"
+}

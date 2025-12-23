@@ -1,0 +1,38 @@
+{
+  "procedure_id": "patellofemoral_arthroplasty",
+  "category": "Knee (Evidence: pg no: 2, L73)",
+  "section_title": "Patellofemoral Arthroplasty (Evidence: pg no: 5, L204)",
+  "names": [
+    "Patellofemoral arthroplasty (Evidence: pg no: 5, L204)"
+  ],
+  "description": "Elective patellofemoral arthroplasty for specific disease states (Evidence: pg no: 5, L205-L206)",
+  "scope": "Patellofemoral joint replacement (Evidence: pg no: 5, L204-L216)",
+  "general_requirements": {
+    "documentation": [
+      "ONE of the following disease states: Advanced symptomatic primary or secondary isolated patellofemoral osteoarthritis (PFOA), Failed extensor mechanism unloading procedures, or Symptomatic patellofemoral cartilage defects greater than 4 cm2 after failed cartilage repair procedure (Evidence: pg no: 5, L207-L213)",
+      "Failure of at least 3 months of non-surgical conservative management (Evidence: pg no: 5, L214)",
+      "Functional limitation secondary to knee pathology which interferes with ability to perform age-appropriate daily activities (Evidence: pg no: 5, L215-L216)"
+    ]
+  },
+  "exclusions": [
+    "Tibiofemoral osteoarthritis (Evidence: pg no: 5, L219)",
+    "Inflammatory arthritis (Evidence: pg no: 5, L220)",
+    "Patellofemoral malalignment (Evidence: pg no: 5, L221)",
+    "Knee instability (ligaments and/or menisci injuries) (Evidence: pg no: 5, L222)",
+    "Limb malalignment (valgus deformity greater than 8 degrees or varus deformity greater than 5 degrees) (Evidence: pg no: 5, L223)",
+    "Fixed flexion contracture greater than 10 degrees (Evidence: pg no: 5, L224)"
+  ],
+  "codes": [
+    {
+      "code": "27437",
+      "system": "CPT",
+      "description": "Arthroplasty, patella; without prosthesis (Evidence: pg no: 7, L294)"
+    },
+    {
+      "code": "27438",
+      "system": "CPT",
+      "description": "Arthroplasty, patella; with prosthesis (Evidence: pg no: 7, L295)"
+    }
+  ],
+  "notes": ""
+}

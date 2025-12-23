@@ -1,0 +1,802 @@
+L1| Cigna Medical Coverage Policies – Musculoskeletal
+L2| Shoulder Surgery – Arthroscopic and Open
+L3| Procedures
+L4| Effective May 3 1, 2023
+L5| ____________________________________________________________________________________
+L6| Ins
+L7| tructions for use
+L8| The
+L9| following coverage policy applies to health benefit plans administered by Cigna. Coverage policies are
+L10| intended to provide guidance in interpreting certain standard Cigna benefit plans and are used by medical
+L11| directors and other health care professionals in making medical necessity and other coverage determinations.  Please note the terms of a customer’s particular benefit plan document may differ
+L12| significantly from the standard benefit plans upon which these coverage policies are based. For example,
+L13| a customer’s benefit plan document may contain a specific exclusion related to a topic addressed in a
+L14| coverage policy.
+L15| In t
+L16| he event of a conflict, a customer’s benefit plan document always supersedes the information in the
+L17| coverage policy. In the absence of federal or state coverage mandates, benefits are ultimately determined
+L18| by the terms of the applicable benefit plan document. Coverage determinations in each specific instance require consideration of:
+L19| 1. The
+L20| terms of the applicable benefit plan document in effect on the date of service
+L21| 2. Any applicable laws and regulations
+L22| 3. Any relevant collateral source materials including coverage poli cies
+L23| 4. The specific facts of the particular situation
+L24| Cov
+L25| erage policies relate exclusively to the administration of health benefit plans. Coverage policies are not
+L26| recommendations for treatment and should never be used as treatment guidelines.
+L27| Th
+L28| is evid ence -based medical coverage policy has been developed by eviCore, Inc. Some information in
+L29| this coverage policy may not apply to all benefit plans administered by Cigna.
+L30| CPT® (Current Procedural Terminology) is a registered trademark of the American Medic al Association
+L31| (AMA). CPT® five digit codes, nomenclature and other data are copyright 2023 American Medical
+L32| Association. All Rights Reserved. No fee schedules, basic units, relative values or related listings are included in the CPT
+L33| ® book. AMA does not directly or indirectly practice medicine or dispense medical
+L34| services. AMA assumes no liability for the data contained herein or not contained herein.
+L35| ©Copyright 2023 eviCore healthcare
+L36| CMM-315: Shoulder  Surgery-Arthroscopic and Open
+L37| Procedures
+L38| Definitions
+L39| General Guidelines
+L40| Diagnostic Arthroscopy
+L41| Loose Body/Foreign Body Removal
+L42| Synovectomy
+L43| Debridement
+L44| Rotator Cuff Repair
+L45| Distal Clavicle Excision/Subacromial Decompression/
+L46| Acromioplasty
+L47| Labral Repair
+L48| Biceps Tenodesis
+L49| Arthroscopic or Open Surgi cal Procedures for Shoulder Instability
+L50| and/or Laxity
+L51| Arthroscopic Capsular Release/Lysis of Adhesions
+L52| Arthroscopic or Open Coracoplasty/Subcoracoid Decompression
+L53| Procedure (CPT®) Codes
+L54| References
+L55| Comprehensive Musculoskeletal Management Guidelines         V1.0.2023
+L56| ______________________________________________________________________________________________________
+L57| ©2023 eviCore healthcare. All Rights Reserved.
+L58| 400 Buckwalter Place Boulevard, Bluffton, SC 29910 (800) 918- 8924                             www.eviCore.com
+L59| Page 2 of 19
+L60| Shoulder Surgery -Arthroscopic and Open Procedures  Definitions
+L61|  Acromioplasty:  the rem oval of bone from th e acromion and p artial resection of the
+L62| coracoacrom ial ligamen t.
+L63|  Adhesi ve Capsulitis/A rthrofibrosis:  a condi tion of the shoulder characterized by
+L64| stiffness, loss of motion  (cont racture), and pa in due to scarring in and/or around the
+L65| shoulder joint.  Condi tions that have been sugges ted to predispose an individual  to
+L66| adhesiv e capsul itis include tr auma, surgery to the shou lder, inflammatory  diseases,
+L67| diabetes, hyperthyroid ism, dyslipi demia. Often called frozen sh oulder, adhesive
+L68| capsulitis is clinically divided into classes:
+L69|  Primary adhesive c apsulitis is characterized by a signif icant limitation o f both
+L70| active and passi ve m otions on the shoulder; individual s are ty pically unable to
+L71| recall a possi ble cause of the con dition (idiop athic adhesi ve capsulitis).
+L72|  Secondary a dhesi ve capsulitis is c harac terized by a trauma or a po ssible
+L73| cause pri or to the o nset of the sym ptoms, such as fracture of the hum erus,
+L74| rotator cuff repair, sh oulder girdle injury/sur gery, or prolonge d immobilization.
+L75|  Distal Clavicle Excision: the re moval of the end of the clavicle at the
+L76| acromioclavicular (AC) joint. T he su perio r AC ligament remains intact so that t he joint
+L77| remains stab le.
+L78|  Impingem ent Syndrome comm only results from friction, abrasio n, and inflammation
+L79| of the rotator cuff and t he long head of the biceps t endon with the subacromial arch
+L80| (anterior lip of the acrom ion, coracoacromial li gament, and acromioclavicular joint)
+L81| from acute t raum a, repetitive use or degene rative chan ges.
+L82|  Labral Tears r esult when t he glenoid labrum becom es injur ed or torn. Tears are
+L83| typically classified by th e posit ion of the tear in relation to the glenoid.
+L84|  Bankart Tear: a tear in the labrum located in t he front, low er (anterior, inferior)
+L85| part of the glenoid. This ty pe of  tear occurs m ost comm only during a shoulder
+L86| dislocation a nd makes t he shoulder more pron e to recurrent di slocations.
+L87|  SLAP T ear (Superior Labr al, Anterior, and P osterior Tear): a tear in the
+L88| labrum that cov ers the top pa rt of the glenoid from th e front to back. A S LAP tear
+L89| occurs at the poi nt where th e long head of the biceps te ndon attaches. This ty pe
+L90| of tear oc curs most comm only during fal ls on an outstretched arm.
+L91|  Non-Surgic al Management  (with re gard to t he treatment of shoulder pain) : any
+L92| provider -directed non-surg ical treatment that has be en demonstrated in t he scienti fic
+L93| literature to be eff icacious and/ or is consid ered reasonable care in the treatment of
+L94| shoulder pain. The types of treatment in volved can includ e, but are not lim ited to:
+L95| relative res t/acti vity modific ation, supervised physiotherapy  modalities and
+L96| supervised th erapeut ic exercises, prescription and non- prescription medications,
+L97| assistive devices (e.g., sling, splint, brace), and/ or injections (i.e., steroid).
+L98|  Rotator Cuff Tears: a disruption of the tendon(s) of the rotator cuff muscles which
+L99| attach the humerus to the scapula and are important in shoulder movements and
+L100| maintaining glenohumeral joint stability. The supraspinatus tendon is most
+L101| commonly involved, but the infraspinatus, teres minor, and subscapularis tendons
+L102| can also be torn.
+L103| Comprehensive Musculoskeletal Management Guidelines         V1.0.2023
+L104| ______________________________________________________________________________________________________
+L105| ©2023 eviCore healthcare. All Rights Reserved.
+L106| 400 Buckwalter Place Boulevard, Bluffton, SC 29910 (800) 918- 8924                             www.eviCore.com
+L107| Page 3 of 19
+L108| Shoulder Surgery -Arthroscopic and Open Procedures   Defining whether a rotator cuff tear is acute has relevance to treatment.  In
+L109| evaluating patients, the surgeon should attempt to properly identify patients with acute tears as opposed to patients with pre- existing chronic tears that become
+L110| symptomatic after an injury event. A discrete traumatic event is more suggestive of acute tear. Physical examination findings including supraspinatus and infraspinatus muscle atrophy, as well as internal and external rotation lag signs, may be indicative of larger and more chronic rotator cuff tears.
+L111|  Evaluation of rotator cuff muscle quality with CT or MRI is an important consideration. Chronic and larger tears are associated with muscle atrophy and fatty replacement, both of which correlate with inferior functional outcome after rotator cuff repair. It is thought that early repair of acute rotator cuff tears might mitigate the development of chronic tendon and muscle pathology and improve functional outcomes.
+L112|  Classification of rotator cuff tears (based upon surgical findings):
+L113|  Partial- thickness tears, also called incomplete tears (Ellman):
+L114|  Grade 1: < 3 mm deep (< 25% thickness)
+L115|  Grade 2: 3 –6 mm in depth but not exceeding 50% of the tendon thickness
+L116|  Grade 3: > 6 mm deep (> 50% thickness)
+L117|  Full-thickness tears, also called complete tears (Cofield):
+L118|  Small: < 1 cm
+L119|  Medium : 1-3 cm
+L120|  Large: 3- 5 cm
+L121|  Massive: > 5 cm
+L122|  Shoulder Dislocation: the complete loss of the humeral articulation with the g lenoid
+L123| fossa, u sually as a r esult of acut e traum a.
+L124|  Shoulder Instability and/or Laxity: a par tial loss of the glenohum eral ar ticulation of
+L125| which there are t wo categ ories:
+L126|  Post-traumatic shou lder instability inclu des an individual  with a p revious injury
+L127| that has stretched or torn the ligamen ts of the shoulder.
+L128|  Atraumatic inst ability and/or laxity  includes an individual  with ge neralized
+L129| looseness of the jo ints “double-jointed” or “multi-directional instability ” usually
+L130| representing a ty pe of congenital ligament ous laxity.
+L131|  Shoulder S
+L132| ubluxation: a par tial loss of humeral articulation with the gl enoid fos sa
+L133| (incomplete or partial di slocation) usually as a result of repeti tive traum a to th e
+L134| degree t hat symptoms are prod uced.
+L135|  Subac romial D ecom pressi on: the removal of bone or other abnormality to enlarge
+L136| the s pace between the rotator cuff musculature a nd th e acromion.
+L137| General Guidelines
+L138| Application of Guideline
+L139|  The determination of medical necessity for the performance of shoulder surgery is always made on a case- by-case basis.
+L140| Comprehensive Musculoskeletal Management Guidelines         V1.0.2023
+L141| ______________________________________________________________________________________________________
+L142| ©2023 eviCore healthcare. All Rights Reserved.
+L143| 400 Buckwalter Place Boulevard, Bluffton, SC 29910 (800) 918- 8924                             www.eviCore.com
+L144| Page 4 of 19
+L145| Shoulder Surgery -Arthroscopic and Open Procedures   For advanced imaging indications for conditions of the shoulder , refer to MS-19:
+L146| Shoulder  For advanced imaging indications for conditions of the shoulder ,
+L147|  Manipulation of a shoulder joint under general anesthesia is included in all
+L148| arthroscopic shoulder procedures and is therefore considered incidental to the base procedure requiring medical necessity review.
+L149|  Arthroscopic or Open Procedure for Fracture, Tumor, Infection, or Foreign Body Shoulder arthroscopic or open proced ures may be considered m edical ly
+L150| necessary for individuals  when  surgery is being performed for fra cture, tumor,
+L151| infection, o r foreign body that has led to or will like ly lead to progressive destruct ion.
+L152| Diagnostic Arthroscopy
+L153| Diagnostic Arthrosc opy Indications
+L154|  Diagnostic arthroscopy is considered medically necessary  as a stand- alone
+L155| procedure when ALL of the following criteria have been met:
+L156|  Function- limiting pain (e.g., loss of shoulder function which interferes with the
+L157| ability to carry out age appropriate activities of daily living and/or demands of employment ) for at least six (6) months in duration
+L158|  Individual demonstrates ANY of the following abnormal, shoulder  physical
+L159| examination findings as compared to the non- involved side:
+L160|  Functionally limited range of motion (active or passive)
+L161|  Measurable loss in strength
+L162|  Positive Neer Impingement Test or Hawkins -Kennedy Impingement Test
+L163|  Failure of provider -directed non- surgical management for at least three (3)
+L164| months in duration
+L165|  Advanced diagnostic imaging study (e.g., MRI, CT) is inconclusive for internal derangement/pathology
+L166|  Other  potential pathological cond itions hav e been excluded including, but not
+L167| limited to: fracture, thor acic outlet syndrom e, brachial ple xus disorders, referred
+L168| neck pa in and advanced glenohumeral osteoar thritis.
+L169| Diagnostic Arthroscopy Non- Indications
+L170| Not Medically Necessary
+L171|  Diagnostic arthroscopy is considered not medically necessary  for ANY other
+L172| indication or condition.
+L173| Experimental, Investigational, or Unproven  Based on lack if scientific safety and efficacy, the following is considered
+L174| experimental, investigational , or unproven (EIU) :
+L175|  In-office diagnostic arthroscopy (e.g., Mi -Eye™, VisionScope
+L176| ®)
+L177| Comprehensive Musculoskeletal Management Guidelines         V1.0.2023
+L178| ______________________________________________________________________________________________________
+L179| ©2023 eviCore healthcare. All Rights Reserved.
+L180| 400 Buckwalter Place Boulevard, Bluffton, SC 29910 (800) 918- 8924                             www.eviCore.com
+L181| Page 5 of 19
+L182| Shoulder Surgery -Arthroscopic and Open Procedures  Loose Body/Foreign Body Removal
+L183| Loose Body/Foreign Body Removal  Indications
+L184|  Loose body or foreign body removal is considered medically necessary when ALL
+L185| of the following cri teria have been met:
+L186|  Function- limiting pain (e.g.,  loss of shoulder funct ion which in terferes with the
+L187| ability to carry  out age a ppropr iate activities of daily living and/ or deman ds of
+L188| employmen t)
+L189|  Mechanical symptoms including painful locking, clicking, catching, or popping
+L190|  Failure of  provider -directed non-surg ical management for at l east three (3)
+L191| months in d uration, except when the loose body or foreign body has caused an
+L192| acute restriction of shoulder joint range of motion (i.e., locking)
+L193|  Advanced diagnostic imaging study (e.g., MRI, CT) is  conclusive f or the
+L194| presence of a loose body or foreign body within the shoulder joint
+L195|  Other  potential pathological  conditions hav e been excluded including, but  not
+L196| limited to: fracture, thor acic outlet syndrom e, brachial ple xus disorders, referred
+L197| neck pa in, and advanced glenohumeral osteoar thritis
+L198| Loose Body/Foreign Body Removal Non -Indications
+L199|  Loose body or foreign body removal is considered not medically necessary for
+L200| ANY other indication or condition.
+L201| Synovectomy
+L202| Synovectomy  Indications
+L203|  Synovectomy (partial or complet e) is considered medically necessary when ALL of
+L204| the following criteria have been met:
+L205|  Function- limiting pain (e.g.,  loss of shoulder funct ion which in terferes with the
+L206| ability to carry  out age a ppropr iate activities of daily living and/ or deman ds of
+L207| employmen t)
+L208|  Individual demonstrates functionally limited range of motion (active or passive)
+L209| on physical examination as compared to the non- involved side
+L210|  Failure of  provider -directed non-surg ical management for at l east three (3)
+L211| months in d uration
+L212|  Advanced diagnostic imaging study (e.g., MRI, CT) demonstrates underlying pathology c onsisten t with t he individual’ s repo rted med ical condi tion (e.g.,
+L213| synovitis, joint effusion) which correlates with the individual’s reported symptoms
+L214| and physical exam findings
+L215|  Presence of any ONE of the following:
+L216|  Inflammatory arthritis (i.e., rheumatoid arthritis, gout, pseudogout, psoriatic
+L217| arthritis)
+L218|  Pigmented villonodular synovitis (PVNS)
+L219|  Synovial chondromatosis
+L220| Comprehensive Musculoskeletal Management Guidelines         V1.0.2023
+L221| ______________________________________________________________________________________________________
+L222| ©2023 eviCore healthcare. All Rights Reserved.
+L223| 400 Buckwalter Place Boulevard, Bluffton, SC 29910 (800) 918- 8924                             www.eviCore.com
+L224| Page 6 of 19
+L225| Shoulder Surgery -Arthroscopic and Open Procedures   Lyme synovitis
+L226|  Hemophilia
+L227|  Hemochromatosis
+L228|  Non-specific synoviti s (including proliferative synovitis, post -operative
+L229| synovitis as a sequela from a shoulder replacement, etc.)
+L230|  Recurrent hemarthrosis (i.e., secondary to sickle cell anemia, bleeding
+L231| diathesis, etc.)
+L232|  Other  potential pathological  conditions hav e been exclud ed including, but  not
+L233| limited to: fracture, thor acic outlet syndrom e, brachial ple xus disorders, referred
+L234| neck pa in, and advanced glenohumeral osteoar thritis
+L235| Synovectomy Non- Indications
+L236|  Synovectomy is considered not medically necessary for ANY other indication or
+L237| condition.
+L238| Debridement
+L239| Debridement  Indications
+L240|  Debridement (limited or extensive) is considered medically necessary when ALL of
+L241| the following criteria have been met:
+L242|  Function- limiting pain (e.g.,  loss of shoulder funct ion which in terferes with the
+L243| ability to carry  out age a ppropr iate activities of daily living and/ or deman ds of
+L244| employmen t)
+L245|  Individual demonstrates the following on physical examination when compared to the non- involved side:
+L246|  EITHER of the following:
+L247|  Functionally limited range of  motion
+L248|  Measurable loss of strength
+L249|  ONE OR MORE of the f ollowing  positive orthopedic tests/signs:
+L250|  Drop A rm Test
+L251|  Painful Arc Test
+L252|  Jobe or Empty Can Test
+L253|  External Rotation Lag Sign
+L254|  Lift-Off Test
+L255|  Belly -Press Test
+L256|  Cross Body  Adduc tion Test
+L257|  Resisted AC Joint  Extension Test
+L258|  Neer Impingement Test
+L259|  Hawki ns-Kennedy Im pingement Test
+L260|  O’Brien’s Test
+L261|  Biceps Load Test
+L262|  Clunk Test
+L263|  Anterior Slide Test
+L264|  Compression Rotation Test
+L265|  Speed’s Test
+L266| Comprehensive Musculoskeletal Management Guidelines         V1.0.2023
+L267| ______________________________________________________________________________________________________
+L268| ©2023 eviCore healthcare. All Rights Reserved.
+L269| 400 Buckwalter Place Boulevard, Bluffton, SC 29910 (800) 918- 8924                             www.eviCore.com
+L270| Page 7 of 19
+L271| Shoulder Surgery -Arthroscopic and Open Procedures   Failure of  provider -directed non-surg ical management for at l east three (3)
+L272| months in d uration
+L273|  Advanced diagnostic imaging study (e.g., MRI, CT) demonstrates underlying
+L274| pathology which correlates with the individual’s reported symptoms and physical exam findings
+L275|  Other  potential pathological  conditions hav e been excluded including, but  not
+L276| limited to: fracture, thoracic outlet syndrom e, brachial ple xus disorders, referred
+L277| neck pa in, and advanced glenohumeral osteoar thritis
+L278| Debridement Non- Indications
+L279|  Debridement is considered not medically necessary  for ANY other indication or
+L280| condition.
+L281| Rotator Cuff Repair
+L282| Rotator Cuff Repair Indications
+L283|  Rotator cuff repa ir is considered m edically necessary when ALL of the following
+L284| criteria have been m et:
+L285|  Function- limiting pain (e.g., loss of shoulder function to the extent which
+L286| interferes with ability to carry out age appropriate activities of daily living and/or
+L287| demands of employment )
+L288|  Individual demonstrates the following on physical examination when compared to the non- involved side:
+L289|  EITHER of the following :
+L290|  Functionally limited range of motion
+L291|  Measurable loss of strength of the rotator cuff musculature
+L292|  ONE or MORE of the following positive orth oped ic tests /signs :
+L293|  Drop A rm Test
+L294|  Painful Arc Test
+L295|  Jobe or Empty Can Test
+L296|  External Rotation Lag Sign (Dropping Sign)
+L297|  Internal Rotation Lag Sign
+L298|  Lift-Off Test
+L299|  Bear Hug Test
+L300|  Belly -Press Test  (Napoleon)
+L301|  Neer Impingement Test
+L302|  Hawki ns-Kennedy Im pingement Test
+L303|  Hornblower Test (Patte)
+L304|  Failure of provider -directed non-sur gical management for at least three (3)
+L305| months in duration, except for an  individual  who suffers a discrete traumatic event
+L306| that resul ts in an ac ute full -thickness rotator cuff tear AND associated function-
+L307| limiting pain
+L308|  Note : The failure of provider -directed non- surgical management for at least
+L309| three (3) months in duration is required in the presence of these advanced
+L310| Comprehensive Musculoskeletal Management Guidelines         V1.0.2023
+L311| ______________________________________________________________________________________________________
+L312| ©2023 eviCore healthcare. All Rights Reserved.
+L313| 400 Buckwalter Place Boulevard, Bluffton, SC 29910 (800) 918- 8924                             www.eviCore.com
+L314| Page 8 of 19
+L315| Shoulder Surgery -Arthroscopic and Open Procedures  diagnostic imaging (e.g., MRI, CT) findings  of fatty infiltration and/or muscle
+L316| atrophy , regardless of whether a discrete traumatic event occurred .
+L317|  Advanced diagnostic imaging (e.g., MRI, CT) demonstrates a Grade  2 or 3
+L318| partial -thickness rotator cuff tear (Ellman classification) or a full -thickness rotator
+L319| cuff tear (Cofield classification) that correlates with the individual’s reported
+L320| symptoms and physical exam findings
+L321|  Other  potential pathological  conditions hav e been excluded including , but not
+L322| limited to: fracture, thor acic outlet syndrom e, brachial ple xus disorders, referred
+L323| neck pa in and advanced glenohumeral osteoar thritis.
+L324| Rotator Cuff Repair Non- Indications
+L325| Not Medically Necessary
+L326|  Rotator cuff repa ir is considered not medically  necess ary for ANY other indication
+L327| or condition.
+L328| Experimental, Investigational, or Unproven (EIU)
+L329|  Based on the lack of scientific evidence of efficacy and safety, the following is
+L330| considered experimental, investigational, or unproven (EIU) :
+L331|  Superior capsular reconstruction using any type of graft (e.g., autograft, allograft,
+L332| xenograft, or synthetic)
+L333| Distal Clavicle Excision/Subacromial Decompression/ Acromioplasty
+L334| Distal Clavicle Excision Indications
+L335|  Distal clavicle excision is considered medically necessar y when ALL of the
+L336| following criteria have been met:
+L337|  Function- limiting  pain (e.g., documen ted loss of shoulder functio n which
+L338| interferes with the abi lity to carry  out ag e appropriat e activit ies of daily living
+L339| and/or deman ds of em ploymen t)
+L340|  Individual  demonstrates localized tenderness to palpation of the
+L341| acromioclavicular (AC) joint and ONE or MORE of the f ollowing  positive
+L342| orthopedic tests on physical examination when c ompared to the non-i nvolved
+L343| side:
+L344|  Cross Body  Adduc tion Test
+L345|  Resisted AC Joint  Extension Test
+L346|  Neer Impingement Test
+L347|  Hawki ns-Kennedy Im pingement Test
+L348|  Failure of provider -directed non- surgical management for at least three (3)
+L349| months in duration
+L350|  Plain radiographs demonstrate findings consistent with pathology in the subacromial space and/or at the AC joint
+L351|  Advanced diagnostic imaging study (e.g., MRI, CT) demonstrates underlying pathology (e.g., AC joint arthritis, impingement, etc.) which correlates with the individual’s reported symptoms and physical exam findings
+L352| Comprehensive Musculoskeletal Management Guidelines         V1.0.2023
+L353| ______________________________________________________________________________________________________
+L354| ©2023 eviCore healthcare. All Rights Reserved.
+L355| 400 Buckwalter Place Boulevard, Bluffton, SC 29910 (800) 918- 8924                             www.eviCore.com
+L356| Page 9 of 19
+L357| Shoulder Surgery -Arthroscopic and Open Procedures   Note : Advanced diagnostic imaging is not required for isolated distal clavicle
+L358| excision when not associated with subacromial decompression/acromioplasty
+L359| surgery.
+L360|  Other potential pathological  conditions hav e been excluded including, but not
+L361| limited to: fracture, thoracic outlet syndrome, brachial  plexus disorders, referred
+L362| neck pa in, and advanced glenohumeral osteoar thritis
+L363| Subacromial Decompression/ Acromioplasty  Indications
+L364|  Subacromial decom pression /acrom ioplasty is considered medicall y necessary as
+L365| an add -on procedure only when performed with other medically necessary primary
+L366| shoulder surgical procedures AND ALL of the above crit eria ha ve been m et with the
+L367| exception of localized tenderness to palpation of the acromioclavicular joint .
+L368| Distal Clavicle Excision/  Subacromial Decompression/
+L369| Acromioplasty Non- Indications
+L370|  Distal clavicle excision/subacromial decompression/acromioplasty is considered not medically necessary for ANY other indication or condition.
+L371|  Arthroscopic subacromial decompression/acromioplasty is considered not medically necessary as a stand -alone procedure.
+L372| Labral Repair
+L373| Labral Repair  Indications
+L374|  Labral repair  is considered med ically necessary when ALL of the follo wing criteria
+L375| have been m et:
+L376|  Function- limiting pain (e.g., loss of shoulder function w hich interferes with the
+L377| ability to carry out age ap propria te activ ities of daily living an d/or deman ds of
+L378| employment)
+L379|  Failure of provider -directed non-surgi cal management for at leas t three (3)
+L380| months in du ration
+L381|  Adva nced dia gnostic imaging study (e.g., MRI, CT) demonstrates labral tear
+L382| (e.g., SLAP , Bank art) and corr elates with the individual ’s repor ted sym ptoms
+L383| and physic al exam fi ndings
+L384|  Other  potentia l pathological  conditions hav e been excluded including, but not
+L385| limited to: fracture, thor acic outlet syndrom e, brachial ple xus disorders, referred
+L386| neck pa in, cervical radiculopathy,  and advanced glenohumeral osteoar thritis.
+L387|  BOTH of t he fo llowing  are present on physical exam ination when compared
+L388| to the non-i nvolved sid e:
+L389|  Minimally limited or full shoulder range of  motion
+L390|  ONE or MORE of the following posit ive orthoped ic tests
+L391|  O’Brien’s Test
+L392|  Biceps Load Test
+L393|  Clunk Test
+L394|  Anterior Slide Test
+L395|  Compression Rotation Test
+L396| Comprehensive Musculoskeletal Management Guidelines         V1.0.2023
+L397| ______________________________________________________________________________________________________
+L398| ©2023 eviCore healthcare. All Rights Reserved.
+L399| 400 Buckwalter Place Boulevard, Bluffton, SC 29910 (800) 918- 8924                             www.eviCore.com
+L400| Page 10 of 19
+L401| Shoulder Surgery -Arthroscopic and Open Procedures   Speed’s Test
+L402|  Modified dynamic labral shear
+L403| Labral Repair Non- Indications
+L404|  Labral repair  is considered not medically necess ary for ANY othe r indica tion or
+L405| condition .
+L406| Biceps Tenodesis
+L407| Biceps Tenodesis  Indications
+L408|  Biceps tenodesis  is considered medically nece ssary when ALL of the follo wing
+L409| criteria ha ve been m et:
+L410|  Function- limiting pain (e.g., loss of shoulder function w hich interferes with the
+L411| ability to carry out age ap propria te activ ities of daily living an d/or deman ds of
+L412| employmen t)
+L413|  Failure of provider -directed non-sur gical management for at least three (3)
+L414| months  in duration, except for an individual who suffers a discrete traumatic
+L415| event that results in an acute proximal biceps tendon rupture AND associated
+L416| function- limiting pain
+L417|  Adva nced dia gnostic imaging study ( e.g., MRI, CT) demonstrates labral
+L418| tear/bic eps tendon pa thology (e.g., S LAP, Bank art, full-thickness subscapularis
+L419| tear) and corr elates with the individual ’s repor ted sym ptoms and physic al exam
+L420| findings
+L421|  Other  potential pathological  conditions hav e been excluded including, but  not
+L422| limited to: fracture, thoracic outlet syndrom e, brachial ple xus disorders, referred
+L423| neck pa in, cervical radiculopathy, and advanced glenohumeral osteoar thritis
+L424|  BOTH of t he following are present on physical examination when com pared to
+L425| the non-i nvolved sid e:
+L426|  Minimally limited or full shoulder range of  motion
+L427|  ONE OR MORE of the following positive  physical exam findings
+L428|  O’Brien’s Test
+L429|  Biceps Load Test
+L430|  Clunk Test
+L431|  Anterior Slide Test
+L432|  Compression Rotation Test
+L433|  Speed’s Test
+L434|  Upper cut test
+L435|  Popeye sign
+L436|  Yergason’s test
+L437|  Proximal biceps (groove)  tenderness
+L438| Biceps Tenodesis Non- Indications
+L439|  Biceps tenodesis  is considered not medically necess ary for ANY other indication
+L440| or condition.
+L441| Comprehensive Musculoskeletal Management Guidelines         V1.0.2023
+L442| ______________________________________________________________________________________________________
+L443| ©2023 eviCore healthcare. All Rights Reserved.
+L444| 400 Buckwalter Place Boulevard, Bluffton, SC 29910 (800) 918- 8924                             www.eviCore.com
+L445| Page 11 of 19
+L446| Shoulder Surgery -Arthroscopic and Open Procedures  Arthroscopic or Open Surgical Procedures for Shoulder Instability
+L447| and/or Laxity
+L448| Arthroscopic or Open Surgical Procedures for Shoulder  Instability
+L449| and/or Laxity
+L450|  Arthroscop ic or open surgical procedures for shoulder instability and/or l axity are
+L451| considered  medicall y necessary when ALL of the following crit eria have been m et:
+L452|  Documented histo ry of “post-traumatic” or “atraumatic” instabi lity and/or laxity
+L453| that has res ulted in function- limiting pain (e.g., loss of shoulder functio n which
+L454| interferes with the abi lity to carry  out ag e appropria te activities of daily living
+L455| and/or deman ds of employmen t)
+L456|  Individual demonstrates ONE OR MORE of the following positive  orthope dic
+L457| tests on physical examination when compared to the non- involved side:
+L458|  Anterior or Po sterior Apprehension Test
+L459|  Sulcus  Sign
+L460|  Load and Shift Test
+L461|  Failure of provider -directed non- surgical management for at least three (3)
+L462| months in duration that includes shoulder stabilization/strengthening exercises,
+L463| except  when EITHER of the following criteria are met in an acute traumatic injury
+L464| setting:
+L465|  Irreducible shoulder dislocation
+L466|  Anterior shoulder instability in competitive contact or collision athletes
+L467|  Adva nced dia gnostic imaging study ( e.g., MRI, CT) demonstrates labral tear
+L468| (e.g., Bank art, capsular tear ) and corr elates with the individual ’s repor ted
+L469| symptoms and physic al exam fi ndings
+L470|  Other  potential pathological  conditions hav e been excluded including, but  not
+L471| limited to: fracture, thor acic outlet syndrom e, brachial ple xus disorders, referred
+L472| neck pa in, cervical radiculopathy, and advanced glenohumeral osteoar thritis
+L473| Arthroscopic or Open Surgical Procedures for Shoulder Instability
+L474| and/or Laxity Non- Indications
+L475| Not Medically Necessary
+L476|  Arthroscopic or open surgical procedures for shoulder instability and/or laxity are
+L477| considered not medically  necessary  for ANY other indication  or condition .
+L478| Experimental, Investigational, or Unproven (EIU)
+L479|  Based on the lack of scientific evidence of efficacy and safety, the following is
+L480| considered experimental,  investigational,  or unproven (EIU):
+L481|  Superior capsular reconstruction using any type of graft (e.g., autograft, allograft,
+L482| xenograft, or synthetic)
+L483| Comprehensive Musculoskeletal Management Guidelines         V1.0.2023
+L484| ______________________________________________________________________________________________________
+L485| ©2023 eviCore healthcare. All Rights Reserved.
+L486| 400 Buckwalter Place Boulevard, Bluffton, SC 29910 (800) 918- 8924                             www.eviCore.com
+L487| Page 12 of 19
+L488| Shoulder Surgery -Arthroscopic and Open Procedures  Arthroscopic Capsular Release/Lysis of Adhesions
+L489| Arthr oscopic Capsu lar Releas e/Lysis of Adhesions Indications
+L490|  Arthroscop ic cap sular rele ase/lysis of adhesions  for an individual  with documen ted
+L491| chronic refra ctory adhesive capsulitis/arthrofibrosis  which has result ed from disea se,
+L492| injury or surgery is considered medically necessary when ALL of the following
+L493| criteria ha ve been met:
+L494|  Function- limiting pain (e.g., loss of shoulder functio n which interferes with the
+L495| ability to carry  out ag e appropria te activities of daily living a nd/or deman ds of
+L496| employment) f or at least s ix (6) months in d uration
+L497|  Individual  demonstr ates functional ly limited and painful  global loss of activ e and
+L498| passive range of motion of at least 50%  when com pared to t he non- involved
+L499| side
+L500|  Failure of provider -directed non-sur gical management for at least three (3)
+L501| months in duration, including a com bination of anti-i nflammatory med ication,
+L502| cortison e injection, and a trial of  physical therapy (i.e., active exercise and
+L503| manual therapy designed to increase joint mobility and range of motion)
+L504|  Other  potential diagnost ic conditions including but  not limited to fracture,
+L505| thoracic outlet syndrom e, brachial ple xus disorders, referred neck pa in,
+L506| cervical radiculopathy,  and advanced glenohumeral osteoar thritis have been
+L507| excluded.
+L508| Arthroscopic Capsular Release/Lysis of Adhesions  Non- Indications
+L509|  Arthroscopic capsular release/lysis of adhesions  is considered not medically
+L510| necessary for ANY other indication or condition.
+L511| Arthroscopic or Open Coracoplasty/ Subcoracoid Decompression
+L512|  Based on lack of scientific safety and efficacy, a rthroscopic or open
+L513| coracoplasty/subcoracoid decompression for the treatment of subcoracoid
+L514| impingement is considered experimental, investigational or unproven ( EIU).
+L515| Comprehensive Musculoskeletal Management Guidelines         V1.0.2023
+L516| ______________________________________________________________________________________________________
+L517| ©2023 eviCore healthcare. All Rights Reserved.
+L518| 400 Buckwalter Place Boulevard, Bluffton, SC 29910 (800) 918- 8924                             www.eviCore.com
+L519| Page 13 of 19
+L520| Shoulder Surgery -Arthroscopic and Open Procedures  Procedure (CPT®) Codes
+L521| This guideline relates to the  CPT® code  set below.  Codes are  displayed  for informational purposes
+L522| only.  Any given code’s inclusion on this list does not necessarily  indicate prior  authorization is required.
+L523| CPT® Code  Description/Definition
+L524| 23000  Removal of subdeltoid calcareous deposits, open
+L525| 23020  Capsular contracture release (e.g. Sever type procedure)
+L526| 23120  Claviculectomy; partial
+L527| 23125  Claviculectomy; total
+L528| 23130  Acromioplasty  or acromionectomy, partial, with or without coracoac romial ligament release
+L529| 23145  Excision  or curettage  of bone  cyst or benign  tumor  of clavicle  or scapula;  with autograft
+L530| (includes obtaining graft)
+L531| 23155  Excision  or curettage  of bone  cyst or benign  tumor  of proximal  humerus;  with autograft
+L532| (includes obtaining graft)
+L533| 23172  Sequestrectomy (e.g.  for osteomyelitis or bone abscess), scapula
+L534| 23174  Sequestrec tomy (e.g. for osteomyelitis or bone abscess), humeral head to surgical neck
+L535| 23190  Ostectomy of scapula, partial (eg, superior medial angle)
+L536| 23195  Resection, humeral head
+L537| 23395  Muscle transfer, any type, shoulder or upper arm; single
+L538| 23397  Muscle transfer, any type, shoulder or upper arm; multiple
+L539| 23405  Tenotomy, shoulder area; single tendon
+L540| 23406  Tenotomy, shoulder area; multiple tendons through same incision
+L541| 23410  Repair  of ruptured musculotendinous cuff (e.g.  rotator cuff) open; acute
+L542| 23412  Repair  of ruptured musculotendinous cuff (e.g.  rotator cuff) open; chronic
+L543| 23415  Coracoacromial ligament release, with or without acromioplasty
+L544| 23420  Reconstruction of complete shoulder (rotator)  cuff avulsion, chronic (includes acromioplasty)
+L545| 23430  Tenodesis of long tendon of biceps
+L546| 23440  Resection or transplantation of long tendon of biceps
+L547| 23450  Capsulorrhaphy, anterior; Putti -Platt procedure or Magnuson type operation
+L548| 23455  Capsulorrhaphy, anterior; with labral repair  (e.g. Bankart procedure)
+L549| 23460  Capsulorrhaphy, anterior, any type; with bone block
+L550| 23462  Capsulorrhaphy, anterior, any type; with coracoid process transfer
+L551| 23465  Capsulorrhaphy, glenohumeral joint, posterior, with or without bone block
+L552| 23466  Capsulorrhaphy, glenohumeral joint, any  type multi -directional instability
+L553| 23480  Osteotomy, clavicle, with or without internal fixation
+L554| 23485  Osteotomy, clavicle, with or without internal fixation; with bone graft for nonunion or
+L555| malunion (includes obtaining graft and/or necessary fixation)
+L556| 29805  Arthroscopy, shoulder, diagnost ic, with or without synovial biopsy  (separate procedure)
+L557| 29806  Arthroscopy, shoulder, surgical; capsulorrhaphy
+L558| 29807  Arthroscopy, shoulder, surgical; repair of SLAP lesion
+L559| 29819  Arthroscopy, shoulder, surgical; with removal of loose body or foreign body
+L560| 29820  Arthroscopy, shoulder, surgical; synovectomy, partial
+L561| 29821  Arthroscopy, shoulder, surgical; synovectomy, complete
+L562| 29822  Arthroscopy, shoulder, surgical; debridement, limited , 1 or 2 discrete structures (e.g.,
+L563| humeral bone, humeral articular cartilage, glenoid bone, glenoid articular cartilage, biceps
+L564| tendon, biceps anchor complex, labrum, articular capsule, articular side of the rotator cuff,
+L565| bursal side of the rotator cuff, subacromial bursa, foreign body[ies])
+L566| 29823  Arthroscopy, shoulder, surgical; debridement, extensive , 3 or more discrete structures (e.g.,
+L567| humeral bone, humeral articular cartilage, glenoid bone, glenoid articular cartilage, biceps
+L568| tendon, biceps anchor complex, labrum, articular capsule, articular side of the rotator cuff ,
+L569| bursal side of the rotator cuff, subacromial bursa, foreign body[ies])
+L570| 29824  Arthroscopy, shoulder, surgical; distal claviculectomy including distal articular surface
+L571| (Mumford procedure)
+L572| Comprehensive Musculoskeletal Management Guidelines         V1.0.2023
+L573| ______________________________________________________________________________________________________
+L574| ©2023 eviCore healthcare. All Rights Reserved.
+L575| 400 Buckwalter Place Boulevard, Bluffton, SC 29910 (800) 918- 8924                             www.eviCore.com
+L576| Page 14 of 19
+L577| Shoulder Surgery -Arthroscopic and Open Procedures  This guideline relates to the  CPT® code  set below.  Codes are  displayed  for informational purposes
+L578| only.  Any given code’s inclusion on this list does not necessarily  indicate prior  authorization is required.
+L579| CPT® Code  Description/Definition
+L580| 29825  Arthroscopy, shoulder, surgical; with lysis and resection o f adhesions, with or without
+L581| manipulation
+L582| 29826  Arthroscopy,  shoulder,  surgical;  decompression  of subacromial  space  with partial
+L583| acromioplasty,  with coracoacromial  ligament  (i.e. arch)  release when  performed (List
+L584| separately in addition to code for primary procedure)
+L585| 29827  Arthroscopy, shoulder, surgical; with rotator cuff repair
+L586| 29828  Arthroscopy, shoulder, surgical; biceps tenodesis
+L587| This list may not be all inclusive and is not intended to be used for coding/billing purposes. The final
+L588| determination of reimbursement for services is the decision of the health plan and is based on the
+L589| individual’s policy or benefit entitlement structure as well as claims processing rules.
+L590| Comprehensive Musculoskeletal Management Guidelines         V1.0.2023
+L591| ______________________________________________________________________________________________________
+L592| ©2023 eviCore healthcare. All Rights Reserved.
+L593| 400 Buckwalter Place Boulevard, Bluffton, SC 29910 (800) 918- 8924                             www.eviCore.com
+L594| Page 15 of 19
+L595| Shoulder Surgery -Arthroscopic and Open Procedures  References
+L596| 1. AAOS Clinical Practice Guidelines Unit. Optimizing The Management of Rotator Cuff Problems: Guideline and
+L597| Evidence Report . 2010 Dec 4. V1.1_033011:i -293. Arciero RA, Wheeler JH, Ryan JB, et al. Arthroscopic Bankart
+L598| Repair Versus Nonoperative Treatment for Acute, Initial Anterior Shoulder Dislocations. Am J  Sports Med .
+L599| 1994;22(5):589 -594.
+L600| 2. Altintas B, Anderson N, Pitta R et al. Repair of Rotator Cuff Tears in the Elderly: Does It Make Sense? A Systematic Review. Am J Sports Med . 2019;48(3):744-753. doi:10.1177/0363546519834574.
+L601| 3. Arciero RA, Wheeler JH, Ryan JB, et al. Arthroscopic Bankart Repair Versus Nonoperative Treatment for Acute, Initial Anterior Shoulder Dislocations. Am J Sports Med . 1994;22(5):589-594.
+L602| 4. Audenaert E, Nuffel JV, Schepens A, Verhelst M, Verdonk R. Reconstruction of massive rotator cuff lesions with a synthetic interposition graft: a prospective study of 41 patients. Knee Surg Sports Traumatol Arthrosc .
+L603| 2005;14(4):360 -364. doi:10.1007/s00167-005 -0689-7.
+L604| 5. Boileau P, Baque F, Valerio L et al.  Isolated Arthroscopic Biceps Tenotomy orTenodesis  Improves Symptoms in
+L605| Patients with Massive Irreparable Rotator Cuff  Tears.  J Bone Joint Surg Am. 2007;  89(4):747757.
+L606| 6. Boorman RS, More KD, Hollinshead RM, et al. What happens to patients when we do not repair their cuff tears?
+L607| Five- year rotator cuff quality- of-life index outcomes following nonoperative treatment of patients with
+L608| full0thickness rotator cuff tears. J Shoulder Elbow Surg. 2018;27:444-448.  doi:10. 1016/j.jse.2017.10.009.
+L609| 7. Brealey S, Northgraves M, Kottam L et al. Surgical treatments compared with early structured physiotherapy in
+L610| secondary care for adults with primary frozen shoulder: the UK FROST three-arm RCT.  Health Technol Assess
+L611| (Rockv). 2020;24(71):1-162. doi:10.3310/hta24710.
+L612| 8. Brolin T, Updegrove G, Horneff J. Classifications in Brief: Hamada Classification of Massive Rotator Cuff Tears.
+L613| Clin Orthop Relat Res . 2017;475(11):2819-2823. doi:10.1007/s11999-017 -5340-7.
+L614| 9. Budoff  J, Nirschl R, Guidi E.  Current Concepts Review -Debridement of  Partial -Thickness Tears of the Rotator
+L615| Cuff without Acromioplasty.  Long-term follow -up and review of  the literature.  J Bone Joint Surg Am . 1998;
+L616| 80(5):733-748.
+L617| 10. Burkhart S, Pranckun J, Hartzler R. Superior Capsular Rec onstruction for the Operatively Irreparable Rotator
+L618| Cuff Tear: Clinical Outcomes Are Maintained 2 Years After Surgery. Arthroscopy.  2020;36(2):373- 380.
+L619| doi:10.1016/j.arthro.2019.08.035.
+L620| 11. Burnier M, Elhassan B, Sanchez -Sotelo J. Surgical Management of Irreparable Rotator Cuff Tears. J Bone Joint
+L621| Surg . 2019;101(17):1603-1612. doi:10.2106/jbjs.18.01392.
+L622| 12. Carver TJ, Kraeutler MJ, Smith JR, Bravman JT, Mccarty EC. Nonarthroplasty Surgical Treatment Options for
+L623| Massive, Irreparable Rotator Cuff Tears. Orthop J Sports Med. 2018;6(11):232596711880538.
+L624| doi:10.1177/2325967118805385.
+L625| 13. Cvetanovich G, Waterman B, Verma N, Romeo A. Management of the Irreparable Rotator Cuff Tear. JAAOS. 2019;27(24):909-917. doi:10.5435/jaaos -d-18-00199.
+L626| 14. Choi L. Overuse injuries.  In: DeLee J, et al.  DeLee and Drez's  Orthopaedic  Sports  Medicine. 3 ed. Philadelphia,
+L627| Pa.: Saunders Elsevier; 2009.
+L628| 15. Cofield RH. Subscapular muscle transposition for repair of chronic rotator cuff tears. Surg Gynecol Obste t.
+L629| 1982;154(5):667–672.
+L630| 16. Coory J, Parr A, Wilkinson M, Gupta A. Efficacy of suprascapular nerve block compared with subacromial injection: a randomized controlled trial in patients with rotator cuff tears. J Shoulder Elbow Surg. 2019;28(3):430-
+L631| 436. doi:10.1016/j.jse.2018.11.051.
+L632| 17. Cvetanovich G, Waterman B, Verma N, Romeo A. Management of the Irreparable Rotator Cuff Tear. J Am Acad
+L633| Orthop Surg. 2019;27(24):909 -917. doi:10.5435/jaaos -d-18-00199.
+L634| 18. Denard PJ, Brady PC, Adams CR, et al. Preliminary results of arthroscopic superior capsule reconstruction with dermal allograft. Arthroscopy. 2018;34(1): 93 -99.
+L635| 19. DeOrio JK, Cofield RH. Results of a second attempt at surgical repair of a failed initial rotator -cuff repair. J Bone
+L636| Joint Surg Am. 1984;66(4):563– 567.
+L637| 20. Dunn WR, Kuhn JE, Sanders R, et  al. 2013 Neer Award: predictors of failure of nonoperative treatment of
+L638| chronic, symptomatic, full -thickness rotator cuff tears. J Shoulder Elbow Surg. 2016;25:1303-1311.
+L639| 21. Ernstbrunner L, Suter A, Catanzaro S, Rahm S, Gerber C. Reverse Total Shoulder Arthroplasty for Massive, Irreparable Rotator Cuff Tears Before the Age of 60 Years.  J Bone Joint Surg.  2017;99(20):1721-1729.
+L640| doi:10.2106/jbjs.17.00095.
+L641| 22. Forsythe B, Agarwalla A, Puzzitiello RN, Sumner S, Romeo AA, Mascarenhas R. The Timing of Injections Prior
+L642| to Arthroscopic Rotator Cuff Repair Impacts the Risk of Surgical Site Infection. J Bone Joint Surg.
+L643| 2019;101(8):682-687. doi:10.2106/jbjs.18.00631.
+L644| 23. Galatz  LM, Ball C, Teefey  S, et al. The outcome and repair integrity of completely  arthroscopical ly repaired large
+L645| and massive rotator cuff  tears.  J Bone Joint Surg Am . 2004; 86(2):219-224.
+L646| 24. Galvin J, Kenney R, Curry E et al. Superior Capsular Reconstruction for Massive Rotator Cuff Tears. JBJS Rev.
+L647| 2019;
+L648| 7(6):e1. doi:10.2106/jbjs.rvw.18.00072.
+L649| 25. Garofalo R, Conti M, Massazza G, Cesari E, Vinci E, Castagna A. Subcoracoid impingement syndrome: a painful shoulder condition related to different pathologic factors. Musculoskelet Surg. 2011 Jul;95 Suppl 1:S25- 9.
+L650| Comprehensive Musculoskeletal Management Guidelines         V1.0.2023
+L651| ______________________________________________________________________________________________________
+L652| ©2023 eviCore healthcare. All Rights Reserved.
+L653| 400 Buckwalter Place Boulevard, Bluffton, SC 29910 (800) 918- 8924                             www.eviCore.com
+L654| Page 16 of 19
+L655| Shoulder Surgery -Arthroscopic and Open Procedures  26. Garrigues G. The Superior Capsule Reconstruction. J Bone Joint Surg. 2019;101(21):e116.
+L656| doi:10.2106/jbjs.19.00883.
+L657| 27. Gartsman G, Taverna E. The incidence of glenohumeral joint abnormalities associated with complete, reparable
+L658| rotator cuff tears.  Arthroscopy.1997;12:575-579.
+L659| 28. Godeneche A, Elia F, Kempf J, et al. Fatty infilitration of stage 1 or higher significantly compromises long-term healing of supraspinatus repairs. J Shoulder Elbow Surg. 2017;26:1818-1825. doi: 10.1016/j.jse.2017.03.024.
+L660| 29. Green A. Is the Devil in the Detai ls?. J Bone Joint Surg. 2019;101(21):e117. doi:10.2106/jbjs.19.01120.
+L661| 30. Guevara J, Entezari V, Ho J, Derwin K, Iannotti J, Ricchetti E. An Update on Surgical Management of the
+L662| Repairable Large-to -Massive Rotator Cuff Tear. J Bone Joint Surg. 2020;102(19):1742- 1754.
+L663| doi:10.2106/jbjs.20.00177.
+L664| 31. Gupta AK, Hug K, Berkoff DJ, et al. Dermal Tissue Allograft for the Repair of Massive Irreparable Rotator Cuff
+L665| Tears. Am J Sports Med . 2012;40(1):141- 147. doi:10.1177/0363546511422795.
+L666| 32. Hamada K, Fukuda h, Mikasa M, Kobayashi Y. Roentgenographic Findings in Massive Rotator Cuff Tears: A Long-Term Observation. Clin Orthop Relat Res . 1990;(254):92-96. doi:10.1097/00003086- 199005000-00014.
+L667| 33. Hartzler R, Burkhart S. Superior Capsular Reconstruction. Orthopedics . 2017;40(5):271-28 0.
+L668| doi:10.3928/01477447-20170920- 02.
+L669| 34. Herbery -Davies J, Teefey SA, Steger -May K, et al. Progression of fatty muscle degeneration in atraumatic rotator
+L670| cuff tears. J Bone Joint Surg Am . 2017;99:832-9.  doi:10.2106/JBJS.16.00030.
+L671| 35. Hippensteel KJ, Brophy R, Smith MV, et al. A comprehensive review of physical examination tests of the cervical spine, scapula, and rotator cuff. J Am Acad Orthop Surg . 2019;27: 385-94.  doi: 10.5435/JAAOS -D-17-00090.
+L672| 36. Hirahara AM, Andersen WJ, Panero AJ. Superior capsular reconstruction: clinical outcomes after minimum 2-year follow -up. Am J Orthop . 2017: 266-78.
+L673| 37. Hovelius L, Olofsson A, Sandström B. Nonoperative treatment of primary anterior shoulder dislocation in patients forty years of age and younger. a prospective twenty -five- year follow -up. J Bone Joint Surg Am. 2008;90(5):945-
+L674| 952.
+L675| 38. Hovis  W, Dean M, Mallon W, Hawkins R. Posterior  instability  of the shoulder with secondary impingement in elite
+L676| golfers.  Am J  Sports Med . 2002;30(6):886- 890.
+L677| 39. Jain N, Ayers G, Fan R et al. Comparative Effectiveness of Operative Versus Nonoperative Treatment for
+L678| Rotator Cuff Tears: A Propensity Score Analysis From the ROW Cohort. Am J Sports Med . 2019;47(13):3065-
+L679| 3072. doi:10.1177/0363546519873840.
+L680| 40. Jeong J, Kim S, Yoon T, Eum K, Chun Y. Arthroscopic Repair of Large and Massive Rotator Cuff Tears.  J Bone
+L681| Joint Surg. 2020;102(14):1248 -1254. doi:10.2106/jbjs.19.01014.
+L682| 41. Kalson N, Borthwick L, Mann D et al. International consensus on the definition and classification of  fibrosis of the
+L683| knee joint. Bone Joint J . 2016;98-B(11):1479- 1488. doi:10.1302/0301-620x.98b10.37957.
+L684| 42. Karjalainen TV, Jain NB, Page CM et al. Subacromial decompression surgery for rotator cuff disease. Cochrane
+L685| Database Syst Rev . 2019 Jan 17;1: CD005619.
+L686| 43. Keener JD, Galatz LM, Teefey SA, et al. A Prospective Evaluation of Survivorship of Asymptomatic Degenerative
+L687| Rotator Cuff Tears. J Bone Joint Surg Am . 2015;97:89-98.
+L688| 44. Keener JD, Patterson BM, Orvets N, Chamberlain AM. Degenerative Rotator Cuff Tears. J Am  Acad Orthop
+L689| Surg . 2019;27(5):156- 165. doi:10.5435/jaaos -d-17- 00480.
+L690| 45. Khazzam M, Kane SM, Smith MJ. Open Shoulder  Stabilization Using bone block technique for treatment of
+L691| chronic glenohumeral instability  associated with glenoid deficiency.  Am J Orthop . 200 9;38(7):329-335
+L692| 46. Kibler WB, Sciascia A, Hester P, Dome D, Jacobs C. Clinical Utility of Traditional and New Tests in the Diagnosis of Biceps Tendon Injuries and Superior Labrum Anterior and Posterior Lesions in the Shoulder.  Am J Sports
+L693| Med. 2009;37(9):1840-1847. doi:10.1177/0363546509332505.
+L694| 47. Kim H, Teefey  S, Zelig A, et al. Shoulder  strength in asymptomatic individuals with intact compared with torn
+L695| rotator cuffs.  J Bone Joint Surg Am . 2009; 91(2):289- 296.
+L696| 48. Kim SJ, Choi YR, Jung M, Yoon Y, Chun YM. Concomitant coracoplasty during arthroscopic subscapularis repair
+L697| does not yield better clinical outcomes and structural integrity. Knee Surg Sports Traumatol Arthrosc . 2018
+L698| Jan;26(1):56- 62.
+L699| 49. Kragh JF Jr, Doukas WC, Basamania CJ. Primary coracoid impingement syndrome. Am J Orthop . 2004
+L700| May;33(5):229-2 32; discussion 232.
+L701| 50. Kuhn J, Dunn W, Sanders R et al. Effectiveness of physical therapy in treating atraumatic full -thickness rotator
+L702| cuff tears: a  multicenter prospective cohort study. J Shoulder Elbow Surg. 2013;22(10):1371-1379.
+L703| doi:10.1016/j.jse.2013.01.026.
+L704| 51. Kukkonen J, Joukainen A, Lehtinen J, et al. Treatment of Nontraumatic Rotator Cuff Tears: A Randomized Control Trial with Two Years of Clinical and Imaging Follow -up. J Bone Joint Surg Am . 2015;97:1729-1737.
+L705| 52. Lee SJ, Min YK. Can inadequate acromiohumeral distance improvement and poor posterior remnant tissue be the pr
+L706| edictive factors of re-tear? Preliminary outcomes of arthroscopic superior capsular reconstruction. Knee
+L707| Surg Sports Traumatol Arthrosc. 2018;26(7): 2205- 2213.
+L708| 53. Leland D, Bernard C, Keyt L et al. An Age-Based Approach to Anterior Shoulder Instability in Patients Under 40
+L709| Years Old: Analysis of a US Population. Am J Sports Med . 2019;48(1):56- 62. doi:10.1177/0363546519886861.
+L710| 54. Leroux, TS, Saltzman BM, Meyer M, et al. The Influence of Evidence-Based Surgical Indications and Techniques
+L711| Comprehensive Musculoskeletal Management Guidelines         V1.0.2023
+L712| ______________________________________________________________________________________________________
+L713| ©2023 eviCore healthcare. All Rights Reserved.
+L714| 400 Buckwalter Place Boulevard, Bluffton, SC 29910 (800) 918- 8924                             www.eviCore.com
+L715| Page 17 of 19
+L716| Shoulder Surgery -Arthroscopic and Open Procedures  on Failure Rates After Arthroscopic Shoulder Stabilization in the Contact or Collision Athlete with Anter ior
+L717| Shoulder Instability. Am J Sports Med . 2017;45(5):1218- 1225.
+L718| 55. Lewington MR, Ferguson DP, Smith TD, Burks R, Coady C, Wong IH -B. Graft Utilization in the Bridging
+L719| Reconstruction of Irreparable Rotator Cuff Tears: A Systematic Review. Am J Sports Med . 2017;45(13):3149-
+L720| 3157. doi:10.1177/0363546517694355.
+L721| 56. Lim S, Alramadhan H, Kwak J-M, Hong H, Jeon I -H. Graft tears after arthroscopic superior capsule
+L722| reconstruction (ASCR): pattern of failure and its correlation with clinical outcome. Arch Orthop Trauma Su rg.
+L723| 2018;139(2):231-239. doi:10.1007/s00402-018-3025-7.
+L724| 57. Lin J, Sun Y, Chen Q, Liu S, Ding Z, Chen J. Outcome Comparison of Graft Bridging and Superior Capsule
+L725| Reconstruction for Large to Massive Rotator Cuff Tears: A Systematic Review.  Am J Sports Med .
+L726| 2019;48(11):2828-2838. doi:10.1177/0363546519889040.
+L727| 58. MacDonald P, Verhulst F, McRae S et al. Biceps Tenodesis Versus Tenotomy in the Treatment of Lesions of the
+L728| Long Head of the Biceps Tendon in Patients Undergoing Arthroscopic Shoulder Surgery: A Prospective Double-
+L729| Blinded Randomized Controlled Trial.  Am J Sports Med . 2020;48(6):1439- 1449.
+L730| doi:10.1177/0363546520912212.
+L731| 59. McKee M, Yoo  D. The effect of surgery  for rotator cuff disease on general health status. Results of a prospective
+L732| trial. J Bone Joint Surg Am . 2000; 82(7):970 -979.
+L733| 60. McKernan M, Schickendantz M, Frangiamore S. Diagnosis and Management of Subcoracoid Impingement.  J Am
+L734| Acad Orthop Surg. 2020;29(3):100-107. doi:10.5435/jaaos -d-20- 00008.
+L735| 61. Mihata T, Lee T, Hasegawa A, et al. Five-Year Follow -up of Arthroscopic Superior Capsule Reconstruction for
+L736| Irreparable Rotator Cuff Tears. J Bone Joint Surg. 2019;101(21):1921-1930. doi:10.2106/jbjs.19.00135.
+L737| 62. Mihata T, Lee TQ, Watanabe C, et al. Clinical results of arthroscopic superior capsule reconstruction for irreparable rotator cuff tears.  Arthroscopy.  2013;29(3): 459 -70.
+L738| 63. Mishra D, Fanton G . Two-year outc ome of ar throscopic  Bank art repair and electrothe rmal-assisted
+L739| capsulorrhaphy f or recurrent tra umatic anterior sh oulder instabi lity. Arthroscopy . 2001;17(8 ):844- 849.
+L740| 64. Moosmayer S, Gartner AV, Tariq R. The natural course of nonoperatively treated rotator cuff tears: an 8.8 year follow -up of tear anatomy and clinical outcome in 49 patients. J Shoulder Elbow Surg. 2017;26:627-634. doi:
+L741| 10.1016/j.jse.2016.10.002.
+L742| 65. Moosmayer S, Lund G, Seljom U et al. At a 10-Year Follow -up, Tendon Repair Is Superior to Physiotherapy in
+L743| the Treatment of Small and Medium -Sized Rotator Cuff Tears. J Bone Joint Surg. 2019;101(12):1050-1060.
+L744| doi:10.2106/jbjs.18.01373.
+L745| 66. Nakhaei Amroodi M, Salariyeh M. Predictors of failure after conservative treatment of symptomatic partial -
+L746| thickness rotator cuff tear. J Shoulder Elbow Surg. 2020;29(1):113- 120. doi:10.1016/j.jse.2019.05.009.
+L747| 67. Neumann JA, Zgonis MH, Rickert KD, et al. Interposition Dermal Matrix Xenografts: A Successful Alternative to Traditional Treatment of Massive Rotator Cuff Tears.  Am J Sports Med . 2017;45(6):1261-1268.
+L748| doi:10.1177/0363546516683945.
+L749| 68. Park M, J un B, Park C, et al. B iomechanica l Analysis of a Knotless T ranstendon I nterimplant Mattr ess Repair for
+L750| Partial-Thickness Articular-Side d Rot ator Cuff  Tears. Am J Sports  Med. 2009;37(1 2):2427- 2434.
+L751| 69. Park JY, Lhee SH, Oh KS, Kim NR, Hwang JT. Is arthroscopic coracoplasty necessary in subcoracoid im
+L752| pingement syndrome? Arthroscopy. 2012 Dec;28(12):1766-75.
+L753| 70. Pennington WT, Bartz BA, Pauli JM, et al. Arthroscopic superior capsular reconstruction with acellular dermal allograft for the treatment of massive irreparable rotator cuff tears, short -tern clinical outcomes and the
+L754| radiographic parameter of superior capsular distance. Arthroscopy . 2018;34(6): 1764-73.
+L755| 71. Petrera A, Dwyer T, Tsuji MRS, et al. Outcomes of Arthroscopic Bankart Repair in Collision Versus Noncollision
+L756| Athletes. Orthopedics. 2013;36(5):e621-e626.
+L757| 72. Petri M, Greenspoon J, Moulton S, Millett P. Patch-Augmented Rotator Cuff Repair and Superior Capsule Reconstruction. Open Orthop J . 2016;10(1):315-323. doi:10.2174/1874325001610010315.
+L758| 73. Plancher K, Shanmugam J, Briggs K, Petterson S. Diagnosis and Management of Partial Thickness Rotator Cuff Tears: A Comprehensive Review. JAAOS. 2021;29(24):1031 -1043. doi:10.5435/jaaos -d-20-01092.
+L759| 74. Ranebo MC, Hallgren HCB, Norlin R, Adolfsson LE. Long-term clinical and radiographic outcome of rotator cuff repair with a synthetic interposition graft: a consecutive case series with 17 to 20 years of follow -up. J Shoulder
+L760| Elbow Surg. 2018;27(9):1622- 1628. doi:10.1016/j.jse.2018.03.011.
+L761| 75. Rees J . The pa thogenesis a nd surg ical trea tment of tears of the rotator cuff. J Bone Joint Surg Br . 2008;90-
+L762| B(7):827- 832.
+L763| 76. Rhon DI, Boyles RB, Cleland JA. One- year outcome of subacromial corticosteroid injection compared with
+L764| manual physical therapy for the management of the unilateral shoulder impingement syndrome: a pragmatic randomized trial. Ann Intern Med. 2014;161(3):161- 169.
+L765| 77. Rosas S, Krill M, Amoo -Achampong K, Kwon K, Nwachukwu B, McCormick F. A practical, evidence - based,
+L766| comprehensive (PEC) physical examination for diagnosing pathology of the long head of the biceps. J Shoulder
+L767| Elbow Surg. 2017;26(8):1484- 1492. doi:10. 1016/j.jse.2017.03.002.
+L768| 78. Sachs RA, Lin D, Stone ML, et al. Can the Need for Future Surgery for Acute Traumatic Anterior Shoulder Dislocation Be Predicted? J  Bone Joint Surg Am. 2007;89:1665- 74.
+L769| 79. She n P, Lien S, She n Het al. Long-term functiona l outcomes a fter repair of rotator cuff tears correla ted with
+L770| Comprehensive Musculoskeletal Management Guidelines         V1.0.2023
+L771| ______________________________________________________________________________________________________
+L772| ©2023 eviCore healthcare. All Rights Reserved.
+L773| 400 Buckwalter Place Boulevard, Bluffton, SC 29910 (800) 918- 8924                             www.eviCore.com
+L774| Page 18 of 19
+L775| Shoulder Surgery -Arthroscopic and Open Procedures  atrophy of the supraspinatus musc les on m agne tic resona nce images. J Shoulder  Elbow Surg .2008;  17 (1
+L776| Suppl): 1S –7S.
+L777| 80. Sochacki KR, Mcculloch PC, Lintner DM, Harris JD. Superior Capsular Reconstruction for Massive Rotator Cuff
+L778| Tear Leads to Significant Improvement in Range of Motion and Clinical Outcomes: A Systematic Review.
+L779| Arthroscopy. 2019;35(4):1269 -1277. doi:10.1016/ j.arthro.2018.10.129.
+L780| 81. Song A, DeClercq J, Ayers G et al. Comparative Time to Improvement in Nonoperative and Operative Treatment of Rotator Cuff Tears.  J Bone Joint Surg. 2020;102(13):1142 -1150. doi:10.2106/jbjs.19.01112.
+L781| 82. Streubel PN, Krych AJ, Simone JP, et al. Anterior Glenohumeral Instability: A Pathology- based Surgical
+L782| Treatment Strategy. J Am Acad Orthop Surg. 2014;22(5):283-294.
+L783| 83. Suenaga N, Minami A, Kaneda K. Postoperative subcoracoid impingement syndrome in patients with rotator cuff tear. J Shoulder  Elbow Surg. 2000 Jul -Aug;9(4):275- 8.
+L784| 84. Tokish J, Makovicka J. The Superior Capsular Reconstruction: Lessons Learned and Future Directions. J Am Acad Orthop Surg. 2020;28(13):528- 537. doi:10.5435/jaaos -d-19- 00057.
+L785| 85. Ueda Y, Sugaya H, Takahashi N, et al. Rotator Cuff Lesions in Patients with Stiff Shoulders: A Prospective Analysis of 379 Shoulders. J Bone Joint Surg Am . 2015;97:1233- 7.
+L786| 86. Venouziou AI, Kokkalis ZT, Sotereanos DG. Human dermal allograft interposition for the reconstruction of massive irreparable rot ator cuff tears. Am J Orthop . 2013;42(2):63- 70.
+L787| 87. Vitale  M, Ar ons R, Hurw itz S, et al. The Rising  Incidence o f Acromiopl asty. J. Bone J oint Surg . 2010;92(9) :1842-
+L788| 1850.
+L789| 88. Werner BC, Brockmeier SF, Miller MD. Etiology, Diagnosis, and Management of Failed SLAP Repair. J Am Acad
+L790| Orthop Surg. 2014;22(9):554- 565.
+L791| 89. Whittle S, Buchbinder R. In the Clinic: Rotator Cuff Disease. Ann Intern Med. 6 Jan 2015. ITC 1-ITC 15.
+L792| 90. Work L oss D ata Institut e. Shoulder  (acute and chronic). Corpus Christi (T X): Work L oss D ata Institut e; 2008.
+L793| 91. Wylie JD, Suter T, Potter MQ, et al. Mental Health Has a Stronger Association with Patient -Reported Shoulder
+L794| Pain and Function Than Tear Size in Patients with Full -Thickness Rotator Cuff Tears. J Bone Joint Surg Am .
+L795| 2016;98:251-6.
+L796| 92. Yapp L, Nicholson J, Robi nson C. Primary Arthroscopic Stabilization for a First -Time Anterior Dislocation of the
+L797| Shoulder.  J Bone Joint Surg. 2019;102(6):460-467. doi:10.2106/jbjs.19.00858.
+L798| Comprehensive Musculoskeletal Management Guidelines         V1.0.2023
+L799| ______________________________________________________________________________________________________
+L800| ©2023 eviCore healthcare. All Rights Reserved.
+L801| 400 Buckwalter Place Boulevard, Bluffton, SC 29910 (800) 918- 8924                             www.eviCore.com
+L802| Page 19 of 19

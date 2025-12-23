@@ -1,0 +1,38 @@
+{
+  "procedure_id": "synovectomy",
+  "category": "Shoulder (Evidence: pg no: 6, L201)",
+  "section_title": "Synovectomy (Evidence: pg no: 6, L201)",
+  "names": [
+    "Synovectomy (Evidence: pg no: 6, L201)",
+    "Partial Synovectomy (Evidence: pg no: 6, L203)",
+    "Complete Synovectomy (Evidence: pg no: 6, L203)"
+  ],
+  "description": "Partial or complete removal of synovial tissue for specific inflammatory or pathological conditions (Evidence: pg no: 6, L203-L234)",
+  "scope": "Partial or complete synovectomy (Evidence: pg no: 6, L203)",
+  "general_requirements": {
+    "documentation": [
+      "Function-limiting pain (Evidence: pg no: 6, L205-L207)",
+      "Individual demonstrates functionally limited range of motion (active or passive) on physical examination as compared to the non-involved side (Evidence: pg no: 6, L208-L209)",
+      "Failure of provider-directed non-surgical management for at least three (3) months in duration (Evidence: pg no: 6, L210-L211)",
+      "Advanced diagnostic imaging study (e.g., MRI, CT) demonstrates underlying pathology consistent with the individual's reported medical condition (Evidence: pg no: 6, L212-L214)",
+      "Presence of any ONE of the following: Inflammatory arthritis, Pigmented villonodular synovitis (PVNS), Synovial chondromatosis, Lyme synovitis, Hemophilia, Hemochromatosis, Non-specific synovitis, Recurrent hemarthrosis (Evidence: pg no: 6, L215-L231)",
+      "Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain, and advanced glenohumeral osteoarthritis (Evidence: pg no: 6, L232-L234)"
+    ]
+  },
+  "exclusions": [
+    "Any other indication or condition (Evidence: pg no: 6, L236-L237)"
+  ],
+  "codes": [
+    {
+      "code": "29820",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; synovectomy, partial (Evidence: pg no: 13, L560)"
+    },
+    {
+      "code": "29821",
+      "system": "CPT",
+      "description": "Arthroscopy, shoulder, surgical; synovectomy, complete (Evidence: pg no: 13, L561)"
+    }
+  ],
+  "notes": "Requires presence of specific underlying pathological conditions (Evidence: pg no: 6, L215)"
+}

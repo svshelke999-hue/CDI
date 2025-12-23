@@ -1,0 +1,24 @@
+{
+  "procedure_id": "unlisted_arthroscopy",
+  "category": "Shoulder (Evidence: pg no: 2, L86)",
+  "section_title": "Unlisted Arthroscopy Procedure (Evidence: pg no: 2, L86)",
+  "names": [
+    "Unlisted procedure, arthroscopy (Evidence: pg no: 2, L86)"
+  ],
+  "description": "Unlisted arthroscopic procedure not otherwise specified (Evidence: pg no: 2, L86)",
+  "scope": "Unlisted arthroscopic procedures (Evidence: pg no: 2, L86)",
+  "general_requirements": {
+    "documentation": [
+      "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [
+    {
+      "code": "29999",
+      "system": "CPT",
+      "description": "Unlisted procedure, arthroscopy (Evidence: pg no: 2, L86)"
+    }
+  ],
+  "notes": "Used for arthroscopic procedures not covered by other specific codes (Evidence: pg no: 2, L86)"
+}

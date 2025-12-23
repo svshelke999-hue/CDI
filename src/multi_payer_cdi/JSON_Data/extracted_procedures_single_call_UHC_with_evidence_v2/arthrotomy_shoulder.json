@@ -1,0 +1,18 @@
+{
+  "procedure_id": "arthrotomy_shoulder",
+  "category": "Shoulder (Evidence: pg no: 1, L31)",
+  "section_title": "Arthrotomy, Shoulder (Evidence: pg no: 1, L31)",
+  "names": [
+    "Arthrotomy, Shoulder (Evidence: pg no: 1, L31)"
+  ],
+  "description": "Open surgical procedure involving incision into the shoulder joint (Evidence: pg no: 1, L31)",
+  "scope": "Open surgical treatment of shoulder conditions (Evidence: pg no: 1, L31)",
+  "general_requirements": {
+    "documentation": [
+      "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+    ]
+  },
+  "exclusions": [],
+  "codes": [],
+  "notes": "Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)"
+}

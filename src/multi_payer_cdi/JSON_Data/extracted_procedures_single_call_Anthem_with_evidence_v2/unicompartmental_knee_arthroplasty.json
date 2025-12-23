@@ -1,0 +1,40 @@
+{
+  "procedure_id": "unicompartmental_knee_arthroplasty",
+  "category": "Knee (Evidence: pg no: 2, L73)",
+  "section_title": "Unicompartmental Knee Arthroplasty/Partial Knee Replacement (Evidence: pg no: 4, L180)",
+  "names": [
+    "Unicompartmental knee arthroplasty (Evidence: pg no: 2, L81)",
+    "UKA (Evidence: pg no: 2, L81)",
+    "Partial knee replacement (Evidence: pg no: 4, L181)",
+    "PKA (Evidence: pg no: 4, L181)"
+  ],
+  "description": "Elective medial or lateral unicompartmental knee arthroplasty/partial knee replacement (Evidence: pg no: 4, L181-L182)",
+  "scope": "Knee arthroplasty for single compartment (Evidence: pg no: 4, L181-L182)",
+  "general_requirements": {
+    "documentation": [
+      "Osteoarthritis isolated to the medial or lateral knee compartment with no degenerative changes in the opposite compartment (Evidence: pg no: 4, L183-L184)",
+      "Intact anterior cruciate ligament or documentation of stable knee examination (Evidence: pg no: 4, L185-L186)",
+      "Less than 10 degrees of fixed varus deformity for medial UKA (Evidence: pg no: 4, L187)",
+      "Less than 15 degrees of valgus deformity for lateral UKA (Evidence: pg no: 4, L188)",
+      "Failure of at least 3 months of non-surgical conservative treatments (Evidence: pg no: 4, L189-L191)"
+    ]
+  },
+  "exclusions": [
+    "Inflammatory arthritis (Evidence: pg no: 4, L194)",
+    "Moderate-to-severe degenerative changes of the lateral facet of the patellofemoral joint when considering medial compartment replacement (Kellgren-Lawrence grade 3 or 4) (Evidence: pg no: 4, L196-L197)",
+    "Anterior cruciate ligament deficiency (Evidence: pg no: 4, L198)",
+    "Flexion contracture greater than 15 degrees (Evidence: pg no: 4, L199)",
+    "Fixed varus deformity greater than 10 degrees (Evidence: pg no: 4, L200)",
+    "Fixed valgus deformity greater than 15 degrees (Evidence: pg no: 4, L201)",
+    "Flexion less than 110 degrees (Evidence: pg no: 4, L202)",
+    "Previous meniscectomy in another compartment (Evidence: pg no: 4, L203)"
+  ],
+  "codes": [
+    {
+      "code": "27446",
+      "system": "CPT",
+      "description": "Arthroplasty, knee, condyle and plateau; medial OR lateral compartment (Evidence: pg no: 7, L301)"
+    }
+  ],
+  "notes": "UKA may be done with concurrent ACL reconstruction if all other criteria are met (Evidence: pg no: 4, L185-L186)"
+}
