@@ -256,6 +256,55 @@ st.markdown(f"""
 """, unsafe_allow_html=True)
 
 
+def check_password():
+    """Returns `True` if the user had the correct password."""
+    
+    def password_entered():
+        """Checks whether a password entered by the user is correct."""
+        # Get password from Streamlit Secrets or use default
+        if hasattr(st, 'secrets') and 'APP_PASSWORD' in st.secrets:
+            correct_password = st.secrets['APP_PASSWORD']
+        else:
+            # Fallback to environment variable or default (for local development)
+            correct_password = os.getenv("APP_PASSWORD", "CDI2024Secure!")
+        
+        if st.session_state["password"] == correct_password:
+            st.session_state["password_correct"] = True
+            del st.session_state["password"]  # Don't store password in session state
+        else:
+            st.session_state["password_correct"] = False
+
+    if "password_correct" not in st.session_state:
+        # First run, show input for password
+        st.markdown("---")
+        st.markdown("### 🔒 Access Restricted")
+        st.markdown("This application requires authentication. Please enter the password to continue.")
+        st.text_input(
+            "Enter password", 
+            type="password", 
+            on_change=password_entered, 
+            key="password",
+            help="Contact the administrator for access credentials"
+        )
+        return False
+    elif not st.session_state["password_correct"]:
+        # Password not correct, show input + error
+        st.markdown("---")
+        st.markdown("### 🔒 Access Restricted")
+        st.error("😕 Password incorrect. Please try again.")
+        st.text_input(
+            "Enter password", 
+            type="password", 
+            on_change=password_entered, 
+            key="password",
+            help="Contact the administrator for access credentials"
+        )
+        return False
+    else:
+        # Password correct
+        return True
+
+
 def initialize_session_state():
     """Initialize session state variables."""
     if 'cdi_system' not in st.session_state:
@@ -3962,6 +4011,10 @@ def main():
     """Main Streamlit application."""
     # Initialize session state
     initialize_session_state()
+    
+    # Check password before showing any app content
+    if not check_password():
+        st.stop()  # Stop execution if password is incorrect
     
     # Header with optional logo
     header_cols = st.columns([0.08, 0.92])
