@@ -4036,6 +4036,10 @@ def main():
                             progress_bar.progress(100)
                             st.session_state.processing_result = result
                             st.session_state.file_processed = True
+                            # Clear previous chart improvement results when processing new file
+                            st.session_state.improved_chart_result = None
+                            st.session_state.original_chart_text = None
+                            st.session_state.user_input_fields = {}
 
                         st.markdown(
                             '<div style="background-color: #10b981; color: white; padding: 12px 20px; border-radius: 8px; font-weight: bold; font-size: 16px; text-align: center; margin: 10px 0;">Processing Done</div>',
@@ -4072,6 +4076,10 @@ def main():
                             progress_bar.progress(100)
                             st.session_state.processing_result = result
                             st.session_state.file_processed = True
+                            # Clear previous chart improvement results when processing new file
+                            st.session_state.improved_chart_result = None
+                            st.session_state.original_chart_text = None
+                            st.session_state.user_input_fields = {}
 
                         st.markdown(
                             '<div style="background-color: #10b981; color: white; padding: 12px 20px; border-radius: 8px; font-weight: bold; font-size: 16px; text-align: center; margin: 10px 0;">Processing Done</div>',
