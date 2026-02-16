@@ -218,65 +218,111 @@ class FileProcessor:
                         # Initialize EasyOCR reader (English only for now) - cache it to avoid re-initialization
                         if not hasattr(FileProcessor, '_easyocr_reader'):
                             print(f"[OCR] Initializing EasyOCR reader (this may take a moment on first use)...")
-                            FileProcessor._easyocr_reader = easyocr.Reader(['en'], gpu=False)  # Set gpu=True if you have CUDA
+                            try:
+                                FileProcessor._easyocr_reader = easyocr.Reader(['en'], gpu=False, verbose=False)
+                                print(f"[OCR] EasyOCR reader initialized successfully")
+                            except Exception as e:
+                                print(f"[OCR] Failed to initialize EasyOCR reader: {e}")
+                                raise
                         reader = FileProcessor._easyocr_reader
                         
                         # Convert PDF pages to images
                         images = []
-                        if HAS_TESSERACT:
+                        import numpy as np
+                        from PIL import Image
+                        
+                        # Method 1: Try pdf2image (requires poppler - may not work on Streamlit Cloud)
+                        if HAS_TESSERACT and convert_from_path:
                             try:
                                 images = convert_from_path(file_path, dpi=300)
+                                print(f"[OCR] pdf2image: Converted {len(images)} page(s) to images")
                             except Exception as e:
-                                print(f"[OCR] pdf2image conversion failed: {e}")
+                                print(f"[OCR] pdf2image conversion failed (poppler may not be installed): {e}")
                         
-                        # If pdf2image not available or failed, try alternative methods
+                        # Method 2: Use pdfplumber's image conversion (works better on Streamlit Cloud)
                         if not images and HAS_PDFPLUMBER:
                             try:
-                                # Use pdfplumber's image conversion
+                                print(f"[OCR] Using pdfplumber to convert PDF pages to images...")
                                 with pdfplumber.open(file_path) as pdf:
-                                    for page in pdf.pages:
+                                    for page_num, page in enumerate(pdf.pages, 1):
                                         try:
+                                            # Convert page to image using pdfplumber
                                             img = page.to_image(resolution=300)
-                                            # Convert PIL image to numpy array for EasyOCR
-                                            import numpy as np
-                                            from PIL import Image
+                                            
+                                            # Get PIL image
                                             if hasattr(img, 'original'):
                                                 pil_img = img.original
+                                            elif hasattr(img, 'pil'):
+                                                pil_img = img.pil
                                             else:
                                                 pil_img = img
-                                            # Convert PIL to numpy array
-                                            img_array = np.array(pil_img)
-                                            images.append(img_array)
+                                            
+                                            # Convert PIL to numpy array for EasyOCR
+                                            if isinstance(pil_img, Image.Image):
+                                                img_array = np.array(pil_img)
+                                                images.append(img_array)
+                                                print(f"[OCR] Page {page_num}: Converted to image successfully")
+                                            else:
+                                                print(f"[OCR] Page {page_num}: Could not convert to PIL image")
                                         except Exception as e:
-                                            print(f"[OCR] Page image conversion error: {e}")
+                                            print(f"[OCR] Page {page_num} image conversion error: {e}")
                             except Exception as e:
                                 print(f"[OCR] pdfplumber image conversion failed: {e}")
                         
+                        # Method 3: Try PyPDF2 + PIL fallback (last resort)
+                        if not images and PdfReader:
+                            try:
+                                print(f"[OCR] Trying PyPDF2 + PIL fallback method...")
+                                # This is a basic fallback - may not work for all PDFs
+                                reader_pdf = PdfReader(file_path)
+                                # Note: PyPDF2 doesn't have built-in image conversion
+                                # This would require additional libraries
+                                print(f"[OCR] PyPDF2 fallback not fully implemented")
+                            except Exception as e:
+                                print(f"[OCR] PyPDF2 fallback failed: {e}")
+                        
                         if not images:
-                            print(f"[OCR] Could not convert PDF to images. Install pdf2image: pip install pdf2image")
+                            error_msg = (
+                                f"[OCR] Could not convert PDF to images for OCR processing.\n"
+                                f"This is likely because:\n"
+                                f"1. The PDF is image-based but image conversion tools are not available\n"
+                                f"2. System dependencies (poppler) are not installed on Streamlit Cloud\n"
+                                f"3. The PDF structure is not supported\n\n"
+                                f"SOLUTION: Convert the scanned PDF to text format (.txt) before uploading:\n"
+                                f"- Use Adobe Acrobat: File > Export To > Text\n"
+                                f"- Use online OCR: Google Drive (upload PDF, right-click > Open with > Google Docs)\n"
+                                f"- Use online tools: SmallPDF, ILovePDF OCR feature"
+                            )
+                            print(error_msg)
+                            raise ValueError(error_msg)
                         else:
                             print(f"[OCR] Converted {len(images)} page(s) to images for EasyOCR")
                             
                             ocr_text_parts = []
                             for page_num, image in enumerate(images, 1):
                                 try:
+                                    print(f"[OCR] Processing page {page_num}/{len(images)} with EasyOCR...")
                                     # Perform OCR using EasyOCR
                                     # EasyOCR accepts numpy arrays or PIL images
-                                    results = reader.readtext(image)
+                                    results = reader.readtext(image, paragraph=False)
                                     page_text = "\n".join([result[1] for result in results])  # Extract text from results
                                     
                                     if page_text and len(page_text.strip()) > 10:
                                         ocr_text_parts.append(page_text)
                                         print(f"[OCR] Page {page_num}: Extracted {len(page_text)} characters using EasyOCR")
                                     else:
-                                        print(f"[OCR] Page {page_num}: Minimal text extracted using EasyOCR")
+                                        print(f"[OCR] Page {page_num}: Minimal text extracted using EasyOCR (may be blank or low quality)")
                                 except Exception as e:
                                     print(f"[OCR] Page {page_num} EasyOCR error: {e}")
+                                    import traceback
+                                    print(f"[OCR] Traceback: {traceback.format_exc()}")
                             
                             if ocr_text_parts:
                                 extracted_text = "\n".join(ocr_text_parts)
                                 extraction_method = "EasyOCR"
                                 print(f"[OCR] Successfully extracted {len(extracted_text)} characters using EasyOCR from {len(ocr_text_parts)} page(s)")
+                            else:
+                                print(f"[OCR] EasyOCR processed images but extracted no meaningful text")
                     except Exception as e:
                         print(f"[OCR] EasyOCR failed: {e}")
                         import traceback
