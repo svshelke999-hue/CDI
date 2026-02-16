@@ -266,7 +266,7 @@ def check_password():
             correct_password = st.secrets['APP_PASSWORD']
         else:
             # Fallback to environment variable or default (for local development)
-            correct_password = os.getenv("APP_PASSWORD", "CDI2024Secure!")
+            correct_password = os.getenv("APP_PASSWORD", "MyAscent11723")
         
         if st.session_state["password"] == correct_password:
             st.session_state["password_correct"] = True
