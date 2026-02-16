@@ -67,23 +67,43 @@ class Config:
     
     # JSON Guideline Data Paths (can be overridden with environment variables)
     # Use relative paths for cloud deployment compatibility
-    _project_root = Path(__file__).parent.parent.parent.parent
+    # For Streamlit Cloud: streamlit_app.py runs from project root, so os.getcwd() = project root
+    # For local: config.py is at src/multi_payer_cdi/config.py, so go up 3 levels
+    
+    # Method 1: Try current working directory (works for Streamlit Cloud)
+    _cwd_root = Path(os.getcwd())
+    _json_data_path_cwd = _cwd_root / "src" / "multi_payer_cdi" / "JSON_Data"
+    
+    # Method 2: Try relative to config.py file location (works for local development)
+    _config_file_path = Path(__file__).resolve()
+    _project_root_from_file = _config_file_path.parent.parent.parent
+    _json_data_path_file = _project_root_from_file / "src" / "multi_payer_cdi" / "JSON_Data"
+    
+    # Use whichever path exists, prefer cwd (Streamlit Cloud)
+    if _json_data_path_cwd.exists():
+        _base_path = _cwd_root
+    elif _json_data_path_file.exists():
+        _base_path = _project_root_from_file
+    else:
+        # Fallback to cwd
+        _base_path = _cwd_root
+    
     JSON_GUIDELINE_PATHS = {
         "anthem": os.getenv(
             "ANTHEM_JSON_PATH",
-            str(_project_root / "src" / "multi_payer_cdi" / "JSON_Data" / "extracted_procedures_single_call_Anthem_with_evidence_v2")
+            str(_base_path / "src" / "multi_payer_cdi" / "JSON_Data" / "extracted_procedures_single_call_Anthem_with_evidence_v2")
         ),
         "uhc": os.getenv(
             "UHC_JSON_PATH",
-            str(_project_root / "src" / "multi_payer_cdi" / "JSON_Data" / "extracted_procedures_single_call_UHC_with_evidence_v2")
+            str(_base_path / "src" / "multi_payer_cdi" / "JSON_Data" / "extracted_procedures_single_call_UHC_with_evidence_v2")
         ),
         "cigna": os.getenv(
             "CIGNA_JSON_PATH",
-            str(_project_root / "src" / "multi_payer_cdi" / "JSON_Data" / "extracted_procedures_single_call_cigna_with_evidence_v2")
+            str(_base_path / "src" / "multi_payer_cdi" / "JSON_Data" / "extracted_procedures_single_call_cigna_with_evidence_v2")
         ),
         "cms_general": os.getenv(
             "CMS_GENERAL_JSON_PATH",
-            str(_project_root / "src" / "multi_payer_cdi" / "JSON_Data" / "CMS_General_guidelines")
+            str(_base_path / "src" / "multi_payer_cdi" / "JSON_Data" / "CMS_General_guidelines")
         )
     }
     
