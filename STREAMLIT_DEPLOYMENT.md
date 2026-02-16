@@ -32,13 +32,15 @@ After deployment, you **MUST** add your AWS credentials in Streamlit Cloud Secre
 
 ```toml
 AWS_REGION = "us-east-1"
-AWS_ACCESS_KEY_ID = "AKIA52BMXS33YEJUA3M7"
-AWS_SECRET_ACCESS_KEY = "MfjNmG9OUSy3U5La6WBheGfsp+blaKskRn8rtDI5"
+AWS_ACCESS_KEY_ID = "YOUR_AWS_ACCESS_KEY_ID_HERE"
+AWS_SECRET_ACCESS_KEY = "YOUR_AWS_SECRET_ACCESS_KEY_HERE"
 CLAUDE_MODEL_ID = "us.anthropic.claude-3-7-sonnet-20250219-v1:0"
 ENABLE_PROMPT_CACHING = "true"
 DATA_SOURCE = "json"
 ENABLE_CACHE = "true"
 ```
+
+**Note:** Replace `YOUR_AWS_ACCESS_KEY_ID_HERE` and `YOUR_AWS_SECRET_ACCESS_KEY_HERE` with your actual AWS credentials. See `STREAMLIT_SECRETS_TEMPLATE.txt` for the actual values to use.
 
 5. Click **"Save"**
 
