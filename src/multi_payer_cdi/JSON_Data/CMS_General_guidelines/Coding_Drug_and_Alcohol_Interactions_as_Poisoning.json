@@ -1,0 +1,154 @@
+{
+  "guideline_id": "I.C.19.e.iv",
+  "semantic_title": "Coding Drug and Alcohol Interactions as Poisoning",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 19. Chapter 19: Injury, poisoning, and certain other consequences of external causes > e. Adverse Effects, Poisoning, Underdosing and Toxic Effects > (iv) Interaction of drug(s) and alcohol",
+  "page_number": 84,
+  "content": {
+    "full_text": "When a reaction results from the interaction of a drug(s) and alcohol, this would be classified as poisoning. See Section I.C.4. if poisoning is the result of insulin pump malfunctions. For Sequela (Late Effects) see Section I.B.10. (Evidence: pg no: 84, L6-L7)",
+    "summary": "Drug and alcohol interactions are classified as poisoning (Evidence: pg no: 84, L6-L7)",
+    "key_concepts": [
+      "Drug and alcohol interaction (Evidence: pg no: 84, L6)",
+      "Poisoning classification (Evidence: pg no: 84, L7)",
+      "Insulin pump malfunction exception (Evidence: pg no: 84, L7)",
+      "Sequela coding (Evidence: pg no: 84, L7)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "drug_alcohol_interaction_rule",
+        "rule_text": "When a reaction results from the interaction of a drug(s) and alcohol, this would be classified as poisoning (Evidence: pg no: 84, L6-L7)",
+        "explanation": "Any adverse reaction that occurs when drugs interact with alcohol must be coded as poisoning, regardless of whether the drug was properly prescribed (Evidence: pg no: 84, L6-L7)",
+        "importance": "critical",
+        "applies_to": "T36-T50 poisoning codes",
+        "common_applications": [
+          "Sedative interactions with alcohol",
+          "Anticoagulant interactions with alcohol",
+          "Pain medication interactions with alcohol"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify drug(s) involved in reaction",
+      "Step 2: Confirm alcohol consumption occurred",
+      "Step 3: Determine reaction resulted from drug-alcohol interaction",
+      "Step 4: Code as poisoning using appropriate T36-T50 code"
+    ],
+    "related_terminology": [
+      "Drug-alcohol interaction",
+      "Alcohol interaction",
+      "Poisoning",
+      "Drug reaction",
+      "Sequela"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "T36-T50",
+        "description": "Poisoning by, adverse effects of and underdosing of drugs, medicaments and biological substances (Evidence: pg no: 84, L6-L7)",
+        "requirement": "Use for drug-alcohol interactions",
+        "usage_rules": [
+          "Apply when reaction results from drug and alcohol interaction (Evidence: pg no: 84, L6-L7)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Poisoning codes for drug-alcohol interactions"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.4",
+        "title": "Insulin pump malfunction poisoning",
+        "relationship": "related_to",
+        "explanation": "Referenced for insulin pump malfunction cases (Evidence: pg no: 84, L7)"
+      },
+      {
+        "guideline_id": "I.B.10",
+        "title": "Sequela (Late Effects)",
+        "relationship": "applies_to",
+        "explanation": "Referenced for coding late effects of drug-alcohol poisoning (Evidence: pg no: 84, L7)"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "drug_alcohol_interaction_scenario",
+      "scenario": "Patient on prescribed benzodiazepine develops respiratory depression after consuming alcohol",
+      "documentation_example": "Patient taking prescribed lorazepam developed respiratory depression after drinking alcohol at dinner",
+      "step_by_step": [
+        "Step 1: Identify lorazepam as prescribed medication",
+        "Step 2: Identify alcohol consumption",
+        "Step 3: Recognize respiratory depression as result of drug-alcohol interaction",
+        "Step 4: Code as poisoning due to drug-alcohol interaction"
+      ],
+      "correct_coding": {
+        "primary_code": "T42.4X1A",
+        "secondary_codes": [
+          "J96.90"
+        ],
+        "sequencing": "Poisoning code first, followed by manifestation",
+        "rationale": "Drug-alcohol interactions are classified as poisoning (Evidence: pg no: 84, L6-L7)"
+      },
+      "incorrect_coding": {
+        "code": "T42.4X5A",
+        "codes": [
+          "T42.4X5A"
+        ],
+        "rationale": "Would be incorrect to use adverse effect code when alcohol is involved",
+        "common_mistake": "Coding as adverse effect instead of poisoning"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Always code drug-alcohol interactions as poisoning, not adverse effects (Evidence: pg no: 84, L6-L7)"
+    ],
+    "best_practices": [
+      "Document both drug and alcohol involvement clearly (Evidence: pg no: 84, L6-L7)"
+    ],
+    "common_mistakes": [
+      "Coding drug-alcohol interactions as adverse effects (Evidence: pg no: 84, L6-L7)"
+    ],
+    "tips": [
+      "Check for insulin pump malfunctions requiring different coding approach (Evidence: pg no: 84, L7)"
+    ],
+    "implementation_notes": [
+      "Requires documentation of both substances involved in interaction"
+    ],
+    "clinical_context": [
+      "Common with CNS depressants and alcohol",
+      "Frequent emergency department presentations"
+    ]
+  },
+  "search_keywords": [
+    "drug alcohol interaction",
+    "alcohol drug poisoning",
+    "drug alcohol reaction",
+    "alcohol interaction poisoning",
+    "substance interaction"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "poisoning_and_adverse_effects",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient",
+      "emergency"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "poisoning",
+      "alcohol_interaction",
+      "drug_interaction",
+      "T36-T50"
+    ]
+  },
+  "page_range_processed": "pages_84_to_87"
+}

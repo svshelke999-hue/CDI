@@ -1,0 +1,175 @@
+{
+  "guideline_id": "I.A.6",
+  "semantic_title": "Abbreviations in ICD-10-CM: NEC and NOS Usage in Alphabetic Index and Tabular List",
+  "section_path": "Section I > A. Conventions > 6. Abbreviations",
+  "page_number": 8,
+  "content": {
+    "full_text": "a. Alphabetic Index abbreviations: NEC 'Not elsewhere classifiable' - This abbreviation in the Alphabetic Index represents 'other specified.' When a specific code is not available for a condition, the Alphabetic Index directs the coder to the 'other specified' code in the Tabular List. NOS 'Not otherwise specified' - This abbreviation is the equivalent of unspecified. b. Tabular List abbreviations: NEC 'Not elsewhere classifiable' - This abbreviation in the Tabular List represents 'other specified'. When a specific code is not available for a condition, the Tabular List includes an NEC entry under a code to identify the code as the 'other specified' code. NOS 'Not otherwise specified' - This abbreviation is the equivalent of unspecified. (Evidence: pg no: 8, L38-L49)",
+    "summary": "Defines NEC and NOS abbreviations and their different applications in Alphabetic Index versus Tabular List (Evidence: pg no: 8, L38-L49)",
+    "key_concepts": [
+      "NEC means 'Not elsewhere classifiable' and represents 'other specified' (Evidence: pg no: 8, L40, L45)",
+      "NOS means 'Not otherwise specified' and is equivalent to unspecified (Evidence: pg no: 8, L43, L49)",
+      "NEC usage differs between Alphabetic Index and Tabular List (Evidence: pg no: 8, L40-L42, L45-L48)",
+      "NOS usage is consistent in both Index and Tabular List (Evidence: pg no: 8, L43, L49)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.A.6.R1",
+        "rule_text": "NEC in the Alphabetic Index directs the coder to the 'other specified' code in the Tabular List (Evidence: pg no: 8, L40-L42)",
+        "explanation": "When NEC appears in the Alphabetic Index, it indicates that a specific code exists for 'other specified' conditions in that category (Evidence: pg no: 8, L40-L42)",
+        "importance": "high",
+        "applies_to": "other_specified_codes",
+        "common_applications": [
+          "Conditions with specific details not covered by existing codes",
+          "Directing to appropriate 'other specified' categories"
+        ]
+      },
+      {
+        "rule_id": "I.A.6.R2",
+        "rule_text": "NEC in the Tabular List identifies the code as the 'other specified' code (Evidence: pg no: 8, L45-L48)",
+        "explanation": "When NEC appears in the Tabular List, it marks that particular code as the 'other specified' option for that category (Evidence: pg no: 8, L45-L48)",
+        "importance": "high",
+        "applies_to": "other_specified_codes",
+        "common_applications": [
+          "Identifying 'other specified' codes in Tabular List",
+          "Code selection for documented but non-specific conditions"
+        ]
+      },
+      {
+        "rule_id": "I.A.6.R3",
+        "rule_text": "NOS is the equivalent of unspecified in both Index and Tabular List (Evidence: pg no: 8, L43, L49)",
+        "explanation": "NOS consistently indicates unspecified conditions regardless of whether it appears in the Index or Tabular List (Evidence: pg no: 8, L43, L49)",
+        "importance": "high",
+        "applies_to": "unspecified_codes",
+        "common_applications": [
+          "Conditions lacking sufficient detail for specific coding",
+          "Default coding when specificity is unavailable"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify if abbreviation is NEC or NOS",
+      "Step 2: Determine if found in Alphabetic Index or Tabular List",
+      "Step 3: Apply appropriate interpretation (other specified vs unspecified)",
+      "Step 4: Select corresponding code based on abbreviation meaning"
+    ],
+    "related_terminology": [
+      "NEC (Not elsewhere classifiable)",
+      "NOS (Not otherwise specified)",
+      "Other specified",
+      "Unspecified",
+      "Alphabetic Index",
+      "Tabular List"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Other specified codes (NEC)",
+      "Unspecified codes (NOS)"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.A.9",
+        "title": "Other and Unspecified codes",
+        "relationship": "related_to",
+        "explanation": "Expands on other and unspecified code usage"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "I.A.6.S1",
+      "scenario": "Using NEC abbreviation for other specified condition",
+      "documentation_example": "Patient has a rare form of pneumonia not specifically listed in ICD-10-CM",
+      "step_by_step": [
+        "Step 1: Look up 'pneumonia' in Alphabetic Index",
+        "Step 2: Find entry with NEC notation",
+        "Step 3: Follow to 'other specified' code in Tabular List",
+        "Step 4: Verify code represents 'other specified pneumonia'"
+      ],
+      "correct_coding": {
+        "primary_code": "Use other specified code",
+        "secondary_codes": [],
+        "sequencing": "Primary diagnosis",
+        "rationale": "NEC directs to other specified code when specific condition is documented but no specific code exists (Evidence: pg no: 8, L40-L42)"
+      },
+      "incorrect_coding": {
+        "code": "Unspecified pneumonia code",
+        "codes": [],
+        "rationale": "Should use other specified, not unspecified, when condition is documented",
+        "common_mistake": "Confusing NEC (other specified) with NOS (unspecified)"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "I.A.6.E1",
+      "scenario": "NEC vs NOS abbreviation usage",
+      "code_example": "NEC vs NOS",
+      "breakdown": {
+        "NEC": "Not elsewhere classifiable = other specified (Evidence: pg no: 8, L40, L45)",
+        "NOS": "Not otherwise specified = unspecified (Evidence: pg no: 8, L43, L49)"
+      },
+      "rationale": "Different abbreviations indicate different levels of specificity in documentation (Evidence: pg no: 8, L40-L49)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not confuse NEC (other specified) with NOS (unspecified) (Evidence: pg no: 8, L40-L49)",
+      "NEC usage differs between Index and Tabular List (Evidence: pg no: 8, L40-L42, L45-L48)"
+    ],
+    "best_practices": [
+      "Use NEC codes when condition is specified but no exact code exists",
+      "Use NOS codes when documentation lacks specificity",
+      "Check both Index and Tabular List for abbreviation context"
+    ],
+    "common_mistakes": [
+      "Using unspecified codes when other specified is appropriate",
+      "Misinterpreting NEC abbreviations",
+      "Not following NEC directions from Index to Tabular List"
+    ],
+    "tips": [
+      "NEC = documented but not specifically coded",
+      "NOS = not documented with sufficient detail"
+    ],
+    "implementation_notes": [
+      "Abbreviation interpretation affects code specificity"
+    ],
+    "clinical_context": [
+      "Reflects level of clinical documentation detail available"
+    ]
+  },
+  "search_keywords": [
+    "NEC abbreviation",
+    "NOS abbreviation",
+    "not elsewhere classifiable",
+    "not otherwise specified",
+    "other specified",
+    "unspecified",
+    "abbreviations"
+  ],
+  "metadata": {
+    "category": "convention",
+    "subcategory": "abbreviations",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "October 1, 2025",
+    "tags": [
+      "abbreviations",
+      "NEC",
+      "NOS",
+      "other_specified",
+      "unspecified"
+    ]
+  },
+  "page_range_processed": "pages_7_to_9"
+}

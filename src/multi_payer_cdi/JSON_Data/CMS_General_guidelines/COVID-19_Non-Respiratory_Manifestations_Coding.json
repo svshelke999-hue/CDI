@@ -1,0 +1,163 @@
+{
+  "guideline_id": "I.C.1.g.1.d",
+  "semantic_title": "COVID-19 Non-Respiratory Manifestations Coding",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 1. Certain Infectious and Parasitic Diseases > g. Coronavirus infections > 1) COVID-19 infection > (d) Non-respiratory manifestations of COVID-19",
+  "page_number": 30,
+  "content": {
+    "full_text": "When the reason for the encounter/admission is a non-respiratory manifestation (e.g., viral enteritis) of COVID-19, assign code U07.1, COVID-19, as the principal/first-listed diagnosis and assign code(s) for the manifestation(s) as additional diagnoses. (Evidence: pg no: 30, L80-L83)",
+    "summary": "Guidelines for coding COVID-19 when the primary reason for encounter is a non-respiratory manifestation (Evidence: pg no: 30, L80-L83)",
+    "key_concepts": [
+      "Non-respiratory manifestation as reason for encounter (Evidence: pg no: 30, L81)",
+      "U07.1 as principal diagnosis (Evidence: pg no: 30, L82)",
+      "Manifestation codes as additional diagnoses (Evidence: pg no: 30, L83)",
+      "Example of viral enteritis (Evidence: pg no: 30, L81)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "COVID_NONRESP_001",
+        "rule_text": "U07.1 as principal diagnosis for non-respiratory manifestations (Evidence: pg no: 30, L82)",
+        "explanation": "When non-respiratory manifestation is the reason for encounter, COVID-19 should be sequenced first with manifestation codes as additional (Evidence: pg no: 30, L81-L83)",
+        "importance": "high",
+        "applies_to": "U07.1 and non-respiratory manifestation codes",
+        "common_applications": [
+          "COVID-19 with viral enteritis",
+          "COVID-19 with neurological manifestations",
+          "COVID-19 with cardiac manifestations"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify non-respiratory manifestation as reason for encounter",
+      "Step 2: Assign U07.1 as principal diagnosis",
+      "Step 3: Assign appropriate manifestation code(s) as additional diagnoses"
+    ],
+    "related_terminology": [
+      "Non-respiratory manifestations",
+      "Principal diagnosis",
+      "Viral enteritis",
+      "Additional diagnoses"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "U07.1",
+        "description": "COVID-19 (Evidence: pg no: 30, L82)",
+        "context": "Principal diagnosis for non-respiratory manifestations",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "U07": "Emergency use codes for COVID-19",
+          "1": "COVID-19"
+        }
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": "U07.1 + non-respiratory manifestation code",
+        "description": "Standard pattern for COVID-19 non-respiratory manifestations (Evidence: pg no: 30, L81-L83)",
+        "example": "U07.1 + viral enteritis code",
+        "explanation": "COVID-19 sequenced first, non-respiratory manifestation second"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Non-respiratory manifestation codes",
+      "Viral enteritis codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "COVID_NONRESP_SC001",
+      "scenario": "Patient admitted with COVID-19 viral enteritis",
+      "documentation_example": "Patient admitted with viral enteritis due to COVID-19",
+      "step_by_step": [
+        "Step 1: Identify viral enteritis as non-respiratory manifestation",
+        "Step 2: Assign U07.1 as principal diagnosis",
+        "Step 3: Assign appropriate enteritis code as additional diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "U07.1",
+        "secondary_codes": [
+          "K59.1"
+        ],
+        "sequencing": "COVID-19 first, enteritis second",
+        "rationale": "Non-respiratory manifestation requires U07.1 first, then specific manifestation code (Evidence: pg no: 30, L81-L83)"
+      },
+      "incorrect_coding": {
+        "code": "K59.1",
+        "codes": [
+          "K59.1"
+        ],
+        "rationale": "Missing COVID-19 code",
+        "common_mistake": "Coding only the manifestation without COVID-19"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "COVID_NONRESP_EX001",
+      "scenario": "COVID-19 viral enteritis",
+      "code_example": "U07.1 + enteritis code",
+      "breakdown": {
+        "U07.1": "COVID-19 as principal diagnosis (Evidence: pg no: 30, L82)",
+        "enteritis_code": "Appropriate code for viral enteritis manifestation (Evidence: pg no: 30, L81)"
+      },
+      "rationale": "Standard approach for non-respiratory COVID-19 manifestations (Evidence: pg no: 30, L81-L83)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [],
+    "best_practices": [
+      "Always sequence U07.1 first for non-respiratory manifestations",
+      "Use specific manifestation codes based on documentation",
+      "Consider all body systems that can be affected by COVID-19"
+    ],
+    "common_mistakes": [
+      "Coding only the manifestation without COVID-19",
+      "Incorrect sequencing of codes"
+    ],
+    "tips": [
+      "COVID-19 can affect multiple body systems beyond respiratory",
+      "Look for gastrointestinal, neurological, and cardiac manifestations",
+      "Principal diagnosis rules still apply"
+    ],
+    "implementation_notes": [
+      "Parallel structure to respiratory manifestations guideline",
+      "Applies to all non-respiratory COVID-19 effects"
+    ],
+    "clinical_context": [
+      "COVID-19 is a multi-system disease",
+      "Non-respiratory manifestations are increasingly recognized"
+    ]
+  },
+  "search_keywords": [
+    "COVID-19 non-respiratory",
+    "COVID enteritis",
+    "COVID manifestations",
+    "U07.1",
+    "viral enteritis",
+    "non-respiratory"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "infectious_diseases",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "COVID-19",
+      "non_respiratory_manifestations",
+      "viral_enteritis",
+      "multi_system"
+    ]
+  },
+  "page_range_processed": "pages_27_to_30"
+}

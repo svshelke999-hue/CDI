@@ -1,0 +1,148 @@
+{
+  "guideline_id": "I.C.20.i",
+  "semantic_title": "Sequelae (Late Effects) of External Cause Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 20. Chapter 20: External Causes of Morbidity > i. Sequelae (Late Effects) of External Cause Guidelines",
+  "page_number": 91,
+  "content": {
+    "full_text": "Sequelae (Late Effects) of External Cause Guidelines cover the use of external cause codes with 7th character 'S' for sequela, their relationship with current injuries, and appropriate use for subsequent visits. (Evidence: pg no: 91, L28-L36)",
+    "summary": "Guidelines for coding sequelae of external causes using 7th character 'S' and proper sequencing rules (Evidence: pg no: 91, L28-L36)",
+    "key_concepts": [
+      "Sequelae use 7th character 'S' (Evidence: pg no: 91, L30)",
+      "Used for late effects of previous injuries (Evidence: pg no: 91, L31)",
+      "Never used with related current injury codes (Evidence: pg no: 91, L33)",
+      "Specific rules for subsequent visits (Evidence: pg no: 91, L34-L36)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "sequela_seventh_character",
+        "rule_text": "Sequela are reported using external cause code with 7th character 'S' (Evidence: pg no: 91, L30)",
+        "explanation": "When coding late effects or sequelae of previous injuries, use the appropriate external cause code with the 7th character 'S' to indicate sequela (Evidence: pg no: 91, L30-L31)",
+        "importance": "critical",
+        "applies_to": "sequela external cause codes",
+        "common_applications": [
+          "Late effects of previous injuries",
+          "Chronic conditions resulting from past trauma"
+        ]
+      },
+      {
+        "rule_id": "sequela_current_injury_prohibition",
+        "rule_text": "Never use sequela external cause code with related current nature of injury code (Evidence: pg no: 91, L33)",
+        "explanation": "A sequela external cause code should not be used simultaneously with a current injury code for the same condition (Evidence: pg no: 91, L33)",
+        "importance": "critical",
+        "applies_to": "sequela external cause codes",
+        "common_applications": [
+          "Avoiding duplicate coding",
+          "Proper sequencing of codes"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify if condition is a late effect of previous injury",
+      "Step 2: Use external cause code with 7th character 'S'",
+      "Step 3: Ensure no current injury code for same condition is used",
+      "Step 4: Apply appropriate subsequent visit rules"
+    ],
+    "related_terminology": [
+      "Sequelae",
+      "Late effects",
+      "7th character",
+      "Previous injury",
+      "Subsequent visits"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "External cause code with 7th character 'S'",
+        "description": "Pattern for sequela external cause codes (Evidence: pg no: 91, L30)",
+        "example": "External cause code ending in 'S'",
+        "explanation": "The 'S' indicates this is a sequela or late effect code"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Sequela external cause codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.B.10",
+        "title": "Sequela (Late Effects)",
+        "relationship": "references",
+        "explanation": "References general sequela guidelines"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "late_effect_treatment",
+      "scenario": "Patient being treated for chronic pain resulting from previous motor vehicle accident",
+      "documentation_example": "Chronic back pain, sequela of motor vehicle accident 2 years ago",
+      "step_by_step": [
+        "Step 1: Identify this as a late effect of previous injury",
+        "Step 2: Use appropriate external cause code with 7th character 'S'",
+        "Step 3: Do not use current injury codes",
+        "Step 4: Code the current condition being treated"
+      ],
+      "correct_coding": {
+        "primary_code": "Chronic pain code",
+        "secondary_codes": [
+          "External cause code with 7th character 'S'"
+        ],
+        "sequencing": "Current condition first, then sequela external cause",
+        "rationale": "Treating late effect of previous injury (Evidence: pg no: 91, L30-L31)"
+      },
+      "incorrect_coding": {
+        "code": "Current injury code with sequela external cause",
+        "codes": [],
+        "rationale": "Cannot use sequela external cause with current injury code for same condition",
+        "common_mistake": "Using both current and sequela codes for same condition"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Never use sequela external cause code with related current injury code (Evidence: pg no: 91, L33)"
+    ],
+    "best_practices": [
+      "Use 7th character 'S' for all sequela external cause codes (Evidence: pg no: 91, L30)",
+      "Apply to any late effect or sequela of previous injury (Evidence: pg no: 91, L31)"
+    ],
+    "common_mistakes": [
+      "Using sequela codes with current injury codes for same condition (Evidence: pg no: 91, L33)"
+    ],
+    "tips": [
+      "Reference Section I.B.10 for general sequela guidelines (Evidence: pg no: 91, L31)"
+    ],
+    "implementation_notes": [],
+    "clinical_context": []
+  },
+  "search_keywords": [
+    "sequelae",
+    "late effects",
+    "7th character S",
+    "external cause sequela",
+    "previous injury"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "external_causes",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "external_causes",
+      "sequelae",
+      "late_effects",
+      "seventh_character"
+    ]
+  },
+  "page_range_processed": "pages_90_to_93"
+}

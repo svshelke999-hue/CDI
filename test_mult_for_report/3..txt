@@ -1,0 +1,135 @@
+L001: GREENWICH HOSPITAL- ORTHOPEDIC ADMISSION HISTORY & PHYSICAL
+L002: 
+L003: Service: Orthopedics
+L004: Filed: 10/9/2025 3:35 PM
+L005: 
+L006: Author Type: Physician
+L007: Status: Signed
+L008: 
+L009: Patient name: Marianne Hegedus
+L010: MRN: MR598089
+L011: Date of birth: 7/6/1944
+L012: Date of visit: 10/8/2025
+L013: Admitting Attending: Dr. Kevin Choo, MD
+L014: 
+L015: [AI ADDED: CHIEF COMPLAINT]
+L016: Right hip pain and inability to bear weight after a fall.
+L017: 
+L018: HISTORY OF PRESENT ILLNESS:
+L019: Patient is an 81 y.o. female who suffered a mechanical fall this evening while at dinner and was transported to the GH ED for evaluation of right hip pain and inability to bear weight. Patient denies any head, neck or back injury. There was no reported loss of consciousness or near syncope. Patient denies any chest pain, dizziness or light headedness prior to the fall. Pain worse with any ROM of RLE. Patient is at their baseline mental status.
+L020: 
+L021: [AI ADDED: DIAGNOSIS]
+L022: Right intertrochanteric femur fracture, comminuted and displaced [⚠️ PHYSICIAN INPUT REQUIRED: specific fracture classification (e.g., AO/OTA classification)]
+L023: 
+L024: PAST MEDICAL HISTORY:
+L025: * Diabetes mellitus [AI ADDED: Type 2] [⚠️ PHYSICIAN INPUT REQUIRED: duration, control status (HbA1c if available)]
+L026: * Hypertension [⚠️ PHYSICIAN INPUT REQUIRED: duration, control status]
+L027: * Vasculitis [⚠️ PHYSICIAN INPUT REQUIRED: type of vasculitis, duration, current status]
+L028: 
+L029: PAST SURGICAL HISTORY:
+L030: * Appendectomy [⚠️ PHYSICIAN INPUT REQUIRED: approximate year]
+L031: 
+L032: SOCIAL HISTORY:
+L033: * Marital status: Divorced
+L034: * Smoking status: Never
+L035: * Alcohol use: Yes [⚠️ PHYSICIAN INPUT REQUIRED: frequency and amount]
+L036: * Drug use: Not Currently
+L037: * Sexual activity: Not Currently
+L038: 
+L039: [AI ADDED: FUNCTIONAL STATUS]
+L040: [⚠️ PHYSICIAN INPUT REQUIRED: pre-injury ambulatory status, use of assistive devices, independence with activities of daily living]
+L041: 
+L042: [AI ADDED: LIVING SITUATION]
+L043: Housing Stability: Patient reports having a steady place to live
+L044: 
+L045: MEDICATIONS:
+L046: Current Facility-Administered Medications:
+L047: * amLODIPine (NORVASC) tablet 10 mg, Oral, Nightly
+L048: * bisacodyL (DULCOLAX) EC tablet 10 mg, Oral, DAILY PRN
+L049: * bisacodyL (DULCOLAX) suppository 10 mg, Rectal, DAILY PRN
+L050: * dextrose (GLUCOSE) oral liquid 15 g, Oral, Q15 MIN PRN **OR** fruit juice 120 mL, Oral, Q15 MIN PRN
+L051: * dextrose (GLUCOSE) oral liquid 30 g, Oral, Q15 MIN PRN **OR** fruit juice 240 mL, Oral, Q15 MIN PRN
+L052: * dextrose 10% injection 125 mL, 12.5 g, Intravenous, Q15 MIN PRN
+L053: * dextrose 10% injection 250 mL, 25 g, Intravenous, Q15 MIN PRN
+L054: * donepezil (ARICEPT ODT) disintegrating tablet 10 mg, Oral, Nightly
+L055: * glucagon 1 mg in water for injection, sterile 1 mL (1 mg/mL), Intramuscular, Once PRN
+L056: * insulin degludec (TRESIBA) injection 4 Units, Subcutaneous, Daily
+L057: * insulin degludec (TRESIBA) injection 7 Units, Subcutaneous, Nightly
+L058: * insulin regular human (HumuLIN R, NovoLIN R) Correction Scale 1-6 Units, Subcutaneous, Q6H
+L059: * [START ON 10/10/2025] losartan (COZAAR) tablet 100 mg, Oral, Daily
+L060: * morphine syringe 1 mg, IV Push, Q2H PRN
+L061: * morphine syringe 2 mg, IV Push, Q2H PRN
+L062: * ondansetron (PF) (ZOFRAN) injection 4 mg, IV Push, Q6H PRN
+L063: * ondansetron (ZOFRAN-ODT) disintegrating tablet 4 mg, Translingual, Q6H PRN
+L064: * oxyCODONE (ROXICODONE) Immediate Release tablet 2.5 mg, Oral, Q3H PRN
+L065: * oxyCODONE (ROXICODONE) Immediate Release tablet 5 mg, Oral, Q3H PRN
+L066: * polyethylene glycol (MIRALAX) packet 17 g, Oral, Daily
+L067: * senna (SENOKOT) tablet 17.2 mg, 2 tablet, Oral, Nightly
+L068: * sodium chloride 0.9 % flush 3 mL, IV Push, PRN for Line Care
+L069: * sodium chloride 0.9 % flush 3 mL, IV Push, Q8H
+L070: * sodium chloride 0.9 % flush 3 mL, IV Push, PRN for Line Care
+L071: * sodium chloride 0.9% infusion, 50 mL/hr, Intravenous, Continuous
+L072: 
+L073: ALLERGIES:
+L074: Patient has no known allergies.
+L075: 
+L076: REVIEW OF SYSTEMS:
+L077: Constitutional: Negative for fever or chills
+L078: HEENT: Negative for sore throat
+L079: Neck: Negative for neck pain
+L080: Lungs: Negative for shortness of breath
+L081: Heart: Negative for chest pain
+L082: Abdomen: Negative for abdominal pain, nausea, vomiting or diarrhea
+L083: GU: Negative for dysuria
+L084: Musculoskeletal: Right hip pain, inability to bear weight
+L085: Neurologic: Negative for numbness, tingling, dizziness, or weakness
+L086: Skin: Negative for abrasion or laceration
+L087: Lymph: Negative for bruises/bleeds easily
+L088: 
+L089: VITAL SIGNS:
+L090: BP: 132/68 (10/09/25)
+L091: Pulse: 83 (10/09/25)
+L092: Resp: 18 (10/09/25)
+L093: Temp: 98.3 °F (36.8 °C) (Axillary) (10/09/25)
+L094: SpO2: 99% (10/09/25)
+L095: 
+L096: PHYSICAL EXAM:
+L097: General: Awake, alert, NAD, mental status at baseline
+L098: Head: NC/AT
+L099: ENT: Atraumatic. Moist mucous membranes
+L100: Neck: Trachea Midline. No vertebral tenderness
+L101: Heart: Regular rate [⚠️ PHYSICIAN INPUT REQUIRED: rhythm, murmurs, gallops, rubs]
+L102: Lungs: Non labored [⚠️ PHYSICIAN INPUT REQUIRED: breath sounds, wheezes, rales, rhonchi]
+L103: Abdomen: Soft, non-distended [⚠️ PHYSICIAN INPUT REQUIRED: bowel sounds, tenderness, organomegaly]
+L104: Pelvis: Stable, non-tender to palpation, no crepitus
+L105: Right hip: Shortened and externally rotated [⚠️ PHYSICIAN INPUT REQUIRED: detailed examination findings including pain with passive/active movement, neurovascular status of affected limb]
+L106: [⚠️ PHYSICIAN INPUT REQUIRED: examination of contralateral hip for comparison]
+L107: 
+L108: [AI ADDED: DIAGNOSTIC STUDIES]
+L109: [⚠️ PHYSICIAN INPUT REQUIRED: imaging studies performed, findings, and interpretation]
+L110: 
+L111: [AI ADDED: ASSESSMENT]
+L112: . Right intertrochanteric femur fracture, comminuted and displaced [⚠️ PHYSICIAN INPUT REQUIRED: specific fracture classification]
+L113: . Type 2 Diabetes mellitus [⚠️ PHYSICIAN INPUT REQUIRED: controlled vs uncontrolled, current HbA1c if available]
+L114: . Hypertension [⚠️ PHYSICIAN INPUT REQUIRED: controlled vs uncontrolled]
+L115: . Vasculitis [⚠️ PHYSICIAN INPUT REQUIRED: type, current status]
+L116: 
+L117: [AI ADDED: PLAN]
+L118: . Admit to orthopedic service
+L119: . Surgical intervention: Right hip open reduction internal fixation (ORIF) [⚠️ PHYSICIAN INPUT REQUIRED: specific surgical plan, timing, implant considerations]
+L120: . Perioperative management:
+L121:    - DVT prophylaxis [⚠️ PHYSICIAN INPUT REQUIRED: specific agent, dosing]
+L122:    - Pain management [⚠️ PHYSICIAN INPUT REQUIRED: specific regimen]
+L123:    - Diabetes management [⚠️ PHYSICIAN INPUT REQUIRED: specific plan]
+L124:    - Hypertension management [⚠️ PHYSICIAN INPUT REQUIRED: specific plan]
+L125: . Physical therapy evaluation and treatment [⚠️ PHYSICIAN INPUT REQUIRED: specific goals, weight-bearing status post-surgery]
+L126: . Discharge planning [⚠️ PHYSICIAN INPUT REQUIRED: anticipated disposition, rehabilitation needs]
+L127: 
+L128: [AI ADDED: MEDICAL NECESSITY DOCUMENTATION]
+L129: Surgical intervention is medically necessary due to the presence of a displaced right intertrochanteric femur fracture causing severe pain, functional limitation, and inability to bear weight. Conservative management is not appropriate for this type of fracture due to high risk of displacement, nonunion, and complications from prolonged immobilization in an elderly patient. Surgical fixation will allow for earlier mobilization, reduced pain, and improved functional outcomes.
+L130: 
+L131: [⚠️ PHYSICIAN INPUT REQUIRED: risk-benefit discussion with patient/family, including surgical risks, anesthesia risks, and expected outcomes]
+L132: 
+L133: [AI ADDED: INFORMED CONSENT]
+L134: [⚠️ PHYSICIAN INPUT REQUIRED: documentation of informed consent discussion, including risks, benefits, alternatives, and patient's understanding and agreement]
+L135: 

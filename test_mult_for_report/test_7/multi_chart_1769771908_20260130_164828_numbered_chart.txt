@@ -1,0 +1,529 @@
+L001: 
+L002: 
+L003: === CHART: tmpfjw0wxz0.pdf (Type: admission_note) ===
+L004: 10/10/25, 12:05 PM Hegedus, Marianne (MR # MR598089) DOB: 07/06/1944
+L005: 
+L006: H&P by Choo, Kevin, MD filed on 10/9/2025 3:35 PM.
+L007: 
+L008: Author: Choo, Kevin, MD
+L009: 
+L010: Date of Service: 10/9/2025
+L011: 
+L012: Editor: Choo, Kevin, MD (Physician)
+L013: GREENWICH HOSPITAL- ORTHOPEDIC ADMISSION HISTORY & PHYSICAL
+L014: 
+L015: Service: Orthopedics
+L016: Filed: 10/9/2025 3:35 PM
+L017: 
+L018: Author Type: Physician
+L019: Status: Signed
+L020: 
+L021: Patient name: Marianne Hegedus
+L022: 
+L023: MRN: MR598089
+L024: 
+L025: Date of birth: 7/6/1944
+L026: 
+L027: Date of visit: 10/8/2025
+L028: 
+L029: Admitting Attending: Dr. Kevin Choo, MD
+L030: 
+L031: History of Present Illness:
+L032: 
+L033: Patien is a 81 y.o. female who suffered a mechanical fall this evening while at dinner and was transported
+L034: to the GH ED for evaluation of right hip pain and inability to bear weight. Patient denies any head, neck or
+L035: back injury. There was no reported loss of consciousness or near syncope. Patient denies any chest pain,
+L036: dizziness or light headedness prior to the fall. Pain worse with any ROM of RLE. Patient is at their
+L037: baseline mental status.
+L038: 
+L039: Past Medical History:
+L040: Past Medical History
+L041: Past Medical History:
+L042: Diagnosis
+L043: 
+L044: * Diabetes mellitus (HC CODE)
+L045: 
+L046: * Hypertension
+L047: 
+L048: * Vasculitis (HC Code)
+L049: Past Surgical History
+L050: Past Surgical History:
+L051: Procedure
+L052: 
+L053: ¢ APPENDECTOMY
+L054: 
+L055: Date
+L056: 
+L057: Laterality Date
+L058: 
+L059: Social History:
+L060: Social History
+L061: 
+L062: Socioeconomic History
+L063: 
+L064: * Marital status: Divorced
+L065: Spouse name: Not on file
+L066: 
+L067: * Number of children: Not on file
+L068: 
+L069: * Years of education: Not on file
+L070: 
+L071: * Highest education level: Not on file
+L072: Occupational History
+L073: 
+L074: * Not on file
+L075: Tobacco Use
+L076: 
+L077: * Smoking status: Never
+L078: 
+L079: * Smokeless tobacco: Not on file
+L080: Substance and Sexual Activity
+L081: 
+L082: ¢ Alcohol use: Yes
+L083: 
+L084: * Drug use: Not Currently
+L085: 
+L086: * Sexual activity: Not Currently
+L087: Other Topics Concern
+L088: 
+L089: * Not on file
+L090: Social History Narrative
+L091: 
+L092: * Not on file
+L093: 
+L094: Social Drivers of Health
+L095: 
+L096: Financial Resource Strain: Not on file
+L097: Food Insecurity: No Food Insecurity (10/8/2025)
+L098: 
+L099: Hunger Vital Sign
+L100: 
+L101: Hegedus, Marianne (MRN MR5980839) Printed by Stagno, Cesarina [767] at 10/10/2025 12:05 PM
+L102: 
+L103: 1/5
+L104: 
+L105: 10/10/25, 12:05 PM Hegedus, Marianne (MR # MR598089) DOB: 07/06/1944
+L106: 
+L107: * Worried About Running Out of Food in the Last Year: Never true
+L108: * Ran Out of Food in the Last Year: Never true
+L109: Transportation Needs: No Transportation Needs (10/8/2025)
+L110: PRAPARE - Transportation
+L111: * Lack of Transportation (Medical): No
+L112: * Lack of Transportation (Non-Medical): No
+L113: Physical Activity: Not on file
+L114: Stress: Not on file
+L115: Social Connections: Not on file
+L116: Intimate Partner Violence: Not on file
+L117: Housing Stability: Low Risk (10/8/2025)
+L118: Housing Stability
+L119: * Housing Stability: | have a steady place to live
+L120: * Housing Stability: Not on file
+L121: 
+L122: Medications:
+L123: Current Medications
+L124: 
+L125: Current Facility-Administered Medications:
+L126: 
+L127: * amLODIPine (NORVASC) tablet 10 mg, 10 mg, Oral, Nightly, Hearle, Brianna, PA
+L128: 
+L129: * bisacodyL (DULCOLAX) EC tablet 10 mg, 10 mg, Oral, DAILY PRN, Sullivan, Hope Tiezzi, PA
+L130: 
+L131: * bisacodyL (DULCOLAX) suppository 10 mg, 10 mg, Rectal, DAILY PRN, Hearle, Brianna, PA
+L132: 
+L133: * dextrose (GLUCOSE) oral liquid 15 g, 15 g, Oral, Q15 MIN PRN **OR** fruit juice 120 mL, 120 mL, Oral,
+L134: Q15 MIN PRN, Hearle, Brianna, PA
+L135: 
+L136: * dextrose (GLUCOSE) oral liquid 30 g, 30 g, Oral, Q15 MIN PRN **OR** fruit juice 240 mL, 240 mL, Oral,
+L137: Q15 MIN PRN, Hearle, Brianna, PA
+L138: 
+L139: * dextrose 10% injection 125 mL, 12.5 g, Intravenous, Q15 MIN PRN, Hearle, Brianna, PA
+L140: 
+L141: * dextrose 10% injection 250 mL, 25 g, Intravenous, Q15 MIN PRN, Hearle, Brianna, PA
+L142: 
+L143: * donepezil (ARICEPT ODT) disintegrating tablet 10 mg, 10 mg, Oral, Nightly, Hearle, Brianna, PA
+L144: 
+L145: * glucagon 1 mg in water for injection, sterile 1 mL (1 mg/mL), 1 mg, Intramuscular, Once PRN, Hearle,
+L146: Brianna, PA
+L147: 
+L148: * insulin degludec (TRESIBA) injection 4 Units, 4 Units, Subcutaneous, Daily, Sullivan, Hope Tiezzi, PA, 4
+L149: Units at 10/09/25 0940
+L150: 
+L151: * insulin degludec (TRESIBA) injection 7 Units, 7 Units, Subcutaneous, Nightly, Sullivan, Hope Tiezzi, PA
+L152: * insulin regular human (HumuLIN R, NovoLIN R) Correction Scale 1-6 Units, 1-6 Units, Subcutaneous,
+L153: Q6H, Hearle, Brianna, PA, 3 Units at 10/09/25 1141
+L154: 
+L155: * [START ON 10/10/2025] losartan (COZAAR) tablet 100 mg, 100 mg, Oral, Daily, Garcia Tuyama,
+L156: Rodrigo, MD
+L157: 
+L158: * morphine syringe 1 mg, 1 mg, IV Push, Q2H PRN, Hearle, Brianna, PA
+L159: 
+L160: * morphine syringe 2 mg, 2 mg, IV Push, Q2H PRN, Hearle, Brianna, PA, 2 mg at 10/09/25 1422
+L161: 
+L162: * ondansetron (PF) (ZOFRAN) injection 4 mg, 4 mg, IV Push, Q6H PRN, Hearle, Brianna, PA
+L163: 
+L164: * ondansetron (ZOFRAN-ODT) disintegrating tablet 4 mg, 4 mg, Translingual, Q6H PRN, Hearle, Brianna,
+L165: PA
+L166: 
+L167: * oxyCODONE (ROXICODONE) Immediate Release tablet 2.5 mg, 2.5 mg, Oral, Q3H PRN, Hearle,
+L168: Brianna, PA
+L169: 
+L170: * oxyCODONE (ROXICODONE) Immediate Release tablet 5 mg, 5 mg, Oral, Q3H PRN, Hearle, Brianna,
+L171: PA, 5 mg at 10/09/25 0939
+L172: 
+L173: polyethylene glycol (MIRALAX) packet 17 g, 17 g, Oral, Daily, Hearle, Brianna, PA
+L174: 
+L175: senna (SENOKOT) tablet 17.2 mg, 2 tablet, Oral, Nightly, Hearle, Brianna, PA
+L176: 
+L177: sodium chloride 0.9 % flush 3 mL, 3 mL, IV Push, PRN for Line Care, Oh, Edwin, MD
+L178: 
+L179: sodium chloride 0.9 % flush 3 mL, 3 mL, IV Push, Q8H, Hearle, Brianna, PA
+L180: 
+L181: sodium chloride 0.9 % flush 3 mL, 3 mL, IV Push, PRN for Line Care, Hearle, Brianna, PA
+L182: 
+L183: sodium chloride 0.9% infusion, 50 mL/hr, Intravenous, Continuous, Garcia Tuyama, Rodrigo, MD, Last
+L184: Rate: 50 mL/hr at 10/09/25 1136, 50 mL/hr at 10/09/25 1136
+L185: 
+L186: Allergies:
+L187: Patient has no known allergies.
+L188: 
+L189: Review of Systems:
+L190: Constitutional: Neg for fever or chills
+L191: 
+L192: Hegedus, Marianne (MRN MR5980839) Printed by Stagno, Cesarina [767] at 10/10/2025 12:05 PM 2/5
+L193: 
+L194: 10/10/25, 12:05 PM Hegedus, Marianne (MR # MR598089) DOB: 07/06/1944
+L195: 
+L196: HEENT: Neg for sore throat
+L197: 
+L198: Neck: Neg for neck pain
+L199: 
+L200: Lungs: Neg for shortness of breath
+L201: 
+L202: Heart: Neg for chest pain
+L203: 
+L204: Abdomen: Neg for abdominal pain, nausea, vomiting or diarrhea
+L205: GU: Neg for dysuria
+L206: 
+L207: Musculoskeletal: right hip pain, inability to bear weight
+L208: Neurologic: Neg for numbness, tingling, dizziness, or weakness
+L209: Skin: Neg for abrasion or laceration
+L210: 
+L211: Lymph: Neg for bruises/bleeds easily
+L212: 
+L213: Vitals:
+L214: BP Readings from Last 1 Encounters:
+L215: 10/09/25 132/68
+L216: 
+L217: Pulse Readings from Last 1 Encounters:
+L218: 10/09/25 83
+L219: 
+L220: Resp Readings from Last 1 Encounters:
+L221: 10/09/25 18
+L222: 
+L223: Temp Readings from Last 1 Encounters:
+L224: 10/09/25 98.3 °F (36.8 °C) (Axillary)
+L225: 
+L226: SpO2 Readings from Last 1 Encounters:
+L227: 10/09/25 99%
+L228: 
+L229: Physical Exam:
+L230: General:
+L231: Awake, alert, NAD, mental status at baseline
+L232: Head:
+L233: NC/AT.
+L234: ENT:
+L235: Atraumatic. Moist mucous membranes.
+L236: Neck:
+L237: Trachea Midline. No vertebral tenderness
+L238: Heart:
+L239: Regular rate
+L240: Lungs:
+L241: Non labored
+L242: Abdomen:
+L243: Soft, non-distended
+L244: Pelvis:
+L245: Stable, non-tender to palpation, no crepitus
+L246: Right hip:
+L247: Shortened and externally rotated
+L248: Tenderness to palpation over the proximal femur
+L249: Tibialis anterior, gastrocnemius, extensor hallucis longus and flexor hallucis longus intact
+L250: Unable to straight leg raise due to pain
+L251: Pain with any attempted passive hip flexion/extension or internal/external rotation
+L252: No ecchymosis
+L253: 2+ DP/PT pulses
+L254: 
+L255: Distal NVI
+L256: Skin:
+L257: 
+L258: Intact. No Erythema
+L259: Imaging:
+L260: 
+L261: Results of imaging independently reviewed by me are:
+L262: 
+L263: Hegedus, Marianne (MRN MR5980839) Printed by Stagno, Cesarina [767] at 10/10/2025 12:05 PM
+L264: 
+L265: 10/10/25, 12:05 PM Hegedus, Marianne (MR # MR598089) DOB: 07/06/1944
+L266: 
+L267: CT Lumbar Spine wo IV Contrast
+L268: Result Date: 10/8/2025
+L269: 
+L270: Degenerative change of the lumbar spine without acute fracture Radiology Notify System Classification:
+L271: Routine. Individual dose optimization technique was used for the performance of this procedure, and one
+L272: or more of the following dose reduction techniques was used: Automated exposure control and/or
+L273: adjustment of the MA and/or kV according to patient size and/or the use of iterative reconstruction
+L274: 
+L275: technique. Reported and signed by: Linda LaTrenta, MD
+L276: 
+L277: XR Chest PA or AP
+L278: Result Date: 10/8/2025
+L279: 
+L280: Limited study without evidence of active pleural or parenchymal disease. Radiology Notify System
+L281: 
+L282: Classification: Routine. Reported and signed by: Linda LaTrenta, MD
+L283: 
+L284: Hip 2V Right
+L285: Result Date: 10/8/2025
+L286: 
+L287: Comminuted intertrochanteric fracture of the right hip with intact mid to distal femur. Radiology Notify
+L288: 
+L289: System Classification: Urgent result. Reported and signed by: Linda LaTrenta, MD
+L290: 
+L291: Labs:
+L292: 
+L293: Lab Results
+L294: 
+L295: Component Value
+L296: WBC 8.2
+L297: HGB 11.9
+L298: HCT 33.90 (L)
+L299: MCV 88.3
+L300: PLT 333
+L301: 
+L302: Lab Results
+L303: 
+L304: Component Value
+L305: BUN 16
+L306: 
+L307: Lab Results
+L308: 
+L309: Component Value
+L310: CREATININE 0.74
+L311: 
+L312: Lab Results
+L313: 
+L314: Component Value
+L315: NA 128 (L)
+L316: K 4.5
+L317: CL 91 (L)
+L318: CO2 24
+L319: 
+L320: Lab Results
+L321: 
+L322: Component Value
+L323: INR 0.97
+L324: INR 0.93
+L325: 
+L326: CrCl cannot be calculated (Unknown ideal weight.).
+L327: 
+L328: MRSA swab: pending
+L329: 
+L330: EKG: NSR, Left bundle branch block, HR 80, unchanged from prior EKG 10/9/24
+L331: 
+L332: Hegedus, Marianne (MRN MR5980839) Printed by Stagno, Cesarina [767] at 10/10/2025 12:05 PM
+L333: 
+L334: Date
+L335: 
+L336: 10/09/2025
+L337: 10/09/2025
+L338: 10/09/2025
+L339: 10/09/2025
+L340: 10/09/2025
+L341: 
+L342: Date
+L343: 10/09/2025
+L344: 
+L345: Date
+L346: 10/09/2025
+L347: 
+L348: Date
+L349: 
+L350: 10/09/2025
+L351: 10/09/2025
+L352: 10/09/2025
+L353: 10/09/2025
+L354: 
+L355: Date
+L356: 10/08/2025
+L357: 04/19/2022
+L358: 
+L359: 4/5
+L360: 
+L361: 10/10/25, 12:05 PM Hegedus, Marianne (MR # MR598089) DOB: 07/06/1944
+L362: Code Status: Full Code - discussed with patient and her son
+L363: 
+L364: Has patient received >/ 7,500u HSQ in the last 24 hours? No
+L365: Assessment:
+L366: 81 y.o. female with a right hip fracture status post mechanical fall.
+L367: 
+L368: Plan:
+L369: 
+L370: A careful discussion of the risks and benefits of the surgery was held with the patient including infection, bleeding,
+L371: damage to neurovascular structures and potential for continued pain, continued weakness, worsening pain and
+L372: 
+L373: worsening weakness, stiffness, stability, limb length discrepancy, fracture, infection and the need for revision surgery
+L374: 
+L375: in the future, DVT prophylaxis and the risks for anesthetic complications and pulmonary complications and even
+L376: death. The patient expressed an understanding of these risks and the patient wished to proceed with surgery.
+L377: 
+L378: Discussed the injury pattern, expected outcomes and r/b/a of surgical and non surgical management.
+L379: Given that she is independently mobilizing, we discussed that non operative management would be
+L380: 
+L381: inappropriate. Surgical fixation would entail right hip ORIF
+L382: 
+L383: Plan for Right hip open reduction internal fixation
+L384: 
+L385: Kevin Choo, MD
+L386: 
+L387: Electronically signed by Choo, Kevin, MD at 10/9/2025 3:35 PM
+L388: 
+L389: ED to Hosp-Admission (Current) on 10/8/2025 = Note shared with patient
+L390: 
+L391: Routing History
+L392: 
+L393: Priority Sent On From To
+L394: 
+L395: t 10/8/2025 9:49PM Edi, Rad Results In O'Brien, Jessica, PA
+L396: 
+L397: t 10/8/2025 9:07 PM Edi, Rad Results In O'Brien, Jessica, PA
+L398: 
+L399: t 10/8/2025 7:29 PM Edi, Rad Results In Davison, Christopher, MD
+L400: 
+L401: Hegedus, Marianne (MRN MR5980839) Printed by Stagno, Cesarina [767] at 10/10/2025 12:05 PM
+L402: 
+L403: Message Type
+L404: Results
+L405: 
+L406: Results
+L407: Results
+L408: 
+L409: 5/5
+L410: === END CHART: tmpfjw0wxz0.pdf ===
+L411: 
+L412: 
+L413: === CHART: tmpd59q3a_y.pdf (Type: other) ===
+L414: 2032891261 10/10/2025 11:50:41 AM PAGE 1/003 Fax 5erver 
+L415: Yale 
+L416: New Haven 
+L417: Health 
+L418:   
+L419:   
+L420:   
+L421:   Date: 10/10/2025 11:50:22 AM Pages inc. Gover 
+L422: To: Kevin Choo, MD Company: 
+L423: Fax: 475-277-8607 Phone: 
+L424: From: = Kevin Choo, MD 
+L425: Fax: Phone:   
+L426: Email: = rfax@yhnn.org   
+L427:   
+L428: Comments: 
+L429:   
+L430: This faxed information is intended only for the use of the individual or entity to which it is addressed and contains information 
+L431: that is confidential. Furthermore, this information may be protected by Federal law relating to confidentiality (42 CFR Part 2) 
+L432: prohibiting any further disclosure. If the reader of this message is not the intended recipient or the employee or agent 
+L433: responsible for delivering this message to the intended recipient, you are hereby notified that any review, dissemination, 
+L434: distribution, or copying of the communication is strictly prohibited. If you have received this communication in error, please notify 
+L435: us immediately by telephone and destroy the original message. Thank you.  
+L436: 
+L437: 2032891261 10/10/2025 11:50:41 AM PAGE 2/003 Fax 5erver 
+L438: Hegedus, Marianne (MRN MR598089) 
+L439: Operative Note by Choo, Kevin, MD at 10/9/2025 5:19 PM 
+L440: Author: Choo, Kevin, MD Service: Orthopedics 
+L441: Filed: 10/10/2025 11:50 AM Date of Service: 10/9/2025 5:19 PM 
+L442: Editor: Choo, Kevin, MD (Physician) 
+L443: Related Notes: Original Note by Choo, Kevin, MD (Physician) filed at 10/9/2025 5:21 PM Page 1 of 2 
+L444:   
+L445: Author Type: Physician 
+L446: Status: Addendum 
+L447: Orthopedic Surgery Operative Report 
+L448: Patient Name: Marianne Hegedus 
+L449: Date of Procedure: 10/09/25 
+L450: Location: Greenwich Hospital 
+L451: MRN: MR598089 
+L452: Procedure: Right hip open reduction internal fixation 
+L453: Preliminary Diagnosis: Right Intertrochanteric Femur Fracture, displaced 
+L454: Postoperative Diagnosis: Right Intertrochanteric Femur Fracture, displaced 
+L455: Surgeon: Dr. Kevin J Choo 
+L456: First Assist: None 
+L457: Anesthesia Staff: ANESTHESIOLOGIST: Sygall, Paul, MD 
+L458: CRNA: Ober-Adams, Colleen, CRNA 
+L459: Anesthesia Type: Spinal 
+L460: Specimens: 
+L461: * No specimens in log * 
+L462: Estimated Blood Loss: 
+L463:           150mL 
+L464: Implants: 
+L465: i { Narne achurer Ler LAS 
+L466: No. 
+L467: NAIL IM 130D Implant NAIL IM 130D ARTHREX 43001 Right 1 Implanted 
+L468: FEMORAL T1 FEMORAL TI 07609 
+L469: 1OMMX20CM - 10MMX20CM 
+L470: LOG3459031 
+L471: Telescoping Lag 15455 Right 1 Implanted 
+L472: SOTEW a snsnusunpnnnntnnaneppnnrvnannavnannngasgngapnananee i 
+L473: SCREW DISTAL _ Implant SCREW ARTHREX 15452 Right 1 Implanted 
+L474: CORTICAL DISTAL 718 
+L475: CAPTURED TI CORTICAL 
+L476: 5.0X36MM - CAPTURED TI 
+L477: LOG3459031 5.0X36MM 
+L478: Arthex Nail 
+L479: 10mm short 130 degree nail 
+L480: 95mm lab screw 
+L481: 36mm interlocking screw 
+L482: Indication: 
+L483: The patient is a 81 y.o. female who was brought to Greenwich Hospital Emergency Department after a mechanical fall 
+L484: after which the patient was unable to bear weight. X rays in the emergency room demonstrated evidence of a displaced 
+L485: femoral fracture. Given the nature of the injury, a discussion regarding the risks associated with and the alternatives to 
+L486: surgery were discussed. This discussion included the potential complications of deep venous thrombosis, infection, nerve 
+L487: or blood vessel injury, ligament injury, dislocation, leg length discrepancy, fracture, mal- or non-union, and incomplete 
+L488: resolution of pain, the patient wished to proceed with open reduction and intramedullary nailing of the femur.
+L489: 
+L490: 2032891261 10/10/2025 11:50:41 AM PAGE 3/003 Fax 5erver 
+L491: Hegedus, Marianne (MRN MR598089) Page 2 of 2 
+L492: Operative Note by Choo, Kevin, MD at 10/9/2025 5:19 PM (continued)   
+L493: Procedure: 
+L494: The patient was brought to the Operating Room and after the successful induction of spinal anesthesia, a closed 
+L495: reduction was performed. Flouroscopy was used to confirm that the reduction was within acceptable parameters. The 
+L496: lower extremity was then prepped and draped in the usual sterile manner with the patient in the supine position on the 
+L497: fracture table. Prophylactic antibiotics were administered within 30 minutes prior to the procedure as well as 1 gram of 
+L498: tranexamic acid. A time out was performed by all members of the surgical team confirming patient identity and surgical 
+L499: site laterality. 
+L500: A lateral incision was made proximal to, and in-line with, the femur. The entry guidewire was then advanced onto the 
+L501: appropriate start site on the greater trochanter. This was confirmed with intraoperative flouroscopy on both the AP and 
+L502: lateral views. The guidewire was then advanced with power into the intramedullary canal. Again flouroscopy was used to 
+L503: confirm that the entry guidewire was in the appropriate position. The entry reamer was then used through the soft tissue 
+L504: protector canula. Flouroscopy was used to confirm appropriate position of the entry reamer within the intramedullary canal 
+L505: and that it had been advanced to a sufficient depth. The reamer and entry guidewire were then removed. 
+L506: The nail was then carefully advanced over the guidewire. During advancement of the nail, all reduction maneuvers were 
+L507: employed to maintain the reduction during insertion of the nail. Flouroscopy was again used to confirm that the nail had 
+L508: been advanced to the appropriate depth. The long guidewire was then removed. An incision was made over the lateral 
+L509: aspect of the thigh and the cannula for the lag screw was advanced until it made contact with the lateral cortical bone. 
+L510: Using flouroscopic guidance, the guidewire for the lag screw was then inserted and confirmed to be in appropriate position 
+L511: with the guidwire center-center on AP and lateral views of the femoral head. The depth of the guidewire was then 
+L512: measured and the 95 mm lag screw selected. The guidewire was then overdrilled and tapped for the screw of the 
+L513: appropriate depth. The lag screw was then inserted to the appropriate depth which again confirmed using flouroscopy. 
+L514: We then turned our attention to insertion of the distal interlocking screw. A small incision was made over the lateral thigh 
+L515: in line with the cannula for the distal interlocking screw. The cannula was then advanced through the incision and down to 
+L516: bone. The drill was then carefully advanced and the depth of the interlocking screw measured off of the drill. The screw of 
+L517: appropriate length was then inserted. Flouroscopy was again used to confirm that the screws were in appropriate position. 
+L518: The wounds were then copiously irrigated. The fascia was closed with interrupted 0 vicryl suture. The deep subcutaneous 
+L519: layers were closed with interrupted 0 vicryl and the dermal layer with 3-0 vicryl. The skin was then closed with staples. 
+L520: Sterile dressings were then applied and the patient was awaken from anesthesia. The patient was transferred to the 
+L521: recovery room in stable condition. All sponge and instrument counts were correct. 
+L522: Postop Plan 
+L523: The patient will be WBAT (protected weight bearing with a walker). DVT prophylaxis will be started with aspirin starting 
+L524: POD1 additional DVT prophylaxis will include SCDs, compression stockings, progressive mobilization. They will receive 
+L525: 24 hours of postoperative antibiotics. The patient will be discharged from the hospital when they are medically stable, 
+L526: have met all PT goals, and their pain is well controlled with oral analgesia. 
+L527: Kevin Choo, MD
+L528: === END CHART: tmpd59q3a_y.pdf ===
+L529: 

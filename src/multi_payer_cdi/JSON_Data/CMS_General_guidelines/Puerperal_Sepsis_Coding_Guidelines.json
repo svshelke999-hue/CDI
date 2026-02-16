@@ -1,0 +1,222 @@
+{
+  "guideline_id": "I.C.15.k",
+  "semantic_title": "Puerperal Sepsis Coding Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 15. Pregnancy, Childbirth, and the Puerperium > k. Puerperal sepsis",
+  "page_number": 68,
+  "content": {
+    "full_text": "Code O85, Puerperal sepsis, should be assigned with a secondary code to identify the causal organism (e.g., for a bacterial infection, assign a code from category B95-B96, Bacterial infections in conditions classified elsewhere). A code from category A40, Streptococcal sepsis, or A41, Other sepsis, should not be used for puerperal sepsis. If applicable, use additional codes to identify severe sepsis (R65.2-) and any associated acute organ dysfunction. Code O85 should not be assigned for sepsis following an obstetrical procedure (See Section I.C.1.d.5.b., Sepsis due to a postprocedural infection). (Evidence: pg no: 68, L43-L49)",
+    "summary": "Specific coding guidelines for puerperal sepsis including organism identification, code exclusions, and procedure-related sepsis distinctions (Evidence: pg no: 68, L43-L49)",
+    "key_concepts": [
+      "O85 requires secondary organism code (Evidence: pg no: 68, L43-L44)",
+      "A40 and A41 codes excluded for puerperal sepsis (Evidence: pg no: 68, L44-L45)",
+      "Severe sepsis coding applies (Evidence: pg no: 68, L45)",
+      "Postprocedural sepsis coded differently (Evidence: pg no: 68, L48-L49)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "puerperal_sepsis_organism",
+        "rule_text": "O85 should be assigned with secondary code to identify causal organism (Evidence: pg no: 68, L43-L44)",
+        "explanation": "Puerperal sepsis requires identification of the causative organism using appropriate infection codes (Evidence: pg no: 68, L43-L44)",
+        "importance": "critical",
+        "applies_to": "O85, B95-B96",
+        "common_applications": [
+          "Bacterial puerperal sepsis",
+          "Other organism puerperal sepsis"
+        ]
+      },
+      {
+        "rule_id": "puerperal_sepsis_exclusions",
+        "rule_text": "A40 and A41 codes should not be used for puerperal sepsis (Evidence: pg no: 68, L44-L45)",
+        "explanation": "General sepsis codes are excluded when coding puerperal sepsis - use O85 instead (Evidence: pg no: 68, L44-L45)",
+        "importance": "critical",
+        "applies_to": "A40, A41, O85",
+        "common_applications": [
+          "Streptococcal puerperal sepsis",
+          "Other puerperal sepsis"
+        ]
+      },
+      {
+        "rule_id": "puerperal_postprocedural_exclusion",
+        "rule_text": "O85 should not be assigned for sepsis following obstetrical procedure (Evidence: pg no: 68, L48-L49)",
+        "explanation": "Sepsis following obstetrical procedures should be coded as postprocedural infection, not puerperal sepsis (Evidence: pg no: 68, L48-L49)",
+        "importance": "critical",
+        "applies_to": "O85",
+        "common_applications": [
+          "Post-cesarean sepsis",
+          "Post-delivery procedure sepsis"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Confirm puerperal sepsis (not postprocedural)",
+      "Step 2: Assign O85 as primary code",
+      "Step 3: Add organism identification code (B95-B96 for bacterial)",
+      "Step 4: Add R65.2 if severe sepsis present",
+      "Step 5: Add organ dysfunction codes if applicable"
+    ],
+    "related_terminology": [
+      "puerperal sepsis",
+      "causal organism",
+      "postprocedural sepsis",
+      "bacterial infections"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "B95-B96",
+        "description": "Bacterial infections in conditions classified elsewhere (Evidence: pg no: 68, L44)",
+        "requirement": "Use for bacterial organism identification",
+        "usage_rules": [
+          "Secondary to O85 for bacterial puerperal sepsis (Evidence: pg no: 68, L43-L44)"
+        ]
+      },
+      {
+        "range": "A40",
+        "description": "Streptococcal sepsis (Evidence: pg no: 68, L44)",
+        "requirement": "Do not use for puerperal sepsis",
+        "usage_rules": [
+          "Excluded for puerperal sepsis coding (Evidence: pg no: 68, L44-L45)"
+        ]
+      },
+      {
+        "range": "A41",
+        "description": "Other sepsis (Evidence: pg no: 68, L44-L45)",
+        "requirement": "Do not use for puerperal sepsis",
+        "usage_rules": [
+          "Excluded for puerperal sepsis coding (Evidence: pg no: 68, L44-L45)"
+        ]
+      },
+      {
+        "range": "R65.2-",
+        "description": "Severe sepsis codes (Evidence: pg no: 68, L45)",
+        "requirement": "Use if severe sepsis present",
+        "usage_rules": [
+          "Additional code for severe puerperal sepsis (Evidence: pg no: 68, L45)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "O85",
+        "description": "Puerperal sepsis (Evidence: pg no: 68, L43)",
+        "context": "Primary code for puerperal sepsis",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "O": "Pregnancy, childbirth and the puerperium",
+          "85": "Puerperal sepsis"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Category A40 - Streptococcal sepsis",
+      "Category A41 - Other sepsis",
+      "Category B95-B96 - Bacterial infections in conditions classified elsewhere"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.1.d.5.b",
+        "title": "Sepsis due to a postprocedural infection",
+        "relationship": "related_to",
+        "explanation": "Referenced for coding sepsis following obstetrical procedures"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "puerperal_sepsis_strep",
+      "scenario": "Patient with puerperal sepsis due to Group B Streptococcus",
+      "documentation_example": "32-year-old female, 5 days postpartum, with puerperal sepsis due to Group B Streptococcus",
+      "step_by_step": [
+        "Step 1: Identify puerperal sepsis (not postprocedural)",
+        "Step 2: Assign O85 for puerperal sepsis",
+        "Step 3: Add B95.1 for Group B Streptococcus",
+        "Step 4: Do not use A40.1 (excluded for puerperal sepsis)"
+      ],
+      "correct_coding": {
+        "primary_code": "O85",
+        "secondary_codes": [
+          "B95.1"
+        ],
+        "sequencing": "O85 first, then organism code",
+        "rationale": "Puerperal sepsis requires O85 with organism identification, not general sepsis codes (Evidence: pg no: 68, L43-L45)"
+      },
+      "incorrect_coding": {
+        "codes": [
+          "A40.1",
+          "B95.1"
+        ],
+        "rationale": "A40 codes should not be used for puerperal sepsis",
+        "common_mistake": "Using general sepsis codes instead of O85"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "bacterial_organism_coding",
+      "scenario": "Bacterial puerperal sepsis organism identification",
+      "code_example": "O85 + B95.x",
+      "breakdown": {
+        "O85": "Puerperal sepsis primary code (Evidence: pg no: 68, L43)",
+        "B95.x": "Bacterial organism identification (Evidence: pg no: 68, L44)"
+      },
+      "rationale": "Dual coding required for complete puerperal sepsis documentation (Evidence: pg no: 68, L43-L44)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not use A40 or A41 codes for puerperal sepsis (Evidence: pg no: 68, L44-L45)",
+      "Do not use O85 for postprocedural sepsis (Evidence: pg no: 68, L48-L49)"
+    ],
+    "best_practices": [
+      "Always identify causative organism with secondary code (Evidence: pg no: 68, L43-L44)",
+      "Add severe sepsis and organ dysfunction codes when applicable (Evidence: pg no: 68, L45)"
+    ],
+    "common_mistakes": [
+      "Using A40/A41 instead of O85",
+      "Missing organism identification codes",
+      "Using O85 for postprocedural sepsis"
+    ],
+    "tips": [
+      "Puerperal sepsis has specific coding rules different from general sepsis",
+      "Always check if sepsis is postprocedural vs. puerperal"
+    ],
+    "implementation_notes": [
+      "Applies only to sepsis in puerperium, not procedure-related"
+    ],
+    "clinical_context": [
+      "Puerperal sepsis occurs in postpartum period",
+      "Different from sepsis following obstetrical procedures"
+    ]
+  },
+  "search_keywords": [
+    "puerperal sepsis",
+    "O85",
+    "postpartum sepsis",
+    "bacterial infections",
+    "B95-B96",
+    "A40 exclusion",
+    "A41 exclusion"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "pregnancy_complications",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "puerperal_sepsis",
+      "organism_identification",
+      "code_exclusions",
+      "postpartum"
+    ]
+  },
+  "page_range_processed": "pages_66_to_69"
+}

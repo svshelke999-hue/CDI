@@ -1,0 +1,213 @@
+{
+  "guideline_id": "I.C.21.c.3.m",
+  "semantic_title": "Status Post tPA Administration (Z92.82) - Transfer Facility Coding Requirements",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 21. Factors Influencing Health Status > c. Categories of Z Codes > 3) Status",
+  "page_number": 95,
+  "content": {
+    "full_text": "Assign code Z92.82, Status post administration of tPA (rtPA) in a different facility within the last 24 hours prior to admission to current facility, as a secondary diagnosis when a patient is received by transfer into a facility and documentation indicates they were administered tissue plasminogen activator (tPA) within the last 24 hours prior to admission to the current facility. This guideline applies even if the patient is still receiving the tPA at the time they are received into the current facility. The appropriate code for the condition for which the tPA was administered (such as cerebrovascular disease or myocardial infarction) should be assigned first. Code Z92.82 is only applicable to the receiving facility record and not to the transferring facility record. (Evidence: pg no: 95, L75-L80)",
+    "summary": "Z92.82 assigned as secondary diagnosis at receiving facility when patient received tPA within 24 hours at different facility, with primary condition coded first (Evidence: pg no: 95, L75-L80)",
+    "key_concepts": [
+      "Transfer patient with tPA history (Evidence: pg no: 95, L76)",
+      "24-hour timeframe (Evidence: pg no: 95, L75, L78)",
+      "Secondary diagnosis usage (Evidence: pg no: 95, L75)",
+      "Different facility administration (Evidence: pg no: 95, L75)",
+      "Receiving facility only (Evidence: pg no: 95, L80)",
+      "Primary condition coded first (Evidence: pg no: 95, L79-L80)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "TPA_TRANSFER",
+        "rule_text": "Use as secondary diagnosis for transfer patients who received tPA within 24 hours (Evidence: pg no: 95, L75-L76)",
+        "explanation": "Z92.82 should be assigned as secondary diagnosis when patient is transferred and received tPA within 24 hours at different facility (Evidence: pg no: 95, L75-L76)",
+        "importance": "critical",
+        "applies_to": "Z92.82",
+        "common_applications": [
+          "Stroke patient transfers",
+          "MI patient transfers",
+          "Emergency transfers"
+        ]
+      },
+      {
+        "rule_id": "TPA_ONGOING",
+        "rule_text": "Applies even if patient still receiving tPA at transfer (Evidence: pg no: 95, L78-L79)",
+        "explanation": "The guideline applies even when patient is still receiving tPA infusion at time of transfer to current facility (Evidence: pg no: 95, L78-L79)",
+        "importance": "high",
+        "applies_to": "Z92.82",
+        "common_applications": [
+          "Ongoing tPA infusions",
+          "Active treatment transfers"
+        ]
+      },
+      {
+        "rule_id": "TPA_PRIMARY_FIRST",
+        "rule_text": "Code primary condition first, then Z92.82 (Evidence: pg no: 95, L79-L80)",
+        "explanation": "The condition for which tPA was given (stroke, MI) should be coded first, followed by Z92.82 as secondary (Evidence: pg no: 95, L79-L80)",
+        "importance": "critical",
+        "applies_to": "Z92.82",
+        "common_applications": [
+          "Cerebrovascular disease",
+          "Myocardial infarction",
+          "Thromboembolic conditions"
+        ]
+      },
+      {
+        "rule_id": "TPA_RECEIVING_ONLY",
+        "rule_text": "Only for receiving facility record, not transferring facility (Evidence: pg no: 95, L80)",
+        "explanation": "Z92.82 should only be used in the receiving facility's record, not in the transferring facility's record (Evidence: pg no: 95, L80)",
+        "importance": "critical",
+        "applies_to": "Z92.82",
+        "common_applications": [
+          "Receiving hospital coding",
+          "Transfer documentation"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify patient as transfer from different facility",
+      "Step 2: Confirm tPA administration within last 24 hours",
+      "Step 3: Assign primary condition code first",
+      "Step 4: Assign Z92.82 as secondary diagnosis",
+      "Step 5: Ensure coding only at receiving facility"
+    ],
+    "related_terminology": [
+      "Tissue plasminogen activator",
+      "tPA",
+      "rtPA",
+      "Thrombolytic therapy",
+      "Transfer patients"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "Z92.82",
+        "description": "Status post administration of tPA (rtPA) in a different facility within the last 24 hours prior to admission to current facility (Evidence: pg no: 95, L75)",
+        "context": "Secondary diagnosis for transfer patients who received tPA within 24 hours",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "Z92": "Personal history of medical treatment",
+          "82": "Status post tPA administration"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Status post tPA administration"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "TPA_01",
+      "scenario": "Stroke patient transferred after tPA at outside hospital",
+      "documentation_example": "Patient transferred from outside ED where tPA was administered 2 hours ago for acute ischemic stroke. Patient continues to receive tPA infusion.",
+      "step_by_step": [
+        "Step 1: Identify acute ischemic stroke as primary condition",
+        "Step 2: Confirm tPA given within 24 hours at different facility",
+        "Step 3: Assign stroke code as principal diagnosis",
+        "Step 4: Assign Z92.82 as secondary diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "I63.9",
+        "secondary_codes": [
+          "Z92.82"
+        ],
+        "sequencing": "Stroke first, then tPA status",
+        "rationale": "Primary condition coded first, then tPA status for receiving facility (Evidence: pg no: 95, L79-L80)"
+      },
+      "incorrect_coding": {
+        "code": "Z92.82",
+        "codes": [
+          "Z92.82 as principal"
+        ],
+        "rationale": "Should code primary condition first",
+        "common_mistake": "Using Z92.82 as principal diagnosis"
+      }
+    },
+    {
+      "scenario_id": "TPA_02",
+      "scenario": "MI patient transferred 30 hours after tPA",
+      "documentation_example": "Patient transferred with STEMI. Received tPA 30 hours ago at referring facility.",
+      "step_by_step": [
+        "Step 1: Note 30 hours exceeds 24-hour timeframe",
+        "Step 2: Do not assign Z92.82 due to timeframe",
+        "Step 3: Code only the MI condition"
+      ],
+      "correct_coding": {
+        "primary_code": "I21.9",
+        "secondary_codes": [],
+        "sequencing": "MI only, no Z92.82 due to timeframe",
+        "rationale": "Z92.82 only applies within 24 hours (Evidence: pg no: 95, L75, L78)"
+      },
+      "incorrect_coding": {
+        "code": "Z92.82",
+        "codes": [
+          "Z92.82 beyond 24 hours"
+        ],
+        "rationale": "Code only applies within 24-hour timeframe",
+        "common_mistake": "Using Z92.82 beyond 24-hour window"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Only for receiving facility, not transferring facility (Evidence: pg no: 95, L80)",
+      "Must be within 24-hour timeframe (Evidence: pg no: 95, L75, L78)",
+      "Always secondary diagnosis (Evidence: pg no: 95, L75)"
+    ],
+    "best_practices": [
+      "Verify exact timing of tPA administration",
+      "Ensure proper facility designation",
+      "Code primary condition first"
+    ],
+    "common_mistakes": [
+      "Using at transferring facility",
+      "Using beyond 24-hour window",
+      "Using as principal diagnosis"
+    ],
+    "tips": [
+      "Remember 24-hour rule strictly",
+      "Only for receiving facility records"
+    ],
+    "implementation_notes": [
+      "Important for quality measures and outcomes tracking"
+    ],
+    "clinical_context": [
+      "Stroke care",
+      "Cardiac care",
+      "Emergency transfers",
+      "Thrombolytic therapy"
+    ]
+  },
+  "search_keywords": [
+    "tPA status",
+    "Z92.82",
+    "tissue plasminogen activator",
+    "transfer patients",
+    "24 hours",
+    "receiving facility",
+    "thrombolytic"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "status_codes",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "tPA",
+      "transfer",
+      "thrombolytic",
+      "24hours"
+    ]
+  },
+  "page_range_processed": "pages_93_to_96"
+}

@@ -1,0 +1,177 @@
+{
+  "guideline_id": "II",
+  "semantic_title": "Selection of Principal Diagnosis - UHDDS Definition and Fundamental Principles",
+  "section_path": "Section II > Selection of Principal Diagnosis",
+  "page_number": 108,
+  "content": {
+    "full_text": "The circumstances of inpatient admission always govern the selection of principal diagnosis. The principal diagnosis is defined in the Uniform Hospital Discharge Data Set (UHDDS) as 'that condition established after study to be chiefly responsible for occasioning the admission of the patient to the hospital for care.' The UHDDS definitions are used by hospitals to report inpatient data elements in a standardized manner. These data elements and their definitions can be found in the July 31, 1985, Federal Register (Vol. 50, No, 147), pp. 31038-40. Since that time, the application of the UHDDS definitions has been expanded to include all non-outpatient settings (acute care, short term, long term care and psychiatric hospitals; home health agencies; rehab facilities; nursing homes, etc.). The UHDDS definitions also apply to hospice services (all levels of care). (Evidence: pg no: 108, L90-L96)",
+    "summary": "Fundamental definition and scope of principal diagnosis selection based on UHDDS standards, applicable to all non-outpatient healthcare settings (Evidence: pg no: 108, L90-L96)",
+    "key_concepts": [
+      "Inpatient admission circumstances govern principal diagnosis selection (Evidence: pg no: 108, L90-L91)",
+      "Principal diagnosis is condition chiefly responsible for admission after study (Evidence: pg no: 108, L91)",
+      "UHDDS definitions apply to all non-outpatient settings (Evidence: pg no: 108, L95-L96)",
+      "Standardized reporting requirements for hospitals (Evidence: pg no: 108, L93-L94)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "PRINCIPAL_DX_DEFINITION",
+        "rule_text": "Principal diagnosis is that condition established after study to be chiefly responsible for occasioning the admission (Evidence: pg no: 108, L91)",
+        "explanation": "The principal diagnosis must be determined through clinical study and represent the primary reason for the patient's admission to the hospital (Evidence: pg no: 108, L91)",
+        "importance": "critical",
+        "applies_to": "all_inpatient_codes",
+        "common_applications": [
+          "Inpatient hospital coding",
+          "DRG assignment",
+          "Reimbursement determination"
+        ]
+      },
+      {
+        "rule_id": "ADMISSION_CIRCUMSTANCES_GOVERN",
+        "rule_text": "Circumstances of inpatient admission always govern principal diagnosis selection (Evidence: pg no: 108, L90-L91)",
+        "explanation": "The specific circumstances that led to the patient's admission must be the primary consideration in selecting the principal diagnosis (Evidence: pg no: 108, L90-L91)",
+        "importance": "critical",
+        "applies_to": "all_inpatient_codes",
+        "common_applications": [
+          "Emergency admissions",
+          "Elective admissions",
+          "Transfer admissions"
+        ]
+      },
+      {
+        "rule_id": "UHDDS_SCOPE",
+        "rule_text": "UHDDS definitions apply to all non-outpatient settings including hospice services (Evidence: pg no: 108, L95-L96)",
+        "explanation": "The scope includes acute care, short term, long term care, psychiatric hospitals, home health agencies, rehab facilities, nursing homes, and hospice services (Evidence: pg no: 108, L95-L96)",
+        "importance": "high",
+        "applies_to": "all_inpatient_codes",
+        "common_applications": [
+          "Various healthcare facility types",
+          "Different levels of care",
+          "Hospice services"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Review circumstances of inpatient admission",
+      "Step 2: Identify all conditions present during admission",
+      "Step 3: Determine which condition was chiefly responsible for admission after study",
+      "Step 4: Select that condition as principal diagnosis",
+      "Step 5: Apply to appropriate non-outpatient setting"
+    ],
+    "related_terminology": [
+      "Principal diagnosis",
+      "UHDDS",
+      "Inpatient admission",
+      "Chiefly responsible",
+      "After study",
+      "Non-outpatient settings",
+      "Standardized reporting"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "All diagnostic codes applicable to inpatient settings"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.A",
+        "title": "Conventions for the ICD-10-CM",
+        "relationship": "builds_upon",
+        "explanation": "ICD-10-CM conventions take precedence over principal diagnosis guidelines"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "PRINCIPAL_DX_EMERGENCY",
+      "scenario": "Patient admitted through emergency department with chest pain, found to have myocardial infarction",
+      "documentation_example": "Patient presented to ED with chest pain. After study including EKG and cardiac enzymes, diagnosed with acute myocardial infarction. Admitted for treatment.",
+      "step_by_step": [
+        "Step 1: Review admission circumstances (chest pain presentation)",
+        "Step 2: Identify condition established after study (myocardial infarction)",
+        "Step 3: Determine chief reason for admission (myocardial infarction)",
+        "Step 4: Select myocardial infarction as principal diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "I21.9",
+        "secondary_codes": [
+          "R06.02"
+        ],
+        "sequencing": "Myocardial infarction as principal, chest pain as secondary",
+        "rationale": "Myocardial infarction was established after study as chiefly responsible for admission (Evidence: pg no: 108, L91)"
+      },
+      "incorrect_coding": {
+        "code": "R06.02",
+        "codes": [
+          "R06.02"
+        ],
+        "rationale": "Chest pain was the presenting symptom, not the condition established after study",
+        "common_mistake": "Using presenting symptom instead of condition established after study"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "ICD-10-CM conventions take precedence over principal diagnosis guidelines (Evidence: pg no: 108, L97-L99)",
+      "Must be based on condition established after study, not just presenting symptoms (Evidence: pg no: 108, L91)"
+    ],
+    "best_practices": [
+      "Always consider admission circumstances first (Evidence: pg no: 108, L90-L91)",
+      "Ensure adequate documentation supports principal diagnosis selection (Evidence: pg no: 108, L100)",
+      "Apply UHDDS definitions consistently across all non-outpatient settings"
+    ],
+    "common_mistakes": [
+      "Selecting presenting symptom instead of established diagnosis",
+      "Ignoring admission circumstances",
+      "Misunderstanding 'after study' requirement"
+    ],
+    "tips": [
+      "Focus on the reason for admission, not just the most serious condition",
+      "Consider what condition required the inpatient level of care",
+      "Review complete clinical picture before making selection"
+    ],
+    "implementation_notes": [
+      "Requires thorough documentation review",
+      "May involve clinical judgment in complex cases",
+      "Critical for accurate reimbursement and reporting"
+    ],
+    "clinical_context": [
+      "Inpatient admissions",
+      "Hospital care",
+      "Clinical decision making",
+      "Healthcare reimbursement"
+    ]
+  },
+  "search_keywords": [
+    "principal diagnosis",
+    "UHDDS",
+    "inpatient admission",
+    "chiefly responsible",
+    "after study",
+    "admission circumstances",
+    "hospital discharge data"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "principal_diagnosis",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "principal_diagnosis",
+      "UHDDS",
+      "inpatient",
+      "admission_circumstances"
+    ]
+  },
+  "page_range_processed": "pages_105_to_108"
+}

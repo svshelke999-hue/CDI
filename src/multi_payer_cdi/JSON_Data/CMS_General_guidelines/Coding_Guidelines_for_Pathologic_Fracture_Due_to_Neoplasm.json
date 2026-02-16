@@ -1,0 +1,191 @@
+{
+  "guideline_id": "I.C.2.l.6",
+  "semantic_title": "Coding Guidelines for Pathologic Fracture Due to Neoplasm",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 2. Chapter 2: Neoplasms > l. Sequencing of neoplasm codes > 6) Pathologic fracture due to a neoplasm",
+  "page_number": 37,
+  "content": {
+    "full_text": "When an encounter is for a pathological fracture due to a neoplasm, and the focus of treatment is the fracture, a code from subcategory M84.5, Pathological fracture in neoplastic disease, should be sequenced first, followed by the code for the neoplasm. If the focus of treatment is the neoplasm with an associated pathological fracture, the neoplasm code should be sequenced first, followed by a code from M84.5 for the pathological fracture. (Evidence: pg no: 37, L45-L48)",
+    "summary": "Guidelines for sequencing pathologic fractures and neoplasms based on treatment focus (Evidence: pg no: 37, L45-L48)",
+    "key_concepts": [
+      "Treatment focus determines sequencing (Evidence: pg no: 37, L45-L46)",
+      "M84.5 for pathological fracture in neoplastic disease (Evidence: pg no: 37, L46-L47)",
+      "Fracture focus: M84.5 first, then neoplasm (Evidence: pg no: 37, L46-L47)",
+      "Neoplasm focus: neoplasm first, then M84.5 (Evidence: pg no: 37, L47-L48)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "fracture_focus_sequencing",
+        "rule_text": "When focus of treatment is the fracture, M84.5 should be sequenced first, followed by neoplasm code (Evidence: pg no: 37, L46-L47)",
+        "explanation": "When the primary purpose of the encounter is to treat the pathologic fracture, the fracture code takes sequencing priority (Evidence: pg no: 37, L45-L47)",
+        "importance": "critical",
+        "applies_to": "encounters focusing on pathologic fracture treatment",
+        "common_applications": [
+          "Orthopedic fixation of pathologic fracture",
+          "Pain management for pathologic fracture"
+        ]
+      },
+      {
+        "rule_id": "neoplasm_focus_sequencing",
+        "rule_text": "When focus of treatment is the neoplasm with associated pathological fracture, neoplasm code should be sequenced first, followed by M84.5 (Evidence: pg no: 37, L47-L48)",
+        "explanation": "When the primary purpose is to treat the underlying neoplasm that caused the fracture, the neoplasm takes sequencing priority (Evidence: pg no: 37, L47-L48)",
+        "importance": "critical",
+        "applies_to": "encounters focusing on neoplasm treatment with associated fracture",
+        "common_applications": [
+          "Radiation therapy for bone metastases with fracture",
+          "Chemotherapy for primary bone tumor with fracture"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify pathologic fracture due to neoplasm",
+      "Step 2: Determine primary focus of treatment (fracture vs neoplasm)",
+      "Step 3a: If fracture focus - sequence M84.5 first, then neoplasm",
+      "Step 3b: If neoplasm focus - sequence neoplasm first, then M84.5"
+    ],
+    "related_terminology": [
+      "Pathological fracture",
+      "Neoplastic disease",
+      "Treatment focus",
+      "Sequencing priority",
+      "Bone metastases"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "M84.5",
+        "description": "Pathological fracture in neoplastic disease (Evidence: pg no: 37, L46-L47)",
+        "requirement": "Used for pathologic fractures due to neoplasms",
+        "usage_rules": [
+          "Sequenced first when fracture is treatment focus (Evidence: pg no: 37, L46-L47)",
+          "Sequenced second when neoplasm is treatment focus (Evidence: pg no: 37, L47-L48)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "M84.5 + Neoplasm code",
+        "description": "Pattern when treatment focuses on fracture (Evidence: pg no: 37, L46-L47)",
+        "example": "M84.551A + C79.51",
+        "explanation": "Fracture code first when fracture is treatment focus"
+      },
+      {
+        "pattern": "Neoplasm code + M84.5",
+        "description": "Pattern when treatment focuses on neoplasm (Evidence: pg no: 37, L47-L48)",
+        "example": "C79.51 + M84.551A",
+        "explanation": "Neoplasm code first when neoplasm is treatment focus"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Pathological fracture codes",
+      "Neoplasm codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "fracture_treatment_focus",
+      "scenario": "Patient with bone metastases admitted for surgical fixation of pathologic femur fracture",
+      "documentation_example": "Admission for ORIF of pathologic fracture of left femur due to metastatic breast cancer",
+      "step_by_step": [
+        "Step 1: Identify pathologic fracture due to neoplasm",
+        "Step 2: Determine treatment focus is on fracture repair",
+        "Step 3: Sequence M84.5 first, then neoplasm code"
+      ],
+      "correct_coding": {
+        "primary_code": "M84.552A (Pathological fracture in neoplastic disease, left femur, initial encounter)",
+        "secondary_codes": [
+          "C79.51 (Secondary malignant neoplasm of bone)"
+        ],
+        "sequencing": "Fracture first when fracture is treatment focus",
+        "rationale": "Treatment is focused on the fracture repair (Evidence: pg no: 37, L45-L47)"
+      },
+      "incorrect_coding": {
+        "code": "C79.51",
+        "codes": [
+          "C79.51 as principal diagnosis"
+        ],
+        "rationale": "Bone metastases should not be principal when treating fracture",
+        "common_mistake": "Sequencing neoplasm first when treating fracture"
+      }
+    },
+    {
+      "scenario_id": "neoplasm_treatment_focus",
+      "scenario": "Patient with primary bone tumor and associated pathologic fracture admitted for chemotherapy",
+      "documentation_example": "Admission for chemotherapy for osteosarcoma of right tibia with associated pathologic fracture",
+      "step_by_step": [
+        "Step 1: Identify neoplasm with associated pathologic fracture",
+        "Step 2: Determine treatment focus is on neoplasm (chemotherapy)",
+        "Step 3: Sequence neoplasm first, then M84.5"
+      ],
+      "correct_coding": {
+        "primary_code": "C40.22 (Malignant neoplasm of long bones of right lower limb)",
+        "secondary_codes": [
+          "M84.562A (Pathological fracture in neoplastic disease, right tibia, initial encounter)"
+        ],
+        "sequencing": "Neoplasm first when neoplasm is treatment focus",
+        "rationale": "Treatment is focused on the underlying neoplasm (Evidence: pg no: 37, L47-L48)"
+      },
+      "incorrect_coding": {
+        "code": "M84.562A",
+        "codes": [
+          "M84.562A as principal diagnosis"
+        ],
+        "rationale": "Fracture should not be principal when treating neoplasm",
+        "common_mistake": "Sequencing fracture first when treating neoplasm"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Treatment focus determines sequencing - fracture vs neoplasm (Evidence: pg no: 37, L45-L48)"
+    ],
+    "best_practices": [
+      "Always identify the primary focus of treatment to determine sequencing (Evidence: pg no: 37, L45-L46)",
+      "Use M84.5 subcategory for all pathologic fractures in neoplastic disease (Evidence: pg no: 37, L46-L47)"
+    ],
+    "common_mistakes": [
+      "Not considering treatment focus when sequencing (Evidence: pg no: 37, L45-L48)",
+      "Using wrong sequencing based on treatment focus (Evidence: pg no: 37, L46-L48)"
+    ],
+    "tips": [
+      "Treatment focus determines which code comes first (Evidence: pg no: 37, L45-L48)",
+      "Both codes are always needed regardless of sequencing (Evidence: pg no: 37, L46-L48)"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Applies to both primary bone tumors and metastatic disease with fractures"
+    ]
+  },
+  "search_keywords": [
+    "pathologic fracture",
+    "neoplastic disease",
+    "M84.5",
+    "bone metastases",
+    "treatment focus",
+    "fracture sequencing"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "pathologic_fractures",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "neoplasms",
+      "pathologic_fractures",
+      "sequencing",
+      "treatment_focus"
+    ]
+  },
+  "page_range_processed": "pages_36_to_39"
+}

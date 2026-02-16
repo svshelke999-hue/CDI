@@ -1,0 +1,232 @@
+{
+  "guideline_id": "I.C.16.a.6",
+  "semantic_title": "Coding All Clinically Significant Conditions in Newborns",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 16. Chapter 16: Certain Conditions Originating in the Perinatal Period > a. General Perinatal Rules > 6) Code all clinically significant conditions",
+  "page_number": 72,
+  "content": {
+    "full_text": "All clinically significant conditions noted on routine newborn examination should be coded. A condition is clinically significant if it requires: clinical evaluation; or therapeutic treatment; or diagnostic procedures; or extended length of hospital stay; or increased nursing care and/or monitoring; or has implications for future health care needs. Note: The perinatal guidelines listed above are the same as the general coding guidelines for \"additional diagnoses,\" except for the final point regarding implications for future health care needs. Codes should be assigned for conditions that have been specified by the provider as having implications for future health care needs. (Evidence: pg no: 72, L93-L102)",
+    "summary": "Code all clinically significant newborn conditions that require evaluation, treatment, procedures, extended stay, increased monitoring, or have future healthcare implications. (Evidence: pg no: 72, L93-L102)",
+    "key_concepts": [
+      "Clinically significant conditions (Evidence: pg no: 72, L93-L94)",
+      "Multiple criteria for significance (Evidence: pg no: 72, L95-L100)",
+      "Future healthcare implications (Evidence: pg no: 72, L100, L102)",
+      "Provider specification requirement (Evidence: pg no: 72, L102)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "clinical_evaluation_criterion",
+        "rule_text": "Code conditions requiring clinical evaluation (Evidence: pg no: 72, L95)",
+        "explanation": "Any condition that requires clinical evaluation by healthcare providers should be coded, even if no treatment is provided (Evidence: pg no: 72, L95)",
+        "importance": "high",
+        "applies_to": "All newborn conditions",
+        "common_applications": [
+          "Heart murmurs requiring evaluation",
+          "Abnormal physical findings"
+        ]
+      },
+      {
+        "rule_id": "therapeutic_treatment_criterion",
+        "rule_text": "Code conditions requiring therapeutic treatment (Evidence: pg no: 72, L96)",
+        "explanation": "Any condition that requires therapeutic intervention or treatment should be coded (Evidence: pg no: 72, L96)",
+        "importance": "high",
+        "applies_to": "All newborn conditions",
+        "common_applications": [
+          "Hypoglycemia requiring treatment",
+          "Jaundice requiring phototherapy"
+        ]
+      },
+      {
+        "rule_id": "diagnostic_procedures_criterion",
+        "rule_text": "Code conditions requiring diagnostic procedures (Evidence: pg no: 72, L97)",
+        "explanation": "Any condition that necessitates diagnostic procedures should be coded (Evidence: pg no: 72, L97)",
+        "importance": "high",
+        "applies_to": "All newborn conditions",
+        "common_applications": [
+          "Conditions requiring imaging",
+          "Laboratory workup requirements"
+        ]
+      },
+      {
+        "rule_id": "extended_stay_criterion",
+        "rule_text": "Code conditions causing extended length of hospital stay (Evidence: pg no: 72, L98)",
+        "explanation": "Any condition that results in prolonged hospitalization should be coded (Evidence: pg no: 72, L98)",
+        "importance": "high",
+        "applies_to": "All newborn conditions",
+        "common_applications": [
+          "Feeding difficulties",
+          "Respiratory issues"
+        ]
+      },
+      {
+        "rule_id": "increased_monitoring_criterion",
+        "rule_text": "Code conditions requiring increased nursing care and/or monitoring (Evidence: pg no: 72, L99)",
+        "explanation": "Any condition that necessitates enhanced nursing care or closer monitoring should be coded (Evidence: pg no: 72, L99)",
+        "importance": "high",
+        "applies_to": "All newborn conditions",
+        "common_applications": [
+          "Apnea monitoring",
+          "Frequent vital sign checks"
+        ]
+      },
+      {
+        "rule_id": "future_healthcare_criterion",
+        "rule_text": "Code conditions with implications for future health care needs (Evidence: pg no: 72, L100)",
+        "explanation": "Conditions that have implications for future healthcare needs should be coded when specified by the provider, which is unique to perinatal guidelines (Evidence: pg no: 72, L100-L102)",
+        "importance": "medium",
+        "applies_to": "All newborn conditions",
+        "common_applications": [
+          "Genetic conditions",
+          "Developmental concerns"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify all conditions noted on newborn examination",
+      "Step 2: Evaluate each condition against the six criteria",
+      "Step 3: Code any condition meeting at least one criterion",
+      "Step 4: Ensure provider has specified future healthcare implications when applicable"
+    ],
+    "related_terminology": [
+      "Clinically significant",
+      "Clinical evaluation",
+      "Therapeutic treatment",
+      "Diagnostic procedures",
+      "Extended stay",
+      "Increased monitoring",
+      "Future healthcare needs"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "P00-P96",
+        "description": "All Chapter 16 perinatal codes (Evidence: pg no: 72, L93)",
+        "requirement": "Use for clinically significant conditions",
+        "usage_rules": [
+          "Apply six criteria for clinical significance (Evidence: pg no: 72, L95-L100)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Additional diagnoses for newborns"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "General_additional_diagnoses",
+        "title": "General coding guidelines for additional diagnoses",
+        "relationship": "related_to",
+        "explanation": "Perinatal guidelines similar except for future healthcare needs criterion (Evidence: pg no: 72, L101-L102)"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "multiple_criteria_met",
+      "scenario": "Newborn with heart murmur requiring echocardiogram and cardiology follow-up",
+      "documentation_example": "Term newborn with grade 2/6 systolic murmur. Echocardiogram ordered. Cardiology follow-up recommended for ongoing evaluation.",
+      "step_by_step": [
+        "Step 1: Identify heart murmur condition",
+        "Step 2: Evaluate against criteria: requires diagnostic procedure (echo), clinical evaluation, future healthcare needs",
+        "Step 3: Code the heart murmur",
+        "Step 4: Document rationale for coding"
+      ],
+      "correct_coding": {
+        "primary_code": "Z38.x",
+        "secondary_codes": [
+          "Heart murmur code"
+        ],
+        "sequencing": "Z38 principal, murmur as additional diagnosis",
+        "rationale": "Heart murmur meets multiple criteria: diagnostic procedures, clinical evaluation, and future healthcare implications (Evidence: pg no: 72, L95, L97, L100)"
+      },
+      "incorrect_coding": {
+        "code": "No murmur code",
+        "codes": [
+          "Omitting the heart murmur"
+        ],
+        "rationale": "Condition meets multiple significance criteria and should be coded",
+        "common_mistake": "Not coding conditions that meet clinical significance criteria"
+      }
+    },
+    {
+      "scenario_id": "future_healthcare_only",
+      "scenario": "Newborn with family history of genetic condition requiring future monitoring",
+      "documentation_example": "Newborn appears normal but has family history of cystic fibrosis. Provider notes need for future genetic counseling and monitoring.",
+      "step_by_step": [
+        "Step 1: Identify condition/risk factor",
+        "Step 2: Evaluate against criteria: future healthcare implications specified by provider",
+        "Step 3: Code the condition/risk factor",
+        "Step 4: Ensure provider documentation supports future needs"
+      ],
+      "correct_coding": {
+        "primary_code": "Z38.x",
+        "secondary_codes": [
+          "Family history code"
+        ],
+        "sequencing": "Z38 principal, family history as additional",
+        "rationale": "Provider specified implications for future healthcare needs, which is a valid criterion for perinatal coding (Evidence: pg no: 72, L100, L102)"
+      },
+      "incorrect_coding": {
+        "code": "No family history code",
+        "codes": [
+          "Omitting family history"
+        ],
+        "rationale": "Provider specified future healthcare implications, making it codeable",
+        "common_mistake": "Not coding conditions with only future healthcare implications"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Must have provider specification for future healthcare needs criterion (Evidence: pg no: 72, L102)"
+    ],
+    "best_practices": [
+      "Code all conditions meeting any of the six criteria (Evidence: pg no: 72, L95-L100)",
+      "Document rationale for coding based on criteria met"
+    ],
+    "common_mistakes": [
+      "Not coding conditions that meet clinical significance criteria",
+      "Coding future healthcare implications without provider specification"
+    ],
+    "tips": [
+      "Future healthcare needs criterion is unique to perinatal guidelines"
+    ],
+    "implementation_notes": [
+      "Ensures comprehensive documentation of newborn health status"
+    ],
+    "clinical_context": [
+      "Critical for tracking newborn health outcomes and care needs"
+    ]
+  },
+  "search_keywords": [
+    "clinically significant",
+    "newborn examination",
+    "clinical evaluation",
+    "therapeutic treatment",
+    "diagnostic procedures",
+    "future healthcare needs"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "clinical_significance",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "clinical significance",
+      "newborn",
+      "additional diagnoses",
+      "criteria"
+    ]
+  },
+  "page_range_processed": "pages_69_to_72"
+}

@@ -1,0 +1,114 @@
+{
+  "guideline_id": "I.A.17",
+  "semantic_title": "Code Also Note - Two Codes May Be Required Without Sequencing Direction",
+  "section_path": "Section I > A. Conventions > 17. 'Code also' note",
+  "page_number": 12,
+  "content": {
+    "full_text": "A \"code also\" note instructs that two codes may be required to fully describe a condition, but this note does not provide sequencing direction. The sequencing depends on the circumstances of the encounter. (Evidence: pg no: 12, L67-L69)",
+    "summary": "Code Also notes indicate two codes may be needed but do not specify sequencing order, which depends on encounter circumstances (Evidence: pg no: 12, L67-L69)",
+    "key_concepts": [
+      "Two codes may be required (Evidence: pg no: 12, L68)",
+      "No sequencing direction provided (Evidence: pg no: 12, L68-L69)",
+      "Sequencing depends on encounter circumstances (Evidence: pg no: 12, L69)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "CODE_ALSO_DUAL",
+        "rule_text": "Code Also note indicates two codes may be required to fully describe condition (Evidence: pg no: 12, L68)",
+        "explanation": "Unlike other instructional notes, Code Also does not specify which code should be primary (Evidence: pg no: 12, L68-L69)",
+        "importance": "medium",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Related conditions requiring dual coding",
+          "Comprehensive condition description"
+        ]
+      },
+      {
+        "rule_id": "CODE_ALSO_SEQUENCING",
+        "rule_text": "Sequencing depends on circumstances of encounter (Evidence: pg no: 12, L69)",
+        "explanation": "Provider must determine appropriate sequencing based on encounter focus and circumstances (Evidence: pg no: 12, L69)",
+        "importance": "medium",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Encounter-driven sequencing",
+          "Clinical priority-based ordering"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify Code Also note",
+      "Step 2: Determine if both conditions are present",
+      "Step 3: Code both conditions when appropriate",
+      "Step 4: Sequence based on encounter circumstances",
+      "Step 5: Consider clinical focus for sequencing"
+    ],
+    "related_terminology": [
+      "Code Also",
+      "Dual coding",
+      "Sequencing",
+      "Encounter circumstances",
+      "Clinical focus"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": []
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [],
+    "best_practices": [
+      "Code both conditions when Code Also note applies (Evidence: pg no: 12, L68)",
+      "Base sequencing on encounter circumstances (Evidence: pg no: 12, L69)"
+    ],
+    "common_mistakes": [
+      "Coding only one condition when Code Also applies",
+      "Assuming specific sequencing when none is provided"
+    ],
+    "tips": [
+      "Code Also is different from Code First or Use Additional Code",
+      "Consider encounter focus for sequencing decisions"
+    ],
+    "implementation_notes": [
+      "Requires clinical judgment for sequencing",
+      "Both codes typically needed for complete picture"
+    ],
+    "clinical_context": [
+      "Common with related conditions",
+      "Useful for comprehensive coding"
+    ]
+  },
+  "search_keywords": [
+    "code also",
+    "dual coding",
+    "two codes",
+    "sequencing",
+    "encounter circumstances",
+    "no sequencing direction"
+  ],
+  "metadata": {
+    "category": "convention",
+    "subcategory": "instructional_notes",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "code_also",
+      "dual_coding",
+      "sequencing",
+      "encounter_circumstances"
+    ]
+  },
+  "page_range_processed": "pages_9_to_12"
+}

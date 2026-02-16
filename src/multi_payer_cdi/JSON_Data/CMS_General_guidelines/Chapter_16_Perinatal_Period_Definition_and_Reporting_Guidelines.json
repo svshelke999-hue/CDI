@@ -1,0 +1,105 @@
+{
+  "guideline_id": "I.C.16.general",
+  "semantic_title": "Chapter 16 Perinatal Period Definition and Reporting Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 16. Chapter 16: Certain Conditions Originating in the Perinatal Period (P00-P96)",
+  "page_number": 70,
+  "content": {
+    "full_text": "For coding and reporting purposes the perinatal period is defined as before birth through the 28th day following birth. The following guidelines are provided for reporting purposes. (Evidence: pg no: 70, L72)",
+    "summary": "The perinatal period is defined as before birth through 28 days after birth for coding purposes. (Evidence: pg no: 70, L72)",
+    "key_concepts": [
+      "Perinatal period definition (Evidence: pg no: 70, L72)",
+      "28-day timeframe (Evidence: pg no: 70, L72)",
+      "Before birth inclusion (Evidence: pg no: 70, L72)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "perinatal_period_definition",
+        "rule_text": "Perinatal period is before birth through 28th day following birth (Evidence: pg no: 70, L72)",
+        "explanation": "For coding and reporting purposes, the perinatal period encompasses the time before birth and continues through the first 28 days of life (Evidence: pg no: 70, L72)",
+        "importance": "critical",
+        "applies_to": "P00-P96",
+        "common_applications": [
+          "Newborn coding",
+          "Perinatal condition identification"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if condition occurs in perinatal period",
+      "Step 2: Verify timing (before birth through day 28)",
+      "Step 3: Apply Chapter 16 codes if appropriate"
+    ],
+    "related_terminology": [
+      "Perinatal period",
+      "Newborn",
+      "28-day period",
+      "Before birth"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "P00-P96",
+        "description": "Certain Conditions Originating in the Perinatal Period (Evidence: pg no: 70, L71)",
+        "requirement": "Use for conditions in perinatal period",
+        "usage_rules": [
+          "Apply to conditions before birth through 28 days after birth (Evidence: pg no: 70, L72)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Chapter 16 perinatal codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [],
+    "best_practices": [
+      "Use Chapter 16 codes for conditions in defined perinatal period (Evidence: pg no: 70, L72)"
+    ],
+    "common_mistakes": [
+      "Misunderstanding perinatal period timeframe"
+    ],
+    "tips": [
+      "Remember perinatal period includes before birth through day 28"
+    ],
+    "implementation_notes": [
+      "Establishes foundation for all Chapter 16 coding"
+    ],
+    "clinical_context": [
+      "Critical period for newborn health monitoring"
+    ]
+  },
+  "search_keywords": [
+    "perinatal period",
+    "28 days",
+    "Chapter 16",
+    "P00-P96",
+    "newborn"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "perinatal_definition",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "perinatal",
+      "definition",
+      "28 days",
+      "newborn"
+    ]
+  },
+  "page_range_processed": "pages_69_to_72"
+}

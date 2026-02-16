@@ -1,0 +1,99 @@
+{
+  "guideline_id": "I.C.20.i.1",
+  "semantic_title": "Sequelae External Cause Codes Usage",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 20. Chapter 20: External Causes of Morbidity > i. Sequelae (Late Effects) of External Cause Guidelines > 1) Sequelae external cause codes",
+  "page_number": 91,
+  "content": {
+    "full_text": "Sequela are reported using the external cause code with the 7th character 'S' for sequela. These codes should be used with any report of a late effect or sequela resulting from a previous injury. (Evidence: pg no: 91, L30-L31)",
+    "summary": "Specific instructions for using sequela external cause codes with 7th character 'S' (Evidence: pg no: 91, L30-L31)",
+    "key_concepts": [
+      "7th character 'S' indicates sequela (Evidence: pg no: 91, L30)",
+      "Used for any late effect or sequela (Evidence: pg no: 91, L31)",
+      "Must relate to previous injury (Evidence: pg no: 91, L31)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "sequela_character_usage",
+        "rule_text": "Use 7th character 'S' for sequela in external cause codes (Evidence: pg no: 91, L30)",
+        "explanation": "The 7th character 'S' specifically designates that the external cause code is being used to indicate a sequela or late effect (Evidence: pg no: 91, L30)",
+        "importance": "critical",
+        "applies_to": "all sequela external cause codes",
+        "common_applications": [
+          "Late effects of accidents",
+          "Chronic conditions from previous trauma"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify condition as sequela of previous injury",
+      "Step 2: Select appropriate external cause code",
+      "Step 3: Apply 7th character 'S' to indicate sequela"
+    ],
+    "related_terminology": [
+      "Sequela",
+      "7th character",
+      "Late effect",
+      "Previous injury"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "External cause code + 7th character 'S'",
+        "description": "Standard pattern for sequela external cause coding (Evidence: pg no: 91, L30)",
+        "example": "External cause code ending in 'S'",
+        "explanation": "Indicates this external cause is for a sequela"
+      }
+    ],
+    "code_categories_mentioned": []
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.B.10",
+        "title": "Sequela (Late Effects)",
+        "relationship": "references",
+        "explanation": "See general sequela guidelines"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [],
+    "best_practices": [
+      "Always use 7th character 'S' for sequela external cause codes (Evidence: pg no: 91, L30)"
+    ],
+    "common_mistakes": [],
+    "tips": [
+      "Apply to any report of late effect or sequela (Evidence: pg no: 91, L31)"
+    ],
+    "implementation_notes": [],
+    "clinical_context": []
+  },
+  "search_keywords": [
+    "sequela external cause",
+    "7th character S",
+    "late effect coding",
+    "previous injury sequela"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "external_causes",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "external_causes",
+      "sequelae",
+      "seventh_character"
+    ]
+  },
+  "page_range_processed": "pages_90_to_93"
+}

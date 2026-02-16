@@ -1,0 +1,307 @@
+{
+  "guideline_id": "I.C.9.a.2",
+  "semantic_title": "Hypertensive Chronic Kidney Disease Coding Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 9. Chapter 9: Diseases of the Circulatory System > a. Hypertension > 2) Hypertensive Chronic Kidney Disease",
+  "page_number": 50,
+  "content": {
+    "full_text": "Assign codes from category I12, Hypertensive chronic kidney disease, when both hypertension and a condition classifiable to category N18, Chronic kidney disease (CKD), are present. CKD should not be coded as hypertensive if the provider indicates the CKD is not related to the hypertension. The appropriate code from category N18 should be used as a secondary code with a code from category I12 to identify the stage of chronic kidney disease. See Section I.C.14. Chronic kidney disease. If a patient has hypertensive chronic kidney disease and acute renal failure, the acute renal failure should also be coded. Sequence according to the circumstances of the admission/encounter. (Evidence: pg no: 50, L55-L61)",
+    "summary": "Guidelines for coding hypertensive chronic kidney disease using I12 category codes with N18 secondary codes for staging, including provisions for unrelated CKD and concurrent acute renal failure (Evidence: pg no: 50, L55-L61)",
+    "key_concepts": [
+      "I12 category usage for hypertensive chronic kidney disease (Evidence: pg no: 50, L55-L56)",
+      "N18 secondary codes for CKD staging (Evidence: pg no: 50, L56-L57)",
+      "Provider documentation of unrelated CKD (Evidence: pg no: 50, L56)",
+      "Concurrent acute renal failure coding (Evidence: pg no: 50, L60-L61)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "HTN_CKD_I12_CATEGORY",
+        "rule_text": "Use I12 category codes when both hypertension and chronic kidney disease (N18) are present (Evidence: pg no: 50, L55-L56)",
+        "explanation": "When a patient has both hypertension and a condition classifiable to category N18 (Chronic kidney disease), assign codes from category I12 (Hypertensive chronic kidney disease) (Evidence: pg no: 50, L55-L56)",
+        "importance": "high",
+        "applies_to": "Concurrent hypertension and chronic kidney disease",
+        "common_applications": [
+          "Hypertensive nephropathy",
+          "Chronic kidney disease with hypertension",
+          "End-stage renal disease with hypertension"
+        ]
+      },
+      {
+        "rule_id": "HTN_CKD_N18_SECONDARY",
+        "rule_text": "Use appropriate N18 code as secondary code with I12 to identify CKD stage (Evidence: pg no: 50, L56-L57)",
+        "explanation": "The appropriate code from category N18 should be used as a secondary code along with a code from category I12 to identify the specific stage of chronic kidney disease (Evidence: pg no: 50, L56-L57)",
+        "importance": "high",
+        "applies_to": "All hypertensive chronic kidney disease cases",
+        "common_applications": [
+          "CKD stage 1-5 with hypertension",
+          "End-stage renal disease staging",
+          "CKD progression monitoring"
+        ]
+      },
+      {
+        "rule_id": "HTN_CKD_UNRELATED",
+        "rule_text": "Do not code CKD as hypertensive if provider indicates CKD is not related to hypertension (Evidence: pg no: 50, L56)",
+        "explanation": "Chronic kidney disease should not be coded as hypertensive if the provider specifically indicates that the CKD is not related to the hypertension (Evidence: pg no: 50, L56)",
+        "importance": "critical",
+        "applies_to": "CKD with documented non-hypertensive etiology",
+        "common_applications": [
+          "Diabetic nephropathy with concurrent hypertension",
+          "Polycystic kidney disease with hypertension",
+          "Other specified causes of CKD"
+        ]
+      },
+      {
+        "rule_id": "HTN_CKD_ACUTE_RENAL_FAILURE",
+        "rule_text": "Code acute renal failure additionally when present with hypertensive chronic kidney disease (Evidence: pg no: 50, L60-L61)",
+        "explanation": "If a patient has hypertensive chronic kidney disease and also has acute renal failure, the acute renal failure should also be coded in addition to the hypertensive chronic kidney disease codes (Evidence: pg no: 50, L60-L61)",
+        "importance": "high",
+        "applies_to": "Hypertensive CKD with concurrent acute renal failure",
+        "common_applications": [
+          "Acute on chronic kidney disease",
+          "CKD exacerbation with acute component",
+          "Hospitalization for acute renal failure in CKD patient"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify presence of both hypertension and chronic kidney disease",
+      "Step 2: Check if provider documents CKD as unrelated to hypertension",
+      "Step 3: If unrelated, code separately; if related, use I12 category",
+      "Step 4: Assign appropriate N18 code as secondary for CKD staging",
+      "Step 5: Check for concurrent acute renal failure",
+      "Step 6: If acute renal failure present, add appropriate acute renal failure code",
+      "Step 7: Sequence according to admission/encounter circumstances"
+    ],
+    "related_terminology": [
+      "Hypertensive chronic kidney disease",
+      "Chronic kidney disease staging",
+      "CKD stages 1-5",
+      "End-stage renal disease",
+      "Acute renal failure",
+      "Acute on chronic kidney disease",
+      "Hypertensive nephropathy",
+      "Unrelated CKD"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "I12",
+        "description": "Hypertensive chronic kidney disease category (Evidence: pg no: 50, L55)",
+        "requirement": "Use when hypertension and CKD both present and related",
+        "usage_rules": [
+          "Combine with N18 secondary code for staging (Evidence: pg no: 50, L56-L57)",
+          "Do not use if provider states CKD unrelated to hypertension (Evidence: pg no: 50, L56)"
+        ]
+      },
+      {
+        "range": "N18",
+        "description": "Chronic kidney disease codes (Evidence: pg no: 50, L55, L57)",
+        "requirement": "Use as secondary codes with I12 for CKD staging",
+        "usage_rules": [
+          "Required secondary code with I12 category (Evidence: pg no: 50, L56-L57)",
+          "Identifies specific stage of chronic kidney disease (Evidence: pg no: 50, L57)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "I12.x + N18.x",
+        "description": "Hypertensive chronic kidney disease with CKD staging (Evidence: pg no: 50, L56-L57)",
+        "example": "I12.9 + N18.6",
+        "explanation": "Combination of hypertensive CKD code with specific CKD stage code"
+      }
+    ],
+    "code_categories_mentioned": [
+      "I12 Hypertensive chronic kidney disease",
+      "N18 Chronic kidney disease"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.14",
+        "title": "Chronic kidney disease",
+        "relationship": "related_to",
+        "explanation": "Referenced for additional CKD coding guidance"
+      },
+      {
+        "guideline_id": "I.C.9.a",
+        "title": "Hypertension causal relationships",
+        "relationship": "builds_upon",
+        "explanation": "Implements the general causal relationship principle for kidney conditions"
+      }
+    ],
+    "referenced_by": [
+      {
+        "guideline_id": "I.C.9.a.3",
+        "title": "Hypertensive Heart and Chronic Kidney Disease",
+        "relationship": "related_to",
+        "explanation": "Related coding approach for combined heart and kidney involvement"
+      }
+    ]
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "HTN_CKD_RELATED_1",
+      "scenario": "Patient with hypertension and chronic kidney disease stage 3",
+      "documentation_example": "Patient has essential hypertension with chronic kidney disease stage 3.",
+      "step_by_step": [
+        "Step 1: Identify hypertension and CKD stage 3",
+        "Step 2: Confirm conditions are related (presumed per classification)",
+        "Step 3: Assign I12 category code for hypertensive chronic kidney disease",
+        "Step 4: Assign N18.3 as secondary code for CKD stage 3",
+        "Step 5: Sequence according to encounter circumstances"
+      ],
+      "correct_coding": {
+        "primary_code": "I12.9",
+        "secondary_codes": [
+          "N18.3"
+        ],
+        "sequencing": "Hypertensive CKD with stage specification",
+        "rationale": "Both hypertension and CKD present, requiring I12 category with N18 secondary code (Evidence: pg no: 50, L55-L57)"
+      },
+      "incorrect_coding": {
+        "code": "I10",
+        "codes": [
+          "I10",
+          "N18.3"
+        ],
+        "rationale": "Should use combination I12 code when conditions are related",
+        "common_mistake": "Coding hypertension and CKD separately when related"
+      }
+    },
+    {
+      "scenario_id": "HTN_CKD_UNRELATED_1",
+      "scenario": "Patient with hypertension and diabetic chronic kidney disease",
+      "documentation_example": "Patient has essential hypertension and chronic kidney disease stage 4 due to diabetic nephropathy. CKD is not related to hypertension.",
+      "step_by_step": [
+        "Step 1: Identify hypertension and CKD",
+        "Step 2: Note provider documentation that CKD is not related to hypertension",
+        "Step 3: Code conditions separately per documentation",
+        "Step 4: Assign I10 for essential hypertension",
+        "Step 5: Assign N18.4 for CKD stage 4"
+      ],
+      "correct_coding": {
+        "primary_code": "I10",
+        "secondary_codes": [
+          "N18.4"
+        ],
+        "sequencing": "Separate codes per admission circumstances",
+        "rationale": "Provider documented CKD as unrelated to hypertension, requiring separate coding (Evidence: pg no: 50, L56)"
+      },
+      "incorrect_coding": {
+        "code": "I12.9",
+        "codes": [
+          "I12.9",
+          "N18.4"
+        ],
+        "rationale": "Should not use combination code when provider states conditions are unrelated",
+        "common_mistake": "Using hypertensive CKD code when CKD has different documented etiology"
+      }
+    },
+    {
+      "scenario_id": "HTN_CKD_ACUTE_1",
+      "scenario": "Patient with hypertensive chronic kidney disease and acute renal failure",
+      "documentation_example": "Patient with hypertensive chronic kidney disease stage 4, now with acute renal failure.",
+      "step_by_step": [
+        "Step 1: Identify hypertensive CKD and acute renal failure",
+        "Step 2: Assign I12 category code for hypertensive CKD",
+        "Step 3: Assign N18.4 for CKD stage 4",
+        "Step 4: Assign additional code for acute renal failure",
+        "Step 5: Sequence according to admission circumstances"
+      ],
+      "correct_coding": {
+        "primary_code": "N17.9",
+        "secondary_codes": [
+          "I12.9",
+          "N18.4"
+        ],
+        "sequencing": "Acute renal failure as primary if reason for admission",
+        "rationale": "Acute renal failure should be coded additionally with hypertensive CKD (Evidence: pg no: 50, L60-L61)"
+      },
+      "incorrect_coding": {
+        "code": "I12.9",
+        "codes": [
+          "I12.9",
+          "N18.4"
+        ],
+        "rationale": "Should not omit acute renal failure code when present",
+        "common_mistake": "Missing concurrent acute renal failure in CKD patients"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "HTN_CKD_EX1",
+      "scenario": "Hypertensive chronic kidney disease stage 5",
+      "code_example": "I12.0 + N18.6",
+      "breakdown": {
+        "I12.0": "Hypertensive chronic kidney disease with stage 5 CKD or end stage renal disease (Evidence: pg no: 50, L55)",
+        "N18.6": "End stage renal disease (secondary code) (Evidence: pg no: 50, L56-L57)"
+      },
+      "rationale": "I12 category required with N18 secondary code for CKD staging (Evidence: pg no: 50, L55-L57)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not use I12 codes when provider documents CKD as unrelated to hypertension (Evidence: pg no: 50, L56)",
+      "Must include N18 secondary code with I12 for proper CKD staging (Evidence: pg no: 50, L56-L57)"
+    ],
+    "best_practices": [
+      "Always check provider documentation for CKD etiology (Evidence: pg no: 50, L56)",
+      "Include acute renal failure codes when present with hypertensive CKD (Evidence: pg no: 50, L60-L61)"
+    ],
+    "common_mistakes": [
+      "Using I12 codes when CKD has documented non-hypertensive cause (Evidence: pg no: 50, L56)",
+      "Omitting N18 secondary codes for CKD staging (Evidence: pg no: 50, L56-L57)",
+      "Missing concurrent acute renal failure codes (Evidence: pg no: 50, L60-L61)"
+    ],
+    "tips": [
+      "I12 category always requires N18 secondary code (Evidence: pg no: 50, L56-L57)",
+      "Check Section I.C.14 for additional CKD coding guidance (Evidence: pg no: 50, L59)",
+      "Acute renal failure can coexist with chronic kidney disease (Evidence: pg no: 50, L60-L61)"
+    ],
+    "implementation_notes": [
+      "Sequencing depends on admission/encounter circumstances",
+      "Provider documentation overrides classification presumptions for CKD etiology"
+    ],
+    "clinical_context": [
+      "Hypertension is a common cause of chronic kidney disease",
+      "CKD can have multiple etiologies including diabetes, autoimmune conditions",
+      "Acute renal failure can occur in patients with existing CKD"
+    ]
+  },
+  "search_keywords": [
+    "hypertensive chronic kidney disease",
+    "I12 category",
+    "chronic kidney disease",
+    "CKD staging",
+    "N18 codes",
+    "acute renal failure",
+    "hypertensive nephropathy",
+    "unrelated CKD",
+    "end stage renal disease",
+    "acute on chronic"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "circulatory_system_hypertensive_kidney",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "hypertension",
+      "chronic_kidney_disease",
+      "I12",
+      "N18",
+      "staging",
+      "acute_renal_failure"
+    ]
+  },
+  "page_range_processed": "pages_48_to_51"
+}

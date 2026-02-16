@@ -1,0 +1,160 @@
+{
+  "guideline_id": "Appendix_I.Introduction",
+  "semantic_title": "Present on Admission (POA) Reporting Guidelines Introduction and Purpose",
+  "section_path": "Appendix I > Present on Admission Reporting Guidelines > Introduction",
+  "page_number": 116,
+  "content": {
+    "full_text": "These guidelines are to be used as a supplement to the ICD-10-CM Official Guidelines for Coding and Reporting to facilitate the assignment of the Present on Admission (POA) indicator for each diagnosis and external cause of injury code reported on claim forms (UB-04 and 837 Institutional). These guidelines are not intended to replace any guidelines in the main body of the ICD-10-CM Official Guidelines for Coding and Reporting. The POA guidelines are not intended to provide guidance on when a condition should be coded, but rather, how to apply the POA indicator to the final set of diagnosis codes that have been assigned in accordance with Sections I, II, and III of the official coding guidelines. Subsequent to the assignment of the ICD-10-CM codes, the POA indicator should then be assigned to those conditions that have been coded. As stated in the Introduction to the ICD-10-CM Official Guidelines for Coding and Reporting, a joint effort between the healthcare provider and the coder is essential to achieve complete and accurate documentation, code assignment, and reporting of diagnoses and procedures. The importance of consistent, complete documentation in the medical record cannot be overemphasized. Medical record documentation from any provider involved in the care and treatment of the patient may be used to support the determination of whether a condition was present on admission or not. In the context of the official coding guidelines, the term \"provider\" means a physician or any qualified healthcare practitioner who is legally accountable for establishing the patient's diagnosis. These guidelines are not a substitute for the provider's clinical judgment as to the determination of whether a condition was/was not present on admission. The provider should be queried regarding issues related to the linking of signs/symptoms, timing of test results, and the timing of findings. Please see the CDC website for the detailed list of ICD-10-CM codes that do not require the use of a POA indicator (https://www.cdc.gov/nchs/icd/icd-10-cm/files.html). The codes and categories on this exempt list are for circumstances regarding the healthcare encounter or factors influencing health status that do not represent a current disease or injury or that describe conditions that are always present on admission. (Evidence: pg no: 116, L42-L50)",
+    "summary": "Introduction to POA reporting guidelines explaining their supplemental nature, purpose for claim forms, and relationship to main coding guidelines (Evidence: pg no: 116, L42-L50)",
+    "key_concepts": [
+      "Supplemental guidelines to main ICD-10-CM guidelines (Evidence: pg no: 116, L42-L43)",
+      "POA indicator assignment for claim forms UB-04 and 837 Institutional (Evidence: pg no: 116, L43)",
+      "Application to final set of assigned diagnosis codes (Evidence: pg no: 116, L45-L46)",
+      "Provider-coder collaboration requirement (Evidence: pg no: 116, L46)",
+      "Provider clinical judgment priority (Evidence: pg no: 116, L47)",
+      "CDC exempt code list reference (Evidence: pg no: 116, L47-L50)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "POA.Intro.1",
+        "rule_text": "POA guidelines supplement but do not replace main ICD-10-CM guidelines (Evidence: pg no: 116, L44-L45)",
+        "explanation": "These guidelines work in conjunction with the main coding guidelines and are specifically for POA indicator assignment (Evidence: pg no: 116, L44-L45)",
+        "importance": "critical",
+        "applies_to": "all POA indicator assignments",
+        "common_applications": [
+          "Inpatient claim coding",
+          "Hospital billing",
+          "POA indicator assignment"
+        ]
+      },
+      {
+        "rule_id": "POA.Intro.2",
+        "rule_text": "POA indicators applied to final set of diagnosis codes assigned per Sections I, II, and III (Evidence: pg no: 116, L45-L46)",
+        "explanation": "POA indicators are assigned after diagnosis codes have been properly assigned according to official guidelines (Evidence: pg no: 116, L45-L46)",
+        "importance": "critical",
+        "applies_to": "POA indicator assignment process",
+        "common_applications": [
+          "Post-coding POA assignment",
+          "Final claim preparation",
+          "Quality assurance processes"
+        ]
+      },
+      {
+        "rule_id": "POA.Intro.3",
+        "rule_text": "Provider clinical judgment takes precedence over guidelines for POA determination (Evidence: pg no: 116, L47)",
+        "explanation": "Guidelines do not substitute for provider's clinical judgment in determining whether condition was present on admission (Evidence: pg no: 116, L47)",
+        "importance": "high",
+        "applies_to": "POA determination disputes or unclear cases",
+        "common_applications": [
+          "Clinical documentation queries",
+          "POA determination clarification",
+          "Provider consultation"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Complete diagnosis code assignment per Sections I, II, and III",
+      "Step 2: Apply POA indicators to assigned diagnosis codes",
+      "Step 3: Consult provider for clinical judgment when unclear",
+      "Step 4: Check CDC exempt list for codes not requiring POA indicators",
+      "Step 5: Report on appropriate claim forms (UB-04, 837 Institutional)"
+    ],
+    "related_terminology": [
+      "Present on Admission",
+      "POA indicator",
+      "UB-04 claim form",
+      "837 Institutional",
+      "provider clinical judgment",
+      "exempt codes"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Diagnosis codes requiring POA indicators",
+      "External cause of injury codes",
+      "Exempt codes not requiring POA indicators"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "Section_I",
+        "title": "ICD-10-CM Official Guidelines Section I",
+        "relationship": "builds_upon",
+        "explanation": "POA guidelines supplement Section I coding guidelines"
+      },
+      {
+        "guideline_id": "Section_II",
+        "title": "ICD-10-CM Official Guidelines Section II",
+        "relationship": "builds_upon",
+        "explanation": "POA guidelines supplement Section II coding guidelines"
+      },
+      {
+        "guideline_id": "Section_III",
+        "title": "ICD-10-CM Official Guidelines Section III",
+        "relationship": "builds_upon",
+        "explanation": "POA guidelines supplement Section III coding guidelines"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "POA guidelines do not replace main ICD-10-CM guidelines (Evidence: pg no: 116, L44-L45)",
+      "Guidelines are not substitute for provider clinical judgment (Evidence: pg no: 116, L47)"
+    ],
+    "best_practices": [
+      "Ensure complete and consistent medical record documentation (Evidence: pg no: 116, L46)",
+      "Query providers for clarification when POA status is unclear (Evidence: pg no: 116, L47)",
+      "Check CDC website for exempt code list (Evidence: pg no: 116, L47-L48)"
+    ],
+    "common_mistakes": [
+      "Applying POA indicators before completing diagnosis code assignment",
+      "Not consulting provider when POA status is unclear"
+    ],
+    "tips": [
+      "POA indicators are assigned after diagnosis coding is complete (Evidence: pg no: 116, L45-L46)",
+      "Use any provider documentation to support POA determination (Evidence: pg no: 116, L46-L47)"
+    ],
+    "implementation_notes": [
+      "Applies to UB-04 and 837 Institutional claim forms",
+      "Joint effort between provider and coder is essential"
+    ],
+    "clinical_context": [
+      "Inpatient hospital admissions",
+      "Acute care facilities",
+      "Institutional billing"
+    ]
+  },
+  "search_keywords": [
+    "Present on Admission",
+    "POA indicator",
+    "POA guidelines",
+    "UB-04",
+    "837 Institutional",
+    "inpatient coding",
+    "claim forms"
+  ],
+  "metadata": {
+    "category": "convention",
+    "subcategory": "POA_reporting",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "POA",
+      "reporting",
+      "claim_forms",
+      "inpatient"
+    ]
+  },
+  "page_range_processed": "pages_114_to_117"
+}

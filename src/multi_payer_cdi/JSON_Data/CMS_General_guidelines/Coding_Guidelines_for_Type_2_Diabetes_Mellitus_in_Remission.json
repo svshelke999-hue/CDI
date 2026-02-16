@@ -1,0 +1,198 @@
+{
+  "guideline_id": "I.C.4.a.1.b",
+  "semantic_title": "Coding Guidelines for Type 2 Diabetes Mellitus in Remission",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 4. Chapter 4: Endocrine, Nutritional, and Metabolic Diseases > a. Diabetes mellitus > 1) Type of diabetes > (b) Type 2 diabetes mellitus in remission",
+  "page_number": 40,
+  "content": {
+    "full_text": "Code E11.A, Type 2 diabetes mellitus without complications in remission, is assigned based on provider documentation that the diabetes mellitus is in remission. If the documentation is unclear as to whether the Type 2 diabetes mellitus has achieved remission, the provider should be queried. For example, the term 'resolved' is not synonymous with remission. (Evidence: pg no: 40, L29-L35)",
+    "summary": "Guidelines for coding Type 2 diabetes in remission using E11.A based on specific provider documentation of remission status (Evidence: pg no: 40, L29-L35)",
+    "key_concepts": [
+      "Use E11.A for Type 2 diabetes in remission (Evidence: pg no: 40, L30-L31)",
+      "Requires specific provider documentation of remission (Evidence: pg no: 40, L31-L32)",
+      "Query provider if documentation unclear (Evidence: pg no: 40, L33-L34)",
+      "Term 'resolved' is not synonymous with remission (Evidence: pg no: 40, L34-L35)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "DM-REMISSION-001",
+        "rule_text": "Assign E11.A based on provider documentation of remission (Evidence: pg no: 40, L30-L32)",
+        "explanation": "Code E11.A should only be assigned when the provider specifically documents that the Type 2 diabetes mellitus is in remission (Evidence: pg no: 40, L30-L32)",
+        "importance": "critical",
+        "applies_to": "E11.A",
+        "common_applications": [
+          "Type 2 diabetes documented as in remission",
+          "Follow-up care for diabetes in remission"
+        ]
+      },
+      {
+        "rule_id": "DM-REMISSION-002",
+        "rule_text": "Query provider if remission status unclear (Evidence: pg no: 40, L33-L34)",
+        "explanation": "When documentation is unclear about whether Type 2 diabetes has achieved remission, the provider should be queried for clarification (Evidence: pg no: 40, L33-L34)",
+        "importance": "high",
+        "applies_to": "E11.A",
+        "common_applications": [
+          "Ambiguous documentation review",
+          "Provider query process"
+        ]
+      },
+      {
+        "rule_id": "DM-REMISSION-003",
+        "rule_text": "Term 'resolved' is not synonymous with remission (Evidence: pg no: 40, L34-L35)",
+        "explanation": "The term 'resolved' should not be interpreted as remission for coding purposes - specific remission documentation is required (Evidence: pg no: 40, L34-L35)",
+        "importance": "high",
+        "applies_to": "E11.A",
+        "common_applications": [
+          "Documentation review and interpretation",
+          "Distinguishing between resolved and remission terminology"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Review provider documentation for diabetes status",
+      "Step 2: Look for specific documentation of 'remission'",
+      "Step 3: If unclear, query provider for clarification",
+      "Step 4: Assign E11.A only with clear remission documentation",
+      "Step 5: Do not use E11.A for terms like 'resolved'"
+    ],
+    "related_terminology": [
+      "Type 2 diabetes mellitus",
+      "Remission",
+      "Resolved diabetes",
+      "Provider documentation",
+      "Query process"
+    ]
+  },
+  "code_references": {
+    "specific_codes": [
+      {
+        "code": "E11.A",
+        "description": "Type 2 diabetes mellitus without complications in remission (Evidence: pg no: 40, L30-L31)",
+        "context": "When provider documents Type 2 diabetes in remission",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "E11": "Type 2 diabetes mellitus",
+          "A": "Without complications in remission"
+        }
+      }
+    ],
+    "code_categories_mentioned": [
+      "Type 2 diabetes mellitus codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "DM-REMISSION-001",
+      "scenario": "Type 2 diabetes documented as in remission by provider",
+      "documentation_example": "Patient's Type 2 diabetes mellitus is in remission",
+      "step_by_step": [
+        "Step 1: Identify Type 2 diabetes diagnosis",
+        "Step 2: Confirm provider documentation states 'remission'",
+        "Step 3: Assign code E11.A",
+        "Step 4: No additional diabetes codes needed"
+      ],
+      "correct_coding": {
+        "primary_code": "E11.A",
+        "secondary_codes": [],
+        "sequencing": "As appropriate for encounter",
+        "rationale": "Provider specifically documented remission status (Evidence: pg no: 40, L30-L32)"
+      },
+      "incorrect_coding": {
+        "code": "E11.9",
+        "rationale": "Should not use unspecified diabetes code when remission is documented",
+        "common_mistake": "Not recognizing remission documentation"
+      }
+    },
+    {
+      "scenario_id": "DM-REMISSION-002",
+      "scenario": "Type 2 diabetes documented as 'resolved'",
+      "documentation_example": "Patient's Type 2 diabetes has resolved",
+      "step_by_step": [
+        "Step 1: Identify diabetes documentation",
+        "Step 2: Note use of term 'resolved' rather than 'remission'",
+        "Step 3: Query provider for clarification",
+        "Step 4: Do not assign E11.A without remission documentation"
+      ],
+      "correct_coding": {
+        "primary_code": "Query required",
+        "secondary_codes": [],
+        "sequencing": "Pending provider clarification",
+        "rationale": "Term 'resolved' is not synonymous with remission (Evidence: pg no: 40, L34-L35)"
+      },
+      "incorrect_coding": {
+        "code": "E11.A",
+        "rationale": "Should not assign remission code based on 'resolved' terminology",
+        "common_mistake": "Interpreting 'resolved' as remission"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "DM-REM-EX1",
+      "scenario": "Appropriate use of E11.A",
+      "code_example": "E11.A",
+      "breakdown": {
+        "E11": "Type 2 diabetes mellitus category (Evidence: pg no: 40, L30)",
+        "A": "Without complications in remission (Evidence: pg no: 40, L30-L31)"
+      },
+      "rationale": "Provider specifically documented diabetes in remission (Evidence: pg no: 40, L30-L32)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not assign E11.A without specific remission documentation (Evidence: pg no: 40, L31-L32)",
+      "Term 'resolved' is not synonymous with remission (Evidence: pg no: 40, L34-L35)"
+    ],
+    "best_practices": [
+      "Query provider when remission status is unclear (Evidence: pg no: 40, L33-L34)",
+      "Look for specific 'remission' terminology in documentation (Evidence: pg no: 40, L31-L32)"
+    ],
+    "common_mistakes": [
+      "Using E11.A when documentation says 'resolved' (Evidence: pg no: 40, L34-L35)",
+      "Assuming remission without provider documentation (Evidence: pg no: 40, L31-L32)"
+    ],
+    "tips": [
+      "Remission requires specific provider documentation (Evidence: pg no: 40, L31-L32)",
+      "Query when terminology is ambiguous (Evidence: pg no: 40, L33-L34)"
+    ],
+    "implementation_notes": [
+      "Requires clear provider documentation review",
+      "May need provider query process"
+    ],
+    "clinical_context": [
+      "Type 2 diabetes can achieve remission",
+      "Remission is different from cure or resolution"
+    ]
+  },
+  "search_keywords": [
+    "Type 2 diabetes remission",
+    "E11.A",
+    "diabetes mellitus remission",
+    "provider documentation",
+    "resolved diabetes",
+    "query provider",
+    "remission coding"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "endocrine_metabolic",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "diabetes",
+      "remission",
+      "Type 2",
+      "documentation",
+      "query"
+    ]
+  },
+  "page_range_processed": "pages_39_to_42"
+}

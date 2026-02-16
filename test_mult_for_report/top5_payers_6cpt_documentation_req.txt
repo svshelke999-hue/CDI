@@ -1,0 +1,783 @@
+================================================================================
+DOCUMENT REQUIREMENTS  CPT PROCEDURES
+================================================================================
+
+================================================================================
+1. AETNA
+================================================================================
+
+--------------------------------------------------------------------------------
+CPT 27130 - Total Hip Arthroplasty
+--------------------------------------------------------------------------------
+DOCUMENTS REQUIRED:
+- Complete diagnostic interpretation of imaging findings including:
+  * Relevant clinical information
+  * Detailed report of imaging findings
+  * Impression
+  * Specialty(ies) of the provider(s) who interpreted the images
+- Upon request, specific diagnostic image(s) that show the abnormality for which surgery is being requested (may include: MRI, CT scan, X-ray, Bone scan)
+- Documentation of conservative treatment attempts within the last year, including:
+  * NSAIDs or acetaminophen for ≥ 3 weeks (with dates, dosage, and response)
+  * Physical therapy or home exercise for ≥ 12 weeks (with dates, frequency, and response)
+  * Activity modification for ≥ 12 weeks (with specific modifications and response)
+- Medical notes documenting:
+  * Patient's symptoms and functional limitations
+  * Impact on activities of daily living
+  * Physical examination findings
+  * Previous treatments and their outcomes
+  * Medical history relevant to the procedure
+  * Current medications
+  * Allergies
+  * Comorbidities that may affect surgical outcomes
+- Surgical consultation notes indicating:
+  * Medical necessity for the procedure
+  * Surgical plan
+  * Expected outcomes
+  * Potential risks and benefits discussed with the patient
+- Documentation of informed consent
+- Pre-operative evaluation and clearance
+- Post-operative rehabilitation plan
+
+--------------------------------------------------------------------------------
+CPT 27447 - Total Knee Arthroplasty
+--------------------------------------------------------------------------------
+DOCUMENTS REQUIRED:
+- Complete diagnostic interpretation of imaging findings including, at a minimum:
+  * Relevant clinical information
+  * Detailed report of imaging findings, including:
+    - Documented closure of skeletal plates (for patients age less than 18 years)
+    - Presence or absence of focal full-thickness articular cartilage defect
+    - Size and location of focal cartilage defect
+    - Outerbridge grade
+    - Joint space and alignment
+    - Ligament tear location and grade
+  * Impression
+  * Specialty(ies) of the provider(s) who interpreted the images
+- Upon request, specific diagnostic image(s) that show the abnormality for which surgery is being requested (may include: MRI, CT scan, X-ray, Bone scan)
+- Documentation of conservative treatment attempts within the last year, including:
+  * NSAIDs or acetaminophen for ≥ 3 weeks (with dates, dosage, and response)
+  * Physical therapy or home exercise for ≥ 12 weeks (with dates, frequency, and response)
+  * Activity modification for ≥ 12 weeks (with specific modifications and response)
+  * ≥ 1 intra-articular corticosteroid injection (if used in place of NSAIDs), including dates and response
+- Medical notes documenting:
+  * Patient's symptoms and functional limitations
+  * Impact on activities of daily living
+  * Physical examination findings
+  * Previous treatments and their outcomes
+  * Medical history relevant to the procedure
+  * Current medications
+  * Allergies
+  * Comorbidities that may affect surgical outcomes
+- Surgical consultation notes indicating:
+  * Medical necessity for the procedure
+  * Surgical plan
+  * Expected outcomes
+  * Potential risks and benefits discussed with the patient
+- Documentation of informed consent
+- Pre-operative evaluation and clearance
+- Post-operative rehabilitation plan
+- For patients with complex medical conditions, documentation of specialist consultations as appropriate
+- For patients with previous knee surgeries, documentation of prior procedures and outcomes
+- For patients with bilateral knee issues, documentation supporting the medical necessity of addressing one or both knees
+- Documentation must clearly demonstrate that all conservative treatment options have been exhausted before proceeding with surgery
+- Documentation must be legible, dated, and signed by the appropriate healthcare provider
+
+--------------------------------------------------------------------------------
+CPT 29823 - Shoulder Arthroscopy, Debridement, Extensive
+--------------------------------------------------------------------------------
+DOCUMENTS REQUIRED:
+- Detailed operative report documenting:
+  * Preoperative diagnosis
+  * Postoperative diagnosis
+  * Description of the procedure performed
+  * Specific identification of all structures debrided (minimum of three discrete structures to qualify for CPT 29823)
+  * Extent of debridement performed on each structure
+  * Any additional procedures performed during the same operative session
+- Medical records supporting medical necessity, which may include:
+  * History and physical examination findings
+  * Prior conservative treatments attempted and their outcomes
+  * Imaging study results (e.g., MRI, X-ray) documenting shoulder pathology
+  * Functional limitations caused by the shoulder condition
+  * Pain levels and impact on activities of daily living
+- If other procedures are performed during the same operative session (e.g., rotator cuff repair, biceps tenodesis, subacromial decompression), clear documentation distinguishing which structures were debrided versus which structures underwent other procedures is essential for proper coding
+- Documentation must clearly establish that three or more discrete structures were debrided to support the use of CPT 29823 rather than CPT 29822 (limited debridement of one or two discrete structures)
+- Any structures that undergo a separate procedure (e.g., repair) during the same operative session cannot be counted toward the three structures required for CPT 29823
+
+
+--------------------------------------------------------------------------------
+CPT 29826 - Shoulder Arthroscopy, Decompression
+--------------------------------------------------------------------------------
+DOCUMENTS REQUIRED:
+- Complete history and physical examination documenting shoulder pathology
+- Detailed clinical notes documenting:
+  * Duration and severity of symptoms
+  * Functional limitations
+  * Impact on activities of daily living
+  * Response to prior conservative treatments
+- Results of diagnostic imaging studies (X-rays, MRI, ultrasound) confirming shoulder pathology
+- Documentation of failed conservative management, which may include:
+  * Physical therapy notes and duration of treatment
+  * Medication trials and responses
+  * Injection therapy results if applicable
+- Surgical consultation notes indicating medical necessity for the procedure
+- Operative report detailing the procedure performed
+- Post-operative care plan
+
+
+--------------------------------------------------------------------------------
+CPT 29827 - Arthroscopic Rotator Cuff Repair
+--------------------------------------------------------------------------------
+DOCUMENTS REQUIRED:
+- Complete medical history and physical examination documenting the patient's condition
+- Diagnostic imaging reports (MRI, ultrasound, or CT arthrogram) confirming the presence and extent of the rotator cuff tear
+- Documentation of failed conservative treatment measures, including:
+  * Duration and types of conservative treatments attempted
+  * Response to previous treatments
+  * Physical therapy notes and evaluations
+  * Medication history including use of NSAIDs and/or steroid injections
+- Assessment of functional limitations and impact on activities of daily living
+- Surgical consultation notes indicating the need for surgical intervention
+- Operative report detailing the procedure performed, findings, and any complications
+- Post-operative care plan and rehabilitation protocol
+- For any follow-up visits, documentation of the patient's progress and response to treatment
+
+
+--------------------------------------------------------------------------------
+CPT 73721 - MRI Lower Extremity (No Contrast)
+--------------------------------------------------------------------------------
+DOCUMENTS REQUIRED:
+- Clinical documentation supporting the medical necessity of the MRI lower extremity without contrast must be submitted with the prior authorization request
+- The documentation must demonstrate that the requested service meets Aetna's definition of medical necessity
+- The clinical documentation should include:
+  * Patient's clinical history relevant to the requested MRI
+  * Physical examination findings
+  * Results of previous diagnostic tests (if applicable)
+  * Conservative treatments tried and failed (if applicable)
+  * Specific clinical questions to be answered by the MRI
+  * How the results of the MRI will impact patient management
+- The documentation must be sufficient to allow medical necessity review
+- The provider must maintain documentation in the patient's medical record that supports the medical necessity of the service
+- The documentation must be made available upon request
+- Documentation must include the specific clinical indications for the MRI lower extremity without contrast
+- If the request is for a follow-up MRI, documentation should include the results of the previous imaging and the clinical rationale for the follow-up study
+- If the request is related to a specific diagnosis, documentation should include relevant clinical findings that support that diagnosis
+- If the request is related to pre-surgical planning, documentation should include the planned surgical procedure and why the MRI is necessary for surgical planning
+- If the request is related to post-surgical evaluation, documentation should include the date of surgery, the procedure performed, and the specific clinical concern that warrants the MRI
+
+
+================================================================================
+2. ANTHEM BLUE CROSS AND BLUE SHIELD OF CONNECTICUT
+================================================================================
+
+--------------------------------------------------------------------------------
+CPT 27130 - Total Hip Arthroplasty
+--------------------------------------------------------------------------------
+DOCUMENTS REQUIRED:
+- Complete diagnostic interpretation of imaging findings including, at a minimum:
+  * Relevant clinical information
+  * Detailed report of imaging findings
+  * Impression
+  * Specialty(ies) of the provider(s) who interpreted the images
+- Upon request, specific diagnostic image(s) that show the abnormality for which surgery is being requested (may include: MRI, CT scan, X-ray, Bone scan)
+- Documentation of conservative treatment attempts within the last year, including:
+  * NSAIDs or acetaminophen for ≥ 3 weeks (with dates, dosage, and response)
+  * Physical therapy or home exercise for ≥ 12 weeks (with dates, frequency, and response)
+  * Activity modification for ≥ 12 weeks (with specific modifications and response)
+- Medical notes documenting:
+  * Patient's symptoms and functional limitations
+  * Impact on activities of daily living
+  * Physical examination findings
+  * Previous treatments and their outcomes
+  * Medical history relevant to the procedure
+  * Current medications
+  * Allergies
+  * Comorbidities that may affect surgical outcomes
+- Surgical consultation notes indicating:
+  * Medical necessity for the procedure
+  * Surgical plan
+  * Expected outcomes
+  * Potential risks and benefits discussed with the patient
+- Documentation of informed consent
+- Pre-operative evaluation and clearance
+- Post-operative rehabilitation plan
+
+
+--------------------------------------------------------------------------------
+CPT 27447 - Total Knee Arthroplasty
+--------------------------------------------------------------------------------
+DOCUMENTS REQUIRED:
+- Complete diagnostic interpretation of imaging findings including, at a minimum:
+  * Relevant clinical information
+  * Detailed report of imaging findings, including:
+    - Documented closure of skeletal plates (for patients age less than 18 years)
+    - Presence or absence of focal full-thickness articular cartilage defect
+    - Size and location of focal cartilage defect
+    - Outerbridge grade
+    - Joint space and alignment
+    - Ligament tear location and grade
+  * Impression
+  * Specialty(ies) of the provider(s) who interpreted the images
+- Upon request, specific diagnostic image(s) that show the abnormality for which surgery is being requested (may include: MRI, CT scan, X-ray, Bone scan)
+- Documentation of conservative treatment attempts within the last year, including:
+  * NSAIDs or acetaminophen for ≥ 3 weeks (with dates, dosage, and response)
+  * Physical therapy or home exercise for ≥ 12 weeks (with dates, frequency, and response)
+  * Activity modification for ≥ 12 weeks (with specific modifications and response)
+  * ≥ 1 intra-articular corticosteroid injection (if used in place of NSAIDs), including dates and response
+- Medical notes documenting:
+  * Patient's symptoms and functional limitations
+  * Impact on activities of daily living
+  * Physical examination findings
+  * Previous treatments and their outcomes
+  * Medical history relevant to the procedure
+  * Current medications
+  * Allergies
+  * Comorbidities that may affect surgical outcomes
+- Surgical consultation notes indicating:
+  * Medical necessity for the procedure
+  * Surgical plan
+  * Expected outcomes
+  * Potential risks and benefits discussed with the patient
+- Documentation of informed consent
+- Pre-operative evaluation and clearance
+- Post-operative rehabilitation plan
+
+
+--------------------------------------------------------------------------------
+CPT 29823 - Shoulder Arthroscopy, Debridement, Extensive
+--------------------------------------------------------------------------------
+DOCUMENTS REQUIRED:
+- Detailed operative report documenting:
+  * Preoperative diagnosis
+  * Postoperative diagnosis
+  * Description of the procedure performed
+  * Specific identification of all structures debrided (minimum of three discrete structures to qualify for CPT 29823)
+  * Extent of debridement performed on each structure
+  * Any additional procedures performed during the same operative session
+- Medical records supporting medical necessity, which may include:
+  * History and physical examination findings
+  * Prior conservative treatments attempted and their outcomes
+  * Imaging study results (e.g., MRI, X-ray) documenting shoulder pathology
+  * Functional limitations caused by the shoulder condition
+  * Pain levels and impact on activities of daily living
+- If other procedures are performed during the same operative session (e.g., rotator cuff repair, biceps tenodesis, subacromial decompression), clear documentation distinguishing which structures were debrided versus which structures underwent other procedures is essential for proper coding
+- Documentation must clearly establish that three or more discrete structures were debrided to support the use of CPT 29823 rather than CPT 29822 (limited debridement of one or two discrete structures)
+- Any structures that undergo a separate procedure (e.g., repair) during the same operative session cannot be counted toward the three structures required for CPT 29823
+
+
+--------------------------------------------------------------------------------
+CPT 29826 - Shoulder Arthroscopy, Decompression
+--------------------------------------------------------------------------------
+DOCUMENTS REQUIRED:
+- Complete history and physical examination documenting shoulder pathology
+- Detailed clinical notes documenting:
+  * Duration and severity of symptoms
+  * Functional limitations
+  * Impact on activities of daily living
+  * Response to prior conservative treatments
+- Results of diagnostic imaging studies (X-rays, MRI, ultrasound) confirming shoulder pathology
+- Documentation of failed conservative management, which may include:
+  * Physical therapy notes and duration of treatment
+  * Medication trials and responses
+  * Injection therapy results if applicable
+- Surgical consultation notes indicating medical necessity for the procedure
+- Operative report detailing the procedure performed
+- Post-operative care plan
+
+
+--------------------------------------------------------------------------------
+CPT 29827 - Arthroscopic Rotator Cuff Repair
+--------------------------------------------------------------------------------
+DOCUMENTS REQUIRED:
+- Complete medical history and physical examination documenting the patient's condition
+- Diagnostic imaging reports (MRI, ultrasound, or CT arthrogram) confirming the presence and extent of the rotator cuff tear
+- Documentation of failed conservative treatment measures, including:
+  * Duration and types of conservative treatments attempted
+  * Response to previous treatments
+  * Physical therapy notes and evaluations
+  * Medication history including use of NSAIDs and/or steroid injections
+- Assessment of functional limitations and impact on activities of daily living
+- Surgical consultation notes indicating the need for surgical intervention
+- Operative report detailing the procedure performed, findings, and any complications
+- Post-operative care plan and rehabilitation protocol
+- For any follow-up visits, documentation of the patient's progress and response to treatment
+
+
+--------------------------------------------------------------------------------
+CPT 73721 - MRI Lower Extremity (No Contrast)
+--------------------------------------------------------------------------------
+DOCUMENTS REQUIRED:
+- Clinical documentation supporting the medical necessity of the MRI lower extremity without contrast must be submitted with the prior authorization request
+- The documentation must demonstrate that the requested service meets Anthem's definition of medical necessity
+- The clinical documentation should include:
+  * Patient's clinical history relevant to the requested MRI
+  * Physical examination findings
+  * Results of previous diagnostic tests (if applicable)
+  * Conservative treatments tried and failed (if applicable)
+  * Specific clinical questions to be answered by the MRI
+  * How the results of the MRI will impact patient management
+- The documentation must be sufficient to allow medical necessity review
+- The provider must maintain documentation in the patient's medical record that supports the medical necessity of the service
+- The documentation must be made available upon request
+- Documentation must include the specific clinical indications for the MRI lower extremity without contrast
+- If the request is for a follow-up MRI, documentation should include the results of the previous imaging and the clinical rationale for the follow-up study
+- If the request is related to a specific diagnosis, documentation should include relevant clinical findings that support that diagnosis
+- If the request is related to pre-surgical planning, documentation should include the planned surgical procedure and why the MRI is necessary for surgical planning
+- If the request is related to post-surgical evaluation, documentation should include the date of surgery, the procedure performed, and the specific clinical concern that warrants the MRI
+
+
+================================================================================
+3. CONNECTICUT MEDICAID (HUSKY HEALTH / CT DSS)
+================================================================================
+
+--------------------------------------------------------------------------------
+CPT 27130 - Total Hip Arthroplasty
+--------------------------------------------------------------------------------
+DOCUMENTS REQUIRED:
+- Complete diagnostic interpretation of imaging findings including, at a minimum:
+  * Relevant clinical information
+  * Detailed report of imaging findings
+  * Impression
+  * Specialty(ies) of the provider(s) who interpreted the images
+- Upon request, specific diagnostic image(s) that show the abnormality for which surgery is being requested (may include: MRI, CT scan, X-ray, Bone scan)
+- Documentation of conservative treatment attempts within the last year, including:
+  * NSAIDs or acetaminophen for ≥ 3 weeks (with dates, dosage, and response)
+  * Physical therapy or home exercise for ≥ 12 weeks (with dates, frequency, and response)
+  * Activity modification for ≥ 12 weeks (with specific modifications and response)
+- Medical notes documenting:
+  * Patient's symptoms and functional limitations
+  * Impact on activities of daily living
+  * Physical examination findings
+  * Previous treatments and their outcomes
+  * Medical history relevant to the procedure
+  * Current medications
+  * Allergies
+  * Comorbidities that may affect surgical outcomes
+- Surgical consultation notes indicating:
+  * Medical necessity for the procedure
+  * Surgical plan
+  * Expected outcomes
+  * Potential risks and benefits discussed with the patient
+- Documentation of informed consent
+- Pre-operative evaluation and clearance
+- Post-operative rehabilitation plan
+
+
+--------------------------------------------------------------------------------
+CPT 27447 - Total Knee Arthroplasty
+--------------------------------------------------------------------------------
+DOCUMENTS REQUIRED:
+- Complete diagnostic interpretation of imaging findings including, at a minimum:
+  * Relevant clinical information
+  * Detailed report of imaging findings, including:
+    - Documented closure of skeletal plates (for patients age less than 18 years)
+    - Presence or absence of focal full-thickness articular cartilage defect
+    - Size and location of focal cartilage defect
+    - Outerbridge grade
+    - Joint space and alignment
+    - Ligament tear location and grade
+  * Impression
+  * Specialty(ies) of the provider(s) who interpreted the images
+- Upon request, specific diagnostic image(s) that show the abnormality for which surgery is being requested (may include: MRI, CT scan, X-ray, Bone scan)
+- Documentation of conservative treatment attempts within the last year, including:
+  * NSAIDs or acetaminophen for ≥ 3 weeks (with dates, dosage, and response)
+  * Physical therapy or home exercise for ≥ 12 weeks (with dates, frequency, and response)
+  * Activity modification for ≥ 12 weeks (with specific modifications and response)
+  * ≥ 1 intra-articular corticosteroid injection (if used in place of NSAIDs), including dates and response
+- Medical notes documenting:
+  * Patient's symptoms and functional limitations
+  * Impact on activities of daily living
+  * Physical examination findings
+  * Previous treatments and their outcomes
+  * Medical history relevant to the procedure
+  * Current medications
+  * Allergies
+  * Comorbidities that may affect surgical outcomes
+- Surgical consultation notes indicating:
+  * Medical necessity for the procedure
+  * Surgical plan
+  * Expected outcomes
+  * Potential risks and benefits discussed with the patient
+- Documentation of informed consent
+- Pre-operative evaluation and clearance
+- Post-operative rehabilitation plan
+- For patients with complex medical conditions, documentation of specialist consultations as appropriate
+- For patients with previous knee surgeries, documentation of prior procedures and outcomes
+- For patients with bilateral knee issues, documentation supporting the medical necessity of addressing one or both knees
+- Documentation must clearly demonstrate that all conservative treatment options have been exhausted before proceeding with surgery
+- Documentation must be legible, dated, and signed by the appropriate healthcare provider
+
+
+--------------------------------------------------------------------------------
+CPT 29823 - Shoulder Arthroscopy, Debridement, Extensive
+--------------------------------------------------------------------------------
+DOCUMENTS REQUIRED:
+- Detailed operative report documenting:
+  * Preoperative diagnosis
+  * Postoperative diagnosis
+  * Description of the procedure performed
+  * Specific identification of all structures debrided (minimum of three discrete structures to qualify for CPT 29823)
+  * Extent of debridement performed on each structure
+  * Any additional procedures performed during the same operative session
+- Medical records supporting medical necessity, which may include:
+  * History and physical examination findings
+  * Prior conservative treatments attempted and their outcomes
+  * Imaging study results (e.g., MRI, X-ray) documenting shoulder pathology
+  * Functional limitations caused by the shoulder condition
+  * Pain levels and impact on activities of daily living
+- If other procedures are performed during the same operative session (e.g., rotator cuff repair, biceps tenodesis, subacromial decompression), clear documentation distinguishing which structures were debrided versus which structures underwent other procedures is essential for proper coding
+- Documentation must clearly establish that three or more discrete structures were debrided to support the use of CPT 29823 rather than CPT 29822 (limited debridement of one or two discrete structures)
+- Any structures that undergo a separate procedure (e.g., repair) during the same operative session cannot be counted toward the three structures required for CPT 29823
+
+--------------------------------------------------------------------------------
+CPT 29826 - Shoulder Arthroscopy, Decompression
+--------------------------------------------------------------------------------
+DOCUMENTS REQUIRED:
+- Complete history and physical examination documenting shoulder pathology
+- Detailed clinical notes documenting:
+  * Duration and severity of symptoms
+  * Functional limitations
+  * Impact on activities of daily living
+  * Response to prior conservative treatments
+- Results of diagnostic imaging studies (X-rays, MRI, ultrasound) confirming shoulder pathology
+- Documentation of failed conservative management, which may include:
+  * Physical therapy notes and duration of treatment
+  * Medication trials and responses
+  * Injection therapy results if applicable
+- Surgical consultation notes indicating medical necessity for the procedure
+- Operative report detailing the procedure performed
+- Post-operative care plan
+
+--------------------------------------------------------------------------------
+CPT 29827 - Arthroscopic Rotator Cuff Repair
+--------------------------------------------------------------------------------
+DOCUMENTS REQUIRED:
+- Complete medical history and physical examination documenting the patient's condition
+- Diagnostic imaging reports (MRI, ultrasound, or CT arthrogram) confirming the presence and extent of the rotator cuff tear
+- Documentation of failed conservative treatment measures, including:
+  * Duration and types of conservative treatments attempted
+  * Response to previous treatments
+  * Physical therapy notes and evaluations
+  * Medication history including use of NSAIDs and/or steroid injections
+- Assessment of functional limitations and impact on activities of daily living
+- Surgical consultation notes indicating the need for surgical intervention
+- Operative report detailing the procedure performed, findings, and any complications
+- Post-operative care plan and rehabilitation protocol
+- For any follow-up visits, documentation of the patient's progress and response to treatment
+
+--------------------------------------------------------------------------------
+CPT 73721 - MRI Lower Extremity (No Contrast)
+--------------------------------------------------------------------------------
+DOCUMENTS REQUIRED:
+- Clinical documentation supporting the medical necessity of the MRI lower extremity without contrast must be submitted with the prior authorization request
+- The documentation must demonstrate that the requested service meets the Department of Social Services' (DSS) definition of medical necessity
+- The clinical documentation should include:
+  * Patient's clinical history relevant to the requested MRI
+  * Physical examination findings
+  * Results of previous diagnostic tests (if applicable)
+  * Conservative treatments tried and failed (if applicable)
+  * Specific clinical questions to be answered by the MRI
+  * How the results of the MRI will impact patient management
+- The documentation must be sufficient to allow eviCore healthcare to perform a medical necessity review based on the eviCore Radiology Clinical Guidelines
+- The provider must maintain documentation in the patient's medical record that supports the medical necessity of the service
+- The documentation must be made available to the Department of Social Services (DSS) or its agent upon request
+- Documentation must include the specific clinical indications for the MRI lower extremity without contrast that align with the eviCore Radiology Clinical Guidelines
+- If the request is for a follow-up MRI, documentation should include the results of the previous imaging and the clinical rationale for the follow-up study
+- If the request is related to a specific diagnosis, documentation should include relevant clinical findings that support that diagnosis
+- If the request is related to pre-surgical planning, documentation should include the planned surgical procedure and why the MRI is necessary for surgical planning
+- If the request is related to post-surgical evaluation, documentation should include the date of surgery, the procedure performed, and the specific clinical concern that warrants the MRI
+- Documentation must be submitted through the eviCore radiology authorization portal or via fax if the portal is unavailable
+
+================================================================================
+4. MEDICARE J13/JK — NATIONAL GOVERNMENT SERVICES (NGS)
+================================================================================
+
+--------------------------------------------------------------------------------
+CPT 27130 - Total Hip Arthroplasty
+--------------------------------------------------------------------------------
+DOCUMENTS REQUIRED:
+- Documentation must support the medical necessity criteria outlined in LCD L36573 (Total Hip Arthroplasty)
+- Proper documentation should include appropriate ICD-10-CM diagnosis codes that support medical necessity for total hip arthroplasty as referenced in LCA A59811, A57765, and other billing and coding articles
+- Since multiple billing and coding articles are referenced (A57683, A57684, A59811, A56777, A57765), it can be inferred that proper documentation of the procedure, including operative notes, pre-operative evaluations, and post-operative care plans, would be required
+- As CPT 27130 appears to be classified as an inpatient-only procedure, documentation would need to support the inpatient setting for the procedure
+- Documentation would likely need to include:
+  * History and physical examination findings
+  * Diagnostic imaging results demonstrating hip pathology
+  * Conservative treatment attempts and outcomes (if applicable)
+  * Surgical indications
+  * Operative report detailing the total hip arthroplasty procedure
+  * Post-operative care plan
+  * Discharge summary (for inpatient procedures)
+
+--------------------------------------------------------------------------------
+CPT 27447 - Total Knee Arthroplasty
+--------------------------------------------------------------------------------
+DOCUMENTS REQUIRED:
+- Comprehensive history and physical examination documenting the nature, duration, and severity of joint pain and functional limitations
+- Documentation of failed conservative treatment measures, which may include:
+  * Medication trials (NSAIDs, analgesics)
+  * Physical therapy
+  * Activity modifications
+  * Use of assistive devices
+  * Injections (corticosteroid, viscosupplementation)
+- Radiographic evidence supporting the need for total knee arthroplasty, which may include:
+  * X-rays showing joint space narrowing
+  * Evidence of bone-on-bone articulation
+  * Osteophyte formation
+  * Subchondral sclerosis
+  * Joint deformity
+- Pre-operative evaluation documenting:
+  * Medical clearance
+  * Anesthesia risk assessment
+  * Evaluation of comorbidities that may affect surgical outcomes
+- Operative report detailing the procedure performed, implants used, and any complications
+- Post-operative documentation including:
+  * Post-operative care plan
+  * Physical therapy orders
+  * Follow-up evaluations
+
+--------------------------------------------------------------------------------
+CPT 29823 - Shoulder Arthroscopy, Extensive Debridement
+--------------------------------------------------------------------------------
+DOCUMENTS REQUIRED:
+- Documentation requirements are not explicitly stated in the provided content
+- Standard Medicare documentation principles would apply, which typically include:
+  * History and physical examination documenting shoulder pathology
+  * Documentation of conservative treatment attempts and outcomes
+  * Imaging study results (e.g., MRI, X-ray) documenting shoulder pathology
+  * Operative report detailing the procedure performed
+
+--------------------------------------------------------------------------------
+CPT 29826 - Shoulder Arthroscopy, Decompression
+--------------------------------------------------------------------------------
+DOCUMENTS REQUIRED:
+- In the absence of specific NGS Medicare documentation guidance for J13/JK, standard Medicare documentation principles would apply
+- The medical record should typically include:
+  * History and physical examination documenting shoulder pathology
+  * Documentation of conservative treatment attempts and outcomes
+  * Imaging reports supporting the need for surgical intervention
+  * Operative report detailing the procedure performed
+  * Post-operative care plan and follow-up
+- The medical record should establish that the procedure was reasonable and necessary for the patient's condition and should support all services billed
+
+
+--------------------------------------------------------------------------------
+CPT 73721 - MRI Lower Extremity (No Contrast)
+--------------------------------------------------------------------------------
+DOCUMENTS REQUIRED:
+- The medical record must contain documentation that fully supports the medical necessity for the MRI lower extremity without contrast
+- The physician (MD/DO) performing the service must document that they meet all criteria specified in the LCD and Billing and Coding Article referenced (A54953)
+- The medical record should include:
+  * Patient history relevant to the condition requiring imaging
+  * Physical examination findings
+  * Prior treatments and response to those treatments
+  * Reason for ordering the MRI
+  * Specific clinical questions to be answered by the MRI
+  * How the results of the MRI will impact patient management
+- The ordering physician must document the medical necessity for the MRI in the patient's medical record
+- The interpreting physician must provide a written report of the MRI findings, including:
+  * Clinical information or indication for the study
+  * Description of the procedure performed
+  * Findings and results
+  * Impression or conclusion
+  * Recommendations, if any
+- Documentation must support that the MRI was performed on FDA-approved equipment and within the parameters specified by the approval
+- The technical component provider must maintain documentation of:
+  * The physician order for the MRI
+  * The date of service
+  * The specific MRI protocol used
+  * The identity of the technologist performing the study
+  * Quality control documentation for the equipment
+- If contrast was considered but not used (since 73721 is specifically for MRI without contrast), documentation should explain why non-contrast study was selected
+- Documentation should include any relevant prior imaging studies and how the current MRI relates to or differs from previous studies
+
+
+================================================================================
+PAYER: UNITEDHEALTHCARE (UHC)
+================================================================================
+
+
+================================================================================
+CPT 27130 - TOTAL HIP ARTHROPLASTY
+================================================================================
+
+DOCUMENTS REQUIRED:
+
+For Medicare Advantage Plans:
+- Documentation requirements vary by MAC region according to applicable LCDs/LCAs
+- Generally requires documentation of:
+  * Medical necessity for the procedure
+  * Failed conservative treatment
+  * Imaging results showing joint deterioration
+  * Physical examination findings
+  * Functional limitations
+
+For Commercial Plans:
+- Complete diagnostic interpretation of imaging findings including, at a minimum:
+  * Relevant clinical information
+  * Detailed report of imaging findings
+  * Impression
+  * Specialty(ies) of the provider(s) who interpreted the images
+- Upon request, specific diagnostic image(s) that show the abnormality for which surgery is 
+  being requested, which may include: MRI, CT scan, X-ray and/or bone scan
+- Conservative care documentation showing:
+  * NSAIDs or acetaminophen ≥ 3 weeks
+  * PT or home exercise ≥ 12 weeks
+  * Activity modification ≥ 12 weeks
+- Documentation of disabling pain and functional limitations
+- Physical examination findings
+- Failure of conservative management
+
+
+
+================================================================================
+CPT 27447 - TOTAL KNEE ARTHROPLASTY (TKA)
+================================================================================
+
+DOCUMENTS REQUIRED:
+
+For Medicare Advantage Plans:
+- Documentation requirements vary by MAC region according to the applicable LCD/LCA
+- Generally includes:
+  * History and physical examination findings
+  * Description of symptoms and functional limitations
+  * Results of diagnostic imaging showing joint damage
+  * Documentation of failed conservative treatments
+  * Medical necessity for the procedure
+
+For Commercial Plans:
+- Complete diagnostic interpretation of imaging findings including, at a minimum:
+  * Relevant clinical information
+  * Detailed report of imaging findings, including:
+    - Documented closure of skeletal plates (for patients under age 18)
+    - Presence or absence of focal full-thickness articular cartilage defect
+    - Size and location of focal cartilage defect
+    - Outerbridge grade
+    - Joint space and alignment
+    - Ligament tear location and grade
+  * Impression
+  * Specialty(ies) of the provider(s) who interpreted the images
+- Upon request, specific diagnostic images that show the abnormality for which surgery is 
+  being requested, which may include: MRI, CT scan, X-ray, Bone scan
+- Documentation of conservative treatments tried and failed:
+  * NSAIDs or acetaminophen ≥ 3 weeks OR ≥ 1 intra-articular corticosteroid injection
+  * PT or home exercise ≥ 12 weeks
+  * Activity modification ≥ 12 weeks
+  * Timing and duration of these treatments must be easily identifiable in the clinical 
+    documentation.
+
+
+================================================================================
+CPT 29823 - SHOULDER ARTHROSCOPY, SURGICAL; DEBRIDEMENT, EXTENSIVE
+================================================================================
+
+DOCUMENTS REQUIRED:
+
+For Commercial Plans:
+- Detailed operative report documenting:
+  * Preoperative diagnosis
+  * Postoperative diagnosis
+  * Description of the procedure performed
+  * Specific identification of all structures debrided (minimum of three discrete structures 
+    to qualify for CPT 29823)
+  * Extent of debridement performed on each structure
+  * Any additional procedures performed during the same operative session
+- Medical records supporting medical necessity, which may include:
+  * History and physical examination findings
+  * Prior conservative treatments attempted and their outcomes
+  * Imaging study results (e.g., MRI, X-ray) documenting shoulder pathology
+  * Functional limitations caused by the shoulder condition
+  * Pain levels and impact on activities of daily living
+- If other procedures are performed during the same operative session (e.g., rotator cuff 
+  repair, biceps tenodesis, subacromial decompression), clear documentation distinguishing 
+  which structures were debrided versus which structures underwent other procedures is 
+  essential for proper coding
+- Documentation must clearly establish that three or more discrete structures were debrided 
+  to support the use of CPT 29823 rather than CPT 29822 (limited debridement of one or two 
+  discrete structures)
+- Any structures that undergo a separate procedure (e.g., repair) during the same operative 
+  session cannot be counted toward the three structures required for CPT 29823
+
+PRIOR AUTHORIZATION:
+- Not explicitly stated in policy documents; providers should check the member's specific 
+  benefit plan document
+
+
+================================================================================
+CPT 29826 - SHOULDER ARTHROSCOPY, SURGICAL; DECOMPRESSION OF SUBACROMIAL SPACE 
+           WITH PARTIAL ACROMIOPLASTY
+================================================================================
+
+
+DOCUMENTS REQUIRED:
+
+For Commercial Plans:
+- Medical records documentation may be required to assess whether the member meets the 
+  clinical criteria for coverage but does not guarantee coverage of the service requested
+- When documentation is requested for review, providers should refer to the guidelines 
+  titled "Medical Records Documentation Used for Reviews"
+
+
+================================================================================
+CPT 29827 - ARTHROSCOPIC ROTATOR CUFF REPAIR
+================================================================================
+
+DOCUMENTS REQUIRED:
+
+For All Plans:
+- Medical records documentation may be required to assess whether the member meets the 
+  clinical criteria for coverage but does not guarantee coverage of the service requested
+- Documentation should include:
+  * History and physical examination findings
+  * Description of functional limitations
+  * Results of diagnostic imaging confirming rotator cuff tear
+  * Documentation of failed conservative treatment
+  * Operative report detailing the procedure performed
+  * For cases requiring extensive debridement (29823) in addition to rotator cuff repair 
+    (29827), documentation must clearly indicate that the debridement was performed in a 
+    different area of the same shoulder
+
+PRIOR AUTHORIZATION:
+- Varies by specific plan
+- When prior authorization is required, the following information should be submitted:
+  * Clinical documentation supporting medical necessity
+  * Imaging studies confirming rotator cuff tear
+  * Documentation of failed conservative treatment
+  * Proposed treatment plan
+
+
+================================================================================
+CPT 73721 - MRI LOWER EXTREMITY (NO CONTRAST)
+================================================================================
+
+DOCUMENTS REQUIRED:
+
+For Commercial Plans:
+- Current clinical evaluation including:
+  * Detailed history of the specific condition requiring imaging
+  * Physical examination findings related to the requested imaging
+  * Results of x-rays or other prior imaging studies related to the current condition
+  * Details of conservative treatment tried and failed (when applicable)
+  * For trauma cases: mechanism of injury, timing, and severity
+  * For suspected infection: presence of fever, elevated inflammatory markers, or other signs 
+    of infection
+  * For suspected tumors: presence of pain, swelling, or other concerning symptoms
+  * For joint disorders: details of pain, limited range of motion, instability, or mechanical 
+    symptoms
+- For hospital outpatient department MRI requests, documentation must include:
+  * Specific reason why the procedure cannot be performed at a freestanding imaging center
+  * For claustrophobia/anxiety: documentation of diagnosis and need for open MRI
+  * For size accommodation issues: documentation of patient size and equipment limitations
+  * For sedation needs: documentation of why moderate or deep sedation is required
+- For pediatric patients:
+  * Growth and developmental history when relevant
+  * For limping child: duration of symptoms, presence of fever, history of trauma
+  * For DDH: results of physical examination and ultrasound findings
+  * For AVN: risk factors and results of x-rays
+  * For SCFE: results of x-rays and risk factors
+  * For inflammatory conditions: results of laboratory tests and joint examination
+
+
+================================================================================
+END OF DOCUMENT
+================================================================================
+

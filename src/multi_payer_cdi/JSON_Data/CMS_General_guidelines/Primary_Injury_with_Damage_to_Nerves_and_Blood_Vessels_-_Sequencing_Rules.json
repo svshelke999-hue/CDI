@@ -1,0 +1,161 @@
+{
+  "guideline_id": "I.C.19.b.2",
+  "semantic_title": "Primary Injury with Damage to Nerves and Blood Vessels - Sequencing Rules",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 19. Injury, Poisoning, and Certain Other Consequences of External Causes > b. Coding of Injuries > 2) Primary injury with damage to nerves/blood vessels",
+  "page_number": 79,
+  "content": {
+    "full_text": "When a primary injury results in minor damage to peripheral nerves or blood vessels, the primary injury is sequenced first with additional code(s) for injuries to nerves and spinal cord (such as category S04), and/or injury to blood vessels (such as category S15). When the primary injury is to the blood vessels or nerves, that injury should be sequenced first. (Evidence: pg no: 79, L32-L37)",
+    "summary": "Guidelines for sequencing codes when primary injuries cause damage to nerves or blood vessels (Evidence: pg no: 79, L32-L37)",
+    "key_concepts": [
+      "Primary injury sequencing priority (Evidence: pg no: 79, L32-L33)",
+      "Additional coding for nerve and blood vessel damage (Evidence: pg no: 79, L33-L34)",
+      "Sequencing based on primary site of injury (Evidence: pg no: 79, L36-L37)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "primary_injury_minor_damage",
+        "rule_text": "When a primary injury results in minor damage to peripheral nerves or blood vessels, the primary injury is sequenced first (Evidence: pg no: 79, L32-L33)",
+        "explanation": "The original injury takes precedence in sequencing when nerve or blood vessel damage is secondary and minor (Evidence: pg no: 79, L32-L34)",
+        "importance": "high",
+        "applies_to": "S00-T14.9",
+        "common_applications": [
+          "Fractures with associated nerve damage",
+          "Lacerations with blood vessel involvement"
+        ]
+      },
+      {
+        "rule_id": "primary_nerve_vessel_injury",
+        "rule_text": "When the primary injury is to the blood vessels or nerves, that injury should be sequenced first (Evidence: pg no: 79, L36-L37)",
+        "explanation": "Direct injuries to nerves or blood vessels take sequencing priority when they are the primary focus of treatment (Evidence: pg no: 79, L36-L37)",
+        "importance": "high",
+        "applies_to": "S04, S15",
+        "common_applications": [
+          "Direct nerve injuries",
+          "Primary vascular injuries"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify the primary injury and any associated nerve or blood vessel damage",
+      "Step 2: Determine if nerve/blood vessel damage is primary or secondary",
+      "Step 3: Sequence primary injury first, then add codes for secondary damage",
+      "Step 4: If nerve/blood vessel injury is primary, sequence that first"
+    ],
+    "related_terminology": [
+      "Primary injury",
+      "Peripheral nerves",
+      "Blood vessels",
+      "Minor damage",
+      "Sequencing"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "S04",
+        "description": "Injury to nerves and spinal cord (Evidence: pg no: 79, L34)",
+        "requirement": "Use as additional code when primary injury causes nerve damage",
+        "usage_rules": [
+          "Sequence after primary injury code when damage is secondary (Evidence: pg no: 79, L33-L34)",
+          "Sequence first when nerve injury is primary (Evidence: pg no: 79, L36-L37)"
+        ]
+      },
+      {
+        "range": "S15",
+        "description": "Injury to blood vessels (Evidence: pg no: 79, L34)",
+        "requirement": "Use as additional code when primary injury causes blood vessel damage",
+        "usage_rules": [
+          "Sequence after primary injury code when damage is secondary (Evidence: pg no: 79, L33-L34)",
+          "Sequence first when blood vessel injury is primary (Evidence: pg no: 79, L36-L37)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Injury to nerves and spinal cord",
+      "Injury to blood vessels"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "primary_fracture_nerve_damage",
+      "scenario": "Patient with femur fracture that resulted in minor damage to peripheral nerve",
+      "documentation_example": "Closed fracture of femur shaft with associated peripheral nerve damage",
+      "step_by_step": [
+        "Step 1: Code the primary fracture first",
+        "Step 2: Add additional code from S04 category for nerve damage"
+      ],
+      "correct_coding": {
+        "primary_code": "S72.xxx (fracture code)",
+        "secondary_codes": [
+          "S04.xxx (nerve injury)"
+        ],
+        "sequencing": "Primary injury first, then nerve damage",
+        "rationale": "Primary injury caused the nerve damage, so fracture is sequenced first (Evidence: pg no: 79, L32-L34)"
+      },
+      "incorrect_coding": {
+        "code": "S04.xxx as primary",
+        "codes": [
+          "S04.xxx, S72.xxx"
+        ],
+        "rationale": "Nerve damage was secondary to the fracture",
+        "common_mistake": "Sequencing nerve damage first when it's secondary"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Carefully determine whether nerve or blood vessel injury is primary or secondary (Evidence: pg no: 79, L32-L37)"
+    ],
+    "best_practices": [
+      "Always assess the relationship between injuries to determine proper sequencing (Evidence: pg no: 79, L32-L37)"
+    ],
+    "common_mistakes": [
+      "Sequencing secondary nerve or blood vessel damage before primary injury (Evidence: pg no: 79, L32-L37)"
+    ],
+    "tips": [
+      "Focus on which injury is the primary focus of treatment (Evidence: pg no: 79, L36-L37)"
+    ],
+    "implementation_notes": [
+      "Use clinical judgment to determine primary vs secondary injury status"
+    ],
+    "clinical_context": [
+      "Common in trauma cases with multiple injury sites"
+    ]
+  },
+  "search_keywords": [
+    "primary injury",
+    "nerve damage",
+    "blood vessel injury",
+    "sequencing",
+    "peripheral nerves",
+    "S04",
+    "S15",
+    "injury sequencing"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "injury_coding",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "injury",
+      "sequencing",
+      "nerves",
+      "blood_vessels",
+      "trauma"
+    ]
+  },
+  "page_range_processed": "pages_78_to_81"
+}

@@ -1,0 +1,164 @@
+{
+  "guideline_id": "III",
+  "semantic_title": "General Rules for Reporting Additional Diagnoses in Inpatient Settings",
+  "section_path": "Section III > Reporting Additional Diagnoses",
+  "page_number": 110,
+  "content": {
+    "full_text": "For reporting purposes, the definition for \"other diagnoses\" is interpreted as additional clinically significant conditions that affect patient care in terms of requiring: clinical evaluation; or therapeutic treatment; or diagnostic procedures; or extended length of hospital stay; or increased nursing care and/or monitoring. The UHDDS item #11-b defines Other Diagnoses as \"all conditions that coexist at the time of admission, that develop subsequently, or that affect the treatment received and/or the length of stay. Diagnoses that relate to an earlier episode which have no bearing on the current hospital stay are to be excluded.\" UHDDS definitions apply to inpatients in acute care, short-term, long term care and psychiatric hospital setting. The UHDDS definitions are used by acute care short-term hospitals to report inpatient data elements in a standardized manner. These data elements and their definitions can be found in the July 31, 1985, Federal Register (Vol. 50, No, 147), pp. 31038-40. Since that time, the application of the UHDDS definitions has been expanded to include all non-outpatient settings (acute care, short term, long term care and psychiatric hospitals; home health agencies; rehab facilities; nursing homes, etc.). The UHDDS definitions also apply to hospice services (all levels of care). The following guidelines are to be applied in designating \"other diagnoses\" when neither the Alphabetic Index nor the Tabular List in ICD-10-CM provide direction. The listing of the diagnoses in the patient record is the responsibility of the provider. (Evidence: pg no: 110-111, L63-L75)",
+    "summary": "Additional diagnoses must be clinically significant and affect patient care, following UHDDS definitions for all non-outpatient settings (Evidence: pg no: 110-111, L63-L75)",
+    "key_concepts": [
+      "Clinically significant conditions affecting patient care (Evidence: pg no: 110, L63-L66)",
+      "UHDDS definition for other diagnoses (Evidence: pg no: 110, L67-L68)",
+      "Applies to all non-outpatient settings (Evidence: pg no: 111, L72-L74)",
+      "Provider responsibility for diagnosis listing (Evidence: pg no: 111, L75)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "III.1",
+        "rule_text": "Additional diagnoses must be clinically significant conditions that affect patient care in terms of requiring: clinical evaluation; or therapeutic treatment; or diagnostic procedures; or extended length of hospital stay; or increased nursing care and/or monitoring (Evidence: pg no: 110, L63-L66)",
+        "explanation": "Other diagnoses must meet specific criteria showing they impact patient care through evaluation, treatment, procedures, length of stay, or nursing care (Evidence: pg no: 110, L63-L66)",
+        "importance": "critical",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Comorbid conditions requiring monitoring",
+          "Conditions requiring medication adjustments",
+          "Conditions affecting surgical risk"
+        ]
+      },
+      {
+        "rule_id": "III.2",
+        "rule_text": "UHDDS defines Other Diagnoses as \"all conditions that coexist at the time of admission, that develop subsequently, or that affect the treatment received and/or the length of stay. Diagnoses that relate to an earlier episode which have no bearing on the current hospital stay are to be excluded.\" (Evidence: pg no: 110, L67-L68)",
+        "explanation": "Other diagnoses include conditions present at admission or developing during stay that affect treatment or length of stay, but exclude conditions from previous episodes that don't impact current care (Evidence: pg no: 110, L67-L68)",
+        "importance": "critical",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Comorbidities present at admission",
+          "Hospital-acquired conditions",
+          "Conditions affecting treatment decisions"
+        ]
+      },
+      {
+        "rule_id": "III.3",
+        "rule_text": "UHDDS definitions apply to inpatients in acute care, short-term, long term care and psychiatric hospital setting and have been expanded to include all non-outpatient settings (Evidence: pg no: 110-111, L68-L74)",
+        "explanation": "The UHDDS definitions for additional diagnoses apply broadly to all inpatient and non-outpatient care settings including hospitals, home health, rehab facilities, nursing homes, and hospice (Evidence: pg no: 110-111, L68-L74)",
+        "importance": "high",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Hospital inpatient stays",
+          "Skilled nursing facility care",
+          "Home health services",
+          "Hospice care"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify all conditions present during encounter",
+      "Step 2: Determine if each condition affects patient care per criteria",
+      "Step 3: Exclude conditions from previous episodes with no current impact",
+      "Step 4: Code clinically significant additional diagnoses"
+    ],
+    "related_terminology": [
+      "other diagnoses",
+      "additional diagnoses",
+      "clinically significant",
+      "UHDDS",
+      "coexist",
+      "develop subsequently"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": []
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "UHDDS",
+        "title": "Uniform Hospital Discharge Data Set",
+        "relationship": "implements",
+        "explanation": "Uses UHDDS definitions for additional diagnoses"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "III.1",
+      "scenario": "Patient admitted for pneumonia with diabetes requiring insulin adjustment",
+      "documentation_example": "Patient admitted for community-acquired pneumonia. Has diabetes mellitus requiring insulin adjustment due to steroid treatment for pneumonia.",
+      "step_by_step": [
+        "Step 1: Identify pneumonia as principal diagnosis",
+        "Step 2: Identify diabetes as additional condition",
+        "Step 3: Determine diabetes affects care (insulin adjustment)",
+        "Step 4: Code diabetes as additional diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "J18.9",
+        "secondary_codes": [
+          "E11.9"
+        ],
+        "sequencing": "Pneumonia first, diabetes as additional diagnosis",
+        "rationale": "Diabetes affects patient care by requiring treatment modification (Evidence: pg no: 110, L63-L66)"
+      },
+      "incorrect_coding": {
+        "code": "J18.9",
+        "codes": [
+          "J18.9"
+        ],
+        "rationale": "Should include diabetes since it affects treatment decisions",
+        "common_mistake": "Omitting conditions that affect treatment but aren't the main reason for admission"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Exclude diagnoses from earlier episodes with no bearing on current stay (Evidence: pg no: 110, L68)"
+    ],
+    "best_practices": [
+      "Include all conditions that affect patient care per UHDDS criteria (Evidence: pg no: 110, L63-L68)"
+    ],
+    "common_mistakes": [
+      "Including historical conditions that don't affect current care (Evidence: pg no: 110, L68)",
+      "Omitting conditions that affect treatment or length of stay (Evidence: pg no: 110, L63-L66)"
+    ],
+    "tips": [
+      "Focus on conditions that impact current episode of care (Evidence: pg no: 110, L67-L68)"
+    ],
+    "implementation_notes": [
+      "Provider is responsible for listing diagnoses in patient record"
+    ],
+    "clinical_context": [
+      "Critical for accurate case mix and resource utilization reporting"
+    ]
+  },
+  "search_keywords": [
+    "additional diagnoses",
+    "other diagnoses",
+    "UHDDS",
+    "clinically significant",
+    "secondary diagnoses",
+    "comorbidities",
+    "patient care impact"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "additional_diagnoses",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "non_outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "additional_diagnoses",
+      "UHDDS",
+      "clinically_significant",
+      "inpatient"
+    ]
+  },
+  "page_range_processed": "pages_108_to_111"
+}

@@ -1,0 +1,147 @@
+{
+  "guideline_id": "I.C.4.a.2",
+  "semantic_title": "Default Coding for Diabetes Mellitus Type Not Documented",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 4. Chapter 4: Endocrine, Nutritional, and Metabolic Diseases > a. Diabetes mellitus > 2) Type of diabetes mellitus not documented",
+  "page_number": 40,
+  "content": {
+    "full_text": "If the type of diabetes mellitus is not documented in the medical record the default is E11.-, Type 2 diabetes mellitus. (Evidence: pg no: 40, L36-L37)",
+    "summary": "Default coding rule for diabetes when type is not specified in documentation - use Type 2 diabetes codes (Evidence: pg no: 40, L36-L37)",
+    "key_concepts": [
+      "Default to Type 2 diabetes when type not documented (Evidence: pg no: 40, L37)",
+      "Use E11.- code range for unspecified diabetes type (Evidence: pg no: 40, L37)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "DM-DEFAULT-001",
+        "rule_text": "Default to E11.- when diabetes type not documented (Evidence: pg no: 40, L37)",
+        "explanation": "When the medical record documents diabetes mellitus but does not specify the type, assign a code from category E11, Type 2 diabetes mellitus (Evidence: pg no: 40, L36-L37)",
+        "importance": "critical",
+        "applies_to": "E11.-",
+        "common_applications": [
+          "Diabetes mellitus NOS",
+          "Unspecified diabetes type",
+          "Diabetes without type specification"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Review documentation for diabetes diagnosis",
+      "Step 2: Look for specification of diabetes type",
+      "Step 3: If type not documented, default to Type 2",
+      "Step 4: Assign appropriate E11.- code based on complications"
+    ],
+    "related_terminology": [
+      "Diabetes mellitus NOS",
+      "Unspecified diabetes",
+      "Type 2 diabetes mellitus",
+      "Default coding"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "E11.-",
+        "description": "Type 2 diabetes mellitus (Evidence: pg no: 40, L37)",
+        "requirement": "Default when diabetes type not specified",
+        "usage_rules": [
+          "Use when diabetes type not documented (Evidence: pg no: 40, L36-L37)",
+          "Select specific code based on complications present"
+        ]
+      }
+    ],
+    "code_categories_mentioned": [
+      "Type 2 diabetes mellitus category E11"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "DM-DEFAULT-001",
+      "scenario": "Diabetes mellitus documented without type specification",
+      "documentation_example": "Patient has diabetes mellitus with diabetic nephropathy",
+      "step_by_step": [
+        "Step 1: Identify diabetes mellitus diagnosis",
+        "Step 2: Note no type specification in documentation",
+        "Step 3: Apply default rule for Type 2 diabetes",
+        "Step 4: Assign E11.21 for Type 2 with nephropathy"
+      ],
+      "correct_coding": {
+        "primary_code": "E11.21",
+        "secondary_codes": [],
+        "sequencing": "As appropriate for encounter",
+        "rationale": "Default to Type 2 when type not specified (Evidence: pg no: 40, L36-L37)"
+      },
+      "incorrect_coding": {
+        "code": "E10.21",
+        "rationale": "Should not assume Type 1 diabetes without documentation",
+        "common_mistake": "Guessing diabetes type instead of using default"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "DM-DEF-EX1",
+      "scenario": "Unspecified diabetes type",
+      "code_example": "E11.9",
+      "breakdown": {
+        "E11": "Type 2 diabetes mellitus (default) (Evidence: pg no: 40, L37)",
+        "9": "Without complications"
+      },
+      "rationale": "Default to Type 2 when diabetes type not documented (Evidence: pg no: 40, L36-L37)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not guess diabetes type - use default Type 2 (Evidence: pg no: 40, L36-L37)"
+    ],
+    "best_practices": [
+      "Always check documentation for diabetes type specification (Evidence: pg no: 40, L36-L37)",
+      "Use E11.- codes as default for unspecified type (Evidence: pg no: 40, L37)"
+    ],
+    "common_mistakes": [
+      "Assuming Type 1 diabetes without documentation",
+      "Not applying default coding rule"
+    ],
+    "tips": [
+      "Type 2 diabetes is the default for unspecified cases (Evidence: pg no: 40, L37)"
+    ],
+    "implementation_notes": [
+      "Applies when documentation lacks type specification",
+      "Still need to identify complications present"
+    ],
+    "clinical_context": [
+      "Type 2 diabetes is more common than Type 1",
+      "Default reflects epidemiological patterns"
+    ]
+  },
+  "search_keywords": [
+    "diabetes type not documented",
+    "default diabetes coding",
+    "E11 diabetes",
+    "Type 2 diabetes default",
+    "unspecified diabetes",
+    "diabetes mellitus NOS"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "endocrine_metabolic",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "diabetes",
+      "default",
+      "Type 2",
+      "unspecified",
+      "documentation"
+    ]
+  },
+  "page_range_processed": "pages_39_to_42"
+}

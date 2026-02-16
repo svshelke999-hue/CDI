@@ -1,0 +1,224 @@
+{
+  "guideline_id": "I.A.13",
+  "semantic_title": "Etiology/Manifestation Convention - Code First and Use Additional Code Instructions",
+  "section_path": "Section I > A. Conventions > 13. Etiology/manifestation convention",
+  "page_number": 10,
+  "content": {
+    "full_text": "Certain conditions have both an underlying etiology and multiple body system manifestations due to the underlying etiology. For such conditions, the ICD-10-CM has a coding convention that requires the underlying condition be sequenced first, if applicable, followed by the manifestation. Wherever such a combination exists, there is a \"use additional code\" note at the etiology code, and a \"code first\" note at the manifestation code. These instructional notes indicate the proper sequencing order of the codes, etiology followed by manifestation. In most cases the manifestation codes will have in the code title, \"in diseases classified elsewhere.\" Codes with this title are a component of the etiology/manifestation convention. The code title indicates that it is a manifestation code. \"In diseases classified elsewhere\" codes are never permitted to be used as first listed or principal diagnosis codes. They must be used in conjunction with an underlying condition code and they must be listed following the underlying condition. (Evidence: pg no: 10-11, L32-L37)",
+    "summary": "Convention requiring etiology codes to be sequenced first, followed by manifestation codes, with specific instructional notes guiding proper sequencing (Evidence: pg no: 10-11, L32-L37)",
+    "key_concepts": [
+      "Underlying etiology sequenced first (Evidence: pg no: 10, L35)",
+      "Manifestation codes follow etiology (Evidence: pg no: 10, L35-L36)",
+      "Use additional code note at etiology (Evidence: pg no: 10, L36)",
+      "Code first note at manifestation (Evidence: pg no: 10, L36-L37)",
+      "In diseases classified elsewhere codes are manifestations (Evidence: pg no: 10, L37)",
+      "Manifestation codes never used as principal diagnosis (Evidence: pg no: 10-11, L37)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "ETIO_SEQUENCE",
+        "rule_text": "Underlying condition must be sequenced first, followed by manifestation (Evidence: pg no: 10, L35-L36)",
+        "explanation": "This convention ensures proper representation of causal relationships between conditions (Evidence: pg no: 10, L34-L36)",
+        "importance": "critical",
+        "applies_to": "etiology_manifestation_codes",
+        "common_applications": [
+          "Dementia in other diseases",
+          "Neurological manifestations of systemic diseases"
+        ]
+      },
+      {
+        "rule_id": "MANIFESTATION_RESTRICTION",
+        "rule_text": "In diseases classified elsewhere codes never permitted as first listed or principal diagnosis (Evidence: pg no: 10-11, L37)",
+        "explanation": "These codes must always be secondary to underlying condition code (Evidence: pg no: 10-11, L37)",
+        "importance": "critical",
+        "applies_to": "manifestation_codes",
+        "common_applications": [
+          "Secondary coding requirements",
+          "Principal diagnosis restrictions"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify etiology and manifestation relationship",
+      "Step 2: Locate 'use additional code' note at etiology",
+      "Step 3: Locate 'code first' note at manifestation",
+      "Step 4: Sequence etiology code first",
+      "Step 5: Follow with manifestation code(s)"
+    ],
+    "related_terminology": [
+      "Etiology",
+      "Manifestation",
+      "Use additional code",
+      "Code first",
+      "In diseases classified elsewhere",
+      "Underlying condition"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "F02",
+        "description": "Dementia in other diseases classified elsewhere (Evidence: pg no: 10, L38)",
+        "context": "Example of etiology/manifestation convention",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "F02": "Manifestation code for dementia"
+        }
+      },
+      {
+        "code": "G20",
+        "description": "Parkinson's disease - underlying etiology (Evidence: pg no: 10-11, L42-L43)",
+        "context": "Must be sequenced first before dementia manifestation",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "G20": "Underlying etiology code"
+        }
+      },
+      {
+        "code": "F02.80",
+        "description": "Dementia in diseases classified elsewhere without behavioral disturbance (Evidence: pg no: 11, L47)",
+        "context": "Manifestation code sequenced after G20",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "F02.80": "Manifestation without behavioral disturbance"
+        }
+      },
+      {
+        "code": "F02.81",
+        "description": "Dementia in diseases classified elsewhere with behavioral disturbance (Evidence: pg no: 11, L47)",
+        "context": "Manifestation code sequenced after G20",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "F02.81": "Manifestation with behavioral disturbance"
+        }
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": "In diseases classified elsewhere",
+        "description": "Title pattern indicating manifestation codes (Evidence: pg no: 10, L37)",
+        "example": "F02 Dementia in other diseases classified elsewhere",
+        "explanation": "These codes are always manifestations and never principal diagnoses"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Dementia codes",
+      "Parkinson's disease codes",
+      "Manifestation codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.B.7",
+        "title": "Multiple coding for a single condition",
+        "relationship": "related_to",
+        "explanation": "Code first and use additional code notes also apply to non-etiology/manifestation combinations"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "DEMENTIA_PARKINSONS",
+      "scenario": "Patient with dementia due to Parkinson's disease with behavioral disturbance",
+      "documentation_example": "Dementia in Parkinson's disease with behavioral disturbance",
+      "step_by_step": [
+        "Step 1: Identify Parkinson's as underlying etiology",
+        "Step 2: Identify dementia as manifestation",
+        "Step 3: Look up G20 for Parkinson's disease",
+        "Step 4: Look up F02.81 for dementia with behavioral disturbance",
+        "Step 5: Sequence G20 first, F02.81 second"
+      ],
+      "correct_coding": {
+        "primary_code": "G20",
+        "secondary_codes": [
+          "F02.81"
+        ],
+        "sequencing": "Etiology first, manifestation second",
+        "rationale": "Follows etiology/manifestation convention with proper sequencing (Evidence: pg no: 10-11, L41-L47)"
+      },
+      "incorrect_coding": {
+        "code": "F02.81",
+        "codes": [
+          "F02.81 as principal"
+        ],
+        "rationale": "Manifestation codes cannot be principal diagnosis",
+        "common_mistake": "Using manifestation code as primary diagnosis"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "PARKINSONS_DEMENTIA",
+      "scenario": "Dementia with Parkinson's disease",
+      "code_example": "G20, F02.80 or F02.81",
+      "breakdown": {
+        "G20": "Parkinson's disease (etiology) (Evidence: pg no: 10-11, L42-L43)",
+        "F02.80/F02.81": "Dementia manifestation with/without behavioral disturbance (Evidence: pg no: 11, L47)"
+      },
+      "rationale": "G20 represents underlying etiology and must be sequenced first (Evidence: pg no: 11, L46)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "In diseases classified elsewhere codes never permitted as first listed or principal diagnosis (Evidence: pg no: 10-11, L37)",
+      "Must use underlying condition code in conjunction with manifestation code (Evidence: pg no: 10-11, L37)"
+    ],
+    "best_practices": [
+      "Always check for use additional code and code first notes (Evidence: pg no: 10, L36-L37)",
+      "Follow proper sequencing order: etiology followed by manifestation (Evidence: pg no: 10, L36-L37)"
+    ],
+    "common_mistakes": [
+      "Using manifestation codes as principal diagnosis",
+      "Incorrect sequencing of etiology and manifestation",
+      "Missing the underlying condition code"
+    ],
+    "tips": [
+      "Look for 'in diseases classified elsewhere' in code titles",
+      "Check Alphabetic Index for bracketed manifestation codes",
+      "Verify instructional notes in Tabular List"
+    ],
+    "implementation_notes": [
+      "Alphabetic Index shows etiology first, manifestation in brackets",
+      "Some manifestation codes don't have 'in diseases classified elsewhere' in title"
+    ],
+    "clinical_context": [
+      "Common in neurological conditions",
+      "Systemic diseases with organ-specific manifestations"
+    ]
+  },
+  "search_keywords": [
+    "etiology",
+    "manifestation",
+    "code first",
+    "use additional code",
+    "in diseases classified elsewhere",
+    "underlying condition",
+    "sequencing",
+    "dementia",
+    "Parkinson's",
+    "F02",
+    "G20"
+  ],
+  "metadata": {
+    "category": "convention",
+    "subcategory": "etiology_manifestation",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "etiology_manifestation",
+      "sequencing",
+      "code_first",
+      "use_additional_code",
+      "manifestation_codes"
+    ]
+  },
+  "page_range_processed": "pages_9_to_12"
+}

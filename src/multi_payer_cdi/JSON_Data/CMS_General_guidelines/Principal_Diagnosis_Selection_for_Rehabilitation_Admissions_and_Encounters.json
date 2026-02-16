@@ -1,0 +1,275 @@
+{
+  "guideline_id": "II.K",
+  "semantic_title": "Principal Diagnosis Selection for Rehabilitation Admissions and Encounters",
+  "section_path": "Section II > K. Admissions/Encounters for Rehabilitation",
+  "page_number": 110,
+  "content": {
+    "full_text": "When the purpose for the admission/encounter is rehabilitation, sequence first the code for the condition for which the service is being performed. For example, for an admission/encounter for rehabilitation for right-sided dominant hemiplegia following a cerebrovascular infarction, report code I69.351, Hemiplegia and hemiparesis following cerebral infarction affecting right dominant side, as the first-listed or principal diagnosis. If the condition for which the rehabilitation service is being provided is no longer present, report the appropriate aftercare code as the first-listed or principal diagnosis, unless the rehabilitation service is being provided following an injury. For rehabilitation services following active treatment of an injury, assign the injury code with the appropriate seventh character for subsequent encounter as the first-listed or principal diagnosis. For example, if a patient with severe degenerative osteoarthritis of the hip, underwent hip replacement and the current encounter/admission is for rehabilitation, report code Z47.1, Aftercare following joint replacement surgery, as the first-listed or principal diagnosis. If the patient requires rehabilitation post hip replacement for right intertrochanteric femur fracture, report code S72.141D, Displaced intertrochanteric fracture of right femur, subsequent encounter for closed fracture with routine healing, as the first-listed or principal diagnosis. See Section I.C.21.c.7., Factors influencing health states and contact with health services, Aftercare. See Section I.C.19.a., for additional information about the use of 7th characters for injury codes. (Evidence: pg no: 110, L53-L60)",
+    "summary": "Rehabilitation encounters require specific sequencing rules based on whether the original condition is still present and whether it involves injury (Evidence: pg no: 110, L53-L60)",
+    "key_concepts": [
+      "Condition being rehabilitated sequenced first when still present (Evidence: pg no: 110, L53-L54)",
+      "Aftercare codes when condition no longer present (Evidence: pg no: 110, L54-L55)",
+      "Injury codes with 7th character for injury rehabilitation (Evidence: pg no: 110, L55-L56)",
+      "Specific examples provided for different scenarios (Evidence: pg no: 110, L54-L59)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "II.K.1",
+        "rule_text": "When the purpose for the admission/encounter is rehabilitation, sequence first the code for the condition for which the service is being performed (Evidence: pg no: 110, L53-L54)",
+        "explanation": "For rehabilitation encounters, the condition being rehabilitated should be the first-listed or principal diagnosis when the condition is still present (Evidence: pg no: 110, L53-L54)",
+        "importance": "critical",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Stroke rehabilitation",
+          "Cardiac rehabilitation",
+          "Orthopedic rehabilitation"
+        ]
+      },
+      {
+        "rule_id": "II.K.2",
+        "rule_text": "If the condition for which the rehabilitation service is being provided is no longer present, report the appropriate aftercare code as the first-listed or principal diagnosis, unless the rehabilitation service is being provided following an injury (Evidence: pg no: 110, L54-L55)",
+        "explanation": "When the original condition has resolved but rehabilitation is still needed, use aftercare codes, except for injury-related rehabilitation (Evidence: pg no: 110, L54-L55)",
+        "importance": "high",
+        "applies_to": "Z47-Z51",
+        "common_applications": [
+          "Post-surgical rehabilitation",
+          "Joint replacement aftercare"
+        ]
+      },
+      {
+        "rule_id": "II.K.3",
+        "rule_text": "For rehabilitation services following active treatment of an injury, assign the injury code with the appropriate seventh character for subsequent encounter as the first-listed or principal diagnosis (Evidence: pg no: 110, L55-L56)",
+        "explanation": "Injury-related rehabilitation uses the injury code with appropriate 7th character rather than aftercare codes (Evidence: pg no: 110, L55-L56)",
+        "importance": "high",
+        "applies_to": "S00-T88",
+        "common_applications": [
+          "Fracture rehabilitation",
+          "Traumatic brain injury rehabilitation"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify that encounter is for rehabilitation",
+      "Step 2: Determine if original condition is still present",
+      "Step 3: If condition present, code the condition first",
+      "Step 4: If condition resolved, determine if injury-related",
+      "Step 5: Use aftercare codes for non-injury or injury codes with 7th character for injury"
+    ],
+    "related_terminology": [
+      "rehabilitation",
+      "aftercare",
+      "seventh character",
+      "subsequent encounter",
+      "injury codes"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z47-Z51",
+        "description": "Aftercare codes for rehabilitation when original condition resolved (Evidence: pg no: 110, L54-L55)",
+        "requirement": "Use when condition no longer present, except for injuries",
+        "usage_rules": [
+          "Use when original condition has resolved (Evidence: pg no: 110, L54-L55)",
+          "Do not use for injury-related rehabilitation (Evidence: pg no: 110, L55)"
+        ]
+      },
+      {
+        "range": "S00-T88",
+        "description": "Injury codes with 7th character for injury rehabilitation (Evidence: pg no: 110, L55-L56)",
+        "requirement": "Use appropriate 7th character for subsequent encounter",
+        "usage_rules": [
+          "Use for injury-related rehabilitation (Evidence: pg no: 110, L55-L56)",
+          "Include appropriate 7th character (Evidence: pg no: 110, L55-L56)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "I69.351",
+        "description": "Hemiplegia and hemiparesis following cerebral infarction affecting right dominant side (Evidence: pg no: 110, L54)",
+        "context": "Example for stroke rehabilitation when condition still present",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "I69": "Sequelae of cerebrovascular disease",
+          "351": "Hemiplegia affecting right dominant side"
+        }
+      },
+      {
+        "code": "Z47.1",
+        "description": "Aftercare following joint replacement surgery (Evidence: pg no: 110, L57)",
+        "context": "Example for rehabilitation after joint replacement when original condition resolved",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z47": "Orthopedic aftercare",
+          "1": "Joint replacement surgery"
+        }
+      },
+      {
+        "code": "S72.141D",
+        "description": "Displaced intertrochanteric fracture of right femur, subsequent encounter for closed fracture with routine healing (Evidence: pg no: 110, L58-L59)",
+        "context": "Example for injury rehabilitation with 7th character",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "S72": "Fracture of femur",
+          "141": "Displaced intertrochanteric fracture of right femur",
+          "D": "Subsequent encounter for closed fracture with routine healing"
+        }
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": "Injury codes + 7th character D",
+        "description": "Pattern for injury rehabilitation coding (Evidence: pg no: 110, L55-L56)",
+        "example": "S72.141D",
+        "explanation": "Use injury code with appropriate 7th character for subsequent encounter"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Aftercare codes",
+      "Injury codes with 7th characters",
+      "Sequelae codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.21.c.7",
+        "title": "Factors influencing health states and contact with health services, Aftercare",
+        "relationship": "related_to",
+        "explanation": "Provides additional guidance on aftercare coding"
+      },
+      {
+        "guideline_id": "I.C.19.a",
+        "title": "7th characters for injury codes",
+        "relationship": "related_to",
+        "explanation": "Provides guidance on 7th character usage for injury codes"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "II.K.1",
+      "scenario": "Patient admitted for rehabilitation following stroke with ongoing right-sided weakness",
+      "documentation_example": "Patient admitted for inpatient rehabilitation for right-sided dominant hemiplegia following cerebrovascular infarction 2 weeks ago.",
+      "step_by_step": [
+        "Step 1: Identify rehabilitation encounter",
+        "Step 2: Determine hemiplegia condition is still present",
+        "Step 3: Apply rule II.K.1 - code condition being rehabilitated",
+        "Step 4: Use I69.351 as principal diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "I69.351",
+        "secondary_codes": [],
+        "sequencing": "Condition being rehabilitated as principal diagnosis",
+        "rationale": "Condition for which rehabilitation is being performed should be sequenced first (Evidence: pg no: 110, L53-L54)"
+      },
+      "incorrect_coding": {
+        "code": "Z50.9",
+        "codes": [
+          "Z50.9"
+        ],
+        "rationale": "Should not use general rehabilitation code when specific condition is present",
+        "common_mistake": "Using general rehabilitation codes instead of specific condition codes"
+      }
+    },
+    {
+      "scenario_id": "II.K.2",
+      "scenario": "Patient for rehabilitation after hip replacement for osteoarthritis, original arthritis resolved",
+      "documentation_example": "Patient admitted for rehabilitation following total hip replacement for severe osteoarthritis. Surgery successful, arthritis resolved.",
+      "step_by_step": [
+        "Step 1: Identify rehabilitation encounter",
+        "Step 2: Determine original condition (arthritis) no longer present",
+        "Step 3: Confirm not injury-related",
+        "Step 4: Use aftercare code Z47.1"
+      ],
+      "correct_coding": {
+        "primary_code": "Z47.1",
+        "secondary_codes": [],
+        "sequencing": "Aftercare code as principal diagnosis",
+        "rationale": "When condition no longer present, use appropriate aftercare code (Evidence: pg no: 110, L54-L55)"
+      },
+      "incorrect_coding": {
+        "code": "M16.11",
+        "codes": [
+          "M16.11"
+        ],
+        "rationale": "Should not code resolved osteoarthritis when using aftercare",
+        "common_mistake": "Coding resolved conditions instead of aftercare"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "II.K.EX1",
+      "scenario": "Stroke rehabilitation with ongoing hemiplegia",
+      "code_example": "I69.351",
+      "breakdown": {
+        "I69": "Sequelae of cerebrovascular disease (Evidence: pg no: 110, L54)",
+        "351": "Hemiplegia affecting right dominant side (Evidence: pg no: 110, L54)"
+      },
+      "rationale": "Condition being rehabilitated is still present (Evidence: pg no: 110, L53-L54)"
+    },
+    {
+      "example_id": "II.K.EX2",
+      "scenario": "Hip replacement aftercare rehabilitation",
+      "code_example": "Z47.1",
+      "breakdown": {
+        "Z47": "Orthopedic aftercare (Evidence: pg no: 110, L57)",
+        "1": "Joint replacement surgery (Evidence: pg no: 110, L57)"
+      },
+      "rationale": "Original condition resolved, non-injury related (Evidence: pg no: 110, L54-L55)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Different rules apply for injury vs non-injury rehabilitation (Evidence: pg no: 110, L55)"
+    ],
+    "best_practices": [
+      "Determine if original condition is still present before coding (Evidence: pg no: 110, L54-L55)",
+      "Use injury codes with 7th characters for injury rehabilitation (Evidence: pg no: 110, L55-L56)"
+    ],
+    "common_mistakes": [
+      "Using aftercare codes for injury rehabilitation (Evidence: pg no: 110, L55)",
+      "Coding resolved conditions instead of aftercare (Evidence: pg no: 110, L54-L55)"
+    ],
+    "tips": [
+      "Check if rehabilitation is injury-related to determine coding approach (Evidence: pg no: 110, L55)"
+    ],
+    "implementation_notes": [
+      "See cross-references for additional guidance on aftercare and 7th characters"
+    ],
+    "clinical_context": [
+      "Common in rehabilitation hospitals and skilled nursing facilities"
+    ]
+  },
+  "search_keywords": [
+    "rehabilitation",
+    "aftercare",
+    "injury rehabilitation",
+    "seventh character",
+    "subsequent encounter",
+    "Z47.1",
+    "I69.351",
+    "hemiplegia"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "rehabilitation",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "rehabilitation",
+      "aftercare",
+      "injury_codes",
+      "seventh_character"
+    ]
+  },
+  "page_range_processed": "pages_108_to_111"
+}

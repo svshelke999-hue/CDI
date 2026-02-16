@@ -1,0 +1,244 @@
+{
+  "guideline_id": "I.C.2.m",
+  "semantic_title": "Guidelines for Current Malignancy versus Personal History of Malignancy",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 2. Chapter 2: Neoplasms > m. Current malignancy versus personal history of malignancy",
+  "page_number": 38,
+  "content": {
+    "full_text": "When a primary malignancy has been excised but further treatment, such as an additional surgery for the malignancy, radiation therapy or chemotherapy is directed to that site, the primary malignancy code should be used until treatment is completed. When a primary malignancy has been previously excised or eradicated from its site, there is no further treatment (of the malignancy) directed to that site, and there is no evidence of any existing primary malignancy at that site, a code from category Z85, Personal history of malignant neoplasm, should be used to indicate the former site of the malignancy. Codes from subcategories Z85.0 – Z85.85 should only be assigned for the former site of a primary malignancy, not the site of a secondary malignancy. Code Z85.89 may be assigned for the former site(s) of either a primary or secondary malignancy. (Evidence: pg no: 38, L51-L57)",
+    "summary": "Guidelines for determining when to use current malignancy codes versus personal history codes (Evidence: pg no: 38, L51-L57)",
+    "key_concepts": [
+      "Ongoing treatment requires current malignancy code (Evidence: pg no: 38, L51-L53)",
+      "No further treatment allows personal history code (Evidence: pg no: 38, L53-L55)",
+      "Z85 codes for personal history of malignant neoplasm (Evidence: pg no: 38, L54-L55)",
+      "Z85.0-Z85.85 only for primary malignancy sites (Evidence: pg no: 38, L56-L57)",
+      "Z85.89 for either primary or secondary sites (Evidence: pg no: 38, L57)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "current_malignancy_criteria",
+        "rule_text": "Use primary malignancy code when further treatment is directed to that site until treatment is completed (Evidence: pg no: 38, L51-L53)",
+        "explanation": "Even after excision, if ongoing treatment like chemotherapy, radiation, or additional surgery is planned or occurring, continue using the current malignancy code (Evidence: pg no: 38, L51-L53)",
+        "importance": "critical",
+        "applies_to": "excised malignancies with ongoing treatment",
+        "common_applications": [
+          "Post-surgical chemotherapy",
+          "Post-surgical radiation therapy",
+          "Additional surgical procedures"
+        ]
+      },
+      {
+        "rule_id": "personal_history_criteria",
+        "rule_text": "Use Z85 code when malignancy has been excised/eradicated, no further treatment directed to that site, and no evidence of existing primary malignancy (Evidence: pg no: 38, L53-L55)",
+        "explanation": "All three criteria must be met: excision/eradication completed, no ongoing treatment, and no evidence of current disease at that site (Evidence: pg no: 38, L53-L55)",
+        "importance": "critical",
+        "applies_to": "completely treated malignancies",
+        "common_applications": [
+          "Follow-up visits after completed treatment",
+          "Surveillance encounters",
+          "Unrelated medical encounters"
+        ]
+      },
+      {
+        "rule_id": "z85_subcategory_restrictions",
+        "rule_text": "Z85.0-Z85.85 should only be assigned for former site of primary malignancy, not secondary malignancy (Evidence: pg no: 38, L56-L57)",
+        "explanation": "Most Z85 subcategories are restricted to primary malignancy sites only and should not be used for metastatic sites (Evidence: pg no: 38, L56-L57)",
+        "importance": "high",
+        "applies_to": "personal history coding",
+        "common_applications": [
+          "History of primary breast cancer",
+          "History of primary lung cancer"
+        ]
+      },
+      {
+        "rule_id": "z85_89_exception",
+        "rule_text": "Code Z85.89 may be assigned for former site(s) of either primary or secondary malignancy (Evidence: pg no: 38, L57)",
+        "explanation": "Z85.89 is the exception that can be used for both primary and secondary malignancy sites (Evidence: pg no: 38, L57)",
+        "importance": "high",
+        "applies_to": "personal history of any malignancy site",
+        "common_applications": [
+          "History of metastatic sites",
+          "History of primary sites not covered by other Z85 codes"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if malignancy has been excised or eradicated",
+      "Step 2: Assess if further treatment is directed to that site",
+      "Step 3: Evaluate if there is evidence of existing primary malignancy at that site",
+      "Step 4a: If ongoing treatment or evidence of disease - use current malignancy code",
+      "Step 4b: If no treatment and no evidence - use appropriate Z85 code",
+      "Step 5: Select correct Z85 subcategory based on primary vs secondary site"
+    ],
+    "related_terminology": [
+      "Current malignancy",
+      "Personal history",
+      "Excised malignancy",
+      "Eradicated malignancy",
+      "Treatment completion",
+      "Primary malignancy",
+      "Secondary malignancy"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z85",
+        "description": "Personal history of malignant neoplasm (Evidence: pg no: 38, L54-L55)",
+        "requirement": "Used when malignancy completely treated with no ongoing treatment",
+        "usage_rules": [
+          "Only when no further treatment directed to site (Evidence: pg no: 38, L53-L55)",
+          "Only when no evidence of existing primary malignancy (Evidence: pg no: 38, L54-L55)"
+        ]
+      },
+      {
+        "range": "Z85.0-Z85.85",
+        "description": "Personal history subcategories for specific sites (Evidence: pg no: 38, L56-L57)",
+        "requirement": "Only for former sites of primary malignancy",
+        "usage_rules": [
+          "Not for secondary malignancy sites (Evidence: pg no: 38, L56-L57)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "Z85.89",
+        "description": "Personal history of malignant neoplasm, other (Evidence: pg no: 38, L57)",
+        "context": "May be used for former sites of either primary or secondary malignancy",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z85": "Personal history of malignant neoplasm",
+          "89": "Other sites, including both primary and secondary"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Current malignancy codes",
+      "Personal history codes",
+      "Primary malignancy codes",
+      "Secondary malignancy codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.21",
+        "title": "Factors influencing health status and contact with health services, History (of)",
+        "relationship": "related_to",
+        "explanation": "Referenced for additional guidance on personal history coding"
+      }
+    ],
+    "referenced_by": [
+      {
+        "guideline_id": "I.C.2.l.5",
+        "title": "Complication from surgical procedure for treatment of a neoplasm",
+        "relationship": "uses",
+        "explanation": "References this guideline to determine neoplasm coding"
+      }
+    ]
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "ongoing_treatment",
+      "scenario": "Patient with excised breast cancer receiving adjuvant chemotherapy",
+      "documentation_example": "Follow-up visit during adjuvant chemotherapy for completely excised invasive ductal carcinoma of left breast",
+      "step_by_step": [
+        "Step 1: Identify that malignancy was excised",
+        "Step 2: Determine that further treatment (chemotherapy) is ongoing",
+        "Step 3: Use current malignancy code until treatment completed"
+      ],
+      "correct_coding": {
+        "primary_code": "C50.912 (Malignant neoplasm of unspecified site of left female breast)",
+        "secondary_codes": [
+          "Z51.11 (Encounter for antineoplastic chemotherapy)"
+        ],
+        "sequencing": "Current malignancy code with treatment encounter code",
+        "rationale": "Ongoing treatment requires current malignancy code (Evidence: pg no: 38, L51-L53)"
+      },
+      "incorrect_coding": {
+        "code": "Z85.3",
+        "codes": [
+          "Z85.3 (Personal history of malignant neoplasm of breast)"
+        ],
+        "rationale": "Cannot use personal history code while treatment is ongoing",
+        "common_mistake": "Using personal history code too early while treatment continues"
+      }
+    },
+    {
+      "scenario_id": "completed_treatment",
+      "scenario": "Patient with completely excised colon cancer, treatment completed 2 years ago, presenting for routine follow-up",
+      "documentation_example": "Routine surveillance colonoscopy, history of completely excised colon adenocarcinoma, treatment completed 2 years ago, no evidence of recurrence",
+      "step_by_step": [
+        "Step 1: Identify that malignancy was completely excised",
+        "Step 2: Confirm no further treatment directed to that site",
+        "Step 3: Confirm no evidence of existing primary malignancy",
+        "Step 4: Use appropriate Z85 code"
+      ],
+      "correct_coding": {
+        "primary_code": "Z12.11 (Encounter for screening for malignant neoplasm of colon)",
+        "secondary_codes": [
+          "Z85.038 (Personal history of other malignant neoplasm of large intestine)"
+        ],
+        "sequencing": "Screening encounter with personal history",
+        "rationale": "All criteria met for personal history coding (Evidence: pg no: 38, L53-L55)"
+      },
+      "incorrect_coding": {
+        "code": "C18.9",
+        "codes": [
+          "C18.9 (Malignant neoplasm of colon, unspecified)"
+        ],
+        "rationale": "Cannot use current malignancy code when treatment completed and no evidence of disease",
+        "common_mistake": "Continuing to use current malignancy code after treatment completion"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not use personal history codes while treatment is ongoing (Evidence: pg no: 38, L51-L53)",
+      "Z85.0-Z85.85 cannot be used for secondary malignancy sites (Evidence: pg no: 38, L56-L57)"
+    ],
+    "best_practices": [
+      "Carefully evaluate all three criteria before using personal history codes (Evidence: pg no: 38, L53-L55)",
+      "Use Z85.89 for former secondary malignancy sites (Evidence: pg no: 38, L57)"
+    ],
+    "common_mistakes": [
+      "Using personal history codes too early while treatment continues (Evidence: pg no: 38, L51-L53)",
+      "Using wrong Z85 subcategory for secondary malignancy sites (Evidence: pg no: 38, L56-L57)"
+    ],
+    "tips": [
+      "Treatment completion is key factor in determining code choice (Evidence: pg no: 38, L51-L53)",
+      "Z85.89 is the only Z85 code that can be used for secondary sites (Evidence: pg no: 38, L57)"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Applies to all encounters after malignancy diagnosis and treatment"
+    ]
+  },
+  "search_keywords": [
+    "current malignancy",
+    "personal history",
+    "Z85",
+    "treatment completion",
+    "excised malignancy",
+    "ongoing treatment"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "malignancy_status",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "neoplasms",
+      "personal_history",
+      "current_malignancy",
+      "treatment_status"
+    ]
+  },
+  "page_range_processed": "pages_36_to_39"
+}

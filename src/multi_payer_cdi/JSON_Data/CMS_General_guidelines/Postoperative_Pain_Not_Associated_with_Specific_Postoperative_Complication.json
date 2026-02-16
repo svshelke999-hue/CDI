@@ -1,0 +1,140 @@
+{
+  "guideline_id": "I.C.6.b.3.a",
+  "semantic_title": "Postoperative Pain Not Associated with Specific Postoperative Complication",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 6. Chapter 6: Diseases of the Nervous System > b. Pain - Category G89 > 3) Postoperative Pain > (a) Postoperative pain not associated with specific postoperative complication",
+  "page_number": 47,
+  "content": {
+    "full_text": "Postoperative pain not associated with a specific postoperative complication is assigned to the appropriate postoperative pain code in category G89. (Evidence: pg no: 47, L52-L53)",
+    "summary": "Guidelines for coding postoperative pain when it is not related to a specific postoperative complication, using G89 category codes. (Evidence: pg no: 47, L52-L53)",
+    "key_concepts": [
+      "Non-complication postoperative pain (Evidence: pg no: 47, L52)",
+      "G89 category assignment (Evidence: pg no: 47, L53)",
+      "Specific complication distinction (Evidence: pg no: 47, L52)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "non_complication_postop_pain",
+        "rule_text": "Postoperative pain not associated with a specific postoperative complication is assigned to the appropriate postoperative pain code in category G89 (Evidence: pg no: 47, L52-L53)",
+        "explanation": "When postoperative pain is not linked to a specific complication, use G89 postoperative pain codes (Evidence: pg no: 47, L52-L53)",
+        "importance": "high",
+        "applies_to": "G89",
+        "common_applications": [
+          "Uncomplicated postoperative pain",
+          "Pain without specific complication"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify postoperative pain",
+      "Step 2: Determine if pain is associated with specific postoperative complication",
+      "Step 3: If not associated with complication, assign appropriate G89 code",
+      "Step 4: Select specific G89 postoperative pain code"
+    ],
+    "related_terminology": [
+      "Postoperative pain",
+      "Postoperative complication",
+      "Non-complication pain"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "G89",
+        "description": "Postoperative pain codes for non-complication related pain (Evidence: pg no: 47, L53)",
+        "requirement": "Pain not associated with specific postoperative complication",
+        "usage_rules": [
+          "Use for postoperative pain without specific complications (Evidence: pg no: 47, L52-L53)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "G89 - Pain, not elsewhere classified"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.6.b.3.b",
+        "title": "Postoperative pain associated with specific postoperative complication",
+        "relationship": "related_to",
+        "explanation": "Contrasts with complication-associated postoperative pain coding"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "uncomplicated_postop_pain",
+      "scenario": "Patient with significant pain after knee replacement surgery, no complications identified",
+      "documentation_example": "Patient experiencing significant pain following total knee replacement, no postoperative complications noted",
+      "step_by_step": [
+        "Step 1: Identify postoperative pain is documented",
+        "Step 2: Verify no specific postoperative complications",
+        "Step 3: Assign appropriate G89 postoperative pain code"
+      ],
+      "correct_coding": {
+        "primary_code": "G89.18 (Other acute postprocedural pain)",
+        "secondary_codes": [],
+        "sequencing": "G89 code for non-complication postoperative pain",
+        "rationale": "Postoperative pain not associated with specific complication uses G89 codes (Evidence: pg no: 47, L52-L53)"
+      },
+      "incorrect_coding": {
+        "code": "T84.84XA (Pain due to internal orthopedic prosthetic devices)",
+        "rationale": "This would be for complication-related pain, not uncomplicated postoperative pain",
+        "common_mistake": "Using complication codes when no specific complication exists"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Distinguish between complication-related and non-complication postoperative pain"
+    ],
+    "best_practices": [
+      "Verify absence of specific postoperative complications before using G89 codes",
+      "Use appropriate G89 postoperative pain subcategory"
+    ],
+    "common_mistakes": [
+      "Using complication codes when no specific complication exists",
+      "Not distinguishing between complication and non-complication pain"
+    ],
+    "tips": [
+      "G89 codes are for postoperative pain without specific complications",
+      "Check for documented postoperative complications before code selection"
+    ],
+    "implementation_notes": [
+      "Contrasts with complication-associated postoperative pain coding",
+      "Requires assessment of complication presence"
+    ],
+    "clinical_context": [
+      "Postoperative pain can occur with or without complications",
+      "Coding approach differs based on complication association"
+    ]
+  },
+  "search_keywords": [
+    "postoperative pain",
+    "non-complication",
+    "G89",
+    "uncomplicated",
+    "postprocedural pain"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "nervous_system_pain",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "postoperative",
+      "pain",
+      "non_complication",
+      "G89"
+    ]
+  },
+  "page_range_processed": "pages_45_to_48"
+}

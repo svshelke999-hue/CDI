@@ -1,0 +1,120 @@
+{
+  "guideline_id": "I.A.16",
+  "semantic_title": "See and See Also Instructions in Alphabetic Index Navigation",
+  "section_path": "Section I > A. Conventions > 16. 'See' and 'See Also'",
+  "page_number": 11,
+  "content": {
+    "full_text": "The \"see\" instruction following a main term in the Alphabetic Index indicates that another term should be referenced. It is necessary to go to the main term referenced with the \"see\" note to locate the correct code. A \"see also\" instruction following a main term in the Alphabetic Index instructs that there is another main term that may also be referenced that may provide additional Alphabetic Index entries that may be useful. It is not necessary to follow the \"see also\" note when the original main term provides the necessary code. (Evidence: pg no: 11-12, L60-L64)",
+    "summary": "See instructions require following the reference to find the correct code, while See Also instructions are optional additional references (Evidence: pg no: 11-12, L60-L64)",
+    "key_concepts": [
+      "See instruction requires following reference (Evidence: pg no: 11, L60-L61)",
+      "Must go to referenced main term (Evidence: pg no: 11, L61)",
+      "See Also is optional additional reference (Evidence: pg no: 11-12, L62-L63)",
+      "See Also may provide additional useful entries (Evidence: pg no: 11-12, L63)",
+      "Not necessary to follow See Also if original term sufficient (Evidence: pg no: 12, L64)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "SEE_MANDATORY",
+        "rule_text": "See instruction must be followed to locate correct code (Evidence: pg no: 11, L60-L61)",
+        "explanation": "See instruction indicates the current term does not have the code and reference must be followed (Evidence: pg no: 11, L60-L61)",
+        "importance": "high",
+        "applies_to": "alphabetic_index",
+        "common_applications": [
+          "Cross-references to preferred terms",
+          "Redirections to correct main terms"
+        ]
+      },
+      {
+        "rule_id": "SEE_ALSO_OPTIONAL",
+        "rule_text": "See Also instruction is optional when original term provides necessary code (Evidence: pg no: 12, L64)",
+        "explanation": "See Also provides additional options but is not required if original term is sufficient (Evidence: pg no: 11-12, L62-L64)",
+        "importance": "medium",
+        "applies_to": "alphabetic_index",
+        "common_applications": [
+          "Additional coding options",
+          "Related term references"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify See or See Also instruction",
+      "Step 2: For See - must follow reference to find code",
+      "Step 3: For See Also - evaluate if additional reference needed",
+      "Step 4: Use original term if sufficient for See Also",
+      "Step 5: Follow See Also if additional specificity needed"
+    ],
+    "related_terminology": [
+      "See instruction",
+      "See Also instruction",
+      "Cross-reference",
+      "Main term",
+      "Alphabetic Index navigation"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": []
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Must follow See instructions to locate correct code (Evidence: pg no: 11, L60-L61)"
+    ],
+    "best_practices": [
+      "Always follow See instructions (Evidence: pg no: 11, L60-L61)",
+      "Consider See Also instructions for additional specificity (Evidence: pg no: 11-12, L62-L63)"
+    ],
+    "common_mistakes": [
+      "Ignoring See instructions and missing correct code",
+      "Following See Also unnecessarily when original term sufficient"
+    ],
+    "tips": [
+      "See is mandatory, See Also is optional",
+      "See Also may provide more specific options"
+    ],
+    "implementation_notes": [
+      "Part of Alphabetic Index navigation system",
+      "Helps ensure correct code selection"
+    ],
+    "clinical_context": [
+      "Common in medical terminology cross-referencing",
+      "Helps with synonym and related term navigation"
+    ]
+  },
+  "search_keywords": [
+    "see instruction",
+    "see also",
+    "alphabetic index",
+    "cross-reference",
+    "main term",
+    "navigation",
+    "reference"
+  ],
+  "metadata": {
+    "category": "convention",
+    "subcategory": "alphabetic_index_navigation",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "see_instruction",
+      "see_also",
+      "alphabetic_index",
+      "navigation",
+      "cross_reference"
+    ]
+  },
+  "page_range_processed": "pages_9_to_12"
+}

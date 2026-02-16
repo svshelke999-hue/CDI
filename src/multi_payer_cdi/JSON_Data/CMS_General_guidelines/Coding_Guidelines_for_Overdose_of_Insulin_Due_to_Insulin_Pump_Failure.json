@@ -1,0 +1,175 @@
+{
+  "guideline_id": "I.C.4.a.5.b",
+  "semantic_title": "Coding Guidelines for Overdose of Insulin Due to Insulin Pump Failure",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 4. Chapter 4: Endocrine, Nutritional, and Metabolic Diseases > a. Diabetes mellitus > 5) Complications due to insulin pump malfunction > (b) Overdose of insulin due to insulin pump failure",
+  "page_number": 41,
+  "content": {
+    "full_text": "The principal or first-listed code for an encounter due to an insulin pump malfunction resulting in an overdose of insulin, should also be T85.6-, Mechanical complication of other specified internal and external prosthetic devices, implants and grafts, followed by code T38.3X1-, Poisoning by insulin and oral hypoglycemic [antidiabetic] drugs, accidental (unintentional). (Evidence: pg no: 41, L62-L64)",
+    "summary": "Coding sequence for insulin pump failure causing overdose: T85.6- first, then T38.3X1- for accidental poisoning (Evidence: pg no: 41, L62-L64)",
+    "key_concepts": [
+      "T85.6- code first for pump mechanical complication (Evidence: pg no: 41, L63-L64)",
+      "T38.3X1- code second for accidental poisoning (Evidence: pg no: 41, L64)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "PUMP-OVER-001",
+        "rule_text": "Assign T85.6- as principal or first-listed code (Evidence: pg no: 41, L63-L64)",
+        "explanation": "For insulin overdose due to pump malfunction, assign T85.6- for mechanical complication of prosthetic devices as the principal or first-listed code (Evidence: pg no: 41, L63-L64)",
+        "importance": "critical",
+        "applies_to": "T85.6-",
+        "common_applications": [
+          "Insulin pump overdose scenarios",
+          "Pump malfunction causing excess insulin delivery"
+        ]
+      },
+      {
+        "rule_id": "PUMP-OVER-002",
+        "rule_text": "Follow with T38.3X1- for accidental poisoning (Evidence: pg no: 41, L64)",
+        "explanation": "After the pump malfunction code, assign T38.3X1- for poisoning by insulin and oral hypoglycemic antidiabetic drugs, accidental (unintentional) (Evidence: pg no: 41, L64)",
+        "importance": "critical",
+        "applies_to": "T38.3X1-",
+        "common_applications": [
+          "Accidental insulin overdose",
+          "Unintentional insulin poisoning from pump failure"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify insulin pump failure causing overdose",
+      "Step 2: Assign T85.6- code for specific pump malfunction as principal/first-listed",
+      "Step 3: Assign T38.3X1- for accidental poisoning as secondary code",
+      "Step 4: Add any additional codes for effects of overdose"
+    ],
+    "related_terminology": [
+      "Insulin pump overdose",
+      "Mechanical complication",
+      "Accidental poisoning",
+      "Unintentional overdose",
+      "Pump malfunction"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "T85.6-",
+        "description": "Mechanical complication of other specified internal and external prosthetic devices, implants and grafts (Evidence: pg no: 41, L63-L64)",
+        "requirement": "Principal or first-listed code for pump malfunction",
+        "usage_rules": [
+          "Use as principal or first-listed code (Evidence: pg no: 41, L63)"
+        ]
+      },
+      {
+        "range": "T38.3X1-",
+        "description": "Poisoning by insulin and oral hypoglycemic [antidiabetic] drugs, accidental (unintentional) (Evidence: pg no: 41, L64)",
+        "requirement": "Secondary code after pump malfunction",
+        "usage_rules": [
+          "Follow T85.6- code (Evidence: pg no: 41, L64)"
+        ]
+      }
+    ],
+    "code_categories_mentioned": [
+      "Mechanical complication codes",
+      "Poisoning and adverse effect codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "PUMP-OVER-001",
+      "scenario": "Insulin pump malfunction causing insulin overdose and hypoglycemia",
+      "documentation_example": "Patient with insulin pump malfunction resulting in overdose of insulin and severe hypoglycemia",
+      "step_by_step": [
+        "Step 1: Identify pump malfunction causing overdose",
+        "Step 2: Assign T85.614A as principal code",
+        "Step 3: Assign T38.3X1A for accidental poisoning",
+        "Step 4: Add codes for hypoglycemia effects"
+      ],
+      "correct_coding": {
+        "primary_code": "T85.614A",
+        "secondary_codes": [
+          "T38.3X1A"
+        ],
+        "sequencing": "Pump failure first, poisoning second",
+        "rationale": "Mechanical complication is principal cause of accidental overdose (Evidence: pg no: 41, L62-L64)"
+      },
+      "incorrect_coding": {
+        "codes": [
+          "T38.3X1A",
+          "T85.614A"
+        ],
+        "rationale": "Should sequence pump failure before poisoning",
+        "common_mistake": "Sequencing poisoning before mechanical cause"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "PUMP-OVER-EX1",
+      "scenario": "Insulin pump overdose coding sequence",
+      "code_example": "T85.614A, T38.3X1A",
+      "breakdown": {
+        "T85.614A": "Breakdown of insulin pump, initial encounter (Evidence: pg no: 41, L63-L64)",
+        "T38.3X1A": "Accidental poisoning by insulin, initial encounter (Evidence: pg no: 41, L64)"
+      },
+      "rationale": "Proper sequencing with mechanical complication first (Evidence: pg no: 41, L62-L64)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "T85.6- must be principal or first-listed code (Evidence: pg no: 41, L63)",
+      "Use accidental poisoning code T38.3X1- not intentional (Evidence: pg no: 41, L64)"
+    ],
+    "best_practices": [
+      "Sequence mechanical complication before poisoning (Evidence: pg no: 41, L62-L64)",
+      "Consider additional codes for overdose effects"
+    ],
+    "common_mistakes": [
+      "Incorrect sequencing of codes",
+      "Using intentional poisoning codes instead of accidental"
+    ],
+    "tips": [
+      "Pump malfunction makes overdose accidental/unintentional (Evidence: pg no: 41, L64)",
+      "Mechanical cause takes precedence in sequencing (Evidence: pg no: 41, L63)"
+    ],
+    "implementation_notes": [
+      "Requires identification of pump malfunction type",
+      "May need additional codes for hypoglycemia or other effects"
+    ],
+    "clinical_context": [
+      "Pump overdose typically causes hypoglycemia",
+      "Malfunction makes overdose unintentional"
+    ]
+  },
+  "search_keywords": [
+    "insulin pump overdose",
+    "T85.6 pump complication",
+    "T38.3X1 accidental poisoning",
+    "pump malfunction overdose",
+    "insulin poisoning",
+    "mechanical complication overdose",
+    "unintentional insulin overdose"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "endocrine_metabolic",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "insulin pump",
+      "mechanical complication",
+      "overdose",
+      "poisoning",
+      "T85.6",
+      "T38.3X1"
+    ]
+  },
+  "page_range_processed": "pages_39_to_42"
+}

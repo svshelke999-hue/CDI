@@ -1,0 +1,291 @@
+{
+  "guideline_id": "I.C.21.c.5",
+  "semantic_title": "Screening Z Codes - Guidelines for Disease and Precursor Testing",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 21. Factors Influencing Health Status > c. Status > 5) Screening",
+  "page_number": 98,
+  "content": {
+    "full_text": "Screening is the testing for disease or disease precursors in seemingly well individuals so that early detection and treatment can be provided for those who test positive for the disease (e.g., screening mammogram). The testing of a person to rule out or confirm a suspected diagnosis because the patient has some sign or symptom is a diagnostic examination, not a screening. In these cases, the sign or symptom is used to explain the reason for the test. A screening code may be a first-listed code if the reason for the visit is specifically the screening exam. It may also be used as an additional code if the screening is done during an office visit for other health problems. A screening code is not necessary if the screening is inherent to a routine examination, such as a pap smear done during a routine pelvic examination. Should a condition be discovered during the screening then the code for the condition may be assigned as an additional diagnosis. The Z code indicates that a screening exam is planned. A procedure code is required to confirm that the screening was performed. (Evidence: pg no: 98, L51-L55)",
+    "summary": "Screening codes are for testing asymptomatic individuals for early disease detection, not for diagnostic testing of symptomatic patients (Evidence: pg no: 98, L51-L55)",
+    "key_concepts": [
+      "Screening for asymptomatic individuals (Evidence: pg no: 98, L52)",
+      "Early detection and treatment purpose (Evidence: pg no: 98, L52)",
+      "Distinction from diagnostic examination (Evidence: pg no: 98, L53)",
+      "Use signs/symptoms for diagnostic testing (Evidence: pg no: 98, L53)",
+      "First-listed or additional code usage (Evidence: pg no: 98, L53-L54)",
+      "Not needed for routine examination components (Evidence: pg no: 98, L54-L55)",
+      "Additional diagnosis if condition discovered (Evidence: pg no: 98, L55)",
+      "Procedure code required for confirmation (Evidence: pg no: 98, L55)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "screening_vs_diagnostic",
+        "rule_text": "Screening is for seemingly well individuals; diagnostic examination is for patients with signs or symptoms (Evidence: pg no: 98, L52-L53)",
+        "explanation": "The key distinction is whether the patient has symptoms - asymptomatic patients receive screening, symptomatic patients receive diagnostic testing (Evidence: pg no: 98, L52-L53)",
+        "importance": "critical",
+        "applies_to": "Z11-Z13, Z36",
+        "common_applications": [
+          "Screening mammogram for asymptomatic woman",
+          "Diagnostic mammogram for woman with breast lump"
+        ]
+      },
+      {
+        "rule_id": "screening_sequencing",
+        "rule_text": "Screening code may be first-listed if visit is specifically for screening, or additional if done during other visit (Evidence: pg no: 98, L53-L54)",
+        "explanation": "The sequencing depends on whether screening is the primary purpose of the encounter or an additional service (Evidence: pg no: 98, L53-L54)",
+        "importance": "high",
+        "applies_to": "all_screening_codes",
+        "common_applications": [
+          "Dedicated screening visit - screening code first",
+          "Screening during routine visit - screening as additional code"
+        ]
+      },
+      {
+        "rule_id": "routine_examination_exception",
+        "rule_text": "Screening code not necessary if screening is inherent to routine examination (Evidence: pg no: 98, L54-L55)",
+        "explanation": "When screening is a standard component of a routine examination, separate screening codes are not needed (Evidence: pg no: 98, L54-L55)",
+        "importance": "medium",
+        "applies_to": "routine_examinations",
+        "common_applications": [
+          "Pap smear during routine pelvic exam",
+          "Blood pressure check during annual physical"
+        ]
+      },
+      {
+        "rule_id": "condition_discovered_during_screening",
+        "rule_text": "If condition discovered during screening, assign condition code as additional diagnosis (Evidence: pg no: 98, L55)",
+        "explanation": "When screening reveals an abnormality or condition, both the screening code and the discovered condition should be coded (Evidence: pg no: 98, L55)",
+        "importance": "high",
+        "applies_to": "all_screening_codes",
+        "common_applications": [
+          "Screening colonoscopy with polyp discovery",
+          "Screening mammogram with suspicious finding"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if patient has signs or symptoms related to the test",
+      "Step 2: If asymptomatic, consider screening code; if symptomatic, use sign/symptom code",
+      "Step 3: Determine if screening is primary reason or additional service",
+      "Step 4: Check if screening is inherent to routine examination",
+      "Step 5: If condition discovered, add appropriate diagnosis code",
+      "Step 6: Ensure procedure code is assigned to confirm screening performed"
+    ],
+    "related_terminology": [
+      "Screening",
+      "Disease precursors",
+      "Early detection",
+      "Diagnostic examination",
+      "Asymptomatic",
+      "Signs and symptoms",
+      "Routine examination",
+      "Procedure code"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z11",
+        "description": "Encounter for screening for infectious and parasitic diseases (Evidence: pg no: 98, L56)",
+        "requirement": "Use for asymptomatic patients being screened for infections",
+        "usage_rules": [
+          "Patient must be asymptomatic",
+          "Screening purpose, not diagnostic"
+        ]
+      },
+      {
+        "range": "Z12",
+        "description": "Encounter for screening for malignant neoplasms (Evidence: pg no: 98, L57)",
+        "requirement": "Use for cancer screening in asymptomatic patients",
+        "usage_rules": [
+          "No signs or symptoms of cancer present",
+          "Preventive screening purpose"
+        ]
+      },
+      {
+        "range": "Z13",
+        "description": "Encounter for screening for other diseases and disorders (Evidence: pg no: 98, L58)",
+        "requirement": "Use for screening of other conditions not covered elsewhere",
+        "usage_rules": [
+          "Exclude Z13.9 (unspecified screening) (Evidence: pg no: 98, L59)",
+          "Must be specific screening purpose"
+        ]
+      },
+      {
+        "range": "Z36",
+        "description": "Encounter for antenatal screening for mother (Evidence: pg no: 98, L60)",
+        "requirement": "Use for prenatal screening of pregnant women",
+        "usage_rules": [
+          "Routine prenatal screening procedures",
+          "Not for diagnostic testing due to symptoms"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "Z13.9",
+        "description": "Encounter for screening, unspecified (Evidence: pg no: 98, L59)",
+        "context": "Excluded from use - screening must be specific",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Exception": "This code should not be used"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Screening for infectious diseases",
+      "Screening for malignant neoplasms",
+      "Screening for other diseases and disorders",
+      "Antenatal screening"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.21.c.4",
+        "title": "History codes",
+        "relationship": "related_to",
+        "explanation": "Family history codes may be used with screening codes to explain need for test"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "screening_mammogram",
+      "scenario": "Asymptomatic woman presents for routine screening mammogram",
+      "documentation_example": "45-year-old woman presents for annual screening mammogram. No breast complaints, no palpable masses. Family history of breast cancer in mother.",
+      "step_by_step": [
+        "Step 1: Confirm patient is asymptomatic",
+        "Step 2: Identify screening as primary purpose",
+        "Step 3: Assign screening mammogram code as primary",
+        "Step 4: Add family history as additional diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "Z12.31",
+        "secondary_codes": [
+          "Z80.3"
+        ],
+        "sequencing": "Screening code first, family history as additional",
+        "rationale": "Asymptomatic patient receiving screening, family history explains medical necessity (Evidence: pg no: 98, L53-L54)"
+      },
+      "incorrect_coding": {
+        "code": "N63.10",
+        "codes": [
+          "N63.10"
+        ],
+        "rationale": "Should not use symptom code when patient is asymptomatic",
+        "common_mistake": "Using diagnostic codes for screening encounters"
+      }
+    },
+    {
+      "scenario_id": "diagnostic_vs_screening",
+      "scenario": "Woman with breast lump presents for mammogram",
+      "documentation_example": "Patient reports palpable lump in left breast for 2 weeks. Mammogram ordered to evaluate the mass.",
+      "step_by_step": [
+        "Step 1: Identify patient has symptoms (breast lump)",
+        "Step 2: Recognize this is diagnostic, not screening",
+        "Step 3: Use sign/symptom code, not screening code",
+        "Step 4: Do not assign screening code"
+      ],
+      "correct_coding": {
+        "primary_code": "N63.12",
+        "secondary_codes": [],
+        "sequencing": "Symptom code as primary reason for encounter",
+        "rationale": "Patient has symptoms, so this is diagnostic examination, not screening (Evidence: pg no: 98, L53)"
+      },
+      "incorrect_coding": {
+        "code": "Z12.31",
+        "codes": [
+          "Z12.31"
+        ],
+        "rationale": "Screening code inappropriate when patient has symptoms",
+        "common_mistake": "Using screening codes for symptomatic patients"
+      }
+    }
+  ],
+  "procedure_links": [
+    {
+      "cpt_code": "77067",
+      "description": "Screening mammography",
+      "relationship": "commonly_coded_with",
+      "context": "Procedure code required to confirm screening performed",
+      "note": "Z code indicates planned screening, procedure code confirms performance"
+    }
+  ],
+  "examples": [
+    {
+      "example_id": "screening_mammogram_example",
+      "scenario": "Screening mammogram for asymptomatic patient",
+      "code_example": "Z12.31",
+      "breakdown": {
+        "Z12": "Screening for malignant neoplasms (Evidence: pg no: 98, L57)",
+        ".31": "Screening mammogram for malignant neoplasm of breast"
+      },
+      "rationale": "Patient is asymptomatic and receiving preventive screening (Evidence: pg no: 98, L52)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not use screening codes for patients with signs or symptoms (Evidence: pg no: 98, L53)",
+      "Exclude Z13.9 (unspecified screening) from use (Evidence: pg no: 98, L59)",
+      "Screening codes not necessary for inherent routine examination components (Evidence: pg no: 98, L54-L55)"
+    ],
+    "best_practices": [
+      "Use screening codes only for asymptomatic individuals (Evidence: pg no: 98, L52)",
+      "Assign procedure code to confirm screening was performed (Evidence: pg no: 98, L55)",
+      "Add condition code if abnormality discovered during screening (Evidence: pg no: 98, L55)",
+      "Use signs/symptoms codes for diagnostic examinations (Evidence: pg no: 98, L53)"
+    ],
+    "common_mistakes": [
+      "Using screening codes for symptomatic patients",
+      "Omitting procedure codes to confirm screening performance",
+      "Using unspecified screening codes",
+      "Assigning screening codes for routine examination components"
+    ],
+    "tips": [
+      "Key distinction is presence or absence of symptoms",
+      "Screening is for early detection in well individuals",
+      "Family history often supports medical necessity for screening",
+      "Both Z code and procedure code typically needed"
+    ],
+    "implementation_notes": [
+      "Screening codes indicate planned examination",
+      "Procedure codes document actual performance",
+      "Clear documentation of symptom status is essential"
+    ],
+    "clinical_context": [
+      "Screening supports preventive medicine and early detection",
+      "Insurance coverage often depends on proper screening vs diagnostic coding",
+      "Age and risk factors influence screening recommendations"
+    ]
+  },
+  "search_keywords": [
+    "screening",
+    "Z11",
+    "Z12",
+    "Z13",
+    "Z36",
+    "asymptomatic",
+    "diagnostic",
+    "mammogram",
+    "colonoscopy",
+    "early detection"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "screening_codes",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "screening",
+      "preventive_care",
+      "asymptomatic",
+      "early_detection"
+    ]
+  },
+  "page_range_processed": "pages_96_to_99"
+}

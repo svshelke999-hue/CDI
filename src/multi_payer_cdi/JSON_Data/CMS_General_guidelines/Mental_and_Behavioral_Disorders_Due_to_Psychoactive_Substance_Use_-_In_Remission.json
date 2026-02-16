@@ -1,0 +1,197 @@
+{
+  "guideline_id": "I.C.5.b.1",
+  "semantic_title": "Mental and Behavioral Disorders Due to Psychoactive Substance Use - In Remission",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 5. Chapter 5: Mental, Behavioral and Neurodevelopmental disorders > b. Mental and behavioral disorders due to psychoactive substance use > 1) In Remission",
+  "page_number": 43,
+  "content": {
+    "full_text": "Selection of codes describing 'in remission' for categories F10-F19, Mental and behavioral disorders due to psychoactive substance use (categories F10-F19 with -.11, -.21, -.91) requires the provider's clinical judgment and are assigned only on the basis of provider documentation (as defined in the Official Guidelines for Coding and Reporting), unless otherwise instructed by the classification. Mild substance use disorders in early or sustained remission are classified to the appropriate codes for substance abuse in remission, and moderate or severe substance use disorders in early or sustained remission are classified to the appropriate codes for substance dependence in remission. (Evidence: pg no: 43, L35-L41)",
+    "summary": "Establishes requirements for coding substance use disorders in remission, emphasizing provider documentation and clinical judgment while distinguishing between abuse and dependence remission coding (Evidence: pg no: 43, L35-L41)",
+    "key_concepts": [
+      "Provider clinical judgment requirement (Evidence: pg no: 43, L37-L38)",
+      "Provider documentation requirement (Evidence: pg no: 43, L38-L39)",
+      "Mild vs moderate/severe distinction (Evidence: pg no: 43, L41)",
+      "Abuse vs dependence remission classification (Evidence: pg no: 43, L41)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "REMISSION_001",
+        "rule_text": "Remission codes require provider's clinical judgment (Evidence: pg no: 43, L37-L38)",
+        "explanation": "Only providers can make the clinical determination that a patient is in remission from substance use disorders (Evidence: pg no: 43, L37-L38)",
+        "importance": "critical",
+        "applies_to": "F10-F19 with .11, .21, .91",
+        "common_applications": [
+          "Alcohol use disorder remission",
+          "Opioid use disorder remission",
+          "Cannabis use disorder remission"
+        ]
+      },
+      {
+        "rule_id": "REMISSION_002",
+        "rule_text": "Assign only based on provider documentation (Evidence: pg no: 43, L38-L39)",
+        "explanation": "Remission codes cannot be assigned without explicit provider documentation as defined in the Official Guidelines (Evidence: pg no: 43, L38-L39)",
+        "importance": "critical",
+        "applies_to": "F10-F19 with .11, .21, .91",
+        "common_applications": [
+          "Provider assessment notes",
+          "Treatment plan documentation"
+        ]
+      },
+      {
+        "rule_id": "REMISSION_003",
+        "rule_text": "Mild disorders in remission classified as abuse in remission (Evidence: pg no: 43, L41)",
+        "explanation": "Mild substance use disorders in early or sustained remission use abuse remission codes (Evidence: pg no: 43, L41)",
+        "importance": "high",
+        "applies_to": "F10-F19 with .11",
+        "common_applications": [
+          "Mild alcohol use disorder in remission",
+          "Mild opioid use disorder in remission"
+        ]
+      },
+      {
+        "rule_id": "REMISSION_004",
+        "rule_text": "Moderate/severe disorders in remission classified as dependence in remission (Evidence: pg no: 43, L41)",
+        "explanation": "Moderate or severe substance use disorders in early or sustained remission use dependence remission codes (Evidence: pg no: 43, L41)",
+        "importance": "high",
+        "applies_to": "F10-F19 with .21",
+        "common_applications": [
+          "Moderate alcohol use disorder in remission",
+          "Severe opioid use disorder in remission"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Verify provider has documented remission status",
+      "Step 2: Confirm provider's clinical judgment supports remission",
+      "Step 3: Determine original severity (mild vs moderate/severe)",
+      "Step 4: If mild, use abuse remission codes (.11)",
+      "Step 5: If moderate/severe, use dependence remission codes (.21)",
+      "Step 6: Specify early vs sustained remission if documented"
+    ],
+    "related_terminology": [
+      "Remission",
+      "Substance abuse",
+      "Substance dependence",
+      "Early remission",
+      "Sustained remission",
+      "Provider documentation"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "F10-F19",
+        "description": "Mental and behavioral disorders due to psychoactive substance use (Evidence: pg no: 43, L36-L37)",
+        "requirement": "Provider documentation and clinical judgment required for remission codes",
+        "usage_rules": [
+          "Use .11 for mild disorders in remission (Evidence: pg no: 43, L41)",
+          "Use .21 for moderate/severe disorders in remission (Evidence: pg no: 43, L41)",
+          "Require provider documentation (Evidence: pg no: 43, L38-L39)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "F1X.11",
+        "description": "Abuse in remission codes for mild disorders (Evidence: pg no: 43, L38, L41)",
+        "example": "F10.11 for alcohol abuse in remission",
+        "explanation": "Used for mild substance use disorders in remission"
+      },
+      {
+        "pattern": "F1X.21",
+        "description": "Dependence in remission codes for moderate/severe disorders (Evidence: pg no: 43, L38, L41)",
+        "example": "F10.21 for alcohol dependence in remission",
+        "explanation": "Used for moderate or severe substance use disorders in remission"
+      },
+      {
+        "pattern": "F1X.91",
+        "description": "Unspecified use disorder in remission (Evidence: pg no: 43, L38)",
+        "example": "F10.91 for unspecified alcohol use disorder in remission",
+        "explanation": "Used when severity is not specified"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Mental and behavioral disorders due to psychoactive substance use"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "REMISSION_001",
+      "scenario": "Patient with history of severe alcohol use disorder, provider documents sustained remission for 18 months",
+      "documentation_example": "Patient with severe alcohol use disorder, sustained remission x 18 months per provider assessment",
+      "step_by_step": [
+        "Step 1: Verify provider documented remission status",
+        "Step 2: Identify original severity as severe",
+        "Step 3: Classify as dependence in remission",
+        "Step 4: Assign F10.21 for alcohol dependence in remission"
+      ],
+      "correct_coding": {
+        "primary_code": "F10.21",
+        "secondary_codes": [],
+        "sequencing": "F10.21 as appropriate",
+        "rationale": "Severe alcohol use disorder in remission classified as dependence in remission (Evidence: pg no: 43, L41)"
+      },
+      "incorrect_coding": {
+        "code": "F10.11",
+        "rationale": "F10.11 is for abuse in remission, not dependence in remission",
+        "common_mistake": "Using abuse remission code for severe disorder"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Cannot assign without provider documentation (Evidence: pg no: 43, L38-L39)",
+      "Must distinguish between mild vs moderate/severe for proper code selection (Evidence: pg no: 43, L41)"
+    ],
+    "best_practices": [
+      "Verify provider's clinical judgment supports remission (Evidence: pg no: 43, L37-L38)",
+      "Use severity level to determine abuse vs dependence remission coding (Evidence: pg no: 43, L41)"
+    ],
+    "common_mistakes": [
+      "Assigning remission codes without provider documentation",
+      "Using wrong remission code type for severity level",
+      "Not verifying provider's clinical judgment"
+    ],
+    "tips": [
+      "Mild = abuse remission (.11)",
+      "Moderate/severe = dependence remission (.21)",
+      "Always require provider documentation"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Requires ongoing provider assessment and documentation",
+      "Important for addiction treatment and recovery programs"
+    ]
+  },
+  "search_keywords": [
+    "substance use remission",
+    "F10-F19",
+    "abuse remission",
+    "dependence remission",
+    "provider documentation",
+    "clinical judgment"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "substance_use_disorders",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "substance_use",
+      "remission",
+      "documentation",
+      "provider_judgment"
+    ]
+  },
+  "page_range_processed": "pages_42_to_45"
+}

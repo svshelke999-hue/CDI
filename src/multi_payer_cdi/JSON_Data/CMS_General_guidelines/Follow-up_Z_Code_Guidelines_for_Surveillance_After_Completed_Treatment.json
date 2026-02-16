@@ -1,0 +1,284 @@
+{
+  "guideline_id": "I.C.21.8",
+  "semantic_title": "Follow-up Z Code Guidelines for Surveillance After Completed Treatment",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 21. Factors influencing health status and contact with health services (Z00-Z99) > 8. Follow-up",
+  "page_number": 101,
+  "content": {
+    "full_text": "The follow-up codes are used to explain continuing surveillance following completed treatment of a disease, condition, or injury. They imply that the condition has been fully treated and no longer exists. They should not be confused with aftercare codes, or injury codes with a 7th character for subsequent encounter, that explain ongoing care of a healing condition or its sequelae. Follow-up codes may be used in conjunction with history codes to provide the full picture of the healed condition and its treatment. The follow-up code is sequenced first, followed by the history code. A follow-up code may be used to explain multiple visits. Should a condition be found to have recurred on the follow-up visit, then the diagnosis code for the condition should be assigned in place of the follow-up code. (Evidence: pg no: 101, L47-L54)",
+    "summary": "Guidelines for using follow-up Z codes for surveillance after completed treatment when condition no longer exists, with rules for sequencing with history codes and handling recurrence (Evidence: pg no: 101, L47-L54)",
+    "key_concepts": [
+      "Follow-up codes for surveillance after completed treatment (Evidence: pg no: 101, L47-L48)",
+      "Condition has been fully treated and no longer exists (Evidence: pg no: 101, L48-L49)",
+      "Different from aftercare codes and injury codes with 7th character (Evidence: pg no: 101, L49-L50)",
+      "Used with history codes for complete picture (Evidence: pg no: 101, L50-L51)",
+      "Follow-up code sequenced first (Evidence: pg no: 101, L53-L54)",
+      "Replace with diagnosis code if condition recurs (Evidence: pg no: 101, L54)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "FOLLOWUP_001",
+        "rule_text": "Follow-up codes imply that the condition has been fully treated and no longer exists (Evidence: pg no: 101, L48-L49)",
+        "explanation": "These codes are only appropriate when the original condition has been completely resolved and the patient is being monitored for potential recurrence (Evidence: pg no: 101, L48-L49)",
+        "importance": "critical",
+        "applies_to": "all follow-up codes",
+        "common_applications": [
+          "Cancer surveillance after successful treatment",
+          "Monitoring after complete resolution of other conditions"
+        ]
+      },
+      {
+        "rule_id": "FOLLOWUP_002",
+        "rule_text": "Follow-up codes should not be confused with aftercare codes or injury codes with 7th character (Evidence: pg no: 101, L49-L50)",
+        "explanation": "Aftercare and injury codes with 7th character are for ongoing care of healing conditions, while follow-up codes are for surveillance when condition no longer exists (Evidence: pg no: 101, L49-L50)",
+        "importance": "critical",
+        "applies_to": "follow-up vs aftercare distinction",
+        "common_applications": [
+          "Distinguishing between ongoing treatment and surveillance",
+          "Proper code selection based on treatment status"
+        ]
+      },
+      {
+        "rule_id": "FOLLOWUP_003",
+        "rule_text": "Follow-up code is sequenced first, followed by the history code (Evidence: pg no: 101, L53-L54)",
+        "explanation": "When using follow-up codes with history codes, the follow-up code takes priority in sequencing (Evidence: pg no: 101, L53-L54)",
+        "importance": "high",
+        "applies_to": "follow-up and history code combinations",
+        "common_applications": [
+          "Cancer follow-up with history of malignancy",
+          "Follow-up visits with relevant medical history"
+        ]
+      },
+      {
+        "rule_id": "FOLLOWUP_004",
+        "rule_text": "If condition recurs on follow-up visit, assign diagnosis code for the condition instead of follow-up code (Evidence: pg no: 101, L54)",
+        "explanation": "When a previously resolved condition is found to have returned during a follow-up visit, the active diagnosis code should be used rather than the follow-up code (Evidence: pg no: 101, L54)",
+        "importance": "critical",
+        "applies_to": "recurrent conditions during follow-up",
+        "common_applications": [
+          "Cancer recurrence during surveillance",
+          "Return of previously resolved conditions"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Verify that original condition has been fully treated and resolved",
+      "Step 2: Confirm encounter is for surveillance/monitoring purposes",
+      "Step 3: Select appropriate follow-up code (Z08 for malignancy, Z09 for other conditions)",
+      "Step 4: Add history code if applicable",
+      "Step 5: Sequence follow-up code first, history code second",
+      "Step 6: If condition recurrence found, replace follow-up code with active diagnosis code"
+    ],
+    "related_terminology": [
+      "follow-up",
+      "surveillance",
+      "completed treatment",
+      "fully treated",
+      "no longer exists",
+      "history codes",
+      "recurrence",
+      "monitoring"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z08",
+        "description": "Encounter for follow-up examination after completed treatment for malignant neoplasm (Evidence: pg no: 101, L55-L56)",
+        "requirement": "Use for malignant neoplasm follow-up after completed treatment",
+        "usage_rules": [
+          "May be assigned following any type of completed treatment modality (Evidence: pg no: 101, L59-L62)",
+          "Including both medical and surgical treatments (Evidence: pg no: 101, L61-L62)"
+        ]
+      },
+      {
+        "range": "Z09",
+        "description": "Encounter for follow-up examination after completed treatment for conditions other than malignant neoplasm (Evidence: pg no: 101, L57-L58)",
+        "requirement": "Use for non-malignant condition follow-up after completed treatment",
+        "usage_rules": [
+          "May be assigned following any type of completed treatment modality (Evidence: pg no: 101, L59-L62)",
+          "Including both medical and surgical treatments (Evidence: pg no: 101, L61-L62)"
+        ]
+      },
+      {
+        "range": "Z39",
+        "description": "Encounter for maternal postpartum care and examination (Evidence: pg no: 101, L63)",
+        "requirement": "Use for maternal postpartum follow-up care",
+        "usage_rules": [
+          "For postpartum care encounters (Evidence: pg no: 101, L63)",
+          "For postpartum examinations (Evidence: pg no: 101, L63)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "Z08",
+        "description": "Encounter for follow-up examination after completed treatment for malignant neoplasm (Evidence: pg no: 101, L59-L60)",
+        "context": "Used for cancer surveillance after treatment completion",
+        "requires_additional_codes": "check_code_notes",
+        "breakdown": {
+          "Z08": "Follow-up after malignant neoplasm treatment"
+        }
+      },
+      {
+        "code": "Z09",
+        "description": "Encounter for follow-up examination after completed treatment for conditions other than malignant neoplasm (Evidence: pg no: 101, L60-L61)",
+        "context": "Used for non-cancer condition surveillance after treatment completion",
+        "requires_additional_codes": "check_code_notes",
+        "breakdown": {
+          "Z09": "Follow-up after non-malignant condition treatment"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Follow-up Z codes",
+      "History codes",
+      "Aftercare codes",
+      "Injury codes with 7th character"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.21.7",
+        "title": "Aftercare Z Code Usage Guidelines",
+        "relationship": "related_to",
+        "explanation": "Follow-up codes should not be confused with aftercare codes"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "FOLLOWUP_SCENARIO_001",
+      "scenario": "Patient presents for routine cancer surveillance 6 months after completing chemotherapy with no evidence of disease",
+      "documentation_example": "Patient with history of breast cancer, completed chemotherapy 6 months ago, presents for routine follow-up examination. No evidence of recurrence.",
+      "step_by_step": [
+        "Step 1: Verify cancer treatment has been completed",
+        "Step 2: Confirm no current evidence of malignancy",
+        "Step 3: Assign Z08 for malignant neoplasm follow-up",
+        "Step 4: Add appropriate history code",
+        "Step 5: Sequence Z08 first, history code second"
+      ],
+      "correct_coding": {
+        "primary_code": "Z08",
+        "secondary_codes": [
+          "Appropriate history of malignant neoplasm code"
+        ],
+        "sequencing": "Follow-up code first, history code second",
+        "rationale": "Follow-up code sequenced first when used with history codes to provide complete picture (Evidence: pg no: 101, L53-L54)"
+      },
+      "incorrect_coding": {
+        "code": "Active cancer diagnosis code",
+        "codes": [
+          "History code only"
+        ],
+        "rationale": "Would not indicate the surveillance nature of the encounter",
+        "common_mistake": "Using active diagnosis when condition no longer exists"
+      }
+    },
+    {
+      "scenario_id": "FOLLOWUP_SCENARIO_002",
+      "scenario": "Patient presents for follow-up visit and cancer recurrence is discovered",
+      "documentation_example": "Patient with history of lung cancer presents for routine follow-up. Imaging reveals new tumor consistent with recurrence.",
+      "step_by_step": [
+        "Step 1: Recognize that condition has recurred",
+        "Step 2: Do not use follow-up code",
+        "Step 3: Assign active diagnosis code for recurrent malignancy",
+        "Step 4: Code based on current findings"
+      ],
+      "correct_coding": {
+        "primary_code": "Active malignant neoplasm code",
+        "secondary_codes": [
+          "Additional codes as appropriate"
+        ],
+        "sequencing": "Active diagnosis first",
+        "rationale": "When condition recurs during follow-up visit, diagnosis code for condition should be assigned instead of follow-up code (Evidence: pg no: 101, L54)"
+      },
+      "incorrect_coding": {
+        "code": "Z08",
+        "codes": [
+          "Follow-up code with recurrent cancer"
+        ],
+        "rationale": "Follow-up codes are not appropriate when condition has recurred",
+        "common_mistake": "Using follow-up code when active disease is present"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "FOLLOWUP_EX_001",
+      "scenario": "Follow-up with history code sequencing",
+      "code_example": "Z08 followed by history code",
+      "breakdown": {
+        "Z08": "Follow-up examination after completed malignant neoplasm treatment (Evidence: pg no: 101, L55-L56)",
+        "History code": "Provides complete picture of healed condition (Evidence: pg no: 101, L50-L51)"
+      },
+      "rationale": "Follow-up code sequenced first to indicate primary reason for encounter, history code provides background (Evidence: pg no: 101, L53-L54)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not use follow-up codes if condition still exists or is being actively treated (Evidence: pg no: 101, L48-L49)",
+      "Do not confuse with aftercare codes or injury codes with 7th character (Evidence: pg no: 101, L49-L50)",
+      "Replace follow-up code with diagnosis code if condition recurs (Evidence: pg no: 101, L54)"
+    ],
+    "best_practices": [
+      "Use with history codes to provide complete clinical picture (Evidence: pg no: 101, L50-L51)",
+      "Sequence follow-up code first when used with history codes (Evidence: pg no: 101, L53-L54)",
+      "Can be used to explain multiple visits for ongoing surveillance (Evidence: pg no: 101, L54)"
+    ],
+    "common_mistakes": [
+      "Using follow-up codes when condition still exists",
+      "Confusing follow-up codes with aftercare codes",
+      "Incorrect sequencing with history codes",
+      "Continuing to use follow-up code when condition recurs"
+    ],
+    "tips": [
+      "Verify treatment is completely finished before using follow-up codes",
+      "Confirm no evidence of active disease",
+      "Consider whether history codes would provide additional useful information"
+    ],
+    "implementation_notes": [
+      "Follow-up codes may be used for multiple surveillance visits",
+      "Both medical and surgical treatment modalities qualify for follow-up codes",
+      "Sequencing is important when combining with history codes"
+    ],
+    "clinical_context": [
+      "Cancer surveillance programs",
+      "Post-treatment monitoring protocols",
+      "Routine follow-up examinations after disease resolution"
+    ]
+  },
+  "search_keywords": [
+    "follow-up",
+    "surveillance",
+    "completed treatment",
+    "Z08",
+    "Z09",
+    "malignant neoplasm",
+    "history codes",
+    "recurrence",
+    "monitoring",
+    "post-treatment"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "Z codes follow-up",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "follow-up",
+      "Z codes",
+      "surveillance",
+      "completed treatment",
+      "sequencing"
+    ]
+  },
+  "page_range_processed": "pages_99_to_102"
+}

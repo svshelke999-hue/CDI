@@ -1,0 +1,182 @@
+{
+  "guideline_id": "I.C.6.b.6",
+  "semantic_title": "Chronic Pain Syndrome vs Chronic Pain Distinction",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 6. Chapter 6: Diseases of the Nervous System > b. Pain - Category G89 > 6) Chronic pain syndrome",
+  "page_number": 48,
+  "content": {
+    "full_text": "Central pain syndrome (G89.0) and chronic pain syndrome (G89.4) are different than the term \"chronic pain,\" and therefore codes should only be used when the provider has specifically documented this condition. See Section I.C.5. Pain disorders related to psychological factors (Evidence: pg no: 48, L64-L65)",
+    "summary": "Important distinction between chronic pain syndromes (G89.0, G89.4) and general chronic pain, requiring specific provider documentation for syndrome codes. (Evidence: pg no: 48, L64-L65)",
+    "key_concepts": [
+      "Central pain syndrome distinction (Evidence: pg no: 48, L64)",
+      "Chronic pain syndrome distinction (Evidence: pg no: 48, L64)",
+      "Specific provider documentation requirement (Evidence: pg no: 48, L65)",
+      "Different from general chronic pain (Evidence: pg no: 48, L64-L65)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "pain_syndrome_distinction",
+        "rule_text": "Central pain syndrome (G89.0) and chronic pain syndrome (G89.4) are different than the term \"chronic pain,\" and therefore codes should only be used when the provider has specifically documented this condition (Evidence: pg no: 48, L64-L65)",
+        "explanation": "Pain syndromes are specific conditions requiring explicit provider documentation, not to be used for general chronic pain (Evidence: pg no: 48, L64-L65)",
+        "importance": "critical",
+        "applies_to": "G89.0, G89.4",
+        "common_applications": [
+          "Central pain syndrome diagnosis",
+          "Chronic pain syndrome diagnosis"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Review provider documentation for pain description",
+      "Step 2: Look for specific mention of 'central pain syndrome' or 'chronic pain syndrome'",
+      "Step 3: If specifically documented, use G89.0 or G89.4",
+      "Step 4: If only 'chronic pain' documented, use G89.2 subcategory",
+      "Step 5: Do not assume syndrome based on chronic pain alone"
+    ],
+    "related_terminology": [
+      "Central pain syndrome",
+      "Chronic pain syndrome",
+      "Chronic pain",
+      "Pain syndrome",
+      "Specific documentation"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "G89.0",
+        "description": "Central pain syndrome (Evidence: pg no: 48, L64)",
+        "context": "Requires specific provider documentation of central pain syndrome",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "G89": "Pain, not elsewhere classified",
+          ".0": "Central pain syndrome"
+        }
+      },
+      {
+        "code": "G89.4",
+        "description": "Chronic pain syndrome (Evidence: pg no: 48, L64)",
+        "context": "Requires specific provider documentation of chronic pain syndrome",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "G89": "Pain, not elsewhere classified",
+          ".4": "Chronic pain syndrome"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "G89.0 - Central pain syndrome",
+      "G89.4 - Chronic pain syndrome"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.5",
+        "title": "Pain disorders related to psychological factors",
+        "relationship": "related_to",
+        "explanation": "Referenced for additional guidance on pain disorders with psychological components"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "documented_chronic_pain_syndrome",
+      "scenario": "Patient diagnosed with chronic pain syndrome by provider",
+      "documentation_example": "Patient diagnosed with chronic pain syndrome, affecting multiple body systems",
+      "step_by_step": [
+        "Step 1: Review provider documentation",
+        "Step 2: Note specific documentation of 'chronic pain syndrome'",
+        "Step 3: Assign G89.4 for chronic pain syndrome"
+      ],
+      "correct_coding": {
+        "primary_code": "G89.4",
+        "secondary_codes": [],
+        "sequencing": "Specific syndrome code",
+        "rationale": "Provider specifically documented chronic pain syndrome (Evidence: pg no: 48, L64-L65)"
+      },
+      "incorrect_coding": {
+        "code": "G89.29",
+        "rationale": "Should use specific syndrome code when documented",
+        "common_mistake": "Using general chronic pain code for documented syndrome"
+      }
+    },
+    {
+      "scenario_id": "general_chronic_pain",
+      "scenario": "Patient with chronic back pain, no syndrome documentation",
+      "documentation_example": "Patient with chronic lower back pain, ongoing for several months",
+      "step_by_step": [
+        "Step 1: Review documentation for specific syndrome terminology",
+        "Step 2: Note only 'chronic pain' documented, not 'chronic pain syndrome'",
+        "Step 3: Use general chronic pain code, not syndrome code"
+      ],
+      "correct_coding": {
+        "primary_code": "G89.29",
+        "secondary_codes": [],
+        "sequencing": "General chronic pain code",
+        "rationale": "No specific syndrome documentation, only chronic pain (Evidence: pg no: 48, L64-L65)"
+      },
+      "incorrect_coding": {
+        "code": "G89.4",
+        "rationale": "Should not use syndrome code without specific documentation",
+        "common_mistake": "Assuming syndrome based on chronic pain alone"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not use G89.0 or G89.4 without specific provider documentation of the syndrome (Evidence: pg no: 48, L64-L65)"
+    ],
+    "best_practices": [
+      "Look for exact terminology 'central pain syndrome' or 'chronic pain syndrome'",
+      "Use general chronic pain codes when syndrome not specifically documented"
+    ],
+    "common_mistakes": [
+      "Using syndrome codes for general chronic pain",
+      "Assuming syndrome based on pain characteristics alone"
+    ],
+    "tips": [
+      "Syndrome codes require specific provider documentation",
+      "General chronic pain is different from chronic pain syndrome"
+    ],
+    "implementation_notes": [
+      "References Section I.C.5 for psychological factors",
+      "Distinction is critical for accurate coding"
+    ],
+    "clinical_context": [
+      "Pain syndromes are specific medical conditions",
+      "Chronic pain syndrome has specific diagnostic criteria"
+    ]
+  },
+  "search_keywords": [
+    "chronic pain syndrome",
+    "central pain syndrome",
+    "G89.0",
+    "G89.4",
+    "pain syndrome",
+    "chronic pain",
+    "specific documentation"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "nervous_system_pain",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "pain_syndrome",
+      "chronic_pain",
+      "G89.0",
+      "G89.4",
+      "documentation",
+      "distinction"
+    ]
+  },
+  "page_range_processed": "pages_45_to_48"
+}

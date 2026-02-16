@@ -1,0 +1,183 @@
+{
+  "guideline_id": "I.C.13.a.2",
+  "semantic_title": "Multiple Sites Coding Guidelines for Musculoskeletal Conditions",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 13. Chapter 13: Diseases of the Musculoskeletal System and Connective Tissue > a. Site and laterality > 2. Multiple sites",
+  "page_number": 61,
+  "content": {
+    "full_text": "Codes describing specified sites are assigned individually by site when documented. When the specified site(s) are not documented, assign the appropriate code for 'multiple sites.' (Evidence: pg no: 61, L33-L34)",
+    "summary": "Assign individual site codes when specific sites are documented; use multiple sites codes when specific sites are not documented (Evidence: pg no: 61, L33-L34)",
+    "key_concepts": [
+      "Specified sites (Evidence: pg no: 61, L33)",
+      "Individual site assignment (Evidence: pg no: 61, L33)",
+      "Multiple sites codes (Evidence: pg no: 61, L34)",
+      "Documentation requirements (Evidence: pg no: 61, L33-L34)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "MSK_MULTIPLE_001",
+        "rule_text": "Codes describing specified sites are assigned individually by site when documented (Evidence: pg no: 61, L33)",
+        "explanation": "When documentation specifies individual anatomical sites, assign separate codes for each documented site (Evidence: pg no: 61, L33)",
+        "importance": "critical",
+        "applies_to": "M00-M99",
+        "common_applications": [
+          "Multi-site musculoskeletal conditions",
+          "Individual site documentation"
+        ]
+      },
+      {
+        "rule_id": "MSK_MULTIPLE_002",
+        "rule_text": "When the specified site(s) are not documented, assign the appropriate code for 'multiple sites' (Evidence: pg no: 61, L34)",
+        "explanation": "Use multiple sites codes when documentation does not specify individual anatomical sites (Evidence: pg no: 61, L34)",
+        "importance": "high",
+        "applies_to": "M00-M99",
+        "common_applications": [
+          "Unspecified multiple sites",
+          "General multi-site conditions"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Review documentation for specific anatomical sites",
+      "Step 2: If specific sites documented, assign individual codes for each site",
+      "Step 3: If specific sites not documented but multiple sites indicated, assign multiple sites code",
+      "Step 4: Ensure all documented sites are coded appropriately"
+    ],
+    "related_terminology": [
+      "Specified sites",
+      "Multiple sites",
+      "Individual site coding",
+      "Site documentation"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "M00-M99",
+        "description": "Musculoskeletal system codes (Evidence: pg no: 61, L23)",
+        "requirement": "Follow multiple sites coding rules",
+        "usage_rules": [
+          "Assign individual codes when sites specified (Evidence: pg no: 61, L33)",
+          "Use multiple sites codes when sites not specified (Evidence: pg no: 61, L34)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "Multiple sites codes",
+        "description": "Codes designated for multiple anatomical sites (Evidence: pg no: 61, L34)",
+        "example": "Multiple sites designation",
+        "explanation": "Used when specific sites are not documented"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Multiple sites codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "MSK_MULTIPLE_SC001",
+      "scenario": "Patient with arthritis documented in left knee and right shoulder",
+      "documentation_example": "Osteoarthritis of left knee and right shoulder",
+      "step_by_step": [
+        "Step 1: Identify specific sites (left knee, right shoulder)",
+        "Step 2: Note that specific sites are documented",
+        "Step 3: Assign individual code for left knee osteoarthritis",
+        "Step 4: Assign individual code for right shoulder osteoarthritis"
+      ],
+      "correct_coding": {
+        "primary_code": "Osteoarthritis code for left knee",
+        "secondary_codes": [
+          "Osteoarthritis code for right shoulder"
+        ],
+        "sequencing": "Based on encounter focus",
+        "rationale": "Specific sites are documented, so individual site codes are assigned (Evidence: pg no: 61, L33)"
+      },
+      "incorrect_coding": {
+        "code": "Multiple sites code",
+        "codes": [
+          "Single unspecified site code"
+        ],
+        "rationale": "When specific sites are documented, individual codes should be used",
+        "common_mistake": "Using multiple sites code when specific sites are documented"
+      }
+    },
+    {
+      "scenario_id": "MSK_MULTIPLE_SC002",
+      "scenario": "Patient with arthritis affecting multiple joints, specific sites not documented",
+      "documentation_example": "Polyarticular osteoarthritis affecting multiple joints",
+      "step_by_step": [
+        "Step 1: Identify condition affecting multiple sites",
+        "Step 2: Note that specific sites are not documented",
+        "Step 3: Assign appropriate multiple sites code"
+      ],
+      "correct_coding": {
+        "primary_code": "Osteoarthritis code for multiple sites",
+        "secondary_codes": [],
+        "sequencing": "Primary condition",
+        "rationale": "Specific sites not documented, so multiple sites code is appropriate (Evidence: pg no: 61, L34)"
+      },
+      "incorrect_coding": {
+        "code": "Individual site codes without documentation",
+        "codes": [
+          "Assumed specific site codes"
+        ],
+        "rationale": "Cannot assign specific site codes without documentation",
+        "common_mistake": "Assuming specific sites without documentation"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not use multiple sites codes when specific sites are documented (Evidence: pg no: 61, L33)",
+      "Do not assume specific sites without documentation (Evidence: pg no: 61, L34)"
+    ],
+    "best_practices": [
+      "Assign individual codes for each documented site (Evidence: pg no: 61, L33)",
+      "Use multiple sites codes only when specific sites not documented (Evidence: pg no: 61, L34)"
+    ],
+    "common_mistakes": [
+      "Using multiple sites codes when specific sites are documented (Evidence: pg no: 61, L33)",
+      "Not coding all documented individual sites (Evidence: pg no: 61, L33)"
+    ],
+    "tips": [
+      "Review documentation carefully for specific site mentions (Evidence: pg no: 61, L33-L34)"
+    ],
+    "implementation_notes": [
+      "Documentation quality determines coding approach for multiple sites"
+    ],
+    "clinical_context": [
+      "Musculoskeletal conditions can affect single or multiple anatomical sites"
+    ]
+  },
+  "search_keywords": [
+    "multiple sites",
+    "individual site coding",
+    "specified sites",
+    "musculoskeletal multiple sites",
+    "site documentation",
+    "polyarticular"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "musculoskeletal_system",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "multiple_sites",
+      "individual_coding",
+      "site_specification"
+    ]
+  },
+  "page_range_processed": "pages_60_to_63"
+}

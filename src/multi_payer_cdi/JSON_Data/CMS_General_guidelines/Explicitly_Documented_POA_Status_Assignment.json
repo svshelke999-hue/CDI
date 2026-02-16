@@ -1,0 +1,132 @@
+{
+  "guideline_id": "POA.2",
+  "semantic_title": "Explicitly Documented POA Status Assignment",
+  "section_path": "Present on Admission Guidelines > Assigning the POA Indicator > POA Explicitly Documented",
+  "page_number": 118,
+  "content": {
+    "full_text": "Assign Y for any condition the provider explicitly documents as being present on admission. Assign N for any condition the provider explicitly documents as not present at the time of admission. (Evidence: pg no: 118, L24-L26)",
+    "summary": "When providers explicitly document POA status, assign Y for present conditions and N for not present conditions (Evidence: pg no: 118, L24-L26)",
+    "key_concepts": [
+      "Explicit provider documentation (Evidence: pg no: 118, L24-L26)",
+      "Y indicator for present conditions (Evidence: pg no: 118, L25)",
+      "N indicator for not present conditions (Evidence: pg no: 118, L26)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "POA.2.1",
+        "rule_text": "Assign Y when provider explicitly documents condition as present on admission (Evidence: pg no: 118, L25)",
+        "explanation": "Clear provider documentation stating condition was present at admission requires Y indicator (Evidence: pg no: 118, L25)",
+        "importance": "high",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Provider states 'present on admission'",
+          "Clear documentation of pre-existing condition"
+        ]
+      },
+      {
+        "rule_id": "POA.2.2",
+        "rule_text": "Assign N when provider explicitly documents condition as not present at admission (Evidence: pg no: 118, L26)",
+        "explanation": "Clear provider documentation stating condition was not present at admission requires N indicator (Evidence: pg no: 118, L26)",
+        "importance": "high",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Provider states 'developed after admission'",
+          "Clear documentation of hospital-acquired condition"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Review provider documentation for explicit POA statements",
+      "Step 2: If explicitly documented as present, assign Y",
+      "Step 3: If explicitly documented as not present, assign N"
+    ],
+    "related_terminology": [
+      "Explicit documentation",
+      "Provider statement",
+      "Present on admission",
+      "POA indicator"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "All conditions with explicit POA documentation"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "POA.2.S1",
+      "scenario": "Provider explicitly states condition was present on admission",
+      "documentation_example": "Patient's diabetes mellitus was present on admission",
+      "step_by_step": [
+        "Step 1: Identify explicit provider statement",
+        "Step 2: Confirm statement indicates present on admission",
+        "Step 3: Assign Y indicator"
+      ],
+      "correct_coding": {
+        "primary_code": "Diabetes code with Y indicator",
+        "secondary_codes": [],
+        "sequencing": "Standard rules apply",
+        "rationale": "Provider explicitly documented as present on admission (Evidence: pg no: 118, L25)"
+      },
+      "incorrect_coding": {
+        "code": "Diabetes code with N, U, or W indicator",
+        "codes": [],
+        "rationale": "Should assign Y when explicitly documented as present",
+        "common_mistake": "Not following explicit provider documentation"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Must follow explicit provider documentation (Evidence: pg no: 118, L24-L26)"
+    ],
+    "best_practices": [
+      "Look for clear provider statements about POA status (Evidence: pg no: 118, L24-L26)"
+    ],
+    "common_mistakes": [
+      "Ignoring explicit provider documentation (Evidence: pg no: 118, L24-L26)"
+    ],
+    "tips": [
+      "Provider documentation takes precedence when explicit (Evidence: pg no: 118, L24-L26)"
+    ],
+    "implementation_notes": [
+      "Train coders to recognize explicit POA statements"
+    ],
+    "clinical_context": [
+      "Providers may clearly state POA status in documentation"
+    ]
+  },
+  "search_keywords": [
+    "explicit POA documentation",
+    "provider documented POA",
+    "Y indicator assignment",
+    "N indicator assignment",
+    "explicit present on admission"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "POA_assignment",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "POA",
+      "explicit",
+      "documentation",
+      "provider",
+      "indicators"
+    ]
+  },
+  "page_range_processed": "pages_117_to_120"
+}

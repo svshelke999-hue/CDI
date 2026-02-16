@@ -1,0 +1,159 @@
+{
+  "guideline_id": "IV.D",
+  "semantic_title": "Coding Symptoms and Signs When Diagnosis Not Established",
+  "section_path": "Section IV > D. Codes that describe symptoms and signs",
+  "page_number": 113,
+  "content": {
+    "full_text": "Codes that describe symptoms and signs, as opposed to diagnoses, are acceptable for reporting purposes when a diagnosis has not been established (confirmed) by the provider. Chapter 18 of ICD-10-CM, Symptoms, Signs, and Abnormal Clinical and Laboratory Findings Not Elsewhere Classified (codes R00-R99) contain many, but not all codes for symptoms. (Evidence: pg no: 113, L45-L47)",
+    "summary": "Authorizes use of symptom and sign codes when definitive diagnoses are not established, with specific reference to Chapter 18 codes (Evidence: pg no: 113, L45-L47)",
+    "key_concepts": [
+      "Symptom and sign codes acceptable when diagnosis not established (Evidence: pg no: 113, L45-L46)",
+      "Provider must not have confirmed a diagnosis (Evidence: pg no: 113, L46)",
+      "Chapter 18 (R00-R99) contains many symptom codes (Evidence: pg no: 113, L46-L47)",
+      "Not all symptom codes are in Chapter 18 (Evidence: pg no: 113, L47)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "IV.D.1",
+        "rule_text": "Use symptom and sign codes when diagnosis not established by provider (Evidence: pg no: 113, L45-L46)",
+        "explanation": "When a provider has not confirmed a definitive diagnosis, symptom codes are appropriate for reporting (Evidence: pg no: 113, L45-L46)",
+        "importance": "high",
+        "applies_to": "symptom_codes",
+        "common_applications": [
+          "Initial patient encounters",
+          "Diagnostic workup in progress",
+          "Unclear clinical presentations"
+        ]
+      },
+      {
+        "rule_id": "IV.D.2",
+        "rule_text": "Chapter 18 (R00-R99) contains many but not all symptom codes (Evidence: pg no: 113, L46-L47)",
+        "explanation": "While Chapter 18 is the primary location for symptom codes, symptom codes may exist in other chapters (Evidence: pg no: 113, L46-L47)",
+        "importance": "medium",
+        "applies_to": "symptom_code_location",
+        "common_applications": [
+          "Code research and lookup",
+          "Comprehensive symptom coding",
+          "Cross-chapter code verification"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if provider has established a definitive diagnosis",
+      "Step 2: If no diagnosis established, identify documented symptoms and signs",
+      "Step 3: Search Chapter 18 (R00-R99) for appropriate symptom codes",
+      "Step 4: Check other chapters if symptom not found in Chapter 18",
+      "Step 5: Code all documented symptoms and signs"
+    ],
+    "related_terminology": [
+      "Symptoms",
+      "Signs",
+      "Diagnoses",
+      "Established diagnosis",
+      "Confirmed diagnosis",
+      "Chapter 18",
+      "R codes"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "R00-R99",
+        "description": "Symptoms, Signs, and Abnormal Clinical and Laboratory Findings Not Elsewhere Classified (Evidence: pg no: 113, L46-L47)",
+        "requirement": "Primary location for symptom codes",
+        "usage_rules": [
+          "Contains many but not all symptom codes (Evidence: pg no: 113, L47)",
+          "Use when diagnosis not established (Evidence: pg no: 113, L45-L46)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Chapter 18 - Symptoms, Signs, and Abnormal Clinical and Laboratory Findings"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "IV.D.S1",
+      "scenario": "Patient presents with chest pain, no definitive diagnosis established",
+      "documentation_example": "Chief complaint: Chest pain for 2 hours. Physical exam: Normal heart sounds, no murmurs. Assessment: Chest pain, etiology unclear. Plan: EKG, chest x-ray, follow up.",
+      "step_by_step": [
+        "Step 1: Confirm no definitive diagnosis established",
+        "Step 2: Identify symptom - chest pain",
+        "Step 3: Search Chapter 18 for chest pain code",
+        "Step 4: Select appropriate R code",
+        "Step 5: Code the symptom"
+      ],
+      "correct_coding": {
+        "primary_code": "R07.89",
+        "secondary_codes": [],
+        "sequencing": "Primary symptom as first-listed diagnosis",
+        "rationale": "Symptom codes acceptable when diagnosis not established by provider (Evidence: pg no: 113, L45-L46)"
+      },
+      "incorrect_coding": {
+        "code": "I25.9",
+        "codes": [],
+        "rationale": "Should not assign definitive diagnosis code when provider has not established diagnosis",
+        "common_mistake": "Assigning diagnosis codes when only symptoms documented"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not assign diagnosis codes when provider has not established diagnosis (Evidence: pg no: 113, L45-L46)"
+    ],
+    "best_practices": [
+      "Use symptom codes when diagnosis not confirmed (Evidence: pg no: 113, L45-L46)",
+      "Check Chapter 18 first for symptom codes (Evidence: pg no: 113, L46-L47)",
+      "Remember symptom codes may exist outside Chapter 18"
+    ],
+    "common_mistakes": [
+      "Assigning definitive diagnosis when only symptoms documented",
+      "Only looking in Chapter 18 for all symptom codes",
+      "Not coding symptoms when diagnosis unclear"
+    ],
+    "tips": [
+      "Chapter 18 contains many but not all symptom codes (Evidence: pg no: 113, L47)"
+    ],
+    "implementation_notes": [
+      "Requires clear documentation of diagnostic uncertainty",
+      "May require provider clarification on diagnostic status"
+    ],
+    "clinical_context": [
+      "Outpatient encounters often involve diagnostic workup",
+      "Symptoms may be the only documented findings initially"
+    ]
+  },
+  "search_keywords": [
+    "symptoms",
+    "signs",
+    "Chapter 18",
+    "R codes",
+    "diagnosis not established",
+    "symptom coding"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "symptom_coding",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "symptoms",
+      "signs",
+      "R_codes",
+      "unconfirmed_diagnosis",
+      "chapter_18"
+    ]
+  },
+  "page_range_processed": "pages_111_to_114"
+}

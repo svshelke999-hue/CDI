@@ -1,0 +1,197 @@
+{
+  "guideline_id": "I.C.9.e.6",
+  "semantic_title": "Myocardial Infarction with Coronary Microvascular Dysfunction Coding",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 9. Chapter 9: Diseases of the Circulatory System > e. Acute myocardial infarction (AMI) > 6. Myocardial Infarction with Coronary Microvascular Dysfunction",
+  "page_number": 56,
+  "content": {
+    "full_text": "Coronary microvascular dysfunction (CMD) is a condition that impacts the microvasculature by restricting microvascular flow and increasing microvascular resistance. Code I21.B, Myocardial infarction with coronary microvascular dysfunction, is assigned for myocardial infarction with coronary microvascular disease, myocardial infarction with coronary microvascular dysfunction, and myocardial infarction with non-obstructive coronary arteries (MINOCA) with microvascular disease. (Evidence: pg no: 56, L44-L51)",
+    "summary": "Definition and coding instructions for myocardial infarction with coronary microvascular dysfunction including MINOCA with microvascular disease (Evidence: pg no: 56, L44-L51)",
+    "key_concepts": [
+      "Coronary microvascular dysfunction definition (Evidence: pg no: 56, L46-L47)",
+      "Microvascular flow restriction (Evidence: pg no: 56, L47)",
+      "MINOCA with microvascular disease (Evidence: pg no: 56, L50-L51)",
+      "Specific code I21.B assignment (Evidence: pg no: 56, L48-L51)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "cmd_definition",
+        "rule_text": "Coronary microvascular dysfunction impacts microvasculature by restricting microvascular flow and increasing microvascular resistance (Evidence: pg no: 56, L46-L47)",
+        "explanation": "CMD is a specific pathophysiological condition affecting small coronary vessels rather than major epicardial arteries (Evidence: pg no: 56, L46-L47)",
+        "importance": "high",
+        "applies_to": "I21.B",
+        "common_applications": [
+          "Microvascular angina",
+          "Small vessel disease",
+          "MINOCA cases"
+        ]
+      },
+      {
+        "rule_id": "i21b_assignment",
+        "rule_text": "Code I21.B is assigned for myocardial infarction with coronary microvascular disease, dysfunction, and MINOCA with microvascular disease (Evidence: pg no: 56, L48-L51)",
+        "explanation": "Single code covers multiple related conditions involving MI with microvascular pathology (Evidence: pg no: 56, L48-L51)",
+        "importance": "critical",
+        "applies_to": "I21.B",
+        "common_applications": [
+          "MI with documented microvascular disease",
+          "MI with microvascular dysfunction",
+          "MINOCA with microvascular involvement"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify myocardial infarction diagnosis",
+      "Step 2: Determine presence of microvascular involvement",
+      "Step 3: Assess for coronary microvascular dysfunction or disease",
+      "Step 4: Assign code I21.B when criteria are met"
+    ],
+    "related_terminology": [
+      "Coronary microvascular dysfunction",
+      "CMD",
+      "Microvascular disease",
+      "MINOCA",
+      "Non-obstructive coronary arteries",
+      "Microvascular flow restriction",
+      "Microvascular resistance"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "I21.B",
+        "description": "Myocardial infarction with coronary microvascular dysfunction (Evidence: pg no: 56, L48)",
+        "context": "For MI with microvascular disease, dysfunction, or MINOCA with microvascular disease",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "I21": "Acute myocardial infarction category",
+          "B": "Coronary microvascular dysfunction specification"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Myocardial infarction with coronary microvascular dysfunction"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "minoca_microvascular",
+      "scenario": "Patient with MINOCA and documented microvascular disease",
+      "documentation_example": "Myocardial infarction with non-obstructive coronary arteries, microvascular disease identified on imaging",
+      "step_by_step": [
+        "Step 1: Identify myocardial infarction",
+        "Step 2: Note non-obstructive coronary arteries (MINOCA)",
+        "Step 3: Confirm microvascular disease component",
+        "Step 4: Assign I21.B"
+      ],
+      "correct_coding": {
+        "primary_code": "I21.B",
+        "secondary_codes": [],
+        "sequencing": "Single code assignment",
+        "rationale": "MINOCA with microvascular disease specifically covered by I21.B (Evidence: pg no: 56, L50-L51)"
+      },
+      "incorrect_coding": {
+        "code": "I21.9",
+        "codes": [
+          "I21.9"
+        ],
+        "rationale": "Unspecified AMI code doesn't capture microvascular component",
+        "common_mistake": "Using unspecified AMI code when microvascular involvement is documented"
+      }
+    },
+    {
+      "scenario_id": "cmd_documented",
+      "scenario": "AMI with documented coronary microvascular dysfunction",
+      "documentation_example": "Acute myocardial infarction with coronary microvascular dysfunction, increased microvascular resistance noted",
+      "step_by_step": [
+        "Step 1: Identify acute myocardial infarction",
+        "Step 2: Note specific mention of coronary microvascular dysfunction",
+        "Step 3: Confirm microvascular pathology",
+        "Step 4: Assign I21.B"
+      ],
+      "correct_coding": {
+        "primary_code": "I21.B",
+        "secondary_codes": [],
+        "sequencing": "Single code assignment",
+        "rationale": "Coronary microvascular dysfunction specifically coded with I21.B (Evidence: pg no: 56, L48-L49)"
+      },
+      "incorrect_coding": {
+        "code": "I21.4",
+        "codes": [
+          "I21.4"
+        ],
+        "rationale": "NSTEMI code doesn't capture microvascular dysfunction",
+        "common_mistake": "Using standard AMI codes when microvascular dysfunction is documented"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "microvascular_disease_mi",
+      "scenario": "MI with coronary microvascular disease",
+      "code_example": "I21.B",
+      "breakdown": {
+        "I21": "Acute myocardial infarction category (Evidence: pg no: 56, L48)",
+        "B": "Coronary microvascular dysfunction specification (Evidence: pg no: 56, L48)"
+      },
+      "rationale": "Specific code for MI with microvascular involvement (Evidence: pg no: 56, L48-L49)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [],
+    "best_practices": [
+      "Look for documentation of microvascular involvement in MI cases (Evidence: pg no: 56, L48-L51)",
+      "Recognize MINOCA with microvascular disease as I21.B indication (Evidence: pg no: 56, L50-L51)"
+    ],
+    "common_mistakes": [
+      "Missing microvascular component in AMI coding",
+      "Using standard AMI codes when microvascular dysfunction is documented"
+    ],
+    "tips": [
+      "CMD affects microvasculature, not major coronary arteries (Evidence: pg no: 56, L46-L47)",
+      "Single code I21.B covers multiple microvascular-related MI conditions (Evidence: pg no: 56, L48-L51)"
+    ],
+    "implementation_notes": [
+      "Requires specific documentation of microvascular involvement",
+      "Distinct from standard epicardial coronary artery disease"
+    ],
+    "clinical_context": [
+      "CMD represents small vessel coronary disease",
+      "MINOCA often involves microvascular pathology",
+      "Microvascular dysfunction can cause MI without major vessel obstruction"
+    ]
+  },
+  "search_keywords": [
+    "coronary microvascular dysfunction",
+    "CMD",
+    "MINOCA",
+    "microvascular disease",
+    "I21.B",
+    "non-obstructive coronary arteries",
+    "microvascular flow restriction",
+    "small vessel disease"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "circulatory_system_ami",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "AMI",
+      "microvascular",
+      "CMD",
+      "MINOCA",
+      "small_vessel"
+    ]
+  },
+  "page_range_processed": "pages_54_to_57"
+}

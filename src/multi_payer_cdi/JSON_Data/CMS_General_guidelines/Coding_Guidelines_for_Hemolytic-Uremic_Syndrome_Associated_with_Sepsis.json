@@ -1,0 +1,192 @@
+{
+  "guideline_id": "I.C.1.d.9",
+  "semantic_title": "Coding Guidelines for Hemolytic-Uremic Syndrome Associated with Sepsis",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 1. Certain Infectious and Parasitic Diseases > d. Sepsis, Severe Sepsis, and Septic Shock > 9. Hemolytic-uremic syndrome associated with sepsis",
+  "page_number": 27,
+  "content": {
+    "full_text": "If the reason for admission is hemolytic-uremic syndrome that is associated with sepsis, assign code D59.31, Infection-associated hemolytic-uremic syndrome, as the principal diagnosis. Codes for the underlying systemic infection and any other conditions (such as severe sepsis) should be assigned as secondary diagnoses. (Evidence: pg no: 27, L54-L57)",
+    "summary": "Specific coding instructions for hemolytic-uremic syndrome when associated with sepsis, requiring D59.31 as principal diagnosis with sepsis codes as secondary (Evidence: pg no: 27, L54-L57)",
+    "key_concepts": [
+      "Hemolytic-uremic syndrome as principal diagnosis (Evidence: pg no: 27, L54-L56)",
+      "Sepsis as secondary diagnosis (Evidence: pg no: 27, L56-L57)",
+      "Infection-associated HUS coding (Evidence: pg no: 27, L55-L56)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "hus_principal",
+        "rule_text": "Assign D59.31 as principal diagnosis when HUS is reason for admission (Evidence: pg no: 27, L54-L56)",
+        "explanation": "When hemolytic-uremic syndrome associated with sepsis is the reason for admission, code D59.31 should be the principal diagnosis (Evidence: pg no: 27, L54-L56)",
+        "importance": "critical",
+        "applies_to": "D59.31",
+        "common_applications": [
+          "HUS with E. coli infection",
+          "HUS with other bacterial infections"
+        ]
+      },
+      {
+        "rule_id": "hus_sepsis_secondary",
+        "rule_text": "Assign sepsis and severe sepsis codes as secondary diagnoses (Evidence: pg no: 27, L56-L57)",
+        "explanation": "The underlying systemic infection and severe sepsis codes should be assigned as secondary diagnoses when HUS is principal (Evidence: pg no: 27, L56-L57)",
+        "importance": "critical",
+        "applies_to": "sepsis codes when HUS present",
+        "common_applications": [
+          "Systemic infection codes",
+          "Severe sepsis codes"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Confirm hemolytic-uremic syndrome is reason for admission",
+      "Step 2: Assign D59.31 as principal diagnosis",
+      "Step 3: Assign underlying systemic infection as secondary",
+      "Step 4: Assign severe sepsis codes as secondary if applicable",
+      "Step 5: Assign any other related conditions as secondary"
+    ],
+    "related_terminology": [
+      "hemolytic-uremic syndrome",
+      "HUS",
+      "infection-associated",
+      "systemic infection",
+      "principal diagnosis",
+      "secondary diagnosis"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "D59.31",
+        "description": "Infection-associated hemolytic-uremic syndrome (Evidence: pg no: 27, L55-L56)",
+        "context": "Principal diagnosis when HUS is reason for admission",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "D59": "Acquired hemolytic anemia",
+          "31": "Infection-associated hemolytic-uremic syndrome"
+        }
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": "D59.31 + systemic infection code + severe sepsis code",
+        "description": "Standard pattern for HUS with sepsis (Evidence: pg no: 27, L54-L57)",
+        "example": "D59.31 + A41.51 + R65.20",
+        "explanation": "HUS as principal with sepsis components as secondary"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Hemolytic-uremic syndrome codes",
+      "Systemic infection codes",
+      "Severe sepsis codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": [
+      {
+        "guideline_id": "I.C.1.d.4",
+        "title": "Sepsis or severe sepsis with a localized infection",
+        "relationship": "referenced_by",
+        "explanation": "Referenced for HUS with sepsis cases (Evidence: pg no: 25, L21)"
+      }
+    ]
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "hus_ecoli_sepsis",
+      "scenario": "Patient admitted with hemolytic-uremic syndrome due to E. coli infection with sepsis",
+      "documentation_example": "Hemolytic-uremic syndrome secondary to E. coli O157:H7 infection with sepsis",
+      "step_by_step": [
+        "Step 1: Identify HUS as reason for admission",
+        "Step 2: Assign D59.31 as principal diagnosis",
+        "Step 3: Assign E. coli sepsis code as secondary",
+        "Step 4: Assign any additional complications as secondary"
+      ],
+      "correct_coding": {
+        "primary_code": "D59.31",
+        "secondary_codes": [
+          "A41.51 (E. coli sepsis)",
+          "Additional complications"
+        ],
+        "sequencing": "HUS first, then sepsis codes",
+        "rationale": "HUS is the reason for admission and takes priority (Evidence: pg no: 27, L54-L56)"
+      },
+      "incorrect_coding": {
+        "code": "A41.51 as primary",
+        "codes": [
+          "Sepsis code as principal diagnosis"
+        ],
+        "rationale": "HUS should be principal when it's the reason for admission",
+        "common_mistake": "Sequencing sepsis first instead of HUS"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "hus_severe_sepsis",
+      "scenario": "HUS with severe sepsis and organ dysfunction",
+      "code_example": "D59.31 + systemic infection + R65.2X + organ dysfunction codes",
+      "breakdown": {
+        "D59.31": "Principal diagnosis for HUS (Evidence: pg no: 27, L55-L56)",
+        "systemic_infection": "Secondary diagnosis for underlying infection (Evidence: pg no: 27, L56-L57)",
+        "R65.2X": "Secondary diagnosis for severe sepsis (Evidence: pg no: 27, L57)",
+        "organ_dysfunction": "Additional secondary codes as needed (Evidence: pg no: 27, L57)"
+      },
+      "rationale": "HUS takes priority as principal diagnosis with all sepsis components as secondary (Evidence: pg no: 27, L54-L57)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "HUS must be reason for admission to be principal (Evidence: pg no: 27, L54)",
+      "All sepsis codes become secondary when HUS is principal (Evidence: pg no: 27, L56-L57)"
+    ],
+    "best_practices": [
+      "Verify HUS is the reason for admission (Evidence: pg no: 27, L54)",
+      "Include all related sepsis and infection codes as secondary (Evidence: pg no: 27, L56-L57)"
+    ],
+    "common_mistakes": [
+      "Sequencing sepsis as principal when HUS is reason for admission (Evidence: pg no: 27, L54-L56)",
+      "Omitting underlying infection codes (Evidence: pg no: 27, L56-L57)"
+    ],
+    "tips": [
+      "Review admission documentation for primary reason (Evidence: pg no: 27, L54)",
+      "Include all components of sepsis as secondary diagnoses (Evidence: pg no: 27, L56-L57)"
+    ],
+    "implementation_notes": [
+      "Relatively uncommon condition requiring specific sequencing",
+      "Important for pediatric and nephrology coding"
+    ],
+    "clinical_context": [
+      "Often seen in pediatric patients",
+      "Associated with E. coli O157:H7 infections",
+      "Requires nephrology consultation"
+    ]
+  },
+  "search_keywords": [
+    "hemolytic-uremic syndrome",
+    "HUS",
+    "D59.31",
+    "infection-associated",
+    "E. coli",
+    "sepsis",
+    "principal diagnosis",
+    "nephrology"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "infectious_diseases",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "HUS",
+      "hemolytic-uremic",
+      "sepsis",
+      "sequencing",
+      "pediatric"
+    ]
+  },
+  "page_range_processed": "pages_24_to_27"
+}

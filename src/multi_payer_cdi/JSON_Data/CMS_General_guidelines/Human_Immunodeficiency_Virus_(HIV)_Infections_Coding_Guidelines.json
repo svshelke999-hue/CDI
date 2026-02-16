@@ -1,0 +1,356 @@
+{
+  "guideline_id": "I.C.1.a",
+  "semantic_title": "Human Immunodeficiency Virus (HIV) Infections Coding Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 1. Chapter 1 > a. Human Immunodeficiency Virus (HIV) Infections",
+  "page_number": 19,
+  "content": {
+    "full_text": "Human Immunodeficiency Virus (HIV) Infections: 1) Code only confirmed cases - Code only confirmed cases of HIV infection/illness. This is an exception to the hospital inpatient guideline Section II, H. In this context, 'confirmation' does not require documentation of positive serology or culture for HIV; the provider's diagnostic statement that the patient is HIV positive or has an HIV-related illness is sufficient. 2) Selection and sequencing of HIV codes: (a) HIV disease - If the term 'AIDS' or 'HIV disease' is documented or if the patient is treated for any HIV-related illness or is described as having any condition(s) resulting from the patient's HIV positive status; code B20, Human immunodeficiency virus [HIV], should be assigned. (b) Patient admitted for HIV-related condition - If a patient is admitted for an HIV-related condition, the principal diagnosis should be B20, Human immunodeficiency virus [HIV] disease followed by additional diagnosis codes for all reported HIV-related conditions. An exception to this guideline is if the reason for admission is hemolytic-uremic syndrome associated with HIV disease. Assign code D59.31, Infection-associated hemolytic-uremic syndrome, followed by code B20, Human immunodeficiency virus [HIV] disease. (c) Patient with HIV disease admitted for unrelated condition - If a patient with HIV disease is admitted for an unrelated condition (such as a traumatic injury), the code for the unrelated condition (e.g., the nature of injury code) should be the principal diagnosis. Code B20 would be reported as a secondary diagnosis. Codes for other documented conditions should also be reported as secondary diagnoses. (d) Patient newly diagnosed with HIV disease - Whether the patient is newly diagnosed or has had previous admissions/encounters for HIV conditions is irrelevant to the sequencing decision. (e) Asymptomatic human immunodeficiency virus - When 'HIV positive,' 'HIV test positive,' or similar terminology is documented, and there is no documentation of symptoms or HIV-related illness, code Z21, Asymptomatic human immunodeficiency virus [HIV] infection status, should be assigned. (f) Inconclusive HIV serology - Patients with documentation of inconclusive HIV serology, may be assigned code R75, Inconclusive laboratory evidence of human immunodeficiency virus [HIV]. (g) Previously diagnosed HIV-related illness - Patients with documentation of a prior diagnosis of an HIV-related illness should be coded to B20. Once an HIV-related illness has developed, code B20 should always be assigned on every subsequent admission/encounter. Patients previously diagnosed with any HIV illness (B20) should never be assigned to R75, Inconclusive laboratory evidence of human immunodeficiency virus [HIV] or Z21, Asymptomatic human immunodeficiency virus [HIV] infection status. (h) HIV Infection in Pregnancy, Childbirth and the Puerperium - When a patient presents during pregnancy, childbirth or the puerperium with documented symptomatic HIV disease or an HIV related illness, assign a code from subcategory O98.7, Human immunodeficiency [HIV] disease complicating pregnancy, childbirth and the puerperium, followed by code B20 and additional code(s) for any HIV-related illness(es). Codes from Chapter 15 always take sequencing priority. When a patient presents during pregnancy, childbirth or the puerperium with documented asymptomatic HIV infection status or is HIV-positive, assign a code from subcategory O98.7 followed by code Z21. (i) Encounters for HIV testing - If a patient without signs or symptoms is tested for HIV, assign code Z11.4, Encounter for screening for human immunodeficiency virus [HIV]. Use additional codes for any associated high-risk behavior, if applicable. If a patient with signs or symptoms of HIV presents for HIV testing, code the signs and symptoms. An additional counseling code Z71.7, Human immunodeficiency virus [HIV] counseling, may be assigned if counseling is provided during the encounter for the test. Code Z11.4, Encounter for screening for human immunodeficiency virus [HIV], should not be assigned if HIV signs or symptoms are present. When a patient presents for follow up regarding their HIV test results and the test result is negative, assign code Z71.7, Human immunodeficiency virus [HIV] counseling. (Evidence: pg no: 19-21, L43-L102)",
+    "summary": "Comprehensive guidelines for coding HIV infections, including confirmed cases, sequencing rules, pregnancy complications, and testing encounters (Evidence: pg no: 19-21, L43-L102)",
+    "key_concepts": [
+      "Code only confirmed HIV cases (Evidence: pg no: 19-20, L44-L49)",
+      "Provider diagnostic statement sufficient for confirmation (Evidence: pg no: 20, L48-L49)",
+      "B20 used for HIV disease and AIDS (Evidence: pg no: 20, L51-L54)",
+      "Z21 used for asymptomatic HIV positive status (Evidence: pg no: 20, L66-L71)",
+      "R75 used for inconclusive HIV serology (Evidence: pg no: 21, L74-L77)",
+      "Special rules for pregnancy, childbirth, and puerperium (Evidence: pg no: 21, L85-L91)",
+      "Specific codes for HIV testing encounters (Evidence: pg no: 21, L92-L102)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "HIV_CONFIRMED_CASES_ONLY",
+        "rule_text": "Code only confirmed cases of HIV infection/illness (Evidence: pg no: 19-20, L44-L45)",
+        "explanation": "HIV coding requires confirmation, which is an exception to general hospital inpatient guidelines (Evidence: pg no: 19-20, L45)",
+        "importance": "critical",
+        "applies_to": "HIV codes",
+        "common_applications": [
+          "HIV diagnosis coding",
+          "AIDS diagnosis coding"
+        ]
+      },
+      {
+        "rule_id": "HIV_CONFIRMATION_DEFINITION",
+        "rule_text": "Confirmation does not require documentation of positive serology or culture for HIV; the provider's diagnostic statement that the patient is HIV positive or has an HIV-related illness is sufficient (Evidence: pg no: 20, L48-L49)",
+        "explanation": "Provider's diagnostic statement serves as adequate confirmation for HIV coding purposes (Evidence: pg no: 20, L48-L49)",
+        "importance": "critical",
+        "applies_to": "HIV codes",
+        "common_applications": [
+          "Provider documentation review",
+          "HIV status determination"
+        ]
+      },
+      {
+        "rule_id": "B20_ASSIGNMENT_CRITERIA",
+        "rule_text": "If the term 'AIDS' or 'HIV disease' is documented or if the patient is treated for any HIV-related illness or is described as having any condition(s) resulting from the patient's HIV positive status; code B20, Human immunodeficiency virus [HIV], should be assigned (Evidence: pg no: 20, L51-L54)",
+        "explanation": "B20 is assigned for AIDS, HIV disease, or any HIV-related conditions (Evidence: pg no: 20, L51-L54)",
+        "importance": "critical",
+        "applies_to": "B20",
+        "common_applications": [
+          "AIDS diagnosis",
+          "HIV-related illness treatment"
+        ]
+      },
+      {
+        "rule_id": "HIV_PRINCIPAL_DIAGNOSIS_SEQUENCING",
+        "rule_text": "If a patient is admitted for an HIV-related condition, the principal diagnosis should be B20, Human immunodeficiency virus [HIV] disease followed by additional diagnosis codes for all reported HIV-related conditions (Evidence: pg no: 20, L55-L57)",
+        "explanation": "B20 takes priority as principal diagnosis when admission is for HIV-related conditions (Evidence: pg no: 20, L55-L57)",
+        "importance": "critical",
+        "applies_to": "B20",
+        "common_applications": [
+          "HIV-related admissions",
+          "AIDS-related hospitalizations"
+        ]
+      },
+      {
+        "rule_id": "HIV_UNRELATED_CONDITION_SEQUENCING",
+        "rule_text": "If a patient with HIV disease is admitted for an unrelated condition (such as a traumatic injury), the code for the unrelated condition (e.g., the nature of injury code) should be the principal diagnosis. Code B20 would be reported as a secondary diagnosis (Evidence: pg no: 20, L61-L63)",
+        "explanation": "When admission is for unrelated condition, that condition is principal diagnosis with B20 as secondary (Evidence: pg no: 20, L61-L63)",
+        "importance": "high",
+        "applies_to": "B20",
+        "common_applications": [
+          "Trauma in HIV patients",
+          "Unrelated medical conditions in HIV patients"
+        ]
+      },
+      {
+        "rule_id": "Z21_ASYMPTOMATIC_HIV",
+        "rule_text": "When 'HIV positive,' 'HIV test positive,' or similar terminology is documented, and there is no documentation of symptoms or HIV-related illness, code Z21, Asymptomatic human immunodeficiency virus [HIV] infection status, should be assigned (Evidence: pg no: 20, L67-L71)",
+        "explanation": "Z21 is used for documented HIV positive status without symptoms or related illness (Evidence: pg no: 20, L67-L71)",
+        "importance": "high",
+        "applies_to": "Z21",
+        "common_applications": [
+          "Asymptomatic HIV positive patients",
+          "HIV screening positive results"
+        ]
+      },
+      {
+        "rule_id": "R75_INCONCLUSIVE_HIV",
+        "rule_text": "Patients with documentation of inconclusive HIV serology, may be assigned code R75, Inconclusive laboratory evidence of human immunodeficiency virus [HIV] (Evidence: pg no: 21, L75-L77)",
+        "explanation": "R75 is used when HIV test results are inconclusive (Evidence: pg no: 21, L75-L77)",
+        "importance": "medium",
+        "applies_to": "R75",
+        "common_applications": [
+          "Inconclusive HIV test results",
+          "Indeterminate HIV serology"
+        ]
+      },
+      {
+        "rule_id": "HIV_PREVIOUS_ILLNESS_B20",
+        "rule_text": "Patients with documentation of a prior diagnosis of an HIV-related illness should be coded to B20. Once an HIV-related illness has developed, code B20 should always be assigned on every subsequent admission/encounter (Evidence: pg no: 21, L78-L81)",
+        "explanation": "Once HIV-related illness develops, B20 must be used for all future encounters (Evidence: pg no: 21, L78-L81)",
+        "importance": "critical",
+        "applies_to": "B20",
+        "common_applications": [
+          "Follow-up HIV care",
+          "Subsequent HIV-related encounters"
+        ]
+      },
+      {
+        "rule_id": "HIV_PREGNANCY_O98_7",
+        "rule_text": "When a patient presents during pregnancy, childbirth or the puerperium with documented symptomatic HIV disease or an HIV related illness, assign a code from subcategory O98.7, Human immunodeficiency [HIV] disease complicating pregnancy, childbirth and the puerperium, followed by code B20 and additional code(s) for any HIV-related illness(es) (Evidence: pg no: 21, L85-L88)",
+        "explanation": "HIV in pregnancy requires O98.7 as principal diagnosis followed by B20 and related condition codes (Evidence: pg no: 21, L85-L88)",
+        "importance": "critical",
+        "applies_to": "O98.7, B20",
+        "common_applications": [
+          "HIV in pregnancy",
+          "HIV complications during childbirth"
+        ]
+      },
+      {
+        "rule_id": "HIV_TESTING_Z11_4",
+        "rule_text": "If a patient without signs or symptoms is tested for HIV, assign code Z11.4, Encounter for screening for human immunodeficiency virus [HIV] (Evidence: pg no: 21, L93-L95)",
+        "explanation": "Z11.4 is used for HIV screening in asymptomatic patients (Evidence: pg no: 21, L93-L95)",
+        "importance": "high",
+        "applies_to": "Z11.4",
+        "common_applications": [
+          "Routine HIV screening",
+          "Preventive HIV testing"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if HIV case is confirmed by provider statement",
+      "Step 2: Identify if patient has symptomatic HIV disease, asymptomatic status, or inconclusive results",
+      "Step 3: For symptomatic HIV/AIDS, assign B20",
+      "Step 4: For asymptomatic HIV positive, assign Z21",
+      "Step 5: For inconclusive results, assign R75",
+      "Step 6: Apply appropriate sequencing based on reason for encounter",
+      "Step 7: Consider special rules for pregnancy, testing encounters"
+    ],
+    "related_terminology": [
+      "HIV",
+      "AIDS",
+      "Human immunodeficiency virus",
+      "HIV disease",
+      "Asymptomatic HIV",
+      "HIV serology",
+      "HIV testing",
+      "HIV-related illness"
+    ]
+  },
+  "code_references": {
+    "specific_codes": [
+      {
+        "code": "B20",
+        "description": "Human immunodeficiency virus [HIV] disease (Evidence: pg no: 20, L54)",
+        "context": "HIV disease, AIDS, or HIV-related illness",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "B": "Certain infectious and parasitic diseases",
+          "20": "Human immunodeficiency virus [HIV] disease"
+        }
+      },
+      {
+        "code": "Z21",
+        "description": "Asymptomatic human immunodeficiency virus [HIV] infection status (Evidence: pg no: 20, L69-L70)",
+        "context": "HIV positive without symptoms or related illness",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z": "Factors influencing health status",
+          "21": "Asymptomatic HIV infection status"
+        }
+      },
+      {
+        "code": "R75",
+        "description": "Inconclusive laboratory evidence of human immunodeficiency virus [HIV] (Evidence: pg no: 21, L76-L77)",
+        "context": "Inconclusive HIV serology results",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "R": "Symptoms, signs and abnormal findings",
+          "75": "Inconclusive laboratory evidence of HIV"
+        }
+      },
+      {
+        "code": "D59.31",
+        "description": "Infection-associated hemolytic-uremic syndrome (Evidence: pg no: 20, L59)",
+        "context": "Hemolytic-uremic syndrome associated with HIV disease",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "D59": "Acquired hemolytic anemia",
+          "31": "Infection-associated hemolytic-uremic syndrome"
+        }
+      },
+      {
+        "code": "O98.7",
+        "description": "Human immunodeficiency [HIV] disease complicating pregnancy, childbirth and the puerperium (Evidence: pg no: 21, L86-L87)",
+        "context": "HIV disease during pregnancy, childbirth, or puerperium",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "O98": "Maternal infectious diseases complicating pregnancy",
+          "7": "HIV disease complicating pregnancy"
+        }
+      },
+      {
+        "code": "Z11.4",
+        "description": "Encounter for screening for human immunodeficiency virus [HIV] (Evidence: pg no: 21, L94-L95)",
+        "context": "HIV screening in asymptomatic patients",
+        "requires_additional_codes": "check_code_notes",
+        "breakdown": {
+          "Z11": "Encounter for screening for infectious diseases",
+          "4": "Screening for HIV"
+        }
+      },
+      {
+        "code": "Z71.7",
+        "description": "Human immunodeficiency virus [HIV] counseling (Evidence: pg no: 21, L97-L98)",
+        "context": "HIV counseling encounters",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z71": "Persons encountering health services for counseling",
+          "7": "HIV counseling"
+        }
+      }
+    ],
+    "code_categories_mentioned": [
+      "HIV disease codes (B20)",
+      "HIV status codes (Z21)",
+      "Inconclusive HIV results (R75)",
+      "HIV in pregnancy (O98.7)",
+      "HIV screening (Z11.4)",
+      "HIV counseling (Z71.7)"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "II.H",
+        "title": "Hospital Inpatient Guidelines",
+        "relationship": "applies_concept",
+        "explanation": "HIV coding is an exception to general hospital inpatient guidelines"
+      },
+      {
+        "guideline_id": "I.C.15",
+        "title": "Chapter 15: Pregnancy, Childbirth and the Puerperium",
+        "relationship": "related_to",
+        "explanation": "Chapter 15 codes take sequencing priority for HIV in pregnancy"
+      }
+    ]
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "HIV_DISEASE_ADMISSION",
+      "scenario": "Patient admitted for pneumocystis pneumonia with documented HIV disease",
+      "documentation_example": "Patient with HIV disease presents with pneumocystis pneumonia",
+      "step_by_step": [
+        "Step 1: Identify HIV disease is documented",
+        "Step 2: Determine admission is for HIV-related condition",
+        "Step 3: Assign B20 as principal diagnosis",
+        "Step 4: Assign additional code for pneumocystis pneumonia"
+      ],
+      "correct_coding": {
+        "primary_code": "B20",
+        "secondary_codes": [
+          "[Pneumocystis pneumonia code]"
+        ],
+        "sequencing": "B20 first, then HIV-related conditions",
+        "rationale": "HIV-related admission requires B20 as principal diagnosis (Evidence: pg no: 20, L55-L57)"
+      }
+    },
+    {
+      "scenario_id": "HIV_UNRELATED_ADMISSION",
+      "scenario": "HIV positive patient admitted for appendicitis",
+      "documentation_example": "Patient with HIV disease presents with acute appendicitis",
+      "step_by_step": [
+        "Step 1: Identify HIV disease is documented",
+        "Step 2: Determine admission is for unrelated condition (appendicitis)",
+        "Step 3: Assign appendicitis code as principal diagnosis",
+        "Step 4: Assign B20 as secondary diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "[Appendicitis code]",
+        "secondary_codes": [
+          "B20"
+        ],
+        "sequencing": "Unrelated condition first, then B20",
+        "rationale": "Unrelated condition is principal diagnosis with B20 secondary (Evidence: pg no: 20, L61-L63)"
+      }
+    },
+    {
+      "scenario_id": "ASYMPTOMATIC_HIV",
+      "scenario": "Patient with documented HIV positive status, no symptoms",
+      "documentation_example": "Patient is HIV positive, no symptoms or HIV-related illness documented",
+      "step_by_step": [
+        "Step 1: Identify HIV positive status documented",
+        "Step 2: Confirm no symptoms or HIV-related illness documented",
+        "Step 3: Assign Z21 for asymptomatic HIV status"
+      ],
+      "correct_coding": {
+        "primary_code": "Z21",
+        "secondary_codes": [],
+        "sequencing": "Z21 as appropriate based on encounter",
+        "rationale": "Asymptomatic HIV positive status requires Z21 (Evidence: pg no: 20, L67-L71)"
+      }
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Patients previously diagnosed with HIV illness (B20) should never be assigned R75 or Z21 (Evidence: pg no: 21, L81-L84)",
+      "Do not assign Z11.4 if HIV signs or symptoms are present (Evidence: pg no: 21, L100-L101)"
+    ],
+    "best_practices": [
+      "Provider diagnostic statement is sufficient for HIV confirmation (Evidence: pg no: 20, L48-L49)",
+      "Once HIV-related illness develops, always use B20 for subsequent encounters (Evidence: pg no: 21, L78-L81)",
+      "Chapter 15 codes take sequencing priority in pregnancy (Evidence: pg no: 21, L89)"
+    ],
+    "common_mistakes": [
+      "Using R75 or Z21 for patients with previous HIV illness",
+      "Not sequencing B20 as principal diagnosis for HIV-related admissions",
+      "Using Z11.4 for symptomatic patients"
+    ],
+    "tips": [
+      "HIV confirmation does not require lab results, only provider statement (Evidence: pg no: 20, L48-L49)",
+      "Consider high-risk behavior codes with HIV screening (Evidence: pg no: 21, L95-L96)"
+    ]
+  },
+  "search_keywords": [
+    "HIV",
+    "AIDS",
+    "human immunodeficiency virus",
+    "B20",
+    "Z21",
+    "R75",
+    "HIV testing",
+    "HIV pregnancy",
+    "asymptomatic HIV",
+    "HIV screening",
+    "HIV counseling"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "infectious_diseases_HIV",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "HIV",
+      "AIDS",
+      "infectious_diseases",
+      "B20",
+      "Z21",
+      "pregnancy",
+      "screening"
+    ]
+  },
+  "page_range_processed": "pages_18_to_21"
+}

@@ -1,0 +1,210 @@
+{
+  "guideline_id": "I.C.2.e.3",
+  "semantic_title": "Patient Admitted for Antineoplastic Therapy Who Develops Complications",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 2. Chapter 2: Neoplasms > e. Admissions/Encounters involving antineoplastic chemotherapy, immunotherapy and radiation therapy > 3) Patient admitted for radiation therapy, chemotherapy or immunotherapy and develops complications",
+  "page_number": 36,
+  "content": {
+    "full_text": "When a patient is admitted for the purpose of external beam radiotherapy, immunotherapy or chemotherapy and develops complications such as uncontrolled nausea and vomiting or dehydration, the principal or first-listed diagnosis is Z51.0, Encounter for antineoplastic radiation therapy, or Z51.11, Encounter for antineoplastic chemotherapy, or Z51.12, Encounter for antineoplastic immunotherapy followed by any codes for the complications. When a patient is admitted for the purpose of insertion or implantation of radioactive elements (e.g., brachytherapy) and develops complications such as uncontrolled nausea and vomiting or dehydration, the principal or first-listed diagnosis is the appropriate code for the malignancy followed by any codes for the complications. (Evidence: pg no: 36, L69-L79)",
+    "summary": "Guidelines for coding when patients admitted for antineoplastic therapy develop complications during treatment (Evidence: pg no: 36, L69-L79)",
+    "key_concepts": [
+      "External beam therapy with complications (Evidence: pg no: 36, L71-L74)",
+      "Z51 codes remain principal despite complications (Evidence: pg no: 36, L73-L74)",
+      "Brachytherapy with complications (Evidence: pg no: 36, L77-L79)",
+      "Malignancy principal for brachytherapy complications (Evidence: pg no: 36, L78-L79)",
+      "Complication codes follow principal diagnosis (Evidence: pg no: 36, L74, L79)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "external_therapy_complications",
+        "rule_text": "For external beam therapy with complications, Z51 codes remain principal followed by complication codes (Evidence: pg no: 36, L73-L74)",
+        "explanation": "When patients admitted for external beam radiation, chemotherapy, or immunotherapy develop complications, the appropriate Z51 code stays as principal diagnosis with complications coded secondarily (Evidence: pg no: 36, L71-L74)",
+        "importance": "critical",
+        "applies_to": "external beam therapy encounters with complications",
+        "common_applications": [
+          "Patient receiving chemotherapy develops severe nausea and vomiting",
+          "Patient getting radiation therapy becomes dehydrated"
+        ]
+      },
+      {
+        "rule_id": "brachytherapy_complications",
+        "rule_text": "For brachytherapy with complications, malignancy code is principal followed by complication codes (Evidence: pg no: 36, L78-L79)",
+        "explanation": "When patients admitted for brachytherapy develop complications, the malignancy code remains principal diagnosis with complications coded secondarily (Evidence: pg no: 36, L77-L79)",
+        "importance": "critical",
+        "applies_to": "brachytherapy procedures with complications",
+        "common_applications": [
+          "Patient receiving brachytherapy develops nausea and vomiting",
+          "Patient with radioactive implant becomes dehydrated"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify type of antineoplastic therapy (external vs brachytherapy)",
+      "Step 2: Determine if complications developed during treatment",
+      "Step 3: For external therapies, keep Z51 code as principal",
+      "Step 4: For brachytherapy, keep malignancy code as principal",
+      "Step 5: Add complication codes as secondary diagnoses",
+      "Step 6: Include malignancy code if not already principal"
+    ],
+    "related_terminology": [
+      "External beam radiotherapy",
+      "Brachytherapy",
+      "Radioactive elements",
+      "Uncontrolled nausea and vomiting",
+      "Dehydration",
+      "Treatment complications"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z51.0, Z51.11, Z51.12",
+        "description": "Encounter codes for antineoplastic therapy (Evidence: pg no: 36, L73-L74)",
+        "requirement": "Remain principal for external therapy even with complications",
+        "usage_rules": [
+          "Stay as principal diagnosis when complications develop during external therapy (Evidence: pg no: 36, L73-L74)"
+        ]
+      },
+      {
+        "range": "R11, E86",
+        "description": "Common complication codes like nausea/vomiting and dehydration (Evidence: pg no: 36, L72, L78)",
+        "requirement": "Code as secondary when complications develop during therapy",
+        "usage_rules": [
+          "Follow principal diagnosis when complications occur during treatment (Evidence: pg no: 36, L74, L79)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "Z51.0",
+        "description": "Encounter for antineoplastic radiation therapy (Evidence: pg no: 36, L73)",
+        "context": "Remains principal even when complications develop during external beam therapy",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "Z51": "Encounter for other aftercare",
+          "0": "Antineoplastic radiation therapy"
+        }
+      },
+      {
+        "code": "Z51.11",
+        "description": "Encounter for antineoplastic chemotherapy (Evidence: pg no: 36, L74)",
+        "context": "Remains principal even when complications develop during chemotherapy",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "Z51": "Encounter for other aftercare",
+          "11": "Antineoplastic chemotherapy"
+        }
+      },
+      {
+        "code": "Z51.12",
+        "description": "Encounter for antineoplastic immunotherapy (Evidence: pg no: 36, L74)",
+        "context": "Remains principal even when complications develop during immunotherapy",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "Z51": "Encounter for other aftercare",
+          "12": "Antineoplastic immunotherapy"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Encounter for antineoplastic therapy",
+      "Complication codes",
+      "Malignant neoplasms"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.2.e.2",
+        "title": "Patient admission/encounter chiefly for administration of antineoplastic therapy",
+        "relationship": "builds_upon",
+        "explanation": "Extends the basic therapy encounter guidelines to include complications"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "chemo_with_complications",
+      "scenario": "Patient admitted for chemotherapy develops severe nausea, vomiting, and dehydration requiring IV fluids",
+      "documentation_example": "Patient with breast cancer admitted for scheduled chemotherapy, developed severe nausea, vomiting, and dehydration requiring IV fluid resuscitation",
+      "step_by_step": [
+        "Step 1: Identify admission was for chemotherapy (external therapy)",
+        "Step 2: Note complications developed during treatment",
+        "Step 3: Keep Z51.11 as principal diagnosis",
+        "Step 4: Add complication codes as secondary",
+        "Step 5: Include breast cancer code"
+      ],
+      "correct_coding": {
+        "primary_code": "Z51.11 (Encounter for antineoplastic chemotherapy)",
+        "secondary_codes": [
+          "R11.2 (Nausea with vomiting, unspecified)",
+          "E86.0 (Dehydration)",
+          "C50.911 (Malignant neoplasm of unspecified site of right female breast)"
+        ],
+        "sequencing": "Z51.11 first, complications second, malignancy last",
+        "rationale": "Z51 codes remain principal even when complications develop during external therapy (Evidence: pg no: 36, L73-L74)"
+      },
+      "incorrect_coding": {
+        "code": "R11.2 as principal",
+        "codes": [
+          "Nausea and vomiting as principal diagnosis"
+        ],
+        "rationale": "Complications should not become principal when they develop during planned therapy",
+        "common_mistake": "Changing principal diagnosis to complications when they develop during treatment"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Different sequencing rules for external therapy vs brachytherapy complications (Evidence: pg no: 36, L73-L74, L78-L79)",
+      "Do not change principal diagnosis just because complications develop (Evidence: pg no: 36, L73-L74)"
+    ],
+    "best_practices": [
+      "Maintain original principal diagnosis based on admission purpose (Evidence: pg no: 36, L73-L74, L78-L79)",
+      "Code all complications that develop during treatment (Evidence: pg no: 36, L74, L79)"
+    ],
+    "common_mistakes": [
+      "Changing principal diagnosis to complications (Evidence: pg no: 36, L73-L74)",
+      "Using same sequencing for brachytherapy and external therapy (Evidence: pg no: 36, L73-L74, L78-L79)"
+    ],
+    "tips": [
+      "Remember the original purpose of admission determines principal diagnosis (Evidence: pg no: 36, L71, L77)",
+      "Brachytherapy follows different rules than external beam therapy (Evidence: pg no: 36, L77-L79)"
+    ],
+    "implementation_notes": [
+      "This guideline maintains consistency with the original admission purpose"
+    ],
+    "clinical_context": [
+      "Complications during cancer treatment are common and require careful coding"
+    ]
+  },
+  "search_keywords": [
+    "antineoplastic therapy complications",
+    "chemotherapy complications",
+    "radiation therapy complications",
+    "treatment complications sequencing",
+    "Z51 with complications",
+    "brachytherapy complications"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "neoplasms",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "neoplasms",
+      "complications",
+      "antineoplastic_therapy",
+      "Z51_codes",
+      "sequencing"
+    ]
+  },
+  "page_range_processed": "pages_33_to_36"
+}

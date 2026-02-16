@@ -1,0 +1,227 @@
+{
+  "guideline_id": "I.C.13.b",
+  "semantic_title": "Acute Traumatic Versus Chronic or Recurrent Musculoskeletal Conditions Coding Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 13. Chapter 13: Diseases of the Musculoskeletal System and Connective Tissue > b. Acute traumatic versus chronic or recurrent musculoskeletal conditions",
+  "page_number": 61,
+  "content": {
+    "full_text": "Many musculoskeletal conditions are a result of previous injury or trauma to a site, or are recurrent conditions. Bone, joint or muscle conditions that are the result of a healed injury are usually found in chapter 13. Recurrent bone, joint or muscle conditions are also usually found in chapter 13. Any current, acute injury should be coded to the appropriate injury code from chapter 19. Chronic or recurrent conditions should generally be coded with a code from chapter 13. If it is difficult to determine from the documentation in the record which code is best to describe a condition, query the provider. (Evidence: pg no: 61, L37-L39)",
+    "summary": "Distinguish between acute traumatic injuries (Chapter 19) and chronic/recurrent musculoskeletal conditions (Chapter 13) based on documentation (Evidence: pg no: 61, L37-L39)",
+    "key_concepts": [
+      "Previous injury or trauma (Evidence: pg no: 61, L37)",
+      "Recurrent conditions (Evidence: pg no: 61, L37)",
+      "Healed injury results (Evidence: pg no: 61, L37-L38)",
+      "Current acute injury (Evidence: pg no: 61, L38)",
+      "Chronic conditions (Evidence: pg no: 61, L38)",
+      "Provider queries (Evidence: pg no: 61, L39)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "MSK_ACUTE_CHRONIC_001",
+        "rule_text": "Bone, joint or muscle conditions that are the result of a healed injury are usually found in chapter 13 (Evidence: pg no: 61, L37-L38)",
+        "explanation": "Conditions resulting from previously healed injuries are coded using Chapter 13 musculoskeletal codes (Evidence: pg no: 61, L37-L38)",
+        "importance": "critical",
+        "applies_to": "M00-M99",
+        "common_applications": [
+          "Post-traumatic arthritis",
+          "Healed fracture sequelae"
+        ]
+      },
+      {
+        "rule_id": "MSK_ACUTE_CHRONIC_002",
+        "rule_text": "Recurrent bone, joint or muscle conditions are also usually found in chapter 13 (Evidence: pg no: 61, L38)",
+        "explanation": "Recurrent musculoskeletal conditions are coded using Chapter 13 codes (Evidence: pg no: 61, L38)",
+        "importance": "critical",
+        "applies_to": "M00-M99",
+        "common_applications": [
+          "Recurrent dislocations",
+          "Chronic pain conditions"
+        ]
+      },
+      {
+        "rule_id": "MSK_ACUTE_CHRONIC_003",
+        "rule_text": "Any current, acute injury should be coded to the appropriate injury code from chapter 19 (Evidence: pg no: 61, L38)",
+        "explanation": "Current acute injuries require Chapter 19 injury codes, not Chapter 13 musculoskeletal codes (Evidence: pg no: 61, L38)",
+        "importance": "critical",
+        "applies_to": "S00-T88",
+        "common_applications": [
+          "Fresh fractures",
+          "Acute sprains and strains"
+        ]
+      },
+      {
+        "rule_id": "MSK_ACUTE_CHRONIC_004",
+        "rule_text": "Chronic or recurrent conditions should generally be coded with a code from chapter 13 (Evidence: pg no: 61, L38)",
+        "explanation": "Chronic and recurrent musculoskeletal conditions are coded using Chapter 13 codes (Evidence: pg no: 61, L38)",
+        "importance": "high",
+        "applies_to": "M00-M99",
+        "common_applications": [
+          "Chronic arthritis",
+          "Recurrent joint problems"
+        ]
+      },
+      {
+        "rule_id": "MSK_ACUTE_CHRONIC_005",
+        "rule_text": "If it is difficult to determine from the documentation in the record which code is best to describe a condition, query the provider (Evidence: pg no: 61, L39)",
+        "explanation": "Provider queries are required when documentation is unclear about acute versus chronic nature of condition (Evidence: pg no: 61, L39)",
+        "importance": "critical",
+        "applies_to": "All musculoskeletal conditions",
+        "common_applications": [
+          "Unclear documentation",
+          "Ambiguous injury timing"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if condition is current acute injury or chronic/recurrent",
+      "Step 2: If current acute injury, use Chapter 19 codes",
+      "Step 3: If chronic, recurrent, or result of healed injury, use Chapter 13 codes",
+      "Step 4: If documentation unclear, query provider",
+      "Step 5: Select appropriate code based on determination"
+    ],
+    "related_terminology": [
+      "Acute injury",
+      "Chronic conditions",
+      "Recurrent conditions",
+      "Healed injury",
+      "Previous trauma"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "M00-M99",
+        "description": "Musculoskeletal system and connective tissue diseases (Evidence: pg no: 61, L23)",
+        "requirement": "Use for chronic, recurrent, and healed injury conditions",
+        "usage_rules": [
+          "Use for conditions resulting from healed injuries (Evidence: pg no: 61, L37-L38)",
+          "Use for recurrent conditions (Evidence: pg no: 61, L38)",
+          "Use for chronic conditions (Evidence: pg no: 61, L38)"
+        ]
+      },
+      {
+        "range": "S00-T88",
+        "description": "Injury codes from Chapter 19 (Evidence: pg no: 61, L38)",
+        "requirement": "Use for current acute injuries",
+        "usage_rules": [
+          "Use for any current, acute injury (Evidence: pg no: 61, L38)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Chapter 13 musculoskeletal codes",
+      "Chapter 19 injury codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.19",
+        "title": "Chapter 19 Injury coding guidelines",
+        "relationship": "related_to",
+        "explanation": "Referenced for acute injury coding"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "MSK_ACUTE_CHRONIC_SC001",
+      "scenario": "Patient with fresh ankle fracture from fall today",
+      "documentation_example": "Acute fracture of right ankle sustained in fall this morning",
+      "step_by_step": [
+        "Step 1: Identify condition as current acute injury",
+        "Step 2: Note injury occurred today (current)",
+        "Step 3: Use Chapter 19 injury code for ankle fracture"
+      ],
+      "correct_coding": {
+        "primary_code": "Chapter 19 ankle fracture code",
+        "secondary_codes": [],
+        "sequencing": "Primary injury code",
+        "rationale": "Current acute injury requires Chapter 19 code (Evidence: pg no: 61, L38)"
+      },
+      "incorrect_coding": {
+        "code": "Chapter 13 musculoskeletal code",
+        "codes": [
+          "M codes for fracture"
+        ],
+        "rationale": "Acute injuries must use Chapter 19 codes",
+        "common_mistake": "Using musculoskeletal codes for acute injuries"
+      }
+    },
+    {
+      "scenario_id": "MSK_ACUTE_CHRONIC_SC002",
+      "scenario": "Patient with arthritis in knee following old fracture",
+      "documentation_example": "Post-traumatic arthritis of left knee following healed fracture from 5 years ago",
+      "step_by_step": [
+        "Step 1: Identify condition as result of healed injury",
+        "Step 2: Note current condition is arthritis, not acute injury",
+        "Step 3: Use Chapter 13 code for post-traumatic arthritis"
+      ],
+      "correct_coding": {
+        "primary_code": "Chapter 13 post-traumatic arthritis code",
+        "secondary_codes": [],
+        "sequencing": "Primary musculoskeletal condition",
+        "rationale": "Condition resulting from healed injury uses Chapter 13 code (Evidence: pg no: 61, L37-L38)"
+      },
+      "incorrect_coding": {
+        "code": "Chapter 19 injury code",
+        "codes": [
+          "Acute fracture codes"
+        ],
+        "rationale": "This is a chronic condition, not an acute injury",
+        "common_mistake": "Using injury codes for chronic sequelae of old injuries"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not use Chapter 13 codes for current acute injuries (Evidence: pg no: 61, L38)",
+      "Do not use Chapter 19 codes for chronic or recurrent conditions (Evidence: pg no: 61, L38)"
+    ],
+    "best_practices": [
+      "Carefully determine timing and nature of condition (acute vs chronic) (Evidence: pg no: 61, L37-L39)",
+      "Query provider when documentation is unclear (Evidence: pg no: 61, L39)"
+    ],
+    "common_mistakes": [
+      "Using musculoskeletal codes for acute injuries (Evidence: pg no: 61, L38)",
+      "Using injury codes for chronic conditions (Evidence: pg no: 61, L38)"
+    ],
+    "tips": [
+      "Look for timing indicators in documentation (current, acute, chronic, recurrent) (Evidence: pg no: 61, L37-L39)"
+    ],
+    "implementation_notes": [
+      "Chapter selection depends on acute versus chronic nature of condition"
+    ],
+    "clinical_context": [
+      "Musculoskeletal conditions can be acute injuries or chronic/recurrent problems"
+    ]
+  },
+  "search_keywords": [
+    "acute traumatic",
+    "chronic musculoskeletal",
+    "recurrent conditions",
+    "healed injury",
+    "Chapter 13 vs Chapter 19",
+    "injury versus chronic"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "musculoskeletal_system",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "acute_chronic_distinction",
+      "injury_coding",
+      "musculoskeletal_coding"
+    ]
+  },
+  "page_range_processed": "pages_60_to_63"
+}

@@ -1,0 +1,1840 @@
+{
+  "file_name": "tmpz67yxjc5.pdf, tmpysqmhuab.pdf",
+  "extraction_data": {
+    "patient_name": "Renke B Thye",
+    "patient_age": "87 y.o.",
+    "chart_specialty": "Orthopedics",
+    "cpt": [
+      "27130"
+    ],
+    "procedure": [
+      "Left Total Hip Replacement for intracapsular displaced femoral neck fracture"
+    ],
+    "summary": "",
+    "multi_chart_data": {
+      "tmpz67yxjc5.pdf": {
+        "chart_type": "consultation_note",
+        "chart_type_confidence": "high",
+        "extracted_info": {
+          "patient_name": "Renke B Thye",
+          "patient_age": "87 y.o.",
+          "chart_specialty": "Orthopedics",
+          "cpt": [],
+          "procedure": [
+            "Left total hip replacement"
+          ],
+          "summary": "87-year-old male with history of HTN, HLD, GERD, CAD s/p stents in 2015, and history of left SAH who presented after a mechanical fall with left hip pain and inability to ambulate. Imaging showed a left displaced femoral neck fracture. Patient is scheduled for left total hip replacement due to his high activity level and pre-fall unassisted ambulation.",
+          "diagnosis": [
+            "Left displaced femoral neck fracture",
+            "Hypertension",
+            "Hypercholesterolemia",
+            "GERD (gastroesophageal reflux disease)",
+            "Chronic coronary artery disease",
+            "History of stroke (atraumatic R cortical SAH)"
+          ],
+          "key_information": [
+            "Patient is active at baseline, walking 5000 steps per day and ambulating unassisted",
+            "History of coronary stent placement in 2015 (2 stents)",
+            "History of bilateral knee replacement",
+            "History of laparoscopic cholecystectomy",
+            "Patient is at high risk due to age and fracture type - provider notes 'femur fractures in the elderly are of the highest severity'",
+            "Non-weight bearing on left lower extremity ordered",
+            "DVT prophylaxis with HSQ pre-op, currently on hold",
+            "Medicine consult requested for pre-operative risk stratification",
+            "Spinal anesthesia preferred due to geriatric status"
+          ],
+          "chart_type": "consultation_note"
+        }
+      },
+      "tmpysqmhuab.pdf": {
+        "chart_type": "operative_note",
+        "chart_type_confidence": "high",
+        "extracted_info": {
+          "patient_name": "Renke B Thye",
+          "patient_age": "87 y.o.",
+          "chart_specialty": "Orthopedic Surgery",
+          "cpt": [
+            "27130"
+          ],
+          "procedure": [
+            "Left Total Hip Replacement for intracapsular displaced femoral neck fracture"
+          ],
+          "summary": "87-year-old male who presented to the emergency room after a fall and was found to have a left hip displaced femoral neck fracture. The patient underwent a left total hip replacement with Smith & Nephew components including a 56mm Redapt Modular Shell, Size 5 Polarstem cemented hip stem, and 40mm +4 femoral head. The procedure was performed through an anterior approach with an estimated blood loss of 150cc, and the patient was made weight-bearing as tolerated postoperatively.",
+          "chart_type": "operative_note",
+          "has_cpt_codes": true
+        }
+      }
+    }
+  },
+  "payer_results": {
+    "cigna": {
+      "payer_name": "Cigna",
+      "procedures_evaluated": 1,
+      "procedure_results": [
+        {
+          "procedure_evaluated": "Total Hip Replacement",
+          "variant_or_subprocedure": "Left Total Hip Replacement for intracapsular displaced femoral neck fracture",
+          "policy_name": "Cigna Medical Coverage Policy for Shoulder Procedures",
+          "decision": "Insufficient",
+          "primary_reasons": [
+            "The provided Cigna guidelines do not contain specific criteria for hip replacement procedures",
+            "The available Cigna guidelines only address shoulder procedures, not hip procedures",
+            "Unable to evaluate against appropriate hip replacement guidelines"
+          ],
+          "requirement_checklist": [
+            {
+              "requirement_id": "appropriate_guidelines",
+              "type": "single",
+              "status": "unclear",
+              "evidence": [
+                {
+                  "line_reference": "L555-L559"
+                }
+              ],
+              "missing_to_meet": "Appropriate Cigna guidelines for hip replacement procedures",
+              "suggestion": "Request specific Cigna guidelines for total hip replacement procedures"
+            }
+          ],
+          "timing_validation": {
+            "conservative_duration_weeks": "unknown",
+            "pt_sessions_completed": "unknown",
+            "follow_up_interval": "unknown"
+          },
+          "contraindications_exclusions": {
+            "active_infection": "absent",
+            "severe_arthritis": "unknown",
+            "other_contraindications": []
+          },
+          "coding_implications": {
+            "eligible_codes_if_sufficient": [
+              "27130"
+            ],
+            "notes": "CPT code 27130 is documented in the operative note (L557), but cannot confirm eligibility without appropriate guidelines"
+          },
+          "improvement_recommendations": {
+            "policy_needed": [
+              "Obtain specific hip replacement guidelines from Cigna",
+              "Request medical necessity criteria for total hip replacement for femoral neck fracture"
+            ],
+            "cdi_documentation_gaps": [
+              "Documentation appears complete for hip fracture procedure",
+              "No specific gaps identified in current documentation"
+            ],
+            "completion_guidance": [
+              "Ensure documentation includes all elements required by hip-specific guidelines when obtained"
+            ],
+            "next_steps": [
+              "Request appropriate hip replacement guidelines from Cigna",
+              "Evaluate documentation against hip-specific criteria when available"
+            ]
+          },
+          "_original_procedure_name": "Left Total Hip Replacement for intracapsular displaced femoral neck fracture",
+          "medical_chart_reference": [
+            "L555-L559",
+            "L557"
+          ],
+          "guideline_availability": {
+            "status": "available",
+            "search_hits": 6,
+            "max_score": 10.0,
+            "message": "Found 6 guideline(s) for Cigna"
+          },
+          "sources": [
+            {
+              "header": "[CIGNA | Left Total Hip Replacement for intracapsular displaced femoral neck fracture | Chunk 1 | score=10.000 | file=cigna_guideline_1.json | id=cigna_5]",
+              "file": "cigna_guideline_1.json",
+              "record_id": "cigna_5",
+              "chunk_index": 1,
+              "payer": "cigna",
+              "score": 10.0,
+              "description": "{'procedure_id': 'diagnostic_arthroscopy', 'category': 'Shoulder (Evidence: pg no: 4, L152)', 'section_title': 'Diagnostic Arthroscopy (Evidence: pg no: 4, L152)', 'names': ['Diagnostic Arthroscopy (Evidence: pg no: 4, L152)'], 'description': 'Diagnostic arthroscopy as a stand-alone procedure for evaluation of shoulder pathology when advanced imaging is inconclusive (Evidence: pg no: 4, L154-L155)', 'scope': 'Stand-alone diagnostic procedure (Evidence: pg no: 4, L154-L155)', 'general_requirements': {'documentation': ['Function-limiting pain for at least six (6) months in duration (Evidence: pg no: 4, L156-L157)', 'Abnormal shoulder physical examination findings compared to non-involved side including functionally limited range of motion or measurable loss in strength (Evidence: pg no: 4, L158-L161)', 'Positive Neer Impingement Test or Hawkins-Kennedy Impingement Test (Evidence: pg no: 4, L162)', 'Failure of provider-directed non-surgical management for at least three (3) months in duration (Evidence: pg no: 4, L163-L164)', 'Advanced diagnostic imaging study (e.g., MRI, CT) is inconclusive for internal derangement/pathology (Evidence: pg no: 4, L165)', 'Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain and advanced glenohumeral osteoarthritis (Evidence: pg no: 4, L166-L168)']}, 'exclusions': ['Any other indication or condition (Evidence: pg no: 5, L171-L172)', 'In-office diagno",
+              "full_source": {
+                "procedure_id": "diagnostic_arthroscopy",
+                "category": "Shoulder (Evidence: pg no: 4, L152)",
+                "section_title": "Diagnostic Arthroscopy (Evidence: pg no: 4, L152)",
+                "names": [
+                  "Diagnostic Arthroscopy (Evidence: pg no: 4, L152)"
+                ],
+                "description": "Diagnostic arthroscopy as a stand-alone procedure for evaluation of shoulder pathology when advanced imaging is inconclusive (Evidence: pg no: 4, L154-L155)",
+                "scope": "Stand-alone diagnostic procedure (Evidence: pg no: 4, L154-L155)",
+                "general_requirements": {
+                  "documentation": [
+                    "Function-limiting pain for at least six (6) months in duration (Evidence: pg no: 4, L156-L157)",
+                    "Abnormal shoulder physical examination findings compared to non-involved side including functionally limited range of motion or measurable loss in strength (Evidence: pg no: 4, L158-L161)",
+                    "Positive Neer Impingement Test or Hawkins-Kennedy Impingement Test (Evidence: pg no: 4, L162)",
+                    "Failure of provider-directed non-surgical management for at least three (3) months in duration (Evidence: pg no: 4, L163-L164)",
+                    "Advanced diagnostic imaging study (e.g., MRI, CT) is inconclusive for internal derangement/pathology (Evidence: pg no: 4, L165)",
+                    "Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain and advanced glenohumeral osteoarthritis (Evidence: pg no: 4, L166-L168)"
+                  ]
+                },
+                "exclusions": [
+                  "Any other indication or condition (Evidence: pg no: 5, L171-L172)",
+                  "In-office diagnostic arthroscopy (e.g., Mi-Eye™, VisionScope®) - considered experimental, investigational, or unproven (Evidence: pg no: 5, L175-L176)"
+                ],
+                "codes": [
+                  {
+                    "code": "29805",
+                    "system": "CPT",
+                    "description": "Arthroscopy, shoulder, diagnostic, with or without synovial biopsy (separate procedure) (Evidence: pg no: 13, L556)"
+                  }
+                ],
+                "notes": "Considered medically necessary only when ALL criteria are met (Evidence: pg no: 4, L155)"
+              },
+              "payer_guideline_reference": [
+                "(Evidence: pg no: 4, L158-L161)",
+                "(Evidence: pg no: 4, L152)",
+                "(Evidence: pg no: 4, L156-L157)",
+                "(Evidence: pg no: 5, L175-L176)",
+                "(Evidence: pg no: 4, L155)",
+                "(Evidence: pg no: 13, L556)",
+                "(Evidence: pg no: 4, L154-L155)",
+                "(Evidence: pg no: 4, L165)",
+                "(Evidence: pg no: 4, L166-L168)",
+                "(Evidence: pg no: 4, L162)",
+                "(Evidence: pg no: 5, L171-L172)",
+                "(Evidence: pg no: 4, L163-L164)"
+              ]
+            },
+            {
+              "header": "[CIGNA | Left Total Hip Replacement for intracapsular displaced femoral neck fracture | Chunk 2 | score=10.000 | file=cigna_guideline_2.json | id=cigna_7]",
+              "file": "cigna_guideline_2.json",
+              "record_id": "cigna_7",
+              "chunk_index": 2,
+              "payer": "cigna",
+              "score": 10.0,
+              "description": "{'procedure_id': 'fracture_tumor_infection_foreign_body_surgery', 'category': 'Shoulder (Evidence: pg no: 4, L149)', 'section_title': 'Arthroscopic or Open Procedure for Fracture, Tumor, Infection, or Foreign Body (Evidence: pg no: 4, L149)', 'names': ['Shoulder Surgery for Fracture (Evidence: pg no: 4, L149)', 'Shoulder Surgery for Tumor (Evidence: pg no: 4, L149)', 'Shoulder Surgery for Infection (Evidence: pg no: 4, L149)', 'Shoulder Surgery for Foreign Body (Evidence: pg no: 4, L149)'], 'description': 'Shoulder arthroscopic or open procedures for fracture, tumor, infection, or foreign body that has led to or will likely lead to progressive destruction (Evidence: pg no: 4, L149-L151)', 'scope': 'Arthroscopic or open procedures for specific pathological conditions (Evidence: pg no: 4, L149-L150)', 'general_requirements': {'documentation': ['Surgery being performed for fracture, tumor, infection, or foreign body that has led to or will likely lead to progressive destruction (Evidence: pg no: 4, L150-L151)']}, 'exclusions': [], 'codes': [{'code': '23145', 'system': 'CPT', 'description': 'Excision or curettage of bone cyst or benign tumor of clavicle or scapula; with autograft (includes obtaining graft) (Evidence: pg no: 13, L529-L530)'}, {'code': '23155', 'system': 'CPT', 'description': 'Excision or curettage of bone cyst or benign tumor of proximal humerus; with autograft (includes obtaining graft) (Evidence: pg no: 13, L531-L532)'}, {'code': '23172', 'system': 'CPT', 'descr",
+              "full_source": {
+                "procedure_id": "fracture_tumor_infection_foreign_body_surgery",
+                "category": "Shoulder (Evidence: pg no: 4, L149)",
+                "section_title": "Arthroscopic or Open Procedure for Fracture, Tumor, Infection, or Foreign Body (Evidence: pg no: 4, L149)",
+                "names": [
+                  "Shoulder Surgery for Fracture (Evidence: pg no: 4, L149)",
+                  "Shoulder Surgery for Tumor (Evidence: pg no: 4, L149)",
+                  "Shoulder Surgery for Infection (Evidence: pg no: 4, L149)",
+                  "Shoulder Surgery for Foreign Body (Evidence: pg no: 4, L149)"
+                ],
+                "description": "Shoulder arthroscopic or open procedures for fracture, tumor, infection, or foreign body that has led to or will likely lead to progressive destruction (Evidence: pg no: 4, L149-L151)",
+                "scope": "Arthroscopic or open procedures for specific pathological conditions (Evidence: pg no: 4, L149-L150)",
+                "general_requirements": {
+                  "documentation": [
+                    "Surgery being performed for fracture, tumor, infection, or foreign body that has led to or will likely lead to progressive destruction (Evidence: pg no: 4, L150-L151)"
+                  ]
+                },
+                "exclusions": [],
+                "codes": [
+                  {
+                    "code": "23145",
+                    "system": "CPT",
+                    "description": "Excision or curettage of bone cyst or benign tumor of clavicle or scapula; with autograft (includes obtaining graft) (Evidence: pg no: 13, L529-L530)"
+                  },
+                  {
+                    "code": "23155",
+                    "system": "CPT",
+                    "description": "Excision or curettage of bone cyst or benign tumor of proximal humerus; with autograft (includes obtaining graft) (Evidence: pg no: 13, L531-L532)"
+                  },
+                  {
+                    "code": "23172",
+                    "system": "CPT",
+                    "description": "Sequestrectomy (e.g. for osteomyelitis or bone abscess), scapula (Evidence: pg no: 13, L533)"
+                  },
+                  {
+                    "code": "23174",
+                    "system": "CPT",
+                    "description": "Sequestrectomy (e.g. for osteomyelitis or bone abscess), humeral head to surgical neck (Evidence: pg no: 13, L534)"
+                  }
+                ],
+                "notes": "May be considered medically necessary when surgery addresses progressive destruction (Evidence: pg no: 4, L149-L151)"
+              },
+              "payer_guideline_reference": [
+                "(Evidence: pg no: 4, L149-L151)",
+                "(Evidence: pg no: 4, L150-L151)",
+                "(Evidence: pg no: 13, L531-L532)",
+                "(Evidence: pg no: 4, L149)",
+                "(Evidence: pg no: 13, L533)",
+                "(Evidence: pg no: 13, L529-L530)",
+                "(Evidence: pg no: 13, L534)",
+                "(Evidence: pg no: 4, L149-L150)"
+              ]
+            }
+          ],
+          "guideline_source": "payer"
+        }
+      ],
+      "usage": "UsageInfo(input_tokens=14830, output_tokens=1623, model_id='unknown', input_cost=0.04449, output_cost=0.024345, total_cost=0.06883500000000001, cache_creation_input_tokens=0, cache_read_input_tokens=0, cache_write_cost=0.0, cache_read_cost=0.0)",
+      "sources": [
+        {
+          "header": "[CIGNA | Left Total Hip Replacement for intracapsular displaced femoral neck fracture | Chunk 1 | score=10.000 | file=cigna_guideline_1.json | id=cigna_5]",
+          "file": "cigna_guideline_1.json",
+          "record_id": "cigna_5",
+          "chunk_index": 1,
+          "payer": "cigna",
+          "score": 10.0,
+          "description": "{'procedure_id': 'diagnostic_arthroscopy', 'category': 'Shoulder (Evidence: pg no: 4, L152)', 'section_title': 'Diagnostic Arthroscopy (Evidence: pg no: 4, L152)', 'names': ['Diagnostic Arthroscopy (Evidence: pg no: 4, L152)'], 'description': 'Diagnostic arthroscopy as a stand-alone procedure for evaluation of shoulder pathology when advanced imaging is inconclusive (Evidence: pg no: 4, L154-L155)', 'scope': 'Stand-alone diagnostic procedure (Evidence: pg no: 4, L154-L155)', 'general_requirements': {'documentation': ['Function-limiting pain for at least six (6) months in duration (Evidence: pg no: 4, L156-L157)', 'Abnormal shoulder physical examination findings compared to non-involved side including functionally limited range of motion or measurable loss in strength (Evidence: pg no: 4, L158-L161)', 'Positive Neer Impingement Test or Hawkins-Kennedy Impingement Test (Evidence: pg no: 4, L162)', 'Failure of provider-directed non-surgical management for at least three (3) months in duration (Evidence: pg no: 4, L163-L164)', 'Advanced diagnostic imaging study (e.g., MRI, CT) is inconclusive for internal derangement/pathology (Evidence: pg no: 4, L165)', 'Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain and advanced glenohumeral osteoarthritis (Evidence: pg no: 4, L166-L168)']}, 'exclusions': ['Any other indication or condition (Evidence: pg no: 5, L171-L172)', 'In-office diagno",
+          "full_source": {
+            "procedure_id": "diagnostic_arthroscopy",
+            "category": "Shoulder (Evidence: pg no: 4, L152)",
+            "section_title": "Diagnostic Arthroscopy (Evidence: pg no: 4, L152)",
+            "names": [
+              "Diagnostic Arthroscopy (Evidence: pg no: 4, L152)"
+            ],
+            "description": "Diagnostic arthroscopy as a stand-alone procedure for evaluation of shoulder pathology when advanced imaging is inconclusive (Evidence: pg no: 4, L154-L155)",
+            "scope": "Stand-alone diagnostic procedure (Evidence: pg no: 4, L154-L155)",
+            "general_requirements": {
+              "documentation": [
+                "Function-limiting pain for at least six (6) months in duration (Evidence: pg no: 4, L156-L157)",
+                "Abnormal shoulder physical examination findings compared to non-involved side including functionally limited range of motion or measurable loss in strength (Evidence: pg no: 4, L158-L161)",
+                "Positive Neer Impingement Test or Hawkins-Kennedy Impingement Test (Evidence: pg no: 4, L162)",
+                "Failure of provider-directed non-surgical management for at least three (3) months in duration (Evidence: pg no: 4, L163-L164)",
+                "Advanced diagnostic imaging study (e.g., MRI, CT) is inconclusive for internal derangement/pathology (Evidence: pg no: 4, L165)",
+                "Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain and advanced glenohumeral osteoarthritis (Evidence: pg no: 4, L166-L168)"
+              ]
+            },
+            "exclusions": [
+              "Any other indication or condition (Evidence: pg no: 5, L171-L172)",
+              "In-office diagnostic arthroscopy (e.g., Mi-Eye™, VisionScope®) - considered experimental, investigational, or unproven (Evidence: pg no: 5, L175-L176)"
+            ],
+            "codes": [
+              {
+                "code": "29805",
+                "system": "CPT",
+                "description": "Arthroscopy, shoulder, diagnostic, with or without synovial biopsy (separate procedure) (Evidence: pg no: 13, L556)"
+              }
+            ],
+            "notes": "Considered medically necessary only when ALL criteria are met (Evidence: pg no: 4, L155)"
+          },
+          "payer_guideline_reference": [
+            "(Evidence: pg no: 4, L158-L161)",
+            "(Evidence: pg no: 4, L152)",
+            "(Evidence: pg no: 4, L156-L157)",
+            "(Evidence: pg no: 5, L175-L176)",
+            "(Evidence: pg no: 4, L155)",
+            "(Evidence: pg no: 13, L556)",
+            "(Evidence: pg no: 4, L154-L155)",
+            "(Evidence: pg no: 4, L165)",
+            "(Evidence: pg no: 4, L166-L168)",
+            "(Evidence: pg no: 4, L162)",
+            "(Evidence: pg no: 5, L171-L172)",
+            "(Evidence: pg no: 4, L163-L164)"
+          ]
+        },
+        {
+          "header": "[CIGNA | Left Total Hip Replacement for intracapsular displaced femoral neck fracture | Chunk 2 | score=10.000 | file=cigna_guideline_2.json | id=cigna_7]",
+          "file": "cigna_guideline_2.json",
+          "record_id": "cigna_7",
+          "chunk_index": 2,
+          "payer": "cigna",
+          "score": 10.0,
+          "description": "{'procedure_id': 'fracture_tumor_infection_foreign_body_surgery', 'category': 'Shoulder (Evidence: pg no: 4, L149)', 'section_title': 'Arthroscopic or Open Procedure for Fracture, Tumor, Infection, or Foreign Body (Evidence: pg no: 4, L149)', 'names': ['Shoulder Surgery for Fracture (Evidence: pg no: 4, L149)', 'Shoulder Surgery for Tumor (Evidence: pg no: 4, L149)', 'Shoulder Surgery for Infection (Evidence: pg no: 4, L149)', 'Shoulder Surgery for Foreign Body (Evidence: pg no: 4, L149)'], 'description': 'Shoulder arthroscopic or open procedures for fracture, tumor, infection, or foreign body that has led to or will likely lead to progressive destruction (Evidence: pg no: 4, L149-L151)', 'scope': 'Arthroscopic or open procedures for specific pathological conditions (Evidence: pg no: 4, L149-L150)', 'general_requirements': {'documentation': ['Surgery being performed for fracture, tumor, infection, or foreign body that has led to or will likely lead to progressive destruction (Evidence: pg no: 4, L150-L151)']}, 'exclusions': [], 'codes': [{'code': '23145', 'system': 'CPT', 'description': 'Excision or curettage of bone cyst or benign tumor of clavicle or scapula; with autograft (includes obtaining graft) (Evidence: pg no: 13, L529-L530)'}, {'code': '23155', 'system': 'CPT', 'description': 'Excision or curettage of bone cyst or benign tumor of proximal humerus; with autograft (includes obtaining graft) (Evidence: pg no: 13, L531-L532)'}, {'code': '23172', 'system': 'CPT', 'descr",
+          "full_source": {
+            "procedure_id": "fracture_tumor_infection_foreign_body_surgery",
+            "category": "Shoulder (Evidence: pg no: 4, L149)",
+            "section_title": "Arthroscopic or Open Procedure for Fracture, Tumor, Infection, or Foreign Body (Evidence: pg no: 4, L149)",
+            "names": [
+              "Shoulder Surgery for Fracture (Evidence: pg no: 4, L149)",
+              "Shoulder Surgery for Tumor (Evidence: pg no: 4, L149)",
+              "Shoulder Surgery for Infection (Evidence: pg no: 4, L149)",
+              "Shoulder Surgery for Foreign Body (Evidence: pg no: 4, L149)"
+            ],
+            "description": "Shoulder arthroscopic or open procedures for fracture, tumor, infection, or foreign body that has led to or will likely lead to progressive destruction (Evidence: pg no: 4, L149-L151)",
+            "scope": "Arthroscopic or open procedures for specific pathological conditions (Evidence: pg no: 4, L149-L150)",
+            "general_requirements": {
+              "documentation": [
+                "Surgery being performed for fracture, tumor, infection, or foreign body that has led to or will likely lead to progressive destruction (Evidence: pg no: 4, L150-L151)"
+              ]
+            },
+            "exclusions": [],
+            "codes": [
+              {
+                "code": "23145",
+                "system": "CPT",
+                "description": "Excision or curettage of bone cyst or benign tumor of clavicle or scapula; with autograft (includes obtaining graft) (Evidence: pg no: 13, L529-L530)"
+              },
+              {
+                "code": "23155",
+                "system": "CPT",
+                "description": "Excision or curettage of bone cyst or benign tumor of proximal humerus; with autograft (includes obtaining graft) (Evidence: pg no: 13, L531-L532)"
+              },
+              {
+                "code": "23172",
+                "system": "CPT",
+                "description": "Sequestrectomy (e.g. for osteomyelitis or bone abscess), scapula (Evidence: pg no: 13, L533)"
+              },
+              {
+                "code": "23174",
+                "system": "CPT",
+                "description": "Sequestrectomy (e.g. for osteomyelitis or bone abscess), humeral head to surgical neck (Evidence: pg no: 13, L534)"
+              }
+            ],
+            "notes": "May be considered medically necessary when surgery addresses progressive destruction (Evidence: pg no: 4, L149-L151)"
+          },
+          "payer_guideline_reference": [
+            "(Evidence: pg no: 4, L149-L151)",
+            "(Evidence: pg no: 4, L150-L151)",
+            "(Evidence: pg no: 13, L531-L532)",
+            "(Evidence: pg no: 4, L149)",
+            "(Evidence: pg no: 13, L533)",
+            "(Evidence: pg no: 13, L529-L530)",
+            "(Evidence: pg no: 13, L534)",
+            "(Evidence: pg no: 4, L149-L150)"
+          ]
+        }
+      ],
+      "error": null
+    },
+    "uhc": {
+      "payer_name": "UnitedHealthcare",
+      "procedures_evaluated": 1,
+      "procedure_results": [
+        {
+          "procedure_evaluated": "Total Hip Replacement",
+          "variant_or_subprocedure": "Left Total Hip Replacement for intracapsular displaced femoral neck fracture",
+          "policy_name": "UnitedHealthcare Medical Coverage Policy for Shoulder Procedures",
+          "decision": "Insufficient",
+          "primary_reasons": [
+            "The provided UHC guidelines do not contain specific criteria for hip replacement procedures",
+            "The available UHC guidelines only address shoulder procedures, not hip procedures",
+            "Unable to evaluate against appropriate hip replacement guidelines"
+          ],
+          "requirement_checklist": [
+            {
+              "requirement_id": "appropriate_guidelines",
+              "type": "single",
+              "status": "unclear",
+              "evidence": [
+                {
+                  "line_reference": "L555-L559"
+                }
+              ],
+              "missing_to_meet": "Appropriate UHC guidelines for hip replacement procedures",
+              "suggestion": "Request specific UHC guidelines for total hip replacement procedures"
+            }
+          ],
+          "timing_validation": {
+            "conservative_duration_weeks": "unknown",
+            "pt_sessions_completed": "unknown",
+            "follow_up_interval": "unknown"
+          },
+          "contraindications_exclusions": {
+            "active_infection": "absent",
+            "severe_arthritis": "unknown",
+            "other_contraindications": []
+          },
+          "coding_implications": {
+            "eligible_codes_if_sufficient": [
+              "27130"
+            ],
+            "notes": "CPT code 27130 is documented in the operative note (L557), but cannot confirm eligibility without appropriate guidelines"
+          },
+          "improvement_recommendations": {
+            "policy_needed": [
+              "Obtain specific hip replacement guidelines from UnitedHealthcare",
+              "Request medical necessity criteria for total hip replacement for femoral neck fracture"
+            ],
+            "cdi_documentation_gaps": [
+              "Documentation appears complete for hip fracture procedure",
+              "No specific gaps identified in current documentation"
+            ],
+            "completion_guidance": [
+              "Ensure documentation includes all elements required by hip-specific guidelines when obtained"
+            ],
+            "next_steps": [
+              "Request appropriate hip replacement guidelines from UnitedHealthcare",
+              "Evaluate documentation against hip-specific criteria when available"
+            ]
+          },
+          "_original_procedure_name": "Left Total Hip Replacement for intracapsular displaced femoral neck fracture",
+          "medical_chart_reference": [
+            "L555-L559",
+            "L557"
+          ],
+          "guideline_availability": {
+            "status": "available",
+            "search_hits": 6,
+            "max_score": 26.0,
+            "message": "Found 6 guideline(s) for UnitedHealthcare"
+          },
+          "sources": [
+            {
+              "header": "[UHC | Left Total Hip Replacement for intracapsular displaced femoral neck fracture | Chunk 1 | score=26.000 | file=uhc_guideline_1.json | id=uhc_16]",
+              "file": "uhc_guideline_1.json",
+              "record_id": "uhc_16",
+              "chunk_index": 1,
+              "payer": "uhc",
+              "score": 26.0,
+              "description": "{'procedure_id': 'subacromial_balloon_spacers', 'category': 'Shoulder (Evidence: pg no: 2, L89)', 'section_title': 'Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)', 'names': ['Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)', 'InSpace™ Subacromial Tissue Spacer System (Evidence: pg no: 2, L90)', 'Subacromial balloon spacer implantation (SBSI) (Evidence: pg no: 3, L124)', 'InSpace Biodegradable Subacromial Spacer (Evidence: pg no: 5, L254)'], 'description': 'A minimally invasive, biodegradable balloon spacer for treating massive, inoperable rotator cuff tears (MIRCTs). It preserves musculoskeletal and bone tissues, does not require the use of an anchor, and does not require a permanent implant. It is used as a spacer to eliminate friction between the acromion and the humeral head or rotator cuff to restore shoulder function and reduce pain. It is designed to biodegrade over the course of twelve months (Evidence: pg no: 2, L90-L93)', 'scope': 'Treatment of massive, irreparable rotator cuff tears (Evidence: pg no: 2, L90-L91)', 'general_requirements': {'documentation': ['Medical records documentation may be required to assess whether the member meets the clinical criteria for coverage (Evidence: pg no: 1, L40-L42)']}, 'exclusions': ['Unproven and not medically necessary due to insufficient evidence of efficacy (Evidence: pg no: 1, L37-L38)'], 'codes': [], 'notes': 'The current published literature is at high-risk of bias due to the small sample size, s",
+              "full_source": {
+                "procedure_id": "subacromial_balloon_spacers",
+                "category": "Shoulder (Evidence: pg no: 2, L89)",
+                "section_title": "Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)",
+                "names": [
+                  "Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)",
+                  "InSpace™ Subacromial Tissue Spacer System (Evidence: pg no: 2, L90)",
+                  "Subacromial balloon spacer implantation (SBSI) (Evidence: pg no: 3, L124)",
+                  "InSpace Biodegradable Subacromial Spacer (Evidence: pg no: 5, L254)"
+                ],
+                "description": "A minimally invasive, biodegradable balloon spacer for treating massive, inoperable rotator cuff tears (MIRCTs). It preserves musculoskeletal and bone tissues, does not require the use of an anchor, and does not require a permanent implant. It is used as a spacer to eliminate friction between the acromion and the humeral head or rotator cuff to restore shoulder function and reduce pain. It is designed to biodegrade over the course of twelve months (Evidence: pg no: 2, L90-L93)",
+                "scope": "Treatment of massive, irreparable rotator cuff tears (Evidence: pg no: 2, L90-L91)",
+                "general_requirements": {
+                  "documentation": [
+                    "Medical records documentation may be required to assess whether the member meets the clinical criteria for coverage (Evidence: pg no: 1, L40-L42)"
+                  ]
+                },
+                "exclusions": [
+                  "Unproven and not medically necessary due to insufficient evidence of efficacy (Evidence: pg no: 1, L37-L38)"
+                ],
+                "codes": [],
+                "notes": "The current published literature is at high-risk of bias due to the small sample size, single-center focus, retrospective design, and lack of randomization, blinding, and control. There are device-related complications, and long-term studies are necessary as short-term results appear to degrade over time (Evidence: pg no: 2, L94-L97)"
+              },
+              "payer_guideline_reference": [
+                "(Evidence: pg no: 2, L90)",
+                "(Evidence: pg no: 2, L90-L93)",
+                "(Evidence: pg no: 2, L89)",
+                "(Evidence: pg no: 2, L90-L91)",
+                "(Evidence: pg no: 2, L94-L97)",
+                "(Evidence: pg no: 3, L124)",
+                "(Evidence: pg no: 1, L37-L38)",
+                "(Evidence: pg no: 1, L40-L42)",
+                "(Evidence: pg no: 5, L254)"
+              ]
+            },
+            {
+              "header": "[UHC | Left Total Hip Replacement for intracapsular displaced femoral neck fracture | Chunk 2 | score=16.000 | file=uhc_guideline_2.json | id=uhc_10]",
+              "file": "uhc_guideline_2.json",
+              "record_id": "uhc_10",
+              "chunk_index": 2,
+              "payer": "uhc",
+              "score": 16.0,
+              "description": "{'procedure_id': 'removal_replacement_tjr_shoulder', 'category': 'Shoulder (Evidence: pg no: 1, L33)', 'section_title': 'Removal and Replacement, Total Joint Replacement (TJR), Shoulder (Evidence: pg no: 1, L33)', 'names': ['Removal and Replacement, Total Joint Replacement (TJR), Shoulder (Evidence: pg no: 1, L33)'], 'description': 'Surgical removal and replacement of total joint replacement components in the shoulder (Evidence: pg no: 1, L33)', 'scope': 'Revision surgery for shoulder joint replacement (Evidence: pg no: 1, L33)', 'general_requirements': {'documentation': ['Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)']}, 'exclusions': [], 'codes': [], 'notes': 'Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)'}",
+              "full_source": {
+                "procedure_id": "removal_replacement_tjr_shoulder",
+                "category": "Shoulder (Evidence: pg no: 1, L33)",
+                "section_title": "Removal and Replacement, Total Joint Replacement (TJR), Shoulder (Evidence: pg no: 1, L33)",
+                "names": [
+                  "Removal and Replacement, Total Joint Replacement (TJR), Shoulder (Evidence: pg no: 1, L33)"
+                ],
+                "description": "Surgical removal and replacement of total joint replacement components in the shoulder (Evidence: pg no: 1, L33)",
+                "scope": "Revision surgery for shoulder joint replacement (Evidence: pg no: 1, L33)",
+                "general_requirements": {
+                  "documentation": [
+                    "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+                  ]
+                },
+                "exclusions": [],
+                "codes": [],
+                "notes": "Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)"
+              },
+              "payer_guideline_reference": [
+                "(Evidence: pg no: 1, L25-L27)",
+                "(Evidence: pg no: 1, L25)",
+                "(Evidence: pg no: 1, L33)"
+              ]
+            },
+            {
+              "header": "[UHC | Left Total Hip Replacement for intracapsular displaced femoral neck fracture | Chunk 3 | score=14.000 | file=uhc_guideline_3.json | id=uhc_8]",
+              "file": "uhc_guideline_3.json",
+              "record_id": "uhc_8",
+              "chunk_index": 3,
+              "payer": "uhc",
+              "score": 14.0,
+              "description": "{'procedure_id': 'joint_replacement_shoulder', 'category': 'Shoulder (Evidence: pg no: 1, L32)', 'section_title': 'Joint Replacement, Shoulder (Evidence: pg no: 1, L32)', 'names': ['Joint Replacement, Shoulder (Evidence: pg no: 1, L32)', 'Arthroplasty, glenohumeral joint (Evidence: pg no: 2, L60-L62)'], 'description': 'Surgical replacement of the shoulder joint including hemiarthroplasty and total shoulder replacement (Evidence: pg no: 2, L60-L62)', 'scope': 'Joint replacement surgery for shoulder conditions (Evidence: pg no: 1, L32)', 'general_requirements': {'documentation': ['Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)']}, 'exclusions': [], 'codes': [{'code': '23470', 'system': 'CPT', 'description': 'Arthroplasty, glenohumeral joint; hemiarthroplasty (Evidence: pg no: 2, L60)'}, {'code': '23472', 'system': 'CPT', 'description': 'Arthroplasty, glenohumeral joint; total shoulder (glenoid and proximal humeral replacement (e.g., total shoulder) (Evidence: pg no: 2, L61-L62)'}], 'notes': 'Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)'}",
+              "full_source": {
+                "procedure_id": "joint_replacement_shoulder",
+                "category": "Shoulder (Evidence: pg no: 1, L32)",
+                "section_title": "Joint Replacement, Shoulder (Evidence: pg no: 1, L32)",
+                "names": [
+                  "Joint Replacement, Shoulder (Evidence: pg no: 1, L32)",
+                  "Arthroplasty, glenohumeral joint (Evidence: pg no: 2, L60-L62)"
+                ],
+                "description": "Surgical replacement of the shoulder joint including hemiarthroplasty and total shoulder replacement (Evidence: pg no: 2, L60-L62)",
+                "scope": "Joint replacement surgery for shoulder conditions (Evidence: pg no: 1, L32)",
+                "general_requirements": {
+                  "documentation": [
+                    "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+                  ]
+                },
+                "exclusions": [],
+                "codes": [
+                  {
+                    "code": "23470",
+                    "system": "CPT",
+                    "description": "Arthroplasty, glenohumeral joint; hemiarthroplasty (Evidence: pg no: 2, L60)"
+                  },
+                  {
+                    "code": "23472",
+                    "system": "CPT",
+                    "description": "Arthroplasty, glenohumeral joint; total shoulder (glenoid and proximal humeral replacement (e.g., total shoulder) (Evidence: pg no: 2, L61-L62)"
+                  }
+                ],
+                "notes": "Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)"
+              },
+              "payer_guideline_reference": [
+                "(Evidence: pg no: 1, L32)",
+                "(Evidence: pg no: 1, L25-L27)",
+                "(Evidence: pg no: 1, L25)",
+                "(Evidence: pg no: 2, L61-L62)",
+                "(Evidence: pg no: 2, L60-L62)",
+                "(Evidence: pg no: 2, L60)"
+              ]
+            }
+          ],
+          "guideline_source": "payer"
+        }
+      ],
+      "usage": "UsageInfo(input_tokens=14830, output_tokens=1623, model_id='unknown', input_cost=0.04449, output_cost=0.024345, total_cost=0.06883500000000001, cache_creation_input_tokens=0, cache_read_input_tokens=0, cache_write_cost=0.0, cache_read_cost=0.0)",
+      "sources": [
+        {
+          "header": "[UHC | Left Total Hip Replacement for intracapsular displaced femoral neck fracture | Chunk 1 | score=26.000 | file=uhc_guideline_1.json | id=uhc_16]",
+          "file": "uhc_guideline_1.json",
+          "record_id": "uhc_16",
+          "chunk_index": 1,
+          "payer": "uhc",
+          "score": 26.0,
+          "description": "{'procedure_id': 'subacromial_balloon_spacers', 'category': 'Shoulder (Evidence: pg no: 2, L89)', 'section_title': 'Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)', 'names': ['Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)', 'InSpace™ Subacromial Tissue Spacer System (Evidence: pg no: 2, L90)', 'Subacromial balloon spacer implantation (SBSI) (Evidence: pg no: 3, L124)', 'InSpace Biodegradable Subacromial Spacer (Evidence: pg no: 5, L254)'], 'description': 'A minimally invasive, biodegradable balloon spacer for treating massive, inoperable rotator cuff tears (MIRCTs). It preserves musculoskeletal and bone tissues, does not require the use of an anchor, and does not require a permanent implant. It is used as a spacer to eliminate friction between the acromion and the humeral head or rotator cuff to restore shoulder function and reduce pain. It is designed to biodegrade over the course of twelve months (Evidence: pg no: 2, L90-L93)', 'scope': 'Treatment of massive, irreparable rotator cuff tears (Evidence: pg no: 2, L90-L91)', 'general_requirements': {'documentation': ['Medical records documentation may be required to assess whether the member meets the clinical criteria for coverage (Evidence: pg no: 1, L40-L42)']}, 'exclusions': ['Unproven and not medically necessary due to insufficient evidence of efficacy (Evidence: pg no: 1, L37-L38)'], 'codes': [], 'notes': 'The current published literature is at high-risk of bias due to the small sample size, s",
+          "full_source": {
+            "procedure_id": "subacromial_balloon_spacers",
+            "category": "Shoulder (Evidence: pg no: 2, L89)",
+            "section_title": "Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)",
+            "names": [
+              "Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)",
+              "InSpace™ Subacromial Tissue Spacer System (Evidence: pg no: 2, L90)",
+              "Subacromial balloon spacer implantation (SBSI) (Evidence: pg no: 3, L124)",
+              "InSpace Biodegradable Subacromial Spacer (Evidence: pg no: 5, L254)"
+            ],
+            "description": "A minimally invasive, biodegradable balloon spacer for treating massive, inoperable rotator cuff tears (MIRCTs). It preserves musculoskeletal and bone tissues, does not require the use of an anchor, and does not require a permanent implant. It is used as a spacer to eliminate friction between the acromion and the humeral head or rotator cuff to restore shoulder function and reduce pain. It is designed to biodegrade over the course of twelve months (Evidence: pg no: 2, L90-L93)",
+            "scope": "Treatment of massive, irreparable rotator cuff tears (Evidence: pg no: 2, L90-L91)",
+            "general_requirements": {
+              "documentation": [
+                "Medical records documentation may be required to assess whether the member meets the clinical criteria for coverage (Evidence: pg no: 1, L40-L42)"
+              ]
+            },
+            "exclusions": [
+              "Unproven and not medically necessary due to insufficient evidence of efficacy (Evidence: pg no: 1, L37-L38)"
+            ],
+            "codes": [],
+            "notes": "The current published literature is at high-risk of bias due to the small sample size, single-center focus, retrospective design, and lack of randomization, blinding, and control. There are device-related complications, and long-term studies are necessary as short-term results appear to degrade over time (Evidence: pg no: 2, L94-L97)"
+          },
+          "payer_guideline_reference": [
+            "(Evidence: pg no: 2, L90)",
+            "(Evidence: pg no: 2, L90-L93)",
+            "(Evidence: pg no: 2, L89)",
+            "(Evidence: pg no: 2, L90-L91)",
+            "(Evidence: pg no: 2, L94-L97)",
+            "(Evidence: pg no: 3, L124)",
+            "(Evidence: pg no: 1, L37-L38)",
+            "(Evidence: pg no: 1, L40-L42)",
+            "(Evidence: pg no: 5, L254)"
+          ]
+        },
+        {
+          "header": "[UHC | Left Total Hip Replacement for intracapsular displaced femoral neck fracture | Chunk 2 | score=16.000 | file=uhc_guideline_2.json | id=uhc_10]",
+          "file": "uhc_guideline_2.json",
+          "record_id": "uhc_10",
+          "chunk_index": 2,
+          "payer": "uhc",
+          "score": 16.0,
+          "description": "{'procedure_id': 'removal_replacement_tjr_shoulder', 'category': 'Shoulder (Evidence: pg no: 1, L33)', 'section_title': 'Removal and Replacement, Total Joint Replacement (TJR), Shoulder (Evidence: pg no: 1, L33)', 'names': ['Removal and Replacement, Total Joint Replacement (TJR), Shoulder (Evidence: pg no: 1, L33)'], 'description': 'Surgical removal and replacement of total joint replacement components in the shoulder (Evidence: pg no: 1, L33)', 'scope': 'Revision surgery for shoulder joint replacement (Evidence: pg no: 1, L33)', 'general_requirements': {'documentation': ['Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)']}, 'exclusions': [], 'codes': [], 'notes': 'Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)'}",
+          "full_source": {
+            "procedure_id": "removal_replacement_tjr_shoulder",
+            "category": "Shoulder (Evidence: pg no: 1, L33)",
+            "section_title": "Removal and Replacement, Total Joint Replacement (TJR), Shoulder (Evidence: pg no: 1, L33)",
+            "names": [
+              "Removal and Replacement, Total Joint Replacement (TJR), Shoulder (Evidence: pg no: 1, L33)"
+            ],
+            "description": "Surgical removal and replacement of total joint replacement components in the shoulder (Evidence: pg no: 1, L33)",
+            "scope": "Revision surgery for shoulder joint replacement (Evidence: pg no: 1, L33)",
+            "general_requirements": {
+              "documentation": [
+                "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+              ]
+            },
+            "exclusions": [],
+            "codes": [],
+            "notes": "Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)"
+          },
+          "payer_guideline_reference": [
+            "(Evidence: pg no: 1, L25-L27)",
+            "(Evidence: pg no: 1, L25)",
+            "(Evidence: pg no: 1, L33)"
+          ]
+        },
+        {
+          "header": "[UHC | Left Total Hip Replacement for intracapsular displaced femoral neck fracture | Chunk 3 | score=14.000 | file=uhc_guideline_3.json | id=uhc_8]",
+          "file": "uhc_guideline_3.json",
+          "record_id": "uhc_8",
+          "chunk_index": 3,
+          "payer": "uhc",
+          "score": 14.0,
+          "description": "{'procedure_id': 'joint_replacement_shoulder', 'category': 'Shoulder (Evidence: pg no: 1, L32)', 'section_title': 'Joint Replacement, Shoulder (Evidence: pg no: 1, L32)', 'names': ['Joint Replacement, Shoulder (Evidence: pg no: 1, L32)', 'Arthroplasty, glenohumeral joint (Evidence: pg no: 2, L60-L62)'], 'description': 'Surgical replacement of the shoulder joint including hemiarthroplasty and total shoulder replacement (Evidence: pg no: 2, L60-L62)', 'scope': 'Joint replacement surgery for shoulder conditions (Evidence: pg no: 1, L32)', 'general_requirements': {'documentation': ['Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)']}, 'exclusions': [], 'codes': [{'code': '23470', 'system': 'CPT', 'description': 'Arthroplasty, glenohumeral joint; hemiarthroplasty (Evidence: pg no: 2, L60)'}, {'code': '23472', 'system': 'CPT', 'description': 'Arthroplasty, glenohumeral joint; total shoulder (glenoid and proximal humeral replacement (e.g., total shoulder) (Evidence: pg no: 2, L61-L62)'}], 'notes': 'Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)'}",
+          "full_source": {
+            "procedure_id": "joint_replacement_shoulder",
+            "category": "Shoulder (Evidence: pg no: 1, L32)",
+            "section_title": "Joint Replacement, Shoulder (Evidence: pg no: 1, L32)",
+            "names": [
+              "Joint Replacement, Shoulder (Evidence: pg no: 1, L32)",
+              "Arthroplasty, glenohumeral joint (Evidence: pg no: 2, L60-L62)"
+            ],
+            "description": "Surgical replacement of the shoulder joint including hemiarthroplasty and total shoulder replacement (Evidence: pg no: 2, L60-L62)",
+            "scope": "Joint replacement surgery for shoulder conditions (Evidence: pg no: 1, L32)",
+            "general_requirements": {
+              "documentation": [
+                "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+              ]
+            },
+            "exclusions": [],
+            "codes": [
+              {
+                "code": "23470",
+                "system": "CPT",
+                "description": "Arthroplasty, glenohumeral joint; hemiarthroplasty (Evidence: pg no: 2, L60)"
+              },
+              {
+                "code": "23472",
+                "system": "CPT",
+                "description": "Arthroplasty, glenohumeral joint; total shoulder (glenoid and proximal humeral replacement (e.g., total shoulder) (Evidence: pg no: 2, L61-L62)"
+              }
+            ],
+            "notes": "Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)"
+          },
+          "payer_guideline_reference": [
+            "(Evidence: pg no: 1, L32)",
+            "(Evidence: pg no: 1, L25-L27)",
+            "(Evidence: pg no: 1, L25)",
+            "(Evidence: pg no: 2, L61-L62)",
+            "(Evidence: pg no: 2, L60-L62)",
+            "(Evidence: pg no: 2, L60)"
+          ]
+        }
+      ],
+      "error": null
+    },
+    "anthem": {
+      "payer_name": "Anthem",
+      "procedures_evaluated": 1,
+      "procedure_results": [
+        {
+          "procedure_evaluated": "Total Hip Replacement",
+          "variant_or_subprocedure": "Left Total Hip Replacement for intracapsular displaced femoral neck fracture",
+          "policy_name": "Anthem Medical Coverage Policy for Hip Arthroplasty",
+          "decision": "Sufficient",
+          "primary_reasons": [
+            "Documentation clearly demonstrates a hip fracture (displaced femoral neck fracture)",
+            "Hip fracture is explicitly listed as a qualifying indication in Anthem guidelines",
+            "Procedure performed matches the approved indication"
+          ],
+          "requirement_checklist": [
+            {
+              "requirement_id": "hip_fracture",
+              "type": "single",
+              "status": "met",
+              "evidence": [
+                {
+                  "line_reference": "L555-L559, L646, L650-L651"
+                }
+              ],
+              "missing_to_meet": "",
+              "suggestion": ""
+            },
+            {
+              "requirement_id": "appropriate_procedure",
+              "type": "single",
+              "status": "met",
+              "evidence": [
+                {
+                  "line_reference": "L555, L650-L671"
+                }
+              ],
+              "missing_to_meet": "",
+              "suggestion": ""
+            },
+            {
+              "requirement_id": "medical_optimization",
+              "type": "single",
+              "status": "met",
+              "evidence": [
+                {
+                  "line_reference": "L673-L674"
+                }
+              ],
+              "missing_to_meet": "",
+              "suggestion": ""
+            }
+          ],
+          "timing_validation": {
+            "conservative_duration_weeks": "not applicable",
+            "pt_sessions_completed": "not applicable",
+            "follow_up_interval": "immediate surgical intervention"
+          },
+          "contraindications_exclusions": {
+            "active_infection": "absent",
+            "severe_arthritis": "not applicable",
+            "other_contraindications": []
+          },
+          "coding_implications": {
+            "eligible_codes_if_sufficient": [
+              "27130"
+            ],
+            "notes": "CPT code 27130 is documented in the operative note (L557) and matches Anthem's listed code for total hip arthroplasty"
+          },
+          "improvement_recommendations": {
+            "policy_needed": [],
+            "cdi_documentation_gaps": [],
+            "completion_guidance": [],
+            "next_steps": []
+          },
+          "_original_procedure_name": "Left Total Hip Replacement for intracapsular displaced femoral neck fracture",
+          "medical_chart_reference": [
+            "L555-L559",
+            "L646",
+            "L650-L651",
+            "L555",
+            "L650-L671",
+            "L673-L674",
+            "L557"
+          ],
+          "guideline_availability": {
+            "status": "available",
+            "search_hits": 6,
+            "max_score": 26.0,
+            "message": "Found 6 guideline(s) for Anthem"
+          },
+          "sources": [
+            {
+              "header": "[ANTHEM | Left Total Hip Replacement for intracapsular displaced femoral neck fracture | Chunk 1 | score=26.000 | file=anthem_guideline_1.json | id=anthem_54]",
+              "file": "anthem_guideline_1.json",
+              "record_id": "anthem_54",
+              "chunk_index": 1,
+              "payer": "anthem",
+              "score": 26.0,
+              "description": "{'procedure_id': 'primary_total_hip_arthroplasty', 'category': 'Hip (Evidence: pg no: 22, L743)', 'section_title': 'Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)', 'names': ['Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)', 'Total hip arthroplasty (THA) (Evidence: pg no: 22, L746)', 'Total hip replacement (THR) (Evidence: pg no: 22, L746)'], 'description': 'Total hip arthroplasty (THA), also referred to as total hip replacement (THR), involves removal of the femoral head and acetabulum and placement of a prosthesis anchored to the bone. The goal of the procedure is long-term pain relief and restoration of function. (Evidence: pg no: 22, L746-L749)', 'scope': 'This guideline addresses hip arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 22, L756-L757)', 'general_requirements': {'documentation': ['Primary and secondary tumors of the proximal femur (Evidence: pg no: 24, L837)', 'Hip fracture or complications including malunion, nonunion or failed prior fixation (Evidence: pg no: 24, L838)', 'Failed previous hip fracture fixation (Evidence: pg no: 24, L839)', 'Avascular necrosis (osteonecrosis) with unresponsive severe pain (Evidence: pg no: 24, L840)', 'Revision of hip arthrodesis (Evidence: pg no: 24, L841)', 'Imaging evidence of significant joint destruction and cartilage loss, defined as Tönnis grade 3, modi",
+              "full_source": {
+                "procedure_id": "primary_total_hip_arthroplasty",
+                "category": "Hip (Evidence: pg no: 22, L743)",
+                "section_title": "Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)",
+                "names": [
+                  "Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)",
+                  "Total hip arthroplasty (THA) (Evidence: pg no: 22, L746)",
+                  "Total hip replacement (THR) (Evidence: pg no: 22, L746)"
+                ],
+                "description": "Total hip arthroplasty (THA), also referred to as total hip replacement (THR), involves removal of the femoral head and acetabulum and placement of a prosthesis anchored to the bone. The goal of the procedure is long-term pain relief and restoration of function. (Evidence: pg no: 22, L746-L749)",
+                "scope": "This guideline addresses hip arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 22, L756-L757)",
+                "general_requirements": {
+                  "documentation": [
+                    "Primary and secondary tumors of the proximal femur (Evidence: pg no: 24, L837)",
+                    "Hip fracture or complications including malunion, nonunion or failed prior fixation (Evidence: pg no: 24, L838)",
+                    "Failed previous hip fracture fixation (Evidence: pg no: 24, L839)",
+                    "Avascular necrosis (osteonecrosis) with unresponsive severe pain (Evidence: pg no: 24, L840)",
+                    "Revision of hip arthrodesis (Evidence: pg no: 24, L841)",
+                    "Imaging evidence of significant joint destruction and cartilage loss, defined as Tönnis grade 3, modified Outerbridge grade III – IV, or Kellgren-Lawrence grade 3 – 4 (Evidence: pg no: 24, L844-L845)",
+                    "Limited range of motion, antalgic gait and disabling pain of at least 3 months' duration (Evidence: pg no: 24, L846)",
+                    "Pain with passive motion of the hip (Evidence: pg no: 24, L847)",
+                    "Failure of at least 3 months of non-surgical conservative management (Evidence: pg no: 24, L848-L849)",
+                    "Functional limitation secondary to hip pathology which interferes with the ability to perform age-appropriate daily activities (Evidence: pg no: 24, L850-L851)"
+                  ]
+                },
+                "exclusions": [
+                  "Indications for total hip arthroplasty other than those addressed in this guideline are considered not medically necessary (Evidence: pg no: 26, L937-L938)"
+                ],
+                "codes": [
+                  {
+                    "code": "27130",
+                    "system": "CPT",
+                    "description": "Arthroplasty, acetabular and proximal femoral prosthetic replacement (total hip arthroplasty), with or without autograft or allograft (Evidence: pg no: 27, L973-L974)"
+                  }
+                ],
+                "notes": "All arthroplasty and acetabuloplasty/resection arthroplasty procedures are inclusive of synovectomy, removal of osteophytes, removal of loose bodies, manipulation of the hip, and release or repair of structures to gain entrance to the hip joint. (Evidence: pg no: 22, L749-L751)"
+              },
+              "payer_guideline_reference": [
+                "(Evidence: pg no: 24, L837)",
+                "(Evidence: pg no: 26, L937-L938)",
+                "(Evidence: pg no: 24, L841)",
+                "(Evidence: pg no: 22, L749-L751)",
+                "(Evidence: pg no: 24, L847)",
+                "(Evidence: pg no: 24, L846)",
+                "(Evidence: pg no: 24, L839)",
+                "(Evidence: pg no: 24, L844-L845)",
+                "(Evidence: pg no: 24, L848-L849)",
+                "(Evidence: pg no: 24, L838)",
+                "(Evidence: pg no: 22, L743)",
+                "(Evidence: pg no: 22, L746-L749)",
+                "(Evidence: pg no: 22, L746)",
+                "(Evidence: pg no: 24, L835)",
+                "(Evidence: pg no: 22, L756-L757)",
+                "(Evidence: pg no: 27, L973-L974)",
+                "(Evidence: pg no: 24, L850-L851)",
+                "(Evidence: pg no: 24, L840)"
+              ]
+            },
+            {
+              "header": "[ANTHEM | Left Total Hip Replacement for intracapsular displaced femoral neck fracture | Chunk 2 | score=22.000 | file=anthem_guideline_2.json | id=anthem_57]",
+              "file": "anthem_guideline_2.json",
+              "record_id": "anthem_57",
+              "chunk_index": 2,
+              "payer": "anthem",
+              "score": 22.0,
+              "description": "{'procedure_id': 'reverse_shoulder_arthroplasty', 'category': 'Shoulder (Evidence: pg no: 7, L169)', 'section_title': 'Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)', 'names': ['Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)', 'Reverse total shoulder arthroplasty (Evidence: pg no: 7, L178)'], 'description': 'Reverse total shoulder arthroplasty is similar to standard arthroplasty in that both components of the joint are replaced but the ball and socket portions of the joint are reversed, allowing the deltoid muscle to assume partial function of the rotator cuff. This procedure is typically utilized when there is concomitant rotator cuff disease. (Evidence: pg no: 7, L178-L180)', 'scope': 'This guideline addresses shoulder arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of a congenital condition, acute or traumatic event such as fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 7, L181-L183)', 'general_requirements': {'documentation': ['Reconstruction after a tumor resection (Evidence: pg no: 10, L302)', 'Glenohumeral osteoarthritis with irreparable rotator cuff tear (Evidence: pg no: 10, L303)', 'Glenoid bone stock inadequate to support a glenoid prosthesis (Evidence: pg no: 10, L304)', 'Failed hemiarthroplasty (Evidence: pg no: 10, L305)', 'Failed total shoulder arthroplasty with non-repairable rotator cuff (Evidence: pg no: 10, L306)', 'Shoulder fracture that is not re",
+              "full_source": {
+                "procedure_id": "reverse_shoulder_arthroplasty",
+                "category": "Shoulder (Evidence: pg no: 7, L169)",
+                "section_title": "Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)",
+                "names": [
+                  "Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)",
+                  "Reverse total shoulder arthroplasty (Evidence: pg no: 7, L178)"
+                ],
+                "description": "Reverse total shoulder arthroplasty is similar to standard arthroplasty in that both components of the joint are replaced but the ball and socket portions of the joint are reversed, allowing the deltoid muscle to assume partial function of the rotator cuff. This procedure is typically utilized when there is concomitant rotator cuff disease. (Evidence: pg no: 7, L178-L180)",
+                "scope": "This guideline addresses shoulder arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of a congenital condition, acute or traumatic event such as fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 7, L181-L183)",
+                "general_requirements": {
+                  "documentation": [
+                    "Reconstruction after a tumor resection (Evidence: pg no: 10, L302)",
+                    "Glenohumeral osteoarthritis with irreparable rotator cuff tear (Evidence: pg no: 10, L303)",
+                    "Glenoid bone stock inadequate to support a glenoid prosthesis (Evidence: pg no: 10, L304)",
+                    "Failed hemiarthroplasty (Evidence: pg no: 10, L305)",
+                    "Failed total shoulder arthroplasty with non-repairable rotator cuff (Evidence: pg no: 10, L306)",
+                    "Shoulder fracture that is not repairable or cannot be reconstructed with other techniques (Evidence: pg no: 10, L307)",
+                    "Deficient rotator cuff with limited ability to actively flex the upper extremity to 90 degrees against gravity (Evidence: pg no: 10, L310-L311)"
+                  ]
+                },
+                "exclusions": [],
+                "codes": [],
+                "notes": "Considered medically necessary for ANY of the listed indications when associated with pain and functional impairment. (Evidence: pg no: 10, L301)"
+              },
+              "payer_guideline_reference": [
+                "(Evidence: pg no: 10, L307)",
+                "(Evidence: pg no: 10, L301)",
+                "(Evidence: pg no: 10, L303)",
+                "(Evidence: pg no: 10, L300)",
+                "(Evidence: pg no: 7, L181-L183)",
+                "(Evidence: pg no: 7, L178-L180)",
+                "(Evidence: pg no: 7, L178)",
+                "(Evidence: pg no: 10, L305)",
+                "(Evidence: pg no: 10, L310-L311)",
+                "(Evidence: pg no: 10, L302)",
+                "(Evidence: pg no: 10, L306)",
+                "(Evidence: pg no: 10, L304)",
+                "(Evidence: pg no: 7, L169)"
+              ]
+            }
+          ],
+          "guideline_source": "payer"
+        }
+      ],
+      "usage": "UsageInfo(input_tokens=14830, output_tokens=1623, model_id='unknown', input_cost=0.04449, output_cost=0.024345, total_cost=0.06883500000000001, cache_creation_input_tokens=0, cache_read_input_tokens=0, cache_write_cost=0.0, cache_read_cost=0.0)",
+      "sources": [
+        {
+          "header": "[ANTHEM | Left Total Hip Replacement for intracapsular displaced femoral neck fracture | Chunk 1 | score=26.000 | file=anthem_guideline_1.json | id=anthem_54]",
+          "file": "anthem_guideline_1.json",
+          "record_id": "anthem_54",
+          "chunk_index": 1,
+          "payer": "anthem",
+          "score": 26.0,
+          "description": "{'procedure_id': 'primary_total_hip_arthroplasty', 'category': 'Hip (Evidence: pg no: 22, L743)', 'section_title': 'Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)', 'names': ['Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)', 'Total hip arthroplasty (THA) (Evidence: pg no: 22, L746)', 'Total hip replacement (THR) (Evidence: pg no: 22, L746)'], 'description': 'Total hip arthroplasty (THA), also referred to as total hip replacement (THR), involves removal of the femoral head and acetabulum and placement of a prosthesis anchored to the bone. The goal of the procedure is long-term pain relief and restoration of function. (Evidence: pg no: 22, L746-L749)', 'scope': 'This guideline addresses hip arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 22, L756-L757)', 'general_requirements': {'documentation': ['Primary and secondary tumors of the proximal femur (Evidence: pg no: 24, L837)', 'Hip fracture or complications including malunion, nonunion or failed prior fixation (Evidence: pg no: 24, L838)', 'Failed previous hip fracture fixation (Evidence: pg no: 24, L839)', 'Avascular necrosis (osteonecrosis) with unresponsive severe pain (Evidence: pg no: 24, L840)', 'Revision of hip arthrodesis (Evidence: pg no: 24, L841)', 'Imaging evidence of significant joint destruction and cartilage loss, defined as Tönnis grade 3, modi",
+          "full_source": {
+            "procedure_id": "primary_total_hip_arthroplasty",
+            "category": "Hip (Evidence: pg no: 22, L743)",
+            "section_title": "Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)",
+            "names": [
+              "Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)",
+              "Total hip arthroplasty (THA) (Evidence: pg no: 22, L746)",
+              "Total hip replacement (THR) (Evidence: pg no: 22, L746)"
+            ],
+            "description": "Total hip arthroplasty (THA), also referred to as total hip replacement (THR), involves removal of the femoral head and acetabulum and placement of a prosthesis anchored to the bone. The goal of the procedure is long-term pain relief and restoration of function. (Evidence: pg no: 22, L746-L749)",
+            "scope": "This guideline addresses hip arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 22, L756-L757)",
+            "general_requirements": {
+              "documentation": [
+                "Primary and secondary tumors of the proximal femur (Evidence: pg no: 24, L837)",
+                "Hip fracture or complications including malunion, nonunion or failed prior fixation (Evidence: pg no: 24, L838)",
+                "Failed previous hip fracture fixation (Evidence: pg no: 24, L839)",
+                "Avascular necrosis (osteonecrosis) with unresponsive severe pain (Evidence: pg no: 24, L840)",
+                "Revision of hip arthrodesis (Evidence: pg no: 24, L841)",
+                "Imaging evidence of significant joint destruction and cartilage loss, defined as Tönnis grade 3, modified Outerbridge grade III – IV, or Kellgren-Lawrence grade 3 – 4 (Evidence: pg no: 24, L844-L845)",
+                "Limited range of motion, antalgic gait and disabling pain of at least 3 months' duration (Evidence: pg no: 24, L846)",
+                "Pain with passive motion of the hip (Evidence: pg no: 24, L847)",
+                "Failure of at least 3 months of non-surgical conservative management (Evidence: pg no: 24, L848-L849)",
+                "Functional limitation secondary to hip pathology which interferes with the ability to perform age-appropriate daily activities (Evidence: pg no: 24, L850-L851)"
+              ]
+            },
+            "exclusions": [
+              "Indications for total hip arthroplasty other than those addressed in this guideline are considered not medically necessary (Evidence: pg no: 26, L937-L938)"
+            ],
+            "codes": [
+              {
+                "code": "27130",
+                "system": "CPT",
+                "description": "Arthroplasty, acetabular and proximal femoral prosthetic replacement (total hip arthroplasty), with or without autograft or allograft (Evidence: pg no: 27, L973-L974)"
+              }
+            ],
+            "notes": "All arthroplasty and acetabuloplasty/resection arthroplasty procedures are inclusive of synovectomy, removal of osteophytes, removal of loose bodies, manipulation of the hip, and release or repair of structures to gain entrance to the hip joint. (Evidence: pg no: 22, L749-L751)"
+          },
+          "payer_guideline_reference": [
+            "(Evidence: pg no: 24, L837)",
+            "(Evidence: pg no: 26, L937-L938)",
+            "(Evidence: pg no: 24, L841)",
+            "(Evidence: pg no: 22, L749-L751)",
+            "(Evidence: pg no: 24, L847)",
+            "(Evidence: pg no: 24, L846)",
+            "(Evidence: pg no: 24, L839)",
+            "(Evidence: pg no: 24, L844-L845)",
+            "(Evidence: pg no: 24, L848-L849)",
+            "(Evidence: pg no: 24, L838)",
+            "(Evidence: pg no: 22, L743)",
+            "(Evidence: pg no: 22, L746-L749)",
+            "(Evidence: pg no: 22, L746)",
+            "(Evidence: pg no: 24, L835)",
+            "(Evidence: pg no: 22, L756-L757)",
+            "(Evidence: pg no: 27, L973-L974)",
+            "(Evidence: pg no: 24, L850-L851)",
+            "(Evidence: pg no: 24, L840)"
+          ]
+        },
+        {
+          "header": "[ANTHEM | Left Total Hip Replacement for intracapsular displaced femoral neck fracture | Chunk 2 | score=22.000 | file=anthem_guideline_2.json | id=anthem_57]",
+          "file": "anthem_guideline_2.json",
+          "record_id": "anthem_57",
+          "chunk_index": 2,
+          "payer": "anthem",
+          "score": 22.0,
+          "description": "{'procedure_id': 'reverse_shoulder_arthroplasty', 'category': 'Shoulder (Evidence: pg no: 7, L169)', 'section_title': 'Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)', 'names': ['Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)', 'Reverse total shoulder arthroplasty (Evidence: pg no: 7, L178)'], 'description': 'Reverse total shoulder arthroplasty is similar to standard arthroplasty in that both components of the joint are replaced but the ball and socket portions of the joint are reversed, allowing the deltoid muscle to assume partial function of the rotator cuff. This procedure is typically utilized when there is concomitant rotator cuff disease. (Evidence: pg no: 7, L178-L180)', 'scope': 'This guideline addresses shoulder arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of a congenital condition, acute or traumatic event such as fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 7, L181-L183)', 'general_requirements': {'documentation': ['Reconstruction after a tumor resection (Evidence: pg no: 10, L302)', 'Glenohumeral osteoarthritis with irreparable rotator cuff tear (Evidence: pg no: 10, L303)', 'Glenoid bone stock inadequate to support a glenoid prosthesis (Evidence: pg no: 10, L304)', 'Failed hemiarthroplasty (Evidence: pg no: 10, L305)', 'Failed total shoulder arthroplasty with non-repairable rotator cuff (Evidence: pg no: 10, L306)', 'Shoulder fracture that is not re",
+          "full_source": {
+            "procedure_id": "reverse_shoulder_arthroplasty",
+            "category": "Shoulder (Evidence: pg no: 7, L169)",
+            "section_title": "Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)",
+            "names": [
+              "Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)",
+              "Reverse total shoulder arthroplasty (Evidence: pg no: 7, L178)"
+            ],
+            "description": "Reverse total shoulder arthroplasty is similar to standard arthroplasty in that both components of the joint are replaced but the ball and socket portions of the joint are reversed, allowing the deltoid muscle to assume partial function of the rotator cuff. This procedure is typically utilized when there is concomitant rotator cuff disease. (Evidence: pg no: 7, L178-L180)",
+            "scope": "This guideline addresses shoulder arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of a congenital condition, acute or traumatic event such as fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 7, L181-L183)",
+            "general_requirements": {
+              "documentation": [
+                "Reconstruction after a tumor resection (Evidence: pg no: 10, L302)",
+                "Glenohumeral osteoarthritis with irreparable rotator cuff tear (Evidence: pg no: 10, L303)",
+                "Glenoid bone stock inadequate to support a glenoid prosthesis (Evidence: pg no: 10, L304)",
+                "Failed hemiarthroplasty (Evidence: pg no: 10, L305)",
+                "Failed total shoulder arthroplasty with non-repairable rotator cuff (Evidence: pg no: 10, L306)",
+                "Shoulder fracture that is not repairable or cannot be reconstructed with other techniques (Evidence: pg no: 10, L307)",
+                "Deficient rotator cuff with limited ability to actively flex the upper extremity to 90 degrees against gravity (Evidence: pg no: 10, L310-L311)"
+              ]
+            },
+            "exclusions": [],
+            "codes": [],
+            "notes": "Considered medically necessary for ANY of the listed indications when associated with pain and functional impairment. (Evidence: pg no: 10, L301)"
+          },
+          "payer_guideline_reference": [
+            "(Evidence: pg no: 10, L307)",
+            "(Evidence: pg no: 10, L301)",
+            "(Evidence: pg no: 10, L303)",
+            "(Evidence: pg no: 10, L300)",
+            "(Evidence: pg no: 7, L181-L183)",
+            "(Evidence: pg no: 7, L178-L180)",
+            "(Evidence: pg no: 7, L178)",
+            "(Evidence: pg no: 10, L305)",
+            "(Evidence: pg no: 10, L310-L311)",
+            "(Evidence: pg no: 10, L302)",
+            "(Evidence: pg no: 10, L306)",
+            "(Evidence: pg no: 10, L304)",
+            "(Evidence: pg no: 7, L169)"
+          ]
+        }
+      ],
+      "error": null
+    }
+  },
+  "total_usage": "UsageInfo(input_tokens=33048, output_tokens=6865, model_id='unknown', input_cost=0.09914400000000001, output_cost=0.102975, total_cost=0.202119, cache_creation_input_tokens=0, cache_read_input_tokens=0, cache_write_cost=0.0, cache_read_cost=0.0)",
+  "total_cost": 0.15540299999999999,
+  "execution_times": {
+    "cigna": 20.952458143234253,
+    "uhc": 20.952458143234253,
+    "anthem": 20.952458143234253
+  },
+  "sources": [
+    {
+      "header": "[CIGNA | Left Total Hip Replacement for intracapsular displaced femoral neck fracture | Chunk 1 | score=10.000 | file=cigna_guideline_1.json | id=cigna_5]",
+      "file": "cigna_guideline_1.json",
+      "record_id": "cigna_5",
+      "chunk_index": 1,
+      "payer": "cigna",
+      "score": 10.0,
+      "description": "{'procedure_id': 'diagnostic_arthroscopy', 'category': 'Shoulder (Evidence: pg no: 4, L152)', 'section_title': 'Diagnostic Arthroscopy (Evidence: pg no: 4, L152)', 'names': ['Diagnostic Arthroscopy (Evidence: pg no: 4, L152)'], 'description': 'Diagnostic arthroscopy as a stand-alone procedure for evaluation of shoulder pathology when advanced imaging is inconclusive (Evidence: pg no: 4, L154-L155)', 'scope': 'Stand-alone diagnostic procedure (Evidence: pg no: 4, L154-L155)', 'general_requirements': {'documentation': ['Function-limiting pain for at least six (6) months in duration (Evidence: pg no: 4, L156-L157)', 'Abnormal shoulder physical examination findings compared to non-involved side including functionally limited range of motion or measurable loss in strength (Evidence: pg no: 4, L158-L161)', 'Positive Neer Impingement Test or Hawkins-Kennedy Impingement Test (Evidence: pg no: 4, L162)', 'Failure of provider-directed non-surgical management for at least three (3) months in duration (Evidence: pg no: 4, L163-L164)', 'Advanced diagnostic imaging study (e.g., MRI, CT) is inconclusive for internal derangement/pathology (Evidence: pg no: 4, L165)', 'Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain and advanced glenohumeral osteoarthritis (Evidence: pg no: 4, L166-L168)']}, 'exclusions': ['Any other indication or condition (Evidence: pg no: 5, L171-L172)', 'In-office diagno",
+      "full_source": {
+        "procedure_id": "diagnostic_arthroscopy",
+        "category": "Shoulder (Evidence: pg no: 4, L152)",
+        "section_title": "Diagnostic Arthroscopy (Evidence: pg no: 4, L152)",
+        "names": [
+          "Diagnostic Arthroscopy (Evidence: pg no: 4, L152)"
+        ],
+        "description": "Diagnostic arthroscopy as a stand-alone procedure for evaluation of shoulder pathology when advanced imaging is inconclusive (Evidence: pg no: 4, L154-L155)",
+        "scope": "Stand-alone diagnostic procedure (Evidence: pg no: 4, L154-L155)",
+        "general_requirements": {
+          "documentation": [
+            "Function-limiting pain for at least six (6) months in duration (Evidence: pg no: 4, L156-L157)",
+            "Abnormal shoulder physical examination findings compared to non-involved side including functionally limited range of motion or measurable loss in strength (Evidence: pg no: 4, L158-L161)",
+            "Positive Neer Impingement Test or Hawkins-Kennedy Impingement Test (Evidence: pg no: 4, L162)",
+            "Failure of provider-directed non-surgical management for at least three (3) months in duration (Evidence: pg no: 4, L163-L164)",
+            "Advanced diagnostic imaging study (e.g., MRI, CT) is inconclusive for internal derangement/pathology (Evidence: pg no: 4, L165)",
+            "Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain and advanced glenohumeral osteoarthritis (Evidence: pg no: 4, L166-L168)"
+          ]
+        },
+        "exclusions": [
+          "Any other indication or condition (Evidence: pg no: 5, L171-L172)",
+          "In-office diagnostic arthroscopy (e.g., Mi-Eye™, VisionScope®) - considered experimental, investigational, or unproven (Evidence: pg no: 5, L175-L176)"
+        ],
+        "codes": [
+          {
+            "code": "29805",
+            "system": "CPT",
+            "description": "Arthroscopy, shoulder, diagnostic, with or without synovial biopsy (separate procedure) (Evidence: pg no: 13, L556)"
+          }
+        ],
+        "notes": "Considered medically necessary only when ALL criteria are met (Evidence: pg no: 4, L155)"
+      },
+      "payer_guideline_reference": [
+        "(Evidence: pg no: 4, L158-L161)",
+        "(Evidence: pg no: 4, L152)",
+        "(Evidence: pg no: 4, L156-L157)",
+        "(Evidence: pg no: 5, L175-L176)",
+        "(Evidence: pg no: 4, L155)",
+        "(Evidence: pg no: 13, L556)",
+        "(Evidence: pg no: 4, L154-L155)",
+        "(Evidence: pg no: 4, L165)",
+        "(Evidence: pg no: 4, L166-L168)",
+        "(Evidence: pg no: 4, L162)",
+        "(Evidence: pg no: 5, L171-L172)",
+        "(Evidence: pg no: 4, L163-L164)"
+      ]
+    },
+    {
+      "header": "[CIGNA | Left Total Hip Replacement for intracapsular displaced femoral neck fracture | Chunk 2 | score=10.000 | file=cigna_guideline_2.json | id=cigna_7]",
+      "file": "cigna_guideline_2.json",
+      "record_id": "cigna_7",
+      "chunk_index": 2,
+      "payer": "cigna",
+      "score": 10.0,
+      "description": "{'procedure_id': 'fracture_tumor_infection_foreign_body_surgery', 'category': 'Shoulder (Evidence: pg no: 4, L149)', 'section_title': 'Arthroscopic or Open Procedure for Fracture, Tumor, Infection, or Foreign Body (Evidence: pg no: 4, L149)', 'names': ['Shoulder Surgery for Fracture (Evidence: pg no: 4, L149)', 'Shoulder Surgery for Tumor (Evidence: pg no: 4, L149)', 'Shoulder Surgery for Infection (Evidence: pg no: 4, L149)', 'Shoulder Surgery for Foreign Body (Evidence: pg no: 4, L149)'], 'description': 'Shoulder arthroscopic or open procedures for fracture, tumor, infection, or foreign body that has led to or will likely lead to progressive destruction (Evidence: pg no: 4, L149-L151)', 'scope': 'Arthroscopic or open procedures for specific pathological conditions (Evidence: pg no: 4, L149-L150)', 'general_requirements': {'documentation': ['Surgery being performed for fracture, tumor, infection, or foreign body that has led to or will likely lead to progressive destruction (Evidence: pg no: 4, L150-L151)']}, 'exclusions': [], 'codes': [{'code': '23145', 'system': 'CPT', 'description': 'Excision or curettage of bone cyst or benign tumor of clavicle or scapula; with autograft (includes obtaining graft) (Evidence: pg no: 13, L529-L530)'}, {'code': '23155', 'system': 'CPT', 'description': 'Excision or curettage of bone cyst or benign tumor of proximal humerus; with autograft (includes obtaining graft) (Evidence: pg no: 13, L531-L532)'}, {'code': '23172', 'system': 'CPT', 'descr",
+      "full_source": {
+        "procedure_id": "fracture_tumor_infection_foreign_body_surgery",
+        "category": "Shoulder (Evidence: pg no: 4, L149)",
+        "section_title": "Arthroscopic or Open Procedure for Fracture, Tumor, Infection, or Foreign Body (Evidence: pg no: 4, L149)",
+        "names": [
+          "Shoulder Surgery for Fracture (Evidence: pg no: 4, L149)",
+          "Shoulder Surgery for Tumor (Evidence: pg no: 4, L149)",
+          "Shoulder Surgery for Infection (Evidence: pg no: 4, L149)",
+          "Shoulder Surgery for Foreign Body (Evidence: pg no: 4, L149)"
+        ],
+        "description": "Shoulder arthroscopic or open procedures for fracture, tumor, infection, or foreign body that has led to or will likely lead to progressive destruction (Evidence: pg no: 4, L149-L151)",
+        "scope": "Arthroscopic or open procedures for specific pathological conditions (Evidence: pg no: 4, L149-L150)",
+        "general_requirements": {
+          "documentation": [
+            "Surgery being performed for fracture, tumor, infection, or foreign body that has led to or will likely lead to progressive destruction (Evidence: pg no: 4, L150-L151)"
+          ]
+        },
+        "exclusions": [],
+        "codes": [
+          {
+            "code": "23145",
+            "system": "CPT",
+            "description": "Excision or curettage of bone cyst or benign tumor of clavicle or scapula; with autograft (includes obtaining graft) (Evidence: pg no: 13, L529-L530)"
+          },
+          {
+            "code": "23155",
+            "system": "CPT",
+            "description": "Excision or curettage of bone cyst or benign tumor of proximal humerus; with autograft (includes obtaining graft) (Evidence: pg no: 13, L531-L532)"
+          },
+          {
+            "code": "23172",
+            "system": "CPT",
+            "description": "Sequestrectomy (e.g. for osteomyelitis or bone abscess), scapula (Evidence: pg no: 13, L533)"
+          },
+          {
+            "code": "23174",
+            "system": "CPT",
+            "description": "Sequestrectomy (e.g. for osteomyelitis or bone abscess), humeral head to surgical neck (Evidence: pg no: 13, L534)"
+          }
+        ],
+        "notes": "May be considered medically necessary when surgery addresses progressive destruction (Evidence: pg no: 4, L149-L151)"
+      },
+      "payer_guideline_reference": [
+        "(Evidence: pg no: 4, L149-L151)",
+        "(Evidence: pg no: 4, L150-L151)",
+        "(Evidence: pg no: 13, L531-L532)",
+        "(Evidence: pg no: 4, L149)",
+        "(Evidence: pg no: 13, L533)",
+        "(Evidence: pg no: 13, L529-L530)",
+        "(Evidence: pg no: 13, L534)",
+        "(Evidence: pg no: 4, L149-L150)"
+      ]
+    },
+    {
+      "header": "[UHC | Left Total Hip Replacement for intracapsular displaced femoral neck fracture | Chunk 1 | score=26.000 | file=uhc_guideline_1.json | id=uhc_16]",
+      "file": "uhc_guideline_1.json",
+      "record_id": "uhc_16",
+      "chunk_index": 1,
+      "payer": "uhc",
+      "score": 26.0,
+      "description": "{'procedure_id': 'subacromial_balloon_spacers', 'category': 'Shoulder (Evidence: pg no: 2, L89)', 'section_title': 'Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)', 'names': ['Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)', 'InSpace™ Subacromial Tissue Spacer System (Evidence: pg no: 2, L90)', 'Subacromial balloon spacer implantation (SBSI) (Evidence: pg no: 3, L124)', 'InSpace Biodegradable Subacromial Spacer (Evidence: pg no: 5, L254)'], 'description': 'A minimally invasive, biodegradable balloon spacer for treating massive, inoperable rotator cuff tears (MIRCTs). It preserves musculoskeletal and bone tissues, does not require the use of an anchor, and does not require a permanent implant. It is used as a spacer to eliminate friction between the acromion and the humeral head or rotator cuff to restore shoulder function and reduce pain. It is designed to biodegrade over the course of twelve months (Evidence: pg no: 2, L90-L93)', 'scope': 'Treatment of massive, irreparable rotator cuff tears (Evidence: pg no: 2, L90-L91)', 'general_requirements': {'documentation': ['Medical records documentation may be required to assess whether the member meets the clinical criteria for coverage (Evidence: pg no: 1, L40-L42)']}, 'exclusions': ['Unproven and not medically necessary due to insufficient evidence of efficacy (Evidence: pg no: 1, L37-L38)'], 'codes': [], 'notes': 'The current published literature is at high-risk of bias due to the small sample size, s",
+      "full_source": {
+        "procedure_id": "subacromial_balloon_spacers",
+        "category": "Shoulder (Evidence: pg no: 2, L89)",
+        "section_title": "Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)",
+        "names": [
+          "Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)",
+          "InSpace™ Subacromial Tissue Spacer System (Evidence: pg no: 2, L90)",
+          "Subacromial balloon spacer implantation (SBSI) (Evidence: pg no: 3, L124)",
+          "InSpace Biodegradable Subacromial Spacer (Evidence: pg no: 5, L254)"
+        ],
+        "description": "A minimally invasive, biodegradable balloon spacer for treating massive, inoperable rotator cuff tears (MIRCTs). It preserves musculoskeletal and bone tissues, does not require the use of an anchor, and does not require a permanent implant. It is used as a spacer to eliminate friction between the acromion and the humeral head or rotator cuff to restore shoulder function and reduce pain. It is designed to biodegrade over the course of twelve months (Evidence: pg no: 2, L90-L93)",
+        "scope": "Treatment of massive, irreparable rotator cuff tears (Evidence: pg no: 2, L90-L91)",
+        "general_requirements": {
+          "documentation": [
+            "Medical records documentation may be required to assess whether the member meets the clinical criteria for coverage (Evidence: pg no: 1, L40-L42)"
+          ]
+        },
+        "exclusions": [
+          "Unproven and not medically necessary due to insufficient evidence of efficacy (Evidence: pg no: 1, L37-L38)"
+        ],
+        "codes": [],
+        "notes": "The current published literature is at high-risk of bias due to the small sample size, single-center focus, retrospective design, and lack of randomization, blinding, and control. There are device-related complications, and long-term studies are necessary as short-term results appear to degrade over time (Evidence: pg no: 2, L94-L97)"
+      },
+      "payer_guideline_reference": [
+        "(Evidence: pg no: 2, L90)",
+        "(Evidence: pg no: 2, L90-L93)",
+        "(Evidence: pg no: 2, L89)",
+        "(Evidence: pg no: 2, L90-L91)",
+        "(Evidence: pg no: 2, L94-L97)",
+        "(Evidence: pg no: 3, L124)",
+        "(Evidence: pg no: 1, L37-L38)",
+        "(Evidence: pg no: 1, L40-L42)",
+        "(Evidence: pg no: 5, L254)"
+      ]
+    },
+    {
+      "header": "[UHC | Left Total Hip Replacement for intracapsular displaced femoral neck fracture | Chunk 2 | score=16.000 | file=uhc_guideline_2.json | id=uhc_10]",
+      "file": "uhc_guideline_2.json",
+      "record_id": "uhc_10",
+      "chunk_index": 2,
+      "payer": "uhc",
+      "score": 16.0,
+      "description": "{'procedure_id': 'removal_replacement_tjr_shoulder', 'category': 'Shoulder (Evidence: pg no: 1, L33)', 'section_title': 'Removal and Replacement, Total Joint Replacement (TJR), Shoulder (Evidence: pg no: 1, L33)', 'names': ['Removal and Replacement, Total Joint Replacement (TJR), Shoulder (Evidence: pg no: 1, L33)'], 'description': 'Surgical removal and replacement of total joint replacement components in the shoulder (Evidence: pg no: 1, L33)', 'scope': 'Revision surgery for shoulder joint replacement (Evidence: pg no: 1, L33)', 'general_requirements': {'documentation': ['Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)']}, 'exclusions': [], 'codes': [], 'notes': 'Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)'}",
+      "full_source": {
+        "procedure_id": "removal_replacement_tjr_shoulder",
+        "category": "Shoulder (Evidence: pg no: 1, L33)",
+        "section_title": "Removal and Replacement, Total Joint Replacement (TJR), Shoulder (Evidence: pg no: 1, L33)",
+        "names": [
+          "Removal and Replacement, Total Joint Replacement (TJR), Shoulder (Evidence: pg no: 1, L33)"
+        ],
+        "description": "Surgical removal and replacement of total joint replacement components in the shoulder (Evidence: pg no: 1, L33)",
+        "scope": "Revision surgery for shoulder joint replacement (Evidence: pg no: 1, L33)",
+        "general_requirements": {
+          "documentation": [
+            "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+          ]
+        },
+        "exclusions": [],
+        "codes": [],
+        "notes": "Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)"
+      },
+      "payer_guideline_reference": [
+        "(Evidence: pg no: 1, L25-L27)",
+        "(Evidence: pg no: 1, L25)",
+        "(Evidence: pg no: 1, L33)"
+      ]
+    },
+    {
+      "header": "[UHC | Left Total Hip Replacement for intracapsular displaced femoral neck fracture | Chunk 3 | score=14.000 | file=uhc_guideline_3.json | id=uhc_8]",
+      "file": "uhc_guideline_3.json",
+      "record_id": "uhc_8",
+      "chunk_index": 3,
+      "payer": "uhc",
+      "score": 14.0,
+      "description": "{'procedure_id': 'joint_replacement_shoulder', 'category': 'Shoulder (Evidence: pg no: 1, L32)', 'section_title': 'Joint Replacement, Shoulder (Evidence: pg no: 1, L32)', 'names': ['Joint Replacement, Shoulder (Evidence: pg no: 1, L32)', 'Arthroplasty, glenohumeral joint (Evidence: pg no: 2, L60-L62)'], 'description': 'Surgical replacement of the shoulder joint including hemiarthroplasty and total shoulder replacement (Evidence: pg no: 2, L60-L62)', 'scope': 'Joint replacement surgery for shoulder conditions (Evidence: pg no: 1, L32)', 'general_requirements': {'documentation': ['Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)']}, 'exclusions': [], 'codes': [{'code': '23470', 'system': 'CPT', 'description': 'Arthroplasty, glenohumeral joint; hemiarthroplasty (Evidence: pg no: 2, L60)'}, {'code': '23472', 'system': 'CPT', 'description': 'Arthroplasty, glenohumeral joint; total shoulder (glenoid and proximal humeral replacement (e.g., total shoulder) (Evidence: pg no: 2, L61-L62)'}], 'notes': 'Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)'}",
+      "full_source": {
+        "procedure_id": "joint_replacement_shoulder",
+        "category": "Shoulder (Evidence: pg no: 1, L32)",
+        "section_title": "Joint Replacement, Shoulder (Evidence: pg no: 1, L32)",
+        "names": [
+          "Joint Replacement, Shoulder (Evidence: pg no: 1, L32)",
+          "Arthroplasty, glenohumeral joint (Evidence: pg no: 2, L60-L62)"
+        ],
+        "description": "Surgical replacement of the shoulder joint including hemiarthroplasty and total shoulder replacement (Evidence: pg no: 2, L60-L62)",
+        "scope": "Joint replacement surgery for shoulder conditions (Evidence: pg no: 1, L32)",
+        "general_requirements": {
+          "documentation": [
+            "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+          ]
+        },
+        "exclusions": [],
+        "codes": [
+          {
+            "code": "23470",
+            "system": "CPT",
+            "description": "Arthroplasty, glenohumeral joint; hemiarthroplasty (Evidence: pg no: 2, L60)"
+          },
+          {
+            "code": "23472",
+            "system": "CPT",
+            "description": "Arthroplasty, glenohumeral joint; total shoulder (glenoid and proximal humeral replacement (e.g., total shoulder) (Evidence: pg no: 2, L61-L62)"
+          }
+        ],
+        "notes": "Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)"
+      },
+      "payer_guideline_reference": [
+        "(Evidence: pg no: 1, L32)",
+        "(Evidence: pg no: 1, L25-L27)",
+        "(Evidence: pg no: 1, L25)",
+        "(Evidence: pg no: 2, L61-L62)",
+        "(Evidence: pg no: 2, L60-L62)",
+        "(Evidence: pg no: 2, L60)"
+      ]
+    },
+    {
+      "header": "[ANTHEM | Left Total Hip Replacement for intracapsular displaced femoral neck fracture | Chunk 1 | score=26.000 | file=anthem_guideline_1.json | id=anthem_54]",
+      "file": "anthem_guideline_1.json",
+      "record_id": "anthem_54",
+      "chunk_index": 1,
+      "payer": "anthem",
+      "score": 26.0,
+      "description": "{'procedure_id': 'primary_total_hip_arthroplasty', 'category': 'Hip (Evidence: pg no: 22, L743)', 'section_title': 'Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)', 'names': ['Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)', 'Total hip arthroplasty (THA) (Evidence: pg no: 22, L746)', 'Total hip replacement (THR) (Evidence: pg no: 22, L746)'], 'description': 'Total hip arthroplasty (THA), also referred to as total hip replacement (THR), involves removal of the femoral head and acetabulum and placement of a prosthesis anchored to the bone. The goal of the procedure is long-term pain relief and restoration of function. (Evidence: pg no: 22, L746-L749)', 'scope': 'This guideline addresses hip arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 22, L756-L757)', 'general_requirements': {'documentation': ['Primary and secondary tumors of the proximal femur (Evidence: pg no: 24, L837)', 'Hip fracture or complications including malunion, nonunion or failed prior fixation (Evidence: pg no: 24, L838)', 'Failed previous hip fracture fixation (Evidence: pg no: 24, L839)', 'Avascular necrosis (osteonecrosis) with unresponsive severe pain (Evidence: pg no: 24, L840)', 'Revision of hip arthrodesis (Evidence: pg no: 24, L841)', 'Imaging evidence of significant joint destruction and cartilage loss, defined as Tönnis grade 3, modi",
+      "full_source": {
+        "procedure_id": "primary_total_hip_arthroplasty",
+        "category": "Hip (Evidence: pg no: 22, L743)",
+        "section_title": "Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)",
+        "names": [
+          "Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)",
+          "Total hip arthroplasty (THA) (Evidence: pg no: 22, L746)",
+          "Total hip replacement (THR) (Evidence: pg no: 22, L746)"
+        ],
+        "description": "Total hip arthroplasty (THA), also referred to as total hip replacement (THR), involves removal of the femoral head and acetabulum and placement of a prosthesis anchored to the bone. The goal of the procedure is long-term pain relief and restoration of function. (Evidence: pg no: 22, L746-L749)",
+        "scope": "This guideline addresses hip arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 22, L756-L757)",
+        "general_requirements": {
+          "documentation": [
+            "Primary and secondary tumors of the proximal femur (Evidence: pg no: 24, L837)",
+            "Hip fracture or complications including malunion, nonunion or failed prior fixation (Evidence: pg no: 24, L838)",
+            "Failed previous hip fracture fixation (Evidence: pg no: 24, L839)",
+            "Avascular necrosis (osteonecrosis) with unresponsive severe pain (Evidence: pg no: 24, L840)",
+            "Revision of hip arthrodesis (Evidence: pg no: 24, L841)",
+            "Imaging evidence of significant joint destruction and cartilage loss, defined as Tönnis grade 3, modified Outerbridge grade III – IV, or Kellgren-Lawrence grade 3 – 4 (Evidence: pg no: 24, L844-L845)",
+            "Limited range of motion, antalgic gait and disabling pain of at least 3 months' duration (Evidence: pg no: 24, L846)",
+            "Pain with passive motion of the hip (Evidence: pg no: 24, L847)",
+            "Failure of at least 3 months of non-surgical conservative management (Evidence: pg no: 24, L848-L849)",
+            "Functional limitation secondary to hip pathology which interferes with the ability to perform age-appropriate daily activities (Evidence: pg no: 24, L850-L851)"
+          ]
+        },
+        "exclusions": [
+          "Indications for total hip arthroplasty other than those addressed in this guideline are considered not medically necessary (Evidence: pg no: 26, L937-L938)"
+        ],
+        "codes": [
+          {
+            "code": "27130",
+            "system": "CPT",
+            "description": "Arthroplasty, acetabular and proximal femoral prosthetic replacement (total hip arthroplasty), with or without autograft or allograft (Evidence: pg no: 27, L973-L974)"
+          }
+        ],
+        "notes": "All arthroplasty and acetabuloplasty/resection arthroplasty procedures are inclusive of synovectomy, removal of osteophytes, removal of loose bodies, manipulation of the hip, and release or repair of structures to gain entrance to the hip joint. (Evidence: pg no: 22, L749-L751)"
+      },
+      "payer_guideline_reference": [
+        "(Evidence: pg no: 24, L837)",
+        "(Evidence: pg no: 26, L937-L938)",
+        "(Evidence: pg no: 24, L841)",
+        "(Evidence: pg no: 22, L749-L751)",
+        "(Evidence: pg no: 24, L847)",
+        "(Evidence: pg no: 24, L846)",
+        "(Evidence: pg no: 24, L839)",
+        "(Evidence: pg no: 24, L844-L845)",
+        "(Evidence: pg no: 24, L848-L849)",
+        "(Evidence: pg no: 24, L838)",
+        "(Evidence: pg no: 22, L743)",
+        "(Evidence: pg no: 22, L746-L749)",
+        "(Evidence: pg no: 22, L746)",
+        "(Evidence: pg no: 24, L835)",
+        "(Evidence: pg no: 22, L756-L757)",
+        "(Evidence: pg no: 27, L973-L974)",
+        "(Evidence: pg no: 24, L850-L851)",
+        "(Evidence: pg no: 24, L840)"
+      ]
+    },
+    {
+      "header": "[ANTHEM | Left Total Hip Replacement for intracapsular displaced femoral neck fracture | Chunk 2 | score=22.000 | file=anthem_guideline_2.json | id=anthem_57]",
+      "file": "anthem_guideline_2.json",
+      "record_id": "anthem_57",
+      "chunk_index": 2,
+      "payer": "anthem",
+      "score": 22.0,
+      "description": "{'procedure_id': 'reverse_shoulder_arthroplasty', 'category': 'Shoulder (Evidence: pg no: 7, L169)', 'section_title': 'Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)', 'names': ['Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)', 'Reverse total shoulder arthroplasty (Evidence: pg no: 7, L178)'], 'description': 'Reverse total shoulder arthroplasty is similar to standard arthroplasty in that both components of the joint are replaced but the ball and socket portions of the joint are reversed, allowing the deltoid muscle to assume partial function of the rotator cuff. This procedure is typically utilized when there is concomitant rotator cuff disease. (Evidence: pg no: 7, L178-L180)', 'scope': 'This guideline addresses shoulder arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of a congenital condition, acute or traumatic event such as fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 7, L181-L183)', 'general_requirements': {'documentation': ['Reconstruction after a tumor resection (Evidence: pg no: 10, L302)', 'Glenohumeral osteoarthritis with irreparable rotator cuff tear (Evidence: pg no: 10, L303)', 'Glenoid bone stock inadequate to support a glenoid prosthesis (Evidence: pg no: 10, L304)', 'Failed hemiarthroplasty (Evidence: pg no: 10, L305)', 'Failed total shoulder arthroplasty with non-repairable rotator cuff (Evidence: pg no: 10, L306)', 'Shoulder fracture that is not re",
+      "full_source": {
+        "procedure_id": "reverse_shoulder_arthroplasty",
+        "category": "Shoulder (Evidence: pg no: 7, L169)",
+        "section_title": "Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)",
+        "names": [
+          "Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)",
+          "Reverse total shoulder arthroplasty (Evidence: pg no: 7, L178)"
+        ],
+        "description": "Reverse total shoulder arthroplasty is similar to standard arthroplasty in that both components of the joint are replaced but the ball and socket portions of the joint are reversed, allowing the deltoid muscle to assume partial function of the rotator cuff. This procedure is typically utilized when there is concomitant rotator cuff disease. (Evidence: pg no: 7, L178-L180)",
+        "scope": "This guideline addresses shoulder arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of a congenital condition, acute or traumatic event such as fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 7, L181-L183)",
+        "general_requirements": {
+          "documentation": [
+            "Reconstruction after a tumor resection (Evidence: pg no: 10, L302)",
+            "Glenohumeral osteoarthritis with irreparable rotator cuff tear (Evidence: pg no: 10, L303)",
+            "Glenoid bone stock inadequate to support a glenoid prosthesis (Evidence: pg no: 10, L304)",
+            "Failed hemiarthroplasty (Evidence: pg no: 10, L305)",
+            "Failed total shoulder arthroplasty with non-repairable rotator cuff (Evidence: pg no: 10, L306)",
+            "Shoulder fracture that is not repairable or cannot be reconstructed with other techniques (Evidence: pg no: 10, L307)",
+            "Deficient rotator cuff with limited ability to actively flex the upper extremity to 90 degrees against gravity (Evidence: pg no: 10, L310-L311)"
+          ]
+        },
+        "exclusions": [],
+        "codes": [],
+        "notes": "Considered medically necessary for ANY of the listed indications when associated with pain and functional impairment. (Evidence: pg no: 10, L301)"
+      },
+      "payer_guideline_reference": [
+        "(Evidence: pg no: 10, L307)",
+        "(Evidence: pg no: 10, L301)",
+        "(Evidence: pg no: 10, L303)",
+        "(Evidence: pg no: 10, L300)",
+        "(Evidence: pg no: 7, L181-L183)",
+        "(Evidence: pg no: 7, L178-L180)",
+        "(Evidence: pg no: 7, L178)",
+        "(Evidence: pg no: 10, L305)",
+        "(Evidence: pg no: 10, L310-L311)",
+        "(Evidence: pg no: 10, L302)",
+        "(Evidence: pg no: 10, L306)",
+        "(Evidence: pg no: 10, L304)",
+        "(Evidence: pg no: 7, L169)"
+      ]
+    }
+  ],
+  "original_chart": "\n\n=== CHART: tmpz67yxjc5.pdf (Type: consultation_note) ===\n12/30/25, 4:21 PM Thye, Renke B (MR # MR364652) DOB: 07/30/1938\n\nConsults by Held, Michael Brian, MD filed on 12/29/2025 7:42 AM.\n\nAuthor: Held, Michael Brian, MD Service: Orthopedics Author Type: Physician\nDate of Service: 12/29/2025 Filed: 12/29/2025 7:42 AM Status: Signed\n\nEditor: Held, Michael Brian, MD (Physician)\n\nORTHOPAEDICS & REHABILITATION\n\nPatient name: Renke Thye\n\nYale MRN: MR364652\n\nDate of birth: 7/30/1938\n\nDate of visit: 12/29/2025\n\nAttending of record for this patient: No att. providers found\nProvider leaving this note: Michael B Held, MD\n\nReason for consult: Left hip fracture\n\nHistory of present illness:\n\nRenke B Thye is a 87 y.o. male with PMHX of htn, hid, gerd, cad s/p stents in 2015, hx of LSAH who presents s/p\nmechanical fall with L hip pain and inability to ambulate. At baseline the patient ambulates unassisted and lives with\nhis wife. He is still very active walking 5000 steps per day. Denies any antcedent left hip pain. Denies headstruke or\nLOC. No other pain or injury except his left hip.\n\nSocial history:\nreports that he has quit smoking. He has never used smokeless tobacco. He reports current alcohol use. He reports\nthat he does not use drugs.\n\nPMHx:\n\nPast Medical History\n\nPast Medical History:\n\nDiagnosis Date\n* Chronic coronary artery disease\n* GERD (gastroesophageal reflux disease)\n\nHypercholesteremia\n\nHypertension\n\n* Stroke (HC Code) (HC CODE) 05/11/2025\natraumatic R cortical SAH\n\nPSHx:\nPast Surgical History\nPast Surgical History:\nProcedure Laterality Date\n* CORONARY STENT PLACEMENT\nper patient 2 stents\n* JOINT REPLACEMENT Bilateral\nknee\n* LAPAROSCOPIC CHOLECYSTECTOMY\n\nHome medications:\nCurrent Medications\n\nCurrent Facility-Administered Medications\n\nMedication Dose Route Frequency Provider Last Last\nRate Admin\n* acetaminophen 975 mg _ Oral Q6H Hearle, Brianna, 975 mg\n(TYLENOL) tablet PA at\n975 mg 12/28/2\n5 2056\n* amLODIPine 5 mg Oral Daily Lubin, Matthew, 5 mg at\n(NORVASC) tablet MD 12/28/2\n5 mg 5 2056\n* bisacodyL 5 mg Oral DAILY PRN _ Hearle, Brianna,\n(DULCOLAX) EC PA\ntablet 5 mg\n* bisacodyL 10mg_ Rectal DAILY PRN _ Hearle, Brianna,\n\nThye, Renke B (MRN MR364652) Printed by Stagno, Cesarina [767] at 12/30/2025 4:21 PM 1/4\n\n12/30/25, 4:21 PM\n\nThye, Renke B (MRN MR364652) Printed by Stagno, Cesarina [767] at 12/30/2025 4:21 PM\n\n(DULCOLAX)\nsuppository 10 mg\nchlorhexidine\ngluconate 2 %\ntowelette\ndivalproex\n(DEPAKOTE DR)\ntablet 500 mg\n\nfentaNYL PF\n(SUBLIMAZE)\ninjection 50 mcg\nHYDROmorphone\n(DILAUDID)\ninjection 0.5 mg\nHYDROmorphone\n(DILAUDID)\ninjection 1 mg\nmemantine\n(NAMENDA)\nimmediate release\ntablet 10 mg\nmidazolam\n(VERSED) injection\n2mg\n\nondansetron (PF)\n(ZOFRAN) injection\n4mg\n\nondansetron\n(ZOFRAN-ODT)\ndisintegrating tablet\n4mg\n\noxyCODONE\n(ROXICODONE)\nImmediate Release\ntablet 10 mg\noxyCODONE\n(ROXICODONE)\nImmediate Release\ntablet 15 mg\noxyCODONE\n(ROXICODONE)\nImmediate Release\ntablet 5 mg\n[START ON\n12/30/2025]\npolyethylene glycol\n(MIRALAX) packet\n17g\npovidone-iodine 5\n% nasal swab\nrosuvastatin\n(CRESTOR) tablet\n10 mg\n\n[START ON\n12/30/2025] senna\n(SENOKOT) tablet\n17.2 mg\n\nsodium chloride 0.9\n% flush 3 mL\nsodium chloride 0.9\n% flush 3 mL\nsodium chloride\n0.9% infusion\n\n500 mg\n\n50 mcg\n\n0.5 mg\n\n1 mg\n\n10 mg\n\n2mg\n\n4mg\n\n4mg\n\n10 mg\n\n15 mg\n\n5 mg\n\n179g\n\n10 mg\n\n2 tablet\n\n3 mL\n3 mL\n\n75\nmL/hr\n\nTopical (Top)\n\nOral\n\nIV Push\n\nIV Push\n\nIV Push\n\nOral\n\nIV Push\n\nIV Push\n\nTranslingual\n\nOral\n\nOral\n\nOral\n\nOral\n\nNasal\n\nOral\n\nOral\n\nIV Push\n\nIV Push\n\nIntravenous\n\nOnce PRN\n\nBID\n\nQ5 MIN PRN\n\nQ4H PRN\n\nQ4H PRN\n\nQ12H\n\nQ5 MIN PRN\n\nQ6H PRN\n\nQ6H PRN\n\nQ3H PRN\n\nQ3H PRN\n\nQ3H PRN\n\nDaily\n\nOnce\n\nDaily\n\nNightly\n\nQ8H\n\nPRN for Line\nCare\nContinuous\n\nPA\n\nHearle, Brianna,\nPA\n\nSullivan, Hope\nTiezzi, PA\n\nChrostowski,\nMark, MD\n\nSullivan, Hope\nTiezzi, PA\n\nSullivan, Hope\nTiezzi, PA\n\nSullivan, Hope\nTiezzi, PA\n\nChrostowski,\nMark, MD\n\nHearle, Brianna,\nPA\n\nHearle, Brianna,\nPA\n\nTorina,\nGeorgeann, PA\n\nTorina,\nGeorgeann, PA\n\nTorina,\nGeorgeann, PA\n\nHearle, Brianna,\nPA\n\nHearle, Brianna,\nPA\n\nSullivan, Hope\nTiezzi, PA\n\nHearle, Brianna,\nPA\n\nHearle, Brianna,\nPA\nHearle, Brianna,\nPA\nHearle, Brianna,\nPA\n\nThye, Renke B (MR # MR364652) DOB: 07/30/1938\n\n500 mg\nat\n\n12/28/2\n5 2056\n\n10mg\nat\n12/28/2\n5 2057\n\n10 mg\nat\n12/29/2\n5 0619\n\n75 75\nmL/hr at mL/hr at\n\n2/4\n\n12/30/25, 4:21 PM Thye, Renke B (MR # MR364652) DOB: 07/30/1938\n\n12/29/2 12/29/2\n50603 50603\n\nAllergies:\nPatient has no known allergies.\n\nRelevant exam:\n\nTemp: [98 °F (36.7 °C)-98.8 °F (37.1 °C)] 98 °F (36.7 °C)\nPulse: [63-83] 64\n\nResp: [16-19] 19\n\nBP: (131-187)/(60-85) 162/66\n\nSpO2: [91 %-95 %] 94 %\n\nSpO2: [91 %-95 %] 94 % (12/29 0551)\n\nGen: Awake, alert, NAD\nHeart: Regular heartrate\nLung: unlabored breathing\n\nLLE:\n\nSkin intact, leg shortened/externally rotated\n\nIntact ankle dorsiflexion, plantar flexion, EHL\nSensation intact grossly sp/dp/t nerve distributions\nToes wwp, palpable DP pulse\n\nNonpainful L knee/ankle ROM\n\nPelvis: No pain or instability with AP or lateral compression\nAll other large joints in the extremities were palpated and ranged with no signs of deformity or pain.\n\nImaging / studies:\nXR AP pelvis + femur demonstrates Left displaced femoral neck hip fracture\n\nImpression and plan:\n\nRenke B Thye is a 87 y.o. male sustained a Left displaced femoral neck fracture. Femur fractures in the elderly are of\nthe highest severity due to the morbidity without treatment and risk of death due to bed-ridden disability, risk of\nulcers, and risk of clot and other medical complications causing death. Therefore | had a long discussion with the\npatient and their family about the treatment options, including nonoperative and operative intervention. We\ndiscussed risks and benefits and alternatives to surgery as well as chances of full or partial weight bearing after.\nAfter going over these options, we decided to pursue a left total hip replacement due to his activity level and pre-fall\nhigh level unassisted ambulation.\n\nWe discussed the risks of surgery including infection, wound complications, bleeding, need for a transfusion, possible\ndamage to surronding neurovascular structures, potential for continued pain, continued weakness, worsening pain\nand worsening weakness, stiffness, instability/dislocation, limb length discrepancy, fracture, infection requiring the\nresection or revision arthroplasty, component loosening and the need for revision surgery in the future. We also\ndiscussed the risks of thromboembolic complications, stroke, heart attack, cardiac event, heart failure, pulmonary\nedema, fat/cement embolus, aspiration, death, and the risks of anesthesia and nerve blocks.\n\nWould favor spinal anesthesia and early care as delay in care results in perioperative morbidity and mortality with\ngeriatric femur fractures.\n\n- NPO/IVEF for OR this afternoon\n\n- NWB LLE\n\n- Pain control\n\n- DVT: HSQ pre-op, on hold now\n\n- appreciate Medicine consult for pre operative risk stratification\n- Booked/consented/marked\n\nMichael B Held, MD\n\nElectronically signed by Held, Michael Brian, MD at 12/29/2025 7:42 AM\n\nThye, Renke B (MRN MR364652) Printed by Stagno, Cesarina [767] at 12/30/2025 4:21 PM 3/4\n\n12/30/25, 4:21 PM\n\nED to Hosp-Admission (Current) on 12/28/2025\n\nRouting History\n\nPriority\nt\n\nt\nt\nt\n\nmem\n\nSent On\n12/28/2025 10:08\nAM\n\n12/28/2025 10:08\nAM\n\n12/28/2025 10:00\nAM\n\n12/28/2025 10:00\nAM\n\n12/28/2025 9:15\nAM\n\n12/28/2025 9:15\nAM\n\n12/28/2025 9:15\nAM\n\n12/28/2025 9:15\nAM\n\n12/28/2025 9:13\nAM\n\n12/28/2025 9:13\nAM\n\nThye, Renke B (MR # MR364652) DOB: 07/30/1938\n\nFrom\nEdi, Rad Results In\n\nEdi, Rad Results In\nLab, Background User\nLab, Background User\nEdi, Rad Results In\nEdi, Rad Results In\nEdi, Rad Results In\nEdi, Rad Results In\nEdi, Rad Results In\n\nEdi, Rad Results In\n\nNote shared with patient\n\nTo\nAversano, Francis, MD\n\nCasarella, Ryan Patrick, MD\n\nAversano, Francis, MD\n\nCasarella, Ryan Patrick, MD\n\nAversano, Francis, MD\n\nCasarella, Ryan Patrick, MD\n\nAversano, Francis, MD\n\nCasarella, Ryan Patrick, MD\n\nAversano, Francis, MD\n\nCasarella, Ryan Patrick, MD\n\nThye, Renke B (MRN MR364652) Printed by Stagno, Cesarina [767] at 12/30/2025 4:21 PM\n\nMessage Type\nResults\n\nResults\nResults\nResults\nResults\nResults\nResults\nResults\nResults\n\nResults\n\n4/4\n=== END CHART: tmpz67yxjc5.pdf ===\n\n\n=== CHART: tmpysqmhuab.pdf (Type: operative_note) ===\n12/30/25, 4:22 PM\n\nThye, Renke B (MR # MR364652) DOB: 07/30/1938\n\nOperative Note by Held, Michael Brian, MD filed on 12/29/2025 3:23 PM.\n\nAuthor: Held, Michael Brian, MD Service: Orthopedics\n\nDate of Service: 12/29/2025 Filed: 12/29/2025 3:23 PM\nEditor: Held, Michael Brian, MD (Physician)\n\nOrthopedic Surgery Operative Report\n\nPatient Name: Renke B Thye\nDate of Procedure: 12/29/2025\nLocation: Greenwich Hospital\nMRN: MR364652\n\nProcedure:\n\n1) Left Total Hip Replacement for intracapsular displaced femoral neck fracture\n\nSuggested CPT Code: 27130\n\nPreliminary Diagnosis: Displaced subcapital femoral neck fracture of the left hip\n\nPostoperative Diagnosis : Same\n\nSurgeon: Dr. Michael B Held\n\nFirst Assist: Tyler Howrigan, NP\n\nAuthor Type: Physician\nStatus: Signed\n\nOf note, a first assist PA/NP was necessary for this procedure, as no other first assist or resident was available to\n\nhelp due to the complex nature of the surgery.\nPA assisted with exposure, trialing and implantation, and closure of the wound\n\nAnesthesia Staff: ANESTHESIOLOGIST: Abrahams, Hanief, MD\nCRNA: Ober-Adams, Colleen, CRNA\n\nAnesthesia Type: Failed Spinal converted to General\n\nSpecimens:\nID Type Source Tests Collected by Time\n1: left femoral Bone Femoral Head SURGICAL Held, Michael\nhead PATHOLOGY Brian, MD PM\n(GH LMW)\nEstimated Blood Loss:\n150cc\nImplants:\nImplant Name Type Inv. Item Serial No. Manufacturer Lot No. LRB\nCEMENT BONE Implant CEMENT STRYKER RJG38 Left\nSURG SIMPLEX P BONE SURG 4\nRAD - SIMPLEX P\nLOG3573584 RAD\nCEMENT BONE Implant CEMENT STRYKER RJG38 Left\nSURG SIMPLEX P BONE SURG 4\nRAD - SIMPLEX P\nLOG3573584 RAD\nCEMENT BONE Implant CEMENT STRYKER RJG38 Left\nSURG SIMPLEX P BONE SURG 4\nRAD - SIMPLEX P\nLOG3573584 RAD\nLINER ACET HIP — Implant LINER ACET SMITH 25JMO Left\nOD POLY R3 HIP OD POLY NEPHEW 4323\n40X56MM - R3 40X56MM\nLOG3573584\n56mm Redapt Implant Smith & 25HMO Left\nModular Shell Nephew, Inc. 0642\n\nThye, Renke B (MRN MR364652) Printed by Stagno, Cesarina [767] at 12/30/2025 4:21 PM\n\n12/29/2025 2:01\n\nNo.\nUsed\n\nAction\n\nImplanted\n\nImplanted\n\nImplanted\n\nImplanted\n\nImplanted\n\n1/4\n\n12/30/25, 4:22 PM Thye, Renke B (MR # MR364652) DOB: 07/30/1938\n\nSize 5 Polarstem — Implant Smith & F2500 Left 1 Implanted\nHip Stem, Nephew, Inc. 879\n\nStandard\n\nCemented\n\nHEAD FEM MOD - Implant HEAD FEM SMITH 25JMO Left 1 Implanted\nLOG3573584 MOD NEPHEW 6018\n\nSLEEV HEAD Implant SLEEV HEAD SMITH 24GT8 Left 1 Implanted\nTITANIUM MOD - TITANIUM NEPHEW 4024\n\nLOG3573584 MOD\n\nFindings: Displaced subcapital left femoral neck fracture\n\nIndication:\n\nThe patient is a 87 y.o. male who presented to our emergency room after a fall and was found to have a left hip\ndisplaced femoral neck fracture. Femur fractures in the elderly are of the highest severity due to the morbidity without\ntreatment and risk of death due to bed-ridden disability, risk of ulcers, and risk of clot and other medical complications\ncausing death. Therefore | had a long discussion with the patient and their family about the treatment options,\nincluding nonoperative and operative intervention. We discussed risks and benefits and alternatives to surgery as\nwell as chances of full or partial weight bearing after. We discussed the risks of surgery including infection, wound\ncomplications, bleeding, need for a transfusion, possible damage to surronding neurovascular structures, potential for\ncontinued pain, continued weakness, worsening pain and worsening weakness, stiffness, instability/dislocation, limb\nlength discrepancy, fracture, infection requiring the resection or revision arthroplasty, component loosening and the\nneed for revision surgery in the future. We also discussed the risks of thromboembolic complications, stroke, heart\nattack, cardiac event, heart failure, pulmonary edema, fat embolus, aspiration, death, and the risks of anesthesia.\nThe potential benefits of surgery are pain relief or improvement, improved mobility, and allowance of immediate\nweight bearing post-operatively. We also discussed some of the risks specific to the anterior approach including\nnumbness over the lateral thigh, wound complications, and femoral component loosening or fracture of the femur.\nThese risks were discussed in the context of other approaches, specifically the posterior approach and its associated\nrisks. The patient expressed an understanding of these risks and the patient wished to proceed with a total hip\nreplacement. We did discuss hemiarthroplasty, however given the patients high functional demand he and his wife\nelected to proceed with a total hip replacement.\n\nWe also discussed the overall poor prognosis for patients who have suffered a femur fracture, with high morbidity and\nmortality rates following this particular pattern of injury. The patient and family expressed understanding and elected\nto proceed with a total hip replacement.\n\nThe patient was seen by the Medicine service and was determined to be optimized from a medical standpoint for this\nsurgery. The medicine team cleared the patient for surgery as well.\n\nDescription of procedure:\nThe patient was seen in the preoperative holding area and the appropriate side lower extremity was marked. Again a\ndiscussion of the procedure was held with the patient and the patient wished to proceed.\n\nThe patient was brought to the Operating Room and a preliminary anesthesia time out was then performed. Spinal\nanesthesia was then performed by the anesthesia team, however was unsuccessful and he was converted to\ngeneral. The patient was then placed supine on the operating room table. Preoperative antibiotics were administered\nwithin thirty minutes of incision time as well as 1 gram of tranexamic acid. The patient was placed onto a sacral bump\non the operating room table. At this point, the patient's surgical area was prepped and draped in the standard, sterile\nfashion. A surgical timeout was then performed to confirm the correct side, procedure, and name.\n\nA longitudinal incision was made starting lateral and distal to the anterior superior iliac spine. The incision was\ncarried down through the subcutaneous tissues down to the level of the tensor fascia lata. The tensor fascia lata was\nthen divided sharply with care not to violate the muscle below. Blunt dissection of the fascia was done to identify the\ninterval between the tensor fascia lata and the sartorius. Once this was done and deeper retractors had been placed,\nthe ascending branch of the lateral femoral circumflex artery was clearly visualized and this was cauterized. Next, the\nfat within this interval was dissected to better visualize the anterior hip capsule and the lateral border of the\niliocapsularis. At this point, a Cobb was used to elevate the iliocapsularis and rectus off the anterior capsule and a\nretractor was placed underneath these muscles. At this point, a capsulectomy was performed along the axis of the\nfemoral neck and the intertrochanteric ridge. A large hemarthrosis from the fracture was encountered. The retractors\nwere now placed intracapsular and the head-neck junction was exposed. A release of the pubofemoral ligament was\nthen performed until the lesser trochanter could be palpated. Using the pre-operative templating, the appropriate\nclean up neck cut was made and the femoral head and remaining neck was extracted.\n\nThe acetabulum was now visualized with the placement of retractors. At this point, the labrum and the contents of the\nThye, Renke B (MRN MR364652) Printed by Stagno, Cesarina [767] at 12/30/2025 4:21 PM 2/4\n\n12/30/25, 4:22 PM Thye, Renke B (MR # MR364652) DOB: 07/30/1938\n\ncotyloid fossa were removed. The acetabulum was then reamed sequentially, based on preoperative templating.\nReaming was performed carefully. Next, the final size 56mm acetabular component was impacted into the\nappropriate position. The periphery of the acetabular component was inspected and any osteophytes were removed.\nOnce this was accomplished, the final 40mm neutral polyethylene liner was impacted into place. Care was taken to\nensure that the liner was fully seated and had engaged the locking mechanism.\n\nNext, the acetabular retractors were removed and attention was turned to the femur. The leg was positioned in an\nadducted and extended position. Retractors were then placed around the proximal femur to expose the cut neck\nsurface. Tight capsular tissue over the superior/anterior aspect of the femoral neck was released using cautery only\nto allow for sufficient exposure. A curved double footed retractor was placed over the greater trochanter laterally and\na femoral retractor placed at the infero medial neck. Sequential releases were performed in order to allow for\naccepted elevation of the femur, this was done in conjunction with gentle elevation with a bone hook.\n\nThe canal finder was then used to establish the IM canal. A box cutter was used to remove posterolateral bone of the\ncut neck. Arasp and curette were used to remove lateral femoral neck bone remaining. An entry broach was\nutilized, followed by sequential broaching up to the final size. With the broach left in place and after calcar planning,\nthe neck and trials were placed. The hip was reduced and found to be stable. Leg length, offset and implant size and\nposition were assessed clinically. Afterwards, the hip was dislocated. The trial components were removed.\n\nThe femoral canal was irrigated and a cement restrictor was placed down the canal. The canal was again rinsed and\ndried. Cement was then placed in the canal and pressurized, and the final size 5 standard stem was placed in the\ncanal. After the cement hardened the actual 40mm +4 head was now impacted into place after cleaning and drying.\nThe hip was reduced with traction and internal rotation after confirming that the acetabular component was free of\nany debris and had been irrigated.\n\nThe wound was then copiously irrigated and washed with a dilute betadine solution then with normal saline. Copious\nirrigation was used throughout the closure. 1 gram of Vancomycin powder was placed in the deep wound. The fascia\noverlying the TFL was now closed using running barbed suture, with care to not entrap any of the lateral femoral\ncutaneous nerve branches. The remainder of the wound was closed in layers using #1 Vicryl, 2-0 Vicryl, 3-0 Monocry|\nwith prineo/Dermabond for skin. Standard mepilex dressing was applied in the standard fashion and the patient was\ntransferred to the Recovery Room in stable condition. All sponge, needle counts were correct x 2.\n\nSN redapt/cemented polarstem components were used in this procedure.\n\nPostoperative Plan:\n\nWBAT: wbat\n\nPT/OT: OOB and ambulation\n\nPain control: Oxycodone 5mg as needed for moderate pain; Tylenol for mild pain\nDVT ppx: asa 81 bid\n\nPeriop ancef, followed by 7 days of cefadroxil due to high risk fracture\nColace 100mg BID while taking oxycodone\n\nKeep dressing clean and dry\n\nZofran PRN while taking oxycodone\n\nResume Home Medications\n\nMedical comanagement by hospitalist service, appreciate recommendations\nDispo: pending PT/OT eval\n\nMichael B Held, MD\n\nDate: 12/29/2025 Time: 3:18 PM\n\nElectronically signed by Held, Michael Brian, MD at 12/29/2025 3:23 PM\n\nED to Hosp-Admission (Current) on 12/28/2025 Note shared with patient\n\nRouting History\n\nPriority Sent On From To Message Type\nt 12/28/2025 10:08 Edi, Rad Results In Aversano, Francis, MD Results\n\nAM\nt 12/28/2025 10:08 — Edi, Rad Results In Casarella, Ryan Patrick, MD Results\n\nAM\n\nThye, Renke B (MRN MR364652) Printed by Stagno, Cesarina [767] at 12/30/2025 4:21 PM 3/4\n\n12/30/25, 4:22 PM\n\nPriority\nt\n\n=—- =—=_  —_  —_ —_ =_—_\n\nSent On\n12/28/2025 10:00\nAM\n\n12/28/2025 10:00\nAM\n\n12/28/2025 9:15\nAM\n\n12/28/2025 9:15\nAM\n\n12/28/2025 9:15\nAM\n\n12/28/2025 9:15\nAM\n\n12/28/2025 9:13\nAM\n\n12/28/2025 9:13\nAM\n\nThye, Renke B (MR # MR364652) DOB: 07/30/1938\n\nFrom\n\nLab, Background User\n\nLab, Background User\n\nEdi, Rad Results In\n\nEdi, Rad Results In\n\nEdi, Rad Results In\n\nEdi, Rad Results In\n\nEdi, Rad Results In\n\nEdi, Rad Results In\n\nTo\nAversano, Francis, MD\n\nCasarella, Ryan Patrick, MD\nAversano, Francis, MD\nCasarella, Ryan Patrick, MD\nAversano, Francis, MD\nCasarella, Ryan Patrick, MD\nAversano, Francis, MD\n\nCasarella, Ryan Patrick, MD\n\nThye, Renke B (MRN MR364652) Printed by Stagno, Cesarina [767] at 12/30/2025 4:21 PM\n\nMessage Type\nResults\n\nResults\nResults\nResults\nResults\nResults\nResults\n\nResults\n\n4/4\n=== END CHART: tmpysqmhuab.pdf ===\n",
+  "improved_chart_by_ai": "=== CHART: tmpz67yxjc5.pdf (Type: consultation_note) ===\n12/30/25, 4:21 PM Thye, Renke B (MR # MR364652) DOB: 07/30/1938\n\nConsults by Held, Michael Brian, MD filed on 12/29/2025 7:42 AM.\n\nAuthor: Held, Michael Brian, MD Service: Orthopedics Author Type: Physician\nDate of Service: 12/29/2025 Filed: 12/29/2025 7:42 AM Status: Signed\n\nEditor: Held, Michael Brian, MD (Physician)\n\n[AI ADDED: Structured header formatting]\nORTHOPAEDICS & REHABILITATION CONSULTATION NOTE\n\nPatient name: Renke Thye\nYale MRN: MR364652\nDate of birth: 7/30/1938 [AI ADDED: Age: 87 years]\nDate of visit: 12/29/2025\n\nAttending of record for this patient: No att. providers found\nProvider leaving this note: Michael B Held, MD\n\n[AI ADDED: Section header]\nCONSULTATION REASON:\nLeft hip fracture\n\n[AI ADDED: Section header]\nHISTORY OF PRESENT ILLNESS:\nRenke B Thye is a 87 y.o. male with PMHX of hypertension, hyperlipidemia, GERD, coronary artery disease s/p stents in 2015, history of left subarachnoid hemorrhage who presents s/p mechanical fall with left hip pain and inability to ambulate. At baseline, the patient ambulates unassisted and lives with his wife. He is still very active walking 5000 steps per day. Denies any antecedent left hip pain. Denies headstrike or loss of consciousness. No other pain or injury except his left hip.\n\n[AI ADDED: Additional HPI details needed]\n[NEEDS PHYSICIAN INPUT: Exact date and mechanism of fall, duration of symptoms prior to presentation, pain severity on 0-10 scale, and any prior treatment attempts]\n\n[AI ADDED: Section header]\nSOCIAL HISTORY:\nPatient reports that he has quit smoking [NEEDS PHYSICIAN INPUT: when did patient quit smoking and how many pack-years]. He has never used smokeless tobacco. He reports current alcohol use [NEEDS PHYSICIAN INPUT: frequency and amount of alcohol consumption]. He reports that he does not use drugs.\n\n[AI ADDED: Section header]\nPAST MEDICAL HISTORY:\n* Chronic coronary artery disease\n* GERD (gastroesophageal reflux disease)\n* Hypercholesterolemia\n* Hypertension\n* Stroke - atraumatic right cortical subarachnoid hemorrhage (05/11/2025)\n\n[AI ADDED: Section header]\nPAST SURGICAL HISTORY:\n* Coronary stent placement (per patient 2 stents) [NEEDS PHYSICIAN INPUT: year of stent placement]\n* Bilateral knee joint replacement [NEEDS PHYSICIAN INPUT: year of knee replacements]\n* Laparoscopic cholecystectomy [NEEDS PHYSICIAN INPUT: year of cholecystectomy]\n\n[AI ADDED: Section header]\nHOME MEDICATIONS:\n[AI ADDED: Organized medication list]\n* Acetaminophen (TYLENOL) 975 mg tablet, oral, Q6H\n* Amlodipine (NORVASC) 5 mg tablet, oral, daily\n* Bisacodyl (DULCOLAX) 5 mg EC tablet, oral, daily PRN\n* Bisacodyl (DULCOLAX) 10 mg suppository, rectal, daily PRN\n* Chlorhexidine gluconate 2% towelette, topical, once PRN\n* Divalproex (DEPAKOTE DR) 500 mg tablet, oral, BID\n* Memantine (NAMENDA) 10 mg immediate release tablet, oral, Q12H\n* Polyethylene glycol (MIRALAX) 17g packet, oral, daily\n* Rosuvastatin (CRESTOR) 10 mg tablet, oral, daily\n* Senna (SENOKOT) 17.2 mg tablet (2 tablets), oral, nightly [START ON 12/30/2025]\n\n[AI ADDED: Section header]\nALLERGIES:\nPatient has no known allergies.\n\n[AI ADDED: Section header]\nVITAL SIGNS:\nTemp: 98°F (36.7°C) [Range: 98°F (36.7°C)-98.8°F (37.1°C)]\nPulse: 64 [Range: 63-83]\nResp: 19 [Range: 16-19]\nBP: 162/66 [Range: (131-187)/(60-85)]\nSpO2: 94% [Range: 91%-95%]\n\n[AI ADDED: Section header]\nPHYSICAL EXAMINATION:\nGeneral: Awake, alert, no acute distress\nCardiovascular: Regular heart rate\nRespiratory: Unlabored breathing\n\nLeft Lower Extremity:\n- Skin intact, leg shortened/externally rotated [AI ADDED: classic presentation of displaced femoral neck fracture]\n- Intact ankle dorsiflexion, plantar flexion, extensor hallucis longus function\n- Sensation intact grossly in superficial peroneal, deep peroneal, and tibial nerve distributions\n- Toes warm, well-perfused, palpable dorsalis pedis pulse\n- Nonpainful left knee/ankle range of motion\n\nPelvis: No pain or instability with anteroposterior or lateral compression\n\nAll other large joints in the extremities were palpated and ranged with no signs of deformity or pain.\n\n[NEEDS PHYSICIAN INPUT: Detailed neurovascular status including specific motor strength grading (0-5 scale), detailed sensory examination findings, and specific range of motion measurements of the affected and contralateral hip]\n\n[AI ADDED: Section header]\nIMAGING/STUDIES:\nXR AP pelvis + femur demonstrates left displaced femoral neck hip fracture\n[NEEDS PHYSICIAN INPUT: Specific fracture classification (Garden, Pauwels, or AO/OTA), displacement measurements, and any additional imaging findings]\n\n[AI ADDED: Section header]\nASSESSMENT:\nRenke B Thye is an 87 y.o. male who sustained a left displaced femoral neck fracture. [AI ADDED: Clinical significance statement] Femur fractures in the elderly are of the highest severity due to the morbidity without treatment and risk of death due to bed-ridden disability, risk of ulcers, and risk of clot and other medical complications causing death.\n\n[AI ADDED: Section header]\nDISCUSSION:\nI had a long discussion with the patient and their family about the treatment options, including nonoperative and operative intervention. We discussed risks and benefits and alternatives to surgery as well as chances of full or partial weight bearing after. After going over these options, we decided to pursue a left total hip replacement due to his activity level and pre-fall high level unassisted ambulation.\n\nWe discussed the risks of surgery including:\n[AI ADDED: Organized risk discussion]\n- Infection, wound complications\n- Bleeding, need for a transfusion\n- Possible damage to surrounding neurovascular structures\n- Potential for continued pain, continued weakness, worsening pain and worsening weakness\n- Stiffness, instability/dislocation\n- Limb length discrepancy\n- Fracture\n- Infection requiring the resection or revision arthroplasty\n- Component loosening and the need for revision surgery in the future\n- Thromboembolic complications\n- Stroke, heart attack, cardiac event, heart failure\n- Pulmonary edema, fat/cement embolus\n- Aspiration\n- Death\n- Risks of anesthesia and nerve blocks\n\n[AI ADDED: Medical necessity documentation]\nMEDICAL NECESSITY DOCUMENTATION:\nSurgical intervention with total hip arthroplasty is medically necessary for this patient due to:\n1. Displaced femoral neck fracture in an elderly patient\n2. Patient's high pre-injury functional status (independent ambulation, 5000 steps daily)\n3. Significant risk of morbidity and mortality with non-operative management\n4. [NEEDS PHYSICIAN INPUT: Specific pain score on 0-10 scale and functional limitations]\n\n[AI ADDED: Section header]\nPLAN:\n1. Left total hip arthroplasty [NEEDS PHYSICIAN INPUT: specific approach planned (anterior, posterior, lateral)]\n2. Would favor spinal anesthesia and early care as delay in care results in perioperative morbidity and mortality with geriatric femur fractures\n3. NPO/IVEF for OR this afternoon\n4. Non-weight bearing left lower extremity\n5. Pain control\n6. DVT prophylaxis: HSQ pre-op, on hold now [NEEDS PHYSICIAN INPUT: post-operative DVT prophylaxis plan]\n7. Appreciate Medicine consult for pre-operative risk stratification\n8. Booked/consented/marked\n\n[AI ADDED: Post-operative care plan]\nPOST-OPERATIVE CARE PLAN:\n[NEEDS PHYSICIAN INPUT: Weight bearing status post-operatively, anticipated rehabilitation needs, follow-up timeline]\n\nMichael B Held, MD\n\nElectronically signed by Held, Michael Brian, MD at 12/29/2025 7:42 AM\n\nThye, Renke B (MRN MR364652) Printed by Stagno, Cesarina [767] at 12/30/2025 4:21 PM 3/4\n\n12/30/25, 4:21 PM\n\nED to Hosp-Admission (Current) on 12/28/2025\n\nRouting History\n\nPriority Sent On From To\nt 12/28/2025 10:08 AM Edi, Rad Results In Aversano, Francis, MD\nt 12/28/2025 10:08 AM Edi, Rad Results In Casarella, Ryan Patrick, MD\nt 12/28/2025 10:00 AM Lab, Background User Aversano, Francis, MD\nt 12/28/2025 10:00 AM Lab, Background User Casarella, Ryan Patrick, MD\nmem 12/28/2025 9:15 AM Edi, Rad Results In Aversano, Francis, MD\nmem 12/28/2025 9:15 AM Edi, Rad Results In Casarella, Ryan Patrick, MD\nmem 12/28/2025 9:15 AM Edi, Rad Results In Aversano, Francis, MD\nmem 12/28/2025 9:15 AM Edi, Rad Results In Casarella, Ryan Patrick, MD\nmem 12/28/2025 9:13 AM Edi, Rad Results In Aversano, Francis, MD\nmem 12/28/2025 9:13 AM Edi, Rad Results In Casarella, Ryan Patrick, MD\n\nNote shared with patient\n\nThye, Renke B (MRN MR364652) Printed by Stagno, Cesarina [767]",
+  "enhanced_by_ai": {
+    "improvements": [
+      {
+        "section": "Document Structure",
+        "original": "Minimal section headers, unstructured format",
+        "improved": "Added clear section headers and organized content in a structured format",
+        "reason": "Improved organization enhances readability and ensures all required elements are clearly documented for medical necessity determination",
+        "payers_affected": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ]
+      },
+      {
+        "section": "History of Present Illness",
+        "original": "Basic information about fall and baseline status",
+        "improved": "Enhanced HPI with request for specific details about fall mechanism, pain severity, and prior treatments",
+        "reason": "Detailed documentation of injury mechanism, pain severity, and prior treatments supports medical necessity for surgical intervention",
+        "payers_affected": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ]
+      },
+      {
+        "section": "Medical Necessity Documentation",
+        "original": "Missing dedicated section",
+        "improved": "Added structured medical necessity documentation section highlighting key clinical factors supporting surgical intervention",
+        "reason": "Explicit documentation of medical necessity criteria helps meet payer requirements for surgical approval",
+        "payers_affected": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ]
+      },
+      {
+        "section": "Physical Examination",
+        "original": "Limited neurovascular examination details",
+        "improved": "Added request for detailed neurovascular status including motor strength grading and specific ROM measurements",
+        "reason": "Comprehensive neurovascular examination documentation supports medical necessity and establishes baseline for post-operative comparison",
+        "payers_affected": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ]
+      },
+      {
+        "section": "Imaging",
+        "original": "Basic description of fracture",
+        "improved": "Added request for specific fracture classification and displacement measurements",
+        "reason": "Detailed fracture classification documentation supports medical necessity for the specific surgical approach chosen",
+        "payers_affected": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ]
+      },
+      {
+        "section": "Post-operative Care Plan",
+        "original": "Missing",
+        "improved": "Added section requesting post-operative weight bearing status, rehabilitation needs, and follow-up timeline",
+        "reason": "Documentation of post-operative care plan demonstrates comprehensive treatment approach and supports medical necessity",
+        "payers_affected": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ]
+      }
+    ],
+    "user_input_required": [
+      {
+        "section": "History of Present Illness",
+        "field": "Fall details and pain assessment",
+        "reason": "Documentation of exact fall mechanism, timing, and pain severity establishes medical necessity for surgical intervention",
+        "suggestion": "Document exact date of fall, mechanism details, pain severity on 0-10 scale, and any prior treatment attempts",
+        "payers_requiring": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ],
+        "priority": "high"
+      },
+      {
+        "section": "Physical Examination",
+        "field": "Detailed neurovascular examination",
+        "reason": "Comprehensive neurovascular documentation establishes pre-operative baseline and supports medical necessity for surgical intervention",
+        "suggestion": "Document specific motor strength grading (0-5 scale), detailed sensory examination findings, and specific range of motion measurements",
+        "payers_requiring": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ],
+        "priority": "high"
+      },
+      {
+        "section": "Imaging",
+        "field": "Fracture classification",
+        "reason": "Specific fracture classification supports medical necessity for total hip arthroplasty versus other treatment options",
+        "suggestion": "Document specific fracture classification (Garden, Pauwels, or AO/OTA), displacement measurements, and any additional imaging findings",
+        "payers_requiring": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ],
+        "priority": "medium"
+      },
+      {
+        "section": "Plan",
+        "field": "Surgical approach details",
+        "reason": "Documentation of specific surgical approach demonstrates appropriate surgical planning",
+        "suggestion": "Specify planned surgical approach (anterior, posterior, lateral) and rationale",
+        "payers_requiring": [
+          "Cigna",
+          "UnitedHealthcare"
+        ],
+        "priority": "medium"
+      },
+      {
+        "section": "Post-operative Care",
+        "field": "Post-operative rehabilitation plan",
+        "reason": "Documentation of comprehensive post-operative care plan demonstrates appropriate treatment planning",
+        "suggestion": "Document planned weight bearing status, rehabilitation protocol, and follow-up timeline",
+        "payers_requiring": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ],
+        "priority": "medium"
+      }
+    ],
+    "recommendations": [
+      {
+        "category": "Clinical Findings",
+        "recommendation": "Document specific pain severity on 0-10 scale and functional limitations caused by the fracture",
+        "payers": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ],
+        "priority": "high"
+      },
+      {
+        "category": "Physical Examination",
+        "recommendation": "Include detailed neurovascular examination with specific motor strength grading and range of motion measurements",
+        "payers": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ],
+        "priority": "high"
+      },
+      {
+        "category": "Imaging",
+        "recommendation": "Document specific fracture classification (Garden, Pauwels, or AO/OTA) and displacement measurements",
+        "payers": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ],
+        "priority": "medium"
+      },
+      {
+        "category": "Medical Necessity",
+        "recommendation": "Create dedicated medical necessity section highlighting key clinical factors supporting surgical intervention",
+        "payers": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ],
+        "priority": "high"
+      },
+      {
+        "category": "Treatment Plan",
+        "recommendation": "Document comprehensive post-operative care plan including weight bearing status and rehabilitation protocol",
+        "payers": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ],
+        "priority": "medium"
+      }
+    ],
+    "compliance_impact": {
+      "before": "Documentation lacked structured format, detailed physical examination findings, specific fracture classification, pain severity assessment, and comprehensive post-operative care plan required by payers",
+      "after": "Improved documentation includes structured format, requests for detailed physical examination findings, specific fracture classification, pain severity assessment, and comprehensive post-operative care plan to meet payer requirements",
+      "key_changes": [
+        "Added structured format with clear section headers",
+        "Created dedicated medical necessity documentation section",
+        "Added requests for detailed neurovascular examination findings",
+        "Added requests for specific fracture classification and displacement measurements",
+        "Added request for post-operative care plan including rehabilitation protocol"
+      ]
+    },
+    "success": true
+  },
+  "error": null,
+  "payer_summary": {
+    "per_payer": {
+      "cigna": {
+        "payer_key": "cigna",
+        "payer_name": "Cigna",
+        "total_procedures": 1,
+        "sufficient_count": 0,
+        "insufficient_count": 1,
+        "other_count": 0,
+        "sufficient_percentage": 0.0,
+        "insufficient_percentage": 100.0,
+        "other_percentage": 0.0
+      },
+      "uhc": {
+        "payer_key": "uhc",
+        "payer_name": "UnitedHealthcare",
+        "total_procedures": 1,
+        "sufficient_count": 0,
+        "insufficient_count": 1,
+        "other_count": 0,
+        "sufficient_percentage": 0.0,
+        "insufficient_percentage": 100.0,
+        "other_percentage": 0.0
+      },
+      "anthem": {
+        "payer_key": "anthem",
+        "payer_name": "Anthem",
+        "total_procedures": 1,
+        "sufficient_count": 1,
+        "insufficient_count": 0,
+        "other_count": 0,
+        "sufficient_percentage": 100.0,
+        "insufficient_percentage": 0.0,
+        "other_percentage": 0.0
+      }
+    },
+    "overall": {
+      "total_procedures": 3,
+      "sufficient_count": 1,
+      "insufficient_count": 2,
+      "other_count": 0,
+      "sufficient_percentage": 33.33,
+      "insufficient_percentage": 66.67,
+      "other_percentage": 0.0
+    }
+  },
+  "multi_chart_info": {
+    "total_charts": 2,
+    "chart_details": {
+      "tmpz67yxjc5.pdf": {
+        "chart_type": "consultation_note",
+        "display_title": "Consultation Note",
+        "chart_type_confidence": "high",
+        "extraction_data": {
+          "patient_name": "Renke B Thye",
+          "patient_age": "87 y.o.",
+          "chart_specialty": "Orthopedics",
+          "cpt": [],
+          "procedure": [
+            "Left total hip replacement"
+          ],
+          "summary": "87-year-old male with history of HTN, HLD, GERD, CAD s/p stents in 2015, and history of left SAH who presented after a mechanical fall with left hip pain and inability to ambulate. Imaging showed a left displaced femoral neck fracture. Patient is scheduled for left total hip replacement due to his high activity level and pre-fall unassisted ambulation.",
+          "diagnosis": [
+            "Left displaced femoral neck fracture",
+            "Hypertension",
+            "Hypercholesterolemia",
+            "GERD (gastroesophageal reflux disease)",
+            "Chronic coronary artery disease",
+            "History of stroke (atraumatic R cortical SAH)"
+          ],
+          "key_information": [
+            "Patient is active at baseline, walking 5000 steps per day and ambulating unassisted",
+            "History of coronary stent placement in 2015 (2 stents)",
+            "History of bilateral knee replacement",
+            "History of laparoscopic cholecystectomy",
+            "Patient is at high risk due to age and fracture type - provider notes 'femur fractures in the elderly are of the highest severity'",
+            "Non-weight bearing on left lower extremity ordered",
+            "DVT prophylaxis with HSQ pre-op, currently on hold",
+            "Medicine consult requested for pre-operative risk stratification",
+            "Spinal anesthesia preferred due to geriatric status"
+          ],
+          "chart_type": "consultation_note"
+        },
+        "file_path": "C:\\Users\\svshelke\\AppData\\Local\\Temp\\tmpz67yxjc5.pdf"
+      },
+      "tmpysqmhuab.pdf": {
+        "chart_type": "operative_note",
+        "display_title": "Operative Report",
+        "chart_type_confidence": "high",
+        "extraction_data": {
+          "patient_name": "Renke B Thye",
+          "patient_age": "87 y.o.",
+          "chart_specialty": "Orthopedic Surgery",
+          "cpt": [
+            "27130"
+          ],
+          "procedure": [
+            "Left Total Hip Replacement for intracapsular displaced femoral neck fracture"
+          ],
+          "summary": "87-year-old male who presented to the emergency room after a fall and was found to have a left hip displaced femoral neck fracture. The patient underwent a left total hip replacement with Smith & Nephew components including a 56mm Redapt Modular Shell, Size 5 Polarstem cemented hip stem, and 40mm +4 femoral head. The procedure was performed through an anterior approach with an estimated blood loss of 150cc, and the patient was made weight-bearing as tolerated postoperatively.",
+          "chart_type": "operative_note",
+          "has_cpt_codes": true
+        },
+        "file_path": "C:\\Users\\svshelke\\AppData\\Local\\Temp\\tmpysqmhuab.pdf"
+      }
+    },
+    "combined_extraction": {
+      "patient_name": "Renke B Thye",
+      "patient_age": "87 y.o.",
+      "chart_specialty": "Orthopedics",
+      "cpt": [
+        "27130"
+      ],
+      "procedure": [
+        "Left Total Hip Replacement for intracapsular displaced femoral neck fracture"
+      ],
+      "summary": "",
+      "multi_chart_data": {
+        "tmpz67yxjc5.pdf": {
+          "chart_type": "consultation_note",
+          "chart_type_confidence": "high",
+          "extracted_info": {
+            "patient_name": "Renke B Thye",
+            "patient_age": "87 y.o.",
+            "chart_specialty": "Orthopedics",
+            "cpt": [],
+            "procedure": [
+              "Left total hip replacement"
+            ],
+            "summary": "87-year-old male with history of HTN, HLD, GERD, CAD s/p stents in 2015, and history of left SAH who presented after a mechanical fall with left hip pain and inability to ambulate. Imaging showed a left displaced femoral neck fracture. Patient is scheduled for left total hip replacement due to his high activity level and pre-fall unassisted ambulation.",
+            "diagnosis": [
+              "Left displaced femoral neck fracture",
+              "Hypertension",
+              "Hypercholesterolemia",
+              "GERD (gastroesophageal reflux disease)",
+              "Chronic coronary artery disease",
+              "History of stroke (atraumatic R cortical SAH)"
+            ],
+            "key_information": [
+              "Patient is active at baseline, walking 5000 steps per day and ambulating unassisted",
+              "History of coronary stent placement in 2015 (2 stents)",
+              "History of bilateral knee replacement",
+              "History of laparoscopic cholecystectomy",
+              "Patient is at high risk due to age and fracture type - provider notes 'femur fractures in the elderly are of the highest severity'",
+              "Non-weight bearing on left lower extremity ordered",
+              "DVT prophylaxis with HSQ pre-op, currently on hold",
+              "Medicine consult requested for pre-operative risk stratification",
+              "Spinal anesthesia preferred due to geriatric status"
+            ],
+            "chart_type": "consultation_note"
+          }
+        },
+        "tmpysqmhuab.pdf": {
+          "chart_type": "operative_note",
+          "chart_type_confidence": "high",
+          "extracted_info": {
+            "patient_name": "Renke B Thye",
+            "patient_age": "87 y.o.",
+            "chart_specialty": "Orthopedic Surgery",
+            "cpt": [
+              "27130"
+            ],
+            "procedure": [
+              "Left Total Hip Replacement for intracapsular displaced femoral neck fracture"
+            ],
+            "summary": "87-year-old male who presented to the emergency room after a fall and was found to have a left hip displaced femoral neck fracture. The patient underwent a left total hip replacement with Smith & Nephew components including a 56mm Redapt Modular Shell, Size 5 Polarstem cemented hip stem, and 40mm +4 femoral head. The procedure was performed through an anterior approach with an estimated blood loss of 150cc, and the patient was made weight-bearing as tolerated postoperatively.",
+            "chart_type": "operative_note",
+            "has_cpt_codes": true
+          }
+        }
+      }
+    },
+    "operative_chart": "tmpysqmhuab.pdf",
+    "other_charts_info": {
+      "tmpz67yxjc5.pdf": {
+        "chart_type": "consultation_note",
+        "display_title": "Consultation Note",
+        "extraction_data": {
+          "patient_name": "Renke B Thye",
+          "patient_age": "87 y.o.",
+          "chart_specialty": "Orthopedics",
+          "cpt": [],
+          "procedure": [
+            "Left total hip replacement"
+          ],
+          "summary": "87-year-old male with history of HTN, HLD, GERD, CAD s/p stents in 2015, and history of left SAH who presented after a mechanical fall with left hip pain and inability to ambulate. Imaging showed a left displaced femoral neck fracture. Patient is scheduled for left total hip replacement due to his high activity level and pre-fall unassisted ambulation.",
+          "diagnosis": [
+            "Left displaced femoral neck fracture",
+            "Hypertension",
+            "Hypercholesterolemia",
+            "GERD (gastroesophageal reflux disease)",
+            "Chronic coronary artery disease",
+            "History of stroke (atraumatic R cortical SAH)"
+          ],
+          "key_information": [
+            "Patient is active at baseline, walking 5000 steps per day and ambulating unassisted",
+            "History of coronary stent placement in 2015 (2 stents)",
+            "History of bilateral knee replacement",
+            "History of laparoscopic cholecystectomy",
+            "Patient is at high risk due to age and fracture type - provider notes 'femur fractures in the elderly are of the highest severity'",
+            "Non-weight bearing on left lower extremity ordered",
+            "DVT prophylaxis with HSQ pre-op, currently on hold",
+            "Medicine consult requested for pre-operative risk stratification",
+            "Spinal anesthesia preferred due to geriatric status"
+          ],
+          "chart_type": "consultation_note"
+        },
+        "summary": "87-year-old male with history of HTN, HLD, GERD, CAD s/p stents in 2015, and history of left SAH who presented after a mechanical fall with left hip pain and inability to ambulate. Imaging showed a left displaced femoral neck fracture. Patient is scheduled for left total hip replacement due to his high activity level and pre-fall unassisted ambulation.",
+        "diagnosis": [
+          "Left displaced femoral neck fracture",
+          "Hypertension",
+          "Hypercholesterolemia",
+          "GERD (gastroesophageal reflux disease)",
+          "Chronic coronary artery disease",
+          "History of stroke (atraumatic R cortical SAH)"
+        ],
+        "tests": [],
+        "reports": [],
+        "medications": [],
+        "allergies": [],
+        "risk_assessment": "",
+        "history": {},
+        "physical_exam": {},
+        "imaging": [],
+        "conservative_treatment": {},
+        "functional_limitations": {}
+      }
+    },
+    "same_patient": true,
+    "same_patient_reason": "Both charts have the same patient ID (MR364652) and very similar patient names (Renke Thye and Renke B Thye). The DOB (07/30/1938) is also consistent across both charts.",
+    "patient_name": "Renke B Thye",
+    "patient_id": "MR364652",
+    "duplicates": [],
+    "duplicate_reason": "No duplicates found. The charts are different types (consultation_note and operative_note) with different content.",
+    "all_chart_names": [
+      "tmpz67yxjc5.pdf",
+      "tmpysqmhuab.pdf"
+    ]
+  }
+}

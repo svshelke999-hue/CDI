@@ -1,0 +1,164 @@
+{
+  "guideline_id": "I.C.20.a.7",
+  "semantic_title": "Combination External Cause Codes for Sequential Events",
+  "section_path": "Chapter 20: External Causes of Morbidity > a. General External Cause Coding Guidelines > 7) Combination external cause codes",
+  "page_number": 88,
+  "content": {
+    "full_text": "Certain of the external cause codes are combination codes that identify sequential events that result in an injury, such as a fall which results in striking against an object. The injury may be due to either event or both. The combination external cause code used should correspond to the sequence of events regardless of which caused the most serious injury. (Evidence: pg no: 88, L43-L48)",
+    "summary": "Combination external cause codes capture sequential events leading to injury, and should reflect the sequence of events rather than the severity of resulting injuries (Evidence: pg no: 88, L43-L48)",
+    "key_concepts": [
+      "Combination codes for sequential events (Evidence: pg no: 88, L43-L44)",
+      "Events like fall resulting in striking object (Evidence: pg no: 88, L44)",
+      "Injury may result from either or both events (Evidence: pg no: 88, L44-L45)",
+      "Code sequence of events, not injury severity (Evidence: pg no: 88, L47-L48)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "COMBO_EXT_001",
+        "rule_text": "Use combination external cause codes for sequential events that result in injury (Evidence: pg no: 88, L43-L44)",
+        "explanation": "When multiple events occur in sequence leading to injury, combination codes capture the entire sequence rather than individual events (Evidence: pg no: 88, L43-L45)",
+        "importance": "high",
+        "applies_to": "Sequential event injuries",
+        "common_applications": [
+          "Fall with striking against object",
+          "Multi-step accident sequences",
+          "Complex injury mechanisms"
+        ]
+      },
+      {
+        "rule_id": "COMBO_EXT_002",
+        "rule_text": "Combination code should correspond to sequence of events regardless of injury severity (Evidence: pg no: 88, L47-L48)",
+        "explanation": "The selection of combination external cause codes is based on the actual sequence of events, not on which event caused the most serious injury (Evidence: pg no: 88, L47-L48)",
+        "importance": "critical",
+        "applies_to": "All combination external cause codes",
+        "common_applications": [
+          "Sequential event documentation",
+          "Complex accident coding",
+          "Multi-factor injury scenarios"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify the sequence of events leading to injury",
+      "Step 2: Determine if combination external cause code exists for the sequence",
+      "Step 3: Select combination code based on event sequence, not injury severity",
+      "Step 4: Verify code accurately reflects the documented sequence"
+    ],
+    "related_terminology": [
+      "Combination codes",
+      "Sequential events",
+      "Fall with striking",
+      "Event sequence",
+      "Injury mechanism"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "Combination external cause codes",
+        "description": "Codes that capture sequential events in single code (Evidence: pg no: 88, L43-L44)",
+        "example": "Fall resulting in striking against object",
+        "explanation": "Single code captures multiple sequential events"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Combination external cause codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "COMBO_EXT_001",
+      "scenario": "Patient falls down stairs and strikes head on wall, resulting in minor scalp laceration but severe concussion",
+      "documentation_example": "Patient fell down stairs, struck head on wall during fall, sustained scalp laceration and severe concussion",
+      "step_by_step": [
+        "Step 1: Identify sequence: fall down stairs → strike head on wall",
+        "Step 2: Look for combination code covering this sequence",
+        "Step 3: Select combination code based on sequence, not injury severity",
+        "Step 4: Code both laceration and concussion as primary diagnoses"
+      ],
+      "correct_coding": {
+        "primary_code": "Severe concussion code (principal diagnosis)",
+        "secondary_codes": [
+          "Scalp laceration code",
+          "Fall with striking combination external cause code"
+        ],
+        "sequencing": "Most serious injury first, then other injuries, then external cause",
+        "rationale": "Combination code reflects the actual sequence of events regardless of which event caused the more serious injury (Evidence: pg no: 88, L47-L48)"
+      },
+      "incorrect_coding": {
+        "code": "Separate codes for fall and striking",
+        "codes": [
+          "Fall code",
+          "Striking code separately"
+        ],
+        "rationale": "Should use combination code when available for sequential events",
+        "common_mistake": "Not recognizing when combination codes are appropriate"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "COMBO_001",
+      "scenario": "Fall resulting in striking against object",
+      "code_example": "Combination external cause code",
+      "breakdown": {
+        "first_event": "Fall (Evidence: pg no: 88, L44)",
+        "second_event": "Striking against object (Evidence: pg no: 88, L44)",
+        "combination": "Single code captures both sequential events (Evidence: pg no: 88, L43-L44)"
+      },
+      "rationale": "Combination codes are designed for sequential events that commonly occur together (Evidence: pg no: 88, L43-L44)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Don't base combination code selection on injury severity (Evidence: pg no: 88, L47-L48)"
+    ],
+    "best_practices": [
+      "Focus on sequence of events for code selection (Evidence: pg no: 88, L47-L48)",
+      "Use combination codes when available for sequential events (Evidence: pg no: 88, L43-L44)"
+    ],
+    "common_mistakes": [
+      "Selecting combination code based on most serious injury rather than event sequence (Evidence: pg no: 88, L47-L48)"
+    ],
+    "tips": [
+      "Document the complete sequence of events (Evidence: pg no: 88, L43-L48)"
+    ],
+    "implementation_notes": [
+      "Combination codes simplify coding of complex sequential events"
+    ],
+    "clinical_context": [
+      "Many accidents involve sequential events that lead to injury"
+    ]
+  },
+  "search_keywords": [
+    "combination external cause codes",
+    "sequential events",
+    "fall striking object",
+    "event sequence coding",
+    "combination codes external cause"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "external_causes",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "external_causes",
+      "combination_codes",
+      "sequential_events",
+      "chapter_20"
+    ]
+  },
+  "page_range_processed": "pages_87_to_90"
+}

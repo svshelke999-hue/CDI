@@ -1,0 +1,134 @@
+CDI Expert Review Report (AI “Improved Chart” vs Medical Record Evidence)
+Folder: test_mult_for_report/6
+Prepared: 2026-02-02
+
+Scope / Files Reviewed
+- 1) 6.txt (AI “improved” orthopedic consultation note with AI-added sections + physician-input placeholders)
+- 2) multi_chart_1770007862_20260202_102102_numbered_chart.txt (raw medical record text: consult note + operative note)
+- 3) multi_chart_1770007862_20260202_102102.json (raw AI output with “improvements”, “user_input_required”, “recommendations”)
+
+Case synopsis (record-based)
+- 87-year-old male with mechanical fall → left hip pain and inability to ambulate.
+- Baseline: ambulates unassisted; highly active (walking ~5000 steps/day); lives with wife.
+- Imaging: XR AP pelvis + femur demonstrates left displaced femoral neck fracture.
+- Plan/Procedure: Left total hip replacement (THA) selected due to high activity/high functional demand; operative note documents failed spinal converted to general, anterior approach, and detailed implants.
+
+Method (how the “test” was done)
+- Extracted AI-added and “needs physician input” items from:
+  - 6.txt tags: [AI ADDED], [⚠️ PHYSICIAN INPUT REQUIRED]
+  - JSON: enhanced_by_ai.user_input_required and enhanced_by_ai.recommendations
+- Cross-checked each item against the raw consult + operative note to label:
+  - PRESENT (already documented),
+  - PARTIAL (some elements present but incomplete),
+  - MISSING (not found / needs clarification).
+
+Key CDI finding (high-signal)
+- Several “missing” elements in the improved chart are already documented in the record, especially:
+  - Functional baseline and rationale for THA vs hemi.
+  - Surgical approach (anterior) and post-op plan (WBAT, DVT prophylaxis, PT/OT).
+- True remaining gaps are mainly: standardized pain score, quantified alcohol use, and fracture classification (Garden/Pauwels/AO/OTA) if required by local payer expectations.
+
+================================================================================
+Section A — “AI Added” improvements (what the AI changed/added)
+Source: JSON enhanced_by_ai.improvements + visible formatting in 6.txt
+
+1) Structure and section headers
+- AI-added: clearer headers/organization for readability and payer review.
+- Evidence check: NOT APPLICABLE.
+
+2) Dedicated medical necessity section + prompts
+- AI-added: structured “medical necessity” bullets and prompts for “conservative measures” and “expected outcomes”.
+- Evidence check: PARTIAL (medical necessity is supported in consult narrative; a separate formal section is an editorial improvement).
+
+3) Added request for post-op care plan
+- AI-added: placeholders for WB status/rehab/follow-up.
+- Evidence check: PRESENT in operative note (WBAT; PT/OT; DVT prophylaxis; pain plan), follow-up timeline not explicitly stated in excerpts.
+
+================================================================================
+Section B — Physician-input suggestions (AI prompts) + evidence check
+Sources:
+- 6.txt prompts
+- JSON enhanced_by_ai.user_input_required
+
+1) Fall details + pain severity (0–10) + prior treatment attempts
+- AI prompt priority: HIGH
+- Evidence check: PARTIAL
+  - PRESENT: fall described as mechanical; denies head strike/LOC in consult; no other injury.
+  - MISSING: numeric pain score (0–10) and any “prior treatment attempts” prior to presentation (often not applicable for acute fracture).
+
+2) Detailed neurovascular exam with motor grading (0–5) and ROM measurements
+- AI prompt priority: HIGH
+- Evidence check: PARTIAL
+  - PRESENT: motor function and sensation distributions documented; distal perfusion/pulse documented.
+  - MISSING: 0–5 strength grading and explicit ROM degrees (often limited/unsafe to test in acute fracture—document “deferred due to fracture pain” if applicable).
+
+3) Fracture classification (Garden/Pauwels/AO/OTA) + displacement measurements
+- AI prompt priority: MEDIUM
+- Evidence check: PARTIAL
+  - PRESENT: “displaced femoral neck fracture” and “subcapital” terminology in operative documentation.
+  - MISSING: formal classification (Garden/Pauwels/AO/OTA) and measured displacement.
+
+4) Surgical approach and rationale (anterior/posterior/lateral)
+- AI prompt priority: MEDIUM
+- Evidence check: PRESENT (operative note discusses anterior approach risks and includes approach-specific consent discussion).
+
+5) Post-op rehab plan and follow-up timeline
+- AI prompt priority: MEDIUM
+- Evidence check: PARTIAL
+  - PRESENT: WBAT; PT/OT OOB and ambulation; dispo pending PT/OT.
+  - MISSING: explicit clinic follow-up timing (e.g., 2 weeks) in provided excerpts.
+
+================================================================================
+Section C — AI recommendations (JSON recommendations array) + evidence check
+
+1) Pain severity on 0–10 scale + functional limitations (Priority: HIGH)
+- Evidence check: PARTIAL
+  - PRESENT: functional baseline (very active; unassisted ambulation) and current limitation (unable to ambulate).
+  - MISSING: pain score.
+
+2) Detailed neurovascular exam + ROM measurements (Priority: HIGH)
+- Evidence check: PARTIAL (strength grading and ROM degrees missing).
+
+3) Fracture classification and displacement measurements (Priority: MEDIUM)
+- Evidence check: PARTIAL (displaced/subcapital present; formal classification missing).
+
+4) Dedicated medical necessity section highlighting key factors (Priority: HIGH)
+- Evidence check: PRESENT IN SUBSTANCE
+  - Consult and operative note include clear rationale for operative care and THA vs hemi decision based on high functional demand.
+
+5) Comprehensive post-op plan (WB + rehab) (Priority: MEDIUM)
+- Evidence check: PRESENT (WBAT + PT/OT) with minor missing detail (follow-up timeline).
+
+================================================================================
+Section D — CDI expert opinion: additional opportunities (case-specific)
+
+1) Social history quantification
+- Opportunity: alcohol use is documented but not quantified (frequency/amount).
+
+2) Clarify stroke/SAH history wording
+- Observation: PMH mentions SAH history; ensure laterality/timing is consistent and not contradictory across notes.
+
+3) THA vs hemiarthroplasty rationale (already strong)
+- Strength: explicit documentation that hemiarthroplasty was discussed and THA chosen due to high functional demand.
+- Opportunity: if payer scrutiny is expected, add one sentence linking baseline activity to expected benefit (mobility/return to baseline) while staying factual.
+
+================================================================================
+Section E — Suggested compliant CDI query list (record-grounded)
+
+1) Pain score
+- Query: Please document pain severity score (0–10) at rest and/or with movement if assessed.
+
+2) Fracture classification
+- Query: Please document fracture classification (Garden/Pauwels/AO/OTA) and any displacement characterization if available from imaging.
+
+3) Alcohol use details
+- Query: Please quantify alcohol use (frequency/amount).
+
+4) Follow-up planning
+- Query: Please document planned follow-up timeline and rehab expectations if not captured elsewhere.
+
+Bottom line
+- This case documentation is already fairly complete for medical necessity and procedure selection (THA vs hemi) and includes post-op WB/rehab elements.
+- Highest-yield remaining gaps are pain score, quantified alcohol history, and formal fracture classification (if required).
+
+

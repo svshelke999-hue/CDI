@@ -1,0 +1,212 @@
+{
+  "guideline_id": "I.C.21.c.3.c",
+  "semantic_title": "Genetic Susceptibility to Disease (Z15) - Coding Rules and Sequencing Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 21. Factors Influencing Health Status > c. Categories of Z Codes > 3) Status",
+  "page_number": 94,
+  "content": {
+    "full_text": "Genetic susceptibility indicates that a person has a gene that increases the risk of that person developing the disease. Codes from category Z15 should generally not be used as principal or first-listed codes. If the patient has the condition to which he/she is susceptible, and that condition is the reason for the encounter, the code for the current condition should be sequenced first. If the patient is being seen for follow-up after completed treatment for this condition, and the condition no longer exists, a follow-up code should be sequenced first, followed by the appropriate personal history and genetic susceptibility codes. If the purpose of the encounter is genetic counseling associated with procreative management, code Z31.5, Encounter for genetic counseling, should be assigned as the first-listed code, followed by a code from category Z15. Additional codes should be assigned for any applicable family or personal history. (Evidence: pg no: 94, L25-L33)",
+    "summary": "Z15 codes indicate genetic susceptibility with increased disease risk, generally not used as principal codes with specific sequencing rules for different encounter types (Evidence: pg no: 94, L25-L33)",
+    "key_concepts": [
+      "Genetic susceptibility with increased risk (Evidence: pg no: 94, L25-L26)",
+      "Generally not principal or first-listed (Evidence: pg no: 94, L27-L28)",
+      "Current condition sequenced first (Evidence: pg no: 94, L28-L29)",
+      "Follow-up encounter sequencing (Evidence: pg no: 94, L29-L30)",
+      "Genetic counseling encounters (Evidence: pg no: 94, L30-L32)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "GEN_SUSC_SEQ_CURRENT",
+        "rule_text": "If patient has the condition, sequence current condition first (Evidence: pg no: 94, L28-L29)",
+        "explanation": "When patient has the disease they're genetically susceptible to, code the active condition as principal diagnosis (Evidence: pg no: 94, L28-L29)",
+        "importance": "critical",
+        "applies_to": "Z15",
+        "common_applications": [
+          "Active disease with genetic susceptibility",
+          "Current condition encounters"
+        ]
+      },
+      {
+        "rule_id": "GEN_SUSC_SEQ_FOLLOWUP",
+        "rule_text": "For follow-up after treatment, sequence follow-up code first, then history and susceptibility codes (Evidence: pg no: 94, L29-L30)",
+        "explanation": "When condition no longer exists after treatment, use follow-up code first, followed by personal history and genetic susceptibility codes (Evidence: pg no: 94, L29-L30)",
+        "importance": "critical",
+        "applies_to": "Z15",
+        "common_applications": [
+          "Post-treatment follow-up",
+          "Surveillance encounters"
+        ]
+      },
+      {
+        "rule_id": "GEN_SUSC_SEQ_COUNSEL",
+        "rule_text": "For genetic counseling, use Z31.5 first, then Z15 code (Evidence: pg no: 94, L30-L32)",
+        "explanation": "When encounter is for genetic counseling related to procreative management, sequence Z31.5 first followed by appropriate Z15 code (Evidence: pg no: 94, L30-L32)",
+        "importance": "critical",
+        "applies_to": "Z15, Z31.5",
+        "common_applications": [
+          "Genetic counseling encounters",
+          "Procreative management"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine encounter purpose and patient's current condition status",
+      "Step 2: Apply appropriate sequencing rule based on encounter type",
+      "Step 3: Add family or personal history codes as applicable",
+      "Step 4: Assign Z15 code in appropriate sequence position"
+    ],
+    "related_terminology": [
+      "Genetic susceptibility",
+      "Disease risk",
+      "Genetic counseling",
+      "Procreative management",
+      "Follow-up care"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z15",
+        "description": "Genetic susceptibility to disease codes (Evidence: pg no: 94, L25)",
+        "requirement": "Generally not used as principal or first-listed codes",
+        "usage_rules": [
+          "Generally not principal or first-listed (Evidence: pg no: 94, L27-L28)",
+          "Sequence after current condition if present (Evidence: pg no: 94, L28-L29)",
+          "Sequence after follow-up code when applicable (Evidence: pg no: 94, L29-L30)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "Z31.5",
+        "description": "Encounter for genetic counseling (Evidence: pg no: 94, L31)",
+        "context": "First-listed code for genetic counseling encounters related to procreative management",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "Z31": "Encounter for procreative management",
+          "5": "Genetic counseling"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Genetic susceptibility to disease",
+      "Genetic counseling encounters"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "GEN_SUSC_01",
+      "scenario": "Patient with breast cancer and BRCA gene mutation",
+      "documentation_example": "Patient presents with breast cancer. Genetic testing shows BRCA1 mutation indicating increased susceptibility.",
+      "step_by_step": [
+        "Step 1: Identify active breast cancer as reason for encounter",
+        "Step 2: Assign breast cancer code as principal diagnosis",
+        "Step 3: Assign Z15 code as secondary diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "C50.x",
+        "secondary_codes": [
+          "Z15.01"
+        ],
+        "sequencing": "Current condition first, then genetic susceptibility",
+        "rationale": "Current condition is reason for encounter and should be sequenced first (Evidence: pg no: 94, L28-L29)"
+      },
+      "incorrect_coding": {
+        "code": "Z15.01",
+        "codes": [
+          "Z15.01 as principal"
+        ],
+        "rationale": "Z15 codes generally should not be principal diagnosis",
+        "common_mistake": "Using genetic susceptibility as principal diagnosis when active disease present"
+      }
+    },
+    {
+      "scenario_id": "GEN_SUSC_02",
+      "scenario": "Genetic counseling for family planning with BRCA mutation",
+      "documentation_example": "Patient seeks genetic counseling regarding family planning. Has BRCA mutation but no current cancer.",
+      "step_by_step": [
+        "Step 1: Identify encounter purpose as genetic counseling",
+        "Step 2: Assign Z31.5 as first-listed code",
+        "Step 3: Assign appropriate Z15 code as secondary",
+        "Step 4: Add family history codes if applicable"
+      ],
+      "correct_coding": {
+        "primary_code": "Z31.5",
+        "secondary_codes": [
+          "Z15.01"
+        ],
+        "sequencing": "Genetic counseling first, then susceptibility code",
+        "rationale": "For genetic counseling encounters, Z31.5 should be first-listed (Evidence: pg no: 94, L30-L32)"
+      },
+      "incorrect_coding": {
+        "code": "Z15.01",
+        "codes": [
+          "Z15.01 as principal"
+        ],
+        "rationale": "Should use Z31.5 first for genetic counseling encounters",
+        "common_mistake": "Not recognizing genetic counseling as primary purpose"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Generally do not use Z15 codes as principal or first-listed (Evidence: pg no: 94, L27-L28)",
+      "Must follow specific sequencing rules based on encounter type (Evidence: pg no: 94, L28-L32)"
+    ],
+    "best_practices": [
+      "Always consider encounter purpose when sequencing Z15 codes",
+      "Include family and personal history codes when applicable (Evidence: pg no: 94, L32-L33)"
+    ],
+    "common_mistakes": [
+      "Using Z15 as principal diagnosis inappropriately",
+      "Incorrect sequencing based on encounter type",
+      "Forgetting to add family/personal history codes"
+    ],
+    "tips": [
+      "Remember different sequencing rules for different encounter types",
+      "Z31.5 takes precedence for genetic counseling encounters"
+    ],
+    "implementation_notes": [
+      "Requires careful attention to encounter purpose",
+      "Multiple coding scenarios with different sequencing rules"
+    ],
+    "clinical_context": [
+      "Genetic counseling",
+      "Cancer surveillance",
+      "Family planning",
+      "Preventive care"
+    ]
+  },
+  "search_keywords": [
+    "genetic susceptibility",
+    "Z15",
+    "genetic counseling",
+    "Z31.5",
+    "BRCA",
+    "genetic risk",
+    "sequencing rules"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "status_codes",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "outpatient",
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "genetic",
+      "susceptibility",
+      "counseling",
+      "sequencing"
+    ]
+  },
+  "page_range_processed": "pages_93_to_96"
+}

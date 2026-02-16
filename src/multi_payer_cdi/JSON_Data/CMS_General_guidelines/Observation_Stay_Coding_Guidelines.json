@@ -1,0 +1,178 @@
+{
+  "guideline_id": "IV.A.2",
+  "semantic_title": "Observation Stay Coding Guidelines",
+  "section_path": "Section IV > A. Selection of first-listed condition > 2. Observation Stay",
+  "page_number": 112,
+  "content": {
+    "full_text": "When a patient is admitted for observation for a medical condition, assign a code for the medical condition as the first-listed diagnosis. When a patient presents for outpatient surgery and develops complications requiring admission to observation, code the reason for the surgery as the first reported diagnosis (reason for the encounter), followed by codes for the complications as secondary diagnoses. (Evidence: pg no: 112, L35-L36)",
+    "summary": "Provides specific coding instructions for observation stays, differentiating between medical observation and post-surgical observation scenarios (Evidence: pg no: 112, L35-L36)",
+    "key_concepts": [
+      "Medical observation: condition being observed is first-listed (Evidence: pg no: 112, L35-L36)",
+      "Post-surgical observation: surgical reason remains first-listed (Evidence: pg no: 112, L36)",
+      "Complications are coded as secondary diagnoses (Evidence: pg no: 112, L36)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "IV.A.2.1",
+        "rule_text": "For medical observation, code the medical condition as first-listed diagnosis (Evidence: pg no: 112, L35-L36)",
+        "explanation": "When observation is for a medical condition, that condition is the reason for the encounter (Evidence: pg no: 112, L35-L36)",
+        "importance": "high",
+        "applies_to": "medical_observation_codes",
+        "common_applications": [
+          "Chest pain observation",
+          "Syncope observation",
+          "Abdominal pain observation"
+        ]
+      },
+      {
+        "rule_id": "IV.A.2.2",
+        "rule_text": "For post-surgical observation, code surgical reason first, complications secondary (Evidence: pg no: 112, L36)",
+        "explanation": "The original reason for encounter (surgery) remains primary even when complications develop requiring observation (Evidence: pg no: 112, L36)",
+        "importance": "high",
+        "applies_to": "post_surgical_observation",
+        "common_applications": [
+          "Post-operative bleeding requiring observation",
+          "Anesthesia complications requiring observation",
+          "Surgical site complications"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if observation is for medical condition or post-surgical complication",
+      "Step 2: For medical: Code the condition being observed as first-listed",
+      "Step 3: For post-surgical: Code the surgical reason as first-listed",
+      "Step 4: Code complications as secondary diagnoses",
+      "Step 5: Ensure proper sequencing"
+    ],
+    "related_terminology": [
+      "Observation stay",
+      "Medical observation",
+      "Post-surgical observation",
+      "Complications",
+      "Secondary diagnoses"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Medical condition codes for observation",
+      "Surgical indication codes",
+      "Complication codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "IV.A.1",
+        "title": "Outpatient Surgery",
+        "relationship": "builds_upon",
+        "explanation": "Extends outpatient surgery coding to observation scenarios"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "IV.A.2.S1",
+      "scenario": "Patient admitted to observation for chest pain evaluation",
+      "documentation_example": "Patient admitted to observation unit for evaluation of chest pain. Rule out acute coronary syndrome.",
+      "step_by_step": [
+        "Step 1: Identify this as medical observation",
+        "Step 2: Code chest pain as first-listed diagnosis",
+        "Step 3: No complications present",
+        "Step 4: Complete coding"
+      ],
+      "correct_coding": {
+        "primary_code": "R07.89",
+        "secondary_codes": [],
+        "sequencing": "Medical condition being observed is first-listed",
+        "rationale": "Medical observation requires the condition being observed as first-listed diagnosis (Evidence: pg no: 112, L35-L36)"
+      },
+      "incorrect_coding": {
+        "code": "Z03.89",
+        "codes": [],
+        "rationale": "Observation code should not be primary when specific condition is documented",
+        "common_mistake": "Using observation Z-code instead of the condition"
+      }
+    },
+    {
+      "scenario_id": "IV.A.2.S2",
+      "scenario": "Patient scheduled for outpatient surgery develops post-operative bleeding requiring observation",
+      "documentation_example": "Patient underwent outpatient hernia repair, developed post-operative bleeding requiring admission to observation.",
+      "step_by_step": [
+        "Step 1: Identify this as post-surgical observation",
+        "Step 2: Code hernia as first-listed diagnosis (reason for surgery)",
+        "Step 3: Code post-operative bleeding as secondary diagnosis",
+        "Step 4: Verify sequencing"
+      ],
+      "correct_coding": {
+        "primary_code": "K40.90",
+        "secondary_codes": [
+          "T81.0XXA"
+        ],
+        "sequencing": "Surgical reason first, complication second",
+        "rationale": "Post-surgical observation maintains surgical reason as first-listed with complications secondary (Evidence: pg no: 112, L36)"
+      },
+      "incorrect_coding": {
+        "code": "T81.0XXA",
+        "codes": [
+          "T81.0XXA",
+          "K40.90"
+        ],
+        "rationale": "Complication should not be first-listed in post-surgical observation",
+        "common_mistake": "Sequencing complication before surgical indication"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not sequence complications before surgical indication in post-surgical observation (Evidence: pg no: 112, L36)"
+    ],
+    "best_practices": [
+      "Distinguish between medical observation and post-surgical observation (Evidence: pg no: 112, L35-L36)",
+      "Maintain proper sequencing based on observation type"
+    ],
+    "common_mistakes": [
+      "Using observation Z-codes as primary when specific conditions documented",
+      "Incorrect sequencing in post-surgical observation scenarios"
+    ],
+    "tips": [
+      "The type of observation determines the sequencing approach"
+    ],
+    "implementation_notes": [
+      "Applies to hospital observation units",
+      "May apply to extended recovery scenarios"
+    ],
+    "clinical_context": [
+      "Observation stays bridge outpatient and inpatient care",
+      "Post-surgical complications may require extended monitoring"
+    ]
+  },
+  "search_keywords": [
+    "observation stay",
+    "medical observation",
+    "post-surgical observation",
+    "complications",
+    "outpatient surgery complications"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "observation_coding",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "observation",
+      "post-surgical",
+      "complications",
+      "sequencing"
+    ]
+  },
+  "page_range_processed": "pages_111_to_114"
+}

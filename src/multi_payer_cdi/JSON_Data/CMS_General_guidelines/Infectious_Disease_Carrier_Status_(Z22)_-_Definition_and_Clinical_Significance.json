@@ -1,0 +1,141 @@
+{
+  "guideline_id": "I.C.21.c.3.f",
+  "semantic_title": "Infectious Disease Carrier Status (Z22) - Definition and Clinical Significance",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 21. Factors Influencing Health Status > c. Categories of Z Codes > 3) Status",
+  "page_number": 94,
+  "content": {
+    "full_text": "Carrier status indicates that a person harbors the specific organisms of a disease without manifest symptoms and is capable of transmitting the infection. (Evidence: pg no: 94, L43)",
+    "summary": "Z22 codes indicate carrier status where person harbors disease organisms without symptoms but can transmit infection (Evidence: pg no: 94, L43)",
+    "key_concepts": [
+      "Harbors disease organisms (Evidence: pg no: 94, L43)",
+      "No manifest symptoms (Evidence: pg no: 94, L43)",
+      "Capable of transmission (Evidence: pg no: 94, L43)",
+      "Infectious disease carrier (Evidence: pg no: 94, L42)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "CARRIER_DEF",
+        "rule_text": "Person harbors organisms without symptoms but can transmit infection (Evidence: pg no: 94, L43)",
+        "explanation": "Carrier status means asymptomatic harboring of infectious organisms with transmission capability (Evidence: pg no: 94, L43)",
+        "importance": "high",
+        "applies_to": "Z22",
+        "common_applications": [
+          "Hepatitis B carriers",
+          "Streptococcus carriers",
+          "Typhoid carriers"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Confirm presence of infectious organisms",
+      "Step 2: Verify absence of disease symptoms",
+      "Step 3: Confirm transmission capability",
+      "Step 4: Assign appropriate Z22 code"
+    ],
+    "related_terminology": [
+      "Infectious disease carrier",
+      "Asymptomatic carrier",
+      "Disease transmission",
+      "Organism harboring"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z22",
+        "description": "Carrier of infectious disease (Evidence: pg no: 94, L42)",
+        "requirement": "Use when person harbors organisms without symptoms but can transmit",
+        "usage_rules": [
+          "Patient must be asymptomatic (Evidence: pg no: 94, L43)",
+          "Must be capable of transmission (Evidence: pg no: 94, L43)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Carrier of infectious disease"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "CARRIER_01",
+      "scenario": "Asymptomatic hepatitis B carrier",
+      "documentation_example": "Patient is known hepatitis B carrier. No symptoms of hepatitis. Laboratory tests confirm presence of hepatitis B surface antigen.",
+      "step_by_step": [
+        "Step 1: Confirm hepatitis B organism presence",
+        "Step 2: Verify patient has no hepatitis symptoms",
+        "Step 3: Assign Z22.51 for hepatitis B carrier"
+      ],
+      "correct_coding": {
+        "primary_code": "Z22.51",
+        "secondary_codes": [],
+        "sequencing": "Z22.51 as appropriate",
+        "rationale": "Patient harbors hepatitis B without symptoms but can transmit (Evidence: pg no: 94, L43)"
+      },
+      "incorrect_coding": {
+        "code": "B18.1",
+        "codes": [
+          "Active hepatitis codes"
+        ],
+        "rationale": "Patient has no manifest symptoms of disease",
+        "common_mistake": "Using active disease codes for asymptomatic carriers"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not use if patient has manifest symptoms (Evidence: pg no: 94, L43)"
+    ],
+    "best_practices": [
+      "Confirm asymptomatic status before using Z22 codes",
+      "Consider infection control implications"
+    ],
+    "common_mistakes": [
+      "Using carrier codes when patient has active disease",
+      "Confusing carrier status with active infection"
+    ],
+    "tips": [
+      "Carrier status requires absence of symptoms with transmission capability"
+    ],
+    "implementation_notes": [
+      "Important for infection control and public health"
+    ],
+    "clinical_context": [
+      "Infection control",
+      "Public health surveillance",
+      "Contact tracing"
+    ]
+  },
+  "search_keywords": [
+    "infectious disease carrier",
+    "Z22",
+    "carrier status",
+    "asymptomatic carrier",
+    "hepatitis carrier",
+    "disease transmission"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "status_codes",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "outpatient",
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "carrier",
+      "infectious",
+      "transmission",
+      "asymptomatic"
+    ]
+  },
+  "page_range_processed": "pages_93_to_96"
+}

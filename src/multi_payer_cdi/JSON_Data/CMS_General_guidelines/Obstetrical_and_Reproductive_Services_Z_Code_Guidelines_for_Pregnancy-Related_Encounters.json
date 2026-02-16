@@ -1,0 +1,327 @@
+{
+  "guideline_id": "I.C.21.11",
+  "semantic_title": "Obstetrical and Reproductive Services Z Code Guidelines for Pregnancy-Related Encounters",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 21. Factors influencing health status and contact with health services (Z00-Z99) > 11. Encounters for Obstetrical and Reproductive Services",
+  "page_number": 102,
+  "content": {
+    "full_text": "See Section I.C.15. Pregnancy, Childbirth, and the Puerperium, for further instruction on the use of these codes. Z codes for pregnancy are for use in those circumstances when none of the problems or complications included in the codes from the Obstetrics chapter exist (a routine prenatal visit or postpartum care). Codes in category Z34, Encounter for supervision of normal pregnancy, are always first listed and are not to be used with any other code from the OB chapter. Codes in category Z3A, Weeks of gestation, may be assigned to provide additional information about the pregnancy. Category Z3A codes should not be assigned for pregnancies with abortive outcomes (categories O00-O08), elective termination of pregnancy (code Z33.2), nor for postpartum conditions, as category Z3A is not applicable to these conditions. The date of the admission should be used to determine weeks of gestation for inpatient admissions that encompass more than one gestational week. The outcome of delivery, category Z37, should be included on all maternal delivery records. It is always a secondary code. Codes in category Z37 should not be used on the newborn record. Z codes for family planning (contraceptive) or procreative management and counseling should be included on an obstetric record either during the pregnancy or the postpartum stage, if applicable. (Evidence: pg no: 102, L85-L91)",
+    "summary": "Guidelines for using obstetrical and reproductive services Z codes for routine pregnancy care when no complications exist, with specific rules for normal pregnancy supervision, gestational weeks, delivery outcomes, and family planning codes (Evidence: pg no: 102, L85-L91)",
+    "key_concepts": [
+      "Z codes for pregnancy when no OB chapter complications exist (Evidence: pg no: 102, L87-L88)",
+      "Z34 codes always first-listed and not used with other OB codes (Evidence: pg no: 102, L88)",
+      "Z3A codes for weeks of gestation with specific exclusions (Evidence: pg no: 102, L89)",
+      "Z37 delivery outcome codes always secondary on maternal records (Evidence: pg no: 102, L90)",
+      "Z37 codes not used on newborn records (Evidence: pg no: 102, L91)",
+      "Family planning codes can be included during pregnancy or postpartum (Evidence: pg no: 102, L91)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "OB_REPRO_001",
+        "rule_text": "Z codes for pregnancy are for use when none of the problems or complications from the Obstetrics chapter exist (Evidence: pg no: 102, L87-L88)",
+        "explanation": "These codes are specifically for routine, uncomplicated pregnancy encounters such as routine prenatal visits or postpartum care (Evidence: pg no: 102, L87-L88)",
+        "importance": "critical",
+        "applies_to": "all pregnancy Z codes",
+        "common_applications": [
+          "Routine prenatal visits",
+          "Normal postpartum care",
+          "Uncomplicated pregnancy supervision"
+        ]
+      },
+      {
+        "rule_id": "OB_REPRO_002",
+        "rule_text": "Codes in category Z34 are always first listed and are not to be used with any other code from the OB chapter (Evidence: pg no: 102, L88)",
+        "explanation": "Z34 codes for supervision of normal pregnancy must be the primary diagnosis and cannot be combined with any codes from the obstetrics chapter (Evidence: pg no: 102, L88)",
+        "importance": "critical",
+        "applies_to": "category Z34",
+        "common_applications": [
+          "Routine prenatal care visits",
+          "Normal pregnancy supervision encounters"
+        ]
+      },
+      {
+        "rule_id": "OB_REPRO_003",
+        "rule_text": "Category Z3A codes should not be assigned for pregnancies with abortive outcomes, elective termination, or postpartum conditions (Evidence: pg no: 102, L89)",
+        "explanation": "Z3A gestational week codes are not applicable to abortive outcomes (O00-O08), elective termination (Z33.2), or postpartum conditions (Evidence: pg no: 102, L89)",
+        "importance": "high",
+        "applies_to": "category Z3A",
+        "common_applications": [
+          "Excluding Z3A from abortion encounters",
+          "Excluding Z3A from termination encounters",
+          "Excluding Z3A from postpartum encounters"
+        ]
+      },
+      {
+        "rule_id": "OB_REPRO_004",
+        "rule_text": "The outcome of delivery, category Z37, should be included on all maternal delivery records and is always a secondary code (Evidence: pg no: 102, L90)",
+        "explanation": "Every maternal delivery record must include a Z37 outcome code, and this code is never used as the primary diagnosis (Evidence: pg no: 102, L90)",
+        "importance": "critical",
+        "applies_to": "category Z37",
+        "common_applications": [
+          "All delivery encounters",
+          "Maternal delivery records",
+          "Birth outcome documentation"
+        ]
+      },
+      {
+        "rule_id": "OB_REPRO_005",
+        "rule_text": "Codes in category Z37 should not be used on the newborn record (Evidence: pg no: 102, L91)",
+        "explanation": "Delivery outcome codes are only for maternal records and should never appear on newborn medical records (Evidence: pg no: 102, L91)",
+        "importance": "critical",
+        "applies_to": "category Z37",
+        "common_applications": [
+          "Ensuring proper record assignment",
+          "Distinguishing maternal from newborn coding"
+        ]
+      },
+      {
+        "rule_id": "OB_REPRO_006",
+        "rule_text": "Use admission date to determine weeks of gestation for inpatient admissions encompassing more than one gestational week (Evidence: pg no: 102, L89)",
+        "explanation": "When an inpatient stay spans multiple gestational weeks, the gestational age should be based on the date of admission (Evidence: pg no: 102, L89)",
+        "importance": "medium",
+        "applies_to": "Z3A codes for inpatient stays",
+        "common_applications": [
+          "Extended inpatient obstetric stays",
+          "Admissions crossing gestational week boundaries"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Verify no complications or problems from OB chapter exist",
+      "Step 2: For normal pregnancy supervision, use Z34 as first-listed code",
+      "Step 3: Do not combine Z34 with other OB chapter codes",
+      "Step 4: Add Z3A gestational week code if applicable and not excluded",
+      "Step 5: For deliveries, include Z37 outcome code as secondary",
+      "Step 6: Ensure Z37 codes only on maternal records, not newborn",
+      "Step 7: Add family planning codes if applicable during pregnancy/postpartum"
+    ],
+    "related_terminology": [
+      "obstetrical services",
+      "reproductive services",
+      "normal pregnancy",
+      "routine prenatal care",
+      "postpartum care",
+      "weeks of gestation",
+      "delivery outcome",
+      "family planning",
+      "contraceptive management"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z34",
+        "description": "Encounter for supervision of normal pregnancy (Evidence: pg no: 102, L88)",
+        "requirement": "Always first-listed, not used with other OB codes",
+        "usage_rules": [
+          "Always first listed (Evidence: pg no: 102, L88)",
+          "Not to be used with any other code from OB chapter (Evidence: pg no: 102, L88)",
+          "For routine prenatal visits (Evidence: pg no: 102, L87-L88)"
+        ]
+      },
+      {
+        "range": "Z3A",
+        "description": "Weeks of gestation (Evidence: pg no: 102, L89)",
+        "requirement": "Provides additional pregnancy information with specific exclusions",
+        "usage_rules": [
+          "Not for abortive outcomes (O00-O08) (Evidence: pg no: 102, L89)",
+          "Not for elective termination (Z33.2) (Evidence: pg no: 102, L89)",
+          "Not for postpartum conditions (Evidence: pg no: 102, L89)",
+          "Use admission date for inpatient stays spanning multiple weeks (Evidence: pg no: 102, L89)"
+        ]
+      },
+      {
+        "range": "Z37",
+        "description": "Outcome of delivery (Evidence: pg no: 102, L90)",
+        "requirement": "Required on all maternal delivery records as secondary code",
+        "usage_rules": [
+          "Should be included on all maternal delivery records (Evidence: pg no: 102, L90)",
+          "Always a secondary code (Evidence: pg no: 102, L90)",
+          "Should not be used on newborn record (Evidence: pg no: 102, L91)"
+        ]
+      },
+      {
+        "range": "O00-O08",
+        "description": "Abortive outcomes (Evidence: pg no: 102, L89)",
+        "requirement": "Z3A codes not applicable to these conditions",
+        "usage_rules": [
+          "Do not use Z3A codes with these conditions (Evidence: pg no: 102, L89)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "Z33.2",
+        "description": "Elective termination of pregnancy (Evidence: pg no: 102, L89)",
+        "context": "Z3A codes not applicable to this condition",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z33": "Pregnant state category",
+          ".2": "Elective termination"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Pregnancy Z codes",
+      "Normal pregnancy supervision codes",
+      "Gestational week codes",
+      "Delivery outcome codes",
+      "Family planning codes",
+      "Obstetrics chapter codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.15",
+        "title": "Pregnancy, Childbirth, and the Puerperium",
+        "relationship": "references",
+        "explanation": "Referenced for further instruction on obstetrical code usage"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "OB_REPRO_SCENARIO_001",
+      "scenario": "Routine prenatal visit at 28 weeks gestation with no complications",
+      "documentation_example": "Patient presents for routine prenatal care at 28 weeks gestation. No complications noted. Normal fetal heart tones.",
+      "step_by_step": [
+        "Step 1: Verify this is routine care with no OB complications",
+        "Step 2: Assign Z34 code for supervision of normal pregnancy as first-listed",
+        "Step 3: Add Z3A code for 28 weeks gestation",
+        "Step 4: Do not use any codes from OB chapter"
+      ],
+      "correct_coding": {
+        "primary_code": "Appropriate Z34 code",
+        "secondary_codes": [
+          "Z3A.28 (28 weeks gestation)"
+        ],
+        "sequencing": "Z34 first, Z3A second",
+        "rationale": "Z34 codes always first-listed for normal pregnancy supervision, Z3A provides additional gestational information (Evidence: pg no: 102, L88-L89)"
+      },
+      "incorrect_coding": {
+        "code": "Z34 with OB chapter code",
+        "codes": [
+          "Z34 combined with complication codes"
+        ],
+        "rationale": "Z34 codes not to be used with any other code from OB chapter",
+        "common_mistake": "Combining normal pregnancy codes with complication codes"
+      }
+    },
+    {
+      "scenario_id": "OB_REPRO_SCENARIO_002",
+      "scenario": "Normal vaginal delivery of single liveborn infant",
+      "documentation_example": "Patient delivered single liveborn infant via normal spontaneous vaginal delivery. No complications during delivery.",
+      "step_by_step": [
+        "Step 1: Code the delivery encounter appropriately",
+        "Step 2: Add Z37 outcome of delivery code as secondary",
+        "Step 3: Ensure Z37 code only on maternal record",
+        "Step 4: Do not use Z37 on newborn record"
+      ],
+      "correct_coding": {
+        "primary_code": "Appropriate delivery code",
+        "secondary_codes": [
+          "Z37.0 (Single live birth)"
+        ],
+        "sequencing": "Delivery code first, Z37 always secondary",
+        "rationale": "Z37 outcome codes should be included on all maternal delivery records as secondary codes (Evidence: pg no: 102, L90)"
+      },
+      "incorrect_coding": {
+        "code": "Z37 on newborn record",
+        "codes": [
+          "Z37 as primary code",
+          "Z37 on newborn chart"
+        ],
+        "rationale": "Z37 codes should not be used on newborn records and are always secondary",
+        "common_mistake": "Using delivery outcome codes on wrong record or as primary"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "OB_REPRO_EX_001",
+      "scenario": "Gestational week coding exclusions",
+      "code_example": "Z3A codes not used with O00-O08, Z33.2, or postpartum conditions",
+      "breakdown": {
+        "O00-O08": "Abortive outcomes where Z3A not applicable (Evidence: pg no: 102, L89)",
+        "Z33.2": "Elective termination where Z3A not applicable (Evidence: pg no: 102, L89)",
+        "Postpartum": "Conditions where Z3A not applicable (Evidence: pg no: 102, L89)"
+      },
+      "rationale": "Z3A codes only applicable to ongoing pregnancies, not terminated or completed pregnancies (Evidence: pg no: 102, L89)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not use Z34 codes with any other code from OB chapter (Evidence: pg no: 102, L88)",
+      "Do not use Z3A codes for abortive outcomes, elective termination, or postpartum conditions (Evidence: pg no: 102, L89)",
+      "Do not use Z37 codes on newborn records (Evidence: pg no: 102, L91)",
+      "Z37 codes are always secondary, never primary (Evidence: pg no: 102, L90)"
+    ],
+    "best_practices": [
+      "Use Z codes for pregnancy only when no OB complications exist",
+      "Always include Z37 outcome codes on maternal delivery records",
+      "Consider family planning codes during pregnancy or postpartum if applicable",
+      "Use admission date for gestational age in extended inpatient stays"
+    ],
+    "common_mistakes": [
+      "Combining Z34 with OB complication codes",
+      "Using Z3A codes for terminated pregnancies",
+      "Placing Z37 codes on newborn records",
+      "Using Z37 as primary diagnosis"
+    ],
+    "tips": [
+      "Verify absence of complications before using pregnancy Z codes",
+      "Remember Z34 codes are always first-listed",
+      "Check record type before assigning Z37 codes",
+      "Consider gestational age applicability for Z3A codes"
+    ],
+    "implementation_notes": [
+      "Refer to Section I.C.15 for additional obstetrical coding guidance",
+      "Family planning codes can be used during pregnancy or postpartum",
+      "Gestational week determination important for inpatient stays"
+    ],
+    "clinical_context": [
+      "Routine prenatal care",
+      "Normal pregnancy supervision",
+      "Uncomplicated deliveries",
+      "Postpartum care visits",
+      "Family planning services"
+    ]
+  },
+  "search_keywords": [
+    "obstetrical",
+    "reproductive services",
+    "pregnancy Z codes",
+    "Z34",
+    "normal pregnancy",
+    "Z3A",
+    "weeks gestation",
+    "Z37",
+    "delivery outcome",
+    "prenatal care",
+    "postpartum care",
+    "family planning"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "Z codes obstetrical reproductive",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "obstetrical",
+      "reproductive",
+      "pregnancy",
+      "Z codes",
+      "delivery",
+      "prenatal",
+      "postpartum"
+    ]
+  },
+  "page_range_processed": "pages_99_to_102"
+}

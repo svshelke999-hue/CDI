@@ -1,0 +1,146 @@
+{
+  "guideline_id": "I.C.18.h",
+  "semantic_title": "Coding Guidelines for Death NOS (Not Otherwise Specified)",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 18. Chapter 18: Symptoms, signs, and abnormal clinical and laboratory findings > h. Death NOS",
+  "page_number": 77,
+  "content": {
+    "full_text": "Code R99, Ill-defined and unknown cause of mortality, is only for use in the very limited circumstance when a patient who has already died is brought into an emergency department or other healthcare facility and is pronounced dead upon arrival. It does not represent the discharge disposition of death. (Evidence: pg no: 77, L52)",
+    "summary": "Specific guidelines for the very limited use of code R99 for ill-defined mortality, restricted to patients pronounced dead upon arrival (Evidence: pg no: 77, L52)",
+    "key_concepts": [
+      "Very limited use circumstances (Evidence: pg no: 77, L52)",
+      "Dead on arrival scenarios (Evidence: pg no: 77, L52)",
+      "Not for discharge disposition (Evidence: pg no: 77, L52)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "R99_limited_use",
+        "rule_text": "Code R99 is only for use in the very limited circumstance when a patient who has already died is brought into an emergency department or other healthcare facility and is pronounced dead upon arrival (Evidence: pg no: 77, L52)",
+        "explanation": "This code has extremely restricted use for dead-on-arrival situations only (Evidence: pg no: 77, L52)",
+        "importance": "critical",
+        "applies_to": "R99",
+        "common_applications": [
+          "Dead on arrival to emergency department",
+          "Pronounced dead upon facility arrival"
+        ]
+      },
+      {
+        "rule_id": "not_discharge_disposition",
+        "rule_text": "It does not represent the discharge disposition of death (Evidence: pg no: 77, L52)",
+        "explanation": "R99 is not used to indicate that a patient died during the encounter (Evidence: pg no: 77, L52)",
+        "importance": "critical",
+        "applies_to": "R99",
+        "common_applications": [
+          "Distinguishing from in-hospital deaths"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Verify patient was already deceased upon arrival",
+      "Step 2: Confirm patient was pronounced dead upon arrival",
+      "Step 3: Ensure this is not a discharge disposition scenario",
+      "Step 4: Apply R99 only if all criteria met"
+    ],
+    "related_terminology": [
+      "death NOS",
+      "ill-defined mortality",
+      "unknown cause of mortality",
+      "dead on arrival",
+      "pronounced dead upon arrival"
+    ]
+  },
+  "code_references": {
+    "specific_codes": [
+      {
+        "code": "R99",
+        "description": "Ill-defined and unknown cause of mortality - only for dead on arrival cases (Evidence: pg no: 77, L52)",
+        "context": "Very limited use for patients pronounced dead upon arrival",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "R99": "Ill-defined and unknown cause of mortality"
+        }
+      }
+    ],
+    "code_ranges": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Mortality codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "dead_on_arrival",
+      "scenario": "Patient brought to ED by EMS, already deceased, pronounced dead upon arrival",
+      "documentation_example": "Patient found unresponsive at home, no pulse, brought to ED by EMS, pronounced dead upon arrival",
+      "step_by_step": [
+        "Step 1: Verify patient was deceased before arrival",
+        "Step 2: Confirm pronounced dead upon arrival",
+        "Step 3: Assign R99"
+      ],
+      "correct_coding": {
+        "primary_code": "R99",
+        "secondary_codes": [],
+        "sequencing": "Primary diagnosis",
+        "rationale": "Meets criteria for very limited use of R99 for dead on arrival (Evidence: pg no: 77, L52)"
+      },
+      "incorrect_coding": {
+        "code": "R99 for in-hospital death",
+        "rationale": "R99 does not represent discharge disposition of death",
+        "common_mistake": "Using R99 for patients who die during hospitalization"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "R99 has very limited use - only for dead on arrival cases (Evidence: pg no: 77, L52)",
+      "Do not use R99 for discharge disposition of death (Evidence: pg no: 77, L52)"
+    ],
+    "best_practices": [
+      "Verify patient was already deceased before facility arrival"
+    ],
+    "common_mistakes": [
+      "Using R99 for patients who die during hospitalization",
+      "Confusing with discharge disposition coding"
+    ],
+    "tips": [
+      "This code is rarely used due to its very specific criteria"
+    ],
+    "implementation_notes": [
+      "Primarily used in emergency department settings"
+    ],
+    "clinical_context": [
+      "Emergency department arrivals",
+      "EMS transport scenarios",
+      "Coroner cases"
+    ]
+  },
+  "search_keywords": [
+    "death NOS",
+    "R99",
+    "ill-defined mortality",
+    "dead on arrival",
+    "unknown cause of death",
+    "pronounced dead upon arrival"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "symptoms_signs_abnormal_findings",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "emergency"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "death",
+      "mortality",
+      "emergency_department",
+      "dead_on_arrival"
+    ]
+  },
+  "page_range_processed": "pages_75_to_78"
+}

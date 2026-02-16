@@ -1,0 +1,186 @@
+{
+  "guideline_id": "IV.L",
+  "semantic_title": "Coding for Patients Receiving Therapeutic Services Only",
+  "section_path": "Section IV > L. Patients receiving therapeutic services only",
+  "page_number": 114,
+  "content": {
+    "full_text": "For patients receiving therapeutic services only during an encounter/visit, sequence first the diagnosis, condition, problem, or other reason for encounter/visit shown in the medical record to be chiefly responsible for the outpatient services provided during the encounter/visit. Codes for other diagnoses (e.g., chronic conditions) may be sequenced as additional diagnoses. (Evidence: pg no: 114, L85-L86)",
+    "summary": "Establishes sequencing rules for therapeutic service encounters, prioritizing the condition chiefly responsible for services with additional codes for other relevant diagnoses (Evidence: pg no: 114, L85-L86)",
+    "key_concepts": [
+      "Sequence first the reason chiefly responsible for therapeutic services (Evidence: pg no: 114, L85-L86)",
+      "Other diagnoses may be sequenced as additional codes (Evidence: pg no: 114, L86)",
+      "Applies to therapeutic services only encounters (Evidence: pg no: 114, L85)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "IV.L.1",
+        "rule_text": "Sequence first the reason chiefly responsible for therapeutic services (Evidence: pg no: 114, L85-L86)",
+        "explanation": "The primary code should represent the main condition, problem, or reason that is chiefly responsible for the therapeutic services provided (Evidence: pg no: 114, L85-L86)",
+        "importance": "critical",
+        "applies_to": "therapeutic_encounters",
+        "common_applications": [
+          "Physical therapy visits",
+          "Chemotherapy administration",
+          "Wound care services",
+          "Injection therapy"
+        ]
+      },
+      {
+        "rule_id": "IV.L.2",
+        "rule_text": "Code other diagnoses as additional diagnoses when relevant (Evidence: pg no: 114, L86)",
+        "explanation": "Chronic conditions and other diagnoses that are relevant to the encounter may be coded as secondary diagnoses (Evidence: pg no: 114, L86)",
+        "importance": "medium",
+        "applies_to": "secondary_diagnoses",
+        "common_applications": [
+          "Comorbid conditions affecting therapy",
+          "Chronic conditions requiring monitoring",
+          "Related conditions impacting treatment"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Confirm encounter is for therapeutic services only",
+      "Step 2: Identify the main condition requiring therapeutic services",
+      "Step 3: Determine what is chiefly responsible for services provided",
+      "Step 4: Sequence this condition as first-listed diagnosis",
+      "Step 5: Identify other relevant diagnoses",
+      "Step 6: Code relevant conditions as additional diagnoses"
+    ],
+    "related_terminology": [
+      "Therapeutic services",
+      "Chiefly responsible",
+      "Outpatient services",
+      "Additional diagnoses",
+      "Chronic conditions"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Therapeutic service indication codes",
+      "Chronic condition codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "IV.G",
+        "title": "ICD-10-CM code for the diagnosis, condition, problem, or other reason for encounter/visit",
+        "relationship": "applies_concept",
+        "explanation": "Similar sequencing principles for therapeutic services"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "IV.L.S1",
+      "scenario": "Patient with diabetes receives wound care for diabetic foot ulcer",
+      "documentation_example": "Patient presents for wound care of diabetic foot ulcer. Wound cleaned, dressed, and assessed for healing. Diabetes well controlled.",
+      "step_by_step": [
+        "Step 1: Confirm therapeutic services only - wound care",
+        "Step 2: Identify main condition - diabetic foot ulcer",
+        "Step 3: Determine ulcer is chiefly responsible for wound care services",
+        "Step 4: Code diabetic foot ulcer as first-listed",
+        "Step 5: Consider diabetes status as relevant to care"
+      ],
+      "correct_coding": {
+        "primary_code": "E11.621",
+        "secondary_codes": [],
+        "sequencing": "Condition requiring therapeutic services first",
+        "rationale": "Sequence first the condition chiefly responsible for therapeutic services provided (Evidence: pg no: 114, L85-L86)"
+      },
+      "incorrect_coding": {
+        "code": "E11.9",
+        "codes": [
+          "E11.9",
+          "L97.409"
+        ],
+        "rationale": "Should use combination code for diabetic ulcer as primary",
+        "common_mistake": "Not identifying the specific condition requiring therapeutic services"
+      }
+    },
+    {
+      "scenario_id": "IV.L.S2",
+      "scenario": "Patient receives physical therapy for knee osteoarthritis, also has hypertension",
+      "documentation_example": "Patient here for physical therapy for knee osteoarthritis. Exercises performed, range of motion assessed. Also has well-controlled hypertension.",
+      "step_by_step": [
+        "Step 1: Confirm therapeutic services only - physical therapy",
+        "Step 2: Identify main condition - knee osteoarthritis",
+        "Step 3: Determine osteoarthritis is chiefly responsible for PT services",
+        "Step 4: Code osteoarthritis as first-listed",
+        "Step 5: Code hypertension as additional diagnosis if relevant"
+      ],
+      "correct_coding": {
+        "primary_code": "M17.9",
+        "secondary_codes": [
+          "I10"
+        ],
+        "sequencing": "Therapeutic indication first, other conditions additional",
+        "rationale": "Sequence therapeutic indication first, other diagnoses as additional (Evidence: pg no: 114, L85-L86)"
+      },
+      "incorrect_coding": {
+        "code": "I10",
+        "codes": [
+          "I10",
+          "M17.9"
+        ],
+        "rationale": "Hypertension is not the reason for therapeutic services",
+        "common_mistake": "Not prioritizing the condition requiring therapeutic services"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Ensure therapeutic indication is sequenced first, not incidental conditions"
+    ],
+    "best_practices": [
+      "Identify condition chiefly responsible for therapeutic services (Evidence: pg no: 114, L85-L86)",
+      "Include relevant chronic conditions as additional diagnoses (Evidence: pg no: 114, L86)",
+      "Focus on therapeutic service justification"
+    ],
+    "common_mistakes": [
+      "Not identifying the specific therapeutic indication",
+      "Sequencing incidental conditions before therapeutic indication",
+      "Not coding relevant comorbid conditions"
+    ],
+    "tips": [
+      "The therapeutic service should be justified by the first-listed diagnosis"
+    ],
+    "implementation_notes": [
+      "Requires clear documentation of therapeutic indication",
+      "May require coordination with therapy departments"
+    ],
+    "clinical_context": [
+      "Therapeutic services are goal-directed treatments",
+      "Multiple conditions may be relevant but one drives the service need"
+    ]
+  },
+  "search_keywords": [
+    "therapeutic services",
+    "therapy encounters",
+    "treatment services",
+    "chiefly responsible",
+    "therapeutic indication"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "therapeutic_services",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "therapeutic_services",
+      "treatment_encounters",
+      "service_justification",
+      "sequencing"
+    ]
+  },
+  "page_range_processed": "pages_111_to_114"
+}

@@ -1,0 +1,141 @@
+L001: === CHART: Orthopedic Consultation Note ===
+L002: 
+L003: [AI ADDED: Header information formatted] 
+L004: Date of Service: 11/10/2025
+L005: Author: Held, Michael Brian, MD
+L006: Service: Orthopedics
+L007: Filed: 11/10/2025 10:31 AM
+L008: Editor: Held, Michael Brian, MD (Physician)
+L009: 
+L010: ORTHOPAEDICS & REHABILITATION
+L011: 
+L012: Patient name: Patricia Barrie
+L013: Yale MRN: MR3451845
+L014: Date of birth: 9/2/1949 (76 years old)
+L015: Date of visit: 11/10/2025
+L016: Attending of record for this patient: Pasternack, Jordan B, MD
+L017: Provider leaving this note: Michael B Held, MD
+L018: 
+L019: [AI ADDED: Section header] CONSULTATION REASON:
+L020: Left Intertrochanteric hip fracture
+L021: 
+L022: [AI ADDED: Section header] HISTORY OF PRESENT ILLNESS:
+L023: Patricia H Barrie is a 76 y.o. female with PMHX of hypertension, hyperlipidemia, hypothyroidism, colon cancer, thoracic aortic aneurysm, prediabetes who presents status post mechanical fall with left hip pain and inability to ambulate. At baseline, the patient ambulates without assistive device. No headstrike or loss of consciousness reported. No other pain sites reported.
+L024: 
+L025: [AI ADDED: Section header] ORTHOPEDIC HISTORY:
+L026: Right Total Hip Arthroplasty, Left Total Knee Arthroplasty
+L027: 
+L028: [AI ADDED: Section header] SOCIAL HISTORY:
+L029: Patient reports that she has never smoked. She has never used smokeless tobacco. She reports current alcohol use [⚠️ PHYSICIAN INPUT REQUIRED: frequency and amount of alcohol consumption]. She reports that she does not use drugs.
+L030: 
+L031: [AI ADDED: Section header] PAST MEDICAL HISTORY:
+L032: - BCC (basal cell carcinoma), scalp (10/2023)
+L033: - Chest pain (02/2017)
+L034: - Coronary angiogram without significant blockages
+L035: - Chronic upper back pain post-MVA (10/29/2014)
+L036: - Clinical trial participation: PACES S0820, Clinical trial with aspirin-based rx for Colon cancer
+L037: - Colon cancer
+L038: - CPAP (continuous positive airway pressure) dependence
+L039: - Pre-diabetes
+L040: - Ductal carcinoma in situ (DCIS) of left breast
+L041: - Facial nerve disorder, left side, hemifacial spasms
+L042: - Family history of breast cancer
+L043: - History of cosmetic surgery (face lift)
+L044: - Hematuria (negative workup)
+L045: - Hemifacial spasm (left, treated with Botox every 3 months)
+L046: - Herpes zoster (left T-8 Dermatome)
+L047: - History of colonoscopy
+L048: - Hydradenitis
+L049: - Hypercholesterolemia with hypertriglyceridemia
+L050: - Hypertension
+L051: - Hypothyroidism
+L052: - Kidney stone
+L053: - Normal cardiac stress test (MIBI with no ischemia, EF = 83%)
+L054: - Obesity
+L055: - Obstructive sleep apnea on CPAP
+L056: - Osteopenia
+L057: - Temporomandibular disorder
+L058: - Thoracic aortic aneurysm (4.2cm)
+L059: 
+L060: [AI ADDED: Section header] PAST SURGICAL HISTORY:
+L061: - Brain surgery
+L062: - Right breast stereotactic biopsy (benign, 1994)
+L063: - Breast reduction surgery (DCIS found in Left breast)
+L064: - Cataract surgery
+L065: - Hemicolectomy
+L066: - Hysterectomy
+L067: - Kidney stone surgery
+L068: - Left Total knee replacement (Steven Haas, MD, HSS)
+L069: - Lithotripsy
+L070: - Tonsillectomy and adenoidectomy
+L071: - Total abdominal hysterectomy with bilateral salpingo-oophorectomy
+L072: - Tubal ligation
+L073: - Wisdom tooth extraction
+L074: 
+L075: [AI ADDED: Section header] CURRENT MEDICATIONS:
+L076: - Acetaminophen (TYLENOL) 975 mg tablet, Oral, Q6H
+L077: - Alprazolam (XANAX) 0.5 mg tablet, Oral, TID PRN
+L078: - Bisacodyl (DULCOLAX) 5 mg EC tablet, Oral, DAILY PRN
+L079: - Bisacodyl (DULCOLAX) 10 mg suppository, Rectal, DAILY PRN
+L080: - Calcium carbonate (TUMS) 1,000 mg chewable tablet, Oral, BID PRN
+L081: - Carvedilol (COREG) 3.125 mg Immediate Release tablet, Oral, BID WC
+L082: - Chlorhexidine gluconate 2% towelette, Topical, Once PRN
+L083: - Levothyroxine (SYNTHROID, LEVOTHROID) 50 mcg tablet, Oral, Daily
+L084: - Losartan (COZAAR) 100 mg tablet, Oral, Daily
+L085: - Melatonin 3 mg tablet, Oral, Nightly PRN
+L086: - Ondansetron (ZOFRAN) 4 mg injection, IV Push, Q6H PRN
+L087: - Ondansetron (ZOFRAN-ODT) 4 mg disintegrating tablet, Translingual, Q6H PRN
+L088: - Polyethylene glycol (MIRALAX) 17 g packet, Oral, Daily
+L089: - Prochlorperazine edisylate (COMPAZINE) 10 mg injection, IV Push, Q6H PRN
+L090: - Rosuvastatin (CRESTOR) 20 mg tablet, Oral, Nightly
+L091: - Sodium chloride 0.9% flush 3 mL, IV Push, Q8H
+L092: - Sodium chloride 0.9% flush 3 mL, IV Push, PRN for Line Care
+L093: - Sodium chloride 0.9% infusion, Intravenous, Continuous
+L094: - Tramadol (ULTRAM) 25 mg tablet, Oral, Q4H PRN
+L095: - Tramadol (ULTRAM) 50 mg tablet, Oral, Q4H PRN
+L096: 
+L097: [AI ADDED: Section header] ALLERGIES:
+L098: Ragweed and Nitrofuran analogues
+L099: 
+L100: [AI ADDED: Section header] PHYSICAL EXAMINATION:
+L101: [⚠️ PHYSICIAN INPUT REQUIRED: Vital signs including temperature, heart rate, blood pressure, respiratory rate, and oxygen saturation]
+L102: 
+L103: [⚠️ PHYSICIAN INPUT REQUIRED: General appearance of patient]
+L104: 
+L105: [⚠️ PHYSICIAN INPUT REQUIRED: Detailed left hip examination including inspection findings, palpation tenderness, range of motion assessment, neurovascular status of affected extremity]
+L106: 
+L107: [⚠️ PHYSICIAN INPUT REQUIRED: Examination of other joints and systems as relevant]
+L108: 
+L109: [AI ADDED: Section header] DIAGNOSTIC STUDIES:
+L110: [⚠️ PHYSICIAN INPUT REQUIRED: Imaging studies performed, including X-ray findings with detailed description of the left intertrochanteric hip fracture pattern, displacement, comminution, and stability assessment]
+L111: 
+L112: [⚠️ PHYSICIAN INPUT REQUIRED: Laboratory results including CBC, CMP, coagulation studies, and other relevant tests]
+L113: 
+L114: [AI ADDED: Section header] ASSESSMENT:
+L115: [AI ADDED: Structured assessment] 76-year-old female with left intertrochanteric hip fracture following mechanical fall.
+L116: 
+L117: [⚠️ PHYSICIAN INPUT REQUIRED: Fracture classification and detailed characterization]
+L118: 
+L119: [⚠️ PHYSICIAN INPUT REQUIRED: Preoperative risk assessment including ASA classification and medical optimization needs]
+L120: 
+L121: [AI ADDED: Section header] PLAN:
+L122: [⚠️ PHYSICIAN INPUT REQUIRED: Detailed surgical plan including specific procedure (e.g., cephalomedullary nail vs. sliding hip screw), timing of surgery, and perioperative considerations]
+L123: 
+L124: [⚠️ PHYSICIAN INPUT REQUIRED: Postoperative care plan including weight-bearing status, rehabilitation protocol, and follow-up schedule]
+L125: 
+L126: [⚠️ PHYSICIAN INPUT REQUIRED: Pain management strategy]
+L127: 
+L128: [⚠️ PHYSICIAN INPUT REQUIRED: DVT prophylaxis plan]
+L129: 
+L130: [⚠️ PHYSICIAN INPUT REQUIRED: Discharge planning considerations]
+L131: 
+L132: [AI ADDED: Section header] MEDICAL NECESSITY DOCUMENTATION:
+L133: [AI ADDED: Medical necessity statement] This patient has sustained a left intertrochanteric hip fracture requiring surgical intervention. Surgical fixation is indicated due to [⚠️ PHYSICIAN INPUT REQUIRED: specific indications for surgery including fracture characteristics, patient's functional status, and risks of non-operative management]. Conservative management is not appropriate for this type of fracture due to high risk of displacement, non-union, and complications associated with prolonged immobilization.
+L134: 
+L135: [AI ADDED: Section header] INFORMED CONSENT:
+L136: [⚠️ PHYSICIAN INPUT REQUIRED: Documentation of informed consent discussion including risks, benefits, and alternatives discussed with patient/family]
+L137: 
+L138: [AI ADDED: Signature block]
+L139: Electronically signed by: Michael B Held, MD
+L140: Date: 11/10/2025
+L141: Time: 10:31 AM

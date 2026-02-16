@@ -1,0 +1,176 @@
+{
+  "guideline_id": "I.C.2.d",
+  "semantic_title": "Primary Malignancy Previously Excised",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 2. Chapter 2: Neoplasms > d. Primary malignancy previously excised",
+  "page_number": 35,
+  "content": {
+    "full_text": "When a primary malignancy has been previously excised or eradicated from its site and there is no further treatment directed to that site and there is no evidence of any existing primary malignancy at that site, a code from category Z85, Personal history of malignant neoplasm, should be used to indicate the former site of the malignancy. Any mention of extension, invasion, or metastasis to another site is coded as a secondary malignant neoplasm to that site. The secondary site may be the principal or first-listed diagnosis with the Z85 code used as a secondary code. (Evidence: pg no: 35, L48-L54)",
+    "summary": "Guidelines for coding previously excised primary malignancies using Z85 codes and handling metastatic disease (Evidence: pg no: 35, L48-L54)",
+    "key_concepts": [
+      "Primary malignancy previously excised or eradicated (Evidence: pg no: 35, L48-L49)",
+      "No further treatment to original site (Evidence: pg no: 35, L49-L50)",
+      "No evidence of existing primary malignancy (Evidence: pg no: 35, L50)",
+      "Use Z85 codes for personal history (Evidence: pg no: 35, L50-L52)",
+      "Metastasis coded as secondary malignant neoplasm (Evidence: pg no: 35, L52-L53)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "excised_primary_z85_usage",
+        "rule_text": "Use Z85 code when primary malignancy has been excised/eradicated with no further treatment and no evidence of existing primary malignancy (Evidence: pg no: 35, L48-L52)",
+        "explanation": "Z85 codes indicate personal history of malignant neoplasm and should only be used when the primary site has been completely treated and there's no current evidence of malignancy at that site (Evidence: pg no: 35, L48-L52)",
+        "importance": "critical",
+        "applies_to": "previously treated primary malignancies",
+        "common_applications": [
+          "Patient had breast cancer excised 5 years ago, now cancer-free at that site",
+          "Patient had colon cancer resected, no evidence of recurrence at primary site"
+        ]
+      },
+      {
+        "rule_id": "metastasis_with_excised_primary",
+        "rule_text": "Metastasis is coded as secondary malignant neoplasm, may be principal diagnosis with Z85 as secondary (Evidence: pg no: 35, L52-L54)",
+        "explanation": "When there is metastatic disease from a previously excised primary, code the metastatic site as secondary malignant neoplasm and it can be the principal diagnosis with the Z85 code as secondary (Evidence: pg no: 35, L52-L54)",
+        "importance": "critical",
+        "applies_to": "metastatic disease from excised primary",
+        "common_applications": [
+          "Patient had breast cancer excised, now has bone metastases",
+          "Patient had lung cancer removed, develops brain metastases"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Confirm primary malignancy was previously excised or eradicated",
+      "Step 2: Verify no further treatment directed to original site",
+      "Step 3: Confirm no evidence of existing primary malignancy at original site",
+      "Step 4: Use appropriate Z85 code for personal history",
+      "Step 5: If metastases present, code as secondary malignant neoplasm",
+      "Step 6: Sequence appropriately based on focus of care"
+    ],
+    "related_terminology": [
+      "Personal history of malignant neoplasm",
+      "Previously excised",
+      "Eradicated",
+      "Secondary malignant neoplasm",
+      "Metastasis"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z85",
+        "description": "Personal history of malignant neoplasm (Evidence: pg no: 35, L50-L52)",
+        "requirement": "Use when primary malignancy previously excised with no current evidence",
+        "usage_rules": [
+          "Use only when no further treatment directed to original site (Evidence: pg no: 35, L49-L50)",
+          "Use only when no evidence of existing primary malignancy (Evidence: pg no: 35, L50)",
+          "May be secondary code when metastases are principal diagnosis (Evidence: pg no: 35, L53-L54)"
+        ]
+      },
+      {
+        "range": "C77-C79",
+        "description": "Secondary malignant neoplasm codes (Evidence: pg no: 35, L52-L53)",
+        "requirement": "Use for metastases from previously excised primary",
+        "usage_rules": [
+          "May be principal diagnosis with Z85 as secondary (Evidence: pg no: 35, L53-L54)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Personal history of malignant neoplasm",
+      "Secondary malignant neoplasms"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.2.t",
+        "title": "Secondary malignant neoplasm of lymphoid tissue",
+        "relationship": "related_to",
+        "explanation": "Referenced for additional guidance on secondary malignant neoplasms"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "excised_primary_with_mets",
+      "scenario": "Patient had breast cancer excised 3 years ago, now presents with bone metastases",
+      "documentation_example": "Patient with history of right breast adenocarcinoma, surgically excised 3 years ago, now presents with bone metastases",
+      "step_by_step": [
+        "Step 1: Confirm breast cancer was previously excised",
+        "Step 2: Verify no current treatment for breast site",
+        "Step 3: Identify bone metastases as current focus",
+        "Step 4: Sequence bone metastases as principal diagnosis",
+        "Step 5: Use Z85.3 for personal history of breast malignancy as secondary"
+      ],
+      "correct_coding": {
+        "primary_code": "C79.51 (Secondary malignant neoplasm of bone)",
+        "secondary_codes": [
+          "Z85.3 (Personal history of malignant neoplasm of breast)"
+        ],
+        "sequencing": "Secondary malignant neoplasm first, personal history second",
+        "rationale": "Metastatic site may be principal with Z85 as secondary when primary was previously excised (Evidence: pg no: 35, L53-L54)"
+      },
+      "incorrect_coding": {
+        "code": "C50.911 as principal",
+        "codes": [
+          "Active breast cancer code as principal"
+        ],
+        "rationale": "Should not use active cancer code when primary was previously excised and eradicated",
+        "common_mistake": "Using active cancer codes instead of personal history codes for excised primaries"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Only use Z85 when there is no evidence of existing primary malignancy at original site (Evidence: pg no: 35, L50)",
+      "Do not use Z85 if there is ongoing treatment directed to original site (Evidence: pg no: 35, L49-L50)"
+    ],
+    "best_practices": [
+      "Carefully review documentation to confirm primary site is truly clear (Evidence: pg no: 35, L48-L50)",
+      "Code metastases as secondary malignant neoplasms, not recurrence (Evidence: pg no: 35, L52-L53)"
+    ],
+    "common_mistakes": [
+      "Using active cancer codes for previously excised primaries (Evidence: pg no: 35, L50-L52)",
+      "Not recognizing when metastases can be principal diagnosis (Evidence: pg no: 35, L53-L54)"
+    ],
+    "tips": [
+      "Z85 codes indicate personal history, not active disease (Evidence: pg no: 35, L50-L52)",
+      "Metastases from excised primary are still coded as secondary malignant neoplasms (Evidence: pg no: 35, L52-L53)"
+    ],
+    "implementation_notes": [
+      "This guideline helps distinguish between active and historical malignancies"
+    ],
+    "clinical_context": [
+      "Common scenario in oncology follow-up care and surveillance"
+    ]
+  },
+  "search_keywords": [
+    "Z85 personal history",
+    "excised primary malignancy",
+    "previously treated cancer",
+    "cancer history coding",
+    "metastases from excised primary"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "neoplasms",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "neoplasms",
+      "personal_history",
+      "Z85",
+      "metastasis",
+      "excised_primary"
+    ]
+  },
+  "page_range_processed": "pages_33_to_36"
+}

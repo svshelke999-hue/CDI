@@ -1,0 +1,223 @@
+{
+  "guideline_id": "I.B.7",
+  "semantic_title": "Multiple Coding Requirements for Single Conditions",
+  "section_path": "Section I > B. General Coding Guidelines > 7. Multiple coding for a single condition",
+  "page_number": 13,
+  "content": {
+    "full_text": "In addition to the etiology/manifestation convention that requires two codes to fully describe a single condition that affects multiple body systems, there are other single conditions that also require more than one code. \"Use additional code\" notes are found in the Tabular List at codes that are not part of an etiology/manifestation pair where a secondary code is useful to fully describe a condition. The sequencing rule is the same as the etiology/manifestation pair, \"use additional code\" indicates that a secondary code should be added, if known. For example, for bacterial infections that are not included in chapter 1, a secondary code from category B95, Streptococcus, Staphylococcus, and Enterococcus, as the cause of diseases classified elsewhere, or B96, Other bacterial agents as the cause of diseases classified elsewhere, may be required to identify the bacterial organism causing the infection. A \"use additional code\" note will normally be found at the infectious disease code, indicating a need for the organism code to be added as a secondary code. \"Code first\" notes are also under certain codes that are not specifically manifestation codes but may be due to an underlying cause. When there is a \"code first\" note and an underlying condition is present, the underlying condition should be sequenced first, if known. \"Code, if applicable, any causal condition first\" notes indicate that this code may be assigned as a principal diagnosis when the causal condition is unknown or not applicable. If a causal condition is known, then the code for that condition should be sequenced as the principal or first-listed diagnosis. (Evidence: pg no: 13-14, L47-L53)",
+    "summary": "Describes multiple coding requirements for single conditions beyond etiology/manifestation pairs, including 'use additional code', 'code first', and 'code, if applicable, any causal condition first' instructions. (Evidence: pg no: 13-14, L47-L53)",
+    "key_concepts": [
+      "Single conditions may require multiple codes beyond etiology/manifestation (Evidence: pg no: 13, L47-L48)",
+      "'Use additional code' notes require secondary codes when known (Evidence: pg no: 13, L48-L49)",
+      "'Code first' notes require underlying condition to be sequenced first (Evidence: pg no: 13-14, L50-L52)",
+      "'Code, if applicable, any causal condition first' allows flexibility based on knowledge of causal condition (Evidence: pg no: 14, L53)",
+      "Bacterial organism codes B95 and B96 commonly used as secondary codes (Evidence: pg no: 13, L49)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.B.7.1",
+        "rule_text": "Follow 'use additional code' instructions to add secondary codes when known (Evidence: pg no: 13, L48-L49)",
+        "explanation": "When the tabular list contains a 'use additional code' note, a secondary code should be added if the information is known and documented, following the same sequencing principles as etiology/manifestation pairs (Evidence: pg no: 13, L48-L49)",
+        "importance": "high",
+        "applies_to": "codes_with_use_additional_code_notes",
+        "common_applications": [
+          "Adding organism codes for infections",
+          "Adding severity or complication codes",
+          "Adding functional status codes"
+        ]
+      },
+      {
+        "rule_id": "I.B.7.2",
+        "rule_text": "Follow 'code first' instructions to sequence underlying condition first when present (Evidence: pg no: 13-14, L50-L52)",
+        "explanation": "When a code has a 'code first' note and an underlying condition is present and known, the underlying condition should be sequenced as the principal or first-listed diagnosis (Evidence: pg no: 13-14, L50-L52)",
+        "importance": "high",
+        "applies_to": "codes_with_code_first_notes",
+        "common_applications": [
+          "Coding complications with underlying diseases",
+          "Coding manifestations with underlying causes",
+          "Sequencing related conditions properly"
+        ]
+      },
+      {
+        "rule_id": "I.B.7.3",
+        "rule_text": "Use bacterial organism codes B95/B96 for infections outside Chapter 1 (Evidence: pg no: 13, L49)",
+        "explanation": "For bacterial infections not included in Chapter 1, secondary codes from categories B95 (Streptococcus, Staphylococcus, and Enterococcus) or B96 (Other bacterial agents) may be required to identify the specific organism causing the infection (Evidence: pg no: 13, L49)",
+        "importance": "high",
+        "applies_to": "B95-B96",
+        "common_applications": [
+          "Pneumonia with identified organism",
+          "Urinary tract infections with organism",
+          "Wound infections with organism identification"
+        ]
+      },
+      {
+        "rule_id": "I.B.7.4",
+        "rule_text": "'Code, if applicable, any causal condition first' allows principal diagnosis assignment when cause unknown (Evidence: pg no: 14, L53)",
+        "explanation": "This instruction indicates the code may be used as principal diagnosis when the causal condition is unknown or not applicable, but if a causal condition is known, it should be sequenced first (Evidence: pg no: 14, L53)",
+        "importance": "medium",
+        "applies_to": "codes_with_causal_condition_notes",
+        "common_applications": [
+          "Conditions with optional causal relationships",
+          "Situations where underlying cause may or may not be present",
+          "Flexible sequencing based on clinical scenario"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify the primary condition requiring coding",
+      "Step 2: Check tabular list for instructional notes",
+      "Step 3: Look for 'use additional code', 'code first', or 'code, if applicable' notes",
+      "Step 4: Determine if additional information is known and documented",
+      "Step 5: Apply appropriate sequencing based on the instructional note type",
+      "Step 6: Assign all required codes in proper sequence"
+    ],
+    "related_terminology": [
+      "use additional code",
+      "code first",
+      "code, if applicable, any causal condition first",
+      "etiology/manifestation",
+      "secondary code",
+      "underlying condition",
+      "bacterial organisms",
+      "sequencing"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "B95",
+        "description": "Streptococcus, Staphylococcus, and Enterococcus, as the cause of diseases classified elsewhere (Evidence: pg no: 13, L49)",
+        "requirement": "Use as secondary code for bacterial infections outside Chapter 1",
+        "usage_rules": [
+          "Add when bacterial organism is identified (Evidence: pg no: 13, L49)",
+          "Use as secondary code only (Evidence: pg no: 13, L49)"
+        ]
+      },
+      {
+        "range": "B96",
+        "description": "Other bacterial agents as the cause of diseases classified elsewhere (Evidence: pg no: 13, L49)",
+        "requirement": "Use as secondary code for bacterial infections outside Chapter 1",
+        "usage_rules": [
+          "Add when bacterial organism is identified (Evidence: pg no: 13, L49)",
+          "Use as secondary code only (Evidence: pg no: 13, L49)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Etiology/manifestation pairs",
+      "Bacterial organism codes",
+      "Infectious disease codes",
+      "Underlying conditions"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.B.10",
+        "title": "Sequela (Late Effects)",
+        "relationship": "related_to",
+        "explanation": "Referenced for additional multiple coding scenarios"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "I.B.7.S1",
+      "scenario": "Patient with pneumonia due to Streptococcus pneumoniae",
+      "documentation_example": "Final diagnosis: Community-acquired pneumonia due to Streptococcus pneumoniae",
+      "step_by_step": [
+        "Step 1: Identify primary condition (pneumonia)",
+        "Step 2: Check J18.9 in tabular for instructional notes",
+        "Step 3: Find 'use additional code' note for organism",
+        "Step 4: Identify organism (Streptococcus pneumoniae)",
+        "Step 5: Assign J18.9 as primary, B95.3 as secondary"
+      ],
+      "correct_coding": {
+        "primary_code": "J18.9",
+        "secondary_codes": [
+          "B95.3"
+        ],
+        "sequencing": "Pneumonia first, organism second",
+        "rationale": "Use additional code instruction requires organism code when known (Evidence: pg no: 13, L48-L49)"
+      },
+      "incorrect_coding": {
+        "code": "J18.9",
+        "codes": [
+          "J18.9"
+        ],
+        "rationale": "Missing required organism code per 'use additional code' instruction",
+        "common_mistake": "Ignoring 'use additional code' instructions"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "I.B.7.E1",
+      "scenario": "Bacterial infection requiring organism identification",
+      "code_example": "J18.9 + B95.3",
+      "breakdown": {
+        "J18.9": "Pneumonia, unspecified organism (Evidence: pg no: 13, L49)",
+        "B95.3": "Streptococcus pneumoniae as cause of diseases classified elsewhere (Evidence: pg no: 13, L49)"
+      },
+      "rationale": "Use additional code instruction requires organism identification when known (Evidence: pg no: 13, L48-L49)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Always check for instructional notes in tabular list (Evidence: pg no: 13, L48)",
+      "Do not ignore 'use additional code' instructions when information is available (Evidence: pg no: 13, L48-L49)"
+    ],
+    "best_practices": [
+      "Follow sequencing rules based on instructional note type (Evidence: pg no: 13, L48-L49)",
+      "Add secondary codes only when information is known and documented (Evidence: pg no: 13, L48-L49)"
+    ],
+    "common_mistakes": [
+      "Missing organism codes for infections (Evidence: pg no: 13, L49)",
+      "Incorrect sequencing with 'code first' instructions (Evidence: pg no: 13-14, L50-L52)"
+    ],
+    "tips": [
+      "Look for B95/B96 codes for bacterial infections outside Chapter 1 (Evidence: pg no: 13, L49)",
+      "Pay attention to conditional language in instructional notes (Evidence: pg no: 14, L53)"
+    ],
+    "implementation_notes": [
+      "Requires careful attention to tabular list instructions"
+    ],
+    "clinical_context": [
+      "Provides complete clinical picture with multiple codes",
+      "Important for infection control and antibiotic stewardship"
+    ]
+  },
+  "search_keywords": [
+    "multiple coding",
+    "use additional code",
+    "code first",
+    "code if applicable",
+    "bacterial organisms",
+    "B95",
+    "B96",
+    "etiology manifestation",
+    "sequencing",
+    "instructional notes"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "multiple_coding",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "multiple_coding",
+      "instructional_notes",
+      "sequencing",
+      "bacterial_organisms",
+      "tabular_list"
+    ]
+  },
+  "page_range_processed": "pages_12_to_15"
+}

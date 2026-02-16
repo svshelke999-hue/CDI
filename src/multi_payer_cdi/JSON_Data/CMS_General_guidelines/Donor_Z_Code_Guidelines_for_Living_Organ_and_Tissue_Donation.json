@@ -1,0 +1,224 @@
+{
+  "guideline_id": "I.C.21.9",
+  "semantic_title": "Donor Z Code Guidelines for Living Organ and Tissue Donation",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 21. Factors influencing health status and contact with health services (Z00-Z99) > 9. Donor",
+  "page_number": 101,
+  "content": {
+    "full_text": "Codes in category Z52, Donors of organs and tissues, are used for living individuals who are donating blood or other body tissue. These codes are for individuals donating for others, as well as for self-donations. They are not used to identify cadaveric donations. (Evidence: pg no: 101, L64-L66)",
+    "summary": "Guidelines for using Z52 donor codes for living individuals donating blood or tissue, including donations for others and self-donations, but excluding cadaveric donations (Evidence: pg no: 101, L64-L66)",
+    "key_concepts": [
+      "Z52 category for donors of organs and tissues (Evidence: pg no: 101, L65)",
+      "Used for living individuals only (Evidence: pg no: 101, L65)",
+      "Includes blood and other body tissue donations (Evidence: pg no: 101, L65)",
+      "Covers donations for others and self-donations (Evidence: pg no: 101, L65-L66)",
+      "Not used for cadaveric donations (Evidence: pg no: 101, L66)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "DONOR_001",
+        "rule_text": "Z52 codes are used for living individuals who are donating blood or other body tissue (Evidence: pg no: 101, L65)",
+        "explanation": "These codes are specifically for living donors and cover various types of donations including blood and tissue (Evidence: pg no: 101, L65)",
+        "importance": "critical",
+        "applies_to": "category Z52",
+        "common_applications": [
+          "Blood donation encounters",
+          "Organ donation procedures",
+          "Tissue donation encounters"
+        ]
+      },
+      {
+        "rule_id": "DONOR_002",
+        "rule_text": "Z52 codes are for individuals donating for others, as well as for self-donations (Evidence: pg no: 101, L65-L66)",
+        "explanation": "The codes apply to both altruistic donations to other individuals and autologous donations for the patient's own future use (Evidence: pg no: 101, L65-L66)",
+        "importance": "high",
+        "applies_to": "all donation types",
+        "common_applications": [
+          "Directed donations to family members",
+          "Anonymous donations to blood banks",
+          "Autologous blood banking before surgery"
+        ]
+      },
+      {
+        "rule_id": "DONOR_003",
+        "rule_text": "Z52 codes are not used to identify cadaveric donations (Evidence: pg no: 101, L66)",
+        "explanation": "These codes are exclusively for living donors and should not be applied to deceased donor situations (Evidence: pg no: 101, L66)",
+        "importance": "critical",
+        "applies_to": "cadaveric donation exclusion",
+        "common_applications": [
+          "Distinguishing living from deceased donor procedures",
+          "Proper coding for organ procurement encounters"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Verify donor is a living individual",
+      "Step 2: Identify type of donation (blood, organ, tissue)",
+      "Step 3: Determine if donation is for others or self",
+      "Step 4: Confirm this is not a cadaveric donation",
+      "Step 5: Select appropriate Z52 code",
+      "Step 6: Add any necessary procedure codes"
+    ],
+    "related_terminology": [
+      "donor",
+      "living donor",
+      "blood donation",
+      "organ donation",
+      "tissue donation",
+      "self-donation",
+      "autologous donation",
+      "cadaveric donation"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z52",
+        "description": "Donors of organs and tissues (Evidence: pg no: 101, L65)",
+        "requirement": "Use for living donors only",
+        "usage_rules": [
+          "For living individuals donating blood or tissue (Evidence: pg no: 101, L65)",
+          "For donations to others and self-donations (Evidence: pg no: 101, L65-L66)",
+          "Not for cadaveric donations (Evidence: pg no: 101, L66)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Donor Z codes",
+      "Living donor codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "DONOR_SCENARIO_001",
+      "scenario": "Living patient donates blood for general blood bank use",
+      "documentation_example": "Healthy adult presents to blood donation center for routine blood donation",
+      "step_by_step": [
+        "Step 1: Confirm patient is living donor",
+        "Step 2: Identify donation type (blood)",
+        "Step 3: Confirm donation is for others (blood bank)",
+        "Step 4: Select appropriate Z52 code for blood donation",
+        "Step 5: Add procedure codes as needed"
+      ],
+      "correct_coding": {
+        "primary_code": "Appropriate Z52 blood donor code",
+        "secondary_codes": [
+          "Procedure codes as applicable"
+        ],
+        "sequencing": "Donor code as primary reason for encounter",
+        "rationale": "Z52 codes used for living individuals donating blood for others (Evidence: pg no: 101, L65-L66)"
+      },
+      "incorrect_coding": {
+        "code": "Non-donor code",
+        "codes": [
+          "Procedure code only"
+        ],
+        "rationale": "Would not identify the donor status of the encounter",
+        "common_mistake": "Omitting donor code for donation encounters"
+      }
+    },
+    {
+      "scenario_id": "DONOR_SCENARIO_002",
+      "scenario": "Patient donates blood for own upcoming surgery",
+      "documentation_example": "Patient presents for autologous blood donation in preparation for scheduled surgery",
+      "step_by_step": [
+        "Step 1: Confirm patient is living donor",
+        "Step 2: Identify donation type (blood)",
+        "Step 3: Recognize this is self-donation (autologous)",
+        "Step 4: Select appropriate Z52 code",
+        "Step 5: Consider adding codes for upcoming procedure if relevant"
+      ],
+      "correct_coding": {
+        "primary_code": "Appropriate Z52 blood donor code",
+        "secondary_codes": [
+          "Additional codes as appropriate"
+        ],
+        "sequencing": "Donor code primary",
+        "rationale": "Z52 codes apply to self-donations as well as donations for others (Evidence: pg no: 101, L65-L66)"
+      },
+      "incorrect_coding": {
+        "code": "Preparation for surgery code only",
+        "codes": [
+          "Pre-operative codes without donor code"
+        ],
+        "rationale": "Would not capture the donation aspect of the encounter",
+        "common_mistake": "Focusing on upcoming surgery rather than current donation"
+      }
+    }
+  ],
+  "procedure_links": [
+    {
+      "cpt_code": "Various blood collection codes",
+      "description": "Blood collection procedures",
+      "relationship": "commonly_coded_with",
+      "context": "Blood donation encounters",
+      "note": "Procedure codes may be needed in addition to donor Z codes"
+    }
+  ],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not use Z52 codes for cadaveric donations (Evidence: pg no: 101, L66)",
+      "Only use for living donors (Evidence: pg no: 101, L65)"
+    ],
+    "best_practices": [
+      "Verify donor is living before using Z52 codes",
+      "Consider both donations for others and self-donations",
+      "Add appropriate procedure codes when applicable"
+    ],
+    "common_mistakes": [
+      "Using donor codes for cadaveric donations",
+      "Omitting donor codes for donation encounters",
+      "Not recognizing self-donations as appropriate for Z52 codes"
+    ],
+    "tips": [
+      "Remember that autologous donations qualify for Z52 codes",
+      "Distinguish between living and cadaveric donor situations",
+      "Consider what type of donation is being performed"
+    ],
+    "implementation_notes": [
+      "Codes apply to various types of donations",
+      "Both altruistic and autologous donations are included",
+      "May need additional procedure codes"
+    ],
+    "clinical_context": [
+      "Blood donation centers",
+      "Pre-operative autologous blood banking",
+      "Living organ donor evaluations and procedures"
+    ]
+  },
+  "search_keywords": [
+    "donor",
+    "Z52",
+    "living donor",
+    "blood donation",
+    "organ donation",
+    "tissue donation",
+    "autologous",
+    "self-donation",
+    "cadaveric exclusion"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "Z codes donor",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "donor",
+      "Z52",
+      "living donor",
+      "blood donation",
+      "tissue donation"
+    ]
+  },
+  "page_range_processed": "pages_99_to_102"
+}

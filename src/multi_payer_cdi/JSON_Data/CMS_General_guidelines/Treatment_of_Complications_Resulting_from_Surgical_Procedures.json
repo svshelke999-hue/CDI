@@ -1,0 +1,146 @@
+{
+  "guideline_id": "I.C.2.c.4",
+  "semantic_title": "Treatment of Complications Resulting from Surgical Procedures",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 2. Chapter 2: Neoplasms > c. Coding and sequencing of complications > 4) Treatment of a complication resulting from a surgical procedure",
+  "page_number": 34,
+  "content": {
+    "full_text": "When the admission/encounter is for treatment of a complication resulting from a surgical procedure, designate the complication as the principal or first-listed diagnosis if treatment is directed at resolving the complication. (Evidence: pg no: 34, L42-L47)",
+    "summary": "Sequencing guidelines for surgical complications when treatment is directed at resolving the complication (Evidence: pg no: 34, L42-L47)",
+    "key_concepts": [
+      "Complication from surgical procedure (Evidence: pg no: 34, L44)",
+      "Treatment directed at resolving complication (Evidence: pg no: 34, L46-L47)",
+      "Complication as principal diagnosis (Evidence: pg no: 34, L45-L46)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "surgical_complication_sequencing",
+        "rule_text": "Designate complication as principal/first-listed diagnosis when treatment is directed at resolving the complication (Evidence: pg no: 34, L45-L47)",
+        "explanation": "When a patient is admitted specifically to treat a complication that resulted from a surgical procedure, the complication itself becomes the principal diagnosis (Evidence: pg no: 34, L44-L47)",
+        "importance": "critical",
+        "applies_to": "surgical complications requiring treatment",
+        "common_applications": [
+          "Post-operative infection requiring treatment",
+          "Surgical site bleeding requiring intervention",
+          "Anastomotic leak requiring repair"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify that complication resulted from surgical procedure",
+      "Step 2: Confirm treatment is directed at resolving the complication",
+      "Step 3: Sequence complication as principal/first-listed diagnosis",
+      "Step 4: Add other relevant codes as secondary diagnoses"
+    ],
+    "related_terminology": [
+      "Surgical complication",
+      "Post-operative complication",
+      "Principal diagnosis",
+      "First-listed diagnosis"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "T80-T88",
+        "description": "Complications of surgical and medical care codes (Evidence: pg no: 34, L45-L47)",
+        "requirement": "Use as principal when treatment is directed at complication",
+        "usage_rules": [
+          "Sequence as principal diagnosis when treating surgical complications (Evidence: pg no: 34, L45-L47)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Surgical complications",
+      "Post-operative complications"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.2.c",
+        "title": "Coding and sequencing of complications",
+        "relationship": "implements",
+        "explanation": "Specific implementation of complication sequencing framework"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "surgical_complication_treatment",
+      "scenario": "Patient develops post-operative wound infection after cancer surgery, admitted for antibiotic treatment",
+      "documentation_example": "Patient who had colon resection for cancer 2 weeks ago presents with surgical site infection, admitted for IV antibiotics",
+      "step_by_step": [
+        "Step 1: Identify surgical site infection as complication from surgery",
+        "Step 2: Confirm treatment is directed at infection (antibiotics)",
+        "Step 3: Sequence surgical site infection as principal diagnosis",
+        "Step 4: Add other relevant codes as secondary"
+      ],
+      "correct_coding": {
+        "primary_code": "T81.4XXA (Infection following a procedure, initial encounter)",
+        "secondary_codes": [
+          "Z87.891 (Personal history of nicotine dependence)"
+        ],
+        "sequencing": "Complication first, other relevant codes secondary",
+        "rationale": "When treatment is directed at resolving surgical complication, complication is principal (Evidence: pg no: 34, L45-L47)"
+      },
+      "incorrect_coding": {
+        "code": "C18.9 as principal",
+        "codes": [
+          "Original cancer diagnosis as principal"
+        ],
+        "rationale": "The original condition should not be principal when treating its surgical complication",
+        "common_mistake": "Sequencing original diagnosis instead of current complication being treated"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "This applies only when treatment is specifically directed at the complication (Evidence: pg no: 34, L46-L47)"
+    ],
+    "best_practices": [
+      "Focus on what is currently being treated, not the original condition (Evidence: pg no: 34, L45-L47)",
+      "Ensure complication is truly from surgical procedure (Evidence: pg no: 34, L44)"
+    ],
+    "common_mistakes": [
+      "Sequencing original diagnosis instead of current complication (Evidence: pg no: 34, L45-L47)"
+    ],
+    "tips": [
+      "The key is whether treatment is directed at resolving the complication (Evidence: pg no: 34, L46-L47)"
+    ],
+    "implementation_notes": [
+      "This guideline applies to any surgical complication, not just cancer-related surgeries"
+    ],
+    "clinical_context": [
+      "Surgical complications require focused treatment and appropriate sequencing"
+    ]
+  },
+  "search_keywords": [
+    "surgical complications",
+    "post-operative complications",
+    "complication sequencing",
+    "surgical procedure complications",
+    "T81 complications"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "neoplasms",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "neoplasms",
+      "surgical_complications",
+      "sequencing",
+      "complications"
+    ]
+  },
+  "page_range_processed": "pages_33_to_36"
+}

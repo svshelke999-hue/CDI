@@ -1,0 +1,167 @@
+{
+  "guideline_id": "I.C.19.d.7",
+  "semantic_title": "Encounters for Treatment of Sequela of Burns and Corrosions Using 7th Character S",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 19. Injury, Poisoning, and Certain Other Consequences of External Causes > d. Burns and Corrosions > 7. Encounters for treatment of sequela of burns",
+  "page_number": 82,
+  "content": {
+    "full_text": "Encounters for the treatment of the late effects of burns or corrosions (i.e., scars or joint contractures) should be coded with a burn or corrosion code with the 7th character \"S\" for sequela. (Evidence: pg no: 82, L23-L25)",
+    "summary": "Guidelines for coding encounters specifically for treatment of late effects or sequelae of burns and corrosions using the 7th character S (Evidence: pg no: 82, L23-L25)",
+    "key_concepts": [
+      "7th character S for sequela coding (Evidence: pg no: 82, L24-L25)",
+      "Late effects of burns and corrosions (Evidence: pg no: 82, L24)",
+      "Scars and joint contractures as examples (Evidence: pg no: 82, L24)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "SEQUELA_7TH_CHARACTER_S",
+        "rule_text": "Use burn or corrosion code with 7th character \"S\" for encounters treating late effects (Evidence: pg no: 82, L24-L25)",
+        "explanation": "When the encounter is specifically for treatment of sequelae such as scars or joint contractures from previous burns or corrosions, the appropriate burn/corrosion code with 7th character S should be assigned (Evidence: pg no: 82, L23-L25)",
+        "importance": "critical",
+        "applies_to": "burn_and_corrosion_codes",
+        "common_applications": [
+          "Scar treatment",
+          "Joint contracture treatment",
+          "Other late effects of burns/corrosions"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify encounter as treatment of late effects/sequelae",
+      "Step 2: Determine original burn or corrosion site and type",
+      "Step 3: Assign appropriate burn/corrosion code",
+      "Step 4: Use 7th character \"S\" for sequela"
+    ],
+    "related_terminology": [
+      "Sequela",
+      "Late effects",
+      "7th character S",
+      "Scars",
+      "Joint contractures",
+      "Burn sequelae",
+      "Corrosion sequelae"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "burn_and_corrosion_codes",
+        "description": "All burn and corrosion codes when used for sequelae (Evidence: pg no: 82, L24-L25)",
+        "requirement": "Must use 7th character S for sequela encounters",
+        "usage_rules": [
+          "Use for late effects treatment encounters (Evidence: pg no: 82, L23-L24)",
+          "Examples include scars and joint contractures (Evidence: pg no: 82, L24)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "X.XXX.XS",
+        "description": "Burn/corrosion code with 7th character S for sequela (Evidence: pg no: 82, L24-L25)",
+        "example": "Any burn or corrosion code ending in S",
+        "explanation": "The S indicates this encounter is for treatment of late effects or sequelae (Evidence: pg no: 82, L24-L25)"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Burn codes with 7th character S",
+      "Corrosion codes with 7th character S"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "BURN_SCAR_TREATMENT",
+      "scenario": "Patient presents for treatment of burn scars from previous injury",
+      "documentation_example": "Patient receiving treatment for burn scars on right arm from previous thermal injury",
+      "step_by_step": [
+        "Step 1: Identify as sequela treatment encounter",
+        "Step 2: Determine original burn site (right arm)",
+        "Step 3: Select appropriate burn code for right arm",
+        "Step 4: Apply 7th character S for sequela"
+      ],
+      "correct_coding": {
+        "primary_code": "Appropriate burn code with 7th character S",
+        "secondary_codes": [],
+        "sequencing": "Burn code with S as primary",
+        "rationale": "Encounter is specifically for treatment of late effects (scars) requiring 7th character S (Evidence: pg no: 82, L24-L25)"
+      },
+      "incorrect_coding": {
+        "code": "Burn code with 7th character A or D",
+        "codes": [
+          "Acute burn codes"
+        ],
+        "rationale": "This is not an acute burn but treatment of sequelae",
+        "common_mistake": "Using acute burn codes for sequela treatment"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "JOINT_CONTRACTURE_SEQUELA",
+      "scenario": "Treatment of joint contracture from previous burn",
+      "code_example": "Burn code with 7th character S",
+      "breakdown": {
+        "Base code": "Appropriate burn site and degree code (Evidence: pg no: 82, L24)",
+        "7th character": "S for sequela (Evidence: pg no: 82, L24-L25)"
+      },
+      "rationale": "Joint contractures are late effects requiring sequela coding (Evidence: pg no: 82, L24)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not use acute burn codes (A or D) for sequela treatment (Evidence: pg no: 82, L24-L25)"
+    ],
+    "best_practices": [
+      "Always use 7th character S for late effects treatment (Evidence: pg no: 82, L24-L25)",
+      "Identify the original burn site and type for proper code selection (Evidence: pg no: 82, L24)"
+    ],
+    "common_mistakes": [
+      "Using acute burn codes for sequela encounters",
+      "Failing to identify encounter as sequela treatment"
+    ],
+    "tips": [
+      "Scars and joint contractures are common examples of sequelae (Evidence: pg no: 82, L24)",
+      "Focus on the treatment purpose to determine if sequela coding applies"
+    ],
+    "implementation_notes": [
+      "Essential for proper encounter classification",
+      "Important for tracking long-term burn outcomes"
+    ],
+    "clinical_context": [
+      "Common in burn rehabilitation",
+      "Important for reconstructive surgery coding",
+      "Relevant for long-term burn care"
+    ]
+  },
+  "search_keywords": [
+    "burn sequela",
+    "corrosion sequela",
+    "7th character S",
+    "late effects",
+    "burn scars",
+    "joint contractures",
+    "sequela treatment"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "burns_and_corrosions",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "burns",
+      "corrosions",
+      "sequela",
+      "7th_character_S",
+      "late_effects"
+    ]
+  },
+  "page_range_processed": "pages_81_to_84"
+}

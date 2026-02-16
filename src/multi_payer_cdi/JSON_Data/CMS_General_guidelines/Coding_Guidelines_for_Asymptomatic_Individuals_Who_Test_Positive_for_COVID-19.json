@@ -1,0 +1,140 @@
+{
+  "guideline_id": "I.C.1.g.1.h",
+  "semantic_title": "Coding Guidelines for Asymptomatic Individuals Who Test Positive for COVID-19",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 1. Chapter 1: Certain Infectious and Parasitic Diseases > g. Coronavirus infections > 1. COVID-19 infections > h. Asymptomatic individuals who test positive for COVID-19",
+  "page_number": 31,
+  "content": {
+    "full_text": "For asymptomatic individuals who test positive for COVID-19 and there is no provider documentation of a diagnosis of COVID-19, query the provider as to whether or not the individual has COVID-19. A false positive laboratory test is possible, and it is the provider's responsibility to confirm the diagnosis and document accordingly. (Evidence: pg no: 31, L34-L36)",
+    "summary": "Establishes protocol for handling positive COVID-19 tests in asymptomatic patients without provider diagnosis documentation (Evidence: pg no: 31, L34-L36)",
+    "key_concepts": [
+      "Provider query requirement for asymptomatic positive tests (Evidence: pg no: 31, L34-L36)",
+      "False positive test possibility (Evidence: pg no: 31, L36)",
+      "Provider responsibility for diagnosis confirmation (Evidence: pg no: 31, L36)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "COVID_ASYMP_POS_01",
+        "rule_text": "Query provider when asymptomatic individual tests positive without diagnosis documentation (Evidence: pg no: 31, L34-L36)",
+        "explanation": "When an asymptomatic patient has a positive COVID-19 test but the provider has not documented a COVID-19 diagnosis, the coder must query the provider to confirm whether the patient actually has COVID-19 (Evidence: pg no: 31, L34-L36)",
+        "importance": "critical",
+        "applies_to": "U07.1",
+        "common_applications": [
+          "Screening tests with positive results",
+          "Asymptomatic patients in healthcare settings"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify asymptomatic patient with positive COVID-19 test",
+      "Step 2: Check for provider documentation of COVID-19 diagnosis",
+      "Step 3: If no diagnosis documented, query provider for confirmation",
+      "Step 4: Wait for provider response before coding"
+    ],
+    "related_terminology": [
+      "asymptomatic",
+      "false positive",
+      "provider query",
+      "laboratory test"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "U07.1",
+        "description": "COVID-19 (Evidence: pg no: 31, L34-L36)",
+        "context": "Only assign after provider confirms diagnosis",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "U07": "COVID-19 category",
+          ".1": "Confirmed COVID-19"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "COVID-19 infections"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "COVID_ASYMP_01",
+      "scenario": "Asymptomatic patient presents for routine screening and tests positive for COVID-19",
+      "documentation_example": "Patient asymptomatic, COVID-19 test positive, no symptoms reported",
+      "step_by_step": [
+        "Step 1: Review documentation for COVID-19 diagnosis",
+        "Step 2: Note absence of provider diagnosis despite positive test",
+        "Step 3: Submit provider query regarding COVID-19 diagnosis",
+        "Step 4: Code based on provider response"
+      ],
+      "correct_coding": {
+        "primary_code": "Query required",
+        "secondary_codes": [],
+        "sequencing": "Cannot code until provider confirms diagnosis",
+        "rationale": "Provider must confirm diagnosis due to possibility of false positive test (Evidence: pg no: 31, L36)"
+      },
+      "incorrect_coding": {
+        "code": "U07.1",
+        "codes": [
+          "U07.1"
+        ],
+        "rationale": "Cannot assign COVID-19 code without provider diagnosis confirmation",
+        "common_mistake": "Coding based solely on positive test result without provider diagnosis"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "False positive laboratory tests are possible (Evidence: pg no: 31, L36)",
+      "Do not code COVID-19 based solely on positive test without provider diagnosis (Evidence: pg no: 31, L34-L36)"
+    ],
+    "best_practices": [
+      "Always query provider when diagnosis documentation is missing (Evidence: pg no: 31, L34-L36)",
+      "Wait for provider confirmation before assigning COVID-19 codes (Evidence: pg no: 31, L36)"
+    ],
+    "common_mistakes": [
+      "Assuming positive test equals confirmed diagnosis (Evidence: pg no: 31, L34-L36)",
+      "Coding without provider documentation (Evidence: pg no: 31, L36)"
+    ],
+    "tips": [
+      "Provider responsibility includes diagnosis confirmation and documentation (Evidence: pg no: 31, L36)"
+    ],
+    "implementation_notes": [
+      "Establish clear query protocols for asymptomatic positive cases"
+    ],
+    "clinical_context": [
+      "Asymptomatic screening scenarios",
+      "Healthcare facility testing protocols"
+    ]
+  },
+  "search_keywords": [
+    "asymptomatic COVID-19",
+    "positive test",
+    "provider query",
+    "false positive",
+    "COVID-19 diagnosis confirmation"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "COVID-19 coding",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "COVID-19",
+      "asymptomatic",
+      "testing",
+      "provider_query"
+    ]
+  },
+  "page_range_processed": "pages_30_to_33"
+}

@@ -1,0 +1,211 @@
+{
+  "guideline_id": "I.C.5.b.3",
+  "semantic_title": "Psychoactive Substance Use, Unspecified - Documentation and Reporting Requirements",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 5. Chapter 5: Mental, Behavioral and Neurodevelopmental disorders > b. Mental and behavioral disorders due to psychoactive substance use > 3) Psychoactive Substance Use, Unspecified",
+  "page_number": 44,
+  "content": {
+    "full_text": "As with all other unspecified diagnoses, the codes for unspecified psychoactive substance use (F10.9-, F11.9-, F12.9-, F13.9-, F14.9-, F15.9-, F16.9-, F18.9-, F19.9-) should only be assigned based on provider documentation and when they meet the definition of a reportable diagnosis (see Section III, Reporting Additional Diagnoses). These codes are to be used only when the psychoactive substance use is associated with a substance related disorder (chapter 5 disorders such as sexual dysfunction, sleep disorder, or a mental or behavioral disorder) or medical condition, and such a relationship is documented by the provider. (Evidence: pg no: 44, L52-L60)",
+    "summary": "Establishes strict requirements for unspecified psychoactive substance use codes, requiring provider documentation, reportable diagnosis criteria, and documented relationship to substance-related disorders or medical conditions (Evidence: pg no: 44, L52-L60)",
+    "key_concepts": [
+      "Provider documentation requirement (Evidence: pg no: 44, L55-L56)",
+      "Reportable diagnosis definition (Evidence: pg no: 44, L56)",
+      "Associated disorder requirement (Evidence: pg no: 44, L57-L59)",
+      "Provider-documented relationship (Evidence: pg no: 44, L59-L60)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "UNSPEC_SUBST_001",
+        "rule_text": "Assign only based on provider documentation (Evidence: pg no: 44, L55-L56)",
+        "explanation": "Unspecified substance use codes require explicit provider documentation and cannot be inferred (Evidence: pg no: 44, L55-L56)",
+        "importance": "critical",
+        "applies_to": "F10.9-, F11.9-, F12.9-, F13.9-, F14.9-, F15.9-, F16.9-, F18.9-, F19.9-",
+        "common_applications": [
+          "Provider-documented substance use",
+          "Unclear severity documentation"
+        ]
+      },
+      {
+        "rule_id": "UNSPEC_SUBST_002",
+        "rule_text": "Must meet definition of reportable diagnosis (Evidence: pg no: 44, L56)",
+        "explanation": "These codes must satisfy the criteria for reportable diagnoses as defined in Section III (Evidence: pg no: 44, L56)",
+        "importance": "critical",
+        "applies_to": "F10.9-, F11.9-, F12.9-, F13.9-, F14.9-, F15.9-, F16.9-, F18.9-, F19.9-",
+        "common_applications": [
+          "Diagnoses affecting patient care",
+          "Diagnoses requiring treatment"
+        ]
+      },
+      {
+        "rule_id": "UNSPEC_SUBST_003",
+        "rule_text": "Use only when associated with substance-related disorder or medical condition (Evidence: pg no: 44, L57-L59)",
+        "explanation": "Unspecified substance use codes require association with chapter 5 disorders or medical conditions (Evidence: pg no: 44, L57-L59)",
+        "importance": "critical",
+        "applies_to": "F10.9-, F11.9-, F12.9-, F13.9-, F14.9-, F15.9-, F16.9-, F18.9-, F19.9-",
+        "common_applications": [
+          "Substance-induced sexual dysfunction",
+          "Substance-induced sleep disorders",
+          "Medical conditions related to substance use"
+        ]
+      },
+      {
+        "rule_id": "UNSPEC_SUBST_004",
+        "rule_text": "Relationship must be documented by provider (Evidence: pg no: 44, L59-L60)",
+        "explanation": "The provider must explicitly document the relationship between substance use and the associated disorder or condition (Evidence: pg no: 44, L59-L60)",
+        "importance": "critical",
+        "applies_to": "F10.9-, F11.9-, F12.9-, F13.9-, F14.9-, F15.9-, F16.9-, F18.9-, F19.9-",
+        "common_applications": [
+          "Provider assessment notes",
+          "Clinical correlation documentation"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Verify provider documentation of substance use",
+      "Step 2: Confirm meets reportable diagnosis criteria",
+      "Step 3: Identify associated substance-related disorder or medical condition",
+      "Step 4: Verify provider documented the relationship",
+      "Step 5: Assign appropriate unspecified substance use code"
+    ],
+    "related_terminology": [
+      "Unspecified substance use",
+      "Reportable diagnosis",
+      "Substance-related disorders",
+      "Provider documentation",
+      "Associated conditions"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "F10.9-",
+        "description": "Unspecified alcohol-related disorder (Evidence: pg no: 44, L54)",
+        "context": "When alcohol use is associated with disorder but severity unspecified",
+        "requires_additional_codes": "check_code_notes",
+        "breakdown": {
+          "F10": "Alcohol-related disorders",
+          ".9-": "Unspecified with fourth character"
+        }
+      },
+      {
+        "code": "F11.9-",
+        "description": "Unspecified opioid-related disorder (Evidence: pg no: 44, L54)",
+        "context": "When opioid use is associated with disorder but severity unspecified",
+        "requires_additional_codes": "check_code_notes",
+        "breakdown": {
+          "F11": "Opioid-related disorders",
+          ".9-": "Unspecified with fourth character"
+        }
+      },
+      {
+        "code": "F12.9-",
+        "description": "Unspecified cannabis-related disorder (Evidence: pg no: 44, L54)",
+        "context": "When cannabis use is associated with disorder but severity unspecified",
+        "requires_additional_codes": "check_code_notes",
+        "breakdown": {
+          "F12": "Cannabis-related disorders",
+          ".9-": "Unspecified with fourth character"
+        }
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": "F1X.9-",
+        "description": "Unspecified psychoactive substance use pattern (Evidence: pg no: 44, L54-L55)",
+        "example": "F10.99 for unspecified alcohol-related disorder",
+        "explanation": "Fourth character specifies the type of unspecified disorder"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Unspecified psychoactive substance use disorders"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "Section III",
+        "title": "Reporting Additional Diagnoses",
+        "relationship": "implements",
+        "explanation": "Must meet reportable diagnosis criteria defined in Section III"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "UNSPEC_SUBST_001",
+      "scenario": "Patient with documented alcohol use causing sleep disturbances, but provider doesn't specify abuse or dependence",
+      "documentation_example": "Patient reports alcohol use contributing to sleep disorder, severity of alcohol use disorder not specified",
+      "step_by_step": [
+        "Step 1: Verify provider documented alcohol use",
+        "Step 2: Identify associated sleep disorder",
+        "Step 3: Confirm provider documented relationship",
+        "Step 4: Verify meets reportable diagnosis criteria",
+        "Step 5: Assign unspecified alcohol-related disorder code"
+      ],
+      "correct_coding": {
+        "primary_code": "F10.982",
+        "secondary_codes": [],
+        "sequencing": "Alcohol-induced sleep disorder",
+        "rationale": "Provider documented alcohol use with associated sleep disorder but didn't specify severity (Evidence: pg no: 44, L57-L60)"
+      },
+      "incorrect_coding": {
+        "code": "F10.99",
+        "rationale": "Should use more specific code when disorder type is known",
+        "common_mistake": "Using most general unspecified code"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Cannot assign without provider documentation (Evidence: pg no: 44, L55-L56)",
+      "Must have associated disorder or medical condition (Evidence: pg no: 44, L57-L59)",
+      "Provider must document the relationship (Evidence: pg no: 44, L59-L60)"
+    ],
+    "best_practices": [
+      "Verify all requirements before assigning (Evidence: pg no: 44, L55-L60)",
+      "Check Section III for reportable diagnosis criteria (Evidence: pg no: 44, L56)"
+    ],
+    "common_mistakes": [
+      "Assigning without provider documentation",
+      "Using when no associated disorder documented",
+      "Not verifying reportable diagnosis criteria"
+    ],
+    "tips": [
+      "All four requirements must be met",
+      "Look for documented relationships",
+      "Consider more specific codes first"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Used when substance use contributes to other conditions",
+      "Requires careful documentation review"
+    ]
+  },
+  "search_keywords": [
+    "unspecified substance use",
+    "F10.9 F11.9 F12.9",
+    "reportable diagnosis",
+    "substance related disorder",
+    "provider documentation"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "substance_use_disorders",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "substance_use",
+      "unspecified",
+      "documentation",
+      "reportable_diagnosis"
+    ]
+  },
+  "page_range_processed": "pages_42_to_45"
+}

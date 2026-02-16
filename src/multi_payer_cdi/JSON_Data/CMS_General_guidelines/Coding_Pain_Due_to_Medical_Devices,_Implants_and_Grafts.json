@@ -1,0 +1,204 @@
+{
+  "guideline_id": "I.C.19.g.2",
+  "semantic_title": "Coding Pain Due to Medical Devices, Implants and Grafts",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 19. Chapter 19: Injury, poisoning, and certain other consequences of external causes > g. Complications of care > 2) Pain due to medical devices",
+  "page_number": 86,
+  "content": {
+    "full_text": "Pain associated with devices, implants or grafts left in a surgical site (for example painful hip prosthesis) is assigned to the appropriate code(s) found in Chapter 19, Injury, poisoning, and certain other consequences of external causes. Specific codes for pain due to medical devices are found in the T code section of the ICD-10-CM. Use additional code(s) from category G89 to identify acute or chronic pain due to presence of the device, implant or graft (G89.18 or G89.28). (Evidence: pg no: 86, L44-L46)",
+    "summary": "Pain from medical devices uses T codes from Chapter 19 with additional G89 codes to specify acute or chronic pain (Evidence: pg no: 86, L44-L46)",
+    "key_concepts": [
+      "Device-related pain (Evidence: pg no: 86, L44-L45)",
+      "Chapter 19 T codes (Evidence: pg no: 86, L45-L46)",
+      "Additional G89 codes (Evidence: pg no: 86, L46)",
+      "Acute vs chronic pain specification (Evidence: pg no: 86, L46)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "device_pain_location_rule",
+        "rule_text": "Pain associated with devices, implants or grafts left in a surgical site is assigned to the appropriate code(s) found in Chapter 19 (Evidence: pg no: 86, L44-L46)",
+        "explanation": "Device-related pain is coded using T codes from Chapter 19 rather than general pain codes (Evidence: pg no: 86, L44-L46)",
+        "importance": "critical",
+        "applies_to": "T codes in Chapter 19",
+        "common_applications": [
+          "Painful prosthetic devices",
+          "Implant-related pain",
+          "Graft site pain"
+        ]
+      },
+      {
+        "rule_id": "additional_pain_code_rule",
+        "rule_text": "Use additional code(s) from category G89 to identify acute or chronic pain due to presence of the device, implant or graft (G89.18 or G89.28) (Evidence: pg no: 86, L46)",
+        "explanation": "G89 codes are used as additional codes to specify whether device-related pain is acute or chronic (Evidence: pg no: 86, L46)",
+        "importance": "high",
+        "applies_to": "G89.18, G89.28",
+        "common_applications": [
+          "Acute device pain",
+          "Chronic device pain"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify pain associated with medical device, implant, or graft",
+      "Step 2: Assign appropriate T code from Chapter 19",
+      "Step 3: Determine if pain is acute or chronic",
+      "Step 4: Add G89.18 for acute or G89.28 for chronic pain"
+    ],
+    "related_terminology": [
+      "Medical device pain",
+      "Implant pain",
+      "Graft pain",
+      "Prosthesis pain",
+      "Acute pain",
+      "Chronic pain"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "T codes in Chapter 19",
+        "description": "Specific codes for pain due to medical devices (Evidence: pg no: 86, L45-L46)",
+        "requirement": "Use for device-related pain",
+        "usage_rules": [
+          "Primary code for device pain (Evidence: pg no: 86, L44-L46)"
+        ]
+      },
+      {
+        "range": "G89",
+        "description": "Pain category codes (Evidence: pg no: 86, L46)",
+        "requirement": "Use as additional codes",
+        "usage_rules": [
+          "Use G89.18 for acute pain (Evidence: pg no: 86, L46)",
+          "Use G89.28 for chronic pain (Evidence: pg no: 86, L46)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "G89.18",
+        "description": "Other acute postprocedural pain (Evidence: pg no: 86, L46)",
+        "context": "Use for acute pain due to medical devices",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "G89": "Pain category",
+          "18": "Acute postprocedural pain"
+        }
+      },
+      {
+        "code": "G89.28",
+        "description": "Other chronic postprocedural pain (Evidence: pg no: 86, L46)",
+        "context": "Use for chronic pain due to medical devices",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "G89": "Pain category",
+          "28": "Chronic postprocedural pain"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Chapter 19 T codes",
+      "G89 pain codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "device_pain_scenario",
+      "scenario": "Patient with hip prosthesis experiencing chronic pain at implant site",
+      "documentation_example": "Patient with total hip replacement 2 years ago now experiencing chronic pain around prosthetic hip joint",
+      "step_by_step": [
+        "Step 1: Identify pain related to hip prosthesis",
+        "Step 2: Assign T code for prosthetic device complication",
+        "Step 3: Determine pain is chronic (>2 years)",
+        "Step 4: Add G89.28 for chronic pain"
+      ],
+      "correct_coding": {
+        "primary_code": "T84.84XA",
+        "secondary_codes": [
+          "G89.28"
+        ],
+        "sequencing": "T code first, G89 code as additional",
+        "rationale": "Device pain uses Chapter 19 T codes with additional G89 codes (Evidence: pg no: 86, L44-L46)"
+      },
+      "incorrect_coding": {
+        "code": "M25.551",
+        "codes": [
+          "M25.551"
+        ],
+        "rationale": "Should not use general joint pain codes for device-related pain",
+        "common_mistake": "Using general pain codes instead of device-specific codes"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "hip_prosthesis_example",
+      "scenario": "Painful hip prosthesis",
+      "code_example": "T84.84XA + G89.28",
+      "breakdown": {
+        "T84.84XA": "Pain due to internal orthopedic prosthetic devices (Evidence: pg no: 86, L45)",
+        "G89.28": "Chronic postprocedural pain (Evidence: pg no: 86, L46)"
+      },
+      "rationale": "Device pain requires T code with additional G89 pain specification (Evidence: pg no: 86, L44-L46)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not use general pain codes for device-related pain (Evidence: pg no: 86, L44-L46)"
+    ],
+    "best_practices": [
+      "Always use T codes from Chapter 19 for device pain (Evidence: pg no: 86, L44-L46)",
+      "Add appropriate G89 code to specify acute vs chronic (Evidence: pg no: 86, L46)"
+    ],
+    "common_mistakes": [
+      "Using general pain codes instead of device-specific T codes (Evidence: pg no: 86, L44-L46)",
+      "Omitting G89 additional codes (Evidence: pg no: 86, L46)"
+    ],
+    "tips": [
+      "Look for specific T codes related to the type of device involved (Evidence: pg no: 86, L45-L46)",
+      "Determine timing to distinguish acute vs chronic pain (Evidence: pg no: 86, L46)"
+    ],
+    "implementation_notes": [
+      "Requires identification of specific device type",
+      "May need surgical history review"
+    ],
+    "clinical_context": [
+      "Orthopedic follow-up visits",
+      "Post-surgical complications",
+      "Device malfunction evaluations"
+    ]
+  },
+  "search_keywords": [
+    "device pain",
+    "implant pain",
+    "prosthesis pain",
+    "graft pain",
+    "medical device complications",
+    "T codes",
+    "G89 pain codes",
+    "acute device pain",
+    "chronic device pain"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "complications_of_care",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "device_pain",
+      "implant_complications",
+      "T_codes",
+      "G89",
+      "prosthesis"
+    ]
+  },
+  "page_range_processed": "pages_84_to_87"
+}

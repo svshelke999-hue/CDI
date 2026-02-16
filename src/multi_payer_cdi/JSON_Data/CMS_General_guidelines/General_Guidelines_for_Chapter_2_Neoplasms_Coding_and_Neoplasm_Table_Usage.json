@@ -1,0 +1,276 @@
+{
+  "guideline_id": "I.C.2",
+  "semantic_title": "General Guidelines for Chapter 2 Neoplasms Coding and Neoplasm Table Usage",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 2. Chapter 2: Neoplasms (C00-D49) > General Guidelines",
+  "page_number": 33,
+  "content": {
+    "full_text": "Chapter 2 of the ICD-10-CM contains the codes for most benign and all malignant neoplasms. Certain benign neoplasms, such as prostatic adenomas, may be found in the specific body system chapters. To properly code a neoplasm, it is necessary to determine from the record if the neoplasm is benign, in-situ, malignant, or of uncertain histologic behavior. If malignant, any secondary (metastatic) sites should also be determined. Primary malignant neoplasms overlapping site boundaries: A primary malignant neoplasm that overlaps two or more contiguous (next to each other) sites should be classified to the subcategory/code .8 ('overlapping lesion'), unless the combination is specifically indexed elsewhere. For multiple neoplasms of the same site that are not contiguous such as tumors in different quadrants of the same breast, codes for each site should be assigned. Malignant neoplasm of ectopic tissue: Malignant neoplasms of ectopic tissue are to be coded to the site of origin mentioned, e.g., ectopic pancreatic malignant neoplasms involving the stomach are coded to malignant neoplasm of pancreas, unspecified (C25.9). The neoplasm table in the Alphabetic Index should be referenced first. However, if the histological term is documented, that term should be referenced first, rather than going immediately to the Neoplasm Table, in order to determine which column in the Neoplasm Table is appropriate. For example, if the documentation indicates 'adenoma,' refer to the term in the Alphabetic Index to review the entries under this term and the instructional note to 'see also neoplasm, by site, benign.' The table provides the proper code based on the type of neoplasm and the site. It is important to select the proper column in the table that corresponds to the type of neoplasm. The Tabular List should then be referenced to verify that the correct code has been selected from the table and that a more specific site code does not exist. See Section I.C.21. Factors influencing health status and contact with health services, Status, for information regarding Z15.0, codes for genetic susceptibility to cancer. (Evidence: pg no: 33, L71-L86)",
+    "summary": "Provides comprehensive general guidelines for coding neoplasms, including determination of neoplasm behavior, overlapping lesions, ectopic tissue, and proper use of the Neoplasm Table with histological terms (Evidence: pg no: 33, L71-L86)",
+    "key_concepts": [
+      "Neoplasm behavior determination (benign, in-situ, malignant, uncertain) (Evidence: pg no: 33, L77-L78)",
+      "Overlapping lesion coding with .8 subcategory (Evidence: pg no: 33, L79-L81)",
+      "Ectopic tissue coding to site of origin (Evidence: pg no: 33, L82-L85)",
+      "Histological term priority over Neoplasm Table (Evidence: pg no: 33, L86)",
+      "Neoplasm Table usage methodology (Evidence: pg no: 33, L86)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "NEOPLASM_BEHAV_01",
+        "rule_text": "Determine neoplasm behavior from medical record documentation (Evidence: pg no: 33, L77-L78)",
+        "explanation": "To properly code a neoplasm, it is necessary to determine from the record if the neoplasm is benign, in-situ, malignant, or of uncertain histologic behavior (Evidence: pg no: 33, L77-L78)",
+        "importance": "critical",
+        "applies_to": "C00-D49",
+        "common_applications": [
+          "All neoplasm coding scenarios",
+          "Pathology report review"
+        ]
+      },
+      {
+        "rule_id": "NEOPLASM_OVERLAP_01",
+        "rule_text": "Use .8 subcategory for overlapping contiguous sites (Evidence: pg no: 33, L79-L80)",
+        "explanation": "A primary malignant neoplasm that overlaps two or more contiguous sites should be classified to the subcategory/code .8 ('overlapping lesion'), unless the combination is specifically indexed elsewhere (Evidence: pg no: 33, L79-L80)",
+        "importance": "high",
+        "applies_to": "Malignant neoplasm codes",
+        "common_applications": [
+          "Tumors crossing anatomical boundaries",
+          "Large tumors involving multiple contiguous sites"
+        ]
+      },
+      {
+        "rule_id": "NEOPLASM_MULTIPLE_01",
+        "rule_text": "Assign separate codes for non-contiguous multiple neoplasms (Evidence: pg no: 33, L80-L81)",
+        "explanation": "For multiple neoplasms of the same site that are not contiguous such as tumors in different quadrants of the same breast, codes for each site should be assigned (Evidence: pg no: 33, L80-L81)",
+        "importance": "high",
+        "applies_to": "Multiple neoplasm codes",
+        "common_applications": [
+          "Multiple breast tumors in different quadrants",
+          "Bilateral neoplasms"
+        ]
+      },
+      {
+        "rule_id": "NEOPLASM_ECTOPIC_01",
+        "rule_text": "Code ectopic tissue neoplasms to site of origin (Evidence: pg no: 33, L82-L85)",
+        "explanation": "Malignant neoplasms of ectopic tissue are to be coded to the site of origin mentioned, e.g., ectopic pancreatic malignant neoplasms involving the stomach are coded to malignant neoplasm of pancreas, unspecified (C25.9) (Evidence: pg no: 33, L82-L85)",
+        "importance": "high",
+        "applies_to": "Ectopic tissue neoplasms",
+        "common_applications": [
+          "Ectopic pancreatic tissue tumors",
+          "Ectopic thyroid tissue tumors"
+        ]
+      },
+      {
+        "rule_id": "NEOPLASM_TABLE_01",
+        "rule_text": "Reference histological terms before using Neoplasm Table (Evidence: pg no: 33, L86)",
+        "explanation": "If the histological term is documented, that term should be referenced first, rather than going immediately to the Neoplasm Table, in order to determine which column in the Neoplasm Table is appropriate (Evidence: pg no: 33, L86)",
+        "importance": "critical",
+        "applies_to": "All neoplasm coding",
+        "common_applications": [
+          "Adenoma coding",
+          "Specific histological type coding"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine neoplasm behavior from documentation",
+      "Step 2: If histological term documented, reference that term first",
+      "Step 3: Use Neoplasm Table to find appropriate column",
+      "Step 4: Select proper code based on type and site",
+      "Step 5: Verify in Tabular List for more specific codes",
+      "Step 6: Apply special rules for overlapping or ectopic lesions"
+    ],
+    "related_terminology": [
+      "benign neoplasm",
+      "malignant neoplasm",
+      "in-situ neoplasm",
+      "uncertain behavior",
+      "overlapping lesion",
+      "ectopic tissue",
+      "histological term",
+      "contiguous sites"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "C00-D49",
+        "description": "Neoplasms chapter containing most benign and all malignant neoplasms (Evidence: pg no: 33, L73-L74)",
+        "requirement": "Determine neoplasm behavior before coding",
+        "usage_rules": [
+          "Determine if benign, in-situ, malignant, or uncertain behavior (Evidence: pg no: 33, L77-L78)",
+          "Identify secondary sites if malignant (Evidence: pg no: 33, L78)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "C25.9",
+        "description": "Malignant neoplasm of pancreas, unspecified (Evidence: pg no: 33, L85)",
+        "context": "Example for ectopic pancreatic tissue neoplasms",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "C25": "Malignant neoplasm of pancreas",
+          ".9": "Unspecified part of pancreas"
+        }
+      },
+      {
+        "code": "Z15.0",
+        "description": "Genetic susceptibility to cancer (Evidence: pg no: 33, L86)",
+        "context": "Referenced for genetic susceptibility coding",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z15": "Genetic susceptibility to disease",
+          ".0": "Genetic susceptibility to malignant neoplasm"
+        }
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": ".8",
+        "description": "Overlapping lesion subcategory (Evidence: pg no: 33, L79-L80)",
+        "example": "C78.8, C50.8",
+        "explanation": "Used for neoplasms overlapping contiguous sites"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Benign neoplasms",
+      "Malignant neoplasms",
+      "In-situ neoplasms",
+      "Neoplasms of uncertain behavior"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.21",
+        "title": "Factors influencing health status and contact with health services, Status",
+        "relationship": "related_to",
+        "explanation": "Referenced for genetic susceptibility to cancer codes"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "NEOPLASM_01",
+      "scenario": "Patient with adenoma of the colon",
+      "documentation_example": "Pathology shows adenoma of ascending colon",
+      "step_by_step": [
+        "Step 1: Identify histological term 'adenoma'",
+        "Step 2: Look up 'adenoma' in Alphabetic Index first",
+        "Step 3: Follow instructional note to 'see also neoplasm, by site, benign'",
+        "Step 4: Use Neoplasm Table benign column for colon",
+        "Step 5: Verify code in Tabular List"
+      ],
+      "correct_coding": {
+        "primary_code": "D12.2",
+        "secondary_codes": [],
+        "sequencing": "Single code for benign neoplasm",
+        "rationale": "Histological term referenced first, then Neoplasm Table benign column used (Evidence: pg no: 33, L86)"
+      },
+      "incorrect_coding": {
+        "code": "C18.2",
+        "codes": [
+          "C18.2"
+        ],
+        "rationale": "Used malignant code instead of benign for adenoma",
+        "common_mistake": "Not determining neoplasm behavior correctly"
+      }
+    },
+    {
+      "scenario_id": "NEOPLASM_02",
+      "scenario": "Malignant tumor overlapping stomach and duodenum",
+      "documentation_example": "Large malignant tumor involving both stomach and duodenum with overlapping boundaries",
+      "step_by_step": [
+        "Step 1: Identify malignant neoplasm",
+        "Step 2: Determine overlapping contiguous sites",
+        "Step 3: Look for specific combination in index",
+        "Step 4: If not specifically indexed, use .8 overlapping lesion code",
+        "Step 5: Verify in Tabular List"
+      ],
+      "correct_coding": {
+        "primary_code": "C26.8",
+        "secondary_codes": [],
+        "sequencing": "Single overlapping lesion code",
+        "rationale": "Overlapping contiguous sites coded to .8 subcategory (Evidence: pg no: 33, L79-L80)"
+      },
+      "incorrect_coding": {
+        "code": "C16.9",
+        "codes": [
+          "C16.9",
+          "C17.0"
+        ],
+        "rationale": "Should use single overlapping code, not separate codes for contiguous overlapping sites",
+        "common_mistake": "Coding each site separately when they overlap"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "ECTOPIC_01",
+      "scenario": "Ectopic pancreatic tissue malignancy in stomach",
+      "code_example": "C25.9",
+      "breakdown": {
+        "C25": "Malignant neoplasm of pancreas (Evidence: pg no: 33, L85)",
+        ".9": "Unspecified part of pancreas (Evidence: pg no: 33, L85)"
+      },
+      "rationale": "Ectopic tissue neoplasms coded to site of origin, not location found (Evidence: pg no: 33, L82-L85)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Some benign neoplasms may be found in specific body system chapters (Evidence: pg no: 33, L74-L75)"
+    ],
+    "best_practices": [
+      "Always determine neoplasm behavior before coding (Evidence: pg no: 33, L77-L78)",
+      "Reference histological terms before using Neoplasm Table (Evidence: pg no: 33, L86)",
+      "Verify codes in Tabular List for more specific options (Evidence: pg no: 33, L86)"
+    ],
+    "common_mistakes": [
+      "Going directly to Neoplasm Table without checking histological terms",
+      "Not identifying overlapping lesions correctly",
+      "Coding ectopic tissue to location found rather than origin"
+    ],
+    "tips": [
+      "Check for specific combinations in index before using .8 codes",
+      "Distinguish between contiguous overlapping and separate multiple lesions"
+    ],
+    "implementation_notes": [
+      "Train coders on proper Neoplasm Table usage",
+      "Establish protocols for pathology report review"
+    ],
+    "clinical_context": [
+      "Oncology coding",
+      "Pathology report interpretation",
+      "Cancer registry reporting"
+    ]
+  },
+  "search_keywords": [
+    "neoplasm coding",
+    "neoplasm table",
+    "malignant neoplasm",
+    "benign neoplasm",
+    "overlapping lesion",
+    "ectopic tissue",
+    "histological term",
+    "adenoma"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "neoplasms",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "neoplasms",
+      "cancer",
+      "tumor",
+      "histology",
+      "pathology"
+    ]
+  },
+  "page_range_processed": "pages_30_to_33"
+}

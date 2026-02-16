@@ -1,0 +1,193 @@
+{
+  "guideline_id": "I.C.2.c.2",
+  "semantic_title": "Anemia Associated with Chemotherapy, Immunotherapy and Radiation Therapy",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 2. Chapter 2: Neoplasms > c. Coding and sequencing of complications > 2) Anemia associated with chemotherapy, immunotherapy and radiation therapy",
+  "page_number": 34,
+  "content": {
+    "full_text": "When the admission/encounter is for management of an anemia associated with an adverse effect of the administration of chemotherapy or immunotherapy and the only treatment is for the anemia, the anemia code is sequenced first followed by the appropriate codes for the neoplasm and the adverse effect (T45.1X5-, Adverse effect of antineoplastic and immunosuppressive drugs). When the admission/encounter is for management of an anemia associated with an adverse effect of radiotherapy, the anemia code should be sequenced first, followed by the appropriate neoplasm code and code Y84.2, Radiological procedure and radiotherapy as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure. (Evidence: pg no: 34, L32-L39)",
+    "summary": "Sequencing guidelines for anemia caused by cancer treatments (chemotherapy, immunotherapy, radiation) (Evidence: pg no: 34, L32-L39)",
+    "key_concepts": [
+      "Anemia from chemotherapy/immunotherapy adverse effects (Evidence: pg no: 34, L34-L36)",
+      "Anemia from radiotherapy adverse effects (Evidence: pg no: 34, L38-L39)",
+      "Anemia code sequenced first (Evidence: pg no: 34, L36, L38)",
+      "Different external cause codes for different treatments (Evidence: pg no: 34, L37, L39)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "chemo_immuno_anemia_sequencing",
+        "rule_text": "For chemotherapy/immunotherapy-induced anemia: anemia code first, then neoplasm, then T45.1X5- (Evidence: pg no: 34, L34-L37)",
+        "explanation": "When anemia is caused by chemotherapy or immunotherapy adverse effects, the anemia takes precedence in sequencing, followed by the underlying neoplasm and the adverse effect code (Evidence: pg no: 34, L34-L37)",
+        "importance": "critical",
+        "applies_to": "anemia caused by chemotherapy or immunotherapy",
+        "common_applications": [
+          "Patient develops anemia from chemotherapy treatment",
+          "Patient has anemia from immunotherapy side effects"
+        ]
+      },
+      {
+        "rule_id": "radiation_anemia_sequencing",
+        "rule_text": "For radiotherapy-induced anemia: anemia code first, then neoplasm, then Y84.2 (Evidence: pg no: 34, L38-L39)",
+        "explanation": "When anemia is caused by radiotherapy adverse effects, sequence anemia first, followed by neoplasm code and Y84.2 for radiotherapy complications (Evidence: pg no: 34, L38-L39)",
+        "importance": "critical",
+        "applies_to": "anemia caused by radiotherapy",
+        "common_applications": [
+          "Patient develops anemia from radiation therapy treatment"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify if anemia is from chemotherapy/immunotherapy or radiotherapy",
+      "Step 2: Sequence anemia code as principal/first-listed diagnosis",
+      "Step 3: Add appropriate neoplasm code as secondary",
+      "Step 4: Add appropriate external cause code (T45.1X5- or Y84.2)"
+    ],
+    "related_terminology": [
+      "Adverse effect",
+      "Chemotherapy",
+      "Immunotherapy",
+      "Radiotherapy",
+      "External cause codes"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "T45.1X5-",
+        "description": "Adverse effect of antineoplastic and immunosuppressive drugs (Evidence: pg no: 34, L37)",
+        "requirement": "Use for chemotherapy/immunotherapy-induced anemia",
+        "usage_rules": [
+          "Sequence after anemia and neoplasm codes (Evidence: pg no: 34, L36-L37)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "T45.1X5-",
+        "description": "Adverse effect of antineoplastic and immunosuppressive drugs (Evidence: pg no: 34, L37)",
+        "context": "Use for anemia caused by chemotherapy or immunotherapy",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "T45": "Poisoning by, adverse effect of and underdosing of primarily systemic and hematological agents",
+          "1": "Antineoplastic and immunosuppressive drugs",
+          "X": "Placeholder",
+          "5": "Adverse effect"
+        }
+      },
+      {
+        "code": "Y84.2",
+        "description": "Radiological procedure and radiotherapy as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure (Evidence: pg no: 34, L38-L39)",
+        "context": "Use for anemia caused by radiotherapy",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "Y84": "Other medical procedures as the cause of abnormal reaction",
+          "2": "Radiological procedure and radiotherapy"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Anemia codes",
+      "Adverse effect codes",
+      "External cause codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.2.c",
+        "title": "Coding and sequencing of complications",
+        "relationship": "implements",
+        "explanation": "Specific implementation of complication sequencing framework"
+      },
+      {
+        "guideline_id": "I.C.2.c.1",
+        "title": "Anemia associated with malignancy",
+        "relationship": "related_to",
+        "explanation": "Contrasts with malignancy-induced anemia sequencing"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "chemo_anemia_treatment",
+      "scenario": "Patient with breast cancer develops severe anemia from chemotherapy, admitted for blood transfusion",
+      "documentation_example": "Patient with breast adenocarcinoma on chemotherapy presents with severe anemia secondary to chemotherapy, admitted for blood transfusion",
+      "step_by_step": [
+        "Step 1: Identify anemia is from chemotherapy adverse effect",
+        "Step 2: Sequence anemia code as principal diagnosis",
+        "Step 3: Add breast cancer code as secondary",
+        "Step 4: Add T45.1X5A for chemotherapy adverse effect"
+      ],
+      "correct_coding": {
+        "primary_code": "D64.9 (Anemia, unspecified)",
+        "secondary_codes": [
+          "C50.911 (Malignant neoplasm of unspecified site of right female breast)",
+          "T45.1X5A (Adverse effect of antineoplastic and immunosuppressive drugs, initial encounter)"
+        ],
+        "sequencing": "Anemia first, neoplasm second, adverse effect third",
+        "rationale": "Treatment-induced anemia is sequenced first when caused by therapy adverse effects (Evidence: pg no: 34, L36-L37)"
+      },
+      "incorrect_coding": {
+        "code": "C50.911 as principal",
+        "codes": [
+          "C50.911 as principal diagnosis"
+        ],
+        "rationale": "When anemia is from treatment adverse effects, anemia should be sequenced first",
+        "common_mistake": "Always sequencing malignancy first regardless of cause of anemia"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Different sequencing than malignancy-induced anemia (Evidence: pg no: 34, L36, L38)",
+      "Different external cause codes for different treatments (Evidence: pg no: 34, L37, L39)"
+    ],
+    "best_practices": [
+      "Identify the specific treatment causing anemia to use correct external cause code (Evidence: pg no: 34, L34-L39)",
+      "Always sequence anemia first when it's treatment-induced (Evidence: pg no: 34, L36, L38)"
+    ],
+    "common_mistakes": [
+      "Using same sequencing as malignancy-induced anemia (Evidence: pg no: 34, L36, L38)",
+      "Forgetting to include external cause codes (Evidence: pg no: 34, L37, L39)"
+    ],
+    "tips": [
+      "Remember this is opposite sequencing from malignancy-induced anemia (Evidence: pg no: 34, L36, L38)"
+    ],
+    "implementation_notes": [
+      "This guideline prioritizes the immediate treatment complication over the underlying condition"
+    ],
+    "clinical_context": [
+      "Treatment-induced anemia is a common side effect requiring different coding approach"
+    ]
+  },
+  "search_keywords": [
+    "chemotherapy anemia",
+    "immunotherapy anemia",
+    "radiation anemia",
+    "treatment induced anemia",
+    "T45.1X5",
+    "Y84.2",
+    "adverse effect anemia"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "neoplasms",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "neoplasms",
+      "anemia",
+      "adverse_effects",
+      "chemotherapy",
+      "radiotherapy"
+    ]
+  },
+  "page_range_processed": "pages_33_to_36"
+}

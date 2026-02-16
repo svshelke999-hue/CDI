@@ -1,0 +1,212 @@
+{
+  "guideline_id": "I.C.15.s",
+  "semantic_title": "COVID-19 Infection Coding in Pregnancy, Childbirth, and Puerperium",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 15. Chapter 15: Pregnancy, Childbirth, and the Puerperium > s. COVID-19 infection in pregnancy, childbirth, and the puerperium",
+  "page_number": 71,
+  "content": {
+    "full_text": "During pregnancy, childbirth or the puerperium, when COVID-19 is the reason for admission/encounter, code O98.5-, Other viral diseases complicating pregnancy, childbirth and the puerperium, should be sequenced as the principal/first-listed diagnosis, and code U07.1, COVID-19, and the appropriate codes for associated manifestation(s) should be assigned as additional diagnoses. Codes from Chapter 15 always take sequencing priority. If the reason for admission/encounter is unrelated to COVID-19 but the patient has been diagnosed with COVID-19 during the admission/encounter, the appropriate code for the reason for admission/encounter should be sequenced as the principal/first-listed diagnosis, and codes O98.5- and U07.1, as well as the appropriate codes for associated COVID-19 manifestations, should be assigned as additional diagnoses. (Evidence: pg no: 71, L64-L69)",
+    "summary": "COVID-19 in pregnancy uses O98.5- as principal when COVID is reason for encounter, or as additional when incidental. Chapter 15 codes always take sequencing priority. (Evidence: pg no: 71, L64-L69)",
+    "key_concepts": [
+      "Chapter 15 sequencing priority (Evidence: pg no: 71, L67)",
+      "COVID-19 as reason for encounter vs incidental (Evidence: pg no: 71, L64-L65, L67-L68)",
+      "Dual coding with O98.5- and U07.1 (Evidence: pg no: 71, L65-L66)",
+      "Associated manifestation coding (Evidence: pg no: 71, L66, L68-L69)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "covid_pregnancy_primary",
+        "rule_text": "Use O98.5- as principal when COVID-19 is reason for admission in pregnancy (Evidence: pg no: 71, L64-L66)",
+        "explanation": "When COVID-19 is the primary reason for admission during pregnancy, childbirth, or puerperium, code O98.5- as principal diagnosis, followed by U07.1 and manifestation codes (Evidence: pg no: 71, L64-L66)",
+        "importance": "critical",
+        "applies_to": "O98.5-, U07.1",
+        "common_applications": [
+          "COVID pneumonia in pregnancy",
+          "COVID complications during delivery"
+        ]
+      },
+      {
+        "rule_id": "covid_pregnancy_incidental",
+        "rule_text": "Use O98.5- as additional when COVID-19 is incidental to admission (Evidence: pg no: 71, L67-L69)",
+        "explanation": "When the reason for admission is unrelated to COVID-19 but patient has COVID-19, sequence the primary reason first, then add O98.5-, U07.1, and manifestation codes (Evidence: pg no: 71, L67-L69)",
+        "importance": "high",
+        "applies_to": "O98.5-, U07.1",
+        "common_applications": [
+          "Labor and delivery with incidental COVID",
+          "Prenatal care with COVID diagnosis"
+        ]
+      },
+      {
+        "rule_id": "chapter15_priority",
+        "rule_text": "Codes from Chapter 15 always take sequencing priority (Evidence: pg no: 71, L67)",
+        "explanation": "Chapter 15 codes have priority over other codes when coding pregnancy-related encounters, including COVID-19 cases (Evidence: pg no: 71, L67)",
+        "importance": "critical",
+        "applies_to": "All Chapter 15 codes",
+        "common_applications": [
+          "All pregnancy-related encounters",
+          "COVID-19 in pregnancy cases"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if COVID-19 is reason for encounter or incidental",
+      "Step 2: If COVID is primary reason, use O98.5- as principal",
+      "Step 3: If COVID is incidental, use primary reason first",
+      "Step 4: Add U07.1 as additional diagnosis",
+      "Step 5: Add manifestation codes as appropriate"
+    ],
+    "related_terminology": [
+      "COVID-19",
+      "Viral diseases in pregnancy",
+      "Associated manifestations",
+      "Principal diagnosis",
+      "Incidental diagnosis"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "O98.5-",
+        "description": "Other viral diseases complicating pregnancy, childbirth and the puerperium (Evidence: pg no: 71, L65-L66)",
+        "requirement": "Required for COVID-19 in pregnancy cases",
+        "usage_rules": [
+          "Principal when COVID is reason for encounter (Evidence: pg no: 71, L65-L66)",
+          "Additional when COVID is incidental (Evidence: pg no: 71, L68-L69)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "U07.1",
+        "description": "COVID-19 (Evidence: pg no: 71, L66)",
+        "context": "Always used as additional diagnosis with O98.5- in pregnancy",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "U07.1": "COVID-19 identification code"
+        }
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": "O98.5- + U07.1 + manifestations",
+        "description": "Standard pattern for COVID-19 in pregnancy (Evidence: pg no: 71, L65-L66)",
+        "example": "O98.5- as principal, U07.1 and pneumonia code as additional",
+        "explanation": "Captures pregnancy context, COVID diagnosis, and specific manifestations"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Chapter 15 pregnancy codes",
+      "COVID-19 manifestation codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "covid_primary_pregnancy",
+      "scenario": "Pregnant patient admitted primarily for COVID-19 pneumonia",
+      "documentation_example": "28-week pregnant patient admitted with COVID-19 pneumonia requiring oxygen therapy.",
+      "step_by_step": [
+        "Step 1: Identify COVID-19 as primary reason for admission",
+        "Step 2: Code O98.5- as principal diagnosis",
+        "Step 3: Add U07.1 as additional diagnosis",
+        "Step 4: Add pneumonia code as manifestation"
+      ],
+      "correct_coding": {
+        "primary_code": "O98.5-",
+        "secondary_codes": [
+          "U07.1",
+          "Pneumonia code"
+        ],
+        "sequencing": "O98.5- principal, U07.1 and manifestations additional",
+        "rationale": "When COVID-19 is reason for admission in pregnancy, O98.5- is principal with U07.1 and manifestations as additional (Evidence: pg no: 71, L64-L66)"
+      },
+      "incorrect_coding": {
+        "code": "U07.1",
+        "codes": [
+          "U07.1 as principal"
+        ],
+        "rationale": "Chapter 15 codes take priority over COVID codes",
+        "common_mistake": "Using U07.1 as principal instead of O98.5-"
+      }
+    },
+    {
+      "scenario_id": "covid_incidental_delivery",
+      "scenario": "Patient in labor with incidental COVID-19 diagnosis",
+      "documentation_example": "Patient presents in active labor at term. Routine COVID testing positive but asymptomatic.",
+      "step_by_step": [
+        "Step 1: Identify labor as primary reason for admission",
+        "Step 2: Code delivery as principal diagnosis",
+        "Step 3: Add O98.5- as additional diagnosis",
+        "Step 4: Add U07.1 as additional diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "Delivery code",
+        "secondary_codes": [
+          "O98.5-",
+          "U07.1"
+        ],
+        "sequencing": "Delivery code principal, O98.5- and U07.1 additional",
+        "rationale": "When COVID is incidental, primary reason is principal with O98.5- and U07.1 as additional (Evidence: pg no: 71, L67-L69)"
+      },
+      "incorrect_coding": {
+        "code": "O98.5-",
+        "codes": [
+          "O98.5- as principal"
+        ],
+        "rationale": "Labor/delivery is the primary reason, not COVID",
+        "common_mistake": "Making COVID primary when it's incidental to delivery"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Chapter 15 codes always take sequencing priority (Evidence: pg no: 71, L67)"
+    ],
+    "best_practices": [
+      "Always use both O98.5- and U07.1 for COVID in pregnancy (Evidence: pg no: 71, L65-L66, L68-L69)",
+      "Include manifestation codes when present (Evidence: pg no: 71, L66, L68-L69)"
+    ],
+    "common_mistakes": [
+      "Using U07.1 as principal when COVID is primary reason",
+      "Forgetting to include manifestation codes"
+    ],
+    "tips": [
+      "Determine if COVID is primary reason or incidental to guide sequencing"
+    ],
+    "implementation_notes": [
+      "Ensures proper documentation of COVID impact on pregnancy"
+    ],
+    "clinical_context": [
+      "Important for tracking COVID effects on maternal and fetal health"
+    ]
+  },
+  "search_keywords": [
+    "COVID-19 pregnancy",
+    "O98.5",
+    "U07.1",
+    "viral diseases pregnancy",
+    "Chapter 15 priority"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "covid_pregnancy",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "COVID-19",
+      "pregnancy",
+      "O98.5",
+      "U07.1",
+      "sequencing"
+    ]
+  },
+  "page_range_processed": "pages_69_to_72"
+}

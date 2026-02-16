@@ -1,0 +1,137 @@
+{
+  "guideline_id": "POA.9",
+  "semantic_title": "Possible, Probable, Suspected, or Rule Out Diagnoses POA Assignment",
+  "section_path": "Present on Admission Guidelines > Assigning the POA Indicator > Conditions documented as possible, probable, suspected, or rule out at the time of discharge",
+  "page_number": 119,
+  "content": {
+    "full_text": "If the final diagnosis contains a possible, probable, suspected, or rule out diagnosis, and this diagnosis was based on signs, symptoms or clinical findings suspected at the time of inpatient admission, assign 'Y.' If the final diagnosis contains a possible, probable, suspected, or rule out diagnosis, and this diagnosis was based on signs, symptoms or clinical findings that were not present on admission, assign 'N'. (Evidence: pg no: 119, L43-L44)",
+    "summary": "For possible/probable/suspected/rule out diagnoses, assign Y if based on admission findings, N if based on post-admission findings (Evidence: pg no: 119, L43-L44)",
+    "key_concepts": [
+      "Possible/probable/suspected diagnoses (Evidence: pg no: 119, L43)",
+      "Rule out diagnoses (Evidence: pg no: 119, L43)",
+      "Based on admission findings (Evidence: pg no: 119, L43-L44)",
+      "Based on post-admission findings (Evidence: pg no: 119, L44)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "POA.9.1",
+        "rule_text": "Assign Y for possible/probable/suspected/rule out diagnoses based on admission findings (Evidence: pg no: 119, L43-L44)",
+        "explanation": "When final diagnosis is possible/probable/suspected/rule out and is based on signs, symptoms, or clinical findings present at admission, assign Y (Evidence: pg no: 119, L43-L44)",
+        "importance": "high",
+        "applies_to": "uncertain_diagnoses",
+        "common_applications": [
+          "Rule out MI based on admission chest pain",
+          "Suspected pneumonia based on admission symptoms"
+        ]
+      },
+      {
+        "rule_id": "POA.9.2",
+        "rule_text": "Assign N for possible/probable/suspected/rule out diagnoses based on post-admission findings (Evidence: pg no: 119, L44)",
+        "explanation": "When final diagnosis is possible/probable/suspected/rule out and is based on signs, symptoms, or clinical findings not present at admission, assign N (Evidence: pg no: 119, L44)",
+        "importance": "high",
+        "applies_to": "uncertain_diagnoses",
+        "common_applications": [
+          "Suspected infection based on post-admission fever",
+          "Rule out complication based on post-admission symptoms"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify possible/probable/suspected/rule out diagnosis",
+      "Step 2: Determine what findings the diagnosis is based on",
+      "Step 3: Check if findings were present at admission",
+      "Step 4: Assign Y if present at admission, N if not"
+    ],
+    "related_terminology": [
+      "Possible diagnosis",
+      "Probable diagnosis",
+      "Suspected diagnosis",
+      "Rule out diagnosis",
+      "Clinical findings"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "All possible/probable/suspected/rule out diagnoses"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "POA.9.S1",
+      "scenario": "Rule out MI based on admission chest pain",
+      "documentation_example": "Admission: Chest pain. Discharge: Rule out myocardial infarction based on admission chest pain",
+      "step_by_step": [
+        "Step 1: Identify rule out MI diagnosis",
+        "Step 2: Note it's based on admission chest pain",
+        "Step 3: Assign Y because based on admission findings"
+      ],
+      "correct_coding": {
+        "primary_code": "Rule out MI with Y indicator",
+        "secondary_codes": [],
+        "sequencing": "Standard rules apply",
+        "rationale": "Rule out diagnosis based on admission findings (Evidence: pg no: 119, L43-L44)"
+      },
+      "incorrect_coding": {
+        "code": "Rule out MI with N indicator",
+        "codes": [],
+        "rationale": "Should assign Y when based on admission findings",
+        "common_mistake": "Not considering what findings the diagnosis is based on"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Must determine what findings the uncertain diagnosis is based on (Evidence: pg no: 119, L43-L44)"
+    ],
+    "best_practices": [
+      "Review what clinical findings support the uncertain diagnosis (Evidence: pg no: 119, L43-L44)"
+    ],
+    "common_mistakes": [
+      "Not considering the basis for uncertain diagnoses (Evidence: pg no: 119, L43-L44)"
+    ],
+    "tips": [
+      "Look for connection between diagnosis and supporting findings (Evidence: pg no: 119, L43-L44)"
+    ],
+    "implementation_notes": [
+      "Train coders to identify basis for uncertain diagnoses"
+    ],
+    "clinical_context": [
+      "Many diagnoses remain uncertain at discharge"
+    ]
+  },
+  "search_keywords": [
+    "possible diagnosis POA",
+    "probable diagnosis POA",
+    "suspected diagnosis POA",
+    "rule out diagnosis POA",
+    "uncertain diagnosis POA",
+    "clinical findings POA"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "POA_assignment",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "POA",
+      "possible",
+      "probable",
+      "suspected",
+      "rule_out",
+      "uncertain"
+    ]
+  },
+  "page_range_processed": "pages_117_to_120"
+}

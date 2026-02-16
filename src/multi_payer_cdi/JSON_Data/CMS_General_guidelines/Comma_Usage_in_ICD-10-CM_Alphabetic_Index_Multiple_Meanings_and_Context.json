@@ -1,0 +1,116 @@
+{
+  "guideline_id": "I.A.7.1",
+  "semantic_title": "Comma Usage in ICD-10-CM Alphabetic Index: Multiple Meanings and Context",
+  "section_path": "Section I > A. Conventions > 7. Punctuation",
+  "page_number": 9,
+  "content": {
+    "full_text": "Commas are used in the Alphabetic Index and have different meanings based on the context of the Index entry, including alternate verbiage, modifier (essential and nonessential), or alternative for 'and/or.' (Evidence: pg no: 9, L61-L62)",
+    "summary": "Defines the multiple contextual meanings of commas in the Alphabetic Index including alternate verbiage, modifiers, and and/or alternatives (Evidence: pg no: 9, L61-L62)",
+    "key_concepts": [
+      "Commas have different meanings based on context (Evidence: pg no: 9, L61-L62)",
+      "Can represent alternate verbiage (Evidence: pg no: 9, L62)",
+      "Can indicate modifiers (essential and nonessential) (Evidence: pg no: 9, L62)",
+      "Can serve as alternative for 'and/or' (Evidence: pg no: 9, L62)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.A.7.1.R1",
+        "rule_text": "Commas have different meanings based on the context of the Index entry (Evidence: pg no: 9, L61-L62)",
+        "explanation": "The interpretation of commas in the Alphabetic Index depends on the specific context in which they appear (Evidence: pg no: 9, L61-L62)",
+        "importance": "medium",
+        "applies_to": "alphabetic_index_entries",
+        "common_applications": [
+          "Index entry interpretation",
+          "Code selection guidance"
+        ]
+      },
+      {
+        "rule_id": "I.A.7.1.R2",
+        "rule_text": "Commas can represent alternate verbiage, modifiers, or alternatives for 'and/or' (Evidence: pg no: 9, L62)",
+        "explanation": "Commas serve multiple functions including providing alternative wording, indicating modifiers, or representing and/or relationships (Evidence: pg no: 9, L62)",
+        "importance": "medium",
+        "applies_to": "alphabetic_index_entries",
+        "common_applications": [
+          "Understanding entry variations",
+          "Recognizing modifier relationships"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify commas in Alphabetic Index entries",
+      "Step 2: Determine context of comma usage",
+      "Step 3: Apply appropriate interpretation (alternate verbiage, modifier, or and/or)",
+      "Step 4: Select code based on comma meaning"
+    ],
+    "related_terminology": [
+      "Commas",
+      "Alternate verbiage",
+      "Essential modifiers",
+      "Nonessential modifiers",
+      "And/or alternatives",
+      "Context interpretation"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "All Alphabetic Index entries with commas"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Comma meaning depends on specific context (Evidence: pg no: 9, L61-L62)"
+    ],
+    "best_practices": [
+      "Consider context when interpreting commas",
+      "Recognize multiple possible comma meanings"
+    ],
+    "common_mistakes": [
+      "Assuming single meaning for all commas",
+      "Not considering context for comma interpretation"
+    ],
+    "tips": [
+      "Context determines comma meaning in Index entries"
+    ],
+    "implementation_notes": [
+      "Comma interpretation requires contextual analysis"
+    ],
+    "clinical_context": [
+      "Commas provide flexibility in clinical term matching"
+    ]
+  },
+  "search_keywords": [
+    "commas",
+    "punctuation",
+    "alternate verbiage",
+    "modifiers",
+    "and/or",
+    "context",
+    "alphabetic index"
+  ],
+  "metadata": {
+    "category": "convention",
+    "subcategory": "punctuation_rules",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "October 1, 2025",
+    "tags": [
+      "punctuation",
+      "commas",
+      "context",
+      "alphabetic_index"
+    ]
+  },
+  "page_range_processed": "pages_7_to_9"
+}

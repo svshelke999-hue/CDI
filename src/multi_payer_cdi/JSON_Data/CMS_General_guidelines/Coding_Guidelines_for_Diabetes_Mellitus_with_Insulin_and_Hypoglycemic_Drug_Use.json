@@ -1,0 +1,282 @@
+{
+  "guideline_id": "I.C.4.a.3",
+  "semantic_title": "Coding Guidelines for Diabetes Mellitus with Insulin and Hypoglycemic Drug Use",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 4. Chapter 4: Endocrine, Nutritional, and Metabolic Diseases > a. Diabetes mellitus > 3) Diabetes mellitus and the use of insulin, oral hypoglycemics, and injectable non-insulin drugs",
+  "page_number": 40,
+  "content": {
+    "full_text": "If the documentation in a medical record does not indicate the type of diabetes but does indicate that the patient uses insulin, code E11.-, Type 2 diabetes mellitus, should be assigned. Additional code(s) should be assigned from category Z79 to identify the long-term (current) use of insulin, oral hypoglycemic drugs, or injectable non-insulin antidiabetic, as follows: If the patient is treated with both oral hypoglycemic drugs and insulin, both code Z79.4, Long term (current) use of insulin, and code Z79.84, Long term (current) use of oral hypoglycemic drugs, should be assigned. If the patient is treated with both insulin and an injectable non-insulin antidiabetic drug, assign codes Z79.4, Long term (current) use of insulin, and Z79.85, Long-term (current) use of injectable non-insulin antidiabetic drugs. If the patient is treated with both oral hypoglycemic drugs and an injectable non-insulin antidiabetic drug, assign codes Z79.84, Long term (current) use of oral hypoglycemic drugs, and Z79.85, Long-term (current) use of injectable non-insulin antidiabetic drugs. Code Z79.4 should not be assigned if insulin is given temporarily to bring a type 2 patient's blood sugar under control during an encounter. (Evidence: pg no: 40-41, L38-L50)",
+    "summary": "Comprehensive guidelines for coding diabetes with various medication combinations using E11.- codes and appropriate Z79 codes for long-term drug use (Evidence: pg no: 40-41, L38-L50)",
+    "key_concepts": [
+      "Default to Type 2 diabetes when insulin use documented but type not specified (Evidence: pg no: 40, L40-L41)",
+      "Use Z79 codes for long-term medication use (Evidence: pg no: 40, L41-L43)",
+      "Multiple Z79 codes for combination therapy (Evidence: pg no: 40, L44-L49)",
+      "Do not use Z79.4 for temporary insulin (Evidence: pg no: 41, L50)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "DM-INSULIN-001",
+        "rule_text": "Assign E11.- when insulin use documented but diabetes type not specified (Evidence: pg no: 40, L40-L41)",
+        "explanation": "When documentation indicates insulin use but does not specify diabetes type, assign Type 2 diabetes mellitus codes from category E11 (Evidence: pg no: 40, L40-L41)",
+        "importance": "critical",
+        "applies_to": "E11.-",
+        "common_applications": [
+          "Diabetes with insulin use, type unspecified",
+          "Insulin-dependent diabetes without type documentation"
+        ]
+      },
+      {
+        "rule_id": "DM-INSULIN-002",
+        "rule_text": "Assign Z79 codes for long-term medication use (Evidence: pg no: 40, L41-L43)",
+        "explanation": "Additional codes from category Z79 should be assigned to identify long-term current use of insulin, oral hypoglycemic drugs, or injectable non-insulin antidiabetic medications (Evidence: pg no: 40, L41-L43)",
+        "importance": "high",
+        "applies_to": "Z79 codes",
+        "common_applications": [
+          "Long-term insulin use",
+          "Chronic oral hypoglycemic therapy",
+          "Injectable non-insulin antidiabetic use"
+        ]
+      },
+      {
+        "rule_id": "DM-INSULIN-003",
+        "rule_text": "Assign both Z79.4 and Z79.84 for oral hypoglycemic and insulin combination (Evidence: pg no: 40, L44-L45)",
+        "explanation": "When patient is treated with both oral hypoglycemic drugs and insulin, assign both Z79.4 for insulin and Z79.84 for oral hypoglycemic drugs (Evidence: pg no: 40, L44-L45)",
+        "importance": "high",
+        "applies_to": "Z79.4, Z79.84",
+        "common_applications": [
+          "Combination oral and insulin therapy",
+          "Type 2 diabetes with dual medication therapy"
+        ]
+      },
+      {
+        "rule_id": "DM-INSULIN-004",
+        "rule_text": "Assign Z79.4 and Z79.85 for insulin and injectable non-insulin combination (Evidence: pg no: 40, L45-L47)",
+        "explanation": "For patients treated with both insulin and injectable non-insulin antidiabetic drugs, assign Z79.4 for insulin and Z79.85 for injectable non-insulin drugs (Evidence: pg no: 40, L45-L47)",
+        "importance": "high",
+        "applies_to": "Z79.4, Z79.85",
+        "common_applications": [
+          "Insulin plus GLP-1 agonist therapy",
+          "Multiple injectable diabetes medications"
+        ]
+      },
+      {
+        "rule_id": "DM-INSULIN-005",
+        "rule_text": "Assign Z79.84 and Z79.85 for oral and injectable non-insulin combination (Evidence: pg no: 40, L46-L49)",
+        "explanation": "When patient uses both oral hypoglycemic drugs and injectable non-insulin antidiabetic drugs, assign Z79.84 for oral drugs and Z79.85 for injectable non-insulin drugs (Evidence: pg no: 40, L46-L49)",
+        "importance": "high",
+        "applies_to": "Z79.84, Z79.85",
+        "common_applications": [
+          "Oral medication plus GLP-1 agonist",
+          "Non-insulin combination therapy"
+        ]
+      },
+      {
+        "rule_id": "DM-INSULIN-006",
+        "rule_text": "Do not assign Z79.4 for temporary insulin use (Evidence: pg no: 41, L50)",
+        "explanation": "Code Z79.4 should not be assigned when insulin is given temporarily to bring a type 2 patient's blood sugar under control during an encounter (Evidence: pg no: 41, L50)",
+        "importance": "high",
+        "applies_to": "Z79.4",
+        "common_applications": [
+          "Temporary insulin for hyperglycemic crisis",
+          "Short-term insulin during hospitalization"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify diabetes diagnosis and medication use",
+      "Step 2: Determine if diabetes type is specified",
+      "Step 3: If not specified but insulin used, assign E11.- codes",
+      "Step 4: Identify all diabetes medications used long-term",
+      "Step 5: Assign appropriate Z79 codes for each medication type",
+      "Step 6: Do not assign Z79.4 for temporary insulin use"
+    ],
+    "related_terminology": [
+      "Long-term insulin use",
+      "Oral hypoglycemic drugs",
+      "Injectable non-insulin antidiabetic drugs",
+      "Combination diabetes therapy",
+      "Temporary insulin use"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "E11.-",
+        "description": "Type 2 diabetes mellitus (Evidence: pg no: 40, L41)",
+        "requirement": "Use when insulin documented but diabetes type not specified",
+        "usage_rules": [
+          "Default for insulin use without type specification (Evidence: pg no: 40, L40-L41)"
+        ]
+      },
+      {
+        "range": "Z79",
+        "description": "Long term (current) drug therapy (Evidence: pg no: 40, L42)",
+        "requirement": "Additional codes for long-term medication use",
+        "usage_rules": [
+          "Assign for long-term diabetes medication use (Evidence: pg no: 40, L41-L43)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "Z79.4",
+        "description": "Long term (current) use of insulin (Evidence: pg no: 40, L44)",
+        "context": "For long-term insulin use, not temporary use",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z79": "Long term drug therapy",
+          "4": "Insulin"
+        }
+      },
+      {
+        "code": "Z79.84",
+        "description": "Long term (current) use of oral hypoglycemic drugs (Evidence: pg no: 40, L44-L45)",
+        "context": "For chronic oral diabetes medication use",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z79": "Long term drug therapy",
+          "84": "Oral hypoglycemic drugs"
+        }
+      },
+      {
+        "code": "Z79.85",
+        "description": "Long-term (current) use of injectable non-insulin antidiabetic drugs (Evidence: pg no: 40, L45-L46)",
+        "context": "For injectable diabetes medications other than insulin",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z79": "Long term drug therapy",
+          "85": "Injectable non-insulin antidiabetic drugs"
+        }
+      }
+    ],
+    "code_categories_mentioned": [
+      "Category Z79 for long-term drug therapy"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "DM-MED-001",
+      "scenario": "Diabetes with insulin and oral hypoglycemic drugs",
+      "documentation_example": "Patient with diabetes on metformin and insulin",
+      "step_by_step": [
+        "Step 1: Identify diabetes without type specification",
+        "Step 2: Note insulin and oral medication use",
+        "Step 3: Assign E11.9 for Type 2 diabetes",
+        "Step 4: Assign Z79.4 for insulin use",
+        "Step 5: Assign Z79.84 for oral hypoglycemic use"
+      ],
+      "correct_coding": {
+        "primary_code": "E11.9",
+        "secondary_codes": [
+          "Z79.4",
+          "Z79.84"
+        ],
+        "sequencing": "Diabetes first, then medication codes",
+        "rationale": "Combination therapy requires both Z79 codes (Evidence: pg no: 40, L44-L45)"
+      },
+      "incorrect_coding": {
+        "codes": [
+          "E11.9",
+          "Z79.4"
+        ],
+        "rationale": "Missing Z79.84 for oral hypoglycemic drugs",
+        "common_mistake": "Not coding all medication types used"
+      }
+    },
+    {
+      "scenario_id": "DM-MED-002",
+      "scenario": "Temporary insulin use during hospitalization",
+      "documentation_example": "Type 2 diabetic given insulin sliding scale during admission for hyperglycemia",
+      "step_by_step": [
+        "Step 1: Identify Type 2 diabetes",
+        "Step 2: Note temporary insulin use for acute management",
+        "Step 3: Assign appropriate E11.- code",
+        "Step 4: Do not assign Z79.4 for temporary use"
+      ],
+      "correct_coding": {
+        "primary_code": "E11.65",
+        "secondary_codes": [],
+        "sequencing": "Diabetes with hyperglycemia",
+        "rationale": "Z79.4 not used for temporary insulin (Evidence: pg no: 41, L50)"
+      },
+      "incorrect_coding": {
+        "codes": [
+          "E11.65",
+          "Z79.4"
+        ],
+        "rationale": "Should not assign Z79.4 for temporary insulin use",
+        "common_mistake": "Coding temporary insulin as long-term use"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "DM-MED-EX1",
+      "scenario": "Combination oral and injectable non-insulin therapy",
+      "code_example": "E11.9, Z79.84, Z79.85",
+      "breakdown": {
+        "E11.9": "Type 2 diabetes without complications (Evidence: pg no: 40, L41)",
+        "Z79.84": "Long-term oral hypoglycemic use (Evidence: pg no: 40, L47)",
+        "Z79.85": "Long-term injectable non-insulin use (Evidence: pg no: 40, L47-L49)"
+      },
+      "rationale": "Both medication types require separate Z79 codes (Evidence: pg no: 40, L46-L49)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not assign Z79.4 for temporary insulin use (Evidence: pg no: 41, L50)",
+      "Must assign all applicable Z79 codes for combination therapy (Evidence: pg no: 40, L44-L49)"
+    ],
+    "best_practices": [
+      "Review all diabetes medications for long-term use coding (Evidence: pg no: 40, L41-L43)",
+      "Distinguish between temporary and long-term insulin use (Evidence: pg no: 41, L50)"
+    ],
+    "common_mistakes": [
+      "Missing Z79 codes for combination therapy (Evidence: pg no: 40, L44-L49)",
+      "Coding temporary insulin as long-term use (Evidence: pg no: 41, L50)"
+    ],
+    "tips": [
+      "Multiple Z79 codes can be assigned for combination therapy (Evidence: pg no: 40, L44-L49)",
+      "Long-term use implies ongoing therapy beyond the encounter (Evidence: pg no: 40, L42-L43)"
+    ],
+    "implementation_notes": [
+      "Requires review of medication regimen",
+      "Must distinguish temporary vs. long-term use"
+    ],
+    "clinical_context": [
+      "Many diabetics use combination therapy",
+      "Temporary insulin common during acute illness"
+    ]
+  },
+  "search_keywords": [
+    "diabetes insulin use",
+    "Z79.4 insulin",
+    "Z79.84 oral hypoglycemic",
+    "Z79.85 injectable non-insulin",
+    "combination diabetes therapy",
+    "temporary insulin",
+    "long-term medication use"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "endocrine_metabolic",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "diabetes",
+      "insulin",
+      "medications",
+      "Z79",
+      "combination therapy"
+    ]
+  },
+  "page_range_processed": "pages_39_to_42"
+}

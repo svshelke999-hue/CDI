@@ -1,0 +1,213 @@
+{
+  "guideline_id": "I.C.5.b.2",
+  "semantic_title": "Psychoactive Substance Use, Abuse and Dependence Hierarchy",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 5. Chapter 5: Mental, Behavioral and Neurodevelopmental disorders > b. Mental and behavioral disorders due to psychoactive substance use > 2) Psychoactive Substance Use, Abuse and Dependence",
+  "page_number": 43,
+  "content": {
+    "full_text": "When the provider documentation refers to use, abuse and dependence of the same substance (e.g. alcohol, opioid, cannabis, etc.), only one code should be assigned to identify the pattern of use based on the following hierarchy: • If both use and abuse are documented, assign only the code for abuse • If both abuse and dependence are documented, assign only the code for dependence • If use, abuse and dependence are all documented, assign only the code for dependence • If both use and dependence are documented, assign only the code for dependence. (Evidence: pg no: 43, L42-L49)",
+    "summary": "Establishes a clear hierarchy for coding substance use disorders when multiple levels are documented, with dependence taking highest priority, followed by abuse, then use (Evidence: pg no: 43, L42-L49)",
+    "key_concepts": [
+      "Single code assignment rule (Evidence: pg no: 43, L43)",
+      "Hierarchy-based selection (Evidence: pg no: 43, L43-L44)",
+      "Dependence priority (Evidence: pg no: 43, L45, L47, L49)",
+      "Same substance limitation (Evidence: pg no: 43, L42-L43)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "HIERARCHY_001",
+        "rule_text": "Assign only one code when multiple levels documented for same substance (Evidence: pg no: 43, L42-L43)",
+        "explanation": "When provider documents multiple levels of substance involvement for the same substance, select only one code based on hierarchy (Evidence: pg no: 43, L42-L43)",
+        "importance": "critical",
+        "applies_to": "F10-F19",
+        "common_applications": [
+          "Alcohol use and abuse documented",
+          "Opioid abuse and dependence documented"
+        ]
+      },
+      {
+        "rule_id": "HIERARCHY_002",
+        "rule_text": "Use and abuse documented: assign only abuse code (Evidence: pg no: 43, L44)",
+        "explanation": "When both use and abuse are documented, abuse takes precedence over use (Evidence: pg no: 43, L44)",
+        "importance": "high",
+        "applies_to": "F10-F19",
+        "common_applications": [
+          "Alcohol use and abuse",
+          "Cannabis use and abuse"
+        ]
+      },
+      {
+        "rule_id": "HIERARCHY_003",
+        "rule_text": "Abuse and dependence documented: assign only dependence code (Evidence: pg no: 43, L45)",
+        "explanation": "When both abuse and dependence are documented, dependence takes precedence over abuse (Evidence: pg no: 43, L45)",
+        "importance": "high",
+        "applies_to": "F10-F19",
+        "common_applications": [
+          "Opioid abuse and dependence",
+          "Alcohol abuse and dependence"
+        ]
+      },
+      {
+        "rule_id": "HIERARCHY_004",
+        "rule_text": "Use, abuse and dependence all documented: assign only dependence code (Evidence: pg no: 43, L46-L47)",
+        "explanation": "When all three levels are documented, dependence takes highest precedence (Evidence: pg no: 43, L46-L47)",
+        "importance": "high",
+        "applies_to": "F10-F19",
+        "common_applications": [
+          "Complex substance use documentation",
+          "Comprehensive assessments"
+        ]
+      },
+      {
+        "rule_id": "HIERARCHY_005",
+        "rule_text": "Use and dependence documented: assign only dependence code (Evidence: pg no: 43, L48-L49)",
+        "explanation": "When both use and dependence are documented, dependence takes precedence over use (Evidence: pg no: 43, L48-L49)",
+        "importance": "high",
+        "applies_to": "F10-F19",
+        "common_applications": [
+          "Historical use with current dependence",
+          "Progressive substance use disorders"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify all documented levels for the same substance",
+      "Step 2: Apply hierarchy: dependence > abuse > use",
+      "Step 3: Select highest level documented",
+      "Step 4: Assign only one code for that substance",
+      "Step 5: Repeat for each different substance if applicable"
+    ],
+    "related_terminology": [
+      "Substance use",
+      "Substance abuse",
+      "Substance dependence",
+      "Hierarchy",
+      "Pattern of use"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "F10-F19",
+        "description": "Mental and behavioral disorders due to psychoactive substance use (Evidence: pg no: 43, L42)",
+        "requirement": "Apply hierarchy when multiple levels documented",
+        "usage_rules": [
+          "Assign only one code per substance (Evidence: pg no: 43, L43)",
+          "Dependence takes precedence over abuse and use (Evidence: pg no: 43, L45, L47, L49)",
+          "Abuse takes precedence over use (Evidence: pg no: 43, L44)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Psychoactive substance use disorders"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "HIERARCHY_001",
+      "scenario": "Provider documents 'patient has history of alcohol use and currently meets criteria for alcohol abuse'",
+      "documentation_example": "History of alcohol use, currently alcohol abuse per DSM criteria",
+      "step_by_step": [
+        "Step 1: Identify both use and abuse documented",
+        "Step 2: Apply hierarchy rule: abuse > use",
+        "Step 3: Assign only alcohol abuse code",
+        "Step 4: Do not assign alcohol use code"
+      ],
+      "correct_coding": {
+        "primary_code": "F10.10",
+        "secondary_codes": [],
+        "sequencing": "Alcohol abuse code only",
+        "rationale": "When both use and abuse documented, assign only abuse code (Evidence: pg no: 43, L44)"
+      },
+      "incorrect_coding": {
+        "codes": [
+          "F10.10",
+          "F10.90"
+        ],
+        "rationale": "Should not assign both use and abuse codes",
+        "common_mistake": "Assigning multiple codes for same substance"
+      }
+    },
+    {
+      "scenario_id": "HIERARCHY_002",
+      "scenario": "Documentation states 'opioid use disorder, severe' and 'opioid dependence with physiological features'",
+      "documentation_example": "Severe opioid use disorder with opioid dependence and physiological dependence features",
+      "step_by_step": [
+        "Step 1: Recognize severe use disorder = dependence",
+        "Step 2: Note explicit dependence documentation",
+        "Step 3: Apply hierarchy: dependence is highest level",
+        "Step 4: Assign only dependence code"
+      ],
+      "correct_coding": {
+        "primary_code": "F11.20",
+        "secondary_codes": [],
+        "sequencing": "Opioid dependence code only",
+        "rationale": "Dependence takes precedence when multiple levels documented (Evidence: pg no: 43, L45)"
+      },
+      "incorrect_coding": {
+        "codes": [
+          "F11.10",
+          "F11.20"
+        ],
+        "rationale": "Should not assign both abuse and dependence codes",
+        "common_mistake": "Not applying hierarchy rules"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Only assign one code per substance when multiple levels documented (Evidence: pg no: 43, L43)",
+      "Must apply hierarchy consistently (Evidence: pg no: 43, L43-L49)"
+    ],
+    "best_practices": [
+      "Always check for multiple documented levels before coding (Evidence: pg no: 43, L42-L43)",
+      "Apply hierarchy: dependence > abuse > use (Evidence: pg no: 43, L44-L49)"
+    ],
+    "common_mistakes": [
+      "Assigning multiple codes for same substance",
+      "Not applying hierarchy rules",
+      "Missing documented higher levels"
+    ],
+    "tips": [
+      "Dependence always wins",
+      "Abuse beats use",
+      "One substance = one code"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Reflects clinical understanding of substance use disorder progression",
+      "Important for treatment planning and resource allocation"
+    ]
+  },
+  "search_keywords": [
+    "substance use hierarchy",
+    "abuse dependence priority",
+    "F10-F19",
+    "single code assignment",
+    "substance use disorders"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "substance_use_disorders",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "substance_use",
+      "hierarchy",
+      "abuse",
+      "dependence"
+    ]
+  },
+  "page_range_processed": "pages_42_to_45"
+}

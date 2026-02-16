@@ -1,0 +1,230 @@
+{
+  "guideline_id": "I.C.19.d",
+  "semantic_title": "Coding of Burns and Corrosions - Classification and General Principles",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 19. Injury, Poisoning, and Certain Other Consequences of External Causes > d. Coding of Burns and Corrosions",
+  "page_number": 80,
+  "content": {
+    "full_text": "The ICD-10-CM makes a distinction between burns and corrosions. The burn codes are for thermal burns, except sunburns, that come from a heat source, such as a fire or hot appliance. The burn codes are also for burns resulting from electricity and radiation. Corrosions are burns due to chemicals. The guidelines are the same for burns and corrosions. Current burns (T20-T25) are classified by depth, extent and by agent (X code). Burns are classified by depth as first degree (erythema), second degree (blistering), and third degree (full-thickness involvement). Burns of the eye and internal organs (T26-T28) are classified by site, but not by degree. (Evidence: pg no: 80, L68-L71)",
+    "summary": "Fundamental distinctions between burns and corrosions, classification systems, and coding principles for thermal, electrical, radiation, and chemical burns (Evidence: pg no: 80, L68-L71)",
+    "key_concepts": [
+      "Distinction between burns and corrosions (Evidence: pg no: 80, L68-L69)",
+      "Thermal burn sources and types (Evidence: pg no: 80, L69-L70)",
+      "Chemical corrosion definition (Evidence: pg no: 80, L70)",
+      "Burn classification by depth, extent, and agent (Evidence: pg no: 80, L70-L71)",
+      "Degree classification system (Evidence: pg no: 80, L71)",
+      "Special classification for eye and internal organ burns (Evidence: pg no: 80, L71)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "burn_vs_corrosion_distinction",
+        "rule_text": "The ICD-10-CM makes a distinction between burns and corrosions (Evidence: pg no: 80, L68-L69)",
+        "explanation": "Burns and corrosions are coded differently based on the causative agent (Evidence: pg no: 80, L68-L69)",
+        "importance": "critical",
+        "applies_to": "T20-T32",
+        "common_applications": [
+          "Thermal injury coding",
+          "Chemical injury coding"
+        ]
+      },
+      {
+        "rule_id": "thermal_burn_definition",
+        "rule_text": "The burn codes are for thermal burns, except sunburns, that come from a heat source, such as a fire or hot appliance. The burn codes are also for burns resulting from electricity and radiation (Evidence: pg no: 80, L69-L70)",
+        "explanation": "Burn codes cover thermal, electrical, and radiation burns but exclude sunburns (Evidence: pg no: 80, L69-L70)",
+        "importance": "high",
+        "applies_to": "T20-T25",
+        "common_applications": [
+          "Fire burns",
+          "Hot appliance burns",
+          "Electrical burns",
+          "Radiation burns"
+        ]
+      },
+      {
+        "rule_id": "corrosion_definition",
+        "rule_text": "Corrosions are burns due to chemicals (Evidence: pg no: 80, L70)",
+        "explanation": "Chemical burns are classified as corrosions and coded separately from thermal burns (Evidence: pg no: 80, L70)",
+        "importance": "high",
+        "applies_to": "corrosion_codes",
+        "common_applications": [
+          "Acid burns",
+          "Alkali burns",
+          "Chemical exposure injuries"
+        ]
+      },
+      {
+        "rule_id": "burn_classification_system",
+        "rule_text": "Current burns (T20-T25) are classified by depth, extent and by agent (X code) (Evidence: pg no: 80, L70-L71)",
+        "explanation": "Burns require classification across multiple dimensions for complete coding (Evidence: pg no: 80, L70-L71)",
+        "importance": "high",
+        "applies_to": "T20-T25",
+        "common_applications": [
+          "Complete burn documentation",
+          "Multi-dimensional coding"
+        ]
+      },
+      {
+        "rule_id": "degree_classification",
+        "rule_text": "Burns are classified by depth as first degree (erythema), second degree (blistering), and third degree (full-thickness involvement) (Evidence: pg no: 80, L71)",
+        "explanation": "Three-tier depth classification system based on tissue involvement (Evidence: pg no: 80, L71)",
+        "importance": "high",
+        "applies_to": "T20-T25",
+        "common_applications": [
+          "Depth assessment",
+          "Severity determination"
+        ]
+      },
+      {
+        "rule_id": "eye_internal_organ_exception",
+        "rule_text": "Burns of the eye and internal organs (T26-T28) are classified by site, but not by degree (Evidence: pg no: 80, L71)",
+        "explanation": "Eye and internal organ burns use site-based classification without degree specification (Evidence: pg no: 80, L71)",
+        "importance": "high",
+        "applies_to": "T26-T28",
+        "common_applications": [
+          "Eye burn coding",
+          "Internal organ burn coding"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if injury is burn or corrosion based on causative agent",
+      "Step 2: Identify burn source (thermal, electrical, radiation, or chemical)",
+      "Step 3: Classify by anatomical site",
+      "Step 4: Determine depth/degree (except for eye and internal organs)",
+      "Step 5: Assess extent if applicable",
+      "Step 6: Assign appropriate external cause code (X code)"
+    ],
+    "related_terminology": [
+      "Burns",
+      "Corrosions",
+      "Thermal burns",
+      "Chemical burns",
+      "Electrical burns",
+      "Radiation burns",
+      "First degree",
+      "Second degree",
+      "Third degree",
+      "Erythema",
+      "Blistering",
+      "Full-thickness"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "T20-T25",
+        "description": "Current burns classified by depth, extent and agent (Evidence: pg no: 80, L70-L71)",
+        "requirement": "Classify by depth, extent, and agent",
+        "usage_rules": [
+          "Use degree classification system (Evidence: pg no: 80, L71)",
+          "Include external cause codes (Evidence: pg no: 80, L70-L71)"
+        ]
+      },
+      {
+        "range": "T26-T28",
+        "description": "Burns of eye and internal organs classified by site only (Evidence: pg no: 80, L71)",
+        "requirement": "Classify by site without degree specification",
+        "usage_rules": [
+          "Do not use degree classification (Evidence: pg no: 80, L71)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Burn codes",
+      "Corrosion codes",
+      "External cause codes (X codes)"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "thermal_burn_classification",
+      "scenario": "Patient with second-degree burn from hot stove",
+      "documentation_example": "Second-degree burn of hand from contact with hot stove",
+      "step_by_step": [
+        "Step 1: Identify as thermal burn (not corrosion)",
+        "Step 2: Determine anatomical site (hand)",
+        "Step 3: Classify degree (second degree)",
+        "Step 4: Assign burn code",
+        "Step 5: Add external cause code for hot appliance"
+      ],
+      "correct_coding": {
+        "primary_code": "T23.xxx (hand burn, second degree)",
+        "secondary_codes": [
+          "X code for hot appliance"
+        ],
+        "sequencing": "Burn code first, then external cause",
+        "rationale": "Thermal burns require depth classification and external cause coding (Evidence: pg no: 80, L69-L71)"
+      },
+      "incorrect_coding": {
+        "code": "Corrosion code",
+        "codes": [
+          "Chemical burn code"
+        ],
+        "rationale": "Hot stove contact is thermal, not chemical",
+        "common_mistake": "Confusing burn types based on causative agent"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Distinguish between burns and corrosions based on causative agent (Evidence: pg no: 80, L68-L70)"
+    ],
+    "best_practices": [
+      "Always classify burns by depth, extent, and agent when applicable (Evidence: pg no: 80, L70-L71)",
+      "Use site-only classification for eye and internal organ burns (Evidence: pg no: 80, L71)"
+    ],
+    "common_mistakes": [
+      "Using degree classification for eye and internal organ burns (Evidence: pg no: 80, L71)",
+      "Confusing burns and corrosions (Evidence: pg no: 80, L68-L70)"
+    ],
+    "tips": [
+      "Remember sunburns are excluded from burn codes (Evidence: pg no: 80, L69)",
+      "Chemical injuries are always corrosions (Evidence: pg no: 80, L70)"
+    ],
+    "implementation_notes": [
+      "Requires understanding of causative agents and tissue involvement"
+    ],
+    "clinical_context": [
+      "Common in emergency medicine, surgery, and dermatology"
+    ]
+  },
+  "search_keywords": [
+    "burns",
+    "corrosions",
+    "thermal burns",
+    "chemical burns",
+    "electrical burns",
+    "radiation burns",
+    "first degree",
+    "second degree",
+    "third degree",
+    "burn classification",
+    "T20-T25",
+    "T26-T28"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "burn_coding",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "burns",
+      "corrosions",
+      "classification",
+      "thermal",
+      "chemical"
+    ]
+  },
+  "page_range_processed": "pages_78_to_81"
+}

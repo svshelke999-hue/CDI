@@ -1,0 +1,198 @@
+{
+  "guideline_id": "I.A.2",
+  "semantic_title": "Format and Structure of ICD-10-CM Codes: Categories, Subcategories, and Character Requirements",
+  "section_path": "Section I > A. Conventions > 2. Format and Structure",
+  "page_number": 7,
+  "content": {
+    "full_text": "The ICD-10-CM Tabular List contains categories, subcategories and codes. Characters for categories, subcategories and codes may be either a letter or a number. All categories are 3 characters. A three-character category that has no further subdivision is equivalent to a code. Subcategories are either 4 or 5 characters. Codes may be 3, 4, 5, 6 or 7 characters. That is, each level of subdivision after a category is a subcategory. The final level of subdivision is a code. Codes that have applicable 7th characters are still referred to as codes, not subcategories. A code that has an applicable 7th character is considered invalid without the 7th character. The ICD-10-CM uses an indented format for ease in reference. (Evidence: pg no: 7-8, L18-L23)",
+    "summary": "Defines the hierarchical structure of ICD-10-CM with specific character requirements for categories, subcategories, and codes (Evidence: pg no: 7-8, L18-L23)",
+    "key_concepts": [
+      "Categories are always 3 characters (Evidence: pg no: 7, L19)",
+      "Subcategories are 4 or 5 characters (Evidence: pg no: 7, L19)",
+      "Codes may be 3, 4, 5, 6, or 7 characters (Evidence: pg no: 7, L19)",
+      "7th character codes are invalid without the 7th character (Evidence: pg no: 8, L21-L22)",
+      "Indented format used for reference (Evidence: pg no: 8, L23)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.A.2.R1",
+        "rule_text": "All categories are 3 characters (Evidence: pg no: 7, L19)",
+        "explanation": "Every ICD-10-CM category consists of exactly three characters, which may be letters or numbers (Evidence: pg no: 7, L18-L19)",
+        "importance": "critical",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Code structure validation",
+          "Category identification"
+        ]
+      },
+      {
+        "rule_id": "I.A.2.R2",
+        "rule_text": "A code that has an applicable 7th character is considered invalid without the 7th character (Evidence: pg no: 8, L21-L22)",
+        "explanation": "When a code requires a 7th character, it must be included for the code to be valid and complete (Evidence: pg no: 8, L21-L22)",
+        "importance": "critical",
+        "applies_to": "codes_with_7th_character",
+        "common_applications": [
+          "Injury and poisoning codes",
+          "Obstetric codes",
+          "Certain other specified codes"
+        ]
+      },
+      {
+        "rule_id": "I.A.2.R3",
+        "rule_text": "The final level of subdivision is a code (Evidence: pg no: 7, L20)",
+        "explanation": "Codes represent the most specific level of detail available in the classification system (Evidence: pg no: 7, L20)",
+        "importance": "high",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Determining code specificity",
+          "Ensuring maximum detail capture"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify the 3-character category",
+      "Step 2: Determine if subcategories (4-5 characters) exist",
+      "Step 3: Find the most specific code available",
+      "Step 4: Check if 7th character is required",
+      "Step 5: Apply 7th character if applicable"
+    ],
+    "related_terminology": [
+      "Categories",
+      "Subcategories",
+      "Codes",
+      "7th characters",
+      "Character structure",
+      "Indented format"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "XXX",
+        "description": "3-character category format (Evidence: pg no: 7, L19)",
+        "example": "I10",
+        "explanation": "All categories follow this 3-character pattern"
+      },
+      {
+        "pattern": "XXX.X",
+        "description": "4-character subcategory format (Evidence: pg no: 7, L19)",
+        "example": "I10.1",
+        "explanation": "Subcategories add one character to the category"
+      },
+      {
+        "pattern": "XXX.XX",
+        "description": "5-character subcategory format (Evidence: pg no: 7, L19)",
+        "example": "I10.11",
+        "explanation": "Some subcategories require 5 characters"
+      }
+    ],
+    "code_categories_mentioned": [
+      "All ICD-10-CM categories, subcategories, and codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": [
+      {
+        "guideline_id": "I.A.5",
+        "title": "7th Characters",
+        "relationship": "builds_upon",
+        "explanation": "Expands on 7th character requirements"
+      }
+    ]
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "I.A.2.S1",
+      "scenario": "Determining proper code structure for a fracture",
+      "documentation_example": "Closed fracture of shaft of right femur, initial encounter",
+      "step_by_step": [
+        "Step 1: Identify category S72 (fractures of femur)",
+        "Step 2: Find subcategory S72.3 (fracture of shaft of femur)",
+        "Step 3: Locate specific code S72.301 (unspecified fracture of shaft of right femur)",
+        "Step 4: Apply 7th character 'A' for initial encounter"
+      ],
+      "correct_coding": {
+        "primary_code": "S72.301A",
+        "secondary_codes": [],
+        "sequencing": "Primary diagnosis",
+        "rationale": "7th character is required for fracture codes and makes the code valid (Evidence: pg no: 8, L21-L22)"
+      },
+      "incorrect_coding": {
+        "code": "S72.301",
+        "codes": [],
+        "rationale": "Missing required 7th character makes code invalid",
+        "common_mistake": "Omitting required 7th character"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "I.A.2.E1",
+      "scenario": "Code structure hierarchy",
+      "code_example": "S72.301A",
+      "breakdown": {
+        "S72": "3-character category (fractures of femur) (Evidence: pg no: 7, L19)",
+        "S72.3": "4-character subcategory (fracture of shaft of femur) (Evidence: pg no: 7, L19)",
+        "S72.301": "6-character code (unspecified fracture of shaft of right femur) (Evidence: pg no: 7, L19)",
+        "A": "7th character (initial encounter) (Evidence: pg no: 8, L21-L22)"
+      },
+      "rationale": "Demonstrates the hierarchical structure from category to final code with 7th character (Evidence: pg no: 7-8, L18-L22)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Codes with applicable 7th characters are invalid without them (Evidence: pg no: 8, L21-L22)",
+      "Must use most specific code available (Evidence: pg no: 7, L20)"
+    ],
+    "best_practices": [
+      "Always check for 7th character requirements",
+      "Use indented format to understand code hierarchy",
+      "Verify character count matches code requirements"
+    ],
+    "common_mistakes": [
+      "Omitting required 7th characters",
+      "Using categories instead of codes",
+      "Not using most specific code available"
+    ],
+    "tips": [
+      "Remember that 7th character codes are still called codes, not subcategories",
+      "Use indented format to navigate code hierarchy"
+    ],
+    "implementation_notes": [
+      "Character validation is essential for code accuracy"
+    ],
+    "clinical_context": [
+      "Code structure reflects clinical specificity requirements"
+    ]
+  },
+  "search_keywords": [
+    "code structure",
+    "categories",
+    "subcategories",
+    "7th character",
+    "character requirements",
+    "code hierarchy",
+    "indented format"
+  ],
+  "metadata": {
+    "category": "convention",
+    "subcategory": "code_structure",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "October 1, 2025",
+    "tags": [
+      "structure",
+      "categories",
+      "subcategories",
+      "7th_character",
+      "hierarchy"
+    ]
+  },
+  "page_range_processed": "pages_7_to_9"
+}

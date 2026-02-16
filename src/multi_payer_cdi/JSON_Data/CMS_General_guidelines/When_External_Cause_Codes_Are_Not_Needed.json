@@ -1,0 +1,160 @@
+{
+  "guideline_id": "I.C.20.a.8",
+  "semantic_title": "When External Cause Codes Are Not Needed",
+  "section_path": "Chapter 20: External Causes of Morbidity > a. General External Cause Coding Guidelines > 8) No external cause code needed in certain circumstances",
+  "page_number": 89,
+  "content": {
+    "full_text": "No external cause code from Chapter 20 is needed if the external cause and intent are included in a code from another chapter (e.g., T36.0X1-, Poisoning by penicillins, accidental (unintentional)). (Evidence: pg no: 89, L49-L51)",
+    "summary": "External cause codes are not needed when the external cause and intent are already included in codes from other chapters (Evidence: pg no: 89, L49-L51)",
+    "key_concepts": [
+      "No Chapter 20 code needed when external cause included elsewhere (Evidence: pg no: 89, L49-L50)",
+      "External cause and intent must both be included (Evidence: pg no: 89, L50)",
+      "Example: poisoning codes include cause and intent (Evidence: pg no: 89, L50-L51)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "NO_EXT_001",
+        "rule_text": "No external cause code needed when external cause and intent are included in another chapter's code (Evidence: pg no: 89, L49-L50)",
+        "explanation": "When codes from other chapters already specify both the external cause and intent, additional Chapter 20 external cause codes are redundant and should not be used (Evidence: pg no: 89, L49-L51)",
+        "importance": "high",
+        "applies_to": "Codes that include external cause and intent",
+        "common_applications": [
+          "Poisoning codes",
+          "Adverse effect codes",
+          "Other codes with built-in external cause"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Review the primary diagnosis code",
+      "Step 2: Determine if external cause and intent are included in the code",
+      "Step 3: If both are included, do not assign additional external cause codes",
+      "Step 4: If not included, assign appropriate Chapter 20 external cause codes"
+    ],
+    "related_terminology": [
+      "External cause",
+      "Intent",
+      "Poisoning codes",
+      "Built-in external cause",
+      "Redundant coding"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "T36.0X1-",
+        "description": "Poisoning by penicillins, accidental (unintentional) (Evidence: pg no: 89, L50-L51)",
+        "context": "Example of code that includes external cause and intent",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "T36.0": "Poisoning by penicillins (Evidence: pg no: 89, L50-L51)",
+          "X1": "Accidental (unintentional) intent (Evidence: pg no: 89, L50-L51)"
+        }
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": "Codes with built-in external cause and intent",
+        "description": "Codes from other chapters that include external cause information (Evidence: pg no: 89, L49-L50)",
+        "example": "T36.0X1- Poisoning by penicillins, accidental",
+        "explanation": "These codes make Chapter 20 external cause codes unnecessary"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Poisoning codes",
+      "Codes with built-in external cause"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "NO_EXT_001",
+      "scenario": "Patient accidentally took too much penicillin and developed adverse reaction",
+      "documentation_example": "Patient accidentally overdosed on prescribed penicillin, developed allergic reaction",
+      "step_by_step": [
+        "Step 1: Identify the poisoning by penicillin",
+        "Step 2: Note that it was accidental/unintentional",
+        "Step 3: Select T36.0X1- which includes both the substance and intent",
+        "Step 4: Do not add additional external cause codes"
+      ],
+      "correct_coding": {
+        "primary_code": "T36.0X1A (initial encounter)",
+        "secondary_codes": [
+          "Code for allergic reaction if applicable"
+        ],
+        "sequencing": "Poisoning code first, then manifestations",
+        "rationale": "The poisoning code already includes the external cause (penicillin) and intent (accidental), making additional external cause codes unnecessary (Evidence: pg no: 89, L49-L51)"
+      },
+      "incorrect_coding": {
+        "code": "T36.0X1A plus additional external cause code",
+        "codes": [
+          "Adding redundant Chapter 20 external cause code"
+        ],
+        "rationale": "External cause and intent already included in the poisoning code",
+        "common_mistake": "Adding unnecessary external cause codes when already included"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "NO_EXT_001",
+      "scenario": "Poisoning by penicillins, accidental",
+      "code_example": "T36.0X1-",
+      "breakdown": {
+        "substance": "Penicillins (Evidence: pg no: 89, L50-L51)",
+        "external_cause": "Poisoning (Evidence: pg no: 89, L50-L51)",
+        "intent": "Accidental (unintentional) (Evidence: pg no: 89, L50-L51)"
+      },
+      "rationale": "Code includes both external cause and intent, eliminating need for additional external cause codes (Evidence: pg no: 89, L49-L51)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Don't add external cause codes when already included in primary code (Evidence: pg no: 89, L49-L51)"
+    ],
+    "best_practices": [
+      "Check if primary code includes external cause and intent before adding external cause codes (Evidence: pg no: 89, L49-L51)"
+    ],
+    "common_mistakes": [
+      "Adding redundant external cause codes to poisoning codes (Evidence: pg no: 89, L49-L51)"
+    ],
+    "tips": [
+      "Look for intent indicators in code descriptions (Evidence: pg no: 89, L50-L51)"
+    ],
+    "implementation_notes": [
+      "Reduces redundant coding when information already captured"
+    ],
+    "clinical_context": [
+      "Many poisoning and adverse effect codes include external cause information"
+    ]
+  },
+  "search_keywords": [
+    "no external cause code needed",
+    "external cause included",
+    "poisoning codes external cause",
+    "built-in external cause",
+    "redundant external cause coding"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "external_causes",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "external_causes",
+      "poisoning_codes",
+      "redundant_coding",
+      "chapter_20"
+    ]
+  },
+  "page_range_processed": "pages_87_to_90"
+}

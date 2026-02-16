@@ -1,0 +1,145 @@
+{
+  "guideline_id": "I.B.6",
+  "semantic_title": "Non-Integral Signs and Symptoms Should Be Coded When Present",
+  "section_path": "Section I > B. General Coding Guidelines > 6. Conditions that are not an integral part of a disease process",
+  "page_number": 13,
+  "content": {
+    "full_text": "Additional signs and symptoms that may not be associated routinely with a disease process should be coded when present. (Evidence: pg no: 13, L45-L46)",
+    "summary": "Requires coding of signs and symptoms that are not routinely associated with the primary disease process when they are present. (Evidence: pg no: 13, L45-L46)",
+    "key_concepts": [
+      "Non-integral symptoms should be coded additionally (Evidence: pg no: 13, L45-L46)",
+      "Not routinely associated with disease process (Evidence: pg no: 13, L45-L46)",
+      "Must be present to be coded (Evidence: pg no: 13, L46)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.B.6.1",
+        "rule_text": "Code additional signs/symptoms not routinely associated with disease process (Evidence: pg no: 13, L45-L46)",
+        "explanation": "When a patient presents with signs or symptoms that are not typically expected or routinely associated with their primary disease process, these should be coded as additional diagnoses to provide a complete picture of the patient's condition (Evidence: pg no: 13, L45-L46)",
+        "importance": "high",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Unusual symptoms with common diseases",
+          "Unrelated symptoms occurring simultaneously",
+          "Complications or atypical presentations"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify the primary disease/condition",
+      "Step 2: Identify all present signs/symptoms",
+      "Step 3: Determine which symptoms are NOT routinely associated with the primary disease",
+      "Step 4: Code the primary disease plus non-integral symptoms",
+      "Step 5: Sequence according to encounter circumstances"
+    ],
+    "related_terminology": [
+      "non-integral symptoms",
+      "additional signs",
+      "disease process",
+      "not routinely associated",
+      "present symptoms"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Additional signs",
+      "Additional symptoms",
+      "Non-integral manifestations"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.B.5",
+        "title": "Conditions that are an integral part of a disease process",
+        "relationship": "related_to",
+        "explanation": "Contrasts with integral conditions that should not be coded separately"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "I.B.6.S1",
+      "scenario": "Patient with pneumonia also presents with severe headache",
+      "documentation_example": "Final diagnosis: Community-acquired pneumonia. Patient also complaining of severe headache, unrelated to respiratory condition.",
+      "step_by_step": [
+        "Step 1: Identify primary condition (pneumonia)",
+        "Step 2: Identify additional symptom (headache)",
+        "Step 3: Determine headache is not routinely associated with pneumonia",
+        "Step 4: Code both pneumonia and headache",
+        "Step 5: Sequence pneumonia first as primary condition"
+      ],
+      "correct_coding": {
+        "primary_code": "J18.9",
+        "secondary_codes": [
+          "R51.9"
+        ],
+        "sequencing": "Primary condition first, then non-integral symptom",
+        "rationale": "Headache is not routinely associated with pneumonia and should be coded additionally (Evidence: pg no: 13, L45-L46)"
+      },
+      "incorrect_coding": {
+        "code": "J18.9",
+        "codes": [
+          "J18.9"
+        ],
+        "rationale": "Would miss the non-integral symptom that should be coded",
+        "common_mistake": "Failing to code non-integral symptoms that are present"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Must code non-integral symptoms when present (Evidence: pg no: 13, L45-L46)"
+    ],
+    "best_practices": [
+      "Evaluate each symptom for its relationship to the primary disease (Evidence: pg no: 13, L45-L46)",
+      "Code all non-integral symptoms that are documented (Evidence: pg no: 13, L45-L46)"
+    ],
+    "common_mistakes": [
+      "Failing to code unrelated symptoms (Evidence: pg no: 13, L45-L46)",
+      "Assuming all symptoms are integral to the primary disease (Evidence: pg no: 13, L45-L46)"
+    ],
+    "tips": [
+      "Consider whether the symptom would be expected with the primary disease (Evidence: pg no: 13, L45-L46)",
+      "When in doubt, code the additional symptom (Evidence: pg no: 13, L45-L46)"
+    ],
+    "implementation_notes": [
+      "Requires clinical judgment to determine symptom relationships"
+    ],
+    "clinical_context": [
+      "Ensures complete documentation of patient's condition",
+      "Important for quality measures and severity of illness"
+    ]
+  },
+  "search_keywords": [
+    "non-integral symptoms",
+    "additional signs",
+    "not routinely associated",
+    "disease process",
+    "present symptoms",
+    "unrelated symptoms",
+    "additional coding"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "symptom_coding",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "non_integral_symptoms",
+      "additional_coding",
+      "disease_process",
+      "clinical_judgment"
+    ]
+  },
+  "page_range_processed": "pages_12_to_15"
+}

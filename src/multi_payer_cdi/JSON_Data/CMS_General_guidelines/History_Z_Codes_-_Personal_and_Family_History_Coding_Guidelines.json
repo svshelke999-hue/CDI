@@ -1,0 +1,306 @@
+{
+  "guideline_id": "I.C.21.c.4",
+  "semantic_title": "History Z Codes - Personal and Family History Coding Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 21. Factors Influencing Health Status > c. Status > 4) History (of)",
+  "page_number": 97,
+  "content": {
+    "full_text": "There are two types of history Z codes, personal and family. Personal history codes explain a patient's past medical condition that no longer exists and is not receiving any treatment, but that has the potential for recurrence, and therefore may require continued monitoring. Family history codes are for use when a patient has a family member(s) who has had a particular disease that causes the patient to be at higher risk of also contracting the disease. Personal history codes may be used in conjunction with follow-up codes and family history codes may be used in conjunction with screening codes to explain the need for a test or procedure. History codes are also acceptable on any medical record regardless of the reason for visit. A history of an illness, even if no longer present, is important information that may alter the type of treatment ordered. The reason for the encounter (for example, screening or counseling) should be sequenced first and the appropriate personal and/or family history code(s) should be assigned as additional diagnos(es). (Evidence: pg no: 97-98, L30-L33)",
+    "summary": "History Z codes include personal history (past conditions with recurrence potential) and family history (family member conditions increasing patient risk), used for monitoring and risk assessment (Evidence: pg no: 97-98, L30-L33)",
+    "key_concepts": [
+      "Two types of history codes: personal and family (Evidence: pg no: 97, L30)",
+      "Personal history for past conditions with recurrence potential (Evidence: pg no: 97, L31)",
+      "Family history for increased disease risk (Evidence: pg no: 97, L32)",
+      "Used with follow-up and screening codes (Evidence: pg no: 97, L32)",
+      "Acceptable on any medical record (Evidence: pg no: 97, L32)",
+      "History as additional diagnosis with reason for encounter first (Evidence: pg no: 98, L33)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "personal_history_criteria",
+        "rule_text": "Personal history codes explain past medical conditions that no longer exist, are not receiving treatment, but have potential for recurrence requiring monitoring (Evidence: pg no: 97, L31)",
+        "explanation": "These codes capture significant past medical conditions that, while resolved, remain clinically relevant due to recurrence risk and need for ongoing surveillance (Evidence: pg no: 97, L31)",
+        "importance": "high",
+        "applies_to": "Z80-Z87, Z91.4-, Z91.5-, Z91.81, Z91.82, Z91.85, Z92",
+        "common_applications": [
+          "History of malignancy requiring surveillance",
+          "History of cardiovascular disease affecting treatment decisions"
+        ]
+      },
+      {
+        "rule_id": "family_history_criteria",
+        "rule_text": "Family history codes are used when family members have had diseases that increase the patient's risk of contracting the same disease (Evidence: pg no: 97, L32)",
+        "explanation": "These codes document family medical history that places the patient at higher risk, justifying enhanced screening or preventive measures (Evidence: pg no: 97, L32)",
+        "importance": "high",
+        "applies_to": "Z80-Z84",
+        "common_applications": [
+          "Family history of cancer requiring enhanced screening",
+          "Family history of genetic conditions"
+        ]
+      },
+      {
+        "rule_id": "history_sequencing",
+        "rule_text": "The reason for the encounter should be sequenced first and history codes assigned as additional diagnoses (Evidence: pg no: 98, L33)",
+        "explanation": "History codes typically serve as supporting information rather than the primary reason for the encounter (Evidence: pg no: 98, L33)",
+        "importance": "critical",
+        "applies_to": "all_history_codes",
+        "common_applications": [
+          "Screening encounter with family history as additional diagnosis",
+          "Counseling visit with personal history as supporting information"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify if patient has personal or family history relevant to encounter",
+      "Step 2: Determine primary reason for encounter (screening, counseling, etc.)",
+      "Step 3: Sequence primary reason first",
+      "Step 4: Add appropriate history codes as additional diagnoses",
+      "Step 5: Ensure history codes support the need for services provided"
+    ],
+    "related_terminology": [
+      "Personal history",
+      "Family history",
+      "Recurrence potential",
+      "Risk factors",
+      "Monitoring",
+      "Screening",
+      "Follow-up codes",
+      "Additional diagnoses"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z80",
+        "description": "Family history of primary malignant neoplasm (Evidence: pg no: 98, L34)",
+        "requirement": "Use when family history increases patient cancer risk",
+        "usage_rules": [
+          "Document specific family member relationship when possible",
+          "Use with screening codes to justify enhanced surveillance"
+        ]
+      },
+      {
+        "range": "Z81",
+        "description": "Family history of mental and behavioral disorders (Evidence: pg no: 98, L35)",
+        "requirement": "Use when family psychiatric history affects patient risk",
+        "usage_rules": [
+          "May justify enhanced mental health screening",
+          "Consider genetic counseling referrals"
+        ]
+      },
+      {
+        "range": "Z82",
+        "description": "Family history of certain disabilities and chronic diseases (Evidence: pg no: 98, L36)",
+        "requirement": "Use for family history of disabling conditions",
+        "usage_rules": [
+          "Focus on conditions with genetic or familial components",
+          "May influence treatment planning"
+        ]
+      },
+      {
+        "range": "Z83",
+        "description": "Family history of other specific disorders (Evidence: pg no: 98, L37)",
+        "requirement": "Use for other significant family medical history",
+        "usage_rules": [
+          "Include conditions not covered in other family history categories",
+          "Must be clinically relevant to current encounter"
+        ]
+      },
+      {
+        "range": "Z84",
+        "description": "Family history of other conditions (Evidence: pg no: 98, L38)",
+        "requirement": "Use for additional family history conditions",
+        "usage_rules": [
+          "Catch-all category for other relevant family history",
+          "Should influence clinical decision-making"
+        ]
+      },
+      {
+        "range": "Z85",
+        "description": "Personal history of malignant neoplasm (Evidence: pg no: 98, L39)",
+        "requirement": "Use for past cancer history requiring surveillance",
+        "usage_rules": [
+          "Condition must be resolved/in remission",
+          "Justifies ongoing surveillance and monitoring"
+        ]
+      },
+      {
+        "range": "Z86",
+        "description": "Personal history of certain other diseases (Evidence: pg no: 98, L40)",
+        "requirement": "Use for significant past medical conditions",
+        "usage_rules": [
+          "Condition no longer active or under treatment",
+          "Has potential for recurrence or affects current care"
+        ]
+      },
+      {
+        "range": "Z87",
+        "description": "Personal history of other diseases and conditions (Evidence: pg no: 98, L41)",
+        "requirement": "Use for other significant personal medical history",
+        "usage_rules": [
+          "Includes conditions not covered in other personal history categories",
+          "Must be clinically relevant"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "Z91.4-",
+        "description": "Personal history of psychological trauma, not elsewhere classified (Evidence: pg no: 98, L42-L43)",
+        "context": "Use for significant psychological trauma history affecting current care",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z91.4": "Personal history of psychological trauma category"
+        }
+      },
+      {
+        "code": "Z91.5-",
+        "description": "Personal history of self-harm (Evidence: pg no: 98, L44)",
+        "context": "Use for history of self-injurious behavior",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z91.5": "Personal history of self-harm category"
+        }
+      },
+      {
+        "code": "Z91.81",
+        "description": "History of falling (Evidence: pg no: 98, L45)",
+        "context": "Use for patients with significant fall history affecting current risk assessment",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z91.81": "Specific code for fall history"
+        }
+      },
+      {
+        "code": "Z91.82",
+        "description": "Personal history of military deployment (Evidence: pg no: 98, L46)",
+        "context": "Use for military deployment history affecting health status",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z91.82": "Military deployment history code"
+        }
+      },
+      {
+        "code": "Z91.85",
+        "description": "Personal history of military service (Evidence: pg no: 98, L46)",
+        "context": "Use for general military service history",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z91.85": "Military service history code"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Family history of malignant neoplasm",
+      "Family history of mental disorders",
+      "Family history of disabilities and chronic diseases",
+      "Personal history of malignant neoplasm",
+      "Personal history of other diseases",
+      "Personal history of psychological trauma",
+      "Personal history of self-harm",
+      "Personal history of military service"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.21.c.5",
+        "title": "Screening codes",
+        "relationship": "related_to",
+        "explanation": "Family history codes used with screening codes to explain need for tests"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "family_history_screening",
+      "scenario": "Patient presents for mammography screening due to family history of breast cancer",
+      "documentation_example": "Patient presents for screening mammography. Strong family history of breast cancer - mother diagnosed at age 45, maternal aunt at age 50.",
+      "step_by_step": [
+        "Step 1: Identify primary reason for encounter (screening)",
+        "Step 2: Identify relevant family history",
+        "Step 3: Sequence screening code first",
+        "Step 4: Add family history as additional diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "Z12.31",
+        "secondary_codes": [
+          "Z80.3"
+        ],
+        "sequencing": "Screening code first, family history as additional diagnosis",
+        "rationale": "Screening is primary reason, family history explains medical necessity (Evidence: pg no: 98, L33)"
+      },
+      "incorrect_coding": {
+        "code": "Z80.3",
+        "codes": [
+          "Z80.3"
+        ],
+        "rationale": "Family history alone doesn't explain the encounter purpose",
+        "common_mistake": "Using history code as primary when screening is the actual reason"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "History codes should not be used for conditions currently under treatment (Evidence: pg no: 97, L31)",
+      "Exclude Z92.0 and Z92.82 from personal history of medical treatment category (Evidence: pg no: 98, L48)"
+    ],
+    "best_practices": [
+      "Use history codes in conjunction with follow-up and screening codes (Evidence: pg no: 97, L32)",
+      "Sequence reason for encounter first, history codes as additional diagnoses (Evidence: pg no: 98, L33)",
+      "History codes acceptable on any medical record regardless of visit reason (Evidence: pg no: 97, L32)"
+    ],
+    "common_mistakes": [
+      "Using personal history codes for conditions still under treatment",
+      "Sequencing history codes as primary when they should be additional",
+      "Omitting relevant history codes that affect treatment decisions"
+    ],
+    "tips": [
+      "History information may alter treatment type even if not primary reason for visit (Evidence: pg no: 97, L32)",
+      "Family history codes justify enhanced screening and preventive measures",
+      "Personal history codes support need for continued monitoring"
+    ],
+    "implementation_notes": [
+      "Two distinct types of history codes serve different clinical purposes",
+      "History codes provide important context for clinical decision-making"
+    ],
+    "clinical_context": [
+      "History codes support risk stratification and care planning",
+      "Family history influences genetic counseling and screening recommendations",
+      "Personal history affects surveillance protocols and treatment choices"
+    ]
+  },
+  "search_keywords": [
+    "history codes",
+    "personal history",
+    "family history",
+    "Z80",
+    "Z85",
+    "recurrence",
+    "monitoring",
+    "screening",
+    "risk factors",
+    "surveillance"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "history_codes",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "history_codes",
+      "personal_history",
+      "family_history",
+      "screening",
+      "monitoring"
+    ]
+  },
+  "page_range_processed": "pages_96_to_99"
+}

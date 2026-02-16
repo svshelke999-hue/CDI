@@ -1,0 +1,156 @@
+{
+  "guideline_id": "I.B.8",
+  "semantic_title": "Coding Acute and Chronic Conditions When Both Present",
+  "section_path": "Section I > B. General Coding Guidelines > 8. Acute and Chronic Conditions",
+  "page_number": 14,
+  "content": {
+    "full_text": "If the same condition is described as both acute (subacute) and chronic, and separate subentries exist in the Alphabetic Index at the same indentation level, code both and sequence the acute (subacute) code first. (Evidence: pg no: 14, L58-L59)",
+    "summary": "When a condition is documented as both acute/subacute and chronic with separate index entries at the same level, both codes should be assigned with the acute code sequenced first. (Evidence: pg no: 14, L58-L59)",
+    "key_concepts": [
+      "Same condition described as both acute and chronic (Evidence: pg no: 14, L58)",
+      "Separate subentries must exist at same indentation level (Evidence: pg no: 14, L58-L59)",
+      "Code both conditions when criteria met (Evidence: pg no: 14, L59)",
+      "Sequence acute/subacute code first (Evidence: pg no: 14, L59)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.B.8.1",
+        "rule_text": "Code both acute and chronic when same condition has separate index entries at same level (Evidence: pg no: 14, L58-L59)",
+        "explanation": "When the same condition is documented as both acute (or subacute) and chronic, and the Alphabetic Index contains separate subentries for both at the same indentation level, both codes should be assigned to fully capture the patient's condition (Evidence: pg no: 14, L58-L59)",
+        "importance": "high",
+        "applies_to": "conditions_with_acute_chronic_variants",
+        "common_applications": [
+          "Acute and chronic kidney disease",
+          "Acute exacerbation of chronic conditions",
+          "Acute on chronic respiratory failure"
+        ]
+      },
+      {
+        "rule_id": "I.B.8.2",
+        "rule_text": "Sequence acute (subacute) code first when coding both (Evidence: pg no: 14, L59)",
+        "explanation": "When both acute and chronic codes are assigned for the same condition, the acute or subacute code should be listed first, followed by the chronic code (Evidence: pg no: 14, L59)",
+        "importance": "high",
+        "applies_to": "acute_chronic_combinations",
+        "common_applications": [
+          "Acute kidney injury with chronic kidney disease",
+          "Acute exacerbation of chronic obstructive pulmonary disease",
+          "Acute on chronic systolic heart failure"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify condition documented as both acute/subacute and chronic",
+      "Step 2: Look up condition in Alphabetic Index",
+      "Step 3: Check if separate subentries exist at same indentation level",
+      "Step 4: If yes, assign both codes",
+      "Step 5: Sequence acute/subacute code first, chronic code second"
+    ],
+    "related_terminology": [
+      "acute",
+      "subacute",
+      "chronic",
+      "same indentation level",
+      "separate subentries",
+      "Alphabetic Index",
+      "sequencing"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Acute conditions",
+      "Subacute conditions",
+      "Chronic conditions"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "I.B.8.S1",
+      "scenario": "Patient with acute kidney injury and chronic kidney disease",
+      "documentation_example": "Final diagnosis: Acute kidney injury with underlying chronic kidney disease stage 3",
+      "step_by_step": [
+        "Step 1: Identify both acute and chronic kidney conditions",
+        "Step 2: Look up kidney disease in Alphabetic Index",
+        "Step 3: Confirm separate entries exist for acute and chronic",
+        "Step 4: Assign both codes",
+        "Step 5: Sequence acute kidney injury first"
+      ],
+      "correct_coding": {
+        "primary_code": "N17.9",
+        "secondary_codes": [
+          "N18.3"
+        ],
+        "sequencing": "Acute condition first, chronic condition second",
+        "rationale": "Both acute and chronic conditions present with separate index entries, acute sequenced first (Evidence: pg no: 14, L58-L59)"
+      },
+      "incorrect_coding": {
+        "code": "N18.3",
+        "codes": [
+          "N18.3"
+        ],
+        "rationale": "Would miss the acute component that should be coded separately",
+        "common_mistake": "Coding only chronic condition when both acute and chronic present"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Only code both when separate subentries exist at same indentation level (Evidence: pg no: 14, L58-L59)",
+      "Always sequence acute/subacute first when coding both (Evidence: pg no: 14, L59)"
+    ],
+    "best_practices": [
+      "Check Alphabetic Index carefully for separate subentries (Evidence: pg no: 14, L58-L59)",
+      "Verify indentation levels are the same (Evidence: pg no: 14, L58-L59)"
+    ],
+    "common_mistakes": [
+      "Coding only one when both should be coded (Evidence: pg no: 14, L58-L59)",
+      "Incorrect sequencing of acute and chronic codes (Evidence: pg no: 14, L59)"
+    ],
+    "tips": [
+      "Look for 'acute' and 'chronic' subentries in index (Evidence: pg no: 14, L58-L59)",
+      "Remember subacute follows same rule as acute (Evidence: pg no: 14, L58-L59)"
+    ],
+    "implementation_notes": [
+      "Requires careful examination of Alphabetic Index structure"
+    ],
+    "clinical_context": [
+      "Common in kidney disease, heart failure, and respiratory conditions",
+      "Important for severity of illness and resource utilization"
+    ]
+  },
+  "search_keywords": [
+    "acute and chronic",
+    "subacute",
+    "same indentation level",
+    "separate subentries",
+    "Alphabetic Index",
+    "sequencing",
+    "both codes",
+    "acute first"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "condition_timing",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "acute_chronic",
+      "sequencing",
+      "alphabetic_index",
+      "subentries",
+      "indentation"
+    ]
+  },
+  "page_range_processed": "pages_12_to_15"
+}

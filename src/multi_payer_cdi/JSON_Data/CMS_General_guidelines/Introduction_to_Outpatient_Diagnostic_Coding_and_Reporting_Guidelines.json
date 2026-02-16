@@ -1,0 +1,122 @@
+{
+  "guideline_id": "IV",
+  "semantic_title": "Introduction to Outpatient Diagnostic Coding and Reporting Guidelines",
+  "section_path": "Section IV > Diagnostic Coding and Reporting Guidelines for Outpatient Services",
+  "page_number": 111,
+  "content": {
+    "full_text": "These coding guidelines for outpatient diagnoses have been approved for use by hospitals/providers in coding and reporting hospital-based outpatient services and provider-based office visits. Guidelines in Section I, Conventions, general coding guidelines and chapter-specific guidelines, should also be applied for outpatient services and office visits. Information about the use of certain abbreviations, punctuation, symbols, and other conventions used in the ICD-10-CM Tabular List (code numbers and titles), can be found in Section IA of these guidelines. (Evidence: pg no: 111, L87-L89)",
+    "summary": "Outpatient coding guidelines apply to hospital-based outpatient services and office visits, in conjunction with Section I guidelines (Evidence: pg no: 111, L87-L89)",
+    "key_concepts": [
+      "Approved for hospital-based outpatient services and office visits (Evidence: pg no: 111, L87-L88)",
+      "Section I guidelines also apply to outpatient settings (Evidence: pg no: 111, L88-L89)",
+      "Conventions information in Section IA (Evidence: pg no: 111, L89)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "IV.1",
+        "rule_text": "These coding guidelines for outpatient diagnoses have been approved for use by hospitals/providers in coding and reporting hospital-based outpatient services and provider-based office visits (Evidence: pg no: 111, L87-L88)",
+        "explanation": "The outpatient coding guidelines are specifically designed for and approved for use in hospital outpatient departments and provider office settings (Evidence: pg no: 111, L87-L88)",
+        "importance": "critical",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Hospital outpatient departments",
+          "Provider office visits",
+          "Ambulatory surgery centers"
+        ]
+      },
+      {
+        "rule_id": "IV.2",
+        "rule_text": "Guidelines in Section I, Conventions, general coding guidelines and chapter-specific guidelines, should also be applied for outpatient services and office visits (Evidence: pg no: 111, L88-L89)",
+        "explanation": "In addition to specific outpatient guidelines, all the general conventions and coding guidelines from Section I must also be followed in outpatient settings (Evidence: pg no: 111, L88-L89)",
+        "importance": "critical",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "All outpatient coding scenarios",
+          "Office visit coding",
+          "Outpatient procedure coding"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify outpatient service or office visit",
+      "Step 2: Apply Section IV outpatient-specific guidelines",
+      "Step 3: Also apply Section I conventions and general guidelines",
+      "Step 4: Reference Section IA for coding conventions"
+    ],
+    "related_terminology": [
+      "outpatient services",
+      "hospital-based outpatient",
+      "provider-based office visits",
+      "conventions",
+      "general coding guidelines"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": []
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I",
+        "title": "Conventions, general coding guidelines and chapter-specific guidelines",
+        "relationship": "applies_to",
+        "explanation": "Section I guidelines must also be applied to outpatient coding"
+      },
+      {
+        "guideline_id": "I.A",
+        "title": "Conventions for ICD-10-CM",
+        "relationship": "references",
+        "explanation": "Contains information about abbreviations, punctuation, and symbols"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [],
+    "best_practices": [
+      "Apply both Section IV and Section I guidelines to outpatient coding (Evidence: pg no: 111, L88-L89)"
+    ],
+    "common_mistakes": [
+      "Applying only outpatient guidelines without Section I conventions (Evidence: pg no: 111, L88-L89)"
+    ],
+    "tips": [
+      "Reference Section IA for coding conventions information (Evidence: pg no: 111, L89)"
+    ],
+    "implementation_notes": [
+      "Guidelines apply to both hospital-based and provider-based outpatient services"
+    ],
+    "clinical_context": [
+      "Foundation for all outpatient diagnostic coding"
+    ]
+  },
+  "search_keywords": [
+    "outpatient guidelines",
+    "hospital-based outpatient",
+    "provider-based office visits",
+    "Section I guidelines",
+    "outpatient services",
+    "coding conventions"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "outpatient_introduction",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "outpatient",
+      "introduction",
+      "Section_I_guidelines",
+      "conventions"
+    ]
+  },
+  "page_range_processed": "pages_108_to_111"
+}

@@ -1,0 +1,167 @@
+{
+  "guideline_id": "I.C.16.b.3",
+  "semantic_title": "Use of Z05 Codes on Birth Record as Secondary Code",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 16. Chapter 16: Certain conditions originating in the perinatal period > b. Observation and Evaluation of Newborns for Suspected Conditions not Found > 3) Z05 on a birth record",
+  "page_number": 73,
+  "content": {
+    "full_text": "A code from category Z05 is to be used as a secondary code after the code from category Z38, Liveborn infants according to place of birth and type of delivery. (Evidence: pg no: 73, L36-L37)",
+    "summary": "On birth records, Z05 codes must be used as secondary codes after the Z38 code for liveborn infants (Evidence: pg no: 73, L36-L37)",
+    "key_concepts": [
+      "Secondary code usage (Evidence: pg no: 73, L36)",
+      "Birth record application (Evidence: pg no: 73, L36)",
+      "Z38 code sequencing priority (Evidence: pg no: 73, L37)",
+      "Liveborn infants coding (Evidence: pg no: 73, L37)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "Z05_secondary_birth_rule",
+        "rule_text": "Z05 codes must be used as secondary codes on birth records (Evidence: pg no: 73, L36)",
+        "explanation": "When coding birth episodes, Z05 codes cannot be principal diagnoses and must follow the required Z38 code (Evidence: pg no: 73, L36-L37)",
+        "importance": "critical",
+        "applies_to": "Z05 category on birth records",
+        "common_applications": [
+          "Birth admissions with observation for suspected conditions",
+          "Newborn evaluations during birth hospitalization"
+        ]
+      },
+      {
+        "rule_id": "Z38_sequencing_priority_rule",
+        "rule_text": "Z38 code must be sequenced before Z05 code on birth records (Evidence: pg no: 73, L36-L37)",
+        "explanation": "The liveborn infant code (Z38) takes precedence as the principal diagnosis on birth records, with observation codes (Z05) following as secondary (Evidence: pg no: 73, L36-L37)",
+        "importance": "critical",
+        "applies_to": "Birth record coding",
+        "common_applications": [
+          "All birth admissions requiring both Z38 and Z05 codes"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify this is a birth record/episode",
+      "Step 2: Assign appropriate Z38 code as principal diagnosis",
+      "Step 3: Determine if observation for suspected condition occurred",
+      "Step 4: Assign appropriate Z05 code as secondary diagnosis"
+    ],
+    "related_terminology": [
+      "Birth record",
+      "Secondary code",
+      "Liveborn infants",
+      "Principal diagnosis sequencing"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z05",
+        "description": "Observation and evaluation of newborn for suspected diseases and conditions ruled out (Evidence: pg no: 73, L36)",
+        "requirement": "Use as secondary code on birth records",
+        "usage_rules": [
+          "Must follow Z38 code on birth records (Evidence: pg no: 73, L36-L37)"
+        ]
+      },
+      {
+        "range": "Z38",
+        "description": "Liveborn infants according to place of birth and type of delivery (Evidence: pg no: 73, L37)",
+        "requirement": "Principal diagnosis on birth records",
+        "usage_rules": [
+          "Must be sequenced before Z05 codes (Evidence: pg no: 73, L36-L37)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Z05 - Observation and evaluation codes",
+      "Z38 - Liveborn infant codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.16.b.2",
+        "title": "Z05 on other than birth record",
+        "relationship": "related_to",
+        "explanation": "Contrasts with non-birth record usage where Z05 can be principal"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "Z05_birth_record",
+      "scenario": "Term newborn born in hospital via normal delivery, evaluated for suspected Group B Strep infection, cultures negative",
+      "documentation_example": "Term male newborn, born via spontaneous vaginal delivery in hospital. Evaluated for possible GBS infection due to maternal risk factors. Blood culture negative at 48 hours. Infant discharged home in good condition.",
+      "step_by_step": [
+        "Step 1: Identify this is a birth record",
+        "Step 2: Assign Z38.00 for term single liveborn, born in hospital",
+        "Step 3: Recognize evaluation for suspected GBS infection that was ruled out",
+        "Step 4: Assign Z05.1 as secondary code for suspected infectious condition ruled out"
+      ],
+      "correct_coding": {
+        "primary_code": "Z38.00",
+        "secondary_codes": [
+          "Z05.1"
+        ],
+        "sequencing": "Z38 as principal, Z05 as secondary",
+        "rationale": "Birth record requires Z38 as principal with Z05 as secondary for observation (Evidence: pg no: 73, L36-L37)"
+      },
+      "incorrect_coding": {
+        "code": "Z05.1",
+        "codes": [
+          "Z05.1",
+          "Z38.00"
+        ],
+        "rationale": "Z05 cannot be principal on birth record, must sequence Z38 first",
+        "common_mistake": "Sequencing Z05 as principal diagnosis on birth record"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Z05 codes cannot be principal diagnosis on birth records (Evidence: pg no: 73, L36)"
+    ],
+    "best_practices": [
+      "Always sequence Z38 before Z05 on birth records (Evidence: pg no: 73, L36-L37)"
+    ],
+    "common_mistakes": [
+      "Using Z05 as principal diagnosis on birth records"
+    ],
+    "tips": [
+      "Remember sequencing hierarchy: Z38 first, then Z05 on birth records (Evidence: pg no: 73, L36-L37)"
+    ],
+    "implementation_notes": [
+      "Applies specifically to birth episode coding"
+    ],
+    "clinical_context": [
+      "Birth hospitalizations with newborn observation and evaluation"
+    ]
+  },
+  "search_keywords": [
+    "Z05",
+    "birth record",
+    "secondary code",
+    "Z38",
+    "liveborn",
+    "sequencing",
+    "newborn observation"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "perinatal_conditions",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "newborn",
+      "birth record",
+      "Z05",
+      "Z38",
+      "sequencing",
+      "secondary code"
+    ]
+  },
+  "page_range_processed": "pages_72_to_75"
+}

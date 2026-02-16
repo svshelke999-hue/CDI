@@ -1,0 +1,150 @@
+{
+  "guideline_id": "POA.6",
+  "semantic_title": "Unclear Documentation POA Assignment",
+  "section_path": "Present on Admission Guidelines > Assigning the POA Indicator > Documentation does not indicate whether condition was present on admission",
+  "page_number": 118,
+  "content": {
+    "full_text": "Assign 'U' when the medical record documentation is unclear as to whether the condition was present on admission. 'U' should not be routinely assigned and used only in very limited circumstances. Coders are encouraged to query the providers when the documentation is unclear. (Evidence: pg no: 118, L33-L34)",
+    "summary": "Use U indicator only when documentation is unclear about POA status, and query providers when possible (Evidence: pg no: 118, L33-L34)",
+    "key_concepts": [
+      "Unclear documentation (Evidence: pg no: 118, L33-L34)",
+      "U indicator assignment (Evidence: pg no: 118, L34)",
+      "Limited use circumstances (Evidence: pg no: 118, L34)",
+      "Provider query encouragement (Evidence: pg no: 118, L34)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "POA.6.1",
+        "rule_text": "Assign U when documentation is unclear about POA status (Evidence: pg no: 118, L34)",
+        "explanation": "The U indicator should only be used when medical record documentation does not provide sufficient information to determine POA status (Evidence: pg no: 118, L33-L34)",
+        "importance": "medium",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Insufficient documentation",
+          "Ambiguous timing information"
+        ]
+      },
+      {
+        "rule_id": "POA.6.2",
+        "rule_text": "U should not be routinely assigned and used only in very limited circumstances (Evidence: pg no: 118, L34)",
+        "explanation": "The U indicator is not a default option and should be used sparingly only when truly necessary (Evidence: pg no: 118, L34)",
+        "importance": "high",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Last resort when documentation is truly unclear",
+          "After exhausting other determination methods"
+        ]
+      },
+      {
+        "rule_id": "POA.6.3",
+        "rule_text": "Query providers when documentation is unclear (Evidence: pg no: 118, L34)",
+        "explanation": "Coders should attempt to clarify unclear documentation through provider queries before assigning U (Evidence: pg no: 118, L34)",
+        "importance": "high",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Unclear timing documentation",
+          "Ambiguous condition development"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Review all available documentation",
+      "Step 2: Attempt to determine POA status using other guidelines",
+      "Step 3: Query provider if documentation unclear",
+      "Step 4: Only assign U if truly unable to determine"
+    ],
+    "related_terminology": [
+      "Unclear documentation",
+      "Provider query",
+      "U indicator",
+      "Limited circumstances"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "All conditions with unclear POA documentation"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "POA.6.S1",
+      "scenario": "Documentation does not clearly indicate when condition developed",
+      "documentation_example": "Patient has pneumonia, timing of development unclear from documentation",
+      "step_by_step": [
+        "Step 1: Review all documentation for timing clues",
+        "Step 2: Apply other POA guidelines if possible",
+        "Step 3: Query provider for clarification",
+        "Step 4: If still unclear, assign U"
+      ],
+      "correct_coding": {
+        "primary_code": "Pneumonia with U indicator (after query attempt)",
+        "secondary_codes": [],
+        "sequencing": "Standard rules apply",
+        "rationale": "Documentation unclear and provider query unsuccessful (Evidence: pg no: 118, L33-L34)"
+      },
+      "incorrect_coding": {
+        "code": "Pneumonia with U indicator without query attempt",
+        "codes": [],
+        "rationale": "Should query provider before assigning U",
+        "common_mistake": "Using U as default for unclear cases without query"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "U should not be routinely assigned (Evidence: pg no: 118, L34)",
+      "Use only in very limited circumstances (Evidence: pg no: 118, L34)"
+    ],
+    "best_practices": [
+      "Always query providers when documentation is unclear (Evidence: pg no: 118, L34)",
+      "Exhaust other POA guidelines before using U (Evidence: pg no: 118, L33-L34)"
+    ],
+    "common_mistakes": [
+      "Using U as default for difficult cases (Evidence: pg no: 118, L34)",
+      "Not querying providers before assigning U (Evidence: pg no: 118, L34)"
+    ],
+    "tips": [
+      "Review all documentation thoroughly before considering U (Evidence: pg no: 118, L33-L34)",
+      "Document query attempts (Evidence: pg no: 118, L34)"
+    ],
+    "implementation_notes": [
+      "Establish query processes for unclear POA cases"
+    ],
+    "clinical_context": [
+      "Some documentation may genuinely lack POA timing information"
+    ]
+  },
+  "search_keywords": [
+    "U indicator POA",
+    "unclear documentation",
+    "provider query POA",
+    "limited circumstances",
+    "unknown POA status"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "POA_assignment",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "POA",
+      "U_indicator",
+      "unclear",
+      "query",
+      "documentation"
+    ]
+  },
+  "page_range_processed": "pages_117_to_120"
+}

@@ -1,0 +1,213 @@
+{
+  "guideline_id": "I.C.15.f",
+  "semantic_title": "HIV Infection in Pregnancy, Childbirth and the Puerperium",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 15. Chapter 15: Pregnancy, Childbirth, and the Puerperium > f. HIV Infection in Pregnancy, Childbirth and the Puerperium",
+  "page_number": 66,
+  "content": {
+    "full_text": "During pregnancy, childbirth or the puerperium, a patient admitted because of an HIV-related illness should receive a principal diagnosis from subcategory O98.7-, Human immunodeficiency [HIV] disease complicating pregnancy, childbirth and the puerperium, followed by the code(s) for the HIV-related illness(es). Patients with asymptomatic HIV infection status admitted during pregnancy, childbirth, or the puerperium should receive codes of O98.7- and Z21, Asymptomatic human immunodeficiency virus [HIV] infection status. (Evidence: pg no: 66, L88-L94)",
+    "summary": "Guidelines for coding HIV infection during pregnancy, childbirth, and puerperium (Evidence: pg no: 66, L88-L94)",
+    "key_concepts": [
+      "O98.7- subcategory for HIV in pregnancy (Evidence: pg no: 66, L90-L91)",
+      "HIV-related illness coding sequence (Evidence: pg no: 66, L91-L92)",
+      "Asymptomatic HIV status coding (Evidence: pg no: 66, L93-L94)",
+      "Principal diagnosis assignment (Evidence: pg no: 66, L90-L91)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.C.15.f.1",
+        "rule_text": "Use O98.7- as principal diagnosis for HIV-related illness admission (Evidence: pg no: 66, L90-L91)",
+        "explanation": "When patient is admitted for HIV-related illness during pregnancy/childbirth/puerperium, use O98.7- as principal diagnosis (Evidence: pg no: 66, L90-L91)",
+        "importance": "critical",
+        "applies_to": "O98.7-",
+        "common_applications": [
+          "HIV-related opportunistic infections in pregnancy",
+          "AIDS-related complications during pregnancy",
+          "HIV-related admissions during childbirth"
+        ]
+      },
+      {
+        "rule_id": "I.C.15.f.2",
+        "rule_text": "Follow O98.7- with codes for specific HIV-related illnesses (Evidence: pg no: 66, L91-L92)",
+        "explanation": "After assigning O98.7-, add the specific codes for the HIV-related conditions that prompted admission (Evidence: pg no: 66, L91-L92)",
+        "importance": "critical",
+        "applies_to": "HIV-related condition codes",
+        "common_applications": [
+          "Opportunistic infections",
+          "HIV-related malignancies",
+          "AIDS-defining conditions"
+        ]
+      },
+      {
+        "rule_id": "I.C.15.f.3",
+        "rule_text": "For asymptomatic HIV, use O98.7- and Z21 (Evidence: pg no: 66, L93-L94)",
+        "explanation": "Patients with asymptomatic HIV infection during pregnancy/childbirth/puerperium receive both O98.7- and Z21 codes (Evidence: pg no: 66, L93-L94)",
+        "importance": "critical",
+        "applies_to": "O98.7-, Z21",
+        "common_applications": [
+          "Routine prenatal care with known HIV",
+          "Delivery in HIV-positive patient without symptoms",
+          "Asymptomatic HIV during pregnancy"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify HIV infection during pregnancy/childbirth/puerperium",
+      "Step 2: Determine if patient has HIV-related illness or is asymptomatic",
+      "Step 3: Assign O98.7- as principal diagnosis",
+      "Step 4: Add specific HIV-related illness codes or Z21 for asymptomatic status"
+    ],
+    "related_terminology": [
+      "HIV infection",
+      "HIV-related illness",
+      "Asymptomatic HIV",
+      "AIDS",
+      "Opportunistic infections"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "O98.7-",
+        "description": "Human immunodeficiency [HIV] disease complicating pregnancy, childbirth and the puerperium (Evidence: pg no: 66, L90-L91)",
+        "requirement": "Use as principal diagnosis for HIV in pregnancy",
+        "usage_rules": [
+          "Principal diagnosis for HIV-related admissions (Evidence: pg no: 66, L90-L91)",
+          "Use with Z21 for asymptomatic HIV (Evidence: pg no: 66, L93-L94)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "Z21",
+        "description": "Asymptomatic human immunodeficiency virus [HIV] infection status (Evidence: pg no: 66, L93-L94)",
+        "context": "Use with O98.7- for asymptomatic HIV in pregnancy",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "Z21": "Asymptomatic HIV infection status code"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "HIV complicating pregnancy codes",
+      "HIV-related illness codes",
+      "Asymptomatic HIV status codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "hiv_pregnancy_1",
+      "scenario": "Pregnant patient admitted with Pneumocystis pneumonia, known HIV positive",
+      "documentation_example": "28-week pregnant patient with known HIV infection admitted with Pneumocystis jirovecii pneumonia",
+      "step_by_step": [
+        "Step 1: Identify HIV-related illness (PCP) during pregnancy",
+        "Step 2: Assign O98.712 as principal diagnosis",
+        "Step 3: Add B59 for Pneumocystis pneumonia"
+      ],
+      "correct_coding": {
+        "primary_code": "O98.712",
+        "secondary_codes": [
+          "B59",
+          "Z3A.28"
+        ],
+        "sequencing": "O98.7- first, then specific HIV-related illness",
+        "rationale": "HIV-related illness admission requires O98.7- as principal followed by specific illness codes (Evidence: pg no: 66, L90-L92)"
+      },
+      "incorrect_coding": {
+        "code": "B59",
+        "codes": [
+          "B59"
+        ],
+        "rationale": "Should use O98.7- as principal diagnosis, not the HIV-related illness alone",
+        "common_mistake": "Using HIV-related illness as principal instead of O98.7-"
+      }
+    },
+    {
+      "scenario_id": "hiv_pregnancy_2",
+      "scenario": "Asymptomatic HIV-positive patient for routine prenatal visit",
+      "documentation_example": "32-week prenatal visit, patient with known HIV infection, asymptomatic, viral load undetectable",
+      "step_by_step": [
+        "Step 1: Identify asymptomatic HIV during pregnancy",
+        "Step 2: Assign O98.712 for HIV complicating pregnancy",
+        "Step 3: Add Z21 for asymptomatic HIV status"
+      ],
+      "correct_coding": {
+        "primary_code": "O98.712",
+        "secondary_codes": [
+          "Z21",
+          "Z3A.32"
+        ],
+        "sequencing": "O98.7- first, then Z21",
+        "rationale": "Asymptomatic HIV in pregnancy requires both O98.7- and Z21 codes (Evidence: pg no: 66, L93-L94)"
+      },
+      "incorrect_coding": {
+        "code": "Z21",
+        "codes": [
+          "Z21"
+        ],
+        "rationale": "Should include O98.7- code for HIV complicating pregnancy",
+        "common_mistake": "Using only Z21 without O98.7- during pregnancy"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Always use O98.7- as principal diagnosis for HIV in pregnancy (Evidence: pg no: 66, L90-L91)"
+    ],
+    "best_practices": [
+      "Sequence O98.7- first, then specific HIV-related conditions (Evidence: pg no: 66, L90-L92)",
+      "Use both O98.7- and Z21 for asymptomatic HIV (Evidence: pg no: 66, L93-L94)",
+      "Include appropriate trimester in O98.7- code"
+    ],
+    "common_mistakes": [
+      "Using HIV-related illness as principal diagnosis",
+      "Forgetting Z21 code for asymptomatic HIV",
+      "Not using O98.7- during pregnancy encounters"
+    ],
+    "tips": [
+      "O98.7- is always principal for HIV in pregnancy",
+      "Asymptomatic HIV still needs O98.7- code during pregnancy"
+    ],
+    "implementation_notes": [
+      "Requires identification of HIV status and symptoms",
+      "Must coordinate with general HIV coding guidelines"
+    ],
+    "clinical_context": [
+      "High-risk pregnancy management",
+      "HIV care during pregnancy",
+      "Infectious disease consultations"
+    ]
+  },
+  "search_keywords": [
+    "HIV pregnancy",
+    "HIV childbirth",
+    "HIV puerperium",
+    "O98.7 codes",
+    "asymptomatic HIV",
+    "HIV-related illness"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "obstetric_coding",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "pregnancy",
+      "HIV",
+      "infectious_disease",
+      "O98.7",
+      "Z21"
+    ]
+  },
+  "page_range_processed": "pages_63_to_66"
+}

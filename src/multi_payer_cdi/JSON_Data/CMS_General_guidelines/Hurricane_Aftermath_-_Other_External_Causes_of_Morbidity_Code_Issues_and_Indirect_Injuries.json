@@ -1,0 +1,282 @@
+{
+  "guideline_id": "I.A.19.c",
+  "semantic_title": "Hurricane Aftermath - Other External Causes of Morbidity Code Issues and Indirect Injuries",
+  "section_path": "Section I > A. Conventions > 19. Coding for Healthcare Encounters in Hurricane Aftermath > c. Other External Causes of Morbidity Code Issues",
+  "page_number": 18,
+  "content": {
+    "full_text": "For injuries that are not a direct result of the hurricane, such as an evacuee that has incurred an injury as a result of a motor vehicle accident, assign the appropriate external cause of morbidity code(s) to describe the cause of the injury, but do not assign code X37.0-, Hurricane. If it is not clear whether the injury was a direct result of the hurricane, assume the injury is due to the hurricane and assign code X37.0-, Hurricane, as well as any other applicable external cause of morbidity codes. In addition to code X37.0-, Hurricane, other possible applicable external cause of morbidity codes include: X30-, Exposure to excessive natural heat; X31-, Exposure to excessive natural cold; X38-, Flood. (Evidence: pg no: 18, L84-L90)",
+    "summary": "Provides guidance for distinguishing direct vs. indirect hurricane-related injuries and lists additional applicable external cause codes for hurricane aftermath encounters (Evidence: pg no: 18, L84-L90)",
+    "key_concepts": [
+      "Distinction between direct and indirect hurricane injuries (Evidence: pg no: 18, L84-L85)",
+      "No hurricane code for indirect injuries (Evidence: pg no: 18, L84-L85)",
+      "Assumption rule for unclear cases (Evidence: pg no: 18, L85-L86)",
+      "Additional applicable external cause codes (Evidence: pg no: 18, L86-L90)",
+      "Multiple code assignment when appropriate (Evidence: pg no: 18, L86-L87)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.A.19.c.1",
+        "rule_text": "For injuries that are not a direct result of the hurricane, do not assign code X37.0-, Hurricane (Evidence: pg no: 18, L84-L85)",
+        "explanation": "When injuries occur to hurricane victims but are not directly caused by the hurricane (such as motor vehicle accidents during evacuation), the hurricane code should not be used (Evidence: pg no: 18, L84-L85)",
+        "importance": "high",
+        "applies_to": "indirect_hurricane_injuries",
+        "common_applications": [
+          "Motor vehicle accidents during evacuation",
+          "Falls unrelated to hurricane conditions",
+          "Other accidents not directly hurricane-caused"
+        ]
+      },
+      {
+        "rule_id": "I.A.19.c.2",
+        "rule_text": "If it is not clear whether the injury was a direct result of the hurricane, assume the injury is due to the hurricane (Evidence: pg no: 18, L85-L86)",
+        "explanation": "When documentation is unclear about whether an injury is directly hurricane-related, coders should assume it is hurricane-related and assign the hurricane code along with other applicable external cause codes (Evidence: pg no: 18, L85-L86)",
+        "importance": "medium",
+        "applies_to": "unclear_hurricane_relationship",
+        "common_applications": [
+          "Ambiguous injury circumstances",
+          "Incomplete documentation",
+          "Uncertain causation scenarios"
+        ]
+      },
+      {
+        "rule_id": "I.A.19.c.3",
+        "rule_text": "Additional external cause codes may be applicable in addition to hurricane code (Evidence: pg no: 18, L86-L90)",
+        "explanation": "Various other external cause codes may be relevant for hurricane-related injuries, including exposure to heat, cold, and flooding (Evidence: pg no: 18, L86-L90)",
+        "importance": "medium",
+        "applies_to": "hurricane_related_conditions",
+        "common_applications": [
+          "Heat exposure during power outages",
+          "Cold exposure during displacement",
+          "Flood-related injuries"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if injury is directly hurricane-related",
+      "Step 2: If clearly not direct, use appropriate non-hurricane external cause codes",
+      "Step 3: If unclear, assume hurricane-related and use X37.0-",
+      "Step 4: Consider additional applicable external cause codes",
+      "Step 5: Assign multiple codes as appropriate for complete description"
+    ],
+    "related_terminology": [
+      "Direct hurricane injuries",
+      "Indirect hurricane injuries",
+      "Hurricane evacuees",
+      "Motor vehicle accidents",
+      "Assumption rule",
+      "Heat exposure",
+      "Cold exposure",
+      "Flood injuries"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "X37.0-",
+        "description": "Hurricane (Evidence: pg no: 18, L85-L86)",
+        "context": "Direct hurricane injuries and unclear cases",
+        "requires_additional_codes": "check_code_notes",
+        "breakdown": {
+          "Usage": "Direct hurricane injuries or when unclear",
+          "Not used": "Clearly indirect injuries"
+        }
+      },
+      {
+        "code": "X30-",
+        "description": "Exposure to excessive natural heat (Evidence: pg no: 18, L88)",
+        "context": "Heat-related conditions during hurricane aftermath",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Application": "Power outages, shelter conditions"
+        }
+      },
+      {
+        "code": "X31-",
+        "description": "Exposure to excessive natural cold (Evidence: pg no: 18, L89)",
+        "context": "Cold-related conditions during hurricane aftermath",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Application": "Displacement, power outages"
+        }
+      },
+      {
+        "code": "X38-",
+        "description": "Flood (Evidence: pg no: 18, L90)",
+        "context": "Flood-related injuries during hurricane",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Application": "Direct storm flooding injuries"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Hurricane codes",
+      "Heat exposure codes",
+      "Cold exposure codes",
+      "Flood codes",
+      "Motor vehicle accident codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "I.A.19.c.S1",
+      "scenario": "Motor vehicle accident during hurricane evacuation",
+      "documentation_example": "Hurricane evacuee injured in motor vehicle accident while traveling to shelter",
+      "step_by_step": [
+        "Step 1: Identify injury as motor vehicle accident",
+        "Step 2: Determine accident not directly caused by hurricane",
+        "Step 3: Assign appropriate motor vehicle accident external cause codes",
+        "Step 4: Do not assign hurricane code X37.0-"
+      ],
+      "correct_coding": {
+        "primary_code": "[Motor vehicle injury code]",
+        "secondary_codes": [
+          "[Appropriate motor vehicle external cause code]"
+        ],
+        "sequencing": "No hurricane code for indirect injuries",
+        "rationale": "Injury not directly caused by hurricane, so hurricane code should not be assigned (Evidence: pg no: 18, L84-L85)"
+      },
+      "incorrect_coding": {
+        "codes": [
+          "[Injury code]",
+          "X37.0XXA",
+          "[Motor vehicle code]"
+        ],
+        "rationale": "Should not assign hurricane code for injuries not directly caused by hurricane",
+        "common_mistake": "Adding hurricane code to all hurricane victim injuries regardless of direct causation"
+      }
+    },
+    {
+      "scenario_id": "I.A.19.c.S2",
+      "scenario": "Unclear if injury is hurricane-related",
+      "documentation_example": "Patient injured during hurricane, circumstances unclear",
+      "step_by_step": [
+        "Step 1: Review documentation for clear hurricane relationship",
+        "Step 2: Determine relationship is unclear",
+        "Step 3: Apply assumption rule - assume hurricane-related",
+        "Step 4: Assign hurricane code X37.0- and other applicable codes"
+      ],
+      "correct_coding": {
+        "primary_code": "[Injury code]",
+        "secondary_codes": [
+          "X37.0XXA (Hurricane)",
+          "[Other applicable external cause codes]"
+        ],
+        "sequencing": "Hurricane code with other applicable codes",
+        "rationale": "When unclear, assume injury is hurricane-related and assign hurricane code (Evidence: pg no: 18, L85-L86)"
+      },
+      "incorrect_coding": {
+        "codes": [
+          "[Injury code]",
+          "[Non-hurricane external cause only]"
+        ],
+        "rationale": "Should assume hurricane relationship when unclear",
+        "common_mistake": "Not applying assumption rule for unclear hurricane relationship"
+      }
+    },
+    {
+      "scenario_id": "I.A.19.c.S3",
+      "scenario": "Heat exposure during power outage after hurricane",
+      "documentation_example": "Patient with heat exhaustion due to power outage following Hurricane XYZ",
+      "step_by_step": [
+        "Step 1: Identify heat-related condition",
+        "Step 2: Determine relationship to hurricane (power outage)",
+        "Step 3: Assign heat exhaustion code",
+        "Step 4: Assign both hurricane and heat exposure external cause codes"
+      ],
+      "correct_coding": {
+        "primary_code": "T67.4XXA (Heat exhaustion due to salt depletion)",
+        "secondary_codes": [
+          "X37.0XXA (Hurricane)",
+          "X30.XXXA (Exposure to excessive natural heat)"
+        ],
+        "sequencing": "Multiple external cause codes as applicable",
+        "rationale": "Both hurricane and heat exposure codes applicable for complete description (Evidence: pg no: 18, L86-L88)"
+      },
+      "incorrect_coding": {
+        "codes": [
+          "T67.4XXA",
+          "X30.XXXA only"
+        ],
+        "rationale": "Should include hurricane code when heat exposure is hurricane-related",
+        "common_mistake": "Missing hurricane code when additional exposures are hurricane-related"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "I.A.19.c.E1",
+      "scenario": "Motor vehicle accident example",
+      "code_example": "Evacuee injured in car accident - not hurricane code",
+      "breakdown": {
+        "Injury type": "Motor vehicle accident (Evidence: pg no: 18, L84-L85)",
+        "Hurricane relationship": "Indirect - during evacuation (Evidence: pg no: 18, L84-L85)",
+        "Coding": "Motor vehicle codes only, no X37.0- (Evidence: pg no: 18, L84-L85)"
+      },
+      "rationale": "Injuries not directly caused by hurricane should not receive hurricane external cause codes (Evidence: pg no: 18, L84-L85)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not assign hurricane code for clearly indirect injuries (Evidence: pg no: 18, L84-L85)",
+      "When unclear, assume hurricane relationship (Evidence: pg no: 18, L85-L86)"
+    ],
+    "best_practices": [
+      "Carefully distinguish direct vs. indirect hurricane injuries (Evidence: pg no: 18, L84-L85)",
+      "Use assumption rule when documentation is unclear (Evidence: pg no: 18, L85-L86)",
+      "Consider multiple applicable external cause codes (Evidence: pg no: 18, L86-L90)"
+    ],
+    "common_mistakes": [
+      "Adding hurricane codes to all hurricane victim injuries",
+      "Not applying assumption rule for unclear cases",
+      "Missing additional applicable external cause codes"
+    ],
+    "tips": [
+      "Direct causation is key for hurricane code assignment",
+      "Multiple external cause codes may be appropriate",
+      "When in doubt, assume hurricane relationship"
+    ],
+    "implementation_notes": [
+      "Documentation quality affects coding decisions",
+      "Assumption rule provides guidance for unclear cases"
+    ],
+    "clinical_context": [
+      "Hurricane aftermath creates various injury scenarios",
+      "Evacuation and displacement create indirect injury risks"
+    ]
+  },
+  "search_keywords": [
+    "indirect hurricane injuries",
+    "direct hurricane injuries",
+    "hurricane evacuees",
+    "motor vehicle accidents",
+    "assumption rule",
+    "heat exposure",
+    "cold exposure",
+    "unclear hurricane relationship",
+    "multiple external causes"
+  ],
+  "metadata": {
+    "category": "convention",
+    "subcategory": "external_cause_determination",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "hurricane",
+      "direct_indirect",
+      "assumption_rule",
+      "multiple_external_causes"
+    ]
+  },
+  "page_range_processed": "pages_15_to_18"
+}

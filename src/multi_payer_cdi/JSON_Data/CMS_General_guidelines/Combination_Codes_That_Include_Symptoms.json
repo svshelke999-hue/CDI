@@ -1,0 +1,140 @@
+{
+  "guideline_id": "I.C.18.c",
+  "semantic_title": "Combination Codes That Include Symptoms",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 18. Chapter 18: Symptoms, signs, and abnormal clinical and laboratory findings, not elsewhere classified (R00-R99) > c. Combination codes that include symptoms",
+  "page_number": 75,
+  "content": {
+    "full_text": "ICD-10-CM contains a number of combination codes that identify both the definitive diagnosis and common symptoms of that diagnosis. When using one of these combination codes, an additional code should not be assigned for the symptom. (Evidence: pg no: 75, L89-L91)",
+    "summary": "When using combination codes that include both diagnosis and symptoms, do not assign additional codes for the symptoms already included in the combination code (Evidence: pg no: 75, L89-L91)",
+    "key_concepts": [
+      "Combination codes in ICD-10-CM (Evidence: pg no: 75, L90)",
+      "Definitive diagnosis and symptoms combined (Evidence: pg no: 75, L90-L91)",
+      "No additional symptom coding (Evidence: pg no: 75, L91)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "combination_code_exclusion_rule",
+        "rule_text": "Do not assign additional codes for symptoms when using combination codes that include those symptoms (Evidence: pg no: 75, L91)",
+        "explanation": "When a combination code already captures both the diagnosis and its associated symptoms, separate symptom codes should not be assigned to avoid duplicate coding (Evidence: pg no: 75, L89-L91)",
+        "importance": "critical",
+        "applies_to": "Combination codes with included symptoms",
+        "common_applications": [
+          "Pneumonia with respiratory failure",
+          "Heart failure with specific symptoms"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify the definitive diagnosis",
+      "Step 2: Check if a combination code exists that includes diagnosis and symptoms",
+      "Step 3: If combination code available, use it instead of separate codes",
+      "Step 4: Do not assign additional symptom codes included in combination code"
+    ],
+    "related_terminology": [
+      "Combination codes",
+      "Definitive diagnosis",
+      "Common symptoms",
+      "Duplicate coding"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "Combination codes",
+        "description": "Codes that identify both definitive diagnosis and common symptoms (Evidence: pg no: 75, L90-L91)",
+        "example": "Pneumonia with respiratory complications",
+        "explanation": "Single codes that capture multiple related conditions"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Combination codes throughout ICD-10-CM"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.18.b",
+        "title": "Use of symptom code with definitive diagnosis code",
+        "relationship": "related_to",
+        "explanation": "Contrasts with scenarios where separate symptom coding is appropriate"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "combination_code_usage",
+      "scenario": "Patient with pneumonia and documented respiratory failure",
+      "documentation_example": "Patient diagnosed with pneumonia complicated by acute respiratory failure. Requiring mechanical ventilation.",
+      "step_by_step": [
+        "Step 1: Identify pneumonia as primary diagnosis",
+        "Step 2: Note respiratory failure as complication",
+        "Step 3: Check for combination code that includes both",
+        "Step 4: Use combination code, do not code respiratory failure separately"
+      ],
+      "correct_coding": {
+        "primary_code": "J44.0",
+        "secondary_codes": [],
+        "sequencing": "Combination code as principal",
+        "rationale": "Combination code includes both diagnosis and symptom, no additional coding needed (Evidence: pg no: 75, L89-L91)"
+      },
+      "incorrect_coding": {
+        "code": "J18.9, J96.00",
+        "codes": [
+          "J18.9",
+          "J96.00"
+        ],
+        "rationale": "Should use combination code when available instead of separate codes",
+        "common_mistake": "Coding symptoms separately when combination code exists"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not assign additional symptom codes when using combination codes (Evidence: pg no: 75, L91)"
+    ],
+    "best_practices": [
+      "Check for combination codes before assigning separate diagnosis and symptom codes (Evidence: pg no: 75, L89-L91)"
+    ],
+    "common_mistakes": [
+      "Double-coding symptoms when combination codes exist"
+    ],
+    "tips": [
+      "Look for combination codes that capture both diagnosis and symptoms (Evidence: pg no: 75, L90-L91)"
+    ],
+    "implementation_notes": [
+      "Requires familiarity with available combination codes"
+    ],
+    "clinical_context": [
+      "Common disease-symptom combinations with specific codes"
+    ]
+  },
+  "search_keywords": [
+    "combination codes",
+    "symptoms included",
+    "definitive diagnosis",
+    "duplicate coding",
+    "no additional codes"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "symptoms_signs",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "combination codes",
+      "symptoms",
+      "duplicate coding",
+      "definitive diagnosis"
+    ]
+  },
+  "page_range_processed": "pages_72_to_75"
+}

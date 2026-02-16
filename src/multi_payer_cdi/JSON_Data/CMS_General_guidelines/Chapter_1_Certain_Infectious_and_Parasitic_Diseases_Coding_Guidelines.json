@@ -1,0 +1,134 @@
+{
+  "guideline_id": "I.C.1",
+  "semantic_title": "Chapter 1: Certain Infectious and Parasitic Diseases Coding Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 1. Chapter 1: Certain Infectious and Parasitic Diseases (A00-B99), U07.1, U09.9",
+  "page_number": 19,
+  "content": {
+    "full_text": "In addition to general coding guidelines, there are guidelines for specific diagnoses and/or conditions in the classification. Unless otherwise indicated, these guidelines apply to all health care settings. Please refer to Section II for guidelines on the selection of principal diagnosis. Chapter 1: Certain Infectious and Parasitic Diseases (A00-B99), U07.1, U09.9 (Evidence: pg no: 19, L39-L42)",
+    "summary": "Introduction to chapter-specific coding guidelines for infectious and parasitic diseases, covering codes A00-B99, U07.1, and U09.9 (Evidence: pg no: 19, L39-L42)",
+    "key_concepts": [
+      "Chapter-specific guidelines supplement general coding guidelines (Evidence: pg no: 19, L39-L40)",
+      "Guidelines apply to all healthcare settings unless otherwise indicated (Evidence: pg no: 19, L40)",
+      "Principal diagnosis selection guidelines are in Section II (Evidence: pg no: 19, L40-L41)",
+      "Covers infectious and parasitic diseases codes A00-B99, U07.1, U09.9 (Evidence: pg no: 19, L41-L42)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "CHAPTER_SPECIFIC_SUPPLEMENT",
+        "rule_text": "In addition to general coding guidelines, there are guidelines for specific diagnoses and/or conditions in the classification (Evidence: pg no: 19, L39-L40)",
+        "explanation": "Chapter-specific guidelines work in conjunction with general guidelines to provide comprehensive coding instructions (Evidence: pg no: 19, L39-L40)",
+        "importance": "critical",
+        "applies_to": "A00-B99, U07.1, U09.9",
+        "common_applications": [
+          "Infectious disease coding",
+          "Parasitic disease coding"
+        ]
+      },
+      {
+        "rule_id": "ALL_SETTINGS_APPLICATION",
+        "rule_text": "Unless otherwise indicated, these guidelines apply to all health care settings (Evidence: pg no: 19, L40)",
+        "explanation": "Chapter 1 guidelines are universal across healthcare settings unless specifically noted otherwise (Evidence: pg no: 19, L40)",
+        "importance": "high",
+        "applies_to": "A00-B99, U07.1, U09.9",
+        "common_applications": [
+          "Inpatient coding",
+          "Outpatient coding",
+          "Emergency department coding"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Apply general coding guidelines",
+      "Step 2: Apply chapter-specific guidelines for infectious and parasitic diseases",
+      "Step 3: Refer to Section II for principal diagnosis selection",
+      "Step 4: Ensure guidelines are applied across all healthcare settings"
+    ],
+    "related_terminology": [
+      "Infectious diseases",
+      "Parasitic diseases",
+      "Chapter-specific guidelines",
+      "Principal diagnosis",
+      "Healthcare settings"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "A00-B99",
+        "description": "Certain Infectious and Parasitic Diseases (Evidence: pg no: 19, L41-L42)",
+        "requirement": "Follow chapter-specific guidelines in addition to general guidelines",
+        "usage_rules": [
+          "Apply to all healthcare settings unless otherwise indicated (Evidence: pg no: 19, L40)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "U07.1",
+        "description": "COVID-19 related code (Evidence: pg no: 19, L41-L42)",
+        "context": "Infectious disease coding",
+        "requires_additional_codes": "check_code_notes",
+        "breakdown": {
+          "U07": "Emergency use codes",
+          "1": "COVID-19 specific"
+        }
+      },
+      {
+        "code": "U09.9",
+        "description": "Post COVID-19 condition related code (Evidence: pg no: 19, L41-L42)",
+        "context": "Post-infectious condition coding",
+        "requires_additional_codes": "check_code_notes",
+        "breakdown": {
+          "U09": "Emergency use codes for post-COVID conditions",
+          "9": "Post COVID-19 condition"
+        }
+      }
+    ],
+    "code_categories_mentioned": [
+      "Certain Infectious and Parasitic Diseases (A00-B99)",
+      "Emergency use codes (U07.1, U09.9)"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "II",
+        "title": "Selection of Principal Diagnosis",
+        "relationship": "applies_to",
+        "explanation": "Section II provides guidelines for principal diagnosis selection for infectious diseases"
+      }
+    ]
+  },
+  "special_notes": {
+    "implementation_notes": [
+      "Guidelines supplement general coding rules (Evidence: pg no: 19, L39-L40)",
+      "Universal application across healthcare settings (Evidence: pg no: 19, L40)"
+    ]
+  },
+  "search_keywords": [
+    "infectious diseases",
+    "parasitic diseases",
+    "chapter 1",
+    "A00-B99",
+    "U07.1",
+    "U09.9",
+    "COVID-19",
+    "post-COVID"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "infectious_parasitic_diseases",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "chapter_1",
+      "infectious_diseases",
+      "parasitic_diseases",
+      "COVID-19"
+    ]
+  },
+  "page_range_processed": "pages_18_to_21"
+}

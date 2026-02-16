@@ -1,0 +1,174 @@
+{
+  "guideline_id": "I.B.12",
+  "semantic_title": "Reporting Same Diagnosis Code Only Once Per Encounter",
+  "section_path": "Section I > B. General Coding Guidelines > 12. Reporting Same Diagnosis Code More than Once",
+  "page_number": 15,
+  "content": {
+    "full_text": "Each unique ICD-10-CM diagnosis code may be reported only once for an encounter. This applies to bilateral conditions when there are no distinct codes identifying laterality or two different conditions classified to the same ICD-10-CM diagnosis code. (Evidence: pg no: 15, L76-L78)",
+    "summary": "Prohibits reporting the same ICD-10-CM diagnosis code more than once per encounter, including for bilateral conditions without distinct laterality codes and different conditions with the same code. (Evidence: pg no: 15, L76-L78)",
+    "key_concepts": [
+      "Each unique code reported only once per encounter (Evidence: pg no: 15, L76-L77)",
+      "Applies to bilateral conditions without distinct laterality codes (Evidence: pg no: 15, L77-L78)",
+      "Applies to different conditions with same ICD-10-CM code (Evidence: pg no: 15, L78)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.B.12.1",
+        "rule_text": "Report each unique ICD-10-CM diagnosis code only once per encounter (Evidence: pg no: 15, L76-L77)",
+        "explanation": "No matter how many times a condition occurs or is documented during an encounter, each unique ICD-10-CM diagnosis code should be reported only once for that encounter (Evidence: pg no: 15, L76-L77)",
+        "importance": "high",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Multiple episodes of same condition during stay",
+          "Bilateral conditions with same code",
+          "Different conditions mapping to same code"
+        ]
+      },
+      {
+        "rule_id": "I.B.12.2",
+        "rule_text": "Rule applies to bilateral conditions without distinct laterality codes (Evidence: pg no: 15, L77-L78)",
+        "explanation": "When a patient has bilateral conditions but there are no distinct codes that identify laterality (left, right, bilateral), the same code should be reported only once even though the condition affects both sides (Evidence: pg no: 15, L77-L78)",
+        "importance": "high",
+        "applies_to": "bilateral_conditions",
+        "common_applications": [
+          "Bilateral cataracts with same code",
+          "Bilateral joint conditions with same code",
+          "Bilateral skin conditions with same code"
+        ]
+      },
+      {
+        "rule_id": "I.B.12.3",
+        "rule_text": "Rule applies to different conditions classified to same code (Evidence: pg no: 15, L78)",
+        "explanation": "When two different conditions are classified to the same ICD-10-CM diagnosis code, that code should be reported only once per encounter regardless of the fact that they are different conditions (Evidence: pg no: 15, L78)",
+        "importance": "high",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Different types of pneumonia with same code",
+          "Different fracture types with same code",
+          "Different manifestations with same code"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify all conditions to be coded for the encounter",
+      "Step 2: Assign appropriate ICD-10-CM codes",
+      "Step 3: Review code list for duplicates",
+      "Step 4: Remove duplicate codes, keeping only one instance of each",
+      "Step 5: Verify no unique code appears more than once"
+    ],
+    "related_terminology": [
+      "unique code",
+      "reported only once",
+      "encounter",
+      "bilateral conditions",
+      "laterality",
+      "distinct codes",
+      "different conditions",
+      "same code"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Bilateral conditions",
+      "Laterality codes",
+      "Duplicate conditions"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.B.13",
+        "title": "Laterality",
+        "relationship": "related_to",
+        "explanation": "Related to handling bilateral conditions and laterality coding"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "I.B.12.S1",
+      "scenario": "Patient with bilateral cataracts, no distinct laterality codes available",
+      "documentation_example": "Final diagnosis: Bilateral senile cataracts",
+      "step_by_step": [
+        "Step 1: Identify bilateral cataracts",
+        "Step 2: Look up cataract codes",
+        "Step 3: Determine no distinct bilateral code exists",
+        "Step 4: Assign cataract code once only",
+        "Step 5: Do not duplicate code for each eye"
+      ],
+      "correct_coding": {
+        "primary_code": "H25.9",
+        "secondary_codes": [],
+        "sequencing": "Single code only",
+        "rationale": "Same code reported only once even for bilateral condition (Evidence: pg no: 15, L76-L78)"
+      },
+      "incorrect_coding": {
+        "code": "H25.9, H25.9",
+        "codes": [
+          "H25.9",
+          "H25.9"
+        ],
+        "rationale": "Should not report same code twice for bilateral condition",
+        "common_mistake": "Duplicating codes for bilateral conditions"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Never report the same diagnosis code more than once per encounter (Evidence: pg no: 15, L76-L77)",
+      "This applies even when condition affects multiple sites (Evidence: pg no: 15, L77-L78)"
+    ],
+    "best_practices": [
+      "Always review final code list for duplicates (Evidence: pg no: 15, L76-L77)",
+      "Check for bilateral conditions that might tempt duplicate coding (Evidence: pg no: 15, L77-L78)"
+    ],
+    "common_mistakes": [
+      "Reporting same code twice for bilateral conditions (Evidence: pg no: 15, L77-L78)",
+      "Duplicating codes for different conditions with same classification (Evidence: pg no: 15, L78)"
+    ],
+    "tips": [
+      "Use distinct laterality codes when available instead of duplicating (Evidence: pg no: 15, L77-L78)",
+      "Remember this rule applies to all diagnosis codes (Evidence: pg no: 15, L76-L77)"
+    ],
+    "implementation_notes": [
+      "Important for billing and data quality"
+    ],
+    "clinical_context": [
+      "Prevents over-reporting of conditions",
+      "Maintains data integrity in health records"
+    ]
+  },
+  "search_keywords": [
+    "unique code",
+    "reported only once",
+    "encounter",
+    "bilateral conditions",
+    "laterality",
+    "duplicate codes",
+    "same code",
+    "different conditions"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "code_reporting",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "unique_codes",
+      "no_duplicates",
+      "bilateral_conditions",
+      "encounter_coding",
+      "reporting_rules"
+    ]
+  },
+  "page_range_processed": "pages_12_to_15"
+}

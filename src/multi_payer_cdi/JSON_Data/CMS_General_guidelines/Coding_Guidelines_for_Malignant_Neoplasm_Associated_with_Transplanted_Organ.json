@@ -1,0 +1,195 @@
+{
+  "guideline_id": "I.C.2.r",
+  "semantic_title": "Coding Guidelines for Malignant Neoplasm Associated with Transplanted Organ",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 2. Chapter 2: Neoplasms > r. Malignant neoplasm associated with transplanted organ",
+  "page_number": 38,
+  "content": {
+    "full_text": "A malignant neoplasm of a transplanted organ should be coded as a transplant complication. Assign first the appropriate code from category T86.-, Complications of transplanted organs and tissue, followed by code C80.2, Malignant neoplasm associated with transplanted organ. Use an additional code for the specific malignancy. (Evidence: pg no: 38, L70-L75)",
+    "summary": "Guidelines for coding malignant neoplasms that develop in transplanted organs as transplant complications (Evidence: pg no: 38, L70-L75)",
+    "key_concepts": [
+      "Malignant neoplasm in transplanted organ is transplant complication (Evidence: pg no: 38, L70-L71)",
+      "T86.- code sequenced first (Evidence: pg no: 38, L71-L72)",
+      "C80.2 code follows T86.- code (Evidence: pg no: 38, L74-L75)",
+      "Additional code for specific malignancy (Evidence: pg no: 38, L75)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "transplant_complication_classification",
+        "rule_text": "A malignant neoplasm of a transplanted organ should be coded as a transplant complication (Evidence: pg no: 38, L70-L71)",
+        "explanation": "When malignancy develops in a transplanted organ, it is classified as a complication of the transplant rather than just a primary malignancy (Evidence: pg no: 38, L70-L71)",
+        "importance": "critical",
+        "applies_to": "malignancies in transplanted organs",
+        "common_applications": [
+          "Skin cancer in transplant recipients",
+          "Lymphoma in transplanted organs"
+        ]
+      },
+      {
+        "rule_id": "t86_sequencing_priority",
+        "rule_text": "Assign first the appropriate code from category T86.- (Evidence: pg no: 38, L71-L72)",
+        "explanation": "The transplant complication code takes sequencing priority over other codes in this scenario (Evidence: pg no: 38, L71-L72)",
+        "importance": "critical",
+        "applies_to": "all transplant-associated malignancies",
+        "common_applications": [
+          "T86.10 for unspecified kidney transplant complication",
+          "T86.40 for unspecified liver transplant complication"
+        ]
+      },
+      {
+        "rule_id": "c80_2_requirement",
+        "rule_text": "Follow T86.- code with C80.2, Malignant neoplasm associated with transplanted organ (Evidence: pg no: 38, L74-L75)",
+        "explanation": "C80.2 is specifically required to identify the malignancy as transplant-associated (Evidence: pg no: 38, L74-L75)",
+        "importance": "critical",
+        "applies_to": "all transplant-associated malignancies",
+        "common_applications": [
+          "All cases of malignancy in transplanted organs"
+        ]
+      },
+      {
+        "rule_id": "specific_malignancy_additional",
+        "rule_text": "Use an additional code for the specific malignancy (Evidence: pg no: 38, L75)",
+        "explanation": "The specific type of malignancy must also be coded to provide complete clinical picture (Evidence: pg no: 38, L75)",
+        "importance": "high",
+        "applies_to": "all transplant-associated malignancies",
+        "common_applications": [
+          "Specific lymphoma codes",
+          "Specific carcinoma codes"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify malignant neoplasm in transplanted organ",
+      "Step 2: Assign appropriate T86.- code as principal diagnosis",
+      "Step 3: Add C80.2 as secondary diagnosis",
+      "Step 4: Add specific malignancy code as additional diagnosis"
+    ],
+    "related_terminology": [
+      "Transplanted organ",
+      "Transplant complication",
+      "Malignant neoplasm",
+      "Post-transplant malignancy",
+      "Immunosuppression-related cancer"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "T86.-",
+        "description": "Complications of transplanted organs and tissue (Evidence: pg no: 38, L71-L72)",
+        "requirement": "Sequenced first for transplant-associated malignancies",
+        "usage_rules": [
+          "Always sequenced first (Evidence: pg no: 38, L71-L72)",
+          "Followed by C80.2 (Evidence: pg no: 38, L74-L75)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "C80.2",
+        "description": "Malignant neoplasm associated with transplanted organ (Evidence: pg no: 38, L74-L75)",
+        "context": "Required for all malignancies in transplanted organs",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "C80": "Malignant neoplasm without specification of site",
+          "2": "Associated with transplanted organ"
+        }
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": "T86.- + C80.2 + Specific malignancy code",
+        "description": "Standard pattern for transplant-associated malignancies (Evidence: pg no: 38, L70-L75)",
+        "example": "T86.10 + C80.2 + C83.30",
+        "explanation": "Transplant complication, then transplant-associated malignancy, then specific malignancy"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Transplant complication codes",
+      "Transplant-associated malignancy codes",
+      "Specific malignancy codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "kidney_transplant_lymphoma",
+      "scenario": "Patient with kidney transplant develops post-transplant lymphoproliferative disorder",
+      "documentation_example": "Post-transplant lymphoproliferative disorder in kidney transplant recipient, diffuse large B-cell lymphoma",
+      "step_by_step": [
+        "Step 1: Identify malignancy (lymphoma) in transplanted organ context",
+        "Step 2: Assign T86.10 (unspecified kidney transplant complication) as principal",
+        "Step 3: Add C80.2 (malignant neoplasm associated with transplanted organ)",
+        "Step 4: Add C83.30 (diffuse large B-cell lymphoma, unspecified site)"
+      ],
+      "correct_coding": {
+        "primary_code": "T86.10 (Unspecified complication of kidney transplant)",
+        "secondary_codes": [
+          "C80.2 (Malignant neoplasm associated with transplanted organ)",
+          "C83.30 (Diffuse large B-cell lymphoma, unspecified site)"
+        ],
+        "sequencing": "Transplant complication first, then C80.2, then specific malignancy",
+        "rationale": "Malignancy in transplanted organ is coded as transplant complication (Evidence: pg no: 38, L70-L75)"
+      },
+      "incorrect_coding": {
+        "code": "C83.30",
+        "codes": [
+          "C83.30 as principal diagnosis"
+        ],
+        "rationale": "Should not sequence specific malignancy first in transplant context",
+        "common_mistake": "Coding as primary malignancy instead of transplant complication"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Always code malignancy in transplanted organ as transplant complication (Evidence: pg no: 38, L70-L71)"
+    ],
+    "best_practices": [
+      "Use all three code types: T86.-, C80.2, and specific malignancy (Evidence: pg no: 38, L71-L75)",
+      "Sequence T86.- code first (Evidence: pg no: 38, L71-L72)"
+    ],
+    "common_mistakes": [
+      "Coding as primary malignancy instead of transplant complication (Evidence: pg no: 38, L70-L71)",
+      "Omitting C80.2 code (Evidence: pg no: 38, L74-L75)"
+    ],
+    "tips": [
+      "C80.2 is always required for transplant-associated malignancies (Evidence: pg no: 38, L74-L75)",
+      "Three-code pattern is standard for these cases (Evidence: pg no: 38, L71-L75)"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Applies to post-transplant malignancies related to immunosuppression"
+    ]
+  },
+  "search_keywords": [
+    "transplant",
+    "malignant neoplasm",
+    "transplanted organ",
+    "T86",
+    "C80.2",
+    "transplant complication",
+    "post-transplant malignancy"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "transplant_complications",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "transplant",
+      "malignancy",
+      "complications",
+      "immunosuppression"
+    ]
+  },
+  "page_range_processed": "pages_36_to_39"
+}

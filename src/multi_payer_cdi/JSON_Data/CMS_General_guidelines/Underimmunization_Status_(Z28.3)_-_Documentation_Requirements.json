@@ -1,0 +1,148 @@
+{
+  "guideline_id": "I.C.21.c.3.g",
+  "semantic_title": "Underimmunization Status (Z28.3) - Documentation Requirements",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 21. Factors Influencing Health Status > c. Categories of Z Codes > 3) Status",
+  "page_number": 94,
+  "content": {
+    "full_text": "See Section I.B.14. for underimmunization documentation by clinicians other than the patient's provider. (Evidence: pg no: 94, L45)",
+    "summary": "Z28.3 for underimmunization status with reference to documentation requirements in Section I.B.14 (Evidence: pg no: 94, L44-L45)",
+    "key_concepts": [
+      "Underimmunization status (Evidence: pg no: 94, L44)",
+      "Documentation by other clinicians (Evidence: pg no: 94, L45)",
+      "Cross-reference to Section I.B.14 (Evidence: pg no: 94, L45)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "UNDERIMM_DOC",
+        "rule_text": "Refer to Section I.B.14 for documentation by clinicians other than patient's provider (Evidence: pg no: 94, L45)",
+        "explanation": "Special documentation requirements apply when underimmunization is documented by clinicians other than the patient's primary provider (Evidence: pg no: 94, L45)",
+        "importance": "high",
+        "applies_to": "Z28.3",
+        "common_applications": [
+          "Incomplete vaccination schedules",
+          "Missed immunizations",
+          "Vaccination catch-up needs"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify underimmunization status",
+      "Step 2: Check who documented the status",
+      "Step 3: Apply Section I.B.14 requirements if applicable",
+      "Step 4: Assign Z28.3 code"
+    ],
+    "related_terminology": [
+      "Underimmunization",
+      "Vaccination status",
+      "Immunization schedule",
+      "Documentation requirements"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "Z28.3",
+        "description": "Underimmunization status (Evidence: pg no: 94, L44)",
+        "context": "Use when patient has incomplete immunization status",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z28": "Immunization not carried out",
+          "3": "Underimmunization status"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Underimmunization status"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.B.14",
+        "title": "Documentation by clinicians other than patient's provider",
+        "relationship": "implements",
+        "explanation": "Provides specific documentation requirements for underimmunization status"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "UNDERIMM_01",
+      "scenario": "Child with incomplete vaccination schedule",
+      "documentation_example": "6-month-old infant behind on routine immunizations. Missing DTaP and Hib vaccines per CDC schedule.",
+      "step_by_step": [
+        "Step 1: Identify incomplete immunization status",
+        "Step 2: Check documentation source",
+        "Step 3: Apply Section I.B.14 if needed",
+        "Step 4: Assign Z28.3"
+      ],
+      "correct_coding": {
+        "primary_code": "Z28.3",
+        "secondary_codes": [],
+        "sequencing": "Z28.3 as appropriate",
+        "rationale": "Patient has incomplete immunization status (Evidence: pg no: 94, L44)"
+      },
+      "incorrect_coding": {
+        "code": "Z23",
+        "codes": [
+          "Immunization encounter codes"
+        ],
+        "rationale": "Z23 is for actual immunization encounters, not status",
+        "common_mistake": "Confusing immunization encounter with status codes"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Must follow Section I.B.14 documentation requirements (Evidence: pg no: 94, L45)"
+    ],
+    "best_practices": [
+      "Review immunization records carefully",
+      "Check documentation source requirements"
+    ],
+    "common_mistakes": [
+      "Not following documentation requirements",
+      "Confusing with immunization encounter codes"
+    ],
+    "tips": [
+      "Remember to check Section I.B.14 for documentation rules"
+    ],
+    "implementation_notes": [
+      "Important for public health tracking"
+    ],
+    "clinical_context": [
+      "Pediatric care",
+      "Preventive medicine",
+      "Public health"
+    ]
+  },
+  "search_keywords": [
+    "underimmunization",
+    "Z28.3",
+    "vaccination status",
+    "incomplete immunization",
+    "immunization schedule",
+    "documentation requirements"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "status_codes",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "immunization",
+      "vaccination",
+      "status",
+      "documentation"
+    ]
+  },
+  "page_range_processed": "pages_93_to_96"
+}

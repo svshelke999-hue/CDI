@@ -1,0 +1,242 @@
+{
+  "guideline_id": "I.C.15.b.2",
+  "semantic_title": "Supervision of High-Risk Pregnancy Coding Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 15. Chapter 15: Pregnancy, Childbirth, and the Puerperium > b. Selection of OB Principal or First-listed Diagnosis > 2) Supervision of High-Risk Pregnancy",
+  "page_number": 65,
+  "content": {
+    "full_text": "Codes from category O09, Supervision of high-risk pregnancy, are intended for use only during the prenatal period. For complications during the labor or delivery episode as a result of a high-risk pregnancy, assign the applicable complication codes from Chapter 15. If there are no complications during the labor or delivery episode, assign code O80, Encounter for full-term uncomplicated delivery. For routine prenatal outpatient visits for patients with high-risk pregnancies, a code from category O09, Supervision of high-risk pregnancy, should be used as the first-listed diagnosis. Secondary chapter 15 codes may be used in conjunction with these codes if appropriate. (Evidence: pg no: 65, L54-L60)",
+    "summary": "Guidelines for coding supervision of high-risk pregnancies during prenatal period and delivery (Evidence: pg no: 65, L54-L60)",
+    "key_concepts": [
+      "O09 category for prenatal period only (Evidence: pg no: 65, L55-L56)",
+      "Labor and delivery coding differences (Evidence: pg no: 65, L56-L57)",
+      "Secondary code usage (Evidence: pg no: 65, L59-L60)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.C.15.b.2.1",
+        "rule_text": "O09 codes only for prenatal period (Evidence: pg no: 65, L55-L56)",
+        "explanation": "Supervision of high-risk pregnancy codes are restricted to prenatal visits, not labor and delivery (Evidence: pg no: 65, L55-L56)",
+        "importance": "critical",
+        "applies_to": "O09",
+        "common_applications": [
+          "High-risk prenatal visits",
+          "Prenatal monitoring of complications",
+          "Outpatient high-risk pregnancy care"
+        ]
+      },
+      {
+        "rule_id": "I.C.15.b.2.2",
+        "rule_text": "Use complication codes during labor/delivery for high-risk pregnancies (Evidence: pg no: 65, L56-L57)",
+        "explanation": "During labor and delivery, use specific complication codes from Chapter 15, not O09 codes (Evidence: pg no: 65, L56-L57)",
+        "importance": "critical",
+        "applies_to": "O00-O9A",
+        "common_applications": [
+          "Labor complications in high-risk patients",
+          "Delivery complications",
+          "Intrapartum care"
+        ]
+      },
+      {
+        "rule_id": "I.C.15.b.2.3",
+        "rule_text": "Use O80 for uncomplicated delivery in high-risk pregnancy (Evidence: pg no: 65, L57-L58)",
+        "explanation": "If no complications occur during labor/delivery despite high-risk pregnancy, use O80 (Evidence: pg no: 65, L57-L58)",
+        "importance": "high",
+        "applies_to": "O80",
+        "common_applications": [
+          "Uncomplicated deliveries in high-risk patients",
+          "Full-term deliveries without complications"
+        ]
+      },
+      {
+        "rule_id": "I.C.15.b.2.4",
+        "rule_text": "O09 as first-listed for high-risk prenatal visits (Evidence: pg no: 65, L58-L59)",
+        "explanation": "For routine prenatal visits in high-risk pregnancies, O09 should be the first-listed diagnosis (Evidence: pg no: 65, L58-L59)",
+        "importance": "critical",
+        "applies_to": "O09",
+        "common_applications": [
+          "High-risk prenatal checkups",
+          "Monitoring visits for pregnancy complications"
+        ]
+      },
+      {
+        "rule_id": "I.C.15.b.2.5",
+        "rule_text": "Secondary Chapter 15 codes may be used with O09 (Evidence: pg no: 65, L59-L60)",
+        "explanation": "Unlike Z34 codes, O09 codes can be used with additional Chapter 15 codes when appropriate (Evidence: pg no: 65, L59-L60)",
+        "importance": "high",
+        "applies_to": "O09, O00-O9A",
+        "common_applications": [
+          "High-risk pregnancy with specific complications",
+          "Multiple conditions in high-risk pregnancy"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if encounter is prenatal or labor/delivery",
+      "Step 2: For prenatal visits, use O09 as first-listed diagnosis",
+      "Step 3: Add secondary Chapter 15 codes if specific complications present",
+      "Step 4: For labor/delivery, use specific complication codes or O80 if uncomplicated"
+    ],
+    "related_terminology": [
+      "High-risk pregnancy",
+      "Prenatal period",
+      "Labor and delivery",
+      "Supervision codes",
+      "Complication codes"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "O09",
+        "description": "Supervision of high-risk pregnancy (Evidence: pg no: 65, L55)",
+        "requirement": "Use only during prenatal period",
+        "usage_rules": [
+          "First-listed diagnosis for high-risk prenatal visits (Evidence: pg no: 65, L58-L59)",
+          "Can be used with secondary Chapter 15 codes (Evidence: pg no: 65, L59-L60)"
+        ]
+      },
+      {
+        "range": "O00-O9A",
+        "description": "Chapter 15 complication codes (Evidence: pg no: 65, L56-L57)",
+        "requirement": "Use during labor/delivery for complications",
+        "usage_rules": [
+          "Use instead of O09 during labor/delivery (Evidence: pg no: 65, L56-L57)",
+          "Can be secondary codes with O09 during prenatal period (Evidence: pg no: 65, L59-L60)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "O80",
+        "description": "Encounter for full-term uncomplicated delivery (Evidence: pg no: 65, L57-L58)",
+        "context": "Use for uncomplicated delivery in high-risk pregnancy",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "O80": "Full-term uncomplicated delivery code"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "High-risk pregnancy supervision codes",
+      "Labor and delivery complication codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.15.b.1",
+        "title": "Routine outpatient prenatal visits",
+        "relationship": "related_to",
+        "explanation": "Contrasts with normal pregnancy supervision coding"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "high_risk_prenatal_1",
+      "scenario": "32-week prenatal visit for patient with gestational diabetes",
+      "documentation_example": "32-week prenatal visit, patient with gestational diabetes, blood sugars well controlled",
+      "step_by_step": [
+        "Step 1: Identify as prenatal visit for high-risk pregnancy",
+        "Step 2: Use O09.893 as first-listed diagnosis (supervision of high-risk pregnancy, third trimester)",
+        "Step 3: Add O24.410 as secondary code for gestational diabetes"
+      ],
+      "correct_coding": {
+        "primary_code": "O09.893",
+        "secondary_codes": [
+          "O24.410"
+        ],
+        "sequencing": "O09 first, then specific complication",
+        "rationale": "High-risk prenatal visit uses O09 first with secondary Chapter 15 codes (Evidence: pg no: 65, L58-L60)"
+      },
+      "incorrect_coding": {
+        "code": "O24.410",
+        "codes": [
+          "O24.410"
+        ],
+        "rationale": "Should include O09 code for high-risk pregnancy supervision",
+        "common_mistake": "Omitting supervision code for high-risk pregnancy"
+      }
+    },
+    {
+      "scenario_id": "high_risk_delivery_1",
+      "scenario": "Delivery of patient with history of preeclampsia, no complications during delivery",
+      "documentation_example": "Full-term delivery, patient with history of preeclampsia in previous pregnancy, no complications during current delivery",
+      "step_by_step": [
+        "Step 1: Identify as delivery encounter, not prenatal visit",
+        "Step 2: Determine no complications occurred during delivery",
+        "Step 3: Assign O80 for uncomplicated delivery"
+      ],
+      "correct_coding": {
+        "primary_code": "O80",
+        "secondary_codes": [],
+        "sequencing": "Primary diagnosis",
+        "rationale": "Uncomplicated delivery uses O80 even in high-risk pregnancy (Evidence: pg no: 65, L57-L58)"
+      },
+      "incorrect_coding": {
+        "code": "O09.893",
+        "codes": [
+          "O09.893"
+        ],
+        "rationale": "O09 codes not used during labor and delivery",
+        "common_mistake": "Using O09 codes during delivery encounters"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not use O09 codes during labor and delivery (Evidence: pg no: 65, L55-L56)"
+    ],
+    "best_practices": [
+      "Use O09 as first-listed for high-risk prenatal visits (Evidence: pg no: 65, L58-L59)",
+      "Add secondary Chapter 15 codes when specific complications present (Evidence: pg no: 65, L59-L60)"
+    ],
+    "common_mistakes": [
+      "Using O09 codes during labor and delivery (Evidence: pg no: 65, L55-L56)",
+      "Not using O09 for high-risk prenatal supervision"
+    ],
+    "tips": [
+      "Distinguish between prenatal visits and labor/delivery encounters",
+      "O09 codes can be combined with other Chapter 15 codes unlike Z34"
+    ],
+    "implementation_notes": [
+      "Requires identification of high-risk factors",
+      "Different coding approach for prenatal vs. delivery encounters"
+    ],
+    "clinical_context": [
+      "High-risk pregnancy management",
+      "Prenatal care for complicated pregnancies",
+      "Maternal-fetal medicine consultations"
+    ]
+  },
+  "search_keywords": [
+    "high-risk pregnancy",
+    "O09 codes",
+    "prenatal supervision",
+    "pregnancy complications",
+    "labor and delivery",
+    "uncomplicated delivery"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "obstetric_coding",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "pregnancy",
+      "high_risk",
+      "prenatal_care",
+      "O09",
+      "supervision"
+    ]
+  },
+  "page_range_processed": "pages_63_to_66"
+}

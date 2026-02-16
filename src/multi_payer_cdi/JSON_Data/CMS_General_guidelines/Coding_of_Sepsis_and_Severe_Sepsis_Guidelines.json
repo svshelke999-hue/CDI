@@ -1,0 +1,150 @@
+{
+  "guideline_id": "I.C.1.d.1.a",
+  "semantic_title": "Coding of Sepsis and Severe Sepsis Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 1. Chapter 1: Certain Infectious and Parasitic Diseases > d. Sepsis, Severe Sepsis, and Septic Shock > 1. Coding of Sepsis and Severe Sepsis > a. Sepsis",
+  "page_number": 23,
+  "content": {
+    "full_text": "For a diagnosis of sepsis, assign the appropriate code for the underlying systemic infection. If the type of infection or causal organism is not further specified, assign code A41.9, Sepsis, unspecified organism. A code from subcategory R65.2, Severe sepsis, should not be assigned unless severe sepsis or an associated acute organ dysfunction is documented. (Evidence: pg no: 23, L59-L62)",
+    "summary": "Basic guidelines for coding sepsis, including when to use unspecified organism codes and when severe sepsis codes should not be used (Evidence: pg no: 23, L59-L62)",
+    "key_concepts": [
+      "Underlying systemic infection coding (Evidence: pg no: 23, L60)",
+      "Unspecified organism sepsis (Evidence: pg no: 23, L60-L61)",
+      "Severe sepsis coding restrictions (Evidence: pg no: 23, L61-L62)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "SEPSIS_UNDERLYING",
+        "rule_text": "For a diagnosis of sepsis, assign the appropriate code for the underlying systemic infection (Evidence: pg no: 23, L59-L60)",
+        "explanation": "Sepsis coding requires identification and coding of the underlying systemic infection causing the sepsis (Evidence: pg no: 23, L59-L60)",
+        "importance": "critical",
+        "applies_to": "sepsis_codes",
+        "common_applications": [
+          "Sepsis due to specific organisms",
+          "Systemic infections with sepsis"
+        ]
+      },
+      {
+        "rule_id": "SEPSIS_UNSPECIFIED",
+        "rule_text": "If the type of infection or causal organism is not further specified, assign code A41.9, Sepsis, unspecified organism (Evidence: pg no: 23, L60-L61)",
+        "explanation": "When the causative organism or infection type is not documented or specified, use the unspecified sepsis code (Evidence: pg no: 23, L60-L61)",
+        "importance": "critical",
+        "applies_to": "A41.9",
+        "common_applications": [
+          "Sepsis with unknown organism",
+          "Sepsis without organism identification"
+        ]
+      },
+      {
+        "rule_id": "SEVERE_SEPSIS_RESTRICTION",
+        "rule_text": "A code from subcategory R65.2, Severe sepsis, should not be assigned unless severe sepsis or an associated acute organ dysfunction is documented (Evidence: pg no: 23, L61-L62)",
+        "explanation": "Severe sepsis codes require specific documentation of severe sepsis or acute organ dysfunction, not just sepsis (Evidence: pg no: 23, L61-L62)",
+        "importance": "critical",
+        "applies_to": "R65.2",
+        "common_applications": [
+          "Sepsis with organ dysfunction",
+          "Documented severe sepsis"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Confirm sepsis diagnosis",
+      "Step 2: Identify underlying systemic infection",
+      "Step 3: Assign appropriate infection code or A41.9 if unspecified",
+      "Step 4: Check for documentation of severe sepsis or organ dysfunction",
+      "Step 5: Only assign R65.2 codes if severe sepsis is documented"
+    ],
+    "related_terminology": [
+      "sepsis",
+      "systemic infection",
+      "severe sepsis",
+      "acute organ dysfunction",
+      "unspecified organism"
+    ]
+  },
+  "code_references": {
+    "specific_codes": [
+      {
+        "code": "A41.9",
+        "description": "Sepsis, unspecified organism (Evidence: pg no: 23, L61)",
+        "context": "When type of infection or causal organism is not specified",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "A41": "Other sepsis",
+          "9": "Sepsis, unspecified organism"
+        }
+      }
+    ],
+    "code_ranges": [
+      {
+        "range": "R65.2",
+        "description": "Severe sepsis (Evidence: pg no: 23, L61)",
+        "requirement": "Only assign when severe sepsis or acute organ dysfunction is documented",
+        "usage_rules": [
+          "Requires documentation of severe sepsis (Evidence: pg no: 23, L61-L62)",
+          "Requires documentation of acute organ dysfunction (Evidence: pg no: 23, L61-L62)"
+        ]
+      }
+    ],
+    "code_categories_mentioned": [
+      "Sepsis codes",
+      "Severe sepsis codes"
+    ]
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "SEPSIS_1",
+      "scenario": "Patient with sepsis, organism not identified",
+      "documentation_example": "Patient presents with sepsis, blood cultures pending",
+      "step_by_step": [
+        "Step 1: Confirm sepsis diagnosis",
+        "Step 2: Note organism not specified",
+        "Step 3: Assign A41.9 for unspecified organism sepsis",
+        "Step 4: Do not assign severe sepsis codes without documentation"
+      ],
+      "correct_coding": {
+        "primary_code": "A41.9",
+        "secondary_codes": [],
+        "sequencing": "A41.9 as primary",
+        "rationale": "Organism not specified, so unspecified sepsis code is appropriate. No severe sepsis documented (Evidence: pg no: 23, L60-L62)"
+      }
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not assign R65.2 codes without documentation of severe sepsis or organ dysfunction (Evidence: pg no: 23, L61-L62)"
+    ],
+    "best_practices": [
+      "Always identify underlying systemic infection when possible (Evidence: pg no: 23, L59-L60)",
+      "Use A41.9 only when organism truly unspecified (Evidence: pg no: 23, L60-L61)"
+    ],
+    "common_mistakes": [
+      "Assigning severe sepsis codes for simple sepsis",
+      "Using unspecified codes when organism is documented elsewhere"
+    ]
+  },
+  "search_keywords": [
+    "sepsis coding",
+    "A41.9 unspecified sepsis",
+    "severe sepsis R65.2",
+    "systemic infection",
+    "sepsis organism",
+    "organ dysfunction sepsis"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "sepsis",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "tags": [
+      "sepsis",
+      "A41.9",
+      "R65.2",
+      "severe sepsis",
+      "organ dysfunction"
+    ]
+  },
+  "page_range_processed": "pages_21_to_24"
+}

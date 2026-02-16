@@ -1,0 +1,127 @@
+{
+  "guideline_id": "I.C.9.a.8",
+  "semantic_title": "Coding Guidelines for Controlled Hypertension Under Therapy",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 9. Diseases of the Circulatory System > a. Hypertension > 8) Hypertension, Controlled",
+  "page_number": 52,
+  "content": {
+    "full_text": "This diagnostic statement usually refers to an existing state of hypertension under control by therapy. Assign the appropriate code from categories I10-I15, Hypertensive diseases. (Evidence: pg no: 52, L36-L38)",
+    "summary": "Guidelines for coding controlled hypertension that is managed with therapy (Evidence: pg no: 52, L36-L38)",
+    "key_concepts": [
+      "Controlled hypertension definition (Evidence: pg no: 52, L36-L37)",
+      "Hypertension under therapy control (Evidence: pg no: 52, L37)",
+      "Use of I10-I15 categories (Evidence: pg no: 52, L37-L38)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "CTRL_HTN_001",
+        "rule_text": "Assign appropriate code from categories I10-I15 for controlled hypertension (Evidence: pg no: 52, L37-L38)",
+        "explanation": "When hypertension is documented as controlled, it still represents an existing hypertensive condition that should be coded using the standard hypertension categories (Evidence: pg no: 52, L36-L38)",
+        "importance": "high",
+        "applies_to": "I10-I15",
+        "common_applications": [
+          "Follow-up visits for hypertension management",
+          "Routine care with well-controlled hypertension"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify controlled hypertension documentation",
+      "Step 2: Select appropriate code from I10-I15 categories",
+      "Step 3: Code as standard hypertension despite controlled status"
+    ],
+    "related_terminology": [
+      "Controlled hypertension",
+      "Hypertension under therapy",
+      "Managed hypertension"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "I10-I15",
+        "description": "Hypertensive diseases (Evidence: pg no: 52, L38)",
+        "requirement": "Use for controlled hypertension",
+        "usage_rules": [
+          "Apply standard hypertension coding rules (Evidence: pg no: 52, L37-L38)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Hypertensive diseases"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "CTRL_HTN_SC001",
+      "scenario": "Patient with well-controlled hypertension on medication",
+      "documentation_example": "Hypertension, well controlled on lisinopril",
+      "step_by_step": [
+        "Step 1: Identify controlled hypertension documentation",
+        "Step 2: Recognize this as existing hypertensive condition",
+        "Step 3: Assign appropriate I10-I15 code"
+      ],
+      "correct_coding": {
+        "primary_code": "I10",
+        "secondary_codes": [],
+        "sequencing": "Standard hypertension coding",
+        "rationale": "Controlled hypertension is still coded as hypertension using I10-I15 categories (Evidence: pg no: 52, L37-L38)"
+      },
+      "incorrect_coding": {
+        "code": "Z87.891",
+        "codes": [
+          "Z87.891"
+        ],
+        "rationale": "Would be incorrect as this is current, not past condition",
+        "common_mistake": "Treating controlled hypertension as resolved condition"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [],
+    "best_practices": [
+      "Code controlled hypertension as current hypertension (Evidence: pg no: 52, L36-L38)"
+    ],
+    "common_mistakes": [
+      "Not coding controlled hypertension as active condition"
+    ],
+    "tips": [
+      "Controlled status does not change coding approach (Evidence: pg no: 52, L36-L38)"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Routine follow-up visits",
+      "Medication management encounters"
+    ]
+  },
+  "search_keywords": [
+    "controlled hypertension",
+    "hypertension therapy",
+    "managed hypertension",
+    "I10-I15"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "hypertension",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "hypertension",
+      "controlled",
+      "therapy",
+      "management"
+    ]
+  },
+  "page_range_processed": "pages_51_to_54"
+}

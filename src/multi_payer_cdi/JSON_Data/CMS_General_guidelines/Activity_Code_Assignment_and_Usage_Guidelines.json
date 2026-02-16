@@ -1,0 +1,243 @@
+{
+  "guideline_id": "I.C.20.c",
+  "semantic_title": "Activity Code Assignment and Usage Guidelines",
+  "section_path": "Chapter 20: External Causes of Morbidity > c. Activity Code",
+  "page_number": 89,
+  "content": {
+    "full_text": "Assign a code from category Y93, Activity code, to describe the activity of the patient at the time the injury or other health condition occurred. An activity code is used only once, at the initial encounter for treatment. Only one code from Y93 should be recorded on a medical record. The activity codes are not applicable to poisonings, adverse effects, misadventures or sequela. Do not assign Y93.9, Unspecified activity, if the activity is not stated. A code from category Y93 is appropriate for use with external cause and intent codes if identifying the activity provides additional information about the event. (Evidence: pg no: 89, L56-L59)",
+    "summary": "Y93 activity codes describe patient activity at time of injury, used once at initial encounter, with restrictions for certain conditions and unspecified coding (Evidence: pg no: 89, L56-L59)",
+    "key_concepts": [
+      "Y93 codes describe patient activity at time of injury (Evidence: pg no: 89, L56-L57)",
+      "Used only once at initial encounter (Evidence: pg no: 89, L57)",
+      "Only one Y93 code per medical record (Evidence: pg no: 89, L57-L58)",
+      "Not applicable to poisonings, adverse effects, misadventures, sequela (Evidence: pg no: 89, L58)",
+      "Don't use Y93.9 if activity not stated (Evidence: pg no: 89, L58-L59)",
+      "Use when activity provides additional information (Evidence: pg no: 89, L59)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "ACTIVITY_001",
+        "rule_text": "Y93 activity codes describe patient activity at time of injury or health condition (Evidence: pg no: 89, L56-L57)",
+        "explanation": "Activity codes capture what the patient was doing when the injury or condition occurred, providing context for the external cause (Evidence: pg no: 89, L56-L57)",
+        "importance": "high",
+        "applies_to": "Injuries and health conditions with identifiable activities",
+        "common_applications": [
+          "Sports injuries",
+          "Work-related injuries",
+          "Recreational activities",
+          "Daily living activities"
+        ]
+      },
+      {
+        "rule_id": "ACTIVITY_002",
+        "rule_text": "Activity codes used only once at initial encounter for treatment (Evidence: pg no: 89, L57)",
+        "explanation": "Like place of occurrence codes, activity codes are assigned only at the first encounter for treatment and not repeated at subsequent visits (Evidence: pg no: 89, L57)",
+        "importance": "high",
+        "applies_to": "All Y93 codes",
+        "common_applications": [
+          "Initial treatment visits",
+          "Emergency department encounters",
+          "First provider visits"
+        ]
+      },
+      {
+        "rule_id": "ACTIVITY_003",
+        "rule_text": "Only one Y93 code should be recorded on a medical record (Evidence: pg no: 89, L57-L58)",
+        "explanation": "Unlike other external cause codes where multiple codes may be appropriate, only one activity code should be assigned per medical record (Evidence: pg no: 89, L57-L58)",
+        "importance": "high",
+        "applies_to": "All Y93 activity codes",
+        "common_applications": [
+          "Single activity identification",
+          "Primary activity selection",
+          "Activity prioritization"
+        ]
+      },
+      {
+        "rule_id": "ACTIVITY_004",
+        "rule_text": "Activity codes not applicable to poisonings, adverse effects, misadventures or sequela (Evidence: pg no: 89, L58)",
+        "explanation": "Certain types of conditions do not warrant activity coding as the activity is not relevant to the causation or treatment (Evidence: pg no: 89, L58)",
+        "importance": "medium",
+        "applies_to": "Poisonings, adverse effects, misadventures, sequela",
+        "common_applications": [
+          "Drug poisoning cases",
+          "Medication adverse effects",
+          "Medical misadventures",
+          "Late effects of injuries"
+        ]
+      },
+      {
+        "rule_id": "ACTIVITY_005",
+        "rule_text": "Do not assign Y93.9 if activity is not stated (Evidence: pg no: 89, L58-L59)",
+        "explanation": "The unspecified activity code should not be used when the activity is unknown or not documented (Evidence: pg no: 89, L58-L59)",
+        "importance": "medium",
+        "applies_to": "Y93.9 code",
+        "common_applications": [
+          "Unknown activity situations",
+          "Inadequate documentation",
+          "Activity not relevant"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if condition is appropriate for activity coding (not poisoning, adverse effect, misadventure, or sequela)",
+      "Step 2: Identify the specific activity patient was performing at time of injury",
+      "Step 3: Assign appropriate Y93 code at initial encounter only",
+      "Step 4: Verify only one activity code is assigned",
+      "Step 5: Ensure activity provides additional information about the event"
+    ],
+    "related_terminology": [
+      "Activity code",
+      "Y93 codes",
+      "Patient activity",
+      "Initial encounter",
+      "Poisonings",
+      "Adverse effects",
+      "Misadventures",
+      "Sequela"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Y93",
+        "description": "Activity codes to describe patient activity at time of injury (Evidence: pg no: 89, L56-L57)",
+        "requirement": "Use only once at initial encounter, only one code per record",
+        "usage_rules": [
+          "Used only at initial encounter (Evidence: pg no: 89, L57)",
+          "Only one code per medical record (Evidence: pg no: 89, L57-L58)",
+          "Not for poisonings, adverse effects, misadventures, sequela (Evidence: pg no: 89, L58)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "Y93.9",
+        "description": "Unspecified activity (Evidence: pg no: 89, L58-L59)",
+        "context": "Do not use if activity is not stated",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "usage_restriction": "Avoid when activity not documented (Evidence: pg no: 89, L58-L59)"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Activity codes",
+      "Y93 category"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "ACTIVITY_001",
+      "scenario": "Patient playing basketball sustains ankle sprain, treated initially in ED then follow-up with orthopedist",
+      "documentation_example": "Patient twisted ankle while playing basketball, diagnosed with ankle sprain",
+      "step_by_step": [
+        "Step 1: Code ankle sprain as primary diagnosis",
+        "Step 2: Code appropriate external cause for twisting injury",
+        "Step 3: Code Y93.67 (basketball) as activity code at initial ED encounter only",
+        "Step 4: Do not repeat activity code at orthopedist follow-up visit"
+      ],
+      "correct_coding": {
+        "primary_code": "Ankle sprain code",
+        "secondary_codes": [
+          "Twisting injury external cause",
+          "Y93.67 (basketball) - initial encounter only"
+        ],
+        "sequencing": "Sprain, external cause, activity code",
+        "rationale": "Activity code used only once at initial encounter to describe what patient was doing when injury occurred (Evidence: pg no: 89, L56-L57)"
+      },
+      "incorrect_coding": {
+        "code": "Multiple activity codes or activity code at follow-up",
+        "codes": [
+          "Y93.67 at every encounter",
+          "Multiple Y93 codes"
+        ],
+        "rationale": "Activity codes used only once and only one per record",
+        "common_mistake": "Repeating activity codes or using multiple activity codes"
+      }
+    },
+    {
+      "scenario_id": "ACTIVITY_002",
+      "scenario": "Patient has adverse reaction to prescribed medication",
+      "documentation_example": "Patient developed rash from prescribed antibiotic",
+      "step_by_step": [
+        "Step 1: Code the adverse effect",
+        "Step 2: Code the medication causing the effect",
+        "Step 3: Do not assign activity code - not applicable to adverse effects"
+      ],
+      "correct_coding": {
+        "primary_code": "Adverse effect code",
+        "secondary_codes": [
+          "Medication code"
+        ],
+        "sequencing": "Adverse effect, then medication",
+        "rationale": "Activity codes are not applicable to adverse effects (Evidence: pg no: 89, L58)"
+      },
+      "incorrect_coding": {
+        "code": "Adding activity code to adverse effect",
+        "codes": [
+          "Y93 code with adverse effect"
+        ],
+        "rationale": "Activity codes not applicable to adverse effects",
+        "common_mistake": "Using activity codes with excluded condition types"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Don't use Y93.9 when activity not stated (Evidence: pg no: 89, L58-L59)",
+      "Not applicable to poisonings, adverse effects, misadventures, sequela (Evidence: pg no: 89, L58)"
+    ],
+    "best_practices": [
+      "Use only one activity code per medical record (Evidence: pg no: 89, L57-L58)",
+      "Assign only at initial encounter (Evidence: pg no: 89, L57)",
+      "Ensure activity provides additional information (Evidence: pg no: 89, L59)"
+    ],
+    "common_mistakes": [
+      "Using multiple activity codes (Evidence: pg no: 89, L57-L58)",
+      "Repeating activity codes at subsequent encounters (Evidence: pg no: 89, L57)",
+      "Using activity codes with excluded conditions (Evidence: pg no: 89, L58)"
+    ],
+    "tips": [
+      "Consider if activity adds meaningful information to the case (Evidence: pg no: 89, L59)"
+    ],
+    "implementation_notes": [
+      "Activity codes support injury prevention and research efforts"
+    ],
+    "clinical_context": [
+      "Activity information helps understand injury mechanisms and prevention strategies"
+    ]
+  },
+  "search_keywords": [
+    "activity codes",
+    "Y93 codes",
+    "patient activity",
+    "initial encounter only",
+    "one activity code",
+    "not for poisonings adverse effects"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "external_causes",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "external_causes",
+      "activity_codes",
+      "Y93_codes",
+      "initial_encounter",
+      "chapter_20"
+    ]
+  },
+  "page_range_processed": "pages_87_to_90"
+}

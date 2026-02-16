@@ -1,0 +1,184 @@
+{
+  "guideline_id": "I.C.6.b.4",
+  "semantic_title": "Chronic Pain Classification and Documentation Requirements",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 6. Chapter 6: Diseases of the Nervous System > b. Pain - Category G89 > 4) Chronic pain",
+  "page_number": 48,
+  "content": {
+    "full_text": "Chronic pain is classified to subcategory G89.2. There is no time frame defining when pain becomes chronic pain. The provider's documentation should be used to guide use of these codes. (Evidence: pg no: 48, L59-L61)",
+    "summary": "Guidelines for chronic pain classification using G89.2 subcategory, emphasizing provider documentation over time frames for determining chronicity. (Evidence: pg no: 48, L59-L61)",
+    "key_concepts": [
+      "G89.2 subcategory for chronic pain (Evidence: pg no: 48, L60)",
+      "No specific time frame definition (Evidence: pg no: 48, L60-L61)",
+      "Provider documentation guidance (Evidence: pg no: 48, L61)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "chronic_pain_classification",
+        "rule_text": "Chronic pain is classified to subcategory G89.2 (Evidence: pg no: 48, L60)",
+        "explanation": "All chronic pain conditions should be coded using subcategory G89.2 (Evidence: pg no: 48, L60)",
+        "importance": "high",
+        "applies_to": "G89.2",
+        "common_applications": [
+          "Chronic pain conditions",
+          "Long-term pain management"
+        ]
+      },
+      {
+        "rule_id": "no_time_frame_definition",
+        "rule_text": "There is no time frame defining when pain becomes chronic pain (Evidence: pg no: 48, L60-L61)",
+        "explanation": "Chronicity is not determined by specific duration but by provider assessment and documentation (Evidence: pg no: 48, L60-L61)",
+        "importance": "critical",
+        "applies_to": "G89.2",
+        "common_applications": [
+          "Chronic pain determination",
+          "Pain duration assessment"
+        ]
+      },
+      {
+        "rule_id": "provider_documentation_chronic",
+        "rule_text": "The provider's documentation should be used to guide use of these codes (Evidence: pg no: 48, L61)",
+        "explanation": "Provider documentation, not arbitrary time frames, determines when to use chronic pain codes (Evidence: pg no: 48, L61)",
+        "importance": "critical",
+        "applies_to": "G89.2",
+        "common_applications": [
+          "Documentation review",
+          "Chronic pain coding decisions"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Review provider documentation for pain description",
+      "Step 2: Look for provider designation of pain as chronic",
+      "Step 3: Do not rely on time frames to determine chronicity",
+      "Step 4: If documented as chronic, use G89.2 subcategory",
+      "Step 5: Follow provider's clinical assessment"
+    ],
+    "related_terminology": [
+      "Chronic pain",
+      "Subcategory G89.2",
+      "Provider documentation",
+      "Time frame",
+      "Chronicity"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "G89.2",
+        "description": "Chronic pain subcategory (Evidence: pg no: 48, L60)",
+        "requirement": "Provider documentation of chronic nature",
+        "usage_rules": [
+          "Use for provider-documented chronic pain (Evidence: pg no: 48, L61)",
+          "Do not base on time frames alone (Evidence: pg no: 48, L60-L61)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "G89.2 - Chronic pain"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "provider_documented_chronic",
+      "scenario": "Patient with back pain documented by provider as chronic, present for 2 months",
+      "documentation_example": "Patient presents with chronic lower back pain, ongoing for 2 months",
+      "step_by_step": [
+        "Step 1: Review provider documentation",
+        "Step 2: Note provider specifically documents pain as chronic",
+        "Step 3: Use G89.2 subcategory based on provider documentation",
+        "Step 4: Do not focus on 2-month duration"
+      ],
+      "correct_coding": {
+        "primary_code": "G89.29 (Other chronic pain)",
+        "secondary_codes": [],
+        "sequencing": "Chronic pain code based on provider documentation",
+        "rationale": "Provider documentation guides chronic pain coding, not time frames (Evidence: pg no: 48, L61)"
+      },
+      "incorrect_coding": {
+        "code": "G89.18 (Other acute postprocedural pain)",
+        "rationale": "Should follow provider's chronic pain documentation",
+        "common_mistake": "Using time frames instead of provider documentation"
+      }
+    },
+    {
+      "scenario_id": "long_duration_not_documented_chronic",
+      "scenario": "Patient with back pain for 8 months, provider does not document as chronic",
+      "documentation_example": "Patient with lower back pain, ongoing for 8 months",
+      "step_by_step": [
+        "Step 1: Note long duration (8 months)",
+        "Step 2: Check provider documentation for chronic designation",
+        "Step 3: Provider has not documented as chronic",
+        "Step 4: Do not assume chronic based on duration alone"
+      ],
+      "correct_coding": {
+        "primary_code": "M54.5 (Low back pain)",
+        "secondary_codes": [],
+        "sequencing": "Site-specific code without chronic designation",
+        "rationale": "No time frame defines chronic pain, must rely on provider documentation (Evidence: pg no: 48, L60-L61)"
+      },
+      "incorrect_coding": {
+        "code": "G89.29",
+        "rationale": "Should not assume chronic based on duration without provider documentation",
+        "common_mistake": "Assuming chronicity based on duration alone"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not use time frames to determine chronic pain - rely on provider documentation (Evidence: pg no: 48, L60-L61)"
+    ],
+    "best_practices": [
+      "Always review provider documentation for chronic pain designation",
+      "Follow provider's clinical assessment rather than duration"
+    ],
+    "common_mistakes": [
+      "Assuming chronic pain based on duration alone",
+      "Not following provider documentation for chronicity determination"
+    ],
+    "tips": [
+      "Provider documentation is key for chronic pain coding",
+      "No specific time frame defines when pain becomes chronic"
+    ],
+    "implementation_notes": [
+      "Subcategory G89.2 is used for all chronic pain",
+      "Clinical judgment trumps arbitrary time frames"
+    ],
+    "clinical_context": [
+      "Chronicity is a clinical determination, not a time-based one",
+      "Providers assess multiple factors beyond duration for chronicity"
+    ]
+  },
+  "search_keywords": [
+    "chronic pain",
+    "G89.2",
+    "time frame",
+    "provider documentation",
+    "chronicity",
+    "duration"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "nervous_system_pain",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "chronic_pain",
+      "G89.2",
+      "documentation",
+      "time_frame",
+      "provider_assessment"
+    ]
+  },
+  "page_range_processed": "pages_45_to_48"
+}

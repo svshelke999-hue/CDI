@@ -1,0 +1,146 @@
+{
+  "guideline_id": "I.C.2.l.2",
+  "semantic_title": "Sequencing Guidelines for Encounter for Treatment of Secondary Malignancy",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 2. Chapter 2: Neoplasms > l. Sequencing of neoplasm codes > 2) Encounter for treatment of secondary malignancy",
+  "page_number": 37,
+  "content": {
+    "full_text": "When an encounter is for a primary malignancy with metastasis and treatment is directed toward the metastatic (secondary) site(s) only, the metastatic site(s) is designated as the principal/first-listed diagnosis. The primary malignancy is coded as an additional code. (Evidence: pg no: 37, L29-L31)",
+    "summary": "Guidelines for sequencing when treatment focuses on metastatic sites rather than primary malignancy (Evidence: pg no: 37, L29-L31)",
+    "key_concepts": [
+      "Treatment directed toward metastatic sites only (Evidence: pg no: 37, L29-L30)",
+      "Metastatic site as principal diagnosis (Evidence: pg no: 37, L30)",
+      "Primary malignancy as additional code (Evidence: pg no: 37, L31)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "secondary_malignancy_sequencing",
+        "rule_text": "The metastatic site(s) is designated as the principal/first-listed diagnosis when treatment is directed toward metastatic sites only (Evidence: pg no: 37, L29-L30)",
+        "explanation": "When the focus of treatment is specifically on the metastatic disease rather than the primary tumor, the metastatic site takes precedence in sequencing (Evidence: pg no: 37, L29-L30)",
+        "importance": "critical",
+        "applies_to": "encounters treating metastatic disease",
+        "common_applications": [
+          "Radiation therapy to brain metastases",
+          "Surgery for liver metastases"
+        ]
+      },
+      {
+        "rule_id": "primary_as_additional_code",
+        "rule_text": "The primary malignancy is coded as an additional code (Evidence: pg no: 37, L31)",
+        "explanation": "Even when treatment focuses on metastases, the primary malignancy must still be coded but as a secondary diagnosis (Evidence: pg no: 37, L31)",
+        "importance": "high",
+        "applies_to": "all encounters treating secondary malignancy",
+        "common_applications": [
+          "Primary breast cancer with treatment of bone metastases",
+          "Primary lung cancer with treatment of brain metastases"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify that treatment is directed toward metastatic sites only",
+      "Step 2: Assign metastatic site as principal/first-listed diagnosis",
+      "Step 3: Code primary malignancy as additional diagnosis"
+    ],
+    "related_terminology": [
+      "Secondary malignancy",
+      "Metastatic sites",
+      "Primary malignancy",
+      "Principal diagnosis",
+      "Additional code"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "C77-C79",
+        "description": "Secondary malignant neoplasms (Evidence: pg no: 37, L29-L31)",
+        "requirement": "Used as principal diagnosis when treatment directed to metastatic sites",
+        "usage_rules": [
+          "Metastatic site as principal when treatment directed there (Evidence: pg no: 37, L30)",
+          "Primary malignancy as additional code (Evidence: pg no: 37, L31)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Secondary malignant neoplasm codes",
+      "Primary malignancy codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "secondary_malignancy_treatment",
+      "scenario": "Patient with primary breast cancer admitted for surgical resection of liver metastases only",
+      "documentation_example": "Admission for hepatic resection of metastatic breast cancer to liver",
+      "step_by_step": [
+        "Step 1: Identify that treatment is directed only toward liver metastases",
+        "Step 2: Assign liver metastases as principal diagnosis",
+        "Step 3: Add primary breast cancer as additional diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "C78.02 (Secondary malignant neoplasm of liver)",
+        "secondary_codes": [
+          "C50.xx (Primary breast cancer code)"
+        ],
+        "sequencing": "Metastatic site first, then primary malignancy",
+        "rationale": "Treatment is directed toward metastatic site only (Evidence: pg no: 37, L29-L31)"
+      },
+      "incorrect_coding": {
+        "code": "C50.xx",
+        "codes": [
+          "C50.xx as principal diagnosis"
+        ],
+        "rationale": "Primary breast cancer should not be principal when treating metastases only",
+        "common_mistake": "Sequencing primary malignancy first when treatment is for metastases only"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not sequence primary malignancy first when treatment is directed only toward metastatic sites (Evidence: pg no: 37, L29-L31)"
+    ],
+    "best_practices": [
+      "Always identify the specific focus of treatment to determine correct sequencing (Evidence: pg no: 37, L29-L30)"
+    ],
+    "common_mistakes": [
+      "Sequencing primary malignancy first when treating metastases only (Evidence: pg no: 37, L29-L31)"
+    ],
+    "tips": [
+      "Treatment focus determines sequencing priority (Evidence: pg no: 37, L29-L30)"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Applies to surgical resection of metastases, radiation to metastatic sites, targeted therapy for metastases"
+    ]
+  },
+  "search_keywords": [
+    "secondary malignancy",
+    "metastatic sites",
+    "treatment sequencing",
+    "principal diagnosis",
+    "metastases treatment"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "neoplasm_sequencing",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "neoplasms",
+      "sequencing",
+      "secondary_malignancy",
+      "metastases"
+    ]
+  },
+  "page_range_processed": "pages_36_to_39"
+}

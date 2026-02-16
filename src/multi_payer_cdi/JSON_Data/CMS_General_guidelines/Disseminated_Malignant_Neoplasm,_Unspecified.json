@@ -1,0 +1,153 @@
+{
+  "guideline_id": "I.C.2.j",
+  "semantic_title": "Disseminated Malignant Neoplasm, Unspecified",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 2. Chapter 2: Neoplasms > j. Disseminated malignant neoplasm, unspecified",
+  "page_number": 36,
+  "content": {
+    "full_text": "Code C80.0, Disseminated malignant neoplasm, unspecified, is for use only in those cases where the patient has advanced metastatic disease and no known primary or secondary sites are specified. It should not be used in place of assigning codes for the primary site and all known secondary sites. (Evidence: pg no: 36, L91-L92)",
+    "summary": "Guidelines for using C80.0 for disseminated malignant neoplasm when specific sites are unknown (Evidence: pg no: 36, L91-L92)",
+    "key_concepts": [
+      "Advanced metastatic disease (Evidence: pg no: 36, L92)",
+      "No known primary or secondary sites specified (Evidence: pg no: 36, L92)",
+      "Should not replace specific site codes (Evidence: pg no: 36, L92)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "c80_0_usage_criteria",
+        "rule_text": "Use C80.0 only when patient has advanced metastatic disease with no known primary or secondary sites specified (Evidence: pg no: 36, L92)",
+        "explanation": "C80.0 is reserved for cases where there is clearly advanced metastatic cancer but the specific sites cannot be determined or specified (Evidence: pg no: 36, L91-L92)",
+        "importance": "critical",
+        "applies_to": "advanced metastatic disease of unknown sites",
+        "common_applications": [
+          "Patient with widespread cancer but primary site unknown",
+          "Advanced cancer with multiple metastases but sites not specified"
+        ]
+      },
+      {
+        "rule_id": "c80_0_not_substitute",
+        "rule_text": "Should not be used in place of assigning codes for known primary and secondary sites (Evidence: pg no: 36, L92)",
+        "explanation": "When specific primary or secondary sites are known, those specific codes should be used instead of the unspecified disseminated code (Evidence: pg no: 36, L92)",
+        "importance": "critical",
+        "applies_to": "cases with known primary or secondary sites",
+        "common_applications": [
+          "Do not use when lung primary with liver metastases are known",
+          "Do not use when specific metastatic sites are documented"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Confirm patient has advanced metastatic disease",
+      "Step 2: Verify no primary site is known or specified",
+      "Step 3: Verify no secondary sites are known or specified",
+      "Step 4: Only then consider using C80.0",
+      "Step 5: If any sites are known, use specific codes instead"
+    ],
+    "related_terminology": [
+      "Disseminated malignant neoplasm",
+      "Advanced metastatic disease",
+      "Unknown primary",
+      "Unspecified sites"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "C80.0",
+        "description": "Disseminated malignant neoplasm, unspecified (Evidence: pg no: 36, L91)",
+        "context": "Use only when advanced metastatic disease with no known primary or secondary sites",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "C80": "Malignant neoplasm without specification of site",
+          "0": "Disseminated"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Unspecified malignant neoplasms"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "disseminated_unknown_sites",
+      "scenario": "Patient presents with advanced cancer, multiple metastases evident on imaging but primary site and specific metastatic sites cannot be determined",
+      "documentation_example": "Patient with advanced disseminated malignancy, primary site unknown, multiple metastatic lesions throughout body but specific sites not identified",
+      "step_by_step": [
+        "Step 1: Confirm advanced metastatic disease is present",
+        "Step 2: Verify primary site is unknown",
+        "Step 3: Verify specific metastatic sites are not specified",
+        "Step 4: Assign C80.0 as appropriate code"
+      ],
+      "correct_coding": {
+        "primary_code": "C80.0 (Disseminated malignant neoplasm, unspecified)",
+        "secondary_codes": [],
+        "sequencing": "C80.0 as principal diagnosis",
+        "rationale": "When advanced metastatic disease exists but no primary or secondary sites are specified, C80.0 is appropriate (Evidence: pg no: 36, L91-L92)"
+      },
+      "incorrect_coding": {
+        "code": "C80.0 when sites are known",
+        "codes": [
+          "C80.0 with known lung primary and liver metastases"
+        ],
+        "rationale": "Should not use C80.0 when specific primary or secondary sites are known",
+        "common_mistake": "Using C80.0 as a convenience code when specific sites are documented"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not use as substitute for specific site codes when sites are known (Evidence: pg no: 36, L92)",
+      "Only use when truly no primary or secondary sites are specified (Evidence: pg no: 36, L92)"
+    ],
+    "best_practices": [
+      "Always try to identify specific primary and secondary sites first (Evidence: pg no: 36, L92)",
+      "Use C80.0 only as last resort when sites truly unknown (Evidence: pg no: 36, L91-L92)"
+    ],
+    "common_mistakes": [
+      "Using C80.0 when specific sites are documented (Evidence: pg no: 36, L92)",
+      "Using C80.0 for convenience instead of coding known sites (Evidence: pg no: 36, L92)"
+    ],
+    "tips": [
+      "This code should be rarely used in practice (Evidence: pg no: 36, L91-L92)",
+      "Always code specific sites when they are known (Evidence: pg no: 36, L92)"
+    ],
+    "implementation_notes": [
+      "This is a code of last resort for truly unspecified disseminated disease"
+    ],
+    "clinical_context": [
+      "Rare situations where cancer is clearly present but sites cannot be determined"
+    ]
+  },
+  "search_keywords": [
+    "C80.0",
+    "disseminated malignant neoplasm",
+    "unknown primary cancer",
+    "advanced metastatic disease",
+    "unspecified cancer sites"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "neoplasms",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "neoplasms",
+      "C80.0",
+      "disseminated",
+      "unknown_primary",
+      "unspecified"
+    ]
+  },
+  "page_range_processed": "pages_33_to_36"
+}

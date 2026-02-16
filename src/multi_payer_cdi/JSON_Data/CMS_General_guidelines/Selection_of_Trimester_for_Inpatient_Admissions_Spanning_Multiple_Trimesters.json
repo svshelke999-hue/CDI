@@ -1,0 +1,152 @@
+{
+  "guideline_id": "I.C.15.a.4",
+  "semantic_title": "Selection of Trimester for Inpatient Admissions Spanning Multiple Trimesters",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 15. Chapter 15: Pregnancy, Childbirth, and the Puerperium > a. General Rules for Obstetric Cases > 4) Selection of trimester for inpatient admissions that encompass more than one trimester",
+  "page_number": 64,
+  "content": {
+    "full_text": "In instances when a patient is admitted to a hospital for complications of pregnancy during one trimester and remains in the hospital into a subsequent trimester, the trimester character for the antepartum complication code should be assigned on the basis of the trimester when the complication developed, not the trimester of the discharge. If the condition developed prior to the current admission/encounter or represents a pre-existing condition, the trimester character for the trimester at the time of the admission/encounter should be assigned. (Evidence: pg no: 64, L28-L33)",
+    "summary": "Guidelines for assigning trimester characters when hospital stays span multiple trimesters (Evidence: pg no: 64, L28-L33)",
+    "key_concepts": [
+      "Trimester assignment based on complication development timing (Evidence: pg no: 64, L31-L32)",
+      "Pre-existing condition trimester assignment (Evidence: pg no: 64, L32-L33)",
+      "Antepartum complication coding (Evidence: pg no: 64, L31-L32)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.C.15.a.4.1",
+        "rule_text": "Assign trimester character based on when complication developed, not discharge trimester (Evidence: pg no: 64, L31-L32)",
+        "explanation": "When a patient is admitted for pregnancy complications in one trimester and stays into another trimester, the trimester code reflects when the complication first occurred (Evidence: pg no: 64, L30-L32)",
+        "importance": "critical",
+        "applies_to": "O00-O9A",
+        "common_applications": [
+          "Extended hospital stays for pregnancy complications",
+          "Antepartum complications requiring prolonged care"
+        ]
+      },
+      {
+        "rule_id": "I.C.15.a.4.2",
+        "rule_text": "For pre-existing conditions, assign trimester at time of admission (Evidence: pg no: 64, L32-L33)",
+        "explanation": "Pre-existing conditions or those developed prior to current admission use the trimester at admission time (Evidence: pg no: 64, L32-L33)",
+        "importance": "critical",
+        "applies_to": "O00-O9A",
+        "common_applications": [
+          "Pre-existing diabetes in pregnancy",
+          "Chronic hypertension complicating pregnancy"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify when the complication first developed",
+      "Step 2: Determine if condition is pre-existing or developed during current admission",
+      "Step 3: Assign trimester character based on development timing, not discharge timing"
+    ],
+    "related_terminology": [
+      "Antepartum complications",
+      "Trimester character",
+      "Pre-existing conditions",
+      "Hospital admission"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "O00-O9A",
+        "description": "Pregnancy, Childbirth, and the Puerperium codes (Evidence: pg no: 64, L28)",
+        "requirement": "Must assign appropriate trimester character",
+        "usage_rules": [
+          "Use trimester when complication developed (Evidence: pg no: 64, L31-L32)",
+          "For pre-existing conditions, use admission trimester (Evidence: pg no: 64, L32-L33)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Antepartum complication codes with trimester characters"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.15.a.3",
+        "title": "Final character for trimester",
+        "relationship": "builds_upon",
+        "explanation": "Builds upon basic trimester assignment rules"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "trimester_span_1",
+      "scenario": "Patient admitted at 28 weeks gestation for preeclampsia, remains hospitalized until 32 weeks",
+      "documentation_example": "Patient admitted at 28 weeks with severe preeclampsia, delivered at 32 weeks",
+      "step_by_step": [
+        "Step 1: Identify complication (preeclampsia) developed at 28 weeks (second trimester)",
+        "Step 2: Note patient stayed until third trimester",
+        "Step 3: Assign second trimester character since complication developed in second trimester"
+      ],
+      "correct_coding": {
+        "primary_code": "O14.12",
+        "secondary_codes": [],
+        "sequencing": "Primary diagnosis",
+        "rationale": "Second trimester character used because preeclampsia developed at 28 weeks (Evidence: pg no: 64, L31-L32)"
+      },
+      "incorrect_coding": {
+        "code": "O14.13",
+        "codes": [
+          "O14.13"
+        ],
+        "rationale": "Third trimester character would be incorrect even though delivery occurred in third trimester",
+        "common_mistake": "Using discharge trimester instead of complication development trimester"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not use discharge trimester for trimester assignment (Evidence: pg no: 64, L31-L32)"
+    ],
+    "best_practices": [
+      "Always determine when complication first developed (Evidence: pg no: 64, L31-L32)",
+      "Document timing of complication development clearly"
+    ],
+    "common_mistakes": [
+      "Using trimester at discharge instead of complication development (Evidence: pg no: 64, L31-L32)"
+    ],
+    "tips": [
+      "Review admission documentation to determine complication timing"
+    ],
+    "implementation_notes": [
+      "Requires careful review of medical record timeline"
+    ],
+    "clinical_context": [
+      "Common in high-risk pregnancies requiring extended hospitalization"
+    ]
+  },
+  "search_keywords": [
+    "trimester assignment",
+    "multiple trimesters",
+    "hospital admission",
+    "antepartum complications",
+    "pregnancy complications",
+    "extended hospital stay"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "obstetric_coding",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "pregnancy",
+      "trimester",
+      "hospital_admission",
+      "complications"
+    ]
+  },
+  "page_range_processed": "pages_63_to_66"
+}

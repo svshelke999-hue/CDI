@@ -1,0 +1,203 @@
+{
+  "guideline_id": "I.C.21.c.3.n",
+  "semantic_title": "Transplanted Organ Removal Status (Z98.85) - Usage and Timing Requirements",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 21. Factors Influencing Health Status > c. Categories of Z Codes > 3) Status",
+  "page_number": 96,
+  "content": {
+    "full_text": "Assign code Z98.85, Transplanted organ removal status, to indicate that a transplanted organ has been previously removed. This code should not be assigned for the encounter in which the transplanted organ is removed. The complication necessitating removal of the transplant organ should be assigned for that encounter. See section I.C.19. for information on the coding of organ transplant complications. (Evidence: pg no: 96, L87-L88)",
+    "summary": "Z98.85 indicates previous transplanted organ removal, not used during removal encounter, with complications coded for removal encounter (Evidence: pg no: 96, L87-L88)",
+    "key_concepts": [
+      "Previously removed transplanted organ (Evidence: pg no: 96, L87)",
+      "Not for current removal encounter (Evidence: pg no: 96, L87)",
+      "Complication coded for removal encounter (Evidence: pg no: 96, L88)",
+      "Cross-reference to transplant complications (Evidence: pg no: 96, L88)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "TRANSPLANT_REM_PREV",
+        "rule_text": "Use to indicate transplanted organ was previously removed (Evidence: pg no: 96, L87)",
+        "explanation": "Z98.85 should be assigned to indicate that a transplanted organ has been removed in the past (Evidence: pg no: 96, L87)",
+        "importance": "high",
+        "applies_to": "Z98.85",
+        "common_applications": [
+          "Follow-up after organ removal",
+          "Subsequent medical care",
+          "Medical history documentation"
+        ]
+      },
+      {
+        "rule_id": "TRANSPLANT_REM_NOT_CURRENT",
+        "rule_text": "Do not assign for encounter when organ is being removed (Evidence: pg no: 96, L87)",
+        "explanation": "Z98.85 should not be used during the actual encounter when the transplanted organ is being removed (Evidence: pg no: 96, L87)",
+        "importance": "critical",
+        "applies_to": "Z98.85",
+        "common_applications": [
+          "Organ removal procedures",
+          "Transplant complications requiring removal"
+        ]
+      },
+      {
+        "rule_id": "TRANSPLANT_REM_COMP",
+        "rule_text": "Code complication necessitating removal for removal encounter (Evidence: pg no: 96, L88)",
+        "explanation": "During the encounter when organ is removed, code the complication that necessitated the removal rather than Z98.85 (Evidence: pg no: 96, L88)",
+        "importance": "critical",
+        "applies_to": "Z98.85",
+        "common_applications": [
+          "Transplant rejection",
+          "Transplant complications",
+          "Organ failure"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine timing of organ removal relative to current encounter",
+      "Step 2: If previous removal, assign Z98.85",
+      "Step 3: If current removal, code the complication necessitating removal",
+      "Step 4: Reference Section I.C.19 for transplant complications"
+    ],
+    "related_terminology": [
+      "Transplanted organ removal",
+      "Transplant complications",
+      "Organ rejection",
+      "Post-transplant status"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "Z98.85",
+        "description": "Transplanted organ removal status (Evidence: pg no: 96, L87)",
+        "context": "Use for previously removed transplanted organs, not current removal",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z98": "Other postprocedural states",
+          "85": "Transplanted organ removal status"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Transplanted organ removal status",
+      "Organ transplant complications"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.19",
+        "title": "Coding of organ transplant complications",
+        "relationship": "related_to",
+        "explanation": "Provides guidance on coding transplant complications during removal encounters"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "TRANSPLANT_REM_01",
+      "scenario": "Follow-up visit after previous kidney transplant removal",
+      "documentation_example": "Patient for routine follow-up. History of kidney transplant removed 6 months ago due to chronic rejection.",
+      "step_by_step": [
+        "Step 1: Identify this is follow-up after previous removal",
+        "Step 2: Assign Z98.85 for transplant removal status",
+        "Step 3: Add appropriate follow-up or encounter codes"
+      ],
+      "correct_coding": {
+        "primary_code": "Z51.89",
+        "secondary_codes": [
+          "Z98.85"
+        ],
+        "sequencing": "Follow-up encounter first, then removal status",
+        "rationale": "Z98.85 indicates organ was previously removed (Evidence: pg no: 96, L87)"
+      },
+      "incorrect_coding": {
+        "code": "T86.12",
+        "codes": [
+          "Current complication codes"
+        ],
+        "rationale": "This is follow-up after removal, not current complication",
+        "common_mistake": "Using complication codes for previous removal"
+      }
+    },
+    {
+      "scenario_id": "TRANSPLANT_REM_02",
+      "scenario": "Current encounter for heart transplant removal due to rejection",
+      "documentation_example": "Patient admitted for removal of heart transplant due to chronic rejection.",
+      "step_by_step": [
+        "Step 1: Identify this is current removal encounter",
+        "Step 2: Do not use Z98.85 for current removal",
+        "Step 3: Code the complication necessitating removal",
+        "Step 4: Reference Section I.C.19 for transplant complications"
+      ],
+      "correct_coding": {
+        "primary_code": "T86.21",
+        "secondary_codes": [],
+        "sequencing": "Complication code for current removal encounter",
+        "rationale": "Code complication necessitating removal, not Z98.85 (Evidence: pg no: 96, L88)"
+      },
+      "incorrect_coding": {
+        "code": "Z98.85",
+        "codes": [
+          "Z98.85 for current removal"
+        ],
+        "rationale": "Should not use Z98.85 for current removal encounter",
+        "common_mistake": "Using Z98.85 during actual removal encounter"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not use for current removal encounter (Evidence: pg no: 96, L87)",
+      "Code complications for removal encounter instead (Evidence: pg no: 96, L88)"
+    ],
+    "best_practices": [
+      "Distinguish between current and previous removal",
+      "Reference Section I.C.19 for transplant complications",
+      "Use appropriate timing for code assignment"
+    ],
+    "common_mistakes": [
+      "Using Z98.85 during removal encounter",
+      "Not coding complications for removal encounter"
+    ],
+    "tips": [
+      "Focus on timing - previous vs. current removal",
+      "Remember to code complications during removal"
+    ],
+    "implementation_notes": [
+      "Important for transplant outcome tracking"
+    ],
+    "clinical_context": [
+      "Transplant surgery",
+      "Transplant complications",
+      "Post-transplant care"
+    ]
+  },
+  "search_keywords": [
+    "transplant removal",
+    "Z98.85",
+    "organ removal status",
+    "transplant complications",
+    "previous removal",
+    "post-transplant"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "status_codes",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "transplant",
+      "removal",
+      "complications",
+      "timing"
+    ]
+  },
+  "page_range_processed": "pages_93_to_96"
+}

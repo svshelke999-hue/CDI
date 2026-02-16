@@ -1,0 +1,199 @@
+{
+  "guideline_id": "I.C.6.b.3.b",
+  "semantic_title": "Postoperative Pain Associated with Specific Postoperative Complication",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 6. Chapter 6: Diseases of the Nervous System > b. Pain - Category G89 > 3) Postoperative Pain > (b) Postoperative pain associated with specific postoperative complication",
+  "page_number": 47,
+  "content": {
+    "full_text": "Postoperative pain associated with a specific postoperative complication (such as painful wire sutures) is assigned to the appropriate code(s) found in Chapter 19, Injury, poisoning, and certain other consequences of external causes. If appropriate, use additional code(s) from category G89 to identify acute or chronic pain (G89.18 or G89.28). (Evidence: pg no: 47, L54-L56)",
+    "summary": "Guidelines for coding postoperative pain when it is associated with specific postoperative complications, using Chapter 19 codes with optional G89 codes for pain characteristics. (Evidence: pg no: 47, L54-L56)",
+    "key_concepts": [
+      "Complication-associated postoperative pain (Evidence: pg no: 47, L54)",
+      "Chapter 19 code assignment (Evidence: pg no: 47, L55)",
+      "Additional G89 codes for pain characteristics (Evidence: pg no: 47, L55-L56)",
+      "Specific complication examples (Evidence: pg no: 47, L54)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "complication_postop_pain",
+        "rule_text": "Postoperative pain associated with a specific postoperative complication (such as painful wire sutures) is assigned to the appropriate code(s) found in Chapter 19, Injury, poisoning, and certain other consequences of external causes (Evidence: pg no: 47, L54-L55)",
+        "explanation": "When postoperative pain is linked to a specific complication, use Chapter 19 codes rather than G89 codes (Evidence: pg no: 47, L54-L55)",
+        "importance": "high",
+        "applies_to": "Chapter 19",
+        "common_applications": [
+          "Painful wire sutures",
+          "Device-related complications",
+          "Specific postoperative complications"
+        ]
+      },
+      {
+        "rule_id": "additional_g89_for_complications",
+        "rule_text": "If appropriate, use additional code(s) from category G89 to identify acute or chronic pain (G89.18 or G89.28) (Evidence: pg no: 47, L55-L56)",
+        "explanation": "G89 codes may be used as additional codes to specify acute or chronic nature of complication-related pain (Evidence: pg no: 47, L55-L56)",
+        "importance": "medium",
+        "applies_to": "G89.18, G89.28",
+        "common_applications": [
+          "Acute complication pain specification",
+          "Chronic complication pain specification"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify postoperative pain",
+      "Step 2: Determine if pain is associated with specific postoperative complication",
+      "Step 3: If associated with complication, assign appropriate Chapter 19 code",
+      "Step 4: Consider adding G89.18 or G89.28 if appropriate for pain characteristics"
+    ],
+    "related_terminology": [
+      "Postoperative complication",
+      "Painful wire sutures",
+      "Chapter 19 codes",
+      "Acute pain",
+      "Chronic pain"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Chapter 19",
+        "description": "Injury, poisoning, and certain other consequences of external causes - for complication-related postoperative pain (Evidence: pg no: 47, L55)",
+        "requirement": "Specific postoperative complication must be present",
+        "usage_rules": [
+          "Use for postoperative pain with specific complications (Evidence: pg no: 47, L54-L55)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "G89.18",
+        "description": "Other acute postprocedural pain (Evidence: pg no: 47, L56)",
+        "context": "Additional code for acute pain characteristics in complication cases",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "G89": "Pain, not elsewhere classified",
+          ".18": "Other acute postprocedural pain"
+        }
+      },
+      {
+        "code": "G89.28",
+        "description": "Other chronic postprocedural pain (Evidence: pg no: 47, L56)",
+        "context": "Additional code for chronic pain characteristics in complication cases",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "G89": "Pain, not elsewhere classified",
+          ".28": "Other chronic postprocedural pain"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Chapter 19 - Injury, poisoning, and certain other consequences of external causes",
+      "G89 - Pain, not elsewhere classified"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "Chapter_19",
+        "title": "Injury, poisoning, and certain other consequences of external causes",
+        "relationship": "applies_concept",
+        "explanation": "Chapter 19 codes are used for complication-related postoperative pain"
+      },
+      {
+        "guideline_id": "I.C.6.b.3.a",
+        "title": "Postoperative pain not associated with specific postoperative complication",
+        "relationship": "related_to",
+        "explanation": "Contrasts with non-complication postoperative pain coding"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "painful_wire_sutures",
+      "scenario": "Patient with chronic pain due to painful wire sutures after cardiac surgery",
+      "documentation_example": "Patient experiencing chronic pain due to painful wire sutures following cardiac bypass surgery",
+      "step_by_step": [
+        "Step 1: Identify postoperative pain with specific complication (painful wire sutures)",
+        "Step 2: Assign appropriate Chapter 19 code for the complication",
+        "Step 3: Consider adding G89.28 for chronic pain specification"
+      ],
+      "correct_coding": {
+        "primary_code": "T81.89XA (Other complications of procedures, not elsewhere classified)",
+        "secondary_codes": [
+          "G89.28"
+        ],
+        "sequencing": "Chapter 19 code first, G89 as additional if appropriate",
+        "rationale": "Complication-related pain uses Chapter 19 codes with optional G89 for pain characteristics (Evidence: pg no: 47, L54-L56)"
+      },
+      "incorrect_coding": {
+        "code": "G89.28 only",
+        "rationale": "Should use Chapter 19 code for the specific complication",
+        "common_mistake": "Using only G89 codes for complication-related pain"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "wire_suture_complication",
+      "scenario": "Painful wire sutures",
+      "code_example": "T81.89XA + G89.28",
+      "breakdown": {
+        "T81.89XA": "Other complications of procedures (Evidence: pg no: 47, L55)",
+        "G89.28": "Other chronic postprocedural pain (additional)"
+      },
+      "rationale": "Chapter 19 for complication, G89 for pain characteristics (Evidence: pg no: 47, L54-L56)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Use Chapter 19 codes, not G89 codes, as primary codes for complication-related pain (Evidence: pg no: 47, L54-L55)"
+    ],
+    "best_practices": [
+      "Identify specific postoperative complications before code assignment",
+      "Consider G89 codes as additional codes for pain characteristics"
+    ],
+    "common_mistakes": [
+      "Using only G89 codes for complication-related postoperative pain",
+      "Not identifying specific postoperative complications"
+    ],
+    "tips": [
+      "Chapter 19 codes are primary for complication-related pain",
+      "G89 codes are additional for pain characteristics in these cases"
+    ],
+    "implementation_notes": [
+      "Contrasts with non-complication postoperative pain coding approach",
+      "G89 codes become supplementary rather than primary"
+    ],
+    "clinical_context": [
+      "Specific complications like painful wire sutures require different coding approach",
+      "Pain characteristics may still be relevant as additional information"
+    ]
+  },
+  "search_keywords": [
+    "postoperative pain",
+    "complication",
+    "Chapter 19",
+    "painful wire sutures",
+    "G89.18",
+    "G89.28",
+    "additional codes"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "nervous_system_pain",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "postoperative",
+      "pain",
+      "complication",
+      "Chapter_19",
+      "additional_codes"
+    ]
+  },
+  "page_range_processed": "pages_45_to_48"
+}

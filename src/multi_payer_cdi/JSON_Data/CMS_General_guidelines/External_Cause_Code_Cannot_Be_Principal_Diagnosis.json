@@ -1,0 +1,138 @@
+{
+  "guideline_id": "I.C.20.a.6",
+  "semantic_title": "External Cause Code Cannot Be Principal Diagnosis",
+  "section_path": "Chapter 20: External Causes of Morbidity > a. General External Cause Coding Guidelines > 6) External cause code can never be a principal diagnosis",
+  "page_number": 88,
+  "content": {
+    "full_text": "An external cause code can never be a principal (first-listed) diagnosis. (Evidence: pg no: 88, L41-L42)",
+    "summary": "External cause codes are always secondary and cannot be used as principal or first-listed diagnoses (Evidence: pg no: 88, L41-L42)",
+    "key_concepts": [
+      "External cause codes never principal diagnosis (Evidence: pg no: 88, L41-L42)",
+      "External cause codes never first-listed diagnosis (Evidence: pg no: 88, L41-L42)",
+      "Always secondary codes (Evidence: pg no: 88, L41-L42)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "EXT_PRINCIPAL_001",
+        "rule_text": "External cause codes can never be principal or first-listed diagnoses (Evidence: pg no: 88, L41-L42)",
+        "explanation": "This is a fundamental rule that external cause codes are always supplementary information and cannot serve as the primary reason for the encounter (Evidence: pg no: 88, L41-L42)",
+        "importance": "critical",
+        "applies_to": "All external cause codes",
+        "common_applications": [
+          "Inpatient principal diagnosis assignment",
+          "Outpatient first-listed diagnosis assignment",
+          "Code sequencing"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify the primary health condition or injury",
+      "Step 2: Assign that condition as principal/first-listed diagnosis",
+      "Step 3: Assign external cause codes as secondary codes",
+      "Step 4: Verify external cause codes are not in primary position"
+    ],
+    "related_terminology": [
+      "Principal diagnosis",
+      "First-listed diagnosis",
+      "Secondary codes",
+      "Code sequencing"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "All external cause codes (V00-Y99)",
+        "description": "No external cause codes can be principal diagnosis (Evidence: pg no: 88, L41-L42)",
+        "requirement": "Must be secondary codes only",
+        "usage_rules": [
+          "Never use as principal diagnosis (Evidence: pg no: 88, L41-L42)",
+          "Never use as first-listed diagnosis (Evidence: pg no: 88, L41-L42)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "External cause codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "EXT_PRINCIPAL_001",
+      "scenario": "Patient presents to ED after motor vehicle accident with broken arm",
+      "documentation_example": "Patient involved in MVA, sustained closed fracture of radius",
+      "step_by_step": [
+        "Step 1: Identify the fracture as the primary condition",
+        "Step 2: Assign fracture code as principal diagnosis",
+        "Step 3: Assign motor vehicle accident external cause as secondary code",
+        "Step 4: Verify external cause is not in primary position"
+      ],
+      "correct_coding": {
+        "primary_code": "Fracture of radius code",
+        "secondary_codes": [
+          "Motor vehicle accident external cause code"
+        ],
+        "sequencing": "Fracture first, external cause second",
+        "rationale": "The injury is the reason for the encounter, external cause provides additional information (Evidence: pg no: 88, L41-L42)"
+      },
+      "incorrect_coding": {
+        "code": "External cause code as principal diagnosis",
+        "codes": [
+          "MVA code as primary"
+        ],
+        "rationale": "External cause codes cannot be principal diagnosis",
+        "common_mistake": "Sequencing external cause code first"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Never sequence external cause codes first (Evidence: pg no: 88, L41-L42)"
+    ],
+    "best_practices": [
+      "Always verify external cause codes are in secondary positions (Evidence: pg no: 88, L41-L42)"
+    ],
+    "common_mistakes": [
+      "Accidentally sequencing external cause code as principal diagnosis (Evidence: pg no: 88, L41-L42)"
+    ],
+    "tips": [
+      "External cause codes provide context, not primary reason for encounter (Evidence: pg no: 88, L41-L42)"
+    ],
+    "implementation_notes": [
+      "Fundamental sequencing rule for all external cause codes"
+    ],
+    "clinical_context": [
+      "External causes explain how conditions occurred, not what conditions exist"
+    ]
+  },
+  "search_keywords": [
+    "external cause principal diagnosis",
+    "external cause first-listed",
+    "external cause sequencing",
+    "external cause secondary",
+    "never principal diagnosis"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "external_causes",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "external_causes",
+      "principal_diagnosis",
+      "sequencing",
+      "chapter_20"
+    ]
+  },
+  "page_range_processed": "pages_87_to_90"
+}

@@ -1,0 +1,190 @@
+{
+  "guideline_id": "I.A.16",
+  "semantic_title": "Documentation of Complications of Care - Provider Documentation and Cause-Effect Relationship",
+  "section_path": "Section I > A. Conventions > 16. Documentation of Complications of Care",
+  "page_number": 17,
+  "content": {
+    "full_text": "Code assignment is based on the provider's documentation of the relationship between the condition and the care or procedure, unless otherwise instructed by the classification. The guideline extends to any complications of care, regardless of the chapter the code is located in. It is important to note that not all conditions that occur during or following medical care or surgery are classified as complications. There must be a cause-and-effect relationship between the care provided and the condition, and the documentation must support that the condition is clinically significant. It is not necessary for the provider to explicitly document the term \"complication.\" For example, if the condition alters the course of the surgery as documented in the operative report, then it would be appropriate to report a complication code. Query the provider for clarification if the documentation is not clear as to the relationship between the condition and the care or procedure. (Evidence: pg no: 17, L49-L59)",
+    "summary": "Establishes requirements for coding complications of care based on provider documentation of cause-and-effect relationships and clinical significance (Evidence: pg no: 17, L49-L59)",
+    "key_concepts": [
+      "Provider documentation requirement for complications (Evidence: pg no: 17, L49-L50)",
+      "Cause-and-effect relationship necessity (Evidence: pg no: 17, L52-L53)",
+      "Clinical significance requirement (Evidence: pg no: 17, L53)",
+      "Explicit complication term not required (Evidence: pg no: 17, L53-L54)",
+      "Query requirement for unclear documentation (Evidence: pg no: 17, L55-L59)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.A.16.1",
+        "rule_text": "Code assignment is based on the provider's documentation of the relationship between the condition and the care or procedure (Evidence: pg no: 17, L49-L50)",
+        "explanation": "The provider must document a clear relationship between the medical care/procedure and the resulting condition for it to be coded as a complication (Evidence: pg no: 17, L49-L50)",
+        "importance": "critical",
+        "applies_to": "complication_codes",
+        "common_applications": [
+          "Post-operative complications",
+          "Medication adverse effects",
+          "Procedure-related complications"
+        ]
+      },
+      {
+        "rule_id": "I.A.16.2",
+        "rule_text": "Not all conditions that occur during or following medical care or surgery are classified as complications (Evidence: pg no: 17, L51-L52)",
+        "explanation": "Temporal association alone is insufficient; there must be a documented cause-and-effect relationship between the care and the condition (Evidence: pg no: 17, L51-L53)",
+        "importance": "critical",
+        "applies_to": "complication_codes",
+        "common_applications": [
+          "Distinguishing complications from coincidental conditions",
+          "Post-operative condition evaluation",
+          "Care-related vs. unrelated conditions"
+        ]
+      },
+      {
+        "rule_id": "I.A.16.3",
+        "rule_text": "The condition must be clinically significant (Evidence: pg no: 17, L53)",
+        "explanation": "The complication must have clinical significance, meaning it affects patient care, treatment, or outcomes (Evidence: pg no: 17, L53)",
+        "importance": "high",
+        "applies_to": "complication_codes",
+        "common_applications": [
+          "Conditions requiring additional treatment",
+          "Conditions altering surgical course",
+          "Conditions affecting patient outcomes"
+        ]
+      },
+      {
+        "rule_id": "I.A.16.4",
+        "rule_text": "It is not necessary for the provider to explicitly document the term \"complication\" (Evidence: pg no: 17, L53-L54)",
+        "explanation": "The provider does not need to use the specific word \"complication\" if the documentation clearly establishes the cause-and-effect relationship and clinical significance (Evidence: pg no: 17, L53-L54)",
+        "importance": "medium",
+        "applies_to": "complication_codes",
+        "common_applications": [
+          "Operative report documentation",
+          "Progress note documentation",
+          "Discharge summary documentation"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Review provider documentation for relationship between care and condition",
+      "Step 2: Verify cause-and-effect relationship is documented",
+      "Step 3: Confirm condition is clinically significant",
+      "Step 4: Check if condition altered course of care",
+      "Step 5: Query provider if relationship is unclear",
+      "Step 6: Assign appropriate complication code if criteria are met"
+    ],
+    "related_terminology": [
+      "Complications of care",
+      "Cause-and-effect relationship",
+      "Clinical significance",
+      "Provider documentation",
+      "Medical care",
+      "Surgical procedures",
+      "Operative report"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Complication codes across all chapters"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "I.A.16.S1",
+      "scenario": "Post-operative bleeding requiring return to OR",
+      "documentation_example": "Operative report: 'Patient developed significant bleeding post-operatively requiring return to OR for control of hemorrhage'",
+      "step_by_step": [
+        "Step 1: Identify provider documentation of bleeding post-operatively",
+        "Step 2: Confirm cause-and-effect relationship (bleeding related to surgery)",
+        "Step 3: Verify clinical significance (required return to OR)",
+        "Step 4: Assign appropriate complication code"
+      ],
+      "correct_coding": {
+        "primary_code": "T81.0XXA (Hemorrhage and hematoma complicating a procedure, initial encounter)",
+        "secondary_codes": [],
+        "sequencing": "Complication code as appropriate based on encounter focus",
+        "rationale": "Clear cause-and-effect relationship documented, clinically significant requiring additional surgery (Evidence: pg no: 17, L52-L55)"
+      },
+      "incorrect_coding": {
+        "code": "R58 (Hemorrhage, not elsewhere classified)",
+        "rationale": "Should use complication code when clear relationship to procedure is documented",
+        "common_mistake": "Using symptom codes instead of complication codes when relationship is documented"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "I.A.16.E1",
+      "scenario": "Condition altering surgical course",
+      "code_example": "Operative report documents condition that changed surgical approach",
+      "breakdown": {
+        "Documentation": "Condition documented in operative report (Evidence: pg no: 17, L54-L55)",
+        "Clinical significance": "Altered course of surgery (Evidence: pg no: 17, L54-L55)"
+      },
+      "rationale": "Conditions that alter surgical course demonstrate clinical significance even without explicit 'complication' terminology (Evidence: pg no: 17, L54-L55)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Not all conditions occurring during/after care are complications (Evidence: pg no: 17, L51-L52)",
+      "Must have documented cause-and-effect relationship (Evidence: pg no: 17, L52-L53)",
+      "Condition must be clinically significant (Evidence: pg no: 17, L53)"
+    ],
+    "best_practices": [
+      "Query provider when documentation is unclear about relationship (Evidence: pg no: 17, L55-L59)",
+      "Look for documentation of altered care course as evidence of significance (Evidence: pg no: 17, L54-L55)",
+      "Review operative reports for complication documentation (Evidence: pg no: 17, L54-L55)"
+    ],
+    "common_mistakes": [
+      "Coding temporal associations as complications without cause-and-effect",
+      "Missing complications when 'complication' term is not explicitly used",
+      "Not querying unclear documentation"
+    ],
+    "tips": [
+      "Clinical significance can be demonstrated by altered care course",
+      "Provider query is appropriate when relationship is unclear",
+      "Look beyond explicit 'complication' terminology"
+    ],
+    "implementation_notes": [
+      "Applies to complications in any ICD-10-CM chapter",
+      "Documentation standards may vary by facility"
+    ],
+    "clinical_context": [
+      "Complications affect quality measures and outcomes",
+      "Accurate complication coding supports patient safety initiatives"
+    ]
+  },
+  "search_keywords": [
+    "complications of care",
+    "cause and effect",
+    "clinical significance",
+    "provider documentation",
+    "post-operative complications",
+    "procedure complications",
+    "complication coding",
+    "altered surgical course",
+    "provider query"
+  ],
+  "metadata": {
+    "category": "convention",
+    "subcategory": "complication_coding",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "complications",
+      "provider_documentation",
+      "cause_effect",
+      "clinical_significance"
+    ]
+  },
+  "page_range_processed": "pages_15_to_18"
+}

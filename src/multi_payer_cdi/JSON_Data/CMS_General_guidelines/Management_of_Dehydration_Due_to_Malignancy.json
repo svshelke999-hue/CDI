@@ -1,0 +1,146 @@
+{
+  "guideline_id": "I.C.2.c.3",
+  "semantic_title": "Management of Dehydration Due to Malignancy",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 2. Chapter 2: Neoplasms > c. Coding and sequencing of complications > 3) Management of dehydration due to the malignancy",
+  "page_number": 34,
+  "content": {
+    "full_text": "When the admission/encounter is for management of dehydration due to the malignancy and only the dehydration is being treated (intravenous rehydration), the dehydration is sequenced first, followed by the code(s) for the malignancy. (Evidence: pg no: 34, L40-L41)",
+    "summary": "Sequencing guidelines for dehydration caused by malignancy when only dehydration is treated (Evidence: pg no: 34, L40-L41)",
+    "key_concepts": [
+      "Dehydration due to malignancy (Evidence: pg no: 34, L40)",
+      "Only dehydration being treated (Evidence: pg no: 34, L40-L41)",
+      "Dehydration sequenced first (Evidence: pg no: 34, L41)",
+      "Malignancy code follows (Evidence: pg no: 34, L41)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "malignancy_dehydration_sequencing",
+        "rule_text": "Dehydration is sequenced first, followed by malignancy code(s) (Evidence: pg no: 34, L41)",
+        "explanation": "When treating dehydration caused by malignancy with only supportive care like IV rehydration, the dehydration takes precedence in sequencing (Evidence: pg no: 34, L40-L41)",
+        "importance": "critical",
+        "applies_to": "dehydration caused by malignancy",
+        "common_applications": [
+          "Patient with gastric cancer develops dehydration, admitted for IV fluids",
+          "Patient with pancreatic cancer has dehydration requiring rehydration"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Confirm dehydration is due to malignancy",
+      "Step 2: Verify only dehydration is being treated (e.g., IV rehydration)",
+      "Step 3: Sequence dehydration code as principal/first-listed",
+      "Step 4: Add malignancy code(s) as secondary diagnosis"
+    ],
+    "related_terminology": [
+      "Dehydration",
+      "Intravenous rehydration",
+      "Malignancy",
+      "Principal diagnosis"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "E86",
+        "description": "Volume depletion codes (Evidence: pg no: 34, L41)",
+        "requirement": "Sequence first when treating malignancy-related dehydration",
+        "usage_rules": [
+          "Use as principal diagnosis when treating dehydration due to malignancy (Evidence: pg no: 34, L41)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Dehydration codes",
+      "Malignant neoplasms"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.2.c",
+        "title": "Coding and sequencing of complications",
+        "relationship": "implements",
+        "explanation": "Specific implementation of complication sequencing framework"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "malignancy_dehydration_treatment",
+      "scenario": "Patient with pancreatic cancer develops severe dehydration, admitted for IV rehydration only",
+      "documentation_example": "Patient with known pancreatic adenocarcinoma presents with severe dehydration secondary to poor oral intake, admitted for intravenous rehydration",
+      "step_by_step": [
+        "Step 1: Identify dehydration is due to malignancy",
+        "Step 2: Confirm treatment is only for dehydration (IV fluids)",
+        "Step 3: Sequence dehydration as principal diagnosis",
+        "Step 4: Add pancreatic cancer as secondary diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "E86.0 (Dehydration)",
+        "secondary_codes": [
+          "C25.9 (Malignant neoplasm of pancreas, unspecified)"
+        ],
+        "sequencing": "Dehydration first, malignancy second",
+        "rationale": "When only treating dehydration caused by malignancy, dehydration is sequenced first (Evidence: pg no: 34, L41)"
+      },
+      "incorrect_coding": {
+        "code": "C25.9 as principal",
+        "codes": [
+          "C25.9 as principal diagnosis"
+        ],
+        "rationale": "Malignancy should not be principal when only treating the dehydration it caused",
+        "common_mistake": "Always sequencing malignancy first regardless of what is being treated"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "This applies only when dehydration is the sole focus of treatment (Evidence: pg no: 34, L40-L41)"
+    ],
+    "best_practices": [
+      "Sequence dehydration first when it's the only condition being treated (Evidence: pg no: 34, L41)",
+      "Include malignancy code to show underlying cause (Evidence: pg no: 34, L41)"
+    ],
+    "common_mistakes": [
+      "Always sequencing malignancy first even when only treating complications (Evidence: pg no: 34, L41)"
+    ],
+    "tips": [
+      "Focus on what is being treated, not what caused the problem (Evidence: pg no: 34, L40-L41)"
+    ],
+    "implementation_notes": [
+      "IV rehydration is specifically mentioned as an example of dehydration-only treatment"
+    ],
+    "clinical_context": [
+      "Dehydration is common in cancer patients due to various factors"
+    ]
+  },
+  "search_keywords": [
+    "dehydration malignancy",
+    "cancer dehydration",
+    "IV rehydration",
+    "malignancy dehydration sequencing",
+    "E86 dehydration"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "neoplasms",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "neoplasms",
+      "dehydration",
+      "sequencing",
+      "complications"
+    ]
+  },
+  "page_range_processed": "pages_33_to_36"
+}

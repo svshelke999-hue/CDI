@@ -1,0 +1,154 @@
+{
+  "guideline_id": "I.C.20.a.1",
+  "semantic_title": "External Cause Code Usage with Any ICD-10-CM Code Range A00.0-T88.9, Z00-Z99",
+  "section_path": "Chapter 20: External Causes of Morbidity > a. General External Cause Coding Guidelines > 1) Used with any code in the range of A00.0-T88.9, Z00-Z99",
+  "page_number": 88,
+  "content": {
+    "full_text": "An external cause code may be used with any code in the range of A00.0-T88.9, Z00-Z99, classification that represents a health condition due to an external cause. Though they are most applicable to injuries, they are also valid for use with such things as infections or diseases due to an external source, and other health conditions, such as a heart attack that occurs during strenuous physical activity. (Evidence: pg no: 88, L21-L24)",
+    "summary": "External cause codes can be used with any ICD-10-CM code from A00.0-T88.9 or Z00-Z99 when the health condition is due to an external cause (Evidence: pg no: 88, L21-L24)",
+    "key_concepts": [
+      "External cause codes applicable to broad code ranges (Evidence: pg no: 88, L21-L23)",
+      "Not limited to injuries only (Evidence: pg no: 88, L24)",
+      "Includes infections and diseases from external sources (Evidence: pg no: 88, L24)",
+      "Covers conditions like heart attack during physical activity (Evidence: pg no: 88, L24)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "EXT_CAUSE_RANGE_001",
+        "rule_text": "External cause codes may be used with any code in ranges A00.0-T88.9, Z00-Z99 (Evidence: pg no: 88, L21-L23)",
+        "explanation": "This establishes the broad applicability of external cause codes across most ICD-10-CM classification ranges when health conditions result from external causes (Evidence: pg no: 88, L21-L24)",
+        "importance": "high",
+        "applies_to": "A00.0-T88.9, Z00-Z99",
+        "common_applications": [
+          "Injury coding with external cause identification",
+          "Infections from external sources",
+          "Heart conditions during physical activity"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify the primary health condition code from A00.0-T88.9 or Z00-Z99",
+      "Step 2: Determine if the condition resulted from an external cause",
+      "Step 3: Assign appropriate external cause code if applicable"
+    ],
+    "related_terminology": [
+      "External cause",
+      "Health condition",
+      "External source",
+      "Strenuous physical activity"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "A00.0-T88.9",
+        "description": "Primary code range for health conditions that may have external causes (Evidence: pg no: 88, L22-L23)",
+        "requirement": "Must represent health condition due to external cause",
+        "usage_rules": [
+          "Use with appropriate external cause code (Evidence: pg no: 88, L21-L24)"
+        ]
+      },
+      {
+        "range": "Z00-Z99",
+        "description": "Secondary code range for health conditions that may have external causes (Evidence: pg no: 88, L22-L23)",
+        "requirement": "Must represent health condition due to external cause",
+        "usage_rules": [
+          "Use with appropriate external cause code (Evidence: pg no: 88, L21-L24)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "External cause codes",
+      "Health condition codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "EXT_CAUSE_001",
+      "scenario": "Patient develops heart attack during strenuous physical activity",
+      "documentation_example": "Patient suffered myocardial infarction while running marathon",
+      "step_by_step": [
+        "Step 1: Code the myocardial infarction with appropriate ICD-10-CM code",
+        "Step 2: Assign external cause code for strenuous physical activity"
+      ],
+      "correct_coding": {
+        "primary_code": "I21.9 (or appropriate MI code)",
+        "secondary_codes": [
+          "Y93.02 (or appropriate activity code)"
+        ],
+        "sequencing": "Primary condition first, external cause second",
+        "rationale": "Heart attack is the primary condition, external cause provides context for the event (Evidence: pg no: 88, L24)"
+      },
+      "incorrect_coding": {
+        "code": "External cause code as primary",
+        "codes": [],
+        "rationale": "External cause codes cannot be principal diagnosis",
+        "common_mistake": "Sequencing external cause code first"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "EXT_001",
+      "scenario": "Heart attack during strenuous physical activity",
+      "code_example": "Primary condition code + external cause code",
+      "breakdown": {
+        "primary_condition": "Heart attack code from appropriate range (Evidence: pg no: 88, L24)",
+        "external_cause": "Activity code for strenuous physical activity (Evidence: pg no: 88, L24)"
+      },
+      "rationale": "Demonstrates external cause coding for non-injury conditions (Evidence: pg no: 88, L24)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Not limited to injury codes only (Evidence: pg no: 88, L24)"
+    ],
+    "best_practices": [
+      "Consider external causes for all applicable health conditions (Evidence: pg no: 88, L21-L24)"
+    ],
+    "common_mistakes": [
+      "Assuming external cause codes only apply to injuries (Evidence: pg no: 88, L24)"
+    ],
+    "tips": [
+      "Look for external sources in infections and diseases (Evidence: pg no: 88, L24)"
+    ],
+    "implementation_notes": [
+      "Broad applicability across ICD-10-CM ranges"
+    ],
+    "clinical_context": [
+      "Applicable to various medical conditions beyond trauma"
+    ]
+  },
+  "search_keywords": [
+    "external cause code range",
+    "A00.0-T88.9",
+    "Z00-Z99",
+    "external cause applicability",
+    "heart attack physical activity",
+    "infections external source"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "external_causes",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "external_causes",
+      "code_ranges",
+      "health_conditions",
+      "chapter_20"
+    ]
+  },
+  "page_range_processed": "pages_87_to_90"
+}

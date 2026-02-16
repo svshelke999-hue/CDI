@@ -1,0 +1,226 @@
+{
+  "guideline_id": "I.C.6.b.1.b.ii",
+  "semantic_title": "Sequencing of Category G89 Codes with Site-Specific Pain Codes",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 6. Chapter 6: Diseases of the Nervous System > b. Pain - Category G89 > 1) General coding information > (b) Use of Category G89 Codes in Conjunction with Site Specific Pain Codes > (ii) Sequencing of Category G89 Codes with Site-Specific Pain Codes",
+  "page_number": 47,
+  "content": {
+    "full_text": "The sequencing of category G89 codes with site-specific pain codes (including chapter 18 codes), is dependent on the circumstances of the encounter/admission as follows: • If the encounter is for pain control or pain management, assign the code from category G89 followed by the code identifying the specific site of pain (e.g., encounter for pain management for acute neck pain from trauma is assigned code G89.11, Acute pain due to trauma, followed by code M54.2, Cervicalgia, to identify the site of pain). • If the encounter is for any other reason except pain control or pain management, and a related definitive diagnosis has not been established (confirmed) by the provider, assign the code for the specific site of pain first, followed by the appropriate code from category G89. (Evidence: pg no: 47, L39-L45)",
+    "summary": "Sequencing rules for G89 and site-specific pain codes based on the reason for the encounter - pain management vs other reasons. (Evidence: pg no: 47, L39-L45)",
+    "key_concepts": [
+      "Encounter-dependent sequencing (Evidence: pg no: 47, L39-L40)",
+      "Pain control encounter sequencing (Evidence: pg no: 47, L43-L44)",
+      "Non-pain management encounter sequencing (Evidence: pg no: 47, L45)",
+      "Definitive diagnosis consideration (Evidence: pg no: 47, L45)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "pain_management_sequencing",
+        "rule_text": "If the encounter is for pain control or pain management, assign the code from category G89 followed by the code identifying the specific site of pain (Evidence: pg no: 47, L43-L44)",
+        "explanation": "For pain management encounters, G89 codes are sequenced first, followed by site-specific codes (Evidence: pg no: 47, L43-L44)",
+        "importance": "high",
+        "applies_to": "G89",
+        "common_applications": [
+          "Pain management procedures",
+          "Pain control admissions"
+        ]
+      },
+      {
+        "rule_id": "other_reason_sequencing",
+        "rule_text": "If the encounter is for any other reason except pain control or pain management, and a related definitive diagnosis has not been established (confirmed) by the provider, assign the code for the specific site of pain first, followed by the appropriate code from category G89 (Evidence: pg no: 47, L45)",
+        "explanation": "For non-pain management encounters without definitive diagnosis, site-specific codes are sequenced first, followed by G89 codes (Evidence: pg no: 47, L45)",
+        "importance": "high",
+        "applies_to": "G89",
+        "common_applications": [
+          "Diagnostic encounters",
+          "Evaluation visits"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine reason for encounter",
+      "Step 2: If pain control/management, sequence G89 first, then site code",
+      "Step 3: If other reason and no definitive diagnosis, sequence site code first, then G89",
+      "Step 4: Apply appropriate sequencing based on encounter circumstances"
+    ],
+    "related_terminology": [
+      "Sequencing",
+      "Pain control",
+      "Pain management",
+      "Site-specific codes",
+      "Definitive diagnosis",
+      "Encounter circumstances"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "G89",
+        "description": "Pain codes with encounter-dependent sequencing rules (Evidence: pg no: 47, L39)",
+        "requirement": "Sequencing depends on encounter reason",
+        "usage_rules": [
+          "First for pain management encounters (Evidence: pg no: 47, L43-L44)",
+          "Second for other encounters without definitive diagnosis (Evidence: pg no: 47, L45)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "G89.11",
+        "description": "Acute pain due to trauma (Evidence: pg no: 47, L44)",
+        "context": "Example for pain management encounter sequencing",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "G89": "Pain, not elsewhere classified",
+          ".11": "Acute pain due to trauma"
+        }
+      },
+      {
+        "code": "M54.2",
+        "description": "Cervicalgia (Evidence: pg no: 47, L44)",
+        "context": "Example site-specific code for neck pain",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "M54": "Dorsalgia",
+          ".2": "Cervicalgia"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "G89 - Pain, not elsewhere classified",
+      "Chapter 18 - Site-specific pain codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.6.b.1.a",
+        "title": "Category G89 Codes as Principal or First-Listed Diagnosis",
+        "relationship": "builds_upon",
+        "explanation": "Builds on principal diagnosis rules with specific sequencing guidance"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "pain_management_trauma",
+      "scenario": "Encounter for pain management for acute neck pain from trauma",
+      "documentation_example": "Patient presents for pain management of acute neck pain following motor vehicle accident",
+      "step_by_step": [
+        "Step 1: Identify encounter is for pain management",
+        "Step 2: Assign G89.11 (Acute pain due to trauma) first",
+        "Step 3: Assign M54.2 (Cervicalgia) second to identify site"
+      ],
+      "correct_coding": {
+        "primary_code": "G89.11",
+        "secondary_codes": [
+          "M54.2"
+        ],
+        "sequencing": "G89 first for pain management encounter",
+        "rationale": "Pain management encounter sequences G89 first, then site code (Evidence: pg no: 47, L43-L44)"
+      },
+      "incorrect_coding": {
+        "codes": [
+          "M54.2",
+          "G89.11"
+        ],
+        "rationale": "Incorrect sequencing for pain management encounter",
+        "common_mistake": "Not recognizing pain management as reason for encounter"
+      }
+    },
+    {
+      "scenario_id": "diagnostic_encounter",
+      "scenario": "Patient presents for evaluation of chronic back pain, no definitive diagnosis established",
+      "documentation_example": "Patient presents for evaluation of chronic lower back pain, cause undetermined",
+      "step_by_step": [
+        "Step 1: Identify encounter is for evaluation, not pain management",
+        "Step 2: Note no definitive diagnosis established",
+        "Step 3: Assign site code (M54.5) first",
+        "Step 4: Assign G89.29 second"
+      ],
+      "correct_coding": {
+        "primary_code": "M54.5",
+        "secondary_codes": [
+          "G89.29"
+        ],
+        "sequencing": "Site code first for non-pain management encounter",
+        "rationale": "Non-pain management encounter without definitive diagnosis sequences site first (Evidence: pg no: 47, L45)"
+      },
+      "incorrect_coding": {
+        "codes": [
+          "G89.29",
+          "M54.5"
+        ],
+        "rationale": "Incorrect sequencing for diagnostic encounter",
+        "common_mistake": "Using pain management sequencing for diagnostic encounters"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "trauma_pain_management",
+      "scenario": "Pain management for trauma",
+      "code_example": "G89.11, M54.2",
+      "breakdown": {
+        "G89.11": "Acute pain due to trauma (first for pain management) (Evidence: pg no: 47, L44)",
+        "M54.2": "Cervicalgia (site identification)"
+      },
+      "rationale": "Pain management encounter sequences G89 first (Evidence: pg no: 47, L43-L44)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Sequencing depends on encounter circumstances, not just code types (Evidence: pg no: 47, L39-L40)"
+    ],
+    "best_practices": [
+      "Always determine reason for encounter before sequencing codes",
+      "Consider whether definitive diagnosis has been established"
+    ],
+    "common_mistakes": [
+      "Using same sequencing regardless of encounter reason",
+      "Not distinguishing between pain management and diagnostic encounters"
+    ],
+    "tips": [
+      "Pain management encounters: G89 first, site second",
+      "Other encounters without definitive diagnosis: site first, G89 second"
+    ],
+    "implementation_notes": [
+      "Sequencing rules are encounter-dependent",
+      "Definitive diagnosis status affects sequencing decisions"
+    ],
+    "clinical_context": [
+      "Encounter purpose determines coding priorities",
+      "Pain management is a specific type of encounter"
+    ]
+  },
+  "search_keywords": [
+    "sequencing",
+    "G89",
+    "site-specific",
+    "pain management",
+    "pain control",
+    "encounter reason",
+    "definitive diagnosis",
+    "M54.2",
+    "G89.11"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "nervous_system_pain",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "sequencing",
+      "pain",
+      "G89",
+      "site_specific",
+      "encounter_dependent"
+    ]
+  },
+  "page_range_processed": "pages_45_to_48"
+}

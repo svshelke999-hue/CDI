@@ -1,0 +1,252 @@
+{
+  "guideline_id": "POA.7",
+  "semantic_title": "Present on Admission (POA) Indicator Assignment for Perinatal Conditions",
+  "section_path": "Present on Admission Reporting Guidelines > Perinatal Conditions",
+  "page_number": 120,
+  "content": {
+    "full_text": "Newborns are not considered to be admitted until after birth. Therefore, any condition present at birth or that developed in utero is considered present at admission and should be assigned 'Y'. This includes conditions that occur during delivery (e.g., injury during delivery, meconium aspiration, exposure to streptococcus B in the vaginal canal). (Evidence: pg no: 120, L18-L19)",
+    "summary": "Guidelines for assigning POA indicators to perinatal conditions, with newborns considered admitted after birth (Evidence: pg no: 120, L18-L19)",
+    "key_concepts": [
+      "Newborn admission timing after birth (Evidence: pg no: 120, L18-L19)",
+      "In utero conditions considered present at admission (Evidence: pg no: 120, L19)",
+      "Birth conditions considered present at admission (Evidence: pg no: 120, L19)",
+      "Delivery complications for newborns (Evidence: pg no: 120, L19)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "POA.7.1",
+        "rule_text": "Newborns are not considered to be admitted until after birth (Evidence: pg no: 120, L18-L19)",
+        "explanation": "The admission time for newborns is defined as after the birth process is complete (Evidence: pg no: 120, L18-L19)",
+        "importance": "critical",
+        "applies_to": "perinatal_codes",
+        "common_applications": [
+          "All newborn admissions",
+          "Birth-related conditions",
+          "Neonatal conditions"
+        ]
+      },
+      {
+        "rule_id": "POA.7.2",
+        "rule_text": "Any condition present at birth or that developed in utero is considered present at admission and should be assigned 'Y' (Evidence: pg no: 120, L19)",
+        "explanation": "Since admission occurs after birth, all conditions existing at or before birth are considered present at admission (Evidence: pg no: 120, L19)",
+        "importance": "critical",
+        "applies_to": "perinatal_codes",
+        "common_applications": [
+          "Congenital conditions",
+          "In utero complications",
+          "Birth trauma",
+          "Delivery complications affecting newborn"
+        ]
+      },
+      {
+        "rule_id": "POA.7.3",
+        "rule_text": "This includes conditions that occur during delivery (Evidence: pg no: 120, L19)",
+        "explanation": "Delivery-related conditions affecting the newborn are considered present at admission since admission occurs after delivery (Evidence: pg no: 120, L19)",
+        "importance": "high",
+        "applies_to": "perinatal_codes",
+        "common_applications": [
+          "Birth injuries",
+          "Delivery complications",
+          "Intrapartum conditions"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify condition as affecting newborn",
+      "Step 2: Determine if condition was present at birth, in utero, or during delivery",
+      "Step 3: Assign POA indicator 'Y' for all such conditions",
+      "Step 4: Only assign 'N' for conditions developing after birth/admission"
+    ],
+    "related_terminology": [
+      "Perinatal conditions",
+      "Newborn admission",
+      "In utero development",
+      "Birth trauma",
+      "Delivery complications",
+      "Meconium aspiration",
+      "Streptococcus B exposure"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Perinatal conditions",
+      "Newborn conditions",
+      "Birth-related conditions"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "POA.8",
+        "title": "Congenital Conditions and Anomalies",
+        "relationship": "related_to",
+        "explanation": "Both deal with conditions present from birth"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "POA.7.S1",
+      "scenario": "Newborn with injury during delivery",
+      "documentation_example": "Newborn sustained clavicular fracture during vaginal delivery",
+      "step_by_step": [
+        "Step 1: Identify birth injury as perinatal condition",
+        "Step 2: Recognize injury occurred during delivery",
+        "Step 3: Since newborn admission is after birth, injury is present at admission",
+        "Step 4: Assign POA indicator 'Y'"
+      ],
+      "correct_coding": {
+        "primary_code": "Birth injury code",
+        "secondary_codes": [],
+        "sequencing": "Standard perinatal sequencing",
+        "rationale": "Delivery conditions are considered present at admission for newborns (Evidence: pg no: 120, L19)"
+      },
+      "incorrect_coding": {
+        "code": "Same code with POA 'N'",
+        "codes": [],
+        "rationale": "Would be incorrect since delivery injuries are present at newborn admission",
+        "common_mistake": "Treating delivery timing as after admission for newborns"
+      }
+    },
+    {
+      "scenario_id": "POA.7.S2",
+      "scenario": "Newborn with meconium aspiration",
+      "documentation_example": "Newborn delivered with thick meconium, developed meconium aspiration syndrome",
+      "step_by_step": [
+        "Step 1: Identify meconium aspiration as delivery-related condition",
+        "Step 2: Recognize condition occurred during birth process",
+        "Step 3: Since newborn admission is after birth, condition is present at admission",
+        "Step 4: Assign POA indicator 'Y'"
+      ],
+      "correct_coding": {
+        "primary_code": "Meconium aspiration code",
+        "secondary_codes": [],
+        "sequencing": "Standard perinatal sequencing",
+        "rationale": "Conditions occurring during delivery are present at newborn admission (Evidence: pg no: 120, L19)"
+      },
+      "incorrect_coding": {
+        "code": "Same code with POA 'N'",
+        "codes": [],
+        "rationale": "Would be incorrect since delivery conditions are present at admission",
+        "common_mistake": "Not recognizing delivery timing relative to newborn admission"
+      }
+    },
+    {
+      "scenario_id": "POA.7.S3",
+      "scenario": "Newborn with exposure to streptococcus B in vaginal canal",
+      "documentation_example": "Newborn delivered vaginally, mother positive for Group B Strep, newborn exposed during delivery",
+      "step_by_step": [
+        "Step 1: Identify GBS exposure as delivery-related condition",
+        "Step 2: Recognize exposure occurred during delivery process",
+        "Step 3: Since newborn admission is after birth, exposure is present at admission",
+        "Step 4: Assign POA indicator 'Y'"
+      ],
+      "correct_coding": {
+        "primary_code": "GBS exposure code",
+        "secondary_codes": [],
+        "sequencing": "Standard perinatal sequencing",
+        "rationale": "Exposure during delivery is considered present at newborn admission (Evidence: pg no: 120, L19)"
+      },
+      "incorrect_coding": {
+        "code": "Same code with POA 'N'",
+        "codes": [],
+        "rationale": "Would be incorrect since delivery exposures are present at admission",
+        "common_mistake": "Misunderstanding timing of newborn admission"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "POA.7.E1",
+      "scenario": "Injury during delivery",
+      "code_example": "Birth injury code with POA 'Y'",
+      "breakdown": {
+        "delivery_timing": "Occurred during birth process (Evidence: pg no: 120, L19)",
+        "admission_timing": "Newborn admission after birth (Evidence: pg no: 120, L18-L19)"
+      },
+      "rationale": "Delivery conditions are present at newborn admission (Evidence: pg no: 120, L19)"
+    },
+    {
+      "example_id": "POA.7.E2",
+      "scenario": "Meconium aspiration",
+      "code_example": "Meconium aspiration code with POA 'Y'",
+      "breakdown": {
+        "delivery_condition": "Occurred during birth process (Evidence: pg no: 120, L19)",
+        "present_at_admission": "Condition exists when newborn is admitted (Evidence: pg no: 120, L19)"
+      },
+      "rationale": "Conditions occurring during delivery are present at admission (Evidence: pg no: 120, L19)"
+    },
+    {
+      "example_id": "POA.7.E3",
+      "scenario": "Exposure to streptococcus B in vaginal canal",
+      "code_example": "GBS exposure code with POA 'Y'",
+      "breakdown": {
+        "vaginal_exposure": "Occurred during delivery process (Evidence: pg no: 120, L19)",
+        "admission_status": "Present when newborn admitted after birth (Evidence: pg no: 120, L18-L19)"
+      },
+      "rationale": "Delivery exposures are considered present at newborn admission (Evidence: pg no: 120, L19)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Newborn admission timing is after birth, not during labor (Evidence: pg no: 120, L18-L19)",
+      "All delivery-related conditions are present at newborn admission (Evidence: pg no: 120, L19)"
+    ],
+    "best_practices": [
+      "Consider all birth and in utero conditions as present at admission (Evidence: pg no: 120, L19)",
+      "Understand unique timing of newborn admission (Evidence: pg no: 120, L18-L19)"
+    ],
+    "common_mistakes": [
+      "Treating delivery complications as not present at newborn admission (Evidence: pg no: 120, L19)",
+      "Misunderstanding when newborn admission occurs (Evidence: pg no: 120, L18-L19)"
+    ],
+    "tips": [
+      "Remember newborn admission is post-birth (Evidence: pg no: 120, L18-L19)",
+      "Include delivery conditions as present at admission (Evidence: pg no: 120, L19)"
+    ],
+    "implementation_notes": [
+      "Applies to all newborn and perinatal conditions",
+      "Unique admission timing concept for newborns"
+    ],
+    "clinical_context": [
+      "Neonatal intensive care",
+      "Birth complications",
+      "Perinatal conditions"
+    ]
+  },
+  "search_keywords": [
+    "perinatal conditions",
+    "newborn admission",
+    "POA indicator",
+    "present on admission",
+    "birth trauma",
+    "delivery complications",
+    "in utero conditions",
+    "meconium aspiration",
+    "streptococcus B exposure",
+    "birth injuries"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "perinatal_conditions",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "POA",
+      "perinatal",
+      "newborn",
+      "birth",
+      "delivery",
+      "in_utero"
+    ]
+  },
+  "page_range_processed": "pages_120_to_121"
+}

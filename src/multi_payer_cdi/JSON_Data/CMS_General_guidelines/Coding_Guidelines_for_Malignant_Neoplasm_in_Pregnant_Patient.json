@@ -1,0 +1,169 @@
+{
+  "guideline_id": "I.C.2.l.3",
+  "semantic_title": "Coding Guidelines for Malignant Neoplasm in Pregnant Patient",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 2. Chapter 2: Neoplasms > l. Sequencing of neoplasm codes > 3) Malignant neoplasm in a pregnant patient",
+  "page_number": 37,
+  "content": {
+    "full_text": "When a pregnant patient has a malignant neoplasm, a code from subcategory O9A.1-, Malignant neoplasm complicating pregnancy, childbirth, and the puerperium, should be sequenced first, followed by the appropriate code from Chapter 2 to indicate the type of neoplasm. (Evidence: pg no: 37, L32-L36)",
+    "summary": "Special sequencing rules for malignant neoplasms occurring during pregnancy, childbirth, or puerperium (Evidence: pg no: 37, L32-L36)",
+    "key_concepts": [
+      "Pregnancy complication code sequenced first (Evidence: pg no: 37, L34-L35)",
+      "Specific neoplasm code from Chapter 2 follows (Evidence: pg no: 37, L35-L36)",
+      "Applies to pregnancy, childbirth, and puerperium (Evidence: pg no: 37, L34-L35)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "pregnancy_neoplasm_sequencing",
+        "rule_text": "A code from subcategory O9A.1- should be sequenced first for malignant neoplasm in pregnant patient (Evidence: pg no: 37, L33-L35)",
+        "explanation": "The pregnancy complication aspect takes precedence over the specific neoplasm type in sequencing (Evidence: pg no: 37, L33-L35)",
+        "importance": "critical",
+        "applies_to": "pregnant patients with malignant neoplasms",
+        "common_applications": [
+          "Breast cancer diagnosed during pregnancy",
+          "Cervical cancer during pregnancy"
+        ]
+      },
+      {
+        "rule_id": "chapter2_neoplasm_additional",
+        "rule_text": "Follow with appropriate code from Chapter 2 to indicate the type of neoplasm (Evidence: pg no: 37, L35-L36)",
+        "explanation": "The specific neoplasm must still be coded but as a secondary diagnosis to provide complete clinical picture (Evidence: pg no: 37, L35-L36)",
+        "importance": "high",
+        "applies_to": "all malignant neoplasms in pregnancy",
+        "common_applications": [
+          "Specific breast cancer code after O9A.1- code",
+          "Specific cervical cancer code after O9A.1- code"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify pregnant patient with malignant neoplasm",
+      "Step 2: Assign code from subcategory O9A.1- as principal diagnosis",
+      "Step 3: Add appropriate Chapter 2 neoplasm code as secondary diagnosis"
+    ],
+    "related_terminology": [
+      "Malignant neoplasm",
+      "Pregnancy complications",
+      "Childbirth",
+      "Puerperium",
+      "Chapter 2 codes"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "O9A.1-",
+        "description": "Malignant neoplasm complicating pregnancy, childbirth, and the puerperium (Evidence: pg no: 37, L34-L35)",
+        "requirement": "Sequenced first for pregnant patients with malignant neoplasms",
+        "usage_rules": [
+          "Always sequenced first in pregnant patients (Evidence: pg no: 37, L34-L35)",
+          "Followed by specific Chapter 2 neoplasm code (Evidence: pg no: 37, L35-L36)"
+        ]
+      },
+      {
+        "range": "C00-C96",
+        "description": "Malignant neoplasms from Chapter 2 (Evidence: pg no: 37, L35-L36)",
+        "requirement": "Used as additional code to specify neoplasm type",
+        "usage_rules": [
+          "Sequenced after O9A.1- code (Evidence: pg no: 37, L35-L36)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "O9A.1- + Chapter 2 neoplasm code",
+        "description": "Standard pattern for malignant neoplasm in pregnancy (Evidence: pg no: 37, L33-L36)",
+        "example": "O9A.11- + C50.911",
+        "explanation": "Pregnancy complication code first, then specific neoplasm"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Pregnancy complication codes",
+      "Chapter 2 malignant neoplasm codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "Chapter_15",
+        "title": "Pregnancy, Childbirth and the Puerperium",
+        "relationship": "implements",
+        "explanation": "Uses pregnancy complication coding principles"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "pregnancy_breast_cancer",
+      "scenario": "Pregnant patient diagnosed with breast cancer during second trimester",
+      "documentation_example": "32-week pregnant patient with newly diagnosed invasive ductal carcinoma of right breast",
+      "step_by_step": [
+        "Step 1: Identify pregnant patient with malignant neoplasm",
+        "Step 2: Assign O9A.12- (malignant neoplasm complicating pregnancy, second trimester)",
+        "Step 3: Add C50.911 (malignant neoplasm of unspecified site of right female breast)"
+      ],
+      "correct_coding": {
+        "primary_code": "O9A.12-",
+        "secondary_codes": [
+          "C50.911"
+        ],
+        "sequencing": "Pregnancy complication first, then specific neoplasm",
+        "rationale": "Pregnancy complication takes precedence in sequencing (Evidence: pg no: 37, L33-L36)"
+      },
+      "incorrect_coding": {
+        "code": "C50.911",
+        "codes": [
+          "C50.911 as principal diagnosis"
+        ],
+        "rationale": "Breast cancer should not be principal when patient is pregnant",
+        "common_mistake": "Sequencing neoplasm first instead of pregnancy complication"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Never sequence Chapter 2 neoplasm code first in pregnant patients (Evidence: pg no: 37, L33-L36)"
+    ],
+    "best_practices": [
+      "Always consider pregnancy status when coding malignant neoplasms (Evidence: pg no: 37, L32-L33)"
+    ],
+    "common_mistakes": [
+      "Forgetting to use O9A.1- codes for pregnant patients with cancer (Evidence: pg no: 37, L33-L35)"
+    ],
+    "tips": [
+      "Pregnancy complications always take sequencing priority (Evidence: pg no: 37, L34-L35)"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Applies throughout pregnancy, during childbirth, and in puerperium period"
+    ]
+  },
+  "search_keywords": [
+    "pregnancy",
+    "malignant neoplasm",
+    "childbirth",
+    "puerperium",
+    "O9A.1",
+    "pregnancy complications"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "pregnancy_neoplasm",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "pregnancy",
+      "neoplasms",
+      "sequencing",
+      "complications"
+    ]
+  },
+  "page_range_processed": "pages_36_to_39"
+}

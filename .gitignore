@@ -67,3 +67,12 @@ htmlcov/
 # Temporary files
 *.tmp
 temp/
+
+# Streamlit secrets (never commit)
+.streamlit/secrets.toml
+STREAMLIT_SECRETS_TEMPLATE.txt
+
+# Evaluation results (can be large)
+Evaluation_result/
+*.xlsx
+~$*.xlsx

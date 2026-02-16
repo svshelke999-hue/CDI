@@ -1,0 +1,177 @@
+{
+  "guideline_id": "I.B.14",
+  "semantic_title": "Documentation by Clinicians Other Than Patient's Provider",
+  "section_path": "Section I > B. General Coding Guidelines > 14. Documentation by Clinicians Other than the Patient's Provider",
+  "page_number": 15,
+  "content": {
+    "full_text": "Code assignment is based on the documentation by the patient's provider (i.e., physician or other qualified healthcare practitioner legally accountable for establishing the patient's diagnosis). There are a few exceptions when code assignment may be based on medical record documentation from clinicians who are not the patient's provider (i.e., physician or other qualified healthcare practitioner legally accountable for establishing the patient's diagnosis). In this context, \"clinicians\" other than the patient's provider refer to healthcare professionals permitted, based on regulatory or accreditation (Evidence: pg no: 15, L90-L93)",
+    "summary": "Establishes that code assignment is primarily based on the patient's provider documentation, with limited exceptions for other clinicians' documentation. (Evidence: pg no: 15, L90-L93)",
+    "key_concepts": [
+      "Code assignment based on patient's provider documentation (Evidence: pg no: 15, L90-L91)",
+      "Provider defined as physician or qualified practitioner legally accountable (Evidence: pg no: 15, L91)",
+      "Few exceptions allow other clinicians' documentation (Evidence: pg no: 15, L91-L92)",
+      "Other clinicians must be permitted by regulatory or accreditation standards (Evidence: pg no: 15, L92-L93)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.B.14.1",
+        "rule_text": "Code assignment primarily based on patient's provider documentation (Evidence: pg no: 15, L90-L91)",
+        "explanation": "The primary source for code assignment should be documentation by the patient's provider, defined as the physician or other qualified healthcare practitioner who is legally accountable for establishing the patient's diagnosis (Evidence: pg no: 15, L90-L91)",
+        "importance": "critical",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Physician documentation for diagnoses",
+          "Nurse practitioner documentation when serving as provider",
+          "Physician assistant documentation when serving as provider"
+        ]
+      },
+      {
+        "rule_id": "I.B.14.2",
+        "rule_text": "Limited exceptions allow other clinicians' documentation (Evidence: pg no: 15, L91-L92)",
+        "explanation": "There are specific, limited exceptions when code assignment may be based on medical record documentation from clinicians who are not the patient's provider, but these exceptions are few and specific (Evidence: pg no: 15, L91-L92)",
+        "importance": "high",
+        "applies_to": "specific_exceptions",
+        "common_applications": [
+          "Specific clinical scenarios defined in guidelines",
+          "Certain types of documentation permitted by regulation",
+          "Accreditation-approved documentation sources"
+        ]
+      },
+      {
+        "rule_id": "I.B.14.3",
+        "rule_text": "Other clinicians must be permitted by regulatory or accreditation standards (Evidence: pg no: 15, L92-L93)",
+        "explanation": "When exceptions allow other clinicians' documentation to be used, these clinicians must be healthcare professionals who are permitted to provide such documentation based on regulatory or accreditation requirements (Evidence: pg no: 15, L92-L93)",
+        "importance": "high",
+        "applies_to": "other_clinician_documentation",
+        "common_applications": [
+          "Regulatory-approved clinical roles",
+          "Accreditation-recognized documentation sources",
+          "Legally permitted healthcare professional documentation"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify the patient's provider (legally accountable practitioner)",
+      "Step 2: Look for provider documentation of diagnoses",
+      "Step 3: Use provider documentation as primary source for coding",
+      "Step 4: Only consider other clinicians' documentation if specific exceptions apply",
+      "Step 5: Verify other clinicians are permitted by regulatory/accreditation standards",
+      "Step 6: Apply exception rules carefully and appropriately"
+    ],
+    "related_terminology": [
+      "patient's provider",
+      "physician",
+      "qualified healthcare practitioner",
+      "legally accountable",
+      "establishing diagnosis",
+      "clinicians",
+      "healthcare professionals",
+      "regulatory",
+      "accreditation",
+      "exceptions"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "All diagnosis codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.B.13",
+        "title": "Laterality",
+        "relationship": "implements",
+        "explanation": "Laterality guideline references this concept for using other clinicians' documentation"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "I.B.14.S1",
+      "scenario": "Physician documents pneumonia, nurse documents additional symptoms",
+      "documentation_example": "Physician note: Community-acquired pneumonia. Nursing note: Patient experiencing severe shortness of breath and chest pain.",
+      "step_by_step": [
+        "Step 1: Identify physician as patient's provider",
+        "Step 2: Use physician documentation for primary diagnosis (pneumonia)",
+        "Step 3: Determine if nursing documentation can be used for additional codes",
+        "Step 4: Apply appropriate guidelines for additional symptom coding",
+        "Step 5: Code based on provider's established diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "J18.9",
+        "secondary_codes": [],
+        "sequencing": "Provider-documented diagnosis first",
+        "rationale": "Primary diagnosis based on provider documentation (Evidence: pg no: 15, L90-L91)"
+      },
+      "incorrect_coding": {
+        "code": "Based solely on nursing documentation",
+        "codes": [],
+        "rationale": "Should not base primary diagnosis on non-provider documentation",
+        "common_mistake": "Using non-provider documentation as primary source"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not use non-provider documentation as primary source unless specific exceptions apply (Evidence: pg no: 15, L90-L92)",
+      "Verify other clinicians are permitted by regulatory/accreditation standards (Evidence: pg no: 15, L92-L93)"
+    ],
+    "best_practices": [
+      "Always identify the patient's legally accountable provider (Evidence: pg no: 15, L90-L91)",
+      "Use provider documentation as primary source for diagnoses (Evidence: pg no: 15, L90-L91)"
+    ],
+    "common_mistakes": [
+      "Using nursing or other non-provider documentation inappropriately (Evidence: pg no: 15, L90-L92)",
+      "Not identifying the legally accountable provider (Evidence: pg no: 15, L90-L91)"
+    ],
+    "tips": [
+      "Know the specific exceptions that allow other clinicians' documentation (Evidence: pg no: 15, L91-L92)",
+      "Understand regulatory and accreditation requirements (Evidence: pg no: 15, L92-L93)"
+    ],
+    "implementation_notes": [
+      "Requires understanding of healthcare provider roles and legal accountability"
+    ],
+    "clinical_context": [
+      "Important for maintaining coding accuracy and legal compliance",
+      "Ensures appropriate clinical responsibility for diagnoses"
+    ]
+  },
+  "search_keywords": [
+    "patient's provider",
+    "physician",
+    "qualified healthcare practitioner",
+    "legally accountable",
+    "establishing diagnosis",
+    "clinicians",
+    "other clinicians",
+    "exceptions",
+    "regulatory",
+    "accreditation",
+    "documentation"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "documentation_sources",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "provider_documentation",
+      "legally_accountable",
+      "exceptions",
+      "regulatory",
+      "accreditation",
+      "clinicians"
+    ]
+  },
+  "page_range_processed": "pages_12_to_15"
+}

@@ -1,0 +1,211 @@
+{
+  "guideline_id": "I.C.2.s",
+  "semantic_title": "Coding Guidelines for Breast Implant Associated Anaplastic Large Cell Lymphoma",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 2. Chapter 2: Neoplasms > s. Breast Implant Associated Anaplastic Large Cell Lymphoma",
+  "page_number": 39,
+  "content": {
+    "full_text": "Breast implant associated anaplastic large cell lymphoma (BIA-ALCL) is a type of lymphoma that can develop around breast implants. Assign code C84.7A, Anaplastic large cell lymphoma, ALK-negative, breast, for BIA-ALCL or C84.7B, Anaplastic large cell lymphoma, ALK-negative, in remission, for BIA-ALCL in remission. Do not assign a complication code from chapter 19. (Evidence: pg no: 39, L77-L80)",
+    "summary": "Specific coding guidelines for breast implant associated anaplastic large cell lymphoma (BIA-ALCL) (Evidence: pg no: 39, L77-L80)",
+    "key_concepts": [
+      "BIA-ALCL is lymphoma that develops around breast implants (Evidence: pg no: 39, L77-L78)",
+      "Use C84.7A for active BIA-ALCL (Evidence: pg no: 39, L78-L79)",
+      "Use C84.7B for BIA-ALCL in remission (Evidence: pg no: 39, L79-L80)",
+      "Do not use Chapter 19 complication codes (Evidence: pg no: 39, L80)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "bia_alcl_definition",
+        "rule_text": "BIA-ALCL is a type of lymphoma that can develop around breast implants (Evidence: pg no: 39, L77-L78)",
+        "explanation": "This is a specific type of lymphoma with a known association to breast implants, requiring specific coding (Evidence: pg no: 39, L77-L78)",
+        "importance": "high",
+        "applies_to": "breast implant associated lymphomas",
+        "common_applications": [
+          "Lymphoma diagnosed around breast implants",
+          "Post-implant lymphoproliferative disorders"
+        ]
+      },
+      {
+        "rule_id": "active_bia_alcl_coding",
+        "rule_text": "Assign code C84.7A for BIA-ALCL (Evidence: pg no: 39, L78-L79)",
+        "explanation": "C84.7A is the specific code for active breast implant associated anaplastic large cell lymphoma (Evidence: pg no: 39, L78-L79)",
+        "importance": "critical",
+        "applies_to": "active BIA-ALCL cases",
+        "common_applications": [
+          "Newly diagnosed BIA-ALCL",
+          "Active treatment of BIA-ALCL"
+        ]
+      },
+      {
+        "rule_id": "remission_bia_alcl_coding",
+        "rule_text": "Assign code C84.7B for BIA-ALCL in remission (Evidence: pg no: 39, L79-L80)",
+        "explanation": "C84.7B is specifically for BIA-ALCL that has achieved remission status (Evidence: pg no: 39, L79-L80)",
+        "importance": "critical",
+        "applies_to": "BIA-ALCL in remission",
+        "common_applications": [
+          "Follow-up visits for treated BIA-ALCL",
+          "Surveillance of BIA-ALCL in remission"
+        ]
+      },
+      {
+        "rule_id": "no_complication_codes",
+        "rule_text": "Do not assign a complication code from chapter 19 (Evidence: pg no: 39, L80)",
+        "explanation": "BIA-ALCL should not be coded as a device complication but as a specific lymphoma (Evidence: pg no: 39, L80)",
+        "importance": "critical",
+        "applies_to": "all BIA-ALCL cases",
+        "common_applications": [
+          "Avoiding T85.- codes for BIA-ALCL",
+          "Not using breast implant complication codes"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify anaplastic large cell lymphoma associated with breast implants",
+      "Step 2: Determine if lymphoma is active or in remission",
+      "Step 3a: If active - assign C84.7A",
+      "Step 3b: If in remission - assign C84.7B",
+      "Step 4: Do not add Chapter 19 complication codes"
+    ],
+    "related_terminology": [
+      "Breast implant associated anaplastic large cell lymphoma",
+      "BIA-ALCL",
+      "ALK-negative lymphoma",
+      "Breast implants",
+      "Anaplastic large cell lymphoma"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "C84.7A",
+        "description": "Anaplastic large cell lymphoma, ALK-negative, breast (Evidence: pg no: 39, L78-L79)",
+        "context": "Used for active BIA-ALCL",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "C84": "Mature T/NK-cell lymphomas",
+          "7A": "Anaplastic large cell lymphoma, ALK-negative, breast"
+        }
+      },
+      {
+        "code": "C84.7B",
+        "description": "Anaplastic large cell lymphoma, ALK-negative, in remission (Evidence: pg no: 39, L79-L80)",
+        "context": "Used for BIA-ALCL in remission",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "C84": "Mature T/NK-cell lymphomas",
+          "7B": "Anaplastic large cell lymphoma, ALK-negative, in remission"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Lymphoma codes",
+      "Chapter 19 complication codes (excluded)"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "active_bia_alcl",
+      "scenario": "Patient diagnosed with breast implant associated anaplastic large cell lymphoma",
+      "documentation_example": "Newly diagnosed BIA-ALCL (breast implant associated anaplastic large cell lymphoma) around left breast implant",
+      "step_by_step": [
+        "Step 1: Identify BIA-ALCL diagnosis",
+        "Step 2: Determine lymphoma is active (newly diagnosed)",
+        "Step 3: Assign C84.7A",
+        "Step 4: Do not add complication codes"
+      ],
+      "correct_coding": {
+        "primary_code": "C84.7A (Anaplastic large cell lymphoma, ALK-negative, breast)",
+        "secondary_codes": [],
+        "sequencing": "BIA-ALCL code only",
+        "rationale": "Active BIA-ALCL uses C84.7A without complication codes (Evidence: pg no: 39, L78-L80)"
+      },
+      "incorrect_coding": {
+        "code": "T85.79XA",
+        "codes": [
+          "T85.79XA (Other specified complications of other internal prosthetic devices, implants and grafts)"
+        ],
+        "rationale": "Should not use Chapter 19 complication codes for BIA-ALCL",
+        "common_mistake": "Coding as device complication instead of specific lymphoma"
+      }
+    },
+    {
+      "scenario_id": "bia_alcl_remission",
+      "scenario": "Patient with history of BIA-ALCL, currently in remission after treatment",
+      "documentation_example": "Follow-up visit for BIA-ALCL, currently in complete remission following treatment",
+      "step_by_step": [
+        "Step 1: Identify BIA-ALCL history",
+        "Step 2: Determine lymphoma is in remission",
+        "Step 3: Assign C84.7B",
+        "Step 4: Do not add complication codes"
+      ],
+      "correct_coding": {
+        "primary_code": "C84.7B (Anaplastic large cell lymphoma, ALK-negative, in remission)",
+        "secondary_codes": [],
+        "sequencing": "BIA-ALCL remission code only",
+        "rationale": "BIA-ALCL in remission uses C84.7B (Evidence: pg no: 39, L79-L80)"
+      },
+      "incorrect_coding": {
+        "code": "Z85.79",
+        "codes": [
+          "Z85.79 (Personal history of other malignant neoplasms of lymphoid, hematopoietic and related tissues)"
+        ],
+        "rationale": "Should use specific remission code rather than personal history",
+        "common_mistake": "Using personal history instead of remission code"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Never use Chapter 19 complication codes for BIA-ALCL (Evidence: pg no: 39, L80)"
+    ],
+    "best_practices": [
+      "Use specific BIA-ALCL codes C84.7A or C84.7B (Evidence: pg no: 39, L78-L80)",
+      "Determine remission status for appropriate code selection (Evidence: pg no: 39, L78-L80)"
+    ],
+    "common_mistakes": [
+      "Coding as device complication instead of specific lymphoma (Evidence: pg no: 39, L80)",
+      "Using wrong code for remission status"
+    ],
+    "tips": [
+      "BIA-ALCL has specific codes separate from device complications (Evidence: pg no: 39, L78-L80)",
+      "Remission status determines code choice (Evidence: pg no: 39, L78-L80)"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Applies to lymphomas specifically associated with breast implants"
+    ]
+  },
+  "search_keywords": [
+    "BIA-ALCL",
+    "breast implant",
+    "anaplastic large cell lymphoma",
+    "C84.7A",
+    "C84.7B",
+    "ALK-negative",
+    "breast lymphoma"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "specific_lymphoma",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "BIA-ALCL",
+      "breast_implant",
+      "lymphoma",
+      "specific_codes"
+    ]
+  },
+  "page_range_processed": "pages_36_to_39"
+}

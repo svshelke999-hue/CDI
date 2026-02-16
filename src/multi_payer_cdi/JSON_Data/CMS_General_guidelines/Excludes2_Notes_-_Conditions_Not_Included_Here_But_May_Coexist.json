@@ -1,0 +1,99 @@
+{
+  "guideline_id": "I.A.12.b",
+  "semantic_title": "Excludes2 Notes - Conditions Not Included Here But May Coexist",
+  "section_path": "Section I > A. Conventions > 12. Excludes Notes > b. Excludes2",
+  "page_number": 10,
+  "content": {
+    "full_text": "A type 2 Excludes note represents \"Not included here.\" An excludes2 note indicates that the condition excluded is not part of the condition represented by the code, but a patient may have both conditions at the same time. When an Excludes2 note appears under a code, it is acceptable to use both the code and the excluded code together, when appropriate. (Evidence: pg no: 10, L30-L31)",
+    "summary": "Excludes2 notes indicate conditions not included in the code but may coexist and be coded together (Evidence: pg no: 10, L30-L31)",
+    "key_concepts": [
+      "Represents 'Not included here' (Evidence: pg no: 10, L30)",
+      "Excluded condition not part of main condition (Evidence: pg no: 10, L30-L31)",
+      "Patient may have both conditions simultaneously (Evidence: pg no: 10, L31)",
+      "Acceptable to use both codes together when appropriate (Evidence: pg no: 10, L31)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "EXCL2_BASIC",
+        "rule_text": "Excludes2 conditions may be coded together with the main code when appropriate (Evidence: pg no: 10, L31)",
+        "explanation": "Unlike Excludes1, Excludes2 allows concurrent coding of related conditions (Evidence: pg no: 10, L30-L31)",
+        "importance": "high",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Comorbid conditions",
+          "Related but separate diagnoses"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify Excludes2 note under code",
+      "Step 2: Determine if patient has both conditions",
+      "Step 3: Code both conditions when clinically appropriate",
+      "Step 4: Ensure proper sequencing based on encounter"
+    ],
+    "related_terminology": [
+      "Not included here",
+      "Excludes2",
+      "Coexisting conditions",
+      "Concurrent coding"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": []
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [],
+    "best_practices": [
+      "Code both conditions when patient has Excludes2 conditions and main condition (Evidence: pg no: 10, L31)"
+    ],
+    "common_mistakes": [
+      "Treating Excludes2 like Excludes1 and avoiding concurrent coding"
+    ],
+    "tips": [
+      "Excludes2 is more permissive than Excludes1",
+      "Focus on clinical appropriateness for concurrent coding"
+    ],
+    "implementation_notes": [
+      "Requires clinical judgment for appropriateness",
+      "Consider encounter circumstances for sequencing"
+    ],
+    "clinical_context": [
+      "Common with comorbid conditions",
+      "Allows comprehensive coding of patient's condition"
+    ]
+  },
+  "search_keywords": [
+    "Excludes2",
+    "not included here",
+    "coexisting conditions",
+    "concurrent coding",
+    "comorbid",
+    "both conditions"
+  ],
+  "metadata": {
+    "category": "convention",
+    "subcategory": "excludes_notes",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "excludes2",
+      "coexisting_conditions",
+      "concurrent_coding"
+    ]
+  },
+  "page_range_processed": "pages_9_to_12"
+}

@@ -1,0 +1,149 @@
+{
+  "guideline_id": "II.G",
+  "semantic_title": "Principal Diagnosis Selection for Complications of Surgery and Medical Care",
+  "section_path": "Section II > G. Complications of surgery and other medical care",
+  "page_number": 109,
+  "content": {
+    "full_text": "When the admission is for treatment of a complication resulting from surgery or other medical care, the complication code is sequenced as the principal diagnosis. If the complication is classified to the T80-T88 series and the code lacks the necessary specificity in describing the complication, an additional code for the specific complication should be assigned. (Evidence: pg no: 109, L31-L33)",
+    "summary": "Complications from surgery or medical care should be sequenced as principal diagnosis when they are the reason for admission (Evidence: pg no: 109, L31-L33)",
+    "key_concepts": [
+      "Complication code as principal diagnosis when reason for admission (Evidence: pg no: 109, L31-L32)",
+      "T80-T88 series for complications of medical care (Evidence: pg no: 109, L32)",
+      "Additional codes needed when T80-T88 lacks specificity (Evidence: pg no: 109, L32-L33)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "II.G.1",
+        "rule_text": "When the admission is for treatment of a complication resulting from surgery or other medical care, the complication code is sequenced as the principal diagnosis (Evidence: pg no: 109, L31-L32)",
+        "explanation": "If a patient is admitted specifically to treat a complication that resulted from previous surgery or medical care, that complication becomes the principal diagnosis (Evidence: pg no: 109, L31-L32)",
+        "importance": "critical",
+        "applies_to": "T80-T88",
+        "common_applications": [
+          "Post-operative infections",
+          "Surgical site complications",
+          "Medication adverse effects"
+        ]
+      },
+      {
+        "rule_id": "II.G.2",
+        "rule_text": "If the complication is classified to the T80-T88 series and the code lacks the necessary specificity in describing the complication, an additional code for the specific complication should be assigned (Evidence: pg no: 109, L32-L33)",
+        "explanation": "T80-T88 codes may not provide enough detail about the specific nature of the complication, requiring additional codes for complete documentation (Evidence: pg no: 109, L32-L33)",
+        "importance": "high",
+        "applies_to": "T80-T88",
+        "common_applications": [
+          "Specific infection organisms",
+          "Detailed complication descriptions"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify that admission is for treatment of a complication",
+      "Step 2: Sequence the complication code as principal diagnosis",
+      "Step 3: If using T80-T88 codes, assess if additional specificity codes are needed",
+      "Step 4: Assign additional codes if T80-T88 lacks necessary specificity"
+    ],
+    "related_terminology": [
+      "complications",
+      "surgery",
+      "medical care",
+      "T80-T88 series",
+      "specificity"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "T80-T88",
+        "description": "Complications of surgical and medical care, not elsewhere classified (Evidence: pg no: 109, L32)",
+        "requirement": "May require additional codes for specificity",
+        "usage_rules": [
+          "Use as principal diagnosis when complication is reason for admission (Evidence: pg no: 109, L31-L32)",
+          "Add specific complication codes when T80-T88 lacks specificity (Evidence: pg no: 109, L32-L33)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Complications of surgical and medical care"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "II.G.1",
+      "scenario": "Patient admitted for treatment of post-operative wound infection",
+      "documentation_example": "Patient returns 5 days post-appendectomy with infected surgical site requiring IV antibiotics and wound care.",
+      "step_by_step": [
+        "Step 1: Identify that admission is for complication treatment",
+        "Step 2: Sequence surgical site infection as principal diagnosis",
+        "Step 3: Consider if additional organism-specific codes are needed"
+      ],
+      "correct_coding": {
+        "primary_code": "T81.4XXA",
+        "secondary_codes": [
+          "B95.8"
+        ],
+        "sequencing": "Complication code first, then specific organism if identified",
+        "rationale": "Complication is the reason for admission and should be principal diagnosis (Evidence: pg no: 109, L31-L32)"
+      },
+      "incorrect_coding": {
+        "code": "K35.9",
+        "codes": [
+          "K35.9"
+        ],
+        "rationale": "Original appendicitis should not be principal diagnosis when treating complication",
+        "common_mistake": "Coding the original condition instead of the complication"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "T80-T88 codes may lack specificity and require additional codes (Evidence: pg no: 109, L32-L33)"
+    ],
+    "best_practices": [
+      "Always sequence complication as principal diagnosis when it's the reason for admission (Evidence: pg no: 109, L31-L32)"
+    ],
+    "common_mistakes": [
+      "Coding original procedure/condition instead of complication as principal diagnosis (Evidence: pg no: 109, L31-L32)"
+    ],
+    "tips": [
+      "Check if T80-T88 codes need additional specificity codes (Evidence: pg no: 109, L32-L33)"
+    ],
+    "implementation_notes": [
+      "Applies to complications from any type of medical care, not just surgery"
+    ],
+    "clinical_context": [
+      "Common in readmissions for post-operative complications"
+    ]
+  },
+  "search_keywords": [
+    "complications",
+    "surgery complications",
+    "medical care complications",
+    "T80-T88",
+    "post-operative",
+    "principal diagnosis"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "complications",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "complications",
+      "surgery",
+      "medical_care",
+      "T80-T88"
+    ]
+  },
+  "page_range_processed": "pages_108_to_111"
+}

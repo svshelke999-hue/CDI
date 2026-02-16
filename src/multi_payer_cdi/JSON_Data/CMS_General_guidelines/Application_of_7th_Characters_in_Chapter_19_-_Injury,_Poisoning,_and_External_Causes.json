@@ -1,0 +1,260 @@
+{
+  "guideline_id": "I.C.19.a",
+  "semantic_title": "Application of 7th Characters in Chapter 19 - Injury, Poisoning, and External Causes",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 19. Chapter 19: Injury, poisoning, and certain other consequences of external causes > a. Application of 7th Characters in Chapter 19",
+  "page_number": 77,
+  "content": {
+    "full_text": "Most categories in chapter 19 have a 7th character requirement for each applicable code. Most categories in this chapter have three 7th character values (with the exception of fractures): A, initial encounter, D, subsequent encounter and S, sequela. Categories for traumatic fractures have additional 7th character values. While the patient may be seen by a new or different provider over the course of treatment for an injury, assignment of the 7th character is based on whether the patient is undergoing active treatment and not whether the provider is seeing the patient for the first time. For complication codes, active treatment refers to treatment for the condition described by the code, even though it may be related to an earlier precipitating problem. For example, code T84.50XA, Infection and inflammatory reaction due to unspecified internal joint prosthesis, initial encounter, is used when active treatment is provided for the infection, even though the condition relates to the prosthetic device, implant or graft that was placed at a previous encounter. 7th character \"A\", initial encounter is used for each encounter where the patient is receiving active treatment for the condition. 7th character \"D\" subsequent encounter is used for encounters after the patient has completed active treatment of the condition and is receiving routine care for the condition during the healing or recovery phase. The aftercare Z codes should not be used for aftercare for conditions such as injuries or poisonings, where 7th characters are provided to identify subsequent care. For example, for aftercare of an injury, assign the acute injury code with the 7th character \"D\" (subsequent encounter). 7th character \"S\", sequela, is for use for complications or conditions that arise as a direct result of a condition, such as scar formation after a burn. The scars are sequelae of the burn. When using 7th character \"S\", it is necessary to use both the injury code that precipitated the sequela and the code for the sequela itself. The \"S\" is added only to the injury code, not the sequela code. The 7th character \"S\" identifies the injury responsible for the sequela. The specific type of sequela (e.g. scar) is sequenced first, followed by the injury code. (Evidence: pg no: 77-78, L61-L91)",
+    "summary": "Comprehensive guidelines for applying 7th characters in Chapter 19, covering initial encounters, subsequent encounters, and sequelae, with specific rules for active treatment determination and sequencing (Evidence: pg no: 77-78, L61-L91)",
+    "key_concepts": [
+      "7th character requirement for most Chapter 19 codes (Evidence: pg no: 77, L61)",
+      "Three standard 7th character values (A, D, S) (Evidence: pg no: 77, L62-L63)",
+      "Active treatment vs provider familiarity distinction (Evidence: pg no: 77, L66-L67)",
+      "Complication code active treatment definition (Evidence: pg no: 77, L68-L74)",
+      "Sequela coding requirements (Evidence: pg no: 78, L85-L91)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "active_treatment_basis",
+        "rule_text": "Assignment of the 7th character is based on whether the patient is undergoing active treatment and not whether the provider is seeing the patient for the first time (Evidence: pg no: 77, L66-L67)",
+        "explanation": "7th character selection depends on treatment status, not provider familiarity with patient (Evidence: pg no: 77, L66-L67)",
+        "importance": "critical",
+        "applies_to": "all_chapter_19_codes",
+        "common_applications": [
+          "New provider treating existing injury",
+          "Continuing care scenarios"
+        ]
+      },
+      {
+        "rule_id": "complication_active_treatment",
+        "rule_text": "For complication codes, active treatment refers to treatment for the condition described by the code, even though it may be related to an earlier precipitating problem (Evidence: pg no: 77, L68-L69)",
+        "explanation": "Active treatment for complications focuses on the current condition, not the original precipitating event (Evidence: pg no: 77, L68-L74)",
+        "importance": "high",
+        "applies_to": "complication_codes",
+        "common_applications": [
+          "Prosthetic device infections",
+          "Implant complications"
+        ]
+      },
+      {
+        "rule_id": "sequela_dual_coding",
+        "rule_text": "When using 7th character \"S\", it is necessary to use both the injury code that precipitated the sequela and the code for the sequela itself (Evidence: pg no: 78, L87-L88)",
+        "explanation": "Sequela coding requires both the original injury code with \"S\" and the specific sequela code (Evidence: pg no: 78, L87-L88)",
+        "importance": "critical",
+        "applies_to": "sequela_codes",
+        "common_applications": [
+          "Scar formation after burns",
+          "Chronic complications of injuries"
+        ]
+      },
+      {
+        "rule_id": "sequela_sequencing",
+        "rule_text": "The specific type of sequela (e.g. scar) is sequenced first, followed by the injury code (Evidence: pg no: 78, L90-L91)",
+        "explanation": "Sequela condition is primary diagnosis, followed by injury code with \"S\" (Evidence: pg no: 78, L90-L91)",
+        "importance": "high",
+        "applies_to": "sequela_codes",
+        "common_applications": [
+          "Sequela as reason for encounter"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify the injury or condition from Chapter 19",
+      "Step 2: Determine if patient is receiving active treatment",
+      "Step 3: Select appropriate 7th character (A, D, or S)",
+      "Step 4: For sequelae, code both sequela and injury with \"S\"",
+      "Step 5: Sequence codes appropriately"
+    ],
+    "related_terminology": [
+      "7th character",
+      "initial encounter",
+      "subsequent encounter",
+      "sequela",
+      "active treatment",
+      "routine care",
+      "healing phase",
+      "recovery phase"
+    ]
+  },
+  "code_references": {
+    "specific_codes": [
+      {
+        "code": "T84.50XA",
+        "description": "Infection and inflammatory reaction due to unspecified internal joint prosthesis, initial encounter (Evidence: pg no: 78, L71-L72)",
+        "context": "Example of active treatment for complication of previous procedure",
+        "requires_additional_codes": "check_code_notes",
+        "breakdown": {
+          "T84": "Complications of internal orthopedic prosthetic devices, implants and grafts",
+          ".50": "Infection and inflammatory reaction due to unspecified internal joint prosthesis",
+          "X": "Placeholder",
+          "A": "Initial encounter"
+        }
+      }
+    ],
+    "code_ranges": [
+      {
+        "range": "S00-T88",
+        "description": "Chapter 19: Injury, poisoning, and certain other consequences of external causes (Evidence: pg no: 77, L59)",
+        "requirement": "Most categories require 7th character",
+        "usage_rules": [
+          "7th character based on active treatment status (Evidence: pg no: 77, L66-L67)",
+          "Fractures have additional 7th character values (Evidence: pg no: 77, L63-L64)"
+        ]
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": "7th character A",
+        "description": "Initial encounter - used for each encounter where patient is receiving active treatment (Evidence: pg no: 78, L76-L77)",
+        "example": "T84.50XA",
+        "explanation": "Indicates active treatment is being provided"
+      },
+      {
+        "pattern": "7th character D",
+        "description": "Subsequent encounter - used after active treatment completed, during healing/recovery (Evidence: pg no: 78, L79-L81)",
+        "example": "S72.001D",
+        "explanation": "Indicates routine care during healing phase"
+      },
+      {
+        "pattern": "7th character S",
+        "description": "Sequela - for complications or conditions arising as direct result (Evidence: pg no: 78, L85-L86)",
+        "example": "T20.011S",
+        "explanation": "Identifies injury responsible for sequela"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Injury codes",
+      "Poisoning codes",
+      "Complication codes",
+      "Traumatic fracture codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.B.10",
+        "title": "Sequelae (Late Effects)",
+        "relationship": "related_to",
+        "explanation": "Referenced for additional sequela guidance (Evidence: pg no: 78, L91)"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "prosthetic_infection_active_treatment",
+      "scenario": "Patient receiving active treatment for prosthetic joint infection placed previously",
+      "documentation_example": "Patient admitted for IV antibiotics for infected knee prosthesis placed 2 years ago",
+      "step_by_step": [
+        "Step 1: Identify this as active treatment for infection",
+        "Step 2: Use 7th character A for initial encounter",
+        "Step 3: Apply T84.50XA"
+      ],
+      "correct_coding": {
+        "primary_code": "T84.50XA",
+        "secondary_codes": [],
+        "sequencing": "Complication code as primary",
+        "rationale": "Active treatment for infection uses initial encounter even though prosthesis placed previously (Evidence: pg no: 78, L71-L74)"
+      },
+      "incorrect_coding": {
+        "code": "T84.50XD",
+        "rationale": "Patient is receiving active treatment, not routine care",
+        "common_mistake": "Using subsequent encounter for active treatment"
+      }
+    },
+    {
+      "scenario_id": "burn_scar_sequela",
+      "scenario": "Patient treated for burn scar contracture from previous burn injury",
+      "documentation_example": "Contracture of scar from third-degree burn of hand sustained 5 years ago",
+      "step_by_step": [
+        "Step 1: Code the sequela (contracture) first",
+        "Step 2: Code the original injury with 7th character S",
+        "Step 3: Sequence sequela first, injury second"
+      ],
+      "correct_coding": {
+        "primary_code": "M24.551",
+        "secondary_codes": [
+          "T23.301S"
+        ],
+        "sequencing": "Sequela first, then injury with S",
+        "rationale": "Sequela is sequenced first, followed by injury code with S (Evidence: pg no: 78, L90-L91)"
+      },
+      "incorrect_coding": {
+        "code": "T23.301S only",
+        "rationale": "Must code both sequela and injury when using S",
+        "common_mistake": "Coding only injury with S, missing sequela code"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "aftercare_injury_example",
+      "scenario": "Follow-up care for healing fracture",
+      "code_example": "S72.001D",
+      "breakdown": {
+        "S72.001": "Fracture of unspecified part of neck of right femur",
+        "D": "Subsequent encounter for routine healing care (Evidence: pg no: 78, L83-L84)"
+      },
+      "rationale": "Use injury code with D rather than aftercare Z codes for injuries (Evidence: pg no: 78, L81-L84)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not use aftercare Z codes for injuries or poisonings where 7th characters are provided (Evidence: pg no: 78, L81-L82)",
+      "The S is added only to the injury code, not the sequela code (Evidence: pg no: 78, L88-L89)"
+    ],
+    "best_practices": [
+      "Base 7th character on active treatment status, not provider familiarity (Evidence: pg no: 77, L66-L67)",
+      "For sequelae, always code both the sequela and the injury with S (Evidence: pg no: 78, L87-L88)"
+    ],
+    "common_mistakes": [
+      "Using provider familiarity instead of treatment status for 7th character selection",
+      "Using aftercare Z codes instead of injury codes with D",
+      "Forgetting to code both sequela and injury when using S"
+    ],
+    "tips": [
+      "Fractures have additional 7th character values beyond A, D, S (Evidence: pg no: 77, L63-L64)",
+      "For complications, focus on current condition treatment, not original event (Evidence: pg no: 77, L68-L69)"
+    ],
+    "implementation_notes": [
+      "7th character requirement applies to most Chapter 19 categories",
+      "Sequela sequencing: specific sequela first, then injury with S"
+    ],
+    "clinical_context": [
+      "Emergency department visits",
+      "Follow-up appointments",
+      "Complication management",
+      "Long-term sequela care"
+    ]
+  },
+  "search_keywords": [
+    "7th character",
+    "initial encounter",
+    "subsequent encounter",
+    "sequela",
+    "active treatment",
+    "Chapter 19",
+    "injury coding",
+    "poisoning coding"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "injury_poisoning_external_causes",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient",
+      "emergency"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "7th_character",
+      "injury",
+      "poisoning",
+      "sequela",
+      "active_treatment"
+    ]
+  },
+  "page_range_processed": "pages_75_to_78"
+}

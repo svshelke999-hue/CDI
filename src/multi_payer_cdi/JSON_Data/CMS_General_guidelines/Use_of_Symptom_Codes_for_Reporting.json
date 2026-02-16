@@ -1,0 +1,143 @@
+{
+  "guideline_id": "I.C.18.a",
+  "semantic_title": "Use of Symptom Codes for Reporting",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 18. Chapter 18: Symptoms, signs, and abnormal clinical and laboratory findings, not elsewhere classified (R00-R99) > a. Use of symptom codes",
+  "page_number": 75,
+  "content": {
+    "full_text": "Codes that describe symptoms and signs are acceptable for reporting purposes when a related definitive diagnosis has not been established (confirmed) by the provider. (Evidence: pg no: 75, L84-L85)",
+    "summary": "Symptom and sign codes are acceptable for reporting when a definitive diagnosis has not been established by the provider (Evidence: pg no: 75, L84-L85)",
+    "key_concepts": [
+      "Symptom and sign codes acceptability (Evidence: pg no: 75, L84)",
+      "Reporting purposes (Evidence: pg no: 75, L84)",
+      "Definitive diagnosis not established (Evidence: pg no: 75, L85)",
+      "Provider confirmation requirement (Evidence: pg no: 75, L85)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "symptom_code_acceptability_rule",
+        "rule_text": "Symptom and sign codes are acceptable for reporting when definitive diagnosis not established (Evidence: pg no: 75, L84-L85)",
+        "explanation": "When a provider has not confirmed or established a definitive diagnosis, it is appropriate and acceptable to use codes that describe the presenting symptoms and signs (Evidence: pg no: 75, L84-L85)",
+        "importance": "high",
+        "applies_to": "R00-R99 symptom codes",
+        "common_applications": [
+          "Emergency department visits with undetermined diagnosis",
+          "Outpatient visits requiring further workup"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Review provider documentation for definitive diagnosis",
+      "Step 2: If no definitive diagnosis established, identify symptoms/signs",
+      "Step 3: Select appropriate R00-R99 codes for symptoms/signs",
+      "Step 4: Assign symptom codes as appropriate for encounter"
+    ],
+    "related_terminology": [
+      "Symptoms",
+      "Signs",
+      "Definitive diagnosis",
+      "Provider confirmation",
+      "Reporting purposes"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "R00-R99",
+        "description": "Symptoms, signs, and abnormal clinical and laboratory findings, not elsewhere classified (Evidence: pg no: 75, L81)",
+        "requirement": "Use when definitive diagnosis not established",
+        "usage_rules": [
+          "Acceptable for reporting purposes (Evidence: pg no: 75, L84-L85)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "R00-R99 - Symptoms, signs, and abnormal findings"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.18.b",
+        "title": "Use of symptom code with definitive diagnosis code",
+        "relationship": "related_to",
+        "explanation": "Contrasts with scenarios where both symptom and definitive diagnosis codes are used"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "symptom_no_diagnosis",
+      "scenario": "Patient presents with chest pain, workup inconclusive, no definitive diagnosis established",
+      "documentation_example": "Patient presents with acute chest pain. EKG normal, chest X-ray normal, cardiac enzymes normal. Etiology of chest pain unclear. Discharge home with follow-up.",
+      "step_by_step": [
+        "Step 1: Review documentation for definitive diagnosis",
+        "Step 2: Note no definitive diagnosis established",
+        "Step 3: Identify chest pain as primary symptom",
+        "Step 4: Assign appropriate R code for chest pain"
+      ],
+      "correct_coding": {
+        "primary_code": "R07.89",
+        "secondary_codes": [],
+        "sequencing": "Symptom code as principal diagnosis",
+        "rationale": "No definitive diagnosis established, symptom codes acceptable for reporting (Evidence: pg no: 75, L84-L85)"
+      },
+      "incorrect_coding": {
+        "code": "I25.9",
+        "codes": [
+          "I20.9"
+        ],
+        "rationale": "Should not assign definitive diagnosis codes when diagnosis not established",
+        "common_mistake": "Assigning definitive diagnosis when not established by provider"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [],
+    "best_practices": [
+      "Use symptom codes when definitive diagnosis not established (Evidence: pg no: 75, L84-L85)"
+    ],
+    "common_mistakes": [
+      "Assigning definitive diagnosis codes when not established by provider"
+    ],
+    "tips": [
+      "Symptom codes are acceptable for reporting purposes (Evidence: pg no: 75, L84)"
+    ],
+    "implementation_notes": [
+      "Requires assessment of provider's diagnostic certainty"
+    ],
+    "clinical_context": [
+      "Encounters where workup is incomplete or inconclusive"
+    ]
+  },
+  "search_keywords": [
+    "symptom codes",
+    "signs",
+    "R codes",
+    "definitive diagnosis",
+    "reporting purposes",
+    "undetermined diagnosis"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "symptoms_signs",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "symptoms",
+      "signs",
+      "R codes",
+      "definitive diagnosis",
+      "reporting"
+    ]
+  },
+  "page_range_processed": "pages_72_to_75"
+}

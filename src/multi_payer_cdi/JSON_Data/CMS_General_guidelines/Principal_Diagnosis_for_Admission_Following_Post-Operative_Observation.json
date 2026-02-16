@@ -1,0 +1,129 @@
+{
+  "guideline_id": "II.I.2",
+  "semantic_title": "Principal Diagnosis for Admission Following Post-Operative Observation",
+  "section_path": "Section II > I. Admission from Observation Unit > 2. Admission Following Post-Operative Observation",
+  "page_number": 109,
+  "content": {
+    "full_text": "When a patient is admitted to an observation unit to monitor a condition (or complication) that develops following outpatient surgery, and then is subsequently admitted as an inpatient of the same hospital, hospitals should apply the Uniform Hospital Discharge Data Set (UHDDS) definition of principal diagnosis as \"that condition established after study to be chiefly responsible for occasioning the admission of the patient to the hospital for care.\" (Evidence: pg no: 109, L42-L44)",
+    "summary": "For post-operative observation patients who become inpatients, apply UHDDS definition to determine principal diagnosis (Evidence: pg no: 109, L42-L44)",
+    "key_concepts": [
+      "Post-operative observation for complications (Evidence: pg no: 109, L42-L43)",
+      "UHDDS definition applies for principal diagnosis selection (Evidence: pg no: 109, L43-L44)",
+      "Condition chiefly responsible for admission (Evidence: pg no: 109, L44)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "II.I.2.1",
+        "rule_text": "Apply the UHDDS definition of principal diagnosis as \"that condition established after study to be chiefly responsible for occasioning the admission of the patient to the hospital for care\" (Evidence: pg no: 109, L43-L44)",
+        "explanation": "When post-operative observation patients are admitted as inpatients, use the standard UHDDS definition to determine which condition was chiefly responsible for the admission (Evidence: pg no: 109, L43-L44)",
+        "importance": "high",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Post-operative bleeding requiring admission",
+          "Post-operative infection requiring inpatient care"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify post-operative observation status",
+      "Step 2: Confirm subsequent inpatient admission",
+      "Step 3: Apply UHDDS definition",
+      "Step 4: Determine condition chiefly responsible for admission after study"
+    ],
+    "related_terminology": [
+      "post-operative observation",
+      "outpatient surgery",
+      "UHDDS definition",
+      "chiefly responsible",
+      "complication"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": []
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "UHDDS",
+        "title": "Uniform Hospital Discharge Data Set definition",
+        "relationship": "implements",
+        "explanation": "Uses UHDDS definition for principal diagnosis selection"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "II.I.2.1",
+      "scenario": "Patient has outpatient surgery, develops bleeding, placed in observation, then admitted as inpatient for bleeding control",
+      "documentation_example": "Patient had outpatient cholecystectomy, developed post-operative bleeding, placed in observation, bleeding continued requiring inpatient admission for surgical control.",
+      "step_by_step": [
+        "Step 1: Identify post-operative observation for bleeding",
+        "Step 2: Confirm inpatient admission for bleeding control",
+        "Step 3: Apply UHDDS definition",
+        "Step 4: Determine bleeding is chiefly responsible for admission"
+      ],
+      "correct_coding": {
+        "primary_code": "T81.0XXA",
+        "secondary_codes": [],
+        "sequencing": "Post-operative bleeding as principal diagnosis",
+        "rationale": "Post-operative bleeding is the condition chiefly responsible for admission per UHDDS definition (Evidence: pg no: 109, L43-L44)"
+      },
+      "incorrect_coding": {
+        "code": "K80.20",
+        "codes": [
+          "K80.20"
+        ],
+        "rationale": "Original surgical condition is not the reason for current admission",
+        "common_mistake": "Coding the original surgical condition instead of the complication"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [],
+    "best_practices": [
+      "Always apply UHDDS definition for principal diagnosis selection (Evidence: pg no: 109, L43-L44)"
+    ],
+    "common_mistakes": [
+      "Coding the original surgical condition instead of the complication that caused admission (Evidence: pg no: 109, L42-L44)"
+    ],
+    "tips": [
+      "Focus on what condition was chiefly responsible for the inpatient admission (Evidence: pg no: 109, L44)"
+    ],
+    "implementation_notes": [
+      "Applies specifically to post-operative observation cases"
+    ],
+    "clinical_context": [
+      "Common with same-day surgery patients who develop complications"
+    ]
+  },
+  "search_keywords": [
+    "post-operative observation",
+    "outpatient surgery",
+    "UHDDS definition",
+    "surgical complications",
+    "observation to inpatient",
+    "chiefly responsible"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "post_operative_observation",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "post_operative",
+      "observation",
+      "UHDDS",
+      "complications"
+    ]
+  },
+  "page_range_processed": "pages_108_to_111"
+}

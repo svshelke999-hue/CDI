@@ -1,0 +1,203 @@
+{
+  "guideline_id": "I.C.6.b.3",
+  "semantic_title": "Postoperative Pain Coding Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 6. Chapter 6: Diseases of the Nervous System > b. Pain - Category G89 > 3) Postoperative Pain",
+  "page_number": 47,
+  "content": {
+    "full_text": "The provider's documentation should be used to guide the coding of postoperative pain, as well as Section III. Reporting Additional Diagnoses and Section IV. Diagnostic Coding and Reporting in the Outpatient Setting. The default for post-thoracotomy and other postoperative pain not specified as acute or chronic is the code for the acute form. Routine or expected postoperative pain immediately after surgery should not be coded. (Evidence: pg no: 47, L49-L51)",
+    "summary": "Guidelines for coding postoperative pain based on provider documentation, with default rules and exclusions for routine expected pain. (Evidence: pg no: 47, L49-L51)",
+    "key_concepts": [
+      "Provider documentation guidance (Evidence: pg no: 47, L49)",
+      "Default to acute form (Evidence: pg no: 47, L50)",
+      "Routine pain exclusion (Evidence: pg no: 47, L51)",
+      "Post-thoracotomy pain specifics (Evidence: pg no: 47, L50)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "postop_documentation_guidance",
+        "rule_text": "The provider's documentation should be used to guide the coding of postoperative pain (Evidence: pg no: 47, L49)",
+        "explanation": "Provider documentation is the primary source for determining appropriate postoperative pain codes (Evidence: pg no: 47, L49)",
+        "importance": "critical",
+        "applies_to": "G89",
+        "common_applications": [
+          "Postoperative pain assessment",
+          "Documentation review"
+        ]
+      },
+      {
+        "rule_id": "postop_acute_default",
+        "rule_text": "The default for post-thoracotomy and other postoperative pain not specified as acute or chronic is the code for the acute form (Evidence: pg no: 47, L50)",
+        "explanation": "When postoperative pain is not specified as acute or chronic, default to acute pain codes (Evidence: pg no: 47, L50)",
+        "importance": "high",
+        "applies_to": "G89",
+        "common_applications": [
+          "Unspecified postoperative pain",
+          "Post-thoracotomy pain"
+        ]
+      },
+      {
+        "rule_id": "routine_pain_exclusion",
+        "rule_text": "Routine or expected postoperative pain immediately after surgery should not be coded (Evidence: pg no: 47, L51)",
+        "explanation": "Normal, expected postoperative pain that occurs immediately after surgery should not be assigned a pain code (Evidence: pg no: 47, L51)",
+        "importance": "critical",
+        "applies_to": "G89",
+        "common_applications": [
+          "Immediate postoperative period",
+          "Expected surgical pain"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Review provider documentation for postoperative pain",
+      "Step 2: Determine if pain is routine/expected immediately after surgery",
+      "Step 3: If routine/expected, do not code",
+      "Step 4: If not routine, check if specified as acute or chronic",
+      "Step 5: If not specified, default to acute form"
+    ],
+    "related_terminology": [
+      "Postoperative pain",
+      "Post-thoracotomy pain",
+      "Acute pain",
+      "Chronic pain",
+      "Routine pain",
+      "Expected pain"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "G89",
+        "description": "Postoperative pain codes with documentation requirements (Evidence: pg no: 47, L49)",
+        "requirement": "Provider documentation and non-routine nature",
+        "usage_rules": [
+          "Use provider documentation as guide (Evidence: pg no: 47, L49)",
+          "Default to acute when not specified (Evidence: pg no: 47, L50)",
+          "Do not code routine expected pain (Evidence: pg no: 47, L51)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "G89 - Pain, not elsewhere classified"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "Section_III",
+        "title": "Reporting Additional Diagnoses",
+        "relationship": "applies_concept",
+        "explanation": "Referenced for additional guidance on postoperative pain coding"
+      },
+      {
+        "guideline_id": "Section_IV",
+        "title": "Diagnostic Coding and Reporting in the Outpatient Setting",
+        "relationship": "applies_concept",
+        "explanation": "Referenced for outpatient postoperative pain coding guidance"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "routine_postop_pain",
+      "scenario": "Patient with expected pain immediately after appendectomy",
+      "documentation_example": "Patient recovering from appendectomy with expected postoperative pain",
+      "step_by_step": [
+        "Step 1: Identify pain is immediately after surgery",
+        "Step 2: Determine pain is routine/expected",
+        "Step 3: Do not assign pain code"
+      ],
+      "correct_coding": {
+        "primary_code": "K35.9 (Acute appendicitis, unspecified)",
+        "secondary_codes": [],
+        "sequencing": "No pain code assigned",
+        "rationale": "Routine expected postoperative pain should not be coded (Evidence: pg no: 47, L51)"
+      },
+      "incorrect_coding": {
+        "codes": [
+          "K35.9",
+          "G89.18"
+        ],
+        "rationale": "Should not code routine expected postoperative pain",
+        "common_mistake": "Coding all postoperative pain regardless of routine nature"
+      }
+    },
+    {
+      "scenario_id": "unspecified_postop_pain",
+      "scenario": "Patient with significant postoperative pain after thoracotomy, not specified as acute or chronic",
+      "documentation_example": "Patient with significant pain following thoracotomy for lung resection",
+      "step_by_step": [
+        "Step 1: Identify postoperative pain is documented",
+        "Step 2: Note pain is not routine/expected",
+        "Step 3: Check if specified as acute or chronic",
+        "Step 4: Apply default to acute form"
+      ],
+      "correct_coding": {
+        "primary_code": "G89.12 (Acute post-thoracotomy pain)",
+        "secondary_codes": [],
+        "sequencing": "Acute form as default",
+        "rationale": "Default for post-thoracotomy pain not specified as acute or chronic is acute form (Evidence: pg no: 47, L50)"
+      },
+      "incorrect_coding": {
+        "code": "G89.22 (Chronic post-thoracotomy pain)",
+        "rationale": "Should default to acute when not specified",
+        "common_mistake": "Not applying acute default for unspecified postoperative pain"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not code routine or expected postoperative pain immediately after surgery (Evidence: pg no: 47, L51)"
+    ],
+    "best_practices": [
+      "Always review provider documentation for postoperative pain coding (Evidence: pg no: 47, L49)",
+      "Apply acute default when pain type not specified"
+    ],
+    "common_mistakes": [
+      "Coding all postoperative pain regardless of routine nature",
+      "Not applying acute default for unspecified postoperative pain"
+    ],
+    "tips": [
+      "Routine expected pain immediately after surgery is not coded",
+      "Default to acute form when not specified as acute or chronic"
+    ],
+    "implementation_notes": [
+      "References Section III and IV for additional guidance",
+      "Post-thoracotomy pain specifically mentioned"
+    ],
+    "clinical_context": [
+      "Some postoperative pain is expected and routine",
+      "Significant or prolonged postoperative pain may warrant coding"
+    ]
+  },
+  "search_keywords": [
+    "postoperative pain",
+    "post-thoracotomy",
+    "routine pain",
+    "expected pain",
+    "acute default",
+    "provider documentation",
+    "G89"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "nervous_system_pain",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "postoperative",
+      "pain",
+      "routine",
+      "acute_default",
+      "documentation"
+    ]
+  },
+  "page_range_processed": "pages_45_to_48"
+}

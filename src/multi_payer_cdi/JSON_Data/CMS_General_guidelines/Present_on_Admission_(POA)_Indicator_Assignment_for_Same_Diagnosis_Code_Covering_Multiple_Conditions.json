@@ -1,0 +1,198 @@
+{
+  "guideline_id": "POA.5",
+  "semantic_title": "Present on Admission (POA) Indicator Assignment for Same Diagnosis Code Covering Multiple Conditions",
+  "section_path": "Present on Admission Reporting Guidelines > Same Diagnosis Code for Two or More Conditions",
+  "page_number": 120,
+  "content": {
+    "full_text": "When the same ICD-10-CM diagnosis code applies to two or more conditions during the same encounter (e.g., two separate conditions classified to the same ICD-10-CM diagnosis code): Assign 'Y' if all conditions represented by the single ICD-10-CM code were present on admission (e.g., bilateral unspecified age-related cataracts). Assign 'N' if any of the conditions represented by the single ICD-10-CM code was not present on admission (e.g. traumatic secondary and recurrent hemorrhage and seroma is assigned to a single code T79.2, but only one of the conditions was present on admission). (Evidence: pg no: 120, L5-L11)",
+    "summary": "Guidelines for assigning POA indicators when a single ICD-10-CM code represents multiple conditions during the same encounter (Evidence: pg no: 120, L5-L7)",
+    "key_concepts": [
+      "Single code representing multiple conditions (Evidence: pg no: 120, L6-L7)",
+      "All-or-none POA assignment rule (Evidence: pg no: 120, L8-L11)",
+      "Bilateral conditions under single code (Evidence: pg no: 120, L9)",
+      "Traumatic complications with mixed timing (Evidence: pg no: 120, L10-L11)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "POA.5.1",
+        "rule_text": "Assign 'Y' if all conditions represented by the single ICD-10-CM code were present on admission (Evidence: pg no: 120, L8-L9)",
+        "explanation": "When multiple conditions are classified to the same code, POA indicator 'Y' is only appropriate if every condition represented by that code was present at admission (Evidence: pg no: 120, L8-L9)",
+        "importance": "critical",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Bilateral conditions classified to single code",
+          "Multiple related conditions under one code"
+        ]
+      },
+      {
+        "rule_id": "POA.5.2",
+        "rule_text": "Assign 'N' if any of the conditions represented by the single ICD-10-CM code was not present on admission (Evidence: pg no: 120, L10-L11)",
+        "explanation": "If even one condition represented by the code was not present on admission, the entire code receives POA indicator 'N' (Evidence: pg no: 120, L10-L11)",
+        "importance": "critical",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Traumatic complications with different timing",
+          "Progressive conditions under single code"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify that single ICD-10-CM code represents multiple conditions",
+      "Step 2: Determine admission status of each individual condition",
+      "Step 3: Assign 'Y' only if ALL conditions were present on admission",
+      "Step 4: Assign 'N' if ANY condition was not present on admission"
+    ],
+    "related_terminology": [
+      "Present on admission",
+      "POA indicator",
+      "Multiple conditions",
+      "Single diagnosis code",
+      "Bilateral conditions"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "T79.2",
+        "description": "Traumatic secondary and recurrent hemorrhage and seroma (Evidence: pg no: 120, L11)",
+        "context": "Example of single code representing multiple conditions with different timing",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "T79": "Complications of trauma",
+          ".2": "Secondary and recurrent hemorrhage and seroma"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Bilateral conditions",
+      "Traumatic complications"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "POA.5.S1",
+      "scenario": "Patient with bilateral unspecified age-related cataracts present on admission",
+      "documentation_example": "Bilateral age-related cataracts noted on admission examination",
+      "step_by_step": [
+        "Step 1: Identify single code represents bilateral conditions",
+        "Step 2: Confirm both cataracts were present on admission",
+        "Step 3: Assign POA indicator 'Y'"
+      ],
+      "correct_coding": {
+        "primary_code": "Bilateral cataract code",
+        "secondary_codes": [],
+        "sequencing": "Standard sequencing applies",
+        "rationale": "Both conditions represented by the code were present on admission (Evidence: pg no: 120, L8-L9)"
+      },
+      "incorrect_coding": {
+        "code": "Same code with POA 'N'",
+        "codes": [],
+        "rationale": "Would be incorrect if both cataracts were present on admission",
+        "common_mistake": "Assigning 'N' when all conditions were present on admission"
+      }
+    },
+    {
+      "scenario_id": "POA.5.S2",
+      "scenario": "Patient develops secondary hemorrhage after admission, but seroma was present on admission",
+      "documentation_example": "Patient admitted with traumatic seroma, developed secondary hemorrhage on day 3",
+      "step_by_step": [
+        "Step 1: Identify T79.2 represents both hemorrhage and seroma",
+        "Step 2: Determine seroma was present on admission, hemorrhage was not",
+        "Step 3: Assign POA indicator 'N' because not all conditions were present on admission"
+      ],
+      "correct_coding": {
+        "primary_code": "T79.2",
+        "secondary_codes": [],
+        "sequencing": "Standard sequencing applies",
+        "rationale": "Any condition represented by the code not present on admission requires 'N' assignment (Evidence: pg no: 120, L10-L11)"
+      },
+      "incorrect_coding": {
+        "code": "T79.2 with POA 'Y'",
+        "codes": [],
+        "rationale": "Would be incorrect because secondary hemorrhage was not present on admission",
+        "common_mistake": "Assigning 'Y' when only some conditions were present on admission"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "POA.5.E1",
+      "scenario": "Bilateral unspecified age-related cataracts",
+      "code_example": "Bilateral cataract code with POA 'Y'",
+      "breakdown": {
+        "bilateral": "Both eyes affected (Evidence: pg no: 120, L9)",
+        "single_code": "One code represents both conditions (Evidence: pg no: 120, L9)"
+      },
+      "rationale": "Both cataracts present on admission, so 'Y' is appropriate (Evidence: pg no: 120, L8-L9)"
+    },
+    {
+      "example_id": "POA.5.E2",
+      "scenario": "Traumatic secondary and recurrent hemorrhage and seroma (T79.2)",
+      "code_example": "T79.2 with POA 'N'",
+      "breakdown": {
+        "multiple_conditions": "Code represents both hemorrhage and seroma (Evidence: pg no: 120, L11)",
+        "mixed_timing": "Only one condition present on admission (Evidence: pg no: 120, L11)"
+      },
+      "rationale": "Any condition not present on admission requires 'N' assignment (Evidence: pg no: 120, L10-L11)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not assign 'Y' unless ALL conditions represented by the code were present on admission (Evidence: pg no: 120, L8-L9)",
+      "Single condition not present on admission makes entire code POA 'N' (Evidence: pg no: 120, L10-L11)"
+    ],
+    "best_practices": [
+      "Carefully analyze each condition represented by a single code (Evidence: pg no: 120, L6-L7)",
+      "Document timing of each condition clearly (Evidence: pg no: 120, L8-L11)"
+    ],
+    "common_mistakes": [
+      "Assigning 'Y' when only some conditions were present on admission (Evidence: pg no: 120, L10-L11)",
+      "Not recognizing that single code represents multiple conditions (Evidence: pg no: 120, L6-L7)"
+    ],
+    "tips": [
+      "Review code descriptions to identify multiple conditions (Evidence: pg no: 120, L6-L7)",
+      "Use all-or-none approach for POA assignment (Evidence: pg no: 120, L8-L11)"
+    ],
+    "implementation_notes": [
+      "Applies to any single code representing multiple conditions",
+      "Timing of each individual condition must be assessed"
+    ],
+    "clinical_context": [
+      "Common with bilateral conditions",
+      "Frequent with traumatic complications"
+    ]
+  },
+  "search_keywords": [
+    "POA indicator",
+    "present on admission",
+    "multiple conditions",
+    "single diagnosis code",
+    "bilateral conditions",
+    "traumatic complications",
+    "same encounter"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "POA reporting",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "POA",
+      "multiple_conditions",
+      "single_code",
+      "bilateral",
+      "traumatic"
+    ]
+  },
+  "page_range_processed": "pages_120_to_121"
+}

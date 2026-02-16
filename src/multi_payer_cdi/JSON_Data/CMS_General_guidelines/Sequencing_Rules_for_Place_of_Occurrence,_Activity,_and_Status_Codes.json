@@ -1,0 +1,179 @@
+{
+  "guideline_id": "I.C.20.d",
+  "semantic_title": "Sequencing Rules for Place of Occurrence, Activity, and Status Codes",
+  "section_path": "Chapter 20: External Causes of Morbidity > d. Place of Occurrence, Activity, and Status Codes Used with other External Cause Code",
+  "page_number": 89,
+  "content": {
+    "full_text": "When applicable, place of occurrence, activity, and external cause status codes are sequenced after the main external cause code(s). Regardless of the number of external cause codes assigned, generally there should be only one place of occurrence code, one activity code, and one external cause status code assigned to an encounter. However, in the rare instance that a new injury occurs during hospitalization, an additional place of occurrence code may be assigned. (Evidence: pg no: 89, L60-L65)",
+    "summary": "Place of occurrence, activity, and status codes are sequenced after main external cause codes, with generally one of each type per encounter, except for new injuries during hospitalization (Evidence: pg no: 89, L60-L65)",
+    "key_concepts": [
+      "Sequence after main external cause codes (Evidence: pg no: 89, L62)",
+      "Generally one place of occurrence code per encounter (Evidence: pg no: 89, L63-L64)",
+      "Generally one activity code per encounter (Evidence: pg no: 89, L63-L64)",
+      "Generally one external cause status code per encounter (Evidence: pg no: 89, L63-L64)",
+      "Exception for new injuries during hospitalization (Evidence: pg no: 89, L64-L65)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "SEQ_PLACE_ACT_001",
+        "rule_text": "Place of occurrence, activity, and status codes sequenced after main external cause codes (Evidence: pg no: 89, L62)",
+        "explanation": "These supplementary external cause codes provide additional context and should be sequenced after the primary external cause codes that describe the actual cause and intent (Evidence: pg no: 89, L60-L62)",
+        "importance": "high",
+        "applies_to": "Place of occurrence, activity, and status codes",
+        "common_applications": [
+          "External cause code sequencing",
+          "Supplementary code placement",
+          "Complete external cause documentation"
+        ]
+      },
+      {
+        "rule_id": "SEQ_PLACE_ACT_002",
+        "rule_text": "Generally one each of place of occurrence, activity, and status codes per encounter (Evidence: pg no: 89, L63-L64)",
+        "explanation": "Regardless of how many main external cause codes are assigned, typically only one place, one activity, and one status code should be used per encounter (Evidence: pg no: 89, L63-L64)",
+        "importance": "high",
+        "applies_to": "All supplementary external cause codes",
+        "common_applications": [
+          "Code limitation guidelines",
+          "Encounter-specific coding",
+          "Supplementary code management"
+        ]
+      },
+      {
+        "rule_id": "SEQ_PLACE_ACT_003",
+        "rule_text": "Additional place of occurrence code may be assigned for new injury during hospitalization (Evidence: pg no: 89, L64-L65)",
+        "explanation": "The rare exception to the one-code rule occurs when a patient sustains a new injury while hospitalized, allowing for an additional place of occurrence code (Evidence: pg no: 89, L64-L65)",
+        "importance": "medium",
+        "applies_to": "Hospital-acquired injuries",
+        "common_applications": [
+          "Nosocomial injuries",
+          "Falls during hospitalization",
+          "New injuries in hospital setting"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Assign main external cause codes first",
+      "Step 2: Add place of occurrence code after main external cause codes",
+      "Step 3: Add activity code after place of occurrence",
+      "Step 4: Add status code after activity code",
+      "Step 5: Verify only one of each supplementary code type (except rare hospital injury exception)"
+    ],
+    "related_terminology": [
+      "Place of occurrence",
+      "Activity codes",
+      "External cause status",
+      "Main external cause codes",
+      "Sequencing",
+      "Hospitalization",
+      "New injury"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Place of occurrence, activity, and status codes",
+        "description": "Supplementary external cause codes for additional context (Evidence: pg no: 89, L60-L62)",
+        "requirement": "Sequence after main external cause codes",
+        "usage_rules": [
+          "One of each type per encounter generally (Evidence: pg no: 89, L63-L64)",
+          "Exception for new hospital injuries (Evidence: pg no: 89, L64-L65)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Place of occurrence codes",
+      "Activity codes",
+      "External cause status codes",
+      "Main external cause codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "SEQ_PLACE_001",
+      "scenario": "Patient falls off ladder at work while painting, sustains multiple injuries",
+      "documentation_example": "Employee fell from ladder while painting at construction site, sustained head injury and arm fracture",
+      "step_by_step": [
+        "Step 1: Code primary diagnoses (head injury, arm fracture)",
+        "Step 2: Code main external cause (fall from ladder)",
+        "Step 3: Code place of occurrence (construction site) after main external cause",
+        "Step 4: Code activity (painting) after place of occurrence",
+        "Step 5: Code status (employee) after activity code"
+      ],
+      "correct_coding": {
+        "primary_code": "Head injury code (principal diagnosis)",
+        "secondary_codes": [
+          "Arm fracture code",
+          "Fall from ladder external cause",
+          "Construction site place code",
+          "Painting activity code",
+          "Employee status code"
+        ],
+        "sequencing": "Diagnoses first, then main external cause, then place/activity/status",
+        "rationale": "Supplementary external cause codes sequenced after main external cause codes to provide complete context (Evidence: pg no: 89, L60-L62)"
+      },
+      "incorrect_coding": {
+        "code": "Place/activity/status codes before main external cause",
+        "codes": [
+          "Incorrect sequencing of supplementary codes"
+        ],
+        "rationale": "Supplementary codes must follow main external cause codes",
+        "common_mistake": "Incorrect sequencing of external cause code types"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Don't sequence supplementary codes before main external cause codes (Evidence: pg no: 89, L62)"
+    ],
+    "best_practices": [
+      "Use only one of each supplementary code type per encounter (Evidence: pg no: 89, L63-L64)",
+      "Sequence supplementary codes after main external cause codes (Evidence: pg no: 89, L62)"
+    ],
+    "common_mistakes": [
+      "Using multiple place/activity/status codes per encounter (Evidence: pg no: 89, L63-L64)",
+      "Incorrect sequencing of external cause code types (Evidence: pg no: 89, L62)"
+    ],
+    "tips": [
+      "Remember the exception for new hospital injuries (Evidence: pg no: 89, L64-L65)"
+    ],
+    "implementation_notes": [
+      "Sequencing provides logical flow from cause to context"
+    ],
+    "clinical_context": [
+      "Complete external cause documentation supports comprehensive injury analysis"
+    ]
+  },
+  "search_keywords": [
+    "external cause sequencing",
+    "place occurrence activity status",
+    "supplementary external cause codes",
+    "external cause code order",
+    "one of each type"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "external_causes",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "external_causes",
+      "sequencing",
+      "supplementary_codes",
+      "place_activity_status",
+      "chapter_20"
+    ]
+  },
+  "page_range_processed": "pages_87_to_90"
+}

@@ -1,0 +1,231 @@
+{
+  "guideline_id": "I.A.18",
+  "semantic_title": "Use of Sign/Symptom/Unspecified Codes - Acceptable Uses and Documentation Requirements",
+  "section_path": "Section I > A. Conventions > 18. Use of Sign/Symptom/Unspecified Codes",
+  "page_number": 17,
+  "content": {
+    "full_text": "Sign/symptom and \"unspecified\" codes have acceptable, even necessary, uses. While specific diagnosis codes should be reported when they are supported by the available medical record documentation and clinical knowledge of the patient's health condition, there are instances when signs/symptoms or unspecified codes are the best choices for accurately reflecting the healthcare encounter. Each healthcare encounter should be coded to the level of certainty known for that encounter. As stated in the introductory section of these official coding guidelines, a joint effort between the healthcare provider and the coder is essential to achieve complete and accurate documentation, code assignment, and reporting of diagnoses and procedures. The importance of consistent, complete documentation in the medical record cannot be overemphasized. Without such documentation accurate coding cannot be achieved. The entire record should be reviewed to determine the specific reason for the encounter and the conditions treated. If a definitive diagnosis has not been established by the end of the encounter, it is appropriate to report codes for sign(s) and/or symptom(s) in lieu of a definitive diagnosis. When sufficient clinical information isn't known or available about a particular health condition to assign a more specific code, it is acceptable to report the appropriate \"unspecified\" code (e.g., a diagnosis of pneumonia has been determined, but not the specific type). Unspecified codes should be reported when they are the codes that most accurately reflect what is known about the patient's condition at the time of that particular encounter. It would be inappropriate to select a specific code that is not supported by the medical record documentation or conduct medically unnecessary diagnostic testing in order to determine a more specific code. (Evidence: pg no: 17-18, L63-L68)",
+    "summary": "Establishes acceptable and necessary uses of sign/symptom and unspecified codes when specific diagnosis codes are not supported by documentation (Evidence: pg no: 17-18, L63-L68)",
+    "key_concepts": [
+      "Acceptable and necessary uses of sign/symptom codes (Evidence: pg no: 17, L63)",
+      "Coding to level of certainty known (Evidence: pg no: 17, L64)",
+      "Joint effort between provider and coder (Evidence: pg no: 17, L64-L65)",
+      "Complete documentation importance (Evidence: pg no: 17, L65-L66)",
+      "Entire record review requirement (Evidence: pg no: 17, L66)",
+      "Inappropriate to select unsupported specific codes (Evidence: pg no: 18, L66-L68)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.A.18.1",
+        "rule_text": "Sign/symptom and unspecified codes have acceptable, even necessary, uses (Evidence: pg no: 17, L63)",
+        "explanation": "These codes are not just acceptable but sometimes necessary when specific diagnosis codes are not supported by available documentation (Evidence: pg no: 17, L63)",
+        "importance": "high",
+        "applies_to": "sign_symptom_unspecified_codes",
+        "common_applications": [
+          "Encounters without definitive diagnosis",
+          "Insufficient clinical information",
+          "Symptom-based visits"
+        ]
+      },
+      {
+        "rule_id": "I.A.18.2",
+        "rule_text": "Each healthcare encounter should be coded to the level of certainty known for that encounter (Evidence: pg no: 17, L64)",
+        "explanation": "Coding should reflect the actual level of diagnostic certainty achieved during the specific encounter, not assumptions or possibilities (Evidence: pg no: 17, L64)",
+        "importance": "critical",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Initial visits with symptoms",
+          "Follow-up visits with evolving diagnoses",
+          "Emergency department encounters"
+        ]
+      },
+      {
+        "rule_id": "I.A.18.3",
+        "rule_text": "If a definitive diagnosis has not been established by the end of the encounter, it is appropriate to report codes for sign(s) and/or symptom(s) (Evidence: pg no: 17, L66)",
+        "explanation": "When no definitive diagnosis is reached, sign and symptom codes should be used instead of attempting to assign a specific diagnosis code (Evidence: pg no: 17, L66)",
+        "importance": "high",
+        "applies_to": "sign_symptom_codes",
+        "common_applications": [
+          "Diagnostic workup in progress",
+          "Symptom evaluation visits",
+          "Inconclusive test results"
+        ]
+      },
+      {
+        "rule_id": "I.A.18.4",
+        "rule_text": "When sufficient clinical information isn't known or available, it is acceptable to report the appropriate \"unspecified\" code (Evidence: pg no: 18, L66-L67)",
+        "explanation": "Unspecified codes are appropriate when a general diagnosis is established but specific details are not available or documented (Evidence: pg no: 18, L66-L67)",
+        "importance": "high",
+        "applies_to": "unspecified_codes",
+        "common_applications": [
+          "Pneumonia without specified organism",
+          "Fracture without specified details",
+          "Diabetes without specified type"
+        ]
+      },
+      {
+        "rule_id": "I.A.18.5",
+        "rule_text": "It would be inappropriate to select a specific code that is not supported by the medical record documentation (Evidence: pg no: 18, L66-L67)",
+        "explanation": "Coders should not assign specific codes when the documentation does not support that level of specificity (Evidence: pg no: 18, L66-L67)",
+        "importance": "critical",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Avoiding assumptions about diagnoses",
+          "Not upgrading unspecified to specific",
+          "Staying within documented parameters"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Review entire medical record for encounter",
+      "Step 2: Determine level of diagnostic certainty achieved",
+      "Step 3: Identify specific reason for encounter",
+      "Step 4: Check if definitive diagnosis was established",
+      "Step 5: If no definitive diagnosis, use sign/symptom codes",
+      "Step 6: If general diagnosis without specifics, use unspecified codes",
+      "Step 7: Ensure codes reflect actual documentation level"
+    ],
+    "related_terminology": [
+      "Sign codes",
+      "Symptom codes",
+      "Unspecified codes",
+      "Definitive diagnosis",
+      "Level of certainty",
+      "Clinical information",
+      "Medical record documentation",
+      "Healthcare encounter"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Sign and symptom codes",
+      "Unspecified diagnosis codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "I.A.18.S1",
+      "scenario": "Patient presents with chest pain, no definitive diagnosis established",
+      "documentation_example": "Chief complaint: Chest pain. Workup including EKG and chest X-ray normal. Diagnosis: Chest pain, cause undetermined.",
+      "step_by_step": [
+        "Step 1: Review documentation for definitive diagnosis",
+        "Step 2: No specific cardiac or pulmonary diagnosis established",
+        "Step 3: Chest pain is the documented finding",
+        "Step 4: Assign chest pain code as most accurate reflection"
+      ],
+      "correct_coding": {
+        "primary_code": "R07.9 (Chest pain, unspecified)",
+        "secondary_codes": [],
+        "sequencing": "Symptom code as primary",
+        "rationale": "No definitive diagnosis established, chest pain accurately reflects the encounter (Evidence: pg no: 17, L66)"
+      },
+      "incorrect_coding": {
+        "code": "I25.9 (Chronic ischemic heart disease, unspecified)",
+        "rationale": "Should not assign specific diagnosis not supported by documentation",
+        "common_mistake": "Assuming specific diagnosis when only symptoms are documented"
+      }
+    },
+    {
+      "scenario_id": "I.A.18.S2",
+      "scenario": "Patient diagnosed with pneumonia, organism not specified",
+      "documentation_example": "Diagnosis: Pneumonia. Chest X-ray shows infiltrate. Sputum culture pending.",
+      "step_by_step": [
+        "Step 1: Pneumonia diagnosis is established",
+        "Step 2: Specific organism not identified",
+        "Step 3: Sufficient information for pneumonia diagnosis but not specific type",
+        "Step 4: Use unspecified pneumonia code"
+      ],
+      "correct_coding": {
+        "primary_code": "J18.9 (Pneumonia, unspecified organism)",
+        "secondary_codes": [],
+        "sequencing": "Unspecified code appropriate",
+        "rationale": "Pneumonia diagnosed but specific type not available, unspecified code most accurate (Evidence: pg no: 18, L66-L67)"
+      },
+      "incorrect_coding": {
+        "code": "J15.9 (Unspecified bacterial pneumonia)",
+        "rationale": "Should not specify bacterial when organism type is not documented",
+        "common_mistake": "Adding specificity not supported by documentation"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "I.A.18.E1",
+      "scenario": "Pneumonia example with unspecified organism",
+      "code_example": "Pneumonia diagnosis established but specific type unknown",
+      "breakdown": {
+        "General diagnosis": "Pneumonia determined (Evidence: pg no: 18, L67)",
+        "Specific details": "Type not specified (Evidence: pg no: 18, L67)",
+        "Appropriate coding": "Unspecified pneumonia code (Evidence: pg no: 18, L67)"
+      },
+      "rationale": "When general diagnosis is established but specifics are unavailable, unspecified codes are appropriate (Evidence: pg no: 18, L66-L67)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not select specific codes not supported by documentation (Evidence: pg no: 18, L66-L67)",
+      "Do not conduct medically unnecessary testing for more specific codes (Evidence: pg no: 18, L67-L68)",
+      "Complete documentation is essential for accurate coding (Evidence: pg no: 17, L65-L66)"
+    ],
+    "best_practices": [
+      "Code to the level of certainty known for each encounter (Evidence: pg no: 17, L64)",
+      "Review entire record to determine encounter reason (Evidence: pg no: 17, L66)",
+      "Use sign/symptom codes when no definitive diagnosis (Evidence: pg no: 17, L66)",
+      "Joint effort between provider and coder is essential (Evidence: pg no: 17, L64-L65)"
+    ],
+    "common_mistakes": [
+      "Assuming specific diagnoses not documented",
+      "Avoiding unspecified codes when appropriate",
+      "Not reviewing complete medical record",
+      "Upgrading documentation beyond what is supported"
+    ],
+    "tips": [
+      "Unspecified codes are sometimes the most accurate choice",
+      "Sign/symptom codes are necessary when diagnosis is not established",
+      "Documentation level determines coding specificity"
+    ],
+    "implementation_notes": [
+      "Provider-coder collaboration improves documentation and coding accuracy",
+      "Complete record review is necessary for accurate coding"
+    ],
+    "clinical_context": [
+      "Diagnostic certainty varies by encounter type and clinical situation",
+      "Some encounters focus on symptom evaluation rather than diagnosis"
+    ]
+  },
+  "search_keywords": [
+    "sign symptom codes",
+    "unspecified codes",
+    "definitive diagnosis",
+    "level of certainty",
+    "medical record documentation",
+    "healthcare encounter",
+    "clinical information",
+    "diagnostic certainty",
+    "symptom evaluation"
+  ],
+  "metadata": {
+    "category": "convention",
+    "subcategory": "code_selection",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "signs_symptoms",
+      "unspecified_codes",
+      "documentation",
+      "diagnostic_certainty"
+    ]
+  },
+  "page_range_processed": "pages_15_to_18"
+}

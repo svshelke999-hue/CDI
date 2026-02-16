@@ -1,0 +1,217 @@
+{
+  "guideline_id": "I.C.2.e.2",
+  "semantic_title": "Patient Admission/Encounter Chiefly for Administration of Antineoplastic Therapy",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 2. Chapter 2: Neoplasms > e. Admissions/Encounters involving antineoplastic chemotherapy, immunotherapy and radiation therapy > 2) Patient admission/encounter chiefly for administration of antineoplastic chemotherapy, immunotherapy and radiation therapy",
+  "page_number": 35,
+  "content": {
+    "full_text": "If a patient admission/encounter is chiefly for the administration of chemotherapy, immunotherapy or external beam radiation therapy for the treatment of a neoplasm, assign code Z51.0, Encounter for antineoplastic radiation therapy, or Z51.11, Encounter for antineoplastic chemotherapy, or Z51.12, Encounter for antineoplastic immunotherapy as the first-listed or principal diagnosis. If the reason for the encounter is more than one type of antineoplastic therapy, code Z51.0 and codes from subcategory Z51.1 may be assigned together, in which case one of these codes would be reported as a secondary diagnosis. The malignancy for which the therapy is being administered should be assigned as a secondary diagnosis. If a patient admission/encounter is for the insertion or implantation of radioactive elements (e.g., brachytherapy) the appropriate code for the malignancy is sequenced as the principal or first-listed diagnosis. Code Z51.0 should not be assigned. (Evidence: pg no: 35, L59-L68)",
+    "summary": "Guidelines for coding encounters primarily for antineoplastic therapy administration with specific Z51 codes (Evidence: pg no: 35, L59-L68)",
+    "key_concepts": [
+      "Encounter chiefly for antineoplastic therapy (Evidence: pg no: 35, L61-L63)",
+      "Specific Z51 codes for different therapies (Evidence: pg no: 35, L63-L66)",
+      "Multiple therapy types may be coded together (Evidence: pg no: 35, L66-L67)",
+      "Malignancy as secondary diagnosis (Evidence: pg no: 35, L68)",
+      "Brachytherapy exception (Evidence: pg no: 35, L68)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "antineoplastic_therapy_z51_codes",
+        "rule_text": "Use Z51.0, Z51.11, or Z51.12 as principal diagnosis for encounters chiefly for antineoplastic therapy (Evidence: pg no: 35, L63-L66)",
+        "explanation": "When the primary reason for admission/encounter is administration of chemotherapy, immunotherapy, or external beam radiation, the appropriate Z51 code should be the principal or first-listed diagnosis (Evidence: pg no: 35, L61-L66)",
+        "importance": "critical",
+        "applies_to": "encounters primarily for antineoplastic therapy",
+        "common_applications": [
+          "Patient admitted for chemotherapy infusion",
+          "Outpatient encounter for radiation therapy",
+          "Patient receiving immunotherapy treatment"
+        ]
+      },
+      {
+        "rule_id": "multiple_therapy_coding",
+        "rule_text": "For multiple therapy types, Z51.0 and Z51.1 codes may be assigned together with one as secondary (Evidence: pg no: 35, L66-L67)",
+        "explanation": "When encounter involves more than one type of antineoplastic therapy, multiple Z51 codes can be used with appropriate sequencing (Evidence: pg no: 35, L66-L67)",
+        "importance": "high",
+        "applies_to": "encounters with multiple antineoplastic therapies",
+        "common_applications": [
+          "Patient receiving both chemotherapy and radiation on same day"
+        ]
+      },
+      {
+        "rule_id": "brachytherapy_exception",
+        "rule_text": "For brachytherapy insertion/implantation, malignancy code is principal, do not assign Z51.0 (Evidence: pg no: 35, L68)",
+        "explanation": "Brachytherapy procedures are coded differently - the malignancy is principal diagnosis and Z51.0 should not be used (Evidence: pg no: 35, L68)",
+        "importance": "critical",
+        "applies_to": "brachytherapy procedures",
+        "common_applications": [
+          "Insertion of radioactive seeds",
+          "Implantation of radioactive elements"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if encounter is chiefly for antineoplastic therapy",
+      "Step 2: Identify type of therapy (chemo, immuno, external beam radiation, or brachytherapy)",
+      "Step 3: For external therapies, use appropriate Z51 code as principal",
+      "Step 4: For brachytherapy, use malignancy code as principal",
+      "Step 5: Assign malignancy as secondary diagnosis (except brachytherapy)",
+      "Step 6: For multiple therapies, consider using multiple Z51 codes"
+    ],
+    "related_terminology": [
+      "Antineoplastic therapy",
+      "Chemotherapy",
+      "Immunotherapy",
+      "External beam radiation",
+      "Brachytherapy",
+      "Radioactive elements"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z51.0",
+        "description": "Encounter for antineoplastic radiation therapy (Evidence: pg no: 35, L63-L64)",
+        "requirement": "Use as principal for external beam radiation encounters",
+        "usage_rules": [
+          "Do not use for brachytherapy procedures (Evidence: pg no: 35, L68)",
+          "May be used with Z51.1 codes for multiple therapies (Evidence: pg no: 35, L66-L67)"
+        ]
+      },
+      {
+        "range": "Z51.1",
+        "description": "Encounter for antineoplastic chemotherapy and immunotherapy subcategory (Evidence: pg no: 35, L64-L66)",
+        "requirement": "Use specific codes Z51.11 or Z51.12 as appropriate",
+        "usage_rules": [
+          "May be used with Z51.0 for multiple therapies (Evidence: pg no: 35, L66-L67)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "Z51.0",
+        "description": "Encounter for antineoplastic radiation therapy (Evidence: pg no: 35, L63-L64)",
+        "context": "Use for external beam radiation therapy encounters",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "Z51": "Encounter for other aftercare",
+          "0": "Antineoplastic radiation therapy"
+        }
+      },
+      {
+        "code": "Z51.11",
+        "description": "Encounter for antineoplastic chemotherapy (Evidence: pg no: 35, L64-L65)",
+        "context": "Use for chemotherapy administration encounters",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "Z51": "Encounter for other aftercare",
+          "11": "Antineoplastic chemotherapy"
+        }
+      },
+      {
+        "code": "Z51.12",
+        "description": "Encounter for antineoplastic immunotherapy (Evidence: pg no: 35, L65-L66)",
+        "context": "Use for immunotherapy administration encounters",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "Z51": "Encounter for other aftercare",
+          "12": "Antineoplastic immunotherapy"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Encounter for antineoplastic therapy",
+      "Malignant neoplasms"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.2.e",
+        "title": "Admissions/Encounters involving antineoplastic chemotherapy, immunotherapy and radiation therapy",
+        "relationship": "implements",
+        "explanation": "Specific implementation of antineoplastic therapy encounter guidelines"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "chemotherapy_encounter",
+      "scenario": "Patient with lung cancer admitted for chemotherapy infusion",
+      "documentation_example": "Patient with lung adenocarcinoma admitted for scheduled chemotherapy infusion",
+      "step_by_step": [
+        "Step 1: Identify encounter is chiefly for chemotherapy",
+        "Step 2: Assign Z51.11 as principal diagnosis",
+        "Step 3: Assign lung cancer as secondary diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "Z51.11 (Encounter for antineoplastic chemotherapy)",
+        "secondary_codes": [
+          "C78.00 (Secondary malignant neoplasm of unspecified lung)"
+        ],
+        "sequencing": "Z51.11 first, malignancy second",
+        "rationale": "Encounter chiefly for chemotherapy administration requires Z51.11 as principal (Evidence: pg no: 35, L63-L65)"
+      },
+      "incorrect_coding": {
+        "code": "C78.00 as principal",
+        "codes": [
+          "Lung cancer as principal diagnosis"
+        ],
+        "rationale": "When encounter is chiefly for therapy administration, Z51 code should be principal",
+        "common_mistake": "Sequencing malignancy first when encounter is primarily for treatment administration"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not use Z51.0 for brachytherapy procedures (Evidence: pg no: 35, L68)",
+      "Malignancy should be secondary diagnosis for external therapies (Evidence: pg no: 35, L68)"
+    ],
+    "best_practices": [
+      "Use specific Z51 codes based on type of therapy (Evidence: pg no: 35, L63-L66)",
+      "Consider multiple Z51 codes for multiple therapy types (Evidence: pg no: 35, L66-L67)"
+    ],
+    "common_mistakes": [
+      "Using malignancy as principal when encounter is chiefly for therapy (Evidence: pg no: 35, L63-L68)",
+      "Using Z51.0 for brachytherapy procedures (Evidence: pg no: 35, L68)"
+    ],
+    "tips": [
+      "Brachytherapy is coded differently than external beam radiation (Evidence: pg no: 35, L68)",
+      "Focus on the chief reason for the encounter (Evidence: pg no: 35, L61-L63)"
+    ],
+    "implementation_notes": [
+      "This guideline distinguishes between different types of radiation therapy"
+    ],
+    "clinical_context": [
+      "Common in oncology for treatment administration encounters"
+    ]
+  },
+  "search_keywords": [
+    "Z51.0 radiation therapy",
+    "Z51.11 chemotherapy",
+    "Z51.12 immunotherapy",
+    "antineoplastic therapy encounter",
+    "brachytherapy coding",
+    "cancer treatment encounter"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "neoplasms",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "neoplasms",
+      "Z51_codes",
+      "chemotherapy",
+      "radiation_therapy",
+      "immunotherapy"
+    ]
+  },
+  "page_range_processed": "pages_33_to_36"
+}

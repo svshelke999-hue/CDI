@@ -1,0 +1,165 @@
+{
+  "guideline_id": "I.C.12.a.7",
+  "semantic_title": "Pressure-Induced Deep Tissue Damage Coding Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 12. Chapter 12: Diseases of the Skin and Subcutaneous Tissue > a. Pressure ulcer stage codes > 7) Pressure-induced deep tissue damage",
+  "page_number": 60,
+  "content": {
+    "full_text": "For pressure-induced deep tissue damage or deep tissue pressure injury, assign only the appropriate code for pressure-induced deep tissue damage (L89.--6). (Evidence: pg no: 60, L56-L58)",
+    "summary": "Specific coding guideline for pressure-induced deep tissue damage using only the L89.--6 code designation (Evidence: pg no: 60, L56-L58)",
+    "key_concepts": [
+      "Deep tissue pressure injury coding (Evidence: pg no: 60, L57)",
+      "L89.--6 code designation (Evidence: pg no: 60, L58)",
+      "Single code assignment (Evidence: pg no: 60, L56, L58)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "DEEP_TISSUE_DAMAGE_001",
+        "rule_text": "Assign only L89.--6 code for pressure-induced deep tissue damage (Evidence: pg no: 60, L58)",
+        "explanation": "For pressure-induced deep tissue damage or deep tissue pressure injury, use only the specific deep tissue damage code with the --6 designation (Evidence: pg no: 60, L56-L58)",
+        "importance": "critical",
+        "applies_to": "L89.--6",
+        "common_applications": [
+          "Deep tissue pressure injury",
+          "Pressure-induced deep tissue damage",
+          "Suspected deep tissue injury"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify pressure-induced deep tissue damage",
+      "Step 2: Determine anatomical site",
+      "Step 3: Assign appropriate L89.--6 code for site",
+      "Step 4: Do not assign additional pressure ulcer codes"
+    ],
+    "related_terminology": [
+      "Deep tissue pressure injury",
+      "Pressure-induced deep tissue damage",
+      "Deep tissue injury"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "L89.--6",
+        "description": "Pressure-induced deep tissue damage codes (Evidence: pg no: 60, L58)",
+        "context": "For deep tissue pressure injury",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "L89": "Pressure ulcer category",
+          "--": "Site designation",
+          "6": "Deep tissue damage"
+        }
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": "L89.--6",
+        "description": "Deep tissue damage coding pattern (Evidence: pg no: 60, L58)",
+        "example": "L89.156 for sacral deep tissue damage",
+        "explanation": "Site-specific deep tissue damage coding"
+      }
+    ],
+    "code_categories_mentioned": []
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "DEEP_TISSUE_DAMAGE_001",
+      "scenario": "Patient with deep tissue pressure injury of sacrum",
+      "documentation_example": "Patient has pressure-induced deep tissue damage of sacrum with purple discoloration.",
+      "step_by_step": [
+        "Step 1: Identify deep tissue pressure injury",
+        "Step 2: Note location (sacrum)",
+        "Step 3: Assign L89.156 for sacral deep tissue damage",
+        "Step 4: Do not assign additional pressure ulcer codes"
+      ],
+      "correct_coding": {
+        "primary_code": "L89.156",
+        "secondary_codes": [],
+        "sequencing": "Single code for deep tissue damage",
+        "rationale": "Deep tissue damage requires only the specific L89.--6 code (Evidence: pg no: 60, L58)"
+      },
+      "incorrect_coding": {
+        "code": "L89.153",
+        "codes": [
+          "Other stage codes"
+        ],
+        "rationale": "Should use specific deep tissue damage code, not other stage codes",
+        "common_mistake": "Using regular stage codes for deep tissue injury"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "DEEP_TISSUE_EXAMPLE_001",
+      "scenario": "Deep tissue pressure injury coding",
+      "code_example": "L89.--6",
+      "breakdown": {
+        "L89": "Pressure ulcer category (Evidence: pg no: 60, L58)",
+        "--": "Site-specific designation",
+        "6": "Deep tissue damage designation (Evidence: pg no: 60, L58)"
+      },
+      "rationale": "Specific code designation for deep tissue pressure injuries (Evidence: pg no: 60, L56-L58)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Assign only the L89.--6 code for deep tissue damage (Evidence: pg no: 60, L58)"
+    ],
+    "best_practices": [
+      "Use specific deep tissue damage codes",
+      "Do not assign additional pressure ulcer stage codes",
+      "Identify anatomical site for proper code selection"
+    ],
+    "common_mistakes": [
+      "Using regular stage codes for deep tissue injury",
+      "Assigning multiple pressure ulcer codes",
+      "Confusing with other pressure ulcer stages"
+    ],
+    "tips": [
+      "Look for documentation of deep tissue injury",
+      "Use --6 designation for deep tissue damage",
+      "Single code assignment for this condition"
+    ],
+    "implementation_notes": [
+      "Requires recognition of deep tissue injury",
+      "Distinct from other pressure ulcer stages"
+    ],
+    "clinical_context": [
+      "Deep tissue injury may not be immediately apparent",
+      "Often presents with purple or maroon discoloration",
+      "Represents damage to underlying tissue"
+    ]
+  },
+  "search_keywords": [
+    "deep tissue pressure injury",
+    "pressure induced deep tissue damage",
+    "L89.--6",
+    "deep tissue damage",
+    "pressure injury",
+    "deep tissue ulcer"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "skin_pressure_ulcers_deep_tissue",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "pressure ulcer",
+      "deep tissue",
+      "L89",
+      "pressure injury",
+      "tissue damage"
+    ]
+  },
+  "page_range_processed": "pages_57_to_60"
+}

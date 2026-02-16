@@ -1,0 +1,186 @@
+{
+  "guideline_id": "II.C",
+  "semantic_title": "Two or More Diagnoses Equally Meeting Principal Diagnosis Definition - Equal Criteria Sequencing Rules",
+  "section_path": "Section II > Selection of Principal Diagnosis > C. Two or more diagnoses that equally meet the definition for principal diagnosis",
+  "page_number": 108,
+  "content": {
+    "full_text": "In the unusual instance when two or more diagnoses equally meet the criteria for principal diagnosis as determined by the circumstances of admission, diagnostic workup and/or therapy provided, and the Alphabetic Index, Tabular List, or another coding guidelines does not provide sequencing direction, any one of the diagnoses may be sequenced first. (Evidence: pg no: 108, L109-L111)",
+    "summary": "Guidelines for rare situations where multiple diagnoses equally meet principal diagnosis criteria and no specific sequencing guidance exists (Evidence: pg no: 108, L109-L111)",
+    "key_concepts": [
+      "Unusual instance of truly equal principal diagnosis criteria (Evidence: pg no: 108, L109-L110)",
+      "Equality determined by admission circumstances, workup, and therapy (Evidence: pg no: 108, L110)",
+      "No sequencing direction from coding resources (Evidence: pg no: 108, L110-L111)",
+      "Any diagnosis may be sequenced first in such cases (Evidence: pg no: 108, L111)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "EQUAL_CRITERIA_RARE",
+        "rule_text": "Unusual instance when diagnoses equally meet principal diagnosis criteria (Evidence: pg no: 108, L109-L110)",
+        "explanation": "This situation is rare and requires that multiple diagnoses truly meet the principal diagnosis definition equally based on all clinical factors (Evidence: pg no: 108, L109-L110)",
+        "importance": "high",
+        "applies_to": "equal_principal_diagnoses",
+        "common_applications": [
+          "Complex multi-system presentations",
+          "Simultaneous acute conditions",
+          "Equally significant conditions"
+        ]
+      },
+      {
+        "rule_id": "EQUAL_DETERMINATION_FACTORS",
+        "rule_text": "Equality determined by admission circumstances, diagnostic workup, and therapy provided (Evidence: pg no: 108, L110)",
+        "explanation": "All clinical factors must support equal significance of the diagnoses for principal diagnosis consideration (Evidence: pg no: 108, L110)",
+        "importance": "critical",
+        "applies_to": "equal_principal_diagnoses",
+        "common_applications": [
+          "Clinical assessment",
+          "Treatment planning",
+          "Resource utilization"
+        ]
+      },
+      {
+        "rule_id": "NO_SEQUENCING_GUIDANCE",
+        "rule_text": "Alphabetic Index, Tabular List, or coding guidelines provide no sequencing direction (Evidence: pg no: 108, L110-L111)",
+        "explanation": "This rule only applies when official coding resources do not provide specific guidance on sequencing (Evidence: pg no: 108, L110-L111)",
+        "importance": "critical",
+        "applies_to": "equal_principal_diagnoses",
+        "common_applications": [
+          "Coding manual consultation",
+          "Guideline review",
+          "Official guidance verification"
+        ]
+      },
+      {
+        "rule_id": "ANY_FIRST_SEQUENCING",
+        "rule_text": "Any one of the diagnoses may be sequenced first (Evidence: pg no: 108, L111)",
+        "explanation": "When all criteria are met for equal consideration, the coder has flexibility in sequencing choice (Evidence: pg no: 108, L111)",
+        "importance": "high",
+        "applies_to": "equal_principal_diagnoses",
+        "common_applications": [
+          "Coding decision making",
+          "Documentation support",
+          "Quality review"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify multiple diagnoses potentially meeting principal diagnosis criteria",
+      "Step 2: Evaluate admission circumstances for each diagnosis",
+      "Step 3: Review diagnostic workup significance for each condition",
+      "Step 4: Assess therapy provided for each condition",
+      "Step 5: Consult Alphabetic Index and Tabular List for sequencing guidance",
+      "Step 6: Review coding guidelines for specific direction",
+      "Step 7: If truly equal and no guidance exists, select any diagnosis as principal"
+    ],
+    "related_terminology": [
+      "Equal criteria",
+      "Principal diagnosis definition",
+      "Admission circumstances",
+      "Diagnostic workup",
+      "Therapy provided",
+      "Sequencing direction",
+      "Unusual instance"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Any diagnostic codes that could equally meet principal diagnosis criteria"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "EQUAL_CRITERIA_EXAMPLE",
+      "scenario": "Patient admitted with simultaneous acute myocardial infarction and acute stroke, both requiring equal intensive treatment",
+      "documentation_example": "Patient found down, brought to ED. Simultaneous acute MI and acute stroke diagnosed. Equal intensive treatment provided for both conditions with cardiology and neurology teams.",
+      "step_by_step": [
+        "Step 1: Identify conditions (acute MI, acute stroke)",
+        "Step 2: Evaluate admission circumstances (both conditions prompted admission)",
+        "Step 3: Review diagnostic workup (equal significance for both)",
+        "Step 4: Assess therapy (intensive treatment for both)",
+        "Step 5: Check coding guidance (no specific sequencing direction)",
+        "Step 6: Apply equal criteria rule - either may be principal"
+      ],
+      "correct_coding": {
+        "primary_code": "I21.9 or I63.9",
+        "secondary_codes": [
+          "I63.9 or I21.9"
+        ],
+        "sequencing": "Either condition may be principal diagnosis",
+        "rationale": "Both conditions equally meet principal diagnosis criteria with no specific sequencing guidance (Evidence: pg no: 108, L109-L111)"
+      },
+      "incorrect_coding": {
+        "code": "R57.0",
+        "codes": [
+          "R57.0"
+        ],
+        "rationale": "Should not use symptom code when definitive diagnoses established",
+        "common_mistake": "Not recognizing when conditions truly meet equal criteria"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "This is an unusual instance - most cases have clear sequencing guidance (Evidence: pg no: 108, L109)",
+      "Must verify no sequencing direction exists in coding resources (Evidence: pg no: 108, L110-L111)",
+      "All clinical factors must support true equality (Evidence: pg no: 108, L110)"
+    ],
+    "best_practices": [
+      "Thoroughly review all coding resources before applying this rule",
+      "Document rationale for sequencing decision",
+      "Ensure clinical factors truly support equal significance"
+    ],
+    "common_mistakes": [
+      "Applying this rule when specific guidance exists",
+      "Not thoroughly evaluating clinical factors for equality",
+      "Using this rule too frequently when other guidelines apply"
+    ],
+    "tips": [
+      "This rule should be used sparingly - most cases have clear guidance",
+      "Consider consulting with clinical staff for complex cases",
+      "Document the reasoning for equal criteria determination"
+    ],
+    "implementation_notes": [
+      "Requires thorough clinical and coding knowledge",
+      "May need supervisor consultation for complex cases",
+      "Important for quality assurance documentation"
+    ],
+    "clinical_context": [
+      "Complex multi-system conditions",
+      "Simultaneous acute events",
+      "Equally significant medical conditions",
+      "Rare clinical presentations"
+    ]
+  },
+  "search_keywords": [
+    "equal criteria",
+    "equal principal diagnosis",
+    "unusual instance",
+    "sequencing flexibility",
+    "multiple diagnoses",
+    "no sequencing guidance"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "principal_diagnosis_sequencing",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "equal_criteria",
+      "sequencing",
+      "unusual_instance",
+      "flexibility"
+    ]
+  },
+  "page_range_processed": "pages_105_to_108"
+}

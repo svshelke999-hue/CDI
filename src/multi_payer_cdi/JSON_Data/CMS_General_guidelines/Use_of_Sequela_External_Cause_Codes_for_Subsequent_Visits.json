@@ -1,0 +1,159 @@
+{
+  "guideline_id": "I.C.20.i.3",
+  "semantic_title": "Use of Sequela External Cause Codes for Subsequent Visits",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 20. Chapter 20: External Causes of Morbidity > i. Sequelae (Late Effects) of External Cause Guidelines > 3) Use of sequela external cause codes for subsequent visits",
+  "page_number": 91,
+  "content": {
+    "full_text": "Use a late effect external cause code for subsequent visits when a late effect of the initial injury is being treated. Do not use a late effect external cause code for subsequent visits for follow-up care (e.g., to assess healing, to receive rehabilitative therapy) of the injury when no late effect of the injury has been documented. (Evidence: pg no: 91, L35-L36)",
+    "summary": "Guidelines for when to use sequela external cause codes during subsequent visits based on treatment purpose (Evidence: pg no: 91, L35-L36)",
+    "key_concepts": [
+      "Use for subsequent visits treating late effects (Evidence: pg no: 91, L35)",
+      "Do not use for routine follow-up care (Evidence: pg no: 91, L35-L36)",
+      "Distinction between late effect treatment and healing assessment (Evidence: pg no: 91, L35-L36)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "sequela_subsequent_visit_treatment",
+        "rule_text": "Use late effect external cause code when treating late effect during subsequent visit (Evidence: pg no: 91, L35)",
+        "explanation": "When a patient returns for treatment of a documented late effect or sequela of the original injury, use the sequela external cause code (Evidence: pg no: 91, L35)",
+        "importance": "high",
+        "applies_to": "subsequent visits for late effect treatment",
+        "common_applications": [
+          "Treatment of chronic conditions from old injuries",
+          "Management of long-term complications"
+        ]
+      },
+      {
+        "rule_id": "sequela_followup_prohibition",
+        "rule_text": "Do not use late effect external cause code for routine follow-up care (Evidence: pg no: 91, L35-L36)",
+        "explanation": "For subsequent visits that are for routine follow-up, healing assessment, or rehabilitative therapy without documented late effects, do not use sequela external cause codes (Evidence: pg no: 91, L35-L36)",
+        "importance": "high",
+        "applies_to": "routine follow-up visits",
+        "common_applications": [
+          "Healing assessment visits",
+          "Routine rehabilitation therapy",
+          "Post-operative follow-up"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine purpose of subsequent visit",
+      "Step 2: If treating documented late effect, use sequela external cause code",
+      "Step 3: If routine follow-up without late effect, do not use sequela code",
+      "Step 4: Document distinction clearly"
+    ],
+    "related_terminology": [
+      "Subsequent visits",
+      "Late effects",
+      "Follow-up care",
+      "Rehabilitative therapy",
+      "Healing assessment"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Late effect external cause codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "late_effect_subsequent_visit",
+      "scenario": "Patient returns for treatment of chronic pain from old injury",
+      "documentation_example": "Follow-up visit for chronic back pain, late effect of motor vehicle accident",
+      "step_by_step": [
+        "Step 1: Identify visit is for treating late effect",
+        "Step 2: Code the chronic condition being treated",
+        "Step 3: Use sequela external cause code with 7th character 'S'"
+      ],
+      "correct_coding": {
+        "primary_code": "Chronic pain code",
+        "secondary_codes": [
+          "Sequela external cause code"
+        ],
+        "sequencing": "Current condition first, sequela external cause second",
+        "rationale": "Treating documented late effect during subsequent visit (Evidence: pg no: 91, L35)"
+      },
+      "incorrect_coding": {
+        "code": "Sequela external cause for routine follow-up",
+        "codes": [],
+        "rationale": "Should not use for routine follow-up without late effect",
+        "common_mistake": "Using sequela codes for all subsequent visits"
+      }
+    },
+    {
+      "scenario_id": "routine_followup_visit",
+      "scenario": "Patient returns for routine healing check after fracture",
+      "documentation_example": "Follow-up visit to assess fracture healing, no complications",
+      "step_by_step": [
+        "Step 1: Identify this as routine follow-up",
+        "Step 2: Note no late effects documented",
+        "Step 3: Do not use sequela external cause code",
+        "Step 4: Use appropriate follow-up codes"
+      ],
+      "correct_coding": {
+        "primary_code": "Follow-up examination code",
+        "secondary_codes": [],
+        "sequencing": "Standard follow-up sequencing",
+        "rationale": "Routine follow-up without documented late effects (Evidence: pg no: 91, L35-L36)"
+      },
+      "incorrect_coding": {
+        "code": "Sequela external cause code",
+        "codes": [],
+        "rationale": "Should not use sequela code for routine follow-up",
+        "common_mistake": "Using sequela codes for all post-injury visits"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not use sequela codes for routine follow-up without documented late effects (Evidence: pg no: 91, L35-L36)"
+    ],
+    "best_practices": [
+      "Distinguish between late effect treatment and routine follow-up (Evidence: pg no: 91, L35-L36)",
+      "Use sequela codes only when treating documented late effects (Evidence: pg no: 91, L35)"
+    ],
+    "common_mistakes": [
+      "Using sequela codes for all subsequent visits regardless of purpose (Evidence: pg no: 91, L35-L36)"
+    ],
+    "tips": [
+      "Look for documentation of late effects vs routine care (Evidence: pg no: 91, L35-L36)"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Healing assessment visits",
+      "Rehabilitative therapy sessions"
+    ]
+  },
+  "search_keywords": [
+    "subsequent visits",
+    "late effect treatment",
+    "follow-up care",
+    "sequela external cause",
+    "routine follow-up"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "external_causes",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "external_causes",
+      "subsequent_visits",
+      "late_effects",
+      "follow_up"
+    ]
+  },
+  "page_range_processed": "pages_90_to_93"
+}

@@ -1,0 +1,152 @@
+{
+  "guideline_id": "I.C.19.d.2",
+  "semantic_title": "Burns of the Same Anatomic Site - Highest Degree Classification Rule",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 19. Injury, Poisoning, and Certain Other Consequences of External Causes > d. Coding of Burns and Corrosions > 2) Burns of the same anatomic site",
+  "page_number": 81,
+  "content": {
+    "full_text": "Classify burns of the same anatomic site and on the same side but of different degrees to the subcategory identifying the highest degree recorded in the diagnosis (e.g., for second and third degree burns of right thigh, assign only code T24.311-). (Evidence: pg no: 81, L79-L80)",
+    "summary": "Rule for coding burns of the same anatomical site with different degrees, requiring assignment of only the highest degree code (Evidence: pg no: 81, L79-L80)",
+    "key_concepts": [
+      "Same anatomic site burn coding (Evidence: pg no: 81, L79-L80)",
+      "Highest degree classification priority (Evidence: pg no: 81, L80)",
+      "Single code assignment for mixed degree burns (Evidence: pg no: 81, L80)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "same_site_highest_degree",
+        "rule_text": "Classify burns of the same anatomic site and on the same side but of different degrees to the subcategory identifying the highest degree recorded in the diagnosis (Evidence: pg no: 81, L79-L80)",
+        "explanation": "When multiple degrees of burns affect the same anatomical location, only code the highest degree present (Evidence: pg no: 81, L79-L80)",
+        "importance": "critical",
+        "applies_to": "same_site_burns",
+        "common_applications": [
+          "Mixed degree burns on same body part",
+          "Complex burn patterns",
+          "Single site multiple severity burns"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify all burns on the same anatomical site",
+      "Step 2: Determine degrees of all burns at that site",
+      "Step 3: Identify the highest degree present",
+      "Step 4: Assign only the code for the highest degree",
+      "Step 5: Do not assign additional codes for lower degrees at same site"
+    ],
+    "related_terminology": [
+      "Same anatomic site",
+      "Mixed degree burns",
+      "Highest degree",
+      "Single code assignment"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "T24.311-",
+        "description": "Example code for third-degree burn of right thigh (Evidence: pg no: 81, L80)",
+        "context": "Used when both second and third degree burns affect right thigh",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "T24": "Burn of hip and lower limb",
+          "3": "Third degree",
+          "1": "Right side"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Same site burn codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "mixed_degree_same_site",
+      "scenario": "Patient with both second and third degree burns of right thigh",
+      "documentation_example": "Second and third degree burns of right thigh",
+      "step_by_step": [
+        "Step 1: Identify burns are on same anatomical site (right thigh)",
+        "Step 2: Identify degrees present (second and third)",
+        "Step 3: Determine highest degree (third degree)",
+        "Step 4: Assign only third-degree burn code"
+      ],
+      "correct_coding": {
+        "primary_code": "T24.311- (third-degree burn of right thigh)",
+        "secondary_codes": [],
+        "sequencing": "Single code for highest degree only",
+        "rationale": "Same anatomical site with different degrees requires only highest degree code (Evidence: pg no: 81, L79-L80)"
+      },
+      "incorrect_coding": {
+        "code": "T24.211- + T24.311-",
+        "codes": [
+          "Both second and third degree codes"
+        ],
+        "rationale": "Should not code both degrees for same anatomical site",
+        "common_mistake": "Coding all degrees present instead of highest degree only"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "thigh_burn_example",
+      "scenario": "Second and third degree burns of right thigh",
+      "code_example": "T24.311-",
+      "breakdown": {
+        "T24": "Burn of hip and lower limb (Evidence: pg no: 81, L80)",
+        "3": "Third degree (Evidence: pg no: 81, L80)",
+        "11": "Right thigh (Evidence: pg no: 81, L80)"
+      },
+      "rationale": "Only the highest degree (third) is coded when multiple degrees affect same site (Evidence: pg no: 81, L79-L80)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not assign multiple codes for different degrees at the same anatomical site (Evidence: pg no: 81, L79-L80)"
+    ],
+    "best_practices": [
+      "Always identify the highest degree when multiple degrees affect same site (Evidence: pg no: 81, L79-L80)"
+    ],
+    "common_mistakes": [
+      "Coding all degrees present instead of highest degree only (Evidence: pg no: 81, L79-L80)"
+    ],
+    "tips": [
+      "Focus on highest degree for same anatomical site coding (Evidence: pg no: 81, L80)"
+    ],
+    "implementation_notes": [
+      "Requires careful assessment of burn patterns and degrees"
+    ],
+    "clinical_context": [
+      "Common in complex burn injuries with varying depths"
+    ]
+  },
+  "search_keywords": [
+    "same anatomic site",
+    "mixed degree burns",
+    "highest degree",
+    "single code assignment",
+    "burn classification",
+    "T24.311"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "burn_coding",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "burns",
+      "same_site",
+      "degree_classification",
+      "single_coding"
+    ]
+  },
+  "page_range_processed": "pages_78_to_81"
+}

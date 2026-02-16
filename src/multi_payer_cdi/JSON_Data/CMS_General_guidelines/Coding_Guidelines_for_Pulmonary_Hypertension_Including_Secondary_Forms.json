@@ -1,0 +1,191 @@
+{
+  "guideline_id": "I.C.9.a.11",
+  "semantic_title": "Coding Guidelines for Pulmonary Hypertension Including Secondary Forms",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 9. Diseases of the Circulatory System > a. Hypertension > 11) Pulmonary Hypertension",
+  "page_number": 52,
+  "content": {
+    "full_text": "Pulmonary hypertension is classified to category I27, Other pulmonary heart diseases. For secondary pulmonary hypertension (I27.1, I27.2-), code also any associated conditions or adverse effects of drugs or toxins. The sequencing is based on the reason for the encounter, except for adverse effects of drugs (See Section I.C.19.e.). (Evidence: pg no: 52, L44-L46)",
+    "summary": "Guidelines for coding pulmonary hypertension with special instructions for secondary forms and associated conditions (Evidence: pg no: 52, L44-L46)",
+    "key_concepts": [
+      "Pulmonary hypertension classification (Evidence: pg no: 52, L44-L45)",
+      "Category I27 usage (Evidence: pg no: 52, L44-L45)",
+      "Secondary pulmonary hypertension coding (Evidence: pg no: 52, L45)",
+      "Associated conditions coding (Evidence: pg no: 52, L45-L46)",
+      "Sequencing rules (Evidence: pg no: 52, L46)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "PULM_HTN_001",
+        "rule_text": "Classify pulmonary hypertension to category I27 (Evidence: pg no: 52, L44-L45)",
+        "explanation": "Pulmonary hypertension is classified under category I27, Other pulmonary heart diseases, not with systemic hypertension codes (Evidence: pg no: 52, L44-L45)",
+        "importance": "critical",
+        "applies_to": "I27",
+        "common_applications": [
+          "Primary pulmonary hypertension",
+          "Pulmonary arterial hypertension"
+        ]
+      },
+      {
+        "rule_id": "PULM_HTN_002",
+        "rule_text": "Code associated conditions for secondary pulmonary hypertension (Evidence: pg no: 52, L45-L46)",
+        "explanation": "For secondary pulmonary hypertension (I27.1, I27.2-), also code any associated conditions or adverse effects of drugs or toxins (Evidence: pg no: 52, L45-L46)",
+        "importance": "high",
+        "applies_to": "I27.1, I27.2-",
+        "common_applications": [
+          "Drug-induced pulmonary hypertension",
+          "Pulmonary hypertension due to lung disease"
+        ]
+      },
+      {
+        "rule_id": "PULM_HTN_003",
+        "rule_text": "Sequence based on encounter reason except for drug adverse effects (Evidence: pg no: 52, L46)",
+        "explanation": "Sequencing is based on the reason for encounter, with exception for adverse effects of drugs which follow Section I.C.19.e. guidelines (Evidence: pg no: 52, L46)",
+        "importance": "high",
+        "applies_to": "I27.1, I27.2-",
+        "common_applications": [
+          "Primary vs secondary condition sequencing",
+          "Drug adverse effect sequencing"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify pulmonary hypertension",
+      "Step 2: Assign appropriate I27 code",
+      "Step 3: Determine if secondary form",
+      "Step 4: Code associated conditions if secondary",
+      "Step 5: Apply sequencing rules based on encounter reason"
+    ],
+    "related_terminology": [
+      "Pulmonary hypertension",
+      "Pulmonary arterial hypertension",
+      "Secondary pulmonary hypertension",
+      "Pulmonary heart disease"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "I27",
+        "description": "Other pulmonary heart diseases (Evidence: pg no: 52, L44-L45)",
+        "requirement": "Use for pulmonary hypertension",
+        "usage_rules": [
+          "Primary classification for pulmonary hypertension (Evidence: pg no: 52, L44-L45)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "I27.1",
+        "description": "Secondary pulmonary hypertension (Evidence: pg no: 52, L45)",
+        "context": "When pulmonary hypertension is secondary to other conditions",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "I27": "Other pulmonary heart diseases",
+          ".1": "Secondary pulmonary hypertension"
+        }
+      },
+      {
+        "code": "I27.2-",
+        "description": "Secondary pulmonary hypertension codes (Evidence: pg no: 52, L45)",
+        "context": "Specific secondary pulmonary hypertension types",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "I27": "Other pulmonary heart diseases",
+          ".2-": "Various secondary forms"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Pulmonary heart diseases"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.19.e",
+        "title": "Adverse effects of drugs",
+        "relationship": "applies_to",
+        "explanation": "Referenced for sequencing rules in drug-induced pulmonary hypertension"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "PULM_HTN_SC001",
+      "scenario": "Patient with secondary pulmonary hypertension due to COPD",
+      "documentation_example": "Secondary pulmonary hypertension due to severe COPD",
+      "step_by_step": [
+        "Step 1: Identify secondary pulmonary hypertension",
+        "Step 2: Assign I27.1 or appropriate I27.2- code",
+        "Step 3: Identify underlying COPD",
+        "Step 4: Code COPD as associated condition",
+        "Step 5: Sequence based on encounter reason"
+      ],
+      "correct_coding": {
+        "primary_code": "I27.1",
+        "secondary_codes": [
+          "J44.1"
+        ],
+        "sequencing": "Based on encounter reason",
+        "rationale": "Secondary pulmonary hypertension requires coding of associated conditions (Evidence: pg no: 52, L45-L46)"
+      },
+      "incorrect_coding": {
+        "code": "I27.1",
+        "codes": [
+          "I27.1"
+        ],
+        "rationale": "Would miss the underlying COPD condition",
+        "common_mistake": "Not coding associated conditions in secondary forms"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not confuse with systemic hypertension codes (Evidence: pg no: 52, L44-L45)"
+    ],
+    "best_practices": [
+      "Always code associated conditions for secondary forms (Evidence: pg no: 52, L45-L46)",
+      "Follow drug adverse effect sequencing rules when applicable (Evidence: pg no: 52, L46)"
+    ],
+    "common_mistakes": [
+      "Using I10-I15 codes for pulmonary hypertension",
+      "Missing associated conditions in secondary forms"
+    ],
+    "tips": [
+      "Check for underlying conditions in secondary pulmonary hypertension (Evidence: pg no: 52, L45)"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Cardiology consultations",
+      "Pulmonary medicine encounters"
+    ]
+  },
+  "search_keywords": [
+    "pulmonary hypertension",
+    "pulmonary arterial hypertension",
+    "secondary pulmonary hypertension",
+    "I27",
+    "pulmonary heart disease"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "hypertension",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "pulmonary_hypertension",
+      "secondary",
+      "I27",
+      "associated_conditions"
+    ]
+  },
+  "page_range_processed": "pages_51_to_54"
+}

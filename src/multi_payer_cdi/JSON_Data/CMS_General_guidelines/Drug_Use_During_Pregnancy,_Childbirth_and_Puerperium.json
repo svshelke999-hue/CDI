@@ -1,0 +1,172 @@
+{
+  "guideline_id": "I.C.15.l.3",
+  "semantic_title": "Drug Use During Pregnancy, Childbirth and Puerperium",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 15. Pregnancy, Childbirth, and the Puerperium > l. Alcohol, tobacco and drug use during pregnancy, childbirth and the puerperium > 3) Drug use during pregnancy, childbirth and the puerperium",
+  "page_number": 68,
+  "content": {
+    "full_text": "Codes under subcategory O99.32, Drug use complicating pregnancy, childbirth, and the puerperium, should be assigned for any pregnancy case when a patient uses drugs during the pregnancy or postpartum. This can involve illegal drugs, or inappropriate use or abuse of prescription drugs. Secondary code(s) from categories F11-F16 and F18-F19 should also be assigned to identify manifestations of the drug use. (Evidence: pg no: 68, L60-L63)",
+    "summary": "Guidelines for coding drug use in pregnancy including illegal drugs and prescription drug abuse with required secondary coding (Evidence: pg no: 68, L60-L63)",
+    "key_concepts": [
+      "O99.32 for any drug use in pregnancy/postpartum (Evidence: pg no: 68, L60-L61)",
+      "Includes illegal drugs and prescription drug abuse (Evidence: pg no: 68, L61-L62)",
+      "F11-F16 and F18-F19 secondary codes required (Evidence: pg no: 68, L62-L63)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "drug_pregnancy_dual_coding",
+        "rule_text": "Assign O99.32 and secondary F11-F16, F18-F19 codes for drug use in pregnancy (Evidence: pg no: 68, L60-L63)",
+        "explanation": "Any drug use during pregnancy or postpartum requires both obstetric complication code and substance use disorder codes (Evidence: pg no: 68, L60-L63)",
+        "importance": "critical",
+        "applies_to": "O99.32, F11-F16, F18-F19",
+        "common_applications": [
+          "Illegal drug use during pregnancy",
+          "Prescription drug abuse in pregnancy"
+        ]
+      },
+      {
+        "rule_id": "drug_types_included",
+        "rule_text": "Includes illegal drugs and inappropriate use or abuse of prescription drugs (Evidence: pg no: 68, L61-L62)",
+        "explanation": "Drug use coding applies to both illegal substances and misused prescription medications (Evidence: pg no: 68, L61-L62)",
+        "importance": "high",
+        "applies_to": "O99.32",
+        "common_applications": [
+          "Opioid abuse in pregnancy",
+          "Cocaine use in pregnancy",
+          "Prescription stimulant abuse"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify drug use during pregnancy or postpartum",
+      "Step 2: Determine if illegal drugs or prescription drug abuse",
+      "Step 3: Assign appropriate O99.32 code",
+      "Step 4: Add secondary codes from F11-F16, F18-F19 for manifestations"
+    ],
+    "related_terminology": [
+      "drug use",
+      "illegal drugs",
+      "prescription drug abuse",
+      "substance use disorders"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "O99.32",
+        "description": "Drug use complicating pregnancy, childbirth, and the puerperium (Evidence: pg no: 68, L60-L61)",
+        "requirement": "Primary code for drug use in pregnancy",
+        "usage_rules": [
+          "Use for illegal drugs or prescription drug abuse (Evidence: pg no: 68, L61-L62)"
+        ]
+      },
+      {
+        "range": "F11-F16",
+        "description": "Mental and behavioral disorders due to psychoactive substance use (Evidence: pg no: 68, L62)",
+        "requirement": "Secondary codes required",
+        "usage_rules": [
+          "Identify manifestations of drug use (Evidence: pg no: 68, L62-L63)"
+        ]
+      },
+      {
+        "range": "F18-F19",
+        "description": "Mental and behavioral disorders due to psychoactive substance use (Evidence: pg no: 68, L62-L63)",
+        "requirement": "Secondary codes required",
+        "usage_rules": [
+          "Identify manifestations of drug use (Evidence: pg no: 68, L62-L63)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Subcategory O99.32 - Drug use complicating pregnancy, childbirth, and the puerperium",
+      "Categories F11-F16 - Mental and behavioral disorders due to psychoactive substance use",
+      "Categories F18-F19 - Mental and behavioral disorders due to psychoactive substance use"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "pregnancy_opioid_abuse",
+      "scenario": "Pregnant patient with opioid use disorder",
+      "documentation_example": "22-year-old female at 26 weeks gestation with opioid use disorder, currently using heroin",
+      "step_by_step": [
+        "Step 1: Identify drug use complicating pregnancy",
+        "Step 2: Recognize opioid as illegal drug use",
+        "Step 3: Assign O99.32x code",
+        "Step 4: Add F11.20 for opioid dependence"
+      ],
+      "correct_coding": {
+        "primary_code": "O99.322",
+        "secondary_codes": [
+          "F11.20"
+        ],
+        "sequencing": "Obstetric complication first, then substance use disorder",
+        "rationale": "Dual coding required for complete documentation of drug use in pregnancy (Evidence: pg no: 68, L60-L63)"
+      },
+      "incorrect_coding": {
+        "code": "F11.20",
+        "codes": [
+          "F11.20 only"
+        ],
+        "rationale": "Missing obstetric complication code",
+        "common_mistake": "Using only substance use disorder code without pregnancy complication code"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Includes both illegal drugs and prescription drug abuse (Evidence: pg no: 68, L61-L62)"
+    ],
+    "best_practices": [
+      "Always use dual coding for drug use in pregnancy (Evidence: pg no: 68, L60-L63)"
+    ],
+    "common_mistakes": [
+      "Using only F codes without O99.32",
+      "Missing secondary substance use disorder codes",
+      "Not recognizing prescription drug abuse as drug use"
+    ],
+    "tips": [
+      "Prescription drug abuse counts as drug use requiring coding"
+    ],
+    "implementation_notes": [
+      "Applies to pregnancy and postpartum periods"
+    ],
+    "clinical_context": [
+      "Drug use significantly impacts pregnancy outcomes"
+    ]
+  },
+  "search_keywords": [
+    "drug use",
+    "pregnancy",
+    "O99.32",
+    "F11-F16",
+    "F18-F19",
+    "illegal drugs",
+    "prescription drug abuse",
+    "substance use disorder"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "substance_use_pregnancy",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "drug_use",
+      "pregnancy",
+      "dual_coding",
+      "substance_abuse",
+      "illegal_drugs"
+    ]
+  },
+  "page_range_processed": "pages_66_to_69"
+}

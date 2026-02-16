@@ -1,0 +1,156 @@
+{
+  "guideline_id": "I.C.9.c",
+  "semantic_title": "Coding Guidelines for Intraoperative and Postprocedural Cerebrovascular Accidents",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 9. Diseases of the Circulatory System > c. Intraoperative and Postprocedural Cerebrovascular Accident",
+  "page_number": 53,
+  "content": {
+    "full_text": "Medical record documentation should clearly specify the cause-and-effect relationship between the medical intervention and the cerebrovascular accident in order to assign a code for intraoperative or postprocedural cerebrovascular accident. Proper code assignment depends on whether it was an infarction or hemorrhage and whether it occurred intraoperatively or postoperatively. If it was a cerebral hemorrhage, code assignment depends on the type of procedure performed. (Evidence: pg no: 53, L59-L63)",
+    "summary": "Guidelines for coding cerebrovascular accidents that occur during or after medical procedures with documentation requirements (Evidence: pg no: 53, L59-L63)",
+    "key_concepts": [
+      "Cause-and-effect relationship documentation (Evidence: pg no: 53, L59-L61)",
+      "Intraoperative vs postprocedural timing (Evidence: pg no: 53, L62)",
+      "Infarction vs hemorrhage distinction (Evidence: pg no: 53, L62)",
+      "Procedure type consideration for hemorrhage (Evidence: pg no: 53, L62-L63)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "PROC_CVA_001",
+        "rule_text": "Require clear documentation of cause-and-effect relationship (Evidence: pg no: 53, L59-L61)",
+        "explanation": "Medical record documentation must clearly specify the cause-and-effect relationship between the medical intervention and the cerebrovascular accident to assign procedural CVA codes (Evidence: pg no: 53, L59-L61)",
+        "importance": "critical",
+        "applies_to": "Intraoperative and postprocedural CVA codes",
+        "common_applications": [
+          "Surgical complications",
+          "Procedure-related strokes"
+        ]
+      },
+      {
+        "rule_id": "PROC_CVA_002",
+        "rule_text": "Code assignment depends on infarction vs hemorrhage and timing (Evidence: pg no: 53, L62)",
+        "explanation": "Proper code assignment requires determining whether the CVA was an infarction or hemorrhage and whether it occurred intraoperatively or postoperatively (Evidence: pg no: 53, L62)",
+        "importance": "critical",
+        "applies_to": "Intraoperative and postprocedural CVA codes",
+        "common_applications": [
+          "Intraoperative stroke coding",
+          "Postoperative stroke coding"
+        ]
+      },
+      {
+        "rule_id": "PROC_CVA_003",
+        "rule_text": "Hemorrhage code assignment depends on procedure type (Evidence: pg no: 53, L62-L63)",
+        "explanation": "If the cerebrovascular accident was a cerebral hemorrhage, code assignment depends on the type of procedure that was performed (Evidence: pg no: 53, L62-L63)",
+        "importance": "high",
+        "applies_to": "Cerebral hemorrhage codes",
+        "common_applications": [
+          "Cardiac surgery complications",
+          "Neurological procedure complications"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Verify cause-and-effect relationship documentation",
+      "Step 2: Determine if infarction or hemorrhage",
+      "Step 3: Identify timing (intraoperative vs postoperative)",
+      "Step 4: For hemorrhage, identify procedure type",
+      "Step 5: Assign appropriate procedural CVA code"
+    ],
+    "related_terminology": [
+      "Intraoperative cerebrovascular accident",
+      "Postprocedural cerebrovascular accident",
+      "Cerebral infarction",
+      "Cerebral hemorrhage",
+      "Medical intervention",
+      "Cause-and-effect relationship"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Intraoperative cerebrovascular accidents",
+      "Postprocedural cerebrovascular accidents"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "PROC_CVA_SC001",
+      "scenario": "Patient develops stroke during cardiac surgery",
+      "documentation_example": "Intraoperative cerebral infarction during coronary artery bypass surgery",
+      "step_by_step": [
+        "Step 1: Verify documentation of cause-and-effect relationship",
+        "Step 2: Identify as cerebral infarction",
+        "Step 3: Confirm intraoperative timing",
+        "Step 4: Identify cardiac surgery as procedure type",
+        "Step 5: Assign appropriate intraoperative CVA code"
+      ],
+      "correct_coding": {
+        "primary_code": "I97.810",
+        "secondary_codes": [],
+        "sequencing": "Based on encounter circumstances",
+        "rationale": "Intraoperative cerebral infarction during cardiac surgery requires specific procedural complication code (Evidence: pg no: 53, L59-L63)"
+      },
+      "incorrect_coding": {
+        "code": "I63.9",
+        "codes": [
+          "I63.9"
+        ],
+        "rationale": "Would miss the procedural relationship",
+        "common_mistake": "Using standard stroke codes without procedural relationship"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Must have clear cause-and-effect documentation (Evidence: pg no: 53, L59-L61)"
+    ],
+    "best_practices": [
+      "Verify procedural relationship before coding (Evidence: pg no: 53, L59-L61)",
+      "Distinguish infarction from hemorrhage (Evidence: pg no: 53, L62)",
+      "Consider procedure type for hemorrhage cases (Evidence: pg no: 53, L62-L63)"
+    ],
+    "common_mistakes": [
+      "Using standard CVA codes without procedural relationship",
+      "Not considering procedure type for hemorrhage"
+    ],
+    "tips": [
+      "Look for temporal relationship documentation (Evidence: pg no: 53, L62)"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Surgical procedures",
+      "Interventional procedures",
+      "Postoperative care"
+    ]
+  },
+  "search_keywords": [
+    "intraoperative stroke",
+    "postprocedural stroke",
+    "procedural CVA",
+    "cerebrovascular accident",
+    "surgical complications"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "cerebrovascular_disease",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "intraoperative",
+      "postprocedural",
+      "CVA",
+      "stroke",
+      "complications"
+    ]
+  },
+  "page_range_processed": "pages_51_to_54"
+}

@@ -1,0 +1,158 @@
+{
+  "guideline_id": "I.C.18.d",
+  "semantic_title": "Coding Guidelines for Repeated Falls vs History of Falling",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 18. Chapter 18: Symptoms, signs, and abnormal clinical and laboratory findings > d. Repeated falls",
+  "page_number": 76,
+  "content": {
+    "full_text": "Code R29.6, Repeated falls, is for use for encounters when a patient has recently fallen and the reason for the fall is being investigated. Code Z91.81, History of falling, is for use when a patient has fallen in the past and is at risk for future falls. When appropriate, both codes R29.6 and Z91.81 may be assigned together. (Evidence: pg no: 76, L24-L25)",
+    "summary": "Guidelines for distinguishing between coding recent falls under investigation versus historical falls with future risk (Evidence: pg no: 76, L24-L25)",
+    "key_concepts": [
+      "Recent falls under investigation (Evidence: pg no: 76, L24)",
+      "Historical falls with future risk (Evidence: pg no: 76, L25)",
+      "Dual coding when appropriate (Evidence: pg no: 76, L25)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "R29.6_usage",
+        "rule_text": "Code R29.6, Repeated falls, is for use for encounters when a patient has recently fallen and the reason for the fall is being investigated (Evidence: pg no: 76, L24)",
+        "explanation": "This code is specifically for active investigation of recent fall episodes, not historical documentation (Evidence: pg no: 76, L24)",
+        "importance": "high",
+        "applies_to": "R29.6",
+        "common_applications": [
+          "Emergency department visits for recent falls",
+          "Inpatient admissions following falls"
+        ]
+      },
+      {
+        "rule_id": "Z91.81_usage",
+        "rule_text": "Code Z91.81, History of falling, is for use when a patient has fallen in the past and is at risk for future falls (Evidence: pg no: 76, L25)",
+        "explanation": "This code documents historical fall risk rather than current fall investigation (Evidence: pg no: 76, L25)",
+        "importance": "high",
+        "applies_to": "Z91.81",
+        "common_applications": [
+          "Risk assessment documentation",
+          "Fall prevention planning"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if fall is recent and under investigation",
+      "Step 2: Assess if there is historical fall risk",
+      "Step 3: Apply appropriate code(s) based on clinical context"
+    ],
+    "related_terminology": [
+      "repeated falls",
+      "history of falling",
+      "fall investigation",
+      "fall risk"
+    ]
+  },
+  "code_references": {
+    "specific_codes": [
+      {
+        "code": "R29.6",
+        "description": "Repeated falls - for recent falls under investigation (Evidence: pg no: 76, L24)",
+        "context": "When patient has recently fallen and reason is being investigated",
+        "requires_additional_codes": "check_code_notes",
+        "breakdown": {
+          "R29": "Other symptoms and signs involving the nervous and musculoskeletal systems",
+          ".6": "Repeated falls"
+        }
+      },
+      {
+        "code": "Z91.81",
+        "description": "History of falling - for past falls with future risk (Evidence: pg no: 76, L25)",
+        "context": "When patient has fallen in past and is at risk for future falls",
+        "requires_additional_codes": "check_code_notes",
+        "breakdown": {
+          "Z91": "Personal risk factors, not elsewhere classified",
+          ".81": "History of falling"
+        }
+      }
+    ],
+    "code_ranges": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Symptoms and signs codes",
+      "Personal history codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "falls_dual_coding",
+      "scenario": "Patient presents to ED after recent fall, has history of previous falls",
+      "documentation_example": "Patient fell yesterday at home, reason unclear. Has history of multiple falls over past year.",
+      "step_by_step": [
+        "Step 1: Identify recent fall under investigation - use R29.6",
+        "Step 2: Identify historical fall pattern - use Z91.81",
+        "Step 3: Assign both codes as appropriate"
+      ],
+      "correct_coding": {
+        "primary_code": "R29.6",
+        "secondary_codes": [
+          "Z91.81"
+        ],
+        "sequencing": "R29.6 first for current encounter focus",
+        "rationale": "Both codes appropriate when recent fall being investigated and historical risk exists (Evidence: pg no: 76, L25)"
+      },
+      "incorrect_coding": {
+        "code": "Z91.81 only",
+        "rationale": "Would miss the current fall investigation aspect",
+        "common_mistake": "Using only history code when current fall needs investigation"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not confuse recent falls under investigation with historical fall risk (Evidence: pg no: 76, L24-L25)"
+    ],
+    "best_practices": [
+      "Both codes may be assigned together when clinically appropriate (Evidence: pg no: 76, L25)"
+    ],
+    "common_mistakes": [
+      "Using only one code when both recent and historical aspects are present"
+    ],
+    "tips": [
+      "Consider the clinical context and documentation to determine appropriate code selection"
+    ],
+    "implementation_notes": [
+      "Review documentation carefully to distinguish between current investigation and historical risk"
+    ],
+    "clinical_context": [
+      "Emergency department fall evaluations",
+      "Inpatient fall risk assessments"
+    ]
+  },
+  "search_keywords": [
+    "repeated falls",
+    "history of falling",
+    "R29.6",
+    "Z91.81",
+    "fall investigation",
+    "fall risk"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "symptoms_signs_abnormal_findings",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient",
+      "emergency"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "falls",
+      "symptoms",
+      "history",
+      "risk_factors"
+    ]
+  },
+  "page_range_processed": "pages_75_to_78"
+}

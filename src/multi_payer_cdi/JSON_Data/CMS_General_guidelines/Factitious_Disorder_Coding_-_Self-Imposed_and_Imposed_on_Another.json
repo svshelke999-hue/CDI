@@ -1,0 +1,242 @@
+{
+  "guideline_id": "I.C.5.c",
+  "semantic_title": "Factitious Disorder Coding - Self-Imposed and Imposed on Another",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 5. Chapter 5: Mental, Behavioral and Neurodevelopmental disorders > c. Factitious Disorder",
+  "page_number": 44,
+  "content": {
+    "full_text": "Factitious disorder imposed on self or Munchausen's syndrome is a disorder in which a person falsely reports or causes his or her own physical or psychological signs or symptoms. For patients with documented factitious disorder on self or Munchausen's syndrome, assign the appropriate code from subcategory F68.1-, Factitious disorder imposed on self. Munchausen's syndrome by proxy (MSBP) is a disorder in which a caregiver (perpetrator) falsely reports or causes an illness or injury in another person (victim) under his or her care, such as a child, an elderly adult, or a person who has a disability. The condition is also referred to as 'factitious disorder imposed on another' or 'factitious disorder by proxy.' The perpetrator, not the victim, receives this diagnosis. Assign code F68.A, Factitious disorder imposed on another, to the perpetrator's record. For the victim of a patient suffering from MSBP, assign the appropriate code from categories T74, Adult and child abuse, neglect and other maltreatment, confirmed, or T76, Adult and child abuse, neglect and other maltreatment, suspected. See Section I.C.19.f. Adult and child abuse, neglect and other maltreatment (Evidence: pg no: 44, L68-L73)",
+    "summary": "Provides comprehensive guidance on coding factitious disorders, distinguishing between self-imposed and imposed on another, with specific coding instructions for perpetrators and victims (Evidence: pg no: 44, L68-L73)",
+    "key_concepts": [
+      "Factitious disorder imposed on self (Evidence: pg no: 44, L68-L69)",
+      "Munchausen's syndrome equivalence (Evidence: pg no: 44, L69)",
+      "Munchausen's syndrome by proxy (MSBP) (Evidence: pg no: 44, L70)",
+      "Perpetrator vs victim coding (Evidence: pg no: 44, L72)",
+      "Abuse/maltreatment coding for victims (Evidence: pg no: 44, L73)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "FACTITIOUS_001",
+        "rule_text": "Use F68.1- for factitious disorder imposed on self/Munchausen's syndrome (Evidence: pg no: 44, L69)",
+        "explanation": "When a person falsely reports or causes their own symptoms, assign codes from subcategory F68.1- (Evidence: pg no: 44, L68-L69)",
+        "importance": "high",
+        "applies_to": "F68.1-",
+        "common_applications": [
+          "Self-induced injuries",
+          "Fabricated symptoms",
+          "Munchausen's syndrome"
+        ]
+      },
+      {
+        "rule_id": "FACTITIOUS_002",
+        "rule_text": "Perpetrator receives F68.A diagnosis, not the victim (Evidence: pg no: 44, L72)",
+        "explanation": "In MSBP cases, the caregiver who causes or fabricates illness receives the factitious disorder diagnosis (Evidence: pg no: 44, L72)",
+        "importance": "critical",
+        "applies_to": "F68.A",
+        "common_applications": [
+          "Caregiver causing child illness",
+          "Spouse fabricating partner's symptoms",
+          "Adult child harming elderly parent"
+        ]
+      },
+      {
+        "rule_id": "FACTITIOUS_003",
+        "rule_text": "Assign F68.A to perpetrator's record for MSBP (Evidence: pg no: 44, L72)",
+        "explanation": "Code F68.A, Factitious disorder imposed on another, is assigned to the perpetrator's medical record (Evidence: pg no: 44, L72)",
+        "importance": "critical",
+        "applies_to": "F68.A",
+        "common_applications": [
+          "MSBP perpetrator documentation",
+          "Factitious disorder by proxy cases"
+        ]
+      },
+      {
+        "rule_id": "FACTITIOUS_004",
+        "rule_text": "Use T74 or T76 codes for MSBP victims (Evidence: pg no: 44, L73)",
+        "explanation": "Victims of MSBP receive abuse/maltreatment codes from T74 (confirmed) or T76 (suspected) categories (Evidence: pg no: 44, L73)",
+        "importance": "critical",
+        "applies_to": "T74, T76",
+        "common_applications": [
+          "Child victims of MSBP",
+          "Elderly victims of factitious disorder by proxy",
+          "Disabled person victims"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if factitious disorder is self-imposed or imposed on another",
+      "Step 2: If self-imposed, assign F68.1- code to patient",
+      "Step 3: If imposed on another, identify perpetrator and victim",
+      "Step 4: Assign F68.A to perpetrator's record",
+      "Step 5: Assign T74/T76 codes to victim's record",
+      "Step 6: Reference Section I.C.19.f for additional guidance"
+    ],
+    "related_terminology": [
+      "Factitious disorder",
+      "Munchausen's syndrome",
+      "Munchausen's syndrome by proxy",
+      "MSBP",
+      "Perpetrator",
+      "Victim",
+      "Factitious disorder by proxy"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "F68.1-",
+        "description": "Factitious disorder imposed on self (Evidence: pg no: 44, L69)",
+        "requirement": "For self-imposed factitious disorders",
+        "usage_rules": [
+          "Use for Munchausen's syndrome (Evidence: pg no: 44, L69)",
+          "Assign to patient with self-imposed disorder (Evidence: pg no: 44, L69)"
+        ]
+      },
+      {
+        "range": "T74",
+        "description": "Adult and child abuse, neglect and other maltreatment, confirmed (Evidence: pg no: 44, L73)",
+        "requirement": "For confirmed MSBP victims",
+        "usage_rules": [
+          "Use for MSBP victims when confirmed (Evidence: pg no: 44, L73)"
+        ]
+      },
+      {
+        "range": "T76",
+        "description": "Adult and child abuse, neglect and other maltreatment, suspected (Evidence: pg no: 44, L73)",
+        "requirement": "For suspected MSBP victims",
+        "usage_rules": [
+          "Use for MSBP victims when suspected (Evidence: pg no: 44, L73)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "F68.A",
+        "description": "Factitious disorder imposed on another (Evidence: pg no: 44, L72)",
+        "context": "For MSBP perpetrators",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "F68": "Other disorders of adult personality and behavior",
+          ".A": "Factitious disorder imposed on another"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Factitious disorders",
+      "Adult and child abuse and maltreatment"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.19.f",
+        "title": "Adult and child abuse, neglect and other maltreatment",
+        "relationship": "implements",
+        "explanation": "Provides additional guidance for coding MSBP victims"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "FACTITIOUS_001",
+      "scenario": "Adult patient repeatedly presents with self-inflicted wounds and fabricated symptoms, diagnosed with Munchausen's syndrome",
+      "documentation_example": "Patient diagnosed with Munchausen's syndrome, history of self-inflicted injuries and fabricated medical complaints",
+      "step_by_step": [
+        "Step 1: Identify factitious disorder imposed on self",
+        "Step 2: Recognize Munchausen's syndrome equivalence",
+        "Step 3: Assign appropriate F68.1- code",
+        "Step 4: Document in patient's own record"
+      ],
+      "correct_coding": {
+        "primary_code": "F68.10",
+        "secondary_codes": [],
+        "sequencing": "F68.1- code for patient",
+        "rationale": "Self-imposed factitious disorder/Munchausen's syndrome uses F68.1- codes (Evidence: pg no: 44, L68-L69)"
+      },
+      "incorrect_coding": {
+        "code": "F68.A",
+        "rationale": "F68.A is for factitious disorder imposed on another, not self",
+        "common_mistake": "Confusing self-imposed vs imposed on another"
+      }
+    },
+    {
+      "scenario_id": "FACTITIOUS_002",
+      "scenario": "Mother brings child to hospital repeatedly with fabricated symptoms, diagnosed with MSBP",
+      "documentation_example": "Mother diagnosed with Munchausen's syndrome by proxy, repeatedly fabricating child's illness",
+      "step_by_step": [
+        "Step 1: Identify MSBP/factitious disorder imposed on another",
+        "Step 2: Identify mother as perpetrator, child as victim",
+        "Step 3: Assign F68.A to mother's record",
+        "Step 4: Assign T74/T76 code to child's record"
+      ],
+      "correct_coding": {
+        "primary_code": "F68.A (mother), T74.12XA (child)",
+        "secondary_codes": [],
+        "sequencing": "Separate coding for perpetrator and victim",
+        "rationale": "Perpetrator gets F68.A, victim gets abuse/maltreatment code (Evidence: pg no: 44, L72-L73)"
+      },
+      "incorrect_coding": {
+        "code": "F68.A (child)",
+        "rationale": "Child is victim, not perpetrator - should get T74/T76 code",
+        "common_mistake": "Assigning factitious disorder code to victim"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Perpetrator receives F68.A, never the victim (Evidence: pg no: 44, L72)",
+      "Victims receive abuse/maltreatment codes, not factitious disorder codes (Evidence: pg no: 44, L73)"
+    ],
+    "best_practices": [
+      "Clearly identify perpetrator vs victim in MSBP cases (Evidence: pg no: 44, L72)",
+      "Use appropriate abuse codes for victims (Evidence: pg no: 44, L73)",
+      "Reference Section I.C.19.f for additional guidance (Evidence: pg no: 44, L73)"
+    ],
+    "common_mistakes": [
+      "Assigning factitious disorder code to victim",
+      "Confusing self-imposed vs imposed on another",
+      "Not using abuse codes for MSBP victims"
+    ],
+    "tips": [
+      "Self = F68.1-",
+      "Perpetrator = F68.A",
+      "Victim = T74/T76"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Important for child protection cases",
+      "Requires careful documentation of perpetrator vs victim",
+      "May involve legal and social services"
+    ]
+  },
+  "search_keywords": [
+    "factitious disorder",
+    "Munchausen syndrome",
+    "MSBP",
+    "F68.1",
+    "F68.A",
+    "factitious disorder by proxy",
+    "perpetrator victim"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "mental_behavioral_disorders",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "factitious_disorder",
+      "munchausen",
+      "abuse",
+      "perpetrator",
+      "victim"
+    ]
+  },
+  "page_range_processed": "pages_42_to_45"
+}

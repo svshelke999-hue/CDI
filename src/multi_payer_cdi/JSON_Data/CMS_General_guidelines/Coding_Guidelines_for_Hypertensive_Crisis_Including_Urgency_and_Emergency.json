@@ -1,0 +1,172 @@
+{
+  "guideline_id": "I.C.9.a.10",
+  "semantic_title": "Coding Guidelines for Hypertensive Crisis Including Urgency and Emergency",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 9. Diseases of the Circulatory System > a. Hypertension > 10) Hypertensive Crisis",
+  "page_number": 52,
+  "content": {
+    "full_text": "Assign a code from category I16, Hypertensive crisis, for documented hypertensive urgency, hypertensive emergency or unspecified hypertensive crisis. Code also any identified hypertensive disease (I10-I15). The sequencing is based on the reason for the encounter. (Evidence: pg no: 52, L42-L43)",
+    "summary": "Guidelines for coding hypertensive crisis with additional hypertensive disease codes and sequencing rules (Evidence: pg no: 52, L42-L43)",
+    "key_concepts": [
+      "Hypertensive crisis coding (Evidence: pg no: 52, L42)",
+      "Category I16 usage (Evidence: pg no: 52, L42)",
+      "Additional hypertensive disease coding (Evidence: pg no: 52, L43)",
+      "Sequencing based on encounter reason (Evidence: pg no: 52, L43)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "HTN_CRISIS_001",
+        "rule_text": "Use category I16 for documented hypertensive crisis (Evidence: pg no: 52, L42)",
+        "explanation": "When hypertensive urgency, emergency, or unspecified crisis is documented, assign a code from category I16 (Evidence: pg no: 52, L42)",
+        "importance": "critical",
+        "applies_to": "I16",
+        "common_applications": [
+          "Emergency department presentations",
+          "Acute hypertensive episodes"
+        ]
+      },
+      {
+        "rule_id": "HTN_CRISIS_002",
+        "rule_text": "Code additional hypertensive disease from I10-I15 (Evidence: pg no: 52, L43)",
+        "explanation": "In addition to the I16 code, also assign codes for any identified underlying hypertensive disease (Evidence: pg no: 52, L43)",
+        "importance": "high",
+        "applies_to": "I10-I15",
+        "common_applications": [
+          "Underlying hypertension with crisis",
+          "Comprehensive hypertension coding"
+        ]
+      },
+      {
+        "rule_id": "HTN_CRISIS_003",
+        "rule_text": "Sequence codes based on reason for encounter (Evidence: pg no: 52, L43)",
+        "explanation": "The sequencing of hypertensive crisis and underlying hypertension codes depends on the primary reason for the encounter (Evidence: pg no: 52, L43)",
+        "importance": "high",
+        "applies_to": "I16, I10-I15",
+        "common_applications": [
+          "Crisis as primary reason",
+          "Crisis complicating other conditions"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify documented hypertensive crisis",
+      "Step 2: Assign appropriate I16 code",
+      "Step 3: Identify underlying hypertensive disease",
+      "Step 4: Assign additional I10-I15 code",
+      "Step 5: Sequence based on encounter reason"
+    ],
+    "related_terminology": [
+      "Hypertensive crisis",
+      "Hypertensive urgency",
+      "Hypertensive emergency",
+      "Acute hypertension"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "I16",
+        "description": "Hypertensive crisis (Evidence: pg no: 52, L42)",
+        "requirement": "Use for documented hypertensive crisis",
+        "usage_rules": [
+          "Code for urgency, emergency, or unspecified crisis (Evidence: pg no: 52, L42)"
+        ]
+      },
+      {
+        "range": "I10-I15",
+        "description": "Hypertensive diseases (Evidence: pg no: 52, L43)",
+        "requirement": "Code additionally for underlying hypertension",
+        "usage_rules": [
+          "Use in addition to I16 codes (Evidence: pg no: 52, L43)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Hypertensive crisis",
+      "Hypertensive diseases"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "HTN_CRISIS_SC001",
+      "scenario": "Patient presents with hypertensive emergency",
+      "documentation_example": "Hypertensive emergency with BP 220/120, underlying essential hypertension",
+      "step_by_step": [
+        "Step 1: Identify hypertensive emergency",
+        "Step 2: Assign I16 code for crisis",
+        "Step 3: Identify underlying essential hypertension",
+        "Step 4: Assign I10 for underlying condition",
+        "Step 5: Sequence based on encounter reason"
+      ],
+      "correct_coding": {
+        "primary_code": "I16.1",
+        "secondary_codes": [
+          "I10"
+        ],
+        "sequencing": "Crisis first if primary reason for encounter",
+        "rationale": "Hypertensive crisis requires I16 code plus underlying hypertension code (Evidence: pg no: 52, L42-L43)"
+      },
+      "incorrect_coding": {
+        "code": "I10",
+        "codes": [
+          "I10"
+        ],
+        "rationale": "Would miss the acute crisis component",
+        "common_mistake": "Coding only underlying hypertension without crisis code"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Must code both crisis and underlying hypertension (Evidence: pg no: 52, L43)"
+    ],
+    "best_practices": [
+      "Always use dual coding for hypertensive crisis (Evidence: pg no: 52, L42-L43)",
+      "Consider encounter reason for sequencing (Evidence: pg no: 52, L43)"
+    ],
+    "common_mistakes": [
+      "Coding only I16 without underlying hypertension",
+      "Incorrect sequencing of codes"
+    ],
+    "tips": [
+      "Document type of crisis for specific I16 code selection (Evidence: pg no: 52, L42)"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Emergency department visits",
+      "Intensive care admissions"
+    ]
+  },
+  "search_keywords": [
+    "hypertensive crisis",
+    "hypertensive emergency",
+    "hypertensive urgency",
+    "I16",
+    "acute hypertension"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "hypertension",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "hypertension",
+      "crisis",
+      "emergency",
+      "urgency",
+      "acute"
+    ]
+  },
+  "page_range_processed": "pages_51_to_54"
+}

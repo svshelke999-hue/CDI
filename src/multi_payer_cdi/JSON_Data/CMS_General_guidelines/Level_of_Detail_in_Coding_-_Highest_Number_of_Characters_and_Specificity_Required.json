@@ -1,0 +1,186 @@
+{
+  "guideline_id": "I.B.2",
+  "semantic_title": "Level of Detail in Coding - Highest Number of Characters and Specificity Required",
+  "section_path": "Section I > B. General Coding Guidelines > 2. Level of Detail in Coding",
+  "page_number": 12,
+  "content": {
+    "full_text": "Diagnosis codes are to be used and reported at their highest number of characters available and to the highest level of specificity documented in the medical record. ICD-10-CM diagnosis codes are composed of codes with 3, 4, 5, 6 or 7 characters. Codes with three characters are included in ICD-10-CM as the heading of a category of codes that may be further subdivided by the use of fourth and/or fifth characters and/or sixth characters, which provide greater detail. A three-character code is to be used only if it is not further subdivided. A code is invalid if it has not been coded to the full number of characters required for that code, including the 7th character, if applicable. (Evidence: pg no: 12, L87-L95)",
+    "summary": "Codes must be used at highest number of characters available and highest level of specificity documented, with invalid codes resulting from insufficient characters (Evidence: pg no: 12, L87-L95)",
+    "key_concepts": [
+      "Highest number of characters available (Evidence: pg no: 12, L88)",
+      "Highest level of specificity documented (Evidence: pg no: 12, L88-L89)",
+      "Codes have 3, 4, 5, 6, or 7 characters (Evidence: pg no: 12, L89)",
+      "Three-character codes are category headings (Evidence: pg no: 12, L90)",
+      "Further subdivision provides greater detail (Evidence: pg no: 12, L91)",
+      "Three-character code only if not subdivided (Evidence: pg no: 12, L92)",
+      "Code invalid if not coded to full characters (Evidence: pg no: 12, L92-L95)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "HIGHEST_CHARACTERS_REQUIRED",
+        "rule_text": "Codes must be used at highest number of characters available (Evidence: pg no: 12, L88)",
+        "explanation": "Must use most specific code available based on documentation (Evidence: pg no: 12, L88-L89)",
+        "importance": "critical",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "All diagnostic coding",
+          "Code specificity requirements"
+        ]
+      },
+      {
+        "rule_id": "THREE_CHARACTER_RESTRICTION",
+        "rule_text": "Three-character code only used if not further subdivided (Evidence: pg no: 12, L92)",
+        "explanation": "Three-character codes are category headings and should not be used if more specific codes exist (Evidence: pg no: 12, L90-L92)",
+        "importance": "high",
+        "applies_to": "three_character_codes",
+        "common_applications": [
+          "Category heading codes",
+          "Unsubdivided code categories"
+        ]
+      },
+      {
+        "rule_id": "INVALID_CODE_PREVENTION",
+        "rule_text": "Code invalid if not coded to full number of characters required including 7th character (Evidence: pg no: 12, L92-L95)",
+        "explanation": "Incomplete codes are invalid and cannot be used for reporting (Evidence: pg no: 12, L92-L95)",
+        "importance": "critical",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Code validation",
+          "Reporting requirements"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify documented condition specificity",
+      "Step 2: Locate most specific code available",
+      "Step 3: Check if further subdivision exists",
+      "Step 4: Use highest character count available",
+      "Step 5: Include 7th character if required",
+      "Step 6: Verify code completeness"
+    ],
+    "related_terminology": [
+      "Highest number of characters",
+      "Level of specificity",
+      "Character count",
+      "Code subdivision",
+      "Category heading",
+      "Invalid code",
+      "7th character"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "3-character codes",
+        "description": "Category headings that may be further subdivided (Evidence: pg no: 12, L90)",
+        "example": "I10 (if no further subdivision exists)",
+        "explanation": "Only use if no 4th, 5th, 6th, or 7th characters available"
+      },
+      {
+        "pattern": "4-7 character codes",
+        "description": "Provide greater detail through subdivision (Evidence: pg no: 12, L91)",
+        "example": "I10.0, I10.00, I10.000, I10.000A",
+        "explanation": "Must use highest level available"
+      }
+    ],
+    "code_categories_mentioned": [
+      "All ICD-10-CM diagnostic codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "SPECIFICITY_LEVEL_SCENARIO",
+      "scenario": "Acute myocardial infarction of anterior wall",
+      "documentation_example": "Acute ST elevation myocardial infarction of anterior wall",
+      "step_by_step": [
+        "Step 1: Identify specific documentation details",
+        "Step 2: Look up most specific code available",
+        "Step 3: Check for further subdivisions",
+        "Step 4: Use highest character count supported by documentation",
+        "Step 5: Verify code completeness"
+      ],
+      "correct_coding": {
+        "primary_code": "Most specific MI code available",
+        "secondary_codes": [],
+        "sequencing": "Based on encounter",
+        "rationale": "Must use highest level of specificity documented and available (Evidence: pg no: 12, L88-L89)"
+      },
+      "incorrect_coding": {
+        "code": "I21",
+        "codes": [
+          "3-character category code when subdivisions exist"
+        ],
+        "rationale": "Invalid to use category heading when specific codes available",
+        "common_mistake": "Using 3-character codes when subdivisions exist"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Code invalid if not coded to full number of characters required (Evidence: pg no: 12, L92-L95)",
+      "Three-character codes only valid if no further subdivision exists (Evidence: pg no: 12, L92)"
+    ],
+    "best_practices": [
+      "Always use highest number of characters available (Evidence: pg no: 12, L88)",
+      "Match code specificity to documentation specificity (Evidence: pg no: 12, L88-L89)"
+    ],
+    "common_mistakes": [
+      "Using 3-character codes when subdivisions exist",
+      "Not using highest level of specificity available",
+      "Missing required 7th characters",
+      "Using incomplete codes"
+    ],
+    "tips": [
+      "Check for all possible subdivisions",
+      "Verify 7th character requirements",
+      "Match documentation detail to code detail"
+    ],
+    "implementation_notes": [
+      "Critical for code validity",
+      "Required for accurate reporting",
+      "Ensures maximum specificity"
+    ],
+    "clinical_context": [
+      "Supports accurate diagnosis representation",
+      "Enables proper statistical analysis"
+    ]
+  },
+  "search_keywords": [
+    "level of detail",
+    "highest characters",
+    "specificity",
+    "character count",
+    "subdivision",
+    "invalid code",
+    "three character",
+    "category heading",
+    "7th character",
+    "code completeness"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "code_specificity",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "code_specificity",
+      "character_count",
+      "invalid_codes",
+      "subdivision",
+      "seventh_character"
+    ]
+  },
+  "page_range_processed": "pages_9_to_12"
+}

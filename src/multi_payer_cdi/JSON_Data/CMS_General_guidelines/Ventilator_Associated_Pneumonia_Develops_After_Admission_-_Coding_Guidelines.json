@@ -1,0 +1,179 @@
+{
+  "guideline_id": "I.C.10.d.2",
+  "semantic_title": "Ventilator Associated Pneumonia Develops After Admission - Coding Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 10. Chapter 10: Diseases of the Respiratory System > d. Ventilator associated Pneumonia > 2) Ventilator associated Pneumonia Develops after Admission",
+  "page_number": 58,
+  "content": {
+    "full_text": "A patient may be admitted with one type of pneumonia (e.g., code J13, Pneumonia due to Streptococcus pneumonia) and subsequently develop VAP. In this instance, the principal diagnosis would be the appropriate code from categories J12-J18 for the pneumonia diagnosed at the time of admission. Code J95.851, Ventilator associated pneumonia, would be assigned as an additional diagnosis when the provider has also documented the presence of ventilator associated pneumonia. (Evidence: pg no: 58, L18-L21)",
+    "summary": "Guidelines for coding when a patient develops ventilator-associated pneumonia after being admitted with a different type of pneumonia (Evidence: pg no: 58, L18-L21)",
+    "key_concepts": [
+      "Sequential pneumonia development (Evidence: pg no: 58, L18-L19)",
+      "Principal diagnosis assignment for admission pneumonia (Evidence: pg no: 58, L20-L21)",
+      "Additional diagnosis coding for VAP (Evidence: pg no: 58, L21)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "VAP_AFTER_ADMISSION_001",
+        "rule_text": "Principal diagnosis should be the pneumonia present at admission, not the subsequently developed VAP (Evidence: pg no: 58, L20-L21)",
+        "explanation": "When a patient is admitted with one type of pneumonia and later develops VAP, the original pneumonia remains the principal diagnosis as it was the reason for admission (Evidence: pg no: 58, L18-L21)",
+        "importance": "critical",
+        "applies_to": "J12-J18, J95.851",
+        "common_applications": [
+          "Patient admitted with community-acquired pneumonia who develops VAP",
+          "Sequential pneumonia coding scenarios"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify the pneumonia present at time of admission",
+      "Step 2: Assign appropriate code from J12-J18 as principal diagnosis",
+      "Step 3: Verify provider documentation of VAP development",
+      "Step 4: Assign J95.851 as additional diagnosis for VAP"
+    ],
+    "related_terminology": [
+      "Ventilator associated pneumonia",
+      "Principal diagnosis",
+      "Additional diagnosis",
+      "Sequential pneumonia development"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "J12-J18",
+        "description": "Pneumonia codes for admission diagnosis (Evidence: pg no: 58, L20-L21)",
+        "requirement": "Use for pneumonia diagnosed at time of admission",
+        "usage_rules": [
+          "Assign as principal diagnosis when patient admitted with pneumonia (Evidence: pg no: 58, L20-L21)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "J13",
+        "description": "Pneumonia due to Streptococcus pneumonia (Evidence: pg no: 58, L19)",
+        "context": "Example of admission pneumonia diagnosis",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "J13": "Specific pneumonia type for admission diagnosis"
+        }
+      },
+      {
+        "code": "J95.851",
+        "description": "Ventilator associated pneumonia (Evidence: pg no: 58, L21)",
+        "context": "Additional diagnosis when VAP develops after admission",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "J95": "Intraoperative and postprocedural complications",
+          "851": "Ventilator associated pneumonia"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Categories J12-J18 for pneumonia"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.10.d.1",
+        "title": "Documentation of Ventilator associated Pneumonia",
+        "relationship": "builds_upon",
+        "explanation": "Builds upon basic VAP coding requirements"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "VAP_SEQUENTIAL_001",
+      "scenario": "Patient admitted with Streptococcus pneumonia, later develops VAP during stay",
+      "documentation_example": "Patient admitted with pneumonia due to Streptococcus pneumonia. On day 5, developed ventilator-associated pneumonia.",
+      "step_by_step": [
+        "Step 1: Identify admission diagnosis - Streptococcus pneumonia",
+        "Step 2: Assign J13 as principal diagnosis",
+        "Step 3: Identify VAP development during stay",
+        "Step 4: Assign J95.851 as additional diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "J13",
+        "secondary_codes": [
+          "J95.851"
+        ],
+        "sequencing": "J13 as principal, J95.851 as additional",
+        "rationale": "Original pneumonia was reason for admission, VAP developed subsequently (Evidence: pg no: 58, L18-L21)"
+      },
+      "incorrect_coding": {
+        "code": "J95.851",
+        "codes": [
+          "J95.851 as principal"
+        ],
+        "rationale": "VAP should not be principal when patient was admitted for different pneumonia",
+        "common_mistake": "Making VAP the principal diagnosis when it developed after admission"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "VAP_EXAMPLE_001",
+      "scenario": "Patient with admission pneumonia developing VAP",
+      "code_example": "J13 (principal), J95.851 (additional)",
+      "breakdown": {
+        "J13": "Pneumonia due to Streptococcus pneumonia - admission diagnosis (Evidence: pg no: 58, L19)",
+        "J95.851": "Ventilator associated pneumonia - developed after admission (Evidence: pg no: 58, L21)"
+      },
+      "rationale": "Principal diagnosis reflects reason for admission, additional diagnosis captures complication (Evidence: pg no: 58, L20-L21)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not make VAP the principal diagnosis when patient was admitted for different pneumonia (Evidence: pg no: 58, L20-L21)"
+    ],
+    "best_practices": [
+      "Always verify provider documentation of VAP development (Evidence: pg no: 58, L21)",
+      "Maintain chronological accuracy in diagnosis sequencing"
+    ],
+    "common_mistakes": [
+      "Assigning VAP as principal diagnosis when it developed after admission"
+    ],
+    "tips": [
+      "Review admission documentation to identify original pneumonia type",
+      "Look for temporal documentation of VAP development"
+    ],
+    "implementation_notes": [
+      "Requires clear documentation of both admission pneumonia and subsequent VAP",
+      "Provider must specifically document VAP development"
+    ],
+    "clinical_context": [
+      "Common in ICU settings with prolonged ventilation",
+      "Represents healthcare-associated complication"
+    ]
+  },
+  "search_keywords": [
+    "ventilator associated pneumonia",
+    "VAP after admission",
+    "sequential pneumonia",
+    "principal diagnosis VAP",
+    "J95.851",
+    "pneumonia complications"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "respiratory_system_complications",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "VAP",
+      "pneumonia",
+      "complications",
+      "sequencing",
+      "respiratory"
+    ]
+  },
+  "page_range_processed": "pages_57_to_60"
+}

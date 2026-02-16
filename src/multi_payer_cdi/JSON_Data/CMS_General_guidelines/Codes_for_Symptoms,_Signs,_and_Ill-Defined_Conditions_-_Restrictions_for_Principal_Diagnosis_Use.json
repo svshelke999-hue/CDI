@@ -1,0 +1,159 @@
+{
+  "guideline_id": "II.A",
+  "semantic_title": "Codes for Symptoms, Signs, and Ill-Defined Conditions - Restrictions for Principal Diagnosis Use",
+  "section_path": "Section II > Selection of Principal Diagnosis > A. Codes for symptoms, signs, and ill-defined conditions",
+  "page_number": 108,
+  "content": {
+    "full_text": "Codes for symptoms, signs, and ill-defined conditions from Chapter 18 are not to be used as principal diagnosis when a related definitive diagnosis has been established. (Evidence: pg no: 108, L101-L102)",
+    "summary": "Restriction on using Chapter 18 symptom codes as principal diagnosis when definitive diagnoses are available (Evidence: pg no: 108, L101-L102)",
+    "key_concepts": [
+      "Chapter 18 codes restricted as principal diagnosis when definitive diagnosis exists (Evidence: pg no: 108, L101-L102)",
+      "Definitive diagnosis takes precedence over symptom codes (Evidence: pg no: 108, L102)",
+      "Applies specifically to related definitive diagnoses (Evidence: pg no: 108, L102)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "SYMPTOM_PRINCIPAL_RESTRICTION",
+        "rule_text": "Chapter 18 codes not used as principal diagnosis when related definitive diagnosis established (Evidence: pg no: 108, L101-L102)",
+        "explanation": "When a definitive diagnosis that explains the symptoms has been established, the definitive diagnosis must be used as principal diagnosis instead of the symptom code (Evidence: pg no: 108, L101-L102)",
+        "importance": "critical",
+        "applies_to": "chapter_18_codes",
+        "common_applications": [
+          "Diagnostic workup completion",
+          "Symptom resolution to definitive diagnosis",
+          "Clinical investigation outcomes"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify if Chapter 18 code is being considered for principal diagnosis",
+      "Step 2: Review documentation for related definitive diagnosis",
+      "Step 3: If definitive diagnosis established, use it as principal diagnosis",
+      "Step 4: Use symptom code as secondary diagnosis if still relevant"
+    ],
+    "related_terminology": [
+      "Symptoms",
+      "Signs",
+      "Ill-defined conditions",
+      "Definitive diagnosis",
+      "Chapter 18 codes",
+      "Related diagnosis"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "R00-R99",
+        "description": "Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified (Evidence: pg no: 108, L101)",
+        "requirement": "Not to be used as principal diagnosis when related definitive diagnosis established",
+        "usage_rules": [
+          "Use definitive diagnosis as principal when available (Evidence: pg no: 108, L102)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "R__.__",
+        "description": "Chapter 18 symptom and sign codes (Evidence: pg no: 108, L101)",
+        "example": "R06.02 Shortness of breath, R50.9 Fever unspecified",
+        "explanation": "These codes should not be principal diagnosis when related definitive diagnosis exists"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Symptoms and signs",
+      "Ill-defined conditions",
+      "Abnormal clinical findings",
+      "Laboratory findings"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "SYMPTOM_TO_DEFINITIVE",
+      "scenario": "Patient admitted with shortness of breath, diagnosed with pneumonia after chest X-ray",
+      "documentation_example": "Patient admitted with chief complaint of shortness of breath. Chest X-ray revealed pneumonia. Treated with antibiotics.",
+      "step_by_step": [
+        "Step 1: Identify presenting symptom (shortness of breath - R06.02)",
+        "Step 2: Review for definitive diagnosis (pneumonia established)",
+        "Step 3: Determine relationship (shortness of breath related to pneumonia)",
+        "Step 4: Use pneumonia as principal diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "J18.9",
+        "secondary_codes": [],
+        "sequencing": "Pneumonia as principal diagnosis",
+        "rationale": "Definitive diagnosis of pneumonia established, related to presenting symptom (Evidence: pg no: 108, L101-L102)"
+      },
+      "incorrect_coding": {
+        "code": "R06.02",
+        "codes": [
+          "R06.02"
+        ],
+        "rationale": "Should not use symptom code as principal when related definitive diagnosis established",
+        "common_mistake": "Using presenting symptom as principal diagnosis when definitive diagnosis available"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Must establish relationship between symptom and definitive diagnosis (Evidence: pg no: 108, L102)",
+      "Applies only when definitive diagnosis has been established (Evidence: pg no: 108, L102)"
+    ],
+    "best_practices": [
+      "Always review for definitive diagnoses before using symptom codes as principal",
+      "Ensure symptom and definitive diagnosis are related",
+      "Use symptom codes as secondary when still clinically relevant"
+    ],
+    "common_mistakes": [
+      "Using symptom codes as principal when definitive diagnosis available",
+      "Not recognizing relationship between symptoms and established diagnoses",
+      "Misunderstanding when definitive diagnosis has been established"
+    ],
+    "tips": [
+      "Look for diagnostic test results that establish definitive diagnoses",
+      "Consider whether symptoms are explained by established diagnoses",
+      "Review complete clinical picture for diagnostic clarity"
+    ],
+    "implementation_notes": [
+      "Requires clinical judgment to determine relationships",
+      "May involve complex diagnostic scenarios",
+      "Important for accurate principal diagnosis selection"
+    ],
+    "clinical_context": [
+      "Diagnostic workup",
+      "Clinical investigation",
+      "Symptom resolution",
+      "Definitive diagnosis establishment"
+    ]
+  },
+  "search_keywords": [
+    "symptoms signs",
+    "Chapter 18",
+    "definitive diagnosis",
+    "principal diagnosis restriction",
+    "ill-defined conditions",
+    "related diagnosis"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "principal_diagnosis_selection",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "symptoms",
+      "definitive_diagnosis",
+      "principal_diagnosis",
+      "Chapter_18"
+    ]
+  },
+  "page_range_processed": "pages_105_to_108"
+}

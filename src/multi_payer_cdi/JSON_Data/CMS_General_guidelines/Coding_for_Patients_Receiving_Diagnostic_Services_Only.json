@@ -1,0 +1,264 @@
+{
+  "guideline_id": "IV.K",
+  "semantic_title": "Coding for Patients Receiving Diagnostic Services Only",
+  "section_path": "Section IV > K. Patients receiving diagnostic services only",
+  "page_number": 114,
+  "content": {
+    "full_text": "For patients receiving diagnostic services only during an encounter/visit, sequence first the diagnosis, condition, problem, or other reason for encounter/visit shown in the medical record to be chiefly responsible for the outpatient services provided during the encounter/visit. Codes for other diagnoses (e.g., chronic conditions) may be sequenced as additional diagnoses. For encounters for routine laboratory/radiology testing in the absence of any signs, symptoms, or associated diagnosis, assign Z01.89, Encounter for other specified special examinations. If routine testing is performed during the same encounter as a test to evaluate a sign, symptom, or diagnosis, it is appropriate to assign both the Z code and the code describing the reason for the non-routine test. For outpatient encounters for diagnostic tests that have been interpreted by a physician, and the final report is available at the time of coding, code any confirmed or definitive diagnosis(es) documented in the interpretation. Do not code related signs and symptoms as additional diagnoses. Please note: This differs from the coding practice in the hospital inpatient setting regarding abnormal findings on test results. (Evidence: pg no: 114, L81-L84)",
+    "summary": "Provides comprehensive coding instructions for diagnostic service encounters, including sequencing rules, routine testing protocols, and interpretation-based coding with contrast to inpatient practices (Evidence: pg no: 114, L81-L84)",
+    "key_concepts": [
+      "Sequence first the reason chiefly responsible for diagnostic services (Evidence: pg no: 114, L81-L82)",
+      "Use Z01.89 for routine testing without signs/symptoms (Evidence: pg no: 114, L82)",
+      "Code both Z code and reason for non-routine test when combined (Evidence: pg no: 114, L82-L83)",
+      "Code confirmed diagnoses from interpreted reports (Evidence: pg no: 114, L83)",
+      "Do not code related signs/symptoms with confirmed diagnoses (Evidence: pg no: 114, L84)",
+      "Differs from inpatient coding practices (Evidence: pg no: 114, L84)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "IV.K.1",
+        "rule_text": "Sequence first the reason chiefly responsible for diagnostic services (Evidence: pg no: 114, L81-L82)",
+        "explanation": "The primary code should represent the main reason for the diagnostic services provided during the encounter (Evidence: pg no: 114, L81-L82)",
+        "importance": "critical",
+        "applies_to": "diagnostic_encounters",
+        "common_applications": [
+          "Diagnostic imaging encounters",
+          "Laboratory testing visits",
+          "Specialized diagnostic procedures"
+        ]
+      },
+      {
+        "rule_id": "IV.K.2",
+        "rule_text": "Use Z01.89 for routine testing without signs, symptoms, or diagnosis (Evidence: pg no: 114, L82)",
+        "explanation": "When routine laboratory or radiology testing is performed without any clinical indication, use the specified Z code (Evidence: pg no: 114, L82)",
+        "importance": "high",
+        "applies_to": "routine_testing",
+        "common_applications": [
+          "Annual lab panels",
+          "Routine screening imaging",
+          "Preventive testing"
+        ]
+      },
+      {
+        "rule_id": "IV.K.3",
+        "rule_text": "Code both Z code and non-routine test reason when performed together (Evidence: pg no: 114, L82-L83)",
+        "explanation": "When routine and non-routine testing occur in same encounter, code both the Z code and the clinical reason for non-routine testing (Evidence: pg no: 114, L82-L83)",
+        "importance": "medium",
+        "applies_to": "combined_testing",
+        "common_applications": [
+          "Routine physical with symptom evaluation",
+          "Screening with diagnostic testing",
+          "Combined preventive and diagnostic services"
+        ]
+      },
+      {
+        "rule_id": "IV.K.4",
+        "rule_text": "Code confirmed diagnoses from interpreted diagnostic reports (Evidence: pg no: 114, L83)",
+        "explanation": "When diagnostic tests have been interpreted by physician and final report available, code any confirmed diagnoses from the interpretation (Evidence: pg no: 114, L83)",
+        "importance": "high",
+        "applies_to": "interpreted_diagnostics",
+        "common_applications": [
+          "Radiology report findings",
+          "Pathology results",
+          "Interpreted diagnostic studies"
+        ]
+      },
+      {
+        "rule_id": "IV.K.5",
+        "rule_text": "Do not code signs/symptoms with confirmed diagnoses from interpretations (Evidence: pg no: 114, L84)",
+        "explanation": "When diagnostic interpretation confirms a diagnosis, do not additionally code the related signs and symptoms (Evidence: pg no: 114, L84)",
+        "importance": "medium",
+        "applies_to": "confirmed_diagnostic_findings",
+        "common_applications": [
+          "Imaging confirming diagnosis",
+          "Lab results establishing diagnosis",
+          "Definitive diagnostic findings"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if encounter is for diagnostic services only",
+      "Step 2: Identify the chief reason for diagnostic services",
+      "Step 3: Determine if testing is routine or has clinical indication",
+      "Step 4: For routine testing without indication, use Z01.89",
+      "Step 5: For clinical indication, code the reason",
+      "Step 6: If combined routine and non-routine, code both",
+      "Step 7: If interpretation available, code confirmed diagnoses",
+      "Step 8: Exclude related symptoms when diagnosis confirmed"
+    ],
+    "related_terminology": [
+      "Diagnostic services",
+      "Routine testing",
+      "Laboratory testing",
+      "Radiology testing",
+      "Interpreted reports",
+      "Confirmed diagnoses",
+      "Signs and symptoms"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "Z01.89",
+        "description": "Encounter for other specified special examinations (Evidence: pg no: 114, L82)",
+        "context": "For routine laboratory/radiology testing without signs, symptoms, or diagnosis",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z01": "Encounter for other special examinations",
+          "89": "Other specified special examinations"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Diagnostic service codes",
+      "Z codes for examinations",
+      "Confirmed diagnosis codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "IV.K.S1",
+      "scenario": "Patient presents for routine annual lab work without symptoms",
+      "documentation_example": "Patient here for routine annual laboratory studies. No complaints or symptoms. Comprehensive metabolic panel and lipid panel ordered.",
+      "step_by_step": [
+        "Step 1: Confirm diagnostic services only encounter",
+        "Step 2: Identify routine testing without clinical indication",
+        "Step 3: No signs, symptoms, or diagnosis documented",
+        "Step 4: Assign Z01.89 for routine testing",
+        "Step 5: Complete coding"
+      ],
+      "correct_coding": {
+        "primary_code": "Z01.89",
+        "secondary_codes": [],
+        "sequencing": "Z code for routine testing without indication",
+        "rationale": "Use Z01.89 for routine testing without signs, symptoms, or diagnosis (Evidence: pg no: 114, L82)"
+      },
+      "incorrect_coding": {
+        "code": "No code assigned",
+        "codes": [],
+        "rationale": "All encounters require appropriate coding",
+        "common_mistake": "Not coding routine diagnostic encounters"
+      }
+    },
+    {
+      "scenario_id": "IV.K.S2",
+      "scenario": "Patient presents for chest x-ray due to cough, also gets routine lab work",
+      "documentation_example": "Patient presents with persistent cough for chest x-ray evaluation. Also due for routine annual lab work, obtained during same visit.",
+      "step_by_step": [
+        "Step 1: Identify combined routine and non-routine testing",
+        "Step 2: Identify clinical reason - cough for chest x-ray",
+        "Step 3: Identify routine component - annual labs",
+        "Step 4: Code both the clinical reason and Z code",
+        "Step 5: Sequence clinical reason first"
+      ],
+      "correct_coding": {
+        "primary_code": "R05.3",
+        "secondary_codes": [
+          "Z01.89"
+        ],
+        "sequencing": "Clinical reason first, then Z code for routine component",
+        "rationale": "Code both Z code and reason for non-routine test when performed together (Evidence: pg no: 114, L82-L83)"
+      },
+      "incorrect_coding": {
+        "code": "R05.3",
+        "codes": [
+          "R05.3"
+        ],
+        "rationale": "Should include Z code for routine testing component",
+        "common_mistake": "Not coding routine component when combined with diagnostic testing"
+      }
+    },
+    {
+      "scenario_id": "IV.K.S3",
+      "scenario": "Patient had CT scan for abdominal pain, radiologist report confirms appendicitis",
+      "documentation_example": "Patient had CT abdomen for abdominal pain evaluation. Radiology report: Acute appendicitis with inflammatory changes.",
+      "step_by_step": [
+        "Step 1: Confirm interpreted diagnostic report available",
+        "Step 2: Identify confirmed diagnosis - acute appendicitis",
+        "Step 3: Code the confirmed diagnosis from interpretation",
+        "Step 4: Do not code the original symptom (abdominal pain)",
+        "Step 5: Complete coding with confirmed diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "K35.9",
+        "secondary_codes": [],
+        "sequencing": "Confirmed diagnosis from interpretation",
+        "rationale": "Code confirmed diagnoses from interpreted reports, do not code related symptoms (Evidence: pg no: 114, L83-L84)"
+      },
+      "incorrect_coding": {
+        "code": "R10.9",
+        "codes": [
+          "K35.9",
+          "R10.9"
+        ],
+        "rationale": "Should not code symptoms when diagnosis confirmed by interpretation",
+        "common_mistake": "Coding both confirmed diagnosis and related symptoms"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not code signs/symptoms with confirmed diagnoses from interpretations (Evidence: pg no: 114, L84)",
+      "This differs from inpatient coding practices (Evidence: pg no: 114, L84)"
+    ],
+    "best_practices": [
+      "Sequence reason chiefly responsible for diagnostic services first (Evidence: pg no: 114, L81-L82)",
+      "Use Z01.89 for routine testing without clinical indication (Evidence: pg no: 114, L82)",
+      "Code both Z code and clinical reason when combined (Evidence: pg no: 114, L82-L83)",
+      "Code confirmed diagnoses from interpreted reports (Evidence: pg no: 114, L83)"
+    ],
+    "common_mistakes": [
+      "Not coding routine diagnostic encounters",
+      "Not using Z01.89 for routine testing",
+      "Coding symptoms with confirmed diagnoses from interpretations",
+      "Not coding both components of combined testing"
+    ],
+    "tips": [
+      "Remember this differs from inpatient coding practices",
+      "Routine testing without indication requires Z01.89"
+    ],
+    "implementation_notes": [
+      "Requires access to final interpreted reports",
+      "May require coordination with diagnostic departments",
+      "Important for accurate service documentation"
+    ],
+    "clinical_context": [
+      "Diagnostic encounters are common in outpatient settings",
+      "Interpretation results may change coding from symptom to diagnosis"
+    ]
+  },
+  "search_keywords": [
+    "diagnostic services",
+    "routine testing",
+    "Z01.89",
+    "interpreted reports",
+    "confirmed diagnoses",
+    "laboratory testing",
+    "radiology testing"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "diagnostic_services",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "diagnostic_services",
+      "routine_testing",
+      "Z01.89",
+      "interpreted_reports",
+      "confirmed_diagnoses"
+    ]
+  },
+  "page_range_processed": "pages_111_to_114"
+}

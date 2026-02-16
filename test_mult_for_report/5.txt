@@ -1,0 +1,114 @@
+L001: === CHART: Orthopedic Consultation Note ===
+L002: 
+L003: [AI ADDED: Header] ORTHOPEDIC CONSULTATION
+L004: 
+L005: Date of Service: 11/22/2025
+L006: Provider: Michael B Held, MD
+L007: Service: Orthopedics
+L008: Status: Signed
+L009: 
+L010: [AI ADDED: Patient Demographics]
+L011: Patient: Morris Mondschein
+L012: MRN: MR674177
+L013: DOB: 3/27/1937 (88 years old)
+L014: Attending of record: Demetris Delos, MD
+L015: 
+L016: [AI ADDED: Consultation Header]
+L017: REASON FOR CONSULTATION: Left hip fracture
+L018: 
+L019: HISTORY OF PRESENT ILLNESS:
+L020: Morris Mondschein is an 88-year-old male with past medical history of hypertension, hyperlipidemia, former smoker, coronary artery disease status post myocardial infarction with stents, chronic kidney disease stage 3, anemia, irritable bowel syndrome, and aortic stenosis who presents status post mechanical fall with left hip pain and inability to ambulate. At baseline, the patient ambulates without assistive device. He states he fell in the parking lot of CVS after tripping on a wooden object. He was able to get up and drive after the fall, but when he got home he could not enter his house so he called 911. He did hit his head, but had no loss of consciousness.
+L021: 
+L022: [AI ADDED: Additional HPI elements] [⚠️ PHYSICIAN INPUT REQUIRED: Duration and severity of hip pain, presence of night pain, impact on activities of daily living, and any prior treatments attempted for hip pain]
+L023: 
+L024: [AI ADDED: Section header] SOCIAL HISTORY:
+L025: Reports current alcohol use. [⚠️ PHYSICIAN INPUT REQUIRED: Quantify alcohol use, smoking history details (pack-years), living situation, occupation status, and functional status prior to injury]
+L026: 
+L027: [AI ADDED: Section header] PAST MEDICAL HISTORY:
+L028: - Hypertension
+L029: - Hyperlipidemia
+L030: - Coronary artery disease status post myocardial infarction with stents
+L031: - Chronic kidney disease stage 3
+L032: - Anemia
+L033: - Irritable bowel syndrome
+L034: - Aortic stenosis
+L035: - Former smoker
+L036: [⚠️ PHYSICIAN INPUT REQUIRED: Any history of osteoporosis, prior fractures, or other musculoskeletal conditions]
+L037: 
+L038: [AI ADDED: Section header] PAST SURGICAL HISTORY:
+L039: [⚠️ PHYSICIAN INPUT REQUIRED: Complete past surgical history]
+L040: 
+L041: [AI ADDED: Section header] MEDICATIONS:
+L042: - Acetaminophen (OFIRMEV) 1,000 mg IV Q6H
+L043: - Acetaminophen (TYLENOL) 1,000 mg PO Q6H [held by provider]
+L044: - Amlodipine (NORVASC) 5 mg PO daily
+L045: - Calcium carbonate (TUMS) 500 mg PO BID PRN
+L046: - Carvedilol (COREG) 3.125 mg PO BID
+L047: - Dextrose (GLUCOSE) 15g oral liquid PRN Q15 MIN
+L048: - Escitalopram (LEXAPRO) 20 mg PO QAM
+L049: - Hydromorphone (DILAUDID) 0.5 mg IV push Q3H PRN
+L050: - Hydromorphone (DILAUDID) 1 mg IV push Q4H PRN
+L051: - Insulin regular human (HUMULIN R, NOVOLIN R) correction scale 1-18 units Q6H
+L052: - Losartan (COZAAR) 50 mg PO daily [held by provider]
+L053: - Melatonin 3 mg PO nightly PRN
+L054: - Oxycodone (ROXICODONE) 5 mg PO Q4H PRN
+L055: - Pantoprazole (PROTONIX) 40 mg PO daily
+L056: - Polyethylene glycol (MIRALAX) 17g PO daily [held by provider]
+L057: - Rosuvastatin (CRESTOR) 20 mg PO daily
+L058: - Senna (SENOKOT) 17.2 mg (2 tablets) PO nightly
+L059: - Tamsulosin (FLOMAX) 0.4 mg PO nightly
+L060: 
+L061: [AI ADDED: Section header] ALLERGIES:
+L062: Augmentin [amoxicillin-pot clavulanate]
+L063: 
+L064: [AI ADDED: Section header] VITAL SIGNS:
+L065: Temperature: 98.3°F (36.8°C)
+L066: Pulse: 54
+L067: Respiratory Rate: 20
+L068: Blood Pressure: 101/59
+L069: SpO2: 93%
+L070: 
+L071: [AI ADDED: Section header] PHYSICAL EXAMINATION:
+L072: GENERAL: Awake, alert, no acute distress
+L073: CARDIOVASCULAR: Regular heart rate
+L074: RESPIRATORY: Unlabored breathing
+L075: 
+L076: LEFT LOWER EXTREMITY:
+L077: - Skin intact, leg shortened and externally rotated [AI ADDED: classic presentation of femoral neck fracture]
+L078: - Intact ankle dorsiflexion, plantar flexion, extensor hallucis longus function
+L079: - Sensation intact grossly in superficial peroneal, deep peroneal, and tibial nerve distributions
+L080: - Toes warm, well-perfused with palpable dorsalis pedis pulse
+L081: - Nonpainful left knee and ankle range of motion
+L082: 
+L083: PELVIS: No pain or instability with anteroposterior or lateral compression
+L084: 
+L085: All other large joints in the extremities were palpated and ranged with no significant findings.
+L086: 
+L087: [⚠️ PHYSICIAN INPUT REQUIRED: Detailed hip examination including pain with passive/active range of motion, specific limitations in range of motion (degrees), presence of crepitus, and neurovascular status]
+L088: 
+L089: [AI ADDED: Section header] DIAGNOSTIC STUDIES:
+L090: [⚠️ PHYSICIAN INPUT REQUIRED: Imaging results including X-ray and/or CT findings with specific description of fracture type, displacement, and classification]
+L091: 
+L092: [AI ADDED: Section header] LABORATORY RESULTS:
+L093: [⚠️ PHYSICIAN INPUT REQUIRED: Relevant laboratory values including CBC, CMP, coagulation studies]
+L094: 
+L095: [AI ADDED: Section header] ASSESSMENT:
+L096: [⚠️ PHYSICIAN INPUT REQUIRED: Specific diagnosis with fracture classification (Garden, AO/OTA), displacement status, and stability assessment]
+L097: 
+L098: [AI ADDED: Assessment based on available information] Left femoral neck fracture in an 88-year-old male with multiple medical comorbidities including CAD, CKD stage 3, and aortic stenosis.
+L099: 
+L100: [AI ADDED: Section header] PLAN:
+L101: [⚠️ PHYSICIAN INPUT REQUIRED: Detailed surgical plan including specific procedure (hemiarthroplasty vs. total hip arthroplasty), approach, implant considerations, timing of surgery, and medical optimization requirements]
+L102: 
+L103: [AI ADDED: Risk assessment section] PERIOPERATIVE RISK ASSESSMENT:
+L104: [⚠️ PHYSICIAN INPUT REQUIRED: Detailed risk assessment including ASA classification, cardiac risk evaluation, anesthesia considerations, and specific risk mitigation strategies]
+L105: 
+L106: [AI ADDED: Section header] INFORMED CONSENT:
+L107: [⚠️ PHYSICIAN INPUT REQUIRED: Documentation of informed consent discussion including risks, benefits, alternatives discussed with patient/family, and their understanding]
+L108: 
+L109: [AI ADDED: Section header] POSTOPERATIVE PLAN:
+L110: [⚠️ PHYSICIAN INPUT REQUIRED: Detailed postoperative plan including weight-bearing status, rehabilitation protocol, VTE prophylaxis, and follow-up schedule]
+L111: 
+L112: [AI ADDED: Signature block]
+L113: Electronically signed by: Michael B Held, MD
+L114: Date: 11/22/2025 8:05 AM

@@ -1,0 +1,204 @@
+{
+  "guideline_id": "I.C.18.g",
+  "semantic_title": "Coding Guidelines for SIRS due to Non-Infectious Process",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 18. Chapter 18: Symptoms, signs, and abnormal clinical and laboratory findings > g. SIRS due to Non-Infectious Process",
+  "page_number": 77,
+  "content": {
+    "full_text": "The systemic inflammatory response syndrome (SIRS) can develop as a result of certain non-infectious disease processes, such as trauma, malignant neoplasm, or pancreatitis. When SIRS is documented with a noninfectious condition, and no subsequent infection is documented, the code for the underlying condition, such as an injury, should be assigned, followed by code R65.10, Systemic inflammatory response syndrome (SIRS) of non-infectious origin without acute organ dysfunction, or code R65.11, Systemic inflammatory response syndrome (SIRS) of non-infectious origin with acute organ dysfunction. If an associated acute organ dysfunction is documented, the appropriate code(s) for the specific type of organ dysfunction(s) should be assigned in addition to code R65.11. If acute organ dysfunction is documented, but it cannot be determined if the acute organ dysfunction is associated with SIRS or due to another condition (e.g., directly due to the trauma), the provider should be queried. (Evidence: pg no: 77, L47-L50)",
+    "summary": "Guidelines for coding systemic inflammatory response syndrome (SIRS) when caused by non-infectious processes, including sequencing rules and organ dysfunction coding (Evidence: pg no: 77, L47-L50)",
+    "key_concepts": [
+      "Non-infectious SIRS causes (Evidence: pg no: 77, L47-L48)",
+      "Underlying condition sequencing (Evidence: pg no: 77, L48-L49)",
+      "Organ dysfunction coding requirements (Evidence: pg no: 77, L49-L50)",
+      "Provider query requirements (Evidence: pg no: 77, L50)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "SIRS_sequencing",
+        "rule_text": "The code for the underlying condition, such as an injury, should be assigned, followed by code R65.10 or R65.11 (Evidence: pg no: 77, L48-L49)",
+        "explanation": "Underlying non-infectious condition is sequenced first, followed by appropriate SIRS code (Evidence: pg no: 77, L48-L49)",
+        "importance": "critical",
+        "applies_to": "R65.10, R65.11",
+        "common_applications": [
+          "Trauma-induced SIRS",
+          "Malignancy-related SIRS",
+          "Pancreatitis-induced SIRS"
+        ]
+      },
+      {
+        "rule_id": "organ_dysfunction_coding",
+        "rule_text": "If an associated acute organ dysfunction is documented, the appropriate code(s) for the specific type of organ dysfunction(s) should be assigned in addition to code R65.11 (Evidence: pg no: 77, L49-L50)",
+        "explanation": "Additional codes required for specific organ dysfunction when present with SIRS (Evidence: pg no: 77, L49-L50)",
+        "importance": "high",
+        "applies_to": "R65.11",
+        "common_applications": [
+          "Acute kidney injury with SIRS",
+          "Respiratory failure with SIRS"
+        ]
+      },
+      {
+        "rule_id": "provider_query_rule",
+        "rule_text": "If acute organ dysfunction is documented, but it cannot be determined if the acute organ dysfunction is associated with SIRS or due to another condition, the provider should be queried (Evidence: pg no: 77, L50)",
+        "explanation": "Clarification needed when organ dysfunction relationship to SIRS is unclear (Evidence: pg no: 77, L50)",
+        "importance": "high",
+        "applies_to": "all_SIRS_codes",
+        "common_applications": [
+          "Trauma with multiple complications",
+          "Complex medical conditions"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify non-infectious underlying condition",
+      "Step 2: Confirm SIRS documentation",
+      "Step 3: Assess for acute organ dysfunction",
+      "Step 4: Code underlying condition first",
+      "Step 5: Add appropriate SIRS code (R65.10 or R65.11)",
+      "Step 6: Add specific organ dysfunction codes if applicable"
+    ],
+    "related_terminology": [
+      "systemic inflammatory response syndrome",
+      "SIRS",
+      "non-infectious origin",
+      "acute organ dysfunction",
+      "trauma",
+      "malignant neoplasm",
+      "pancreatitis"
+    ]
+  },
+  "code_references": {
+    "specific_codes": [
+      {
+        "code": "R65.10",
+        "description": "Systemic inflammatory response syndrome (SIRS) of non-infectious origin without acute organ dysfunction (Evidence: pg no: 77, L49)",
+        "context": "When SIRS is present without organ dysfunction",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "R65": "Symptoms and signs specifically associated with systemic inflammation and infection",
+          ".10": "SIRS of non-infectious origin without acute organ dysfunction"
+        }
+      },
+      {
+        "code": "R65.11",
+        "description": "Systemic inflammatory response syndrome (SIRS) of non-infectious origin with acute organ dysfunction (Evidence: pg no: 77, L49)",
+        "context": "When SIRS is present with organ dysfunction",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "R65": "Symptoms and signs specifically associated with systemic inflammation and infection",
+          ".11": "SIRS of non-infectious origin with acute organ dysfunction"
+        }
+      }
+    ],
+    "code_ranges": [],
+    "code_patterns": [
+      {
+        "pattern": "Underlying condition + SIRS code + organ dysfunction codes",
+        "description": "Standard sequencing pattern for non-infectious SIRS (Evidence: pg no: 77, L48-L50)",
+        "example": "Trauma code + R65.11 + specific organ dysfunction codes",
+        "explanation": "Ensures proper documentation of causation and complications"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Injury codes",
+      "Malignant neoplasm codes",
+      "Pancreatitis codes",
+      "SIRS codes",
+      "Organ dysfunction codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "trauma_SIRS_with_dysfunction",
+      "scenario": "Patient with severe trauma develops SIRS with acute kidney injury",
+      "documentation_example": "Multiple trauma with systemic inflammatory response syndrome and acute kidney injury",
+      "step_by_step": [
+        "Step 1: Code the underlying trauma condition first",
+        "Step 2: Add R65.11 for SIRS with organ dysfunction",
+        "Step 3: Add specific code for acute kidney injury"
+      ],
+      "correct_coding": {
+        "primary_code": "Trauma code (specific to injury)",
+        "secondary_codes": [
+          "R65.11",
+          "N17.9"
+        ],
+        "sequencing": "Underlying condition first, then SIRS, then organ dysfunction",
+        "rationale": "Follows required sequencing for non-infectious SIRS with organ dysfunction (Evidence: pg no: 77, L48-L50)"
+      },
+      "incorrect_coding": {
+        "code": "R65.11 as primary",
+        "rationale": "SIRS code should follow underlying condition",
+        "common_mistake": "Sequencing SIRS code before underlying condition"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "pancreatitis_SIRS",
+      "scenario": "Acute pancreatitis with SIRS, no organ dysfunction",
+      "code_example": "K85.9 + R65.10",
+      "breakdown": {
+        "K85.9": "Acute pancreatitis (underlying condition) (Evidence: pg no: 77, L48)",
+        "R65.10": "SIRS without organ dysfunction (Evidence: pg no: 77, L49)"
+      },
+      "rationale": "Underlying condition coded first, followed by appropriate SIRS code (Evidence: pg no: 77, L48-L49)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Query provider when organ dysfunction relationship to SIRS is unclear (Evidence: pg no: 77, L50)"
+    ],
+    "best_practices": [
+      "Always code underlying non-infectious condition first (Evidence: pg no: 77, L48-L49)",
+      "Add specific organ dysfunction codes when R65.11 is used (Evidence: pg no: 77, L49-L50)"
+    ],
+    "common_mistakes": [
+      "Sequencing SIRS code before underlying condition",
+      "Failing to code specific organ dysfunction with R65.11"
+    ],
+    "tips": [
+      "Common non-infectious causes include trauma, malignancy, and pancreatitis (Evidence: pg no: 77, L47-L48)"
+    ],
+    "implementation_notes": [
+      "Ensure no subsequent infection is documented before using non-infectious SIRS codes"
+    ],
+    "clinical_context": [
+      "Trauma cases",
+      "Oncology patients",
+      "Acute pancreatitis",
+      "Critical care settings"
+    ]
+  },
+  "search_keywords": [
+    "SIRS",
+    "systemic inflammatory response syndrome",
+    "non-infectious SIRS",
+    "R65.10",
+    "R65.11",
+    "organ dysfunction",
+    "trauma SIRS",
+    "pancreatitis SIRS"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "symptoms_signs_abnormal_findings",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "critical_care"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "SIRS",
+      "systemic_inflammation",
+      "organ_dysfunction",
+      "non_infectious"
+    ]
+  },
+  "page_range_processed": "pages_75_to_78"
+}

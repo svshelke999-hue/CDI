@@ -1,0 +1,166 @@
+{
+  "guideline_id": "I.C.1.b",
+  "semantic_title": "Infectious Agents as the Cause of Diseases Classified to Other Chapters",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 1. Chapter 1: Certain Infectious and Parasitic Diseases > b. Infectious agents as the cause of diseases classified to other chapters",
+  "page_number": 22,
+  "content": {
+    "full_text": "Certain infections are classified in chapters other than Chapter 1 and no organism is identified as part of the infection code. In these instances, it is necessary to use an additional code from Chapter 1 to identify the organism. A code from category B95, Streptococcus, Staphylococcus, and Enterococcus as the cause of diseases classified to other chapters, B96, Other bacterial agents as the cause of diseases classified to other chapters, or B97, Viral agents as the cause of diseases classified to other chapters, is to be used as an additional code to identify the organism. An instructional note will be found at the infection code advising that an additional organism code is required. (Evidence: pg no: 22, L47-L50)",
+    "summary": "Guidelines for coding infectious organisms when the primary infection code is classified outside Chapter 1 and doesn't identify the specific organism (Evidence: pg no: 22, L47-L50)",
+    "key_concepts": [
+      "Infections classified outside Chapter 1 (Evidence: pg no: 22, L47-L48)",
+      "Additional organism identification codes (Evidence: pg no: 22, L48-L49)",
+      "Instructional notes for organism coding (Evidence: pg no: 22, L50)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "ORGANISM_ADDITIONAL",
+        "rule_text": "When infections are classified in chapters other than Chapter 1 and no organism is identified as part of the infection code, use an additional code from Chapter 1 to identify the organism (Evidence: pg no: 22, L47-L49)",
+        "explanation": "Some infection codes don't specify the causative organism, requiring additional coding to identify the specific pathogen (Evidence: pg no: 22, L47-L49)",
+        "importance": "critical",
+        "applies_to": "B95, B96, B97",
+        "common_applications": [
+          "Pneumonia with identified organism",
+          "Urinary tract infections with specific bacteria",
+          "Skin infections with identified pathogens"
+        ]
+      },
+      {
+        "rule_id": "ORGANISM_CATEGORIES",
+        "rule_text": "Use codes from category B95 (Streptococcus, Staphylococcus, and Enterococcus), B96 (Other bacterial agents), or B97 (Viral agents) as additional codes to identify the organism (Evidence: pg no: 22, L49-L50)",
+        "explanation": "Specific code categories are designated for identifying organisms causing diseases classified in other chapters (Evidence: pg no: 22, L49-L50)",
+        "importance": "critical",
+        "applies_to": "B95-B97",
+        "common_applications": [
+          "Streptococcal infections",
+          "Staphylococcal infections",
+          "Viral infections",
+          "Other bacterial infections"
+        ]
+      },
+      {
+        "rule_id": "INSTRUCTIONAL_NOTE",
+        "rule_text": "An instructional note will be found at the infection code advising that an additional organism code is required (Evidence: pg no: 22, L50)",
+        "explanation": "The ICD-10-CM code book provides instructional notes indicating when additional organism codes are needed (Evidence: pg no: 22, L50)",
+        "importance": "high",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Following tabular list instructions",
+          "Checking for additional code requirements"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify the primary infection code",
+      "Step 2: Check if the infection is classified outside Chapter 1",
+      "Step 3: Determine if the organism is specified in the primary code",
+      "Step 4: If organism not specified, look for instructional notes",
+      "Step 5: Assign appropriate B95, B96, or B97 code for the organism"
+    ],
+    "related_terminology": [
+      "infectious agents",
+      "causative organisms",
+      "Streptococcus",
+      "Staphylococcus",
+      "Enterococcus",
+      "bacterial agents",
+      "viral agents",
+      "instructional notes"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "B95",
+        "description": "Streptococcus, Staphylococcus, and Enterococcus as the cause of diseases classified to other chapters (Evidence: pg no: 22, L49)",
+        "requirement": "Use as additional code when these organisms cause infections classified elsewhere",
+        "usage_rules": [
+          "Additional code only (Evidence: pg no: 22, L49-L50)",
+          "Follow instructional notes (Evidence: pg no: 22, L50)"
+        ]
+      },
+      {
+        "range": "B96",
+        "description": "Other bacterial agents as the cause of diseases classified to other chapters (Evidence: pg no: 22, L49)",
+        "requirement": "Use as additional code for bacterial organisms not in B95",
+        "usage_rules": [
+          "Additional code only (Evidence: pg no: 22, L49-L50)",
+          "For bacterial agents not covered by B95 (Evidence: pg no: 22, L49)"
+        ]
+      },
+      {
+        "range": "B97",
+        "description": "Viral agents as the cause of diseases classified to other chapters (Evidence: pg no: 22, L49)",
+        "requirement": "Use as additional code for viral organisms",
+        "usage_rules": [
+          "Additional code only (Evidence: pg no: 22, L49-L50)",
+          "For viral causative agents (Evidence: pg no: 22, L49)"
+        ]
+      }
+    ],
+    "code_categories_mentioned": [
+      "Chapter 1 infectious disease codes",
+      "Organism identification codes"
+    ]
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "ORGANISM_1",
+      "scenario": "Patient with pneumonia caused by Streptococcus pneumoniae",
+      "documentation_example": "Pneumonia due to Streptococcus pneumoniae confirmed by culture",
+      "step_by_step": [
+        "Step 1: Code the pneumonia from respiratory chapter",
+        "Step 2: Check if organism is specified in pneumonia code",
+        "Step 3: If not specified, look for instructional note",
+        "Step 4: Assign appropriate B95 code for Streptococcus pneumoniae"
+      ],
+      "correct_coding": {
+        "primary_code": "pneumonia code from respiratory chapter",
+        "secondary_codes": [
+          "B95.3 (Streptococcus pneumoniae)"
+        ],
+        "sequencing": "Primary infection code first, organism code as additional",
+        "rationale": "Organism identification required when not specified in primary infection code (Evidence: pg no: 22, L47-L50)"
+      }
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Only use organism codes when the primary infection code doesn't identify the organism (Evidence: pg no: 22, L47-L48)"
+    ],
+    "best_practices": [
+      "Always check instructional notes at infection codes (Evidence: pg no: 22, L50)",
+      "Use appropriate B95, B96, or B97 category based on organism type (Evidence: pg no: 22, L49-L50)"
+    ],
+    "tips": [
+      "Look for 'Use additional code' notes in the tabular list",
+      "Organism codes are always additional, never primary"
+    ]
+  },
+  "search_keywords": [
+    "infectious agents",
+    "organism codes",
+    "B95 B96 B97",
+    "additional organism coding",
+    "bacterial agents",
+    "viral agents",
+    "causative organism"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "infectious diseases",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "tags": [
+      "organisms",
+      "B95",
+      "B96",
+      "B97",
+      "additional codes",
+      "infections"
+    ]
+  },
+  "page_range_processed": "pages_21_to_24"
+}

@@ -1,0 +1,151 @@
+{
+  "guideline_id": "I.C.15.m",
+  "semantic_title": "Poisoning, Toxic Effects, Adverse Effects and Underdosing in Pregnant Patients",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 15. Pregnancy, Childbirth, and the Puerperium > m. Poisoning, toxic effects, adverse effects and underdosing in a pregnant patient",
+  "page_number": 67,
+  "content": {
+    "full_text": "A code from subcategory O9A.2, Injury, poisoning and certain other consequences of external causes complicating pregnancy, childbirth, and the puerperium, should be sequenced first, followed by the appropriate injury, poisoning, toxic effect, adverse effect or underdosing code, and then the additional code(s) that specifies the condition caused by the poisoning, toxic effect, adverse effect or underdosing. See Section I.C.19. Adverse effects, poisoning, underdosing and toxic effects. (Evidence: pg no: 67, L64-L67)",
+    "summary": "Sequencing guidelines for coding poisoning and related conditions in pregnant patients requiring multiple codes in specific order (Evidence: pg no: 67, L64-L67)",
+    "key_concepts": [
+      "O9A.2 sequenced first for pregnancy complications (Evidence: pg no: 67, L66-L67)",
+      "Multiple code sequencing required (Evidence: pg no: 67, L66-L67)",
+      "Cross-reference to general poisoning guidelines (Evidence: pg no: 67, L67)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "pregnancy_poisoning_sequencing",
+        "rule_text": "O9A.2 should be sequenced first, followed by poisoning code, then condition code (Evidence: pg no: 67, L66-L67)",
+        "explanation": "Poisoning in pregnant patients requires three-part coding with specific sequencing: pregnancy complication first, then poisoning type, then resulting condition (Evidence: pg no: 67, L64-L67)",
+        "importance": "critical",
+        "applies_to": "O9A.2, poisoning codes, condition codes",
+        "common_applications": [
+          "Drug poisoning in pregnancy",
+          "Toxic exposure in pregnancy",
+          "Medication adverse effects in pregnancy"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Assign O9A.2 code first",
+      "Step 2: Add appropriate poisoning/toxic effect/adverse effect code",
+      "Step 3: Add code for condition caused by the poisoning/effect",
+      "Step 4: Reference Section I.C.19 for additional guidance"
+    ],
+    "related_terminology": [
+      "poisoning",
+      "toxic effects",
+      "adverse effects",
+      "underdosing",
+      "external causes"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "O9A.2",
+        "description": "Injury, poisoning and certain other consequences of external causes complicating pregnancy, childbirth, and the puerperium (Evidence: pg no: 67, L66)",
+        "requirement": "Sequence first",
+        "usage_rules": [
+          "Primary code for poisoning complications in pregnancy (Evidence: pg no: 67, L66-L67)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Subcategory O9A.2 - Injury, poisoning and certain other consequences of external causes complicating pregnancy, childbirth, and the puerperium"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.19",
+        "title": "Adverse effects, poisoning, underdosing and toxic effects",
+        "relationship": "implements",
+        "explanation": "Referenced for general poisoning coding guidance"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "pregnancy_drug_poisoning",
+      "scenario": "Pregnant patient with accidental acetaminophen overdose causing liver injury",
+      "documentation_example": "30-year-old female at 20 weeks gestation with accidental acetaminophen poisoning resulting in acute hepatitis",
+      "step_by_step": [
+        "Step 1: Assign O9A.2 for poisoning complicating pregnancy",
+        "Step 2: Add T39.1X1A for accidental acetaminophen poisoning",
+        "Step 3: Add K72.00 for acute hepatitis"
+      ],
+      "correct_coding": {
+        "primary_code": "O9A.212",
+        "secondary_codes": [
+          "T39.1X1A",
+          "K72.00"
+        ],
+        "sequencing": "Pregnancy complication, then poisoning, then resulting condition",
+        "rationale": "Three-part sequencing required for poisoning in pregnancy (Evidence: pg no: 67, L64-L67)"
+      },
+      "incorrect_coding": {
+        "codes": [
+          "T39.1X1A",
+          "K72.00"
+        ],
+        "rationale": "Missing pregnancy complication code",
+        "common_mistake": "Using only poisoning codes without pregnancy complication code"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Must sequence O9A.2 first in poisoning cases (Evidence: pg no: 67, L66-L67)"
+    ],
+    "best_practices": [
+      "Use three-part coding sequence for complete documentation (Evidence: pg no: 67, L64-L67)",
+      "Reference Section I.C.19 for additional guidance (Evidence: pg no: 67, L67)"
+    ],
+    "common_mistakes": [
+      "Missing pregnancy complication code",
+      "Incorrect sequencing of codes",
+      "Missing condition caused by poisoning"
+    ],
+    "tips": [
+      "Remember the three-part sequence: pregnancy complication, poisoning, condition"
+    ],
+    "implementation_notes": [
+      "Applies to all types of poisoning and toxic effects in pregnancy"
+    ],
+    "clinical_context": [
+      "Poisoning in pregnancy requires comprehensive coding for maternal and fetal safety"
+    ]
+  },
+  "search_keywords": [
+    "poisoning",
+    "pregnancy",
+    "O9A.2",
+    "toxic effects",
+    "adverse effects",
+    "underdosing",
+    "sequencing"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "pregnancy_complications",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "poisoning",
+      "pregnancy",
+      "sequencing",
+      "multiple_coding",
+      "toxic_effects"
+    ]
+  },
+  "page_range_processed": "pages_66_to_69"
+}

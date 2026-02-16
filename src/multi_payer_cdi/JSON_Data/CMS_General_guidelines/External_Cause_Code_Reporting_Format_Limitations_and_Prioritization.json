@@ -1,0 +1,155 @@
+{
+  "guideline_id": "I.C.20.e",
+  "semantic_title": "External Cause Code Reporting Format Limitations and Prioritization",
+  "section_path": "Chapter 20: External Causes of Morbidity > e. If the Reporting Format Limits the Number of External Cause Codes",
+  "page_number": 90,
+  "content": {
+    "full_text": "If the reporting format limits the number of external cause codes that can be used in reporting clinical data, report the code for the cause/intent most related to the principal diagnosis. If the format permits capture of additional external cause codes, the cause/intent, including medical misadventures, of the additional events should be reported rather than the codes for place, activity, or external status. (Evidence: pg no: 90, L68-L71)",
+    "summary": "When reporting format limits external cause codes, prioritize cause/intent most related to principal diagnosis, and prefer cause/intent codes over place/activity/status codes for additional slots (Evidence: pg no: 90, L68-L71)",
+    "key_concepts": [
+      "Reporting format may limit external cause codes (Evidence: pg no: 90, L68-L70)",
+      "Prioritize cause/intent most related to principal diagnosis (Evidence: pg no: 90, L70)",
+      "Additional slots should use cause/intent codes (Evidence: pg no: 90, L70-L71)",
+      "Include medical misadventures in cause/intent priority (Evidence: pg no: 90, L71)",
+      "Prefer cause/intent over place/activity/status (Evidence: pg no: 90, L71)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "FORMAT_LIMIT_001",
+        "rule_text": "When limited, report cause/intent code most related to principal diagnosis (Evidence: pg no: 90, L68-L70)",
+        "explanation": "System or reporting limitations may restrict the number of external cause codes, requiring selection of the most clinically relevant code related to the principal diagnosis (Evidence: pg no: 90, L68-L70)",
+        "importance": "critical",
+        "applies_to": "Limited reporting formats",
+        "common_applications": [
+          "System limitations",
+          "Reporting constraints",
+          "Data submission requirements"
+        ]
+      },
+      {
+        "rule_id": "FORMAT_LIMIT_002",
+        "rule_text": "Additional external cause slots should prioritize cause/intent over place/activity/status (Evidence: pg no: 90, L70-L71)",
+        "explanation": "When additional external cause code slots are available, cause and intent codes (including medical misadventures) should be prioritized over supplementary codes for place, activity, or status (Evidence: pg no: 90, L70-L71)",
+        "importance": "high",
+        "applies_to": "Additional external cause code slots",
+        "common_applications": [
+          "Multiple external cause scenarios",
+          "Complex injury situations",
+          "Medical misadventure cases"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine reporting format limitations for external cause codes",
+      "Step 2: If limited to one code, select cause/intent most related to principal diagnosis",
+      "Step 3: If additional slots available, prioritize additional cause/intent codes",
+      "Step 4: Include medical misadventures in cause/intent priority",
+      "Step 5: Use remaining slots for place/activity/status if space permits"
+    ],
+    "related_terminology": [
+      "Reporting format",
+      "External cause limitations",
+      "Cause/intent codes",
+      "Principal diagnosis",
+      "Medical misadventures",
+      "Place/activity/status codes"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Cause/intent codes",
+      "Medical misadventure codes",
+      "Place codes",
+      "Activity codes",
+      "Status codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "FORMAT_LIMIT_001",
+      "scenario": "System allows only 2 external cause codes for patient who fell at work during break, striking head",
+      "documentation_example": "Employee fell down stairs during lunch break at office building, struck head on wall, sustained concussion",
+      "step_by_step": [
+        "Step 1: Identify all potential external cause codes (fall, striking, workplace, lunch activity, employee status)",
+        "Step 2: System limited to 2 external cause codes",
+        "Step 3: Select fall down stairs (most related to principal diagnosis)",
+        "Step 4: Select striking against wall (additional cause/intent)",
+        "Step 5: Omit workplace, activity, and status codes due to limitations"
+      ],
+      "correct_coding": {
+        "primary_code": "Concussion code",
+        "secondary_codes": [
+          "Fall down stairs code",
+          "Striking against wall code"
+        ],
+        "sequencing": "Principal diagnosis, then prioritized external causes",
+        "rationale": "Cause/intent codes prioritized over place/activity/status when format limits external cause codes (Evidence: pg no: 90, L68-L71)"
+      },
+      "incorrect_coding": {
+        "code": "Using place/activity codes instead of additional cause/intent",
+        "codes": [
+          "Fall code",
+          "Workplace place code instead of striking code"
+        ],
+        "rationale": "Should prioritize cause/intent over place/activity/status",
+        "common_mistake": "Not prioritizing cause/intent codes when slots are limited"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Don't use place/activity/status codes when cause/intent codes are available and slots limited (Evidence: pg no: 90, L70-L71)"
+    ],
+    "best_practices": [
+      "Prioritize cause/intent most related to principal diagnosis (Evidence: pg no: 90, L68-L70)",
+      "Include medical misadventures in cause/intent priority (Evidence: pg no: 90, L71)"
+    ],
+    "common_mistakes": [
+      "Using supplementary codes when cause/intent codes should be prioritized (Evidence: pg no: 90, L70-L71)"
+    ],
+    "tips": [
+      "Consider clinical relevance to principal diagnosis when prioritizing (Evidence: pg no: 90, L68-L70)"
+    ],
+    "implementation_notes": [
+      "System limitations require strategic code selection"
+    ],
+    "clinical_context": [
+      "Cause and intent information more critical than location or activity details"
+    ]
+  },
+  "search_keywords": [
+    "external cause format limitations",
+    "external cause prioritization",
+    "cause intent priority",
+    "reporting format limits",
+    "principal diagnosis related",
+    "medical misadventures priority"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "external_causes",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "external_causes",
+      "format_limitations",
+      "prioritization",
+      "cause_intent",
+      "chapter_20"
+    ]
+  },
+  "page_range_processed": "pages_87_to_90"
+}

@@ -1,0 +1,183 @@
+{
+  "guideline_id": "I.C.22",
+  "semantic_title": "Chapter 22: Codes for Special Purposes (U00-U85) - COVID-19 and Vaping-Related Disorders",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 22. Chapter 22: Codes for Special Purposes (U00-U85)",
+  "page_number": 107,
+  "content": {
+    "full_text": "U07.0 Vaping-related disorder (see Section I.C.10.e., Vaping-related disorders), U07.1 COVID-19 (see Section I.C.1.g.1., COVID-19 infection), U09.9 Post COVID-19 condition, unspecified (see Section I.C.1.g.1.m.) (Evidence: pg no: 107, L87-L89)",
+    "summary": "Special purpose codes for vaping-related disorders, COVID-19 infection, and post-COVID conditions with cross-references to detailed guidelines (Evidence: pg no: 107, L87-L89)",
+    "key_concepts": [
+      "Special purpose codes for specific contemporary health issues (Evidence: pg no: 107, L87-L89)",
+      "Cross-references to detailed coding guidelines in other sections (Evidence: pg no: 107, L87-L89)",
+      "Includes vaping disorders, COVID-19, and post-COVID conditions (Evidence: pg no: 107, L87-L89)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "SPECIAL_PURPOSE_REFERENCE",
+        "rule_text": "Refer to specific guideline sections for detailed coding instructions (Evidence: pg no: 107, L87-L89)",
+        "explanation": "Each special purpose code has detailed guidelines in other sections that must be consulted for proper coding (Evidence: pg no: 107, L87-L89)",
+        "importance": "critical",
+        "applies_to": "special_purpose_codes",
+        "common_applications": [
+          "COVID-19 coding",
+          "Vaping-related disorder coding",
+          "Post-COVID condition coding"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify condition requiring special purpose code",
+      "Step 2: Locate appropriate U code",
+      "Step 3: Refer to cross-referenced guideline section",
+      "Step 4: Apply detailed coding instructions from referenced section"
+    ],
+    "related_terminology": [
+      "Special purpose codes",
+      "Vaping-related disorders",
+      "COVID-19",
+      "Post-COVID conditions",
+      "Contemporary health issues"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "U00-U85",
+        "description": "Codes for Special Purposes (Evidence: pg no: 107, L86)",
+        "requirement": "Refer to specific guidelines for each code",
+        "usage_rules": [
+          "Follow cross-referenced guidelines for detailed instructions"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "U07.0",
+        "description": "Vaping-related disorder (Evidence: pg no: 107, L87)",
+        "context": "See Section I.C.10.e for detailed guidelines",
+        "requires_additional_codes": "check_code_notes",
+        "breakdown": {
+          "U07": "Special purpose codes for respiratory conditions",
+          ".0": "Vaping-related disorder"
+        }
+      },
+      {
+        "code": "U07.1",
+        "description": "COVID-19 (Evidence: pg no: 107, L88)",
+        "context": "See Section I.C.1.g.1 for detailed guidelines",
+        "requires_additional_codes": "check_code_notes",
+        "breakdown": {
+          "U07": "Special purpose codes for respiratory conditions",
+          ".1": "COVID-19 infection"
+        }
+      },
+      {
+        "code": "U09.9",
+        "description": "Post COVID-19 condition, unspecified (Evidence: pg no: 107, L89)",
+        "context": "See Section I.C.1.g.1.m for detailed guidelines",
+        "requires_additional_codes": "check_code_notes",
+        "breakdown": {
+          "U09": "Special purpose codes for post-infectious conditions",
+          ".9": "Post COVID-19 condition, unspecified"
+        }
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": "U07.-",
+        "description": "Special codes for respiratory-related contemporary conditions (Evidence: pg no: 107, L87-L88)",
+        "example": "U07.0 Vaping-related disorder, U07.1 COVID-19",
+        "explanation": "Codes for specific respiratory conditions of contemporary significance"
+      },
+      {
+        "pattern": "U09.-",
+        "description": "Special codes for post-infectious conditions (Evidence: pg no: 107, L89)",
+        "example": "U09.9 Post COVID-19 condition",
+        "explanation": "Codes for conditions following infectious diseases"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Vaping-related disorders",
+      "COVID-19 infections",
+      "Post-COVID conditions"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.10.e",
+        "title": "Vaping-related disorders",
+        "relationship": "implements",
+        "explanation": "Provides detailed coding instructions for U07.0"
+      },
+      {
+        "guideline_id": "I.C.1.g.1",
+        "title": "COVID-19 infection",
+        "relationship": "implements",
+        "explanation": "Provides detailed coding instructions for U07.1"
+      },
+      {
+        "guideline_id": "I.C.1.g.1.m",
+        "title": "Post COVID-19 conditions",
+        "relationship": "implements",
+        "explanation": "Provides detailed coding instructions for U09.9"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Must refer to cross-referenced sections for complete coding guidance (Evidence: pg no: 107, L87-L89)"
+    ],
+    "best_practices": [
+      "Always consult detailed guidelines in referenced sections",
+      "Stay current with updates to special purpose code guidelines"
+    ],
+    "common_mistakes": [
+      "Using special purpose codes without consulting detailed guidelines",
+      "Missing cross-referenced coding instructions"
+    ],
+    "tips": [
+      "Keep cross-referenced guideline sections readily accessible",
+      "Understand that these codes address contemporary health issues"
+    ],
+    "implementation_notes": [
+      "Requires familiarity with multiple guideline sections",
+      "May involve complex coding scenarios for contemporary conditions"
+    ],
+    "clinical_context": [
+      "COVID-19 pandemic",
+      "Vaping epidemic",
+      "Post-infectious conditions",
+      "Contemporary public health issues"
+    ]
+  },
+  "search_keywords": [
+    "special purpose codes",
+    "U codes",
+    "COVID-19",
+    "vaping disorders",
+    "post-COVID conditions",
+    "contemporary health issues"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "special_purpose_codes",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "special_purpose",
+      "COVID-19",
+      "vaping",
+      "cross_reference"
+    ]
+  },
+  "page_range_processed": "pages_105_to_108"
+}

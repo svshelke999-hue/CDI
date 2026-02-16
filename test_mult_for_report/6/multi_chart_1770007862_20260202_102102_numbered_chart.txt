@@ -1,0 +1,860 @@
+L001: 
+L002: 
+L003: === CHART: tmpz67yxjc5.pdf (Type: consultation_note) ===
+L004: 12/30/25, 4:21 PM Thye, Renke B (MR # MR364652) DOB: 07/30/1938
+L005: 
+L006: Consults by Held, Michael Brian, MD filed on 12/29/2025 7:42 AM.
+L007: 
+L008: Author: Held, Michael Brian, MD Service: Orthopedics Author Type: Physician
+L009: Date of Service: 12/29/2025 Filed: 12/29/2025 7:42 AM Status: Signed
+L010: 
+L011: Editor: Held, Michael Brian, MD (Physician)
+L012: 
+L013: ORTHOPAEDICS & REHABILITATION
+L014: 
+L015: Patient name: Renke Thye
+L016: 
+L017: Yale MRN: MR364652
+L018: 
+L019: Date of birth: 7/30/1938
+L020: 
+L021: Date of visit: 12/29/2025
+L022: 
+L023: Attending of record for this patient: No att. providers found
+L024: Provider leaving this note: Michael B Held, MD
+L025: 
+L026: Reason for consult: Left hip fracture
+L027: 
+L028: History of present illness:
+L029: 
+L030: Renke B Thye is a 87 y.o. male with PMHX of htn, hid, gerd, cad s/p stents in 2015, hx of LSAH who presents s/p
+L031: mechanical fall with L hip pain and inability to ambulate. At baseline the patient ambulates unassisted and lives with
+L032: his wife. He is still very active walking 5000 steps per day. Denies any antcedent left hip pain. Denies headstruke or
+L033: LOC. No other pain or injury except his left hip.
+L034: 
+L035: Social history:
+L036: reports that he has quit smoking. He has never used smokeless tobacco. He reports current alcohol use. He reports
+L037: that he does not use drugs.
+L038: 
+L039: PMHx:
+L040: 
+L041: Past Medical History
+L042: 
+L043: Past Medical History:
+L044: 
+L045: Diagnosis Date
+L046: * Chronic coronary artery disease
+L047: * GERD (gastroesophageal reflux disease)
+L048: 
+L049: Hypercholesteremia
+L050: 
+L051: Hypertension
+L052: 
+L053: * Stroke (HC Code) (HC CODE) 05/11/2025
+L054: atraumatic R cortical SAH
+L055: 
+L056: PSHx:
+L057: Past Surgical History
+L058: Past Surgical History:
+L059: Procedure Laterality Date
+L060: * CORONARY STENT PLACEMENT
+L061: per patient 2 stents
+L062: * JOINT REPLACEMENT Bilateral
+L063: knee
+L064: * LAPAROSCOPIC CHOLECYSTECTOMY
+L065: 
+L066: Home medications:
+L067: Current Medications
+L068: 
+L069: Current Facility-Administered Medications
+L070: 
+L071: Medication Dose Route Frequency Provider Last Last
+L072: Rate Admin
+L073: * acetaminophen 975 mg _ Oral Q6H Hearle, Brianna, 975 mg
+L074: (TYLENOL) tablet PA at
+L075: 975 mg 12/28/2
+L076: 5 2056
+L077: * amLODIPine 5 mg Oral Daily Lubin, Matthew, 5 mg at
+L078: (NORVASC) tablet MD 12/28/2
+L079: 5 mg 5 2056
+L080: * bisacodyL 5 mg Oral DAILY PRN _ Hearle, Brianna,
+L081: (DULCOLAX) EC PA
+L082: tablet 5 mg
+L083: * bisacodyL 10mg_ Rectal DAILY PRN _ Hearle, Brianna,
+L084: 
+L085: Thye, Renke B (MRN MR364652) Printed by Stagno, Cesarina [767] at 12/30/2025 4:21 PM 1/4
+L086: 
+L087: 12/30/25, 4:21 PM
+L088: 
+L089: Thye, Renke B (MRN MR364652) Printed by Stagno, Cesarina [767] at 12/30/2025 4:21 PM
+L090: 
+L091: (DULCOLAX)
+L092: suppository 10 mg
+L093: chlorhexidine
+L094: gluconate 2 %
+L095: towelette
+L096: divalproex
+L097: (DEPAKOTE DR)
+L098: tablet 500 mg
+L099: 
+L100: fentaNYL PF
+L101: (SUBLIMAZE)
+L102: injection 50 mcg
+L103: HYDROmorphone
+L104: (DILAUDID)
+L105: injection 0.5 mg
+L106: HYDROmorphone
+L107: (DILAUDID)
+L108: injection 1 mg
+L109: memantine
+L110: (NAMENDA)
+L111: immediate release
+L112: tablet 10 mg
+L113: midazolam
+L114: (VERSED) injection
+L115: 2mg
+L116: 
+L117: ondansetron (PF)
+L118: (ZOFRAN) injection
+L119: 4mg
+L120: 
+L121: ondansetron
+L122: (ZOFRAN-ODT)
+L123: disintegrating tablet
+L124: 4mg
+L125: 
+L126: oxyCODONE
+L127: (ROXICODONE)
+L128: Immediate Release
+L129: tablet 10 mg
+L130: oxyCODONE
+L131: (ROXICODONE)
+L132: Immediate Release
+L133: tablet 15 mg
+L134: oxyCODONE
+L135: (ROXICODONE)
+L136: Immediate Release
+L137: tablet 5 mg
+L138: [START ON
+L139: 12/30/2025]
+L140: polyethylene glycol
+L141: (MIRALAX) packet
+L142: 17g
+L143: povidone-iodine 5
+L144: % nasal swab
+L145: rosuvastatin
+L146: (CRESTOR) tablet
+L147: 10 mg
+L148: 
+L149: [START ON
+L150: 12/30/2025] senna
+L151: (SENOKOT) tablet
+L152: 17.2 mg
+L153: 
+L154: sodium chloride 0.9
+L155: % flush 3 mL
+L156: sodium chloride 0.9
+L157: % flush 3 mL
+L158: sodium chloride
+L159: 0.9% infusion
+L160: 
+L161: 500 mg
+L162: 
+L163: 50 mcg
+L164: 
+L165: 0.5 mg
+L166: 
+L167: 1 mg
+L168: 
+L169: 10 mg
+L170: 
+L171: 2mg
+L172: 
+L173: 4mg
+L174: 
+L175: 4mg
+L176: 
+L177: 10 mg
+L178: 
+L179: 15 mg
+L180: 
+L181: 5 mg
+L182: 
+L183: 179g
+L184: 
+L185: 10 mg
+L186: 
+L187: 2 tablet
+L188: 
+L189: 3 mL
+L190: 3 mL
+L191: 
+L192: 75
+L193: mL/hr
+L194: 
+L195: Topical (Top)
+L196: 
+L197: Oral
+L198: 
+L199: IV Push
+L200: 
+L201: IV Push
+L202: 
+L203: IV Push
+L204: 
+L205: Oral
+L206: 
+L207: IV Push
+L208: 
+L209: IV Push
+L210: 
+L211: Translingual
+L212: 
+L213: Oral
+L214: 
+L215: Oral
+L216: 
+L217: Oral
+L218: 
+L219: Oral
+L220: 
+L221: Nasal
+L222: 
+L223: Oral
+L224: 
+L225: Oral
+L226: 
+L227: IV Push
+L228: 
+L229: IV Push
+L230: 
+L231: Intravenous
+L232: 
+L233: Once PRN
+L234: 
+L235: BID
+L236: 
+L237: Q5 MIN PRN
+L238: 
+L239: Q4H PRN
+L240: 
+L241: Q4H PRN
+L242: 
+L243: Q12H
+L244: 
+L245: Q5 MIN PRN
+L246: 
+L247: Q6H PRN
+L248: 
+L249: Q6H PRN
+L250: 
+L251: Q3H PRN
+L252: 
+L253: Q3H PRN
+L254: 
+L255: Q3H PRN
+L256: 
+L257: Daily
+L258: 
+L259: Once
+L260: 
+L261: Daily
+L262: 
+L263: Nightly
+L264: 
+L265: Q8H
+L266: 
+L267: PRN for Line
+L268: Care
+L269: Continuous
+L270: 
+L271: PA
+L272: 
+L273: Hearle, Brianna,
+L274: PA
+L275: 
+L276: Sullivan, Hope
+L277: Tiezzi, PA
+L278: 
+L279: Chrostowski,
+L280: Mark, MD
+L281: 
+L282: Sullivan, Hope
+L283: Tiezzi, PA
+L284: 
+L285: Sullivan, Hope
+L286: Tiezzi, PA
+L287: 
+L288: Sullivan, Hope
+L289: Tiezzi, PA
+L290: 
+L291: Chrostowski,
+L292: Mark, MD
+L293: 
+L294: Hearle, Brianna,
+L295: PA
+L296: 
+L297: Hearle, Brianna,
+L298: PA
+L299: 
+L300: Torina,
+L301: Georgeann, PA
+L302: 
+L303: Torina,
+L304: Georgeann, PA
+L305: 
+L306: Torina,
+L307: Georgeann, PA
+L308: 
+L309: Hearle, Brianna,
+L310: PA
+L311: 
+L312: Hearle, Brianna,
+L313: PA
+L314: 
+L315: Sullivan, Hope
+L316: Tiezzi, PA
+L317: 
+L318: Hearle, Brianna,
+L319: PA
+L320: 
+L321: Hearle, Brianna,
+L322: PA
+L323: Hearle, Brianna,
+L324: PA
+L325: Hearle, Brianna,
+L326: PA
+L327: 
+L328: Thye, Renke B (MR # MR364652) DOB: 07/30/1938
+L329: 
+L330: 500 mg
+L331: at
+L332: 
+L333: 12/28/2
+L334: 5 2056
+L335: 
+L336: 10mg
+L337: at
+L338: 12/28/2
+L339: 5 2057
+L340: 
+L341: 10 mg
+L342: at
+L343: 12/29/2
+L344: 5 0619
+L345: 
+L346: 75 75
+L347: mL/hr at mL/hr at
+L348: 
+L349: 2/4
+L350: 
+L351: 12/30/25, 4:21 PM Thye, Renke B (MR # MR364652) DOB: 07/30/1938
+L352: 
+L353: 12/29/2 12/29/2
+L354: 50603 50603
+L355: 
+L356: Allergies:
+L357: Patient has no known allergies.
+L358: 
+L359: Relevant exam:
+L360: 
+L361: Temp: [98 °F (36.7 °C)-98.8 °F (37.1 °C)] 98 °F (36.7 °C)
+L362: Pulse: [63-83] 64
+L363: 
+L364: Resp: [16-19] 19
+L365: 
+L366: BP: (131-187)/(60-85) 162/66
+L367: 
+L368: SpO2: [91 %-95 %] 94 %
+L369: 
+L370: SpO2: [91 %-95 %] 94 % (12/29 0551)
+L371: 
+L372: Gen: Awake, alert, NAD
+L373: Heart: Regular heartrate
+L374: Lung: unlabored breathing
+L375: 
+L376: LLE:
+L377: 
+L378: Skin intact, leg shortened/externally rotated
+L379: 
+L380: Intact ankle dorsiflexion, plantar flexion, EHL
+L381: Sensation intact grossly sp/dp/t nerve distributions
+L382: Toes wwp, palpable DP pulse
+L383: 
+L384: Nonpainful L knee/ankle ROM
+L385: 
+L386: Pelvis: No pain or instability with AP or lateral compression
+L387: All other large joints in the extremities were palpated and ranged with no signs of deformity or pain.
+L388: 
+L389: Imaging / studies:
+L390: XR AP pelvis + femur demonstrates Left displaced femoral neck hip fracture
+L391: 
+L392: Impression and plan:
+L393: 
+L394: Renke B Thye is a 87 y.o. male sustained a Left displaced femoral neck fracture. Femur fractures in the elderly are of
+L395: the highest severity due to the morbidity without treatment and risk of death due to bed-ridden disability, risk of
+L396: ulcers, and risk of clot and other medical complications causing death. Therefore | had a long discussion with the
+L397: patient and their family about the treatment options, including nonoperative and operative intervention. We
+L398: discussed risks and benefits and alternatives to surgery as well as chances of full or partial weight bearing after.
+L399: After going over these options, we decided to pursue a left total hip replacement due to his activity level and pre-fall
+L400: high level unassisted ambulation.
+L401: 
+L402: We discussed the risks of surgery including infection, wound complications, bleeding, need for a transfusion, possible
+L403: damage to surronding neurovascular structures, potential for continued pain, continued weakness, worsening pain
+L404: and worsening weakness, stiffness, instability/dislocation, limb length discrepancy, fracture, infection requiring the
+L405: resection or revision arthroplasty, component loosening and the need for revision surgery in the future. We also
+L406: discussed the risks of thromboembolic complications, stroke, heart attack, cardiac event, heart failure, pulmonary
+L407: edema, fat/cement embolus, aspiration, death, and the risks of anesthesia and nerve blocks.
+L408: 
+L409: Would favor spinal anesthesia and early care as delay in care results in perioperative morbidity and mortality with
+L410: geriatric femur fractures.
+L411: 
+L412: - NPO/IVEF for OR this afternoon
+L413: 
+L414: - NWB LLE
+L415: 
+L416: - Pain control
+L417: 
+L418: - DVT: HSQ pre-op, on hold now
+L419: 
+L420: - appreciate Medicine consult for pre operative risk stratification
+L421: - Booked/consented/marked
+L422: 
+L423: Michael B Held, MD
+L424: 
+L425: Electronically signed by Held, Michael Brian, MD at 12/29/2025 7:42 AM
+L426: 
+L427: Thye, Renke B (MRN MR364652) Printed by Stagno, Cesarina [767] at 12/30/2025 4:21 PM 3/4
+L428: 
+L429: 12/30/25, 4:21 PM
+L430: 
+L431: ED to Hosp-Admission (Current) on 12/28/2025
+L432: 
+L433: Routing History
+L434: 
+L435: Priority
+L436: t
+L437: 
+L438: t
+L439: t
+L440: t
+L441: 
+L442: mem
+L443: 
+L444: Sent On
+L445: 12/28/2025 10:08
+L446: AM
+L447: 
+L448: 12/28/2025 10:08
+L449: AM
+L450: 
+L451: 12/28/2025 10:00
+L452: AM
+L453: 
+L454: 12/28/2025 10:00
+L455: AM
+L456: 
+L457: 12/28/2025 9:15
+L458: AM
+L459: 
+L460: 12/28/2025 9:15
+L461: AM
+L462: 
+L463: 12/28/2025 9:15
+L464: AM
+L465: 
+L466: 12/28/2025 9:15
+L467: AM
+L468: 
+L469: 12/28/2025 9:13
+L470: AM
+L471: 
+L472: 12/28/2025 9:13
+L473: AM
+L474: 
+L475: Thye, Renke B (MR # MR364652) DOB: 07/30/1938
+L476: 
+L477: From
+L478: Edi, Rad Results In
+L479: 
+L480: Edi, Rad Results In
+L481: Lab, Background User
+L482: Lab, Background User
+L483: Edi, Rad Results In
+L484: Edi, Rad Results In
+L485: Edi, Rad Results In
+L486: Edi, Rad Results In
+L487: Edi, Rad Results In
+L488: 
+L489: Edi, Rad Results In
+L490: 
+L491: Note shared with patient
+L492: 
+L493: To
+L494: Aversano, Francis, MD
+L495: 
+L496: Casarella, Ryan Patrick, MD
+L497: 
+L498: Aversano, Francis, MD
+L499: 
+L500: Casarella, Ryan Patrick, MD
+L501: 
+L502: Aversano, Francis, MD
+L503: 
+L504: Casarella, Ryan Patrick, MD
+L505: 
+L506: Aversano, Francis, MD
+L507: 
+L508: Casarella, Ryan Patrick, MD
+L509: 
+L510: Aversano, Francis, MD
+L511: 
+L512: Casarella, Ryan Patrick, MD
+L513: 
+L514: Thye, Renke B (MRN MR364652) Printed by Stagno, Cesarina [767] at 12/30/2025 4:21 PM
+L515: 
+L516: Message Type
+L517: Results
+L518: 
+L519: Results
+L520: Results
+L521: Results
+L522: Results
+L523: Results
+L524: Results
+L525: Results
+L526: Results
+L527: 
+L528: Results
+L529: 
+L530: 4/4
+L531: === END CHART: tmpz67yxjc5.pdf ===
+L532: 
+L533: 
+L534: === CHART: tmpysqmhuab.pdf (Type: operative_note) ===
+L535: 12/30/25, 4:22 PM
+L536: 
+L537: Thye, Renke B (MR # MR364652) DOB: 07/30/1938
+L538: 
+L539: Operative Note by Held, Michael Brian, MD filed on 12/29/2025 3:23 PM.
+L540: 
+L541: Author: Held, Michael Brian, MD Service: Orthopedics
+L542: 
+L543: Date of Service: 12/29/2025 Filed: 12/29/2025 3:23 PM
+L544: Editor: Held, Michael Brian, MD (Physician)
+L545: 
+L546: Orthopedic Surgery Operative Report
+L547: 
+L548: Patient Name: Renke B Thye
+L549: Date of Procedure: 12/29/2025
+L550: Location: Greenwich Hospital
+L551: MRN: MR364652
+L552: 
+L553: Procedure:
+L554: 
+L555: 1) Left Total Hip Replacement for intracapsular displaced femoral neck fracture
+L556: 
+L557: Suggested CPT Code: 27130
+L558: 
+L559: Preliminary Diagnosis: Displaced subcapital femoral neck fracture of the left hip
+L560: 
+L561: Postoperative Diagnosis : Same
+L562: 
+L563: Surgeon: Dr. Michael B Held
+L564: 
+L565: First Assist: Tyler Howrigan, NP
+L566: 
+L567: Author Type: Physician
+L568: Status: Signed
+L569: 
+L570: Of note, a first assist PA/NP was necessary for this procedure, as no other first assist or resident was available to
+L571: 
+L572: help due to the complex nature of the surgery.
+L573: PA assisted with exposure, trialing and implantation, and closure of the wound
+L574: 
+L575: Anesthesia Staff: ANESTHESIOLOGIST: Abrahams, Hanief, MD
+L576: CRNA: Ober-Adams, Colleen, CRNA
+L577: 
+L578: Anesthesia Type: Failed Spinal converted to General
+L579: 
+L580: Specimens:
+L581: ID Type Source Tests Collected by Time
+L582: 1: left femoral Bone Femoral Head SURGICAL Held, Michael
+L583: head PATHOLOGY Brian, MD PM
+L584: (GH LMW)
+L585: Estimated Blood Loss:
+L586: 150cc
+L587: Implants:
+L588: Implant Name Type Inv. Item Serial No. Manufacturer Lot No. LRB
+L589: CEMENT BONE Implant CEMENT STRYKER RJG38 Left
+L590: SURG SIMPLEX P BONE SURG 4
+L591: RAD - SIMPLEX P
+L592: LOG3573584 RAD
+L593: CEMENT BONE Implant CEMENT STRYKER RJG38 Left
+L594: SURG SIMPLEX P BONE SURG 4
+L595: RAD - SIMPLEX P
+L596: LOG3573584 RAD
+L597: CEMENT BONE Implant CEMENT STRYKER RJG38 Left
+L598: SURG SIMPLEX P BONE SURG 4
+L599: RAD - SIMPLEX P
+L600: LOG3573584 RAD
+L601: LINER ACET HIP — Implant LINER ACET SMITH 25JMO Left
+L602: OD POLY R3 HIP OD POLY NEPHEW 4323
+L603: 40X56MM - R3 40X56MM
+L604: LOG3573584
+L605: 56mm Redapt Implant Smith & 25HMO Left
+L606: Modular Shell Nephew, Inc. 0642
+L607: 
+L608: Thye, Renke B (MRN MR364652) Printed by Stagno, Cesarina [767] at 12/30/2025 4:21 PM
+L609: 
+L610: 12/29/2025 2:01
+L611: 
+L612: No.
+L613: Used
+L614: 
+L615: Action
+L616: 
+L617: Implanted
+L618: 
+L619: Implanted
+L620: 
+L621: Implanted
+L622: 
+L623: Implanted
+L624: 
+L625: Implanted
+L626: 
+L627: 1/4
+L628: 
+L629: 12/30/25, 4:22 PM Thye, Renke B (MR # MR364652) DOB: 07/30/1938
+L630: 
+L631: Size 5 Polarstem — Implant Smith & F2500 Left 1 Implanted
+L632: Hip Stem, Nephew, Inc. 879
+L633: 
+L634: Standard
+L635: 
+L636: Cemented
+L637: 
+L638: HEAD FEM MOD - Implant HEAD FEM SMITH 25JMO Left 1 Implanted
+L639: LOG3573584 MOD NEPHEW 6018
+L640: 
+L641: SLEEV HEAD Implant SLEEV HEAD SMITH 24GT8 Left 1 Implanted
+L642: TITANIUM MOD - TITANIUM NEPHEW 4024
+L643: 
+L644: LOG3573584 MOD
+L645: 
+L646: Findings: Displaced subcapital left femoral neck fracture
+L647: 
+L648: Indication:
+L649: 
+L650: The patient is a 87 y.o. male who presented to our emergency room after a fall and was found to have a left hip
+L651: displaced femoral neck fracture. Femur fractures in the elderly are of the highest severity due to the morbidity without
+L652: treatment and risk of death due to bed-ridden disability, risk of ulcers, and risk of clot and other medical complications
+L653: causing death. Therefore | had a long discussion with the patient and their family about the treatment options,
+L654: including nonoperative and operative intervention. We discussed risks and benefits and alternatives to surgery as
+L655: well as chances of full or partial weight bearing after. We discussed the risks of surgery including infection, wound
+L656: complications, bleeding, need for a transfusion, possible damage to surronding neurovascular structures, potential for
+L657: continued pain, continued weakness, worsening pain and worsening weakness, stiffness, instability/dislocation, limb
+L658: length discrepancy, fracture, infection requiring the resection or revision arthroplasty, component loosening and the
+L659: need for revision surgery in the future. We also discussed the risks of thromboembolic complications, stroke, heart
+L660: attack, cardiac event, heart failure, pulmonary edema, fat embolus, aspiration, death, and the risks of anesthesia.
+L661: The potential benefits of surgery are pain relief or improvement, improved mobility, and allowance of immediate
+L662: weight bearing post-operatively. We also discussed some of the risks specific to the anterior approach including
+L663: numbness over the lateral thigh, wound complications, and femoral component loosening or fracture of the femur.
+L664: These risks were discussed in the context of other approaches, specifically the posterior approach and its associated
+L665: risks. The patient expressed an understanding of these risks and the patient wished to proceed with a total hip
+L666: replacement. We did discuss hemiarthroplasty, however given the patients high functional demand he and his wife
+L667: elected to proceed with a total hip replacement.
+L668: 
+L669: We also discussed the overall poor prognosis for patients who have suffered a femur fracture, with high morbidity and
+L670: mortality rates following this particular pattern of injury. The patient and family expressed understanding and elected
+L671: to proceed with a total hip replacement.
+L672: 
+L673: The patient was seen by the Medicine service and was determined to be optimized from a medical standpoint for this
+L674: surgery. The medicine team cleared the patient for surgery as well.
+L675: 
+L676: Description of procedure:
+L677: The patient was seen in the preoperative holding area and the appropriate side lower extremity was marked. Again a
+L678: discussion of the procedure was held with the patient and the patient wished to proceed.
+L679: 
+L680: The patient was brought to the Operating Room and a preliminary anesthesia time out was then performed. Spinal
+L681: anesthesia was then performed by the anesthesia team, however was unsuccessful and he was converted to
+L682: general. The patient was then placed supine on the operating room table. Preoperative antibiotics were administered
+L683: within thirty minutes of incision time as well as 1 gram of tranexamic acid. The patient was placed onto a sacral bump
+L684: on the operating room table. At this point, the patient's surgical area was prepped and draped in the standard, sterile
+L685: fashion. A surgical timeout was then performed to confirm the correct side, procedure, and name.
+L686: 
+L687: A longitudinal incision was made starting lateral and distal to the anterior superior iliac spine. The incision was
+L688: carried down through the subcutaneous tissues down to the level of the tensor fascia lata. The tensor fascia lata was
+L689: then divided sharply with care not to violate the muscle below. Blunt dissection of the fascia was done to identify the
+L690: interval between the tensor fascia lata and the sartorius. Once this was done and deeper retractors had been placed,
+L691: the ascending branch of the lateral femoral circumflex artery was clearly visualized and this was cauterized. Next, the
+L692: fat within this interval was dissected to better visualize the anterior hip capsule and the lateral border of the
+L693: iliocapsularis. At this point, a Cobb was used to elevate the iliocapsularis and rectus off the anterior capsule and a
+L694: retractor was placed underneath these muscles. At this point, a capsulectomy was performed along the axis of the
+L695: femoral neck and the intertrochanteric ridge. A large hemarthrosis from the fracture was encountered. The retractors
+L696: were now placed intracapsular and the head-neck junction was exposed. A release of the pubofemoral ligament was
+L697: then performed until the lesser trochanter could be palpated. Using the pre-operative templating, the appropriate
+L698: clean up neck cut was made and the femoral head and remaining neck was extracted.
+L699: 
+L700: The acetabulum was now visualized with the placement of retractors. At this point, the labrum and the contents of the
+L701: Thye, Renke B (MRN MR364652) Printed by Stagno, Cesarina [767] at 12/30/2025 4:21 PM 2/4
+L702: 
+L703: 12/30/25, 4:22 PM Thye, Renke B (MR # MR364652) DOB: 07/30/1938
+L704: 
+L705: cotyloid fossa were removed. The acetabulum was then reamed sequentially, based on preoperative templating.
+L706: Reaming was performed carefully. Next, the final size 56mm acetabular component was impacted into the
+L707: appropriate position. The periphery of the acetabular component was inspected and any osteophytes were removed.
+L708: Once this was accomplished, the final 40mm neutral polyethylene liner was impacted into place. Care was taken to
+L709: ensure that the liner was fully seated and had engaged the locking mechanism.
+L710: 
+L711: Next, the acetabular retractors were removed and attention was turned to the femur. The leg was positioned in an
+L712: adducted and extended position. Retractors were then placed around the proximal femur to expose the cut neck
+L713: surface. Tight capsular tissue over the superior/anterior aspect of the femoral neck was released using cautery only
+L714: to allow for sufficient exposure. A curved double footed retractor was placed over the greater trochanter laterally and
+L715: a femoral retractor placed at the infero medial neck. Sequential releases were performed in order to allow for
+L716: accepted elevation of the femur, this was done in conjunction with gentle elevation with a bone hook.
+L717: 
+L718: The canal finder was then used to establish the IM canal. A box cutter was used to remove posterolateral bone of the
+L719: cut neck. Arasp and curette were used to remove lateral femoral neck bone remaining. An entry broach was
+L720: utilized, followed by sequential broaching up to the final size. With the broach left in place and after calcar planning,
+L721: the neck and trials were placed. The hip was reduced and found to be stable. Leg length, offset and implant size and
+L722: position were assessed clinically. Afterwards, the hip was dislocated. The trial components were removed.
+L723: 
+L724: The femoral canal was irrigated and a cement restrictor was placed down the canal. The canal was again rinsed and
+L725: dried. Cement was then placed in the canal and pressurized, and the final size 5 standard stem was placed in the
+L726: canal. After the cement hardened the actual 40mm +4 head was now impacted into place after cleaning and drying.
+L727: The hip was reduced with traction and internal rotation after confirming that the acetabular component was free of
+L728: any debris and had been irrigated.
+L729: 
+L730: The wound was then copiously irrigated and washed with a dilute betadine solution then with normal saline. Copious
+L731: irrigation was used throughout the closure. 1 gram of Vancomycin powder was placed in the deep wound. The fascia
+L732: overlying the TFL was now closed using running barbed suture, with care to not entrap any of the lateral femoral
+L733: cutaneous nerve branches. The remainder of the wound was closed in layers using #1 Vicryl, 2-0 Vicryl, 3-0 Monocry|
+L734: with prineo/Dermabond for skin. Standard mepilex dressing was applied in the standard fashion and the patient was
+L735: transferred to the Recovery Room in stable condition. All sponge, needle counts were correct x 2.
+L736: 
+L737: SN redapt/cemented polarstem components were used in this procedure.
+L738: 
+L739: Postoperative Plan:
+L740: 
+L741: WBAT: wbat
+L742: 
+L743: PT/OT: OOB and ambulation
+L744: 
+L745: Pain control: Oxycodone 5mg as needed for moderate pain; Tylenol for mild pain
+L746: DVT ppx: asa 81 bid
+L747: 
+L748: Periop ancef, followed by 7 days of cefadroxil due to high risk fracture
+L749: Colace 100mg BID while taking oxycodone
+L750: 
+L751: Keep dressing clean and dry
+L752: 
+L753: Zofran PRN while taking oxycodone
+L754: 
+L755: Resume Home Medications
+L756: 
+L757: Medical comanagement by hospitalist service, appreciate recommendations
+L758: Dispo: pending PT/OT eval
+L759: 
+L760: Michael B Held, MD
+L761: 
+L762: Date: 12/29/2025 Time: 3:18 PM
+L763: 
+L764: Electronically signed by Held, Michael Brian, MD at 12/29/2025 3:23 PM
+L765: 
+L766: ED to Hosp-Admission (Current) on 12/28/2025 Note shared with patient
+L767: 
+L768: Routing History
+L769: 
+L770: Priority Sent On From To Message Type
+L771: t 12/28/2025 10:08 Edi, Rad Results In Aversano, Francis, MD Results
+L772: 
+L773: AM
+L774: t 12/28/2025 10:08 — Edi, Rad Results In Casarella, Ryan Patrick, MD Results
+L775: 
+L776: AM
+L777: 
+L778: Thye, Renke B (MRN MR364652) Printed by Stagno, Cesarina [767] at 12/30/2025 4:21 PM 3/4
+L779: 
+L780: 12/30/25, 4:22 PM
+L781: 
+L782: Priority
+L783: t
+L784: 
+L785: =—- =—=_  —_  —_ —_ =_—_
+L786: 
+L787: Sent On
+L788: 12/28/2025 10:00
+L789: AM
+L790: 
+L791: 12/28/2025 10:00
+L792: AM
+L793: 
+L794: 12/28/2025 9:15
+L795: AM
+L796: 
+L797: 12/28/2025 9:15
+L798: AM
+L799: 
+L800: 12/28/2025 9:15
+L801: AM
+L802: 
+L803: 12/28/2025 9:15
+L804: AM
+L805: 
+L806: 12/28/2025 9:13
+L807: AM
+L808: 
+L809: 12/28/2025 9:13
+L810: AM
+L811: 
+L812: Thye, Renke B (MR # MR364652) DOB: 07/30/1938
+L813: 
+L814: From
+L815: 
+L816: Lab, Background User
+L817: 
+L818: Lab, Background User
+L819: 
+L820: Edi, Rad Results In
+L821: 
+L822: Edi, Rad Results In
+L823: 
+L824: Edi, Rad Results In
+L825: 
+L826: Edi, Rad Results In
+L827: 
+L828: Edi, Rad Results In
+L829: 
+L830: Edi, Rad Results In
+L831: 
+L832: To
+L833: Aversano, Francis, MD
+L834: 
+L835: Casarella, Ryan Patrick, MD
+L836: Aversano, Francis, MD
+L837: Casarella, Ryan Patrick, MD
+L838: Aversano, Francis, MD
+L839: Casarella, Ryan Patrick, MD
+L840: Aversano, Francis, MD
+L841: 
+L842: Casarella, Ryan Patrick, MD
+L843: 
+L844: Thye, Renke B (MRN MR364652) Printed by Stagno, Cesarina [767] at 12/30/2025 4:21 PM
+L845: 
+L846: Message Type
+L847: Results
+L848: 
+L849: Results
+L850: Results
+L851: Results
+L852: Results
+L853: Results
+L854: Results
+L855: 
+L856: Results
+L857: 
+L858: 4/4
+L859: === END CHART: tmpysqmhuab.pdf ===
+L860: 

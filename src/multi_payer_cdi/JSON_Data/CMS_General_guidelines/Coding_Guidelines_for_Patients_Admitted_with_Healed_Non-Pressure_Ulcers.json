@@ -1,0 +1,121 @@
+{
+  "guideline_id": "I.C.12.b.1",
+  "semantic_title": "Coding Guidelines for Patients Admitted with Healed Non-Pressure Ulcers",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 12. Chapter 12: Diseases of the Skin and Subcutaneous Tissue > b. Non-Pressure Chronic Ulcers > 1. Patients admitted with non-pressure ulcers documented as healed",
+  "page_number": 60,
+  "content": {
+    "full_text": "No code is assigned if the documentation states that the non-pressure ulcer is completely healed at the time of admission. (Evidence: pg no: 60, L9-L10)",
+    "summary": "No coding is required for non-pressure ulcers that are completely healed at admission (Evidence: pg no: 60, L9-L10)",
+    "key_concepts": [
+      "Non-pressure ulcers (Evidence: pg no: 60, L7)",
+      "Completely healed ulcers (Evidence: pg no: 60, L9)",
+      "Time of admission (Evidence: pg no: 60, L10)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "NPU_HEALED_001",
+        "rule_text": "No code is assigned if the documentation states that the non-pressure ulcer is completely healed at the time of admission (Evidence: pg no: 60, L9-L10)",
+        "explanation": "When documentation clearly indicates a non-pressure ulcer is completely healed upon admission, no ulcer code should be assigned (Evidence: pg no: 60, L9-L10)",
+        "importance": "critical",
+        "applies_to": "Non-pressure ulcer codes",
+        "common_applications": [
+          "Admission assessments",
+          "Healed ulcer documentation"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Review documentation for non-pressure ulcer status",
+      "Step 2: Determine if ulcer is documented as completely healed at admission",
+      "Step 3: If completely healed, do not assign any ulcer code"
+    ],
+    "related_terminology": [
+      "Non-pressure ulcers",
+      "Completely healed",
+      "Time of admission"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Non-pressure ulcer codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "NPU_HEALED_SC001",
+      "scenario": "Patient admitted with documentation stating 'venous ulcer completely healed'",
+      "documentation_example": "Patient has history of venous ulcer on left leg, completely healed at time of admission",
+      "step_by_step": [
+        "Step 1: Identify non-pressure ulcer in documentation",
+        "Step 2: Note that ulcer is documented as completely healed",
+        "Step 3: Do not assign any ulcer code"
+      ],
+      "correct_coding": {
+        "primary_code": "No ulcer code assigned",
+        "secondary_codes": [],
+        "sequencing": "N/A",
+        "rationale": "Documentation states ulcer is completely healed at admission, so no code is assigned (Evidence: pg no: 60, L9-L10)"
+      },
+      "incorrect_coding": {
+        "code": "Any non-pressure ulcer code",
+        "codes": [
+          "Venous ulcer codes",
+          "Other non-pressure ulcer codes"
+        ],
+        "rationale": "Guidelines specify no code should be assigned for completely healed ulcers",
+        "common_mistake": "Assigning ulcer codes for healed conditions"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not assign codes for ulcers documented as completely healed at admission (Evidence: pg no: 60, L9-L10)"
+    ],
+    "best_practices": [
+      "Carefully review documentation to determine healing status at admission (Evidence: pg no: 60, L9-L10)"
+    ],
+    "common_mistakes": [
+      "Assigning ulcer codes for conditions documented as completely healed (Evidence: pg no: 60, L9-L10)"
+    ],
+    "tips": [
+      "Look for specific language indicating 'completely healed' status (Evidence: pg no: 60, L9)"
+    ],
+    "implementation_notes": [
+      "This applies specifically to the time of admission assessment"
+    ],
+    "clinical_context": [
+      "Healed ulcers represent resolved conditions that do not require active coding"
+    ]
+  },
+  "search_keywords": [
+    "non-pressure ulcers",
+    "healed ulcers",
+    "admission documentation",
+    "completely healed",
+    "no code assigned"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "skin_and_subcutaneous_tissue",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "non_pressure_ulcers",
+      "healed_conditions",
+      "admission_coding"
+    ]
+  },
+  "page_range_processed": "pages_60_to_63"
+}

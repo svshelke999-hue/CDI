@@ -1,0 +1,179 @@
+{
+  "guideline_id": "I.B.4",
+  "semantic_title": "Using Signs and Symptoms Codes When Definitive Diagnosis Not Established",
+  "section_path": "Section I > B. General Coding Guidelines > 4. Signs and symptoms",
+  "page_number": 13,
+  "content": {
+    "full_text": "Codes that describe symptoms and signs, as opposed to diagnoses, are acceptable for reporting purposes when a related definitive diagnosis has not been established (confirmed) by the provider. Chapter 18 of ICD-10-CM, Symptoms, Signs, and Abnormal Clinical and Laboratory Findings, Not Elsewhere Classified (codes R00.0 - R99) contains many, but not all, codes for symptoms. See Section I.B.18. Use of Signs/Symptom/Unspecified Codes (Evidence: pg no: 13, L38-L42)",
+    "summary": "Allows the use of symptom and sign codes when a definitive diagnosis has not been established by the provider, primarily using Chapter 18 codes R00.0-R99. (Evidence: pg no: 13, L38-L42)",
+    "key_concepts": [
+      "Symptom codes acceptable when no definitive diagnosis established (Evidence: pg no: 13, L38-L40)",
+      "Chapter 18 contains most but not all symptom codes (Evidence: pg no: 13, L40-L41)",
+      "Provider must not have confirmed a definitive diagnosis (Evidence: pg no: 13, L39-L40)",
+      "R00.0-R99 code range for symptoms and signs (Evidence: pg no: 13, L40-L41)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.B.4.1",
+        "rule_text": "Use symptom codes when definitive diagnosis not established by provider (Evidence: pg no: 13, L38-L40)",
+        "explanation": "When a healthcare provider has not confirmed or established a definitive diagnosis, it is appropriate and acceptable to report codes that describe the presenting symptoms and signs rather than attempting to assign a definitive diagnostic code (Evidence: pg no: 13, L38-L40)",
+        "importance": "high",
+        "applies_to": "R00.0-R99",
+        "common_applications": [
+          "Emergency department visits with unclear diagnosis",
+          "Initial consultations before workup complete",
+          "Outpatient visits for symptom evaluation"
+        ]
+      },
+      {
+        "rule_id": "I.B.4.2",
+        "rule_text": "Chapter 18 (R00.0-R99) contains many but not all symptom codes (Evidence: pg no: 13, L40-L41)",
+        "explanation": "While Chapter 18 is the primary location for symptom and sign codes, symptom codes may also be found in other chapters of ICD-10-CM, so coders should not limit themselves exclusively to the R codes (Evidence: pg no: 13, L40-L41)",
+        "importance": "medium",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Searching for symptom codes in disease-specific chapters",
+          "Using symptom codes outside Chapter 18 when appropriate"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if provider has established a definitive diagnosis",
+      "Step 2: If no definitive diagnosis, identify presenting symptoms/signs",
+      "Step 3: Look primarily in Chapter 18 (R00.0-R99) for appropriate codes",
+      "Step 4: Consider symptom codes in other chapters if needed",
+      "Step 5: Assign the most specific symptom code available"
+    ],
+    "related_terminology": [
+      "symptoms",
+      "signs",
+      "definitive diagnosis",
+      "confirmed diagnosis",
+      "Chapter 18",
+      "abnormal findings",
+      "clinical findings",
+      "laboratory findings"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "R00.0-R99",
+        "description": "Symptoms, Signs, and Abnormal Clinical and Laboratory Findings, Not Elsewhere Classified (Evidence: pg no: 13, L40-L41)",
+        "requirement": "Primary range for symptom codes",
+        "usage_rules": [
+          "Use when definitive diagnosis not established (Evidence: pg no: 13, L38-L40)",
+          "Contains many but not all symptom codes (Evidence: pg no: 13, L40-L41)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "R##.#",
+        "description": "Chapter 18 symptom and sign codes (Evidence: pg no: 13, L40-L41)",
+        "example": "R06.02 - Shortness of breath",
+        "explanation": "Primary pattern for symptom codes when no definitive diagnosis available"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Symptoms",
+      "Signs",
+      "Abnormal Clinical Findings",
+      "Laboratory Findings"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.B.18",
+        "title": "Use of Signs/Symptom/Unspecified Codes",
+        "relationship": "related_to",
+        "explanation": "Referenced for additional guidance on using symptom codes"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "I.B.4.S1",
+      "scenario": "Patient presents to ED with chest pain, workup incomplete, no definitive diagnosis established",
+      "documentation_example": "Chief complaint: chest pain. EKG normal, chest X-ray pending. Discharge home with follow-up.",
+      "step_by_step": [
+        "Step 1: Confirm no definitive diagnosis established",
+        "Step 2: Identify primary symptom (chest pain)",
+        "Step 3: Look in Chapter 18 for chest pain codes",
+        "Step 4: Assign most specific chest pain code"
+      ],
+      "correct_coding": {
+        "primary_code": "R07.9",
+        "secondary_codes": [],
+        "sequencing": "Primary diagnosis",
+        "rationale": "No definitive diagnosis established, so symptom code is appropriate (Evidence: pg no: 13, L38-L40)"
+      },
+      "incorrect_coding": {
+        "code": "I25.9",
+        "codes": [
+          "I25.9"
+        ],
+        "rationale": "Would be incorrect to assign chronic ischemic heart disease without provider confirmation",
+        "common_mistake": "Assigning definitive diagnosis codes when only symptoms documented"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Only use symptom codes when definitive diagnosis not established (Evidence: pg no: 13, L38-L40)",
+      "Do not assign definitive diagnosis codes based on symptoms alone (Evidence: pg no: 13, L38-L40)"
+    ],
+    "best_practices": [
+      "Check Chapter 18 first for symptom codes (Evidence: pg no: 13, L40-L41)",
+      "Ensure provider has not established definitive diagnosis before using symptom codes (Evidence: pg no: 13, L38-L40)"
+    ],
+    "common_mistakes": [
+      "Using definitive diagnosis codes when only symptoms documented (Evidence: pg no: 13, L38-L40)",
+      "Limiting search to Chapter 18 only for symptom codes (Evidence: pg no: 13, L40-L41)"
+    ],
+    "tips": [
+      "Remember symptom codes exist outside Chapter 18 as well (Evidence: pg no: 13, L40-L41)",
+      "Always verify provider has not confirmed diagnosis (Evidence: pg no: 13, L38-L40)"
+    ],
+    "implementation_notes": [
+      "Particularly important in emergency department and urgent care settings"
+    ],
+    "clinical_context": [
+      "Common in initial encounters before complete workup",
+      "Appropriate for emergency department visits"
+    ]
+  },
+  "search_keywords": [
+    "symptoms",
+    "signs",
+    "Chapter 18",
+    "R codes",
+    "R00.0-R99",
+    "definitive diagnosis",
+    "confirmed diagnosis",
+    "abnormal findings",
+    "symptom codes"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "symptom_coding",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "symptoms",
+      "signs",
+      "chapter_18",
+      "unconfirmed_diagnosis",
+      "R_codes"
+    ]
+  },
+  "page_range_processed": "pages_12_to_15"
+}

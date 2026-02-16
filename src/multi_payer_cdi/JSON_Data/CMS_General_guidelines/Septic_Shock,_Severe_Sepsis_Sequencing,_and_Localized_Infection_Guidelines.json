@@ -1,0 +1,211 @@
+{
+  "guideline_id": "I.C.1.d.2-4",
+  "semantic_title": "Septic Shock, Severe Sepsis Sequencing, and Localized Infection Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 1. Chapter 1: Certain Infectious and Parasitic Diseases > d. Sepsis, Severe Sepsis, and Septic Shock > 2-4",
+  "page_number": 24,
+  "content": {
+    "full_text": "2) Septic shock: Septic shock generally refers to circulatory failure associated with severe sepsis, and therefore, it represents a type of acute organ dysfunction. For cases of septic shock, the code for the systemic infection should be sequenced first, followed by code R65.21, Severe sepsis with septic shock or code T81.12, Postprocedural septic shock. Any additional codes for the other acute organ dysfunctions should also be assigned. As noted in the sequencing instructions in the Tabular List, the code for septic shock cannot be assigned as a principal diagnosis. 3) Sequencing of severe sepsis: If severe sepsis is present on admission, and meets the definition of principal diagnosis, the underlying systemic infection should be assigned as principal diagnosis followed by the appropriate code from subcategory R65.2 as required by the sequencing rules in the Tabular List. A code from subcategory R65.2 can never be assigned as a principal diagnosis. When severe sepsis develops during an encounter (it was not present on admission), the underlying systemic infection and the appropriate code from subcategory R65.2 should be assigned as secondary diagnoses. Severe sepsis may be present on admission, but the diagnosis may not be confirmed until sometime after admission. If the documentation is not clear whether severe sepsis was present on admission, the provider should be queried. For infection-associated hemolytic-uremic syndrome with severe sepsis, see guideline I.C.1.d.9. 4) Sepsis or severe sepsis with a localized infection: If the reason for admission is sepsis or severe sepsis and a localized infection, such as pneumonia or cellulitis, a code(s) for the underlying systemic infection should be assigned first and the code for the localized infection should be assigned as a secondary diagnosis. If the patient has severe sepsis, a code from subcategory R65.2 should also be assigned as a secondary diagnosis. If the patient is admitted with a localized infection, such as pneumonia, and sepsis/severe sepsis doesn't develop (Evidence: pg no: 24, L80-L91)",
+    "summary": "Comprehensive guidelines covering septic shock coding, severe sepsis sequencing rules, and coding when sepsis occurs with localized infections (Evidence: pg no: 24, L80-L91)",
+    "key_concepts": [
+      "Septic shock as acute organ dysfunction (Evidence: pg no: 24, L80-L82)",
+      "Septic shock sequencing rules (Evidence: pg no: 24, L82-L83)",
+      "Severe sepsis principal diagnosis restrictions (Evidence: pg no: 24, L85-L86)",
+      "Present on admission considerations (Evidence: pg no: 24, L86-L87)",
+      "Sepsis with localized infection coding (Evidence: pg no: 24, L90-L91)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "SEPTIC_SHOCK_DEFINITION",
+        "rule_text": "Septic shock generally refers to circulatory failure associated with severe sepsis, and therefore, it represents a type of acute organ dysfunction (Evidence: pg no: 24, L80-L82)",
+        "explanation": "Septic shock is classified as a form of acute organ dysfunction occurring with severe sepsis (Evidence: pg no: 24, L80-L82)",
+        "importance": "critical",
+        "applies_to": "septic_shock",
+        "common_applications": [
+          "Severe sepsis with circulatory failure",
+          "Hypotensive sepsis requiring vasopressors"
+        ]
+      },
+      {
+        "rule_id": "SEPTIC_SHOCK_SEQUENCING",
+        "rule_text": "For cases of septic shock, the code for the systemic infection should be sequenced first, followed by code R65.21, Severe sepsis with septic shock or code T81.12, Postprocedural septic shock (Evidence: pg no: 24, L82-L83)",
+        "explanation": "Septic shock coding follows specific sequencing with infection first, then appropriate septic shock code (Evidence: pg no: 24, L82-L83)",
+        "importance": "critical",
+        "applies_to": "R65.21, T81.12",
+        "common_applications": [
+          "Non-procedural septic shock",
+          "Post-procedural septic shock"
+        ]
+      },
+      {
+        "rule_id": "SEPTIC_SHOCK_PRINCIPAL",
+        "rule_text": "The code for septic shock cannot be assigned as a principal diagnosis (Evidence: pg no: 24, L83)",
+        "explanation": "Septic shock codes are never used as principal diagnosis per tabular list sequencing instructions (Evidence: pg no: 24, L83)",
+        "importance": "critical",
+        "applies_to": "R65.21, T81.12",
+        "common_applications": [
+          "All septic shock cases",
+          "Principal diagnosis selection"
+        ]
+      },
+      {
+        "rule_id": "SEVERE_SEPSIS_PRINCIPAL",
+        "rule_text": "If severe sepsis is present on admission, and meets the definition of principal diagnosis, the underlying systemic infection should be assigned as principal diagnosis followed by the appropriate code from subcategory R65.2. A code from subcategory R65.2 can never be assigned as a principal diagnosis (Evidence: pg no: 24, L84-L86)",
+        "explanation": "Even when severe sepsis meets principal diagnosis criteria, the underlying infection is sequenced first, never the R65.2 code (Evidence: pg no: 24, L84-L86)",
+        "importance": "critical",
+        "applies_to": "R65.2",
+        "common_applications": [
+          "Severe sepsis as reason for admission",
+          "Principal diagnosis sequencing"
+        ]
+      },
+      {
+        "rule_id": "SEVERE_SEPSIS_DEVELOPS",
+        "rule_text": "When severe sepsis develops during an encounter (it was not present on admission), the underlying systemic infection and the appropriate code from subcategory R65.2 should be assigned as secondary diagnoses (Evidence: pg no: 24, L86)",
+        "explanation": "Severe sepsis developing after admission is coded as secondary diagnosis along with the underlying infection (Evidence: pg no: 24, L86)",
+        "importance": "high",
+        "applies_to": "R65.2",
+        "common_applications": [
+          "Hospital-acquired severe sepsis",
+          "Sepsis progression during stay"
+        ]
+      },
+      {
+        "rule_id": "SEPSIS_LOCALIZED_INFECTION",
+        "rule_text": "If the reason for admission is sepsis or severe sepsis and a localized infection, such as pneumonia or cellulitis, a code(s) for the underlying systemic infection should be assigned first and the code for the localized infection should be assigned as a secondary diagnosis (Evidence: pg no: 24, L90-L91)",
+        "explanation": "When both sepsis and localized infection are present, systemic infection takes priority in sequencing (Evidence: pg no: 24, L90-L91)",
+        "importance": "high",
+        "applies_to": "sepsis_with_localized",
+        "common_applications": [
+          "Sepsis with pneumonia",
+          "Sepsis with cellulitis",
+          "Sepsis with UTI"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if septic shock is present",
+      "Step 2: For septic shock, sequence infection first, then R65.21 or T81.12",
+      "Step 3: For severe sepsis, determine if present on admission",
+      "Step 4: Sequence underlying infection as principal, R65.2 as secondary",
+      "Step 5: For localized infections with sepsis, prioritize systemic infection",
+      "Step 6: Add organ dysfunction codes as needed"
+    ],
+    "related_terminology": [
+      "septic shock",
+      "circulatory failure",
+      "postprocedural septic shock",
+      "present on admission",
+      "localized infection",
+      "principal diagnosis",
+      "secondary diagnosis"
+    ]
+  },
+  "code_references": {
+    "specific_codes": [
+      {
+        "code": "R65.21",
+        "description": "Severe sepsis with septic shock (Evidence: pg no: 24, L82)",
+        "context": "For non-procedural septic shock cases",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "R65.2": "Severe sepsis",
+          "1": "with septic shock"
+        }
+      },
+      {
+        "code": "T81.12",
+        "description": "Postprocedural septic shock (Evidence: pg no: 24, L82)",
+        "context": "For septic shock following procedures",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "T81": "Complications of procedures",
+          "12": "Postprocedural septic shock"
+        }
+      }
+    ],
+    "code_ranges": [
+      {
+        "range": "R65.2",
+        "description": "Severe sepsis (Evidence: pg no: 24, L85)",
+        "requirement": "Never assign as principal diagnosis",
+        "usage_rules": [
+          "Always secondary to infection code (Evidence: pg no: 24, L85-L86)",
+          "Cannot be principal diagnosis (Evidence: pg no: 24, L85-L86)"
+        ]
+      }
+    ],
+    "code_categories_mentioned": [
+      "Septic shock codes",
+      "Severe sepsis codes",
+      "Systemic infection codes",
+      "Localized infection codes"
+    ]
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "SEPTIC_SHOCK_1",
+      "scenario": "Patient admitted with septic shock due to pneumonia",
+      "documentation_example": "Patient with pneumococcal pneumonia complicated by septic shock requiring vasopressors",
+      "step_by_step": [
+        "Step 1: Identify septic shock with underlying pneumococcal infection",
+        "Step 2: Assign pneumococcal sepsis code as principal",
+        "Step 3: Assign R65.21 for severe sepsis with septic shock",
+        "Step 4: Assign pneumonia code as additional diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "A40.3 (Sepsis due to Streptococcus pneumoniae)",
+        "secondary_codes": [
+          "R65.21",
+          "J13 (Pneumonia due to Streptococcus pneumoniae)"
+        ],
+        "sequencing": "Systemic infection first, septic shock second, localized infection third",
+        "rationale": "Systemic infection takes priority over localized infection, septic shock cannot be principal (Evidence: pg no: 24, L82-L83, L90-L91)"
+      }
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Never assign septic shock codes as principal diagnosis (Evidence: pg no: 24, L83)",
+      "Never assign R65.2 codes as principal diagnosis (Evidence: pg no: 24, L85-L86)"
+    ],
+    "best_practices": [
+      "Always sequence systemic infection before severe sepsis codes (Evidence: pg no: 24, L84-L86)",
+      "Prioritize systemic infection over localized infection in sequencing (Evidence: pg no: 24, L90-L91)",
+      "Query provider if severe sepsis present on admission status is unclear (Evidence: pg no: 24, L86-L87)"
+    ],
+    "common_mistakes": [
+      "Using septic shock codes as principal diagnosis",
+      "Sequencing localized infection before systemic infection",
+      "Using R65.2 codes as principal diagnosis"
+    ],
+    "tips": [
+      "Remember septic shock is a type of organ dysfunction",
+      "Systemic infection always takes sequencing priority"
+    ]
+  },
+  "search_keywords": [
+    "septic shock R65.21",
+    "postprocedural septic shock T81.12",
+    "severe sepsis sequencing",
+    "sepsis localized infection",
+    "principal diagnosis sepsis",
+    "present on admission sepsis"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "sepsis",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "tags": [
+      "septic shock",
+      "R65.21",
+      "T81.12",
+      "sequencing",
+      "principal diagnosis",
+      "localized infection"
+    ]
+  },
+  "page_range_processed": "pages_21_to_24"
+}

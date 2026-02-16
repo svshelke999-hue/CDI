@@ -1,0 +1,210 @@
+{
+  "guideline_id": "I.A.19.a",
+  "semantic_title": "Hurricane Aftermath Healthcare Encounters - External Cause of Morbidity Code Usage",
+  "section_path": "Section I > A. Conventions > 19. Coding for Healthcare Encounters in Hurricane Aftermath > a. Use of External Cause of Morbidity Codes",
+  "page_number": 18,
+  "content": {
+    "full_text": "An external cause of morbidity code should be assigned to identify the cause of the injury(ies) incurred as a result of the hurricane. The use of external cause of morbidity codes is supplemental to the application of ICD-10-CM codes. External cause of morbidity codes are never to be recorded as a principal diagnosis (first-listed in non-inpatient settings). The appropriate injury code should be sequenced before any external cause codes. The external cause of morbidity codes capture how the injury or health condition happened (cause), the intent (unintentional or accidental; or intentional, such as suicide or assault), the place where the event occurred, the activity of the patient at the time of the event, and the person's status (e.g., civilian, military). They should not be assigned for encounters to treat hurricane victims' medical conditions when no injury, adverse effect or poisoning is involved. External cause of morbidity codes should be assigned for each encounter for care and treatment of the injury. External cause of morbidity codes may be assigned in all health care settings. For the purpose of capturing complete and accurate ICD-10-CM data in the aftermath of the hurricane, a healthcare setting should be considered as any location where medical care is provided by licensed healthcare professionals. (Evidence: pg no: 18, L70-L79)",
+    "summary": "Establishes requirements for using external cause of morbidity codes for hurricane-related injuries, including sequencing rules and appropriate applications (Evidence: pg no: 18, L70-L79)",
+    "key_concepts": [
+      "External cause codes for hurricane-related injuries (Evidence: pg no: 18, L70-L71)",
+      "Supplemental to ICD-10-CM codes (Evidence: pg no: 18, L71)",
+      "Never principal diagnosis (Evidence: pg no: 18, L71-L72)",
+      "Injury code sequenced first (Evidence: pg no: 18, L72)",
+      "Capture multiple injury details (Evidence: pg no: 18, L73-L75)",
+      "Not for non-injury medical conditions (Evidence: pg no: 18, L75-L76)",
+      "All healthcare settings applicable (Evidence: pg no: 18, L77-L79)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.A.19.a.1",
+        "rule_text": "External cause of morbidity codes are never to be recorded as a principal diagnosis (Evidence: pg no: 18, L71-L72)",
+        "explanation": "External cause codes are always supplemental and cannot be used as the principal diagnosis in inpatient settings or first-listed diagnosis in outpatient settings (Evidence: pg no: 18, L71-L72)",
+        "importance": "critical",
+        "applies_to": "external_cause_codes",
+        "common_applications": [
+          "Hurricane-related injury encounters",
+          "All external cause coding",
+          "Injury sequencing"
+        ]
+      },
+      {
+        "rule_id": "I.A.19.a.2",
+        "rule_text": "The appropriate injury code should be sequenced before any external cause codes (Evidence: pg no: 18, L72)",
+        "explanation": "The actual injury or condition code must be listed first, followed by the external cause codes that explain how the injury occurred (Evidence: pg no: 18, L72)",
+        "importance": "high",
+        "applies_to": "hurricane_injury_codes",
+        "common_applications": [
+          "Fractures from hurricane debris",
+          "Lacerations from storm damage",
+          "Injuries from evacuation"
+        ]
+      },
+      {
+        "rule_id": "I.A.19.a.3",
+        "rule_text": "External cause codes should not be assigned for encounters to treat hurricane victims' medical conditions when no injury, adverse effect or poisoning is involved (Evidence: pg no: 18, L75-L76)",
+        "explanation": "External cause codes are only appropriate when there is an actual injury, adverse effect, or poisoning related to the hurricane, not for general medical conditions (Evidence: pg no: 18, L75-L76)",
+        "importance": "high",
+        "applies_to": "hurricane_encounters",
+        "common_applications": [
+          "Chronic disease management during hurricane aftermath",
+          "Routine medical care for hurricane victims",
+          "Non-injury related conditions"
+        ]
+      },
+      {
+        "rule_id": "I.A.19.a.4",
+        "rule_text": "External cause of morbidity codes should be assigned for each encounter for care and treatment of the injury (Evidence: pg no: 18, L76-L77)",
+        "explanation": "Every encounter that involves treatment of a hurricane-related injury should include the appropriate external cause codes (Evidence: pg no: 18, L76-L77)",
+        "importance": "medium",
+        "applies_to": "hurricane_injury_encounters",
+        "common_applications": [
+          "Initial injury treatment",
+          "Follow-up injury care",
+          "Rehabilitation services"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify if encounter involves hurricane-related injury, adverse effect, or poisoning",
+      "Step 2: Assign appropriate injury/condition code first",
+      "Step 3: Determine external cause codes for hurricane involvement",
+      "Step 4: Sequence injury code before external cause codes",
+      "Step 5: Include external cause codes for each injury treatment encounter",
+      "Step 6: Do not use external cause codes for non-injury conditions"
+    ],
+    "related_terminology": [
+      "External cause of morbidity codes",
+      "Hurricane-related injuries",
+      "Principal diagnosis",
+      "First-listed diagnosis",
+      "Injury sequencing",
+      "Adverse effects",
+      "Poisoning",
+      "Healthcare settings"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "External cause of morbidity codes",
+      "Injury codes",
+      "Hurricane-related codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "I.A.19.a.S1",
+      "scenario": "Patient with laceration from hurricane debris",
+      "documentation_example": "Patient sustained laceration to forearm from flying debris during Hurricane XYZ",
+      "step_by_step": [
+        "Step 1: Identify hurricane-related injury (laceration)",
+        "Step 2: Assign laceration code first",
+        "Step 3: Assign hurricane external cause code",
+        "Step 4: Sequence injury before external cause"
+      ],
+      "correct_coding": {
+        "primary_code": "S51.819A (Laceration without foreign body of unspecified forearm, initial encounter)",
+        "secondary_codes": [
+          "X37.0XXA (Hurricane, initial encounter)"
+        ],
+        "sequencing": "Injury code first, external cause second",
+        "rationale": "Injury code must be sequenced before external cause codes (Evidence: pg no: 18, L72)"
+      },
+      "incorrect_coding": {
+        "code": "X37.0XXA as primary",
+        "rationale": "External cause codes can never be principal or first-listed diagnosis",
+        "common_mistake": "Sequencing external cause codes before injury codes"
+      }
+    },
+    {
+      "scenario_id": "I.A.19.a.S2",
+      "scenario": "Hurricane victim with diabetes management visit",
+      "documentation_example": "Hurricane evacuee presents for routine diabetes management, no injuries",
+      "step_by_step": [
+        "Step 1: Identify encounter purpose (diabetes management)",
+        "Step 2: Determine no injury, adverse effect, or poisoning involved",
+        "Step 3: Do not assign external cause codes",
+        "Step 4: Code diabetes management encounter normally"
+      ],
+      "correct_coding": {
+        "primary_code": "E11.9 (Type 2 diabetes mellitus without complications)",
+        "secondary_codes": [],
+        "sequencing": "No external cause codes needed",
+        "rationale": "External cause codes not appropriate when no injury, adverse effect, or poisoning involved (Evidence: pg no: 18, L75-L76)"
+      },
+      "incorrect_coding": {
+        "codes": [
+          "E11.9",
+          "X37.0XXA"
+        ],
+        "rationale": "Should not assign hurricane external cause code for non-injury medical conditions",
+        "common_mistake": "Adding external cause codes for all hurricane victim encounters"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "External cause codes never used as principal diagnosis (Evidence: pg no: 18, L71-L72)",
+      "Do not use for non-injury hurricane victim encounters (Evidence: pg no: 18, L75-L76)",
+      "Must sequence injury code before external cause codes (Evidence: pg no: 18, L72)"
+    ],
+    "best_practices": [
+      "Assign external cause codes for each injury treatment encounter (Evidence: pg no: 18, L76-L77)",
+      "Use in all healthcare settings for hurricane injuries (Evidence: pg no: 18, L77-L79)",
+      "Capture complete injury details with external cause codes (Evidence: pg no: 18, L73-L75)"
+    ],
+    "common_mistakes": [
+      "Using external cause codes as principal diagnosis",
+      "Adding external cause codes to non-injury encounters",
+      "Incorrect sequencing of injury and external cause codes"
+    ],
+    "tips": [
+      "External cause codes are supplemental information",
+      "Only use for actual injuries, adverse effects, or poisoning",
+      "Apply to any location where licensed healthcare professionals provide care"
+    ],
+    "implementation_notes": [
+      "Healthcare setting includes any location with licensed healthcare professionals",
+      "Complete and accurate data capture is the goal"
+    ],
+    "clinical_context": [
+      "Hurricane aftermath creates unique injury patterns",
+      "Multiple healthcare settings may be involved in disaster response"
+    ]
+  },
+  "search_keywords": [
+    "hurricane injuries",
+    "external cause codes",
+    "morbidity codes",
+    "injury sequencing",
+    "principal diagnosis",
+    "hurricane aftermath",
+    "disaster coding",
+    "supplemental codes"
+  ],
+  "metadata": {
+    "category": "convention",
+    "subcategory": "external_cause_coding",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "hurricane",
+      "external_cause",
+      "injury_coding",
+      "sequencing"
+    ]
+  },
+  "page_range_processed": "pages_15_to_18"
+}

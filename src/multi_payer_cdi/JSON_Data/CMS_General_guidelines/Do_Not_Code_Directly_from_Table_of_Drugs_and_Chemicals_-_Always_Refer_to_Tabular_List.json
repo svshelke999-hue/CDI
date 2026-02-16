@@ -1,0 +1,185 @@
+{
+  "guideline_id": "I.C.19.e.1",
+  "semantic_title": "Do Not Code Directly from Table of Drugs and Chemicals - Always Refer to Tabular List",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 19. Injury, Poisoning, and Certain Other Consequences of External Causes > e. Adverse Effects, Poisoning, Underdosing and Toxic Effects > 1. Do not code directly from the Table of Drugs",
+  "page_number": 82,
+  "content": {
+    "full_text": "Do not code directly from the Table of Drugs and Chemicals. Always refer back to the Tabular List. (Evidence: pg no: 82, L35-L36)",
+    "summary": "Critical instruction prohibiting direct coding from the Table of Drugs and Chemicals, requiring verification through the Tabular List (Evidence: pg no: 82, L35-L36)",
+    "key_concepts": [
+      "Prohibition of direct coding from Table of Drugs (Evidence: pg no: 82, L35)",
+      "Mandatory Tabular List verification (Evidence: pg no: 82, L36)",
+      "Two-step coding process requirement (Evidence: pg no: 82, L35-L36)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "NO_DIRECT_TABLE_CODING",
+        "rule_text": "Do not code directly from the Table of Drugs and Chemicals (Evidence: pg no: 82, L35)",
+        "explanation": "The Table of Drugs and Chemicals is an index tool only and must not be used as the final source for code assignment (Evidence: pg no: 82, L35)",
+        "importance": "critical",
+        "applies_to": "T36-T65",
+        "common_applications": [
+          "All poisoning codes",
+          "All adverse effect codes",
+          "All underdosing codes",
+          "All toxic effect codes"
+        ]
+      },
+      {
+        "rule_id": "TABULAR_LIST_VERIFICATION",
+        "rule_text": "Always refer back to the Tabular List (Evidence: pg no: 82, L36)",
+        "explanation": "After identifying potential codes in the Table of Drugs and Chemicals, verification and final code selection must be done using the Tabular List (Evidence: pg no: 82, L36)",
+        "importance": "critical",
+        "applies_to": "T36-T65",
+        "common_applications": [
+          "Code verification",
+          "Additional character assignment",
+          "Inclusion/exclusion note review",
+          "Final code validation"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify substance in Table of Drugs and Chemicals",
+      "Step 2: Note potential code from table",
+      "Step 3: Refer to Tabular List for identified code",
+      "Step 4: Review all notes and instructions in Tabular List",
+      "Step 5: Assign final code based on Tabular List guidance"
+    ],
+    "related_terminology": [
+      "Table of Drugs and Chemicals",
+      "Tabular List",
+      "Code verification",
+      "Index vs tabular",
+      "Two-step coding process"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "T36-T65",
+        "description": "Categories requiring Table of Drugs and Tabular List verification (Evidence: pg no: 82, L35-L36)",
+        "requirement": "Must verify all codes through Tabular List",
+        "usage_rules": [
+          "Never code directly from Table of Drugs (Evidence: pg no: 82, L35)",
+          "Always verify in Tabular List (Evidence: pg no: 82, L36)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "Table → Tabular verification",
+        "description": "Required two-step process for drug-related codes (Evidence: pg no: 82, L35-L36)",
+        "example": "Look up in Table of Drugs, then verify in Tabular List",
+        "explanation": "Ensures accurate code assignment and compliance with coding rules (Evidence: pg no: 82, L35-L36)"
+      }
+    ],
+    "code_categories_mentioned": [
+      "T36-T65 Poisoning by, adverse effects of and underdosing of drugs, medicaments and biological substances and toxic effects of substances chiefly nonmedicinal as to source"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "MEDICATION_ADVERSE_EFFECT",
+      "scenario": "Patient has adverse reaction to prescribed medication",
+      "documentation_example": "Patient developed rash from prescribed penicillin",
+      "step_by_step": [
+        "Step 1: Look up penicillin in Table of Drugs and Chemicals",
+        "Step 2: Note the adverse effect code from table",
+        "Step 3: Go to Tabular List for that code",
+        "Step 4: Review all instructions and notes",
+        "Step 5: Assign final code based on Tabular List"
+      ],
+      "correct_coding": {
+        "primary_code": "Code for rash (nature of adverse effect)",
+        "secondary_codes": [
+          "T36.0X5- (adverse effect of penicillin, verified in Tabular List)"
+        ],
+        "sequencing": "Nature of adverse effect first, then drug code",
+        "rationale": "Tabular List verification ensures proper code assignment and character selection (Evidence: pg no: 82, L35-L36)"
+      },
+      "incorrect_coding": {
+        "code": "Code taken directly from Table of Drugs",
+        "codes": [
+          "Unverified table code"
+        ],
+        "rationale": "Direct coding from table violates fundamental coding rule",
+        "common_mistake": "Using table codes without Tabular List verification"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "TWO_STEP_PROCESS",
+      "scenario": "Proper coding workflow for drug-related conditions",
+      "code_example": "Table lookup followed by Tabular verification",
+      "breakdown": {
+        "Step 1": "Table of Drugs and Chemicals lookup (Evidence: pg no: 82, L35)",
+        "Step 2": "Tabular List verification and final assignment (Evidence: pg no: 82, L36)"
+      },
+      "rationale": "Two-step process ensures accurate and compliant code assignment (Evidence: pg no: 82, L35-L36)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Never assign codes directly from Table of Drugs and Chemicals (Evidence: pg no: 82, L35)",
+      "Table of Drugs is an index tool only, not for final code assignment (Evidence: pg no: 82, L35-L36)"
+    ],
+    "best_practices": [
+      "Always complete the two-step process: Table then Tabular (Evidence: pg no: 82, L35-L36)",
+      "Review all Tabular List instructions before final assignment (Evidence: pg no: 82, L36)"
+    ],
+    "common_mistakes": [
+      "Coding directly from Table of Drugs and Chemicals",
+      "Skipping Tabular List verification",
+      "Missing additional character requirements from Tabular List"
+    ],
+    "tips": [
+      "Table of Drugs is a finding tool, Tabular List is the assignment tool (Evidence: pg no: 82, L35-L36)",
+      "Tabular List contains essential coding instructions not in the table"
+    ],
+    "implementation_notes": [
+      "Critical for coding accuracy",
+      "Required for compliance with ICD-10-CM rules",
+      "Essential for proper character assignment"
+    ],
+    "clinical_context": [
+      "Applies to all drug-related adverse events",
+      "Critical for medication safety documentation",
+      "Important for pharmacovigilance reporting"
+    ]
+  },
+  "search_keywords": [
+    "Table of Drugs",
+    "Tabular List",
+    "drug coding",
+    "two-step process",
+    "code verification",
+    "T36-T65"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "adverse_effects_poisoning",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "drugs",
+      "chemicals",
+      "table",
+      "tabular",
+      "verification",
+      "T36-T65"
+    ]
+  },
+  "page_range_processed": "pages_81_to_84"
+}

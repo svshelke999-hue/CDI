@@ -1,0 +1,225 @@
+{
+  "guideline_id": "I.C.9.a.6",
+  "semantic_title": "Secondary Hypertension Coding Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 9. Chapter 9: Diseases of the Circulatory System > a. Hypertension > 6) Hypertension, Secondary",
+  "page_number": 51,
+  "content": {
+    "full_text": "Secondary hypertension is due to an underlying condition. Two codes are required: one to identify the underlying etiology and one from category I15 to identify the hypertension. Sequencing of codes is determined by the reason for admission/encounter. (Evidence: pg no: 51, L82-L84)",
+    "summary": "Guidelines for coding secondary hypertension requiring two codes - one for underlying etiology and one from I15 category, with sequencing based on admission/encounter reason (Evidence: pg no: 51, L82-L84)",
+    "key_concepts": [
+      "Secondary hypertension definition and etiology (Evidence: pg no: 51, L82)",
+      "Two-code requirement for complete coding (Evidence: pg no: 51, L82-L83)",
+      "Admission/encounter-based sequencing (Evidence: pg no: 51, L83-L84)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "SECONDARY_HTN_TWO_CODES",
+        "rule_text": "Secondary hypertension requires two codes: underlying etiology code and I15 category code (Evidence: pg no: 51, L82-L83)",
+        "explanation": "Secondary hypertension is due to an underlying condition and requires two codes: one to identify the underlying etiology and one from category I15 to identify the hypertension (Evidence: pg no: 51, L82-L83)",
+        "importance": "critical",
+        "applies_to": "All secondary hypertension cases",
+        "common_applications": [
+          "Renal artery stenosis with hypertension",
+          "Endocrine disorders causing hypertension",
+          "Drug-induced hypertension",
+          "Coarctation of aorta with hypertension"
+        ]
+      },
+      {
+        "rule_id": "SECONDARY_HTN_SEQUENCING",
+        "rule_text": "Sequence codes based on reason for admission/encounter (Evidence: pg no: 51, L83-L84)",
+        "explanation": "The sequencing of the underlying etiology code and the I15 secondary hypertension code is determined by the reason for admission or encounter (Evidence: pg no: 51, L83-L84)",
+        "importance": "high",
+        "applies_to": "All secondary hypertension coding",
+        "common_applications": [
+          "Admission for underlying condition management",
+          "Admission for hypertension management",
+          "Outpatient encounters for either condition"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify secondary hypertension diagnosis",
+      "Step 2: Identify underlying etiology causing hypertension",
+      "Step 3: Assign code for underlying etiology",
+      "Step 4: Assign appropriate I15 category code for secondary hypertension",
+      "Step 5: Determine primary reason for admission/encounter",
+      "Step 6: Sequence codes based on admission/encounter reason"
+    ],
+    "related_terminology": [
+      "Secondary hypertension",
+      "Underlying etiology",
+      "I15 category codes",
+      "Two-code requirement",
+      "Admission-based sequencing",
+      "Encounter-based sequencing",
+      "Causative conditions",
+      "Hypertension due to other conditions"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "I15",
+        "description": "Secondary hypertension category codes (Evidence: pg no: 51, L83)",
+        "requirement": "Required second code for secondary hypertension",
+        "usage_rules": [
+          "Must be used with underlying etiology code (Evidence: pg no: 51, L82-L83)",
+          "Sequencing based on admission/encounter reason (Evidence: pg no: 51, L83-L84)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "Etiology code + I15.x",
+        "description": "Underlying condition code with secondary hypertension code (Evidence: pg no: 51, L82-L83)",
+        "example": "N26.1 + I15.1 for renovascular hypertension",
+        "explanation": "Two-code combination for complete secondary hypertension coding"
+      }
+    ],
+    "code_categories_mentioned": [
+      "I15 Secondary hypertension",
+      "Various etiology codes depending on underlying condition"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.9.a",
+        "title": "Hypertension general guidelines",
+        "relationship": "builds_upon",
+        "explanation": "Applies general hypertension coding principles to secondary hypertension"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "SECONDARY_HTN_RENAL_1",
+      "scenario": "Patient admitted for renal artery stenosis with secondary hypertension",
+      "documentation_example": "Patient admitted for treatment of renal artery stenosis causing secondary hypertension.",
+      "step_by_step": [
+        "Step 1: Identify renal artery stenosis as underlying etiology",
+        "Step 2: Identify secondary hypertension due to renal condition",
+        "Step 3: Determine renal condition is primary reason for admission",
+        "Step 4: Assign renal artery stenosis code as primary",
+        "Step 5: Assign I15.0 for renovascular hypertension as secondary"
+      ],
+      "correct_coding": {
+        "primary_code": "I70.1",
+        "secondary_codes": [
+          "I15.0"
+        ],
+        "sequencing": "Underlying etiology first for etiology-focused admission",
+        "rationale": "Renal artery stenosis is primary reason for admission, requiring etiology code first (Evidence: pg no: 51, L83-L84)"
+      },
+      "incorrect_coding": {
+        "code": "I15.0",
+        "codes": [
+          "I15.0"
+        ],
+        "rationale": "Should not omit underlying etiology code",
+        "common_mistake": "Coding only secondary hypertension without underlying etiology"
+      }
+    },
+    {
+      "scenario_id": "SECONDARY_HTN_MANAGEMENT_1",
+      "scenario": "Patient seen for secondary hypertension management",
+      "documentation_example": "Patient presents for management of secondary hypertension due to primary aldosteronism.",
+      "step_by_step": [
+        "Step 1: Identify secondary hypertension as primary reason for encounter",
+        "Step 2: Identify primary aldosteronism as underlying etiology",
+        "Step 3: Assign I15.2 for endocrine hypertension as primary",
+        "Step 4: Assign E26.09 for primary aldosteronism as secondary"
+      ],
+      "correct_coding": {
+        "primary_code": "I15.2",
+        "secondary_codes": [
+          "E26.09"
+        ],
+        "sequencing": "Secondary hypertension first for hypertension management encounter",
+        "rationale": "Hypertension management is primary reason for encounter (Evidence: pg no: 51, L83-L84)"
+      },
+      "incorrect_coding": {
+        "code": "E26.09",
+        "codes": [
+          "E26.09",
+          "I15.2"
+        ],
+        "rationale": "Should sequence hypertension first when it's the primary focus of encounter",
+        "common_mistake": "Always sequencing etiology first regardless of encounter reason"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "SECONDARY_HTN_EX1",
+      "scenario": "Drug-induced secondary hypertension",
+      "code_example": "T50.901A + I15.2",
+      "breakdown": {
+        "T50.901A": "Poisoning by unspecified drugs, accidental, initial encounter (Evidence: pg no: 51, L82-L83)",
+        "I15.2": "Hypertension secondary to endocrine disorders (Evidence: pg no: 51, L83)"
+      },
+      "rationale": "Two codes required for secondary hypertension - etiology and I15 category (Evidence: pg no: 51, L82-L83)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Must use two codes for secondary hypertension - never code alone (Evidence: pg no: 51, L82-L83)",
+      "Sequencing must be based on admission/encounter reason (Evidence: pg no: 51, L83-L84)"
+    ],
+    "best_practices": [
+      "Always identify and code underlying etiology (Evidence: pg no: 51, L82)",
+      "Use I15 category codes for secondary hypertension identification (Evidence: pg no: 51, L83)"
+    ],
+    "common_mistakes": [
+      "Coding only I15 without underlying etiology (Evidence: pg no: 51, L82-L83)",
+      "Incorrect sequencing ignoring encounter reason (Evidence: pg no: 51, L83-L84)"
+    ],
+    "tips": [
+      "Secondary hypertension always has an identifiable cause (Evidence: pg no: 51, L82)",
+      "I15 category provides specific secondary hypertension types (Evidence: pg no: 51, L83)"
+    ],
+    "implementation_notes": [
+      "Requires identification of causative condition",
+      "Encounter reason determines coding priority"
+    ],
+    "clinical_context": [
+      "Secondary hypertension has identifiable underlying causes",
+      "Treatment often focuses on underlying condition",
+      "May be reversible if underlying condition treated"
+    ]
+  },
+  "search_keywords": [
+    "secondary hypertension",
+    "I15 category",
+    "underlying etiology",
+    "two codes required",
+    "renovascular hypertension",
+    "endocrine hypertension",
+    "drug-induced hypertension",
+    "sequencing rules",
+    "admission reason",
+    "encounter reason"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "circulatory_system_secondary_hypertension",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "secondary_hypertension",
+      "I15",
+      "underlying_etiology",
+      "two_codes",
+      "sequencing"
+    ]
+  },
+  "page_range_processed": "pages_48_to_51"
+}

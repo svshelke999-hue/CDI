@@ -1,0 +1,200 @@
+{
+  "guideline_id": "I.C.15.d",
+  "semantic_title": "Pre-existing Hypertension in Pregnancy Coding Requirements",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 15. Chapter 15: Pregnancy, Childbirth, and the Puerperium > d. Pre-existing hypertension in pregnancy",
+  "page_number": 66,
+  "content": {
+    "full_text": "Category O10, Pre-existing hypertension complicating pregnancy, childbirth and the puerperium, includes codes for hypertensive heart and hypertensive chronic kidney disease. When assigning one of the O10 codes that includes hypertensive heart disease or hypertensive chronic kidney disease, it is necessary to add a secondary code from the appropriate hypertension category to specify the type of heart failure or chronic kidney disease. See Section I.C.9. Hypertension. (Evidence: pg no: 66, L78-L80)",
+    "summary": "Guidelines for coding pre-existing hypertension with complications during pregnancy (Evidence: pg no: 66, L78-L80)",
+    "key_concepts": [
+      "O10 category scope (Evidence: pg no: 66, L78-L79)",
+      "Hypertensive heart disease inclusion (Evidence: pg no: 66, L79)",
+      "Hypertensive chronic kidney disease inclusion (Evidence: pg no: 66, L79)",
+      "Secondary code requirements (Evidence: pg no: 66, L79-L80)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.C.15.d.1",
+        "rule_text": "O10 category includes hypertensive heart and kidney disease codes (Evidence: pg no: 66, L78-L79)",
+        "explanation": "Category O10 encompasses pre-existing hypertension with heart disease and chronic kidney disease complications (Evidence: pg no: 66, L78-L79)",
+        "importance": "critical",
+        "applies_to": "O10",
+        "common_applications": [
+          "Pre-existing hypertension with heart failure",
+          "Pre-existing hypertension with chronic kidney disease",
+          "Complicated hypertension in pregnancy"
+        ]
+      },
+      {
+        "rule_id": "I.C.15.d.2",
+        "rule_text": "Add secondary code to specify type of heart failure or chronic kidney disease (Evidence: pg no: 66, L79-L80)",
+        "explanation": "When using O10 codes for hypertensive heart or kidney disease, must add secondary code to specify the specific type of failure or disease (Evidence: pg no: 66, L79-L80)",
+        "importance": "critical",
+        "applies_to": "O10 with heart/kidney complications",
+        "common_applications": [
+          "Hypertensive heart disease with specific heart failure type",
+          "Hypertensive chronic kidney disease with specific CKD stage"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify pre-existing hypertension in pregnancy",
+      "Step 2: Determine if heart disease or chronic kidney disease is present",
+      "Step 3: Assign appropriate O10 code",
+      "Step 4: Add secondary code to specify type of heart failure or CKD"
+    ],
+    "related_terminology": [
+      "Pre-existing hypertension",
+      "Hypertensive heart disease",
+      "Hypertensive chronic kidney disease",
+      "Secondary codes",
+      "Heart failure types"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "O10",
+        "description": "Pre-existing hypertension complicating pregnancy, childbirth and the puerperium (Evidence: pg no: 66, L78-L79)",
+        "requirement": "Use for pre-existing hypertension in pregnancy",
+        "usage_rules": [
+          "Add secondary code for heart failure or CKD type (Evidence: pg no: 66, L79-L80)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Pre-existing hypertension codes",
+      "Hypertensive heart disease codes",
+      "Hypertensive chronic kidney disease codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.9",
+        "title": "Hypertension",
+        "relationship": "implements",
+        "explanation": "References general hypertension coding guidelines for secondary codes"
+      },
+      {
+        "guideline_id": "I.C.15.c",
+        "title": "Pre-existing conditions versus conditions due to the pregnancy",
+        "relationship": "applies_concept",
+        "explanation": "Specific application of pre-existing condition principles"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "preexisting_htn_1",
+      "scenario": "Pregnant patient with pre-existing hypertension and chronic systolic heart failure",
+      "documentation_example": "28-week pregnant patient with history of hypertension and chronic systolic heart failure, both conditions stable",
+      "step_by_step": [
+        "Step 1: Identify pre-existing hypertension with heart disease",
+        "Step 2: Assign O10.12 (pre-existing hypertensive heart disease, second trimester)",
+        "Step 3: Add I50.22 to specify chronic systolic heart failure"
+      ],
+      "correct_coding": {
+        "primary_code": "O10.12",
+        "secondary_codes": [
+          "I50.22",
+          "Z3A.28"
+        ],
+        "sequencing": "O10 code first, then specific heart failure code",
+        "rationale": "O10 codes require secondary code to specify type of heart failure (Evidence: pg no: 66, L79-L80)"
+      },
+      "incorrect_coding": {
+        "code": "O10.12",
+        "codes": [
+          "O10.12"
+        ],
+        "rationale": "Missing required secondary code for heart failure type",
+        "common_mistake": "Forgetting to add secondary code for heart failure specification"
+      }
+    },
+    {
+      "scenario_id": "preexisting_htn_2",
+      "scenario": "Pregnant patient with pre-existing hypertension and stage 3 chronic kidney disease",
+      "documentation_example": "32-week pregnant patient with chronic hypertension and stage 3 chronic kidney disease",
+      "step_by_step": [
+        "Step 1: Identify pre-existing hypertension with chronic kidney disease",
+        "Step 2: Assign O10.22 (pre-existing hypertensive chronic kidney disease, second trimester)",
+        "Step 3: Add N18.3 to specify stage 3 chronic kidney disease"
+      ],
+      "correct_coding": {
+        "primary_code": "O10.22",
+        "secondary_codes": [
+          "N18.3",
+          "Z3A.32"
+        ],
+        "sequencing": "O10 code first, then specific CKD stage",
+        "rationale": "O10 codes require secondary code to specify type of chronic kidney disease (Evidence: pg no: 66, L79-L80)"
+      },
+      "incorrect_coding": {
+        "code": "O10.22",
+        "codes": [
+          "O10.22"
+        ],
+        "rationale": "Missing required secondary code for CKD stage",
+        "common_mistake": "Forgetting to add secondary code for CKD specification"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Must add secondary codes for heart failure or CKD type (Evidence: pg no: 66, L79-L80)"
+    ],
+    "best_practices": [
+      "Always specify type of heart failure or chronic kidney disease with secondary codes (Evidence: pg no: 66, L79-L80)",
+      "Review Section I.C.9 for hypertension coding guidance"
+    ],
+    "common_mistakes": [
+      "Using O10 codes without required secondary codes",
+      "Not specifying type of heart failure or CKD"
+    ],
+    "tips": [
+      "O10 codes are incomplete without secondary specification codes",
+      "Check documentation for specific heart failure or CKD details"
+    ],
+    "implementation_notes": [
+      "Requires knowledge of heart failure and CKD classification",
+      "Must coordinate with general hypertension coding guidelines"
+    ],
+    "clinical_context": [
+      "High-risk pregnancy management",
+      "Cardiovascular complications in pregnancy",
+      "Renal complications in pregnancy"
+    ]
+  },
+  "search_keywords": [
+    "pre-existing hypertension",
+    "hypertensive heart disease",
+    "hypertensive chronic kidney disease",
+    "O10 codes",
+    "pregnancy hypertension",
+    "secondary codes"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "obstetric_coding",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "pregnancy",
+      "hypertension",
+      "pre_existing",
+      "heart_disease",
+      "kidney_disease"
+    ]
+  },
+  "page_range_processed": "pages_63_to_66"
+}

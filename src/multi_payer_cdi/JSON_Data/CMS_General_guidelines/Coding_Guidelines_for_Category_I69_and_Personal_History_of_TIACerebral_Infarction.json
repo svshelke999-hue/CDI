@@ -1,0 +1,153 @@
+{
+  "guideline_id": "I.C.9.d.3",
+  "semantic_title": "Coding Guidelines for Category I69 and Personal History of TIA/Cerebral Infarction",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 9. Diseases of the Circulatory System > d. Sequelae of Cerebrovascular Disease > 3) Codes from category I69 and Personal history of transient ischemic attack (TIA) and cerebral infarction (Z86.73)",
+  "page_number": 54,
+  "content": {
+    "full_text": "Codes from category I69 should not be assigned if the patient does not have neurologic deficits. (Evidence: pg no: 54, L80-L83)",
+    "summary": "Guidelines restricting use of I69 codes to patients with actual neurologic deficits (Evidence: pg no: 54, L80-L83)",
+    "key_concepts": [
+      "I69 codes require neurologic deficits (Evidence: pg no: 54, L82-L83)",
+      "No I69 without deficits (Evidence: pg no: 54, L82-L83)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "CVA_NO_DEF_001",
+        "rule_text": "Do not assign I69 codes without neurologic deficits (Evidence: pg no: 54, L82-L83)",
+        "explanation": "Codes from category I69 should not be assigned if the patient does not have neurologic deficits (Evidence: pg no: 54, L82-L83)",
+        "importance": "critical",
+        "applies_to": "I69",
+        "common_applications": [
+          "TIA without residual deficits",
+          "Resolved stroke without ongoing impairment"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify history of cerebrovascular disease",
+      "Step 2: Assess for current neurologic deficits",
+      "Step 3: If no deficits present, do not use I69 codes",
+      "Step 4: Consider personal history codes instead"
+    ],
+    "related_terminology": [
+      "Neurologic deficits",
+      "Personal history",
+      "Transient ischemic attack",
+      "Cerebral infarction"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "I69",
+        "description": "Sequelae of cerebrovascular disease (Evidence: pg no: 54, L82)",
+        "requirement": "Only use when neurologic deficits present",
+        "usage_rules": [
+          "Do not assign without neurologic deficits (Evidence: pg no: 54, L82-L83)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "Z86.73",
+        "description": "Personal history of transient ischemic attack (TIA) and cerebral infarction (Evidence: pg no: 54, L80-L81)",
+        "context": "Use when no current neurologic deficits",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z86": "Personal history of certain other diseases",
+          ".73": "Personal history of TIA and cerebral infarction"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Personal history codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.21.4",
+        "title": "History (of) for use of personal history codes",
+        "relationship": "applies_to",
+        "explanation": "Referenced for proper use of personal history codes"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "CVA_NO_DEF_SC001",
+      "scenario": "Patient with history of stroke but no current neurologic deficits",
+      "documentation_example": "History of cerebral infarction 3 years ago, no residual neurologic deficits",
+      "step_by_step": [
+        "Step 1: Identify history of cerebral infarction",
+        "Step 2: Assess for current neurologic deficits",
+        "Step 3: Confirm no deficits present",
+        "Step 4: Assign personal history code Z86.73"
+      ],
+      "correct_coding": {
+        "primary_code": "Z86.73",
+        "secondary_codes": [],
+        "sequencing": "Based on encounter reason",
+        "rationale": "No neurologic deficits present, so I69 codes not appropriate (Evidence: pg no: 54, L82-L83)"
+      },
+      "incorrect_coding": {
+        "code": "I69.398",
+        "codes": [
+          "I69.398"
+        ],
+        "rationale": "Would be incorrect without neurologic deficits",
+        "common_mistake": "Using I69 codes for history without current deficits"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Never use I69 codes without neurologic deficits (Evidence: pg no: 54, L82-L83)"
+    ],
+    "best_practices": [
+      "Assess for current neurologic deficits before coding I69 (Evidence: pg no: 54, L82-L83)",
+      "Use personal history codes when no deficits present"
+    ],
+    "common_mistakes": [
+      "Using I69 codes for stroke history without deficits"
+    ],
+    "tips": [
+      "Document presence or absence of neurologic deficits clearly"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Follow-up visits after stroke",
+      "Routine care with stroke history",
+      "Preventive care encounters"
+    ]
+  },
+  "search_keywords": [
+    "stroke without deficits",
+    "TIA history",
+    "Z86.73",
+    "personal history stroke",
+    "no neurologic deficits"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "cerebrovascular_disease",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "personal_history",
+      "no_deficits",
+      "TIA",
+      "stroke_history",
+      "Z86.73"
+    ]
+  },
+  "page_range_processed": "pages_51_to_54"
+}

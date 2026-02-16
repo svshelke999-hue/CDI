@@ -1,0 +1,142 @@
+{
+  "guideline_id": "IV.C",
+  "semantic_title": "Accurate Reporting Requirements for ICD-10-CM Diagnosis Codes",
+  "section_path": "Section IV > C. Accurate reporting of ICD-10-CM diagnosis codes",
+  "page_number": 113,
+  "content": {
+    "full_text": "For accurate reporting of ICD-10-CM diagnosis codes, the documentation should describe the patient's condition, using terminology which includes specific diagnoses as well as symptoms, problems, or reasons for the encounter. There are ICD-10-CM codes to describe all of these. (Evidence: pg no: 113, L43-L44)",
+    "summary": "Establishes documentation requirements for accurate ICD-10-CM coding, emphasizing comprehensive terminology usage (Evidence: pg no: 113, L43-L44)",
+    "key_concepts": [
+      "Documentation must describe patient's condition accurately (Evidence: pg no: 113, L43-L44)",
+      "Terminology should include specific diagnoses (Evidence: pg no: 113, L44)",
+      "Must include symptoms, problems, or reasons for encounter (Evidence: pg no: 113, L44)",
+      "ICD-10-CM has codes for all these elements (Evidence: pg no: 113, L44)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "IV.C.1",
+        "rule_text": "Documentation should describe patient's condition using appropriate terminology (Evidence: pg no: 113, L43-L44)",
+        "explanation": "Accurate coding requires comprehensive documentation that includes all relevant clinical information (Evidence: pg no: 113, L43-L44)",
+        "importance": "critical",
+        "applies_to": "all_diagnosis_codes",
+        "common_applications": [
+          "Clinical documentation improvement",
+          "Provider education on coding requirements",
+          "Medical record review"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Review documentation for completeness",
+      "Step 2: Identify specific diagnoses documented",
+      "Step 3: Identify symptoms and problems documented",
+      "Step 4: Identify reasons for encounter",
+      "Step 5: Ensure all elements have corresponding ICD-10-CM codes"
+    ],
+    "related_terminology": [
+      "Accurate reporting",
+      "Documentation",
+      "Specific diagnoses",
+      "Symptoms",
+      "Problems",
+      "Reasons for encounter"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "All ICD-10-CM diagnosis codes",
+      "Symptom codes",
+      "Problem codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "IV.C.S1",
+      "scenario": "Comprehensive documentation review for coding accuracy",
+      "documentation_example": "Patient presents with chest pain and shortness of breath. History of hypertension and diabetes. Assessment: Chest pain, possible cardiac etiology. Plan: EKG, chest x-ray, cardiac enzymes.",
+      "step_by_step": [
+        "Step 1: Identify specific diagnoses - none established yet",
+        "Step 2: Identify symptoms - chest pain, shortness of breath",
+        "Step 3: Identify relevant history - hypertension, diabetes",
+        "Step 4: Code all documented elements appropriately"
+      ],
+      "correct_coding": {
+        "primary_code": "R07.89",
+        "secondary_codes": [
+          "R06.02",
+          "I10",
+          "E11.9"
+        ],
+        "sequencing": "Primary symptom first, then additional symptoms and relevant conditions",
+        "rationale": "Documentation includes symptoms and relevant conditions, all have corresponding ICD-10-CM codes (Evidence: pg no: 113, L44)"
+      },
+      "incorrect_coding": {
+        "code": "Incomplete coding",
+        "codes": [
+          "R07.89"
+        ],
+        "rationale": "Fails to capture all documented elements",
+        "common_mistake": "Not coding all documented symptoms and relevant conditions"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Incomplete documentation leads to inaccurate coding (Evidence: pg no: 113, L43-L44)"
+    ],
+    "best_practices": [
+      "Ensure documentation includes specific diagnoses when established (Evidence: pg no: 113, L44)",
+      "Document all symptoms and problems (Evidence: pg no: 113, L44)",
+      "Clearly state reasons for encounter (Evidence: pg no: 113, L44)"
+    ],
+    "common_mistakes": [
+      "Incomplete documentation of patient condition",
+      "Failing to document symptoms when diagnosis not established",
+      "Not documenting reasons for encounter"
+    ],
+    "tips": [
+      "ICD-10-CM has codes for all clinical elements that should be documented"
+    ],
+    "implementation_notes": [
+      "Requires collaboration between clinical and coding staff",
+      "May require documentation improvement initiatives"
+    ],
+    "clinical_context": [
+      "Accurate coding depends on comprehensive clinical documentation",
+      "Documentation should support medical necessity and coding accuracy"
+    ]
+  },
+  "search_keywords": [
+    "accurate reporting",
+    "documentation requirements",
+    "specific diagnoses",
+    "symptoms",
+    "problems",
+    "clinical documentation"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "documentation_requirements",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "documentation",
+      "accuracy",
+      "clinical_terminology",
+      "comprehensive_coding"
+    ]
+  },
+  "page_range_processed": "pages_111_to_114"
+}

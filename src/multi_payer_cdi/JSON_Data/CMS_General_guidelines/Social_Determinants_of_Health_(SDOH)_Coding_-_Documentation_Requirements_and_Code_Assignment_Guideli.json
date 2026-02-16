@@ -1,0 +1,360 @@
+{
+  "guideline_id": "I.C.21.c.17",
+  "semantic_title": "Social Determinants of Health (SDOH) Coding - Documentation Requirements and Code Assignment Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 21. Chapter 21: Factors influencing health status and contact with health services (Z00-Z99) > c. Categories of Z Codes > 17) Social Determinants of Health",
+  "page_number": 107,
+  "content": {
+    "full_text": "Social determinants of health (SDOH) codes describing social problems, conditions, or risk factors that influence a patient's health should be assigned when this information is documented in the patient's medical record. Assign as many SDOH codes as are necessary to describe all of the social problems, conditions, or risk factors documented during the current episode of care. Code assignment may be based on medical record documentation from clinicians involved in the care of the patient who are not the patient's provider since this information represents social information, rather than medical diagnoses. Patient self-reported documentation may be used to assign codes for social determinants of health, as long as the patient self-reported information is signed-off by and incorporated into the medical record by either a clinician or provider. (Evidence: pg no: 106-107, L57-L72)",
+    "summary": "Comprehensive guidelines for coding social determinants of health including documentation requirements, multiple code assignment, and acceptable sources of information (Evidence: pg no: 106-107, L57-L72)",
+    "key_concepts": [
+      "SDOH codes describe social problems, conditions, or risk factors affecting health (Evidence: pg no: 106, L57-L58)",
+      "Assign as many codes as necessary to describe all documented social factors (Evidence: pg no: 106, L60-L62)",
+      "Documentation can come from various healthcare team members (Evidence: pg no: 107, L67-L69)",
+      "Patient self-reported information acceptable if signed off by clinician (Evidence: pg no: 107, L69-L72)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "SDOH_DOCUMENTATION_REQ",
+        "rule_text": "SDOH codes should be assigned when social factors are documented in the medical record (Evidence: pg no: 106, L57-L59)",
+        "explanation": "Documentation of social problems, conditions, or risk factors that influence patient health supports SDOH code assignment (Evidence: pg no: 106, L57-L59)",
+        "importance": "high",
+        "applies_to": "SDOH_codes",
+        "common_applications": [
+          "Social risk assessment",
+          "Care planning",
+          "Population health management"
+        ]
+      },
+      {
+        "rule_id": "SDOH_MULTIPLE_CODES",
+        "rule_text": "Assign as many SDOH codes as necessary to describe all documented social factors (Evidence: pg no: 106, L60-L62)",
+        "explanation": "Multiple codes should be used to comprehensively capture all social determinants affecting the patient during the current episode (Evidence: pg no: 106, L60-L62)",
+        "importance": "high",
+        "applies_to": "SDOH_codes",
+        "common_applications": [
+          "Complex social situations",
+          "Multiple risk factors",
+          "Comprehensive social assessment"
+        ]
+      },
+      {
+        "rule_id": "SDOH_DOCUMENTATION_SOURCES",
+        "rule_text": "Documentation may come from various clinicians involved in patient care (Evidence: pg no: 107, L67-L69)",
+        "explanation": "Social workers, community health workers, case managers, or nurses can provide documentation for SDOH coding since this represents social rather than medical information (Evidence: pg no: 107, L67-L69)",
+        "importance": "high",
+        "applies_to": "SDOH_codes",
+        "common_applications": [
+          "Interdisciplinary team documentation",
+          "Social work assessments",
+          "Case management notes"
+        ]
+      },
+      {
+        "rule_id": "SDOH_PATIENT_REPORTED",
+        "rule_text": "Patient self-reported information acceptable if signed off by clinician (Evidence: pg no: 107, L69-L72)",
+        "explanation": "Patient-reported social information can support SDOH coding when incorporated into the medical record by a clinician or provider (Evidence: pg no: 107, L69-L72)",
+        "importance": "high",
+        "applies_to": "SDOH_codes",
+        "common_applications": [
+          "Patient questionnaires",
+          "Social screening tools",
+          "Patient interviews"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Review medical record for documented social factors",
+      "Step 2: Identify all social problems, conditions, or risk factors",
+      "Step 3: Verify documentation source is acceptable",
+      "Step 4: Assign appropriate SDOH codes for all documented factors",
+      "Step 5: Ensure patient-reported information has clinician sign-off"
+    ],
+    "related_terminology": [
+      "Social determinants of health",
+      "Social problems",
+      "Risk factors",
+      "Social conditions",
+      "Patient self-reported",
+      "Clinician documentation",
+      "Social information"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z55",
+        "description": "Problems related to education and literacy (Evidence: pg no: 107, L74)",
+        "requirement": "Document social factors affecting health",
+        "usage_rules": [
+          "Assign when education/literacy problems are documented as affecting health"
+        ]
+      },
+      {
+        "range": "Z56",
+        "description": "Problems related to employment and unemployment (Evidence: pg no: 107, L75)",
+        "requirement": "Document social factors affecting health",
+        "usage_rules": [
+          "Assign when employment issues are documented as affecting health"
+        ]
+      },
+      {
+        "range": "Z57",
+        "description": "Occupational exposure to risk factors (Evidence: pg no: 107, L76)",
+        "requirement": "Document social factors affecting health",
+        "usage_rules": [
+          "Assign when occupational exposures are documented as health risks"
+        ]
+      },
+      {
+        "range": "Z58",
+        "description": "Problems related to physical environment (Evidence: pg no: 107, L77)",
+        "requirement": "Document social factors affecting health",
+        "usage_rules": [
+          "Assign when environmental problems are documented as affecting health"
+        ]
+      },
+      {
+        "range": "Z59",
+        "description": "Problems related to housing and economic circumstances (Evidence: pg no: 107, L78)",
+        "requirement": "Document social factors affecting health",
+        "usage_rules": [
+          "Assign when housing/economic issues are documented as affecting health"
+        ]
+      },
+      {
+        "range": "Z60",
+        "description": "Problems related to social environment (Evidence: pg no: 107, L79)",
+        "requirement": "Document social factors affecting health",
+        "usage_rules": [
+          "Assign when social environment problems are documented as affecting health"
+        ]
+      },
+      {
+        "range": "Z62",
+        "description": "Problems related to upbringing (Evidence: pg no: 107, L80)",
+        "requirement": "Document social factors affecting health",
+        "usage_rules": [
+          "Assign when upbringing issues are documented as affecting health"
+        ]
+      },
+      {
+        "range": "Z63",
+        "description": "Other problems related to primary support group, including family circumstances (Evidence: pg no: 107, L81-L82)",
+        "requirement": "Document social factors affecting health",
+        "usage_rules": [
+          "Assign when family/support group problems are documented as affecting health"
+        ]
+      },
+      {
+        "range": "Z64",
+        "description": "Problems related to certain psychosocial circumstances (Evidence: pg no: 107, L83)",
+        "requirement": "Document social factors affecting health",
+        "usage_rules": [
+          "Assign when psychosocial circumstances are documented as affecting health"
+        ]
+      },
+      {
+        "range": "Z65",
+        "description": "Problems related to other psychosocial circumstances (Evidence: pg no: 107, L84)",
+        "requirement": "Document social factors affecting health",
+        "usage_rules": [
+          "Assign when other psychosocial issues are documented as affecting health"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "Z60.2",
+        "description": "Problems related to living alone (Evidence: pg no: 106, L62)",
+        "context": "When documented as creating risk or unmet need for assistance",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z60": "Problems related to social environment",
+          ".2": "Living alone problems"
+        }
+      },
+      {
+        "code": "Z59.41",
+        "description": "Food insecurity (Evidence: pg no: 106, L62)",
+        "context": "When patient expresses concerns with food access and availability",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z59": "Problems related to housing and economic circumstances",
+          ".41": "Food insecurity"
+        }
+      },
+      {
+        "code": "Z59.0-",
+        "description": "Homelessness (Evidence: pg no: 107, L66)",
+        "context": "When patient is experiencing homelessness",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z59": "Problems related to housing and economic circumstances",
+          ".0-": "Homelessness subcategory"
+        }
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": "Z55-Z65",
+        "description": "Persons with potential health hazards related to socioeconomic and psychosocial circumstances (Evidence: pg no: 107, L67-L68)",
+        "example": "Z59.41 Food insecurity, Z60.2 Problems related to living alone",
+        "explanation": "Primary range for social determinants of health codes"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Education and literacy problems",
+      "Employment and unemployment problems",
+      "Occupational exposure",
+      "Physical environment problems",
+      "Housing and economic problems",
+      "Social environment problems",
+      "Upbringing problems",
+      "Primary support group problems",
+      "Psychosocial circumstances"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.B.14",
+        "title": "Documentation by Clinicians Other than the Patient's Provider",
+        "relationship": "implements",
+        "explanation": "Provides guidance on acceptable documentation sources for SDOH coding"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "SDOH_LIVING_ALONE",
+      "scenario": "Elderly patient lives alone and has difficulty with activities of daily living after injury",
+      "documentation_example": "Patient lives alone and expresses concern about ability to perform routine activities following hip fracture. Social worker notes unmet need for assistance at home.",
+      "step_by_step": [
+        "Step 1: Identify documented social factor (living alone)",
+        "Step 2: Verify impact on health is documented (difficulty with ADLs)",
+        "Step 3: Confirm acceptable documentation source (social worker)",
+        "Step 4: Assign Z60.2 for problems related to living alone"
+      ],
+      "correct_coding": {
+        "primary_code": "S72.001A",
+        "secondary_codes": [
+          "Z60.2"
+        ],
+        "sequencing": "SDOH code as secondary diagnosis",
+        "rationale": "Living alone with documented risk or unmet need supports Z60.2 assignment (Evidence: pg no: 106, L62)"
+      },
+      "incorrect_coding": {
+        "code": "Z60.2",
+        "codes": [
+          "Z60.2"
+        ],
+        "rationale": "Should not be assigned merely for living alone without documented risk or unmet need",
+        "common_mistake": "Assigning SDOH codes without proper documentation of health impact"
+      }
+    },
+    {
+      "scenario_id": "SDOH_FOOD_INSECURITY",
+      "scenario": "Patient reports concerns about food access during clinic visit",
+      "documentation_example": "Patient states 'I worry about having enough food for my family' during routine visit. Provider documents food insecurity concerns in assessment.",
+      "step_by_step": [
+        "Step 1: Identify patient-reported social concern (food access)",
+        "Step 2: Verify clinician documentation and sign-off",
+        "Step 3: Confirm health relevance is documented",
+        "Step 4: Assign Z59.41 for food insecurity"
+      ],
+      "correct_coding": {
+        "primary_code": "Z00.00",
+        "secondary_codes": [
+          "Z59.41"
+        ],
+        "sequencing": "SDOH code as secondary diagnosis",
+        "rationale": "Patient-reported food access concerns with clinician documentation supports Z59.41 assignment (Evidence: pg no: 106, L62)"
+      },
+      "incorrect_coding": {
+        "code": "Z59.41",
+        "codes": [
+          "Z59.41"
+        ],
+        "rationale": "Should not be assigned without clinician sign-off of patient-reported information",
+        "common_mistake": "Using patient-reported information without proper clinician documentation"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "SDOH_MULTIPLE_FACTORS",
+      "scenario": "Patient with multiple social risk factors affecting health",
+      "code_example": "Z59.41, Z60.2, Z56.0",
+      "breakdown": {
+        "Z59.41": "Food insecurity (Evidence: pg no: 106, L62)",
+        "Z60.2": "Problems related to living alone (Evidence: pg no: 106, L62)",
+        "Z56.0": "Unemployment problems"
+      },
+      "rationale": "Multiple SDOH codes assigned to describe all documented social factors affecting patient health (Evidence: pg no: 106, L60-L62)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Must have documented impact on health, not just presence of social factor (Evidence: pg no: 106, L62)",
+      "Patient-reported information requires clinician sign-off (Evidence: pg no: 107, L69-L72)"
+    ],
+    "best_practices": [
+      "Assign multiple codes to comprehensively describe social factors (Evidence: pg no: 106, L60-L62)",
+      "Accept documentation from various healthcare team members (Evidence: pg no: 107, L67-L69)",
+      "Ensure social factors are documented as affecting health"
+    ],
+    "common_mistakes": [
+      "Assigning codes without documented health impact",
+      "Using patient-reported information without clinician validation",
+      "Missing multiple social factors that should be coded"
+    ],
+    "tips": [
+      "Review documentation from all team members for social factors",
+      "Look for screening tools and social assessments in the record",
+      "Consider the relationship between social factors and health outcomes"
+    ],
+    "implementation_notes": [
+      "Requires understanding of social determinants concept",
+      "May involve coordination with social services documentation",
+      "Important for population health and quality reporting"
+    ],
+    "clinical_context": [
+      "Social risk screening",
+      "Care coordination",
+      "Population health management",
+      "Quality improvement initiatives"
+    ]
+  },
+  "search_keywords": [
+    "social determinants of health",
+    "SDOH codes",
+    "social problems",
+    "risk factors",
+    "social conditions",
+    "patient reported",
+    "social worker documentation",
+    "food insecurity",
+    "homelessness",
+    "living alone"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "social_determinants",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "SDOH",
+      "social_factors",
+      "documentation",
+      "patient_reported",
+      "team_based_care"
+    ]
+  },
+  "page_range_processed": "pages_105_to_108"
+}

@@ -1,0 +1,182 @@
+{
+  "guideline_id": "I.C.6.b.1.b.i",
+  "semantic_title": "Assigning Category G89 and Site-Specific Pain Codes Together",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 6. Chapter 6: Diseases of the Nervous System > b. Pain - Category G89 > 1) General coding information > (b) Use of Category G89 Codes in Conjunction with Site Specific Pain Codes > (i) Assigning Category G89 and Site-Specific Pain Codes",
+  "page_number": 46,
+  "content": {
+    "full_text": "Codes from category G89 may be used in conjunction with codes that identify the site of pain (including codes from chapter 18) if the category G89 code provides additional information. For example, if the code describes the site of the pain, but does not fully describe whether the pain is acute or chronic, then both codes should be assigned. (Evidence: pg no: 46, L35-L36)",
+    "summary": "Guidelines for using G89 codes together with site-specific pain codes when G89 provides additional information about pain characteristics. (Evidence: pg no: 46, L35-L36)",
+    "key_concepts": [
+      "Conjunction use of G89 and site-specific codes (Evidence: pg no: 46, L35)",
+      "Additional information requirement (Evidence: pg no: 46, L35-L36)",
+      "Acute vs chronic specification (Evidence: pg no: 46, L36)",
+      "Chapter 18 code inclusion (Evidence: pg no: 46, L35)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "g89_site_conjunction",
+        "rule_text": "Codes from category G89 may be used in conjunction with codes that identify the site of pain (including codes from chapter 18) if the category G89 code provides additional information (Evidence: pg no: 46, L35-L36)",
+        "explanation": "G89 codes can be used with site-specific pain codes when they add meaningful information not captured by the site code alone (Evidence: pg no: 46, L35-L36)",
+        "importance": "high",
+        "applies_to": "G89",
+        "common_applications": [
+          "Site-specific pain with temporal characteristics",
+          "Pain with additional descriptive features"
+        ]
+      },
+      {
+        "rule_id": "acute_chronic_specification",
+        "rule_text": "If the code describes the site of the pain, but does not fully describe whether the pain is acute or chronic, then both codes should be assigned (Evidence: pg no: 46, L36)",
+        "explanation": "When site-specific codes don't specify acute or chronic nature, G89 codes should be added to provide this information (Evidence: pg no: 46, L36)",
+        "importance": "high",
+        "applies_to": "G89",
+        "common_applications": [
+          "Acute pain with site specification",
+          "Chronic pain with site specification"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify site-specific pain code",
+      "Step 2: Determine if site code fully describes pain characteristics",
+      "Step 3: If G89 provides additional information (acute/chronic), assign both codes",
+      "Step 4: If site code fully describes pain, G89 may not be needed"
+    ],
+    "related_terminology": [
+      "Site-specific pain codes",
+      "Chapter 18 codes",
+      "Additional information",
+      "Acute pain",
+      "Chronic pain"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "G89",
+        "description": "Pain codes used in conjunction with site-specific codes (Evidence: pg no: 46, L35)",
+        "requirement": "Must provide additional information not in site code",
+        "usage_rules": [
+          "Use with site codes when G89 adds information (Evidence: pg no: 46, L35-L36)",
+          "Use when site code doesn't specify acute/chronic (Evidence: pg no: 46, L36)"
+        ]
+      },
+      {
+        "range": "Chapter 18",
+        "description": "Site-specific pain codes that may be used with G89 (Evidence: pg no: 46, L35)",
+        "requirement": "Site identification",
+        "usage_rules": [
+          "Can be used in conjunction with G89 codes (Evidence: pg no: 46, L35)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "G89 - Pain, not elsewhere classified",
+      "Chapter 18 - Symptoms, signs and abnormal clinical and laboratory findings"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "Chapter_18",
+        "title": "Symptoms, signs and abnormal clinical and laboratory findings",
+        "relationship": "applies_concept",
+        "explanation": "Chapter 18 contains site-specific pain codes that may be used with G89"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "acute_neck_pain",
+      "scenario": "Patient with acute neck pain from trauma",
+      "documentation_example": "Patient presents with acute severe neck pain following motor vehicle accident",
+      "step_by_step": [
+        "Step 1: Identify site-specific code (cervicalgia)",
+        "Step 2: Note that site code doesn't specify acute nature",
+        "Step 3: Assign G89 code for acute pain",
+        "Step 4: Assign both codes for complete description"
+      ],
+      "correct_coding": {
+        "primary_code": "M54.2 (Cervicalgia)",
+        "secondary_codes": [
+          "G89.11 (Acute pain due to trauma)"
+        ],
+        "sequencing": "Site code with G89 for additional information",
+        "rationale": "Site code doesn't fully describe acute nature, G89 provides additional information (Evidence: pg no: 46, L36)"
+      },
+      "incorrect_coding": {
+        "code": "M54.2 only",
+        "rationale": "Missing acute pain specification that G89 would provide",
+        "common_mistake": "Not using G89 when it provides additional information"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "site_plus_temporal",
+      "scenario": "Chronic back pain",
+      "code_example": "M54.9 + G89.29",
+      "breakdown": {
+        "M54.9": "Dorsalgia, unspecified (site) (Evidence: pg no: 46, L36)",
+        "G89.29": "Other chronic pain (temporal characteristic)"
+      },
+      "rationale": "Site code doesn't specify chronic nature, G89 provides additional information (Evidence: pg no: 46, L36)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Only use G89 with site codes when it provides additional information (Evidence: pg no: 46, L35-L36)"
+    ],
+    "best_practices": [
+      "Evaluate whether G89 adds meaningful information to site-specific codes",
+      "Consider acute/chronic specifications when assigning codes"
+    ],
+    "common_mistakes": [
+      "Using G89 codes when site codes already fully describe the pain",
+      "Not using G89 codes when they would provide additional information"
+    ],
+    "tips": [
+      "G89 codes supplement site codes, don't replace them",
+      "Acute/chronic specification is common additional information G89 provides"
+    ],
+    "implementation_notes": [
+      "Chapter 18 codes are specifically mentioned as site-specific codes",
+      "Additional information requirement prevents redundant coding"
+    ],
+    "clinical_context": [
+      "Pain characteristics include both location and temporal features",
+      "Complete pain description may require multiple codes"
+    ]
+  },
+  "search_keywords": [
+    "G89",
+    "site-specific",
+    "conjunction",
+    "additional information",
+    "acute",
+    "chronic",
+    "chapter 18",
+    "pain site"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "nervous_system_pain",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "pain",
+      "G89",
+      "site_specific",
+      "conjunction",
+      "additional_information"
+    ]
+  },
+  "page_range_processed": "pages_45_to_48"
+}

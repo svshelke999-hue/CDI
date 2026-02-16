@@ -1,0 +1,153 @@
+{
+  "guideline_id": "I.C.6.b.1",
+  "semantic_title": "General Coding Information for Pain Category G89",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 6. Chapter 6: Diseases of the Nervous System > b. Pain - Category G89 > 1) General coding information",
+  "page_number": 45,
+  "content": {
+    "full_text": "Codes in category G89, Pain, not elsewhere classified, may be used in conjunction with codes from other categories and chapters to provide more detail about acute or chronic pain and neoplasm-related pain, unless otherwise indicated below. If the pain is not specified as acute or chronic, post-thoracotomy, postprocedural, or neoplasm-related, do not assign codes from category G89. (Evidence: pg no: 45, L18-L21)",
+    "summary": "Basic rules for when to use and when not to use category G89 pain codes, requiring specific pain type documentation. (Evidence: pg no: 45, L18-L21)",
+    "key_concepts": [
+      "G89 conjunction use with other codes (Evidence: pg no: 45, L18-L19)",
+      "Specific pain type requirements (Evidence: pg no: 45, L20-L21)",
+      "Pain classification specificity (Evidence: pg no: 45, L20-L21)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "g89_conjunction_use",
+        "rule_text": "Codes in category G89, Pain, not elsewhere classified, may be used in conjunction with codes from other categories and chapters to provide more detail about acute or chronic pain and neoplasm-related pain (Evidence: pg no: 45, L18-L19)",
+        "explanation": "G89 codes can be used alongside other codes to provide additional detail about pain characteristics (Evidence: pg no: 45, L18-L19)",
+        "importance": "high",
+        "applies_to": "G89",
+        "common_applications": [
+          "Acute pain specification",
+          "Chronic pain specification",
+          "Neoplasm-related pain"
+        ]
+      },
+      {
+        "rule_id": "g89_exclusion_rule",
+        "rule_text": "If the pain is not specified as acute or chronic, post-thoracotomy, postprocedural, or neoplasm-related, do not assign codes from category G89 (Evidence: pg no: 45, L20-L21)",
+        "explanation": "G89 codes should only be used when pain has specific characteristics documented (Evidence: pg no: 45, L20-L21)",
+        "importance": "critical",
+        "applies_to": "G89",
+        "common_applications": [
+          "Pain type verification",
+          "Code assignment decisions"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify if pain is documented",
+      "Step 2: Determine if pain is specified as acute, chronic, post-thoracotomy, postprocedural, or neoplasm-related",
+      "Step 3: If specified type present, consider G89 codes",
+      "Step 4: If not specified, do not use G89 codes",
+      "Step 5: Use G89 in conjunction with other appropriate codes"
+    ],
+    "related_terminology": [
+      "Acute pain",
+      "Chronic pain",
+      "Post-thoracotomy pain",
+      "Postprocedural pain",
+      "Neoplasm-related pain"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "G89",
+        "description": "Pain, not elsewhere classified (Evidence: pg no: 45, L18)",
+        "requirement": "Pain must be specified as acute, chronic, post-thoracotomy, postprocedural, or neoplasm-related",
+        "usage_rules": [
+          "Use in conjunction with other codes (Evidence: pg no: 45, L18-L19)",
+          "Do not use if pain type not specified (Evidence: pg no: 45, L20-L21)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "G89 - Pain, not elsewhere classified"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "unspecified_pain",
+      "scenario": "Patient presents with back pain, no specification of acute or chronic",
+      "documentation_example": "Patient complains of back pain",
+      "step_by_step": [
+        "Step 1: Identify pain is documented",
+        "Step 2: Check if pain type is specified",
+        "Step 3: Note no specification as acute/chronic/etc.",
+        "Step 4: Do not assign G89 code"
+      ],
+      "correct_coding": {
+        "primary_code": "M54.9 (Dorsalgia, unspecified)",
+        "secondary_codes": [],
+        "sequencing": "Site-specific pain code only",
+        "rationale": "G89 not used when pain type not specified (Evidence: pg no: 45, L20-L21)"
+      },
+      "incorrect_coding": {
+        "code": "G89.29 + M54.9",
+        "rationale": "Should not use G89 without pain type specification",
+        "common_mistake": "Adding G89 codes to all pain diagnoses"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not assign G89 codes without specific pain type documentation (Evidence: pg no: 45, L20-L21)"
+    ],
+    "best_practices": [
+      "Always verify pain type specification before using G89 codes",
+      "Use G89 codes in conjunction with other appropriate codes"
+    ],
+    "common_mistakes": [
+      "Using G89 codes for unspecified pain types",
+      "Not using G89 codes when appropriate pain types are documented"
+    ],
+    "tips": [
+      "G89 codes provide additional detail, not replacement codes",
+      "Pain type specification is mandatory for G89 use"
+    ],
+    "implementation_notes": [
+      "G89 codes supplement other pain codes",
+      "Specific exceptions may apply as indicated in guidelines"
+    ],
+    "clinical_context": [
+      "Pain classification affects treatment approaches",
+      "Specific pain types have different coding requirements"
+    ]
+  },
+  "search_keywords": [
+    "G89",
+    "pain",
+    "acute",
+    "chronic",
+    "post-thoracotomy",
+    "postprocedural",
+    "neoplasm-related",
+    "conjunction"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "nervous_system_pain",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "pain",
+      "G89",
+      "classification",
+      "conjunction"
+    ]
+  },
+  "page_range_processed": "pages_45_to_48"
+}

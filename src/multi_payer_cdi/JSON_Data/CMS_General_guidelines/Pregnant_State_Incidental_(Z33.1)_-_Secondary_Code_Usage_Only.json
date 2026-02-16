@@ -1,0 +1,185 @@
+{
+  "guideline_id": "I.C.21.c.3.h",
+  "semantic_title": "Pregnant State Incidental (Z33.1) - Secondary Code Usage Only",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 21. Factors Influencing Health Status > c. Categories of Z Codes > 3) Status",
+  "page_number": 95,
+  "content": {
+    "full_text": "This code is a secondary code only for use when the pregnancy is in no way complicating the reason for visit. Otherwise, a code from the obstetric chapter is required. (Evidence: pg no: 95, L49-L50)",
+    "summary": "Z33.1 is secondary code only when pregnancy doesn't complicate visit reason, otherwise use obstetric chapter codes (Evidence: pg no: 95, L49-L50)",
+    "key_concepts": [
+      "Secondary code only (Evidence: pg no: 95, L49)",
+      "Pregnancy not complicating visit (Evidence: pg no: 95, L49-L50)",
+      "Obstetric chapter required otherwise (Evidence: pg no: 95, L50)",
+      "Incidental pregnancy (Evidence: pg no: 95, L48)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "PREG_INCID_SEC",
+        "rule_text": "Use as secondary code only when pregnancy doesn't complicate visit (Evidence: pg no: 95, L49-L50)",
+        "explanation": "Z33.1 can only be used as secondary diagnosis when pregnancy is incidental and not affecting the reason for the encounter (Evidence: pg no: 95, L49-L50)",
+        "importance": "critical",
+        "applies_to": "Z33.1",
+        "common_applications": [
+          "Routine medical care during pregnancy",
+          "Non-pregnancy related conditions",
+          "Incidental pregnancy findings"
+        ]
+      },
+      {
+        "rule_id": "PREG_INCID_OBS",
+        "rule_text": "Use obstetric chapter codes if pregnancy complicates visit (Evidence: pg no: 95, L50)",
+        "explanation": "When pregnancy affects or complicates the reason for visit, codes from the obstetric chapter must be used instead of Z33.1 (Evidence: pg no: 95, L50)",
+        "importance": "critical",
+        "applies_to": "Z33.1",
+        "common_applications": [
+          "Pregnancy complications",
+          "Pregnancy-related conditions",
+          "Obstetric care"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify if patient is pregnant",
+      "Step 2: Determine if pregnancy affects reason for visit",
+      "Step 3: If pregnancy is incidental, use Z33.1 as secondary",
+      "Step 4: If pregnancy complicates visit, use obstetric chapter codes"
+    ],
+    "related_terminology": [
+      "Incidental pregnancy",
+      "Pregnancy complications",
+      "Obstetric chapter",
+      "Secondary diagnosis"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "Z33.1",
+        "description": "Pregnant state, incidental (Evidence: pg no: 95, L48)",
+        "context": "Secondary code only when pregnancy doesn't complicate visit",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "Z33": "Pregnant state",
+          "1": "Incidental"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Pregnant state incidental",
+      "Obstetric chapter codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "PREG_INCID_01",
+      "scenario": "Pregnant patient with appendicitis",
+      "documentation_example": "32-year-old female at 20 weeks gestation presents with acute appendicitis. Pregnancy is uncomplicated.",
+      "step_by_step": [
+        "Step 1: Identify primary condition (appendicitis)",
+        "Step 2: Determine pregnancy is incidental to appendicitis",
+        "Step 3: Assign appendicitis as principal diagnosis",
+        "Step 4: Assign Z33.1 as secondary diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "K35.9",
+        "secondary_codes": [
+          "Z33.1"
+        ],
+        "sequencing": "Appendicitis first, then incidental pregnancy",
+        "rationale": "Pregnancy is not complicating the appendicitis (Evidence: pg no: 95, L49-L50)"
+      },
+      "incorrect_coding": {
+        "code": "O99.61",
+        "codes": [
+          "Obstetric codes"
+        ],
+        "rationale": "Pregnancy is not complicating the primary condition",
+        "common_mistake": "Using obstetric codes when pregnancy is truly incidental"
+      }
+    },
+    {
+      "scenario_id": "PREG_INCID_02",
+      "scenario": "Pregnant patient with pregnancy-related nausea",
+      "documentation_example": "28-year-old female at 8 weeks gestation with severe nausea and vomiting related to pregnancy.",
+      "step_by_step": [
+        "Step 1: Identify pregnancy-related condition",
+        "Step 2: Recognize pregnancy is complicating the visit",
+        "Step 3: Use obstetric chapter code instead of Z33.1"
+      ],
+      "correct_coding": {
+        "primary_code": "O21.0",
+        "secondary_codes": [],
+        "sequencing": "Obstetric code for pregnancy complication",
+        "rationale": "Pregnancy is complicating the reason for visit (Evidence: pg no: 95, L50)"
+      },
+      "incorrect_coding": {
+        "code": "Z33.1",
+        "codes": [
+          "Z33.1 with nausea code"
+        ],
+        "rationale": "Should use obstetric chapter when pregnancy complicates visit",
+        "common_mistake": "Using Z33.1 when pregnancy is actually complicating the condition"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Never use Z33.1 as principal diagnosis (Evidence: pg no: 95, L49)",
+      "Do not use when pregnancy complicates the visit (Evidence: pg no: 95, L50)"
+    ],
+    "best_practices": [
+      "Carefully assess if pregnancy affects the primary condition",
+      "Use obstetric chapter codes when pregnancy is relevant to care"
+    ],
+    "common_mistakes": [
+      "Using Z33.1 as principal diagnosis",
+      "Using Z33.1 when pregnancy complicates the condition",
+      "Not recognizing when obstetric codes are needed"
+    ],
+    "tips": [
+      "Z33.1 is only for truly incidental pregnancy",
+      "When in doubt, consider if pregnancy affects care or treatment"
+    ],
+    "implementation_notes": [
+      "Requires clinical judgment about pregnancy's role in encounter"
+    ],
+    "clinical_context": [
+      "Pregnancy care",
+      "Non-obstetric care during pregnancy",
+      "Emergency department visits"
+    ]
+  },
+  "search_keywords": [
+    "incidental pregnancy",
+    "Z33.1",
+    "pregnant state",
+    "secondary code",
+    "obstetric chapter",
+    "pregnancy complications"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "status_codes",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "pregnancy",
+      "incidental",
+      "secondary",
+      "obstetric"
+    ]
+  },
+  "page_range_processed": "pages_93_to_96"
+}

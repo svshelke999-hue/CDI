@@ -1,0 +1,169 @@
+{
+  "guideline_id": "I.C.16.a.1",
+  "semantic_title": "Use of Chapter 16 Codes - Maternal vs Newborn Records",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 16. Chapter 16: Certain Conditions Originating in the Perinatal Period > a. General Perinatal Rules > 1) Use of Chapter 16 Codes",
+  "page_number": 70,
+  "content": {
+    "full_text": "Codes in this chapter are never for use on the maternal record. Codes from Chapter 15, the obstetric chapter, are never permitted on the newborn record. Chapter 16 codes may be used throughout the life of the patient if the condition is still present. (Evidence: pg no: 70, L75-L78)",
+    "summary": "Chapter 16 codes are never used on maternal records, Chapter 15 codes never on newborn records. Chapter 16 codes can be used throughout life if condition persists. (Evidence: pg no: 70, L75-L78)",
+    "key_concepts": [
+      "Maternal record exclusion (Evidence: pg no: 70, L75)",
+      "Newborn record exclusion for Chapter 15 (Evidence: pg no: 70, L76-L77)",
+      "Lifelong usage if condition persists (Evidence: pg no: 70, L77-L78)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "chapter16_maternal_exclusion",
+        "rule_text": "Chapter 16 codes are never for use on maternal record (Evidence: pg no: 70, L75)",
+        "explanation": "Codes from Chapter 16 (P00-P96) are exclusively for newborn/infant records and must never be used on the mother's medical record (Evidence: pg no: 70, L75)",
+        "importance": "critical",
+        "applies_to": "P00-P96",
+        "common_applications": [
+          "Newborn record coding",
+          "Infant condition documentation"
+        ]
+      },
+      {
+        "rule_id": "chapter15_newborn_exclusion",
+        "rule_text": "Chapter 15 codes are never permitted on newborn record (Evidence: pg no: 70, L76-L77)",
+        "explanation": "Obstetric codes from Chapter 15 are exclusively for maternal records and cannot be used on newborn records (Evidence: pg no: 70, L76-L77)",
+        "importance": "critical",
+        "applies_to": "O00-O9A",
+        "common_applications": [
+          "Maternal record coding",
+          "Pregnancy complication documentation"
+        ]
+      },
+      {
+        "rule_id": "chapter16_lifelong_usage",
+        "rule_text": "Chapter 16 codes may be used throughout life if condition is still present (Evidence: pg no: 70, L77-L78)",
+        "explanation": "If a perinatal condition continues beyond the perinatal period, Chapter 16 codes can be used at any age as long as the condition persists (Evidence: pg no: 70, L77-L78)",
+        "importance": "high",
+        "applies_to": "P00-P96",
+        "common_applications": [
+          "Chronic conditions from perinatal period",
+          "Adult patients with perinatal-origin conditions"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify if coding for maternal or newborn record",
+      "Step 2: Use Chapter 15 codes only for maternal records",
+      "Step 3: Use Chapter 16 codes only for newborn/infant records",
+      "Step 4: Continue Chapter 16 codes throughout life if condition persists"
+    ],
+    "related_terminology": [
+      "Maternal record",
+      "Newborn record",
+      "Obstetric chapter",
+      "Perinatal conditions",
+      "Lifelong conditions"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "P00-P96",
+        "description": "Chapter 16 perinatal codes (Evidence: pg no: 70, L75)",
+        "requirement": "Never use on maternal records",
+        "usage_rules": [
+          "Exclusive to newborn records (Evidence: pg no: 70, L75)",
+          "Can be used throughout life if condition persists (Evidence: pg no: 70, L77-L78)"
+        ]
+      },
+      {
+        "range": "O00-O9A",
+        "description": "Chapter 15 obstetric codes (Evidence: pg no: 70, L76-L77)",
+        "requirement": "Never use on newborn records",
+        "usage_rules": [
+          "Exclusive to maternal records (Evidence: pg no: 70, L76-L77)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Chapter 15 obstetric codes",
+      "Chapter 16 perinatal codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "record_type_separation",
+      "scenario": "Mother and newborn both have conditions requiring coding",
+      "documentation_example": "Mother has gestational diabetes (O24.4), newborn has hypoglycemia (P70.4)",
+      "step_by_step": [
+        "Step 1: Identify maternal condition",
+        "Step 2: Code maternal condition with Chapter 15 code on maternal record",
+        "Step 3: Identify newborn condition",
+        "Step 4: Code newborn condition with Chapter 16 code on newborn record"
+      ],
+      "correct_coding": {
+        "primary_code": "O24.4 on maternal record, P70.4 on newborn record",
+        "secondary_codes": [],
+        "sequencing": "Separate records with appropriate chapter codes",
+        "rationale": "Chapter 15 codes never on newborn records, Chapter 16 codes never on maternal records (Evidence: pg no: 70, L75-L77)"
+      },
+      "incorrect_coding": {
+        "code": "Mixed chapter usage",
+        "codes": [
+          "P70.4 on maternal record or O24.4 on newborn record"
+        ],
+        "rationale": "Violates chapter-specific record restrictions",
+        "common_mistake": "Using wrong chapter codes on wrong record types"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Never mix Chapter 15 and 16 codes between maternal and newborn records (Evidence: pg no: 70, L75-L77)"
+    ],
+    "best_practices": [
+      "Maintain strict separation between maternal and newborn coding (Evidence: pg no: 70, L75-L77)",
+      "Continue Chapter 16 codes throughout life for persistent conditions (Evidence: pg no: 70, L77-L78)"
+    ],
+    "common_mistakes": [
+      "Using Chapter 16 codes on maternal records",
+      "Using Chapter 15 codes on newborn records"
+    ],
+    "tips": [
+      "Remember: Chapter 15 = maternal, Chapter 16 = newborn/infant"
+    ],
+    "implementation_notes": [
+      "Ensures proper documentation separation between mother and baby"
+    ],
+    "clinical_context": [
+      "Critical for maintaining accurate maternal and neonatal health records"
+    ]
+  },
+  "search_keywords": [
+    "Chapter 16 usage",
+    "maternal record",
+    "newborn record",
+    "Chapter 15 exclusion",
+    "lifelong coding"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "record_separation",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "Chapter 16",
+      "maternal",
+      "newborn",
+      "record separation"
+    ]
+  },
+  "page_range_processed": "pages_69_to_72"
+}

@@ -1,0 +1,242 @@
+{
+  "guideline_id": "I.C.9.a",
+  "semantic_title": "Hypertension Classification and Causal Relationships",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 9. Chapter 9: Diseases of the Circulatory System > a. Hypertension",
+  "page_number": 50,
+  "content": {
+    "full_text": "The classification presumes a causal relationship between hypertension and heart involvement and between hypertension and kidney involvement, as the two conditions are linked by the term \"with\" in the Alphabetic Index. These conditions should be coded as related even in the absence of provider documentation explicitly linking them, unless the documentation clearly states the conditions are unrelated. For hypertension and conditions not specifically linked by relational terms such as \"with,\" \"associated with\" or \"due to\" in the classification, provider documentation must link the conditions in order to code them as related. (Evidence: pg no: 50, L41-L43)",
+    "summary": "ICD-10-CM classification assumes causal relationships between hypertension and heart/kidney conditions when linked by 'with' in Alphabetic Index, but requires provider documentation for other condition relationships (Evidence: pg no: 50, L41-L43)",
+    "key_concepts": [
+      "Presumed causal relationships in classification (Evidence: pg no: 50, L41)",
+      "Alphabetic Index 'with' linkage significance (Evidence: pg no: 50, L41-L42)",
+      "Provider documentation requirements for non-linked conditions (Evidence: pg no: 50, L43)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "HTN_PRESUMED_CAUSAL",
+        "rule_text": "Classification presumes causal relationship between hypertension and heart/kidney involvement when linked by 'with' in Alphabetic Index (Evidence: pg no: 50, L41-L42)",
+        "explanation": "The ICD-10-CM classification system automatically assumes a causal relationship between hypertension and certain heart or kidney conditions when they are connected by the term 'with' in the Alphabetic Index (Evidence: pg no: 50, L41-L42)",
+        "importance": "critical",
+        "applies_to": "Hypertension with heart or kidney conditions",
+        "common_applications": [
+          "Hypertensive heart disease coding",
+          "Hypertensive kidney disease coding",
+          "Combined hypertensive heart and kidney disease"
+        ]
+      },
+      {
+        "rule_id": "HTN_CODE_AS_RELATED",
+        "rule_text": "Code hypertension and heart/kidney conditions as related even without explicit provider documentation linking them, unless clearly stated as unrelated (Evidence: pg no: 50, L42)",
+        "explanation": "When hypertension and heart or kidney conditions are present and linked by 'with' in the classification, code them as related regardless of whether the provider explicitly documents the relationship, unless documentation specifically states they are unrelated (Evidence: pg no: 50, L42)",
+        "importance": "critical",
+        "applies_to": "Hypertension with heart or kidney involvement",
+        "common_applications": [
+          "Concurrent hypertension and heart failure",
+          "Concurrent hypertension and chronic kidney disease",
+          "Multiple cardiovascular conditions"
+        ]
+      },
+      {
+        "rule_id": "HTN_NON_LINKED_CONDITIONS",
+        "rule_text": "For conditions not specifically linked by relational terms in classification, provider documentation must link conditions to code as related (Evidence: pg no: 50, L43)",
+        "explanation": "When hypertension occurs with conditions not connected by terms like 'with,' 'associated with,' or 'due to' in the classification, the provider must document a relationship between the conditions for them to be coded as related (Evidence: pg no: 50, L43)",
+        "importance": "high",
+        "applies_to": "Hypertension with non-linked conditions",
+        "common_applications": [
+          "Hypertension with other cardiovascular conditions",
+          "Hypertension with non-cardiac, non-renal conditions",
+          "Complex multi-system conditions"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify hypertension and concurrent conditions",
+      "Step 2: Check Alphabetic Index for 'with' linkage between conditions",
+      "Step 3: If linked by 'with', code as related unless explicitly stated otherwise",
+      "Step 4: If not linked by relational terms, review provider documentation",
+      "Step 5: Code as related only if provider documents relationship",
+      "Step 6: Use appropriate combination codes when available"
+    ],
+    "related_terminology": [
+      "Causal relationship",
+      "Alphabetic Index",
+      "With linkage",
+      "Associated with",
+      "Due to",
+      "Provider documentation",
+      "Relational terms",
+      "Unrelated conditions"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "I10-I16",
+        "description": "Hypertensive diseases category (Evidence: pg no: 50, L41)",
+        "requirement": "Apply causal relationship presumptions per classification",
+        "usage_rules": [
+          "Presume causal relationships when 'with' linkage exists (Evidence: pg no: 50, L41-L42)",
+          "Require documentation for non-linked conditions (Evidence: pg no: 50, L43)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "Hypertensive combination codes",
+        "description": "Codes that combine hypertension with related conditions (Evidence: pg no: 50, L41)",
+        "example": "I11.- for hypertensive heart disease",
+        "explanation": "Classification provides combination codes for presumed causal relationships"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Hypertensive diseases with presumed causal relationships"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.9.a.1",
+        "title": "Hypertension with Heart Disease",
+        "relationship": "implements",
+        "explanation": "Implements the causal relationship principle for heart conditions"
+      },
+      {
+        "guideline_id": "I.C.9.a.2",
+        "title": "Hypertensive Chronic Kidney Disease",
+        "relationship": "implements",
+        "explanation": "Implements the causal relationship principle for kidney conditions"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "HTN_CAUSAL_1",
+      "scenario": "Patient with hypertension and heart failure, no explicit documentation of relationship",
+      "documentation_example": "Patient has essential hypertension and congestive heart failure.",
+      "step_by_step": [
+        "Step 1: Identify hypertension and heart failure",
+        "Step 2: Check Alphabetic Index for 'with' linkage",
+        "Step 3: Find hypertension 'with' heart failure linkage",
+        "Step 4: Apply presumed causal relationship rule",
+        "Step 5: Code as hypertensive heart disease"
+      ],
+      "correct_coding": {
+        "primary_code": "I11.0",
+        "secondary_codes": [
+          "I50.9"
+        ],
+        "sequencing": "Hypertensive heart disease as primary with heart failure specification",
+        "rationale": "Classification presumes causal relationship between hypertension and heart failure (Evidence: pg no: 50, L41-L42)"
+      },
+      "incorrect_coding": {
+        "code": "I10",
+        "codes": [
+          "I10",
+          "I50.9"
+        ],
+        "rationale": "Should not code separately when causal relationship presumed",
+        "common_mistake": "Coding conditions separately when combination code available"
+      }
+    },
+    {
+      "scenario_id": "HTN_NON_LINKED_1",
+      "scenario": "Patient with hypertension and peripheral artery disease, no documented relationship",
+      "documentation_example": "Patient has essential hypertension and peripheral artery disease of lower extremities.",
+      "step_by_step": [
+        "Step 1: Identify hypertension and peripheral artery disease",
+        "Step 2: Check classification for relational terms",
+        "Step 3: Find no 'with' linkage in classification",
+        "Step 4: Review documentation for provider-stated relationship",
+        "Step 5: Code separately as no relationship documented"
+      ],
+      "correct_coding": {
+        "primary_code": "I10",
+        "secondary_codes": [
+          "I73.9"
+        ],
+        "sequencing": "Code conditions separately",
+        "rationale": "No relational terms in classification and no provider documentation of relationship (Evidence: pg no: 50, L43)"
+      },
+      "incorrect_coding": {
+        "code": "Combination code",
+        "codes": [
+          "Assumed relationship code"
+        ],
+        "rationale": "Cannot assume relationship without classification linkage or documentation",
+        "common_mistake": "Assuming relationships not supported by classification or documentation"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "HTN_CAUSAL_EX1",
+      "scenario": "Hypertension with kidney disease",
+      "code_example": "I12.9 with N18.6",
+      "breakdown": {
+        "I12.9": "Hypertensive chronic kidney disease (Evidence: pg no: 50, L41)",
+        "N18.6": "Chronic kidney disease stage specification (Evidence: pg no: 50, L41)"
+      },
+      "rationale": "Classification presumes causal relationship between hypertension and kidney involvement (Evidence: pg no: 50, L41)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not ignore presumed causal relationships in classification (Evidence: pg no: 50, L41-L42)",
+      "Cannot assume relationships for non-linked conditions without documentation (Evidence: pg no: 50, L43)"
+    ],
+    "best_practices": [
+      "Always check Alphabetic Index for 'with' linkages (Evidence: pg no: 50, L41-L42)",
+      "Review provider documentation for relationship statements (Evidence: pg no: 50, L43)"
+    ],
+    "common_mistakes": [
+      "Coding linked conditions separately when combination codes exist (Evidence: pg no: 50, L42)",
+      "Assuming relationships for non-linked conditions (Evidence: pg no: 50, L43)"
+    ],
+    "tips": [
+      "Term 'with' in Alphabetic Index indicates presumed causal relationship (Evidence: pg no: 50, L41-L42)",
+      "Provider can override presumption by stating conditions are unrelated (Evidence: pg no: 50, L42)"
+    ],
+    "implementation_notes": [
+      "Classification system built-in assumptions must be followed",
+      "Documentation review essential for non-linked conditions"
+    ],
+    "clinical_context": [
+      "Hypertension commonly causes heart and kidney complications",
+      "Clinical relationships may exist beyond classification presumptions",
+      "Provider expertise determines non-presumed relationships"
+    ]
+  },
+  "search_keywords": [
+    "hypertension",
+    "causal relationship",
+    "with linkage",
+    "alphabetic index",
+    "heart involvement",
+    "kidney involvement",
+    "provider documentation",
+    "related conditions",
+    "unrelated conditions",
+    "combination codes"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "circulatory_system_hypertension",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "hypertension",
+      "causal_relationship",
+      "classification",
+      "documentation",
+      "combination_codes"
+    ]
+  },
+  "page_range_processed": "pages_48_to_51"
+}

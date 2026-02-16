@@ -1,0 +1,154 @@
+{
+  "guideline_id": "I.C.15.q.1",
+  "semantic_title": "Coding Abortion with Liveborn Fetus Outcomes",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 15. Chapter 15: Pregnancy, Childbirth, and the Puerperium > q. Termination of Pregnancy and Spontaneous abortions > 1) Abortion with Liveborn Fetus",
+  "page_number": 70,
+  "content": {
+    "full_text": "When an attempted termination of pregnancy results in a liveborn fetus, assign code Z33.2, Encounter for elective termination of pregnancy and a code from category Z37, Outcome of Delivery. (Evidence: pg no: 70, L42-L44)",
+    "summary": "When attempted pregnancy termination results in live birth, use Z33.2 and appropriate Z37 code. (Evidence: pg no: 70, L42-L44)",
+    "key_concepts": [
+      "Failed termination with live birth (Evidence: pg no: 70, L42-L43)",
+      "Dual coding requirement (Evidence: pg no: 70, L43-L44)",
+      "Outcome of delivery coding (Evidence: pg no: 70, L44)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "abortion_liveborn",
+        "rule_text": "Assign Z33.2 and Z37 code when termination results in liveborn fetus (Evidence: pg no: 70, L42-L44)",
+        "explanation": "When an attempted abortion fails and results in a live birth, both the termination encounter and the delivery outcome must be coded (Evidence: pg no: 70, L42-L44)",
+        "importance": "high",
+        "applies_to": "Z33.2, Z37",
+        "common_applications": [
+          "Failed abortion procedures",
+          "Late-term termination attempts"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Confirm attempted termination occurred",
+      "Step 2: Verify liveborn fetus resulted",
+      "Step 3: Assign Z33.2 for termination encounter",
+      "Step 4: Assign appropriate Z37 code for delivery outcome"
+    ],
+    "related_terminology": [
+      "Attempted termination",
+      "Liveborn fetus",
+      "Elective termination",
+      "Outcome of delivery"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z37",
+        "description": "Outcome of Delivery codes (Evidence: pg no: 70, L44)",
+        "requirement": "Required when termination results in live birth",
+        "usage_rules": [
+          "Use appropriate Z37 code based on delivery outcome (Evidence: pg no: 70, L44)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "Z33.2",
+        "description": "Encounter for elective termination of pregnancy (Evidence: pg no: 70, L43-L44)",
+        "context": "When attempted termination results in liveborn fetus",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "Z33.2": "Elective termination encounter code"
+        }
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": "Z33.2 + Z37.x",
+        "description": "Standard pattern for failed termination with live birth (Evidence: pg no: 70, L43-L44)",
+        "example": "Z33.2 with Z37.0 for single live birth",
+        "explanation": "Captures both the termination attempt and the delivery outcome"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Z37 Outcome of Delivery category"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "failed_termination",
+      "scenario": "Patient undergoes elective termination procedure but delivers live infant",
+      "documentation_example": "Patient presented for elective termination at 22 weeks gestation. Procedure attempted but resulted in delivery of live infant.",
+      "step_by_step": [
+        "Step 1: Identify attempted termination procedure",
+        "Step 2: Confirm live birth outcome",
+        "Step 3: Code Z33.2 for termination encounter",
+        "Step 4: Code appropriate Z37 for delivery outcome"
+      ],
+      "correct_coding": {
+        "primary_code": "Z33.2",
+        "secondary_codes": [
+          "Z37.0"
+        ],
+        "sequencing": "Z33.2 and Z37.0 for single live birth",
+        "rationale": "Both the termination attempt and live birth outcome must be documented (Evidence: pg no: 70, L42-L44)"
+      },
+      "incorrect_coding": {
+        "code": "Z33.2 only",
+        "codes": [
+          "Z33.2 without Z37"
+        ],
+        "rationale": "Missing the delivery outcome code",
+        "common_mistake": "Coding only the termination without the delivery outcome"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Must code both termination encounter and delivery outcome (Evidence: pg no: 70, L43-L44)"
+    ],
+    "best_practices": [
+      "Use appropriate Z37 code based on specific delivery outcome"
+    ],
+    "common_mistakes": [
+      "Forgetting to code the delivery outcome when termination results in live birth"
+    ],
+    "tips": [
+      "Remember dual coding requirement for failed terminations with live births"
+    ],
+    "implementation_notes": [
+      "Captures both the intended procedure and actual outcome"
+    ],
+    "clinical_context": [
+      "Occurs in late-term termination attempts or procedure complications"
+    ]
+  },
+  "search_keywords": [
+    "abortion liveborn",
+    "failed termination",
+    "Z33.2",
+    "Z37",
+    "elective termination"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "abortion_coding",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "abortion",
+      "liveborn",
+      "termination",
+      "Z33.2",
+      "Z37"
+    ]
+  },
+  "page_range_processed": "pages_69_to_72"
+}

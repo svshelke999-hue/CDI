@@ -1,0 +1,937 @@
+================================================================================
+             CMS GENERAL GUIDELINES INTEGRATION - DETAILED DOCUMENT
+              Multi-Payer CDI Compliance Checker Enhancement
+================================================================================
+
+Document Created: February 11, 2026
+Project: Multi-Payer CDI (Clinical Documentation Improvement) Compliance Checker
+Purpose: To explain what CMS integration is, why it was needed, what changed 
+         before and after, and all the detailed changes made across the system.
+
+================================================================================
+                        TABLE OF CONTENTS
+================================================================================
+
+  1. What is CMS and Why Does It Matter?
+  2. What the System Looked Like Before CMS Integration
+  3. What Changed After CMS Integration - Overview
+  4. Detailed Changes - Configuration File (config.py)
+  5. Detailed Changes - Data / Guidelines (JSON Data Files)
+  6. Detailed Changes - Data Loader (json_loader.py)
+  7. Detailed Changes - Compliance Evaluator (compliance_evaluator.py)
+  8. Detailed Changes - Prompt / AI Instructions Changes
+  9. Detailed Changes - Core Processing Engine (core.py)
+ 10. Detailed Changes - User Interface / Streamlit App (streamlit_app.py)
+ 11. Detailed Changes - Verification Script (verify_cms_tab.py)
+ 12. How CMS Integration Works - Step by Step Flow
+ 13. Summary of All Files Changed
+ 14. Benefits of CMS Integration
+ 15. Frequently Asked Questions (FAQ)
+
+
+================================================================================
+  SECTION 1: WHAT IS CMS AND WHY DOES IT MATTER?
+================================================================================
+
+CMS stands for "Centers for Medicare and Medicaid Services." It is a federal 
+government agency in the United States that manages the Medicare program and 
+works with state governments to manage the Medicaid program. CMS sets the 
+standard rules and guidelines that all healthcare providers and insurance 
+companies (payers) must follow when it comes to medical coding, billing, and 
+documentation.
+
+Think of CMS guidelines as the "universal rules" of healthcare documentation. 
+Just like traffic laws apply to everyone on the road regardless of what car 
+they drive, CMS guidelines apply to all payers (insurance companies) regardless 
+of their individual policies.
+
+For example:
+  - CMS tells hospitals how to properly code a diagnosis (like using the right
+    ICD-10 code for a broken bone versus a chronic condition).
+  - CMS says whether an acute injury should use one set of codes (Chapter 19) 
+    or a chronic condition should use a different set (Chapter 13).
+  - CMS provides rules about how to document procedures, report diagnoses, and 
+    handle special situations like multiple injuries.
+
+Why This Matters for Our CDI System:
+Before CMS integration, our system only checked medical charts against 
+individual insurance company (payer) rules - Cigna, UnitedHealthcare, and 
+Anthem. But it was missing the foundational layer - the CMS general guidelines 
+that ALL payers must follow. This means the system could mark a chart as 
+"Sufficient" for a payer, but the chart might still be violating basic CMS 
+coding rules. By adding CMS guidelines, the system now checks the universal 
+rules FIRST, and then checks each payer's specific rules on top of that. This 
+gives a more complete and accurate compliance evaluation.
+
+
+================================================================================
+  SECTION 2: WHAT THE SYSTEM LOOKED LIKE BEFORE CMS INTEGRATION
+================================================================================
+
+Before CMS was added, the system worked with three private insurance payers only:
+
+  1. Cigna
+  2. UnitedHealthcare (UHC)
+  3. Anthem
+
+Here is how the system functioned before:
+
+  a) A medical chart (for example, a surgical operative note) was uploaded.
+
+  b) The system extracted key information like patient name, age, procedures 
+     performed, and CPT codes.
+
+  c) For each procedure found in the chart, the system looked up each payer's 
+     guidelines (stored as JSON files on the local computer).
+
+  d) The system sent the chart and payer guidelines to an AI model (Claude) 
+     and asked: "Does this chart meet the requirements of Cigna? Of UHC? 
+     Of Anthem?"
+
+  e) The AI returned a compliance decision for each payer - Sufficient or 
+     Insufficient - along with evidence and recommendations.
+
+  f) The results were shown on the screen with tabs for Requirements, Timing, 
+     Coding, Recommendations, and Guideline Evidence.
+
+What Was Missing:
+  - There was NO check for CMS general guidelines.
+  - The system had NO CMS data stored anywhere.
+  - The configuration file had NO CMS path or CMS settings.
+  - The data loader had NO ability to search CMS guidelines.
+  - The AI prompts did NOT mention CMS at all.
+  - The user interface had NO CMS tab or CMS section.
+  - There was NO way to verify if CMS guidelines were being applied.
+
+In simple terms: The system was like a car inspection that checked if the car 
+met Toyota, Honda, and Ford standards, but never checked if it met the 
+government's basic safety standards that apply to ALL cars.
+
+
+================================================================================
+  SECTION 3: WHAT CHANGED AFTER CMS INTEGRATION - OVERVIEW
+================================================================================
+
+After the CMS integration, the system now works like this:
+
+  a) Same as before - medical chart is uploaded and information is extracted.
+
+  b) For each procedure, BEFORE checking any payer-specific guidelines, the 
+     system now checks CMS general guidelines FIRST.
+
+  c) The CMS guidelines are searched intelligently using the procedure name 
+     and CPT codes.
+
+  d) An AI-powered relevance filter removes CMS guidelines that are not truly 
+     relevant to the specific procedure.
+
+  e) The relevant CMS guidelines are included in the AI prompt BEFORE the 
+     payer guidelines, telling the AI to check CMS compliance FIRST.
+
+  f) The AI evaluates CMS compliance as a universal baseline and then evaluates 
+     each payer on top of that.
+
+  g) The results now include CMS information attached to every payer's 
+     procedure result.
+
+  h) A new "CMS Guidelines" tab has been added to the user interface, showing 
+     detailed CMS guideline text, key concepts, detailed rules, evidence 
+     references, coding scenarios, and compliance status.
+
+  i) A verification script was created to confirm CMS data is present in 
+     the output.
+
+The number of files that were changed or added: 7 files total.
+The number of CMS guideline JSON files added: approximately 395 JSON files 
+covering hundreds of CMS coding rules.
+
+
+================================================================================
+  SECTION 4: DETAILED CHANGES - CONFIGURATION FILE (config.py)
+================================================================================
+
+File Location: src/multi_payer_cdi/config.py
+
+What This File Does:
+This file holds all the settings for the entire system - paths to data files, 
+which payers are active, cost settings, and more. Think of it as the system's 
+"settings page."
+
+What Was There Before:
+The configuration had paths defined for three payers only:
+  - Anthem: pointed to a folder with Anthem guideline JSON files
+  - UHC: pointed to a folder with UHC guideline JSON files
+  - Cigna: pointed to a folder with Cigna guideline JSON files
+
+What Was Added for CMS:
+
+  1. A NEW path entry was added called "cms_general" inside the 
+     JSON_GUIDELINE_PATHS dictionary. This tells the system where to find the 
+     CMS general guideline files on the computer.
+
+     Before (3 paths):
+       anthem  -> path to Anthem JSON files
+       uhc     -> path to UHC JSON files
+       cigna   -> path to Cigna JSON files
+
+     After (4 paths):
+       anthem      -> path to Anthem JSON files
+       uhc         -> path to UHC JSON files
+       cigna       -> path to Cigna JSON files
+       cms_general -> path to CMS General guidelines folder
+
+     The CMS path points to:
+     src/multi_payer_cdi/JSON_Data/CMS_General_guidelines
+
+  2. The CMS path can also be set using an environment variable called 
+     CMS_GENERAL_JSON_PATH, so different deployments can point to different 
+     CMS data locations without changing code.
+
+Important Note: CMS was NOT added to the PAYER_CONFIG dictionary. This is 
+intentional because CMS is not treated as a separate payer - it is a universal 
+set of rules that applies across all payers. The three payers (Cigna, UHC, 
+Anthem) remain unchanged.
+
+
+================================================================================
+  SECTION 5: DETAILED CHANGES - DATA / GUIDELINES (JSON DATA FILES)
+================================================================================
+
+File Location: src/multi_payer_cdi/JSON_Data/CMS_General_guidelines/
+
+What Was There Before:
+This folder did NOT exist before CMS integration.
+
+What Was Added:
+A brand new folder called "CMS_General_guidelines" was created containing 
+approximately 395 individual JSON files. Each JSON file represents one specific 
+CMS coding guideline or rule.
+
+What Each JSON File Contains:
+Each CMS guideline file is structured with the following information:
+
+  - Guideline ID: A unique identifier (for example, "I.C.13.b") that matches 
+    the official CMS guideline numbering system.
+
+  - Semantic Title: A human-readable name for the guideline (for example, 
+    "Acute Traumatic Versus Chronic or Recurrent Musculoskeletal Conditions 
+    Coding Guidelines").
+
+  - Section Path: Where this guideline sits in the official CMS guideline 
+    document structure.
+
+  - Page Number: The page in the official CMS document where this guideline 
+    can be found.
+
+  - Content: This includes:
+      - Full Text: The complete guideline text with evidence references 
+        pointing to specific page and line numbers.
+      - Summary: A brief summary of what the guideline says.
+      - Key Concepts: A list of the main ideas in the guideline.
+      - Detailed Rules: Individual rules within the guideline, each with a 
+        rule ID, rule text, explanation, importance level (critical, high, 
+        standard), and what it applies to.
+      - Workflow Steps: Step-by-step instructions for applying the guideline.
+      - Related Terminology: Medical terms associated with the guideline.
+
+  - Code References: Which ICD-10 code ranges and specific codes are covered.
+
+  - Cross References: Links to other related guidelines.
+
+  - Coding Scenarios: Real-world examples showing:
+      - A scenario description
+      - Example documentation
+      - Step-by-step coding walkthrough
+      - Correct coding with rationale
+      - Incorrect coding with explanation of what NOT to do
+
+  - Search Keywords: Terms used to help the system find this guideline when 
+    searching.
+
+  - Metadata: Category, subcategory, complexity level, applicable settings 
+    (inpatient/outpatient), last updated date, and tags.
+
+Examples of CMS Guidelines That Were Added:
+  - Acute Traumatic Versus Chronic Musculoskeletal Conditions Coding
+  - Coding of Injuries - General Principles and Sequencing Rules
+  - Coding of Traumatic Fractures - General Principles
+  - Coding Guidelines for Sepsis and Severe Sepsis
+  - Diabetes Mellitus with Insulin and Hypoglycemic Drug Use
+  - Coding Guidelines for Complications Associated with Malignancies
+  - Accurate Reporting Requirements for ICD-10-CM Diagnosis Codes
+  - And approximately 388 more guidelines covering all major medical areas
+
+
+================================================================================
+  SECTION 6: DETAILED CHANGES - DATA LOADER (json_loader.py)
+================================================================================
+
+File Location: src/multi_payer_cdi/json_loader.py
+
+What This File Does:
+This file is responsible for loading all guideline JSON files into memory 
+when the system starts up, and then searching through them when a procedure 
+needs to be evaluated. Think of it as the system's "library" where it can 
+look up any guideline.
+
+What Was There Before:
+The loader could:
+  - Load guidelines for Cigna, UHC, and Anthem from their JSON folders
+  - Search guidelines by CPT codes
+  - Search guidelines by keyword/procedure name
+  - Build context text from search results to send to the AI
+
+What Was Added for CMS:
+
+  1. NEW METHOD: search_cms_general_guidelines()
+     
+     This is a completely new function specifically designed to search CMS 
+     general guidelines. It works differently from the payer guideline search 
+     because CMS guidelines have a different structure (they have semantic 
+     titles, key concepts, search keywords, tags, and detailed rules).
+
+     How it works:
+       - Takes a search query (usually the procedure name) and optionally 
+         CPT codes.
+       - Extracts medical terms from the query to avoid false matches from 
+         common words.
+       - Searches through all 395 CMS guideline files using intelligent 
+         scoring:
+           - Very high score (50 points) if the procedure name exactly matches 
+             a guideline title or summary.
+           - High score (8-10 points per match) for medical term matching.
+           - Bonus score for title matches.
+           - Medium scores for summary and key concept matches.
+           - High scores for search keyword matches.
+           - Very high score (30-50 points) for CPT code matches.
+       - Only returns results that meet a minimum relevance score of 15.0 to 
+         avoid irrelevant results.
+       - Returns up to 10 most relevant guidelines, sorted by score.
+
+  2. NEW METHOD: build_cms_context_for_procedure()
+     
+     This function takes the CMS search results and builds a formatted text 
+     block that can be included in the AI prompt. It creates a readable 
+     context with:
+       - Header line with guideline title, ID, relevance score
+       - Full text of the guideline
+       - Summary
+       - Key concepts listed as bullet points
+       - Detailed rules with explanations
+       - Coding scenarios (limited to first 2 to save space)
+       - Source tracking information
+
+  3. ENHANCED METHOD: _extract_medical_terms()
+     
+     A helper function that extracts meaningful medical terms from text while 
+     filtering out common English words (like "the", "and", "for", etc.) and 
+     generic medical words (like "patient", "procedure", "chart"). This helps 
+     the CMS search be more precise.
+
+  4. EXISTING LOAD FUNCTIONALITY - Now Loads CMS Too:
+     
+     The existing _load_all_guidelines() method already loops through all paths 
+     in JSON_GUIDELINE_PATHS. Since we added "cms_general" to that 
+     configuration, the system automatically loads all 395 CMS guideline files 
+     into memory when it starts up. No code change was needed in the loading 
+     function itself - the config change was enough.
+
+
+================================================================================
+  SECTION 7: DETAILED CHANGES - COMPLIANCE EVALUATOR (compliance_evaluator.py)
+================================================================================
+
+File Location: src/multi_payer_cdi/compliance_evaluator.py
+
+What This File Does:
+This is the brain of the compliance checking. It takes a procedure, looks up 
+guidelines for each payer, builds prompts, sends them to the AI model (Claude), 
+and processes the AI's response into structured results. This is where the 
+actual evaluation happens.
+
+What Was There Before:
+The evaluator had a method called evaluate_procedure_for_all_payers() that:
+  1. Checked if CPT codes were available
+  2. Collected guidelines for each payer (Cigna, UHC, Anthem)
+  3. Built a prompt with all three payers' guidelines
+  4. Sent it to the AI
+  5. Parsed the AI response into per-payer results
+
+What Was Added for CMS - Three Major Changes:
+
+  CHANGE 1: New Step Before Payer Guidelines (Inside evaluate_procedure_for_all_payers)
+  
+     A brand new "Step 1" was inserted BEFORE the existing payer guideline 
+     collection. This step:
+     
+       a) Announces that CMS guidelines are being checked for the procedure.
+       
+       b) Uses the json_loader's search_cms_general_guidelines() method to 
+          find relevant CMS guidelines.
+       
+       c) If CPT codes are available, searches with both procedure name AND 
+          CPT codes for better matching.
+       
+       d) If no CPT codes, searches with procedure name only.
+       
+       e) Passes the results through an AI-powered relevance filter (described 
+          below in Change 2).
+       
+       f) Builds the CMS context text using build_cms_context_for_procedure().
+       
+       g) Allocates 25 percent of the maximum context character limit to CMS 
+          guidelines. This means if the system allows 12,000 characters total 
+          for guidelines, 3,000 characters are reserved for CMS guidelines and 
+          the remaining 9,000 are for payer-specific guidelines.
+       
+       h) Stores the CMS context, CMS sources, and a flag indicating whether 
+          CMS guidelines were found.
+
+     The existing payer guideline collection (previously Step 1) became Step 2.
+
+
+  CHANGE 2: New AI-Powered Relevance Filter (_filter_cms_guidelines_by_relevance)
+  
+     This is an entirely new method. It uses the AI model itself to double-check 
+     whether the CMS guidelines found by the keyword search are actually 
+     relevant to the specific procedure.
+
+     Why this is needed:
+     Sometimes keyword search finds guidelines that match on words but not on 
+     meaning. For example, searching for "Negative Pressure Wound Therapy" 
+     might return "Pressure Ulcer Coding Guidelines" because both contain the 
+     word "pressure" - but they are completely different topics.
+
+     How it works:
+       a) Takes the top 10 CMS search results.
+       
+       b) Determines if the procedure is a treatment procedure (like a 
+          surgery or repair) by checking for keywords like "repair," 
+          "replacement," "surgery," "excision," etc.
+       
+       c) Builds a list showing each guideline's title, ID, score, and a 
+          short summary.
+       
+       d) Creates a special prompt for the AI that says: "You are a medical 
+          coding expert. Here are CMS guidelines retrieved by a search. 
+          Which ones are ACTUALLY relevant to this procedure?"
+       
+       e) The prompt includes detailed instructions about:
+          - What makes a guideline relevant (procedure documentation 
+            requirements, coding rules, general principles)
+          - What makes a guideline NOT relevant (diagnosis staging for 
+            unrelated conditions, word-only matches)
+          - Critical distinctions to avoid false matches
+       
+       f) The AI returns a list of guideline numbers that are truly relevant.
+       
+       g) Only those guidelines pass through to be used in the evaluation.
+       
+       h) If the AI filters everything out but the top result had a very high 
+          score (30 or above), that top result is kept as a safety measure.
+       
+       i) If the filter fails due to any error, the system falls back to 
+          returning results with scores of 20 or above.
+
+
+  CHANGE 3: CMS Data Attached to Every Procedure Result
+  
+     After the AI returns its evaluation for all payers, the system now 
+     attaches three new pieces of information to EVERY payer's procedure 
+     result:
+     
+       - cms_sources: The list of CMS guideline sources that were found and 
+         used during evaluation.
+       - cms_guidelines_context: The full text context that was sent to the AI.
+       - cms_has_guidelines: A true/false flag indicating whether any CMS 
+         guidelines were found.
+     
+     This means when you look at the result for "Cigna - Rotator Cuff Repair," 
+     it will also contain the CMS guidelines that were checked. Same for UHC 
+     and Anthem. This is because CMS guidelines are universal - they apply to 
+     all payers equally.
+
+     Additionally, the return value from evaluate_procedure_for_all_payers() 
+     now includes a "cms_sources" key at the top level, alongside 
+     "payer_results" and "sources_by_payer."
+
+
+================================================================================
+  SECTION 8: DETAILED CHANGES - PROMPT / AI INSTRUCTIONS CHANGES
+================================================================================
+
+This section describes how the instructions given to the AI model were changed 
+to incorporate CMS guidelines. The AI model (Claude) receives a "prompt" - a 
+set of instructions and data - that tells it what to evaluate and how.
+
+What Was There Before:
+The prompt sent to the AI included:
+  - A JSON schema showing what format to return results in
+  - Each payer's guidelines (Cigna, UHC, Anthem) as separate sections
+  - Instructions saying: "Evaluate this procedure against each payer's 
+    guidelines independently"
+  - The medical chart text
+  - Other charts information (if multi-chart processing)
+
+What Was Added for CMS - Inside _create_multi_payer_prompt():
+
+  CHANGE 1: New CMS Section Added to the Prompt
+  
+     A completely new section was added to the prompt that appears BEFORE 
+     any payer-specific guidelines. This section:
+     
+       - Has a clear header: "CMS GENERAL GUIDELINES (CHECK THESE FIRST)"
+       - Includes an importance note: "Before evaluating payer-specific 
+         guidelines, ensure compliance with CMS general coding guidelines. 
+         These are universal requirements that apply to all payers and must 
+         be satisfied regardless of payer-specific policies."
+       - Contains the actual CMS guideline text that was retrieved and 
+         filtered for this procedure.
+       - Is separated from payer sections with clear visual dividers.
+     
+     By placing this BEFORE the payer guidelines, the AI is naturally guided 
+     to consider CMS rules first.
+
+
+  CHANGE 2: New Evaluation Order Instructions
+  
+     Three new instruction lines were added to the critical instructions 
+     section of the prompt:
+     
+       a) "EVALUATION ORDER: FIRST check compliance with CMS general 
+          guidelines, THEN check payer-specific guidelines"
+       
+       b) "CMS general guidelines are universal requirements that apply to 
+          ALL payers"
+       
+       c) "If CMS general guidelines are not met, the procedure may be 
+          insufficient regardless of payer-specific compliance"
+     
+     These instructions explicitly tell the AI that CMS comes first and 
+     that failing CMS can override payer-specific sufficiency.
+
+
+  CHANGE 3: CMS Relevance Filtering Prompt (Separate AI Call)
+  
+     A separate, dedicated prompt was created for the CMS relevance filtering 
+     step. This prompt:
+     
+       - Identifies the procedure being evaluated
+       - Notes whether it is a treatment procedure or diagnostic coding
+       - Lists all retrieved CMS guidelines with titles and summaries
+       - Gives detailed rules about what counts as "relevant" versus 
+         "not relevant"
+       - Provides examples of false matches to avoid
+       - Asks the AI to return only the numbers of truly relevant guidelines
+     
+     This prompt is used in a separate, quick AI call (with only 500 tokens 
+     maximum response) that runs before the main evaluation.
+
+
+  CHANGE 4: Updated Method Signature
+  
+     The _create_multi_payer_prompt() method now accepts an additional 
+     parameter called cms_guidelines_context (a text string). Before, this 
+     parameter did not exist. This allows the CMS context to be passed into 
+     the prompt-building function.
+
+
+================================================================================
+  SECTION 9: DETAILED CHANGES - CORE PROCESSING ENGINE (core.py)
+================================================================================
+
+File Location: src/multi_payer_cdi/core.py
+
+What This File Does:
+This is the main orchestrator that coordinates the entire process from reading 
+a chart file to producing final results. It calls the compliance evaluator, 
+the chart improver, and manages the overall workflow.
+
+What Was There Before:
+The core had a method called map_guidelines_for_case_text_multi_payer() that:
+  - Processed each procedure sequentially
+  - Called evaluate_procedure_for_all_payers() for each procedure
+  - Distributed results to per-payer result structures
+  - Accumulated sources and usage data
+
+What Was Added for CMS:
+
+  CHANGE 1: CMS Source Tracking
+  
+     A new list called all_cms_sources was added to track CMS guideline 
+     sources across all procedures. Before, only payer-specific sources 
+     were tracked.
+
+  CHANGE 2: CMS Source Collection Per Procedure
+  
+     Inside the procedure processing loop, after calling 
+     evaluate_procedure_for_all_payers(), the system now extracts 
+     cms_sources from the result and adds them to the all_cms_sources list.
+
+  CHANGE 3: CMS Sources Added to All Sources
+  
+     At the end of processing, when all sources are combined for the final 
+     output, the CMS sources are now added alongside the payer sources. 
+     This means the final result includes CMS source references that can 
+     be displayed and traced back.
+
+These changes are relatively small because most of the heavy lifting happens 
+in the compliance evaluator. The core just needed to properly pass through and 
+accumulate the CMS data.
+
+
+================================================================================
+  SECTION 10: DETAILED CHANGES - USER INTERFACE / STREAMLIT APP (streamlit_app.py)
+================================================================================
+
+File Location: streamlit_app.py
+
+What This File Does:
+This is the web-based user interface that people interact with. It is built 
+using Streamlit (a Python framework for creating web applications). Users 
+upload medical charts here, click "Process," and see the compliance results 
+in an organized, visual format.
+
+What Was There Before:
+The interface had 7 tabs for each procedure result:
+  1. Requirements (showing requirement checklist)
+  2. Chart Evidence (showing evidence from the chart)
+  3. Timing (showing timing validation)
+  4. Contraindications (showing exclusion criteria)
+  5. Coding (showing CPT code implications)
+  6. Recommendations (showing improvement recommendations)
+  7. Guideline Evidence (showing payer guideline sources)
+
+What Was Added for CMS:
+
+  CHANGE 1: New "CMS Guidelines" Tab (Tab 8)
+  
+     A completely new eighth tab was added called "CMS Guidelines" with a 
+     hospital icon. This tab appears at the end of the tab row for every 
+     procedure evaluated.
+
+     The tab unpacking changed from:
+       tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs([...7 tabs...])
+     To:
+       tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8 = st.tabs([...8 tabs...])
+
+     The new tab is labeled "CMS Guidelines" in the interface.
+
+
+  CHANGE 2: New Display Function - display_cms_guidelines()
+  
+     A major new function was created (approximately 240 lines of code) that 
+     handles everything shown in the CMS tab. Here is what it displays:
+
+     a) WHEN NO CMS GUIDELINES WERE FOUND:
+        - An informational message saying no CMS guidelines were retrieved
+        - An explanation of what CMS guidelines are
+        - Possible reasons why none were found:
+            - No relevant guidelines matched the procedure
+            - The CMS database may need updating
+            - The procedure may not have specific CMS requirements
+        - A note that payer-specific evaluation still runs even without CMS
+
+     b) WHEN CMS GUIDELINES WERE FOUND:
+        
+        Overview Section:
+        - A green success message showing how many CMS guidelines were found
+        - An informational note explaining that CMS guidelines are universal 
+          requirements for all payers
+
+        Compliance Status Section:
+        - A compliance badge (green for MET, yellow for PARTIALLY MET, 
+          red for NOT MET, yellow for UNCLEAR)
+        - The status reason explaining the compliance determination
+        - If there are specific issues, they are listed as bullet points
+        - The compliance status is determined by analyzing the procedure's 
+          requirement checklist and decision, looking for CMS-related 
+          keywords in unmet requirements
+
+        CMS Guidelines Used Section:
+        - For each CMS guideline found, an expandable section (the first one 
+          is expanded by default) showing:
+            - Guideline ID (like "I.C.13.b")
+            - Section path in the CMS document
+            - Page number reference
+            - Relevance score metric
+            - Category label
+            - Full guideline text (the complete rule)
+            - Summary (a brief overview)
+            - Key concepts (listed as bullet points)
+            - Detailed rules (each with rule ID, rule text, explanation, 
+              and importance level shown as colored badges - red for Critical, 
+              yellow for Important, blue for Standard)
+            - Evidence references (page and line numbers extracted from the 
+              guideline text using pattern matching)
+            - Coding scenarios (if available) with correct and incorrect 
+              examples
+
+        Relationship Section:
+        - An explanation of how CMS relates to payer evaluation
+        - States that CMS is evaluated FIRST
+        - Explains that failing CMS can cause insufficiency regardless of 
+          payer compliance
+
+
+  CHANGE 3: CMS Data Extraction in the Tab
+  
+     Inside the tab8 section, the code extracts three pieces of CMS data 
+     from the procedure result:
+       - cms_sources: the list of CMS guideline source objects
+       - cms_guidelines_context: the text context that was used
+       - cms_has_guidelines: whether any guidelines were found
+     
+     These are passed to the display_cms_guidelines() function.
+
+
+  CHANGE 4: Debug Mode Support
+  
+     When debug mode is enabled (a developer setting), the CMS tab shows 
+     additional information:
+       - Number of CMS sources found
+       - Whether CMS has guidelines flag is true or false
+       - Length of CMS context text
+       - First few keys of the procedure result object
+     
+     This helps developers troubleshoot if CMS data is not showing correctly.
+
+
+================================================================================
+  SECTION 11: DETAILED CHANGES - VERIFICATION SCRIPT (verify_cms_tab.py)
+================================================================================
+
+File Location: verify_cms_tab.py
+
+What This File Does:
+This is a utility script that can be run from the command line to verify 
+that CMS data is present in the system's output files. It was created 
+specifically for testing and validating the CMS integration.
+
+This File Is Entirely New:
+This script did not exist before CMS integration.
+
+How It Works:
+  1. Takes a result JSON file as input (or automatically finds the most 
+     recent result file in the outputs folder).
+  2. Opens the file and reads the payer results.
+  3. For each payer and each procedure, it checks:
+     - Are there any cms_sources?
+     - Is cms_has_guidelines true?
+     - How long is the cms_guidelines_context?
+  4. Prints a detailed report showing:
+     - Each payer and procedure
+     - How many CMS sources were found
+     - Whether CMS guidelines flag is set
+     - Length of CMS context
+     - Whether CMS data was found (green checkmark) or not (warning)
+  5. At the end, prints an overall PASS or WARNING message.
+
+This is useful for:
+  - Confirming CMS integration is working after deployment
+  - Checking if CMS guidelines are being matched for specific procedures
+  - Debugging issues where CMS data is not appearing in the interface
+
+
+================================================================================
+  SECTION 12: HOW CMS INTEGRATION WORKS - STEP BY STEP FLOW
+================================================================================
+
+Here is the complete flow of how the system processes a medical chart now, 
+with CMS integration highlighted:
+
+Step 1: UPLOAD
+  A user uploads a medical chart file (text file) through the web interface.
+
+Step 2: EXTRACTION
+  The system reads the chart and uses AI to extract key information:
+  - Patient name and age
+  - Procedures performed
+  - CPT codes (if mentioned)
+  - Clinical summary
+
+Step 3: FOR EACH PROCEDURE - CMS CHECK (NEW)
+  Before looking at any payer rules, the system:
+  
+  a) Takes the procedure name (e.g., "Arthroscopic Rotator Cuff Repair")
+  b) Searches all 395 CMS guideline files for relevance
+  c) Uses keyword matching with intelligent scoring
+  d) If CPT codes exist, also matches on those
+  e) Takes the top 10 results
+  f) Sends them to the AI for a relevance check
+  g) AI filters out false matches
+  h) Remaining relevant guidelines are formatted into a text context
+
+Step 4: FOR EACH PROCEDURE - PAYER GUIDELINE COLLECTION
+  For each of the three payers (Cigna, UHC, Anthem):
+  a) Searches the payer's guideline files by CPT code or procedure name
+  b) Builds context text from matching guidelines
+
+Step 5: FOR EACH PROCEDURE - COMBINED AI EVALUATION
+  A single AI call is made that includes:
+  a) The CMS guidelines context (placed FIRST, before payer guidelines)
+  b) Instructions to check CMS compliance FIRST
+  c) Each payer's guidelines in separate sections
+  d) The medical chart text
+  e) Instructions to evaluate each payer independently
+
+Step 6: RESULT PARSING
+  The AI returns a JSON response with compliance decisions for each payer.
+  The system:
+  a) Parses the AI response
+  b) Attaches CMS sources and context to each payer's result
+  c) Stores everything in the processing result
+
+Step 7: DISPLAY
+  The web interface shows:
+  a) Extraction data (patient info, procedures)
+  b) For each payer and procedure: 8 tabs including the new CMS tab
+  c) The CMS tab shows guidelines, compliance status, evidence, and rules
+  d) Cross-payer dashboard with overall analysis
+
+
+================================================================================
+  SECTION 13: SUMMARY OF ALL FILES CHANGED
+================================================================================
+
+Here is a complete list of every file that was created or modified for the 
+CMS integration:
+
+  1. src/multi_payer_cdi/config.py (MODIFIED)
+     - Added "cms_general" path to JSON_GUIDELINE_PATHS dictionary
+     - Added CMS_GENERAL_JSON_PATH environment variable support
+
+  2. src/multi_payer_cdi/JSON_Data/CMS_General_guidelines/ (NEW FOLDER)
+     - Created new folder with approximately 395 JSON guideline files
+     - Each file contains a structured CMS coding guideline
+
+  3. src/multi_payer_cdi/json_loader.py (MODIFIED)
+     - Added search_cms_general_guidelines() method (new, ~140 lines)
+     - Added build_cms_context_for_procedure() method (new, ~80 lines)
+     - Added _extract_medical_terms() helper method (new, ~20 lines)
+     - CMS guidelines auto-loaded by existing _load_all_guidelines() due 
+       to config change
+
+  4. src/multi_payer_cdi/compliance_evaluator.py (MODIFIED)
+     - Added CMS Step 1 in evaluate_procedure_for_all_payers() (~40 lines)
+     - Added _filter_cms_guidelines_by_relevance() method (new, ~150 lines)
+     - Modified _create_multi_payer_prompt() to accept and include CMS context
+     - Added CMS section to AI prompt (new CMS section block)
+     - Added 3 new CMS-related instructions in the prompt
+     - Added cms_sources, cms_guidelines_context, cms_has_guidelines to 
+       every procedure result
+     - Added cms_sources to the return dictionary
+
+  5. src/multi_payer_cdi/core.py (MODIFIED)
+     - Added all_cms_sources tracking list
+     - Added CMS source collection in procedure loop
+     - Added CMS sources to combined all_sources output
+
+  6. streamlit_app.py (MODIFIED)
+     - Added new tab8 "CMS Guidelines" to the tab list
+     - Added display_cms_guidelines() function (new, ~240 lines)
+     - Added CMS data extraction code in the tab8 section
+     - Added debug mode support for CMS data
+
+  7. verify_cms_tab.py (NEW FILE)
+     - Created verification script (~85 lines)
+     - Checks CMS data presence in output files
+     - Provides pass/fail report
+
+
+================================================================================
+  SECTION 14: BENEFITS OF CMS INTEGRATION
+================================================================================
+
+  1. More Complete Compliance Checking
+     The system now checks BOTH universal (CMS) and payer-specific rules. 
+     This means fewer compliance gaps slip through.
+
+  2. Better Accuracy
+     CMS guidelines establish baseline coding rules. Without them, the 
+     system might approve a chart that uses incorrect coding (for example, 
+     using acute injury codes for a chronic condition).
+
+  3. Universal Standards
+     CMS rules apply to ALL payers. Adding them means any new payer added 
+     in the future automatically benefits from CMS compliance checking.
+
+  4. Rich Evidence and References
+     Each CMS guideline includes specific page numbers, line numbers, rule 
+     IDs, and coding scenarios from the official CMS documentation. This 
+     makes it easy for coders to verify and reference the rules.
+
+  5. AI-Powered Precision
+     The two-stage search (keyword search followed by AI relevance 
+     filtering) ensures that only truly relevant CMS guidelines are used. 
+     This avoids false alerts and irrelevant recommendations.
+
+  6. Transparency
+     The new CMS tab in the interface lets users see exactly which CMS 
+     guidelines were checked, what they say, and whether the chart complies. 
+     Nothing is hidden or assumed.
+
+  7. Evaluation Order
+     By checking CMS FIRST and then payer-specific rules, the system 
+     follows the real-world evaluation hierarchy - government rules first, 
+     then insurance-specific rules on top.
+
+
+================================================================================
+  SECTION 15: FREQUENTLY ASKED QUESTIONS (FAQ)
+================================================================================
+
+Q: Does adding CMS change how the three existing payers (Cigna, UHC, 
+   Anthem) are evaluated?
+A: No. The payer-specific evaluation remains exactly the same. CMS is 
+   checked BEFORE payers as an additional layer. The payer results are 
+   still independent.
+
+Q: Will the system take longer to process charts now?
+A: Slightly. There is one additional AI call per procedure for the CMS 
+   relevance filtering step (about 1-2 seconds). The CMS context is 
+   included in the same AI call as the payer evaluation, so it does not 
+   add a separate call for that.
+
+Q: What happens if no CMS guidelines match a procedure?
+A: The system proceeds normally with payer-specific evaluation only. The 
+   CMS tab will show a message explaining that no CMS guidelines were 
+   found and listing possible reasons.
+
+Q: Can I add more CMS guidelines later?
+A: Yes. Simply add new JSON files to the CMS_General_guidelines folder 
+   following the same structure as existing files. The system will 
+   automatically load them on the next startup.
+
+Q: Is CMS shown as a separate payer in the results?
+A: No. CMS is shown as a separate TAB within each procedure's evaluation, 
+   not as a separate payer. This is because CMS rules are universal and 
+   apply across all payers.
+
+Q: What if CMS says "NOT MET" but a payer says "Sufficient"?
+A: This is flagged as a concern. The CMS tab will show the issue, and the 
+   AI may factor CMS non-compliance into the payer decision. The intent is 
+   that CMS failures should be addressed regardless of payer-specific 
+   sufficiency.
+
+Q: How many CMS guidelines are included?
+A: Approximately 395 individual guidelines covering ICD-10-CM coding rules, 
+   documentation requirements, sequencing rules, and special coding 
+   situations across all major medical specialties.
+
+Q: Can I update the CMS guidelines when new versions are released?
+A: Yes. Replace or update the JSON files in the CMS_General_guidelines 
+   folder with new versions. The system reads them fresh on each startup.
+
+
+================================================================================
+                          END OF DOCUMENT
+================================================================================
+
+This document was prepared to provide a complete understanding of the CMS 
+integration for both technical and non-technical team members. For any 
+questions or clarifications, please refer to the specific file locations 
+mentioned in each section.
+
+================================================================================
+

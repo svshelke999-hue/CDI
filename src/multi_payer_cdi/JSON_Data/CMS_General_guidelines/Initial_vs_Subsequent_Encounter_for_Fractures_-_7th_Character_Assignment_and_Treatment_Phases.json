@@ -1,0 +1,327 @@
+{
+  "guideline_id": "I.C.19.c.1",
+  "semantic_title": "Initial vs Subsequent Encounter for Fractures - 7th Character Assignment and Treatment Phases",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 19. Injury, Poisoning, and Certain Other Consequences of External Causes > c. Coding of Traumatic Fractures > 1) Initial vs. subsequent encounter for fractures",
+  "page_number": 80,
+  "content": {
+    "full_text": "Traumatic fractures are coded using the appropriate 7th character for initial encounter (A, B, C) for each encounter where the patient is receiving active treatment for the fracture. The appropriate 7th character for initial encounter should also be assigned for a patient who delayed seeking treatment for the fracture or nonunion. Fractures are coded using the appropriate 7th character for subsequent care for encounters after the patient has completed active treatment of the fracture and is receiving routine care for the fracture during the healing or recovery phase. Care for complications of surgical treatment for fracture repairs during the healing or recovery phase should be coded with the appropriate complication codes. Care of complications of fractures, such as malunion and nonunion, should be reported with the appropriate 7th character for subsequent care with nonunion (K, M, N,) or subsequent care with malunion (P, Q, R). Malunion/nonunion: The appropriate 7th character for initial encounter should also be assigned for a patient who delayed seeking treatment for the fracture or nonunion. The open fracture designations in the assignment of the 7th character for fractures of the forearm, femur and lower leg, including ankle are based on the Gustilo open fracture classification. When the Gustilo classification type is not specified for an open fracture, the 7th character for open fracture type I or II should be assigned (B, E, H, M, Q). A code from category M80, not a traumatic fracture code, should be used for any patient with known osteoporosis who suffers a fracture, even if the patient had a minor fall or trauma, if that fall or trauma would not usually break a normal, healthy bone. See Section I.C.13. Osteoporosis. The aftercare Z codes should not be used for aftercare for traumatic fractures. For aftercare of a traumatic fracture, assign the acute fracture code with the appropriate 7th character. (Evidence: pg no: 80, L44-L62)",
+    "summary": "Comprehensive guidelines for 7th character assignment in fracture coding, covering initial vs subsequent encounters, complications, Gustilo classification, osteoporotic fractures, and aftercare coding (Evidence: pg no: 80, L44-L62)",
+    "key_concepts": [
+      "7th character assignment for fracture encounters (Evidence: pg no: 80, L44-L47)",
+      "Active treatment vs routine care distinction (Evidence: pg no: 80, L47-L50)",
+      "Delayed treatment coding (Evidence: pg no: 80, L47-L48, L54-L55)",
+      "Complication coding for fractures (Evidence: pg no: 80, L50-L53)",
+      "Gustilo classification for open fractures (Evidence: pg no: 80, L55-L58)",
+      "Osteoporotic fracture exclusion (Evidence: pg no: 80, L58-L60)",
+      "Aftercare Z code prohibition (Evidence: pg no: 80, L60-L62)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "initial_encounter_active_treatment",
+        "rule_text": "Traumatic fractures are coded using the appropriate 7th character for initial encounter (A, B, C) for each encounter where the patient is receiving active treatment for the fracture (Evidence: pg no: 80, L44-L47)",
+        "explanation": "Initial encounter 7th characters are used throughout the active treatment phase, not just the first visit (Evidence: pg no: 80, L44-L47)",
+        "importance": "critical",
+        "applies_to": "all_fracture_codes",
+        "common_applications": [
+          "Emergency department visits",
+          "Surgical treatment",
+          "Active fracture management"
+        ]
+      },
+      {
+        "rule_id": "delayed_treatment_initial",
+        "rule_text": "The appropriate 7th character for initial encounter should also be assigned for a patient who delayed seeking treatment for the fracture or nonunion (Evidence: pg no: 80, L47-L48, L54-L55)",
+        "explanation": "Delayed presentation still qualifies for initial encounter coding if active treatment is being provided (Evidence: pg no: 80, L47-L48, L54-L55)",
+        "importance": "high",
+        "applies_to": "all_fracture_codes",
+        "common_applications": [
+          "Late presentation fractures",
+          "Delayed diagnosis",
+          "Nonunion treatment initiation"
+        ]
+      },
+      {
+        "rule_id": "subsequent_routine_care",
+        "rule_text": "Fractures are coded using the appropriate 7th character for subsequent care for encounters after the patient has completed active treatment of the fracture and is receiving routine care for the fracture during the healing or recovery phase (Evidence: pg no: 80, L48-L50)",
+        "explanation": "Subsequent encounter 7th characters are used during healing phase when only routine care is provided (Evidence: pg no: 80, L48-L50)",
+        "importance": "critical",
+        "applies_to": "all_fracture_codes",
+        "common_applications": [
+          "Follow-up visits",
+          "Routine healing checks",
+          "Cast removal"
+        ]
+      },
+      {
+        "rule_id": "complication_codes_surgical",
+        "rule_text": "Care for complications of surgical treatment for fracture repairs during the healing or recovery phase should be coded with the appropriate complication codes (Evidence: pg no: 80, L50-L52)",
+        "explanation": "Surgical complications require complication codes, not fracture codes with 7th characters (Evidence: pg no: 80, L50-L52)",
+        "importance": "high",
+        "applies_to": "surgical_complications",
+        "common_applications": [
+          "Hardware complications",
+          "Surgical site infections",
+          "Post-operative complications"
+        ]
+      },
+      {
+        "rule_id": "malunion_nonunion_characters",
+        "rule_text": "Care of complications of fractures, such as malunion and nonunion, should be reported with the appropriate 7th character for subsequent care with nonunion (K, M, N,) or subsequent care with malunion (P, Q, R) (Evidence: pg no: 80, L52-L54)",
+        "explanation": "Specific 7th characters exist for malunion and nonunion complications (Evidence: pg no: 80, L52-L54)",
+        "importance": "high",
+        "applies_to": "fracture_complications",
+        "common_applications": [
+          "Nonunion treatment",
+          "Malunion management",
+          "Healing complications"
+        ]
+      },
+      {
+        "rule_id": "gustilo_classification",
+        "rule_text": "The open fracture designations in the assignment of the 7th character for fractures of the forearm, femur and lower leg, including ankle are based on the Gustilo open fracture classification. When the Gustilo classification type is not specified for an open fracture, the 7th character for open fracture type I or II should be assigned (B, E, H, M, Q) (Evidence: pg no: 80, L55-L58)",
+        "explanation": "Open fracture 7th characters follow Gustilo classification with default to type I or II when unspecified (Evidence: pg no: 80, L55-L58)",
+        "importance": "high",
+        "applies_to": "S52, S72, S82",
+        "common_applications": [
+          "Open forearm fractures",
+          "Open femur fractures",
+          "Open lower leg fractures"
+        ]
+      },
+      {
+        "rule_id": "osteoporotic_fracture_exclusion",
+        "rule_text": "A code from category M80, not a traumatic fracture code, should be used for any patient with known osteoporosis who suffers a fracture, even if the patient had a minor fall or trauma, if that fall or trauma would not usually break a normal, healthy bone (Evidence: pg no: 80, L58-L60)",
+        "explanation": "Osteoporotic fractures use M80 codes instead of traumatic fracture codes when trauma is minimal (Evidence: pg no: 80, L58-L60)",
+        "importance": "critical",
+        "applies_to": "M80",
+        "common_applications": [
+          "Pathological fractures",
+          "Osteoporotic fractures",
+          "Minimal trauma fractures"
+        ]
+      },
+      {
+        "rule_id": "no_aftercare_z_codes",
+        "rule_text": "The aftercare Z codes should not be used for aftercare for traumatic fractures. For aftercare of a traumatic fracture, assign the acute fracture code with the appropriate 7th character (Evidence: pg no: 80, L60-L62)",
+        "explanation": "Fracture aftercare uses fracture codes with 7th characters, not Z codes (Evidence: pg no: 80, L60-L62)",
+        "importance": "critical",
+        "applies_to": "all_fracture_codes",
+        "common_applications": [
+          "Fracture follow-up",
+          "Healing assessment",
+          "Routine fracture care"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if patient is receiving active treatment or routine care",
+      "Step 2: Assign initial encounter 7th character (A, B, C) for active treatment",
+      "Step 3: Assign subsequent encounter 7th character for routine care",
+      "Step 4: For complications, determine if surgical or fracture-related",
+      "Step 5: Use complication codes for surgical complications",
+      "Step 6: Use specific 7th characters (K, M, N, P, Q, R) for malunion/nonunion",
+      "Step 7: Apply Gustilo classification for open fractures when applicable",
+      "Step 8: Consider osteoporotic fracture codes (M80) when appropriate"
+    ],
+    "related_terminology": [
+      "7th character",
+      "Initial encounter",
+      "Subsequent encounter",
+      "Active treatment",
+      "Routine care",
+      "Malunion",
+      "Nonunion",
+      "Gustilo classification",
+      "Osteoporotic fractures",
+      "Aftercare"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "M80",
+        "description": "Osteoporosis with current pathological fracture (Evidence: pg no: 80, L58-L60)",
+        "requirement": "Use instead of traumatic fracture codes for osteoporotic fractures",
+        "usage_rules": [
+          "Use when patient has known osteoporosis and minimal trauma (Evidence: pg no: 80, L58-L60)"
+        ]
+      },
+      {
+        "range": "S52",
+        "description": "Fracture of forearm - uses Gustilo classification (Evidence: pg no: 80, L55-L56)",
+        "requirement": "Apply Gustilo classification for open fractures",
+        "usage_rules": [
+          "Default to type I or II (B, E, H, M, Q) when Gustilo type not specified (Evidence: pg no: 80, L57-L58)"
+        ]
+      },
+      {
+        "range": "S72",
+        "description": "Fracture of femur - uses Gustilo classification (Evidence: pg no: 80, L55-L56)",
+        "requirement": "Apply Gustilo classification for open fractures",
+        "usage_rules": [
+          "Default to type I or II (B, E, H, M, Q) when Gustilo type not specified (Evidence: pg no: 80, L57-L58)"
+        ]
+      },
+      {
+        "range": "S82",
+        "description": "Fracture of lower leg, including ankle - uses Gustilo classification (Evidence: pg no: 80, L55-L56)",
+        "requirement": "Apply Gustilo classification for open fractures",
+        "usage_rules": [
+          "Default to type I or II (B, E, H, M, Q) when Gustilo type not specified (Evidence: pg no: 80, L57-L58)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "7th character A, B, C",
+        "description": "Initial encounter characters for active treatment (Evidence: pg no: 80, L44-L47)",
+        "example": "S72.001A",
+        "explanation": "Used during active treatment phase"
+      },
+      {
+        "pattern": "7th character K, M, N",
+        "description": "Subsequent care with nonunion (Evidence: pg no: 80, L52-L54)",
+        "example": "S72.001K",
+        "explanation": "Used for nonunion complications"
+      },
+      {
+        "pattern": "7th character P, Q, R",
+        "description": "Subsequent care with malunion (Evidence: pg no: 80, L52-L54)",
+        "example": "S72.001P",
+        "explanation": "Used for malunion complications"
+      },
+      {
+        "pattern": "7th character B, E, H, M, Q",
+        "description": "Open fracture type I or II default (Evidence: pg no: 80, L57-L58)",
+        "example": "S72.001B",
+        "explanation": "Default when Gustilo type not specified"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Traumatic fracture codes",
+      "Osteoporotic fracture codes",
+      "Complication codes",
+      "Aftercare Z codes (excluded)"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.13",
+        "title": "Osteoporosis",
+        "relationship": "applies_concept",
+        "explanation": "Referenced for osteoporotic fracture coding guidance"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "active_fracture_treatment",
+      "scenario": "Patient receiving surgical treatment for femur fracture",
+      "documentation_example": "Patient admitted for ORIF of femur fracture",
+      "step_by_step": [
+        "Step 1: Identify active treatment is being provided",
+        "Step 2: Assign initial encounter 7th character",
+        "Step 3: Use appropriate fracture code with 'A' character"
+      ],
+      "correct_coding": {
+        "primary_code": "S72.xxxA",
+        "secondary_codes": [],
+        "sequencing": "Fracture code with initial encounter character",
+        "rationale": "Active treatment requires initial encounter 7th character (Evidence: pg no: 80, L44-L47)"
+      },
+      "incorrect_coding": {
+        "code": "S72.xxxD",
+        "codes": [
+          "Subsequent encounter character"
+        ],
+        "rationale": "Patient is receiving active treatment, not routine care",
+        "common_mistake": "Using subsequent encounter character during active treatment"
+      }
+    },
+    {
+      "scenario_id": "osteoporotic_fracture",
+      "scenario": "Elderly patient with known osteoporosis suffers hip fracture from minor fall",
+      "documentation_example": "Hip fracture in patient with osteoporosis after minor fall",
+      "step_by_step": [
+        "Step 1: Identify patient has known osteoporosis",
+        "Step 2: Assess if trauma would break normal bone",
+        "Step 3: Use M80 code instead of traumatic fracture code"
+      ],
+      "correct_coding": {
+        "primary_code": "M80.xxx",
+        "secondary_codes": [],
+        "sequencing": "Osteoporotic fracture code",
+        "rationale": "Known osteoporosis with minimal trauma requires M80 code (Evidence: pg no: 80, L58-L60)"
+      },
+      "incorrect_coding": {
+        "code": "S72.xxx",
+        "codes": [
+          "Traumatic fracture code"
+        ],
+        "rationale": "Should use osteoporotic fracture code for known osteoporosis",
+        "common_mistake": "Using traumatic fracture codes for osteoporotic fractures"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Never use aftercare Z codes for traumatic fractures (Evidence: pg no: 80, L60-L62)",
+      "Use M80 codes for osteoporotic fractures, not traumatic fracture codes (Evidence: pg no: 80, L58-L60)"
+    ],
+    "best_practices": [
+      "Distinguish between active treatment and routine care phases (Evidence: pg no: 80, L44-L50)",
+      "Apply Gustilo classification defaults when type not specified (Evidence: pg no: 80, L57-L58)"
+    ],
+    "common_mistakes": [
+      "Using subsequent encounter characters during active treatment (Evidence: pg no: 80, L44-L47)",
+      "Using aftercare Z codes for fracture follow-up (Evidence: pg no: 80, L60-L62)"
+    ],
+    "tips": [
+      "Initial encounter characters apply to delayed treatment (Evidence: pg no: 80, L47-L48)",
+      "Use specific 7th characters for malunion/nonunion (Evidence: pg no: 80, L52-L54)"
+    ],
+    "implementation_notes": [
+      "Requires understanding of treatment phases and complications"
+    ],
+    "clinical_context": [
+      "Critical for orthopedic and trauma coding"
+    ]
+  },
+  "search_keywords": [
+    "fracture 7th character",
+    "initial encounter",
+    "subsequent encounter",
+    "active treatment",
+    "routine care",
+    "malunion",
+    "nonunion",
+    "Gustilo classification",
+    "osteoporotic fractures",
+    "M80",
+    "aftercare Z codes",
+    "fracture complications"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "fracture_coding",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "fractures",
+      "7th_character",
+      "encounters",
+      "complications",
+      "osteoporosis"
+    ]
+  },
+  "page_range_processed": "pages_78_to_81"
+}

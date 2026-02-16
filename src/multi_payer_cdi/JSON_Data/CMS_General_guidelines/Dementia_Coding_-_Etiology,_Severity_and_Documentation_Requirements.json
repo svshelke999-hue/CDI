@@ -1,0 +1,234 @@
+{
+  "guideline_id": "I.C.5.d",
+  "semantic_title": "Dementia Coding - Etiology, Severity and Documentation Requirements",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 5. Chapter 5: Mental, Behavioral and Neurodevelopmental disorders > d. Dementia",
+  "page_number": 45,
+  "content": {
+    "full_text": "The ICD-10-CM classifies dementia (categories F01, F02, and F03) on the basis of the etiology and severity (unspecified, mild, moderate or severe). Selection of the appropriate severity level requires the provider's clinical judgment and codes should be assigned only on the basis of provider documentation (as defined in the Official Guidelines for Coding and Reporting), unless otherwise instructed by the classification. If the documentation does not provide information about the severity of the dementia, assign the appropriate code for unspecified severity. If a patient is admitted to an inpatient acute care hospital or other inpatient facility setting with dementia at one severity level and it progresses to a higher severity level, assign one code for the highest severity level reported during the stay. (Evidence: pg no: 45, L74-L77)",
+    "summary": "Establishes classification system for dementia based on etiology and severity, with specific requirements for provider documentation and severity progression during inpatient stays (Evidence: pg no: 45, L74-L77)",
+    "key_concepts": [
+      "Etiology and severity classification (Evidence: pg no: 45, L75)",
+      "Provider clinical judgment requirement (Evidence: pg no: 45, L75-L76)",
+      "Provider documentation requirement (Evidence: pg no: 45, L76)",
+      "Unspecified severity default (Evidence: pg no: 45, L76-L77)",
+      "Severity progression rule (Evidence: pg no: 45, L77)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "DEMENTIA_001",
+        "rule_text": "Classify dementia by etiology and severity (Evidence: pg no: 45, L75)",
+        "explanation": "ICD-10-CM dementia codes (F01, F02, F03) are organized by underlying cause and severity level (Evidence: pg no: 45, L75)",
+        "importance": "high",
+        "applies_to": "F01, F02, F03",
+        "common_applications": [
+          "Alzheimer's dementia",
+          "Vascular dementia",
+          "Unspecified dementia"
+        ]
+      },
+      {
+        "rule_id": "DEMENTIA_002",
+        "rule_text": "Severity selection requires provider's clinical judgment (Evidence: pg no: 45, L75-L76)",
+        "explanation": "Only providers can determine the appropriate severity level for dementia coding (Evidence: pg no: 45, L75-L76)",
+        "importance": "critical",
+        "applies_to": "F01, F02, F03",
+        "common_applications": [
+          "Mild dementia assessment",
+          "Moderate dementia determination",
+          "Severe dementia evaluation"
+        ]
+      },
+      {
+        "rule_id": "DEMENTIA_003",
+        "rule_text": "Assign codes only based on provider documentation (Evidence: pg no: 45, L76)",
+        "explanation": "Dementia severity codes require explicit provider documentation as defined in the Official Guidelines (Evidence: pg no: 45, L76)",
+        "importance": "critical",
+        "applies_to": "F01, F02, F03",
+        "common_applications": [
+          "Provider assessment notes",
+          "Clinical documentation",
+          "Severity determinations"
+        ]
+      },
+      {
+        "rule_id": "DEMENTIA_004",
+        "rule_text": "Use unspecified severity when documentation lacks severity information (Evidence: pg no: 45, L76-L77)",
+        "explanation": "When provider documentation does not specify dementia severity, assign the unspecified severity code (Evidence: pg no: 45, L76-L77)",
+        "importance": "high",
+        "applies_to": "F01, F02, F03",
+        "common_applications": [
+          "Incomplete documentation",
+          "General dementia diagnosis",
+          "Unspecified severity cases"
+        ]
+      },
+      {
+        "rule_id": "DEMENTIA_005",
+        "rule_text": "Assign highest severity level during inpatient stay (Evidence: pg no: 45, L77)",
+        "explanation": "When dementia progresses during inpatient stay, code the highest severity level documented during the entire stay (Evidence: pg no: 45, L77)",
+        "importance": "high",
+        "applies_to": "F01, F02, F03",
+        "common_applications": [
+          "Dementia progression during hospitalization",
+          "Acute care hospital stays",
+          "Inpatient facility admissions"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify dementia etiology (F01, F02, or F03)",
+      "Step 2: Review provider documentation for severity",
+      "Step 3: If severity documented, assign appropriate severity code",
+      "Step 4: If severity not documented, use unspecified severity",
+      "Step 5: For inpatient stays, use highest severity documented during stay"
+    ],
+    "related_terminology": [
+      "Dementia",
+      "Etiology",
+      "Severity levels",
+      "Provider documentation",
+      "Clinical judgment",
+      "Unspecified severity"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "F01",
+        "description": "Vascular dementia (Evidence: pg no: 45, L75)",
+        "requirement": "Classify by severity with provider documentation",
+        "usage_rules": [
+          "Requires provider clinical judgment for severity (Evidence: pg no: 45, L75-L76)",
+          "Use unspecified if severity not documented (Evidence: pg no: 45, L76-L77)"
+        ]
+      },
+      {
+        "range": "F02",
+        "description": "Dementia in other diseases classified elsewhere (Evidence: pg no: 45, L75)",
+        "requirement": "Classify by severity with provider documentation",
+        "usage_rules": [
+          "Requires provider clinical judgment for severity (Evidence: pg no: 45, L75-L76)",
+          "Use unspecified if severity not documented (Evidence: pg no: 45, L76-L77)"
+        ]
+      },
+      {
+        "range": "F03",
+        "description": "Unspecified dementia (Evidence: pg no: 45, L75)",
+        "requirement": "Classify by severity with provider documentation",
+        "usage_rules": [
+          "Requires provider clinical judgment for severity (Evidence: pg no: 45, L75-L76)",
+          "Use unspecified if severity not documented (Evidence: pg no: 45, L76-L77)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Dementia categories F01, F02, F03"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "DEMENTIA_001",
+      "scenario": "Patient admitted with mild Alzheimer's dementia, condition progresses to moderate dementia during stay",
+      "documentation_example": "Admission: mild Alzheimer's dementia. Day 5: dementia has progressed to moderate severity per provider assessment",
+      "step_by_step": [
+        "Step 1: Identify Alzheimer's dementia (F02 category)",
+        "Step 2: Note progression from mild to moderate",
+        "Step 3: Apply highest severity rule for inpatient stay",
+        "Step 4: Assign moderate dementia code"
+      ],
+      "correct_coding": {
+        "primary_code": "F02.81",
+        "secondary_codes": [],
+        "sequencing": "Moderate dementia code",
+        "rationale": "Use highest severity level documented during inpatient stay (Evidence: pg no: 45, L77)"
+      },
+      "incorrect_coding": {
+        "code": "F02.80",
+        "rationale": "Should use highest severity (moderate), not admission severity (mild)",
+        "common_mistake": "Using admission severity instead of highest during stay"
+      }
+    },
+    {
+      "scenario_id": "DEMENTIA_002",
+      "scenario": "Provider documents 'patient has dementia' without specifying type or severity",
+      "documentation_example": "Patient has dementia, affecting daily activities",
+      "step_by_step": [
+        "Step 1: Note lack of etiology specification",
+        "Step 2: Note lack of severity specification",
+        "Step 3: Use F03 for unspecified dementia",
+        "Step 4: Use unspecified severity code"
+      ],
+      "correct_coding": {
+        "primary_code": "F03.90",
+        "secondary_codes": [],
+        "sequencing": "Unspecified dementia, unspecified severity",
+        "rationale": "When documentation lacks severity information, use unspecified severity code (Evidence: pg no: 45, L76-L77)"
+      },
+      "incorrect_coding": {
+        "code": "F03.91",
+        "rationale": "Cannot assign specific severity without provider documentation",
+        "common_mistake": "Inferring severity without provider documentation"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Cannot assign severity without provider documentation (Evidence: pg no: 45, L76)",
+      "Must use highest severity during inpatient stay (Evidence: pg no: 45, L77)"
+    ],
+    "best_practices": [
+      "Verify provider clinical judgment for severity (Evidence: pg no: 45, L75-L76)",
+      "Use unspecified severity when documentation incomplete (Evidence: pg no: 45, L76-L77)",
+      "Monitor for severity progression during inpatient stays (Evidence: pg no: 45, L77)"
+    ],
+    "common_mistakes": [
+      "Assigning severity without provider documentation",
+      "Using admission severity instead of highest during stay",
+      "Not recognizing severity progression"
+    ],
+    "tips": [
+      "Provider documentation required for severity",
+      "Inpatient stays = highest severity documented",
+      "No severity documented = unspecified severity"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Important for dementia care planning",
+      "Affects resource allocation and treatment decisions",
+      "Critical for long-term care settings"
+    ]
+  },
+  "search_keywords": [
+    "dementia",
+    "F01 F02 F03",
+    "dementia severity",
+    "provider documentation",
+    "unspecified severity",
+    "dementia progression"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "mental_behavioral_disorders",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "dementia",
+      "severity",
+      "documentation",
+      "progression"
+    ]
+  },
+  "page_range_processed": "pages_42_to_45"
+}

@@ -1,0 +1,229 @@
+{
+  "guideline_id": "I.C.10.e",
+  "semantic_title": "Vaping-Related Disorders Coding Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 10. Chapter 10: Diseases of the Respiratory System > e. Vaping-related disorders",
+  "page_number": 58,
+  "content": {
+    "full_text": "For patients presenting with condition(s) related to vaping, assign code U07.0, Vaping-related disorder, as the principal diagnosis. For lung injury due to vaping, assign only code U07.0. Assign additional codes for other manifestations, such as acute respiratory failure (subcategory J96.0-) or pneumonitis (code J68.0). Associated respiratory signs and symptoms due to vaping, such as cough, shortness of breath, etc., are not coded separately, when a definitive diagnosis has been established. However, it would be appropriate to code separately any gastrointestinal symptoms, such as diarrhea and abdominal pain. (Evidence: pg no: 58, L22-L23)",
+    "summary": "Comprehensive guidelines for coding vaping-related disorders, including principal diagnosis assignment and additional manifestation coding (Evidence: pg no: 58, L22-L23)",
+    "key_concepts": [
+      "U07.0 as principal diagnosis for vaping-related conditions (Evidence: pg no: 58, L22)",
+      "Lung injury coding specificity (Evidence: pg no: 58, L22)",
+      "Additional manifestation coding (Evidence: pg no: 58, L22-L23)",
+      "Respiratory symptom exclusion rules (Evidence: pg no: 58, L23)",
+      "Gastrointestinal symptom inclusion (Evidence: pg no: 58, L23)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "VAPING_PRINCIPAL_001",
+        "rule_text": "U07.0 must be assigned as principal diagnosis for vaping-related conditions (Evidence: pg no: 58, L22)",
+        "explanation": "All patients presenting with vaping-related conditions should have U07.0 as the principal diagnosis, regardless of specific manifestations (Evidence: pg no: 58, L22)",
+        "importance": "critical",
+        "applies_to": "U07.0",
+        "common_applications": [
+          "EVALI cases",
+          "Vaping-related lung injury",
+          "Any condition attributed to vaping"
+        ]
+      },
+      {
+        "rule_id": "VAPING_LUNG_INJURY_001",
+        "rule_text": "For lung injury due to vaping, assign only code U07.0 (Evidence: pg no: 58, L22)",
+        "explanation": "Lung injury specifically due to vaping should be coded with U07.0 only, without additional lung injury codes (Evidence: pg no: 58, L22)",
+        "importance": "critical",
+        "applies_to": "U07.0",
+        "common_applications": [
+          "EVALI diagnosis",
+          "Vaping-induced lung damage"
+        ]
+      },
+      {
+        "rule_id": "VAPING_RESPIRATORY_SYMPTOMS_001",
+        "rule_text": "Associated respiratory signs and symptoms are not coded separately when definitive vaping diagnosis is established (Evidence: pg no: 58, L23)",
+        "explanation": "Respiratory symptoms like cough and shortness of breath should not be coded separately when they are part of the vaping-related disorder diagnosis (Evidence: pg no: 58, L23)",
+        "importance": "high",
+        "applies_to": "respiratory symptom codes",
+        "common_applications": [
+          "Cough due to vaping",
+          "Shortness of breath from vaping"
+        ]
+      },
+      {
+        "rule_id": "VAPING_GI_SYMPTOMS_001",
+        "rule_text": "Gastrointestinal symptoms should be coded separately (Evidence: pg no: 58, L23)",
+        "explanation": "Unlike respiratory symptoms, gastrointestinal manifestations like diarrhea and abdominal pain should be coded in addition to U07.0 (Evidence: pg no: 58, L23)",
+        "importance": "high",
+        "applies_to": "gastrointestinal codes",
+        "common_applications": [
+          "Diarrhea with vaping disorder",
+          "Abdominal pain with vaping disorder"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify vaping-related condition",
+      "Step 2: Assign U07.0 as principal diagnosis",
+      "Step 3: Identify additional manifestations",
+      "Step 4: Code manifestations like respiratory failure or pneumonitis",
+      "Step 5: Exclude respiratory symptoms if definitive diagnosis established",
+      "Step 6: Include gastrointestinal symptoms separately"
+    ],
+    "related_terminology": [
+      "Vaping-related disorder",
+      "EVALI",
+      "Lung injury",
+      "Pneumonitis",
+      "Acute respiratory failure"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "J96.0-",
+        "description": "Acute respiratory failure subcategory (Evidence: pg no: 58, L23)",
+        "requirement": "Use as additional code for respiratory failure manifestation",
+        "usage_rules": [
+          "Assign as additional diagnosis with U07.0 (Evidence: pg no: 58, L23)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "U07.0",
+        "description": "Vaping-related disorder (Evidence: pg no: 58, L22)",
+        "context": "Principal diagnosis for all vaping-related conditions",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "U07": "Emergency use codes",
+          "0": "Vaping-related disorder"
+        }
+      },
+      {
+        "code": "J68.0",
+        "description": "Pneumonitis (Evidence: pg no: 58, L23)",
+        "context": "Additional code for pneumonitis manifestation of vaping disorder",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "J68": "Respiratory conditions due to inhalation of chemicals",
+          "0": "Pneumonitis"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Subcategory J96.0- for acute respiratory failure"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.1.g.1.c.i",
+        "title": "Pneumonia confirmed as due to COVID-19",
+        "relationship": "related_to",
+        "explanation": "Referenced for pneumonia coding context"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "VAPING_EVALI_001",
+      "scenario": "Patient presents with EVALI including acute respiratory failure and cough",
+      "documentation_example": "Patient presents with vaping-related lung injury (EVALI) with acute respiratory failure and persistent cough.",
+      "step_by_step": [
+        "Step 1: Identify vaping-related condition (EVALI)",
+        "Step 2: Assign U07.0 as principal diagnosis",
+        "Step 3: Identify acute respiratory failure as manifestation",
+        "Step 4: Assign appropriate J96.0- code as additional",
+        "Step 5: Do not code cough separately as it's part of the syndrome"
+      ],
+      "correct_coding": {
+        "primary_code": "U07.0",
+        "secondary_codes": [
+          "J96.00"
+        ],
+        "sequencing": "U07.0 as principal, J96.00 as additional",
+        "rationale": "U07.0 captures the vaping disorder, respiratory failure coded separately, cough not coded as it's integral (Evidence: pg no: 58, L22-L23)"
+      },
+      "incorrect_coding": {
+        "code": "R05",
+        "codes": [
+          "R05 for cough"
+        ],
+        "rationale": "Respiratory symptoms should not be coded separately when definitive diagnosis established",
+        "common_mistake": "Coding respiratory symptoms separately with vaping diagnosis"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "VAPING_EXAMPLE_001",
+      "scenario": "Vaping disorder with pneumonitis and diarrhea",
+      "code_example": "U07.0, J68.0, K59.1",
+      "breakdown": {
+        "U07.0": "Vaping-related disorder - principal diagnosis (Evidence: pg no: 58, L22)",
+        "J68.0": "Pneumonitis - respiratory manifestation (Evidence: pg no: 58, L23)",
+        "K59.1": "Diarrhea - gastrointestinal symptom coded separately (Evidence: pg no: 58, L23)"
+      },
+      "rationale": "Principal diagnosis for vaping disorder, manifestations coded additionally, GI symptoms included (Evidence: pg no: 58, L22-L23)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not code respiratory symptoms separately when definitive vaping diagnosis established (Evidence: pg no: 58, L23)",
+      "For lung injury due to vaping, assign only U07.0 (Evidence: pg no: 58, L22)"
+    ],
+    "best_practices": [
+      "Always use U07.0 as principal diagnosis for vaping-related conditions (Evidence: pg no: 58, L22)",
+      "Code gastrointestinal symptoms separately (Evidence: pg no: 58, L23)",
+      "Include manifestation codes for complications like respiratory failure"
+    ],
+    "common_mistakes": [
+      "Coding respiratory symptoms separately with established vaping diagnosis",
+      "Not using U07.0 as principal diagnosis",
+      "Failing to code gastrointestinal manifestations"
+    ],
+    "tips": [
+      "Review documentation for all manifestations",
+      "Distinguish between respiratory symptoms (don't code) and complications (do code)",
+      "Look for gastrointestinal symptoms to code separately"
+    ],
+    "implementation_notes": [
+      "Requires clear documentation of vaping relationship",
+      "Provider must establish causal relationship to vaping"
+    ],
+    "clinical_context": [
+      "EVALI epidemic context",
+      "Multi-system manifestations possible",
+      "Emerging health concern"
+    ]
+  },
+  "search_keywords": [
+    "vaping related disorder",
+    "EVALI",
+    "U07.0",
+    "vaping lung injury",
+    "e-cigarette",
+    "vaping complications",
+    "pneumonitis vaping"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "respiratory_system_vaping",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "vaping",
+      "EVALI",
+      "respiratory",
+      "manifestations",
+      "U07.0"
+    ]
+  },
+  "page_range_processed": "pages_57_to_60"
+}

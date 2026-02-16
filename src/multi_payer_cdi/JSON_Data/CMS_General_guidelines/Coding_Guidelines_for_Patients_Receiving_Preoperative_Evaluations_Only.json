@@ -1,0 +1,179 @@
+{
+  "guideline_id": "IV.M",
+  "semantic_title": "Coding Guidelines for Patients Receiving Preoperative Evaluations Only",
+  "section_path": "Section IV > Diagnostic Coding and Reporting Guidelines for Outpatient Services > M. Patients receiving preoperative evaluations only",
+  "page_number": 115,
+  "content": {
+    "full_text": "For patients receiving preoperative evaluations only, sequence first a code from subcategory Z01.81, Encounter for pre-procedural examinations, to describe the pre-op consultations. Assign a code for the condition to describe the reason for the surgery as an additional diagnosis. Code also any findings related to the pre-op evaluation. (Evidence: pg no: 115, L22-L23)",
+    "summary": "Guidelines for coding preoperative evaluation encounters with specific sequencing requirements using Z01.81 codes (Evidence: pg no: 115, L22-L23)",
+    "key_concepts": [
+      "Preoperative evaluation coding priority (Evidence: pg no: 115, L22)",
+      "Z01.81 subcategory usage (Evidence: pg no: 115, L23)",
+      "Secondary coding of surgical condition (Evidence: pg no: 115, L23)",
+      "Additional coding of evaluation findings (Evidence: pg no: 115, L23)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "IV.M.1",
+        "rule_text": "Sequence first a code from subcategory Z01.81 for preoperative evaluations (Evidence: pg no: 115, L22-L23)",
+        "explanation": "When encounter is solely for preoperative evaluation, the Z01.81 code takes priority in sequencing (Evidence: pg no: 115, L22-L23)",
+        "importance": "critical",
+        "applies_to": "preoperative evaluation encounters",
+        "common_applications": [
+          "Pre-surgical consultations",
+          "Preoperative medical clearance",
+          "Pre-procedural examinations"
+        ]
+      },
+      {
+        "rule_id": "IV.M.2",
+        "rule_text": "Assign code for condition requiring surgery as additional diagnosis (Evidence: pg no: 115, L23)",
+        "explanation": "The underlying condition that necessitates the surgery should be coded as secondary diagnosis (Evidence: pg no: 115, L23)",
+        "importance": "high",
+        "applies_to": "preoperative evaluation encounters",
+        "common_applications": [
+          "Underlying surgical conditions",
+          "Conditions requiring operative intervention"
+        ]
+      },
+      {
+        "rule_id": "IV.M.3",
+        "rule_text": "Code any findings related to the pre-op evaluation (Evidence: pg no: 115, L23)",
+        "explanation": "Additional findings discovered during preoperative evaluation should also be coded (Evidence: pg no: 115, L23)",
+        "importance": "medium",
+        "applies_to": "preoperative evaluation encounters",
+        "common_applications": [
+          "Abnormal lab results",
+          "Physical examination findings",
+          "Diagnostic test results"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify encounter as preoperative evaluation only",
+      "Step 2: Assign appropriate Z01.81 code as first-listed diagnosis",
+      "Step 3: Code the condition requiring surgery as additional diagnosis",
+      "Step 4: Code any findings from the preoperative evaluation"
+    ],
+    "related_terminology": [
+      "preoperative evaluation",
+      "pre-procedural examination",
+      "surgical clearance",
+      "pre-op consultation",
+      "Z01.81 subcategory"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z01.81",
+        "description": "Encounter for pre-procedural examinations subcategory (Evidence: pg no: 115, L23)",
+        "requirement": "Must be sequenced first for preoperative evaluation encounters",
+        "usage_rules": [
+          "Use as first-listed diagnosis for preoperative evaluations (Evidence: pg no: 115, L22-L23)",
+          "Describes the pre-op consultation encounter (Evidence: pg no: 115, L23)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "Z01.81-",
+        "description": "Encounter for pre-procedural examinations (Evidence: pg no: 115, L23)",
+        "context": "First-listed diagnosis for preoperative evaluation encounters",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "Z01": "Encounter for other special examinations",
+          "81": "Pre-procedural examinations"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Pre-procedural examination codes",
+      "Surgical condition codes",
+      "Evaluation finding codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "IV.M.scenario1",
+      "scenario": "Patient presents for preoperative cardiac clearance before gallbladder surgery",
+      "documentation_example": "Patient seen for preoperative cardiac evaluation prior to scheduled cholecystectomy for cholelithiasis. EKG shows normal sinus rhythm, echocardiogram normal.",
+      "step_by_step": [
+        "Step 1: Identify encounter as preoperative evaluation only",
+        "Step 2: Assign Z01.810 as first-listed diagnosis",
+        "Step 3: Code cholelithiasis as reason for surgery",
+        "Step 4: Code normal EKG and echo findings if significant"
+      ],
+      "correct_coding": {
+        "primary_code": "Z01.810",
+        "secondary_codes": [
+          "K80.20"
+        ],
+        "sequencing": "Z01.810 first, then surgical condition",
+        "rationale": "Preoperative evaluation requires Z01.81 code first, followed by condition requiring surgery (Evidence: pg no: 115, L22-L23)"
+      },
+      "incorrect_coding": {
+        "code": "K80.20 as primary",
+        "codes": [
+          "K80.20",
+          "Z01.810"
+        ],
+        "rationale": "Would not follow the required sequencing for preoperative evaluations",
+        "common_mistake": "Sequencing surgical condition first instead of preoperative evaluation code"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "This guideline applies only to encounters for preoperative evaluations only (Evidence: pg no: 115, L22)"
+    ],
+    "best_practices": [
+      "Always sequence Z01.81 codes first for preoperative evaluation encounters (Evidence: pg no: 115, L22-L23)",
+      "Include all relevant findings from the preoperative evaluation (Evidence: pg no: 115, L23)"
+    ],
+    "common_mistakes": [
+      "Sequencing the surgical condition first instead of the Z01.81 code (Evidence: pg no: 115, L22-L23)",
+      "Omitting the condition requiring surgery as additional diagnosis (Evidence: pg no: 115, L23)"
+    ],
+    "tips": [
+      "Remember to code both the evaluation encounter and the reason for surgery (Evidence: pg no: 115, L23)"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Preoperative medical clearance",
+      "Pre-surgical consultations",
+      "Anesthesia evaluations"
+    ]
+  },
+  "search_keywords": [
+    "preoperative evaluation",
+    "pre-procedural examination",
+    "Z01.81",
+    "surgical clearance",
+    "pre-op consultation",
+    "preoperative coding"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "outpatient_coding",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "preoperative",
+      "Z_codes",
+      "sequencing",
+      "surgical_preparation"
+    ]
+  },
+  "page_range_processed": "pages_114_to_117"
+}

@@ -1,0 +1,115 @@
+{
+  "guideline_id": "I.C.2.c",
+  "semantic_title": "Coding and Sequencing of Complications Associated with Malignancies",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 2. Chapter 2: Neoplasms > c. Coding and sequencing of complications",
+  "page_number": 34,
+  "content": {
+    "full_text": "Coding and sequencing of complications associated with the malignancies or with the therapy thereof are subject to the following guidelines (Evidence: pg no: 34, L27-L28)",
+    "summary": "General framework for coding complications related to malignancies or their treatment (Evidence: pg no: 34, L27-L28)",
+    "key_concepts": [
+      "Complications associated with malignancies (Evidence: pg no: 34, L27-L28)",
+      "Complications associated with therapy (Evidence: pg no: 34, L27-L28)",
+      "Specific sequencing guidelines apply (Evidence: pg no: 34, L27-L28)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "complication_sequencing_framework",
+        "rule_text": "Complications associated with malignancies or therapy are subject to specific guidelines (Evidence: pg no: 34, L27-L28)",
+        "explanation": "There are detailed rules for how to sequence codes when complications arise from either the cancer itself or its treatment (Evidence: pg no: 34, L27-L28)",
+        "importance": "critical",
+        "applies_to": "all malignancy-related complications",
+        "common_applications": [
+          "Anemia due to malignancy",
+          "Anemia due to chemotherapy",
+          "Dehydration due to malignancy",
+          "Surgical complications"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify if complication is due to malignancy itself or treatment",
+      "Step 2: Apply appropriate specific guideline",
+      "Step 3: Sequence codes according to specific rules",
+      "Step 4: Include all relevant codes for complete picture"
+    ],
+    "related_terminology": [
+      "Complications",
+      "Malignancy",
+      "Therapy",
+      "Sequencing"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Malignancy complications",
+      "Treatment complications"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.2.c.1",
+        "title": "Anemia associated with malignancy",
+        "relationship": "implements",
+        "explanation": "Specific implementation of complication coding"
+      },
+      {
+        "guideline_id": "I.C.2.c.2",
+        "title": "Anemia associated with chemotherapy, immunotherapy and radiation therapy",
+        "relationship": "implements",
+        "explanation": "Specific implementation of complication coding"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Different sequencing rules apply depending on whether complication is from malignancy or treatment (Evidence: pg no: 34, L27-L28)"
+    ],
+    "best_practices": [
+      "Always identify the source of the complication before coding (Evidence: pg no: 34, L27-L28)"
+    ],
+    "common_mistakes": [
+      "Using same sequencing approach for all complications regardless of cause"
+    ],
+    "tips": [
+      "Review specific sub-guidelines for detailed sequencing rules (Evidence: pg no: 34, L27-L28)"
+    ],
+    "implementation_notes": [
+      "This is an umbrella guideline with specific sub-rules"
+    ],
+    "clinical_context": [
+      "Complications are common in cancer care and require careful coding"
+    ]
+  },
+  "search_keywords": [
+    "malignancy complications",
+    "cancer treatment complications",
+    "complication sequencing",
+    "therapy complications",
+    "cancer complications coding"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "neoplasms",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "neoplasms",
+      "complications",
+      "sequencing",
+      "framework"
+    ]
+  },
+  "page_range_processed": "pages_33_to_36"
+}

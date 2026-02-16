@@ -1,0 +1,205 @@
+{
+  "guideline_id": "IV.J",
+  "semantic_title": "Coding All Documented Coexisting Conditions in Outpatient Settings",
+  "section_path": "Section IV > J. Code all documented conditions that coexist",
+  "page_number": 114,
+  "content": {
+    "full_text": "Code all documented conditions that coexist at the time of the encounter/visit and that require or affect patient care, treatment or management. Do not code conditions that were previously treated and no longer exist. However, history codes (categories Z80-Z87) may be used as secondary codes if the historical condition or family history has an impact on current care or influences treatment. (Evidence: pg no: 114, L79-L80)",
+    "summary": "Requires coding of all coexisting conditions that impact current care while excluding resolved conditions, with provision for history codes when relevant (Evidence: pg no: 114, L79-L80)",
+    "key_concepts": [
+      "Code all coexisting conditions affecting current care (Evidence: pg no: 114, L79-L80)",
+      "Must require or affect patient care, treatment, or management (Evidence: pg no: 114, L80)",
+      "Do not code previously treated, resolved conditions (Evidence: pg no: 114, L80)",
+      "Use history codes when historical conditions impact current care (Evidence: pg no: 114, L80)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "IV.J.1",
+        "rule_text": "Code documented conditions that coexist and affect current care (Evidence: pg no: 114, L79-L80)",
+        "explanation": "All conditions present at the time of encounter that require or affect patient care, treatment, or management should be coded (Evidence: pg no: 114, L79-L80)",
+        "importance": "high",
+        "applies_to": "coexisting_conditions",
+        "common_applications": [
+          "Comorbidity documentation",
+          "Multiple condition management",
+          "Comprehensive care coding"
+        ]
+      },
+      {
+        "rule_id": "IV.J.2",
+        "rule_text": "Do not code previously treated conditions that no longer exist (Evidence: pg no: 114, L80)",
+        "explanation": "Resolved conditions that were treated in the past but no longer exist should not be coded for current encounter (Evidence: pg no: 114, L80)",
+        "importance": "medium",
+        "applies_to": "resolved_conditions",
+        "common_applications": [
+          "Past surgical history",
+          "Resolved infections",
+          "Healed injuries"
+        ]
+      },
+      {
+        "rule_id": "IV.J.3",
+        "rule_text": "Use history codes (Z80-Z87) when historical conditions impact current care (Evidence: pg no: 114, L80)",
+        "explanation": "History codes may be used as secondary codes when past conditions or family history influence current treatment decisions (Evidence: pg no: 114, L80)",
+        "importance": "medium",
+        "applies_to": "history_codes",
+        "common_applications": [
+          "Cancer screening due to family history",
+          "Medication selection based on past reactions",
+          "Risk stratification"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify all conditions documented in encounter",
+      "Step 2: Determine which conditions currently exist",
+      "Step 3: Assess if conditions require or affect current care",
+      "Step 4: Code conditions meeting criteria",
+      "Step 5: Consider history codes for relevant past conditions",
+      "Step 6: Exclude resolved conditions not impacting current care"
+    ],
+    "related_terminology": [
+      "Coexisting conditions",
+      "Patient care",
+      "Treatment",
+      "Management",
+      "Previously treated",
+      "History codes",
+      "Family history"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z80-Z87",
+        "description": "Personal history codes for conditions no longer present (Evidence: pg no: 114, L80)",
+        "requirement": "Use when historical conditions impact current care",
+        "usage_rules": [
+          "May be used as secondary codes (Evidence: pg no: 114, L80)",
+          "When historical condition impacts current care or influences treatment (Evidence: pg no: 114, L80)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Coexisting condition codes",
+      "History codes Z80-Z87"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "IV.J.S1",
+      "scenario": "Patient with diabetes presents for wound care, also has controlled hypertension and history of MI",
+      "documentation_example": "Patient with diabetes presents for diabetic foot ulcer care. Also has well-controlled hypertension on medication. History of MI 5 years ago, currently on cardiac medications for prevention.",
+      "step_by_step": [
+        "Step 1: Identify current conditions - diabetes, foot ulcer, hypertension",
+        "Step 2: Identify historical condition - previous MI",
+        "Step 3: Assess impact on current care - all affect current management",
+        "Step 4: Code current conditions",
+        "Step 5: Consider history code for MI since affects current medication management"
+      ],
+      "correct_coding": {
+        "primary_code": "E11.621",
+        "secondary_codes": [
+          "I10",
+          "Z87.74"
+        ],
+        "sequencing": "Primary condition first, coexisting conditions and relevant history",
+        "rationale": "Code coexisting conditions affecting current care and history codes when they impact treatment (Evidence: pg no: 114, L79-L80)"
+      },
+      "incorrect_coding": {
+        "code": "Not including hypertension or MI history",
+        "codes": [
+          "E11.621"
+        ],
+        "rationale": "Should include all conditions affecting current care",
+        "common_mistake": "Not coding all relevant coexisting conditions and impactful history"
+      }
+    },
+    {
+      "scenario_id": "IV.J.S2",
+      "scenario": "Patient presents for routine visit, mentions resolved pneumonia from last month",
+      "documentation_example": "Patient here for routine follow-up. Reports pneumonia last month was completely resolved with antibiotics. No current respiratory symptoms.",
+      "step_by_step": [
+        "Step 1: Identify current conditions - routine visit",
+        "Step 2: Identify resolved condition - pneumonia",
+        "Step 3: Assess if resolved condition affects current care - no impact",
+        "Step 4: Do not code resolved pneumonia",
+        "Step 5: Code reason for routine visit"
+      ],
+      "correct_coding": {
+        "primary_code": "Z00.00",
+        "secondary_codes": [],
+        "sequencing": "Routine visit as primary reason",
+        "rationale": "Do not code previously treated conditions that no longer exist and don't impact current care (Evidence: pg no: 114, L80)"
+      },
+      "incorrect_coding": {
+        "code": "J18.9",
+        "codes": [
+          "Z00.00",
+          "J18.9"
+        ],
+        "rationale": "Should not code resolved conditions not affecting current care",
+        "common_mistake": "Coding resolved conditions that don't impact current encounter"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not code previously treated conditions that no longer exist (Evidence: pg no: 114, L80)"
+    ],
+    "best_practices": [
+      "Code all conditions that require or affect current care (Evidence: pg no: 114, L79-L80)",
+      "Use history codes when past conditions impact current treatment (Evidence: pg no: 114, L80)",
+      "Exclude resolved conditions not affecting current care"
+    ],
+    "common_mistakes": [
+      "Coding resolved conditions that don't impact current care",
+      "Not coding relevant coexisting conditions",
+      "Not using history codes when appropriate"
+    ],
+    "tips": [
+      "Consider medication management as affecting current care",
+      "History codes are secondary codes only"
+    ],
+    "implementation_notes": [
+      "Requires clinical judgment on condition relevance",
+      "May require provider clarification on condition status"
+    ],
+    "clinical_context": [
+      "Comprehensive care often involves multiple conditions",
+      "Past medical history may influence current treatment decisions"
+    ]
+  },
+  "search_keywords": [
+    "coexisting conditions",
+    "comorbidities",
+    "history codes",
+    "resolved conditions",
+    "Z80-Z87",
+    "current care impact"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "coexisting_conditions",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "coexisting_conditions",
+      "history_codes",
+      "resolved_conditions",
+      "comprehensive_coding"
+    ]
+  },
+  "page_range_processed": "pages_111_to_114"
+}

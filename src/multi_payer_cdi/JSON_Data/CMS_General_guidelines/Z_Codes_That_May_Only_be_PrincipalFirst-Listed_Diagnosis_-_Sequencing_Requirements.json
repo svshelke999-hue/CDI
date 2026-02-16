@@ -1,0 +1,265 @@
+{
+  "guideline_id": "I.C.21.c.15",
+  "semantic_title": "Z Codes That May Only be Principal/First-Listed Diagnosis - Sequencing Requirements",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 21. Factors Influencing Health Status and Contact with Health Services (Z00-Z99) > c. Categories of Z Codes > 15. Z Codes That May Only be Principal/First-Listed Diagnosis",
+  "page_number": 105,
+  "content": {
+    "full_text": "The following Z codes/subcategories/categories may only be reported as the principal/first-listed diagnosis, except when there are multiple encounters on the same day and the medical records for the encounters are combined: Z00 Encounter for general examination without complaint, suspected or reported diagnosis Except: Z00.6, Z01 Encounter for other special examination without complaint, suspected or reported diagnosis, Z02 Encounter for administrative examination, Z04 Encounter for examination and observation for other reasons, Z33.2 Encounter for elective termination of pregnancy (Evidence: pg no: 105, L90-L99)",
+    "summary": "Specific Z codes that must be used as principal or first-listed diagnosis with exception for combined same-day encounters (Evidence: pg no: 105, L90-L99)",
+    "key_concepts": [
+      "Certain Z codes restricted to principal/first-listed position (Evidence: pg no: 105, L91-L92)",
+      "Exception for multiple same-day encounters with combined records (Evidence: pg no: 105, L92-L93)",
+      "Specific Z00.6 exception within Z00 category (Evidence: pg no: 105, L94)",
+      "Examination and observation codes included in restrictions (Evidence: pg no: 105, L95-L98)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "PRINCIPAL_FIRST_ONLY",
+        "rule_text": "The following Z codes/subcategories/categories may only be reported as the principal/first-listed diagnosis (Evidence: pg no: 105, L91-L92)",
+        "explanation": "Specific Z codes have sequencing restrictions requiring them to be used only as the primary diagnosis code (Evidence: pg no: 105, L91-L92)",
+        "importance": "critical",
+        "applies_to": "Z00 (except Z00.6), Z01, Z02, Z04, Z33.2",
+        "common_applications": [
+          "Examination encounters",
+          "Administrative encounters",
+          "Observation encounters"
+        ]
+      },
+      {
+        "rule_id": "SAME_DAY_EXCEPTION",
+        "rule_text": "Except when there are multiple encounters on the same day and the medical records for the encounters are combined (Evidence: pg no: 105, L92-L93)",
+        "explanation": "The principal/first-listed restriction is waived when multiple encounters occur on the same day and records are combined (Evidence: pg no: 105, L92-L93)",
+        "importance": "high",
+        "applies_to": "All restricted Z codes",
+        "common_applications": [
+          "Same-day multiple encounters",
+          "Combined medical records"
+        ]
+      },
+      {
+        "rule_id": "Z00_6_EXCEPTION",
+        "rule_text": "Z00 Encounter for general examination without complaint, suspected or reported diagnosis Except: Z00.6 (Evidence: pg no: 105, L93-L94)",
+        "explanation": "Within the Z00 category, Z00.6 is specifically excluded from the principal/first-listed restriction (Evidence: pg no: 105, L93-L94)",
+        "importance": "high",
+        "applies_to": "Z00.6",
+        "common_applications": [
+          "Specific examination scenarios where Z00.6 can be secondary"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify if encounter uses restricted Z code categories",
+      "Step 2: Verify Z code is from Z00 (except Z00.6), Z01, Z02, Z04, or Z33.2",
+      "Step 3: Check if multiple same-day encounters with combined records",
+      "Step 4: If not combined records, ensure Z code is principal/first-listed",
+      "Step 5: Apply Z00.6 exception if applicable"
+    ],
+    "related_terminology": [
+      "Principal diagnosis",
+      "First-listed diagnosis",
+      "Sequencing rules",
+      "Multiple encounters",
+      "Combined records",
+      "Same-day encounters",
+      "Examination encounters",
+      "Administrative encounters"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z00 (except Z00.6), Z01, Z02, Z04",
+        "description": "Examination and administrative encounter codes restricted to principal/first-listed position (Evidence: pg no: 105, L93-L98)",
+        "requirement": "Must be principal/first-listed diagnosis",
+        "usage_rules": [
+          "Exception for combined same-day encounters (Evidence: pg no: 105, L92-L93)",
+          "Z00.6 specifically excluded from restriction (Evidence: pg no: 105, L94)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "Z00",
+        "description": "Encounter for general examination without complaint, suspected or reported diagnosis (Evidence: pg no: 105, L93-L94)",
+        "context": "Must be principal/first-listed except Z00.6",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z00": "General examination encounters (except Z00.6)"
+        }
+      },
+      {
+        "code": "Z01",
+        "description": "Encounter for other special examination without complaint, suspected or reported diagnosis (Evidence: pg no: 105, L95-L96)",
+        "context": "Must be principal/first-listed",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z01": "Special examination encounters"
+        }
+      },
+      {
+        "code": "Z02",
+        "description": "Encounter for administrative examination (Evidence: pg no: 105, L97)",
+        "context": "Must be principal/first-listed",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z02": "Administrative examination encounters"
+        }
+      },
+      {
+        "code": "Z04",
+        "description": "Encounter for examination and observation for other reasons (Evidence: pg no: 105, L98)",
+        "context": "Must be principal/first-listed",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z04": "Examination and observation encounters"
+        }
+      },
+      {
+        "code": "Z33.2",
+        "description": "Encounter for elective termination of pregnancy (Evidence: pg no: 105, L99)",
+        "context": "Must be principal/first-listed",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z33.2": "Elective pregnancy termination"
+        }
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": "Z0X",
+        "description": "Examination and administrative codes with sequencing restrictions (Evidence: pg no: 105, L93-L98)",
+        "example": "Z00, Z01, Z02, Z04",
+        "explanation": "Most examination-related Z codes have principal/first-listed requirements"
+      }
+    ],
+    "code_categories_mentioned": [
+      "General examinations",
+      "Special examinations",
+      "Administrative examinations",
+      "Examination and observation",
+      "Elective pregnancy termination"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "ROUTINE_PHYSICAL_PRIMARY",
+      "scenario": "Annual physical examination as sole encounter reason",
+      "documentation_example": "Patient presents for annual routine physical examination",
+      "step_by_step": [
+        "Step 1: Identify encounter as routine general examination",
+        "Step 2: Determine appropriate Z00 code applies",
+        "Step 3: Verify this is not Z00.6 (which is excepted)",
+        "Step 4: Assign Z00 code as principal diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "Z00.00",
+        "secondary_codes": [],
+        "sequencing": "Must be principal/first-listed",
+        "rationale": "Z00 codes restricted to principal/first-listed position (Evidence: pg no: 105, L93-L94)"
+      },
+      "incorrect_coding": {
+        "code": "Secondary Z00.00",
+        "rationale": "Z00 codes cannot be used as secondary diagnoses",
+        "common_mistake": "Using restricted Z codes in secondary positions"
+      }
+    },
+    {
+      "scenario_id": "COMBINED_ENCOUNTERS",
+      "scenario": "Same-day routine physical and treatment encounter with combined records",
+      "documentation_example": "Patient had routine physical and treatment for hypertension on same day, records combined",
+      "step_by_step": [
+        "Step 1: Identify multiple encounters on same day",
+        "Step 2: Verify medical records are combined",
+        "Step 3: Apply same-day exception to sequencing rules",
+        "Step 4: Sequence based on encounter circumstances"
+      ],
+      "correct_coding": {
+        "primary_code": "I10",
+        "secondary_codes": [
+          "Z00.00"
+        ],
+        "sequencing": "Exception allows Z00 as secondary",
+        "rationale": "Same-day combined encounters exception permits flexible sequencing (Evidence: pg no: 105, L92-L93)"
+      },
+      "incorrect_coding": {
+        "code": "Z00.00 primary without exception",
+        "rationale": "Must consider same-day exception when applicable",
+        "common_mistake": "Not applying same-day combined encounter exception"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "Z00_6_EXCEPTION",
+      "scenario": "Z00.6 code used as secondary diagnosis",
+      "code_example": "Z00.6 as secondary",
+      "breakdown": {
+        "Z00.6": "Specific Z00 subcategory excepted from restriction (Evidence: pg no: 105, L94)"
+      },
+      "rationale": "Z00.6 specifically excluded from principal/first-listed requirement (Evidence: pg no: 105, L94)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Z00 (except Z00.6), Z01, Z02, Z04, Z33.2 must be principal/first-listed (Evidence: pg no: 105, L91-L99)",
+      "Exception only applies to same-day combined encounters (Evidence: pg no: 105, L92-L93)"
+    ],
+    "best_practices": [
+      "Verify sequencing requirements before assigning restricted Z codes",
+      "Apply same-day exception only when records are actually combined (Evidence: pg no: 105, L92-L93)",
+      "Remember Z00.6 exception within Z00 category (Evidence: pg no: 105, L94)"
+    ],
+    "common_mistakes": [
+      "Using restricted Z codes as secondary diagnoses inappropriately",
+      "Forgetting Z00.6 exception",
+      "Misapplying same-day exception when records not combined"
+    ],
+    "tips": [
+      "Check specific subcategory exceptions like Z00.6",
+      "Same-day exception requires combined medical records"
+    ],
+    "implementation_notes": [
+      "Sequencing rules ensure proper encounter characterization",
+      "Exceptions accommodate complex encounter scenarios"
+    ],
+    "clinical_context": [
+      "Routine examination encounters",
+      "Administrative medical encounters",
+      "Observation and evaluation encounters",
+      "Pregnancy termination encounters"
+    ]
+  },
+  "search_keywords": [
+    "principal diagnosis Z codes",
+    "first-listed Z codes",
+    "Z code sequencing",
+    "Z00 Z01 Z02 Z04",
+    "Z33.2 termination",
+    "same-day encounters",
+    "combined records",
+    "sequencing restrictions"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "z_code_sequencing",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "Z_codes",
+      "sequencing",
+      "principal_diagnosis",
+      "first_listed",
+      "examination_encounters"
+    ]
+  },
+  "page_range_processed": "pages_102_to_105"
+}

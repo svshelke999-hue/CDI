@@ -1,0 +1,217 @@
+{
+  "guideline_id": "I.C.15.e.1",
+  "semantic_title": "Fetal Conditions Affecting Maternal Management - O35 and O36 Categories",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 15. Chapter 15: Pregnancy, Childbirth, and the Puerperium > e. Fetal Conditions Affecting the Management of the Mother > 1) Codes from categories O35 and O36",
+  "page_number": 66,
+  "content": {
+    "full_text": "Codes from categories O35, Maternal care for known or suspected fetal abnormality and damage, and O36, Maternal care for other fetal problems, are assigned only when the fetal condition is actually responsible for modifying the management of the mother, i.e., by requiring diagnostic studies, additional observation, special care, or termination of pregnancy. The fact that the fetal condition exists does not justify assigning a code from this series to the mother's record. (Evidence: pg no: 66, L81-L83)",
+    "summary": "Guidelines for when to assign fetal condition codes that affect maternal management (Evidence: pg no: 66, L81-L83)",
+    "key_concepts": [
+      "O35 and O36 category scope (Evidence: pg no: 66, L82)",
+      "Management modification requirement (Evidence: pg no: 66, L82-L83)",
+      "Specific management changes (Evidence: pg no: 66, L83)",
+      "Existence vs impact distinction (Evidence: pg no: 66, L83)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.C.15.e.1.1",
+        "rule_text": "Assign O35/O36 codes only when fetal condition modifies maternal management (Evidence: pg no: 66, L82-L83)",
+        "explanation": "These codes are used only when the fetal condition actually changes how the mother is managed, not just because the condition exists (Evidence: pg no: 66, L82-L83)",
+        "importance": "critical",
+        "applies_to": "O35, O36",
+        "common_applications": [
+          "Fetal abnormalities requiring additional monitoring",
+          "Fetal conditions necessitating early delivery",
+          "Fetal problems requiring diagnostic studies"
+        ]
+      },
+      {
+        "rule_id": "I.C.15.e.1.2",
+        "rule_text": "Management modification includes diagnostic studies, additional observation, special care, or termination (Evidence: pg no: 66, L83)",
+        "explanation": "Specific examples of management changes that justify using these codes (Evidence: pg no: 66, L83)",
+        "importance": "high",
+        "applies_to": "O35, O36",
+        "common_applications": [
+          "Additional ultrasounds for fetal monitoring",
+          "Increased prenatal visits",
+          "Specialized fetal care",
+          "Pregnancy termination decisions"
+        ]
+      },
+      {
+        "rule_id": "I.C.15.e.1.3",
+        "rule_text": "Fetal condition existence alone does not justify code assignment (Evidence: pg no: 66, L83)",
+        "explanation": "The mere presence of a fetal condition without impact on maternal management does not warrant these codes (Evidence: pg no: 66, L83)",
+        "importance": "critical",
+        "applies_to": "O35, O36",
+        "common_applications": [
+          "Incidental fetal findings",
+          "Fetal conditions not affecting care plan",
+          "Minor fetal variations"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify fetal condition or abnormality",
+      "Step 2: Determine if condition is affecting maternal management",
+      "Step 3: Verify specific management changes (studies, observation, care, termination)",
+      "Step 4: Only assign O35/O36 codes if management is modified"
+    ],
+    "related_terminology": [
+      "Fetal abnormality",
+      "Maternal management",
+      "Diagnostic studies",
+      "Additional observation",
+      "Special care",
+      "Pregnancy termination"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "O35",
+        "description": "Maternal care for known or suspected fetal abnormality and damage (Evidence: pg no: 66, L82)",
+        "requirement": "Use only when fetal condition modifies maternal management",
+        "usage_rules": [
+          "Requires actual management modification (Evidence: pg no: 66, L82-L83)",
+          "Not for incidental fetal findings (Evidence: pg no: 66, L83)"
+        ]
+      },
+      {
+        "range": "O36",
+        "description": "Maternal care for other fetal problems (Evidence: pg no: 66, L82)",
+        "requirement": "Use only when fetal condition modifies maternal management",
+        "usage_rules": [
+          "Requires actual management modification (Evidence: pg no: 66, L82-L83)",
+          "Not for incidental fetal findings (Evidence: pg no: 66, L83)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Maternal care for fetal abnormality codes",
+      "Maternal care for fetal problems codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.15.e.2",
+        "title": "In utero surgery",
+        "relationship": "related_to",
+        "explanation": "Related to fetal conditions affecting maternal care"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "fetal_condition_1",
+      "scenario": "Fetal spina bifida detected, requiring weekly ultrasounds and early delivery planning",
+      "documentation_example": "Fetal spina bifida detected at 20 weeks, patient scheduled for weekly ultrasounds and delivery at 37 weeks at tertiary center",
+      "step_by_step": [
+        "Step 1: Identify fetal spina bifida",
+        "Step 2: Confirm management changes (weekly ultrasounds, early delivery planning)",
+        "Step 3: Assign O35.03X0 for maternal care for fetal spina bifida"
+      ],
+      "correct_coding": {
+        "primary_code": "O35.03X0",
+        "secondary_codes": [
+          "Z3A.20"
+        ],
+        "sequencing": "Fetal abnormality code as primary",
+        "rationale": "Fetal condition is modifying maternal management with additional monitoring and delivery planning (Evidence: pg no: 66, L82-L83)"
+      },
+      "incorrect_coding": {
+        "code": "",
+        "codes": [],
+        "rationale": "",
+        "common_mistake": "Not recognizing that management changes justify code assignment"
+      }
+    },
+    {
+      "scenario_id": "fetal_condition_2",
+      "scenario": "Minor fetal echogenic focus noted on ultrasound, no change in care plan",
+      "documentation_example": "Routine 20-week ultrasound shows echogenic intracardiac focus, patient counseled that this is likely normal variant, routine care continues",
+      "step_by_step": [
+        "Step 1: Identify echogenic focus finding",
+        "Step 2: Determine no management changes made",
+        "Step 3: Do not assign O35/O36 codes"
+      ],
+      "correct_coding": {
+        "primary_code": "Z34.02",
+        "secondary_codes": [
+          "Z3A.20"
+        ],
+        "sequencing": "Normal pregnancy supervision",
+        "rationale": "Fetal finding did not modify maternal management, so O35/O36 codes not appropriate (Evidence: pg no: 66, L83)"
+      },
+      "incorrect_coding": {
+        "code": "O35.9XX0",
+        "codes": [
+          "O35.9XX0"
+        ],
+        "rationale": "Should not use O35 code when no management modification occurs",
+        "common_mistake": "Using O35/O36 codes for incidental fetal findings"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not use O35/O36 codes just because fetal condition exists (Evidence: pg no: 66, L83)"
+    ],
+    "best_practices": [
+      "Verify that fetal condition is actually modifying maternal management (Evidence: pg no: 66, L82-L83)",
+      "Look for specific management changes like additional studies or monitoring",
+      "Document how fetal condition is affecting maternal care plan"
+    ],
+    "common_mistakes": [
+      "Using codes for incidental fetal findings",
+      "Not verifying management modification",
+      "Coding fetal conditions that don't affect maternal care"
+    ],
+    "tips": [
+      "Ask: 'Is this fetal condition changing how we manage the mother?'",
+      "Look for additional appointments, tests, or care modifications"
+    ],
+    "implementation_notes": [
+      "Requires clinical judgment about management impact",
+      "May need provider clarification on care plan changes"
+    ],
+    "clinical_context": [
+      "Maternal-fetal medicine consultations",
+      "High-risk pregnancy management",
+      "Fetal abnormality counseling"
+    ]
+  },
+  "search_keywords": [
+    "fetal abnormality",
+    "fetal problems",
+    "maternal management",
+    "O35 codes",
+    "O36 codes",
+    "diagnostic studies",
+    "additional observation"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "obstetric_coding",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "pregnancy",
+      "fetal_abnormality",
+      "maternal_management",
+      "O35",
+      "O36"
+    ]
+  },
+  "page_range_processed": "pages_63_to_66"
+}

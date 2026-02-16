@@ -1,0 +1,217 @@
+{
+  "guideline_id": "I.C.5.a",
+  "semantic_title": "Pain Disorders Related to Psychological Factors Coding",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 5. Chapter 5: Mental, Behavioral and Neurodevelopmental disorders > a. Pain disorders related to psychological factors",
+  "page_number": 43,
+  "content": {
+    "full_text": "Assign code F45.41, for pain that is exclusively related to psychological disorders. As indicated by the Excludes 1 note under category G89, a code from category G89 should not be assigned with code F45.41. Code F45.42, Pain disorders with related psychological factors, should be used with a code from category G89, Pain, not elsewhere classified, if there is documentation of a psychological component for a patient with acute or chronic pain. See Section I.C.6. Pain (Evidence: pg no: 43, L30-L32)",
+    "summary": "Provides guidance on coding pain disorders with psychological components, distinguishing between exclusively psychological pain and pain with psychological factors (Evidence: pg no: 43, L30-L32)",
+    "key_concepts": [
+      "Exclusively psychological pain (Evidence: pg no: 43, L30-L31)",
+      "Pain with psychological factors (Evidence: pg no: 43, L32)",
+      "Excludes 1 note implications (Evidence: pg no: 43, L31)",
+      "Combination coding requirements (Evidence: pg no: 43, L32)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "PSYCH_PAIN_001",
+        "rule_text": "Use F45.41 for pain exclusively related to psychological disorders (Evidence: pg no: 43, L30-L31)",
+        "explanation": "When pain has no physical basis and is entirely psychological in origin, use only F45.41 (Evidence: pg no: 43, L30-L31)",
+        "importance": "critical",
+        "applies_to": "F45.41",
+        "common_applications": [
+          "Conversion disorder pain",
+          "Somatoform pain disorder"
+        ]
+      },
+      {
+        "rule_id": "PSYCH_PAIN_002",
+        "rule_text": "Do not assign G89 codes with F45.41 (Evidence: pg no: 43, L31)",
+        "explanation": "The Excludes 1 note under G89 prohibits using G89 codes with F45.41 (Evidence: pg no: 43, L31)",
+        "importance": "critical",
+        "applies_to": "F45.41, G89",
+        "common_applications": [
+          "Exclusively psychological pain cases"
+        ]
+      },
+      {
+        "rule_id": "PSYCH_PAIN_003",
+        "rule_text": "Use F45.42 with G89 codes for pain with psychological factors (Evidence: pg no: 43, L32)",
+        "explanation": "When pain has both physical and psychological components, use both F45.42 and appropriate G89 code (Evidence: pg no: 43, L32)",
+        "importance": "critical",
+        "applies_to": "F45.42, G89",
+        "common_applications": [
+          "Chronic pain with depression",
+          "Acute pain with anxiety"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if pain is exclusively psychological",
+      "Step 2: If exclusively psychological, assign F45.41 only",
+      "Step 3: If pain has psychological factors but physical basis, assign F45.42",
+      "Step 4: Add appropriate G89 code for physical pain component",
+      "Step 5: Reference Section I.C.6 for additional pain coding guidance"
+    ],
+    "related_terminology": [
+      "Psychological pain",
+      "Somatoform disorders",
+      "Pain disorders",
+      "Psychological factors",
+      "Excludes 1 note"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "G89",
+        "description": "Pain, not elsewhere classified (Evidence: pg no: 43, L31-L32)",
+        "requirement": "Cannot be used with F45.41, must be used with F45.42",
+        "usage_rules": [
+          "Excludes F45.41 (Evidence: pg no: 43, L31)",
+          "Use with F45.42 for pain with psychological factors (Evidence: pg no: 43, L32)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "F45.41",
+        "description": "Pain disorder exclusively related to psychological factors (Evidence: pg no: 43, L30-L31)",
+        "context": "For pain with no physical basis",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "F45": "Somatoform disorders",
+          ".41": "Pain disorder exclusively related to psychological factors"
+        }
+      },
+      {
+        "code": "F45.42",
+        "description": "Pain disorders with related psychological factors (Evidence: pg no: 43, L32)",
+        "context": "For pain with both physical and psychological components",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "F45": "Somatoform disorders",
+          ".42": "Pain disorders with related psychological factors"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Somatoform disorders",
+      "Pain, not elsewhere classified"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.6",
+        "title": "Pain coding guidelines",
+        "relationship": "related_to",
+        "explanation": "Referenced for additional pain coding guidance"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "PSYCH_PAIN_001",
+      "scenario": "Patient with chronic back pain that has no identifiable physical cause, determined to be entirely psychological",
+      "documentation_example": "Chronic back pain, no physical findings, determined to be conversion disorder",
+      "step_by_step": [
+        "Step 1: Identify pain as exclusively psychological",
+        "Step 2: Assign F45.41 for psychological pain disorder",
+        "Step 3: Do not assign any G89 codes",
+        "Step 4: Verify no physical pain component documented"
+      ],
+      "correct_coding": {
+        "primary_code": "F45.41",
+        "secondary_codes": [],
+        "sequencing": "F45.41 only",
+        "rationale": "Pain is exclusively psychological with no physical basis (Evidence: pg no: 43, L30-L31)"
+      },
+      "incorrect_coding": {
+        "codes": [
+          "F45.41",
+          "G89.29"
+        ],
+        "rationale": "Cannot use G89 codes with F45.41 due to Excludes 1 note",
+        "common_mistake": "Adding G89 code to exclusively psychological pain"
+      }
+    },
+    {
+      "scenario_id": "PSYCH_PAIN_002",
+      "scenario": "Patient with chronic low back pain from herniated disc, also experiencing depression that worsens the pain perception",
+      "documentation_example": "Chronic low back pain from L4-L5 disc herniation, complicated by depression affecting pain perception",
+      "step_by_step": [
+        "Step 1: Identify physical pain component (disc herniation)",
+        "Step 2: Identify psychological component (depression affecting pain)",
+        "Step 3: Assign F45.42 for psychological factors",
+        "Step 4: Assign appropriate G89 code for chronic pain"
+      ],
+      "correct_coding": {
+        "primary_code": "G89.29",
+        "secondary_codes": [
+          "F45.42"
+        ],
+        "sequencing": "G89 code first, then F45.42",
+        "rationale": "Pain has both physical basis and psychological factors requiring both codes (Evidence: pg no: 43, L32)"
+      },
+      "incorrect_coding": {
+        "code": "F45.41",
+        "rationale": "F45.41 is for exclusively psychological pain, not pain with psychological factors",
+        "common_mistake": "Using F45.41 when pain has physical basis"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Never use G89 codes with F45.41 due to Excludes 1 note (Evidence: pg no: 43, L31)",
+      "Must distinguish between exclusively psychological vs. pain with psychological factors"
+    ],
+    "best_practices": [
+      "Carefully assess whether pain is exclusively psychological or has psychological factors (Evidence: pg no: 43, L30-L32)",
+      "Reference Section I.C.6 for additional pain coding guidance (Evidence: pg no: 43, L32)"
+    ],
+    "common_mistakes": [
+      "Using G89 codes with F45.41",
+      "Confusing F45.41 and F45.42 applications",
+      "Not recognizing psychological components in pain"
+    ],
+    "tips": [
+      "F45.41 = exclusively psychological pain (no G89)",
+      "F45.42 = pain with psychological factors (use with G89)"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Requires careful clinical assessment of pain etiology",
+      "Important for mental health and pain management settings"
+    ]
+  },
+  "search_keywords": [
+    "psychological pain",
+    "F45.41",
+    "F45.42",
+    "G89",
+    "somatoform pain",
+    "pain psychological factors"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "mental_behavioral_disorders",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "pain",
+      "psychological",
+      "somatoform",
+      "excludes"
+    ]
+  },
+  "page_range_processed": "pages_42_to_45"
+}

@@ -1,0 +1,243 @@
+{
+  "guideline_id": "I.C.12.a.2",
+  "semantic_title": "Unstageable Pressure Ulcers Coding Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 12. Chapter 12: Diseases of the Skin and Subcutaneous Tissue > a. Pressure ulcer stage codes > 2) Unstageable pressure ulcers",
+  "page_number": 59,
+  "content": {
+    "full_text": "Assignment of the code for unstageable pressure ulcer (L89.--0) should be based on the clinical documentation. These codes are used for pressure ulcers whose stage cannot be clinically determined (e.g., the ulcer is covered by eschar or has been treated with a skin or muscle graft). This code should not be confused with the codes for unspecified stage (L89.--9). When there is no documentation regarding the stage of the pressure ulcer, assign the appropriate code for unspecified stage (L89.--9). If during an encounter, the stage of an unstageable pressure ulcer is revealed after debridement, assign only the code for the stage revealed following debridement. (Evidence: pg no: 59, L36-L41)",
+    "summary": "Guidelines for distinguishing between unstageable and unspecified stage pressure ulcers, including coding after debridement (Evidence: pg no: 59, L36-L41)",
+    "key_concepts": [
+      "Unstageable vs unspecified stage distinction (Evidence: pg no: 59, L38-L39)",
+      "Clinical determination criteria (Evidence: pg no: 59, L36-L37)",
+      "Eschar and graft coverage examples (Evidence: pg no: 59, L37-L38)",
+      "Post-debridement coding rules (Evidence: pg no: 59, L41)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "UNSTAGEABLE_DEFINITION_001",
+        "rule_text": "Unstageable codes (L89.--0) are for ulcers whose stage cannot be clinically determined (Evidence: pg no: 59, L36-L37)",
+        "explanation": "Use unstageable codes when clinical assessment of stage is impossible due to physical barriers like eschar or grafts (Evidence: pg no: 59, L37-L38)",
+        "importance": "critical",
+        "applies_to": "L89.--0",
+        "common_applications": [
+          "Ulcers covered by eschar",
+          "Ulcers treated with skin grafts",
+          "Ulcers treated with muscle grafts"
+        ]
+      },
+      {
+        "rule_id": "UNSPECIFIED_VS_UNSTAGEABLE_001",
+        "rule_text": "Unspecified stage (L89.--9) is used when there is no documentation of stage, not when stage cannot be determined (Evidence: pg no: 59, L38-L39)",
+        "explanation": "Distinguish between lack of documentation (unspecified) and clinical inability to determine stage (unstageable) (Evidence: pg no: 59, L38-L39)",
+        "importance": "critical",
+        "applies_to": "L89.--9 vs L89.--0",
+        "common_applications": [
+          "Missing documentation scenarios",
+          "Clinical assessment limitations"
+        ]
+      },
+      {
+        "rule_id": "POST_DEBRIDEMENT_001",
+        "rule_text": "If stage is revealed after debridement during encounter, assign only the revealed stage code (Evidence: pg no: 59, L41)",
+        "explanation": "When debridement reveals the true stage during the same encounter, code only the revealed stage, not the unstageable code (Evidence: pg no: 59, L41)",
+        "importance": "high",
+        "applies_to": "L89 codes after debridement",
+        "common_applications": [
+          "Surgical debridement procedures",
+          "Wound care with eschar removal"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Assess if stage can be clinically determined",
+      "Step 2: If cannot be determined due to eschar/graft, use L89.--0",
+      "Step 3: If no documentation of stage, use L89.--9",
+      "Step 4: If debridement reveals stage during encounter, use revealed stage code only"
+    ],
+    "related_terminology": [
+      "Unstageable pressure ulcer",
+      "Unspecified stage",
+      "Eschar",
+      "Skin graft",
+      "Muscle graft",
+      "Debridement"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "L89.--0",
+        "description": "Unstageable pressure ulcer codes (Evidence: pg no: 59, L36)",
+        "context": "When stage cannot be clinically determined",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "L89": "Pressure ulcer category",
+          "--": "Site designation",
+          "0": "Unstageable"
+        }
+      },
+      {
+        "code": "L89.--9",
+        "description": "Unspecified stage pressure ulcer codes (Evidence: pg no: 59, L38-L39)",
+        "context": "When there is no documentation of stage",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "L89": "Pressure ulcer category",
+          "--": "Site designation",
+          "9": "Unspecified stage"
+        }
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": "L89.--0",
+        "description": "Unstageable pressure ulcer pattern (Evidence: pg no: 59, L36)",
+        "example": "L89.150 for unstageable sacral ulcer",
+        "explanation": "Site-specific unstageable coding"
+      },
+      {
+        "pattern": "L89.--9",
+        "description": "Unspecified stage pressure ulcer pattern (Evidence: pg no: 59, L38-L39)",
+        "example": "L89.159 for sacral ulcer, unspecified stage",
+        "explanation": "Site-specific unspecified stage coding"
+      }
+    ],
+    "code_categories_mentioned": []
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "UNSTAGEABLE_ESCHAR_001",
+      "scenario": "Pressure ulcer covered by eschar, stage cannot be determined",
+      "documentation_example": "Sacral pressure ulcer covered by thick eschar, stage cannot be clinically determined.",
+      "step_by_step": [
+        "Step 1: Identify pressure ulcer location (sacral)",
+        "Step 2: Note eschar coverage preventing staging",
+        "Step 3: Determine stage cannot be clinically assessed",
+        "Step 4: Assign unstageable code L89.150"
+      ],
+      "correct_coding": {
+        "primary_code": "L89.150",
+        "secondary_codes": [],
+        "sequencing": "Single code for unstageable ulcer",
+        "rationale": "Eschar prevents clinical stage determination, making ulcer unstageable (Evidence: pg no: 59, L37-L38)"
+      },
+      "incorrect_coding": {
+        "code": "L89.159",
+        "codes": [
+          "L89.159"
+        ],
+        "rationale": "This is unstageable due to eschar, not unspecified due to lack of documentation",
+        "common_mistake": "Confusing unstageable with unspecified stage"
+      }
+    },
+    {
+      "scenario_id": "POST_DEBRIDEMENT_001",
+      "scenario": "Unstageable ulcer becomes stage 3 after debridement during same encounter",
+      "documentation_example": "Sacral pressure ulcer initially unstageable due to eschar. After debridement, revealed to be stage 3.",
+      "step_by_step": [
+        "Step 1: Note initial unstageable status",
+        "Step 2: Identify debridement procedure during encounter",
+        "Step 3: Note stage 3 revealed after debridement",
+        "Step 4: Assign only stage 3 code, not unstageable"
+      ],
+      "correct_coding": {
+        "primary_code": "L89.153",
+        "secondary_codes": [],
+        "sequencing": "Only the revealed stage code",
+        "rationale": "When stage is revealed during encounter, code only the revealed stage (Evidence: pg no: 59, L41)"
+      },
+      "incorrect_coding": {
+        "code": "L89.150",
+        "codes": [
+          "L89.150",
+          "L89.153"
+        ],
+        "rationale": "Should not code both unstageable and revealed stage",
+        "common_mistake": "Coding both unstageable and revealed stage"
+      }
+    }
+  ],
+  "procedure_links": [
+    {
+      "cpt_code": "11042-11047",
+      "description": "Debridement procedures",
+      "relationship": "commonly_coded_with",
+      "context": "May reveal true stage of unstageable ulcers",
+      "note": "Consider impact on pressure ulcer coding"
+    }
+  ],
+  "examples": [
+    {
+      "example_id": "UNSTAGEABLE_EXAMPLES_001",
+      "scenario": "Different reasons for unstageable vs unspecified",
+      "code_example": "L89.--0 vs L89.--9",
+      "breakdown": {
+        "L89.--0": "Eschar covered, graft covered - cannot assess clinically (Evidence: pg no: 59, L37-L38)",
+        "L89.--9": "No documentation of stage in medical record (Evidence: pg no: 59, L38-L39)"
+      },
+      "rationale": "Clear distinction between clinical inability to assess vs documentation gaps (Evidence: pg no: 59, L36-L39)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not confuse unstageable (L89.--0) with unspecified stage (L89.--9) (Evidence: pg no: 59, L38)",
+      "When stage revealed after debridement, assign only revealed stage code (Evidence: pg no: 59, L41)"
+    ],
+    "best_practices": [
+      "Base unstageable assignment on clinical documentation (Evidence: pg no: 59, L36)",
+      "Verify reason for inability to stage",
+      "Check for debridement procedures that may reveal stage"
+    ],
+    "common_mistakes": [
+      "Using unstageable when documentation is simply missing",
+      "Coding both unstageable and revealed stage after debridement",
+      "Confusing the two code types"
+    ],
+    "tips": [
+      "Look for specific barriers to staging (eschar, grafts)",
+      "Distinguish between 'cannot determine' vs 'not documented'",
+      "Review procedure notes for debridement findings"
+    ],
+    "implementation_notes": [
+      "Requires clear clinical documentation of staging barriers",
+      "May need provider clarification on staging ability"
+    ],
+    "clinical_context": [
+      "Eschar formation common in severe ulcers",
+      "Grafts may obscure original ulcer characteristics",
+      "Debridement often performed for assessment"
+    ]
+  },
+  "search_keywords": [
+    "unstageable pressure ulcer",
+    "unspecified stage",
+    "L89.--0",
+    "L89.--9",
+    "eschar",
+    "debridement",
+    "pressure ulcer staging"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "skin_pressure_ulcers_staging",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "pressure ulcer",
+      "unstageable",
+      "unspecified",
+      "staging",
+      "debridement"
+    ]
+  },
+  "page_range_processed": "pages_57_to_60"
+}

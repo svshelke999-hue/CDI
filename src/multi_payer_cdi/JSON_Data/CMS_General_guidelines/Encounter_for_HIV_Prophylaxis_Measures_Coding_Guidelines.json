@@ -1,0 +1,127 @@
+{
+  "guideline_id": "I.C.1.a.k",
+  "semantic_title": "Encounter for HIV Prophylaxis Measures Coding Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 1. Chapter 1: Certain Infectious and Parasitic Diseases > a. Human Immunodeficiency Virus (HIV) Infections > k. Encounter for HIV Prophylaxis Measures",
+  "page_number": 22,
+  "content": {
+    "full_text": "When a patient presents for administration of pre-exposure prophylaxis medication for HIV, assign code Z29.81, Encounter for HIV pre-exposure prophylaxis. Pre-exposure prophylaxis (PrEP) is intended to prevent infection in people who are at risk for getting HIV through sex or injection drug use. Any risk factors for HIV should also be coded. (Evidence: pg no: 22, L44-L46)",
+    "summary": "Guidelines for coding encounters when patients receive HIV pre-exposure prophylaxis (PrEP) medication (Evidence: pg no: 22, L44-L46)",
+    "key_concepts": [
+      "Pre-exposure prophylaxis (PrEP) administration (Evidence: pg no: 22, L45)",
+      "HIV prevention for at-risk individuals (Evidence: pg no: 22, L45-L46)",
+      "Risk factor coding requirements (Evidence: pg no: 22, L46)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "HIV_PREP_CODE",
+        "rule_text": "When a patient presents for administration of pre-exposure prophylaxis medication for HIV, assign code Z29.81, Encounter for HIV pre-exposure prophylaxis (Evidence: pg no: 22, L44-L45)",
+        "explanation": "Specific code for encounters where the primary purpose is administration of HIV prevention medication (Evidence: pg no: 22, L44-L45)",
+        "importance": "critical",
+        "applies_to": "Z29.81",
+        "common_applications": [
+          "PrEP medication administration visits",
+          "HIV prevention clinic encounters"
+        ]
+      },
+      {
+        "rule_id": "HIV_PREP_RISK",
+        "rule_text": "Any risk factors for HIV should also be coded (Evidence: pg no: 22, L46)",
+        "explanation": "Additional codes should be assigned to identify specific HIV risk factors that justify PrEP therapy (Evidence: pg no: 22, L46)",
+        "importance": "high",
+        "applies_to": "risk_factor_codes",
+        "common_applications": [
+          "High-risk sexual behavior coding",
+          "Injection drug use risk factors"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Confirm encounter is for HIV pre-exposure prophylaxis administration",
+      "Step 2: Assign Z29.81 as primary code",
+      "Step 3: Identify and code any documented HIV risk factors",
+      "Step 4: Review documentation for additional relevant conditions"
+    ],
+    "related_terminology": [
+      "pre-exposure prophylaxis",
+      "PrEP",
+      "HIV prevention",
+      "risk factors",
+      "injection drug use",
+      "high-risk sexual behavior"
+    ]
+  },
+  "code_references": {
+    "specific_codes": [
+      {
+        "code": "Z29.81",
+        "description": "Encounter for HIV pre-exposure prophylaxis (Evidence: pg no: 22, L45)",
+        "context": "For encounters where patient receives PrEP medication administration",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "Z29": "Encounter for other prophylactic measures",
+          "81": "Encounter for HIV pre-exposure prophylaxis"
+        }
+      }
+    ],
+    "code_categories_mentioned": [
+      "Prophylactic measures codes",
+      "HIV risk factor codes"
+    ]
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "HIV_PREP_1",
+      "scenario": "Patient presents to clinic for PrEP medication due to high-risk sexual behavior",
+      "documentation_example": "Patient requesting PrEP due to multiple sexual partners and inconsistent condom use",
+      "step_by_step": [
+        "Step 1: Identify encounter purpose as PrEP administration",
+        "Step 2: Assign Z29.81 for HIV pre-exposure prophylaxis",
+        "Step 3: Code high-risk sexual behavior as risk factor",
+        "Step 4: Document prevention counseling if provided"
+      ],
+      "correct_coding": {
+        "primary_code": "Z29.81",
+        "secondary_codes": [
+          "appropriate risk factor codes"
+        ],
+        "sequencing": "Z29.81 first, risk factors as additional",
+        "rationale": "Primary encounter is for PrEP administration with documented risk factors requiring additional coding (Evidence: pg no: 22, L44-L46)"
+      }
+    }
+  ],
+  "special_notes": {
+    "best_practices": [
+      "Always code documented HIV risk factors in addition to Z29.81 (Evidence: pg no: 22, L46)",
+      "Ensure PrEP administration is the primary purpose of the encounter"
+    ],
+    "clinical_context": [
+      "PrEP is intended to prevent HIV infection in high-risk individuals (Evidence: pg no: 22, L45-L46)",
+      "Risk factors include sexual exposure and injection drug use (Evidence: pg no: 22, L46)"
+    ]
+  },
+  "search_keywords": [
+    "HIV PrEP",
+    "pre-exposure prophylaxis",
+    "Z29.81",
+    "HIV prevention",
+    "HIV risk factors",
+    "prophylaxis encounter"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "HIV infections",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "outpatient"
+    ],
+    "tags": [
+      "HIV",
+      "PrEP",
+      "prophylaxis",
+      "prevention",
+      "Z29.81",
+      "risk factors"
+    ]
+  },
+  "page_range_processed": "pages_21_to_24"
+}

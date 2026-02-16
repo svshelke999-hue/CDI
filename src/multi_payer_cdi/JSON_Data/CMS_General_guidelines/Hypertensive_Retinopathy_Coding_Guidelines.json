@@ -1,0 +1,232 @@
+{
+  "guideline_id": "I.C.9.a.5",
+  "semantic_title": "Hypertensive Retinopathy Coding Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 9. Chapter 9: Diseases of the Circulatory System > a. Hypertension > 5) Hypertensive Retinopathy",
+  "page_number": 51,
+  "content": {
+    "full_text": "Subcategory H35.0, Background retinopathy and retinal vascular changes, should be used along with a code from categories I10-I15, in the Hypertensive diseases section, to include the systemic hypertension. The sequencing is based on the reason for the encounter. (Evidence: pg no: 51, L78-L81)",
+    "summary": "Guidelines for coding hypertensive retinopathy using H35.0 subcategory with hypertension codes I10-I15, with sequencing determined by encounter reason (Evidence: pg no: 51, L78-L81)",
+    "key_concepts": [
+      "H35.0 subcategory for retinal vascular changes (Evidence: pg no: 51, L79)",
+      "I10-I15 codes for systemic hypertension (Evidence: pg no: 51, L79-L80)",
+      "Encounter-based sequencing (Evidence: pg no: 51, L81)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "HTN_RETINOPATHY_H35_I10",
+        "rule_text": "Use H35.0 subcategory with I10-I15 codes for hypertensive retinopathy (Evidence: pg no: 51, L78-L80)",
+        "explanation": "Subcategory H35.0 (Background retinopathy and retinal vascular changes) should be used along with a code from categories I10-I15 (Hypertensive diseases) to include the systemic hypertension (Evidence: pg no: 51, L78-L80)",
+        "importance": "high",
+        "applies_to": "Hypertensive retinopathy cases",
+        "common_applications": [
+          "Background diabetic retinopathy with hypertension",
+          "Hypertensive retinal vascular changes",
+          "Retinal changes due to systemic hypertension"
+        ]
+      },
+      {
+        "rule_id": "HTN_RETINOPATHY_SEQUENCING",
+        "rule_text": "Sequence codes based on the reason for the encounter (Evidence: pg no: 51, L81)",
+        "explanation": "The sequencing of the retinopathy code (H35.0) and hypertension code (I10-I15) is determined by the reason for the encounter or admission (Evidence: pg no: 51, L81)",
+        "importance": "high",
+        "applies_to": "All hypertensive retinopathy coding",
+        "common_applications": [
+          "Ophthalmology encounters for retinal changes",
+          "Primary care visits for hypertension management",
+          "Hospital admissions with either condition as primary focus"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify hypertensive retinopathy or retinal vascular changes",
+      "Step 2: Assign appropriate H35.0 subcategory code",
+      "Step 3: Identify systemic hypertension type",
+      "Step 4: Assign appropriate I10-I15 hypertension code",
+      "Step 5: Determine primary reason for encounter",
+      "Step 6: Sequence codes based on encounter reason"
+    ],
+    "related_terminology": [
+      "Hypertensive retinopathy",
+      "Background retinopathy",
+      "Retinal vascular changes",
+      "Systemic hypertension",
+      "Encounter-based sequencing",
+      "Ophthalmologic complications",
+      "Hypertensive eye disease"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "H35.0",
+        "description": "Background retinopathy and retinal vascular changes subcategory (Evidence: pg no: 51, L79)",
+        "requirement": "Use for hypertensive retinal changes",
+        "usage_rules": [
+          "Must be used with I10-I15 hypertension codes (Evidence: pg no: 51, L79-L80)",
+          "Sequencing based on encounter reason (Evidence: pg no: 51, L81)"
+        ]
+      },
+      {
+        "range": "I10-I15",
+        "description": "Hypertensive diseases section codes (Evidence: pg no: 51, L79-L80)",
+        "requirement": "Use to include systemic hypertension with retinopathy",
+        "usage_rules": [
+          "Required with H35.0 for complete coding (Evidence: pg no: 51, L79-L80)",
+          "Sequencing based on encounter reason (Evidence: pg no: 51, L81)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "H35.0x + I1x.x",
+        "description": "Retinopathy code with hypertension code (Evidence: pg no: 51, L78-L80)",
+        "example": "H35.03 + I10",
+        "explanation": "Combination of retinal vascular changes with systemic hypertension"
+      }
+    ],
+    "code_categories_mentioned": [
+      "H35.0 Background retinopathy and retinal vascular changes",
+      "I10-I15 Hypertensive diseases"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.9.a",
+        "title": "Hypertension general guidelines",
+        "relationship": "builds_upon",
+        "explanation": "Applies general hypertension coding principles to retinal complications"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "HTN_RETINOPATHY_EYE_1",
+      "scenario": "Patient seen in ophthalmology for hypertensive retinal changes",
+      "documentation_example": "Patient presents to ophthalmology clinic with background retinopathy and retinal vascular changes due to hypertension.",
+      "step_by_step": [
+        "Step 1: Identify retinal vascular changes as primary reason for encounter",
+        "Step 2: Assign appropriate H35.0 subcategory code",
+        "Step 3: Identify concurrent systemic hypertension",
+        "Step 4: Assign appropriate I10-I15 hypertension code",
+        "Step 5: Sequence retinopathy code first based on encounter reason"
+      ],
+      "correct_coding": {
+        "primary_code": "H35.03",
+        "secondary_codes": [
+          "I10"
+        ],
+        "sequencing": "Retinopathy first for ophthalmology encounter",
+        "rationale": "Retinal changes are primary reason for ophthalmology encounter (Evidence: pg no: 51, L81)"
+      },
+      "incorrect_coding": {
+        "code": "H35.03",
+        "codes": [
+          "H35.03"
+        ],
+        "rationale": "Should not omit hypertension code when retinopathy is hypertensive",
+        "common_mistake": "Coding retinopathy without associated systemic hypertension"
+      }
+    },
+    {
+      "scenario_id": "HTN_RETINOPATHY_HTN_1",
+      "scenario": "Patient seen for hypertension management with noted retinal changes",
+      "documentation_example": "Patient presents for hypertension follow-up. Examination reveals background retinopathy secondary to hypertension.",
+      "step_by_step": [
+        "Step 1: Identify hypertension management as primary reason for encounter",
+        "Step 2: Assign appropriate I10-I15 hypertension code",
+        "Step 3: Identify concurrent retinal vascular changes",
+        "Step 4: Assign appropriate H35.0 subcategory code",
+        "Step 5: Sequence hypertension code first based on encounter reason"
+      ],
+      "correct_coding": {
+        "primary_code": "I10",
+        "secondary_codes": [
+          "H35.03"
+        ],
+        "sequencing": "Hypertension first for hypertension management encounter",
+        "rationale": "Hypertension management is primary reason for encounter (Evidence: pg no: 51, L81)"
+      },
+      "incorrect_coding": {
+        "code": "I10",
+        "codes": [
+          "I10"
+        ],
+        "rationale": "Should not omit retinopathy code when hypertensive retinal changes documented",
+        "common_mistake": "Missing retinal complications in hypertension encounters"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "HTN_RETINOPATHY_EX1",
+      "scenario": "Hypertensive background retinopathy",
+      "code_example": "H35.03 + I10",
+      "breakdown": {
+        "H35.03": "Hypertensive retinopathy, bilateral (Evidence: pg no: 51, L79)",
+        "I10": "Essential hypertension (Evidence: pg no: 51, L79-L80)"
+      },
+      "rationale": "Both retinal changes and systemic hypertension must be coded (Evidence: pg no: 51, L78-L80)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Must include both retinopathy and hypertension codes (Evidence: pg no: 51, L79-L80)",
+      "Do not sequence arbitrarily - use encounter reason (Evidence: pg no: 51, L81)"
+    ],
+    "best_practices": [
+      "Always code both H35.0 and I10-I15 for hypertensive retinopathy (Evidence: pg no: 51, L78-L80)",
+      "Sequence based on primary reason for encounter (Evidence: pg no: 51, L81)"
+    ],
+    "common_mistakes": [
+      "Coding retinopathy without associated hypertension code (Evidence: pg no: 51, L79-L80)",
+      "Ignoring encounter reason for sequencing (Evidence: pg no: 51, L81)"
+    ],
+    "tips": [
+      "H35.0 subcategory covers background retinopathy and retinal vascular changes (Evidence: pg no: 51, L79)",
+      "I10-I15 range includes all hypertensive diseases (Evidence: pg no: 51, L79-L80)"
+    ],
+    "implementation_notes": [
+      "Requires both ophthalmologic and systemic disease coding",
+      "Encounter reason determines sequencing priority"
+    ],
+    "clinical_context": [
+      "Retinal changes are common complications of hypertension",
+      "May be detected during routine eye exams or hypertension management",
+      "Indicates need for both ophthalmologic and cardiovascular care"
+    ]
+  },
+  "search_keywords": [
+    "hypertensive retinopathy",
+    "background retinopathy",
+    "retinal vascular changes",
+    "H35.0",
+    "I10-I15",
+    "systemic hypertension",
+    "encounter sequencing",
+    "ophthalmologic complications",
+    "hypertensive eye disease"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "circulatory_system_hypertensive_retinopathy",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "hypertension",
+      "retinopathy",
+      "H35.0",
+      "I10-I15",
+      "sequencing",
+      "ophthalmology"
+    ]
+  },
+  "page_range_processed": "pages_48_to_51"
+}

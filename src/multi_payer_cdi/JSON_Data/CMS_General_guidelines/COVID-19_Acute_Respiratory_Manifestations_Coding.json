@@ -1,0 +1,284 @@
+{
+  "guideline_id": "I.C.1.g.1.c",
+  "semantic_title": "COVID-19 Acute Respiratory Manifestations Coding",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 1. Certain Infectious and Parasitic Diseases > g. Coronavirus infections > 1) COVID-19 infection > (c) Acute respiratory manifestations of COVID-19",
+  "page_number": 29,
+  "content": {
+    "full_text": "When the reason for the encounter/admission is a respiratory manifestation of COVID-19, assign code U07.1, COVID-19, as the principal/first-listed diagnosis and assign code(s) for the respiratory manifestation(s) as additional diagnoses. The following conditions are examples of common respiratory manifestations of COVID-19. (i) Pneumonia: For a patient with pneumonia confirmed as due to COVID-19, assign codes U07.1, COVID-19, and J12.82, Pneumonia due to coronavirus disease 2019. (ii) Acute bronchitis: For a patient with acute bronchitis confirmed as due to COVID-19, assign codes U07.1, and J20.8, Acute bronchitis due to other specified organisms. Bronchitis not otherwise specified (NOS) due to COVID-19 should be coded using code U07.1 and J40, Bronchitis, not specified as acute or chronic. (iii) Lower respiratory infection: If the COVID-19 is documented as being associated with a lower respiratory infection, not otherwise specified (NOS), or an acute respiratory infection, NOS, codes U07.1 and J22, Unspecified acute lower respiratory infection, should be assigned. If the COVID-19 is documented as being associated with a respiratory infection, NOS, codes U07.1 and J98.8, Other specified respiratory disorders, should be assigned. (iv) Acute respiratory distress syndrome: For acute respiratory distress syndrome (ARDS) due to COVID-19, assign codes U07.1, and J80, Acute respiratory distress syndrome. (v) Acute respiratory failure: For acute respiratory failure due to COVID-19, assign code U07.1, and code J96.0-, Acute respiratory failure. (Evidence: pg no: 29-30, L56-L79)",
+    "summary": "Comprehensive guidelines for coding COVID-19 with various acute respiratory manifestations (Evidence: pg no: 29-30, L56-L79)",
+    "key_concepts": [
+      "Respiratory manifestation as reason for encounter (Evidence: pg no: 29, L57)",
+      "U07.1 as principal diagnosis (Evidence: pg no: 29, L58)",
+      "Specific respiratory manifestation codes (Evidence: pg no: 29, L60-L79)",
+      "Multiple respiratory condition examples (Evidence: pg no: 29, L60-L79)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "COVID_RESP_001",
+        "rule_text": "U07.1 as principal diagnosis for respiratory manifestations (Evidence: pg no: 29, L57-L59)",
+        "explanation": "When respiratory manifestation is the reason for encounter, COVID-19 should be sequenced first with respiratory codes as additional (Evidence: pg no: 29, L57-L59)",
+        "importance": "high",
+        "applies_to": "U07.1 and respiratory codes",
+        "common_applications": [
+          "COVID-19 pneumonia",
+          "COVID-19 acute bronchitis",
+          "COVID-19 respiratory failure"
+        ]
+      },
+      {
+        "rule_id": "COVID_RESP_002",
+        "rule_text": "Specific code combinations for different respiratory manifestations (Evidence: pg no: 29, L62-L79)",
+        "explanation": "Different respiratory manifestations require specific code combinations with U07.1 (Evidence: pg no: 29, L62-L79)",
+        "importance": "high",
+        "applies_to": "Various respiratory codes",
+        "common_applications": [
+          "Pneumonia: U07.1 + J12.82",
+          "Acute bronchitis: U07.1 + J20.8",
+          "ARDS: U07.1 + J80"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify respiratory manifestation as reason for encounter",
+      "Step 2: Assign U07.1 as principal diagnosis",
+      "Step 3: Determine specific respiratory manifestation",
+      "Step 4: Assign appropriate respiratory code as additional diagnosis"
+    ],
+    "related_terminology": [
+      "Respiratory manifestations",
+      "Principal diagnosis",
+      "Pneumonia",
+      "Acute bronchitis",
+      "ARDS",
+      "Respiratory failure"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "J96.0-",
+        "description": "Acute respiratory failure (Evidence: pg no: 30, L79)",
+        "requirement": "Use with U07.1 for COVID-19 respiratory failure",
+        "usage_rules": [
+          "Requires fourth character specification (Evidence: pg no: 30, L79)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "U07.1",
+        "description": "COVID-19 (Evidence: pg no: 29, L58)",
+        "context": "Principal diagnosis for respiratory manifestations",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "U07": "Emergency use codes for COVID-19",
+          "1": "COVID-19"
+        }
+      },
+      {
+        "code": "J12.82",
+        "description": "Pneumonia due to coronavirus disease 2019 (Evidence: pg no: 29, L63-L64)",
+        "context": "Use with U07.1 for COVID-19 pneumonia",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "J12": "Viral pneumonia, not elsewhere classified",
+          "82": "Coronavirus disease 2019"
+        }
+      },
+      {
+        "code": "J20.8",
+        "description": "Acute bronchitis due to other specified organisms (Evidence: pg no: 29, L67)",
+        "context": "Use with U07.1 for COVID-19 acute bronchitis",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "J20": "Acute bronchitis",
+          "8": "Other specified organisms"
+        }
+      },
+      {
+        "code": "J40",
+        "description": "Bronchitis, not specified as acute or chronic (Evidence: pg no: 29, L67)",
+        "context": "Use with U07.1 for COVID-19 bronchitis NOS",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "J40": "Bronchitis, not specified as acute or chronic"
+        }
+      },
+      {
+        "code": "J22",
+        "description": "Unspecified acute lower respiratory infection (Evidence: pg no: 29, L70)",
+        "context": "Use with U07.1 for COVID-19 lower respiratory infection NOS",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "J22": "Unspecified acute lower respiratory infection"
+        }
+      },
+      {
+        "code": "J98.8",
+        "description": "Other specified respiratory disorders (Evidence: pg no: 29, L71)",
+        "context": "Use with U07.1 for COVID-19 respiratory infection NOS",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "J98": "Other respiratory disorders",
+          "8": "Other specified"
+        }
+      },
+      {
+        "code": "J80",
+        "description": "Acute respiratory distress syndrome (Evidence: pg no: 30, L76)",
+        "context": "Use with U07.1 for COVID-19 ARDS",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "J80": "Acute respiratory distress syndrome"
+        }
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": "U07.1 + respiratory manifestation code",
+        "description": "Standard pattern for COVID-19 respiratory manifestations (Evidence: pg no: 29, L57-L59)",
+        "example": "U07.1 + J12.82 for COVID-19 pneumonia",
+        "explanation": "COVID-19 sequenced first, respiratory manifestation second"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Respiratory manifestation codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "COVID_RESP_SC001",
+      "scenario": "Patient admitted with COVID-19 pneumonia",
+      "documentation_example": "Patient admitted with pneumonia due to COVID-19",
+      "step_by_step": [
+        "Step 1: Identify pneumonia as respiratory manifestation",
+        "Step 2: Assign U07.1 as principal diagnosis",
+        "Step 3: Assign J12.82 as additional diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "U07.1",
+        "secondary_codes": [
+          "J12.82"
+        ],
+        "sequencing": "COVID-19 first, pneumonia second",
+        "rationale": "Respiratory manifestation requires U07.1 first, then specific respiratory code (Evidence: pg no: 29, L57-L59, L63-L64)"
+      },
+      "incorrect_coding": {
+        "code": "J12.82",
+        "codes": [
+          "J12.82"
+        ],
+        "rationale": "Missing COVID-19 code",
+        "common_mistake": "Coding only the manifestation without COVID-19"
+      }
+    },
+    {
+      "scenario_id": "COVID_RESP_SC002",
+      "scenario": "Patient with COVID-19 acute respiratory failure",
+      "documentation_example": "Patient with acute respiratory failure due to COVID-19",
+      "step_by_step": [
+        "Step 1: Identify acute respiratory failure",
+        "Step 2: Assign U07.1 as principal diagnosis",
+        "Step 3: Assign J96.0- with appropriate fourth character"
+      ],
+      "correct_coding": {
+        "primary_code": "U07.1",
+        "secondary_codes": [
+          "J96.00"
+        ],
+        "sequencing": "COVID-19 first, respiratory failure second",
+        "rationale": "Acute respiratory failure requires U07.1 and J96.0- (Evidence: pg no: 30, L78-L79)"
+      },
+      "incorrect_coding": {
+        "code": "J96.0",
+        "codes": [
+          "J96.0"
+        ],
+        "rationale": "Missing COVID-19 code and incomplete respiratory failure code",
+        "common_mistake": "Not using complete code with fourth character"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "COVID_RESP_EX001",
+      "scenario": "COVID-19 pneumonia coding",
+      "code_example": "U07.1 + J12.82",
+      "breakdown": {
+        "U07.1": "COVID-19 as principal diagnosis (Evidence: pg no: 29, L63)",
+        "J12.82": "Pneumonia due to coronavirus disease 2019 (Evidence: pg no: 29, L63-L64)"
+      },
+      "rationale": "Standard combination for COVID-19 pneumonia (Evidence: pg no: 29, L63-L64)"
+    },
+    {
+      "example_id": "COVID_RESP_EX002",
+      "scenario": "COVID-19 ARDS coding",
+      "code_example": "U07.1 + J80",
+      "breakdown": {
+        "U07.1": "COVID-19 as principal diagnosis (Evidence: pg no: 30, L75)",
+        "J80": "Acute respiratory distress syndrome (Evidence: pg no: 30, L76)"
+      },
+      "rationale": "Standard combination for COVID-19 ARDS (Evidence: pg no: 30, L75-L76)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Different respiratory manifestations require specific code combinations (Evidence: pg no: 29, L62-L79)"
+    ],
+    "best_practices": [
+      "Always sequence U07.1 first for respiratory manifestations",
+      "Use specific respiratory codes based on documentation",
+      "Include fourth character for codes requiring it"
+    ],
+    "common_mistakes": [
+      "Coding only the respiratory manifestation without COVID-19",
+      "Incorrect sequencing of codes",
+      "Using incomplete codes missing required characters"
+    ],
+    "tips": [
+      "Memorize common COVID-19 respiratory code combinations",
+      "Check for NOS vs specific manifestations",
+      "Verify fourth character requirements"
+    ],
+    "implementation_notes": [
+      "Multiple specific code combinations provided",
+      "Covers most common respiratory manifestations"
+    ],
+    "clinical_context": [
+      "Respiratory manifestations are common in COVID-19",
+      "Severity can range from bronchitis to ARDS"
+    ]
+  },
+  "search_keywords": [
+    "COVID-19 respiratory",
+    "COVID pneumonia",
+    "COVID bronchitis",
+    "COVID ARDS",
+    "respiratory failure",
+    "U07.1",
+    "J12.82"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "infectious_diseases",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "COVID-19",
+      "respiratory_manifestations",
+      "pneumonia",
+      "ARDS",
+      "bronchitis"
+    ]
+  },
+  "page_range_processed": "pages_27_to_30"
+}

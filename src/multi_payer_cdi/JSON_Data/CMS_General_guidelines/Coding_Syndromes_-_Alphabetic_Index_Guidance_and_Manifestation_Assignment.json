@@ -1,0 +1,163 @@
+{
+  "guideline_id": "I.A.15",
+  "semantic_title": "Coding Syndromes - Alphabetic Index Guidance and Manifestation Assignment",
+  "section_path": "Section I > A. Conventions > 15. Syndromes",
+  "page_number": 16,
+  "content": {
+    "full_text": "Follow the Alphabetic Index guidance when coding syndromes. In the absence of Alphabetic Index guidance, assign codes for the documented manifestations of the syndrome. Additional codes for manifestations that are not an integral part of the disease process may also be assigned when the condition does not have a unique code. (Evidence: pg no: 16, L47-L48)",
+    "summary": "Provides guidance for coding syndromes using Alphabetic Index first, then manifestation codes when specific guidance is not available (Evidence: pg no: 16, L47-L48)",
+    "key_concepts": [
+      "Alphabetic Index priority for syndrome coding (Evidence: pg no: 16, L47)",
+      "Manifestation coding in absence of index guidance (Evidence: pg no: 16, L47-L48)",
+      "Additional codes for non-integral manifestations (Evidence: pg no: 16, L48)",
+      "Unique code availability consideration (Evidence: pg no: 16, L48)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.A.15.1",
+        "rule_text": "Follow the Alphabetic Index guidance when coding syndromes (Evidence: pg no: 16, L47)",
+        "explanation": "The Alphabetic Index takes priority when specific guidance exists for coding a particular syndrome (Evidence: pg no: 16, L47)",
+        "importance": "high",
+        "applies_to": "syndrome_codes",
+        "common_applications": [
+          "Named syndromes with specific index entries",
+          "Complex syndromes with established coding patterns"
+        ]
+      },
+      {
+        "rule_id": "I.A.15.2",
+        "rule_text": "In the absence of Alphabetic Index guidance, assign codes for the documented manifestations (Evidence: pg no: 16, L47-L48)",
+        "explanation": "When the Alphabetic Index does not provide specific guidance for a syndrome, code the individual manifestations that are documented (Evidence: pg no: 16, L47-L48)",
+        "importance": "high",
+        "applies_to": "syndrome_codes",
+        "common_applications": [
+          "Rare syndromes without specific index entries",
+          "Newly described syndromes",
+          "Syndrome variants"
+        ]
+      },
+      {
+        "rule_id": "I.A.15.3",
+        "rule_text": "Additional codes for manifestations that are not an integral part of the disease process may also be assigned when the condition does not have a unique code (Evidence: pg no: 16, L48)",
+        "explanation": "Non-integral manifestations can be coded separately when the syndrome lacks a unique code that captures all aspects (Evidence: pg no: 16, L48)",
+        "importance": "medium",
+        "applies_to": "syndrome_codes",
+        "common_applications": [
+          "Complications of syndromes",
+          "Secondary manifestations",
+          "Associated conditions"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Check the Alphabetic Index for specific syndrome guidance",
+      "Step 2: If index guidance exists, follow it",
+      "Step 3: If no index guidance, identify documented manifestations",
+      "Step 4: Assign codes for each documented manifestation",
+      "Step 5: Consider additional codes for non-integral manifestations if no unique code exists"
+    ],
+    "related_terminology": [
+      "Syndromes",
+      "Alphabetic Index",
+      "Manifestations",
+      "Disease process",
+      "Unique code",
+      "Integral manifestations",
+      "Non-integral manifestations"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Syndrome codes",
+      "Manifestation codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "I.A.15.S1",
+      "scenario": "Patient with documented syndrome not found in Alphabetic Index",
+      "documentation_example": "Patient with XYZ syndrome presenting with hypertension, diabetes, and cardiomyopathy",
+      "step_by_step": [
+        "Step 1: Search Alphabetic Index for XYZ syndrome",
+        "Step 2: No specific guidance found",
+        "Step 3: Identify documented manifestations: hypertension, diabetes, cardiomyopathy",
+        "Step 4: Assign individual codes for each manifestation"
+      ],
+      "correct_coding": {
+        "primary_code": "I10 (Essential hypertension)",
+        "secondary_codes": [
+          "E11.9 (Type 2 diabetes without complications)",
+          "I42.9 (Cardiomyopathy, unspecified)"
+        ],
+        "sequencing": "Code manifestations individually",
+        "rationale": "Without Alphabetic Index guidance, code the documented manifestations (Evidence: pg no: 16, L47-L48)"
+      },
+      "incorrect_coding": {
+        "code": "R68.89 (Other general symptoms)",
+        "rationale": "Should not use unspecified symptom codes when specific manifestations are documented",
+        "common_mistake": "Using vague codes instead of specific manifestation codes"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not assume syndrome coding without checking Alphabetic Index first (Evidence: pg no: 16, L47)"
+    ],
+    "best_practices": [
+      "Always consult Alphabetic Index first for syndrome coding (Evidence: pg no: 16, L47)",
+      "Code all documented manifestations when no specific syndrome code exists (Evidence: pg no: 16, L47-L48)"
+    ],
+    "common_mistakes": [
+      "Skipping Alphabetic Index consultation",
+      "Using unspecified codes when specific manifestations are documented",
+      "Missing non-integral manifestations that should be coded separately"
+    ],
+    "tips": [
+      "Document review should identify all manifestations of the syndrome",
+      "Consider whether manifestations are integral or additional to the syndrome"
+    ],
+    "implementation_notes": [
+      "Syndrome coding may require multiple codes",
+      "Clinical documentation should support all coded manifestations"
+    ],
+    "clinical_context": [
+      "Syndromes often present with multiple organ system involvement",
+      "Complete manifestation coding provides better clinical picture"
+    ]
+  },
+  "search_keywords": [
+    "syndrome coding",
+    "alphabetic index",
+    "manifestations",
+    "integral manifestations",
+    "non-integral manifestations",
+    "unique code",
+    "disease process",
+    "syndrome manifestations"
+  ],
+  "metadata": {
+    "category": "convention",
+    "subcategory": "syndrome_coding",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "syndromes",
+      "manifestations",
+      "alphabetic_index",
+      "multiple_codes"
+    ]
+  },
+  "page_range_processed": "pages_15_to_18"
+}

@@ -1,0 +1,137 @@
+CDI Expert Review Report (AI “Improved Chart” vs Medical Record Evidence)
+Folder: test_mult_for_report/5
+Prepared: 2026-02-02
+
+Scope / Files Reviewed
+- 1) 5.txt (AI “improved” orthopedic consultation note with AI-added sections + physician-input placeholders)
+- 2) multi_chart_1769772659_20260130_170059_numbered_chart.txt (raw medical record text: consult note + operative note)
+- 3) multi_chart_1769772659_20260130_170059.json (raw AI output with “improvements”, “user_input_required”, “recommendations”)
+
+Case synopsis (record-based)
+- 88-year-old male with mechanical fall → left hip pain and inability to ambulate.
+- Imaging: XR AP pelvis + femur demonstrates “left displaced femoral neck hip fracture with preexisting degenerative joint disease.”
+- Decision documented: proceed with left total hip replacement (THA) given preexisting OA/DJD.
+- Operative note: left total hip replacement for intracapsular displaced femoral neck fracture + incisional negative pressure wound therapy; post-op WBAT and DVT prophylaxis with Eliquis.
+
+Method (how the “test” was done)
+- Extracted AI-added items and “needs physician input” prompts from:
+  - 5.txt tags: [AI ADDED], [⚠️ PHYSICIAN INPUT REQUIRED]
+  - JSON: enhanced_by_ai.user_input_required and enhanced_by_ai.recommendations
+- Cross-checked each suggestion against the raw consult + operative note to label:
+  - PRESENT (already documented),
+  - PARTIAL (some elements present but incomplete),
+  - MISSING (not found / needs clarification).
+
+Key CDI finding (high-signal)
+- The improved chart lists several “missing” items that are already present in the record, particularly in the operative note:
+  - Post-op WB status, DVT prophylaxis medication + duration, PT/OT plan, and antibiotic plan.
+- The highest-yield true gaps are: standardized pain score/character, quantified social history (alcohol quantity; smoking pack-years), and formal fracture classification (Garden) if used/required.
+
+================================================================================
+Section A — “AI Added” improvements (what the AI changed/added)
+Source: JSON enhanced_by_ai.improvements (partial) + visible content in 5.txt
+
+1) Structure / headers / problem-oriented format
+- AI-added: organized note into labeled sections (HPI, PMH, vitals, exam, plan, risk assessment, post-op plan).
+- Evidence check: NOT APPLICABLE (formatting).
+
+2) Medical necessity narrative emphasis
+- AI-added: explicit medical necessity framing for surgery and prompts for payer-required specifics.
+- Evidence check: PRESENT IN SUBSTANCE (raw consult note contains strong narrative about morbidity/mortality risk without treatment and rationale for operative vs non-operative management).
+
+================================================================================
+Section B — Physician-input suggestions (AI prompts) + evidence check
+Sources:
+- 5.txt prompts
+- JSON enhanced_by_ai.user_input_required (pain, baseline function, neurovascular detail grading, imaging details, post-op plan, DVT regimen)
+
+1) Pain assessment details (0–10, character, aggravating/alleviating factors, functional limitation)
+- AI prompt priority: HIGH
+- Evidence check: PARTIAL
+  - PRESENT: functional limitation (inability to ambulate); pain worse with ROM; mechanism described.
+  - MISSING: numeric pain score (0–10), pain character, and relieving factors.
+
+2) Baseline functional status / living situation / ADLs / assistive devices
+- AI prompt priority: MEDIUM (JSON) and social history prompt in 5.txt
+- Evidence check: PARTIAL
+  - PRESENT: baseline ambulates without assistive device.
+  - MISSING: living situation/home setup/support system and ADL/IADL baseline.
+
+3) Detailed neurovascular exam with motor strength grading 0–5
+- AI prompt priority: HIGH
+- Evidence check: PARTIAL
+  - PRESENT: motor function documented (ankle DF/PF/EHL intact) and sensation distribution + pulses documented.
+  - MISSING: graded strength (0–5) and more granular sensory description.
+
+4) Imaging specifics to support procedure selection (Garden classification; displacement degree; OA/DJD description)
+- AI prompt priority: HIGH
+- Evidence check: PARTIAL
+  - PRESENT: “left displaced femoral neck hip fracture with preexisting degenerative joint disease.”
+  - MISSING: formal Garden classification and displacement descriptors (e.g., impacted vs fully displaced) beyond “displaced”.
+
+5) Post-op weight-bearing and rehab protocol
+- AI prompt priority: MEDIUM
+- Evidence check: PRESENT (operative note: WBAT; PT/OT OOB and ambulation).
+
+6) DVT prophylaxis regimen (med, duration, monitoring)
+- AI prompt priority: MEDIUM
+- Evidence check: PRESENT (operative note: Eliquis 2.5 BID x 28 days).
+
+================================================================================
+Section C — AI recommendations (JSON recommendations array) + evidence check
+
+1) Document pain severity (0–10) and functional limitations (Priority: HIGH)
+- Evidence check: PARTIAL (functional limitation present; pain score missing).
+
+2) Document Garden classification + detailed OA description to support THA vs hemi decision (Priority: HIGH)
+- Evidence check: PARTIAL
+  - OA/DJD is explicitly documented.
+  - Garden classification is not documented in provided notes.
+
+3) Explicit medical necessity section: why THA vs hemi for this specific patient (Priority: HIGH)
+- Evidence check: PRESENT IN SUBSTANCE
+  - Consult explicitly states decision for THA “given his preexisting osteoarthritis of the left hip.”
+  - If payer requires more: add brief statement that THA addresses both fracture and symptomatic OA and supports functional expectations (only if accurate).
+
+4) Document comprehensive post-op plan (WB, DVT, rehab) (Priority: MEDIUM)
+- Evidence check: PRESENT (operative note documents WBAT, PT/OT, DVT, pain control, antibiotics, dispo pending PT/OT).
+
+================================================================================
+Section D — CDI expert opinion: additional opportunities (case-specific)
+
+1) PMH/PSH completeness inconsistency
+- Observation: consult’s PMHx/PSHx sections state “No past medical/surgical history on file” while HPI lists multiple comorbidities (HTN/HLD/CAD s/p MI+stents/CKD3/anemia/IBS/aortic stenosis).
+- CDI opportunity: ensure PMH is populated consistently (even if “per patient” or “per chart”) to avoid internal contradictions.
+
+2) Procedure selection documentation (THA for fracture)
+- Strength: imaging documents preexisting DJD and consult states THA chosen for that reason.
+- Opportunity: add a short structured justification (fracture type + OA + baseline function) if payer tends to scrutinize THA vs hemi in acute fracture cases.
+
+3) AKI on CKD / dialysis risk
+- Strength: consult and op note mention AKI on CKD and dialysis risk; “medicine cleared/optimized” is documented.
+- Opportunity: ensure medical optimization details are available in medical/hospitalist note set (outside these ortho notes).
+
+4) NPWT indication
+- Strength: operative note provides rationale: obesity + CKD + high infection risk.
+- This is typically sufficient and supports coding for NPWT (<50 sq cm).
+
+================================================================================
+Section E — Suggested compliant CDI query list (record-grounded)
+
+1) Pain score/character
+- Query: Please document pain score (0–10) and pain character (sharp/dull, etc.) if assessed.
+
+2) Fracture classification details
+- Query: Please document fracture classification (Garden, if used) and any additional displacement/stability details from imaging.
+
+3) Baseline function and living situation
+- Query: Please document pre-injury functional status (ADLs/IADLs, assistive device use) and living situation/support.
+
+4) PMH/PSH reconciliation
+- Query: Please reconcile PMH/PSH sections to align with comorbidities referenced in HPI (HTN/HLD/CAD/CKD/anemia/aortic stenosis, etc.).
+
+Bottom line
+- AI recommendations are mostly reasonable, but several “missing” items are already documented (DJD rationale for THA; post-op plan including WBAT + Eliquis; NPWT rationale).
+- Highest-yield remaining gaps: pain score/character, quantified social history, baseline function/living support, and formal Garden classification if required.
+
+

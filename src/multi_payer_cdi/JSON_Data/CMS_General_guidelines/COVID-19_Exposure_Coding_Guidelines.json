@@ -1,0 +1,203 @@
+{
+  "guideline_id": "I.C.1.g.1.e",
+  "semantic_title": "COVID-19 Exposure Coding Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 1. Certain Infectious and Parasitic Diseases > g. Coronavirus infections > 1) COVID-19 infection > (e) Exposure to COVID-19",
+  "page_number": 30,
+  "content": {
+    "full_text": "For asymptomatic individuals with actual or suspected exposure to COVID-19, assign code Z20.822, Contact with and (suspected) exposure to COVID-19. For symptomatic individuals with actual or suspected exposure to COVID-19 and the infection has been ruled out, or test results are inconclusive or unknown, assign code Z20.822, Contact with and (suspected) exposure to COVID-19. See guideline I.C.21.c.1, Contact/Exposure, for additional guidance regarding the use of category Z20 codes. If COVID-19 is confirmed, see guideline I.C.1.g.1.a. (Evidence: pg no: 30, L84-L90)",
+    "summary": "Guidelines for coding COVID-19 exposure in both asymptomatic and symptomatic individuals (Evidence: pg no: 30, L84-L90)",
+    "key_concepts": [
+      "Asymptomatic exposure coding (Evidence: pg no: 30, L85-L87)",
+      "Symptomatic exposure with ruled out infection (Evidence: pg no: 30, L88-L89)",
+      "Z20.822 for exposure situations (Evidence: pg no: 30, L86-L87, L89)",
+      "Cross-reference to other guidelines (Evidence: pg no: 30, L89-L90)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "COVID_EXP_001",
+        "rule_text": "Use Z20.822 for asymptomatic individuals with COVID-19 exposure (Evidence: pg no: 30, L85-L87)",
+        "explanation": "Asymptomatic individuals with actual or suspected COVID-19 exposure should be coded with Z20.822 (Evidence: pg no: 30, L85-L87)",
+        "importance": "high",
+        "applies_to": "Z20.822",
+        "common_applications": [
+          "Asymptomatic close contacts",
+          "Workplace exposure screening",
+          "Household exposure"
+        ]
+      },
+      {
+        "rule_id": "COVID_EXP_002",
+        "rule_text": "Use Z20.822 for symptomatic individuals with exposure when infection ruled out (Evidence: pg no: 30, L88-L89)",
+        "explanation": "Symptomatic individuals with COVID-19 exposure where infection has been ruled out or test results are inconclusive should be coded with Z20.822 (Evidence: pg no: 30, L88-L89)",
+        "importance": "high",
+        "applies_to": "Z20.822",
+        "common_applications": [
+          "Negative test results with exposure",
+          "Inconclusive test results",
+          "Symptoms with ruled out COVID-19"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if individual has COVID-19 exposure",
+      "Step 2: Assess symptom status",
+      "Step 3: Check if COVID-19 has been confirmed or ruled out",
+      "Step 4: Assign Z20.822 for exposure situations",
+      "Step 5: Consider additional symptom codes if applicable"
+    ],
+    "related_terminology": [
+      "Asymptomatic exposure",
+      "Symptomatic exposure",
+      "Ruled out infection",
+      "Inconclusive test results",
+      "Contact tracing"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "Z20.822",
+        "description": "Contact with and (suspected) exposure to COVID-19 (Evidence: pg no: 30, L86-L87, L89)",
+        "context": "Use for exposure situations when COVID-19 not confirmed",
+        "requires_additional_codes": "check_code_notes",
+        "breakdown": {
+          "Z20": "Contact with and exposure to communicable diseases",
+          "822": "COVID-19"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Z20 category codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.21.c.1",
+        "title": "Contact/Exposure",
+        "relationship": "related_to",
+        "explanation": "Additional guidance for Z20 category codes"
+      },
+      {
+        "guideline_id": "I.C.1.g.1.a",
+        "title": "COVID-19 confirmed cases",
+        "relationship": "related_to",
+        "explanation": "Referenced for confirmed COVID-19 cases"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "COVID_EXP_SC001",
+      "scenario": "Asymptomatic individual with COVID-19 exposure",
+      "documentation_example": "Asymptomatic patient with known exposure to COVID-19",
+      "step_by_step": [
+        "Step 1: Identify asymptomatic status",
+        "Step 2: Confirm COVID-19 exposure",
+        "Step 3: Assign Z20.822"
+      ],
+      "correct_coding": {
+        "primary_code": "Z20.822",
+        "secondary_codes": [],
+        "sequencing": "Z20.822 as primary code",
+        "rationale": "Asymptomatic exposure requires Z20.822 (Evidence: pg no: 30, L85-L87)"
+      },
+      "incorrect_coding": {
+        "code": "U07.1",
+        "codes": [
+          "U07.1"
+        ],
+        "rationale": "Should not use COVID-19 code for exposure without confirmed infection",
+        "common_mistake": "Using COVID-19 code for exposure situations"
+      }
+    },
+    {
+      "scenario_id": "COVID_EXP_SC002",
+      "scenario": "Symptomatic individual with COVID-19 exposure, infection ruled out",
+      "documentation_example": "Patient with fever and cough, COVID-19 exposure, negative test result",
+      "step_by_step": [
+        "Step 1: Identify symptoms and exposure",
+        "Step 2: Confirm COVID-19 ruled out",
+        "Step 3: Assign Z20.822",
+        "Step 4: Consider symptom codes"
+      ],
+      "correct_coding": {
+        "primary_code": "Z20.822",
+        "secondary_codes": [
+          "R50.9",
+          "R05.9"
+        ],
+        "sequencing": "Exposure code first, then symptoms",
+        "rationale": "Symptomatic exposure with ruled out infection uses Z20.822 (Evidence: pg no: 30, L88-L89)"
+      },
+      "incorrect_coding": {
+        "code": "R50.9",
+        "codes": [
+          "R50.9",
+          "R05.9"
+        ],
+        "rationale": "Missing the exposure code when exposure is documented",
+        "common_mistake": "Coding only symptoms without exposure code"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not use for confirmed COVID-19 cases (Evidence: pg no: 30, L90)"
+    ],
+    "best_practices": [
+      "Use Z20.822 for both asymptomatic and symptomatic exposure",
+      "Check cross-referenced guidelines for additional Z20 guidance",
+      "Consider symptom codes for symptomatic patients"
+    ],
+    "common_mistakes": [
+      "Using COVID-19 code for exposure situations",
+      "Not coding exposure when documented",
+      "Confusion between exposure and confirmed infection"
+    ],
+    "tips": [
+      "Exposure does not equal infection",
+      "Test results can be negative, positive, or inconclusive",
+      "Symptom status affects coding approach"
+    ],
+    "implementation_notes": [
+      "Important for contact tracing and public health",
+      "Cross-references provide additional guidance"
+    ],
+    "clinical_context": [
+      "Common in pandemic situations",
+      "Important for infection control measures"
+    ]
+  },
+  "search_keywords": [
+    "COVID-19 exposure",
+    "Z20.822",
+    "contact tracing",
+    "asymptomatic exposure",
+    "symptomatic exposure",
+    "ruled out COVID"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "infectious_diseases",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "COVID-19",
+      "exposure",
+      "contact_tracing",
+      "Z20.822",
+      "asymptomatic"
+    ]
+  },
+  "page_range_processed": "pages_27_to_30"
+}

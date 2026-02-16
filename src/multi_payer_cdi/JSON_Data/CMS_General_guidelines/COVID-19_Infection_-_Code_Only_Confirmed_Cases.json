@@ -1,0 +1,169 @@
+{
+  "guideline_id": "I.C.1.g.1.a",
+  "semantic_title": "COVID-19 Infection - Code Only Confirmed Cases",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 1. Certain Infectious and Parasitic Diseases > g. Coronavirus infections > 1) COVID-19 infection > (a) Code only confirmed cases",
+  "page_number": 28,
+  "content": {
+    "full_text": "Code only a confirmed diagnosis of the 2019 novel coronavirus disease (COVID-19) as documented by the provider. For a confirmed diagnosis, assign code U07.1, COVID-19. This is an exception to the hospital inpatient guideline Section II, H. In this context, \"confirmation\" does not require documentation of a positive test result for COVID-19; the provider's documentation that the individual has COVID-19 is sufficient. If the provider documents \"suspected,\" \"possible,\" \"probable,\" or \"inconclusive\" COVID-19, do not assign code U07.1. Instead, code the signs and symptoms reported. See guideline I.C.1.g.1.g. (Evidence: pg no: 28, L39-L43)",
+    "summary": "Guidelines for coding COVID-19 infections, requiring confirmed diagnosis and providing alternatives for suspected cases (Evidence: pg no: 28, L39-L43)",
+    "key_concepts": [
+      "Confirmed diagnosis requirement (Evidence: pg no: 28, L40)",
+      "Exception to hospital inpatient guidelines (Evidence: pg no: 28, L41)",
+      "Provider documentation sufficient (Evidence: pg no: 28, L41-L42)",
+      "Alternative coding for suspected cases (Evidence: pg no: 28, L42-L43)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "COVID_CONF_001",
+        "rule_text": "Code only confirmed diagnosis of COVID-19 as U07.1 (Evidence: pg no: 28, L40)",
+        "explanation": "Only assign U07.1 when the provider has documented a confirmed diagnosis of COVID-19 (Evidence: pg no: 28, L40-L42)",
+        "importance": "critical",
+        "applies_to": "U07.1",
+        "common_applications": [
+          "Provider documented confirmed COVID-19",
+          "Clinical diagnosis of COVID-19"
+        ]
+      },
+      {
+        "rule_id": "COVID_CONF_002",
+        "rule_text": "Do not assign U07.1 for suspected, possible, probable, or inconclusive COVID-19 (Evidence: pg no: 28, L42)",
+        "explanation": "When documentation indicates uncertainty about COVID-19 diagnosis, code the signs and symptoms instead (Evidence: pg no: 28, L42-L43)",
+        "importance": "critical",
+        "applies_to": "U07.1",
+        "common_applications": [
+          "Suspected COVID-19 cases",
+          "Probable COVID-19 cases",
+          "Inconclusive test results"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Review provider documentation for COVID-19 diagnosis",
+      "Step 2: Determine if diagnosis is confirmed or suspected",
+      "Step 3: If confirmed, assign U07.1",
+      "Step 4: If suspected, assign symptom codes"
+    ],
+    "related_terminology": [
+      "Confirmed diagnosis",
+      "2019 novel coronavirus disease",
+      "COVID-19",
+      "SARS-CoV-2"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "U07.1",
+        "description": "COVID-19 (Evidence: pg no: 28, L40)",
+        "context": "Use only for confirmed diagnosis",
+        "requires_additional_codes": "check_code_notes",
+        "breakdown": {
+          "U07": "Emergency use codes for COVID-19",
+          "1": "COVID-19"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Signs and symptoms codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "II.H",
+        "title": "Hospital inpatient guideline",
+        "relationship": "applies_concept",
+        "explanation": "This is an exception to the general hospital inpatient coding guidelines"
+      },
+      {
+        "guideline_id": "I.C.1.g.1.g",
+        "title": "Signs and symptoms without definitive diagnosis of COVID-19",
+        "relationship": "related_to",
+        "explanation": "Referenced for coding suspected cases"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "COVID_SC001",
+      "scenario": "Patient with confirmed COVID-19 diagnosis",
+      "documentation_example": "Patient diagnosed with COVID-19",
+      "step_by_step": [
+        "Step 1: Identify confirmed diagnosis documentation",
+        "Step 2: Assign U07.1"
+      ],
+      "correct_coding": {
+        "primary_code": "U07.1",
+        "secondary_codes": [],
+        "sequencing": "U07.1 as primary diagnosis",
+        "rationale": "Provider confirmed diagnosis allows use of U07.1 (Evidence: pg no: 28, L40-L42)"
+      },
+      "incorrect_coding": {
+        "code": "U07.1",
+        "codes": [
+          "U07.1"
+        ],
+        "rationale": "Should not be used for suspected cases",
+        "common_mistake": "Using U07.1 for suspected or probable COVID-19"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not assign U07.1 for suspected, possible, probable, or inconclusive COVID-19 (Evidence: pg no: 28, L42)",
+      "This is an exception to hospital inpatient guidelines (Evidence: pg no: 28, L41)"
+    ],
+    "best_practices": [
+      "Confirmation does not require positive test documentation (Evidence: pg no: 28, L41-L42)",
+      "Provider's documentation is sufficient for confirmation",
+      "Code signs and symptoms when diagnosis is not confirmed"
+    ],
+    "common_mistakes": [
+      "Using U07.1 for suspected or probable cases",
+      "Requiring test result documentation for confirmation"
+    ],
+    "tips": [
+      "Look for provider's confirmation statement",
+      "Clinical diagnosis is acceptable",
+      "Use symptom codes for uncertain diagnoses"
+    ],
+    "implementation_notes": [
+      "Exception to general hospital inpatient coding rules",
+      "Provider confirmation is key criterion"
+    ],
+    "clinical_context": [
+      "Important for pandemic tracking",
+      "COVID-19 has multiple system manifestations"
+    ]
+  },
+  "search_keywords": [
+    "COVID-19",
+    "U07.1",
+    "confirmed diagnosis",
+    "suspected COVID",
+    "coronavirus",
+    "SARS-CoV-2"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "infectious_diseases",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "COVID-19",
+      "confirmed_diagnosis",
+      "coronavirus",
+      "exception"
+    ]
+  },
+  "page_range_processed": "pages_27_to_30"
+}

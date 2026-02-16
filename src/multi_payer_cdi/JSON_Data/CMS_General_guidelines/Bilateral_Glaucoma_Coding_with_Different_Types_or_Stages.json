@@ -1,0 +1,227 @@
+{
+  "guideline_id": "I.C.6.a.2.3",
+  "semantic_title": "Bilateral Glaucoma Coding with Different Types or Stages",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 7. Chapter 7: Diseases of the Eye and Adnexa > a. Glaucoma > 3) Bilateral glaucoma stage with different types or stages",
+  "page_number": 49,
+  "content": {
+    "full_text": "When a patient has bilateral glaucoma and each eye is documented as having a different type or stage, and the classification distinguishes laterality, assign the appropriate code for each eye rather than the code for bilateral glaucoma. When a patient has bilateral glaucoma and each eye is documented as having a different type, and the classification does not distinguish laterality (i.e., subcategories H40.10, and H40.20), assign one code for each type of glaucoma with the appropriate seventh character for the stage. When a patient has bilateral glaucoma and each eye is documented as having the same type, but different stage, and the classification does not distinguish laterality (i.e., subcategories H40.10 and H40.20), assign a code for the type of glaucoma for each eye with the seventh character for the specific glaucoma stage documented for each eye. (Evidence: pg no: 49, L21-L26)",
+    "summary": "Guidelines for coding bilateral glaucoma when eyes have different types or stages, with specific instructions based on whether classification distinguishes laterality (Evidence: pg no: 49, L21-L26)",
+    "key_concepts": [
+      "Bilateral glaucoma with different characteristics per eye (Evidence: pg no: 49, L21)",
+      "Laterality distinction in classification (Evidence: pg no: 49, L22-L23)",
+      "Seventh character usage for staging (Evidence: pg no: 49, L24-L26)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "GLAU_BILATERAL_DIFF_LATERAL",
+        "rule_text": "When classification distinguishes laterality, assign appropriate code for each eye rather than bilateral code (Evidence: pg no: 49, L22)",
+        "explanation": "For bilateral glaucoma with different types or stages per eye, use individual eye codes when laterality codes are available in the classification system (Evidence: pg no: 49, L21-L22)",
+        "importance": "high",
+        "applies_to": "H40 category codes with laterality distinction",
+        "common_applications": [
+          "Different glaucoma types in each eye",
+          "Same type but different stages per eye"
+        ]
+      },
+      {
+        "rule_id": "GLAU_BILATERAL_NO_LATERAL_TYPE",
+        "rule_text": "When classification does not distinguish laterality and different types exist, assign one code for each type with appropriate seventh character (Evidence: pg no: 49, L23-L24)",
+        "explanation": "For subcategories like H40.10 and H40.20 that lack laterality distinction, use separate codes for each glaucoma type with proper staging characters (Evidence: pg no: 49, L23-L24)",
+        "importance": "high",
+        "applies_to": "H40.10, H40.20 subcategories",
+        "common_applications": [
+          "Primary open-angle glaucoma variations",
+          "Primary angle-closure glaucoma variations"
+        ]
+      },
+      {
+        "rule_id": "GLAU_BILATERAL_NO_LATERAL_STAGE",
+        "rule_text": "When same type but different stages and no laterality distinction, assign code for each eye with specific seventh character for documented stage (Evidence: pg no: 49, L25-L26)",
+        "explanation": "Use individual codes with eye-specific seventh characters when bilateral glaucoma has same type but different stages and classification lacks laterality codes (Evidence: pg no: 49, L25-L26)",
+        "importance": "high",
+        "applies_to": "H40.10, H40.20 subcategories",
+        "common_applications": [
+          "Bilateral primary glaucoma with different progression stages",
+          "Same glaucoma type with asymmetric progression"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify bilateral glaucoma with different characteristics per eye",
+      "Step 2: Determine if classification system distinguishes laterality for the glaucoma type",
+      "Step 3: If laterality distinguished, assign separate codes for each eye",
+      "Step 4: If no laterality distinction, assign codes based on type differences or stage differences",
+      "Step 5: Apply appropriate seventh characters for staging"
+    ],
+    "related_terminology": [
+      "Bilateral glaucoma",
+      "Laterality",
+      "Glaucoma staging",
+      "Seventh character",
+      "Classification distinction"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "H40",
+        "description": "Glaucoma category codes (Evidence: pg no: 49, L21)",
+        "requirement": "Use multiple codes for bilateral cases with different characteristics",
+        "usage_rules": [
+          "Consider laterality availability in subcategory (Evidence: pg no: 49, L22)",
+          "Apply appropriate seventh characters for staging (Evidence: pg no: 49, L24, L26)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "H40.10",
+        "description": "Unspecified open-angle glaucoma subcategory without laterality distinction (Evidence: pg no: 49, L23, L25)",
+        "context": "Used when bilateral glaucoma has different characteristics and no laterality codes available",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "H40": "Glaucoma category",
+          "10": "Unspecified open-angle type",
+          "seventh_character": "Indicates stage"
+        }
+      },
+      {
+        "code": "H40.20",
+        "description": "Unspecified primary angle-closure glaucoma subcategory without laterality distinction (Evidence: pg no: 49, L23, L25)",
+        "context": "Used when bilateral glaucoma has different characteristics and no laterality codes available",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "H40": "Glaucoma category",
+          "20": "Unspecified primary angle-closure type",
+          "seventh_character": "Indicates stage"
+        }
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": "H40.xx with seventh character",
+        "description": "Glaucoma codes with staging characters (Evidence: pg no: 49, L24, L26)",
+        "example": "H40.101 for right eye stage 1",
+        "explanation": "Seventh character indicates glaucoma stage for specific eye"
+      }
+    ],
+    "code_categories_mentioned": [
+      "H40 Glaucoma codes with laterality considerations"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.6.a.1",
+        "title": "Assigning Glaucoma Codes",
+        "relationship": "builds_upon",
+        "explanation": "Builds upon basic glaucoma coding principles for complex bilateral cases"
+      },
+      {
+        "guideline_id": "I.C.6.a.2",
+        "title": "Bilateral glaucoma with same type and stage",
+        "relationship": "related_to",
+        "explanation": "Contrasts with same type/stage bilateral coding approach"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "GLAU_BILATERAL_DIFF_1",
+      "scenario": "Patient with primary open-angle glaucoma, mild stage in right eye and moderate stage in left eye",
+      "documentation_example": "Bilateral primary open-angle glaucoma: OD mild stage, OS moderate stage",
+      "step_by_step": [
+        "Step 1: Identify bilateral glaucoma with same type but different stages",
+        "Step 2: Check if classification distinguishes laterality for this glaucoma type",
+        "Step 3: If no laterality distinction (like H40.10), assign separate codes",
+        "Step 4: Apply seventh characters for each eye's documented stage"
+      ],
+      "correct_coding": {
+        "primary_code": "H40.101",
+        "secondary_codes": [
+          "H40.102"
+        ],
+        "sequencing": "Code each eye separately with appropriate staging",
+        "rationale": "Different stages require separate codes when laterality not distinguished in classification (Evidence: pg no: 49, L25-L26)"
+      },
+      "incorrect_coding": {
+        "code": "H40.10X3",
+        "codes": [
+          "Single bilateral code"
+        ],
+        "rationale": "Cannot use single bilateral code when eyes have different stages",
+        "common_mistake": "Using bilateral code when individual eye characteristics differ"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "GLAU_BILATERAL_EX1",
+      "scenario": "Bilateral glaucoma with different types per eye",
+      "code_example": "H40.10 and H40.20 with appropriate seventh characters",
+      "breakdown": {
+        "H40.10": "Open-angle glaucoma type (Evidence: pg no: 49, L23)",
+        "H40.20": "Angle-closure glaucoma type (Evidence: pg no: 49, L23)",
+        "seventh_characters": "Stage indicators for each eye (Evidence: pg no: 49, L24)"
+      },
+      "rationale": "Different types require separate codes when laterality not distinguished (Evidence: pg no: 49, L23-L24)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not use bilateral codes when eyes have different characteristics (Evidence: pg no: 49, L22)",
+      "Check classification system for laterality availability before coding (Evidence: pg no: 49, L22-L23)"
+    ],
+    "best_practices": [
+      "Always verify laterality distinction in classification before selecting codes (Evidence: pg no: 49, L22-L23)",
+      "Use eye-specific seventh characters when coding different stages (Evidence: pg no: 49, L26)"
+    ],
+    "common_mistakes": [
+      "Using bilateral codes when individual eye codes are more appropriate (Evidence: pg no: 49, L22)",
+      "Ignoring stage differences between eyes (Evidence: pg no: 49, L25-L26)"
+    ],
+    "tips": [
+      "H40.10 and H40.20 are examples of subcategories without laterality distinction (Evidence: pg no: 49, L23, L25)",
+      "Each eye gets its own code and staging when laterality not available (Evidence: pg no: 49, L24, L26)"
+    ],
+    "implementation_notes": [
+      "Classification system determines coding approach",
+      "Seventh characters are crucial for accurate staging"
+    ],
+    "clinical_context": [
+      "Glaucoma often progresses asymmetrically between eyes",
+      "Different glaucoma types can occur simultaneously in bilateral cases"
+    ]
+  },
+  "search_keywords": [
+    "bilateral glaucoma",
+    "different types",
+    "different stages",
+    "laterality",
+    "H40.10",
+    "H40.20",
+    "seventh character",
+    "glaucoma staging",
+    "eye coding"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "eye_and_adnexa_glaucoma",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "glaucoma",
+      "bilateral",
+      "staging",
+      "laterality",
+      "eye_diseases"
+    ]
+  },
+  "page_range_processed": "pages_48_to_51"
+}

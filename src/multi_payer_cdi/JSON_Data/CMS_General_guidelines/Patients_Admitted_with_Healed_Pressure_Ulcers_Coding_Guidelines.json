@@ -1,0 +1,155 @@
+{
+  "guideline_id": "I.C.12.a.4",
+  "semantic_title": "Patients Admitted with Healed Pressure Ulcers Coding Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 12. Chapter 12: Diseases of the Skin and Subcutaneous Tissue > a. Pressure ulcer stage codes > 4) Patients admitted with pressure ulcers documented as healed",
+  "page_number": 59,
+  "content": {
+    "full_text": "No code is assigned if the documentation states that the pressure ulcer is completely healed at the time of admission. (Evidence: pg no: 59, L44-L45)",
+    "summary": "Clear guideline that completely healed pressure ulcers at admission should not be coded (Evidence: pg no: 59, L44-L45)",
+    "key_concepts": [
+      "No coding for completely healed ulcers (Evidence: pg no: 59, L44-L45)",
+      "Admission time assessment (Evidence: pg no: 59, L45)",
+      "Complete healing requirement (Evidence: pg no: 59, L44-L45)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "HEALED_ADMISSION_001",
+        "rule_text": "No code assigned for pressure ulcers completely healed at admission (Evidence: pg no: 59, L44-L45)",
+        "explanation": "When documentation clearly states the pressure ulcer is completely healed at the time of admission, no pressure ulcer code should be assigned (Evidence: pg no: 59, L44-L45)",
+        "importance": "critical",
+        "applies_to": "L89 codes",
+        "common_applications": [
+          "History of pressure ulcers",
+          "Previously treated ulcers",
+          "Admission assessments"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Review admission documentation",
+      "Step 2: Verify ulcer healing status",
+      "Step 3: Confirm complete healing at admission",
+      "Step 4: Do not assign pressure ulcer code"
+    ],
+    "related_terminology": [
+      "Completely healed",
+      "Admission status",
+      "Pressure ulcer history"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "L89",
+        "description": "Pressure ulcer codes not used for healed ulcers (Evidence: pg no: 59, L44-L45)",
+        "requirement": "Do not assign when completely healed at admission",
+        "usage_rules": [
+          "Only assign for active pressure ulcers (Evidence: pg no: 59, L44-L45)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": []
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "HEALED_ADMISSION_001",
+      "scenario": "Patient admitted with history of healed sacral pressure ulcer",
+      "documentation_example": "Patient has history of sacral pressure ulcer which is completely healed at time of admission.",
+      "step_by_step": [
+        "Step 1: Note history of pressure ulcer",
+        "Step 2: Verify current status - completely healed",
+        "Step 3: Confirm healing at admission time",
+        "Step 4: Do not assign L89 code"
+      ],
+      "correct_coding": {
+        "primary_code": "No L89 code",
+        "secondary_codes": [],
+        "sequencing": "No pressure ulcer coding needed",
+        "rationale": "Completely healed pressure ulcers at admission are not coded (Evidence: pg no: 59, L44-L45)"
+      },
+      "incorrect_coding": {
+        "code": "L89.159",
+        "codes": [
+          "Any L89 code"
+        ],
+        "rationale": "Should not code healed pressure ulcers",
+        "common_mistake": "Coding history of pressure ulcers that are healed"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "HEALED_ULCER_001",
+      "scenario": "Completely healed pressure ulcer documentation",
+      "code_example": "No code assigned",
+      "breakdown": {
+        "Documentation": "Pressure ulcer completely healed at admission (Evidence: pg no: 59, L44-L45)",
+        "Coding action": "No L89 code assigned",
+        "Rationale": "Healed ulcers are not active conditions requiring coding"
+      },
+      "rationale": "Only active pressure ulcers require coding (Evidence: pg no: 59, L44-L45)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not code pressure ulcers that are completely healed at admission (Evidence: pg no: 59, L44-L45)"
+    ],
+    "best_practices": [
+      "Verify healing status at admission",
+      "Distinguish between healed and healing ulcers",
+      "Review admission assessment documentation"
+    ],
+    "common_mistakes": [
+      "Coding history of healed pressure ulcers",
+      "Confusing healed with healing ulcers",
+      "Coding based on past history rather than current status"
+    ],
+    "tips": [
+      "Look for specific language about complete healing",
+      "Check admission assessment for current ulcer status",
+      "Distinguish between 'healed' and 'healing'"
+    ],
+    "implementation_notes": [
+      "Requires clear documentation of healing status",
+      "Focus on admission time assessment"
+    ],
+    "clinical_context": [
+      "Patients may have history of pressure ulcers",
+      "Healing represents successful treatment",
+      "Current status more important than history"
+    ]
+  },
+  "search_keywords": [
+    "healed pressure ulcer",
+    "admission status",
+    "completely healed",
+    "pressure ulcer history",
+    "no coding",
+    "L89 exclusion"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "skin_pressure_ulcers_healed",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "pressure ulcer",
+      "healed",
+      "admission",
+      "no coding",
+      "history"
+    ]
+  },
+  "page_range_processed": "pages_57_to_60"
+}

@@ -1,0 +1,274 @@
+{
+  "guideline_id": "I.C.9.e.5",
+  "semantic_title": "Other Types of Myocardial Infarction Classification and Coding Rules",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 9. Chapter 9: Diseases of the Circulatory System > e. Acute myocardial infarction (AMI) > 5. Other Types of Myocardial Infarction",
+  "page_number": 55,
+  "content": {
+    "full_text": "The ICD-10-CM provides codes for different types of myocardial infarction. Type 1 myocardial infarctions are assigned to codes I21.0-I21.4. Type 2 myocardial infarction (myocardial infarction due to demand ischemia or secondary to ischemic imbalance) is assigned to code I21.A1, Myocardial infarction type 2 with the underlying cause coded first, if applicable. Do not assign code I24.89, Other forms of acute ischemic heart disease, for the demand ischemia. If a type 2 AMI is described as NSTEMI or STEMI, only assign code I21.A1. Codes I21.01-I21.4 should only be assigned for type 1 AMIs. Acute myocardial infarctions type 3, 4a, 4b, 4c and 5 are assigned to code I21.A9, Other myocardial infarction type. The 'Code also' and 'Code first' notes should be followed related to complications, and for coding of postprocedural myocardial infarctions during or following cardiac surgery. (Evidence: pg no: 55-56, L35-L43)",
+    "summary": "Classification and coding rules for different types of myocardial infarction including type 1, type 2, and types 3-5 with specific code assignments and restrictions (Evidence: pg no: 55-56, L35-L43)",
+    "key_concepts": [
+      "Type-specific AMI coding (Evidence: pg no: 55, L35-L36)",
+      "Type 2 AMI demand ischemia classification (Evidence: pg no: 55, L36-L37)",
+      "Underlying cause coding for type 2 AMI (Evidence: pg no: 55, L37-L38)",
+      "Types 3-5 AMI consolidated coding (Evidence: pg no: 55, L40)",
+      "Postprocedural AMI coding notes (Evidence: pg no: 55-56, L41-L43)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "type_1_ami_codes",
+        "rule_text": "Type 1 myocardial infarctions are assigned to codes I21.0-I21.4 (Evidence: pg no: 55, L36)",
+        "explanation": "Traditional AMI types with specific anatomical site coding use the I21.0-I21.4 range (Evidence: pg no: 55, L36)",
+        "importance": "critical",
+        "applies_to": "I21.0-I21.4",
+        "common_applications": [
+          "STEMI with specific wall involvement",
+          "NSTEMI type 1 classification"
+        ]
+      },
+      {
+        "rule_id": "type_2_ami_coding",
+        "rule_text": "Type 2 myocardial infarction is assigned to code I21.A1 with underlying cause coded first if applicable (Evidence: pg no: 55, L37-L38)",
+        "explanation": "Type 2 AMI due to demand ischemia or ischemic imbalance requires specific coding with underlying cause identification (Evidence: pg no: 55, L36-L38)",
+        "importance": "critical",
+        "applies_to": "I21.A1",
+        "common_applications": [
+          "AMI secondary to sepsis",
+          "AMI due to severe anemia",
+          "AMI from hypotensive episode"
+        ]
+      },
+      {
+        "rule_id": "type_2_stemi_nstemi_rule",
+        "rule_text": "If a type 2 AMI is described as NSTEMI or STEMI, only assign code I21.A1 (Evidence: pg no: 55, L39-L40)",
+        "explanation": "Type 2 AMI classification overrides STEMI/NSTEMI designation for coding purposes (Evidence: pg no: 55, L39-L40)",
+        "importance": "critical",
+        "applies_to": "I21.A1",
+        "common_applications": [
+          "Type 2 STEMI documentation",
+          "Type 2 NSTEMI documentation"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify AMI type from documentation",
+      "Step 2: Apply appropriate code range based on type",
+      "Step 3: For type 2, identify and code underlying cause first",
+      "Step 4: Follow 'Code also' and 'Code first' notes for complications"
+    ],
+    "related_terminology": [
+      "Type 1 myocardial infarction",
+      "Type 2 myocardial infarction",
+      "Demand ischemia",
+      "Ischemic imbalance",
+      "Type 3 AMI",
+      "Type 4a, 4b, 4c AMI",
+      "Type 5 AMI",
+      "Postprocedural AMI"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "I21.0-I21.4",
+        "description": "Type 1 myocardial infarctions (Evidence: pg no: 55, L36)",
+        "requirement": "Only for type 1 AMI",
+        "usage_rules": [
+          "Should only be assigned for type 1 AMIs (Evidence: pg no: 55, L40)",
+          "Include site-specific STEMI and NSTEMI codes (Evidence: pg no: 55, L36)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "I21.A1",
+        "description": "Myocardial infarction type 2 (Evidence: pg no: 55, L37)",
+        "context": "For demand ischemia or secondary to ischemic imbalance",
+        "requires_additional_codes": "check_code_notes",
+        "breakdown": {
+          "I21": "Acute myocardial infarction category",
+          "A1": "Type 2 specification"
+        }
+      },
+      {
+        "code": "I21.A9",
+        "description": "Other myocardial infarction type (Evidence: pg no: 55, L40)",
+        "context": "For types 3, 4a, 4b, 4c, and 5 AMI",
+        "requires_additional_codes": "check_code_notes",
+        "breakdown": {
+          "I21": "Acute myocardial infarction category",
+          "A9": "Other types specification"
+        }
+      },
+      {
+        "code": "I24.89",
+        "description": "Other forms of acute ischemic heart disease (Evidence: pg no: 55, L38-L39)",
+        "context": "Do not use for demand ischemia in type 2 AMI",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "I24": "Other acute ischemic heart diseases",
+          "89": "Other specified forms"
+        }
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": "Underlying cause + I21.A1",
+        "description": "Type 2 AMI coding pattern with underlying cause first (Evidence: pg no: 55, L37-L38)",
+        "example": "A41.9 + I21.A1 for sepsis-induced type 2 AMI",
+        "explanation": "Underlying cause should be coded first when applicable for type 2 AMI"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Type 1 AMI codes I21.0-I21.4",
+      "Type 2 AMI code I21.A1",
+      "Types 3-5 AMI code I21.A9"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.9.d.4",
+        "title": "Subsequent acute myocardial infarction",
+        "relationship": "related_to",
+        "explanation": "AMI type classification affects subsequent AMI coding rules"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "type_2_ami_sepsis",
+      "scenario": "Patient develops AMI secondary to septic shock",
+      "documentation_example": "Type 2 myocardial infarction due to septic shock from pneumonia",
+      "step_by_step": [
+        "Step 1: Identify type 2 AMI",
+        "Step 2: Identify underlying cause (septic shock)",
+        "Step 3: Code underlying cause first",
+        "Step 4: Assign I21.A1 for type 2 AMI"
+      ],
+      "correct_coding": {
+        "primary_code": "R57.2",
+        "secondary_codes": [
+          "I21.A1",
+          "J15.9"
+        ],
+        "sequencing": "Underlying cause first, then type 2 AMI",
+        "rationale": "Type 2 AMI requires underlying cause to be coded first when applicable (Evidence: pg no: 55, L37-L38)"
+      },
+      "incorrect_coding": {
+        "code": "I21.4",
+        "codes": [
+          "I21.4"
+        ],
+        "rationale": "Type 2 AMI should not use type 1 AMI codes",
+        "common_mistake": "Using NSTEMI code instead of type 2 specific code"
+      }
+    },
+    {
+      "scenario_id": "type_2_stemi_documentation",
+      "scenario": "Type 2 AMI documented as STEMI pattern",
+      "documentation_example": "Type 2 STEMI secondary to severe anemia",
+      "step_by_step": [
+        "Step 1: Recognize type 2 classification takes precedence",
+        "Step 2: Do not use STEMI-specific codes",
+        "Step 3: Code underlying anemia first",
+        "Step 4: Assign only I21.A1"
+      ],
+      "correct_coding": {
+        "primary_code": "D64.9",
+        "secondary_codes": [
+          "I21.A1"
+        ],
+        "sequencing": "Anemia first, then type 2 AMI",
+        "rationale": "Type 2 AMI uses only I21.A1 regardless of STEMI/NSTEMI description (Evidence: pg no: 55, L39-L40)"
+      },
+      "incorrect_coding": {
+        "code": "I21.3",
+        "codes": [
+          "I21.3",
+          "I21.A1"
+        ],
+        "rationale": "Should not use STEMI codes for type 2 AMI",
+        "common_mistake": "Adding STEMI code when type 2 is documented"
+      }
+    }
+  ],
+  "procedure_links": [
+    {
+      "cpt_code": "cardiac surgery codes",
+      "description": "Cardiac surgical procedures",
+      "relationship": "related_to",
+      "context": "Postprocedural AMI coding during or following cardiac surgery",
+      "note": "Follow 'Code also' and 'Code first' notes for postprocedural AMI (Evidence: pg no: 55-56, L41-L43)"
+    }
+  ],
+  "examples": [
+    {
+      "example_id": "type_4a_ami",
+      "scenario": "Type 4a AMI related to PCI procedure",
+      "code_example": "I21.A9",
+      "breakdown": {
+        "I21": "Acute myocardial infarction category (Evidence: pg no: 55, L40)",
+        "A9": "Other myocardial infarction types including type 4a (Evidence: pg no: 55, L40)"
+      },
+      "rationale": "Types 3, 4a, 4b, 4c, and 5 AMI all use code I21.A9 (Evidence: pg no: 55, L40)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not assign I24.89 for demand ischemia in type 2 AMI (Evidence: pg no: 55, L38-L39)",
+      "Codes I21.01-I21.4 should only be assigned for type 1 AMIs (Evidence: pg no: 55, L40)",
+      "Type 2 AMI described as STEMI/NSTEMI still uses only I21.A1 (Evidence: pg no: 55, L39-L40)"
+    ],
+    "best_practices": [
+      "Always identify AMI type before code selection (Evidence: pg no: 55, L35-L36)",
+      "Code underlying cause first for type 2 AMI when applicable (Evidence: pg no: 55, L37-L38)",
+      "Follow 'Code also' and 'Code first' notes for complications (Evidence: pg no: 55-56, L41-L43)"
+    ],
+    "common_mistakes": [
+      "Using type 1 codes for type 2 AMI (Evidence: pg no: 55, L39-L40)",
+      "Adding I24.89 for demand ischemia (Evidence: pg no: 55, L38-L39)",
+      "Using STEMI/NSTEMI codes with type 2 AMI (Evidence: pg no: 55, L39-L40)"
+    ],
+    "tips": [
+      "Type 2 AMI classification overrides STEMI/NSTEMI designation (Evidence: pg no: 55, L39-L40)",
+      "Types 3-5 AMI are consolidated under single code I21.A9 (Evidence: pg no: 55, L40)"
+    ],
+    "implementation_notes": [
+      "AMI type classification is critical for proper code selection",
+      "Underlying cause identification is important for type 2 AMI coding"
+    ],
+    "clinical_context": [
+      "Type 2 AMI results from supply-demand mismatch",
+      "Types 3-5 AMI have specific clinical definitions but shared coding"
+    ]
+  },
+  "search_keywords": [
+    "type 2 myocardial infarction",
+    "demand ischemia",
+    "I21.A1",
+    "I21.A9",
+    "type 3 AMI",
+    "type 4 AMI",
+    "type 5 AMI",
+    "underlying cause AMI",
+    "postprocedural AMI"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "circulatory_system_ami",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "AMI",
+      "type_classification",
+      "demand_ischemia",
+      "underlying_cause"
+    ]
+  },
+  "page_range_processed": "pages_54_to_57"
+}

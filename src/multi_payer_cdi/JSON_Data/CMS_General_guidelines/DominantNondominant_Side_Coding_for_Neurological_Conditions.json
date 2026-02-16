@@ -1,0 +1,231 @@
+{
+  "guideline_id": "I.C.6.a",
+  "semantic_title": "Dominant/Nondominant Side Coding for Neurological Conditions",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 6. Chapter 6: Diseases of the Nervous System > a. Dominant/nondominant side",
+  "page_number": 45,
+  "content": {
+    "full_text": "Codes from category G81, Hemiplegia and hemiparesis, and subcategories G83.1, Monoplegia of lower limb, G83.2, Monoplegia of upper limb, and G83.3, Monoplegia, unspecified, identify whether the dominant or nondominant side is affected. Should the affected side be documented, but not specified as dominant or nondominant, and the classification system does not indicate a default, code selection is as follows: • For ambidextrous patients, the default should be dominant. • If the left side is affected, the default is non-dominant. • If the right side is affected, the default is dominant. (Evidence: pg no: 45, L79-L84)",
+    "summary": "Provides default rules for determining dominant vs nondominant side when documentation specifies affected side but not dominance status (Evidence: pg no: 45, L79-L84)",
+    "key_concepts": [
+      "Dominant/nondominant side identification (Evidence: pg no: 45, L79-L80)",
+      "Default assignment rules (Evidence: pg no: 45, L80-L81)",
+      "Ambidextrous patient rules (Evidence: pg no: 45, L82)",
+      "Left side default (Evidence: pg no: 45, L83)",
+      "Right side default (Evidence: pg no: 45, L84)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "DOMINANT_001",
+        "rule_text": "Codes identify dominant or nondominant side affected (Evidence: pg no: 45, L79-L80)",
+        "explanation": "Specific neurological condition codes distinguish between dominant and nondominant side involvement (Evidence: pg no: 45, L79-L80)",
+        "importance": "high",
+        "applies_to": "G81, G83.1, G83.2, G83.3",
+        "common_applications": [
+          "Hemiplegia coding",
+          "Monoplegia coding",
+          "Stroke-related paralysis"
+        ]
+      },
+      {
+        "rule_id": "DOMINANT_002",
+        "rule_text": "For ambidextrous patients, default should be dominant (Evidence: pg no: 45, L82)",
+        "explanation": "When patient is ambidextrous and dominance not specified, assume dominant side is affected (Evidence: pg no: 45, L82)",
+        "importance": "medium",
+        "applies_to": "G81, G83.1, G83.2, G83.3",
+        "common_applications": [
+          "Ambidextrous stroke patients",
+          "Bilateral hand dominance cases"
+        ]
+      },
+      {
+        "rule_id": "DOMINANT_003",
+        "rule_text": "If left side affected, default is non-dominant (Evidence: pg no: 45, L83)",
+        "explanation": "When left side is documented as affected but dominance not specified, assume non-dominant (Evidence: pg no: 45, L83)",
+        "importance": "high",
+        "applies_to": "G81, G83.1, G83.2, G83.3",
+        "common_applications": [
+          "Left-sided hemiplegia",
+          "Left arm monoplegia",
+          "Left leg weakness"
+        ]
+      },
+      {
+        "rule_id": "DOMINANT_004",
+        "rule_text": "If right side affected, default is dominant (Evidence: pg no: 45, L84)",
+        "explanation": "When right side is documented as affected but dominance not specified, assume dominant (Evidence: pg no: 45, L84)",
+        "importance": "high",
+        "applies_to": "G81, G83.1, G83.2, G83.3",
+        "common_applications": [
+          "Right-sided hemiplegia",
+          "Right arm monoplegia",
+          "Right leg weakness"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify neurological condition requiring side specification",
+      "Step 2: Check if dominance is explicitly documented",
+      "Step 3: If dominance not specified, determine affected side",
+      "Step 4: Apply default rules: ambidextrous=dominant, left=non-dominant, right=dominant",
+      "Step 5: Assign appropriate code with dominance specification"
+    ],
+    "related_terminology": [
+      "Dominant side",
+      "Nondominant side",
+      "Hemiplegia",
+      "Hemiparesis",
+      "Monoplegia",
+      "Ambidextrous"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "G81",
+        "description": "Hemiplegia and hemiparesis (Evidence: pg no: 45, L79)",
+        "requirement": "Must specify dominant or nondominant side",
+        "usage_rules": [
+          "Apply default rules when dominance not specified (Evidence: pg no: 45, L80-L84)"
+        ]
+      },
+      {
+        "range": "G83.1",
+        "description": "Monoplegia of lower limb (Evidence: pg no: 45, L79-L80)",
+        "requirement": "Must specify dominant or nondominant side",
+        "usage_rules": [
+          "Apply default rules when dominance not specified (Evidence: pg no: 45, L80-L84)"
+        ]
+      },
+      {
+        "range": "G83.2",
+        "description": "Monoplegia of upper limb (Evidence: pg no: 45, L79-L80)",
+        "requirement": "Must specify dominant or nondominant side",
+        "usage_rules": [
+          "Apply default rules when dominance not specified (Evidence: pg no: 45, L80-L84)"
+        ]
+      },
+      {
+        "range": "G83.3",
+        "description": "Monoplegia, unspecified (Evidence: pg no: 45, L80)",
+        "requirement": "Must specify dominant or nondominant side",
+        "usage_rules": [
+          "Apply default rules when dominance not specified (Evidence: pg no: 45, L80-L84)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Hemiplegia and hemiparesis",
+      "Monoplegia conditions"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "DOMINANT_001",
+      "scenario": "Patient with right-sided hemiplegia following stroke, dominance not documented",
+      "documentation_example": "Right hemiplegia secondary to acute stroke",
+      "step_by_step": [
+        "Step 1: Identify hemiplegia condition (G81)",
+        "Step 2: Note right side affected",
+        "Step 3: Note dominance not specified",
+        "Step 4: Apply default rule: right side = dominant",
+        "Step 5: Assign dominant side hemiplegia code"
+      ],
+      "correct_coding": {
+        "primary_code": "G81.91",
+        "secondary_codes": [],
+        "sequencing": "Hemiplegia, unspecified affecting right dominant side",
+        "rationale": "Right side affected defaults to dominant when dominance not specified (Evidence: pg no: 45, L84)"
+      },
+      "incorrect_coding": {
+        "code": "G81.92",
+        "rationale": "Should use dominant (right=dominant default), not nondominant",
+        "common_mistake": "Not applying default dominance rules"
+      }
+    },
+    {
+      "scenario_id": "DOMINANT_002",
+      "scenario": "Left-handed patient with left arm monoplegia, handedness documented but dominance not specified for affected side",
+      "documentation_example": "Left upper extremity monoplegia in left-handed patient",
+      "step_by_step": [
+        "Step 1: Identify monoplegia of upper limb (G83.2)",
+        "Step 2: Note left side affected",
+        "Step 3: Note patient is left-handed (left is dominant)",
+        "Step 4: Since dominance not explicitly stated for condition, apply default",
+        "Step 5: Left side default = nondominant (despite patient being left-handed)"
+      ],
+      "correct_coding": {
+        "primary_code": "G83.22",
+        "secondary_codes": [],
+        "sequencing": "Monoplegia of upper limb affecting left nondominant side",
+        "rationale": "Default rule applies: left side = nondominant when dominance not specified for the condition (Evidence: pg no: 45, L83)"
+      },
+      "incorrect_coding": {
+        "code": "G83.21",
+        "rationale": "Must follow default rules, not infer from patient handedness",
+        "common_mistake": "Inferring dominance from patient handedness rather than applying defaults"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Default rules apply only when dominance not specified in documentation (Evidence: pg no: 45, L80-L81)",
+      "Do not infer dominance from patient handedness unless explicitly documented for the condition"
+    ],
+    "best_practices": [
+      "Always check if dominance is explicitly documented first (Evidence: pg no: 45, L80-L81)",
+      "Apply default rules consistently (Evidence: pg no: 45, L82-L84)"
+    ],
+    "common_mistakes": [
+      "Not applying default rules when dominance unspecified",
+      "Inferring dominance from patient characteristics",
+      "Confusing left/right with dominant/nondominant"
+    ],
+    "tips": [
+      "Ambidextrous = dominant",
+      "Left side = nondominant",
+      "Right side = dominant",
+      "Only use defaults when dominance not specified"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Important for stroke and neurological condition coding",
+      "Affects rehabilitation and prognosis coding",
+      "Critical for functional assessment"
+    ]
+  },
+  "search_keywords": [
+    "dominant nondominant",
+    "G81",
+    "G83.1 G83.2 G83.3",
+    "hemiplegia",
+    "monoplegia",
+    "side affected",
+    "ambidextrous"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "nervous_system",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "neurological",
+      "dominance",
+      "hemiplegia",
+      "monoplegia",
+      "defaults"
+    ]
+  },
+  "page_range_processed": "pages_42_to_45"
+}

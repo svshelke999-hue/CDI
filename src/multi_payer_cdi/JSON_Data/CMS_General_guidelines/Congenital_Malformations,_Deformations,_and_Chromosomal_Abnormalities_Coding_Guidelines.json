@@ -1,0 +1,200 @@
+{
+  "guideline_id": "I.C.17",
+  "semantic_title": "Congenital Malformations, Deformations, and Chromosomal Abnormalities Coding Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 17. Chapter 17: Congenital malformations, deformations, and chromosomal abnormalities (Q00-QA1)",
+  "page_number": 74,
+  "content": {
+    "full_text": "Assign an appropriate code(s) from categories Q00-QA1, Congenital malformations, deformations, and chromosomal abnormalities when a malformation/deformation or chromosomal abnormality is documented. A malformation/deformation/or chromosomal abnormality may be the principal/first-listed diagnosis on a record or a secondary diagnosis. When a malformation/deformation or chromosomal abnormality does not have a unique code assignment, assign additional code(s) for any manifestations that may be present. When the code assignment specifically identifies the malformation/deformation or chromosomal abnormality, manifestations that are an inherent component of the anomaly should not be coded separately. Additional codes should be assigned for manifestations that are not an inherent component. Codes from Chapter 17 may be used throughout the life of the patient. If a congenital malformation or deformity has been corrected, a personal history code should be used to identify the history of the malformation or deformity. Although present at birth, a malformation/deformation/or chromosomal abnormality may not be identified until later in life. Whenever the condition is diagnosed by the provider, it is appropriate to assign a code from codes Q00-QA1. For the birth admission, the appropriate code from category Z38, Liveborn infants, according to place of birth and type of delivery, should be sequenced as the principal diagnosis, followed by any congenital anomaly codes, Q00-QA1. (Evidence: pg no: 74-75, L68-L79)",
+    "summary": "Q00-QA1 codes are assigned when congenital anomalies are documented, can be principal or secondary diagnoses, require careful consideration of manifestations, and can be used throughout life with specific sequencing rules for birth admissions (Evidence: pg no: 74-75, L68-L79)",
+    "key_concepts": [
+      "Q00-QA1 code assignment (Evidence: pg no: 74, L68-L69)",
+      "Principal or secondary diagnosis (Evidence: pg no: 74, L70-L71)",
+      "Manifestation coding rules (Evidence: pg no: 75, L75-L77)",
+      "Lifelong usage (Evidence: pg no: 75, L77)",
+      "Personal history for corrected anomalies (Evidence: pg no: 75, L77)",
+      "Late identification (Evidence: pg no: 75, L77-L78)",
+      "Birth admission sequencing (Evidence: pg no: 75, L78-L79)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "q00_qa1_assignment_rule",
+        "rule_text": "Assign Q00-QA1 codes when malformation/deformation or chromosomal abnormality is documented (Evidence: pg no: 74, L68-L69)",
+        "explanation": "Any documented congenital malformation, deformation, or chromosomal abnormality should be coded using the appropriate Q00-QA1 category codes (Evidence: pg no: 74, L68-L69)",
+        "importance": "critical",
+        "applies_to": "Q00-QA1 categories",
+        "common_applications": [
+          "Congenital heart defects",
+          "Chromosomal disorders",
+          "Structural malformations"
+        ]
+      },
+      {
+        "rule_id": "congenital_manifestation_rule",
+        "rule_text": "Code manifestations separately only when not inherent components of the anomaly (Evidence: pg no: 75, L76-L77)",
+        "explanation": "When a Q code specifically identifies the anomaly, inherent manifestations should not be coded separately, but non-inherent manifestations require additional codes (Evidence: pg no: 75, L76-L77)",
+        "importance": "high",
+        "applies_to": "Q00-QA1 with manifestations",
+        "common_applications": [
+          "Heart defects with associated complications",
+          "Genetic syndromes with multiple features"
+        ]
+      },
+      {
+        "rule_id": "congenital_lifelong_usage_rule",
+        "rule_text": "Q codes may be used throughout the life of the patient (Evidence: pg no: 75, L77)",
+        "explanation": "Congenital anomaly codes are not restricted to the newborn period and can be used at any age when the condition is relevant to the encounter (Evidence: pg no: 75, L77)",
+        "importance": "high",
+        "applies_to": "Q00-QA1 categories",
+        "common_applications": [
+          "Adult encounters for congenital conditions",
+          "Pediatric follow-up for congenital anomalies"
+        ]
+      },
+      {
+        "rule_id": "congenital_birth_sequencing_rule",
+        "rule_text": "For birth admissions, Z38 should be principal diagnosis followed by Q00-QA1 codes (Evidence: pg no: 75, L78-L79)",
+        "explanation": "Birth episode coding maintains Z38 as principal diagnosis with congenital anomaly codes following as secondary diagnoses (Evidence: pg no: 75, L78-L79)",
+        "importance": "critical",
+        "applies_to": "Birth admissions with congenital anomalies",
+        "common_applications": [
+          "All birth admissions with identified congenital anomalies"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify documented congenital anomaly",
+      "Step 2: Determine if this is birth admission or subsequent encounter",
+      "Step 3: For birth admission, assign Z38 as principal",
+      "Step 4: Select appropriate Q00-QA1 code",
+      "Step 5: Evaluate manifestations for separate coding",
+      "Step 6: Code non-inherent manifestations separately",
+      "Step 7: Consider personal history codes if anomaly corrected"
+    ],
+    "related_terminology": [
+      "Congenital malformations",
+      "Deformations",
+      "Chromosomal abnormalities",
+      "Manifestations",
+      "Inherent components",
+      "Personal history"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Q00-QA1",
+        "description": "Congenital malformations, deformations, and chromosomal abnormalities (Evidence: pg no: 74, L68)",
+        "requirement": "Assign when anomalies are documented",
+        "usage_rules": [
+          "Can be principal or secondary diagnosis (Evidence: pg no: 74, L70-L71)",
+          "May be used throughout life (Evidence: pg no: 75, L77)",
+          "Follow Z38 on birth admissions (Evidence: pg no: 75, L78-L79)"
+        ]
+      },
+      {
+        "range": "Z38",
+        "description": "Liveborn infants, according to place of birth and type of delivery (Evidence: pg no: 75, L78)",
+        "requirement": "Principal diagnosis for birth admissions",
+        "usage_rules": [
+          "Sequenced before Q00-QA1 codes on birth admissions (Evidence: pg no: 75, L78-L79)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Q00-QA1 - Congenital malformations, deformations, and chromosomal abnormalities",
+      "Z38 - Liveborn infants"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "congenital_heart_birth",
+      "scenario": "Newborn born with ventricular septal defect identified on echocardiogram",
+      "documentation_example": "Term newborn born via normal spontaneous vaginal delivery. Echocardiogram reveals moderate ventricular septal defect. Infant stable, will require cardiology follow-up.",
+      "step_by_step": [
+        "Step 1: Identify this is a birth admission",
+        "Step 2: Assign Z38.00 as principal diagnosis",
+        "Step 3: Identify documented VSD as congenital anomaly",
+        "Step 4: Assign Q21.0 for ventricular septal defect",
+        "Step 5: No additional manifestations requiring separate coding"
+      ],
+      "correct_coding": {
+        "primary_code": "Z38.00",
+        "secondary_codes": [
+          "Q21.0"
+        ],
+        "sequencing": "Z38 as principal, Q21.0 as secondary",
+        "rationale": "Birth admission requires Z38 as principal with congenital anomaly as secondary (Evidence: pg no: 75, L78-L79)"
+      },
+      "incorrect_coding": {
+        "code": "Q21.0",
+        "codes": [
+          "Q21.0",
+          "Z38.00"
+        ],
+        "rationale": "Z38 must be principal diagnosis on birth admissions, even with congenital anomalies",
+        "common_mistake": "Sequencing congenital anomaly as principal on birth admission"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not code inherent manifestations separately when Q code is specific (Evidence: pg no: 75, L76-L77)"
+    ],
+    "best_practices": [
+      "Use Q codes throughout patient's life when relevant (Evidence: pg no: 75, L77)",
+      "Sequence Z38 before Q codes on birth admissions (Evidence: pg no: 75, L78-L79)",
+      "Code non-inherent manifestations separately (Evidence: pg no: 75, L77)"
+    ],
+    "common_mistakes": [
+      "Coding inherent manifestations separately",
+      "Not using Q codes in adult encounters",
+      "Incorrect sequencing on birth admissions"
+    ],
+    "tips": [
+      "Q codes can be principal or secondary diagnosis (Evidence: pg no: 74, L70-L71)",
+      "Consider personal history codes for corrected anomalies (Evidence: pg no: 75, L77)"
+    ],
+    "implementation_notes": [
+      "Requires assessment of manifestation relationships to anomaly"
+    ],
+    "clinical_context": [
+      "Birth admissions and lifelong care for congenital conditions"
+    ]
+  },
+  "search_keywords": [
+    "congenital malformations",
+    "deformations",
+    "chromosomal abnormalities",
+    "Q00-QA1",
+    "manifestations",
+    "birth admission",
+    "lifelong coding"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "congenital_conditions",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "congenital",
+      "malformations",
+      "Q codes",
+      "manifestations",
+      "birth admission",
+      "lifelong"
+    ]
+  },
+  "page_range_processed": "pages_72_to_75"
+}

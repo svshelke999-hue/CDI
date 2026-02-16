@@ -1,0 +1,151 @@
+{
+  "guideline_id": "I.C.15.a.5",
+  "semantic_title": "Use of Unspecified Trimester Codes in Obstetric Cases",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 15. Chapter 15: Pregnancy, Childbirth, and the Puerperium > a. General Rules for Obstetric Cases > 5) Unspecified trimester",
+  "page_number": 64,
+  "content": {
+    "full_text": "Each category that includes codes for trimester has a code for 'unspecified trimester.' The 'unspecified trimester' code should rarely be used, such as when the documentation in the record is insufficient to determine the trimester and it is not possible to obtain clarification. (Evidence: pg no: 64, L34-L35)",
+    "summary": "Guidelines for when to use unspecified trimester codes in obstetric coding (Evidence: pg no: 64, L34-L35)",
+    "key_concepts": [
+      "Unspecified trimester codes availability (Evidence: pg no: 64, L34)",
+      "Rare usage requirement (Evidence: pg no: 64, L35)",
+      "Documentation insufficiency criteria (Evidence: pg no: 64, L35)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.C.15.a.5.1",
+        "rule_text": "Unspecified trimester codes should rarely be used (Evidence: pg no: 64, L35)",
+        "explanation": "These codes are available but should only be used when documentation is insufficient and clarification cannot be obtained (Evidence: pg no: 64, L35)",
+        "importance": "high",
+        "applies_to": "O00-O9A",
+        "common_applications": [
+          "Incomplete medical records",
+          "Emergency situations with limited documentation"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Attempt to determine trimester from available documentation",
+      "Step 2: Try to obtain clarification if trimester is unclear",
+      "Step 3: Only use unspecified trimester code if steps 1 and 2 are unsuccessful"
+    ],
+    "related_terminology": [
+      "Unspecified trimester",
+      "Documentation insufficiency",
+      "Clarification attempts"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "O00-O9A",
+        "description": "Pregnancy, Childbirth, and the Puerperium codes with trimester options (Evidence: pg no: 64, L34)",
+        "requirement": "Use specific trimester when possible",
+        "usage_rules": [
+          "Rarely use unspecified trimester codes (Evidence: pg no: 64, L35)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "Oxxx.x0",
+        "description": "Unspecified trimester pattern in obstetric codes (Evidence: pg no: 64, L34)",
+        "example": "O14.10",
+        "explanation": "Final character 0 typically indicates unspecified trimester"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Categories with trimester-specific codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.15.a.3",
+        "title": "Final character for trimester",
+        "relationship": "related_to",
+        "explanation": "Provides context for when trimester assignment is needed"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "unspecified_trimester_1",
+      "scenario": "Emergency admission with incomplete records and patient unable to provide gestational age",
+      "documentation_example": "Patient presents in labor, no prenatal records available, patient unable to recall last menstrual period",
+      "step_by_step": [
+        "Step 1: Review available documentation for any gestational age indicators",
+        "Step 2: Attempt to contact previous providers or obtain records",
+        "Step 3: If unsuccessful, use unspecified trimester code"
+      ],
+      "correct_coding": {
+        "primary_code": "O60.10X0",
+        "secondary_codes": [],
+        "sequencing": "Primary diagnosis",
+        "rationale": "Unspecified trimester appropriate when documentation insufficient and clarification impossible (Evidence: pg no: 64, L35)"
+      },
+      "incorrect_coding": {
+        "code": "O60.10X3",
+        "codes": [
+          "O60.10X3"
+        ],
+        "rationale": "Should not assume third trimester without documentation",
+        "common_mistake": "Guessing trimester based on clinical presentation"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not use unspecified trimester codes when trimester can be determined (Evidence: pg no: 64, L35)"
+    ],
+    "best_practices": [
+      "Always attempt to obtain clarification before using unspecified codes (Evidence: pg no: 64, L35)",
+      "Document efforts made to determine trimester"
+    ],
+    "common_mistakes": [
+      "Using unspecified trimester codes when documentation is available",
+      "Not attempting to obtain clarification"
+    ],
+    "tips": [
+      "Check ultrasound reports for gestational age",
+      "Review prenatal visit records"
+    ],
+    "implementation_notes": [
+      "Requires documentation of attempts to obtain clarification"
+    ],
+    "clinical_context": [
+      "Emergency situations",
+      "Incomplete medical records",
+      "Patient unable to provide history"
+    ]
+  },
+  "search_keywords": [
+    "unspecified trimester",
+    "insufficient documentation",
+    "obstetric coding",
+    "trimester determination",
+    "pregnancy coding",
+    "documentation requirements"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "obstetric_coding",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "pregnancy",
+      "trimester",
+      "documentation",
+      "unspecified"
+    ]
+  },
+  "page_range_processed": "pages_63_to_66"
+}

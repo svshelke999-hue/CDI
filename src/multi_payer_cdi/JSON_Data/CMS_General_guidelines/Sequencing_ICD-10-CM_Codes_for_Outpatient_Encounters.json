@@ -1,0 +1,197 @@
+{
+  "guideline_id": "IV.G",
+  "semantic_title": "Sequencing ICD-10-CM Codes for Outpatient Encounters",
+  "section_path": "Section IV > G. ICD-10-CM code for the diagnosis, condition, problem, or other reason for encounter/visit",
+  "page_number": 113,
+  "content": {
+    "full_text": "List first the ICD-10-CM code for the diagnosis, condition, problem, or other reason for encounter/visit shown in the medical record to be chiefly responsible for the services provided. List additional codes that describe any coexisting conditions. In some cases, the first-listed diagnosis may be a symptom when a diagnosis has not been established (confirmed) by the provider. (Evidence: pg no: 113, L67-L69)",
+    "summary": "Establishes sequencing rules for outpatient coding, prioritizing the chief reason for encounter with additional codes for coexisting conditions (Evidence: pg no: 113, L67-L69)",
+    "key_concepts": [
+      "First-listed code is chiefly responsible for services provided (Evidence: pg no: 113, L67-L68)",
+      "List additional codes for coexisting conditions (Evidence: pg no: 113, L68)",
+      "First-listed may be symptom when diagnosis not established (Evidence: pg no: 113, L68-L69)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "IV.G.1",
+        "rule_text": "List first the code chiefly responsible for services provided (Evidence: pg no: 113, L67-L68)",
+        "explanation": "The primary code should represent the main reason the patient sought care and received services (Evidence: pg no: 113, L67-L68)",
+        "importance": "critical",
+        "applies_to": "first_listed_diagnosis",
+        "common_applications": [
+          "Primary diagnosis selection",
+          "Service justification",
+          "Medical necessity support"
+        ]
+      },
+      {
+        "rule_id": "IV.G.2",
+        "rule_text": "List additional codes for coexisting conditions (Evidence: pg no: 113, L68)",
+        "explanation": "Secondary codes should capture other conditions that coexist and may affect care (Evidence: pg no: 113, L68)",
+        "importance": "high",
+        "applies_to": "secondary_diagnoses",
+        "common_applications": [
+          "Comorbidity coding",
+          "Complete clinical picture",
+          "Risk stratification"
+        ]
+      },
+      {
+        "rule_id": "IV.G.3",
+        "rule_text": "First-listed diagnosis may be symptom when diagnosis not established (Evidence: pg no: 113, L68-L69)",
+        "explanation": "When no definitive diagnosis is confirmed, a symptom code can serve as the first-listed diagnosis (Evidence: pg no: 113, L68-L69)",
+        "importance": "high",
+        "applies_to": "symptom_as_primary",
+        "common_applications": [
+          "Initial diagnostic encounters",
+          "Unclear presentations",
+          "Workup in progress"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify the chief reason for the encounter",
+      "Step 2: Determine what was chiefly responsible for services provided",
+      "Step 3: Assign this as the first-listed diagnosis",
+      "Step 4: Identify any coexisting conditions",
+      "Step 5: List coexisting conditions as additional codes",
+      "Step 6: Verify sequencing reflects service provision"
+    ],
+    "related_terminology": [
+      "First-listed diagnosis",
+      "Chiefly responsible",
+      "Services provided",
+      "Coexisting conditions",
+      "Additional codes",
+      "Symptom"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "All diagnosis codes",
+      "Symptom codes",
+      "Condition codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "IV.D",
+        "title": "Codes that describe symptoms and signs",
+        "relationship": "applies_concept",
+        "explanation": "Symptom codes may be used as first-listed diagnosis"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "IV.G.S1",
+      "scenario": "Patient with diabetes presents for routine diabetic management and incidental hypertension",
+      "documentation_example": "Patient here for routine diabetes follow-up. Blood sugar well controlled. Also noted to have hypertension, stable on current medications.",
+      "step_by_step": [
+        "Step 1: Identify chief reason - diabetes follow-up",
+        "Step 2: Determine diabetes is chiefly responsible for services",
+        "Step 3: List diabetes as first-listed diagnosis",
+        "Step 4: Identify hypertension as coexisting condition",
+        "Step 5: List hypertension as additional code"
+      ],
+      "correct_coding": {
+        "primary_code": "E11.9",
+        "secondary_codes": [
+          "I10"
+        ],
+        "sequencing": "Chief reason first, coexisting conditions additional",
+        "rationale": "First-listed code should be chiefly responsible for services provided (Evidence: pg no: 113, L67-L68)"
+      },
+      "incorrect_coding": {
+        "code": "I10",
+        "codes": [
+          "I10",
+          "E11.9"
+        ],
+        "rationale": "Hypertension was not the chief reason for the encounter",
+        "common_mistake": "Not identifying what was chiefly responsible for services"
+      }
+    },
+    {
+      "scenario_id": "IV.G.S2",
+      "scenario": "Patient presents with chest pain, no definitive diagnosis established",
+      "documentation_example": "Patient presents with chest pain. Examination and initial workup inconclusive. Plan for further cardiac evaluation.",
+      "step_by_step": [
+        "Step 1: Identify chief reason - chest pain",
+        "Step 2: Confirm no definitive diagnosis established",
+        "Step 3: Use chest pain symptom as first-listed diagnosis",
+        "Step 4: No coexisting conditions documented",
+        "Step 5: Complete coding with symptom code"
+      ],
+      "correct_coding": {
+        "primary_code": "R07.89",
+        "secondary_codes": [],
+        "sequencing": "Symptom as first-listed when diagnosis not established",
+        "rationale": "First-listed diagnosis may be symptom when diagnosis not established (Evidence: pg no: 113, L68-L69)"
+      },
+      "incorrect_coding": {
+        "code": "I25.9",
+        "codes": [],
+        "rationale": "Should not assign definitive diagnosis when not established by provider",
+        "common_mistake": "Assigning diagnosis codes when only symptoms documented"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not assign diagnosis codes when provider has not established diagnosis"
+    ],
+    "best_practices": [
+      "Identify what was chiefly responsible for services provided (Evidence: pg no: 113, L67-L68)",
+      "Include all relevant coexisting conditions (Evidence: pg no: 113, L68)",
+      "Use symptom codes when appropriate as first-listed (Evidence: pg no: 113, L68-L69)"
+    ],
+    "common_mistakes": [
+      "Not identifying the chief reason for services",
+      "Incorrect sequencing of diagnoses",
+      "Omitting relevant coexisting conditions"
+    ],
+    "tips": [
+      "The first-listed diagnosis should justify the services provided"
+    ],
+    "implementation_notes": [
+      "Requires clear understanding of encounter purpose",
+      "May require provider clarification on service focus"
+    ],
+    "clinical_context": [
+      "Outpatient encounters may address multiple conditions",
+      "Sequencing should reflect clinical priorities and service provision"
+    ]
+  },
+  "search_keywords": [
+    "sequencing",
+    "first-listed diagnosis",
+    "chiefly responsible",
+    "coexisting conditions",
+    "services provided",
+    "symptom as primary"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "code_sequencing",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "sequencing",
+      "first_listed",
+      "coexisting_conditions",
+      "service_justification"
+    ]
+  },
+  "page_range_processed": "pages_111_to_114"
+}

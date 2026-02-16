@@ -1,0 +1,173 @@
+{
+  "guideline_id": "I.C.19.e.3",
+  "semantic_title": "Single Code Assignment When Same Code Describes Multiple Adverse Reactions or Effects",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 19. Injury, Poisoning, and Certain Other Consequences of External Causes > e. Adverse Effects, Poisoning, Underdosing and Toxic Effects > 3. If the same code would describe the causative agent",
+  "page_number": 82,
+  "content": {
+    "full_text": "If the same code would describe the causative agent for more than one adverse reaction, poisoning, toxic effect or underdosing, assign the code only once. (Evidence: pg no: 82, L39-L40)",
+    "summary": "Instruction to assign a drug or substance code only once when the same causative agent is responsible for multiple different adverse reactions or effects (Evidence: pg no: 82, L39-L40)",
+    "key_concepts": [
+      "Single code assignment for same causative agent (Evidence: pg no: 82, L39-L40)",
+      "Multiple adverse reactions from one agent (Evidence: pg no: 82, L39)",
+      "Avoid duplicate coding of same substance (Evidence: pg no: 82, L40)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "SINGLE_CODE_MULTIPLE_EFFECTS",
+        "rule_text": "If the same code would describe the causative agent for more than one adverse reaction, assign the code only once (Evidence: pg no: 82, L39-L40)",
+        "explanation": "When a single drug or substance causes multiple different adverse effects, the causative agent code should be assigned only once, even though multiple manifestations may be coded separately (Evidence: pg no: 82, L39-L40)",
+        "importance": "high",
+        "applies_to": "T36-T65",
+        "common_applications": [
+          "Single drug causing multiple symptoms",
+          "One substance with multiple toxic effects",
+          "Avoiding duplicate causative agent codes"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify all adverse reactions/effects present",
+      "Step 2: Determine the causative agent(s)",
+      "Step 3: Check if same agent causes multiple effects",
+      "Step 4: Code each manifestation/effect separately",
+      "Step 5: Assign causative agent code only once"
+    ],
+    "related_terminology": [
+      "Causative agent",
+      "Single code assignment",
+      "Multiple adverse reactions",
+      "Duplicate coding avoidance",
+      "Same substance multiple effects"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "T36-T65",
+        "description": "Categories where single causative agent may cause multiple effects (Evidence: pg no: 82, L39-L40)",
+        "requirement": "Assign causative agent code only once per substance",
+        "usage_rules": [
+          "One code per causative agent regardless of number of effects (Evidence: pg no: 82, L39-L40)",
+          "Code each manifestation separately but agent only once (Evidence: pg no: 82, L39-L40)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "Multiple manifestations + Single agent code",
+        "description": "Pattern for single substance causing multiple effects (Evidence: pg no: 82, L39-L40)",
+        "example": "Nausea code + Rash code + Single drug adverse effect code",
+        "explanation": "Each effect coded separately, but causative agent coded only once (Evidence: pg no: 82, L39-L40)"
+      }
+    ],
+    "code_categories_mentioned": [
+      "T36-T65 causative agent codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "SINGLE_DRUG_MULTIPLE_EFFECTS",
+      "scenario": "Patient has multiple adverse effects from one medication",
+      "documentation_example": "Patient developed nausea, dizziness, and rash from prescribed amoxicillin",
+      "step_by_step": [
+        "Step 1: Identify all effects (nausea, dizziness, rash)",
+        "Step 2: Identify causative agent (amoxicillin)",
+        "Step 3: Code nausea as manifestation",
+        "Step 4: Code dizziness as manifestation",
+        "Step 5: Code rash as manifestation",
+        "Step 6: Code amoxicillin adverse effect ONLY ONCE"
+      ],
+      "correct_coding": {
+        "primary_code": "Code for nausea",
+        "secondary_codes": [
+          "Code for dizziness",
+          "Code for rash",
+          "Single amoxicillin adverse effect code"
+        ],
+        "sequencing": "Manifestations first, then single causative agent code",
+        "rationale": "Same causative agent code assigned only once despite multiple effects (Evidence: pg no: 82, L39-L40)"
+      },
+      "incorrect_coding": {
+        "code": "Multiple amoxicillin codes for each effect",
+        "codes": [
+          "Amoxicillin code x3"
+        ],
+        "rationale": "Duplicate coding of same causative agent",
+        "common_mistake": "Assigning causative agent code multiple times for multiple effects"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "ONE_AGENT_MULTIPLE_MANIFESTATIONS",
+      "scenario": "Single substance causing various adverse effects",
+      "code_example": "Multiple manifestation codes + Single causative agent code",
+      "breakdown": {
+        "Manifestation 1": "Code for first adverse effect (Evidence: pg no: 82, L39)",
+        "Manifestation 2": "Code for second adverse effect (Evidence: pg no: 82, L39)",
+        "Causative agent": "Single code for the substance causing all effects (Evidence: pg no: 82, L39-L40)"
+      },
+      "rationale": "Prevents duplicate coding while ensuring complete documentation (Evidence: pg no: 82, L39-L40)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not assign the same causative agent code multiple times (Evidence: pg no: 82, L39-L40)"
+    ],
+    "best_practices": [
+      "Code each manifestation separately but causative agent only once (Evidence: pg no: 82, L39-L40)",
+      "Identify all effects before determining coding approach"
+    ],
+    "common_mistakes": [
+      "Duplicate coding of causative agent for multiple effects",
+      "Assigning agent code for each manifestation separately",
+      "Over-coding the same substance"
+    ],
+    "tips": [
+      "One substance = one causative agent code (Evidence: pg no: 82, L39-L40)",
+      "Multiple effects can share the same causative agent code"
+    ],
+    "implementation_notes": [
+      "Prevents code duplication",
+      "Maintains accurate substance tracking",
+      "Supports proper data analysis"
+    ],
+    "clinical_context": [
+      "Common with medications having multiple side effects",
+      "Important for drug safety monitoring",
+      "Relevant for adverse event reporting"
+    ]
+  },
+  "search_keywords": [
+    "same code",
+    "causative agent",
+    "multiple adverse reactions",
+    "single assignment",
+    "duplicate coding",
+    "one substance"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "adverse_effects_poisoning",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "single_code",
+      "causative_agent",
+      "multiple_effects",
+      "duplicate_prevention",
+      "T36-T65"
+    ]
+  },
+  "page_range_processed": "pages_81_to_84"
+}

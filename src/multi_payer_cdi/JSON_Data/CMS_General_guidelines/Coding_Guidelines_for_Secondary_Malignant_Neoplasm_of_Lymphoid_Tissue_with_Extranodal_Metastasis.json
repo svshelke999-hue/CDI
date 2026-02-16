@@ -1,0 +1,189 @@
+{
+  "guideline_id": "I.C.2.t",
+  "semantic_title": "Coding Guidelines for Secondary Malignant Neoplasm of Lymphoid Tissue with Extranodal Metastasis",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 2. Chapter 2: Neoplasms > t. Secondary malignant neoplasm of lymphoid tissue",
+  "page_number": 39,
+  "content": {
+    "full_text": "When a malignant neoplasm of lymphoid tissue metastasizes beyond the lymph nodes, a code from categories C81-C85 with a final character identifying 'extranodal and solid organ sites' should be assigned rather than a code for the secondary neoplasm of the affected solid organ. For example, for metastasis of diffuse large B-cell lymphoma to the lung, brain and left adrenal gland, assign code C83.398, Diffuse large B-cell lymphoma of other extranodal and solid organ sites. (Evidence: pg no: 39, L10-L13)",
+    "summary": "Guidelines for coding lymphoid tissue malignancies that metastasize to extranodal sites using specific extranodal codes rather than secondary neoplasm codes (Evidence: pg no: 39, L10-L13)",
+    "key_concepts": [
+      "Lymphoid malignancies metastasizing beyond lymph nodes (Evidence: pg no: 39, L10-L11)",
+      "Use extranodal and solid organ site codes from C81-C85 (Evidence: pg no: 39, L11-L12)",
+      "Do not use secondary neoplasm codes for affected organs (Evidence: pg no: 39, L11-L12)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "LYMPHOID-META-001",
+        "rule_text": "Use C81-C85 codes with extranodal final character for lymphoid metastasis (Evidence: pg no: 39, L11-L12)",
+        "explanation": "When malignant lymphoid tissue spreads beyond lymph nodes to solid organs, use the appropriate code from categories C81-C85 with the final character that identifies extranodal and solid organ sites (Evidence: pg no: 39, L11-L12)",
+        "importance": "critical",
+        "applies_to": "C81-C85",
+        "common_applications": [
+          "Lymphoma metastasis to lung",
+          "Lymphoma metastasis to brain",
+          "Lymphoma metastasis to other solid organs"
+        ]
+      },
+      {
+        "rule_id": "LYMPHOID-META-002",
+        "rule_text": "Do not assign secondary neoplasm codes for affected solid organs (Evidence: pg no: 39, L11-L12)",
+        "explanation": "Instead of coding the metastatic involvement as secondary neoplasm of the specific organ, use the lymphoma code that specifies extranodal involvement (Evidence: pg no: 39, L11-L12)",
+        "importance": "high",
+        "applies_to": "Secondary neoplasm codes",
+        "common_applications": [
+          "Avoiding C77-C79 codes for lymphoma metastasis",
+          "Proper classification of extranodal lymphoma"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify malignant lymphoid tissue neoplasm",
+      "Step 2: Determine if metastasis extends beyond lymph nodes",
+      "Step 3: Identify specific lymphoma type",
+      "Step 4: Assign appropriate C81-C85 code with extranodal final character",
+      "Step 5: Do not assign secondary neoplasm codes"
+    ],
+    "related_terminology": [
+      "Extranodal lymphoma",
+      "Lymphoid tissue malignancy",
+      "Solid organ metastasis",
+      "Secondary neoplasm",
+      "Diffuse large B-cell lymphoma"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "C81-C85",
+        "description": "Malignant neoplasms of lymphoid, hematopoietic and related tissue (Evidence: pg no: 39, L11)",
+        "requirement": "Use final character for extranodal and solid organ sites",
+        "usage_rules": [
+          "Select code based on specific lymphoma type (Evidence: pg no: 39, L11-L12)",
+          "Use extranodal final character when metastasized beyond lymph nodes (Evidence: pg no: 39, L11-L12)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "C83.398",
+        "description": "Diffuse large B-cell lymphoma of other extranodal and solid organ sites (Evidence: pg no: 39, L12-L13)",
+        "context": "Example for diffuse large B-cell lymphoma metastasized to lung, brain, and adrenal gland",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "C83": "Non-follicular lymphoma",
+          "3": "Diffuse large B-cell lymphoma",
+          "98": "Other extranodal and solid organ sites"
+        }
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": "C8X.X98",
+        "description": "Pattern for extranodal and solid organ sites in lymphoma codes (Evidence: pg no: 39, L12-L13)",
+        "example": "C83.398",
+        "explanation": "Final characters 98 typically indicate other extranodal and solid organ sites"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Categories C81-C85 for lymphoid malignancies",
+      "Secondary neoplasm codes (excluded for this scenario)"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "LYMPHOID-META-001",
+      "scenario": "Diffuse large B-cell lymphoma with metastasis to lung, brain, and left adrenal gland",
+      "documentation_example": "Patient with diffuse large B-cell lymphoma metastatic to lung, brain, and left adrenal gland",
+      "step_by_step": [
+        "Step 1: Identify diffuse large B-cell lymphoma",
+        "Step 2: Note metastasis to multiple solid organs",
+        "Step 3: Determine this is extranodal involvement",
+        "Step 4: Assign C83.398 for extranodal sites",
+        "Step 5: Do not assign secondary neoplasm codes"
+      ],
+      "correct_coding": {
+        "primary_code": "C83.398",
+        "secondary_codes": [],
+        "sequencing": "Primary diagnosis",
+        "rationale": "Single code captures lymphoma type and extranodal involvement (Evidence: pg no: 39, L12-L13)"
+      },
+      "incorrect_coding": {
+        "codes": [
+          "C78.00 (lung)",
+          "C79.31 (brain)",
+          "C79.70 (adrenal)"
+        ],
+        "rationale": "Should not use secondary neoplasm codes for lymphoma metastasis",
+        "common_mistake": "Coding each metastatic site separately as secondary neoplasm"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "LYMPHOID-EX1",
+      "scenario": "Diffuse large B-cell lymphoma with extranodal metastasis",
+      "code_example": "C83.398",
+      "breakdown": {
+        "C83": "Non-follicular lymphoma category (Evidence: pg no: 39, L12)",
+        "3": "Diffuse large B-cell lymphoma subtype (Evidence: pg no: 39, L12)",
+        "98": "Other extranodal and solid organ sites (Evidence: pg no: 39, L12-L13)"
+      },
+      "rationale": "Single code captures both lymphoma type and extranodal involvement (Evidence: pg no: 39, L12-L13)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not use secondary neoplasm codes for lymphoma metastasis to solid organs (Evidence: pg no: 39, L11-L12)"
+    ],
+    "best_practices": [
+      "Use extranodal codes from C81-C85 for lymphoma metastasis (Evidence: pg no: 39, L11-L12)",
+      "Single code captures both primary lymphoma and metastatic involvement (Evidence: pg no: 39, L12-L13)"
+    ],
+    "common_mistakes": [
+      "Coding each metastatic site as separate secondary neoplasm (Evidence: pg no: 39, L11-L12)"
+    ],
+    "tips": [
+      "Look for final characters indicating extranodal and solid organ sites (Evidence: pg no: 39, L11-L12)"
+    ],
+    "implementation_notes": [
+      "Requires identification of specific lymphoma type",
+      "Must distinguish between nodal and extranodal involvement"
+    ],
+    "clinical_context": [
+      "Applies when lymphoma spreads beyond lymph nodes",
+      "Common in advanced lymphoma cases"
+    ]
+  },
+  "search_keywords": [
+    "lymphoma metastasis",
+    "extranodal lymphoma",
+    "C81-C85",
+    "secondary neoplasm",
+    "lymphoid tissue malignancy",
+    "solid organ metastasis",
+    "diffuse large B-cell lymphoma"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "neoplasms",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "neoplasm",
+      "lymphoma",
+      "metastasis",
+      "extranodal",
+      "secondary"
+    ]
+  },
+  "page_range_processed": "pages_39_to_42"
+}

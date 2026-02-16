@@ -1,0 +1,218 @@
+{
+  "guideline_id": "I.C.10.b.2",
+  "semantic_title": "Acute Respiratory Failure as Secondary Diagnosis Coding Rules",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 10. Chapter 10: Diseases of the Respiratory System > b. Acute Respiratory Failure > 2. Acute respiratory failure as secondary diagnosis",
+  "page_number": 56,
+  "content": {
+    "full_text": "Respiratory failure may be listed as a secondary diagnosis if it occurs after admission, or if it is present on admission, but does not meet the definition of principal diagnosis. (Evidence: pg no: 56, L63-L64)",
+    "summary": "Conditions for coding acute respiratory failure as secondary diagnosis based on timing and principal diagnosis criteria (Evidence: pg no: 56, L63-L64)",
+    "key_concepts": [
+      "Post-admission respiratory failure (Evidence: pg no: 56, L64)",
+      "Present on admission but not principal (Evidence: pg no: 56, L64)",
+      "Principal diagnosis definition criteria (Evidence: pg no: 56, L64)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "post_admission_failure",
+        "rule_text": "Respiratory failure may be secondary diagnosis if it occurs after admission (Evidence: pg no: 56, L64)",
+        "explanation": "When respiratory failure develops during hospitalization, it should be coded as secondary diagnosis (Evidence: pg no: 56, L64)",
+        "importance": "high",
+        "applies_to": "J96.0, J96.2",
+        "common_applications": [
+          "Hospital-acquired respiratory failure",
+          "Postoperative respiratory failure",
+          "Complication during admission"
+        ]
+      },
+      {
+        "rule_id": "present_not_principal",
+        "rule_text": "Respiratory failure may be secondary if present on admission but does not meet principal diagnosis definition (Evidence: pg no: 56, L64)",
+        "explanation": "When respiratory failure is present at admission but another condition is chiefly responsible for admission (Evidence: pg no: 56, L64)",
+        "importance": "high",
+        "applies_to": "J96.0, J96.2",
+        "common_applications": [
+          "Respiratory failure secondary to other acute condition",
+          "Multiple conditions with different primary focus",
+          "Chronic respiratory failure with acute exacerbation of other condition"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify presence of respiratory failure",
+      "Step 2: Determine timing - present on admission or developed after",
+      "Step 3: If present on admission, assess if it meets principal diagnosis criteria",
+      "Step 4: If post-admission or not principal, code as secondary diagnosis"
+    ],
+    "related_terminology": [
+      "Secondary diagnosis",
+      "Post-admission development",
+      "Present on admission",
+      "Principal diagnosis definition",
+      "Hospital-acquired condition"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "J96.0",
+        "description": "Acute respiratory failure (Evidence: pg no: 56, L63)",
+        "requirement": "Code as secondary when criteria met",
+        "usage_rules": [
+          "Use as secondary if occurs after admission (Evidence: pg no: 56, L64)",
+          "Use as secondary if present on admission but not principal (Evidence: pg no: 56, L64)"
+        ]
+      },
+      {
+        "range": "J96.2",
+        "description": "Acute and chronic respiratory failure (Evidence: pg no: 56, L63)",
+        "requirement": "Code as secondary when criteria met",
+        "usage_rules": [
+          "Use as secondary if occurs after admission (Evidence: pg no: 56, L64)",
+          "Use as secondary if present on admission but not principal (Evidence: pg no: 56, L64)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Respiratory failure as secondary diagnosis"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.10.b.1",
+        "title": "Acute respiratory failure as principal diagnosis",
+        "relationship": "builds_upon",
+        "explanation": "Defines when respiratory failure is not principal diagnosis"
+      }
+    ],
+    "referenced_by": [
+      {
+        "guideline_id": "I.C.10.b.3",
+        "title": "Sequencing of acute respiratory failure and another acute condition",
+        "relationship": "related_to",
+        "explanation": "Provides context for complex sequencing decisions"
+      }
+    ]
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "postoperative_respiratory_failure",
+      "scenario": "Patient develops respiratory failure after surgery",
+      "documentation_example": "Patient admitted for elective surgery, developed acute respiratory failure on postoperative day 2",
+      "step_by_step": [
+        "Step 1: Identify primary reason for admission (surgery)",
+        "Step 2: Note respiratory failure developed after admission",
+        "Step 3: Code surgical condition as principal",
+        "Step 4: Code respiratory failure as secondary"
+      ],
+      "correct_coding": {
+        "primary_code": "surgical condition code",
+        "secondary_codes": [
+          "J96.00"
+        ],
+        "sequencing": "Surgical condition principal, respiratory failure secondary",
+        "rationale": "Respiratory failure occurred after admission, making it secondary diagnosis (Evidence: pg no: 56, L64)"
+      },
+      "incorrect_coding": {
+        "code": "J96.00",
+        "codes": [
+          "J96.00",
+          "surgical condition"
+        ],
+        "rationale": "Post-admission respiratory failure should not be principal",
+        "common_mistake": "Making post-admission complication the principal diagnosis"
+      }
+    },
+    {
+      "scenario_id": "respiratory_failure_with_mi",
+      "scenario": "Patient with respiratory failure and MI, MI is primary focus",
+      "documentation_example": "Patient admitted with acute MI, also has acute respiratory failure present on admission",
+      "step_by_step": [
+        "Step 1: Identify both conditions present on admission",
+        "Step 2: Determine which is chiefly responsible for admission",
+        "Step 3: If MI is primary focus, code as principal",
+        "Step 4: Code respiratory failure as secondary"
+      ],
+      "correct_coding": {
+        "primary_code": "I21.9",
+        "secondary_codes": [
+          "J96.00"
+        ],
+        "sequencing": "MI principal, respiratory failure secondary",
+        "rationale": "Respiratory failure present on admission but MI is chiefly responsible for admission (Evidence: pg no: 56, L64)"
+      },
+      "incorrect_coding": {
+        "code": "J96.00",
+        "codes": [
+          "J96.00",
+          "I21.9"
+        ],
+        "rationale": "MI should be principal if it's the chief reason for admission",
+        "common_mistake": "Not properly identifying which condition is chiefly responsible"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "secondary_respiratory_failure",
+      "scenario": "Respiratory failure as secondary diagnosis",
+      "code_example": "Primary: I21.9, Secondary: J96.00",
+      "breakdown": {
+        "Primary": "Acute MI as principal diagnosis",
+        "Secondary": "Acute respiratory failure as secondary (Evidence: pg no: 56, L63-L64)"
+      },
+      "rationale": "Respiratory failure present but not the chief reason for admission (Evidence: pg no: 56, L64)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [],
+    "best_practices": [
+      "Carefully assess timing of respiratory failure development (Evidence: pg no: 56, L64)",
+      "Evaluate which condition is chiefly responsible for admission (Evidence: pg no: 56, L64)"
+    ],
+    "common_mistakes": [
+      "Making post-admission respiratory failure the principal diagnosis",
+      "Not properly assessing principal diagnosis criteria"
+    ],
+    "tips": [
+      "Post-admission development automatically makes condition secondary (Evidence: pg no: 56, L64)",
+      "Present on admission doesn't automatically mean principal diagnosis (Evidence: pg no: 56, L64)"
+    ],
+    "implementation_notes": [
+      "Requires careful documentation review for timing",
+      "Must apply principal diagnosis definition consistently"
+    ],
+    "clinical_context": [
+      "Respiratory failure can develop as complication during hospitalization",
+      "Multiple acute conditions may be present with different levels of severity",
+      "Timing of condition development affects coding sequence"
+    ]
+  },
+  "search_keywords": [
+    "respiratory failure secondary",
+    "post admission respiratory failure",
+    "present on admission",
+    "secondary diagnosis",
+    "hospital acquired",
+    "postoperative complications"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "respiratory_system_failure",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "respiratory_failure",
+      "secondary_diagnosis",
+      "timing",
+      "post_admission"
+    ]
+  },
+  "page_range_processed": "pages_54_to_57"
+}

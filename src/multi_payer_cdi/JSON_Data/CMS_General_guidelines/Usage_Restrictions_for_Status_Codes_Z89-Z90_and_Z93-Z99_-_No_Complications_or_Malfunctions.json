@@ -1,0 +1,161 @@
+{
+  "guideline_id": "I.C.21.c.3.note",
+  "semantic_title": "Usage Restrictions for Status Codes Z89-Z90 and Z93-Z99 - No Complications or Malfunctions",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 21. Factors Influencing Health Status > c. Status > 3) Status",
+  "page_number": 97,
+  "content": {
+    "full_text": "Categories Z89-Z90 and Z93-Z99 are for use only if there are no complications or malfunctions of the organ or tissue replaced, the amputation site or the equipment on which the patient is dependent. (Evidence: pg no: 97, L28-L29)",
+    "summary": "Status codes Z89-Z90 and Z93-Z99 should only be used when there are no complications or malfunctions present (Evidence: pg no: 97, L28-L29)",
+    "key_concepts": [
+      "Status codes usage restrictions (Evidence: pg no: 97, L28)",
+      "No complications or malfunctions requirement (Evidence: pg no: 97, L29)",
+      "Organ/tissue replacement status (Evidence: pg no: 97, L29)",
+      "Amputation site status (Evidence: pg no: 97, L29)",
+      "Equipment dependence status (Evidence: pg no: 97, L29)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "status_codes_no_complications",
+        "rule_text": "Use status codes Z89-Z90 and Z93-Z99 only when no complications or malfunctions exist (Evidence: pg no: 97, L28-L29)",
+        "explanation": "These status codes are specifically for situations where the patient has a status condition but is not experiencing any problems, complications, or malfunctions related to that status (Evidence: pg no: 97, L28-L29)",
+        "importance": "critical",
+        "applies_to": "Z89-Z90, Z93-Z99",
+        "common_applications": [
+          "Routine follow-up for transplanted organs without complications",
+          "Status visits for prosthetic devices functioning normally"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify if patient has a status condition covered by Z89-Z90 or Z93-Z99",
+      "Step 2: Verify there are no complications or malfunctions present",
+      "Step 3: If complications exist, use appropriate complication codes instead of status codes"
+    ],
+    "related_terminology": [
+      "Status codes",
+      "Complications",
+      "Malfunctions",
+      "Organ replacement",
+      "Tissue replacement",
+      "Amputation site",
+      "Equipment dependence"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z89-Z90",
+        "description": "Acquired absence codes (Evidence: pg no: 97, L28)",
+        "requirement": "Use only if no complications or malfunctions present",
+        "usage_rules": [
+          "No complications of amputation site (Evidence: pg no: 97, L29)",
+          "No malfunctions of replaced organs or tissues (Evidence: pg no: 97, L29)"
+        ]
+      },
+      {
+        "range": "Z93-Z99",
+        "description": "Status codes for artificial openings, transplants, implants, and dependence (Evidence: pg no: 97, L28)",
+        "requirement": "Use only if no complications or malfunctions present",
+        "usage_rules": [
+          "No equipment malfunctions (Evidence: pg no: 97, L29)",
+          "No complications of artificial openings or implants (Evidence: pg no: 97, L29)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Acquired absence of limb and organs",
+      "Artificial opening status",
+      "Transplanted organ status",
+      "Implant and graft status",
+      "Equipment dependence status"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "status_no_complications",
+      "scenario": "Patient with kidney transplant presents for routine follow-up with no complications",
+      "documentation_example": "Patient presents for routine post-transplant follow-up. Kidney transplant functioning well, no signs of rejection or complications.",
+      "step_by_step": [
+        "Step 1: Identify transplant status",
+        "Step 2: Confirm no complications present",
+        "Step 3: Assign appropriate Z94 code for transplant status"
+      ],
+      "correct_coding": {
+        "primary_code": "Z94.0",
+        "secondary_codes": [],
+        "sequencing": "Status code as primary when encounter is for status monitoring",
+        "rationale": "No complications present, so status code is appropriate (Evidence: pg no: 97, L28-L29)"
+      },
+      "incorrect_coding": {
+        "code": "T86.10",
+        "codes": [
+          "T86.10"
+        ],
+        "rationale": "Complication code should not be used when no complications exist",
+        "common_mistake": "Using complication codes when patient has no complications"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not use status codes Z89-Z90 and Z93-Z99 if any complications or malfunctions are present (Evidence: pg no: 97, L28-L29)"
+    ],
+    "best_practices": [
+      "Verify absence of complications before assigning status codes (Evidence: pg no: 97, L28-L29)",
+      "Use complication codes when problems exist instead of status codes"
+    ],
+    "common_mistakes": [
+      "Using status codes when complications are present (Evidence: pg no: 97, L28-L29)",
+      "Failing to identify malfunctions that would preclude status code use"
+    ],
+    "tips": [
+      "Review documentation carefully for any mention of complications or malfunctions",
+      "Status codes indicate normal functioning without problems"
+    ],
+    "implementation_notes": [
+      "This restriction applies to all codes in the specified ranges",
+      "When complications exist, use appropriate complication codes from other chapters"
+    ],
+    "clinical_context": [
+      "Status codes represent stable conditions without active problems",
+      "Complications require different coding approach with specific complication codes"
+    ]
+  },
+  "search_keywords": [
+    "status codes",
+    "Z89",
+    "Z90",
+    "Z93",
+    "Z99",
+    "complications",
+    "malfunctions",
+    "transplant status",
+    "amputation status",
+    "implant status"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "status_codes",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "status_codes",
+      "complications",
+      "restrictions",
+      "Z_codes"
+    ]
+  },
+  "page_range_processed": "pages_96_to_99"
+}

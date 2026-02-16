@@ -1,0 +1,270 @@
+{
+  "guideline_id": "I.C.9.e.1",
+  "semantic_title": "Coding Guidelines for Type 1 STEMI and NSTEMI Including Evolution and Conversion Rules",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 9. Diseases of the Circulatory System > e. Acute myocardial infarction (AMI) > 1) Type 1 ST elevation myocardial infarction (STEMI) and non-ST elevation myocardial infarction (NSTEMI)",
+  "page_number": 54,
+  "content": {
+    "full_text": "The ICD-10-CM codes for type 1 acute myocardial infarction (AMI) identify the site, such as anterolateral wall or true posterior wall. Subcategories I21.0-I21.2 and code I21.3 are used for type 1 ST elevation myocardial infarction (STEMI). Code I21.4, Non-ST elevation (NSTEMI) myocardial infarction, is used for type 1 non-ST elevation myocardial infarction (NSTEMI) and nontransmural MIs. If a type 1 NSTEMI evolves to STEMI, assign the STEMI code. If a type 1 STEMI converts to NSTEMI due to thrombolytic therapy, it is still coded as STEMI. For encounters occurring while the myocardial infarction is equal to, or less than, four weeks old, including transfers to another acute setting or a postacute setting, and the myocardial infarction meets the definition for \"other diagnoses\" (see Section III, Reporting Additional Diagnoses), codes from category I21 may continue to be reported. For encounters after the 4-week time frame and the patient is still receiving care related to the myocardial infarction, the appropriate aftercare code should be assigned, rather than a code from category I21. For old or healed myocardial infarctions not requiring further care, code I25.2, Old myocardial infarction, may be assigned. (Evidence: pg no: 54, L85-L97)",
+    "summary": "Comprehensive guidelines for coding Type 1 STEMI and NSTEMI including site identification, evolution rules, and time-based coding requirements (Evidence: pg no: 54, L85-L97)",
+    "key_concepts": [
+      "Type 1 AMI site identification (Evidence: pg no: 54, L88-L89)",
+      "STEMI subcategories I21.0-I21.3 (Evidence: pg no: 54, L90-L91)",
+      "NSTEMI code I21.4 (Evidence: pg no: 54, L91-L92)",
+      "Evolution and conversion rules (Evidence: pg no: 54, L93-L94)",
+      "Four-week time frame rule (Evidence: pg no: 54, L95-L96)",
+      "Aftercare coding after 4 weeks (Evidence: pg no: 54, L96-L97)",
+      "Old MI coding (Evidence: pg no: 54, L97)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "AMI_TYPE1_001",
+        "rule_text": "Use I21.0-I21.3 for Type 1 STEMI with site identification (Evidence: pg no: 54, L88-L91)",
+        "explanation": "Type 1 acute myocardial infarction codes identify the anatomical site, with subcategories I21.0-I21.2 and code I21.3 used for STEMI (Evidence: pg no: 54, L88-L91)",
+        "importance": "critical",
+        "applies_to": "I21.0-I21.3",
+        "common_applications": [
+          "Anterior wall STEMI",
+          "Inferior wall STEMI",
+          "Lateral wall STEMI"
+        ]
+      },
+      {
+        "rule_id": "AMI_TYPE1_002",
+        "rule_text": "Use I21.4 for Type 1 NSTEMI and nontransmural MIs (Evidence: pg no: 54, L91-L92)",
+        "explanation": "Code I21.4 is used for type 1 non-ST elevation myocardial infarction (NSTEMI) and nontransmural MIs (Evidence: pg no: 54, L91-L92)",
+        "importance": "critical",
+        "applies_to": "I21.4",
+        "common_applications": [
+          "NSTEMI diagnosis",
+          "Nontransmural MI"
+        ]
+      },
+      {
+        "rule_id": "AMI_TYPE1_003",
+        "rule_text": "NSTEMI evolving to STEMI gets STEMI code (Evidence: pg no: 54, L93)",
+        "explanation": "If a type 1 NSTEMI evolves to STEMI during the encounter, assign the STEMI code (Evidence: pg no: 54, L93)",
+        "importance": "high",
+        "applies_to": "I21.0-I21.3",
+        "common_applications": [
+          "Evolving myocardial infarction",
+          "Progressive MI"
+        ]
+      },
+      {
+        "rule_id": "AMI_TYPE1_004",
+        "rule_text": "STEMI converting to NSTEMI due to thrombolytics still coded as STEMI (Evidence: pg no: 54, L93-L94)",
+        "explanation": "If a type 1 STEMI converts to NSTEMI due to thrombolytic therapy, it is still coded as STEMI (Evidence: pg no: 54, L93-L94)",
+        "importance": "high",
+        "applies_to": "I21.0-I21.3",
+        "common_applications": [
+          "Thrombolytic therapy cases",
+          "Successful reperfusion"
+        ]
+      },
+      {
+        "rule_id": "AMI_TYPE1_005",
+        "rule_text": "Use I21 codes for encounters within 4 weeks (Evidence: pg no: 54, L95-L96)",
+        "explanation": "For encounters while MI is 4 weeks old or less, including transfers, I21 codes may continue to be used if meeting other diagnoses criteria (Evidence: pg no: 54, L95-L96)",
+        "importance": "critical",
+        "applies_to": "I21",
+        "common_applications": [
+          "Hospital transfers",
+          "Rehabilitation admissions",
+          "Follow-up within 4 weeks"
+        ]
+      },
+      {
+        "rule_id": "AMI_TYPE1_006",
+        "rule_text": "Use aftercare codes after 4 weeks for ongoing MI care (Evidence: pg no: 54, L96-L97)",
+        "explanation": "For encounters after 4 weeks when patient still receiving MI-related care, use appropriate aftercare code rather than I21 (Evidence: pg no: 54, L96-L97)",
+        "importance": "high",
+        "applies_to": "Aftercare codes",
+        "common_applications": [
+          "Cardiac rehabilitation",
+          "Long-term follow-up care"
+        ]
+      },
+      {
+        "rule_id": "AMI_TYPE1_007",
+        "rule_text": "Use I25.2 for old/healed MI not requiring further care (Evidence: pg no: 54, L97)",
+        "explanation": "For old or healed myocardial infarctions not requiring further care, code I25.2, Old myocardial infarction, may be assigned (Evidence: pg no: 54, L97)",
+        "importance": "high",
+        "applies_to": "I25.2",
+        "common_applications": [
+          "Incidental old MI findings",
+          "History of MI without current issues"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify Type 1 AMI",
+      "Step 2: Determine if STEMI or NSTEMI",
+      "Step 3: Identify anatomical site for STEMI",
+      "Step 4: Check for evolution or conversion",
+      "Step 5: Determine time frame from MI onset",
+      "Step 6: Apply appropriate coding based on time and care status"
+    ],
+    "related_terminology": [
+      "Type 1 myocardial infarction",
+      "STEMI",
+      "NSTEMI",
+      "Nontransmural MI",
+      "Thrombolytic therapy",
+      "Anterolateral wall",
+      "True posterior wall",
+      "Four-week rule"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "I21.0-I21.2",
+        "description": "Type 1 STEMI subcategories (Evidence: pg no: 54, L90-L91)",
+        "requirement": "Use for STEMI with site specification",
+        "usage_rules": [
+          "Identify anatomical site (Evidence: pg no: 54, L88-L89)"
+        ]
+      },
+      {
+        "range": "I21",
+        "description": "Acute myocardial infarction category (Evidence: pg no: 54, L95-L96)",
+        "requirement": "Use within 4 weeks of MI",
+        "usage_rules": [
+          "Continue use for transfers within 4 weeks (Evidence: pg no: 54, L95-L96)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "I21.3",
+        "description": "ST elevation (STEMI) myocardial infarction of unspecified site (Evidence: pg no: 54, L90-L91)",
+        "context": "STEMI without specified anatomical site",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "I21": "Acute myocardial infarction",
+          ".3": "STEMI of unspecified site"
+        }
+      },
+      {
+        "code": "I21.4",
+        "description": "Non-ST elevation (NSTEMI) myocardial infarction (Evidence: pg no: 54, L91-L92)",
+        "context": "Type 1 NSTEMI and nontransmural MIs",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "I21": "Acute myocardial infarction",
+          ".4": "Non-ST elevation myocardial infarction"
+        }
+      },
+      {
+        "code": "I25.2",
+        "description": "Old myocardial infarction (Evidence: pg no: 54, L97)",
+        "context": "Old or healed MI not requiring further care",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "I25": "Chronic ischemic heart disease",
+          ".2": "Old myocardial infarction"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Acute myocardial infarction",
+      "Chronic ischemic heart disease"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "Section III",
+        "title": "Reporting Additional Diagnoses",
+        "relationship": "applies_to",
+        "explanation": "Referenced for criteria to continue reporting I21 codes"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "AMI_TYPE1_SC001",
+      "scenario": "Patient with NSTEMI that evolves to anterior STEMI",
+      "documentation_example": "NSTEMI on admission, evolved to anterior wall STEMI during hospitalization",
+      "step_by_step": [
+        "Step 1: Identify initial NSTEMI",
+        "Step 2: Identify evolution to anterior STEMI",
+        "Step 3: Apply evolution rule",
+        "Step 4: Assign anterior STEMI code"
+      ],
+      "correct_coding": {
+        "primary_code": "I21.02",
+        "secondary_codes": [],
+        "sequencing": "STEMI code for evolved condition",
+        "rationale": "NSTEMI evolving to STEMI gets STEMI code per evolution rule (Evidence: pg no: 54, L93)"
+      },
+      "incorrect_coding": {
+        "code": "I21.4",
+        "codes": [
+          "I21.4"
+        ],
+        "rationale": "Would miss the evolution to STEMI",
+        "common_mistake": "Not applying evolution rules"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "STEMI converting to NSTEMI due to thrombolytics still coded as STEMI (Evidence: pg no: 54, L93-L94)"
+    ],
+    "best_practices": [
+      "Apply evolution and conversion rules correctly (Evidence: pg no: 54, L93-L94)",
+      "Follow 4-week time frame rule strictly (Evidence: pg no: 54, L95-L96)",
+      "Use aftercare codes appropriately after 4 weeks (Evidence: pg no: 54, L96-L97)"
+    ],
+    "common_mistakes": [
+      "Not applying evolution rules",
+      "Using I21 codes beyond 4 weeks inappropriately",
+      "Missing site identification for STEMI"
+    ],
+    "tips": [
+      "Document anatomical site for STEMI coding (Evidence: pg no: 54, L88-L89)",
+      "Track time from MI onset for proper coding (Evidence: pg no: 54, L95-L96)"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Emergency department presentations",
+      "Cardiac catheterization procedures",
+      "Intensive care admissions",
+      "Cardiac rehabilitation"
+    ]
+  },
+  "search_keywords": [
+    "Type 1 AMI",
+    "STEMI",
+    "NSTEMI",
+    "myocardial infarction",
+    "I21",
+    "evolution",
+    "thrombolytic",
+    "four weeks"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "acute_myocardial_infarction",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "AMI",
+      "STEMI",
+      "NSTEMI",
+      "evolution",
+      "time_frame",
+      "I21"
+    ]
+  },
+  "page_range_processed": "pages_51_to_54"
+}

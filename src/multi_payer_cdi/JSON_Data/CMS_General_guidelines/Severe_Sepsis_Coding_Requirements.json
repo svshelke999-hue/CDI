@@ -1,0 +1,173 @@
+{
+  "guideline_id": "I.C.1.d.1.b",
+  "semantic_title": "Severe Sepsis Coding Requirements",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 1. Chapter 1: Certain Infectious and Parasitic Diseases > d. Sepsis, Severe Sepsis, and Septic Shock > 1. Coding of Sepsis and Severe Sepsis > b. Severe sepsis",
+  "page_number": 24,
+  "content": {
+    "full_text": "The coding of severe sepsis requires a minimum of 2 codes: first a code for the underlying systemic infection, followed by a code from subcategory R65.2, Severe sepsis. If the causal organism is not documented, assign code A41.9, Sepsis, unspecified organism, for the infection. Additional code(s) for the associated acute organ dysfunction are also required. Due to the complex nature of severe sepsis, some cases may require querying the provider prior to assignment of the codes. (Evidence: pg no: 24, L77-L79)",
+    "summary": "Detailed requirements for coding severe sepsis including minimum code requirements and sequencing rules (Evidence: pg no: 24, L77-L79)",
+    "key_concepts": [
+      "Minimum two-code requirement for severe sepsis (Evidence: pg no: 24, L77-L78)",
+      "Underlying infection coding first (Evidence: pg no: 24, L78)",
+      "Additional organ dysfunction codes required (Evidence: pg no: 24, L79)",
+      "Provider querying for complex cases (Evidence: pg no: 24, L79)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "SEVERE_SEPSIS_MINIMUM",
+        "rule_text": "The coding of severe sepsis requires a minimum of 2 codes: first a code for the underlying systemic infection, followed by a code from subcategory R65.2, Severe sepsis (Evidence: pg no: 24, L77-L78)",
+        "explanation": "Severe sepsis always requires at least two codes in specific sequence: infection code first, then R65.2 code (Evidence: pg no: 24, L77-L78)",
+        "importance": "critical",
+        "applies_to": "severe_sepsis",
+        "common_applications": [
+          "All severe sepsis cases",
+          "Sepsis with organ dysfunction"
+        ]
+      },
+      {
+        "rule_id": "SEVERE_SEPSIS_UNSPECIFIED",
+        "rule_text": "If the causal organism is not documented, assign code A41.9, Sepsis, unspecified organism, for the infection (Evidence: pg no: 24, L78-L79)",
+        "explanation": "When organism is unknown in severe sepsis, use A41.9 as the first code before R65.2 (Evidence: pg no: 24, L78-L79)",
+        "importance": "critical",
+        "applies_to": "A41.9",
+        "common_applications": [
+          "Severe sepsis with unknown organism",
+          "Culture-negative severe sepsis"
+        ]
+      },
+      {
+        "rule_id": "SEVERE_SEPSIS_ORGAN_CODES",
+        "rule_text": "Additional code(s) for the associated acute organ dysfunction are also required (Evidence: pg no: 24, L79)",
+        "explanation": "Beyond the minimum two codes, additional codes must be assigned for each acute organ dysfunction present (Evidence: pg no: 24, L79)",
+        "importance": "critical",
+        "applies_to": "organ_dysfunction_codes",
+        "common_applications": [
+          "Acute renal failure with severe sepsis",
+          "Respiratory failure with severe sepsis",
+          "Multiple organ dysfunctions"
+        ]
+      },
+      {
+        "rule_id": "SEVERE_SEPSIS_QUERY",
+        "rule_text": "Due to the complex nature of severe sepsis, some cases may require querying the provider prior to assignment of the codes (Evidence: pg no: 24, L79)",
+        "explanation": "Complex severe sepsis cases may need provider clarification before final code assignment (Evidence: pg no: 24, L79)",
+        "importance": "high",
+        "applies_to": "complex_cases",
+        "common_applications": [
+          "Unclear organ dysfunction causality",
+          "Multiple comorbidities with sepsis"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Confirm severe sepsis diagnosis",
+      "Step 2: Assign underlying systemic infection code (or A41.9 if unspecified)",
+      "Step 3: Assign appropriate R65.2 code",
+      "Step 4: Identify all acute organ dysfunctions",
+      "Step 5: Assign additional codes for each organ dysfunction",
+      "Step 6: Query provider if case is complex or unclear"
+    ],
+    "related_terminology": [
+      "severe sepsis",
+      "systemic infection",
+      "acute organ dysfunction",
+      "minimum coding requirements",
+      "code sequencing"
+    ]
+  },
+  "code_references": {
+    "specific_codes": [
+      {
+        "code": "A41.9",
+        "description": "Sepsis, unspecified organism (Evidence: pg no: 24, L78)",
+        "context": "First code when organism not documented in severe sepsis",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "A41": "Other sepsis",
+          "9": "Sepsis, unspecified organism"
+        }
+      }
+    ],
+    "code_ranges": [
+      {
+        "range": "R65.2",
+        "description": "Severe sepsis (Evidence: pg no: 24, L78)",
+        "requirement": "Second code in severe sepsis coding sequence",
+        "usage_rules": [
+          "Always follows infection code (Evidence: pg no: 24, L77-L78)",
+          "Requires additional organ dysfunction codes (Evidence: pg no: 24, L79)"
+        ]
+      }
+    ],
+    "code_categories_mentioned": [
+      "Systemic infection codes",
+      "Severe sepsis codes",
+      "Organ dysfunction codes"
+    ]
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "SEVERE_SEPSIS_1",
+      "scenario": "Patient with severe sepsis due to E. coli with acute renal failure",
+      "documentation_example": "Severe sepsis due to E. coli bacteremia with acute kidney injury",
+      "step_by_step": [
+        "Step 1: Assign E. coli sepsis code as first code",
+        "Step 2: Assign R65.2 severe sepsis code as second code",
+        "Step 3: Assign acute renal failure code as additional code"
+      ],
+      "correct_coding": {
+        "primary_code": "A41.51 (Sepsis due to Escherichia coli)",
+        "secondary_codes": [
+          "R65.20 (Severe sepsis without septic shock)",
+          "N17.9 (Acute kidney failure, unspecified)"
+        ],
+        "sequencing": "Infection first, severe sepsis second, organ dysfunction third",
+        "rationale": "Minimum two codes required plus additional organ dysfunction codes (Evidence: pg no: 24, L77-L79)"
+      }
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Never code severe sepsis with less than two codes (Evidence: pg no: 24, L77-L78)"
+    ],
+    "best_practices": [
+      "Always sequence infection code before R65.2 (Evidence: pg no: 24, L77-L78)",
+      "Code all associated acute organ dysfunctions (Evidence: pg no: 24, L79)",
+      "Query provider for complex cases (Evidence: pg no: 24, L79)"
+    ],
+    "common_mistakes": [
+      "Forgetting to code organ dysfunctions",
+      "Incorrect sequencing of codes",
+      "Using only one code for severe sepsis"
+    ],
+    "tips": [
+      "Remember minimum two codes plus organ dysfunction codes",
+      "Infection code always comes first"
+    ]
+  },
+  "search_keywords": [
+    "severe sepsis coding",
+    "R65.2 severe sepsis",
+    "severe sepsis sequencing",
+    "organ dysfunction codes",
+    "severe sepsis minimum codes",
+    "A41.9 severe sepsis"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "sepsis",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "tags": [
+      "severe sepsis",
+      "R65.2",
+      "organ dysfunction",
+      "sequencing",
+      "minimum codes"
+    ]
+  },
+  "page_range_processed": "pages_21_to_24"
+}

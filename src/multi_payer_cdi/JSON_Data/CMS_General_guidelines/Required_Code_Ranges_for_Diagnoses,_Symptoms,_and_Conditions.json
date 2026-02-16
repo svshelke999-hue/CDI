@@ -1,0 +1,157 @@
+{
+  "guideline_id": "I.B.3",
+  "semantic_title": "Required Code Ranges for Diagnoses, Symptoms, and Conditions",
+  "section_path": "Section I > B. General Coding Guidelines > 3. Code or codes from A00.0 through T88.9, Z00-Z99.8, U00-U85",
+  "page_number": 13,
+  "content": {
+    "full_text": "The appropriate code or codes from A00.0 through T88.9, Z00-Z99.8, and U00-U85 must be used to identify diagnoses, symptoms, conditions, problems, complaints or other reason(s) for the encounter/visit. (Evidence: pg no: 13, L34-L37)",
+    "summary": "Specifies the mandatory code ranges that must be used for all diagnoses, symptoms, conditions, problems, complaints, or other reasons for healthcare encounters. (Evidence: pg no: 13, L34-L37)",
+    "key_concepts": [
+      "Mandatory code ranges for all healthcare encounters (Evidence: pg no: 13, L34-L35)",
+      "Covers diagnoses, symptoms, conditions, problems, and complaints (Evidence: pg no: 13, L36-L37)",
+      "Includes three distinct code ranges: A00.0-T88.9, Z00-Z99.8, and U00-U85 (Evidence: pg no: 13, L35)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.B.3.1",
+        "rule_text": "Must use codes from A00.0 through T88.9, Z00-Z99.8, and U00-U85 for all encounter reasons (Evidence: pg no: 13, L35-L37)",
+        "explanation": "This is a mandatory requirement that establishes the universe of acceptable ICD-10-CM codes for reporting any reason for a healthcare encounter, whether it's a definitive diagnosis, symptom, condition, problem, or complaint (Evidence: pg no: 13, L35-L37)",
+        "importance": "critical",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "All inpatient and outpatient encounters",
+          "Emergency department visits",
+          "Routine check-ups and preventive care"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify the reason for the encounter/visit",
+      "Step 2: Ensure the selected code falls within A00.0-T88.9, Z00-Z99.8, or U00-U85 ranges",
+      "Step 3: Assign the appropriate code from these ranges"
+    ],
+    "related_terminology": [
+      "diagnoses",
+      "symptoms",
+      "conditions",
+      "problems",
+      "complaints",
+      "encounter",
+      "visit"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "A00.0-T88.9",
+        "description": "Primary range for diseases, injuries, and external causes (Evidence: pg no: 13, L35)",
+        "requirement": "Must be used for appropriate diagnoses and conditions",
+        "usage_rules": [
+          "Covers most disease conditions and injuries (Evidence: pg no: 13, L35-L37)"
+        ]
+      },
+      {
+        "range": "Z00-Z99.8",
+        "description": "Factors influencing health status and contact with health services (Evidence: pg no: 13, L35)",
+        "requirement": "Must be used for encounters not related to current illness or injury",
+        "usage_rules": [
+          "Used for preventive care, follow-up visits, and other health service contacts (Evidence: pg no: 13, L35-L37)"
+        ]
+      },
+      {
+        "range": "U00-U85",
+        "description": "Codes for special purposes (Evidence: pg no: 13, L35)",
+        "requirement": "Must be used when applicable for special circumstances",
+        "usage_rules": [
+          "Reserved for special coding situations as defined by WHO and CMS (Evidence: pg no: 13, L35-L37)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Diagnoses",
+      "Symptoms",
+      "Conditions",
+      "Problems",
+      "Complaints"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "I.B.3.S1",
+      "scenario": "Patient presents with chest pain",
+      "documentation_example": "Chief complaint: chest pain",
+      "step_by_step": [
+        "Step 1: Identify chest pain as the reason for encounter",
+        "Step 2: Locate appropriate code within A00.0-T88.9 range",
+        "Step 3: Assign specific chest pain code"
+      ],
+      "correct_coding": {
+        "primary_code": "R07.9",
+        "secondary_codes": [],
+        "sequencing": "Primary diagnosis",
+        "rationale": "Chest pain falls within the required A00.0-T88.9 range for symptoms (Evidence: pg no: 13, L35-L37)"
+      },
+      "incorrect_coding": {
+        "code": "Any code outside A00.0-T88.9, Z00-Z99.8, U00-U85",
+        "codes": [],
+        "rationale": "Would violate the mandatory range requirement",
+        "common_mistake": "Using codes outside the specified ranges"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "All encounter reasons must use codes from the specified ranges (Evidence: pg no: 13, L35-L37)"
+    ],
+    "best_practices": [
+      "Always verify code falls within required ranges before assignment (Evidence: pg no: 13, L35-L37)"
+    ],
+    "common_mistakes": [
+      "Using codes outside the mandatory ranges (Evidence: pg no: 13, L35-L37)"
+    ],
+    "tips": [
+      "Remember all three ranges: A00.0-T88.9, Z00-Z99.8, and U00-U85 (Evidence: pg no: 13, L35)"
+    ],
+    "implementation_notes": [
+      "This applies to all types of healthcare encounters"
+    ],
+    "clinical_context": [
+      "Covers all reasons for healthcare encounters"
+    ]
+  },
+  "search_keywords": [
+    "code ranges",
+    "A00.0-T88.9",
+    "Z00-Z99.8",
+    "U00-U85",
+    "diagnoses",
+    "symptoms",
+    "encounter",
+    "visit",
+    "mandatory codes"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "code_selection",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "code_ranges",
+      "mandatory",
+      "encounter_coding",
+      "basic_rules"
+    ]
+  },
+  "page_range_processed": "pages_12_to_15"
+}

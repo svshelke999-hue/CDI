@@ -1,0 +1,181 @@
+{
+  "guideline_id": "I.A.12",
+  "semantic_title": "Excludes Notes: Two Types of Exclusion Instructions with Different Rules",
+  "section_path": "Section I > A. Conventions > 12. Excludes Notes",
+  "page_number": 9,
+  "content": {
+    "full_text": "The ICD-10-CM has two types of excludes notes. Each type of note has a different definition for use, but they are all similar in that they indicate that codes excluded from each other are independent of each other. a. Excludes1 - A type 1 Excludes note is a pure excludes note. It means 'NOT CODED HERE!' An Excludes1 note indicates that the code excluded should never be used at the same time as the code above the Excludes1 note. An Excludes1 is used when two conditions cannot occur together, such as a congenital form versus an acquired form of the same condition. (Evidence: pg no: 9, L78-L82)",
+    "summary": "Introduces two types of Excludes notes with different usage rules, defining Excludes1 as a pure exclusion meaning codes cannot be used together (Evidence: pg no: 9, L78-L82)",
+    "key_concepts": [
+      "ICD-10-CM has two types of excludes notes (Evidence: pg no: 9, L79)",
+      "Each type has different definition for use (Evidence: pg no: 9, L79)",
+      "Excluded codes are independent of each other (Evidence: pg no: 9, L80)",
+      "Excludes1 means 'NOT CODED HERE!' (Evidence: pg no: 9, L81)",
+      "Excludes1 codes should never be used together (Evidence: pg no: 9, L81-L82)",
+      "Used when conditions cannot occur together (Evidence: pg no: 9, L82)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.A.12.R1",
+        "rule_text": "ICD-10-CM has two types of excludes notes with different definitions for use (Evidence: pg no: 9, L79)",
+        "explanation": "The classification system uses two distinct types of exclusion notes, each with specific rules and applications (Evidence: pg no: 9, L79)",
+        "importance": "critical",
+        "applies_to": "all_codes_with_excludes_notes",
+        "common_applications": [
+          "Code selection verification",
+          "Multiple code assignment validation"
+        ]
+      },
+      {
+        "rule_id": "I.A.12.R2",
+        "rule_text": "Codes excluded from each other are independent of each other (Evidence: pg no: 9, L80)",
+        "explanation": "Excluded codes represent separate, independent conditions that have specific relationship rules (Evidence: pg no: 9, L80)",
+        "importance": "high",
+        "applies_to": "all_codes_with_excludes_notes",
+        "common_applications": [
+          "Understanding code relationships",
+          "Multiple diagnosis coding"
+        ]
+      },
+      {
+        "rule_id": "I.A.12.R3",
+        "rule_text": "Excludes1 means 'NOT CODED HERE!' and codes should never be used at the same time (Evidence: pg no: 9, L81-L82)",
+        "explanation": "Excludes1 is a pure exclusion indicating that the excluded code cannot be assigned simultaneously with the code above the note (Evidence: pg no: 9, L81-L82)",
+        "importance": "critical",
+        "applies_to": "codes_with_excludes1_notes",
+        "common_applications": [
+          "Preventing inappropriate code combinations",
+          "Ensuring mutually exclusive coding"
+        ]
+      },
+      {
+        "rule_id": "I.A.12.R4",
+        "rule_text": "Excludes1 is used when two conditions cannot occur together, such as congenital versus acquired forms (Evidence: pg no: 9, L82)",
+        "explanation": "Excludes1 notes appear when conditions are mutually exclusive by nature, such as different forms of the same condition that cannot coexist (Evidence: pg no: 9, L82)",
+        "importance": "high",
+        "applies_to": "mutually_exclusive_conditions",
+        "common_applications": [
+          "Congenital vs acquired conditions",
+          "Different forms of same condition"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify Excludes notes under codes being considered",
+      "Step 2: Determine if note is Excludes1 or Excludes2",
+      "Step 3: For Excludes1, ensure excluded codes are not used together",
+      "Step 4: Verify code selection follows exclusion rules"
+    ],
+    "related_terminology": [
+      "Excludes notes",
+      "Excludes1",
+      "Pure excludes",
+      "Independent codes",
+      "Mutually exclusive",
+      "Congenital vs acquired"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Codes with Excludes1 notes",
+      "Congenital condition codes",
+      "Acquired condition codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "I.A.12.S1",
+      "scenario": "Excludes1 preventing simultaneous code assignment",
+      "documentation_example": "Patient has acquired heart condition (cannot also have congenital form)",
+      "step_by_step": [
+        "Step 1: Locate acquired heart condition code",
+        "Step 2: Check for Excludes1 note",
+        "Step 3: Note that congenital form is excluded",
+        "Step 4: Assign only the acquired condition code"
+      ],
+      "correct_coding": {
+        "primary_code": "Acquired heart condition code only",
+        "secondary_codes": [],
+        "sequencing": "Primary diagnosis",
+        "rationale": "Excludes1 prevents using both congenital and acquired codes together (Evidence: pg no: 9, L81-L82)"
+      },
+      "incorrect_coding": {
+        "code": "Both acquired and congenital codes",
+        "codes": [],
+        "rationale": "Excludes1 prohibits simultaneous use of excluded codes",
+        "common_mistake": "Ignoring Excludes1 restrictions"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "I.A.12.E1",
+      "scenario": "Congenital vs acquired condition exclusion",
+      "code_example": "Congenital heart defect vs Acquired heart disease",
+      "breakdown": {
+        "Excludes1": "Pure exclusion - cannot code both together (Evidence: pg no: 9, L81)",
+        "Congenital vs Acquired": "Example of conditions that cannot occur together (Evidence: pg no: 9, L82)"
+      },
+      "rationale": "These represent mutually exclusive forms of conditions (Evidence: pg no: 9, L82)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Excludes1 codes should NEVER be used at the same time (Evidence: pg no: 9, L81-L82)",
+      "Two types of excludes notes have different rules (Evidence: pg no: 9, L79)"
+    ],
+    "best_practices": [
+      "Always check for Excludes notes before finalizing code selection",
+      "Understand the difference between Excludes1 and Excludes2",
+      "Verify conditions can coexist before assigning multiple codes"
+    ],
+    "common_mistakes": [
+      "Ignoring Excludes1 restrictions",
+      "Not distinguishing between Excludes1 and Excludes2",
+      "Coding mutually exclusive conditions together"
+    ],
+    "tips": [
+      "Excludes1 = pure exclusion, never together",
+      "Look for examples like congenital vs acquired"
+    ],
+    "implementation_notes": [
+      "Excludes notes prevent inappropriate code combinations"
+    ],
+    "clinical_context": [
+      "Reflects clinical reality of mutually exclusive conditions"
+    ]
+  },
+  "search_keywords": [
+    "excludes notes",
+    "excludes1",
+    "pure excludes",
+    "mutually exclusive",
+    "congenital vs acquired",
+    "code exclusions",
+    "NOT CODED HERE"
+  ],
+  "metadata": {
+    "category": "convention",
+    "subcategory": "exclusion_rules",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "October 1, 2025",
+    "tags": [
+      "excludes_notes",
+      "excludes1",
+      "exclusions",
+      "mutually_exclusive"
+    ]
+  },
+  "page_range_processed": "pages_7_to_9"
+}

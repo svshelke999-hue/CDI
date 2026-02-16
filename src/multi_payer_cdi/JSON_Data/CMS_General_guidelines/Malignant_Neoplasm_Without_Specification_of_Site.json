@@ -1,0 +1,153 @@
+{
+  "guideline_id": "I.C.2.k",
+  "semantic_title": "Malignant Neoplasm Without Specification of Site",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 2. Chapter 2: Neoplasms > k. Malignant neoplasm without specification of site",
+  "page_number": 36,
+  "content": {
+    "full_text": "Code C80.1, Malignant (primary) neoplasm, unspecified, equates to Cancer, unspecified. This code should only be used when no determination can be made as to the primary site of a malignancy. This code should rarely be used in the inpatient setting. (Evidence: pg no: 36, L93-L95)",
+    "summary": "Guidelines for using C80.1 for malignant neoplasm when primary site cannot be determined (Evidence: pg no: 36, L93-L95)",
+    "key_concepts": [
+      "Equates to Cancer, unspecified (Evidence: pg no: 36, L94)",
+      "Use only when no determination of primary site possible (Evidence: pg no: 36, L94-L95)",
+      "Should rarely be used in inpatient setting (Evidence: pg no: 36, L95)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "c80_1_usage_criteria",
+        "rule_text": "Use C80.1 only when no determination can be made as to primary site of malignancy (Evidence: pg no: 36, L94-L95)",
+        "explanation": "C80.1 is reserved for situations where there is clearly a malignancy but the primary site cannot be determined despite appropriate investigation (Evidence: pg no: 36, L94-L95)",
+        "importance": "critical",
+        "applies_to": "malignancy with unknown primary site",
+        "common_applications": [
+          "Cancer of unknown primary after extensive workup",
+          "Malignancy present but primary site cannot be identified"
+        ]
+      },
+      {
+        "rule_id": "c80_1_inpatient_restriction",
+        "rule_text": "Should rarely be used in the inpatient setting (Evidence: pg no: 36, L95)",
+        "explanation": "In inpatient settings, there are usually more resources and time to determine the primary site, so this code should be used sparingly (Evidence: pg no: 36, L95)",
+        "importance": "high",
+        "applies_to": "inpatient coding",
+        "common_applications": [
+          "More appropriate for outpatient settings with limited diagnostic capability"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Confirm malignancy is present",
+      "Step 2: Verify extensive attempts made to identify primary site",
+      "Step 3: Confirm no primary site can be determined",
+      "Step 4: Consider if inpatient setting allows for further investigation",
+      "Step 5: Use C80.1 only if truly no primary site can be identified"
+    ],
+    "related_terminology": [
+      "Cancer, unspecified",
+      "Unknown primary",
+      "Primary site",
+      "Malignancy"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "C80.1",
+        "description": "Malignant (primary) neoplasm, unspecified (Evidence: pg no: 36, L94)",
+        "context": "Use only when primary site of malignancy cannot be determined",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "C80": "Malignant neoplasm without specification of site",
+          "1": "Primary neoplasm, unspecified"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Unspecified malignant neoplasms"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "unknown_primary_outpatient",
+      "scenario": "Outpatient with clear evidence of malignancy but primary site cannot be determined despite workup",
+      "documentation_example": "Patient presents with malignant cells on biopsy, extensive imaging and laboratory workup unable to identify primary site of malignancy",
+      "step_by_step": [
+        "Step 1: Confirm malignancy is present",
+        "Step 2: Verify workup attempted to find primary site",
+        "Step 3: Confirm primary site remains unknown",
+        "Step 4: Consider appropriateness for outpatient setting",
+        "Step 5: Assign C80.1"
+      ],
+      "correct_coding": {
+        "primary_code": "C80.1 (Malignant (primary) neoplasm, unspecified)",
+        "secondary_codes": [],
+        "sequencing": "C80.1 as principal diagnosis",
+        "rationale": "When primary site cannot be determined despite appropriate investigation, C80.1 is appropriate (Evidence: pg no: 36, L94-L95)"
+      },
+      "incorrect_coding": {
+        "code": "C80.1 in inpatient with limited workup",
+        "codes": [
+          "C80.1 when further investigation possible"
+        ],
+        "rationale": "Should rarely be used in inpatient setting where more investigation is usually possible",
+        "common_mistake": "Using C80.1 prematurely before adequate investigation in inpatient setting"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Should rarely be used in inpatient setting (Evidence: pg no: 36, L95)",
+      "Only use when truly no primary site can be determined (Evidence: pg no: 36, L94-L95)"
+    ],
+    "best_practices": [
+      "Ensure adequate investigation attempted before using this code (Evidence: pg no: 36, L94-L95)",
+      "Consider if inpatient resources allow for further workup (Evidence: pg no: 36, L95)"
+    ],
+    "common_mistakes": [
+      "Using C80.1 prematurely without adequate investigation (Evidence: pg no: 36, L94-L95)",
+      "Overusing in inpatient settings (Evidence: pg no: 36, L95)"
+    ],
+    "tips": [
+      "This code equates to 'Cancer, unspecified' (Evidence: pg no: 36, L94)",
+      "More appropriate for outpatient settings with limited diagnostic resources (Evidence: pg no: 36, L95)"
+    ],
+    "implementation_notes": [
+      "This code should be used sparingly and only after appropriate investigation"
+    ],
+    "clinical_context": [
+      "Cancer of unknown primary is a recognized clinical entity but requires thorough investigation"
+    ]
+  },
+  "search_keywords": [
+    "C80.1",
+    "cancer unspecified",
+    "unknown primary cancer",
+    "malignant neoplasm unspecified",
+    "primary site unknown"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "neoplasms",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "outpatient",
+      "limited_inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "neoplasms",
+      "C80.1",
+      "unknown_primary",
+      "unspecified",
+      "cancer"
+    ]
+  },
+  "page_range_processed": "pages_33_to_36"
+}

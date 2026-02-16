@@ -1,0 +1,175 @@
+{
+  "guideline_id": "I.C.6.b.1.general",
+  "semantic_title": "G89 Code Assignment Rules for Known Underlying Diagnoses",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 6. Chapter 6: Diseases of the Nervous System > b. Pain - Category G89 > 1) General coding information",
+  "page_number": 46,
+  "content": {
+    "full_text": "A code from category G89 should not be assigned if the underlying (definitive) diagnosis is known, unless the reason for the encounter is pain control/management and not management of the underlying condition. When an admission or encounter is for a procedure aimed at treating the underlying condition (e.g., spinal fusion, kyphoplasty), a code for the underlying condition (e.g., vertebral fracture, spinal stenosis) should be assigned as the principal diagnosis. No code from category G89 should be assigned. (Evidence: pg no: 46, L24-L25)",
+    "summary": "Rules for when not to assign G89 codes when underlying diagnosis is known, with exceptions for pain control encounters. (Evidence: pg no: 46, L24-L25)",
+    "key_concepts": [
+      "Known underlying diagnosis exclusion (Evidence: pg no: 46, L24)",
+      "Pain control encounter exception (Evidence: pg no: 46, L24-L25)",
+      "Procedure-focused encounter rules (Evidence: pg no: 46, L25)",
+      "Principal diagnosis assignment (Evidence: pg no: 46, L25)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "known_diagnosis_exclusion",
+        "rule_text": "A code from category G89 should not be assigned if the underlying (definitive) diagnosis is known, unless the reason for the encounter is pain control/management and not management of the underlying condition (Evidence: pg no: 46, L24-L25)",
+        "explanation": "When the cause of pain is known and documented, G89 codes are generally not used unless the encounter is specifically for pain management (Evidence: pg no: 46, L24-L25)",
+        "importance": "critical",
+        "applies_to": "G89",
+        "common_applications": [
+          "Known pain etiology cases",
+          "Pain management encounters"
+        ]
+      },
+      {
+        "rule_id": "procedure_underlying_condition",
+        "rule_text": "When an admission or encounter is for a procedure aimed at treating the underlying condition (e.g., spinal fusion, kyphoplasty), a code for the underlying condition (e.g., vertebral fracture, spinal stenosis) should be assigned as the principal diagnosis. No code from category G89 should be assigned (Evidence: pg no: 46, L25)",
+        "explanation": "For procedures treating the underlying cause of pain, code the underlying condition as principal diagnosis and do not use G89 codes (Evidence: pg no: 46, L25)",
+        "importance": "critical",
+        "applies_to": "G89",
+        "common_applications": [
+          "Surgical procedures for pain conditions",
+          "Therapeutic procedures"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify if underlying diagnosis is known",
+      "Step 2: Determine reason for encounter",
+      "Step 3: If encounter is for pain control/management, consider G89",
+      "Step 4: If encounter is for treating underlying condition, use underlying condition code",
+      "Step 5: Do not assign G89 for procedure-focused encounters"
+    ],
+    "related_terminology": [
+      "Underlying diagnosis",
+      "Definitive diagnosis",
+      "Pain control",
+      "Pain management",
+      "Principal diagnosis"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "G89",
+        "description": "Pain codes not to be used when underlying diagnosis known (Evidence: pg no: 46, L24)",
+        "requirement": "Encounter must be for pain control/management",
+        "usage_rules": [
+          "Do not use if underlying diagnosis known and encounter not for pain control (Evidence: pg no: 46, L24-L25)",
+          "Do not use for procedures treating underlying condition (Evidence: pg no: 46, L25)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "G89 - Pain, not elsewhere classified"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "spinal_fusion_procedure",
+      "scenario": "Patient admitted for spinal fusion due to spinal stenosis with associated pain",
+      "documentation_example": "Admission for L4-L5 spinal fusion for spinal stenosis with chronic back pain",
+      "step_by_step": [
+        "Step 1: Identify procedure is for treating underlying condition (spinal stenosis)",
+        "Step 2: Note underlying diagnosis is known",
+        "Step 3: Assign underlying condition as principal diagnosis",
+        "Step 4: Do not assign G89 code"
+      ],
+      "correct_coding": {
+        "primary_code": "M48.06 (Spinal stenosis, lumbar region)",
+        "secondary_codes": [],
+        "sequencing": "Underlying condition as principal diagnosis",
+        "rationale": "Procedure treats underlying condition, not pain management (Evidence: pg no: 46, L25)"
+      },
+      "incorrect_coding": {
+        "codes": [
+          "G89.29",
+          "M48.06"
+        ],
+        "rationale": "Should not use G89 when procedure treats underlying condition",
+        "common_mistake": "Adding pain codes to all pain-related procedures"
+      }
+    }
+  ],
+  "procedure_links": [
+    {
+      "cpt_code": "22558",
+      "description": "Spinal fusion procedure",
+      "relationship": "commonly_coded_with",
+      "context": "Underlying condition coding",
+      "note": "Do not use G89 codes for procedures treating underlying conditions"
+    }
+  ],
+  "examples": [
+    {
+      "example_id": "spinal_fusion_example",
+      "scenario": "Spinal fusion for stenosis",
+      "code_example": "M48.06",
+      "breakdown": {
+        "M48": "Other spondylopathies (Evidence: pg no: 46, L25)",
+        ".06": "Spinal stenosis, lumbar region"
+      },
+      "rationale": "Underlying condition coded when procedure treats the cause (Evidence: pg no: 46, L25)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not assign G89 codes for procedures treating underlying conditions (Evidence: pg no: 46, L25)"
+    ],
+    "best_practices": [
+      "Always identify the reason for the encounter before assigning pain codes",
+      "Use underlying condition codes for therapeutic procedures"
+    ],
+    "common_mistakes": [
+      "Adding G89 codes to all pain-related encounters",
+      "Not distinguishing between pain management and underlying condition treatment"
+    ],
+    "tips": [
+      "Pain control/management encounters are different from treatment of underlying conditions",
+      "Procedure intent determines code assignment"
+    ],
+    "implementation_notes": [
+      "Exception exists for pain control/management encounters",
+      "Principal diagnosis should reflect the underlying condition for therapeutic procedures"
+    ],
+    "clinical_context": [
+      "Procedures may treat underlying causes rather than just managing pain",
+      "Encounter purpose affects coding decisions"
+    ]
+  },
+  "search_keywords": [
+    "G89",
+    "underlying diagnosis",
+    "pain control",
+    "pain management",
+    "spinal fusion",
+    "kyphoplasty",
+    "principal diagnosis",
+    "procedure"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "nervous_system_pain",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "pain",
+      "G89",
+      "underlying_diagnosis",
+      "procedures"
+    ]
+  },
+  "page_range_processed": "pages_45_to_48"
+}

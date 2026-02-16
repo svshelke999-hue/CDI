@@ -1,0 +1,136 @@
+{
+  "guideline_id": "POA.4",
+  "semantic_title": "Conditions Diagnosed During Admission But Present Before Admission",
+  "section_path": "Present on Admission Guidelines > Assigning the POA Indicator > Conditions diagnosed during the admission but clearly present before admission",
+  "page_number": 118,
+  "content": {
+    "full_text": "Assign 'Y' for conditions diagnosed during the admission that were clearly present but not diagnosed until after admission occurred. Diagnoses subsequently confirmed after admission are considered present on admission if at the time of admission they are documented as suspected, possible, rule out, differential diagnosis, or constitute an underlying cause of a symptom that is present at the time of admission. (Evidence: pg no: 118, L29-L30)",
+    "summary": "Conditions diagnosed after admission but clearly present beforehand should receive Y indicator, including suspected or rule-out diagnoses (Evidence: pg no: 118, L29-L30)",
+    "key_concepts": [
+      "Post-admission diagnosis of pre-existing condition (Evidence: pg no: 118, L29)",
+      "Suspected diagnoses at admission (Evidence: pg no: 118, L30)",
+      "Rule out diagnoses (Evidence: pg no: 118, L30)",
+      "Underlying cause of admission symptoms (Evidence: pg no: 118, L30)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "POA.4.1",
+        "rule_text": "Assign Y for conditions diagnosed during admission that were clearly present before admission (Evidence: pg no: 118, L29)",
+        "explanation": "When a condition is diagnosed after admission but clinical evidence shows it existed at admission, assign Y indicator (Evidence: pg no: 118, L29-L30)",
+        "importance": "high",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Conditions requiring test results for confirmation",
+          "Conditions with delayed diagnostic confirmation"
+        ]
+      },
+      {
+        "rule_id": "POA.4.2",
+        "rule_text": "Assign Y for suspected, possible, rule out, or differential diagnoses at admission that are later confirmed (Evidence: pg no: 118, L30)",
+        "explanation": "Diagnoses documented as suspected or possible at admission that are later confirmed should receive Y indicator (Evidence: pg no: 118, L30)",
+        "importance": "high",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Rule out myocardial infarction later confirmed",
+          "Suspected pneumonia confirmed by culture"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify when condition was diagnosed",
+      "Step 2: Determine if condition was present at admission",
+      "Step 3: Check for suspected/rule out documentation at admission",
+      "Step 4: If present at admission, assign Y"
+    ],
+    "related_terminology": [
+      "Suspected diagnosis",
+      "Rule out diagnosis",
+      "Differential diagnosis",
+      "Underlying cause",
+      "Post-admission diagnosis"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "All conditions diagnosed after admission but present before"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "POA.4.S1",
+      "scenario": "Patient admitted with chest pain, MI confirmed on day 2",
+      "documentation_example": "Admission: Chest pain, rule out MI. Day 2: Troponins elevated, acute MI confirmed",
+      "step_by_step": [
+        "Step 1: Note MI was suspected at admission",
+        "Step 2: Confirm MI was later diagnosed",
+        "Step 3: Assign Y because condition was suspected at admission"
+      ],
+      "correct_coding": {
+        "primary_code": "Acute MI with Y indicator",
+        "secondary_codes": [],
+        "sequencing": "MI as principal diagnosis",
+        "rationale": "MI was suspected at admission and later confirmed (Evidence: pg no: 118, L30)"
+      },
+      "incorrect_coding": {
+        "code": "Acute MI with N indicator",
+        "codes": [],
+        "rationale": "Should not assign N when condition was suspected at admission",
+        "common_mistake": "Focusing on diagnosis timing rather than condition presence"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Focus on condition presence, not diagnosis timing (Evidence: pg no: 118, L29-L30)"
+    ],
+    "best_practices": [
+      "Review admission documentation for suspected diagnoses (Evidence: pg no: 118, L30)"
+    ],
+    "common_mistakes": [
+      "Assigning N based on diagnosis timing rather than condition presence (Evidence: pg no: 118, L29-L30)"
+    ],
+    "tips": [
+      "Look for rule out or suspected language in admission notes (Evidence: pg no: 118, L30)"
+    ],
+    "implementation_notes": [
+      "Train coders to distinguish diagnosis timing from condition presence"
+    ],
+    "clinical_context": [
+      "Many conditions require time and testing for definitive diagnosis"
+    ]
+  },
+  "search_keywords": [
+    "post-admission diagnosis",
+    "suspected diagnosis POA",
+    "rule out diagnosis",
+    "differential diagnosis POA",
+    "delayed diagnosis",
+    "condition present before diagnosis"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "POA_assignment",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "POA",
+      "suspected",
+      "rule_out",
+      "delayed_diagnosis",
+      "Y_indicator"
+    ]
+  },
+  "page_range_processed": "pages_117_to_120"
+}

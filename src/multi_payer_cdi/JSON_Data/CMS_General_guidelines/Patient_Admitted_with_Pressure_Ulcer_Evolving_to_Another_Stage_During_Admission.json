@@ -1,0 +1,192 @@
+{
+  "guideline_id": "I.C.12.a.6",
+  "semantic_title": "Patient Admitted with Pressure Ulcer Evolving to Another Stage During Admission",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 12. Chapter 12: Diseases of the Skin and Subcutaneous Tissue > a. Pressure ulcer stage codes > 6) Patient admitted with pressure ulcer evolving into another stage during the admission",
+  "page_number": 59,
+  "content": {
+    "full_text": "If a patient is admitted to an inpatient hospital with a pressure ulcer at one stage and it progresses to a higher stage, two separate codes should be assigned: one code for the site and stage of the ulcer on admission and a second code for the same ulcer site and the highest stage reported during the stay. (Evidence: pg no: 59, L49-L53)",
+    "summary": "Guidelines for coding pressure ulcers that progress to higher stages during inpatient admission, requiring dual coding (Evidence: pg no: 59, L49-L53)",
+    "key_concepts": [
+      "Dual coding requirement for progressing ulcers (Evidence: pg no: 59, L52-L53)",
+      "Admission stage coding (Evidence: pg no: 59, L52)",
+      "Highest stage during stay coding (Evidence: pg no: 59, L53)",
+      "Inpatient hospital specific guideline (Evidence: pg no: 59, L51)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "ULCER_PROGRESSION_001",
+        "rule_text": "Assign two codes when pressure ulcer progresses to higher stage during admission (Evidence: pg no: 59, L52-L53)",
+        "explanation": "When a pressure ulcer progresses from one stage to a higher stage during inpatient stay, both the admission stage and highest stage during stay must be coded (Evidence: pg no: 59, L52-L53)",
+        "importance": "critical",
+        "applies_to": "L89 codes",
+        "common_applications": [
+          "Stage 2 progressing to stage 3",
+          "Stage 3 progressing to stage 4",
+          "Any upward stage progression"
+        ]
+      },
+      {
+        "rule_id": "ADMISSION_STAGE_CODING_001",
+        "rule_text": "First code should reflect site and stage at admission (Evidence: pg no: 59, L52)",
+        "explanation": "One of the two required codes must represent the pressure ulcer's site and stage as documented at the time of admission (Evidence: pg no: 59, L52)",
+        "importance": "critical",
+        "applies_to": "L89 codes",
+        "common_applications": [
+          "Admission assessment documentation",
+          "Initial ulcer staging"
+        ]
+      },
+      {
+        "rule_id": "HIGHEST_STAGE_CODING_001",
+        "rule_text": "Second code should reflect same site and highest stage during stay (Evidence: pg no: 59, L53)",
+        "explanation": "The second required code must represent the same ulcer site but with the highest stage reported during the entire inpatient stay (Evidence: pg no: 59, L53)",
+        "importance": "critical",
+        "applies_to": "L89 codes",
+        "common_applications": [
+          "Peak severity during stay",
+          "Worst progression point"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify pressure ulcer at admission with stage",
+      "Step 2: Monitor for stage progression during stay",
+      "Step 3: Identify highest stage reached during stay",
+      "Step 4: Assign code for admission stage",
+      "Step 5: Assign second code for highest stage during stay"
+    ],
+    "related_terminology": [
+      "Pressure ulcer progression",
+      "Stage evolution",
+      "Dual coding",
+      "Admission stage",
+      "Highest stage"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "L89",
+        "description": "Pressure ulcer codes for progression scenarios (Evidence: pg no: 59, L52-L53)",
+        "requirement": "Assign two codes for progressing ulcers",
+        "usage_rules": [
+          "First code for admission stage (Evidence: pg no: 59, L52)",
+          "Second code for highest stage during stay (Evidence: pg no: 59, L53)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "L89.--- + L89.---",
+        "description": "Dual coding pattern for progressing ulcers (Evidence: pg no: 59, L52-L53)",
+        "example": "L89.152 + L89.153 for stage 2 to stage 3 progression",
+        "explanation": "Same site, different stages for progression"
+      }
+    ],
+    "code_categories_mentioned": []
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "ULCER_PROGRESSION_001",
+      "scenario": "Stage 2 sacral ulcer progresses to stage 3 during admission",
+      "documentation_example": "Patient admitted with stage 2 sacral pressure ulcer. On day 5, ulcer progressed to stage 3 with full thickness skin loss.",
+      "step_by_step": [
+        "Step 1: Identify admission ulcer - stage 2 sacral",
+        "Step 2: Note progression during stay to stage 3",
+        "Step 3: Assign L89.152 for admission stage 2",
+        "Step 4: Assign L89.153 for highest stage (stage 3) during stay"
+      ],
+      "correct_coding": {
+        "primary_code": "L89.152",
+        "secondary_codes": [
+          "L89.153"
+        ],
+        "sequencing": "Both codes required for progression",
+        "rationale": "Two codes required: admission stage and highest stage during stay (Evidence: pg no: 59, L52-L53)"
+      },
+      "incorrect_coding": {
+        "code": "L89.153",
+        "codes": [
+          "Only highest stage"
+        ],
+        "rationale": "Must code both admission stage and progression stage",
+        "common_mistake": "Coding only the final stage without admission stage"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "PROGRESSION_EXAMPLE_001",
+      "scenario": "Pressure ulcer stage progression during stay",
+      "code_example": "L89.152 + L89.153",
+      "breakdown": {
+        "L89.152": "Stage 2 sacral ulcer at admission (Evidence: pg no: 59, L52)",
+        "L89.153": "Stage 3 sacral ulcer - highest stage during stay (Evidence: pg no: 59, L53)"
+      },
+      "rationale": "Dual coding captures both admission status and progression during stay (Evidence: pg no: 59, L52-L53)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Must assign two codes for progressing ulcers (Evidence: pg no: 59, L52-L53)",
+      "Do not code only the final stage - include admission stage"
+    ],
+    "best_practices": [
+      "Monitor ulcer progression throughout stay",
+      "Document both admission and highest stages",
+      "Assign codes for both stages when progression occurs"
+    ],
+    "common_mistakes": [
+      "Coding only the highest stage without admission stage",
+      "Missing progression during stay",
+      "Not recognizing need for dual coding"
+    ],
+    "tips": [
+      "Review documentation throughout entire stay",
+      "Look for stage progression notes",
+      "Ensure both admission and peak stages are captured"
+    ],
+    "implementation_notes": [
+      "Requires monitoring throughout stay",
+      "Documentation must support progression"
+    ],
+    "clinical_context": [
+      "Pressure ulcers can worsen during hospitalization",
+      "Progression indicates need for intervention",
+      "Captures both admission status and hospital course"
+    ]
+  },
+  "search_keywords": [
+    "pressure ulcer progression",
+    "stage evolution",
+    "dual coding",
+    "admission stage",
+    "highest stage",
+    "L89 progression",
+    "ulcer worsening"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "skin_pressure_ulcers_progression",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "pressure ulcer",
+      "progression",
+      "dual coding",
+      "admission",
+      "staging",
+      "inpatient"
+    ]
+  },
+  "page_range_processed": "pages_57_to_60"
+}

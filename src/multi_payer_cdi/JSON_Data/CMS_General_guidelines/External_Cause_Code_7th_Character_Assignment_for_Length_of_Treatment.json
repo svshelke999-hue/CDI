@@ -1,0 +1,159 @@
+{
+  "guideline_id": "I.C.20.a.2",
+  "semantic_title": "External Cause Code 7th Character Assignment for Length of Treatment",
+  "section_path": "Chapter 20: External Causes of Morbidity > a. General External Cause Coding Guidelines > 2) External cause code used for length of treatment",
+  "page_number": 88,
+  "content": {
+    "full_text": "Assign the external cause code, with the appropriate 7th character (initial encounter, subsequent encounter or sequela) for each encounter for which the injury or condition is being treated. Most categories in chapter 20 have a 7th character requirement for each applicable code. Most categories in this chapter have three 7th character values: A, initial encounter, D, subsequent encounter and S, sequela. While the patient may be seen by a new or different provider over the course of treatment for an injury or condition, assignment of the 7th character for external cause should match the 7th character of the code assigned for the associated injury or condition for the encounter. (Evidence: pg no: 88, L25-L33)",
+    "summary": "External cause codes require 7th character assignment that matches the associated injury or condition code for each encounter (Evidence: pg no: 88, L25-L33)",
+    "key_concepts": [
+      "7th character requirement for external cause codes (Evidence: pg no: 88, L26-L28)",
+      "Three standard 7th character values: A, D, S (Evidence: pg no: 88, L29-L30)",
+      "7th character must match associated injury/condition code (Evidence: pg no: 88, L32-L33)",
+      "Applies regardless of provider changes (Evidence: pg no: 88, L30-L33)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "EXT_7TH_CHAR_001",
+        "rule_text": "External cause 7th character must match the associated injury or condition code 7th character (Evidence: pg no: 88, L32-L33)",
+        "explanation": "This ensures consistency between the primary condition and external cause coding across all encounters, regardless of provider changes (Evidence: pg no: 88, L30-L33)",
+        "importance": "critical",
+        "applies_to": "Chapter 20 external cause codes",
+        "common_applications": [
+          "Initial encounter coding",
+          "Subsequent encounter coding",
+          "Sequela coding"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine the 7th character for the primary injury or condition code",
+      "Step 2: Assign the same 7th character to the external cause code",
+      "Step 3: Verify consistency across all encounter types"
+    ],
+    "related_terminology": [
+      "7th character",
+      "Initial encounter",
+      "Subsequent encounter",
+      "Sequela",
+      "Length of treatment"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Chapter 20 (V00-Y99)",
+        "description": "External cause codes requiring 7th character assignment (Evidence: pg no: 88, L27-L28)",
+        "requirement": "Most categories require 7th character",
+        "usage_rules": [
+          "Use A for initial encounter (Evidence: pg no: 88, L29-L30)",
+          "Use D for subsequent encounter (Evidence: pg no: 88, L29-L30)",
+          "Use S for sequela (Evidence: pg no: 88, L29-L30)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "External cause code + 7th character",
+        "description": "Standard pattern for external cause coding (Evidence: pg no: 88, L26-L28)",
+        "example": "External cause code with A, D, or S",
+        "explanation": "7th character indicates encounter type and treatment phase"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Chapter 20 external cause codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "7TH_CHAR_001",
+      "scenario": "Patient seen by different providers for same injury over multiple encounters",
+      "documentation_example": "Initial ED visit for fracture, follow-up with orthopedist, final visit with primary care",
+      "step_by_step": [
+        "Step 1: Initial encounter - use 7th character A for both injury and external cause",
+        "Step 2: Subsequent encounters - use 7th character D for both codes",
+        "Step 3: Maintain consistency regardless of provider change"
+      ],
+      "correct_coding": {
+        "primary_code": "Fracture code with appropriate 7th character",
+        "secondary_codes": [
+          "External cause code with matching 7th character"
+        ],
+        "sequencing": "Injury code first, external cause second",
+        "rationale": "7th characters must match between associated codes regardless of provider changes (Evidence: pg no: 88, L30-L33)"
+      },
+      "incorrect_coding": {
+        "code": "Mismatched 7th characters",
+        "codes": [
+          "Injury code with A, external cause with D"
+        ],
+        "rationale": "7th characters must match for the same encounter",
+        "common_mistake": "Not coordinating 7th characters between related codes"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "7TH_001",
+      "scenario": "7th character values for external cause codes",
+      "code_example": "A = initial encounter, D = subsequent encounter, S = sequela",
+      "breakdown": {
+        "A": "Initial encounter for treatment (Evidence: pg no: 88, L29-L30)",
+        "D": "Subsequent encounter for treatment (Evidence: pg no: 88, L29-L30)",
+        "S": "Sequela or late effect (Evidence: pg no: 88, L29-L30)"
+      },
+      "rationale": "Standard 7th character values for most Chapter 20 categories (Evidence: pg no: 88, L29-L30)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "7th character must match associated injury/condition code (Evidence: pg no: 88, L32-L33)"
+    ],
+    "best_practices": [
+      "Verify 7th character consistency across all related codes (Evidence: pg no: 88, L32-L33)"
+    ],
+    "common_mistakes": [
+      "Using different 7th characters for related codes in same encounter (Evidence: pg no: 88, L32-L33)"
+    ],
+    "tips": [
+      "Provider changes don't affect 7th character assignment rules (Evidence: pg no: 88, L30-L33)"
+    ],
+    "implementation_notes": [
+      "Most Chapter 20 categories have 7th character requirements"
+    ],
+    "clinical_context": [
+      "Applies throughout entire treatment course"
+    ]
+  },
+  "search_keywords": [
+    "external cause 7th character",
+    "initial encounter",
+    "subsequent encounter",
+    "sequela",
+    "7th character matching",
+    "length of treatment"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "external_causes",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "external_causes",
+      "7th_character",
+      "encounter_types",
+      "chapter_20"
+    ]
+  },
+  "page_range_processed": "pages_87_to_90"
+}

@@ -1,0 +1,150 @@
+{
+  "guideline_id": "IV.N",
+  "semantic_title": "Coding Guidelines for Ambulatory Surgery Encounters",
+  "section_path": "Section IV > Diagnostic Coding and Reporting Guidelines for Outpatient Services > N. Ambulatory surgery",
+  "page_number": 115,
+  "content": {
+    "full_text": "For ambulatory surgery, code the diagnosis for which the surgery was performed. If the postoperative diagnosis is known to be different from the preoperative diagnosis at the time the diagnosis is confirmed, select the postoperative diagnosis for coding, since it is the most definitive. (Evidence: pg no: 115, L24-L26)",
+    "summary": "Guidelines for coding ambulatory surgery with preference for postoperative diagnosis when different from preoperative diagnosis (Evidence: pg no: 115, L24-L26)",
+    "key_concepts": [
+      "Ambulatory surgery diagnosis coding (Evidence: pg no: 115, L24)",
+      "Postoperative vs preoperative diagnosis priority (Evidence: pg no: 115, L25)",
+      "Most definitive diagnosis selection (Evidence: pg no: 115, L25-L26)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "IV.N.1",
+        "rule_text": "Code the diagnosis for which the surgery was performed (Evidence: pg no: 115, L24)",
+        "explanation": "The primary diagnosis should reflect the condition that necessitated the surgical procedure (Evidence: pg no: 115, L24)",
+        "importance": "critical",
+        "applies_to": "ambulatory surgery encounters",
+        "common_applications": [
+          "Outpatient surgical procedures",
+          "Same-day surgery",
+          "Ambulatory surgical center procedures"
+        ]
+      },
+      {
+        "rule_id": "IV.N.2",
+        "rule_text": "Select postoperative diagnosis when different from preoperative diagnosis and confirmed (Evidence: pg no: 115, L25-L26)",
+        "explanation": "When postoperative diagnosis differs from preoperative and is confirmed, use the postoperative diagnosis as it is most definitive (Evidence: pg no: 115, L25-L26)",
+        "importance": "high",
+        "applies_to": "ambulatory surgery encounters with differing pre/post-op diagnoses",
+        "common_applications": [
+          "Surgical findings different than expected",
+          "Pathology results confirming different diagnosis",
+          "Intraoperative discoveries"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify encounter as ambulatory surgery",
+      "Step 2: Determine diagnosis for which surgery was performed",
+      "Step 3: Check if postoperative diagnosis differs from preoperative",
+      "Step 4: If different and confirmed, use postoperative diagnosis",
+      "Step 5: If same or postoperative not confirmed, use preoperative diagnosis"
+    ],
+    "related_terminology": [
+      "ambulatory surgery",
+      "postoperative diagnosis",
+      "preoperative diagnosis",
+      "definitive diagnosis",
+      "outpatient surgery"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Surgical diagnosis codes",
+      "Postoperative diagnosis codes",
+      "Preoperative diagnosis codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "IV.M",
+        "title": "Patients receiving preoperative evaluations only",
+        "relationship": "related_to",
+        "explanation": "Both deal with surgical encounters but different phases of care"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "IV.N.scenario1",
+      "scenario": "Patient scheduled for removal of suspected malignant skin lesion, pathology reveals benign lesion",
+      "documentation_example": "Preoperative diagnosis: Suspected malignant neoplasm of skin. Postoperative diagnosis: Benign skin lesion confirmed by pathology.",
+      "step_by_step": [
+        "Step 1: Identify as ambulatory surgery encounter",
+        "Step 2: Note preoperative diagnosis was suspected malignancy",
+        "Step 3: Note postoperative diagnosis is benign lesion",
+        "Step 4: Use postoperative diagnosis as it is confirmed and definitive"
+      ],
+      "correct_coding": {
+        "primary_code": "D23.9 (Other benign neoplasm of skin, unspecified)",
+        "secondary_codes": [],
+        "sequencing": "Postoperative diagnosis as primary",
+        "rationale": "Postoperative diagnosis is more definitive than preoperative suspected diagnosis (Evidence: pg no: 115, L25-L26)"
+      },
+      "incorrect_coding": {
+        "code": "C44.90 (Unspecified malignant neoplasm of skin)",
+        "codes": [
+          "C44.90"
+        ],
+        "rationale": "Would use suspected preoperative diagnosis instead of confirmed postoperative diagnosis",
+        "common_mistake": "Using preoperative suspected diagnosis when postoperative diagnosis is confirmed and different"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Only use postoperative diagnosis when it is confirmed and known to be different (Evidence: pg no: 115, L25)"
+    ],
+    "best_practices": [
+      "Always verify if postoperative diagnosis is confirmed before using it for coding (Evidence: pg no: 115, L25-L26)",
+      "Use the most definitive diagnosis available (Evidence: pg no: 115, L26)"
+    ],
+    "common_mistakes": [
+      "Using preoperative diagnosis when postoperative diagnosis is available and confirmed (Evidence: pg no: 115, L25-L26)",
+      "Using postoperative diagnosis when it's not yet confirmed (Evidence: pg no: 115, L25)"
+    ],
+    "tips": [
+      "The postoperative diagnosis takes priority because it is the most definitive (Evidence: pg no: 115, L26)"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Outpatient surgery centers",
+      "Same-day surgical procedures",
+      "Ambulatory surgical procedures"
+    ]
+  },
+  "search_keywords": [
+    "ambulatory surgery",
+    "postoperative diagnosis",
+    "preoperative diagnosis",
+    "outpatient surgery",
+    "surgical coding",
+    "definitive diagnosis"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "outpatient_coding",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "ambulatory_surgery",
+      "diagnosis_selection",
+      "surgical_coding"
+    ]
+  },
+  "page_range_processed": "pages_114_to_117"
+}

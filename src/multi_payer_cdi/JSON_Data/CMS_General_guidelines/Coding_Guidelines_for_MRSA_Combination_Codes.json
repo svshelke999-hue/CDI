@@ -1,0 +1,238 @@
+{
+  "guideline_id": "I.C.1.e.1.a",
+  "semantic_title": "Coding Guidelines for MRSA Combination Codes",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 1. Certain Infectious and Parasitic Diseases > e. Methicillin Resistant Staphylococcus aureus (MRSA) Conditions > 1. Selection and sequencing of MRSA codes > (a) Combination codes for MRSA infection",
+  "page_number": 27,
+  "content": {
+    "full_text": "When a patient is diagnosed with an infection that is due to methicillin resistant Staphylococcus aureus (MRSA), and that infection has a combination code that includes the causal organism (e.g., sepsis, pneumonia) assign the appropriate combination code for the condition (e.g., code A41.02, Sepsis due to Methicillin resistant Staphylococcus aureus or code J15.212, Pneumonia due to Methicillin resistant Staphylococcus aureus). Do not assign code B95.62, Methicillin resistant Staphylococcus aureus infection as the cause of diseases classified elsewhere, as an additional code, because the combination code includes the type of infection and the MRSA organism. Do not assign a code from subcategory Z16.11, Resistance to penicillins, as an additional diagnosis. (Evidence: pg no: 27, L63-L65)",
+    "summary": "Instructions for using MRSA combination codes when available, prohibiting additional organism and resistance codes when combination codes already include the MRSA organism (Evidence: pg no: 27, L63-L65)",
+    "key_concepts": [
+      "MRSA combination codes priority (Evidence: pg no: 27, L63-L64)",
+      "Prohibition of additional B95.62 code (Evidence: pg no: 27, L64-L65)",
+      "Prohibition of Z16.11 resistance codes (Evidence: pg no: 27, L65)",
+      "Complete coding in single combination code (Evidence: pg no: 27, L64-L65)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "mrsa_combination_priority",
+        "rule_text": "Use combination codes when available for MRSA infections (Evidence: pg no: 27, L63-L64)",
+        "explanation": "When an infection has a combination code that includes both the condition and MRSA organism, use the combination code rather than separate codes (Evidence: pg no: 27, L63-L64)",
+        "importance": "critical",
+        "applies_to": "MRSA infections with available combination codes",
+        "common_applications": [
+          "MRSA sepsis (A41.02)",
+          "MRSA pneumonia (J15.212)"
+        ]
+      },
+      {
+        "rule_id": "no_additional_b95_62",
+        "rule_text": "Do not assign B95.62 when using MRSA combination codes (Evidence: pg no: 27, L64-L65)",
+        "explanation": "B95.62 should not be assigned as additional code when combination code already includes MRSA organism (Evidence: pg no: 27, L64-L65)",
+        "importance": "critical",
+        "applies_to": "all MRSA combination codes",
+        "common_applications": [
+          "MRSA sepsis coding",
+          "MRSA pneumonia coding"
+        ]
+      },
+      {
+        "rule_id": "no_resistance_codes",
+        "rule_text": "Do not assign Z16.11 resistance codes with MRSA combination codes (Evidence: pg no: 27, L65)",
+        "explanation": "Resistance to penicillins codes should not be assigned when using MRSA combination codes (Evidence: pg no: 27, L65)",
+        "importance": "critical",
+        "applies_to": "Z16.11 subcategory",
+        "common_applications": [
+          "MRSA infections with combination codes available"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify MRSA infection",
+      "Step 2: Check if combination code exists for the specific infection",
+      "Step 3: If combination code exists, assign only the combination code",
+      "Step 4: Do not add B95.62 or Z16.11 codes",
+      "Step 5: Refer to sepsis guidelines for additional sequencing rules"
+    ],
+    "related_terminology": [
+      "methicillin resistant Staphylococcus aureus",
+      "MRSA",
+      "combination codes",
+      "causal organism",
+      "resistance codes",
+      "sepsis",
+      "pneumonia"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z16.11",
+        "description": "Resistance to penicillins subcategory (Evidence: pg no: 27, L65)",
+        "requirement": "Do not assign with MRSA combination codes",
+        "usage_rules": [
+          "Prohibited when combination codes used (Evidence: pg no: 27, L65)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "A41.02",
+        "description": "Sepsis due to Methicillin resistant Staphylococcus aureus (Evidence: pg no: 27, L64)",
+        "context": "Combination code for MRSA sepsis",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "A41": "Other sepsis",
+          "02": "Due to Methicillin resistant Staphylococcus aureus"
+        }
+      },
+      {
+        "code": "J15.212",
+        "description": "Pneumonia due to Methicillin resistant Staphylococcus aureus (Evidence: pg no: 27, L64-L65)",
+        "context": "Combination code for MRSA pneumonia",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "J15": "Bacterial pneumonia, not elsewhere classified",
+          "212": "Due to Methicillin resistant Staphylococcus aureus"
+        }
+      },
+      {
+        "code": "B95.62",
+        "description": "Methicillin resistant Staphylococcus aureus infection as the cause of diseases classified elsewhere (Evidence: pg no: 27, L64-L65)",
+        "context": "Do not use with combination codes",
+        "requires_additional_codes": "check_code_notes",
+        "breakdown": {
+          "B95": "Streptococcus, Staphylococcus, and Enterococcus as the cause of diseases classified elsewhere",
+          "62": "Methicillin resistant Staphylococcus aureus"
+        }
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": "Single combination code only",
+        "description": "Use only the combination code when available for MRSA infections (Evidence: pg no: 27, L63-L65)",
+        "example": "A41.02 (not A41.02 + B95.62)",
+        "explanation": "Combination code includes both condition and organism"
+      }
+    ],
+    "code_categories_mentioned": [
+      "MRSA combination codes",
+      "Organism codes",
+      "Resistance codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.1",
+        "title": "Sepsis and severe sepsis coding and sequencing instructions",
+        "relationship": "applies_to",
+        "explanation": "Referenced for additional sepsis coding guidance (Evidence: pg no: 27, L66)"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "mrsa_sepsis_combination",
+      "scenario": "Patient with sepsis due to MRSA",
+      "documentation_example": "Sepsis due to methicillin-resistant Staphylococcus aureus",
+      "step_by_step": [
+        "Step 1: Identify MRSA sepsis",
+        "Step 2: Locate combination code A41.02",
+        "Step 3: Assign only A41.02",
+        "Step 4: Do not add B95.62 or Z16.11",
+        "Step 5: Follow sepsis sequencing guidelines if applicable"
+      ],
+      "correct_coding": {
+        "primary_code": "A41.02",
+        "secondary_codes": [],
+        "sequencing": "Single combination code only",
+        "rationale": "Combination code includes both sepsis and MRSA organism (Evidence: pg no: 27, L64-L65)"
+      },
+      "incorrect_coding": {
+        "code": "A41.02 + B95.62",
+        "codes": [
+          "Combination code plus organism code"
+        ],
+        "rationale": "Redundant coding when combination code already includes organism",
+        "common_mistake": "Adding unnecessary organism codes with combination codes"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "mrsa_pneumonia",
+      "scenario": "MRSA pneumonia with combination code available",
+      "code_example": "J15.212 only",
+      "breakdown": {
+        "J15.212": "Complete code for MRSA pneumonia (Evidence: pg no: 27, L64-L65)",
+        "not_B95.62": "Do not add organism code (Evidence: pg no: 27, L64-L65)",
+        "not_Z16.11": "Do not add resistance code (Evidence: pg no: 27, L65)"
+      },
+      "rationale": "Combination code provides complete information without additional codes (Evidence: pg no: 27, L64-L65)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not use B95.62 with combination codes (Evidence: pg no: 27, L64-L65)",
+      "Do not use Z16.11 with combination codes (Evidence: pg no: 27, L65)",
+      "Combination codes are complete and sufficient (Evidence: pg no: 27, L64-L65)"
+    ],
+    "best_practices": [
+      "Always check for available combination codes first (Evidence: pg no: 27, L63-L64)",
+      "Use single combination code when available (Evidence: pg no: 27, L63-L65)",
+      "Follow sepsis guidelines for additional sequencing (Evidence: pg no: 27, L66)"
+    ],
+    "common_mistakes": [
+      "Adding B95.62 to combination codes (Evidence: pg no: 27, L64-L65)",
+      "Adding resistance codes unnecessarily (Evidence: pg no: 27, L65)",
+      "Using multiple codes when combination available (Evidence: pg no: 27, L63-L65)"
+    ],
+    "tips": [
+      "Look for combination codes in alphabetic index (Evidence: pg no: 27, L63-L64)",
+      "Remember combination codes are self-sufficient (Evidence: pg no: 27, L64-L65)",
+      "Check sepsis guidelines for additional requirements (Evidence: pg no: 27, L66)"
+    ],
+    "implementation_notes": [
+      "Simplifies coding when combination codes available",
+      "Reduces coding errors from multiple code assignments",
+      "Important for infection control tracking"
+    ],
+    "clinical_context": [
+      "Common in hospital settings",
+      "Important for antibiotic stewardship",
+      "Frequent in ICU patients"
+    ]
+  },
+  "search_keywords": [
+    "MRSA",
+    "methicillin resistant",
+    "Staphylococcus aureus",
+    "combination codes",
+    "A41.02",
+    "J15.212",
+    "B95.62",
+    "Z16.11",
+    "resistance"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "infectious_diseases",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "MRSA",
+      "combination_codes",
+      "organism",
+      "resistance",
+      "sepsis",
+      "pneumonia"
+    ]
+  },
+  "page_range_processed": "pages_24_to_27"
+}

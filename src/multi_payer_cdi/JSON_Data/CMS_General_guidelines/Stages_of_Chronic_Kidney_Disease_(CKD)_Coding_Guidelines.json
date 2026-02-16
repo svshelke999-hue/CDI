@@ -1,0 +1,252 @@
+{
+  "guideline_id": "I.C.14.a.1",
+  "semantic_title": "Stages of Chronic Kidney Disease (CKD) Coding Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 14. Chapter 14: Diseases of Genitourinary System > a. Chronic kidney disease > 1. Stages of chronic kidney disease (CKD)",
+  "page_number": 62,
+  "content": {
+    "full_text": "The ICD-10-CM classifies CKD based on severity. The severity of CKD is designated by stages 1-5. Stage 2, code N18.2, equates to mild CKD; stage 3, codes N18.30-N18.32, equate to moderate CKD; and stage 4, code N18.4, equates to severe CKD. Code N18.6, End stage renal disease (ESRD), is assigned when the provider has documented end-stage renal disease (ESRD). If both a stage of CKD and ESRD are documented, assign code N18.6 only. (Evidence: pg no: 62, L69-L71)",
+    "summary": "CKD is classified by severity stages 1-5 with specific N18 codes, with ESRD (N18.6) taking priority when both stage and ESRD are documented (Evidence: pg no: 62, L69-L71)",
+    "key_concepts": [
+      "CKD severity classification (Evidence: pg no: 62, L69)",
+      "Stages 1-5 (Evidence: pg no: 62, L69)",
+      "Mild CKD (Stage 2) (Evidence: pg no: 62, L70)",
+      "Moderate CKD (Stage 3) (Evidence: pg no: 62, L70)",
+      "Severe CKD (Stage 4) (Evidence: pg no: 62, L70)",
+      "End stage renal disease (ESRD) (Evidence: pg no: 62, L70-L71)",
+      "ESRD priority coding (Evidence: pg no: 62, L71)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "CKD_STAGES_001",
+        "rule_text": "The ICD-10-CM classifies CKD based on severity. The severity of CKD is designated by stages 1-5 (Evidence: pg no: 62, L69)",
+        "explanation": "CKD coding is based on severity staging from 1 to 5, with each stage having specific code assignments (Evidence: pg no: 62, L69)",
+        "importance": "critical",
+        "applies_to": "N18 codes",
+        "common_applications": [
+          "CKD stage documentation",
+          "Severity-based coding"
+        ]
+      },
+      {
+        "rule_id": "CKD_STAGES_002",
+        "rule_text": "Stage 2, code N18.2, equates to mild CKD; stage 3, codes N18.30-N18.32, equate to moderate CKD; and stage 4, code N18.4, equates to severe CKD (Evidence: pg no: 62, L70)",
+        "explanation": "Specific stage-to-severity correlations with designated N18 codes for each CKD stage (Evidence: pg no: 62, L70)",
+        "importance": "critical",
+        "applies_to": "N18.2, N18.30-N18.32, N18.4",
+        "common_applications": [
+          "Stage-specific coding",
+          "Severity determination"
+        ]
+      },
+      {
+        "rule_id": "CKD_STAGES_003",
+        "rule_text": "Code N18.6, End stage renal disease (ESRD), is assigned when the provider has documented end-stage renal disease (ESRD) (Evidence: pg no: 62, L70-L71)",
+        "explanation": "ESRD requires specific provider documentation and uses code N18.6 (Evidence: pg no: 62, L70-L71)",
+        "importance": "critical",
+        "applies_to": "N18.6",
+        "common_applications": [
+          "ESRD documentation",
+          "End-stage disease coding"
+        ]
+      },
+      {
+        "rule_id": "CKD_STAGES_004",
+        "rule_text": "If both a stage of CKD and ESRD are documented, assign code N18.6 only (Evidence: pg no: 62, L71)",
+        "explanation": "ESRD code takes priority over stage codes when both are documented (Evidence: pg no: 62, L71)",
+        "importance": "critical",
+        "applies_to": "N18.6",
+        "common_applications": [
+          "Dual documentation scenarios",
+          "ESRD priority coding"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify CKD documentation and stage information",
+      "Step 2: Determine if ESRD is documented",
+      "Step 3: If ESRD documented, assign N18.6 regardless of stage",
+      "Step 4: If no ESRD, assign appropriate stage-specific N18 code",
+      "Step 5: Match stage to severity level (mild, moderate, severe)"
+    ],
+    "related_terminology": [
+      "Chronic kidney disease",
+      "CKD stages",
+      "End stage renal disease",
+      "ESRD",
+      "Mild CKD",
+      "Moderate CKD",
+      "Severe CKD"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "N18",
+        "description": "Chronic kidney disease codes (Evidence: pg no: 62, L69)",
+        "requirement": "Use stage-based coding",
+        "usage_rules": [
+          "Classify based on severity stages 1-5 (Evidence: pg no: 62, L69)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "N18.2",
+        "description": "Stage 2 CKD (mild CKD) (Evidence: pg no: 62, L70)",
+        "context": "Mild chronic kidney disease",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "N18": "Chronic kidney disease category",
+          "2": "Stage 2 (mild)"
+        }
+      },
+      {
+        "code": "N18.30-N18.32",
+        "description": "Stage 3 CKD (moderate CKD) (Evidence: pg no: 62, L70)",
+        "context": "Moderate chronic kidney disease",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "N18": "Chronic kidney disease category",
+          "3": "Stage 3 (moderate)"
+        }
+      },
+      {
+        "code": "N18.4",
+        "description": "Stage 4 CKD (severe CKD) (Evidence: pg no: 62, L70)",
+        "context": "Severe chronic kidney disease",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "N18": "Chronic kidney disease category",
+          "4": "Stage 4 (severe)"
+        }
+      },
+      {
+        "code": "N18.6",
+        "description": "End stage renal disease (ESRD) (Evidence: pg no: 62, L70-L71)",
+        "context": "Provider-documented ESRD",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "N18": "Chronic kidney disease category",
+          "6": "End stage renal disease"
+        }
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": "N18.x",
+        "description": "CKD stage-based coding pattern (Evidence: pg no: 62, L69-L70)",
+        "example": "N18.2, N18.4, N18.6",
+        "explanation": "Different digits represent different stages and severity levels"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Chronic kidney disease codes (N18)"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "CKD_STAGES_SC001",
+      "scenario": "Patient with documented Stage 3 CKD",
+      "documentation_example": "Patient has Stage 3 chronic kidney disease, moderate",
+      "step_by_step": [
+        "Step 1: Identify CKD with Stage 3 documentation",
+        "Step 2: Note no ESRD documentation",
+        "Step 3: Assign appropriate N18.30-N18.32 code for Stage 3"
+      ],
+      "correct_coding": {
+        "primary_code": "N18.30-N18.32 (appropriate Stage 3 code)",
+        "secondary_codes": [],
+        "sequencing": "Based on encounter focus",
+        "rationale": "Stage 3 CKD equates to moderate CKD with specific N18.30-N18.32 codes (Evidence: pg no: 62, L70)"
+      },
+      "incorrect_coding": {
+        "code": "N18.6",
+        "codes": [
+          "ESRD code without documentation"
+        ],
+        "rationale": "ESRD requires specific provider documentation",
+        "common_mistake": "Using ESRD code without proper documentation"
+      }
+    },
+    {
+      "scenario_id": "CKD_STAGES_SC002",
+      "scenario": "Patient with both Stage 4 CKD and ESRD documented",
+      "documentation_example": "Patient has Stage 4 CKD progressing to end-stage renal disease",
+      "step_by_step": [
+        "Step 1: Identify both Stage 4 CKD and ESRD documentation",
+        "Step 2: Apply priority rule for ESRD",
+        "Step 3: Assign N18.6 only"
+      ],
+      "correct_coding": {
+        "primary_code": "N18.6",
+        "secondary_codes": [],
+        "sequencing": "ESRD takes priority",
+        "rationale": "When both stage and ESRD documented, assign N18.6 only (Evidence: pg no: 62, L71)"
+      },
+      "incorrect_coding": {
+        "code": "N18.4 and N18.6",
+        "codes": [
+          "Both stage and ESRD codes"
+        ],
+        "rationale": "Guidelines specify N18.6 only when both documented",
+        "common_mistake": "Coding both stage and ESRD when both documented"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not assign both stage and ESRD codes when both documented (Evidence: pg no: 62, L71)",
+      "ESRD requires specific provider documentation (Evidence: pg no: 62, L70-L71)"
+    ],
+    "best_practices": [
+      "Use stage-specific codes based on documented severity (Evidence: pg no: 62, L69-L70)",
+      "Prioritize ESRD code when both stage and ESRD documented (Evidence: pg no: 62, L71)"
+    ],
+    "common_mistakes": [
+      "Coding both stage and ESRD codes simultaneously (Evidence: pg no: 62, L71)",
+      "Using ESRD code without provider documentation (Evidence: pg no: 62, L70-L71)"
+    ],
+    "tips": [
+      "Match CKD stages to severity levels (mild, moderate, severe) (Evidence: pg no: 62, L70)",
+      "Look for specific ESRD documentation by provider (Evidence: pg no: 62, L70-L71)"
+    ],
+    "implementation_notes": [
+      "CKD staging is based on clinical severity assessment",
+      "ESRD represents the most advanced stage of kidney disease"
+    ],
+    "clinical_context": [
+      "CKD progression follows predictable stages from mild to end-stage disease"
+    ]
+  },
+  "search_keywords": [
+    "chronic kidney disease",
+    "CKD stages",
+    "end stage renal disease",
+    "ESRD",
+    "N18 codes",
+    "kidney disease severity"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "genitourinary_system",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "CKD_staging",
+      "ESRD",
+      "kidney_disease",
+      "severity_coding"
+    ]
+  },
+  "page_range_processed": "pages_60_to_63"
+}

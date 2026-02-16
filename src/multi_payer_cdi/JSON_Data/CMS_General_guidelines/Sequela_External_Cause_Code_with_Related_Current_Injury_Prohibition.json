@@ -1,0 +1,118 @@
+{
+  "guideline_id": "I.C.20.i.2",
+  "semantic_title": "Sequela External Cause Code with Related Current Injury Prohibition",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 20. Chapter 20: External Causes of Morbidity > i. Sequelae (Late Effects) of External Cause Guidelines > 2) Sequela external cause code with a related current injury",
+  "page_number": 91,
+  "content": {
+    "full_text": "A sequela external cause code should never be used with a related current nature of injury code. (Evidence: pg no: 91, L33)",
+    "summary": "Prohibition against using sequela external cause codes with current injury codes for the same condition (Evidence: pg no: 91, L33)",
+    "key_concepts": [
+      "Sequela and current injury codes are mutually exclusive (Evidence: pg no: 91, L33)",
+      "Cannot code both sequela and current injury for same condition (Evidence: pg no: 91, L33)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "sequela_current_injury_exclusion",
+        "rule_text": "Never use sequela external cause code with related current injury code (Evidence: pg no: 91, L33)",
+        "explanation": "When coding a sequela, do not also assign a current nature of injury code for the same condition, as they represent different time periods and contexts (Evidence: pg no: 91, L33)",
+        "importance": "critical",
+        "applies_to": "sequela external cause codes",
+        "common_applications": [
+          "Avoiding duplicate coding",
+          "Proper temporal coding distinctions"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if condition is current injury or sequela",
+      "Step 2: If sequela, use sequela external cause code only",
+      "Step 3: Do not add current injury codes for same condition"
+    ],
+    "related_terminology": [
+      "Sequela external cause",
+      "Current injury",
+      "Nature of injury",
+      "Temporal coding"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Sequela external cause codes",
+      "Current nature of injury codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "sequela_vs_current_injury",
+      "scenario": "Patient with chronic condition from old injury - not a new injury",
+      "documentation_example": "Chronic arthritis of knee, sequela of fracture 5 years ago",
+      "step_by_step": [
+        "Step 1: Identify this as sequela, not current injury",
+        "Step 2: Code the chronic condition",
+        "Step 3: Use sequela external cause code with 7th character 'S'",
+        "Step 4: Do not use current fracture or injury codes"
+      ],
+      "correct_coding": {
+        "primary_code": "Chronic arthritis code",
+        "secondary_codes": [
+          "Sequela external cause code with 'S'"
+        ],
+        "sequencing": "Current condition first, sequela external cause second",
+        "rationale": "Coding sequela, not current injury (Evidence: pg no: 91, L33)"
+      },
+      "incorrect_coding": {
+        "code": "Current fracture code with sequela external cause",
+        "codes": [],
+        "rationale": "Cannot use current injury code with sequela external cause for same condition",
+        "common_mistake": "Mixing current and sequela codes for same condition"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Never combine sequela external cause with current injury codes for same condition (Evidence: pg no: 91, L33)"
+    ],
+    "best_practices": [
+      "Clearly distinguish between current injuries and sequelae (Evidence: pg no: 91, L33)"
+    ],
+    "common_mistakes": [
+      "Using both sequela and current injury codes for same condition (Evidence: pg no: 91, L33)"
+    ],
+    "tips": [
+      "Choose either current injury OR sequela coding, not both (Evidence: pg no: 91, L33)"
+    ],
+    "implementation_notes": [],
+    "clinical_context": []
+  },
+  "search_keywords": [
+    "sequela external cause",
+    "current injury prohibition",
+    "temporal coding",
+    "injury vs sequela"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "external_causes",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "external_causes",
+      "sequelae",
+      "current_injury",
+      "prohibition"
+    ]
+  },
+  "page_range_processed": "pages_90_to_93"
+}

@@ -1,0 +1,200 @@
+{
+  "guideline_id": "I.C.1.f.1",
+  "semantic_title": "Zika Virus Infections - Code Only Confirmed Cases",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 1. Certain Infectious and Parasitic Diseases > f. Zika virus infections > 1) Code only confirmed cases",
+  "page_number": 28,
+  "content": {
+    "full_text": "Code only a confirmed diagnosis of Zika virus (A92.5, Zika virus disease) as documented by the provider. This is an exception to the hospital inpatient guideline Section II, H. In this context, \"confirmation\" does not require documentation of the type of test performed; the provider's diagnostic statement that the condition is confirmed is sufficient. This code should be assigned regardless of the stated mode of transmission. If the provider documents \"suspected\", \"possible\" or \"probable\" Zika, do not assign code A92.5. Assign a code(s) explaining the reason for encounter (such as fever, rash, or joint pain) or Z20.821, Contact with and (suspected) exposure to Zika virus. (Evidence: pg no: 28, L30-L36)",
+    "summary": "Guidelines for coding Zika virus infections, requiring confirmed diagnosis and providing alternatives for suspected cases (Evidence: pg no: 28, L30-L36)",
+    "key_concepts": [
+      "Confirmed diagnosis requirement (Evidence: pg no: 28, L32)",
+      "Exception to hospital inpatient guidelines (Evidence: pg no: 28, L33)",
+      "Provider confirmation sufficient (Evidence: pg no: 28, L33-L34)",
+      "Alternative coding for suspected cases (Evidence: pg no: 28, L35-L36)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "ZIKA_CONF_001",
+        "rule_text": "Code only confirmed diagnosis of Zika virus as A92.5 (Evidence: pg no: 28, L32)",
+        "explanation": "Only assign A92.5 when the provider has documented a confirmed diagnosis of Zika virus disease (Evidence: pg no: 28, L32-L34)",
+        "importance": "critical",
+        "applies_to": "A92.5",
+        "common_applications": [
+          "Laboratory confirmed Zika virus",
+          "Provider documented confirmed Zika diagnosis"
+        ]
+      },
+      {
+        "rule_id": "ZIKA_CONF_002",
+        "rule_text": "Do not assign A92.5 for suspected, possible, or probable Zika (Evidence: pg no: 28, L35)",
+        "explanation": "When documentation indicates uncertainty about Zika diagnosis, use alternative codes for symptoms or exposure (Evidence: pg no: 28, L35-L36)",
+        "importance": "critical",
+        "applies_to": "A92.5",
+        "common_applications": [
+          "Suspected Zika cases",
+          "Probable Zika cases",
+          "Possible Zika cases"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Review provider documentation for Zika diagnosis",
+      "Step 2: Determine if diagnosis is confirmed or suspected",
+      "Step 3: If confirmed, assign A92.5",
+      "Step 4: If suspected, assign symptom codes or Z20.821"
+    ],
+    "related_terminology": [
+      "Confirmed diagnosis",
+      "Suspected diagnosis",
+      "Zika virus disease",
+      "Mode of transmission"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "A92.5",
+        "description": "Zika virus disease (Evidence: pg no: 28, L32)",
+        "context": "Use only for confirmed diagnosis",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "A92": "Other mosquito-borne viral fevers",
+          "5": "Zika virus disease"
+        }
+      },
+      {
+        "code": "Z20.821",
+        "description": "Contact with and (suspected) exposure to Zika virus (Evidence: pg no: 28, L36)",
+        "context": "Use for suspected cases or exposure",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z20": "Contact with and exposure to communicable diseases",
+          "821": "Zika virus"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Symptom codes for fever, rash, joint pain"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "II.H",
+        "title": "Hospital inpatient guideline",
+        "relationship": "applies_concept",
+        "explanation": "This is an exception to the general hospital inpatient coding guidelines"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "ZIKA_SC001",
+      "scenario": "Patient with confirmed Zika virus disease",
+      "documentation_example": "Patient diagnosed with confirmed Zika virus disease",
+      "step_by_step": [
+        "Step 1: Identify confirmed diagnosis documentation",
+        "Step 2: Assign A92.5"
+      ],
+      "correct_coding": {
+        "primary_code": "A92.5",
+        "secondary_codes": [],
+        "sequencing": "A92.5 as primary diagnosis",
+        "rationale": "Provider confirmed diagnosis allows use of A92.5 (Evidence: pg no: 28, L32-L34)"
+      },
+      "incorrect_coding": {
+        "code": "A92.5",
+        "codes": [
+          "A92.5"
+        ],
+        "rationale": "Should not be used for suspected cases",
+        "common_mistake": "Using A92.5 for suspected or probable Zika"
+      }
+    },
+    {
+      "scenario_id": "ZIKA_SC002",
+      "scenario": "Patient with suspected Zika virus",
+      "documentation_example": "Patient with suspected Zika virus, presenting with fever and rash",
+      "step_by_step": [
+        "Step 1: Identify suspected diagnosis",
+        "Step 2: Code symptoms instead",
+        "Step 3: Consider exposure code"
+      ],
+      "correct_coding": {
+        "primary_code": "R50.9",
+        "secondary_codes": [
+          "R21",
+          "Z20.821"
+        ],
+        "sequencing": "Symptoms as primary, exposure as additional",
+        "rationale": "Suspected cases should not use A92.5, code symptoms instead (Evidence: pg no: 28, L35-L36)"
+      },
+      "incorrect_coding": {
+        "code": "A92.5",
+        "codes": [
+          "A92.5"
+        ],
+        "rationale": "Should not be used for suspected cases",
+        "common_mistake": "Using A92.5 for suspected Zika"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not assign A92.5 for suspected, possible, or probable Zika (Evidence: pg no: 28, L35)",
+      "This is an exception to hospital inpatient guidelines (Evidence: pg no: 28, L33)"
+    ],
+    "best_practices": [
+      "Confirmation does not require documentation of test type (Evidence: pg no: 28, L33-L34)",
+      "Provider's diagnostic statement is sufficient for confirmation",
+      "Code symptoms when diagnosis is not confirmed"
+    ],
+    "common_mistakes": [
+      "Using A92.5 for suspected or probable cases",
+      "Requiring test documentation for confirmation"
+    ],
+    "tips": [
+      "Look for provider's confirmation statement",
+      "Mode of transmission does not affect code assignment",
+      "Use symptom codes for uncertain diagnoses"
+    ],
+    "implementation_notes": [
+      "Exception to general hospital inpatient coding rules",
+      "Provider confirmation is key criterion"
+    ],
+    "clinical_context": [
+      "Important for public health tracking",
+      "Zika has specific pregnancy implications"
+    ]
+  },
+  "search_keywords": [
+    "Zika virus",
+    "A92.5",
+    "confirmed diagnosis",
+    "suspected Zika",
+    "Z20.821",
+    "mosquito-borne"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "infectious_diseases",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "Zika",
+      "confirmed_diagnosis",
+      "viral_infection",
+      "exception"
+    ]
+  },
+  "page_range_processed": "pages_27_to_30"
+}

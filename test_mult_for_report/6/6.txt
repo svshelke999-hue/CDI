@@ -1,0 +1,106 @@
+L001: === CHART: Orthopedic Consultation Note ===
+L002: 
+L003: [AI ADDED: Header information organized]
+L004: Date of Service: 12/29/2025
+L005: Patient: Renke Thye
+L006: MRN: MR364652
+L007: DOB: 7/30/1938 (87 years old)
+L008: Provider: Michael B Held, MD
+L009: Service: Orthopedics
+L010: 
+L011: [AI ADDED: Section header] REASON FOR CONSULTATION
+L012: Left hip fracture
+L013: 
+L014: [AI ADDED: Section header] HISTORY OF PRESENT ILLNESS
+L015: Renke B Thye is an 87-year-old male with past medical history of hypertension, hyperlipidemia, GERD, coronary artery disease status post stents in 2015, and history of left subarachnoid hemorrhage who presents status post mechanical fall with left hip pain and inability to ambulate. At baseline, the patient ambulates unassisted and lives with his wife. He is still very active, walking 5000 steps per day. Patient denies any antecedent left hip pain. Denies head strike or loss of consciousness. No other pain or injury except his left hip.
+L016: 
+L017: [AI ADDED: Section header] SOCIAL HISTORY
+L018: Patient reports that he has quit smoking. He has never used smokeless tobacco. He reports current alcohol use [⚠️ PHYSICIAN INPUT REQUIRED: frequency and amount of alcohol consumption]. He reports that he does not use drugs.
+L019: 
+L020: [AI ADDED: Section header] PAST MEDICAL HISTORY
+L021: - Chronic coronary artery disease
+L022: - GERD (gastroesophageal reflux disease)
+L023: - Hypercholesterolemia
+L024: - Hypertension
+L025: - Stroke - atraumatic right cortical subarachnoid hemorrhage (05/11/2025)
+L026: 
+L027: [AI ADDED: Section header] PAST SURGICAL HISTORY
+L028: - Coronary stent placement (2 stents per patient)
+L029: - Bilateral knee joint replacement
+L030: - Laparoscopic cholecystectomy
+L031: 
+L032: [AI ADDED: Section header] MEDICATIONS
+L033: [AI ADDED: Simplified medication list]
+L034: - Acetaminophen (Tylenol) 975 mg oral Q6H
+L035: - Amlodipine (Norvasc) 5 mg oral daily
+L036: - Bisacodyl (Dulcolax) 5 mg oral daily PRN
+L037: - Bisacodyl (Dulcolax) 10 mg rectal daily PRN
+L038: - Chlorhexidine gluconate 2% towelette topical once PRN
+L039: - Divalproex (Depakote DR) 500 mg oral BID
+L040: - Fentanyl (Sublimaze) 50 mcg IV push Q5 min PRN
+L041: - Hydromorphone (Dilaudid) 0.5 mg IV push Q4H PRN
+L042: - Hydromorphone (Dilaudid) 1 mg IV push Q4H PRN
+L043: - Memantine (Namenda) 10 mg oral Q12H
+L044: - Midazolam (Versed) 2 mg IV push Q5 min PRN
+L045: - Ondansetron (Zofran) 4 mg IV push Q6H PRN
+L046: - Ondansetron (Zofran-ODT) 4 mg translingual Q6H PRN
+L047: - Oxycodone (Roxicodone) 10 mg oral Q3H PRN
+L048: - Oxycodone (Roxicodone) 15 mg oral Q3H PRN
+L049: - Oxycodone (Roxicodone) 5 mg oral Q3H PRN (start on 12/30/2025)
+L050: - Polyethylene glycol (Miralax) 17 g oral daily
+L051: - Povidone-iodine 5% nasal swab once
+L052: - Rosuvastatin (Crestor) 10 mg oral daily
+L053: - Senna (Senokot) 17.2 mg (2 tablets) oral nightly (start on 12/30/2025)
+L054: - Sodium chloride 0.9% flush 3 mL IV push Q8H
+L055: - Sodium chloride 0.9% flush 3 mL IV push PRN for line care
+L056: - Sodium chloride 0.9% infusion 75 mL/hr continuous
+L057: 
+L058: [AI ADDED: Section header] ALLERGIES
+L059: Patient has no known allergies.
+L060: 
+L061: [AI ADDED: Section header] PHYSICAL EXAMINATION
+L062: [AI ADDED: Vital signs organized]
+L063: Temperature: 98°F (36.7°C)
+L064: Pulse: 64 bpm
+L065: Respiratory Rate: 19 breaths/min
+L066: Blood Pressure: 162/66 mmHg
+L067: SpO2: 94%
+L068: 
+L069: [AI ADDED: Organized examination findings]
+L070: General: Awake, alert, no acute distress
+L071: Cardiovascular: Regular heart rate
+L072: Respiratory: Unlabored breathing
+L073: 
+L074: Left Lower Extremity:
+L075: - Skin intact, leg shortened/externally rotated
+L076: - Intact ankle dorsiflexion, plantar flexion, extensor hallucis longus function
+L077: - Sensation intact grossly in superficial peroneal, deep peroneal, and tibial nerve distributions
+L078: - Toes warm, well-perfused with palpable dorsalis pedis pulse
+L079: - Nonpainful left knee/ankle range of motion
+L080: 
+L081: Pelvis: No pain or instability with anteroposterior or lateral compression
+L082: All other large joints in the extremities were palpated and ranged with no signs of deformity or pain.
+L083: 
+L084: [AI ADDED: Section header] IMAGING/STUDIES
+L085: XR AP pelvis + femur demonstrates left displaced femoral neck hip fracture
+L086: 
+L087: [AI ADDED: Section header] ASSESSMENT
+L088: Renke B Thye is an 87-year-old male who sustained a left displaced femoral neck fracture. Femur fractures in the elderly are of the highest severity due to the morbidity without treatment and risk of death due to bed-ridden disability, risk of [⚠️ PHYSICIAN INPUT REQUIRED: complete the assessment regarding specific risks for this patient].
+L089: 
+L090: [AI ADDED: Section header] PLAN
+L091: [⚠️ PHYSICIAN INPUT REQUIRED: Specific surgical plan details including procedure type (hemiarthroplasty vs. total hip arthroplasty), approach, and timing]
+L092: 
+L093: [AI ADDED: Medical necessity documentation] MEDICAL NECESSITY DOCUMENTATION:
+L094: . Diagnosis: Left displaced femoral neck fracture
+L095: . Functional status: Patient was independent and active prior to injury (walking 5000 steps daily)
+L096: . Failed conservative measures: [⚠️ PHYSICIAN INPUT REQUIRED: Document any attempted conservative measures or rationale for proceeding directly to surgery]
+L097: . Surgical indication: Displaced femoral neck fracture in elderly patient with high pre-injury functional status
+L098: . Expected outcome: [⚠️ PHYSICIAN INPUT REQUIRED: Document expected functional outcomes and goals of surgery]
+L099: 
+L100: [AI ADDED: Informed consent documentation] INFORMED CONSENT:
+L101: Had a long discussion with the patient and their family about the treatment options, including nonoperative and operative intervention. We discussed risks and benefits and alternatives to surgery as well as chances of full [⚠️ PHYSICIAN INPUT REQUIRED: complete the informed consent documentation including specific risks discussed and patient's understanding].
+L102: 
+L103: [AI ADDED: Signature block]
+L104: Michael B Held, MD
+L105: Orthopedics
+L106: Date: 12/29/2025

@@ -1,0 +1,151 @@
+{
+  "guideline_id": "I.C.9.a.12",
+  "semantic_title": "Coding Guidelines for Resistant Hypertension with Additional Code Requirements",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 9. Diseases of the Circulatory System > a. Hypertension > 12) Hypertension, Resistant",
+  "page_number": 52,
+  "content": {
+    "full_text": "Resistant hypertension refers to blood pressure of a patient with hypertension that remains above goal in spite of the use of antihypertensive medications. Assign code I1A.0, Resistant hypertension, as an additional code when apparent treatment resistant hypertension, treatment resistant hypertension, or true resistant hypertension is documented by the provider. A code for the specific type of existing hypertension is sequenced first, if known. (Evidence: pg no: 52, L47-L49)",
+    "summary": "Guidelines for coding resistant hypertension as an additional code with specific sequencing requirements (Evidence: pg no: 52, L47-L49)",
+    "key_concepts": [
+      "Resistant hypertension definition (Evidence: pg no: 52, L47-L48)",
+      "Code I1A.0 usage (Evidence: pg no: 52, L48-L49)",
+      "Additional code requirement (Evidence: pg no: 52, L48-L49)",
+      "Sequencing with specific hypertension type (Evidence: pg no: 52, L49)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "RESIST_HTN_001",
+        "rule_text": "Use I1A.0 as additional code for documented resistant hypertension (Evidence: pg no: 52, L48-L49)",
+        "explanation": "When apparent treatment resistant, treatment resistant, or true resistant hypertension is documented, assign I1A.0 as an additional code (Evidence: pg no: 52, L48-L49)",
+        "importance": "high",
+        "applies_to": "I1A.0",
+        "common_applications": [
+          "Treatment-resistant hypertension cases",
+          "Refractory hypertension management"
+        ]
+      },
+      {
+        "rule_id": "RESIST_HTN_002",
+        "rule_text": "Sequence specific hypertension type first if known (Evidence: pg no: 52, L49)",
+        "explanation": "A code for the specific type of existing hypertension should be sequenced first, with I1A.0 as additional code (Evidence: pg no: 52, L49)",
+        "importance": "high",
+        "applies_to": "I10-I15, I1A.0",
+        "common_applications": [
+          "Essential hypertension with resistance",
+          "Secondary hypertension with resistance"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify resistant hypertension documentation",
+      "Step 2: Determine specific type of underlying hypertension",
+      "Step 3: Assign primary hypertension code first",
+      "Step 4: Assign I1A.0 as additional code"
+    ],
+    "related_terminology": [
+      "Resistant hypertension",
+      "Treatment-resistant hypertension",
+      "Refractory hypertension",
+      "Antihypertensive medications"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "I1A.0",
+        "description": "Resistant hypertension (Evidence: pg no: 52, L48-L49)",
+        "context": "Additional code for documented resistant hypertension",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "I1A": "Resistant hypertension category",
+          ".0": "Resistant hypertension"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Resistant hypertension"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "RESIST_HTN_SC001",
+      "scenario": "Patient with essential hypertension that is treatment-resistant",
+      "documentation_example": "Essential hypertension, treatment-resistant despite multiple medications",
+      "step_by_step": [
+        "Step 1: Identify treatment-resistant hypertension",
+        "Step 2: Identify underlying essential hypertension",
+        "Step 3: Assign I10 as primary code",
+        "Step 4: Assign I1A.0 as additional code"
+      ],
+      "correct_coding": {
+        "primary_code": "I10",
+        "secondary_codes": [
+          "I1A.0"
+        ],
+        "sequencing": "Specific hypertension type first, then resistant code",
+        "rationale": "Resistant hypertension requires dual coding with specific hypertension type first (Evidence: pg no: 52, L48-L49)"
+      },
+      "incorrect_coding": {
+        "code": "I1A.0",
+        "codes": [
+          "I1A.0"
+        ],
+        "rationale": "Would miss the specific type of underlying hypertension",
+        "common_mistake": "Using only resistant hypertension code without underlying type"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Must use as additional code, not standalone (Evidence: pg no: 52, L48-L49)"
+    ],
+    "best_practices": [
+      "Always sequence specific hypertension type first (Evidence: pg no: 52, L49)",
+      "Require provider documentation of resistance (Evidence: pg no: 52, L48-L49)"
+    ],
+    "common_mistakes": [
+      "Using I1A.0 as primary code",
+      "Not coding underlying hypertension type"
+    ],
+    "tips": [
+      "Look for documentation of medication failure (Evidence: pg no: 52, L47-L48)"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Cardiology consultations",
+      "Medication management visits"
+    ]
+  },
+  "search_keywords": [
+    "resistant hypertension",
+    "treatment resistant",
+    "refractory hypertension",
+    "I1A.0",
+    "antihypertensive failure"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "hypertension",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "resistant_hypertension",
+      "treatment_resistant",
+      "additional_code",
+      "I1A.0"
+    ]
+  },
+  "page_range_processed": "pages_51_to_54"
+}

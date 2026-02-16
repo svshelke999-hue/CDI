@@ -1,0 +1,182 @@
+{
+  "guideline_id": "III.B",
+  "semantic_title": "Coding Abnormal Findings as Additional Diagnoses",
+  "section_path": "Section III > B. Abnormal findings",
+  "page_number": 111,
+  "content": {
+    "full_text": "Abnormal findings (laboratory, x-ray, pathologic, and other diagnostic results) are not coded and reported unless the provider indicates their clinical significance. If the findings are outside the normal range and the provider has ordered other tests to evaluate the condition or prescribed treatment, it is appropriate to ask the provider whether the abnormal finding should be added. Please note: This differs from the coding practices in the outpatient setting for coding encounters for diagnostic tests that have been interpreted by a provider. (Evidence: pg no: 111, L79-L81)",
+    "summary": "Abnormal findings should only be coded when the provider indicates clinical significance, differing from outpatient coding practices (Evidence: pg no: 111, L79-L81)",
+    "key_concepts": [
+      "Abnormal findings not coded unless clinically significant (Evidence: pg no: 111, L79)",
+      "Provider must indicate clinical significance (Evidence: pg no: 111, L79)",
+      "Different from outpatient coding practices (Evidence: pg no: 111, L80-L81)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "III.B.1",
+        "rule_text": "Abnormal findings (laboratory, x-ray, pathologic, and other diagnostic results) are not coded and reported unless the provider indicates their clinical significance (Evidence: pg no: 111, L79)",
+        "explanation": "Abnormal test results should not be coded unless the provider specifically indicates they are clinically significant to the patient's care (Evidence: pg no: 111, L79)",
+        "importance": "critical",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Laboratory abnormalities",
+          "Radiologic findings",
+          "Pathology results"
+        ]
+      },
+      {
+        "rule_id": "III.B.2",
+        "rule_text": "If the findings are outside the normal range and the provider has ordered other tests to evaluate the condition or prescribed treatment, it is appropriate to ask the provider whether the abnormal finding should be added (Evidence: pg no: 111, L80)",
+        "explanation": "When abnormal findings prompt additional testing or treatment, coders should query the provider about the clinical significance and whether the finding should be coded (Evidence: pg no: 111, L80)",
+        "importance": "high",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Abnormal labs prompting repeat testing",
+          "Imaging findings requiring follow-up"
+        ]
+      },
+      {
+        "rule_id": "III.B.3",
+        "rule_text": "This differs from the coding practices in the outpatient setting for coding encounters for diagnostic tests that have been interpreted by a provider (Evidence: pg no: 111, L80-L81)",
+        "explanation": "Inpatient coding of abnormal findings follows different rules than outpatient coding for diagnostic test encounters (Evidence: pg no: 111, L80-L81)",
+        "importance": "high",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Inpatient vs outpatient coding differences",
+          "Diagnostic test result coding"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify abnormal findings in documentation",
+      "Step 2: Determine if provider indicated clinical significance",
+      "Step 3: If significance unclear but tests/treatment ordered, query provider",
+      "Step 4: Code only clinically significant abnormal findings"
+    ],
+    "related_terminology": [
+      "abnormal findings",
+      "laboratory results",
+      "x-ray findings",
+      "pathologic results",
+      "clinical significance",
+      "diagnostic results"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Laboratory abnormalities",
+      "Radiologic findings",
+      "Pathologic results"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "III.B.1",
+      "scenario": "Patient admitted for pneumonia with incidental elevated glucose not addressed by provider",
+      "documentation_example": "Patient admitted for pneumonia. Lab shows glucose 180 mg/dL. Provider does not comment on glucose level or order diabetes workup.",
+      "step_by_step": [
+        "Step 1: Identify pneumonia as principal diagnosis",
+        "Step 2: Note elevated glucose finding",
+        "Step 3: Determine provider did not indicate clinical significance",
+        "Step 4: Do not code elevated glucose"
+      ],
+      "correct_coding": {
+        "primary_code": "J18.9",
+        "secondary_codes": [],
+        "sequencing": "Only pneumonia coded",
+        "rationale": "Abnormal findings not coded unless provider indicates clinical significance (Evidence: pg no: 111, L79)"
+      },
+      "incorrect_coding": {
+        "code": "J18.9",
+        "codes": [
+          "J18.9",
+          "R73.9"
+        ],
+        "rationale": "Should not code abnormal glucose without provider indication of significance",
+        "common_mistake": "Coding all abnormal findings regardless of clinical significance"
+      }
+    },
+    {
+      "scenario_id": "III.B.2",
+      "scenario": "Patient with pneumonia and elevated creatinine prompting nephrology consult",
+      "documentation_example": "Patient admitted for pneumonia. Creatinine elevated at 2.5. Nephrology consulted for evaluation of acute kidney injury.",
+      "step_by_step": [
+        "Step 1: Identify pneumonia as principal diagnosis",
+        "Step 2: Note elevated creatinine with nephrology consult",
+        "Step 3: Determine provider actions indicate clinical significance",
+        "Step 4: Code acute kidney injury as additional diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "J18.9",
+        "secondary_codes": [
+          "N17.9"
+        ],
+        "sequencing": "Pneumonia first, then acute kidney injury",
+        "rationale": "Provider ordered consult indicating clinical significance of abnormal finding (Evidence: pg no: 111, L80)"
+      },
+      "incorrect_coding": {
+        "code": "J18.9",
+        "codes": [
+          "J18.9"
+        ],
+        "rationale": "Should code AKI since provider took action indicating clinical significance",
+        "common_mistake": "Not coding clinically significant abnormal findings when provider takes action"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Inpatient abnormal findings coding differs from outpatient practices (Evidence: pg no: 111, L80-L81)"
+    ],
+    "best_practices": [
+      "Query provider when abnormal findings prompt testing or treatment (Evidence: pg no: 111, L80)"
+    ],
+    "common_mistakes": [
+      "Coding all abnormal findings without provider indication of significance (Evidence: pg no: 111, L79)",
+      "Applying outpatient coding rules to inpatient abnormal findings (Evidence: pg no: 111, L80-L81)"
+    ],
+    "tips": [
+      "Look for provider actions (tests, treatments, consults) that indicate clinical significance (Evidence: pg no: 111, L80)"
+    ],
+    "implementation_notes": [
+      "Provider queries may be necessary to determine clinical significance"
+    ],
+    "clinical_context": [
+      "Common issue with incidental laboratory or imaging findings"
+    ]
+  },
+  "search_keywords": [
+    "abnormal findings",
+    "laboratory results",
+    "x-ray findings",
+    "pathologic results",
+    "clinical significance",
+    "provider indication",
+    "diagnostic results"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "abnormal_findings",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "abnormal_findings",
+      "clinical_significance",
+      "provider_indication",
+      "inpatient"
+    ]
+  },
+  "page_range_processed": "pages_108_to_111"
+}

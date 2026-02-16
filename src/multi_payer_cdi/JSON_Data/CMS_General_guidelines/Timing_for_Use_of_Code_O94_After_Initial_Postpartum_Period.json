@@ -1,0 +1,108 @@
+{
+  "guideline_id": "I.C.15.p.2",
+  "semantic_title": "Timing for Use of Code O94 After Initial Postpartum Period",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 15. Chapter 15: Pregnancy, Childbirth, and the Puerperium > p. Code O94, Sequelae of complication of pregnancy, childbirth, and the puerperium > 2) After the initial postpartum period",
+  "page_number": 70,
+  "content": {
+    "full_text": "This code may be used at any time after the initial postpartum period. (Evidence: pg no: 70, L37)",
+    "summary": "Code O94 can be used at any time following the initial postpartum period. (Evidence: pg no: 70, L37)",
+    "key_concepts": [
+      "Timing flexibility after postpartum period (Evidence: pg no: 70, L37)",
+      "No time limit for sequelae coding (Evidence: pg no: 70, L37)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "O94_timing",
+        "rule_text": "O94 may be used at any time after initial postpartum period (Evidence: pg no: 70, L37)",
+        "explanation": "There is no time restriction on when O94 can be used, as long as it is after the initial postpartum period (Evidence: pg no: 70, L37)",
+        "importance": "medium",
+        "applies_to": "O94",
+        "common_applications": [
+          "Years after delivery for ongoing sequelae",
+          "Any encounter after postpartum period"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Confirm initial postpartum period has ended",
+      "Step 2: Identify sequelae requiring care",
+      "Step 3: Apply O94 code regardless of time elapsed"
+    ],
+    "related_terminology": [
+      "Initial postpartum period",
+      "Sequelae timing",
+      "Long-term effects"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "O94",
+        "description": "Sequelae of complication of pregnancy, childbirth, and the puerperium (Evidence: pg no: 70, L37)",
+        "context": "Any time after initial postpartum period",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "timing": "No time limit after initial postpartum period"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": []
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.15.o.1",
+        "title": "Peripartum and Postpartum periods definition",
+        "relationship": "related_to",
+        "explanation": "Defines the postpartum period referenced in O94 timing"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [],
+    "best_practices": [
+      "Can be used years after delivery if sequelae persist (Evidence: pg no: 70, L37)"
+    ],
+    "common_mistakes": [
+      "Thinking there is a time limit for using O94"
+    ],
+    "tips": [
+      "No expiration date for O94 usage after postpartum period"
+    ],
+    "implementation_notes": [
+      "Provides flexibility for long-term sequelae management"
+    ],
+    "clinical_context": [
+      "Supports continuity of care for pregnancy-related long-term effects"
+    ]
+  },
+  "search_keywords": [
+    "O94 timing",
+    "postpartum period",
+    "sequelae timing",
+    "long-term effects"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "timing_rules",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "O94",
+      "timing",
+      "postpartum",
+      "sequelae"
+    ]
+  },
+  "page_range_processed": "pages_69_to_72"
+}

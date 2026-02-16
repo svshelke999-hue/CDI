@@ -1,0 +1,156 @@
+{
+  "guideline_id": "I.C.1.g.1.k",
+  "semantic_title": "Coding Guidelines for Encounter for COVID-19 Antibody Testing",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 1. Chapter 1: Certain Infectious and Parasitic Diseases > g. Coronavirus infections > 1. COVID-19 infections > k. Encounter for antibody testing",
+  "page_number": 31,
+  "content": {
+    "full_text": "For an encounter for antibody testing that is not being performed to confirm a current COVID-19 infection, nor is a follow-up test after resolution of COVID-19, assign Z01.84, Encounter for antibody response examination. Follow the applicable guidelines above if the individual is being tested to confirm a current COVID-19 infection. For follow-up testing after a COVID-19 infection, see guideline I.C.1.g.1.j. (Evidence: pg no: 31, L46-L50)",
+    "summary": "Specifies coding for COVID-19 antibody testing encounters, distinguishing between different testing purposes (Evidence: pg no: 31, L46-L50)",
+    "key_concepts": [
+      "Antibody testing not for current infection confirmation (Evidence: pg no: 31, L46-L48)",
+      "Z01.84 code assignment for antibody response examination (Evidence: pg no: 31, L48)",
+      "Different coding for current infection testing (Evidence: pg no: 31, L48-L49)",
+      "Follow-up testing reference (Evidence: pg no: 31, L49-L50)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "COVID_ANTIBODY_01",
+        "rule_text": "Assign Z01.84 for antibody testing not confirming current infection or follow-up (Evidence: pg no: 31, L46-L48)",
+        "explanation": "When an encounter is for antibody testing that is not being performed to confirm a current COVID-19 infection and is not a follow-up test after resolution of COVID-19, assign Z01.84 (Evidence: pg no: 31, L46-L48)",
+        "importance": "high",
+        "applies_to": "Z01.84",
+        "common_applications": [
+          "Routine antibody screening",
+          "Immunity assessment testing"
+        ]
+      },
+      {
+        "rule_id": "COVID_ANTIBODY_02",
+        "rule_text": "Use different coding for current infection confirmation testing (Evidence: pg no: 31, L48-L49)",
+        "explanation": "If the individual is being tested to confirm a current COVID-19 infection, follow the applicable guidelines above rather than using Z01.84 (Evidence: pg no: 31, L48-L49)",
+        "importance": "high",
+        "applies_to": "COVID-19 testing codes",
+        "common_applications": [
+          "Diagnostic testing for active infection",
+          "Symptomatic patient testing"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine purpose of antibody testing",
+      "Step 2: If not for current infection confirmation or follow-up, assign Z01.84",
+      "Step 3: If for current infection confirmation, use applicable COVID-19 guidelines",
+      "Step 4: If for follow-up after infection, refer to guideline I.C.1.g.1.j"
+    ],
+    "related_terminology": [
+      "antibody testing",
+      "antibody response examination",
+      "current infection",
+      "follow-up testing"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "Z01.84",
+        "description": "Encounter for antibody response examination (Evidence: pg no: 31, L48)",
+        "context": "For antibody testing not confirming current infection or follow-up",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z01": "Encounter for other special examinations",
+          ".84": "Encounter for antibody response examination"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Special examination codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.1.g.1.j",
+        "title": "Follow-up visits after COVID-19 infection has resolved",
+        "relationship": "related_to",
+        "explanation": "Referenced for follow-up testing scenarios"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "COVID_ANTIBODY_01",
+      "scenario": "Patient presents for routine COVID-19 antibody testing to assess immunity status",
+      "documentation_example": "Patient requests antibody testing to check immunity status, no current symptoms, not follow-up testing",
+      "step_by_step": [
+        "Step 1: Confirm purpose is not current infection confirmation",
+        "Step 2: Confirm this is not follow-up testing after infection",
+        "Step 3: Assign Z01.84 as primary diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "Z01.84",
+        "secondary_codes": [],
+        "sequencing": "Z01.84 as primary diagnosis",
+        "rationale": "Antibody response examination code for immunity assessment testing (Evidence: pg no: 31, L46-L48)"
+      },
+      "incorrect_coding": {
+        "code": "Z11.52",
+        "codes": [
+          "Z11.52"
+        ],
+        "rationale": "Z11.52 is for COVID-19 screening, not antibody response examination",
+        "common_mistake": "Confusing antibody testing with screening codes"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Different coding applies for current infection confirmation testing (Evidence: pg no: 31, L48-L49)",
+      "Different coding applies for follow-up testing after infection (Evidence: pg no: 31, L49-L50)"
+    ],
+    "best_practices": [
+      "Clearly determine the purpose of antibody testing before coding (Evidence: pg no: 31, L46-L48)"
+    ],
+    "common_mistakes": [
+      "Using Z01.84 for all COVID-19 testing scenarios",
+      "Not distinguishing between different testing purposes"
+    ],
+    "tips": [
+      "Consider the clinical context and purpose of testing"
+    ],
+    "implementation_notes": [
+      "Establish clear documentation of testing purpose"
+    ],
+    "clinical_context": [
+      "Immunity assessment",
+      "Routine antibody screening"
+    ]
+  },
+  "search_keywords": [
+    "COVID-19 antibody testing",
+    "Z01.84",
+    "antibody response examination",
+    "immunity testing",
+    "COVID-19 serology"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "COVID-19 coding",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "COVID-19",
+      "antibody_testing",
+      "Z_codes",
+      "examination"
+    ]
+  },
+  "page_range_processed": "pages_30_to_33"
+}

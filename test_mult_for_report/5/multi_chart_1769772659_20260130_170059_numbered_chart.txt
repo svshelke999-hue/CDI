@@ -1,0 +1,758 @@
+L001: 
+L002: 
+L003: === CHART: tmp25i5qczj.pdf (Type: consultation_note) ===
+L004: 11/24/25, 8:19 AM Mondschein, Morris (MR # MR674177) DOB: 03/27/1937
+L005: 
+L006: Consults by Held, Michael Brian, MD filed on 11/22/2025 8:05 AM.
+L007: 
+L008: Author: Held, Michael Brian, MD Service: Orthopedics Author Type: Physician
+L009: Date of Service: 11/22/2025 Filed: 11/22/2025 8:05 AM Status: Signed
+L010: 
+L011: Editor: Held, Michael Brian, MD (Physician)
+L012: ORTHOPAEDICS & REHABILITATION
+L013: 
+L014: Patient name: Morris Mondschein
+L015: 
+L016: Yale MRN: MR674177
+L017: 
+L018: Date of birth: 3/27/1937
+L019: 
+L020: Date of visit: 11/22/2025
+L021: 
+L022: Attending of record for this patient: Delos, Demetris, MD
+L023: Provider leaving this note: Michael B Held, MD
+L024: 
+L025: Reason for consult: Left hip fracture
+L026: 
+L027: History of present illness:
+L028: 
+L029: Morris Mondschein is a 88 y.o. male with PMHX HTN, HLD, former smoker, CAD s/p MI with stents, CKD stage 3,
+L030: anemia, IBS aortic stenosis who presents s/p mechanical fall with left hip pain and inability to ambulate. At baseline
+L031: the patient ambulates without assistive device. He states he fell in the parking lot of CVS after tripping on a wooden
+L032: object. He was able to get up and drive after the fall, but when he got home he could not enter his house so he called
+L033: 
+L034: 911. He did hit his head, but no LOC.
+L035: 
+L036: Social history:
+L037: reports current alcohol use.
+L038: 
+L039: PMHx:
+L040: Past Medical History
+L041: No past medical history on file.
+L042: 
+L043: PSHx:
+L044: Past Surgical History
+L045: No past surgical history on file.
+L046: 
+L047: Home medications:
+L048: Current Medications
+L049: Current Facility-Administered Medications
+L050: 
+L051: Medication Dose Route Frequency Provider
+L052: 
+L053: * acetaminophen 1,000 Intravenous Q6H Sullivan, Hope
+L054: (OFIRMEV) 10 mg Tiezzi, PA
+L055: mg/mL IVPB 1,000
+L056: mg
+L057: 
+L058: * [Held by provider] 1,000 Oral Q6H Mobiglia, Jaime P,
+L059: acetaminophen mg PA
+L060: (TYLENOL) tablet
+L061: 1,000 mg
+L062: 
+L063: * amLODIPine 5 mg Oral Daily Mobiglia, Jaime P,
+L064: (NORVASC) tablet PA
+L065: 5 mg
+L066: 
+L067: * calcium carbonate 500mg Oral BID PRN Mobiglia, Jaime P,
+L068: (TUMS) chewable PA
+L069: tablet 500 mg
+L070: 
+L071: * carvediloL 3.125 Oral BID WC Mobiglia, Jaime P,
+L072: (COREG) mg PA
+L073: 
+L074: Immediate Release
+L075: tablet 3.125 mg
+L076: 
+L077: * dextrose 15g Oral Q15 MIN Mobiglia, Jaime P,
+L078: (GLUCOSE) oral PRN PA
+L079: liquid 15 g
+L080: Or
+L081: 
+L082: * fruit juice 120 mL 120 mL Oral Q15 MIN Mobiglia, Jaime P,
+L083: 
+L084: Mondschein, Morris (MRN MR674177) Printed by Stagno, Cesarina [767] at 11/24/2025 8:19 AM
+L085: 
+L086: Last
+L087: Rate
+L088: 
+L089: 400
+L090: mL/hr at
+L091: 11/22/2
+L092: 
+L093: 5 0511
+L094: 
+L095: Last
+L096: Admin
+L097: 1,000
+L098: mg at
+L099: 11/22/2
+L100: 5 0511
+L101: 
+L102: 5 mg at
+L103: 11/21/2
+L104: 5 0901
+L105: 
+L106: 3.125
+L107: mg at
+L108: 11/21/2
+L109: 5 1753
+L110: 
+L111: 1/4
+L112: 
+L113: 11/24/25,
+L114: 
+L115: 8:19 AM
+L116: 
+L117: dextrose
+L118: (GLUCOSE) oral
+L119: liquid 30 g
+L120: 
+L121: Or
+L122: 
+L123: fruit juice 240 mL
+L124: 
+L125: dextrose 10%
+L126: injection 125 mL
+L127: dextrose 10%
+L128: injection 250 mL
+L129: escitalopram
+L130: oxalate (LEXAPRO)
+L131: tablet 20 mg
+L132: 
+L133: glucagon 1 mg in
+L134: water for injection,
+L135: sterile 1 mL (1
+L136: mg/mL)
+L137: HYDROmorphone
+L138: PF (DILAUDID)
+L139: injection 0.5 mg
+L140: HYDROmorphone
+L141: PF (DILAUDID)
+L142: injection 1 mg
+L143: insulin regular
+L144: human (HumuLIN
+L145: R, NovoLIN R)
+L146: Correction Scale 1-
+L147: 18 Units
+L148: 
+L149: [Held by provider]
+L150: losartan (COZAAR)
+L151: tablet 50 mg
+L152: melatonin tablet 3
+L153: mg
+L154: 
+L155: oxyCODONE
+L156: (ROXICODONE)
+L157: Immediate Release
+L158: tablet 5 mg
+L159: pantoprazole
+L160: (PROTONIX) EC
+L161: tablet 40 mg
+L162: 
+L163: [Held by provider]
+L164: polyethylene glycol
+L165: (MIRALAX) packet
+L166: 17g
+L167: 
+L168: rosuvastatin
+L169: (CRESTOR) tablet
+L170: 20 mg
+L171: 
+L172: senna (SENOKOT)
+L173: tablet 17.2 mg
+L174: 
+L175: sodium chloride 0.9
+L176: % flush 3 mL
+L177: 
+L178: sodium chloride 0.9
+L179: % flush 3 mL
+L180: sodium chloride
+L181: 0.9% infusion
+L182: 
+L183: 30g
+L184: 
+L185: 240 mL
+L186: 12.5g
+L187: 25g
+L188: 
+L189: 20 mg
+L190: 
+L191: 1 mg
+L192: 
+L193: 0.5 mg
+L194: 
+L195: 1 mg
+L196: 
+L197: 1-18
+L198: Units
+L199: 
+L200: 50 mg
+L201: 
+L202: 3 mg
+L203: 
+L204: 40 mg
+L205: 
+L206: 17g
+L207: 
+L208: 20 mg
+L209: 
+L210: 2 tablet
+L211: 
+L212: 3 mL
+L213: 
+L214: 3 mL
+L215: 
+L216: 50
+L217: mL/hr
+L218: 
+L219: Mondschein, Morris (MR # MR674177) DOB: 03/27/1937
+L220: 
+L221: Oral
+L222: 
+L223: Oral
+L224: 
+L225: Intravenous
+L226: 
+L227: Intravenous
+L228: 
+L229: Oral
+L230: 
+L231: Intramuscular
+L232: 
+L233: IV Push
+L234: 
+L235: IV Push
+L236: 
+L237: Subcutaneous
+L238: 
+L239: Oral
+L240: 
+L241: Oral
+L242: 
+L243: Oral
+L244: 
+L245: Oral
+L246: 
+L247: Oral
+L248: 
+L249: Oral
+L250: 
+L251: Oral
+L252: 
+L253: IV Push
+L254: 
+L255: IV Push
+L256: 
+L257: Intravenous
+L258: 
+L259: PRN
+L260: Q15 MIN
+L261: PRN
+L262: 
+L263: Q15 MIN
+L264: PRN
+L265: Q15 MIN
+L266: PRN
+L267: Q15 MIN
+L268: PRN
+L269: QAM
+L270: 
+L271: Once PRN
+L272: 
+L273: Q3H PRN
+L274: 
+L275: Q4H PRN
+L276: 
+L277: Q6H
+L278: 
+L279: Daily
+L280: 
+L281: Nightly PRN,
+L282: MR X 1
+L283: 
+L284: Q4H PRN
+L285: 
+L286: Daily
+L287: 
+L288: Daily
+L289: 
+L290: Daily
+L291: 
+L292: Nightly
+L293: 
+L294: Q8H
+L295: 
+L296: PRN for Line
+L297: 
+L298: Care
+L299: Continuous
+L300: 
+L301: PA
+L302: Mobiglia, Jaime P,
+L303: PA
+L304: 
+L305: Mobiglia, Jaime P,
+L306: PA
+L307: Mobiglia, Jaime P,
+L308: PA
+L309: Mobiglia, Jaime P,
+L310: PA
+L311: Mobiglia, Jaime P,
+L312: PA
+L313: 
+L314: Mobiglia, Jaime P,
+L315: PA
+L316: 
+L317: Mobiglia, Jaime P,
+L318: PA
+L319: 
+L320: Mobiglia, Jaime P,
+L321: PA
+L322: 
+L323: Mobiglia, Jaime P,
+L324: PA
+L325: 
+L326: Mobiglia, Jaime P,
+L327: PA
+L328: 
+L329: Mobiglia, Jaime P,
+L330: PA
+L331: 
+L332: Mobiglia, Jaime P,
+L333: PA
+L334: 
+L335: Mobiglia, Jaime P,
+L336: PA
+L337: 
+L338: Mobiglia, Jaime P,
+L339: PA
+L340: 
+L341: Mobiglia, Jaime P,
+L342: PA
+L343: 
+L344: Mobiglia, Jaime P,
+L345: PA
+L346: 
+L347: Brea, Francisco,
+L348: MD
+L349: 
+L350: Brea, Francisco,
+L351: MD
+L352: 
+L353: Diwan, Adnan,
+L354: MD
+L355: 
+L356: Mondschein, Morris (MRN MR674177) Printed by Stagno, Cesarina [767] at 11/24/2025 8:19 AM
+L357: 
+L358: 20 mg
+L359: at
+L360: 11/22/2
+L361: 5 0603
+L362: 
+L363: 1 mg at
+L364: 11/22/2
+L365: 5 0143
+L366: 1 Units
+L367: at
+L368: 
+L369: 11/21/2
+L370: 5 1230
+L371: 
+L372: 3 mg at
+L373: 11/21/2
+L374: 5 2023
+L375: 5 mg at
+L376: 11/21/2
+L377: 5 2023
+L378: 
+L379: 40 mg
+L380: at
+L381: 11/21/2
+L382: 5 0901
+L383: 
+L384: 20 mg
+L385: at
+L386: 11/21/2
+L387: 5 0901
+L388: 17.2 mg
+L389: at
+L390: 11/21/2
+L391: 5 2023
+L392: 3 mL at
+L393: 11/21/2
+L394: 5 2130
+L395: 
+L396: 50 Rate
+L397: mL/hr at Verify at
+L398: 11/21/2  11/21/2
+L399: 
+L400: 2/4
+L401: 
+L402: 11/24/25, 8:19 AM Mondschein, Morris (MR # MR674177) DOB: 03/27/1937
+L403: 
+L404: 51711 51711
+L405: 
+L406: * tamsulosin 0.4mg_ Oral Nightly Mobiglia, Jaime P, 0.4 mg
+L407: (FLOMAX) 24 hr PA at
+L408: capsule 0.4 mg 11/21/2
+L409: 
+L410: 5 2023
+L411: Allergies:
+L412: 
+L413: Augmentin [amoxicillin-pot clavulanate]
+L414: 
+L415: Relevant exam:
+L416: 
+L417: Temp: [97 °F (36.1 °C)-98.3 °F (36.8 °C)] 98.3 °F (36.8 °C)
+L418: Pulse: [54-64] 54
+L419: 
+L420: Resp: [20] 20
+L421: 
+L422: BP: (92-136)/(47-69) 101/59
+L423: 
+L424: SpO2: [93 %-97 %] 93 %
+L425: 
+L426: SpO2: [93 %-97 %] 93 % (11/22 0409)
+L427: 
+L428: Gen: Awake, alert, NAD
+L429: Heart: Regular heartrate
+L430: Lung: unlabored breathing
+L431: 
+L432: LLE:
+L433: 
+L434: Skin intact, leg shortened/externally rotated
+L435: 
+L436: Intact ankle dorsiflexion, plantar flexion, EHL
+L437: Sensation intact grossly sp/dp/t nerve distributions
+L438: Toes wwp, palpable DP pulse
+L439: 
+L440: Nonpainful L knee/ankle ROM
+L441: 
+L442: Pelvis: No pain or instability with AP or lateral compression
+L443: All other large joints in the extremities were palpated and ranged with no signs of deformity or pain.
+L444: 
+L445: Imaging / studies:
+L446: XR AP pelvis + femur demonstrates left displaced femoral neck hip fracture with preexisting degenerative joint
+L447: disease.
+L448: 
+L449: Impression and plan:
+L450: 
+L451: Morris Mondschein is a 88 y.o. male sustained a left femoral neck hip fracture. Femur fractures in the elderly are of
+L452: the highest severity due to the morbidity without treatment and risk of death due to bed-ridden disability, risk of
+L453: ulcers, and risk of clot and other medical complications causing death. Therefore | had a long discussion with the
+L454: patient and their family about the treatment options, including nonoperative and operative intervention. We
+L455: discussed risks and benefits and alternatives to fixation as well as chances of full or partial weight bearing after. After
+L456: going over these options, we decided to pursue a left toal hip replacement given his preexisting osteoarthritis of the
+L457: left hip.
+L458: 
+L459: We discussed the risks of surgery including infection, wound complications, bleeding, need for a transfusion, possible
+L460: damage to surronding neurovascular structures, potential for continued pain, continued weakness, worsening pain
+L461: and worsening weakness, stiffness, instability/dislocation, limb length discrepancy, fracture, infection requiring the
+L462: resection or revision arthroplasty, component loosening and the need for revision surgery in the future. We also
+L463: discussed the risks of thromboembolic complications, stroke, heart attack, cardiac event, heart failure, pulmonary
+L464: edema, fat/cement embolus, aspiration, death, and the risks of anesthesia and nerve blocks. | specifically discussed
+L465: his mortality rate of 30% in 1 year and possible need for dialysis given his CKD. His daughter and significant other
+L466: did witnessed the discuss and everyone verbalized understanding of the risks and benefits of surgical treatment. All
+L467: of their questions were answered.
+L468: 
+L469: Appreciate primary medical service optimization and clearance.
+L470: 
+L471: - Pre operative labs completed and k has been corrected
+L472: 
+L473: -AKI on known CKD, appreciate med consult regarding risk stratification and clearance
+L474: - NPO/IVF for OR in AM
+L475: 
+L476: - NWB LLE
+L477: 
+L478: - Pain control
+L479: 
+L480: - DVT: on hold, no nsaids
+L481: 
+L482: - Booked/consented
+L483: 
+L484: Michael B Held, MD
+L485: 
+L486: Mondschein, Morris (MRN MR674177) Printed by Stagno, Cesarina [767] at 11/24/2025 8:19 AM
+L487: 
+L488: 3/4
+L489: 
+L490: 11/24/25, 8:19 AM
+L491: 
+L492: Mondschein, Morris (MR # MR674177) DOB: 03/27/1937
+L493: 
+L494: Electronically signed by Held, Michael Brian, MD at 11/22/2025 8:05 AM
+L495: 
+L496: ED to Hosp-Admission (Current) on 11/20/2025
+L497: 
+L498: Routing History
+L499: 
+L500: Priority
+L501: t
+L502: 
+L503: t
+L504: 
+L505: Sent On
+L506: 11/20/2025 7:43
+L507: PM
+L508: 
+L509: 11/20/2025 6:28
+L510: PM
+L511: 
+L512: 11/20/2025 6:17
+L513: PM
+L514: 
+L515: From
+L516: Edi, Rad Results In
+L517: 
+L518: Edi, Rad Results In
+L519: 
+L520: Edi, Rad Results In
+L521: 
+L522: Note shared with patient
+L523: 
+L524: To
+L525: Neuberth, Danielle Cornett, PA
+L526: 
+L527: Neuberth, Danielle Cornett, PA
+L528: 
+L529: Neuberth, Danielle Cornett, PA
+L530: 
+L531: Mondschein, Morris (MRN MR674177) Printed by Stagno, Cesarina [767] at 11/24/2025 8:19 AM
+L532: 
+L533: Message Type
+L534: Results
+L535: 
+L536: Results
+L537: 
+L538: Results
+L539: 
+L540: 4/4
+L541: === END CHART: tmp25i5qczj.pdf ===
+L542: 
+L543: 
+L544: === CHART: tmpaveiuo_8.pdf (Type: operative_note) ===
+L545: 11/24/25, 8:20 AM Mondschein, Morris (MR # MR674177) DOB: 03/27/1937
+L546: 
+L547: Operative Note by Held, Michael Brian, MD filed on 11/22/2025 11:04 AM.
+L548: 
+L549: Author: Held, Michael Brian, MD Service: Orthopedics Author Type: Physician
+L550: Date of Service: 11/22/2025 Filed: 11/22/2025 11:04 AM Status: Signed
+L551: 
+L552: Editor: Held, Michael Brian, MD (Physician)
+L553: 
+L554: Orthopedic Surgery Operative Report
+L555: 
+L556: Patient Name: Morris Mondschein
+L557: Date of Procedure: 11/22/2025
+L558: Location: Greenwich Hospital
+L559: MRN: MR674177
+L560: 
+L561: Procedure:
+L562: 1) Left Total Hip Replacement for intracapsular displaced femoral neck fracture
+L563: 2) Negative pressure incisional wound therapy <50 sq cm
+L564: 
+L565: Suggested cpt codes: 27130, 97605
+L566: 
+L567: Preliminary Diagnosis: Displaced femoral neck fracture of the Left hip
+L568: Postoperative Diagnosis : Same
+L569: 
+L570: Surgeon: Dr. Michael B Held
+L571: 
+L572: First Assist: Anne Hall, RNFA
+L573: 
+L574: Of note, a first assist PA was necessary for this procedure, as no other first assist or resident was available to help
+L575: due to the complex nature of the surgery.
+L576: 
+L577: PA assisted with exposure, trialing and implantation, and closure of the wound
+L578: 
+L579: Anesthesia Staff: No anesthesia staff entered.
+L580: Anesthesia Type: Failed Spinal, converted to general
+L581: 
+L582: Specimens:
+L583: Femoral Head
+L584: 
+L585: Estimated Blood Loss:
+L586: 200
+L587: 
+L588: Implants:
+L589: * No implants in log *
+L590: 
+L591: Findings: Displaced femoral neck fracture
+L592: 
+L593: Indication:
+L594: 
+L595: The patient is a 88 y.o. male who presented to our emergency room after a fall and was found to have a left hip
+L596: displaced femoral neck fracture. Femur fractures in the elderly are of the highest severity due to the morbidity without
+L597: treatment and risk of death due to bed-ridden disability, risk of ulcers, and risk of clot and other medical complications
+L598: causing death. Therefore | had a long discussion with the patient and their family about the treatment options,
+L599: including nonoperative and operative intervention. We discussed risks and benefits and alternatives to surgery as
+L600: well as chances of full or partial weight bearing after. We discussed the risks of surgery including infection, wound
+L601: complications, bleeding, need for a transfusion, possible damage to surronding neurovascular structures, potential for
+L602: continued pain, continued weakness, worsening pain and worsening weakness, stiffness, instability/dislocation, limb
+L603: length discrepancy, fracture, infection requiring the resection or revision arthroplasty, component loosening and the
+L604: need for revision surgery in the future. We also discussed the risks of thromboembolic complications, stroke, heart
+L605: attack, cardiac event, heart failure, pulmonary edema, fat embolus, aspiration, death, and the risks of anesthesia.
+L606: The potential benefits of surgery are pain relief or improvement, improved mobility, and allowance of immediate
+L607: weight bearing post-operatively. We also discussed some of the risks specific to the anterior approach including
+L608: numbness over the lateral thigh, wound complications, and femoral component loosening or fracture of the femur.
+L609: These risks were discussed in the context of other approaches, specifically the posterior approach and its associated
+L610: risks. The patient expressed an understanding of these risks and the patient wished to proceed with a total hip
+L611: replacement. We discussed his elevated risk of mortality, infection and needing dialysis due to his AKI on CKD.
+L612: 
+L613: We also discussed the overall poor prognosis for patients who have suffered a femur fracture, with high morbidity and
+L614: Mondschein, Morris (MRN MR674177) Printed by Stagno, Cesarina [767] at 11/24/2025 8:20 AM 1/3
+L615: 
+L616: 11/24/25, 8:20 AM Mondschein, Morris (MR # MR674177) DOB: 03/27/1937
+L617: 
+L618: mortality rates following this particular pattern of injury. The patient and family expressed understanding and elected
+L619: to proceed with a total hip replacement.
+L620: 
+L621: The patient was seen by the Medicine service and was determined to be optimized from a medical standpoint for this
+L622: surgery. The medicine team cleared the patient for surgery as well.
+L623: 
+L624: Description of procedure:
+L625: The patient was seen in the preoperative holding area and the appropriate side lower extremity was marked. Again a
+L626: discussion of the procedure was held with the patient and the patient wished to proceed.
+L627: 
+L628: The patient was brought to the Operating Room and a preliminary anesthesia time out was then performed. General
+L629: anesthesia was then performed by the anesthesia team. The patient was then placed supine on the operating room
+L630: table. Preoperative antibiotics were administered within thirty minutes of incision time as well as 1 gram of tranexamic
+L631: acid. The patient was placed onto a sacral bump on the operating room table. At this point, the patient’s surgical area
+L632: was prepped and draped in the standard, sterile fashion. A surgical timeout was then performed to confirm the correct
+L633: side, procedure, and name.
+L634: 
+L635: A longitudinal incision was made starting lateral and distal to the anterior superior iliac spine. The incision was
+L636: carried down through the subcutaneous tissues down to the level of the tensor fascia lata. The tensor fascia lata was
+L637: then divided sharply with care not to violate the muscle below. Blunt dissection of the fascia was done to identify the
+L638: interval between the tensor fascia lata and the sartorius. Once this was done and deeper retractors had been placed,
+L639: the ascending branch of the lateral femoral circumflex artery was clearly visualized and this was cauterized. Next, the
+L640: fat within this interval was dissected to better visualize the anterior hip capsule and the lateral border of the
+L641: iliocapsularis. At this point, a Cobb was used to elevate the iliocapsularis and rectus off the anterior capsule and a
+L642: retractor was placed underneath these muscles. At this point, a capsulectomy was performed along the axis of the
+L643: femoral neck and the intertrochanteric ridge. A large hemarthrosis from the fracture was encountered. The retractors
+L644: were now placed intracapsular and the head-neck junction was exposed. A release of the pubofemoral ligament was
+L645: then performed until the lesser trochanter could be palpated. Using the pre-operative templating, the appropriate
+L646: clean up neck cut was made and the femoral head and remaining neck was extracted.
+L647: 
+L648: The acetabulum was now visualized with the placement of retractors. At this point, the labrum and the contents of the
+L649: cotyloid fossa were removed. The acetabulum was then reamed sequentially, based on preoperative templating.
+L650: Reaming was performed carefully. Next, the final size 50 acetabular component was impacted into the appropriate
+L651: position. The periphery of the acetabular component was inspected and any osteophytes were removed. Once this
+L652: was accomplished, the final 36mm neutral polyethylene liner was impacted into place. Care was taken to ensure that
+L653: the liner was fully seated and had engaged the locking mechanism.
+L654: 
+L655: Next, the acetabular retractors were removed and attention was turned to the femur. The leg was positioned in an
+L656: adducted and extended position. Retractors were then placed around the proximal femur to expose the cut neck
+L657: surface. Tight capsular tissue over the superior/anterior aspect of the femoral neck was released using cautery only
+L658: to allow for sufficient exposure. A curved double footed retractor was placed over the greater trochanter laterally and
+L659: a femoral retractor placed at the infero medial neck. Sequential releases were performed in order to allow for
+L660: accepted elevation of the femur, this was done in conjunction with gentle elevation with a bone hook.
+L661: 
+L662: The canal finder was then used to establish the IM canal. A box cutter was used to remove posterolateral bone of the
+L663: cut neck. Arasp and curette were used to remove lateral femoral neck bone remaining. An entry broach was
+L664: utilized, followed by sequential broaching up to the final size. With the broach left in place and after calcar planning,
+L665: the neck and trials were placed. The hip was reduced and found to be stable. Leg length, offset and implant size and
+L666: position were assessed clinically. Afterwards, the hip was dislocated. The trial components were removed.
+L667: 
+L668: The femoral canal was irrigated and a cement restrictor was placed down the canal. The canal was again rinsed and
+L669: dried. Cement was then placed in the canal and pressurized, and the final size 1std stem was placed in the canal.
+L670: After the cement hardened the actual 36mm +0 head was now impacted into place after cleaning and drying. The hip
+L671: was reduced with traction and internal rotation after confirming that the acetabular component was free of any debris
+L672: and had been irrigated.
+L673: 
+L674: The wound was then copiously irrigated and washed with a dilute betadine solution then with normal saline. Copious
+L675: irrigation was used throughout the closure. 1 gram of Vancomycin powder was placed in the deep wound. The
+L676: fascia overlying the TFL was now closed using running barbed suture, with care to not entrap any of the lateral
+L677: femoral cutaneous nerve branches. The remainder of the wound was closed in layers using #1 Vicryl, 2-0 Vicryl, and
+L678: staples for skin. Incisional negative pressure wound therapy <50sq cm was used due to his obesity, ckd and high
+L679: risk for infection
+L680: 
+L681: SN redapt/polarstem cemented components were used in this procedure.
+L682: 
+L683: Mondschein, Morris (MRN MR674177) Printed by Stagno, Cesarina [767] at 11/24/2025 8:20 AM 2/3
+L684: 
+L685: 11/24/25, 8:20 AM
+L686: 
+L687: Postoperative Plan:
+L688: WBAT: wbat
+L689: 
+L690: PT/OT: OOB and ambulation
+L691: 
+L692: Mondschein, Morris (MR # MR674177) DOB: 03/27/1937
+L693: 
+L694: Pain control: Oxycodone 5mg as needed for moderate pain; Tylenol for mild pain
+L695: 
+L696: DVT ppx: eliquis 2.5 bid 28 days
+L697: 
+L698: Periop ancef standing, 10 days cefadroxil 500 bid for high risk pji ppx
+L699: Colace 100mg BID while taking oxycodone
+L700: 
+L701: Keep dressing clean and dry
+L702: 
+L703: Zofran PRN while taking oxycodone
+L704: 
+L705: Resume Home Medications
+L706: 
+L707: Medical comanagement by hospitalist service, appreciate recommendations
+L708: 
+L709: Dispo: pending PT/OT eval
+L710: 
+L711: Michael B Held, MD
+L712: 
+L713: Date: 11/22/2025 Time: 8:08 AM
+L714: 
+L715: Electronically signed by Held, Michael Brian, MD at 11/22/2025 11:04 AM
+L716: 
+L717: ED to Hosp-Admission (Current) on 11/20/2025
+L718: 
+L719: Routing History
+L720: Priority Sent On
+L721: 
+L722: t 11/20/2025 7:43
+L723: PM
+L724: 
+L725: t 11/20/2025 6:28
+L726: PM
+L727: 
+L728: t 11/20/2025 6:17
+L729: PM
+L730: 
+L731: From
+L732: Edi, Rad Results In
+L733: 
+L734: Edi, Rad Results In
+L735: 
+L736: Edi, Rad Results In
+L737: 
+L738: Note shared with patient
+L739: 
+L740: To
+L741: Neuberth, Danielle Cornett, PA
+L742: 
+L743: Neuberth, Danielle Cornett, PA
+L744: 
+L745: Neuberth, Danielle Cornett, PA
+L746: 
+L747: Mondschein, Morris (MRN MR674177) Printed by Stagno, Cesarina [767] at 11/24/2025 8:20 AM
+L748: 
+L749: Message Type
+L750: Results
+L751: 
+L752: Results
+L753: 
+L754: Results
+L755: 
+L756: 3/3
+L757: === END CHART: tmpaveiuo_8.pdf ===
+L758: 

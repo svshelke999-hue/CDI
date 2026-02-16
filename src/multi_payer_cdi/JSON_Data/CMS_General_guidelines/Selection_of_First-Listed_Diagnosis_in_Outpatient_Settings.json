@@ -1,0 +1,143 @@
+{
+  "guideline_id": "IV.A",
+  "semantic_title": "Selection of First-Listed Diagnosis in Outpatient Settings",
+  "section_path": "Section IV > A. Selection of first-listed condition",
+  "page_number": 112,
+  "content": {
+    "full_text": "In the outpatient setting, the term first-listed diagnosis is used in lieu of principal diagnosis. In determining the first-listed diagnosis the coding conventions of ICD-10-CM, as well as the general and disease specific guidelines take precedence over the outpatient guidelines. Diagnoses often are not established at the time of the initial encounter/visit. It may take two or more visits before the diagnosis is confirmed. The most critical rule involves beginning the search for the correct code assignment through the Alphabetic Index. Never begin searching initially in the Tabular List as this will lead to coding errors. (Evidence: pg no: 112, L28-L31)",
+    "summary": "Establishes the concept of first-listed diagnosis for outpatient settings and provides fundamental coding search methodology (Evidence: pg no: 112, L28-L31)",
+    "key_concepts": [
+      "First-listed diagnosis replaces principal diagnosis in outpatient settings (Evidence: pg no: 112, L29)",
+      "ICD-10-CM conventions take precedence over outpatient guidelines (Evidence: pg no: 112, L29-L30)",
+      "Diagnoses may require multiple visits to confirm (Evidence: pg no: 112, L30-L31)",
+      "Alphabetic Index must be used first, never start with Tabular List (Evidence: pg no: 112, L31)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "IV.A.1",
+        "rule_text": "Use first-listed diagnosis instead of principal diagnosis in outpatient settings (Evidence: pg no: 112, L29)",
+        "explanation": "The terminology differs between inpatient and outpatient settings, with outpatient using first-listed diagnosis (Evidence: pg no: 112, L29)",
+        "importance": "critical",
+        "applies_to": "all_outpatient_codes",
+        "common_applications": [
+          "Hospital-based outpatient services",
+          "Provider-based office visits"
+        ]
+      },
+      {
+        "rule_id": "IV.A.2",
+        "rule_text": "Always begin code search through Alphabetic Index, never start with Tabular List (Evidence: pg no: 112, L31)",
+        "explanation": "Starting with Tabular List leads to coding errors, proper methodology requires Alphabetic Index first (Evidence: pg no: 112, L31)",
+        "importance": "critical",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "All diagnosis code lookups",
+          "Initial code assignment process"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify the condition/reason for encounter",
+      "Step 2: Search Alphabetic Index first",
+      "Step 3: Verify code in Tabular List",
+      "Step 4: Apply ICD-10-CM conventions and guidelines"
+    ],
+    "related_terminology": [
+      "First-listed diagnosis",
+      "Principal diagnosis",
+      "Alphabetic Index",
+      "Tabular List"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "All ICD-10-CM diagnosis codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I",
+        "title": "Conventions, general coding guidelines and chapter-specific guidelines",
+        "relationship": "applies_concept",
+        "explanation": "These guidelines take precedence in outpatient settings"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "IV.A.S1",
+      "scenario": "Patient presents for initial evaluation of chest pain, diagnosis not yet established",
+      "documentation_example": "Chief complaint: Chest pain. Assessment: Chest pain, rule out cardiac cause.",
+      "step_by_step": [
+        "Step 1: Search 'chest pain' in Alphabetic Index",
+        "Step 2: Locate appropriate code",
+        "Step 3: Verify in Tabular List",
+        "Step 4: Assign as first-listed diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "R07.89",
+        "secondary_codes": [],
+        "sequencing": "First-listed diagnosis",
+        "rationale": "Symptom code appropriate when diagnosis not established (Evidence: pg no: 112, L30-L31)"
+      },
+      "incorrect_coding": {
+        "code": "Starting with Tabular List",
+        "codes": [],
+        "rationale": "Will lead to coding errors",
+        "common_mistake": "Bypassing Alphabetic Index"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Never begin searching initially in the Tabular List as this will lead to coding errors (Evidence: pg no: 112, L31)"
+    ],
+    "best_practices": [
+      "Always use Alphabetic Index first (Evidence: pg no: 112, L31)",
+      "Apply ICD-10-CM conventions before outpatient guidelines (Evidence: pg no: 112, L29-L30)"
+    ],
+    "common_mistakes": [
+      "Starting code search with Tabular List (Evidence: pg no: 112, L31)",
+      "Using principal diagnosis terminology in outpatient settings (Evidence: pg no: 112, L29)"
+    ],
+    "tips": [
+      "Diagnoses may require multiple visits to establish (Evidence: pg no: 112, L30-L31)"
+    ],
+    "implementation_notes": [
+      "Applies to hospital-based outpatient services and provider-based office visits"
+    ],
+    "clinical_context": [
+      "Outpatient diagnosis establishment may be progressive over multiple encounters"
+    ]
+  },
+  "search_keywords": [
+    "first-listed diagnosis",
+    "outpatient coding",
+    "alphabetic index",
+    "tabular list",
+    "code search methodology"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "outpatient_coding",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "outpatient",
+      "first-listed",
+      "code_search",
+      "methodology"
+    ]
+  },
+  "page_range_processed": "pages_111_to_114"
+}

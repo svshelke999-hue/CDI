@@ -84,9 +84,74 @@ class ComplianceEvaluator:
         
         return response, usage_info
     
-    def run_extraction(self, chart_text: str) -> Tuple[str, Dict[str, Any]]:
-        """Run extraction with caching and CPT detection."""
-        extraction_prompt = """
+    def run_extraction(self, chart_text: str, chart_type: str = "operative_note") -> Tuple[str, Dict[str, Any]]:
+        """
+        Run extraction with caching and CPT detection.
+        
+        Args:
+            chart_text: Medical chart text
+            chart_type: Type of chart (operative_note, pre_operative_note, etc.)
+        """
+        # Use chart-type-specific extraction
+        if chart_type == "operative_note":
+            extraction_prompt = self._get_operative_extraction_prompt(chart_text)
+        elif chart_type == "pre_operative_note":
+            extraction_prompt = self._get_pre_operative_extraction_prompt(chart_text)
+        elif chart_type == "post_operative_note":
+            extraction_prompt = self._get_post_operative_extraction_prompt(chart_text)
+        elif chart_type in ["progress_note", "nursing_note"]:
+            extraction_prompt = self._get_progress_note_extraction_prompt(chart_text)
+        elif chart_type in ["laboratory_report", "imaging_report", "pathology_report", "radiology_report"]:
+            extraction_prompt = self._get_report_extraction_prompt(chart_text, chart_type)
+        else:
+            extraction_prompt = self._get_general_extraction_prompt(chart_text, chart_type)
+        
+        response, usage_info = self.call_claude_with_cache(
+            extraction_prompt, 
+            max_tokens=1500,
+            temperature=0.0, 
+            system_prompt=None, 
+            cache_type=f"extraction_{chart_type}"
+        )
+        
+        # Parse and validate extraction response
+        try:
+            json_str = self._extract_first_json_object(response)
+            if json_str:
+                parsed_response = json.loads(json_str)
+                if isinstance(parsed_response, dict):
+                    parsed_response.setdefault("patient_name", "Unknown")
+                    parsed_response.setdefault("patient_age", "Unknown")
+                    parsed_response.setdefault("chart_specialty", "Unknown")
+                    parsed_response.setdefault("cpt", [])
+                    parsed_response.setdefault("procedure", [])
+                    parsed_response.setdefault("summary", "")
+                    parsed_response["chart_type"] = chart_type
+                    
+                    print(f"[EXTRACTION] Chart Type: {chart_type}")
+                    print(f"[EXTRACTION] Patient Name: {parsed_response.get('patient_name', 'Unknown')}")
+                    print(f"[EXTRACTION] Patient Age: {parsed_response.get('patient_age', 'Unknown')}")
+                    print(f"[EXTRACTION] Chart Specialty: {parsed_response.get('chart_specialty', 'Unknown')}")
+                    
+                    cpt_codes = parsed_response.get("cpt", [])
+                    if cpt_codes and len(cpt_codes) > 0:
+                        print(f"[INFO] CPT codes detected: {cpt_codes}")
+                        parsed_response["has_cpt_codes"] = True
+                    
+                    response = json.dumps(parsed_response)
+                else:
+                    print(f"[WARNING] Extraction response is not a dictionary")
+            else:
+                print(f"[WARNING] No JSON object found in extraction response")
+        except Exception as e:
+            print(f"[WARNING] Error parsing extraction response: {e}")
+            print(f"[DEBUG] Response preview: {response[:500] if response else 'No response'}")
+        
+        return response, usage_info
+    
+    def _get_operative_extraction_prompt(self, chart_text: str) -> str:
+        """Get extraction prompt for operative notes (existing prompt)."""
+        return """
 You are a medical coding and CDI specialist.
 
 TASK:
@@ -247,73 +312,267 @@ OPERATIVE REPORT:
             context_words=Config.PROCEDURE_CONTEXT_WORDS,
             prioritize_sections=True
         ))
+    
+    def _get_pre_operative_extraction_prompt(self, chart_text: str) -> str:
+        """Get extraction prompt for pre-operative notes."""
+        return """
+You are a medical coding and CDI specialist.
+
+TASK:
+Analyze the following PRE-OPERATIVE note and extract important information for CDI compliance evaluation.
+
+REQUIRED JSON STRUCTURE:
+{{
+  "patient_name": STRING - Extract patient's full name,
+  "patient_age": STRING - Extract age with units,
+  "chart_specialty": STRING - Determine specialty,
+  "cpt": ARRAY - CPT codes if mentioned, empty array [] if none,
+  "procedure": ARRAY - Planned procedures mentioned (may be empty if not yet performed),
+  "summary": STRING - Clinical summary,
+  "diagnosis": ARRAY - Diagnoses, conditions, indications for surgery,
+  "tests": ARRAY - Pre-operative tests performed (labs, imaging, EKG, etc.),
+  "reports": ARRAY - Pre-operative reports referenced (imaging reports, lab results, etc.),
+  "medications": ARRAY - Current medications,
+  "allergies": ARRAY - Known allergies,
+  "risk_assessment": STRING - Risk assessment or ASA classification if mentioned
+}}
+
+EXTRACTION FOCUS:
+- Extract ALL planned procedures (even if not yet performed)
+- Extract ALL pre-operative tests (labs, imaging, EKG, cardiac clearance, etc.)
+- Extract ALL diagnoses and indications
+- Extract ALL reports referenced (imaging, lab, consultation reports)
+- Extract medications and allergies
+- Extract risk assessments
+
+PRE-OPERATIVE NOTE:
+<<<
+{chart}
+>>>
+""".format(chart=smart_truncate_by_words(
+            chart_text.strip(),
+            max_words=Config.MAX_CHART_WORDS,
+            context_words=Config.PROCEDURE_CONTEXT_WORDS,
+            prioritize_sections=True
+        ))
+    
+    def _get_post_operative_extraction_prompt(self, chart_text: str) -> str:
+        """Get extraction prompt for post-operative notes."""
+        return """
+You are a medical coding and CDI specialist.
+
+TASK:
+Analyze the following POST-OPERATIVE note and extract important information for CDI compliance evaluation.
+
+REQUIRED JSON STRUCTURE:
+{{
+  "patient_name": STRING - Extract patient's full name,
+  "patient_age": STRING - Extract age with units,
+  "chart_specialty": STRING - Determine specialty,
+  "cpt": ARRAY - CPT codes if mentioned, empty array [] if none,
+  "procedure": ARRAY - Procedures performed (from the surgery),
+  "summary": STRING - Clinical summary,
+  "post_op_complications": ARRAY - Any post-operative complications,
+  "vital_signs": STRING - Post-operative vital signs if documented,
+  "pain_management": STRING - Pain management approach,
+  "discharge_planning": STRING - Discharge planning notes
+}}
+
+EXTRACTION FOCUS:
+- Extract procedures that were performed
+- Extract post-operative complications
+- Extract vital signs and recovery status
+- Extract pain management information
+- Extract discharge planning notes
+
+POST-OPERATIVE NOTE:
+<<<
+{chart}
+>>>
+""".format(chart=smart_truncate_by_words(
+            chart_text.strip(),
+            max_words=Config.MAX_CHART_WORDS,
+            context_words=Config.PROCEDURE_CONTEXT_WORDS,
+            prioritize_sections=True
+        ))
+    
+    def _get_progress_note_extraction_prompt(self, chart_text: str) -> str:
+        """Get extraction prompt for progress notes and nursing notes."""
+        return """
+You are a medical coding and CDI specialist.
+
+TASK:
+Analyze the following PROGRESS NOTE or NURSING NOTE and extract important information for CDI compliance evaluation.
+
+REQUIRED JSON STRUCTURE:
+{{
+  "patient_name": STRING - Extract patient's full name,
+  "patient_age": STRING - Extract age with units,
+  "chart_specialty": STRING - Determine specialty,
+  "cpt": ARRAY - CPT codes if mentioned, empty array [] if none,
+  "procedure": ARRAY - Procedures mentioned (may be empty),
+  "summary": STRING - Clinical summary,
+  "current_condition": STRING - Current patient condition,
+  "vital_signs": STRING - Vital signs documented,
+  "medications": ARRAY - Current medications,
+  "assessments": ARRAY - Clinical assessments made,
+  "interventions": ARRAY - Interventions performed
+}}
+
+EXTRACTION FOCUS:
+- Extract current patient condition
+- Extract vital signs
+- Extract medications
+- Extract assessments and interventions
+- Extract any procedures mentioned
+
+PROGRESS/NURSING NOTE:
+<<<
+{chart}
+>>>
+""".format(chart=smart_truncate_by_words(
+            chart_text.strip(),
+            max_words=Config.MAX_CHART_WORDS,
+            context_words=Config.PROCEDURE_CONTEXT_WORDS,
+            prioritize_sections=True
+        ))
+    
+    def _get_report_extraction_prompt(self, chart_text: str, chart_type: str) -> str:
+        """Get extraction prompt for lab/imaging/pathology reports."""
+        report_type_map = {
+            "laboratory_report": "LABORATORY",
+            "imaging_report": "IMAGING",
+            "pathology_report": "PATHOLOGY",
+            "radiology_report": "RADIOLOGY"
+        }
+        report_type = report_type_map.get(chart_type, "REPORT")
         
-        response, usage_info = self.call_claude_with_cache(
-            extraction_prompt, 
-            max_tokens=1500,  # Increased to accommodate patient info fields
-            temperature=0.0, 
-            system_prompt=None, 
-            cache_type="extraction"
-        )
-        
-        # Parse and validate extraction response
-        try:
-            # Extract JSON from response (handles markdown code fences)
-            json_str = self._extract_first_json_object(response)
-            if json_str:
-                parsed_response = json.loads(json_str)
-                if isinstance(parsed_response, dict):
-                    # Ensure all required fields are present with defaults
-                    parsed_response.setdefault("patient_name", "Unknown")
-                    parsed_response.setdefault("patient_age", "Unknown")
-                    parsed_response.setdefault("chart_specialty", "Unknown")
-                    parsed_response.setdefault("cpt", [])
-                    parsed_response.setdefault("procedure", [])
-                    parsed_response.setdefault("summary", "")
-                    
-                    # Log extracted patient information
-                    patient_name = parsed_response.get("patient_name", "Unknown")
-                    patient_age = parsed_response.get("patient_age", "Unknown")
-                    chart_specialty = parsed_response.get("chart_specialty", "Unknown")
-                    print(f"[EXTRACTION] Patient Name: {patient_name}")
-                    print(f"[EXTRACTION] Patient Age: {patient_age}")
-                    print(f"[EXTRACTION] Chart Specialty: {chart_specialty}")
-                    
-                    cpt_codes = parsed_response.get("cpt", [])
-                    if cpt_codes and len(cpt_codes) > 0:
-                        print(f"[INFO] CPT codes detected: {cpt_codes}")
-                        parsed_response["has_cpt_codes"] = True
-                    
-                    # Update response with clean JSON
-                    response = json.dumps(parsed_response)
-                else:
-                    print(f"[WARNING] Extraction response is not a dictionary")
-            else:
-                print(f"[WARNING] No JSON object found in extraction response")
-        except Exception as e:
-            print(f"[WARNING] Error parsing extraction response: {e}")
-            print(f"[DEBUG] Response preview: {response[:500] if response else 'No response'}")
-        
-        return response, usage_info
+        return """
+You are a medical coding and CDI specialist.
+
+TASK:
+Analyze the following {report_type} REPORT and extract important information for CDI compliance evaluation.
+
+REQUIRED JSON STRUCTURE:
+{{
+  "patient_name": STRING - Extract patient's full name,
+  "patient_age": STRING - Extract age with units,
+  "chart_specialty": STRING - Determine specialty,
+  "cpt": ARRAY - CPT codes if mentioned, empty array [] if none,
+  "procedure": ARRAY - Procedures/tests performed (may be empty),
+  "summary": STRING - Report summary/findings,
+  "test_name": STRING - Name of test/study,
+  "results": ARRAY - Key results/findings,
+  "impression": STRING - Impression/conclusion if present,
+  "recommendations": ARRAY - Recommendations if present
+}}
+
+EXTRACTION FOCUS:
+- Extract test/study name
+- Extract ALL results and findings
+- Extract impression/conclusion
+- Extract recommendations
+- Extract any procedures or tests mentioned
+
+{report_type} REPORT:
+<<<
+{chart}
+>>>
+""".format(report_type=report_type, chart=smart_truncate_by_words(
+            chart_text.strip(),
+            max_words=Config.MAX_CHART_WORDS,
+            context_words=Config.PROCEDURE_CONTEXT_WORDS,
+            prioritize_sections=True
+        ))
+    
+    def _get_general_extraction_prompt(self, chart_text: str, chart_type: str) -> str:
+        """Get extraction prompt for other chart types."""
+        return """
+You are a medical coding and CDI specialist.
+
+TASK:
+Analyze the following medical document (Chart Type: {chart_type}) and extract important information for CDI compliance evaluation.
+
+REQUIRED JSON STRUCTURE:
+{{
+  "patient_name": STRING - Extract patient's full name,
+  "patient_age": STRING - Extract age with units,
+  "chart_specialty": STRING - Determine specialty,
+  "cpt": ARRAY - CPT codes if mentioned, empty array [] if none,
+  "procedure": ARRAY - Procedures mentioned,
+  "summary": STRING - Clinical summary,
+  "diagnosis": ARRAY - Diagnoses mentioned,
+  "key_information": ARRAY - Any other key information relevant for CDI
+}}
+
+EXTRACTION FOCUS:
+- Extract patient information
+- Extract procedures
+- Extract diagnoses
+- Extract any other key information relevant for CDI compliance
+
+MEDICAL DOCUMENT:
+<<<
+{chart}
+>>>
+""".format(chart_type=chart_type, chart=smart_truncate_by_words(
+            chart_text.strip(),
+            max_words=Config.MAX_CHART_WORDS,
+            context_words=Config.PROCEDURE_CONTEXT_WORDS,
+            prioritize_sections=True
+        ))
     
     def _extract_first_json_object(self, text: str) -> Optional[str]:
         """Extract first JSON object from text with enhanced parsing."""
         if text is None:
             return None
         stripped = text.strip()
+        
+        # Remove markdown code fences
         if stripped.startswith("```"):
             parts = stripped.split("\n", 1)
-            stripped = parts[1] if len(parts) > 1 else stripped
+            if len(parts) > 1:
+                stripped = parts[1]
+            else:
+                stripped = stripped[3:]
             if stripped.endswith("```"):
                 stripped = stripped[:-3]
+            stripped = stripped.strip()
+        
+        # Try to find JSON object start
         start = stripped.find("{")
         if start == -1:
             return None
+        
+        # Try multiple strategies to extract valid JSON
+        strategies = [
+            # Strategy 1: Extract from first { to last }
+            lambda: self._extract_json_by_depth(stripped, start),
+            # Strategy 2: Try to find complete JSON by matching braces more carefully
+            lambda: self._extract_json_careful(stripped, start),
+            # Strategy 3: Try to extract JSON from code blocks
+            lambda: self._extract_json_from_code_blocks(text)
+        ]
+        
+        for strategy in strategies:
+            try:
+                result = strategy()
+                if result:
+                    # Validate it's parseable JSON
+                    json.loads(result)
+                    return result
+            except:
+                continue
+        
+        return None
+    
+    def _extract_json_by_depth(self, text: str, start: int) -> Optional[str]:
+        """Extract JSON by tracking brace depth."""
         depth = 0
         in_string = False
         escape = False
-        for i in range(start, len(stripped)):
-            ch = stripped[i]
+        for i in range(start, len(text)):
+            ch = text[i]
             if in_string:
                 if escape:
                     escape = False
@@ -331,7 +590,55 @@ OPERATIVE REPORT:
                 elif ch == '}':
                     depth -= 1
                     if depth == 0:
-                        return stripped[start : i + 1]
+                        return text[start : i + 1]
+        return None
+    
+    def _extract_json_careful(self, text: str, start: int) -> Optional[str]:
+        """More careful JSON extraction handling edge cases."""
+        import re
+        # Try to find the complete JSON object
+        # Look for balanced braces
+        brace_count = 0
+        in_string = False
+        escape_next = False
+        end_pos = start
+        
+        for i in range(start, len(text)):
+            char = text[i]
+            
+            if escape_next:
+                escape_next = False
+                continue
+            
+            if char == '\\' and in_string:
+                escape_next = True
+                continue
+            
+            if char == '"' and not escape_next:
+                in_string = not in_string
+                continue
+            
+            if not in_string:
+                if char == '{':
+                    brace_count += 1
+                elif char == '}':
+                    brace_count -= 1
+                    if brace_count == 0:
+                        end_pos = i + 1
+                        break
+        
+        if brace_count == 0 and end_pos > start:
+            return text[start:end_pos]
+        return None
+    
+    def _extract_json_from_code_blocks(self, text: str) -> Optional[str]:
+        """Extract JSON from markdown code blocks."""
+        import re
+        # Look for JSON code blocks
+        json_pattern = r'```(?:json)?\s*(\{.*?\})\s*```'
+        matches = re.findall(json_pattern, text, re.DOTALL)
+        if matches:
+            return matches[0]
         return None
     
     def evaluate_procedure_for_all_payers(
@@ -340,17 +647,19 @@ OPERATIVE REPORT:
         chart_text: str,
         extraction_data: Optional[Dict[str, Any]] = None,
         proc_index: int = 0,
-        total_procedures: int = 1
+        total_procedures: int = 1,
+        other_charts_info: Optional[Dict[str, Any]] = None
     ) -> Dict[str, Any]:
         """
         Evaluate a single procedure against all payers in a single LLM call.
         
         Args:
             proc_name: Name of the procedure to evaluate
-            chart_text: Medical chart text with line numbers
+            chart_text: Medical chart text with line numbers (operative chart only for multi-chart)
             extraction_data: Extraction data containing CPT codes if available
             proc_index: Index of this procedure (for logging)
             total_procedures: Total number of procedures (for logging)
+            other_charts_info: Optional dict with extracted information from other charts for cross-referencing
             
         Returns:
             Dictionary mapping payer_key to ProcedureResult for this procedure
@@ -382,7 +691,49 @@ OPERATIVE REPORT:
                 else:
                     print(f"[INFO] Procedure '{proc_name}' will use procedure-based RAG search (no CPT code match)")
             
-            # Collect guidelines for all payers
+            # STEP 1: Check CMS General Guidelines FIRST (before payer-specific guidelines)
+            print(f"  [CMS_GENERAL] Checking CMS general guidelines for '{proc_name}'...")
+            cms_guidelines_context = ""
+            cms_sources = []
+            cms_has_guidelines = False
+            
+            try:
+                if Config.DATA_SOURCE == "json" and self.json_loader:
+                    # Smart CMS search: Use only procedure name, not full chart text
+                    # This avoids false matches from unrelated chart content
+                    cms_query = proc_name
+                    
+                    if has_cpt_codes and cpt_codes:
+                        # Search with both procedure name and CPT codes
+                        cms_hits = self.json_loader.search_cms_general_guidelines(
+                            cms_query, cpt_codes, top_k=10, min_relevance_score=15.0
+                        )
+                    else:
+                        # Search with procedure name only
+                        cms_hits = self.json_loader.search_cms_general_guidelines(
+                            cms_query, None, top_k=10, min_relevance_score=15.0
+                        )
+                    
+                    # LLM-based relevance filtering for top results
+                    if cms_hits:
+                        cms_hits = self._filter_cms_guidelines_by_relevance(
+                            proc_name, cms_hits, extraction_data
+                        )
+                    
+                    # Build CMS context
+                    cms_ctx, cms_srcs, cms_has_guidelines = self.json_loader.build_cms_context_for_procedure(
+                        proc_name, cms_hits, Config.MAX_CONTEXT_CHARS // 4  # Allocate 25% of context to CMS
+                    )
+                    cms_guidelines_context = cms_ctx
+                    cms_sources = cms_srcs
+                    
+                    print(f"  [CMS_GENERAL] Found {len(cms_hits)} relevant CMS general guideline(s) after filtering")
+                else:
+                    print(f"  [WARNING] CMS general guidelines only supported with JSON data source")
+            except Exception as e:
+                print(f"  [ERROR] Failed to retrieve CMS general guidelines: {e}")
+            
+            # STEP 2: Collect guidelines for all payers
             payer_guidelines = {}
             payer_sources = {}
             payer_contexts = {}
@@ -458,21 +809,35 @@ OPERATIVE REPORT:
             system_prompt = f"{self.base_system_prompt}\n\nMULTI-PAYER TASK:\nYou will evaluate this procedure against guidelines from multiple payers. Return a JSON object with results for EACH payer separately."
             
             user_prompt = self._create_multi_payer_prompt(
-                proc_name, chart_text, payer_guidelines, cpt_codes if has_cpt_codes else None
+                proc_name, chart_text, payer_guidelines, cpt_codes if has_cpt_codes else None, other_charts_info, cms_guidelines_context
             )
             
             # Make single LLM call for all payers
             print(f"  [LLM] Making single LLM call for all {len(sorted_payers)} payers...")
+            
+            # Check prompt length (rough estimate: 1 token ≈ 4 characters)
+            prompt_length = len(user_prompt)
+            estimated_tokens = prompt_length / 4
+            print(f"  [DEBUG] Prompt length: {prompt_length:,} chars (~{estimated_tokens:,.0f} tokens)")
+            
+            # Warn if prompt is very long (Claude 3.7 Sonnet has ~200k context window, but we want to leave room for response)
+            if estimated_tokens > 150000:
+                print(f"  [WARNING] Prompt is very long ({estimated_tokens:,.0f} tokens). Response may be truncated.")
+            
             max_retries = 3
             for attempt in range(max_retries):
                 try:
+                    # Increase max_tokens for multi-payer responses (need more tokens for JSON output)
+                    max_output_tokens = 8000 if other_charts_info else 4000
+                    print(f"  [DEBUG] Using max_output_tokens: {max_output_tokens}")
                     raw, usage_info = self.call_claude_with_cache(
                         user_prompt,
-                        max_tokens=4000,  # Increased for multi-payer response
+                        max_tokens=max_output_tokens,  # Increased for multi-payer response with cross-referencing
                         temperature=0.0,
                         system_prompt=system_prompt,
                         cache_type="compliance"
                     )
+                    print(f"  [DEBUG] Response length: {len(raw)} chars, Input tokens: {usage_info.get('input_tokens', 'N/A')}, Output tokens: {usage_info.get('output_tokens', 'N/A')}")
                     break
                 except Exception as e:
                     if attempt == max_retries - 1:
@@ -516,6 +881,11 @@ OPERATIVE REPORT:
                     # Add guideline source tracking
                     parsed["guideline_source"] = "payer"
                     
+                    # Add CMS sources to each payer's procedure result (CMS guidelines are universal)
+                    parsed["cms_sources"] = cms_sources
+                    parsed["cms_guidelines_context"] = cms_guidelines_context
+                    parsed["cms_has_guidelines"] = cms_has_guidelines
+                    
                     all_payer_results[payer_key] = parsed
                     print(f"  [OK] {payer_name}: Successfully evaluated")
                 else:
@@ -528,6 +898,7 @@ OPERATIVE REPORT:
             return {
                 "payer_results": all_payer_results,
                 "sources_by_payer": payer_sources,
+                "cms_sources": cms_sources,  # Add CMS sources
                 "usage": {"input_tokens": total_input_tokens, "output_tokens": total_output_tokens, "model_id": model_id}
             }
             
@@ -543,6 +914,7 @@ OPERATIVE REPORT:
             return {
                 "payer_results": error_results,
                 "sources_by_payer": {},
+                "cms_sources": [],  # Add CMS sources even on error
                 "usage": {"input_tokens": 0, "output_tokens": 0, "model_id": "unknown"}
             }
     
@@ -1143,12 +1515,15 @@ OPERATIVE REPORT:
                 "notes": f"Evaluated using general medical necessity guidelines - {payer_name}-specific policy not available"
             },
             "improvement_recommendations": {
-                "documentation_gaps": [f"No {payer_name}-specific guidelines available for {proc_name}"],
-                "compliance_actions": [
-                    f"Submit to {payer_name} using general medical necessity criteria",
-                    f"Consider requesting specific {payer_name} policy for {proc_name}"
+                # Simplified, UI-friendly bullets (non payer-specific display)
+                "policy_needed": [
+                    f"Add the payer policy/guideline for: {proc_name}"
                 ],
-                "priority": "medium"
+                "cdi_documentation_gaps": [],
+                "completion_guidance": [],
+                "next_steps": [
+                    f"Load the missing policy into the guideline store/index, then re-run evaluation for: {proc_name}"
+                ],
             },
             "guideline_availability": {
                 "status": "general_fallback",
@@ -1157,6 +1532,157 @@ OPERATIVE REPORT:
                 "message": f"Using general medical necessity guidelines - no {payer_name}-specific policy found"
             }
         }
+    
+    def _filter_cms_guidelines_by_relevance(
+        self,
+        proc_name: str,
+        cms_hits: List[Dict[str, Any]],
+        extraction_data: Optional[Dict[str, Any]] = None
+    ) -> List[Dict[str, Any]]:
+        """
+        Use LLM to filter CMS guidelines and keep only truly relevant ones.
+        
+        Args:
+            proc_name: Procedure name being evaluated
+            cms_hits: List of CMS guideline hits from search
+            extraction_data: Optional extraction data with diagnosis, etc.
+            
+        Returns:
+            Filtered list of relevant CMS guidelines
+        """
+        if not cms_hits or len(cms_hits) == 0:
+            return []
+        
+        # If we have many results, only check top 10 for relevance
+        hits_to_check = cms_hits[:10]
+        
+        # Build context about the procedure
+        procedure_context = f"Procedure: {proc_name}"
+        
+        # Determine procedure type (treatment vs diagnosis coding)
+        proc_lower = proc_name.lower()
+        is_treatment_procedure = any(term in proc_lower for term in [
+            'therapy', 'treatment', 'application', 'placement', 'insertion', 'removal',
+            'repair', 'revision', 'replacement', 'aspiration', 'drainage', 'injection',
+            'surgery', 'procedure', 'operation', 'excision', 'resection'
+        ])
+        
+        procedure_type_note = ""
+        if is_treatment_procedure:
+            procedure_type_note = "\nNOTE: This is a TREATMENT PROCEDURE (not a diagnosis). Guidelines about diagnosis coding/staging are NOT relevant unless they specifically relate to documenting the procedure itself."
+        
+        if extraction_data:
+            diagnoses = extraction_data.get("diagnosis", [])
+            if diagnoses:
+                procedure_context += f"\nRelated Diagnoses: {', '.join(diagnoses[:3])}"
+        
+        # Build list of guideline titles with summaries to check
+        guideline_list = []
+        for idx, hit in enumerate(hits_to_check, 1):
+            source = hit.get("_source", {})
+            title = source.get("semantic_title", "Unknown")
+            guideline_id = source.get("guideline_id", "")
+            score = hit.get("_score", 0.0)
+            summary = source.get("content", {}).get("summary", "")
+            # Get first 150 chars of summary for context
+            summary_preview = summary[:150] + "..." if len(summary) > 150 else summary
+            guideline_list.append(f"{idx}. {title} (ID: {guideline_id}, Score: {score:.1f})\n   Summary: {summary_preview}")
+        
+        # Create LLM prompt to determine relevance
+        relevance_prompt = f"""You are a medical coding expert evaluating CMS general guidelines for relevance to a specific procedure.
+
+{procedure_context}{procedure_type_note}
+
+Below are CMS general guidelines that were retrieved by a search algorithm. Your task is to identify which guidelines are ACTUALLY RELEVANT to this procedure.
+
+CMS Guidelines Retrieved:
+{chr(10).join(guideline_list)}
+
+CRITICAL DISTINCTIONS:
+1. TREATMENT PROCEDURES (like "{proc_name}") need guidelines about:
+   - Procedure documentation requirements
+   - Coding the procedure itself
+   - General coding principles that apply to procedures
+   - Laterality coding (if procedure specifies left/right)
+   - NOT diagnosis coding/staging guidelines (unless they relate to documenting the procedure indication)
+
+2. DIAGNOSIS CODING GUIDELINES are relevant ONLY if:
+   - They relate to documenting the indication/reason for the procedure
+   - They are general principles that apply to all procedures
+   - They are NOT relevant if they're about coding/staging a condition that the procedure treats
+
+3. AVOID FALSE MATCHES:
+   - "Negative Pressure Wound Therapy" ≠ "Pressure Ulcer" coding guidelines
+   - "Joint Aspiration" ≠ "Coma" coding guidelines
+   - Treatment procedures ≠ Diagnosis staging guidelines
+   - Word similarity ≠ Semantic relevance
+
+INSTRUCTIONS:
+1. Review each guideline title and summary
+2. Determine if it is TRULY RELEVANT to the procedure "{proc_name}"
+3. A guideline is RELEVANT if it:
+   - Directly relates to coding/documentation for this type of procedure
+   - Covers coding rules that would apply to this procedure
+   - Contains general coding principles applicable to procedures (e.g., laterality)
+   - Addresses documentation requirements for procedures
+4. A guideline is NOT RELEVANT if it:
+   - Is about diagnosis coding/staging for conditions the procedure treats (unless it relates to documenting the indication)
+   - Is about completely unrelated medical conditions
+   - Only matches because of word similarity, not semantic relevance
+   - Covers coding rules that don't apply to this procedure type
+
+Be STRICT - only include guidelines that are genuinely relevant. When in doubt, exclude it.
+
+Return ONLY a JSON array of the guideline numbers (1, 2, 3, etc.) that are RELEVANT.
+Example: {{"relevant_guidelines": [1, 3]}} means only guidelines 1 and 3 are relevant.
+
+Return format (JSON only, no other text):
+{{"relevant_guidelines": [1, 2, 3]}}"""
+
+        try:
+            # Call LLM to determine relevance
+            response, _ = self.call_claude_with_cache(
+                relevance_prompt,
+                max_tokens=500,
+                temperature=0.0,
+                system_prompt="You are a medical coding expert. Return only valid JSON.",
+                cache_type="cms_relevance"
+            )
+            
+            # Parse response
+            import json
+            parsed = json.loads(response)
+            relevant_indices = parsed.get("relevant_guidelines", [])
+            
+            # Filter hits based on LLM response (indices are 1-based)
+            filtered_hits = []
+            for idx, hit in enumerate(hits_to_check, 1):
+                if idx in relevant_indices:
+                    filtered_hits.append(hit)
+            
+            # If LLM filtered everything out, keep at least the top result if score is high
+            if not filtered_hits and hits_to_check:
+                top_hit = hits_to_check[0]
+                if top_hit.get("_score", 0) >= 30.0:  # Keep if high confidence
+                    print(f"  [CMS_GENERAL] LLM filtered all results, keeping top result with high score")
+                    filtered_hits = [top_hit]
+            
+            # Add remaining hits (beyond top 10) if we have space
+            if len(filtered_hits) < 5 and len(cms_hits) > 10:
+                # Add next few high-scoring hits
+                for hit in cms_hits[10:15]:
+                    if hit.get("_score", 0) >= 25.0:  # Only high-scoring ones
+                        filtered_hits.append(hit)
+                        if len(filtered_hits) >= 5:
+                            break
+            
+            print(f"  [CMS_GENERAL] LLM relevance check: {len(hits_to_check)} checked, {len(filtered_hits)} relevant")
+            return filtered_hits
+            
+        except Exception as e:
+            print(f"  [WARNING] LLM relevance filtering failed: {e}, using original results")
+            # Fallback: return top results with high scores only
+            return [h for h in hits_to_check if h.get("_score", 0) >= 20.0]
     
     def _create_error_result(self, proc_name: str, payer_name: str, error_msg: str) -> Dict[str, Any]:
         """Create error result for failed procedure evaluation."""
@@ -1225,9 +1751,11 @@ OPERATIVE REPORT:
             f'    "notes": "STRING ({payer_name} coding context)"\n'
             '  },\n'
             '  "improvement_recommendations": {\n'
-            '    "documentation_gaps": ["STRING (specific gaps identified)", ...],\n'
-            f'    "compliance_actions": ["STRING (actionable steps to improve {payer_name} compliance)", ...],\n'
-            '    "priority": "high | medium | low (based on compliance impact)"\n'
+            '    "policy_needed": ["STRING (if any policy/guideline is missing or ambiguous; keep short)", ...],\n'
+            '    "cdi_documentation_gaps": ["STRING (specific missing documentation item; include what exactly is missing + any numbers/dates/measurements needed)", ...],\n'
+            '    "completion_guidance": ["STRING (how to document it; where to add it in note; be concise)", ...],\n'
+            '    "next_steps": ["STRING (operational next action; concise, no repeated phrasing)", ...],\n'
+            '    "summary_recommendations": ["STRING (top 3–5 MOST IMPORTANT, concise, non-duplicated, procedure-specific clinical documentation improvements the provider should make; no category labels like \\"CDI gap\\" or \\"Next step\\")", ...]\n'
             '  }\n'
             "}\n\n"
             "CRITICAL INSTRUCTIONS FOR CPT-BASED EVALUATION:\n"
@@ -1247,7 +1775,9 @@ OPERATIVE REPORT:
             "- Include line numbers (L###) from the medical chart in the evidence field where relevant\n"
             f"- policy_name should clearly identify the {payer_name} CPT policy being evaluated\n"
             "- For suggestions, provide specific actionable recommendations based on what information is missing\n"
-            f"- improvement_recommendations should identify gaps and actionable steps for {payer_name} compliance\n\n"
+            f"- improvement_recommendations MUST be BULLET STRINGS ONLY (policy_needed, cdi_documentation_gaps, completion_guidance, next_steps, summary_recommendations).\n"
+            "- Do NOT mention payer names in these bullets.\n"
+            "- Do NOT use repetitive starter words like 'Appropriate' or 'Request'.\n\n"
             f"Medical chart with line numbers:\n{numbered_chart}\n\n"
             f"=== ALL {payer_name} GUIDELINES FOR CPT CODES {', '.join(cpt_codes)} ===\n"
             f"The following guidelines represent the complete {payer_name} policy for procedure '{proc_name}' with CPT codes {', '.join(cpt_codes)}.\n"
@@ -1301,9 +1831,11 @@ OPERATIVE REPORT:
             f'    "notes": "STRING ({payer_name} coding context)"\n'
             '  },\n'
             '  "improvement_recommendations": {\n'
-            '    "documentation_gaps": ["STRING (specific gaps identified)", ...],\n'
-            f'    "compliance_actions": ["STRING (actionable steps to improve {payer_name} compliance)", ...],\n'
-            '    "priority": "high | medium | low (based on compliance impact)"\n'
+            '    "policy_needed": ["STRING (if any policy/guideline is missing or ambiguous; keep short)", ...],\n'
+            '    "cdi_documentation_gaps": ["STRING (specific missing documentation item; include what exactly is missing + any numbers/dates/measurements needed)", ...],\n'
+            '    "completion_guidance": ["STRING (how to document it; where to add it in note; be concise)", ...],\n'
+            '    "next_steps": ["STRING (operational next action; concise, no repeated phrasing)", ...],\n'
+            '    "summary_recommendations": ["STRING (top 3–5 MOST IMPORTANT, concise, non-duplicated, procedure-specific clinical documentation improvements the provider should make; no category labels like \\"CDI gap\\" or \\"Next step\\")", ...]\n'
             '  }\n'
             "}\n\n"
             "Rules:\n"
@@ -1316,7 +1848,9 @@ OPERATIVE REPORT:
             "- Include line numbers (L###) from the medical chart in the evidence field of requirement_checklist where relevant.\n"
             f"- policy_name should clearly identify which {payer_name} policy is being evaluated.\n"
             "- For suggestions, provide specific actionable recommendations based on what information is missing.\n"
-            f"- improvement_recommendations should identify specific gaps and actionable steps for {payer_name} compliance.\n\n"
+            f"- improvement_recommendations MUST be BULLET STRINGS ONLY (policy_needed, cdi_documentation_gaps, completion_guidance, next_steps, summary_recommendations).\n"
+            "- Do NOT mention payer names in these bullets.\n"
+            "- Do NOT use repetitive starter words like 'Appropriate' or 'Request'.\n\n"
             f"Medical chart with line numbers:\n{numbered_chart}\n\n"
             f"{payer_name} guideline context for procedure '{proc_name}':\n{ctx}\n"
         )
@@ -1391,7 +1925,9 @@ OPERATIVE REPORT:
         proc_name: str,
         numbered_chart: str,
         payer_guidelines: Dict[str, Dict[str, Any]],
-        cpt_codes: Optional[List[str]] = None
+        cpt_codes: Optional[List[str]] = None,
+        other_charts_info: Optional[Dict[str, Any]] = None,
+        cms_guidelines_context: str = ""
     ) -> str:
         """Create a prompt that evaluates one procedure against all payers."""
         sorted_payers = Config.get_sorted_payers()
@@ -1399,7 +1935,11 @@ OPERATIVE REPORT:
         
         # Build the JSON schema showing all payers
         schema_lines = [
-            "Return STRICT JSON ONLY. Do not include any commentary, prefixes, suffixes, or code fences.\n",
+            "╔══════════════════════════════════════════════════════════════════════════════╗\n",
+            "║ CRITICAL: RETURN ONLY VALID JSON - NO TEXT BEFORE OR AFTER                    ║\n",
+            "║ Start your response with { and end with } - nothing else                      ║\n",
+            "║ Do NOT include: markdown code fences (```), explanations, or any other text  ║\n",
+            "╚══════════════════════════════════════════════════════════════════════════════╝\n\n",
             "Schema:\n",
             "{\n",
             f'  "{sorted_payers[0][0]}": {{\n',  # First payer key
@@ -1421,7 +1961,12 @@ OPERATIVE REPORT:
             '    "timing_validation": {"conservative_duration_weeks": "INT or unknown", "pt_sessions_completed": "INT or unknown", "follow_up_interval": "STRING or unknown"},\n',
             '    "contraindications_exclusions": {"active_infection": "present | absent | unclear", "severe_arthritis": "present | absent | unclear", "other_contraindications": []},\n',
             '    "coding_implications": {"eligible_codes_if_sufficient": ["STRING (CPT codes)", ...], "notes": "STRING"},\n',
-            '    "improvement_recommendations": {"documentation_gaps": ["STRING", ...], "compliance_actions": ["STRING", ...], "priority": "high | medium | low"}\n',
+            '    "improvement_recommendations": {\n',
+            '      "policy_needed": ["STRING", ...],\n',
+            '      "cdi_documentation_gaps": ["STRING", ...],\n',
+            '      "completion_guidance": ["STRING", ...],\n',
+            '      "next_steps": ["STRING", ...]\n',
+            '    }\n',
             '  },\n'
         ]
         
@@ -1441,6 +1986,24 @@ OPERATIVE REPORT:
             schema_lines.append('  },\n')
         
         schema_lines.append('}\n\n')
+        
+        # Build CMS general guidelines section FIRST (before payer-specific guidelines)
+        cms_section = ""
+        if cms_guidelines_context:
+            cms_section = (
+                "=" * 80 + "\n"
+                "CMS GENERAL GUIDELINES (CHECK THESE FIRST)\n"
+                "=" * 80 + "\n"
+                "\n"
+                "IMPORTANT: Before evaluating payer-specific guidelines, ensure compliance\n"
+                "with CMS general coding guidelines. These are universal requirements that\n"
+                "apply to all payers and must be satisfied regardless of payer-specific policies.\n"
+                "\n"
+                f"{cms_guidelines_context}\n"
+                "\n"
+                "=" * 80 + "\n"
+                "\n"
+            )
         
         # Build guidelines sections for each payer
         guidelines_sections = []
@@ -1471,11 +2034,17 @@ OPERATIVE REPORT:
         instructions = [
             "CRITICAL INSTRUCTIONS FOR MULTI-PAYER EVALUATION:\n",
             f"- You are evaluating procedure '{proc_name}' against guidelines from {len(sorted_payers)} payers: {', '.join(payer_names)}\n",
+            "- EVALUATION ORDER: FIRST check compliance with CMS general guidelines, THEN check payer-specific guidelines\n",
+            "- CMS general guidelines are universal requirements that apply to ALL payers\n",
+            "- If CMS general guidelines are not met, the procedure may be insufficient regardless of payer-specific compliance\n",
             "- You MUST return a JSON object with keys for EACH payer (cigna, uhc, anthem)\n",
             "- Each payer key should contain the full compliance evaluation result for that payer\n",
             "- Evaluate each payer INDEPENDENTLY using ONLY that payer's guidelines\n",
             "- Do NOT mix requirements between payers\n",
-            "- Each payer may have different requirements and decisions\n\n"
+            "- Each payer may have different requirements and decisions\n",
+            "- improvement_recommendations MUST be BULLET STRINGS ONLY (policy_needed, cdi_documentation_gaps, completion_guidance, next_steps).\n",
+            "- Do NOT mention payer names in these bullets.\n",
+            "- Do NOT generate repetitive phrases like 'Appropriate ... guidelines' or 'Request ... guidelines'.\n\n"
         ]
         
         if cpt_codes:
@@ -1485,17 +2054,198 @@ OPERATIVE REPORT:
                 "- Use the appropriate guideline type for each payer as provided\n\n"
             )
         
+        # Add cross-reference information from other charts if available
+        cross_reference_section = ""
+        if other_charts_info:
+            cross_reference_section = "\n=== INFORMATION FROM RELATED CHARTS (for cross-referencing) ===\n"
+            cross_reference_section += "The following information has been extracted from other related charts (pre-operative, post-operative, etc.).\n"
+            cross_reference_section += "When evaluating compliance and generating recommendations, you MUST:\n"
+            cross_reference_section += "1. Check if required information exists in these other charts\n"
+            cross_reference_section += "2. If information exists in other charts, DO NOT flag it as a gap in improvement_recommendations\n"
+            cross_reference_section += "3. Only flag gaps if the information is truly missing from ALL charts (operative + other charts)\n"
+            cross_reference_section += "4. In your evaluation, you can reference that information exists in other charts\n\n"
+            
+            for chart_file, chart_info in other_charts_info.items():
+                chart_type = chart_info.get("chart_type", "unknown")
+                cross_reference_section += f"--- {chart_file} (Type: {chart_type}) ---\n"
+                
+                # Add summary (most important - contains key clinical info)
+                if chart_info.get("summary"):
+                    summary_text = chart_info['summary']
+                    cross_reference_section += f"Summary: {summary_text}\n"
+                    # Quick inference notes
+                    summary_lower = summary_text.lower()
+                    notes = []
+                    if any(word in summary_lower for word in ["conservative", "management", "therapy", "physical therapy", "pt"]):
+                        notes.append("conservative management mentioned")
+                    if any(word in summary_lower for word in ["pain", "symptom", "limited range"]):
+                        notes.append("symptoms documented")
+                    if any(word in summary_lower for word in ["failed", "tried", "attempted"]):
+                        notes.append("treatment attempted")
+                    if notes:
+                        cross_reference_section += f"→ Info present: {', '.join(notes)}\n"
+                    cross_reference_section += "\n"
+                
+                # Add diagnosis (concise)
+                if chart_info.get("diagnosis"):
+                    diagnosis_list = chart_info['diagnosis']
+                    if isinstance(diagnosis_list, list):
+                        cross_reference_section += f"Diagnosis: {', '.join(diagnosis_list[:5])}\n"  # Limit to 5
+                    else:
+                        cross_reference_section += f"Diagnosis: {diagnosis_list}\n"
+                
+                # Add tests (concise)
+                if chart_info.get("tests"):
+                    tests_list = chart_info['tests']
+                    if isinstance(tests_list, list):
+                        cross_reference_section += f"Tests: {', '.join(tests_list[:8])}\n"  # Limit to 8
+                    else:
+                        cross_reference_section += f"Tests: {tests_list}\n"
+                
+                # Add reports (key findings only)
+                if chart_info.get("reports"):
+                    reports = chart_info['reports']
+                    if isinstance(reports, list):
+                        # Show first 3 most relevant reports
+                        for report in reports[:3]:
+                            cross_reference_section += f"Report: {report[:200]}\n"  # Truncate long reports
+                    else:
+                        cross_reference_section += f"Reports: {str(reports)[:300]}\n"
+                
+                # Add medications (concise)
+                if chart_info.get("medications"):
+                    meds_list = chart_info['medications']
+                    if isinstance(meds_list, list):
+                        cross_reference_section += f"Medications: {', '.join(meds_list)}\n"
+                    else:
+                        cross_reference_section += f"Medications: {meds_list}\n"
+                
+                # Add conservative treatment (if exists)
+                if chart_info.get("conservative_treatment"):
+                    conservative = chart_info['conservative_treatment']
+                    if isinstance(conservative, dict):
+                        # Show key fields only
+                        key_fields = {k: v for k, v in list(conservative.items())[:3]}
+                        cross_reference_section += f"Conservative Treatment: {json.dumps(key_fields)}\n"
+                    else:
+                        cross_reference_section += f"Conservative Treatment: {str(conservative)[:200]}\n"
+                
+                # Add physical exam (if exists, concise)
+                if chart_info.get("physical_exam"):
+                    physical_exam = chart_info['physical_exam']
+                    if isinstance(physical_exam, dict):
+                        key_fields = {k: v for k, v in list(physical_exam.items())[:3]}
+                        cross_reference_section += f"Physical Exam: {json.dumps(key_fields)}\n"
+                    else:
+                        cross_reference_section += f"Physical Exam: {str(physical_exam)[:200]}\n"
+                
+                # Add functional limitations (if exists, concise)
+                if chart_info.get("functional_limitations"):
+                    func_lim = chart_info['functional_limitations']
+                    if isinstance(func_lim, dict):
+                        key_fields = {k: v for k, v in list(func_lim.items())[:3]}
+                        cross_reference_section += f"Functional Limitations: {json.dumps(key_fields)}\n"
+                    else:
+                        cross_reference_section += f"Functional Limitations: {str(func_lim)[:200]}\n"
+                
+                cross_reference_section += "\n"
+            
+            cross_reference_section += "=== END OF RELATED CHARTS INFORMATION ===\n\n"
+        
+        # Enhanced instructions with explicit cross-referencing rules
+        cross_ref_instructions = ""
+        if other_charts_info:
+            cross_ref_instructions = """
+╔══════════════════════════════════════════════════════════════════════════════╗
+║ CRITICAL: CROSS-REFERENCE CHECKING RULES FOR RECOMMENDATIONS                 ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+BEFORE flagging ANY gap in improvement_recommendations.documentation_gaps or 
+improvement_recommendations.compliance_actions, you MUST perform this 3-step check:
+
+STEP 1: Check operative chart for the information
+STEP 2: If NOT in operative chart, check ALL related charts below
+STEP 3: If information exists in ANY related chart → DO NOT flag as gap
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║ EXAMPLES OF SMART CROSS-REFERENCING (CRITICAL TO FOLLOW)                     ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+Example 1 - Conservative Management:
+  ❌ WRONG: Flag "duration of conservative management not specified" as gap
+  ✅ CORRECT: If related chart says "failed conservative management including 
+              physical therapy, NSAIDs, and corticosteroid injections" → 
+              DO NOT flag duration gap (it implies management was tried)
+              Set status to "unclear" or "met", NOT "unmet"
+
+Example 2 - Imaging:
+  ❌ WRONG: Flag "advanced imaging not documented" as gap
+  ✅ CORRECT: If related chart has "MRI Right Shoulder report showing 
+              full-thickness rotator cuff tear" → DO NOT flag imaging gap
+              Set status to "met"
+
+Example 3 - Medications:
+  ❌ WRONG: Flag "NSAIDs not documented" as gap
+  ✅ CORRECT: If related chart lists "Ibuprofen 600mg TID" → DO NOT flag 
+              medication gap (Ibuprofen IS an NSAID)
+
+Example 4 - Symptoms:
+  ❌ WRONG: Flag "function-limiting pain not documented" as gap
+  ✅ CORRECT: If related chart mentions "right shoulder pain and limited 
+              range of motion" → DO NOT flag symptom gap
+              Set status to "met" or "unclear"
+
+Example 5 - Tests:
+  ❌ WRONG: Flag "impingement tests not documented" as gap
+  ✅ CORRECT: If related chart has test results or mentions tests performed →
+              DO NOT flag test gaps
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║ INTELLIGENT INFERENCE RULES                                                  ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+- "Failed conservative management" = management was tried → don't flag as completely missing
+- Test reports exist = tests were performed → don't flag test gaps
+- Medications listed = medication management was tried → don't flag medication gaps
+- Summary mentions symptoms = symptoms documented → don't flag symptom gaps
+- Diagnosis listed = condition documented → don't flag diagnosis gaps
+- Reports mention findings = findings documented → don't flag finding gaps
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║ WHEN INFORMATION EXISTS IN RELATED CHARTS:                                   ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+1. Set requirement_checklist status to "met" or "unclear" (NEVER "unmet")
+2. In evidence field, add: "Information available in related chart: [chart name]"
+3. DO NOT include in improvement_recommendations.documentation_gaps
+4. DO NOT include in improvement_recommendations.compliance_actions
+5. DO NOT include in primary_reasons as a missing element
+6. You CAN mention in primary_reasons: "Some details may be in related charts"
+
+ONLY flag gaps if information is COMPLETELY ABSENT from BOTH operative AND all related charts.
+
+"""
+        
         instructions.extend([
             "Rules for each payer evaluation:\n",
-            "- decision='Sufficient' only if ALL required elements from that payer's guidelines are evidenced in the medical chart\n",
-            "- decision='Insufficient' if ANY required element from that payer's guidelines is missing/contradicted\n",
+            "- decision='Sufficient' only if ALL required elements from that payer's guidelines are evidenced in the medical chart OR in related charts\n",
+            "- decision='Insufficient' if ANY required element from that payer's guidelines is missing/contradicted in BOTH the operative chart AND related charts\n",
             "- primary_reasons should list the main issues preventing compliance with that specific payer\n",
             "- requirement_checklist should include requirements from ALL provided guidelines for that payer\n",
             "- Include line numbers (L###) from the medical chart in the evidence field where relevant\n",
             "- policy_name should clearly identify which policy is being evaluated for that payer\n",
-            "- improvement_recommendations should identify gaps and actionable steps for that specific payer's compliance\n\n",
-            f"Medical chart with line numbers:\n{numbered_chart}\n\n",
-            guidelines_text
+            "- improvement_recommendations should identify gaps ONLY if information is missing from BOTH the operative chart AND related charts\n",
+            "- If information exists in related charts, mention it in evidence but DO NOT flag it as a gap\n",
+            cross_ref_instructions,
+            cross_reference_section,
+            f"OPERATIVE CHART (primary chart for CDI evaluation) with line numbers:\n{numbered_chart}\n\n",
+            "FINAL REMINDER: Before adding ANY item to improvement_recommendations.documentation_gaps or compliance_actions, verify it is NOT mentioned in the related charts section above. If it exists in related charts (even implicitly), DO NOT flag it as a gap.\n\n",
+            cms_section,  # Add CMS general guidelines section FIRST
+            guidelines_text,  # Then payer-specific guidelines
+            "\n\n╔══════════════════════════════════════════════════════════════════════════════╗\n",
+            "║ FINAL INSTRUCTION: Return ONLY the JSON object - start with {{ and end with }} ║\n",
+            "║ NO markdown, NO code fences, NO explanations - JUST the JSON object          ║\n",
+            "╚══════════════════════════════════════════════════════════════════════════════╝\n"
         ])
         
         return "".join(schema_lines) + "".join(instructions)
@@ -1503,19 +2253,109 @@ OPERATIVE REPORT:
     def _parse_multi_payer_response(self, raw: str, proc_name: str, sorted_payers: List[Tuple[str, Dict[str, Any]]]) -> Dict[str, Dict[str, Any]]:
         """Parse multi-payer response containing results for all payers."""
         parsed_results = {}
+
+        def _normalize_payer_key(k: Any) -> str:
+            try:
+                return str(k).strip().lower().replace(" ", "").replace("-", "").replace("_", "")
+            except Exception:
+                return ""
+
+        def _unwrap_container(obj: Any) -> Any:
+            """Handle common wrapper shapes like {'payer_results': {...}}."""
+            if not isinstance(obj, dict):
+                return obj
+            for container_key in ("payer_results", "payers", "results", "evaluations"):
+                if container_key in obj and isinstance(obj[container_key], dict):
+                    return obj[container_key]
+            return obj
+
+        expected_norm_keys = set()
+        for payer_key, payer_config in sorted_payers:
+            expected_norm_keys.add(_normalize_payer_key(payer_key))
+            expected_norm_keys.add(_normalize_payer_key(payer_config.get("name", "")))
+
+        def _coverage_score(obj: Any) -> int:
+            """How many expected payer keys this candidate contains (case/format insensitive)."""
+            if not isinstance(obj, dict):
+                return 0
+            keys = set(_normalize_payer_key(k) for k in obj.keys())
+            # Count payer_key matches (not payer_name variants) more strongly by using expected_norm_keys.
+            return len(keys.intersection(expected_norm_keys))
+
+        def _extract_best_json_candidate(text: str) -> Optional[Dict[str, Any]]:
+            """
+            When the LLM response is malformed, we may recover multiple JSON objects.
+            Choose the candidate that covers the most payer keys (and is longest as tie-breaker).
+            """
+            import re
+
+            candidates: List[str] = []
+            first = self._extract_first_json_object(text)
+            if first:
+                candidates.append(first)
+
+            # Grab JSON-like objects; we'll parse and score them.
+            json_pattern = r'\{[^{}]*(?:\{[^{}]*\}[^{}]*)*\}'
+            matches = re.findall(json_pattern, text, re.DOTALL)
+            # Prefer longer candidates first (often the full multi-payer object)
+            candidates.extend(sorted(matches, key=len, reverse=True))
+
+            best_obj: Optional[Dict[str, Any]] = None
+            best_score = -1
+            best_len = -1
+
+            seen = set()
+            for cand in candidates:
+                if cand in seen:
+                    continue
+                seen.add(cand)
+                try:
+                    fixed = self._fix_json_common_issues(cand)
+                    obj = _unwrap_container(json.loads(fixed))
+                    if not isinstance(obj, dict):
+                        continue
+                    score = _coverage_score(obj)
+                    if score > best_score or (score == best_score and len(cand) > best_len):
+                        best_obj = obj
+                        best_score = score
+                        best_len = len(cand)
+                    # Early exit if we likely have full coverage
+                    if best_score >= 3:  # current project has 3 payers; safe heuristic
+                        break
+                except Exception:
+                    continue
+
+            return best_obj
         
         try:
             # Try to parse JSON directly
-            parsed = json.loads(raw)
+            parsed = _unwrap_container(json.loads(raw))
             if not isinstance(parsed, dict):
                 raise ValueError("Response is not a JSON object")
+
+            # Build a normalized lookup to tolerate casing/format differences (e.g., "Cigna" vs "cigna")
+            normalized_map = {_normalize_payer_key(k): k for k in parsed.keys()}
             
             # Extract results for each payer
             for payer_key, payer_config in sorted_payers:
                 payer_name = payer_config['name']
-                
-                if payer_key in parsed:
-                    payer_result = parsed[payer_key]
+
+                # Try exact key first, then common variants
+                candidate_keys = [payer_key]
+                norm = _normalize_payer_key(payer_key)
+                if norm in normalized_map:
+                    candidate_keys.append(normalized_map[norm])
+                name_norm = _normalize_payer_key(payer_name)
+                if name_norm in normalized_map:
+                    candidate_keys.append(normalized_map[name_norm])
+                # Deduplicate while preserving order
+                seen = set()
+                candidate_keys = [k for k in candidate_keys if not (k in seen or seen.add(k))]
+
+                found_key = next((k for k in candidate_keys if k in parsed), None)
+
+                if found_key is not None:
+                    payer_result = parsed[found_key]
                     if isinstance(payer_result, dict) and "procedure_evaluated" in payer_result:
                         parsed_results[payer_key] = payer_result
                     else:
@@ -1529,19 +2369,38 @@ OPERATIVE REPORT:
                         proc_name, payer_name, f"Missing '{payer_key}' in response"
                     )
             
-        except json.JSONDecodeError:
-            # Try to extract JSON object
-            recovered = self._extract_first_json_object(raw)
-            if recovered:
+        except json.JSONDecodeError as json_err:
+            # Log the error for debugging
+            print(f"[WARNING] JSON decode error: {json_err}")
+            print(f"[DEBUG] Response length: {len(raw)} characters")
+            print(f"[DEBUG] Response preview (first 1000 chars): {raw[:1000]}")
+            print(f"[DEBUG] Response preview (last 1000 chars): {raw[-1000:]}")
+            
+            best_obj = _extract_best_json_candidate(raw)
+
+            if best_obj:
                 try:
-                    parsed = json.loads(recovered)
+                    parsed = best_obj
                     if isinstance(parsed, dict):
+                        normalized_map = {_normalize_payer_key(k): k for k in parsed.keys()}
                         # Extract results for each payer
                         for payer_key, payer_config in sorted_payers:
                             payer_name = payer_config['name']
-                            
-                            if payer_key in parsed:
-                                payer_result = parsed[payer_key]
+
+                            candidate_keys = [payer_key]
+                            norm = _normalize_payer_key(payer_key)
+                            if norm in normalized_map:
+                                candidate_keys.append(normalized_map[norm])
+                            name_norm = _normalize_payer_key(payer_name)
+                            if name_norm in normalized_map:
+                                candidate_keys.append(normalized_map[name_norm])
+                            seen = set()
+                            candidate_keys = [k for k in candidate_keys if not (k in seen or seen.add(k))]
+
+                            found_key = next((k for k in candidate_keys if k in parsed), None)
+
+                            if found_key is not None:
+                                payer_result = parsed[found_key]
                                 if isinstance(payer_result, dict) and "procedure_evaluated" in payer_result:
                                     parsed_results[payer_key] = payer_result
                                 else:
@@ -1555,6 +2414,8 @@ OPERATIVE REPORT:
                     else:
                         raise ValueError("Recovered JSON is not an object")
                 except Exception as e:
+                    # Log the recovery attempt error
+                    print(f"[WARNING] Failed to parse recovered JSON: {e}")
                     # Fallback to error results for all payers
                     for payer_key, payer_config in sorted_payers:
                         parsed_results[payer_key] = self._create_error_result(
@@ -1575,3 +2436,16 @@ OPERATIVE REPORT:
                 )
         
         return parsed_results
+    
+    def _fix_json_common_issues(self, json_str: str) -> str:
+        """Fix common JSON issues that cause parsing errors."""
+        import re
+        fixed = json_str
+        
+        # Fix trailing commas before closing braces/brackets
+        fixed = re.sub(r',(\s*[}\]])', r'\1', fixed)
+        
+        # Remove control characters except newline, tab, carriage return
+        fixed = ''.join(char for char in fixed if ord(char) >= 32 or char in '\n\r\t')
+        
+        return fixed

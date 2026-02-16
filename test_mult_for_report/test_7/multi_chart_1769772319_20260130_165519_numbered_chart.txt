@@ -1,0 +1,560 @@
+L001: 
+L002: 
+L003: === CHART: tmpqkfo21mt.pdf (Type: admission_note) ===
+L004: 1/5/26, 9:11 AM Ipekdjian, George (MR # MR408906) DOB: 09/26/1943
+L005: 
+L006: H&P by Pasternack, Jordan B, MD filed on 1/4/2026 8:22 AM.
+L007: 
+L008: Author: Pasternack, Jordan B, MD Service: Orthopedics Author Type: Physician
+L009: Date of Service: 1/3/2026 Filed: 1/4/2026 8:22 AM Status: Signed
+L010: Editor: Pasternack, Jordan B, MD (Physician)
+L011: 
+L012: Greenwich Hospital
+L013: 
+L014: Orthopedic History & Physical
+L015: 
+L016: History provided by: the nursing home
+L017: History limited by: the condition of the patient
+L018: Patient presents from: Skilled nursing facility
+L019: 
+L020: Subjective:
+L021: 
+L022: Chief Complaint: R hip pain
+L023: HPI
+L024: 
+L025: Mr. Ipekdjian is an 82 y.o. male with HTN, Dementia, DM2, multinodular goiter, frequent falls causing traumatic
+L026: SDH + SAH and skull fracture (9/2024), nephrolithiasis s/p left ureteral stent placement who suffered an
+L027: unwitnessed fall today with head strike while in the shower at Nathaniel Witherall ECF, and was
+L028: transported to the GH ED for evaluation of right hip pain and inability to bear weight. Patient does not
+L029: remember the fall. He remembers slipping then does not remember events before that. There was no
+L030: reported loss of consciousness or near syncope. Patient denies any chest pain, dizziness or light
+L031: headedness prior to the fall. Pain worse with any ROM of RLE. Patient is at their baseline mental status.
+L032: 
+L033: Medical History:
+L034: 
+L035: Past Medical History Past Surgical History
+L036: Past Medical History: Past Surgical History:
+L037: Diagnosis Date Procedure Laterality Date
+L038: * Bipolar 1 disorder (HC Code) (HC CODE) * COLONOSCOPY
+L039: * Dementia (HC Code) (HC CODE) * LEFT RADIAL FX Left 2023
+L040: * Diabetes mellitus (HC CODE)
+L041: 
+L042: type 2
+L043: * Difficulty walking
+L044: * Dysphagia
+L045: * Hypercholesteremia
+L046: * Hypertension
+L047: * Kidney stone 11/202
+L048: 
+L049: 5
+L050: 
+L051: * Pneumonia
+L052: * Subarachnoid bleed (HC Code) (HC 09/202
+L053: 
+L054: CODE) 4
+L055: 
+L056: S/p fall and skull fracture
+L057: 
+L058: ocial Histo
+L059: Social History Family History
+L060: 
+L061: Problem Relation Age of Onset
+L062: Socioeconomic History *No Known Problems Mother
+L063: «Marital status: Single *No Known Problems Father
+L064: Spouse Not on file
+L065: name:
+L066: 
+L067: ¢ Number of Not on file
+L068: 
+L069: children:
+L070: ¢ Years of Not on file
+L071: 
+L072: education:
+L073: * Highest Not on file
+L074: 
+L075: Ipekdjian, George (MRN MR408906) Printed by Stagno, Cesarina [767] at 1/5/2026 9:11 AM 1/4
+L076: 
+L077: 1/5/26, 9:11 AM Ipekdjian, George (MR # MR408906) DOB: 09/26/1943
+L078: 
+L079: education
+L080: level:
+L081: 
+L082: Occupational History
+L083: 
+L084: « Not on file
+L085: 
+L086: Tobacco Use
+L087: 
+L088: « Smoking Unknown
+L089: status:
+L090: 
+L091: * Smokeless Not on file
+L092: tobacco:
+L093: 
+L094: Vaping Use
+L095: 
+L096: «Vaping status: Never Used
+L097: 
+L098: Substance and Sexual Activity
+L099: 
+L100: * Alcohol use: Not Currently
+L101: 
+L102: ¢ Drug use: Never
+L103: 
+L104: * Sexual activity: Not Currently
+L105: Other Topics Concern
+L106: 
+L107: « Not on file
+L108: 
+L109: Social History Narrative
+L110: 
+L111: «Not on file
+L112: 
+L113: Social Drivers of Health
+L114: 
+L115: Financial Resource Strain: Not on file
+L116: Food Insecurity: No Food Insecurity (5/27/2025)
+L117: Received from Hartford Healthcare
+L118: Hunger Vital Sign
+L119: ¢ Within the past 12 months, you worried that your
+L120: food would run out before you got the money to
+L121: buy more.: Never true
+L122: * Within the past 12 months, the food you bought
+L123: just didn't last and you didn't have money to get
+L124: more.: Never true
+L125: Transportation Needs: No Transportation Needs
+L126: (5/27/2025)
+L127: Received from Hartford Healthcare
+L128: PRAPARE - Transportation
+L129: * Lack of Transportation (Medical): No
+L130: * Lack of Transportation (Non-Medical): No
+L131: Physical Activity: Not on file
+L132: Stress: Not on file
+L133: Social Connections: Not on file
+L134: Intimate Partner Violence: Not on file
+L135: Housing Stability: Low Risk (12/3/2025)
+L136: Housing Stability
+L137: * Housing Stability: | have a steady place to live
+L138: * Housing Stability: Not on file
+L139: 
+L140: Prior to Admission Medications
+L141: 
+L142: Prescriptions Prior to Admission
+L143: 
+L144: (Not in a hospital admission)
+L145: 
+L146: Reactions
+L147: + Lisinopril Cough
+L148: 
+L149: Review of Systems:
+L150: 
+L151: Review of Systems
+L152: 
+L153: Ipekdjian, George (MRN MR408906) Printed by Stagno, Cesarina [767] at 1/5/2026 9:11 AM 2/4
+L154: 
+L155: 1/5/26, 9:11 AM Ipekdjian, George (MR # MR408906) DOB: 09/26/1943
+L156: 
+L157: Objective:
+L158: 
+L159: Vitals:
+L160: | have reviewed the patient's current vital signs as documented in the patient's EMR.
+L161: 
+L162: Physical Exam:
+L163: 
+L164: Physical Exam
+L165: Patient is awake, alert but confused, currently in pain
+L166: 
+L167: Right lower extremity: Skin over hip and groin intact without laceration, erythema or open wounds. Patient has
+L168: tenderness to palpation over the hip and groin as well as mid/distal thigh. He has no other tenderness to palpation to
+L169: the tib-fib, ankle, and foot. He has pain with attempted range of motion of the hip. Compartments soft and
+L170: compressible. Intact active dorsiflexion, plantarflexion, eversion, and inversion. SILT DP/SP/Su/Sa/T. BCR, foot wwp.
+L171: 
+L172: Labs:
+L173: | have reviewed the patient's labs within the last 24 hrs.
+L174: 
+L175: Diagnostics:
+L176: X-Ray: R unstable IT Fx
+L177: 
+L178: Assessment:
+L179: 
+L180: Mr. Ipekdjian is an 82 y.o. male with HTN, Dementia, DM2, multinodular goiter, frequent falls causing traumatic
+L181: SDH + SAH and skull fracture (9/2024), nephrolithiasis s/p left ureteral stent placement who presents with a R
+L182: unstable IT Fx.
+L183: 
+L184: | had a very long and thorough discussion with the patient's cousin Paul, who is his healthcare proxy, regarding this
+L185: injury and its treatment options. Given the patient's previous functional status, goals, and injury, | did present surgical
+L186: intervention as an option to treat this injury. Surgical intervention would take the form of a hip cephalomedullary nail.
+L187: The patient understands that conservative treatment for this injury is an option, and would consist of
+L188: nonweightbearing of the injured lower extremity for approximately 6 weeks while the fracture heals. They understand
+L189: that conservative treatment is associated with higher risks of nonunion, malunion, prolonged immobility, the sequelae
+L190: of prolonged immobility such as ulcers and blood clots, and increased pain. They also understand that the risks
+L191: associated with surgery, which are described below, are not present with nonoperative treatment. They do
+L192: understand that surgery would allow for near immediate mobilization with physical therapy. | made it clear that
+L193: nonoperative treatment of hip fractures is typically associated with an approximately 89% mortality rate at 1 year.
+L194: 
+L195: The risks, benefits, and alternatives to surgery were discussed at length with the patient's cousin Paul, who is his
+L196: healthcare proxy, today over the phone. Risks discussed include but are not limited to bleeding, infection,
+L197: neurovascular injury, anesthesia risks, wound healing problems, failure to alleviate pain, new pain, stiffness,
+L198: nonunion, malunion, symptomatic hardware, hardware failure, arthritis, recurrent deformity, recurrent instability,
+L199: inability to return to previous level of activity, medical complications, the need for more surgery in the future, loss of
+L200: limb, and loss of life. Specifically, complications and loss of life is a significant risk of undergoing this procedure. The
+L201: patient's cousin understood this. No guarantees were given. All questions were answered. After this discussion, the
+L202: patient's cousin Paul , who is his healthcare proxy, chose to proceed with surgical intervention.
+L203: 
+L204: - NWB RLE
+L205: 
+L206: - NPO/IVF
+L207: 
+L208: - DVT PPx: hold chemical for OR today, venodynes
+L209: 
+L210: - Pain control: Oxycodone 5mg as needed for moderate pain; Tylenol for mild pain
+L211: - Colace 100mg BID while taking oxycodone
+L212: 
+L213: - zofran PRN while taking oxycodone
+L214: 
+L215: - Resume Home Medications
+L216: 
+L217: - please obtain preoperative labs: CBC, BMP, PT/PTT and INR, T&S, CXR, EKG. These are completed.
+L218: - preoperative medical optimization by hospitalist, this is completed
+L219: 
+L220: - medical comanagement by hospitalist, recommendations appreciated
+L221: 
+L222: - OR today for hip cephalomedullary nail. Consent obtained
+L223: 
+L224: - F/U MRSA screen
+L225: 
+L226: Ipekdjian, George (MRN MR408906) Printed by Stagno, Cesarina [767] at 1/5/2026 9:11 AM 3/4
+L227: 
+L228: 1/5/26, 9:11 AM
+L229: 
+L230: Ipekdjian, George (MR # MR408906) DOB: 09/26/1943
+L231: 
+L232: Patient's cousin understood and agreed with this plan. All questions were answered.
+L233: 
+L234: Plan:
+L235: 
+L236: Prophylaxis: hold chemical for OR
+L237: 
+L238: Comorbidities
+L239: Comorbidities present on admission:
+L240: 
+L241: Secondary diagnoses occurring during hospitalization:
+L242: 
+L243: Diabetes with hyperglycemia
+L244: 
+L245: Notifications:
+L246: 
+L247: PCP: Walsh, Francis X 203-661-9433
+L248: 
+L249: Primary Care Provider was notified of this admission. No
+L250: 
+L251: Family was notified of this admission. Yes
+L252: Plan discussed with patient and/or family. Yes
+L253: | have reviewed the plan of care with the bedside nurse, including an emphasis on the most important aspects of
+L254: 
+L255: care for the next 12 hours: yes
+L256: 
+L257: Signed:
+L258: 
+L259: Jordan B Pasternack, MD Beeper: 2981
+L260: 
+L261: 1/3/2026
+L262: 7:32 PM
+L263: 
+L264: Electronically signed by Pasternack, Jordan B, MD at 1/4/2026 8:22 AM
+L265: 
+L266: ED to Hosp-Admission (Current) on 1/3/2026
+L267: 
+L268: Routing History
+L269: 
+L270: Priority
+L271: t
+L272: 
+L273: =
+L274: 
+L275: Ipekdjian, George (MRN MR408906) Printed by Stagno, Cesarina [767] at 1/5/2026 9:11 AM
+L276: 
+L277: Sent On
+L278: 1/3/2026
+L279: 1/3/2026
+L280: 1/3/2026
+L281: 1/3/2026
+L282: 1/3/2026
+L283: 1/3/2026
+L284: 1/3/2026
+L285: 
+L286: 9:06 PM
+L287: 6:37 PM
+L288: 6:34 PM
+L289: 6:32 PM
+L290: 6:30 PM
+L291: 6:30 PM
+L292: 6:28 PM
+L293: 
+L294: From
+L295: 
+L296: Lab, Background User
+L297: Edi, Rad Results In
+L298: Edi, Rad Results In
+L299: Edi, Rad Results In
+L300: Edi, Rad Results In
+L301: Edi, Rad Results In
+L302: Edi, Rad Results In
+L303: 
+L304: Note shared with patient
+L305: 
+L306: To
+L307: Pasternack, Jordan B, MD
+L308: 
+L309: Rummel, Karen, DO
+L310: Rummel, Karen, DO
+L311: Rummel, Karen, DO
+L312: Rummel, Karen, DO
+L313: Davison, Christopher, MD
+L314: Rummel, Karen, DO
+L315: 
+L316: Message Type
+L317: Results
+L318: Results
+L319: Results
+L320: Results
+L321: Results
+L322: Results
+L323: Results
+L324: 
+L325: 4/4
+L326: === END CHART: tmpqkfo21mt.pdf ===
+L327: 
+L328: 
+L329: === CHART: tmpg4htys6n.pdf (Type: operative_note) ===
+L330: 1/5/26, 9:12 AM Ipekdjian, George (MR # MR408906) DOB: 09/26/1943
+L331: 
+L332: Operative Note by Pasternack, Jordan B, MD filed on 1/4/2026 11:11 AM.
+L333: 
+L334: Author: Pasternack, Jordan B, MD Service: Orthopedics Author Type: Physician
+L335: Date of Service: 1/4/2026 Filed: 1/4/2026 11:11 AM Status: Signed
+L336: Editor: Pasternack, Jordan B, MD (Physician)
+L337: 
+L338: Date of procedure: 1/4/26
+L339: 
+L340: Indications: Mr. lpekdjian is an 82 y.o. male with HTN, Dementia, DM2, multinodular goiter, frequent falls
+L341: causing traumatic SDH + SAH and skull fracture (9/2024), nephrolithiasis s/p left ureteral stent placement who
+L342: presents with a R unstable IT Fx.
+L343: 
+L344: | had a very long and thorough discussion with the patient's cousin Paul, who is his healthcare proxy, regarding this
+L345: injury and its treatment options. Given the patient's previous functional status, goals, and injury, | did present surgical
+L346: intervention as an option to treat this injury. Surgical intervention would take the form of a hip cephalomedullary nail.
+L347: The patient understands that conservative treatment for this injury is an option, and would consist of
+L348: nonweightbearing of the injured lower extremity for approximately 6 weeks while the fracture heals. They understand
+L349: that conservative treatment is associated with higher risks of nonunion, malunion, prolonged immobility, the sequelae
+L350: of prolonged immobility such as ulcers and blood clots, and increased pain. They also understand that the risks
+L351: associated with surgery, which are described below, are not present with nonoperative treatment. They do
+L352: understand that surgery would allow for near immediate mobilization with physical therapy. | made it clear that
+L353: nonoperative treatment of hip fractures is typically associated with an approximately 89% mortality rate at 1 year.
+L354: 
+L355: The risks, benefits, and alternatives to surgery were discussed at length with the patient's cousin Paul, who is his
+L356: healthcare proxy, today over the phone. Risks discussed include but are not limited to bleeding, infection,
+L357: neurovascular injury, anesthesia risks, wound healing problems, failure to alleviate pain, new pain, stiffness,
+L358: nonunion, malunion, symptomatic hardware, hardware failure, arthritis, recurrent deformity, recurrent instability,
+L359: inability to return to previous level of activity, medical complications, the need for more surgery in the future, loss of
+L360: limb, and loss of life. Specifically, complications and loss of life is a significant risk of undergoing this procedure. The
+L361: patient's cousin understood this. No guarantees were given. All questions were answered. After this discussion, the
+L362: patient's cousin Paul , who is his healthcare proxy, chose to proceed with surgical intervention.
+L363: 
+L364: Pre-operative Diagnosis: Right hip unstable intertrochanteric fracture
+L365: Post-operative Diagnosis: Right hip unstable intertrochanteric fracture
+L366: Surgeon: Jordan B Pasternack, MD
+L367: 
+L368: Assistants: N/A
+L369: 
+L370: Anesthesia: General endotracheal anesthesia
+L371: 
+L372: ASA Class: 3
+L373: 
+L374: Procedure Details
+L375: Implants:
+L376: 
+L377: Arthrex Nail - 125 degree x 10mm x 420mm
+L378: Derotation screw - 95mm
+L379: 
+L380: Lag screw - 110mm
+L381: 
+L382: Distal interlock(s) - 48mm
+L383: 
+L384: The patient was identified in their hospital room. Consent was verified. The appropriate extremity, which was the
+L385: right lower extremity, was marked.
+L386: 
+L387: The patient was brought to the operating room. General anesthesia was administered. The patient was transferred
+L388: supine to the Hana table. All bony prominences were well padded. A well-padded perineal post was placed. The feet
+L389: and ankles were wrapped in Webril and Coban and placed into traction boots. The operative lower extremity was
+L390: 
+L391: Ipekdjian, George (MRN MR408906) Printed by Stagno, Cesarina [767] at 1/5/2026 9:12 AM
+L392: 
+L393: 1/5/26, 9:12 AM Ipekdjian, George (MR # MR408906) DOB: 09/26/1943
+L394: 
+L395: placed into straight longitudinal alignment and slight adduction. The contralateral lower extremity was also placed
+L396: into straight longitudinal alignment, in slight abduction and hip extension to facilitate obtaining fluoroscopic images of
+L397: the operative extremity. The fracture site was identified and reduced into a satisfactory, reduced position on both AP
+L398: and lateral fluoroscopic images. Consistent with preoperative imaging, there was comminution of both the greater
+L399: and lesser trochanters. The operative extremity was prepped and draped in normal sterile fashion with a
+L400: chlorhexidine scrub brush followed by chlorhexidine surgical prep. Appropriate time was given for the prep to dry,
+L401: and appropriate antibiotics were given within 1 hour of the start of the procedure. Surgical time-out was performed.
+L402: 
+L403: The longitudinal axis of the femur as well as the level of the greater trochanter were marked on the sterile drape. An
+L404: incision approximately % of an inch in length was made about 2 fingerbreadths proximal to the tip of the greater
+L405: trochanter as demonstrated fluoroscopically. Dissection was carried down to the subcutaneous tissue along the line
+L406: of the incision. The fascia was then opened in line with the incision but distal to the incision. The greater trochanter
+L407: was able to be palpated manually at this point. A guidewire was used to establish the correct trajectory down the tip
+L408: of the greater trochanter in line with the proximal metaphysis of the femur. Correct position of this wire was verified
+L409: using orthogonal fluoroscopic views. The opening Reamer was utilized. A 3.0 mm ball-tipped guidewire was then
+L410: placed down the femoral canal to the level of the physeal scar. Appropriate position of this wire distally was
+L411: confirmed using orthogonal fluoroscopic views. A depth gauge was used to measure the appropriate length of the
+L412: nail.
+L413: 
+L414: The nail was then inserted into the femoral canal with the jig facing anterior, and then gradually being lowered into
+L415: the lateral position as the nail progressed to match the bow of the femur. The nail was inserted to appropriate depth
+L416: as confirmed on fluoroscopic imaging. Next, a separate stab incision was made for another guidewire to be placed
+L417: through a triple sleeve into approximately the center center position of the femoral head. A depth gauge was inserted
+L418: to the level of bone to ascertain the appropriate length of lag screw.
+L419: 
+L420: Given the extensive comminution of the fracture, so a derotation screw was placed into the femoral head through the
+L421: jig superior to the lag screw guidewire for extra fixation. The lag screw incision was extended proximally, and the
+L422: derotation trocar was placed. A drill was then used to drill for the derotation screw, and then the screw was inserted.
+L423: 
+L424: The lag screw guidewire was then over-reamed, with care taken to not enter into the hip joint itself.
+L425: 
+L426: The lag screw was then inserted over its guidewire. Traction was then removed from the operative extremity and
+L427: compression of the fracture was performed utilizing the compression sleeve on the jig. Appropriate compression of
+L428: the fracture was confirmed using fluoroscopy.
+L429: 
+L430: Following this, the derotation screw was then final tightened, as fracture compression resulted in the derotation screw
+L431: becoming slightly proud.
+L432: 
+L433: Then one distal interlock screw was placed into the nail in the static hole. Perfect circle technique was used to place
+L434: this distal interlock as follows: a perfect lateral of the distal end of the nail was obtained. An incision was made in the
+L435: center of the static hole. A clamp was used to spread bluntly to bone in both planes. A drill bit was positioned so that
+L436: the tip was in the center of the hole, confirmed using two fluoroscopic views in which the drill bit was positioned in
+L437: orthogonal planes with respect to the xray beam. The drill was then positioned in line with the C-arm and drilled
+L438: across the near femoral cortex, through the nail, and just past the far femoral cortex. The screw length was then
+L439: measured off of the drill bit. The drill was removed and the screw inserted with appropriate purchase obtained as the
+L440: screw was seated down to bone.
+L441: 
+L442: Next, orthogonal fluoroscopic views demonstrated appropriate position of the distal interlock screw, the fracture, the
+L443: proximal nail, and the lag screw. At this point, the procedure was accepted.
+L444: 
+L445: All incisions were washed out with copious sterile normal saline from a bulb syringe. The proximal wound underwent
+L446: a layered fashion closure, with 0 Vicryl figure-of-eight sutures to close the fascia, 2-0 Vicryl for subcutaneous tissue,
+L447: and staples for skin. The other incisions were closed with 2-0 Vicryl for the subcutaneous tissue and staples for skin.
+L448: RECK solution was injected around the skin incisions for pain relief. Dermabond was then placed over the wounds.
+L449: Sterile dressings were applied. The patient was then awoken from anesthesia and transferred off the operating room
+L450: table in stable condition. Final counts were correct.
+L451: 
+L452: - WBAT RLE
+L453: 
+L454: - DVT PPx: ASA 81mg BID to start tomorrow, for at least 30 days after surgery (until 2/3/26)
+L455: - Pain control: Oxycodone 5mg as needed for moderate pain; Tylenol for mild pain
+L456: 
+L457: - Colace 100mg BID while taking oxycodone
+L458: 
+L459: - zofran PRN while taking oxycodone
+L460: 
+L461: - PT/OT: oob and ambulation
+L462: 
+L463: - Resume Home Medications
+L464: 
+L465: Ipekdjian, George (MRN MR408906) Printed by Stagno, Cesarina [767] at 1/5/2026 9:12 AM
+L466: 
+L467: 1/5/26, 9:12 AM
+L468: 
+L469: - Keep dressings clean and dry
+L470: 
+L471: - periop ancef, x 2 doses
+L472: - medical comanagement by hospitalist, appreciate recommendations
+L473: - Dispo pending PT/OT eval
+L474: 
+L475: Findings:
+L476: 
+L477: Ipekdjian, George (MR # MR408906) DOB: 09/26/1943
+L478: 
+L479: Right hip unstable intertrochanteric fracture
+L480: 
+L481: Estimated Blood Loss: Minimal
+L482: 
+L483: Drains: None
+L484: 
+L485: Specimens: None
+L486: 
+L487: Complications: None; patient tolerated the procedure well.
+L488: 
+L489: Disposition: PACU - hemodynamically stable.
+L490: 
+L491: Condition: stable
+L492: 
+L493: Attending Attestation: | was present and scrubbed for the entire procedure.
+L494: 
+L495: Electronically signed by Pasternack, Jordan B, MD at 1/4/2026 11:11 AM
+L496: 
+L497: ED to Hosp-Admission (Current) on 1/3/2026
+L498: 
+L499: Routing History
+L500: 
+L501: Priority
+L502: t
+L503: 
+L504: >
+L505: 
+L506: Ipekdjian, George (MRN MR408906) Printed by Stagno, Cesarina [767] at 1/5/2026 9:12 AM
+L507: 
+L508: Sent On
+L509: 
+L510: 1/3/2026
+L511: 1/3/2026
+L512: 1/3/2026
+L513: 1/3/2026
+L514: 1/3/2026
+L515: 1/3/2026
+L516: 1/3/2026
+L517: 
+L518: 9:06 PM
+L519: 6:37 PM
+L520: 6:34 PM
+L521: 6:32 PM
+L522: 6:30 PM
+L523: 6:30 PM
+L524: 6:28 PM
+L525: 
+L526: From
+L527: 
+L528: Lab, Background User
+L529: Edi, Rad Results In
+L530: Edi, Rad Results In
+L531: Edi, Rad Results In
+L532: Edi, Rad Results In
+L533: Edi, Rad Results In
+L534: Edi, Rad Results In
+L535: 
+L536: Note shared with patient
+L537: 
+L538: To
+L539: 
+L540: Pasternack, Jordan B, MD
+L541: Rummel, Karen, DO
+L542: Rummel, Karen, DO
+L543: Rummel, Karen, DO
+L544: Rummel, Karen, DO
+L545: Davison, Christopher, MD
+L546: Rummel, Karen, DO
+L547: 
+L548: Message Type
+L549: Results
+L550: 
+L551: Results
+L552: Results
+L553: Results
+L554: Results
+L555: Results
+L556: Results
+L557: 
+L558: 3/3
+L559: === END CHART: tmpg4htys6n.pdf ===
+L560: 

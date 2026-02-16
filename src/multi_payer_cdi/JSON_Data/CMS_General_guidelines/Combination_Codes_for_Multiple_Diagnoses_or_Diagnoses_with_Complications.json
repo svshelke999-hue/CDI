@@ -1,0 +1,173 @@
+{
+  "guideline_id": "I.B.9",
+  "semantic_title": "Combination Codes for Multiple Diagnoses or Diagnoses with Complications",
+  "section_path": "Section I > B. General Coding Guidelines > 9. Combination Code",
+  "page_number": 14,
+  "content": {
+    "full_text": "A combination code is a single code used to classify: Two diagnoses, or A diagnosis with an associated secondary process (manifestation) A diagnosis with an associated complication. Combination codes are identified by referring to subterm entries in the Alphabetic Index and by reading the inclusion and exclusion notes in the Tabular List. Assign only the combination code when that code fully identifies the diagnostic conditions involved or when the Alphabetic Index so directs. Multiple coding should not be used when the classification provides a combination code that clearly identifies all of the elements documented in the diagnosis. When the combination code lacks necessary specificity in describing the manifestation or complication, an additional code should be used as a secondary code. (Evidence: pg no: 14, L60-L61)",
+    "summary": "Defines combination codes as single codes that classify two diagnoses, a diagnosis with manifestation, or a diagnosis with complication, with rules for when to use combination codes versus multiple codes. (Evidence: pg no: 14, L60-L61)",
+    "key_concepts": [
+      "Single code classifies multiple diagnostic elements (Evidence: pg no: 14, L60)",
+      "Three types: two diagnoses, diagnosis with manifestation, diagnosis with complication (Evidence: pg no: 14, L60)",
+      "Identified through Alphabetic Index subterms and Tabular List notes (Evidence: pg no: 14, L60-L61)",
+      "Use only combination code when it fully identifies all elements (Evidence: pg no: 14, L61)",
+      "Add secondary code when combination lacks specificity (Evidence: pg no: 14, L61)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.B.9.1",
+        "rule_text": "Use combination code when it fully identifies all diagnostic conditions (Evidence: pg no: 14, L61)",
+        "explanation": "When a combination code exists that clearly identifies all of the elements documented in the diagnosis, only that combination code should be assigned rather than using multiple separate codes (Evidence: pg no: 14, L61)",
+        "importance": "high",
+        "applies_to": "combination_codes",
+        "common_applications": [
+          "Diabetes with complications",
+          "Hypertension with heart disease",
+          "Pneumonia with organism specified"
+        ]
+      },
+      {
+        "rule_id": "I.B.9.2",
+        "rule_text": "Do not use multiple coding when combination code clearly identifies all elements (Evidence: pg no: 14, L61)",
+        "explanation": "Multiple coding should be avoided when the classification provides a combination code that clearly identifies all of the documented diagnostic elements, as this would result in redundant coding (Evidence: pg no: 14, L61)",
+        "importance": "high",
+        "applies_to": "combination_codes",
+        "common_applications": [
+          "Avoiding separate codes for conditions included in combination",
+          "Using single combination code instead of multiple related codes",
+          "Following classification guidance for combination coding"
+        ]
+      },
+      {
+        "rule_id": "I.B.9.3",
+        "rule_text": "Add secondary code when combination code lacks necessary specificity (Evidence: pg no: 14, L61)",
+        "explanation": "When the available combination code does not provide sufficient specificity to fully describe the manifestation or complication, an additional secondary code should be used to provide the missing detail (Evidence: pg no: 14, L61)",
+        "importance": "high",
+        "applies_to": "combination_codes",
+        "common_applications": [
+          "Adding specific organism codes when combination doesn't specify",
+          "Adding severity codes when combination is general",
+          "Adding location codes when combination is non-specific"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify all diagnostic elements to be coded",
+      "Step 2: Check Alphabetic Index for combination code subterms",
+      "Step 3: Review Tabular List inclusion/exclusion notes",
+      "Step 4: Determine if combination code fully describes all elements",
+      "Step 5: If yes, use only combination code",
+      "Step 6: If combination lacks specificity, add secondary codes as needed"
+    ],
+    "related_terminology": [
+      "combination code",
+      "two diagnoses",
+      "manifestation",
+      "complication",
+      "secondary process",
+      "subterm entries",
+      "inclusion notes",
+      "exclusion notes",
+      "specificity"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Combination codes",
+      "Multiple diagnoses",
+      "Manifestations",
+      "Complications"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "I.B.9.S1",
+      "scenario": "Patient with Type 2 diabetes with diabetic nephropathy",
+      "documentation_example": "Final diagnosis: Type 2 diabetes mellitus with diabetic nephropathy",
+      "step_by_step": [
+        "Step 1: Identify diabetes and nephropathy as related conditions",
+        "Step 2: Check Alphabetic Index for diabetes with nephropathy",
+        "Step 3: Find combination code E11.21",
+        "Step 4: Verify code fully describes both conditions",
+        "Step 5: Assign only the combination code"
+      ],
+      "correct_coding": {
+        "primary_code": "E11.21",
+        "secondary_codes": [],
+        "sequencing": "Combination code only",
+        "rationale": "Combination code fully identifies both diabetes and nephropathy (Evidence: pg no: 14, L61)"
+      },
+      "incorrect_coding": {
+        "code": "E11.9 + N18.6",
+        "codes": [
+          "E11.9",
+          "N18.6"
+        ],
+        "rationale": "Should not use multiple codes when combination code exists",
+        "common_mistake": "Using multiple codes when combination code available"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not use multiple codes when combination code clearly identifies all elements (Evidence: pg no: 14, L61)",
+      "Must check both Alphabetic Index and Tabular List for combination codes (Evidence: pg no: 14, L60-L61)"
+    ],
+    "best_practices": [
+      "Always look for combination codes before assigning multiple codes (Evidence: pg no: 14, L60-L61)",
+      "Use secondary codes only when combination lacks specificity (Evidence: pg no: 14, L61)"
+    ],
+    "common_mistakes": [
+      "Missing available combination codes (Evidence: pg no: 14, L60-L61)",
+      "Using multiple codes when combination exists (Evidence: pg no: 14, L61)"
+    ],
+    "tips": [
+      "Check subterm entries carefully in Alphabetic Index (Evidence: pg no: 14, L60-L61)",
+      "Review inclusion/exclusion notes in Tabular List (Evidence: pg no: 14, L60-L61)"
+    ],
+    "implementation_notes": [
+      "Requires thorough knowledge of available combination codes"
+    ],
+    "clinical_context": [
+      "Common in diabetes, hypertension, and infectious disease coding",
+      "Improves coding efficiency and accuracy"
+    ]
+  },
+  "search_keywords": [
+    "combination code",
+    "two diagnoses",
+    "manifestation",
+    "complication",
+    "secondary process",
+    "multiple coding",
+    "specificity",
+    "subterm entries",
+    "inclusion notes"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "combination_coding",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "combination_codes",
+      "multiple_diagnoses",
+      "manifestations",
+      "complications",
+      "specificity"
+    ]
+  },
+  "page_range_processed": "pages_12_to_15"
+}

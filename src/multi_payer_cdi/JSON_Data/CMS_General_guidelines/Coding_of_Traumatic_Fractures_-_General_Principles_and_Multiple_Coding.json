@@ -1,0 +1,301 @@
+{
+  "guideline_id": "I.C.19.c",
+  "semantic_title": "Coding of Traumatic Fractures - General Principles and Multiple Coding",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 19. Injury, Poisoning, and Certain Other Consequences of External Causes > c. Coding of Traumatic Fractures",
+  "page_number": 79,
+  "content": {
+    "full_text": "The principles of multiple coding of injuries should be followed in coding fractures. Fractures of specified sites are coded individually by site in accordance with both the provisions within categories S02, S12, S22, S32, S42, S49, S52, S59, S62, S72, S79, S82, S89, S92 and the level of detail furnished by medical record content. A fracture not indicated as open or closed should be coded to closed. A fracture not indicated whether displaced or not displaced should be coded to displaced. (Evidence: pg no: 79, L40-L43)",
+    "summary": "General principles for coding traumatic fractures including multiple coding, site-specific coding, and default assumptions for open/closed and displaced status (Evidence: pg no: 79, L40-L43)",
+    "key_concepts": [
+      "Multiple coding principles for fractures (Evidence: pg no: 79, L40-L41)",
+      "Individual site-specific coding (Evidence: pg no: 79, L41-L42)",
+      "Default to closed fractures when not specified (Evidence: pg no: 79, L43)",
+      "Default to displaced fractures when not specified (Evidence: pg no: 79, L43)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "multiple_fracture_coding",
+        "rule_text": "The principles of multiple coding of injuries should be followed in coding fractures (Evidence: pg no: 79, L40-L41)",
+        "explanation": "Each fracture should be coded separately following general injury coding principles (Evidence: pg no: 79, L40-L41)",
+        "importance": "high",
+        "applies_to": "S02, S12, S22, S32, S42, S49, S52, S59, S62, S72, S79, S82, S89, S92",
+        "common_applications": [
+          "Multiple fracture sites",
+          "Complex trauma cases"
+        ]
+      },
+      {
+        "rule_id": "individual_site_coding",
+        "rule_text": "Fractures of specified sites are coded individually by site (Evidence: pg no: 79, L41-L42)",
+        "explanation": "Each fracture site requires its own specific code based on anatomical location and medical record detail (Evidence: pg no: 79, L41-L42)",
+        "importance": "high",
+        "applies_to": "S02, S12, S22, S32, S42, S49, S52, S59, S62, S72, S79, S82, S89, S92",
+        "common_applications": [
+          "Site-specific fracture coding",
+          "Detailed anatomical coding"
+        ]
+      },
+      {
+        "rule_id": "default_closed_fracture",
+        "rule_text": "A fracture not indicated as open or closed should be coded to closed (Evidence: pg no: 79, L43)",
+        "explanation": "When documentation doesn't specify open or closed status, assume closed fracture (Evidence: pg no: 79, L43)",
+        "importance": "high",
+        "applies_to": "all_fracture_codes",
+        "common_applications": [
+          "Incomplete documentation",
+          "Default fracture coding"
+        ]
+      },
+      {
+        "rule_id": "default_displaced_fracture",
+        "rule_text": "A fracture not indicated whether displaced or not displaced should be coded to displaced (Evidence: pg no: 79, L43)",
+        "explanation": "When documentation doesn't specify displacement status, assume displaced fracture (Evidence: pg no: 79, L43)",
+        "importance": "high",
+        "applies_to": "all_fracture_codes",
+        "common_applications": [
+          "Incomplete documentation",
+          "Default fracture coding"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify all fracture sites from documentation",
+      "Step 2: Code each fracture site individually",
+      "Step 3: Determine open/closed status (default to closed if not specified)",
+      "Step 4: Determine displaced status (default to displaced if not specified)",
+      "Step 5: Apply appropriate level of detail based on medical record content"
+    ],
+    "related_terminology": [
+      "Traumatic fractures",
+      "Open fractures",
+      "Closed fractures",
+      "Displaced fractures",
+      "Non-displaced fractures",
+      "Multiple coding"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "S02",
+        "description": "Fracture of skull and facial bones (Evidence: pg no: 79, L41-L42)",
+        "requirement": "Code individually by site",
+        "usage_rules": [
+          "Follow multiple coding principles (Evidence: pg no: 79, L40-L41)"
+        ]
+      },
+      {
+        "range": "S12",
+        "description": "Fracture of cervical vertebra (Evidence: pg no: 79, L41-L42)",
+        "requirement": "Code individually by site",
+        "usage_rules": [
+          "Follow multiple coding principles (Evidence: pg no: 79, L40-L41)"
+        ]
+      },
+      {
+        "range": "S22",
+        "description": "Fracture of rib(s), sternum and thoracic spine (Evidence: pg no: 79, L41-L42)",
+        "requirement": "Code individually by site",
+        "usage_rules": [
+          "Follow multiple coding principles (Evidence: pg no: 79, L40-L41)"
+        ]
+      },
+      {
+        "range": "S32",
+        "description": "Fracture of lumbar spine and pelvis (Evidence: pg no: 79, L41-L42)",
+        "requirement": "Code individually by site",
+        "usage_rules": [
+          "Follow multiple coding principles (Evidence: pg no: 79, L40-L41)"
+        ]
+      },
+      {
+        "range": "S42",
+        "description": "Fracture of shoulder and upper arm (Evidence: pg no: 79, L41-L42)",
+        "requirement": "Code individually by site",
+        "usage_rules": [
+          "Follow multiple coding principles (Evidence: pg no: 79, L40-L41)"
+        ]
+      },
+      {
+        "range": "S49",
+        "description": "Other and unspecified injuries of shoulder and upper arm (Evidence: pg no: 79, L41-L42)",
+        "requirement": "Code individually by site",
+        "usage_rules": [
+          "Follow multiple coding principles (Evidence: pg no: 79, L40-L41)"
+        ]
+      },
+      {
+        "range": "S52",
+        "description": "Fracture of forearm (Evidence: pg no: 79, L41-L42)",
+        "requirement": "Code individually by site",
+        "usage_rules": [
+          "Follow multiple coding principles (Evidence: pg no: 79, L40-L41)"
+        ]
+      },
+      {
+        "range": "S59",
+        "description": "Other and unspecified injuries of elbow and forearm (Evidence: pg no: 79, L41-L42)",
+        "requirement": "Code individually by site",
+        "usage_rules": [
+          "Follow multiple coding principles (Evidence: pg no: 79, L40-L41)"
+        ]
+      },
+      {
+        "range": "S62",
+        "description": "Fracture at wrist and hand level (Evidence: pg no: 79, L41-L42)",
+        "requirement": "Code individually by site",
+        "usage_rules": [
+          "Follow multiple coding principles (Evidence: pg no: 79, L40-L41)"
+        ]
+      },
+      {
+        "range": "S72",
+        "description": "Fracture of femur (Evidence: pg no: 79, L41-L42)",
+        "requirement": "Code individually by site",
+        "usage_rules": [
+          "Follow multiple coding principles (Evidence: pg no: 79, L40-L41)"
+        ]
+      },
+      {
+        "range": "S79",
+        "description": "Other and unspecified injuries of hip and thigh (Evidence: pg no: 79, L41-L42)",
+        "requirement": "Code individually by site",
+        "usage_rules": [
+          "Follow multiple coding principles (Evidence: pg no: 79, L40-L41)"
+        ]
+      },
+      {
+        "range": "S82",
+        "description": "Fracture of lower leg, including ankle (Evidence: pg no: 79, L41-L42)",
+        "requirement": "Code individually by site",
+        "usage_rules": [
+          "Follow multiple coding principles (Evidence: pg no: 79, L40-L41)"
+        ]
+      },
+      {
+        "range": "S89",
+        "description": "Other and unspecified injuries of lower leg (Evidence: pg no: 79, L41-L42)",
+        "requirement": "Code individually by site",
+        "usage_rules": [
+          "Follow multiple coding principles (Evidence: pg no: 79, L40-L41)"
+        ]
+      },
+      {
+        "range": "S92",
+        "description": "Fracture of foot and toe, except ankle (Evidence: pg no: 79, L41-L42)",
+        "requirement": "Code individually by site",
+        "usage_rules": [
+          "Follow multiple coding principles (Evidence: pg no: 79, L40-L41)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Fracture categories by anatomical site"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.19.b",
+        "title": "Coding of Injuries",
+        "relationship": "implements",
+        "explanation": "Fracture coding follows general injury coding principles"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "multiple_fractures",
+      "scenario": "Patient with fractures of both radius and ulna",
+      "documentation_example": "Fractures of radius and ulna, status not specified",
+      "step_by_step": [
+        "Step 1: Identify each fracture site (radius and ulna)",
+        "Step 2: Code each fracture individually",
+        "Step 3: Apply defaults (closed, displaced) since not specified"
+      ],
+      "correct_coding": {
+        "primary_code": "S52.xxx (radius fracture, closed, displaced)",
+        "secondary_codes": [
+          "S52.xxx (ulna fracture, closed, displaced)"
+        ],
+        "sequencing": "Code each fracture separately",
+        "rationale": "Multiple coding principles require individual site coding with defaults applied (Evidence: pg no: 79, L40-L43)"
+      },
+      "incorrect_coding": {
+        "code": "Single combination code",
+        "codes": [
+          "One code for both fractures"
+        ],
+        "rationale": "Each fracture site must be coded individually",
+        "common_mistake": "Using single code for multiple fracture sites"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Always code fractures individually by site (Evidence: pg no: 79, L41-L42)"
+    ],
+    "best_practices": [
+      "Apply default assumptions when documentation is incomplete (Evidence: pg no: 79, L43)",
+      "Follow multiple coding principles for all fractures (Evidence: pg no: 79, L40-L41)"
+    ],
+    "common_mistakes": [
+      "Not coding each fracture site separately (Evidence: pg no: 79, L41-L42)",
+      "Not applying default assumptions for unspecified status (Evidence: pg no: 79, L43)"
+    ],
+    "tips": [
+      "Default to closed and displaced when not specified (Evidence: pg no: 79, L43)"
+    ],
+    "implementation_notes": [
+      "Level of detail depends on medical record content"
+    ],
+    "clinical_context": [
+      "Common in trauma and orthopedic settings"
+    ]
+  },
+  "search_keywords": [
+    "traumatic fractures",
+    "multiple fractures",
+    "fracture coding",
+    "open fractures",
+    "closed fractures",
+    "displaced fractures",
+    "fracture sites",
+    "S02",
+    "S12",
+    "S22",
+    "S32",
+    "S42",
+    "S49",
+    "S52",
+    "S59",
+    "S62",
+    "S72",
+    "S79",
+    "S82",
+    "S89",
+    "S92"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "fracture_coding",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "fractures",
+      "traumatic_injuries",
+      "multiple_coding",
+      "defaults"
+    ]
+  },
+  "page_range_processed": "pages_78_to_81"
+}

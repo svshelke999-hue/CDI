@@ -134,8 +134,75 @@ Key principles:
             }
     
     def _extract_all_recommendations(self, processing_result: ProcessingResult) -> List[Dict[str, Any]]:
-        """Extract all recommendations from all payers."""
+        """Extract all recommendations from all payers, filtering out gaps already in related charts."""
         all_recommendations = []
+        
+        # Get related charts information for filtering
+        multi_chart_info = getattr(processing_result, "multi_chart_info", None)
+        other_charts_info = {}
+        if multi_chart_info:
+            other_charts_info = multi_chart_info.get("other_charts_info", {})
+        
+        def is_gap_covered_in_related_charts(gap_text):
+            """Check if the gap information is already documented in related charts."""
+            if not other_charts_info or not gap_text:
+                return False
+            
+            gap_lower = str(gap_text).lower()
+            
+            # Check each related chart for the information
+            for chart_file, chart_info in other_charts_info.items():
+                # Check conservative treatment
+                if any(kw in gap_lower for kw in ["conservative", "treatment", "therapy", "pt", "physical therapy", "medication", "injection"]):
+                    conservative_treatment = chart_info.get("conservative_treatment", {})
+                    if conservative_treatment and isinstance(conservative_treatment, dict):
+                        has_treatment = any(
+                            value for key, value in conservative_treatment.items() 
+                            if value and isinstance(value, (str, int, float)) and str(value).strip()
+                        )
+                        if has_treatment:
+                            return True
+                
+                # Check duration/timeframe
+                if any(kw in gap_lower for kw in ["duration", "weeks", "months", "timeframe", "period"]):
+                    summary = chart_info.get("summary", "")
+                    if summary and isinstance(summary, str):
+                        if any(kw in summary.lower() for kw in ["week", "month", "duration", "timeframe"]):
+                            return True
+                
+                # Check physical examination
+                if any(kw in gap_lower for kw in ["physical examination", "exam", "range of motion", "rom", "strength", "test", "impingement"]):
+                    summary = chart_info.get("summary", "")
+                    if summary and isinstance(summary, str):
+                        if any(kw in summary.lower() for kw in ["exam", "examination", "rom", "range of motion", "strength", "impingement", "neer", "hawkins"]):
+                            return True
+                
+                # Check functional limitations
+                if any(kw in gap_lower for kw in ["functional", "limitation", "adl", "activities of daily living"]):
+                    summary = chart_info.get("summary", "")
+                    if summary and isinstance(summary, str):
+                        if any(kw in summary.lower() for kw in ["functional", "limitation", "adl", "activity", "daily living"]):
+                            return True
+                
+                # Check pain assessment
+                if any(kw in gap_lower for kw in ["pain", "scale", "vas", "nrs", "score"]):
+                    summary = chart_info.get("summary", "")
+                    if summary and isinstance(summary, str):
+                        if any(kw in summary.lower() for kw in ["pain", "vas", "nrs", "scale", "score"]):
+                            return True
+                
+                # Check imaging
+                if any(kw in gap_lower for kw in ["imaging", "mri", "xray", "x-ray", "ct", "radiology"]):
+                    imaging = chart_info.get("imaging", [])
+                    if imaging:
+                        return True
+                    tests = chart_info.get("tests", [])
+                    if tests:
+                        tests_str = " ".join([str(t) for t in tests]).lower()
+                        if any(kw in tests_str for kw in ["mri", "xray", "x-ray", "ct", "imaging"]):
+                            return True
+            
+            return False
         
         for payer_key, payer_result in processing_result.payer_results.items():
             payer_name = payer_result.get("payer_name", payer_key)
@@ -147,6 +214,12 @@ Key principles:
                 # Extract improvement recommendations
                 improvement_recs = proc_result.get("improvement_recommendations", {})
                 doc_gaps = improvement_recs.get("documentation_gaps", [])
+                # Filter out gaps already covered in related charts
+                filtered_doc_gaps = [
+                    gap for gap in doc_gaps 
+                    if not is_gap_covered_in_related_charts(gap)
+                ]
+                
                 compliance_actions = improvement_recs.get("compliance_actions", [])
                 priority = improvement_recs.get("priority", "medium")
                 
@@ -156,19 +229,30 @@ Key principles:
                     req for req in requirements 
                     if req.get("status") in ["unmet", "unclear"]
                 ]
+                # Filter unmet requirements that are already in related charts
+                filtered_unmet_requirements = []
+                for req in unmet_requirements:
+                    missing = req.get("missing_to_meet", "")
+                    if missing and not is_gap_covered_in_related_charts(missing):
+                        filtered_unmet_requirements.append(req)
                 
                 # Extract primary reasons
                 primary_reasons = proc_result.get("primary_reasons", [])
+                # Filter primary reasons that are already in related charts
+                filtered_primary_reasons = [
+                    reason for reason in primary_reasons 
+                    if not is_gap_covered_in_related_charts(reason)
+                ]
                 
                 all_recommendations.append({
                     "payer": payer_name,
                     "procedure": procedure_name,
                     "decision": decision,
-                    "documentation_gaps": doc_gaps,
+                    "documentation_gaps": filtered_doc_gaps,
                     "compliance_actions": compliance_actions,
                     "priority": priority,
-                    "unmet_requirements": unmet_requirements,
-                    "primary_reasons": primary_reasons
+                    "unmet_requirements": filtered_unmet_requirements,
+                    "primary_reasons": filtered_primary_reasons
                 })
         
         return all_recommendations
@@ -184,6 +268,51 @@ Key principles:
         # Summarize recommendations
         recommendations_summary = self._summarize_recommendations(all_recommendations)
         
+        # Get related charts information to avoid duplicating information
+        related_charts_section = ""
+        multi_chart_info = getattr(processing_result, "multi_chart_info", None)
+        if multi_chart_info:
+            other_charts_info = multi_chart_info.get("other_charts_info", {})
+            if other_charts_info:
+                related_charts_section = "\n\n## RELATED MEDICAL CHARTS (Information Already Available):\n\n"
+                related_charts_section += "IMPORTANT: The following information is already documented in related medical charts for this patient. "
+                related_charts_section += "DO NOT add [NEEDS PHYSICIAN INPUT: ...] markers or request this information in the improved chart, "
+                related_charts_section += "as it is already available in other records:\n\n"
+                
+                for chart_file, chart_info in other_charts_info.items():
+                    chart_title = chart_info.get("display_title") or chart_info.get("chart_type", "unknown").replace("_", " ").title()
+                    related_charts_section += f"### {chart_title}:\n"
+                    
+                    if chart_info.get("summary"):
+                        related_charts_section += f"Summary: {chart_info['summary']}\n"
+                    
+                    conservative_treatment = chart_info.get("conservative_treatment", {})
+                    if conservative_treatment and isinstance(conservative_treatment, dict):
+                        treatment_items = []
+                        for key, value in conservative_treatment.items():
+                            if value:
+                                treatment_items.append(f"{key.replace('_', ' ').title()}: {value}")
+                        if treatment_items:
+                            related_charts_section += f"Conservative Treatment: {'; '.join(treatment_items)}\n"
+                    
+                    imaging = chart_info.get("imaging", [])
+                    if imaging:
+                        if isinstance(imaging, list):
+                            related_charts_section += f"Imaging: {', '.join(imaging[:5])}\n"
+                        else:
+                            related_charts_section += f"Imaging: {imaging}\n"
+                    
+                    tests = chart_info.get("tests", [])
+                    if tests:
+                        if isinstance(tests, list):
+                            related_charts_section += f"Tests/Studies: {', '.join(tests[:5])}\n"
+                        else:
+                            related_charts_section += f"Tests/Studies: {tests}\n"
+                    
+                    related_charts_section += "\n"
+                
+                related_charts_section += "CRITICAL: Before adding any [NEEDS PHYSICIAN INPUT: ...] marker for conservative treatment, duration, imaging, tests, or physical examination findings, check if that information is already listed above in the related charts. If it is available in related charts, DO NOT request it again.\n"
+        
         prompt = f"""# MEDICAL CHART IMPROVEMENT TASK
  
  You are reviewing a medical chart and will improve it based on CDI compliance recommendations from multiple payers.
@@ -193,13 +322,13 @@ Key principles:
  {original_chart[:8000]}
  ```
  
- ## CDI COMPLIANCE ANALYSIS SUMMARY:
- 
- ### Procedures Evaluated:
- {self._format_procedures(processing_result)}
- 
- ### RECOMMENDATIONS FROM ALL PAYERS:
- {recommendations_summary}
+## CDI COMPLIANCE ANALYSIS SUMMARY:
+
+### Procedures Evaluated:
+{self._format_procedures(processing_result)}
+
+### RECOMMENDATIONS FROM ALL PAYERS:
+{recommendations_summary}{related_charts_section}
  
  ## YOUR TASK:
  

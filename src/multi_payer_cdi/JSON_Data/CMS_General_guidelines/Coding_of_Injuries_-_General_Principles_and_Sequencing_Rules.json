@@ -1,0 +1,259 @@
+{
+  "guideline_id": "I.C.19.b",
+  "semantic_title": "Coding of Injuries - General Principles and Sequencing Rules",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 19. Chapter 19: Injury, poisoning, and certain other consequences of external causes > b. Coding of Injuries",
+  "page_number": 78,
+  "content": {
+    "full_text": "When coding injuries, assign separate codes for each injury unless a combination code is provided, in which case the combination code is assigned. Codes from category T07, Unspecified multiple injuries should not be assigned in the inpatient setting unless information for a more specific code is not available. Traumatic injury codes (S00-T14.9) are not to be used for normal, healing surgical wounds or to identify complications of surgical wounds. The code for the most serious injury, as determined by the provider and the focus of treatment, is sequenced first. Superficial injuries such as abrasions or contusions are not coded when associated with more severe injuries of the same site. When a primary injury results in minor damage to peripheral nerves or blood vessels, the primary injury is sequenced first with additional code(s) for injuries to nerves and spinal cord (such as category S04), and/or injury to blood vessels (such as category S15). When the primary (Evidence: pg no: 78, L93-L101)",
+    "summary": "General principles for coding injuries including separate coding requirements, sequencing rules, and guidelines for multiple injuries at the same site (Evidence: pg no: 78, L93-L101)",
+    "key_concepts": [
+      "Separate codes for each injury unless combination available (Evidence: pg no: 78, L93)",
+      "T07 restrictions in inpatient setting (Evidence: pg no: 78, L93-L95)",
+      "Exclusion of surgical wounds (Evidence: pg no: 78, L95-L96)",
+      "Most serious injury sequenced first (Evidence: pg no: 78, L97)",
+      "Superficial injury coding rules (Evidence: pg no: 78, L99)",
+      "Primary injury with nerve/vessel damage (Evidence: pg no: 78, L100-L101)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "separate_injury_coding",
+        "rule_text": "When coding injuries, assign separate codes for each injury unless a combination code is provided, in which case the combination code is assigned (Evidence: pg no: 78, L93)",
+        "explanation": "Each distinct injury requires its own code unless a single combination code covers multiple injuries (Evidence: pg no: 78, L93)",
+        "importance": "critical",
+        "applies_to": "all_injury_codes",
+        "common_applications": [
+          "Multiple trauma cases",
+          "Multi-site injuries"
+        ]
+      },
+      {
+        "rule_id": "T07_inpatient_restriction",
+        "rule_text": "Codes from category T07, Unspecified multiple injuries should not be assigned in the inpatient setting unless information for a more specific code is not available (Evidence: pg no: 78, L93-L95)",
+        "explanation": "T07 codes are discouraged in inpatient settings where more specific documentation should be available (Evidence: pg no: 78, L93-L95)",
+        "importance": "high",
+        "applies_to": "T07",
+        "common_applications": [
+          "Inpatient trauma cases",
+          "Detailed injury documentation"
+        ]
+      },
+      {
+        "rule_id": "surgical_wound_exclusion",
+        "rule_text": "Traumatic injury codes (S00-T14.9) are not to be used for normal, healing surgical wounds or to identify complications of surgical wounds (Evidence: pg no: 78, L95-L96)",
+        "explanation": "Injury codes are only for traumatic injuries, not surgical procedures or their complications (Evidence: pg no: 78, L95-L96)",
+        "importance": "critical",
+        "applies_to": "S00-T14.9",
+        "common_applications": [
+          "Post-surgical care",
+          "Surgical complication coding"
+        ]
+      },
+      {
+        "rule_id": "most_serious_first",
+        "rule_text": "The code for the most serious injury, as determined by the provider and the focus of treatment, is sequenced first (Evidence: pg no: 78, L97)",
+        "explanation": "Injury sequencing is based on provider determination of severity and treatment focus (Evidence: pg no: 78, L97)",
+        "importance": "high",
+        "applies_to": "multiple_injuries",
+        "common_applications": [
+          "Multiple trauma sequencing",
+          "Priority injury identification"
+        ]
+      },
+      {
+        "rule_id": "superficial_injury_rule",
+        "rule_text": "Superficial injuries such as abrasions or contusions are not coded when associated with more severe injuries of the same site (Evidence: pg no: 78, L99)",
+        "explanation": "Minor superficial injuries are not coded separately when more severe injuries exist at the same anatomical site (Evidence: pg no: 78, L99)",
+        "importance": "high",
+        "applies_to": "superficial_injuries",
+        "common_applications": [
+          "Abrasions with fractures",
+          "Contusions with lacerations"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify all traumatic injuries",
+      "Step 2: Check for available combination codes",
+      "Step 3: Assign separate codes for each distinct injury",
+      "Step 4: Determine most serious injury per provider",
+      "Step 5: Sequence most serious injury first",
+      "Step 6: Exclude superficial injuries at same sites as severe injuries"
+    ],
+    "related_terminology": [
+      "traumatic injuries",
+      "combination codes",
+      "multiple injuries",
+      "superficial injuries",
+      "most serious injury",
+      "primary injury",
+      "surgical wounds"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "S00-T14.9",
+        "description": "Traumatic injury codes - not for surgical wounds or complications (Evidence: pg no: 78, L95-L96)",
+        "requirement": "Only for traumatic injuries",
+        "usage_rules": [
+          "Not for normal healing surgical wounds (Evidence: pg no: 78, L95-L96)",
+          "Not for surgical wound complications (Evidence: pg no: 78, L96)"
+        ]
+      },
+      {
+        "range": "T07",
+        "description": "Unspecified multiple injuries - avoid in inpatient setting (Evidence: pg no: 78, L93-L95)",
+        "requirement": "Use only when specific codes unavailable",
+        "usage_rules": [
+          "Should not be assigned in inpatient setting unless information for more specific code not available (Evidence: pg no: 78, L93-L95)"
+        ]
+      },
+      {
+        "range": "S04",
+        "description": "Injuries to nerves and spinal cord - additional codes for nerve damage (Evidence: pg no: 78, L101)",
+        "requirement": "Use as additional codes with primary injury",
+        "usage_rules": [
+          "Sequence after primary injury code (Evidence: pg no: 78, L100-L101)"
+        ]
+      },
+      {
+        "range": "S15",
+        "description": "Injury to blood vessels - additional codes for vascular damage (Evidence: pg no: 78, L101)",
+        "requirement": "Use as additional codes with primary injury",
+        "usage_rules": [
+          "Sequence after primary injury code (Evidence: pg no: 78, L100-L101)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "Primary injury + nerve/vessel injury codes",
+        "description": "When primary injury causes minor nerve or vessel damage (Evidence: pg no: 78, L100-L101)",
+        "example": "Fracture code + S04.xx + S15.xx",
+        "explanation": "Primary injury sequenced first, followed by additional injury codes"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Traumatic injury codes",
+      "Multiple injury codes",
+      "Nerve injury codes",
+      "Blood vessel injury codes",
+      "Superficial injury codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "multiple_injuries_sequencing",
+      "scenario": "Patient with multiple injuries of varying severity",
+      "documentation_example": "Patient with fractured femur, lacerated spleen, and facial abrasions from MVA",
+      "step_by_step": [
+        "Step 1: Identify all injuries (fracture, laceration, abrasions)",
+        "Step 2: Determine most serious per provider focus",
+        "Step 3: Sequence most serious injury first",
+        "Step 4: Code remaining injuries separately"
+      ],
+      "correct_coding": {
+        "primary_code": "S36.030A (if spleen laceration most serious)",
+        "secondary_codes": [
+          "S72.001A",
+          "S00.83XA"
+        ],
+        "sequencing": "Most serious injury first per provider determination",
+        "rationale": "Most serious injury as determined by provider and focus of treatment sequenced first (Evidence: pg no: 78, L97)"
+      },
+      "incorrect_coding": {
+        "code": "T07.XXXA",
+        "rationale": "Should not use unspecified multiple injuries in inpatient setting when specific codes available",
+        "common_mistake": "Using T07 when specific injury codes are available"
+      }
+    },
+    {
+      "scenario_id": "superficial_with_severe_injury",
+      "scenario": "Patient with fractured arm and abrasions at same site",
+      "documentation_example": "Closed fracture of radius with abrasions over fracture site",
+      "step_by_step": [
+        "Step 1: Identify fracture as severe injury",
+        "Step 2: Identify abrasions as superficial injury at same site",
+        "Step 3: Code only the fracture",
+        "Step 4: Do not code superficial injury at same site"
+      ],
+      "correct_coding": {
+        "primary_code": "S52.501A",
+        "secondary_codes": [],
+        "sequencing": "Fracture only",
+        "rationale": "Superficial injuries not coded when associated with more severe injuries of same site (Evidence: pg no: 78, L99)"
+      },
+      "incorrect_coding": {
+        "codes": [
+          "S52.501A",
+          "S50.811A"
+        ],
+        "rationale": "Should not code superficial injury when severe injury exists at same site",
+        "common_mistake": "Coding both superficial and severe injuries at same anatomical site"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not use traumatic injury codes for surgical wounds or complications (Evidence: pg no: 78, L95-L96)",
+      "Avoid T07 codes in inpatient setting when specific codes available (Evidence: pg no: 78, L93-L95)"
+    ],
+    "best_practices": [
+      "Assign separate codes for each injury unless combination code available (Evidence: pg no: 78, L93)",
+      "Sequence most serious injury first per provider determination (Evidence: pg no: 78, L97)"
+    ],
+    "common_mistakes": [
+      "Using T07 when specific injury codes are available",
+      "Coding superficial injuries with severe injuries at same site",
+      "Using injury codes for surgical wounds"
+    ],
+    "tips": [
+      "Provider determination and treatment focus guide injury sequencing",
+      "Check for combination codes before assigning multiple separate codes"
+    ],
+    "implementation_notes": [
+      "More specific documentation expected in inpatient settings",
+      "Nerve and vessel injuries coded additionally when caused by primary injury"
+    ],
+    "clinical_context": [
+      "Multiple trauma cases",
+      "Emergency department visits",
+      "Inpatient trauma care",
+      "Surgical vs traumatic injury distinction"
+    ]
+  },
+  "search_keywords": [
+    "injury coding",
+    "multiple injuries",
+    "T07",
+    "superficial injuries",
+    "most serious injury",
+    "traumatic injury codes",
+    "surgical wounds"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "injury_poisoning_external_causes",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient",
+      "emergency"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "injury",
+      "multiple_trauma",
+      "sequencing",
+      "superficial_injuries"
+    ]
+  },
+  "page_range_processed": "pages_75_to_78"
+}

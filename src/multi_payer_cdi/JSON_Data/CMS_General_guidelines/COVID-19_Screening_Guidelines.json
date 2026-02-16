@@ -1,0 +1,165 @@
+{
+  "guideline_id": "I.C.1.g.1.f",
+  "semantic_title": "COVID-19 Screening Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 1. Certain Infectious and Parasitic Diseases > g. Coronavirus infections > 1) COVID-19 infection > (f) Screening for COVID-19",
+  "page_number": 30,
+  "content": {
+    "full_text": "For screening for COVID-19, including preoperative testing, assign code Z11.52, Encounter for screening for COVID-19. (Evidence: pg no: 30, L91-L93)",
+    "summary": "Guidelines for coding COVID-19 screening encounters, including preoperative testing (Evidence: pg no: 30, L91-L93)",
+    "key_concepts": [
+      "COVID-19 screening encounters (Evidence: pg no: 30, L92)",
+      "Preoperative testing inclusion (Evidence: pg no: 30, L92)",
+      "Z11.52 code assignment (Evidence: pg no: 30, L93)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "COVID_SCREEN_001",
+        "rule_text": "Use Z11.52 for COVID-19 screening encounters (Evidence: pg no: 30, L92-L93)",
+        "explanation": "All COVID-19 screening encounters, including preoperative testing, should be coded with Z11.52 (Evidence: pg no: 30, L92-L93)",
+        "importance": "high",
+        "applies_to": "Z11.52",
+        "common_applications": [
+          "Routine COVID-19 screening",
+          "Preoperative COVID-19 testing",
+          "Employment screening",
+          "Travel screening"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify screening encounter purpose",
+      "Step 2: Confirm it's for COVID-19 screening",
+      "Step 3: Assign Z11.52"
+    ],
+    "related_terminology": [
+      "COVID-19 screening",
+      "Preoperative testing",
+      "Screening encounter",
+      "Preventive testing"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "Z11.52",
+        "description": "Encounter for screening for COVID-19 (Evidence: pg no: 30, L93)",
+        "context": "Use for all COVID-19 screening encounters",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z11": "Encounter for screening for infectious and parasitic diseases",
+          "52": "COVID-19"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Screening encounter codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "COVID_SCREEN_SC001",
+      "scenario": "Patient presents for routine COVID-19 screening",
+      "documentation_example": "Patient here for COVID-19 screening test",
+      "step_by_step": [
+        "Step 1: Identify screening purpose",
+        "Step 2: Assign Z11.52"
+      ],
+      "correct_coding": {
+        "primary_code": "Z11.52",
+        "secondary_codes": [],
+        "sequencing": "Z11.52 as primary code",
+        "rationale": "Screening encounter requires Z11.52 (Evidence: pg no: 30, L92-L93)"
+      },
+      "incorrect_coding": {
+        "code": "Z20.822",
+        "codes": [
+          "Z20.822"
+        ],
+        "rationale": "Exposure code should not be used for screening",
+        "common_mistake": "Confusing screening with exposure"
+      }
+    },
+    {
+      "scenario_id": "COVID_SCREEN_SC002",
+      "scenario": "Preoperative COVID-19 testing",
+      "documentation_example": "Patient scheduled for surgery, requires preoperative COVID-19 testing",
+      "step_by_step": [
+        "Step 1: Identify preoperative testing purpose",
+        "Step 2: Assign Z11.52"
+      ],
+      "correct_coding": {
+        "primary_code": "Z11.52",
+        "secondary_codes": [],
+        "sequencing": "Z11.52 as primary code",
+        "rationale": "Preoperative testing is included in screening guideline (Evidence: pg no: 30, L92)"
+      },
+      "incorrect_coding": {
+        "code": "Z01.818",
+        "codes": [
+          "Z01.818"
+        ],
+        "rationale": "General preoperative exam code not specific for COVID-19 screening",
+        "common_mistake": "Using general preoperative codes instead of specific COVID-19 screening"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [],
+    "best_practices": [
+      "Use Z11.52 for all COVID-19 screening encounters",
+      "Include preoperative testing in screening category",
+      "Distinguish screening from exposure or diagnostic testing"
+    ],
+    "common_mistakes": [
+      "Confusing screening with exposure coding",
+      "Using general screening codes instead of COVID-19 specific",
+      "Not recognizing preoperative testing as screening"
+    ],
+    "tips": [
+      "Screening is for asymptomatic individuals",
+      "Preoperative testing counts as screening",
+      "Different from diagnostic testing for symptoms"
+    ],
+    "implementation_notes": [
+      "Simple, straightforward guideline",
+      "Covers common screening scenarios"
+    ],
+    "clinical_context": [
+      "Important for surgical safety protocols",
+      "Common in healthcare and employment settings"
+    ]
+  },
+  "search_keywords": [
+    "COVID-19 screening",
+    "Z11.52",
+    "preoperative testing",
+    "COVID screening",
+    "preventive testing"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "infectious_diseases",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "COVID-19",
+      "screening",
+      "preoperative",
+      "Z11.52",
+      "preventive"
+    ]
+  },
+  "page_range_processed": "pages_27_to_30"
+}

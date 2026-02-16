@@ -1,0 +1,22 @@
+```mermaid
+flowchart TD
+    A[Start] --> B[Upload Medical Chart]
+    B --> C[Extract Patient and Procedure Data]
+    C --> D[Identify Procedures to Evaluate]
+
+    D --> E[Fetch Cigna Guidelines]
+    D --> F[Fetch UHC Guidelines]
+    D --> G[Fetch Anthem Guidelines]
+
+    E --> H[Build Multi-Payer Prompt]
+    F --> H
+    G --> H
+
+    H --> I[Single LLM Evaluation for All Payers]
+    I --> J[Generate Per-Payer Decisions]
+    J --> K[Show UI Tabs: Requirements, Evidence, Timing, Coding, Recommendations]
+    K --> L[Save Output JSON and Reports]
+    L --> M[End]
+```
+
+

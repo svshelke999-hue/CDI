@@ -1,0 +1,138 @@
+{
+  "guideline_id": "POA.3",
+  "semantic_title": "Pre-Admission Diagnosed Conditions POA Assignment",
+  "section_path": "Present on Admission Guidelines > Assigning the POA Indicator > Conditions diagnosed prior to inpatient admission",
+  "page_number": 118,
+  "content": {
+    "full_text": "Assign 'Y' for conditions that were diagnosed prior to admission (example: hypertension, diabetes mellitus, asthma) (Evidence: pg no: 118, L27-L28)",
+    "summary": "Conditions diagnosed before inpatient admission should be assigned Y indicator (Evidence: pg no: 118, L27-L28)",
+    "key_concepts": [
+      "Pre-admission diagnosis (Evidence: pg no: 118, L27-L28)",
+      "Y indicator assignment (Evidence: pg no: 118, L28)",
+      "Chronic conditions (Evidence: pg no: 118, L28)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "POA.3.1",
+        "rule_text": "Assign Y for conditions diagnosed prior to admission (Evidence: pg no: 118, L28)",
+        "explanation": "Any condition that was diagnosed before the patient was admitted should receive Y indicator regardless of when it was first diagnosed (Evidence: pg no: 118, L27-L28)",
+        "importance": "high",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Chronic conditions like hypertension",
+          "Previously diagnosed diabetes",
+          "Known asthma diagnosis"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if condition was diagnosed before admission",
+      "Step 2: If pre-existing diagnosis, assign Y",
+      "Step 3: Document rationale for assignment"
+    ],
+    "related_terminology": [
+      "Pre-admission diagnosis",
+      "Prior diagnosis",
+      "Chronic conditions",
+      "Pre-existing conditions"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Hypertension codes",
+      "Diabetes mellitus codes",
+      "Asthma codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "POA.3.S1",
+      "scenario": "Patient with known diabetes admitted for unrelated condition",
+      "documentation_example": "Patient has history of Type 2 diabetes mellitus, currently on metformin",
+      "step_by_step": [
+        "Step 1: Identify diabetes as pre-existing condition",
+        "Step 2: Confirm diagnosis existed before admission",
+        "Step 3: Assign Y indicator to diabetes code"
+      ],
+      "correct_coding": {
+        "primary_code": "Diabetes code with Y indicator",
+        "secondary_codes": [],
+        "sequencing": "Standard sequencing rules",
+        "rationale": "Diabetes was diagnosed prior to admission (Evidence: pg no: 118, L27-L28)"
+      },
+      "incorrect_coding": {
+        "code": "Diabetes code with N indicator",
+        "codes": [],
+        "rationale": "Should not assign N to pre-existing conditions",
+        "common_mistake": "Assigning N to chronic conditions"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "POA.3.E1",
+      "scenario": "Common chronic conditions",
+      "code_example": "Hypertension, diabetes mellitus, asthma",
+      "breakdown": {
+        "hypertension": "Chronic condition typically diagnosed before admission (Evidence: pg no: 118, L28)",
+        "diabetes": "Chronic metabolic condition usually pre-existing (Evidence: pg no: 118, L28)",
+        "asthma": "Chronic respiratory condition typically known before admission (Evidence: pg no: 118, L28)"
+      },
+      "rationale": "These are examples of conditions typically diagnosed prior to admission (Evidence: pg no: 118, L28)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "All pre-existing diagnoses should receive Y indicator (Evidence: pg no: 118, L27-L28)"
+    ],
+    "best_practices": [
+      "Review patient history for pre-existing conditions (Evidence: pg no: 118, L27-L28)"
+    ],
+    "common_mistakes": [
+      "Assigning N to chronic conditions that were pre-existing (Evidence: pg no: 118, L27-L28)"
+    ],
+    "tips": [
+      "Look for medication lists and past medical history (Evidence: pg no: 118, L27-L28)"
+    ],
+    "implementation_notes": [
+      "Train coders to identify pre-existing conditions"
+    ],
+    "clinical_context": [
+      "Many chronic conditions are diagnosed in outpatient settings"
+    ]
+  },
+  "search_keywords": [
+    "pre-admission diagnosis",
+    "prior diagnosis POA",
+    "chronic conditions POA",
+    "hypertension POA",
+    "diabetes POA",
+    "asthma POA",
+    "pre-existing conditions"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "POA_assignment",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "POA",
+      "pre-admission",
+      "chronic",
+      "diagnosis",
+      "Y_indicator"
+    ]
+  },
+  "page_range_processed": "pages_117_to_120"
+}

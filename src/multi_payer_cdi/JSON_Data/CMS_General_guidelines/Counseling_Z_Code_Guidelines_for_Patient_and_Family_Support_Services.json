@@ -1,0 +1,363 @@
+{
+  "guideline_id": "I.C.21.10",
+  "semantic_title": "Counseling Z Code Guidelines for Patient and Family Support Services",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 21. Factors influencing health status and contact with health services (Z00-Z99) > 10. Counseling",
+  "page_number": 102,
+  "content": {
+    "full_text": "Counseling Z codes are used when a patient or family member receives assistance in the aftermath of an illness or injury, or when support is required in coping with family or social problems. The counseling Z codes/categories: Z30.0- Encounter for general counseling and advice on contraception Z31.5 Encounter for procreative genetic counseling Z31.6- Encounter for general counseling and advice on procreation Z32.2 Encounter for childbirth instruction Z32.3 Encounter for childcare instruction Z69 Encounter for mental health services for victim and perpetrator of abuse Z70 Counseling related to sexual attitude, behavior and orientation Z71 Persons encountering health services for other counseling and medical advice, not elsewhere classified Note: Code Z71.84, Encounter for health counseling related to travel, is to be used for health risk and safety counseling for future travel purposes. Code Z71.85, Encounter for immunization safety counseling, is to be used for counseling of the patient or caregiver regarding the safety of a vaccine. This code should not be used for the provision of general information regarding risks and potential side effects during routine encounters for the administration of vaccines. Code Z71.87, Encounter for pediatric-to-adult transition counseling, should be assigned when pediatric-to-adult transition counseling is the sole reason for the encounter or when this counseling is provided in addition to other services, such as treatment of a chronic condition. If both transition counseling and treatment of a medical condition are provided during the same encounter, the code(s) for the medical condition(s) treated and code Z71.87 should be assigned, with sequencing depending on the circumstances of the encounter. Z76.81 Expectant mother prebirth pediatrician visit (Evidence: pg no: 102, L67-L84)",
+    "summary": "Guidelines for using counseling Z codes when patients or family members receive assistance after illness/injury or need support for family/social problems, with specific rules for various counseling types (Evidence: pg no: 102, L67-L84)",
+    "key_concepts": [
+      "Counseling Z codes for patient and family assistance (Evidence: pg no: 102, L68-L69)",
+      "Used after illness/injury or for family/social problems (Evidence: pg no: 102, L68-L69)",
+      "Multiple specific counseling categories available (Evidence: pg no: 102, L69-L84)",
+      "Special rules for travel counseling (Evidence: pg no: 102, L74-L75)",
+      "Special rules for immunization safety counseling (Evidence: pg no: 102, L78-L79)",
+      "Special rules for pediatric-to-adult transition counseling (Evidence: pg no: 102, L79-L83)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "COUNSELING_001",
+        "rule_text": "Counseling Z codes are used when a patient or family member receives assistance in the aftermath of an illness or injury (Evidence: pg no: 102, L68-L69)",
+        "explanation": "These codes capture encounters where the primary purpose is providing counseling support following medical events (Evidence: pg no: 102, L68-L69)",
+        "importance": "high",
+        "applies_to": "all counseling Z codes",
+        "common_applications": [
+          "Post-diagnosis counseling sessions",
+          "Family counseling after patient injury",
+          "Coping support after medical events"
+        ]
+      },
+      {
+        "rule_id": "COUNSELING_002",
+        "rule_text": "Z71.84 is to be used for health risk and safety counseling for future travel purposes (Evidence: pg no: 102, L74-L75)",
+        "explanation": "This specific code is designated for travel-related health counseling focused on future travel safety and risk prevention (Evidence: pg no: 102, L74-L75)",
+        "importance": "medium",
+        "applies_to": "Z71.84",
+        "common_applications": [
+          "Pre-travel health consultations",
+          "Travel vaccination counseling",
+          "Travel safety education"
+        ]
+      },
+      {
+        "rule_id": "COUNSELING_003",
+        "rule_text": "Z71.85 should not be used for the provision of general information regarding risks and potential side effects during routine encounters for the administration of vaccines (Evidence: pg no: 102, L78-L79)",
+        "explanation": "This code is specifically for dedicated counseling sessions about vaccine safety, not for routine information given during vaccination encounters (Evidence: pg no: 102, L78-L79)",
+        "importance": "high",
+        "applies_to": "Z71.85",
+        "common_applications": [
+          "Dedicated vaccine safety counseling sessions",
+          "Addressing specific vaccine concerns",
+          "Counseling hesitant patients or caregivers"
+        ]
+      },
+      {
+        "rule_id": "COUNSELING_004",
+        "rule_text": "Z71.87 should be assigned when pediatric-to-adult transition counseling is the sole reason for the encounter or when provided in addition to other services (Evidence: pg no: 102, L79-L81)",
+        "explanation": "This code can be used as primary or additional depending on whether transition counseling is the only service or provided alongside other care (Evidence: pg no: 102, L79-L81)",
+        "importance": "high",
+        "applies_to": "Z71.87",
+        "common_applications": [
+          "Dedicated transition planning visits",
+          "Transition counseling during chronic disease management",
+          "Healthcare transition preparation"
+        ]
+      },
+      {
+        "rule_id": "COUNSELING_005",
+        "rule_text": "When both transition counseling and treatment of a medical condition are provided, assign codes for medical condition(s) and Z71.87, with sequencing depending on encounter circumstances (Evidence: pg no: 102, L81-L83)",
+        "explanation": "Both the medical condition codes and transition counseling code should be assigned, with sequencing based on the primary focus of the encounter (Evidence: pg no: 102, L81-L83)",
+        "importance": "high",
+        "applies_to": "Z71.87 with medical treatment",
+        "common_applications": [
+          "Chronic disease visits with transition planning",
+          "Medical management with transition counseling",
+          "Combined treatment and transition services"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify if encounter involves counseling services",
+      "Step 2: Determine if counseling is for aftermath of illness/injury or family/social problems",
+      "Step 3: Select appropriate counseling Z code category",
+      "Step 4: For specific codes (Z71.84, Z71.85, Z71.87), verify proper usage criteria",
+      "Step 5: If multiple services provided, determine appropriate sequencing",
+      "Step 6: Assign additional codes as needed for medical conditions treated"
+    ],
+    "related_terminology": [
+      "counseling",
+      "family support",
+      "patient assistance",
+      "aftermath of illness",
+      "social problems",
+      "contraception counseling",
+      "genetic counseling",
+      "travel counseling",
+      "immunization safety",
+      "transition counseling"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z30.0-",
+        "description": "Encounter for general counseling and advice on contraception (Evidence: pg no: 102, L69)",
+        "requirement": "Use for contraceptive counseling encounters",
+        "usage_rules": [
+          "For general contraception counseling (Evidence: pg no: 102, L69)"
+        ]
+      },
+      {
+        "range": "Z31.6-",
+        "description": "Encounter for general counseling and advice on procreation (Evidence: pg no: 102, L69)",
+        "requirement": "Use for procreation counseling encounters",
+        "usage_rules": [
+          "For general procreation counseling (Evidence: pg no: 102, L69)"
+        ]
+      },
+      {
+        "range": "Z69",
+        "description": "Encounter for mental health services for victim and perpetrator of abuse (Evidence: pg no: 102, L69-L70)",
+        "requirement": "Use for abuse-related mental health services",
+        "usage_rules": [
+          "For victims of abuse (Evidence: pg no: 102, L69-L70)",
+          "For perpetrators of abuse (Evidence: pg no: 102, L69-L70)"
+        ]
+      },
+      {
+        "range": "Z70",
+        "description": "Counseling related to sexual attitude, behavior and orientation (Evidence: pg no: 102, L71)",
+        "requirement": "Use for sexual counseling encounters",
+        "usage_rules": [
+          "For sexual attitude counseling (Evidence: pg no: 102, L71)",
+          "For sexual behavior counseling (Evidence: pg no: 102, L71)",
+          "For sexual orientation counseling (Evidence: pg no: 102, L71)"
+        ]
+      },
+      {
+        "range": "Z71",
+        "description": "Persons encountering health services for other counseling and medical advice, not elsewhere classified (Evidence: pg no: 102, L72-L73)",
+        "requirement": "Use for other counseling not elsewhere classified",
+        "usage_rules": [
+          "For counseling not covered by other specific codes (Evidence: pg no: 102, L72-L73)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "Z31.5",
+        "description": "Encounter for procreative genetic counseling (Evidence: pg no: 102, L69)",
+        "context": "Used for genetic counseling related to reproduction",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z31": "Procreative management category",
+          ".5": "Genetic counseling"
+        }
+      },
+      {
+        "code": "Z32.2",
+        "description": "Encounter for childbirth instruction (Evidence: pg no: 102, L69)",
+        "context": "Used for childbirth education encounters",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z32": "Pregnancy examination and test category",
+          ".2": "Childbirth instruction"
+        }
+      },
+      {
+        "code": "Z32.3",
+        "description": "Encounter for childcare instruction (Evidence: pg no: 102, L69)",
+        "context": "Used for childcare education encounters",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z32": "Pregnancy examination and test category",
+          ".3": "Childcare instruction"
+        }
+      },
+      {
+        "code": "Z71.84",
+        "description": "Encounter for health counseling related to travel (Evidence: pg no: 102, L74)",
+        "context": "For health risk and safety counseling for future travel purposes",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z71": "Other counseling category",
+          ".84": "Travel-related health counseling"
+        }
+      },
+      {
+        "code": "Z71.85",
+        "description": "Encounter for immunization safety counseling (Evidence: pg no: 102, L78)",
+        "context": "For counseling about vaccine safety, not routine vaccination information",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z71": "Other counseling category",
+          ".85": "Immunization safety counseling"
+        }
+      },
+      {
+        "code": "Z71.87",
+        "description": "Encounter for pediatric-to-adult transition counseling (Evidence: pg no: 102, L79)",
+        "context": "For healthcare transition counseling, can be sole reason or additional service",
+        "requires_additional_codes": "check_code_notes",
+        "breakdown": {
+          "Z71": "Other counseling category",
+          ".87": "Pediatric-to-adult transition counseling"
+        }
+      },
+      {
+        "code": "Z76.81",
+        "description": "Expectant mother prebirth pediatrician visit (Evidence: pg no: 102, L84)",
+        "context": "For prenatal pediatrician consultation encounters",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z76": "Persons encountering health services in other circumstances",
+          ".81": "Expectant mother prebirth pediatrician visit"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Counseling Z codes",
+      "Contraception counseling codes",
+      "Genetic counseling codes",
+      "Abuse counseling codes",
+      "Sexual counseling codes",
+      "Travel counseling codes",
+      "Immunization counseling codes",
+      "Transition counseling codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "COUNSELING_SCENARIO_001",
+      "scenario": "Patient receives dedicated immunization safety counseling due to vaccine hesitancy",
+      "documentation_example": "Patient presents with concerns about vaccine safety. Dedicated counseling session provided to address specific safety questions and concerns.",
+      "step_by_step": [
+        "Step 1: Identify this as dedicated vaccine safety counseling",
+        "Step 2: Confirm this is not routine vaccination encounter",
+        "Step 3: Assign Z71.85 for immunization safety counseling",
+        "Step 4: Do not use for routine vaccine information"
+      ],
+      "correct_coding": {
+        "primary_code": "Z71.85",
+        "secondary_codes": [],
+        "sequencing": "Z71.85 as primary for dedicated counseling encounter",
+        "rationale": "Z71.85 used for counseling of patient regarding vaccine safety, not for routine vaccination information (Evidence: pg no: 102, L78-L79)"
+      },
+      "incorrect_coding": {
+        "code": "Z71.85 during routine vaccination",
+        "codes": [
+          "Z71.85 with vaccination codes for routine encounter"
+        ],
+        "rationale": "Should not be used for routine information during vaccination encounters",
+        "common_mistake": "Using counseling code for routine vaccine education"
+      }
+    },
+    {
+      "scenario_id": "COUNSELING_SCENARIO_002",
+      "scenario": "Adolescent with diabetes receives both diabetes management and transition counseling",
+      "documentation_example": "17-year-old with Type 1 diabetes presents for routine diabetes management. Transition counseling provided regarding transfer to adult endocrinologist.",
+      "step_by_step": [
+        "Step 1: Identify both medical treatment and transition counseling provided",
+        "Step 2: Assign codes for diabetes management",
+        "Step 3: Assign Z71.87 for transition counseling",
+        "Step 4: Determine sequencing based on encounter focus"
+      ],
+      "correct_coding": {
+        "primary_code": "Diabetes code or Z71.87 depending on encounter focus",
+        "secondary_codes": [
+          "Z71.87 or diabetes code depending on primary"
+        ],
+        "sequencing": "Based on circumstances of encounter",
+        "rationale": "When both transition counseling and medical treatment provided, assign both codes with sequencing depending on encounter circumstances (Evidence: pg no: 102, L81-L83)"
+      },
+      "incorrect_coding": {
+        "code": "Only diabetes code",
+        "codes": [
+          "Medical condition code without transition counseling code"
+        ],
+        "rationale": "Would not capture the transition counseling service provided",
+        "common_mistake": "Omitting counseling code when provided with medical treatment"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "COUNSELING_EX_001",
+      "scenario": "Travel health counseling before international trip",
+      "code_example": "Z71.84",
+      "breakdown": {
+        "Z71.84": "Encounter for health counseling related to travel (Evidence: pg no: 102, L74)"
+      },
+      "rationale": "Used for health risk and safety counseling for future travel purposes (Evidence: pg no: 102, L74-L75)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not use Z71.85 for routine vaccine information during vaccination encounters (Evidence: pg no: 102, L78-L79)",
+      "Ensure counseling codes are used for actual counseling services, not routine education"
+    ],
+    "best_practices": [
+      "Use counseling codes when counseling is the primary or significant service provided",
+      "Consider sequencing carefully when multiple services are provided",
+      "Distinguish between dedicated counseling and routine patient education"
+    ],
+    "common_mistakes": [
+      "Using immunization safety counseling code for routine vaccination encounters",
+      "Omitting counseling codes when significant counseling is provided",
+      "Incorrect sequencing when counseling provided with medical treatment"
+    ],
+    "tips": [
+      "Verify the specific purpose and context of counseling services",
+      "Consider whether counseling is the sole reason or additional service",
+      "Review documentation to ensure counseling meets code criteria"
+    ],
+    "implementation_notes": [
+      "Multiple counseling categories available for different types of counseling",
+      "Some codes have specific usage restrictions",
+      "Sequencing depends on encounter circumstances"
+    ],
+    "clinical_context": [
+      "Post-diagnosis counseling sessions",
+      "Family support services",
+      "Preventive health counseling",
+      "Specialized counseling programs"
+    ]
+  },
+  "search_keywords": [
+    "counseling",
+    "Z codes",
+    "patient counseling",
+    "family counseling",
+    "contraception counseling",
+    "genetic counseling",
+    "travel counseling",
+    "immunization safety",
+    "transition counseling",
+    "abuse counseling",
+    "sexual counseling"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "Z codes counseling",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "counseling",
+      "Z codes",
+      "patient support",
+      "family support",
+      "specialized counseling"
+    ]
+  },
+  "page_range_processed": "pages_99_to_102"
+}

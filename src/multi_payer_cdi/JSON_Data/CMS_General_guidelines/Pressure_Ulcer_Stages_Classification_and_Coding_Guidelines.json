@@ -1,0 +1,190 @@
+{
+  "guideline_id": "I.C.12.a.1",
+  "semantic_title": "Pressure Ulcer Stages Classification and Coding Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 12. Chapter 12: Diseases of the Skin and Subcutaneous Tissue > a. Pressure ulcer stage codes > 1) Pressure ulcer stages",
+  "page_number": 58,
+  "content": {
+    "full_text": "Codes in category L89, Pressure ulcer, identify the site and stage of the pressure ulcer. The ICD-10-CM classifies pressure ulcer stages based on severity, which is designated by stages 1-4, deep tissue pressure injury, unspecified stage, and unstageable. Assign as many codes from category L89 as needed to identify all the pressure ulcers the patient has, if applicable. (Evidence: pg no: 58, L30-L33)",
+    "summary": "Basic classification system for pressure ulcer coding including stage designations and multiple ulcer coding requirements (Evidence: pg no: 58, L30-L33)",
+    "key_concepts": [
+      "L89 category for pressure ulcer coding (Evidence: pg no: 58, L30)",
+      "Site and stage identification (Evidence: pg no: 58, L30-L31)",
+      "Severity-based stage classification (Evidence: pg no: 58, L32-L33)",
+      "Multiple ulcer coding capability (Evidence: pg no: 58, L33)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "PRESSURE_ULCER_STAGES_001",
+        "rule_text": "Pressure ulcer stages are classified as 1-4, deep tissue pressure injury, unspecified stage, and unstageable (Evidence: pg no: 58, L32-L33)",
+        "explanation": "ICD-10-CM uses a severity-based classification system with specific stage designations for pressure ulcers (Evidence: pg no: 58, L32-L33)",
+        "importance": "critical",
+        "applies_to": "L89",
+        "common_applications": [
+          "Stage 1-4 pressure ulcers",
+          "Deep tissue pressure injury",
+          "Unstageable ulcers"
+        ]
+      },
+      {
+        "rule_id": "PRESSURE_ULCER_MULTIPLE_001",
+        "rule_text": "Assign as many codes from category L89 as needed to identify all pressure ulcers (Evidence: pg no: 58, L33)",
+        "explanation": "Multiple pressure ulcers should each be coded separately with their own L89 code specifying site and stage (Evidence: pg no: 58, L33)",
+        "importance": "high",
+        "applies_to": "L89",
+        "common_applications": [
+          "Multiple pressure ulcers at different sites",
+          "Multiple ulcers at same site with different stages"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify all pressure ulcers present",
+      "Step 2: Determine site of each ulcer",
+      "Step 3: Determine stage of each ulcer",
+      "Step 4: Assign appropriate L89 code for each ulcer",
+      "Step 5: Verify all ulcers are coded"
+    ],
+    "related_terminology": [
+      "Pressure ulcer",
+      "Stage classification",
+      "Deep tissue pressure injury",
+      "Unstageable",
+      "Unspecified stage"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "L89",
+        "description": "Pressure ulcer category (Evidence: pg no: 58, L30)",
+        "requirement": "Use to identify site and stage of pressure ulcers",
+        "usage_rules": [
+          "Assign separate codes for each pressure ulcer (Evidence: pg no: 58, L33)",
+          "Include both site and stage information (Evidence: pg no: 58, L30-L31)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "L89.---",
+        "description": "Pressure ulcer codes with site and stage designation (Evidence: pg no: 58, L30-L31)",
+        "example": "L89.--- where digits specify site and stage",
+        "explanation": "Standard format for pressure ulcer coding"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Category L89 Pressure ulcer"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.B.14",
+        "title": "Pressure ulcer stage documentation by clinicians other than patient's provider",
+        "relationship": "related_to",
+        "explanation": "Referenced for documentation requirements"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "PRESSURE_ULCER_MULTIPLE_001",
+      "scenario": "Patient with stage 2 sacral ulcer and stage 3 heel ulcer",
+      "documentation_example": "Patient has stage 2 pressure ulcer of sacrum and stage 3 pressure ulcer of right heel.",
+      "step_by_step": [
+        "Step 1: Identify first ulcer - sacral, stage 2",
+        "Step 2: Identify second ulcer - right heel, stage 3",
+        "Step 3: Assign L89 code for sacral stage 2",
+        "Step 4: Assign L89 code for right heel stage 3"
+      ],
+      "correct_coding": {
+        "primary_code": "L89.152",
+        "secondary_codes": [
+          "L89.613"
+        ],
+        "sequencing": "Code each ulcer separately",
+        "rationale": "Each pressure ulcer requires separate coding with site and stage specification (Evidence: pg no: 58, L30-L33)"
+      },
+      "incorrect_coding": {
+        "code": "L89.9",
+        "codes": [
+          "Single unspecified code"
+        ],
+        "rationale": "Must specify site and stage for each ulcer",
+        "common_mistake": "Using single code for multiple ulcers"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "PRESSURE_ULCER_STAGES_001",
+      "scenario": "Classification of pressure ulcer stages",
+      "code_example": "Stages 1-4, deep tissue, unspecified, unstageable",
+      "breakdown": {
+        "Stages 1-4": "Severity-based classification (Evidence: pg no: 58, L32-L33)",
+        "Deep tissue": "Deep tissue pressure injury designation (Evidence: pg no: 58, L33)",
+        "Unspecified": "Stage not documented (Evidence: pg no: 58, L33)",
+        "Unstageable": "Stage cannot be determined clinically (Evidence: pg no: 58, L33)"
+      },
+      "rationale": "ICD-10-CM provides comprehensive staging system for pressure ulcers (Evidence: pg no: 58, L32-L33)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Must code each pressure ulcer separately (Evidence: pg no: 58, L33)"
+    ],
+    "best_practices": [
+      "Identify all pressure ulcers present",
+      "Specify both site and stage for each ulcer",
+      "Use appropriate stage designation based on clinical documentation"
+    ],
+    "common_mistakes": [
+      "Using single code for multiple ulcers",
+      "Failing to specify stage",
+      "Not identifying all ulcers present"
+    ],
+    "tips": [
+      "Review documentation for all body sites",
+      "Verify stage documentation for each ulcer",
+      "Consider multiple ulcers at same site with different stages"
+    ],
+    "implementation_notes": [
+      "Requires detailed clinical documentation",
+      "Stage determination may require clinical expertise"
+    ],
+    "clinical_context": [
+      "Common in immobilized patients",
+      "Progressive condition requiring monitoring",
+      "Multiple ulcers often present"
+    ]
+  },
+  "search_keywords": [
+    "pressure ulcer stages",
+    "L89",
+    "pressure ulcer coding",
+    "ulcer classification",
+    "multiple pressure ulcers",
+    "pressure sore"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "skin_pressure_ulcers",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "pressure ulcer",
+      "staging",
+      "L89",
+      "skin",
+      "wounds"
+    ]
+  },
+  "page_range_processed": "pages_57_to_60"
+}

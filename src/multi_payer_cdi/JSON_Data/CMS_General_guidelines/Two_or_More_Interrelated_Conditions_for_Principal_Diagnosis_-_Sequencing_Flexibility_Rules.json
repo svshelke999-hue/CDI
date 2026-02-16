@@ -1,0 +1,173 @@
+{
+  "guideline_id": "II.B",
+  "semantic_title": "Two or More Interrelated Conditions for Principal Diagnosis - Sequencing Flexibility Rules",
+  "section_path": "Section II > Selection of Principal Diagnosis > B. Two or more interrelated conditions, each potentially meeting the definition for principal diagnosis",
+  "page_number": 108,
+  "content": {
+    "full_text": "When there are two or more interrelated conditions (such as diseases in the same ICD-10-CM chapter or manifestations characteristically associated with a certain disease) potentially meeting the definition of principal diagnosis, either condition may be sequenced first, unless the circumstances of the admission, the therapy provided, the Tabular List, or the Alphabetic Index indicate otherwise. (Evidence: pg no: 108, L103-L107)",
+    "summary": "Guidelines for sequencing when multiple interrelated conditions could serve as principal diagnosis, allowing flexibility unless specific guidance indicates otherwise (Evidence: pg no: 108, L103-L107)",
+    "key_concepts": [
+      "Interrelated conditions may include diseases in same ICD-10-CM chapter (Evidence: pg no: 108, L105)",
+      "Manifestations characteristically associated with certain diseases qualify (Evidence: pg no: 108, L105-L106)",
+      "Either condition may be sequenced first with exceptions (Evidence: pg no: 108, L106-L107)",
+      "Admission circumstances, therapy, or coding guidance may override flexibility (Evidence: pg no: 108, L107)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "INTERRELATED_FLEXIBILITY",
+        "rule_text": "Either interrelated condition may be sequenced first unless specific guidance indicates otherwise (Evidence: pg no: 108, L106-L107)",
+        "explanation": "When multiple interrelated conditions meet principal diagnosis criteria, coding flexibility exists unless overridden by admission circumstances, therapy provided, or coding instructions (Evidence: pg no: 108, L106-L107)",
+        "importance": "high",
+        "applies_to": "interrelated_conditions",
+        "common_applications": [
+          "Multiple conditions in same disease category",
+          "Disease with characteristic manifestations",
+          "Complex medical presentations"
+        ]
+      },
+      {
+        "rule_id": "INTERRELATED_EXCEPTIONS",
+        "rule_text": "Admission circumstances, therapy, Tabular List, or Alphabetic Index may indicate specific sequencing (Evidence: pg no: 108, L107)",
+        "explanation": "The general flexibility rule is overridden when specific factors provide clear guidance on sequencing priority (Evidence: pg no: 108, L107)",
+        "importance": "critical",
+        "applies_to": "interrelated_conditions",
+        "common_applications": [
+          "Specific admission reasons",
+          "Treatment focus",
+          "Coding manual instructions"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify multiple conditions meeting principal diagnosis criteria",
+      "Step 2: Determine if conditions are interrelated",
+      "Step 3: Check admission circumstances for sequencing guidance",
+      "Step 4: Review therapy provided for sequencing clues",
+      "Step 5: Consult Tabular List and Alphabetic Index for specific instructions",
+      "Step 6: Apply flexibility rule if no specific guidance exists"
+    ],
+    "related_terminology": [
+      "Interrelated conditions",
+      "Same ICD-10-CM chapter",
+      "Manifestations",
+      "Characteristically associated",
+      "Admission circumstances",
+      "Therapy provided",
+      "Sequencing flexibility"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "Same chapter diseases",
+        "description": "Diseases within the same ICD-10-CM chapter that are interrelated (Evidence: pg no: 108, L105)",
+        "example": "Multiple cardiovascular conditions, multiple respiratory conditions",
+        "explanation": "Conditions in the same disease category that may be interrelated"
+      },
+      {
+        "pattern": "Disease-manifestation pairs",
+        "description": "Manifestations characteristically associated with certain diseases (Evidence: pg no: 108, L105-L106)",
+        "example": "Diabetes with diabetic complications, hypertension with hypertensive complications",
+        "explanation": "Primary disease with its characteristic manifestations"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Diseases in same ICD-10-CM chapter",
+      "Characteristic manifestations",
+      "Interrelated conditions"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "INTERRELATED_DIABETES",
+      "scenario": "Patient admitted with diabetic ketoacidosis and uncontrolled diabetes",
+      "documentation_example": "Patient admitted with diabetic ketoacidosis. Type 1 diabetes mellitus poorly controlled. Treated with insulin and fluid management.",
+      "step_by_step": [
+        "Step 1: Identify conditions (diabetic ketoacidosis, uncontrolled diabetes)",
+        "Step 2: Determine interrelationship (ketoacidosis is manifestation of diabetes)",
+        "Step 3: Review admission circumstances (ketoacidosis prompted admission)",
+        "Step 4: Consider therapy focus (ketoacidosis treatment priority)",
+        "Step 5: Apply sequencing based on admission circumstances"
+      ],
+      "correct_coding": {
+        "primary_code": "E10.10",
+        "secondary_codes": [],
+        "sequencing": "Diabetic ketoacidosis as principal diagnosis",
+        "rationale": "Admission circumstances and therapy focus indicate ketoacidosis as primary reason for admission (Evidence: pg no: 108, L107)"
+      },
+      "incorrect_coding": {
+        "code": "E10.9",
+        "codes": [
+          "E10.9"
+        ],
+        "rationale": "Would not reflect the specific reason for admission and treatment focus",
+        "common_mistake": "Not considering admission circumstances when sequencing interrelated conditions"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Must check for specific sequencing guidance before applying flexibility (Evidence: pg no: 108, L107)",
+      "Admission circumstances always important in sequencing decisions (Evidence: pg no: 108, L107)"
+    ],
+    "best_practices": [
+      "Review all factors that might indicate specific sequencing",
+      "Consider the primary focus of treatment and care",
+      "Consult coding manuals for specific instructions"
+    ],
+    "common_mistakes": [
+      "Applying flexibility without checking for specific guidance",
+      "Ignoring admission circumstances in sequencing decisions",
+      "Not recognizing interrelated conditions"
+    ],
+    "tips": [
+      "Look for cause-and-effect relationships between conditions",
+      "Consider which condition required the inpatient level of care",
+      "Review therapy and treatment focus for sequencing clues"
+    ],
+    "implementation_notes": [
+      "Requires clinical understanding of disease relationships",
+      "May involve complex sequencing decisions",
+      "Important to document rationale for sequencing choice"
+    ],
+    "clinical_context": [
+      "Complex medical conditions",
+      "Multiple related diagnoses",
+      "Disease with complications",
+      "Manifestation coding"
+    ]
+  },
+  "search_keywords": [
+    "interrelated conditions",
+    "sequencing flexibility",
+    "same chapter diseases",
+    "manifestations",
+    "admission circumstances",
+    "therapy provided",
+    "principal diagnosis selection"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "principal_diagnosis_sequencing",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "interrelated_conditions",
+      "sequencing",
+      "flexibility",
+      "manifestations"
+    ]
+  },
+  "page_range_processed": "pages_105_to_108"
+}

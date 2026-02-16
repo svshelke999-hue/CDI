@@ -1,0 +1,152 @@
+{
+  "guideline_id": "POA.8",
+  "semantic_title": "Chronic Conditions with Acute Exacerbation POA Assignment",
+  "section_path": "Present on Admission Guidelines > Assigning the POA Indicator > Chronic condition with acute exacerbation during the admission",
+  "page_number": 118,
+  "content": {
+    "full_text": "If a single code identifies both the chronic condition and the acute exacerbation, see POA guidelines pertaining to codes that contain multiple clinical concepts. If a single code only identifies the chronic condition and not the acute exacerbation (e.g., acute exacerbation of chronic leukemia), assign 'Y.' (Evidence: pg no: 118, L37-L38, pg no: 119, L42)",
+    "summary": "For chronic conditions with acute exacerbations, follow multiple clinical concepts guidelines or assign Y if code only identifies chronic condition (Evidence: pg no: 118, L37-L38, pg no: 119, L42)",
+    "key_concepts": [
+      "Chronic condition with exacerbation (Evidence: pg no: 118, L37)",
+      "Single code for both concepts (Evidence: pg no: 118, L38)",
+      "Code only for chronic condition (Evidence: pg no: 119, L42)",
+      "Multiple clinical concepts reference (Evidence: pg no: 118, L38)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "POA.8.1",
+        "rule_text": "For codes identifying both chronic condition and acute exacerbation, see multiple clinical concepts guidelines (Evidence: pg no: 118, L38)",
+        "explanation": "When a single code captures both the chronic condition and its acute exacerbation, apply the POA guidelines for codes containing multiple clinical concepts (Evidence: pg no: 118, L37-L38)",
+        "importance": "high",
+        "applies_to": "combination_codes",
+        "common_applications": [
+          "COPD with acute exacerbation codes",
+          "Chronic conditions with acute episodes"
+        ]
+      },
+      {
+        "rule_id": "POA.8.2",
+        "rule_text": "Assign Y if code only identifies chronic condition without exacerbation (Evidence: pg no: 119, L42)",
+        "explanation": "When the code only identifies the chronic condition and not the acute exacerbation component, assign Y indicator (Evidence: pg no: 119, L42)",
+        "importance": "high",
+        "applies_to": "chronic_condition_codes",
+        "common_applications": [
+          "Chronic leukemia codes",
+          "Chronic conditions without exacerbation specification"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify if code includes both chronic and acute components",
+      "Step 2: If both components, apply multiple clinical concepts rules",
+      "Step 3: If only chronic component, assign Y"
+    ],
+    "related_terminology": [
+      "Chronic condition",
+      "Acute exacerbation",
+      "Multiple clinical concepts",
+      "Combination codes"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Chronic leukemia codes",
+      "COPD with exacerbation codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "POA.11",
+        "title": "Codes That Contain Multiple Clinical Concepts",
+        "relationship": "applies_concept",
+        "explanation": "References multiple clinical concepts guidelines for combination codes"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "POA.8.S1",
+      "scenario": "Patient with chronic leukemia develops acute exacerbation after admission",
+      "documentation_example": "Patient with chronic leukemia, develops acute exacerbation on day 3",
+      "step_by_step": [
+        "Step 1: Identify chronic leukemia as pre-existing",
+        "Step 2: Note exacerbation developed after admission",
+        "Step 3: If code only identifies chronic condition, assign Y"
+      ],
+      "correct_coding": {
+        "primary_code": "Chronic leukemia with Y indicator",
+        "secondary_codes": [],
+        "sequencing": "Standard rules apply",
+        "rationale": "Code only identifies chronic condition, not exacerbation (Evidence: pg no: 119, L42)"
+      },
+      "incorrect_coding": {
+        "code": "Chronic leukemia with N indicator",
+        "codes": [],
+        "rationale": "Should assign Y when code only identifies chronic condition",
+        "common_mistake": "Focusing on exacerbation timing rather than code content"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "POA.8.E1",
+      "scenario": "Acute exacerbation of chronic leukemia",
+      "code_example": "Chronic leukemia code",
+      "breakdown": {
+        "chronic_component": "Pre-existing chronic leukemia (Evidence: pg no: 119, L42)",
+        "acute_component": "Exacerbation developed after admission (Evidence: pg no: 119, L42)"
+      },
+      "rationale": "Code only identifies chronic condition, assign Y (Evidence: pg no: 119, L42)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Must determine what components the code actually identifies (Evidence: pg no: 118, L37-L38, pg no: 119, L42)"
+    ],
+    "best_practices": [
+      "Review code descriptions carefully for included components (Evidence: pg no: 118, L37-L38, pg no: 119, L42)"
+    ],
+    "common_mistakes": [
+      "Not distinguishing between code components (Evidence: pg no: 118, L37-L38, pg no: 119, L42)"
+    ],
+    "tips": [
+      "Check if code includes exacerbation or only chronic condition (Evidence: pg no: 118, L37-L38, pg no: 119, L42)"
+    ],
+    "implementation_notes": [
+      "Train coders on code component analysis"
+    ],
+    "clinical_context": [
+      "Chronic conditions often have acute exacerbations during hospitalization"
+    ]
+  },
+  "search_keywords": [
+    "chronic condition POA",
+    "acute exacerbation POA",
+    "chronic leukemia POA",
+    "multiple clinical concepts",
+    "combination codes POA"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "POA_assignment",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "POA",
+      "chronic",
+      "exacerbation",
+      "multiple_concepts",
+      "Y_indicator"
+    ]
+  },
+  "page_range_processed": "pages_117_to_120"
+}

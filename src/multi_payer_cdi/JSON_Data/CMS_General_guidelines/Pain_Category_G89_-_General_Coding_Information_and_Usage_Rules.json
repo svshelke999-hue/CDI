@@ -1,0 +1,199 @@
+{
+  "guideline_id": "I.C.6.b.1",
+  "semantic_title": "Pain Category G89 - General Coding Information and Usage Rules",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 6. Chapter 6: Diseases of the Nervous System > b. Pain - Category G89 > 1) General coding information",
+  "page_number": 45,
+  "content": {
+    "full_text": "Codes in category G89, Pain, not elsewhere classified, may be used in conjunction with codes from other categories and chapters to provide more detail about acute or chronic pain and neoplasm-related pain, unless otherwise indicated below. If the pain is not specified as acute or chronic, post-thoracotomy, postprocedural, or neoplasm-related, do not assign codes from category G89. (Evidence: pg no: 45, L86-L90)",
+    "summary": "Establishes general usage rules for G89 pain codes, specifying when they can be used in conjunction with other codes and when they should not be assigned (Evidence: pg no: 45, L86-L90)",
+    "key_concepts": [
+      "G89 conjunction usage (Evidence: pg no: 45, L87-L88)",
+      "Specific pain type requirements (Evidence: pg no: 45, L88-L89)",
+      "Assignment restrictions (Evidence: pg no: 45, L89-L90)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "G89_GENERAL_001",
+        "rule_text": "G89 codes may be used with codes from other categories and chapters (Evidence: pg no: 45, L87-L88)",
+        "explanation": "Category G89 codes can be assigned in conjunction with other ICD-10-CM codes to provide additional detail about pain (Evidence: pg no: 45, L87-L88)",
+        "importance": "high",
+        "applies_to": "G89",
+        "common_applications": [
+          "Pain with underlying conditions",
+          "Additional pain detail coding",
+          "Multi-code pain scenarios"
+        ]
+      },
+      {
+        "rule_id": "G89_GENERAL_002",
+        "rule_text": "Use G89 for acute, chronic, post-thoracotomy, postprocedural, or neoplasm-related pain (Evidence: pg no: 45, L88-L89)",
+        "explanation": "G89 codes are specifically for these defined types of pain conditions (Evidence: pg no: 45, L88-L89)",
+        "importance": "critical",
+        "applies_to": "G89",
+        "common_applications": [
+          "Acute pain conditions",
+          "Chronic pain syndromes",
+          "Post-surgical pain",
+          "Cancer-related pain"
+        ]
+      },
+      {
+        "rule_id": "G89_GENERAL_003",
+        "rule_text": "Do not assign G89 if pain type not specified as listed categories (Evidence: pg no: 45, L89-L90)",
+        "explanation": "If pain is not documented as acute, chronic, post-thoracotomy, postprocedural, or neoplasm-related, do not use G89 codes (Evidence: pg no: 45, L89-L90)",
+        "importance": "critical",
+        "applies_to": "G89",
+        "common_applications": [
+          "General pain complaints",
+          "Unspecified pain types",
+          "Non-qualifying pain conditions"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify pain condition in documentation",
+      "Step 2: Determine if pain is acute, chronic, post-thoracotomy, postprocedural, or neoplasm-related",
+      "Step 3: If yes, consider G89 code assignment",
+      "Step 4: If no, do not assign G89 codes",
+      "Step 5: Use G89 in conjunction with other appropriate codes when applicable"
+    ],
+    "related_terminology": [
+      "Acute pain",
+      "Chronic pain",
+      "Post-thoracotomy pain",
+      "Postprocedural pain",
+      "Neoplasm-related pain",
+      "Pain not elsewhere classified"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "G89",
+        "description": "Pain, not elsewhere classified (Evidence: pg no: 45, L87)",
+        "requirement": "Use only for specified pain types",
+        "usage_rules": [
+          "May be used with other codes (Evidence: pg no: 45, L87-L88)",
+          "Only for acute, chronic, post-thoracotomy, postprocedural, or neoplasm-related pain (Evidence: pg no: 45, L88-L89)",
+          "Do not assign if pain type not specified (Evidence: pg no: 45, L89-L90)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Pain, not elsewhere classified"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "G89_GENERAL_001",
+      "scenario": "Patient with chronic low back pain due to degenerative disc disease",
+      "documentation_example": "Chronic low back pain secondary to L4-L5 degenerative disc disease",
+      "step_by_step": [
+        "Step 1: Identify chronic pain condition",
+        "Step 2: Verify pain is specified as chronic",
+        "Step 3: Identify underlying condition (degenerative disc disease)",
+        "Step 4: Assign G89 code for chronic pain",
+        "Step 5: Assign code for underlying condition"
+      ],
+      "correct_coding": {
+        "primary_code": "M51.36",
+        "secondary_codes": [
+          "G89.29"
+        ],
+        "sequencing": "Underlying condition first, then chronic pain",
+        "rationale": "Chronic pain qualifies for G89 coding and can be used with underlying condition codes (Evidence: pg no: 45, L87-L89)"
+      },
+      "incorrect_coding": {
+        "code": "M51.36 only",
+        "rationale": "Missing the chronic pain detail that G89 provides",
+        "common_mistake": "Not using G89 when pain type qualifies"
+      }
+    },
+    {
+      "scenario_id": "G89_GENERAL_002",
+      "scenario": "Patient complains of back pain, no specification of acute or chronic",
+      "documentation_example": "Patient reports back pain",
+      "step_by_step": [
+        "Step 1: Identify pain complaint",
+        "Step 2: Check if pain is specified as acute, chronic, etc.",
+        "Step 3: Note pain type not specified",
+        "Step 4: Do not assign G89 code",
+        "Step 5: Use appropriate pain code from other categories"
+      ],
+      "correct_coding": {
+        "primary_code": "M54.9",
+        "secondary_codes": [],
+        "sequencing": "Dorsalgia, unspecified",
+        "rationale": "Pain type not specified as qualifying for G89, so do not assign G89 codes (Evidence: pg no: 45, L89-L90)"
+      },
+      "incorrect_coding": {
+        "codes": [
+          "M54.9",
+          "G89.29"
+        ],
+        "rationale": "Cannot assign G89 when pain type not specified as chronic",
+        "common_mistake": "Using G89 for unspecified pain types"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not assign G89 for unspecified pain types (Evidence: pg no: 45, L89-L90)",
+      "Pain must be documented as specific qualifying type (Evidence: pg no: 45, L88-L89)"
+    ],
+    "best_practices": [
+      "Verify pain type qualification before assigning G89 (Evidence: pg no: 45, L88-L90)",
+      "Use G89 in conjunction with other codes when appropriate (Evidence: pg no: 45, L87-L88)"
+    ],
+    "common_mistakes": [
+      "Using G89 for general pain complaints",
+      "Not checking pain type specification",
+      "Omitting G89 when pain type qualifies"
+    ],
+    "tips": [
+      "G89 requires specific pain types",
+      "Can be used with other codes",
+      "Check documentation for qualifying pain descriptors"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Important for pain management coding",
+      "Affects chronic pain treatment documentation",
+      "Critical for post-surgical pain coding"
+    ]
+  },
+  "search_keywords": [
+    "G89",
+    "pain not elsewhere classified",
+    "acute pain",
+    "chronic pain",
+    "postprocedural pain",
+    "neoplasm related pain"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "nervous_system",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "pain",
+      "G89",
+      "acute",
+      "chronic",
+      "postprocedural"
+    ]
+  },
+  "page_range_processed": "pages_42_to_45"
+}

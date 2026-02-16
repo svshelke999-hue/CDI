@@ -1,0 +1,167 @@
+{
+  "guideline_id": "I.C.9.a.7",
+  "semantic_title": "Coding Guidelines for Transient Hypertension Including Pregnancy-Related Hypertension",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 9. Diseases of the Circulatory System > a. Hypertension > 7) Hypertension, Transient",
+  "page_number": 52,
+  "content": {
+    "full_text": "Assign code R03.0, Elevated blood pressure reading without diagnosis of hypertension, unless patient has an established diagnosis of hypertension. Assign code O13.-, Gestational [pregnancy-induced] hypertension without significant proteinuria, or O14.-, Pre-eclampsia, for transient hypertension of pregnancy. (Evidence: pg no: 52, L32-L35)",
+    "summary": "Guidelines for coding transient hypertension with specific instructions for pregnancy-related cases (Evidence: pg no: 52, L31-L35)",
+    "key_concepts": [
+      "Transient hypertension coding (Evidence: pg no: 52, L31)",
+      "Elevated blood pressure without hypertension diagnosis (Evidence: pg no: 52, L32-L33)",
+      "Pregnancy-induced hypertension coding (Evidence: pg no: 52, L33-L35)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "TRANS_HTN_001",
+        "rule_text": "Use R03.0 for elevated blood pressure reading without established hypertension diagnosis (Evidence: pg no: 52, L32-L33)",
+        "explanation": "When a patient has elevated blood pressure readings but does not have an established diagnosis of hypertension, code R03.0 should be assigned (Evidence: pg no: 52, L32-L33)",
+        "importance": "high",
+        "applies_to": "R03.0",
+        "common_applications": [
+          "Emergency department visits with elevated BP",
+          "Routine screenings with high readings"
+        ]
+      },
+      {
+        "rule_id": "TRANS_HTN_002",
+        "rule_text": "Use specific pregnancy codes for transient hypertension in pregnancy (Evidence: pg no: 52, L33-L35)",
+        "explanation": "For transient hypertension of pregnancy, assign code O13.- for gestational hypertension without significant proteinuria, or O14.- for pre-eclampsia (Evidence: pg no: 52, L33-L35)",
+        "importance": "critical",
+        "applies_to": "O13.-, O14.-",
+        "common_applications": [
+          "Gestational hypertension cases",
+          "Pre-eclampsia diagnosis"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if patient has established hypertension diagnosis",
+      "Step 2: If no established diagnosis, use R03.0",
+      "Step 3: For pregnancy cases, use appropriate O13.- or O14.- codes"
+    ],
+    "related_terminology": [
+      "Transient hypertension",
+      "Elevated blood pressure",
+      "Gestational hypertension",
+      "Pre-eclampsia"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "R03.0",
+        "description": "Elevated blood pressure reading without diagnosis of hypertension (Evidence: pg no: 52, L32-L33)",
+        "context": "When patient has elevated BP but no established hypertension diagnosis",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "R03": "Abnormal blood-pressure reading, without diagnosis",
+          ".0": "Elevated blood pressure reading without diagnosis of hypertension"
+        }
+      },
+      {
+        "code": "O13.-",
+        "description": "Gestational [pregnancy-induced] hypertension without significant proteinuria (Evidence: pg no: 52, L33-L34)",
+        "context": "For transient hypertension of pregnancy without proteinuria",
+        "requires_additional_codes": "check_code_notes",
+        "breakdown": {
+          "O13": "Gestational hypertension without significant proteinuria",
+          ".-": "Fourth character required for specificity"
+        }
+      },
+      {
+        "code": "O14.-",
+        "description": "Pre-eclampsia (Evidence: pg no: 52, L34-L35)",
+        "context": "For transient hypertension of pregnancy with pre-eclampsia",
+        "requires_additional_codes": "check_code_notes",
+        "breakdown": {
+          "O14": "Pre-eclampsia",
+          ".-": "Fourth character required for specificity"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Abnormal blood pressure readings",
+      "Pregnancy complications"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "TRANS_HTN_SC001",
+      "scenario": "Patient presents to ED with elevated blood pressure but no prior hypertension diagnosis",
+      "documentation_example": "BP 160/95, no history of hypertension, patient denies symptoms",
+      "step_by_step": [
+        "Step 1: Identify elevated blood pressure reading",
+        "Step 2: Confirm no established hypertension diagnosis",
+        "Step 3: Assign code R03.0"
+      ],
+      "correct_coding": {
+        "primary_code": "R03.0",
+        "secondary_codes": [],
+        "sequencing": "Primary code only",
+        "rationale": "Patient has elevated BP reading without established hypertension diagnosis (Evidence: pg no: 52, L32-L33)"
+      },
+      "incorrect_coding": {
+        "code": "I10",
+        "codes": [
+          "I10"
+        ],
+        "rationale": "Would be incorrect without established hypertension diagnosis",
+        "common_mistake": "Assuming elevated reading equals hypertension diagnosis"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not assign hypertension codes without established diagnosis (Evidence: pg no: 52, L32-L33)"
+    ],
+    "best_practices": [
+      "Verify established hypertension diagnosis before coding (Evidence: pg no: 52, L32-L33)",
+      "Use pregnancy-specific codes for gestational cases (Evidence: pg no: 52, L33-L35)"
+    ],
+    "common_mistakes": [
+      "Coding I10 for elevated readings without diagnosis (Evidence: pg no: 52, L32-L33)"
+    ],
+    "tips": [
+      "Check pregnancy status for appropriate code selection (Evidence: pg no: 52, L33-L35)"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Emergency department presentations",
+      "Pregnancy care visits"
+    ]
+  },
+  "search_keywords": [
+    "transient hypertension",
+    "elevated blood pressure",
+    "R03.0",
+    "gestational hypertension",
+    "pre-eclampsia",
+    "pregnancy hypertension"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "hypertension",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "hypertension",
+      "pregnancy",
+      "transient",
+      "elevated_bp"
+    ]
+  },
+  "page_range_processed": "pages_51_to_54"
+}

@@ -1,0 +1,154 @@
+{
+  "guideline_id": "I.C.12.b.3",
+  "semantic_title": "Coding Guidelines for Non-Pressure Ulcers That Progress During Admission",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 12. Chapter 12: Diseases of the Skin and Subcutaneous Tissue > b. Non-Pressure Chronic Ulcers > 3. Patient admitted with non-pressure ulcer that progresses to another severity level during the admission",
+  "page_number": 60,
+  "content": {
+    "full_text": "If a patient is admitted to an inpatient hospital with a non-pressure ulcer at one severity level and it progresses to a higher severity level, two separate codes should be assigned: one code for the site and severity level of the ulcer on admission and a second code for the same ulcer site and the highest severity level reported during the stay. See Section I.B.14. for pressure ulcer stage documentation by clinicians other than patient's provider (Evidence: pg no: 60, L19-L21)",
+    "summary": "When non-pressure ulcers progress to higher severity during admission, assign two codes: one for admission severity and one for highest severity during stay (Evidence: pg no: 60, L19-L21)",
+    "key_concepts": [
+      "Ulcer progression (Evidence: pg no: 60, L19-L20)",
+      "Two separate codes (Evidence: pg no: 60, L20)",
+      "Admission severity (Evidence: pg no: 60, L20)",
+      "Highest severity during stay (Evidence: pg no: 60, L21)",
+      "Same ulcer site (Evidence: pg no: 60, L21)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "NPU_PROGRESS_001",
+        "rule_text": "If a patient is admitted to an inpatient hospital with a non-pressure ulcer at one severity level and it progresses to a higher severity level, two separate codes should be assigned (Evidence: pg no: 60, L19-L20)",
+        "explanation": "Ulcer progression during admission requires dual coding to capture both initial and final severity states (Evidence: pg no: 60, L19-L20)",
+        "importance": "critical",
+        "applies_to": "Non-pressure ulcer codes",
+        "common_applications": [
+          "Inpatient ulcer progression",
+          "Severity level changes"
+        ]
+      },
+      {
+        "rule_id": "NPU_PROGRESS_002",
+        "rule_text": "Assign one code for the site and severity level of the ulcer on admission and a second code for the same ulcer site and the highest severity level reported during the stay (Evidence: pg no: 60, L20-L21)",
+        "explanation": "The two codes represent the admission state and the highest severity reached during the entire stay (Evidence: pg no: 60, L20-L21)",
+        "importance": "critical",
+        "applies_to": "Non-pressure ulcer codes",
+        "common_applications": [
+          "Dual coding scenarios",
+          "Progression documentation"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify non-pressure ulcer present on admission with documented severity",
+      "Step 2: Determine if ulcer progressed to higher severity during stay",
+      "Step 3: Assign first code for admission site and severity",
+      "Step 4: Assign second code for same site with highest severity during stay",
+      "Step 5: Reference Section I.B.14 for documentation by other clinicians"
+    ],
+    "related_terminology": [
+      "Ulcer progression",
+      "Severity levels",
+      "Admission status",
+      "Highest severity",
+      "Dual coding"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Non-pressure ulcer codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.B.14",
+        "title": "Pressure ulcer stage documentation by clinicians other than patient's provider",
+        "relationship": "related_to",
+        "explanation": "Referenced for documentation standards by other clinicians"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "NPU_PROGRESS_SC001",
+      "scenario": "Patient admitted with stage 2 diabetic ulcer that progresses to stage 4",
+      "documentation_example": "Patient admitted with stage 2 diabetic ulcer right heel, progressed to stage 4 with bone exposure during stay",
+      "step_by_step": [
+        "Step 1: Identify admission ulcer as stage 2 diabetic ulcer, right heel",
+        "Step 2: Note progression to stage 4 during stay",
+        "Step 3: Assign first code for stage 2 diabetic ulcer, right heel",
+        "Step 4: Assign second code for stage 4 diabetic ulcer, right heel"
+      ],
+      "correct_coding": {
+        "primary_code": "Stage 2 diabetic ulcer code (right heel)",
+        "secondary_codes": [
+          "Stage 4 diabetic ulcer code (right heel)"
+        ],
+        "sequencing": "Both codes assigned for same site",
+        "rationale": "Two codes required to capture progression from admission severity to highest severity during stay (Evidence: pg no: 60, L20-L21)"
+      },
+      "incorrect_coding": {
+        "code": "Only final severity code",
+        "codes": [
+          "Only stage 4 code",
+          "Only admission code"
+        ],
+        "rationale": "Guidelines require both admission and highest severity codes",
+        "common_mistake": "Coding only the final severity without the admission severity"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Must assign two separate codes for progressing ulcers (Evidence: pg no: 60, L20)",
+      "Both codes must be for the same ulcer site (Evidence: pg no: 60, L21)"
+    ],
+    "best_practices": [
+      "Document both admission and highest severity levels (Evidence: pg no: 60, L20-L21)",
+      "Reference Section I.B.14 for documentation by other clinicians (Evidence: pg no: 60, L21)"
+    ],
+    "common_mistakes": [
+      "Coding only the final severity level (Evidence: pg no: 60, L20)",
+      "Not recognizing ulcer progression during stay (Evidence: pg no: 60, L19-L20)"
+    ],
+    "tips": [
+      "Track ulcer severity changes throughout admission (Evidence: pg no: 60, L19-L21)",
+      "Ensure both codes reference the same anatomical site (Evidence: pg no: 60, L21)"
+    ],
+    "implementation_notes": [
+      "This applies specifically to inpatient hospital admissions",
+      "Progression must be to a higher severity level"
+    ],
+    "clinical_context": [
+      "Ulcer progression indicates worsening condition requiring enhanced treatment"
+    ]
+  },
+  "search_keywords": [
+    "ulcer progression",
+    "severity level changes",
+    "dual coding",
+    "admission severity",
+    "highest severity",
+    "inpatient ulcers"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "skin_and_subcutaneous_tissue",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "ulcer_progression",
+      "dual_coding",
+      "severity_changes"
+    ]
+  },
+  "page_range_processed": "pages_60_to_63"
+}

@@ -1,0 +1,175 @@
+{
+  "guideline_id": "I.C.19.e.2",
+  "semantic_title": "Use Multiple Codes to Completely Describe All Drugs, Medicinal or Biological Substances",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 19. Injury, Poisoning, and Certain Other Consequences of External Causes > e. Adverse Effects, Poisoning, Underdosing and Toxic Effects > 2. Use as many codes as necessary to describe",
+  "page_number": 82,
+  "content": {
+    "full_text": "Use as many codes as necessary to describe completely all drugs, medicinal or biological substances. (Evidence: pg no: 82, L37-L38)",
+    "summary": "Instruction to assign multiple codes as needed to fully document all drugs, medicinal agents, or biological substances involved in adverse effects, poisoning, or underdosing (Evidence: pg no: 82, L37-L38)",
+    "key_concepts": [
+      "Multiple code assignment requirement (Evidence: pg no: 82, L37)",
+      "Complete description mandate (Evidence: pg no: 82, L37-L38)",
+      "All substances documentation (Evidence: pg no: 82, L38)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "MULTIPLE_CODES_COMPLETE_DESCRIPTION",
+        "rule_text": "Use as many codes as necessary to describe completely all drugs, medicinal or biological substances (Evidence: pg no: 82, L37-L38)",
+        "explanation": "When multiple substances are involved in an adverse effect, poisoning, underdosing, or toxic effect, each substance should be coded separately to provide complete documentation (Evidence: pg no: 82, L37-L38)",
+        "importance": "high",
+        "applies_to": "T36-T65",
+        "common_applications": [
+          "Multiple drug interactions",
+          "Polypharmacy adverse effects",
+          "Complex poisoning cases",
+          "Multiple substance exposures"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify all drugs, medicinal, or biological substances involved",
+      "Step 2: Determine the effect/condition for each substance",
+      "Step 3: Assign appropriate code for each substance",
+      "Step 4: Verify complete documentation of all substances",
+      "Step 5: Ensure no substances are omitted from coding"
+    ],
+    "related_terminology": [
+      "Multiple codes",
+      "Complete description",
+      "Drugs",
+      "Medicinal substances",
+      "Biological substances",
+      "Comprehensive coding"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "T36-T65",
+        "description": "Categories requiring complete substance documentation (Evidence: pg no: 82, L37-L38)",
+        "requirement": "Use multiple codes as necessary for complete description",
+        "usage_rules": [
+          "Code each substance separately (Evidence: pg no: 82, L37-L38)",
+          "Ensure complete documentation of all involved substances (Evidence: pg no: 82, L37-L38)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "Multiple substance codes",
+        "description": "Separate codes for each drug/substance involved (Evidence: pg no: 82, L37-L38)",
+        "example": "T36.0X5- + T39.1X5- for multiple drug adverse effects",
+        "explanation": "Complete documentation requires individual coding of each substance (Evidence: pg no: 82, L37-L38)"
+      }
+    ],
+    "code_categories_mentioned": [
+      "T36-T65 drug and substance codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "MULTIPLE_DRUG_ADVERSE_EFFECTS",
+      "scenario": "Patient has adverse reactions to multiple prescribed medications",
+      "documentation_example": "Patient developed nausea from metformin and rash from lisinopril",
+      "step_by_step": [
+        "Step 1: Identify all substances (metformin, lisinopril)",
+        "Step 2: Identify effects (nausea, rash)",
+        "Step 3: Code nausea as nature of adverse effect",
+        "Step 4: Code rash as nature of adverse effect",
+        "Step 5: Code metformin adverse effect",
+        "Step 6: Code lisinopril adverse effect"
+      ],
+      "correct_coding": {
+        "primary_code": "Code for nausea",
+        "secondary_codes": [
+          "Code for rash",
+          "Metformin adverse effect code",
+          "Lisinopril adverse effect code"
+        ],
+        "sequencing": "Nature of adverse effects first, then drug codes",
+        "rationale": "Complete description requires coding all substances involved (Evidence: pg no: 82, L37-L38)"
+      },
+      "incorrect_coding": {
+        "code": "Coding only one substance",
+        "codes": [
+          "Single drug code only"
+        ],
+        "rationale": "Incomplete documentation of all involved substances",
+        "common_mistake": "Omitting some substances in multiple drug scenarios"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "COMPREHENSIVE_SUBSTANCE_CODING",
+      "scenario": "Multiple substances requiring individual codes",
+      "code_example": "Separate codes for each substance",
+      "breakdown": {
+        "Substance 1": "Individual code for first drug/substance (Evidence: pg no: 82, L37-L38)",
+        "Substance 2": "Individual code for second drug/substance (Evidence: pg no: 82, L37-L38)",
+        "Additional": "Continue for all substances involved (Evidence: pg no: 82, L37-L38)"
+      },
+      "rationale": "Complete description mandate requires individual coding of each substance (Evidence: pg no: 82, L37-L38)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not omit any drugs, medicinal, or biological substances (Evidence: pg no: 82, L37-L38)"
+    ],
+    "best_practices": [
+      "Code each substance individually for complete documentation (Evidence: pg no: 82, L37-L38)",
+      "Review documentation to ensure all substances are identified and coded"
+    ],
+    "common_mistakes": [
+      "Coding only the primary or most significant substance",
+      "Omitting substances in complex cases",
+      "Incomplete substance documentation"
+    ],
+    "tips": [
+      "Complete description is the goal (Evidence: pg no: 82, L37-L38)",
+      "Each substance deserves individual coding consideration"
+    ],
+    "implementation_notes": [
+      "Important for drug interaction analysis",
+      "Critical for comprehensive adverse event documentation",
+      "Supports pharmacovigilance efforts"
+    ],
+    "clinical_context": [
+      "Essential for polypharmacy management",
+      "Important for drug safety monitoring",
+      "Critical for complex medication regimens"
+    ]
+  },
+  "search_keywords": [
+    "multiple codes",
+    "complete description",
+    "all drugs",
+    "medicinal substances",
+    "biological substances",
+    "comprehensive coding"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "adverse_effects_poisoning",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "multiple_codes",
+      "drugs",
+      "substances",
+      "complete_description",
+      "T36-T65"
+    ]
+  },
+  "page_range_processed": "pages_81_to_84"
+}

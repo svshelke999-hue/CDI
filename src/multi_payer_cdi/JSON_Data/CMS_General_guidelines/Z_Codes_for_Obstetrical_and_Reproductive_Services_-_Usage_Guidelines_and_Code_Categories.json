@@ -1,0 +1,257 @@
+{
+  "guideline_id": "I.C.21.c.11",
+  "semantic_title": "Z Codes for Obstetrical and Reproductive Services - Usage Guidelines and Code Categories",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 21. Factors Influencing Health Status and Contact with Health Services (Z00-Z99) > c. Categories of Z Codes > 11. Encounters for Obstetrical and Reproductive Services",
+  "page_number": 103,
+  "content": {
+    "full_text": "Z codes for pregnancy are for use in those circumstances when none of the problems or complications included in the codes from the Obstetrics chapter exist (a routine prenatal visit or postpartum care). Codes in category Z34, Encounter for supervision of normal pregnancy, are always first listed and are not to be used with any other code from the OB chapter. Codes in category Z3A, Weeks of gestation, may be assigned to provide additional information about the pregnancy. Category Z3A codes should not be assigned for pregnancies with abortive outcomes (categories O00-O08), elective termination of pregnancy (code Z33.2), nor for postpartum conditions, as category Z3A is not applicable to these conditions. The date of the admission should be used to determine weeks of gestation for inpatient admissions that encompass more than one gestational week. The outcome of delivery, category Z37, should be included on all maternal delivery records. It is always a secondary code. Codes in category Z37 should not be used on the newborn record. Z codes for family planning (contraceptive) or procreative management and counseling should be included on an obstetric record either during the pregnancy or the postpartum stage, if applicable. (Evidence: pg no: 102-103, L12-L16, L19-L29)",
+    "summary": "Guidelines for using Z codes in obstetrical and reproductive services, including pregnancy supervision, weeks of gestation, delivery outcomes, and family planning codes (Evidence: pg no: 102-103, L12-L29)",
+    "key_concepts": [
+      "Z codes for pregnancy used when no OB complications exist (Evidence: pg no: 102, L12)",
+      "Z34 codes always first-listed and exclusive from OB chapter codes (Evidence: pg no: 102, L12-L13)",
+      "Z3A codes provide additional pregnancy information with specific exclusions (Evidence: pg no: 102, L14)",
+      "Z37 outcome codes required on all maternal delivery records as secondary (Evidence: pg no: 102, L15)",
+      "Family planning codes applicable during pregnancy or postpartum (Evidence: pg no: 102, L16)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "Z34_FIRST_LISTED",
+        "rule_text": "Codes in category Z34, Encounter for supervision of normal pregnancy, are always first listed and are not to be used with any other code from the OB chapter (Evidence: pg no: 102, L12-L13)",
+        "explanation": "Z34 codes must be sequenced first and cannot be combined with any obstetrics chapter codes, ensuring clear distinction between normal and complicated pregnancies (Evidence: pg no: 102, L12-L13)",
+        "importance": "critical",
+        "applies_to": "Z34",
+        "common_applications": [
+          "Routine prenatal visits",
+          "Normal pregnancy supervision"
+        ]
+      },
+      {
+        "rule_id": "Z3A_EXCLUSIONS",
+        "rule_text": "Category Z3A codes should not be assigned for pregnancies with abortive outcomes (categories O00-O08), elective termination of pregnancy (code Z33.2), nor for postpartum conditions (Evidence: pg no: 102, L14)",
+        "explanation": "Z3A weeks of gestation codes are specifically excluded from certain pregnancy outcomes where gestational age is not clinically relevant (Evidence: pg no: 102, L14)",
+        "importance": "high",
+        "applies_to": "Z3A",
+        "common_applications": [
+          "Determining when NOT to use gestational age codes",
+          "Avoiding inappropriate Z3A code assignment"
+        ]
+      },
+      {
+        "rule_id": "Z37_SECONDARY_MATERNAL",
+        "rule_text": "The outcome of delivery, category Z37, should be included on all maternal delivery records. It is always a secondary code. Codes in category Z37 should not be used on the newborn record (Evidence: pg no: 102, L15-L16)",
+        "explanation": "Z37 codes are mandatory secondary codes on maternal records but prohibited on newborn records to maintain proper record distinction (Evidence: pg no: 102, L15-L16)",
+        "importance": "critical",
+        "applies_to": "Z37",
+        "common_applications": [
+          "All maternal delivery encounters",
+          "Distinguishing maternal from newborn records"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if pregnancy encounter has complications from OB chapter",
+      "Step 2: If no complications, use appropriate Z code from obstetrical categories",
+      "Step 3: Sequence Z34 codes first when used",
+      "Step 4: Add Z3A gestational age codes when applicable (excluding specified conditions)",
+      "Step 5: Include Z37 outcome codes as secondary on all maternal delivery records"
+    ],
+    "related_terminology": [
+      "Obstetrical services",
+      "Reproductive services",
+      "Normal pregnancy supervision",
+      "Weeks of gestation",
+      "Delivery outcomes",
+      "Family planning",
+      "Contraceptive management",
+      "Procreative management"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z30-Z39, Z3A, Z76.81",
+        "description": "Complete range of obstetrical and reproductive service Z codes (Evidence: pg no: 103, L19-L29)",
+        "requirement": "Use when no OB chapter complications exist",
+        "usage_rules": [
+          "Z34 always first-listed (Evidence: pg no: 102, L12-L13)",
+          "Z37 always secondary on maternal records (Evidence: pg no: 102, L15)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "Z30",
+        "description": "Encounter for contraceptive management (Evidence: pg no: 103, L20)",
+        "context": "Family planning services during pregnancy or postpartum",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z30": "Contraceptive management encounters"
+        }
+      },
+      {
+        "code": "Z31",
+        "description": "Encounter for procreative management (Evidence: pg no: 103, L21)",
+        "context": "Reproductive health management services",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z31": "Procreative management encounters"
+        }
+      },
+      {
+        "code": "Z34",
+        "description": "Encounter for supervision of normal pregnancy (Evidence: pg no: 103, L24)",
+        "context": "Always first-listed, not used with OB chapter codes",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z34": "Normal pregnancy supervision"
+        }
+      },
+      {
+        "code": "Z3A",
+        "description": "Weeks of gestation (Evidence: pg no: 103, L26)",
+        "context": "Additional information about pregnancy, with specific exclusions",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z3A": "Gestational age specification"
+        }
+      },
+      {
+        "code": "Z37",
+        "description": "Outcome of delivery (Evidence: pg no: 103, L27)",
+        "context": "Always secondary code on maternal delivery records",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z37": "Delivery outcome specification"
+        }
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": "Z3X",
+        "description": "Obstetrical and reproductive service codes (Evidence: pg no: 103, L19-L29)",
+        "example": "Z30, Z31, Z32, Z33, Z34, Z36, Z37, Z39",
+        "explanation": "Most obstetrical Z codes fall in the Z30-Z39 range"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Contraceptive management",
+      "Procreative management",
+      "Childbirth instruction",
+      "Childcare instruction",
+      "Pregnant state",
+      "Normal pregnancy supervision",
+      "Antenatal screening",
+      "Weeks of gestation",
+      "Delivery outcomes",
+      "Postpartum care"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.15",
+        "title": "Pregnancy, Childbirth, and the Puerperium",
+        "relationship": "implements",
+        "explanation": "References Section I.C.15 for further instruction on obstetrical code use"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "NORMAL_PRENATAL",
+      "scenario": "Routine prenatal visit for normal pregnancy at 28 weeks gestation",
+      "documentation_example": "28-week routine prenatal visit, normal pregnancy, no complications",
+      "step_by_step": [
+        "Step 1: Identify as routine prenatal visit with no complications",
+        "Step 2: Assign Z34 code as first-listed",
+        "Step 3: Add Z3A code for 28 weeks gestation as additional information"
+      ],
+      "correct_coding": {
+        "primary_code": "Z34.xx",
+        "secondary_codes": [
+          "Z3A.28"
+        ],
+        "sequencing": "Z34 always first-listed",
+        "rationale": "Normal pregnancy supervision with gestational age specification (Evidence: pg no: 102-103, L12-L14)"
+      },
+      "incorrect_coding": {
+        "codes": [
+          "O09.xx with Z34.xx"
+        ],
+        "rationale": "Cannot combine Z34 with OB chapter codes",
+        "common_mistake": "Using Z34 with complication codes from OB chapter"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "DELIVERY_OUTCOME",
+      "scenario": "Maternal delivery record for single liveborn infant",
+      "code_example": "Z37.0",
+      "breakdown": {
+        "Z37.0": "Single live birth outcome (Evidence: pg no: 103, L27)"
+      },
+      "rationale": "Required secondary code on all maternal delivery records (Evidence: pg no: 102, L15)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Z34 codes cannot be used with any other OB chapter codes (Evidence: pg no: 102, L12-L13)",
+      "Z3A codes prohibited for abortive outcomes, elective termination, and postpartum conditions (Evidence: pg no: 102, L14)",
+      "Z37 codes must not be used on newborn records (Evidence: pg no: 102, L16)"
+    ],
+    "best_practices": [
+      "Always sequence Z34 codes first when used (Evidence: pg no: 102, L12-L13)",
+      "Include Z37 outcome codes on all maternal delivery records (Evidence: pg no: 102, L15)",
+      "Use admission date to determine gestational weeks for multi-week stays (Evidence: pg no: 102, L14)"
+    ],
+    "common_mistakes": [
+      "Combining Z34 with OB chapter complication codes",
+      "Using Z3A codes for inappropriate pregnancy outcomes",
+      "Omitting Z37 codes from maternal delivery records"
+    ],
+    "tips": [
+      "Z codes for pregnancy apply only when no OB complications exist",
+      "Family planning codes can be used during pregnancy or postpartum periods"
+    ],
+    "implementation_notes": [
+      "Gestational age determination uses admission date for inpatient stays",
+      "Family planning services may be provided concurrently with obstetrical care"
+    ],
+    "clinical_context": [
+      "Normal pregnancy supervision without complications",
+      "Routine prenatal and postpartum care",
+      "Family planning and reproductive health services"
+    ]
+  },
+  "search_keywords": [
+    "obstetrical Z codes",
+    "pregnancy Z codes",
+    "Z34 normal pregnancy",
+    "Z3A weeks gestation",
+    "Z37 delivery outcome",
+    "reproductive services",
+    "contraceptive management",
+    "prenatal care coding"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "obstetrical_reproductive_services",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "Z_codes",
+      "obstetrics",
+      "pregnancy",
+      "reproductive_health",
+      "delivery_outcomes"
+    ]
+  },
+  "page_range_processed": "pages_102_to_105"
+}

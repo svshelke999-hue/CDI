@@ -1,0 +1,86 @@
+{
+  "guideline_id": "I.A.8",
+  "semantic_title": "Use of 'and' in ICD-10-CM: Cross-Reference to Detailed Guidelines",
+  "section_path": "Section I > A. Conventions > 8. Use of 'and'",
+  "page_number": 9,
+  "content": {
+    "full_text": "See Section I.A.14. Use of the term 'And' (Evidence: pg no: 9, L63-L64)",
+    "summary": "Cross-references to detailed guidelines about the use of 'and' in ICD-10-CM (Evidence: pg no: 9, L63-L64)",
+    "key_concepts": [
+      "Detailed 'and' usage covered in Section I.A.14 (Evidence: pg no: 9, L64)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.A.8.R1",
+        "rule_text": "Use of 'and' is detailed in Section I.A.14 (Evidence: pg no: 9, L64)",
+        "explanation": "Complete guidelines for the use of 'and' in ICD-10-CM are provided in a separate section (Evidence: pg no: 9, L64)",
+        "importance": "medium",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Code title interpretation",
+          "Multiple condition coding"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Refer to Section I.A.14 for detailed 'and' usage guidelines"
+    ],
+    "related_terminology": [
+      "And",
+      "Cross-reference"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": []
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.A.14",
+        "title": "Use of the term 'And'",
+        "relationship": "references",
+        "explanation": "Provides detailed guidelines for 'and' usage"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [],
+    "best_practices": [
+      "Refer to Section I.A.14 for complete 'and' usage guidelines"
+    ],
+    "common_mistakes": [],
+    "tips": [
+      "This is a cross-reference section"
+    ],
+    "implementation_notes": [
+      "Complete guidelines found in referenced section"
+    ],
+    "clinical_context": []
+  },
+  "search_keywords": [
+    "and usage",
+    "cross reference",
+    "section I.A.14"
+  ],
+  "metadata": {
+    "category": "convention",
+    "subcategory": "cross_reference",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "October 1, 2025",
+    "tags": [
+      "cross_reference",
+      "and_usage"
+    ]
+  },
+  "page_range_processed": "pages_7_to_9"
+}

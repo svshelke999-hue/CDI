@@ -1,0 +1,182 @@
+{
+  "guideline_id": "I.A.12.a",
+  "semantic_title": "Excludes1 Notes - Pure Exclusion Rules for Mutually Exclusive Conditions",
+  "section_path": "Section I > A. Conventions > 12. Excludes Notes > a. Excludes1",
+  "page_number": 10,
+  "content": {
+    "full_text": "A type 1 Excludes note is a pure excludes note. It means \"NOT CODED HERE!\" An Excludes1 note indicates that the code excluded should never be used at the same time as the code above the Excludes1 note. An Excludes1 is used when two conditions cannot occur together, such as a congenital form versus an acquired form of the same condition. An exception to the Excludes1 definition is the circumstance when the two conditions are unrelated to each other. If it is not clear whether the two conditions involving an Excludes1 note are related or not, query the provider. (Evidence: pg no: 10, L23-L29)",
+    "summary": "Excludes1 notes indicate codes that should never be used together except when conditions are clearly unrelated (Evidence: pg no: 10, L23-L29)",
+    "key_concepts": [
+      "Pure excludes note meaning NOT CODED HERE (Evidence: pg no: 10, L23)",
+      "Codes excluded should never be used simultaneously (Evidence: pg no: 10, L23-L24)",
+      "Exception exists for unrelated conditions (Evidence: pg no: 10, L27)",
+      "Provider query required when relationship unclear (Evidence: pg no: 10, L28)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "EXCL1_BASIC",
+        "rule_text": "Excludes1 codes should never be used at the same time as the code above the Excludes1 note (Evidence: pg no: 10, L23-L24)",
+        "explanation": "This is a pure exclusion rule that prevents coding mutually exclusive conditions together (Evidence: pg no: 10, L23-L24)",
+        "importance": "critical",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Congenital versus acquired forms of same condition",
+          "Mutually exclusive diagnostic states"
+        ]
+      },
+      {
+        "rule_id": "EXCL1_EXCEPTION",
+        "rule_text": "Exception applies when two conditions are unrelated to each other (Evidence: pg no: 10, L27)",
+        "explanation": "When conditions involving Excludes1 note are clearly unrelated, both codes may be reported (Evidence: pg no: 10, L27-L29)",
+        "importance": "high",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Multiple unrelated conditions in same patient",
+          "Coincidental occurrence of separate conditions"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify Excludes1 note under code",
+      "Step 2: Determine if conditions are related or unrelated",
+      "Step 3: If related, use only one code",
+      "Step 4: If unrelated, both codes may be used",
+      "Step 5: Query provider if relationship unclear"
+    ],
+    "related_terminology": [
+      "Pure excludes note",
+      "NOT CODED HERE",
+      "Mutually exclusive conditions",
+      "Congenital versus acquired"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "F45.8",
+        "description": "Other somatoform disorders with Excludes1 note for sleep related teeth grinding (Evidence: pg no: 10, L28)",
+        "context": "Example of Excludes1 exception for unrelated conditions",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "F45.8": "Other somatoform disorders including psychogenic dysmenorrhea"
+        }
+      },
+      {
+        "code": "G47.63",
+        "description": "Sleep related teeth grinding excluded from F45.8 (Evidence: pg no: 10, L28-L29)",
+        "context": "Can be coded with F45.8 when patient has both unrelated conditions",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "G47.63": "Sleep related teeth grinding"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Somatoform disorders",
+      "Sleep disorders"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "EXCL1_TEETH_GRINDING",
+      "scenario": "Patient with both psychogenic dysmenorrhea and sleep-related teeth grinding",
+      "documentation_example": "Patient presents with psychogenic dysmenorrhea and unrelated sleep-related teeth grinding",
+      "step_by_step": [
+        "Step 1: Note F45.8 has Excludes1 for G47.63",
+        "Step 2: Determine conditions are unrelated",
+        "Step 3: Apply exception rule",
+        "Step 4: Code both conditions"
+      ],
+      "correct_coding": {
+        "primary_code": "F45.8",
+        "secondary_codes": [
+          "G47.63"
+        ],
+        "sequencing": "Based on encounter circumstances",
+        "rationale": "Conditions are clearly unrelated despite Excludes1 note (Evidence: pg no: 10, L28-L29)"
+      },
+      "incorrect_coding": {
+        "code": "F45.8",
+        "codes": [
+          "F45.8 only"
+        ],
+        "rationale": "Would miss the sleep disorder which is unrelated",
+        "common_mistake": "Automatically excluding all Excludes1 codes without considering relationship"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "EXCL1_EXAMPLE",
+      "scenario": "Teeth grinding with somatoform disorder",
+      "code_example": "F45.8 and G47.63",
+      "breakdown": {
+        "F45.8": "Other somatoform disorders (Evidence: pg no: 10, L28)",
+        "G47.63": "Sleep related teeth grinding (Evidence: pg no: 10, L28)"
+      },
+      "rationale": "Exception applies because conditions are unrelated (Evidence: pg no: 10, L29)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Never use Excludes1 codes together unless conditions are clearly unrelated (Evidence: pg no: 10, L27)",
+      "Query provider when relationship between conditions is unclear (Evidence: pg no: 10, L28)"
+    ],
+    "best_practices": [
+      "Carefully evaluate relationship between conditions before applying exception (Evidence: pg no: 10, L27-L29)",
+      "Document rationale for using exception rule"
+    ],
+    "common_mistakes": [
+      "Automatically excluding all Excludes1 codes without considering unrelated exception",
+      "Failing to query provider when relationship is unclear"
+    ],
+    "tips": [
+      "Look for clear clinical separation between conditions",
+      "Consider whether conditions could logically coexist"
+    ],
+    "implementation_notes": [
+      "Exception rule requires clinical judgment",
+      "Provider documentation should support unrelated nature"
+    ],
+    "clinical_context": [
+      "Congenital versus acquired forms are typically mutually exclusive",
+      "Unrelated conditions may coincidentally occur in same patient"
+    ]
+  },
+  "search_keywords": [
+    "Excludes1",
+    "pure excludes",
+    "NOT CODED HERE",
+    "mutually exclusive",
+    "unrelated conditions",
+    "exception rule",
+    "F45.8",
+    "G47.63",
+    "teeth grinding",
+    "somatoform"
+  ],
+  "metadata": {
+    "category": "convention",
+    "subcategory": "excludes_notes",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "excludes1",
+      "exclusion_rules",
+      "code_relationships",
+      "provider_query"
+    ]
+  },
+  "page_range_processed": "pages_9_to_12"
+}

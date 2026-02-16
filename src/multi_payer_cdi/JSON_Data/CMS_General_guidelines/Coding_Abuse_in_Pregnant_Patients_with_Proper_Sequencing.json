@@ -1,0 +1,175 @@
+{
+  "guideline_id": "I.C.15.r",
+  "semantic_title": "Coding Abuse in Pregnant Patients with Proper Sequencing",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 15. Chapter 15: Pregnancy, Childbirth, and the Puerperium > r. Abuse in a pregnant patient",
+  "page_number": 71,
+  "content": {
+    "full_text": "For suspected or confirmed cases of abuse of a pregnant patient, a code(s) from subcategories O9A.3, Physical abuse complicating pregnancy, childbirth, and the puerperium, O9A.4, Sexual abuse complicating pregnancy, childbirth, and the puerperium, and O9A.5, Psychological abuse complicating pregnancy, childbirth, and the puerperium, should be sequenced first, followed by the appropriate codes (if applicable) to identify any associated current injury due to physical abuse, sexual abuse, and the perpetrator of abuse. See Section I.C.19. Adult and child abuse, neglect and other maltreatment. (Evidence: pg no: 71, L58-L61)",
+    "summary": "Abuse codes in pregnant patients use O9A.3, O9A.4, or O9A.5 sequenced first, followed by injury and perpetrator codes. (Evidence: pg no: 71, L58-L61)",
+    "key_concepts": [
+      "Pregnancy-specific abuse codes (Evidence: pg no: 71, L59-L60)",
+      "Sequencing priority for abuse codes (Evidence: pg no: 71, L60)",
+      "Additional injury and perpetrator coding (Evidence: pg no: 71, L60-L61)",
+      "Suspected or confirmed abuse (Evidence: pg no: 71, L58-L59)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "pregnancy_abuse_sequencing",
+        "rule_text": "Sequence O9A abuse codes first, followed by injury and perpetrator codes (Evidence: pg no: 71, L60-L61)",
+        "explanation": "When coding abuse in pregnant patients, the pregnancy-specific abuse codes take priority in sequencing, followed by any associated injury codes and perpetrator identification codes (Evidence: pg no: 71, L60-L61)",
+        "importance": "critical",
+        "applies_to": "O9A.3, O9A.4, O9A.5",
+        "common_applications": [
+          "Domestic violence in pregnancy",
+          "Sexual assault during pregnancy",
+          "Psychological abuse of pregnant patients"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify type of abuse (physical, sexual, psychological)",
+      "Step 2: Select appropriate O9A subcategory code",
+      "Step 3: Sequence O9A code first",
+      "Step 4: Add injury codes if applicable",
+      "Step 5: Add perpetrator codes if applicable"
+    ],
+    "related_terminology": [
+      "Physical abuse",
+      "Sexual abuse",
+      "Psychological abuse",
+      "Perpetrator identification",
+      "Current injury"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "O9A.3",
+        "description": "Physical abuse complicating pregnancy, childbirth, and the puerperium (Evidence: pg no: 71, L59-L60)",
+        "requirement": "Sequence first for physical abuse cases",
+        "usage_rules": [
+          "Use for suspected or confirmed physical abuse (Evidence: pg no: 71, L58-L59)"
+        ]
+      },
+      {
+        "range": "O9A.4",
+        "description": "Sexual abuse complicating pregnancy, childbirth, and the puerperium (Evidence: pg no: 71, L59-L60)",
+        "requirement": "Sequence first for sexual abuse cases",
+        "usage_rules": [
+          "Use for suspected or confirmed sexual abuse (Evidence: pg no: 71, L58-L59)"
+        ]
+      },
+      {
+        "range": "O9A.5",
+        "description": "Psychological abuse complicating pregnancy, childbirth, and the puerperium (Evidence: pg no: 71, L59-L60)",
+        "requirement": "Sequence first for psychological abuse cases",
+        "usage_rules": [
+          "Use for suspected or confirmed psychological abuse (Evidence: pg no: 71, L58-L59)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "O9A.x + injury codes + perpetrator codes",
+        "description": "Standard sequencing pattern for pregnancy abuse cases (Evidence: pg no: 71, L60-L61)",
+        "example": "O9A.3 followed by injury and perpetrator codes",
+        "explanation": "Pregnancy abuse code takes priority, followed by associated codes"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Injury codes for current injuries",
+      "Perpetrator identification codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.19",
+        "title": "Adult and child abuse, neglect and other maltreatment",
+        "relationship": "related_to",
+        "explanation": "Referenced for additional guidance on abuse coding (Evidence: pg no: 71, L61)"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "physical_abuse_pregnancy",
+      "scenario": "Pregnant patient presents with injuries from domestic violence",
+      "documentation_example": "32-week pregnant patient presents with facial bruising and rib contusions from domestic violence by intimate partner.",
+      "step_by_step": [
+        "Step 1: Identify physical abuse during pregnancy",
+        "Step 2: Code O9A.3 as primary diagnosis",
+        "Step 3: Add injury codes for bruising and contusions",
+        "Step 4: Add perpetrator code for intimate partner"
+      ],
+      "correct_coding": {
+        "primary_code": "O9A.3",
+        "secondary_codes": [
+          "Injury codes",
+          "Perpetrator code"
+        ],
+        "sequencing": "O9A.3 first, then injury and perpetrator codes",
+        "rationale": "Pregnancy abuse codes are sequenced first, followed by associated injury and perpetrator codes (Evidence: pg no: 71, L60-L61)"
+      },
+      "incorrect_coding": {
+        "code": "Injury codes first",
+        "codes": [
+          "Injury codes as primary"
+        ],
+        "rationale": "Pregnancy abuse codes must be sequenced first",
+        "common_mistake": "Sequencing injury codes before pregnancy abuse codes"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Must sequence O9A codes first before injury or perpetrator codes (Evidence: pg no: 71, L60-L61)"
+    ],
+    "best_practices": [
+      "Use appropriate O9A subcategory based on abuse type (Evidence: pg no: 71, L59-L60)",
+      "Include perpetrator codes when applicable (Evidence: pg no: 71, L60-L61)"
+    ],
+    "common_mistakes": [
+      "Sequencing injury codes before pregnancy abuse codes",
+      "Forgetting to include perpetrator identification"
+    ],
+    "tips": [
+      "Can be used for both suspected and confirmed abuse cases"
+    ],
+    "implementation_notes": [
+      "Ensures proper documentation of abuse in pregnancy context"
+    ],
+    "clinical_context": [
+      "Important for tracking domestic violence during pregnancy"
+    ]
+  },
+  "search_keywords": [
+    "pregnancy abuse",
+    "O9A.3",
+    "O9A.4",
+    "O9A.5",
+    "domestic violence",
+    "perpetrator codes"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "abuse_coding",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "abuse",
+      "pregnancy",
+      "domestic violence",
+      "sequencing"
+    ]
+  },
+  "page_range_processed": "pages_69_to_72"
+}

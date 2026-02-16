@@ -1,0 +1,560 @@
+L001: 
+L002: 
+L003: === CHART: tmpsrb2noof.pdf (Type: pre_operative_note) ===
+L004: 11/17/25, 8:58 AM Crawford, Melissa Lynn (MR # MR227404) DOB: 05/30/1965
+L005: 
+L006: H&P by Choo, Kevin, MD filed on 11/15/2025 3:20 PM.
+L007: 
+L008: Author: Choo, Kevin, MD Service: Orthopedics Author Type: Physician
+L009: Date of Service: 11/15/2025 Filed: 11/15/2025 3:20 PM Status: Signed
+L010: Editor: Choo, Kevin, MD (Physician)
+L011: 
+L012: HPI: The patient is a 60 y.o. female with history of Left total knee replacement. The patient did well and was
+L013: recovering quickly from her left knee replacement performed in June 2025.
+L014: 
+L015: Separately, she has a history of lower extremity neuropathy leading to Charcot feet. She has had numerous foot
+L016: procedures to correct midfoot deformities
+L017: 
+L018: Due to her Charcot foot arthropathy she has been dealing with ulcerations and foot infections over the years.
+L019: Recently, they had been well managed prior to the knee replacement.
+L020: 
+L021: More recently, she began to have worsening of her foot issues; followed by Dr Pao and wound care; she had
+L022: infection and purulence, which was cultured and she was placed on antibiotics recently. Separately, she also had
+L023: been on antibiotics for a UTI.
+L024: 
+L025: 4 days ago she had acute onset of left knee pain and severe swelling. Prior to this she was doing well with the knee
+L026: replacement surgery. This was progressive and painful and she had a large effusion. She was sent to the GH ED
+L027: yesterday where she had elevated inflammatory markers, the knee was aspirated and was consistent with acute
+L028: infection with a highly inflammatory white blood cell count, and there was a positive culture.
+L029: 
+L030: She was admitted and IV antibiotics were initiated after the organism was identified. Dr Rossi from ID was consulted.
+L031: ROS: As above.
+L032: Medications: Current Medications
+L033: 
+L034: Current Facility-Administered Medications:
+L035: 
+L036: * acetaminophen (TYLENOL) tablet 1,000 mg, 1,000 mg, Oral, Q6H, Temme, David William, MD
+L037: 
+L038: ¢ [Transfer Hold] acetaminophen (TYLENOL) tablet 975 mg, 975 mg, Oral, Q6H PRN, McKanna, Brandon Hughes,
+L039: PA, 975 mg at 11/15/25 0829
+L040: 
+L041: ¢ [Transfer Hold] budesonide (ENTOCORT EC) DR-ER 24 hr capsule 3 mg, 3 mg, Oral, QAM, Torina, Georgeann,
+L042: PA
+L043: 
+L044: « ceffRIAXone (ROCEPHIN) 2 g in sodium chloride 0.9% PF 20 mL (100 mg/mL), 2 g, IV Push, Q24H, Rossi, James
+L045: Louis, MD
+L046: 
+L047: ¢ [Transfer Hold] cycloSPORINE (RESTASIS) 0.05 % ophthalmic suspension, 1 drop, Both Eyes, BID, Torina,
+L048: Georgeann, PA
+L049: 
+L050: ¢ [Transfer Hold] DULoxetine (CYMBALTA) DR capsule 60 mg, 60 mg, Oral, QAM, Torina, Georgeann, PA
+L051: 
+L052: ¢ [Transfer Hold] ezetimibe (ZETIA) tablet 10 mg, 10 mg, Oral, Nightly, Torina, Georgeann, PA
+L053: 
+L054: * fentaNYL PF (SUBLIMAZE) injection 25 mcg, 25 mcg, IV Push, Q10 MIN PRN, Temme, David William, MD
+L055: 
+L056: ¢ fentaNYL PF (SUBLIMAZE) injection 25 mcg, 25 mcg, IV Push, Q5 MIN PRN, Temme, David William, MD
+L057: 
+L058: * fentaNYL PF (SUBLIMAZE) injection 50 mcg, 50 mcg, IV Push, Q5 MIN PRN, Temme, David William, MD
+L059: 
+L060: ¢ [Transfer Hold] gabapentin (NEURONTIN) capsule 300 mg, 300 mg, Oral, TID WC, Torina, Georgeann, PA
+L061: 
+L062: * HYDROmorphone (DILAUDID) injection 0.5 mg, 0.5 mg, IV Push, Q15 MIN PRN, Temme, David William, MD
+L063: 
+L064: * lactated ringers infusion, 100 mL/hr, Intravenous, Continuous, McKanna, Brandon Hughes, PA, Last Rate: 100
+L065: mL/hr at 11/15/25 0137, 100 mL/hr at 11/15/25 0137
+L066: 
+L067: ¢ lactated ringers infusion, 75 mL/hr, Intravenous, Continuous, Temme, David William, MD
+L068: 
+L069: ¢ [Transfer Hold] melatonin tablet 3 mg, 3 mg, Oral, Nightly PRN, McKanna, Brandon Hughes, PA
+L070: 
+L071: * metoclopramide (REGLAN) injection 10 mg, 10 mg, IV Push, Once PRN, Temme, David William, MD
+L072: 
+L073: * naloxone (NARCAN) injection 0.04 mg, 0.04 mg, IV Push, Q5 MIN PRN, Temme, David William, MD
+L074: 
+L075: * [Transfer Hold] nebivoloL (BYSTOLIC) tablet 2.5 mg, 2.5 mg, Oral, Nightly, Torina, Georgeann, PA
+L076: 
+L077: ¢ [Transfer Hold] Non-Formulary/Restricted or Patients Own Medication Request, , NOT APPLICABLE, Once, Torina,
+L078: Georgeann, PA
+L079: 
+L080: ¢ [Transfer Hold] Non-Formulary/Restricted or Patients Own Medication Request, , NOT APPLICABLE, Once, Torina,
+L081: Georgeann, PA
+L082: 
+L083: * ondansetron (PF) (ZOFRAN) injection 4 mg, 4 mg, IV Push, Q10 MIN PRN, Temme, David William, MD
+L084: 
+L085: * oxyCODONE (ROXICODONE) Immediate Release tablet 10 mg, 10 mg, Oral, Q4H PRN, Temme, David William,
+L086: MD
+L087: 
+L088: * oxyCODONE (ROXICODONE) Immediate Release tablet 2.5 mg, 2.5 mg, Oral, Q30 MIN PRN, Temme, David
+L089: William, MD
+L090: 
+L091: ¢ [Transfer Hold] oxyCODONE (ROXICODONE) Immediate Release tablet 5 mg, 5 mg, Oral, Q3H PRN, McKanna,
+L092: Brandon Hughes, PA, 5 mg at 11/15/25 0829
+L093: 
+L094: Crawford, Melissa Lynn (MRN MR227404) Printed by Stagno, Cesarina [767] at 11/17/2025 8:58 AM 1/4
+L095: 
+L096: 11/17/25, 8:58 AM
+L097: 
+L098: Crawford, Melissa Lynn (MR # MR227404) DOB: 05/30/1965
+L099: 
+L100: * oxyCODONE (ROXICODONE) Immediate Release tablet 5 mg, 5 mg, Oral, Q30 MIN PRN, Temme, David William,
+L101: MD
+L102: 
+L103: ¢ [Transfer Hold] sodium chloride 0.9 % flush 3 mL, 3 mL, IV Push, Q8H, McKanna, Brandon Hughes, PA
+L104: 
+L105: ¢ [Transfer Hold] sodium chloride 0.9 % flush 3 mL, 3 mL, IV Push, PRN for Line Care, McKanna, Brandon Hughes,
+L106: PA
+L107: 
+L108: * sodium chloride 0.9% infusion, 100 mL/hr, Intravenous, Continuous, Torina, Georgeann, PA
+L109: 
+L110: * vancomycin (VANCOCIN) 1.25 g in sodium chloride 0.9% 250 mL IVPB, 1.25 g, Intravenous, Q12H, McKanna,
+L111: 
+L112: Brandon Hughes, PA
+L113: 
+L114: ¢ [Transfer Hold] zolpidem (AMBIEN) tablet 5 mg, 5 mg, Oral, Nightly, Torina, Georgeann, PA
+L115: 
+L116: Allergies: Allergies
+L117: Allergies
+L118: Allergen
+L119: 
+L120: Erythromycin
+L121: hives
+L122: Macrolide Antibiotics
+L123: Milk
+L124: "Cow Dairy only"
+L125: Pravastatin
+L126: Myalgia
+L127: Simvastatin
+L128: Muscle aches
+L129: Thimerosal
+L130: Blood shot eyes from preservative
+L131: Mercury
+L132: Amoxicillin
+L133: Augmentin [Amoxicillin-Pot Clavulanate]
+L134: Tape [Adhesive Tape-Silicones]
+L135: "redness at the site of tape"
+L136: 
+L137: PMH: Past Medical History
+L138: Past Medical History:
+L139: Diagnosis
+L140: 
+L141: Anxiety
+L142: 
+L143: * Arthritis
+L144: 
+L145: Chronic pain
+L146: Dyslipidemia
+L147: 
+L148: Essential hypertension
+L149: History of ETOH abuse
+L150: Hypercholesteremia
+L151: Microscopic colitis
+L152: mesalamine daily
+L153: Neuropathy (HC Code)
+L154: Feet
+L155: 
+L156: Rectus sheath hematoma
+L157: RLQ
+L158: 
+L159: PSH: Past Surgical History
+L160: Past Surgical History:
+L161: Procedure
+L162: 
+L163: BACK SURGERY
+L164: 
+L165: open L3-L4 microdiscectomy
+L166: CATARACT EXTRACTION
+L167: CATARACT EXTRACTION
+L168: COLONOSCOPY
+L169: DEBRIDEMENT FOOT
+L170: FOOT NEUROMA SURGERY
+L171: FOOT SURGERY
+L172: 
+L173: RIGHT ARTHRODESIS
+L174: FOOT SURGERY
+L175: 
+L176: removal of hardware
+L177: 
+L178: ORIF FOOT FRACTURE
+L179: 
+L180: Reactions
+L181: Hives
+L182: 
+L183: Hives and Rash
+L184: 
+L185: Hives
+L186: 
+L187: Other (See Comments)
+L188: 
+L189: Other (See Comments)
+L190: 
+L191: Other (See Comments)
+L192: 
+L193: Unknown
+L194: Rash
+L195: Rash
+L196: Rash
+L197: 
+L198: REMOVAL, IMPLANT; DEEP FOOT; DEBRIDEMENT FIFTH TOE;
+L199: 
+L200: EXCISION BONE SPUR
+L201: 
+L202: UPPER GASTROINTESTINAL ENDOSCOPY
+L203: 
+L204: Crawford, Melissa Lynn (MRN MR227404) Printed by Stagno, Cesarina [767] at 11/17/2025 8:58 AM
+L205: 
+L206: Laterality
+L207: Left
+L208: 
+L209: Right
+L210: Left
+L211: 
+L212: Right
+L213: Left
+L214: 
+L215: Right
+L216: Right
+L217: 
+L218: Right
+L219: Right
+L220: 
+L221: Date
+L222: 
+L223: 2019
+L224: 
+L225: 07/2016
+L226: 
+L227: Date
+L228: 08/01/2024
+L229: 
+L230: 02/14/2024
+L231: 02/28/2024
+L232: 07/20/2018
+L233: 04/03/2023
+L234: 06/13/2022
+L235: 02/2022
+L236: 
+L237: 10/2017
+L238: 04/18 /2018
+L239: 
+L240: 2/4
+L241: 
+L242: 11/17/25, 8:58 AM Crawford, Melissa Lynn (MR # MR227404) DOB: 05/30/1965
+L243: 
+L244: FH: No relevant family MSK history
+L245: 
+L246: Physical Exam:
+L247: 
+L248: Temp: [97.6 °F (36.4 °C)-99.6 °F (37.6 °C)] 98 °F (36.7 °C)
+L249: Pulse: [74-88] 82
+L250: 
+L251: Resp: [16-20] 17
+L252: 
+L253: BP: (118-161)/(60-88) 128/64
+L254: 
+L255: SpO2: [92 %-99 %] 95 %
+L256: 
+L257: Gen: 60-year-old female resting comfortably in hospital bed. No acute distress.
+L258: 
+L259: Heart: RRR
+L260: 
+L261: Lungs: Respirations nonlabored.
+L262: 
+L263: Abd: Soft nontender nondistended.
+L264: 
+L265: Neuro: Patient is alert and oriented. She responds appropriately to questions and commands. Moving bilateral
+L266: upper and lower extremities equally.
+L267: 
+L268: Ext:
+L269: 
+L270: Left knee - swollen left knee. Slightly erythematous. Nontender to touch. No drainage. No open wounds on the
+L271: knee.
+L272: 
+L273: Left foot - wound painted with Betadine. Covered with clean dry intact gauze dressing.
+L274: 
+L275: Right foot - wound painted with Betadine. Covered and wrapped with clean dry intact gauze dressing
+L276: 
+L277: Labs:
+L278: Complete Blood Count
+L279: Results in Past 7 Days
+L280: 
+L281: Result Component Current Result
+L282: Hematocrit 38.30 (11/15/2025)
+L283: Hemoglobin 12.1 (11/15/2025)
+L284: MCH 29.4 (11/15/2025)
+L285: MCHC 31.6 (11/15/2025)
+L286: MCV 93.2 (11/15/2025)
+L287: MPV 9.8 (11/15/2025)
+L288: Platelets 371 (11/15/2025)
+L289: RBC 4.11 (11/15/2025)
+L290: WBC 10.8 (11/15/2025)
+L291: 
+L292: Comprehensive Metabolic Profile
+L293: Results in Past 7 Days
+L294: 
+L295: Result Component Current Result
+L296: Alanine Aminotransferase 45 (11/14/2025)
+L297: (ALT)
+L298: 
+L299: Albumin 3.8 (11/14/2025)
+L300: Alkaline Phosphatase 67 (11/14/2025)
+L301: Aspartate 37 (11/14/2025)
+L302: Aminotransferase (AST)
+L303: 
+L304: BUN 11 (11/15/2025)
+L305: Calcium 9.1 (11/15/2025)
+L306: Chloride 103 (11/15/2025)
+L307: CO2 25 (11/15/2025)
+L308: Creatinine 0.69 (11/15/2025)
+L309: eGFR (Creatinine) >60 (11/15/2025)
+L310: Globulin 3.1 (11/14/2025)
+L311: Glucose 92 (11/15/2025)
+L312: Potassium 3.9 (11/15/2025)
+L313: Sodium 140 (11/15/2025)
+L314: Total Protein 6.9 (11/14/2025)
+L315: 
+L316: Diagnostics:
+L317: 
+L318: XR Knee 2V Left
+L319: 
+L320: Result Date: 11/14/2025
+L321: 
+L322: 1. Ajoint effusion is present and a total knee arthroplasty is in expected position. 2. No fracture is demonstrated.
+L323: Reported and signed by: Christopher Fey, MD
+L324: 
+L325: Crawford, Melissa Lynn (MRN MR227404) Printed by Stagno, Cesarina [767] at 11/17/2025 8:58 AM 3/4
+L326: 
+L327: 11/17/25, 8:58 AM Crawford, Melissa Lynn (MR # MR227404) DOB: 05/30/1965
+L328: AIP: 60-year-old female with acute hematogenous infection of left total knee
+L329: <1 week of symptoms
+L330: Active infections of foot ulcers and UTI as possible hematogenous sources
+L331: 
+L332: ESR 67
+L333: CRP 24.5
+L334: WBC 11
+L335: 
+L336: Aspiration: 88k WBC with 94% Neutrophils
+L337: Gram Stain positive for GPC in pairs
+L338: 
+L339: After careful discussion of the risks and benefits of the surgery, including the potential complications of deep venous
+L340: thrombosis, infection, nerve or blood vessel injury, ligament injury, fracture, incomplete resolution of pain, continued
+L341: deformity, loss of range of motion and stiffness, and the complications associated with anesthesia, the patient has
+L342: decided that they would like to proceed with revision left knee replacement. Due to acute hematogenous nature of
+L343: the infection, we determined that modular exchange/revision of the polyethylene would be appropriate with retention
+L344: 
+L345: of the other implants.
+L346: 
+L347: Kevin Choo, MD
+L348: 
+L349: Electronically signed by Choo, Kevin, MD at 11/15/2025 3:20 PM
+L350: 
+L351: ED to Hosp-Admission (Current) on 11/14/2025 = Note shared with patient
+L352: 
+L353: Routing History
+L354: 
+L355: Priority Sent On From To
+L356: t 11/14/2025 11:00 Lab, Background User Pouliot, Stacy, PA
+L357: PM
+L358: t 11/14/2025 9:24 Edi, Rad Results In Pouliot, Stacy, PA
+L359: PM
+L360: t 11/14/2025 8:02 Edi, Rad Results In Pouliot, Stacy, PA
+L361: PM
+L362: t 11/14/2025 7:46 Lab, Background User Wainwright, Sandra K, MD
+L363: PM
+L364: 
+L365: Crawford, Melissa Lynn (MRN MR227404) Printed by Stagno, Cesarina [767] at 11/17/2025 8:58 AM
+L366: 
+L367: Message Type
+L368: Results
+L369: 
+L370: Results
+L371: Results
+L372: 
+L373: Results
+L374: 
+L375: 4/4
+L376: === END CHART: tmpsrb2noof.pdf ===
+L377: 
+L378: 
+L379: === CHART: tmpsceyumey.pdf (Type: operative_note) ===
+L380: 11/17/25, 8:58 AM Crawford, Melissa Lynn (MR # MR227404) DOB: 05/30/1965
+L381: 
+L382: Operative Note by Choo, Kevin, MD filed on 11/15/2025 3:16 PM.
+L383: 
+L384: Author: Choo, Kevin, MD Service: Orthopedics Author Type: Physician
+L385: Date of Service: 11/15/2025 Filed: 11/15/2025 3:16 PM Status: Signed
+L386: Editor: Choo, Kevin, MD (Physician)
+L387: 
+L388: Orthopedic Surgery Operative Report
+L389: 
+L390: Melissa Lynn Crawford
+L391: 
+L392: Date of Procedure: 11/15/25
+L393: 
+L394: Location: Greenwich Hospital
+L395: 
+L396: Procedure:
+L397: 
+L398: 1) Left Total Knee Revision Arthroplasty (single-component revision)
+L399: 
+L400: 2) Application of negative pressure wound therapy, incisional wound vac (PREVENA)
+L401: Surgeon: Dr. Kevin J Choo
+L402: 
+L403: Anesthesia Staff:
+L404: ANESTHESIOLOGIST: Temme, David William, MD
+L405: 
+L406: Anesthesia Type: Spinal
+L407: 
+L408: Pre-Operative Diagnosis: Acute hematogenous periprosthetic infection of left knee
+L409: Post-Operative Diagnosis: Acute hematogenous periprosthetic infection of left knee
+L410: Specimens:
+L411: 
+L412: Synovial Fluid
+L413: 
+L414: Swabs x 2
+L415: 
+L416: Tibial polyethylene to gross specimen
+L417: 
+L418: Estimated Blood Loss: 25mL
+L419: 
+L420: Tourniquet time: 100minutes
+L421: 
+L422: Findings: Intra articular purulence consistent with acute infection
+L423: Implants on femur, tibia and patella well fixed, no osteolysis
+L424: 
+L425: Implants:
+L426: 
+L427: Implant Name Type Inv. Item Serial No. Manufacturer Lot LRB_ No. Action
+L428: No. Used
+L429: 
+L430: PSN MC VE ASF L Implant PSN MC VE ZIMMER 67063 Left 1 Implanted
+L431: 
+L432: 13MM 6-7/CD - ASF L 13MM 6- 195
+L433: 
+L434: LOG3517166 7/CD
+L435: 
+L436: Implant: 13mm medial congruent PE
+L437: 
+L438: Clinical History:
+L439: 
+L440: The patient is a 60 y.o. female with history of Left total Knee replacement. The patient did well and was recovering
+L441: quickly from her left knee replacement performed in June 2025.
+L442: 
+L443: Separately, she has a history of lower extremity neuropathy leading to Charcot feet. She has had numerous foot
+L444: procedures to correct midfoot deformities
+L445: 
+L446: Due to her Charcot foot arthropathy she has been dealing with ulcerations and foot infections over the years.
+L447: Recently, they had been well managed prior to the knee replacement.
+L448: 
+L449: More recently, she began to have worsening of her foot issues; followed by Dr Pao and wound care; she had
+L450: infection and purulence, which was cultured and she was placed on antibiotics recently. Separately, she also had
+L451: been on antibiotics for a UTI.
+L452: 
+L453: 4 days ago she had acute onset of left knee pain and severe swelling. Prior to this she was doing well with the knee
+L454: replacement surgery. This was progressive and painful and she had a large effusion. She was sent to the GH ED
+L455: yesterday where she had elevated inflammatory markers, the knee was aspirated and was consistent with acute
+L456: infection with a highly inflammatory white blood cell count, and there was a positive culture.
+L457: 
+L458: Crawford, Melissa Lynn (MRN MR227404) Printed by Stagno, Cesarina [767] at 11/17/2025 8:58 AM
+L459: 
+L460: 11/17/25, 8:58 AM Crawford, Melissa Lynn (MR # MR227404) DOB: 05/30/1965
+L461: She was admitted and IV antibiotics were initiated after the organism was identified. Dr Rossi from ID was consulted.
+L462: 
+L463: After careful discussion of the risks and benefits of the surgery, including the potential complications of deep venous
+L464: thrombosis, infection, nerve or blood vessel injury, ligament injury, fracture, incomplete resolution of pain, continued
+L465: deformity, loss of range of motion and stiffness, and the complications associated with anesthesia, the patient has
+L466: decided that they would like to proceed with revision left knee replacement. Due to acute hematogenous nature of
+L467: the infection, we determined that modular exchange/revision of the polyethylene would be appropriate with retention
+L468: of the other implants.
+L469: 
+L470: Description of procedure:
+L471: 
+L472: The patient was met in the preoperative area, and again the associated risks of the surgery were discussed with the
+L473: patient. Informed consent was obtained. The operative site was marked. The patient was transferred to the operating
+L474: room. A spinal anesthetic was performed prior to the procedure. The patient received preoperative antibiotics within
+L475: 30 minutes prior to the incision, and tranexamic acid intravenously. Tranexamic acid was also given at the end of the
+L476: case. Prior to incision a surgical time out was performed to confirm patient identification, and laterality.
+L477: 
+L478: Prior to the incision, we repeated aspiration under sterile conditions. 50cc of purulent fluid was aspirated and sent for
+L479: culture.
+L480: 
+L481: A longitudinal incision was made, centered over the anterior aspect of the knee. Soft tissue was dissected sharply
+L482: down to the extensor mechanism. A medial parapatellar arthrotomy was performed to expose the knee joint.
+L483: 
+L484: Soft tissue was elevated off the proximal medial tibia for exposure. Infrapatellar fat pad was excised. The patella was
+L485: subluxed laterally.
+L486: 
+L487: Swabs were taken and sent for microbiology.
+L488: 
+L489: Complete synovectomy was performed using electrocautery, curette, cobb and rongeur. We were careful to remove
+L490: synovium from the lateral gutters, supra patellar pouch, and the posterior capsule.
+L491: 
+L492: Using an osteotome and forcep, we were able to remove the tibial polyethylene without disrupting the tibial
+L493: component fixation. We then probed the implant/cement/bone interfaces of the femur, tibia and patellar button--
+L494: which were stable.
+L495: 
+L496: Full mechanical debridement undertaken throughout the joint including rongeur, curette, and bovie.
+L497: 
+L498: Following the synovectomy, we then performed mechanical disruption of biofilm with sponges, scrub brushes and
+L499: pulsatile lavage. A series of anti microbial fluids were irrigated through the knee including NS with Ancef, Irrisept,
+L500: Bactisure, and Surgiphor (betadine). Soft and hard brushes used to disrupt any potential biofilm on the implants.
+L501: 
+L502: We then placed a sterile cover on the knee and removed all dirty drapes gowns and gloves.
+L503: An entirely sterile new setup was utilized. All surgical staff re-prepped and draped in order to ensure sterility.
+L504: 
+L505: We then repeated our debridement and then repeated the full irrigation protocol. In total, approximtely 20L of fluid
+L506: was irrigated through the knee.
+L507: 
+L508: We then trialed and implanted the appropriate tibial polyethylene. The knee was taken through a full range of motion,
+L509: with excellent extension, flexion, and coronal plane balance. A 13mm medial congruent PE liner was implanted.
+L510: 
+L511: 2g of Ancef and 2g of vancomycin powder was then placed into the deep wound.
+L512: 
+L513: At this point we began our closure. The arthrotomy was then closed with monofilament barbed suture; followed by
+L514: monofilament deep fatty layer closure, followed by a running #2 PDO barbed suture for the superficial tissues.
+L515: Staples were utilized for skin closure. Due to concern for poor wound healing, an incisional wound vac (PICO) was
+L516: utilized to accelerate skin healing and reduce risk for infection. The tourniquet was deflated. The patient was
+L517: transferred to the recovery room in stable condition.
+L518: 
+L519: Post-operative Plan:
+L520: 
+L521: The patient be allowed to weight-bear as tolerated.
+L522: 
+L523: They will receive post-operative antibiotics and be started on DVT prophylaxis.
+L524: 
+L525: Follow up pre and intra-operative cultures
+L526: 
+L527: Prevena wound vac x 7 days
+L528: 
+L529: Staples out in 14 days
+L530: 
+L531: They will be discharged home from the hospital when they are comfortable and have met all PT goals and antibiotic
+L532: plan is finalized.
+L533: 
+L534: Kevin Choo, MD
+L535: 
+L536: Date: 11/15/2025 Time: 2:51 PM
+L537: 
+L538: Crawford, Melissa Lynn (MRN MR227404) Printed by Stagno, Cesarina [767] at 11/17/2025 8:58 AM
+L539: 
+L540: 11/17/25, 8:58 AM Crawford, Melissa Lynn (MR # MR227404) DOB: 05/30/1965
+L541: 
+L542: Electronically signed by Choo, Kevin, MD at 11/15/2025 3:16 PM
+L543: 
+L544: ED to Hosp-Admission (Current) on 11/14/2025 Note shared with patient
+L545: 
+L546: Routing History
+L547: 
+L548: Priority Sent On From To Message Type
+L549: t 11/14/2025 11:00 Lab, Background User Pouliot, Stacy, PA Results
+L550: PM
+L551: t 11/14/2025 9:24 Edi, Rad Results In Pouliot, Stacy, PA Results
+L552: PM
+L553: t 11/14/2025 8:02 Edi, Rad Results In Pouliot, Stacy, PA Results
+L554: PM
+L555: t 11/14/2025 7:46 Lab, Background User Wainwright, Sandra K, MD Results
+L556: PM
+L557: 
+L558: Crawford, Melissa Lynn (MRN MR227404) Printed by Stagno, Cesarina [767] at 11/17/2025 8:58 AM
+L559: === END CHART: tmpsceyumey.pdf ===
+L560: 

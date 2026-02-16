@@ -1,0 +1,139 @@
+{
+  "guideline_id": "I.C.1.g.1.i",
+  "semantic_title": "Coding Guidelines for Personal History of COVID-19",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 1. Chapter 1: Certain Infectious and Parasitic Diseases > g. Coronavirus infections > 1. COVID-19 infections > i. Personal history of COVID-19",
+  "page_number": 31,
+  "content": {
+    "full_text": "For patients with a history of COVID-19, assign code Z86.16, Personal history of COVID-19. (Evidence: pg no: 31, L37-L39)",
+    "summary": "Specifies the code assignment for patients with a documented history of COVID-19 infection (Evidence: pg no: 31, L37-L39)",
+    "key_concepts": [
+      "Personal history coding for COVID-19 (Evidence: pg no: 31, L37-L39)",
+      "Z86.16 code assignment (Evidence: pg no: 31, L38-L39)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "COVID_HIST_01",
+        "rule_text": "Assign Z86.16 for patients with history of COVID-19 (Evidence: pg no: 31, L38-L39)",
+        "explanation": "When a patient has a documented history of COVID-19 infection, assign the specific personal history code Z86.16 (Evidence: pg no: 31, L37-L39)",
+        "importance": "high",
+        "applies_to": "Z86.16",
+        "common_applications": [
+          "Follow-up visits after COVID-19 recovery",
+          "Patients with resolved COVID-19 infection"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify patient with documented COVID-19 history",
+      "Step 2: Assign code Z86.16",
+      "Step 3: Consider additional codes for current conditions"
+    ],
+    "related_terminology": [
+      "personal history",
+      "resolved infection",
+      "COVID-19 history"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "Z86.16",
+        "description": "Personal history of COVID-19 (Evidence: pg no: 31, L38-L39)",
+        "context": "For patients with documented history of COVID-19",
+        "requires_additional_codes": "check_code_notes",
+        "breakdown": {
+          "Z86": "Personal history of certain other diseases",
+          ".16": "Personal history of COVID-19"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Personal history codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.1.g.1.j",
+        "title": "Follow-up visits after COVID-19 infection has resolved",
+        "relationship": "related_to",
+        "explanation": "Personal history code used in follow-up scenarios"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "COVID_HIST_01",
+      "scenario": "Patient presents for routine care with documented history of COVID-19 infection that has resolved",
+      "documentation_example": "Patient has history of COVID-19 infection in 2023, fully recovered",
+      "step_by_step": [
+        "Step 1: Identify documented COVID-19 history",
+        "Step 2: Assign Z86.16 as appropriate",
+        "Step 3: Code primary reason for encounter"
+      ],
+      "correct_coding": {
+        "primary_code": "Primary reason for visit",
+        "secondary_codes": [
+          "Z86.16"
+        ],
+        "sequencing": "Z86.16 as additional diagnosis when relevant",
+        "rationale": "Personal history code captures important medical history (Evidence: pg no: 31, L37-L39)"
+      },
+      "incorrect_coding": {
+        "code": "U07.1",
+        "codes": [
+          "U07.1"
+        ],
+        "rationale": "U07.1 is for active COVID-19, not history",
+        "common_mistake": "Using active COVID-19 code for resolved infection"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [],
+    "best_practices": [
+      "Use Z86.16 for documented COVID-19 history (Evidence: pg no: 31, L37-L39)"
+    ],
+    "common_mistakes": [
+      "Confusing history codes with active infection codes"
+    ],
+    "tips": [
+      "Personal history codes provide important medical context"
+    ],
+    "implementation_notes": [
+      "Ensure clear documentation of COVID-19 history"
+    ],
+    "clinical_context": [
+      "Follow-up care scenarios",
+      "Routine medical visits"
+    ]
+  },
+  "search_keywords": [
+    "COVID-19 history",
+    "personal history",
+    "Z86.16",
+    "resolved COVID-19",
+    "COVID-19 recovery"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "COVID-19 coding",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "COVID-19",
+      "personal_history",
+      "Z_codes"
+    ]
+  },
+  "page_range_processed": "pages_30_to_33"
+}

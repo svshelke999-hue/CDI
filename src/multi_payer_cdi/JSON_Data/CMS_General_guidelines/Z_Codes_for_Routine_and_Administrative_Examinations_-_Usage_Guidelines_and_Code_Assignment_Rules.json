@@ -1,0 +1,235 @@
+{
+  "guideline_id": "I.C.21.c.12",
+  "semantic_title": "Z Codes for Routine and Administrative Examinations - Usage Guidelines and Code Assignment Rules",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 21. Factors Influencing Health Status and Contact with Health Services (Z00-Z99) > c. Categories of Z Codes > 12. Routine and Administrative Examinations",
+  "page_number": 103,
+  "content": {
+    "full_text": "The Z codes allow for the description of encounters for routine examinations, such as, a general check-up, or, examinations for administrative purposes, such as, a pre-employment physical. The codes are not to be used if the examination is for diagnosis of a suspected condition or for treatment purposes. In such cases the diagnosis code is used. During a routine exam, should a diagnosis or condition be discovered, it should be coded as an additional code. Pre-existing and chronic conditions and history codes may also be included as additional codes as long as the examination is for administrative purposes and not focused on any particular condition. Some of the codes for routine health examinations distinguish between 'with' and 'without' abnormal findings. Code assignment depends on the information that is known at the time the encounter is being coded. For example, if no abnormal findings were found during the examination, but the encounter is being coded before test results are back, it is acceptable to assign the code for 'without abnormal findings.' When assigning a code for 'with abnormal findings,' additional code(s) should be assigned to identify the specific abnormal finding(s). Pre-operative examination and pre-procedural laboratory examination Z codes are for use only in those situations when a patient is being cleared for a procedure or surgery and no treatment is given. (Evidence: pg no: 103, L31-L32)",
+    "summary": "Guidelines for coding routine and administrative examinations using Z codes, including rules for abnormal findings, pre-existing conditions, and pre-operative clearances (Evidence: pg no: 103, L31-L32)",
+    "key_concepts": [
+      "Z codes describe routine and administrative examination encounters (Evidence: pg no: 103, L31)",
+      "Not used for diagnostic or treatment purposes (Evidence: pg no: 103, L31)",
+      "Additional codes for conditions discovered during routine exams (Evidence: pg no: 103, L31)",
+      "Distinction between 'with' and 'without' abnormal findings (Evidence: pg no: 103, L31-L32)",
+      "Pre-operative codes only for clearance without treatment (Evidence: pg no: 103, L32)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "ROUTINE_EXAM_PURPOSE",
+        "rule_text": "The codes are not to be used if the examination is for diagnosis of a suspected condition or for treatment purposes. In such cases the diagnosis code is used (Evidence: pg no: 103, L31)",
+        "explanation": "Z codes for routine examinations are specifically excluded when the encounter has diagnostic or therapeutic intent, requiring use of appropriate diagnosis codes instead (Evidence: pg no: 103, L31)",
+        "importance": "critical",
+        "applies_to": "Z00, Z01, Z02",
+        "common_applications": [
+          "Distinguishing routine from diagnostic examinations",
+          "Proper code selection based on encounter purpose"
+        ]
+      },
+      {
+        "rule_id": "ABNORMAL_FINDINGS_CODING",
+        "rule_text": "Code assignment depends on the information that is known at the time the encounter is being coded. When assigning a code for 'with abnormal findings,' additional code(s) should be assigned to identify the specific abnormal finding(s) (Evidence: pg no: 103, L31-L32)",
+        "explanation": "The choice between 'with' and 'without' abnormal findings codes depends on available information at coding time, with specific abnormal findings requiring additional codes (Evidence: pg no: 103, L31-L32)",
+        "importance": "high",
+        "applies_to": "Z00, Z01",
+        "common_applications": [
+          "Coding before test results available",
+          "Identifying specific abnormal findings"
+        ]
+      },
+      {
+        "rule_id": "PREOP_CLEARANCE_ONLY",
+        "rule_text": "Pre-operative examination and pre-procedural laboratory examination Z codes are for use only in those situations when a patient is being cleared for a procedure or surgery and no treatment is given (Evidence: pg no: 103, L32)",
+        "explanation": "Pre-operative Z codes are restricted to clearance encounters without any treatment component, ensuring proper distinction from therapeutic encounters (Evidence: pg no: 103, L32)",
+        "importance": "high",
+        "applies_to": "Pre-operative Z codes",
+        "common_applications": [
+          "Pre-surgical clearance examinations",
+          "Pre-procedural laboratory work"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if examination is routine/administrative vs diagnostic/therapeutic",
+      "Step 2: If routine, select appropriate Z code category (Z00, Z01, Z02)",
+      "Step 3: Determine if abnormal findings are known at time of coding",
+      "Step 4: Select 'with' or 'without' abnormal findings version",
+      "Step 5: Add codes for any specific abnormal findings discovered",
+      "Step 6: Include relevant pre-existing conditions as additional codes if appropriate"
+    ],
+    "related_terminology": [
+      "Routine examinations",
+      "Administrative examinations",
+      "General check-up",
+      "Pre-employment physical",
+      "Abnormal findings",
+      "Pre-operative examination",
+      "Pre-procedural examination",
+      "Clearance examination"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z00-Z02, Z32.0-",
+        "description": "Routine and administrative examination codes (Evidence: pg no: 103-104, L33-L39)",
+        "requirement": "Use only for routine/administrative purposes, not diagnostic",
+        "usage_rules": [
+          "Not for suspected conditions or treatment (Evidence: pg no: 103, L31)",
+          "Add codes for conditions discovered during exam (Evidence: pg no: 103, L31)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "Z00",
+        "description": "Encounter for general examination without complaint, suspected or reported diagnosis (Evidence: pg no: 103, L33-L34)",
+        "context": "General check-ups and routine examinations",
+        "requires_additional_codes": "check_code_notes",
+        "breakdown": {
+          "Z00": "General examination encounters"
+        }
+      },
+      {
+        "code": "Z01",
+        "description": "Encounter for other special examination without complaint, suspected or reported diagnosis (Evidence: pg no: 103, L35-L36)",
+        "context": "Special routine examinations",
+        "requires_additional_codes": "check_code_notes",
+        "breakdown": {
+          "Z01": "Special examination encounters"
+        }
+      },
+      {
+        "code": "Z02",
+        "description": "Encounter for administrative examination (Evidence: pg no: 103, L37)",
+        "context": "Administrative purposes like pre-employment physicals",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z02": "Administrative examination encounters"
+        }
+      },
+      {
+        "code": "Z32.0-",
+        "description": "Encounter for pregnancy test (Evidence: pg no: 103, L39)",
+        "context": "Routine pregnancy testing",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z32.0": "Pregnancy test encounters"
+        }
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": "Z0X",
+        "description": "Routine and administrative examination codes (Evidence: pg no: 103, L33-L39)",
+        "example": "Z00, Z01, Z02",
+        "explanation": "Most routine examination codes fall in Z00-Z02 range"
+      }
+    ],
+    "code_categories_mentioned": [
+      "General examinations",
+      "Special examinations",
+      "Administrative examinations",
+      "Pregnancy tests"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "ROUTINE_PHYSICAL",
+      "scenario": "Annual physical examination with discovery of hypertension",
+      "documentation_example": "Annual routine physical exam, patient feels well, blood pressure found to be elevated at 150/95",
+      "step_by_step": [
+        "Step 1: Identify as routine examination encounter",
+        "Step 2: Assign Z00 code for general examination",
+        "Step 3: Since abnormal finding discovered, use 'with abnormal findings' version",
+        "Step 4: Add code for hypertension as additional diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "Z00.01",
+        "secondary_codes": [
+          "I10"
+        ],
+        "sequencing": "Z code first, then abnormal finding",
+        "rationale": "Routine exam with abnormal finding requires both Z code and specific diagnosis (Evidence: pg no: 103, L31-L32)"
+      },
+      "incorrect_coding": {
+        "code": "I10",
+        "rationale": "Primary diagnosis should be Z code since encounter was for routine examination",
+        "common_mistake": "Using only the abnormal finding code without the Z code"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "PREOP_CLEARANCE",
+      "scenario": "Pre-operative clearance examination before elective surgery",
+      "code_example": "Z01.810",
+      "breakdown": {
+        "Z01.810": "Pre-operative cardiovascular examination (Evidence: pg no: 103, L32)"
+      },
+      "rationale": "Pre-operative codes used only for clearance without treatment (Evidence: pg no: 103, L32)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not use for examinations with diagnostic or treatment intent (Evidence: pg no: 103, L31)",
+      "Z02.9 (unspecified administrative examination) should be avoided when more specific codes available (Evidence: pg no: 103, L38)"
+    ],
+    "best_practices": [
+      "Add codes for any conditions discovered during routine examinations (Evidence: pg no: 103, L31)",
+      "Choose 'with' or 'without' abnormal findings based on information available at coding time (Evidence: pg no: 103, L31-L32)",
+      "Include pre-existing conditions as additional codes when examination is administrative (Evidence: pg no: 103, L31)"
+    ],
+    "common_mistakes": [
+      "Using routine examination codes for diagnostic encounters",
+      "Failing to code abnormal findings discovered during routine exams",
+      "Using pre-operative codes when treatment is provided"
+    ],
+    "tips": [
+      "Acceptable to use 'without abnormal findings' if coding before test results available",
+      "Pre-existing conditions can be coded additionally if examination is administrative"
+    ],
+    "implementation_notes": [
+      "Code assignment timing affects choice of 'with' vs 'without' abnormal findings",
+      "Administrative purpose allows inclusion of chronic conditions as additional codes"
+    ],
+    "clinical_context": [
+      "Annual physical examinations",
+      "Pre-employment physicals",
+      "Insurance examinations",
+      "Pre-operative clearances"
+    ]
+  },
+  "search_keywords": [
+    "routine examination Z codes",
+    "administrative examination",
+    "Z00 general examination",
+    "Z01 special examination",
+    "Z02 administrative",
+    "abnormal findings",
+    "pre-operative clearance",
+    "routine physical"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "routine_administrative_examinations",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "outpatient",
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "Z_codes",
+      "routine_examinations",
+      "administrative_examinations",
+      "abnormal_findings",
+      "pre_operative"
+    ]
+  },
+  "page_range_processed": "pages_102_to_105"
+}

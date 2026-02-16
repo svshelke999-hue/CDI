@@ -1,0 +1,234 @@
+{
+  "guideline_id": "I.C.6.b.5",
+  "semantic_title": "Neoplasm Related Pain Coding Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 6. Chapter 6: Diseases of the Nervous System > b. Pain - Category G89 > 5) Neoplasm Related Pain",
+  "page_number": 48,
+  "content": {
+    "full_text": "Code G89.3 is assigned to pain documented as being related, associated or due to cancer, primary or secondary malignancy, or tumor. This code is assigned regardless of whether the pain is acute or chronic. This code may be assigned as the principal or first-listed code when the stated reason for the admission/encounter is documented as pain control/pain management. The underlying neoplasm should be reported as an additional diagnosis. When the reason for the admission/encounter is management of the neoplasm and the pain associated with the neoplasm is also documented, code G89.3 may be assigned as an additional diagnosis. It is not necessary to assign an additional code for the site of the pain. See Section I.C.2. for instructions on the sequencing of neoplasms for all other stated reasons for the admission/encounter (except for pain control/pain management). (Evidence: pg no: 48, L62-L63)",
+    "summary": "Comprehensive guidelines for coding neoplasm-related pain using G89.3, including sequencing rules for pain control vs neoplasm management encounters. (Evidence: pg no: 48, L62-L63)",
+    "key_concepts": [
+      "G89.3 for neoplasm-related pain (Evidence: pg no: 48, L62)",
+      "Acute/chronic distinction irrelevant (Evidence: pg no: 48, L62)",
+      "Principal code for pain control encounters (Evidence: pg no: 48, L62-L63)",
+      "Additional code for neoplasm management encounters (Evidence: pg no: 48, L63)",
+      "No site code needed (Evidence: pg no: 48, L63)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "neoplasm_pain_assignment",
+        "rule_text": "Code G89.3 is assigned to pain documented as being related, associated or due to cancer, primary or secondary malignancy, or tumor. This code is assigned regardless of whether the pain is acute or chronic (Evidence: pg no: 48, L62)",
+        "explanation": "G89.3 is used for all cancer-related pain regardless of acute or chronic nature (Evidence: pg no: 48, L62)",
+        "importance": "high",
+        "applies_to": "G89.3",
+        "common_applications": [
+          "Cancer pain",
+          "Tumor-related pain",
+          "Malignancy-associated pain"
+        ]
+      },
+      {
+        "rule_id": "neoplasm_pain_principal",
+        "rule_text": "This code may be assigned as the principal or first-listed code when the stated reason for the admission/encounter is documented as pain control/pain management. The underlying neoplasm should be reported as an additional diagnosis (Evidence: pg no: 48, L62-L63)",
+        "explanation": "For pain control encounters, G89.3 is principal with neoplasm as additional diagnosis (Evidence: pg no: 48, L62-L63)",
+        "importance": "high",
+        "applies_to": "G89.3",
+        "common_applications": [
+          "Cancer pain management encounters",
+          "Palliative care visits"
+        ]
+      },
+      {
+        "rule_id": "neoplasm_pain_additional",
+        "rule_text": "When the reason for the admission/encounter is management of the neoplasm and the pain associated with the neoplasm is also documented, code G89.3 may be assigned as an additional diagnosis (Evidence: pg no: 48, L63)",
+        "explanation": "For neoplasm management encounters, G89.3 is additional diagnosis when pain is documented (Evidence: pg no: 48, L63)",
+        "importance": "high",
+        "applies_to": "G89.3",
+        "common_applications": [
+          "Cancer treatment with documented pain",
+          "Oncology encounters with pain"
+        ]
+      },
+      {
+        "rule_id": "neoplasm_pain_no_site",
+        "rule_text": "It is not necessary to assign an additional code for the site of the pain (Evidence: pg no: 48, L63)",
+        "explanation": "G89.3 is sufficient for neoplasm-related pain without additional site-specific codes (Evidence: pg no: 48, L63)",
+        "importance": "medium",
+        "applies_to": "G89.3",
+        "common_applications": [
+          "Neoplasm pain coding",
+          "Site code decisions"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify pain related to cancer/tumor/malignancy",
+      "Step 2: Assign G89.3 regardless of acute/chronic nature",
+      "Step 3: Determine reason for encounter",
+      "Step 4: If pain control, use G89.3 as principal, neoplasm as additional",
+      "Step 5: If neoplasm management, use neoplasm as principal, G89.3 as additional",
+      "Step 6: Do not assign additional site codes"
+    ],
+    "related_terminology": [
+      "Neoplasm-related pain",
+      "Cancer pain",
+      "Primary malignancy",
+      "Secondary malignancy",
+      "Tumor pain",
+      "Pain control",
+      "Pain management"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "G89.3",
+        "description": "Neoplasm related pain (acute and chronic) (Evidence: pg no: 48, L62)",
+        "context": "Pain related, associated or due to cancer, malignancy, or tumor",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "G89": "Pain, not elsewhere classified",
+          ".3": "Neoplasm related pain"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "G89.3 - Neoplasm related pain"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.2",
+        "title": "Chapter 2: Neoplasms",
+        "relationship": "applies_concept",
+        "explanation": "Referenced for neoplasm sequencing instructions for non-pain control encounters"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "cancer_pain_management",
+      "scenario": "Patient admitted for pain control due to metastatic bone cancer",
+      "documentation_example": "Admission for pain management of severe bone pain due to metastatic breast cancer",
+      "step_by_step": [
+        "Step 1: Identify pain is related to cancer (metastatic breast cancer)",
+        "Step 2: Note encounter is for pain control/management",
+        "Step 3: Assign G89.3 as principal diagnosis",
+        "Step 4: Assign neoplasm code as additional diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "G89.3",
+        "secondary_codes": [
+          "C78.00 (Secondary malignant neoplasm of unspecified lung)",
+          "C50.911 (Malignant neoplasm of unspecified site of right female breast)"
+        ],
+        "sequencing": "G89.3 principal for pain control encounter",
+        "rationale": "Pain control encounter uses G89.3 as principal with neoplasm as additional (Evidence: pg no: 48, L62-L63)"
+      },
+      "incorrect_coding": {
+        "codes": [
+          "C78.00",
+          "G89.3"
+        ],
+        "rationale": "Should sequence G89.3 first for pain control encounters",
+        "common_mistake": "Not recognizing pain control as primary reason for encounter"
+      }
+    },
+    {
+      "scenario_id": "cancer_treatment_with_pain",
+      "scenario": "Patient receiving chemotherapy for lung cancer with documented cancer pain",
+      "documentation_example": "Patient receiving chemotherapy for lung cancer, experiencing significant cancer-related pain",
+      "step_by_step": [
+        "Step 1: Identify encounter is for cancer treatment (chemotherapy)",
+        "Step 2: Note cancer-related pain is documented",
+        "Step 3: Assign lung cancer as principal diagnosis",
+        "Step 4: Assign G89.3 as additional diagnosis for documented pain"
+      ],
+      "correct_coding": {
+        "primary_code": "C78.00 (Secondary malignant neoplasm of unspecified lung)",
+        "secondary_codes": [
+          "G89.3"
+        ],
+        "sequencing": "Neoplasm principal for treatment encounter, G89.3 additional",
+        "rationale": "Neoplasm management encounter uses neoplasm as principal, G89.3 as additional when pain documented (Evidence: pg no: 48, L63)"
+      },
+      "incorrect_coding": {
+        "codes": [
+          "G89.3",
+          "C78.00"
+        ],
+        "rationale": "Should sequence neoplasm first for treatment encounters",
+        "common_mistake": "Using pain control sequencing for treatment encounters"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "neoplasm_pain_control",
+      "scenario": "Cancer pain management",
+      "code_example": "G89.3",
+      "breakdown": {
+        "G89": "Pain, not elsewhere classified (Evidence: pg no: 48, L62)",
+        ".3": "Neoplasm related pain (acute and chronic)"
+      },
+      "rationale": "Single code covers all neoplasm-related pain regardless of acute/chronic nature (Evidence: pg no: 48, L62)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not assign additional site codes for neoplasm-related pain (Evidence: pg no: 48, L63)"
+    ],
+    "best_practices": [
+      "Always report underlying neoplasm as additional diagnosis for pain control encounters",
+      "Sequence based on encounter reason (pain control vs neoplasm management)"
+    ],
+    "common_mistakes": [
+      "Adding unnecessary site codes for neoplasm pain",
+      "Incorrect sequencing based on encounter reason"
+    ],
+    "tips": [
+      "G89.3 covers both acute and chronic neoplasm-related pain",
+      "Encounter reason determines sequencing with neoplasm codes"
+    ],
+    "implementation_notes": [
+      "References Section I.C.2 for additional neoplasm sequencing guidance",
+      "Site codes are not needed with G89.3"
+    ],
+    "clinical_context": [
+      "Cancer pain can be acute or chronic but uses same code",
+      "Pain control vs cancer treatment affects coding priorities"
+    ]
+  },
+  "search_keywords": [
+    "neoplasm pain",
+    "cancer pain",
+    "G89.3",
+    "malignancy pain",
+    "tumor pain",
+    "pain control",
+    "pain management",
+    "oncology"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "nervous_system_pain",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "neoplasm",
+      "cancer",
+      "pain",
+      "G89.3",
+      "sequencing",
+      "pain_control"
+    ]
+  },
+  "page_range_processed": "pages_45_to_48"
+}

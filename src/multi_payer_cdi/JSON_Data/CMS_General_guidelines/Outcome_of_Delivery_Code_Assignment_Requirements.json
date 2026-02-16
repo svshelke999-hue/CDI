@@ -1,0 +1,226 @@
+{
+  "guideline_id": "I.C.15.b.5",
+  "semantic_title": "Outcome of Delivery Code Assignment Requirements",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 15. Chapter 15: Pregnancy, Childbirth, and the Puerperium > b. Selection of OB Principal or First-listed Diagnosis > 5) Outcome of delivery",
+  "page_number": 65,
+  "content": {
+    "full_text": "A code from category Z37, Outcome of delivery, should be included on every maternal record when a delivery has occurred. These codes are not to be used on subsequent records or on the newborn record. (Evidence: pg no: 65, L68-L69)",
+    "summary": "Requirements for assigning outcome of delivery codes on maternal records (Evidence: pg no: 65, L68-L69)",
+    "key_concepts": [
+      "Z37 category requirement (Evidence: pg no: 65, L68)",
+      "Every delivery record inclusion (Evidence: pg no: 65, L68)",
+      "Maternal record only usage (Evidence: pg no: 65, L69)",
+      "Exclusion from subsequent records (Evidence: pg no: 65, L69)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.C.15.b.5.1",
+        "rule_text": "Include Z37 code on every maternal delivery record (Evidence: pg no: 65, L68)",
+        "explanation": "Every maternal record where delivery occurred must include an outcome of delivery code from category Z37 (Evidence: pg no: 65, L68)",
+        "importance": "critical",
+        "applies_to": "Z37",
+        "common_applications": [
+          "All delivery encounters",
+          "Vaginal deliveries",
+          "Cesarean deliveries",
+          "Multiple births"
+        ]
+      },
+      {
+        "rule_id": "I.C.15.b.5.2",
+        "rule_text": "Do not use Z37 codes on subsequent records (Evidence: pg no: 65, L69)",
+        "explanation": "Outcome of delivery codes are only used on the delivery encounter record, not follow-up visits (Evidence: pg no: 65, L69)",
+        "importance": "high",
+        "applies_to": "Z37",
+        "common_applications": [
+          "Postpartum visits",
+          "Follow-up encounters",
+          "Readmissions"
+        ]
+      },
+      {
+        "rule_id": "I.C.15.b.5.3",
+        "rule_text": "Do not use Z37 codes on newborn records (Evidence: pg no: 65, L69)",
+        "explanation": "Outcome of delivery codes are maternal codes only, never used on newborn records (Evidence: pg no: 65, L69)",
+        "importance": "critical",
+        "applies_to": "Z37",
+        "common_applications": [
+          "Newborn care",
+          "Pediatric records",
+          "Birth encounters"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Confirm delivery occurred during encounter",
+      "Step 2: Select appropriate Z37 code based on delivery outcome",
+      "Step 3: Include as additional diagnosis on maternal record only",
+      "Step 4: Do not use on subsequent visits or newborn records"
+    ],
+    "related_terminology": [
+      "Outcome of delivery",
+      "Maternal record",
+      "Delivery encounter",
+      "Subsequent records",
+      "Newborn record"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z37",
+        "description": "Outcome of delivery codes (Evidence: pg no: 65, L68)",
+        "requirement": "Required on every maternal delivery record",
+        "usage_rules": [
+          "Use only on delivery encounter (Evidence: pg no: 65, L68)",
+          "Not for subsequent records (Evidence: pg no: 65, L69)",
+          "Not for newborn records (Evidence: pg no: 65, L69)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "Z37.0",
+        "description": "Single live birth",
+        "context": "Most common outcome code for single deliveries",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z37": "Outcome of delivery category",
+          "0": "Single live birth"
+        }
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": "Z37.x",
+        "description": "Outcome of delivery pattern (Evidence: pg no: 65, L68)",
+        "example": "Z37.0",
+        "explanation": "Single character extension indicates specific delivery outcome"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Outcome of delivery codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.15.b.4",
+        "title": "When a delivery occurs",
+        "relationship": "builds_upon",
+        "explanation": "Delivery encounters require outcome codes"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "outcome_1",
+      "scenario": "Normal vaginal delivery of single live infant",
+      "documentation_example": "Patient delivered single live male infant vaginally at 39 weeks gestation",
+      "step_by_step": [
+        "Step 1: Identify delivery occurred",
+        "Step 2: Determine outcome as single live birth",
+        "Step 3: Assign Z37.0 as additional diagnosis on maternal record"
+      ],
+      "correct_coding": {
+        "primary_code": "O80",
+        "secondary_codes": [
+          "Z37.0",
+          "Z3A.39"
+        ],
+        "sequencing": "Z37.0 as additional diagnosis",
+        "rationale": "Every delivery requires outcome code on maternal record (Evidence: pg no: 65, L68)"
+      },
+      "incorrect_coding": {
+        "code": "O80",
+        "codes": [
+          "O80"
+        ],
+        "rationale": "Missing required outcome of delivery code",
+        "common_mistake": "Forgetting to include Z37 code on delivery records"
+      }
+    },
+    {
+      "scenario_id": "outcome_2",
+      "scenario": "Postpartum visit 6 weeks after delivery",
+      "documentation_example": "Patient returns for routine 6-week postpartum visit, doing well",
+      "step_by_step": [
+        "Step 1: Identify as subsequent postpartum visit",
+        "Step 2: Do not use Z37 code for follow-up visit",
+        "Step 3: Use appropriate postpartum visit code"
+      ],
+      "correct_coding": {
+        "primary_code": "Z39.2",
+        "secondary_codes": [],
+        "sequencing": "Postpartum care code only",
+        "rationale": "Z37 codes not used on subsequent records after delivery (Evidence: pg no: 65, L69)"
+      },
+      "incorrect_coding": {
+        "code": "Z37.0",
+        "codes": [
+          "Z39.2",
+          "Z37.0"
+        ],
+        "rationale": "Should not use outcome code on subsequent visits",
+        "common_mistake": "Using Z37 codes on postpartum follow-up visits"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Never use Z37 codes on newborn records (Evidence: pg no: 65, L69)",
+      "Do not use Z37 codes on subsequent maternal visits (Evidence: pg no: 65, L69)"
+    ],
+    "best_practices": [
+      "Always include Z37 code when delivery occurs (Evidence: pg no: 65, L68)",
+      "Select specific Z37 code based on delivery outcome",
+      "Use only on the delivery encounter record"
+    ],
+    "common_mistakes": [
+      "Forgetting to include Z37 code on delivery records",
+      "Using Z37 codes on postpartum visits",
+      "Using Z37 codes on newborn records"
+    ],
+    "tips": [
+      "Z37 codes are mandatory for all delivery encounters",
+      "Check delivery outcome to select correct Z37 code"
+    ],
+    "implementation_notes": [
+      "Required for all delivery encounters regardless of complications",
+      "Part of complete delivery coding"
+    ],
+    "clinical_context": [
+      "Labor and delivery units",
+      "All delivery encounters",
+      "Maternal records only"
+    ]
+  },
+  "search_keywords": [
+    "outcome of delivery",
+    "Z37 codes",
+    "maternal record",
+    "delivery encounter",
+    "subsequent records",
+    "newborn record"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "obstetric_coding",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "pregnancy",
+      "delivery",
+      "outcome",
+      "Z37",
+      "maternal_record"
+    ]
+  },
+  "page_range_processed": "pages_63_to_66"
+}

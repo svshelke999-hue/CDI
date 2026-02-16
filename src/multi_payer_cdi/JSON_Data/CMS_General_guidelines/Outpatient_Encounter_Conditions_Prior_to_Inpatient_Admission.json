@@ -1,0 +1,131 @@
+{
+  "guideline_id": "POA.5",
+  "semantic_title": "Outpatient Encounter Conditions Prior to Inpatient Admission",
+  "section_path": "Present on Admission Guidelines > Assigning the POA Indicator > Condition develops during outpatient encounter prior to inpatient admission",
+  "page_number": 118,
+  "content": {
+    "full_text": "Assign Y for any condition that develops during an outpatient encounter prior to a written order for inpatient admission. (Evidence: pg no: 118, L31-L32)",
+    "summary": "Conditions that develop during outpatient encounters before inpatient admission orders should receive Y indicator (Evidence: pg no: 118, L31-L32)",
+    "key_concepts": [
+      "Outpatient encounter development (Evidence: pg no: 118, L31-L32)",
+      "Written admission order timing (Evidence: pg no: 118, L32)",
+      "Y indicator assignment (Evidence: pg no: 118, L32)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "POA.5.1",
+        "rule_text": "Assign Y for conditions developing during outpatient encounter before admission order (Evidence: pg no: 118, L32)",
+        "explanation": "Any condition that develops during an outpatient encounter prior to the written order for inpatient admission should be considered present on admission (Evidence: pg no: 118, L31-L32)",
+        "importance": "high",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Emergency department complications",
+          "Observation unit developments",
+          "Outpatient surgery complications"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify when condition developed",
+      "Step 2: Determine timing of written admission order",
+      "Step 3: If condition developed before admission order, assign Y"
+    ],
+    "related_terminology": [
+      "Outpatient encounter",
+      "Written admission order",
+      "Emergency department",
+      "Observation",
+      "Outpatient surgery"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "All conditions developing in outpatient encounters"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "POA.definition",
+        "title": "POA Definition",
+        "relationship": "implements",
+        "explanation": "Implements the POA definition that includes outpatient encounter conditions"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "POA.5.S1",
+      "scenario": "Patient develops pneumonia in ED before admission order",
+      "documentation_example": "Patient seen in ED for chest pain, develops pneumonia during ED stay, then admitted",
+      "step_by_step": [
+        "Step 1: Identify pneumonia developed in ED",
+        "Step 2: Confirm this was before admission order",
+        "Step 3: Assign Y to pneumonia"
+      ],
+      "correct_coding": {
+        "primary_code": "Pneumonia with Y indicator",
+        "secondary_codes": [],
+        "sequencing": "Standard sequencing rules",
+        "rationale": "Pneumonia developed during outpatient encounter before admission order (Evidence: pg no: 118, L31-L32)"
+      },
+      "incorrect_coding": {
+        "code": "Pneumonia with N indicator",
+        "codes": [],
+        "rationale": "Should not assign N to conditions developing before admission order",
+        "common_mistake": "Not considering outpatient encounter timing"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Must consider timing relative to written admission order (Evidence: pg no: 118, L31-L32)"
+    ],
+    "best_practices": [
+      "Review outpatient encounter documentation carefully (Evidence: pg no: 118, L31-L32)"
+    ],
+    "common_mistakes": [
+      "Not considering outpatient encounter developments (Evidence: pg no: 118, L31-L32)"
+    ],
+    "tips": [
+      "Look for timing of admission order in documentation (Evidence: pg no: 118, L32)"
+    ],
+    "implementation_notes": [
+      "Train coders on outpatient encounter POA rules"
+    ],
+    "clinical_context": [
+      "Conditions can develop during ED, observation, or outpatient surgery"
+    ]
+  },
+  "search_keywords": [
+    "outpatient encounter POA",
+    "emergency department POA",
+    "observation POA",
+    "outpatient surgery POA",
+    "admission order timing",
+    "pre-admission development"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "POA_assignment",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "POA",
+      "outpatient",
+      "emergency_department",
+      "observation",
+      "Y_indicator"
+    ]
+  },
+  "page_range_processed": "pages_117_to_120"
+}

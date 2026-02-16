@@ -1,0 +1,189 @@
+{
+  "guideline_id": "Appendix_I.General_Requirements",
+  "semantic_title": "General Reporting Requirements for Present on Admission (POA) Indicators",
+  "section_path": "Appendix I > Present on Admission Reporting Guidelines > General Reporting Requirements",
+  "page_number": 116,
+  "content": {
+    "full_text": "All claims involving inpatient admissions to general acute care hospitals or other facilities that are subject to a law or regulation mandating collection of present on admission information. Present on admission is defined as present at the time the order for inpatient admission occurs -- conditions that develop during an outpatient encounter, including emergency department, observation, or outpatient surgery, are considered as present on admission. POA indicator is assigned to principal and secondary diagnoses (as defined in Section II of the Official Guidelines for Coding and Reporting) and the external cause of injury codes. Issues related to inconsistent, missing, conflicting or unclear documentation must still be resolved by the provider. If a condition would not be coded and reported based on UHDDS definitions and current official coding guidelines, then the POA indicator would not be reported. (Evidence: pg no: 116-117, L52-L58)",
+    "summary": "General requirements for POA reporting including facility types, definition of present on admission, and application to diagnosis codes (Evidence: pg no: 116-117, L52-L58)",
+    "key_concepts": [
+      "Applies to inpatient admissions subject to POA collection mandates (Evidence: pg no: 116, L52)",
+      "POA defined as present at time of inpatient admission order (Evidence: pg no: 117, L55)",
+      "Outpatient encounter conditions considered present on admission (Evidence: pg no: 117, L55-L57)",
+      "Applied to principal, secondary diagnoses and external cause codes (Evidence: pg no: 117, L57)",
+      "Provider resolution required for documentation issues (Evidence: pg no: 117, L58)",
+      "No POA indicator if condition not coded per UHDDS (Evidence: pg no: 117, L58)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "POA.General.1",
+        "rule_text": "POA reporting required for inpatient admissions subject to legal/regulatory mandates (Evidence: pg no: 116, L52)",
+        "explanation": "Applies to general acute care hospitals and other facilities where law or regulation mandates POA collection (Evidence: pg no: 116, L52)",
+        "importance": "critical",
+        "applies_to": "inpatient admissions at mandated facilities",
+        "common_applications": [
+          "Acute care hospital admissions",
+          "Facilities subject to POA regulations",
+          "Medicare/Medicaid billing"
+        ]
+      },
+      {
+        "rule_id": "POA.General.2",
+        "rule_text": "Present on admission defined as present at time of inpatient admission order (Evidence: pg no: 117, L55)",
+        "explanation": "The timing reference point for POA determination is when the order for inpatient admission occurs (Evidence: pg no: 117, L55)",
+        "importance": "critical",
+        "applies_to": "POA timing determination",
+        "common_applications": [
+          "Emergency department to inpatient transitions",
+          "Observation to inpatient conversions",
+          "Direct inpatient admissions"
+        ]
+      },
+      {
+        "rule_id": "POA.General.3",
+        "rule_text": "Conditions developing during outpatient encounters considered present on admission (Evidence: pg no: 117, L55-L57)",
+        "explanation": "Conditions that develop during emergency department, observation, or outpatient surgery are considered present on admission (Evidence: pg no: 117, L55-L57)",
+        "importance": "high",
+        "applies_to": "outpatient to inpatient transitions",
+        "common_applications": [
+          "Emergency department diagnoses",
+          "Observation unit findings",
+          "Outpatient surgery complications"
+        ]
+      },
+      {
+        "rule_id": "POA.General.4",
+        "rule_text": "POA indicators assigned to principal, secondary diagnoses and external cause codes (Evidence: pg no: 117, L57)",
+        "explanation": "POA indicators apply to all diagnosis types as defined in Section II and external cause of injury codes (Evidence: pg no: 117, L57)",
+        "importance": "critical",
+        "applies_to": "all reportable diagnosis codes",
+        "common_applications": [
+          "Principal diagnosis POA assignment",
+          "Secondary diagnosis POA assignment",
+          "External cause code POA assignment"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if facility is subject to POA reporting requirements",
+      "Step 2: Identify time of inpatient admission order",
+      "Step 3: Determine if conditions were present at admission order time",
+      "Step 4: Consider outpatient encounter conditions as present on admission",
+      "Step 5: Assign POA indicators to principal, secondary, and external cause codes",
+      "Step 6: Resolve documentation issues with provider"
+    ],
+    "related_terminology": [
+      "inpatient admission order",
+      "outpatient encounter",
+      "emergency department",
+      "observation",
+      "outpatient surgery",
+      "principal diagnosis",
+      "secondary diagnosis",
+      "external cause codes"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Principal diagnosis codes",
+      "Secondary diagnosis codes",
+      "External cause of injury codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "Section_II",
+        "title": "Selection of Principal Diagnosis",
+        "relationship": "applies_concept",
+        "explanation": "POA indicators apply to diagnoses as defined in Section II"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "POA.General.scenario1",
+      "scenario": "Patient presents to ED with chest pain, develops pneumonia during ED stay, then admitted as inpatient",
+      "documentation_example": "Patient presented to ED with chest pain. During ED evaluation, developed pneumonia. Admitted as inpatient for pneumonia treatment.",
+      "step_by_step": [
+        "Step 1: Identify time of inpatient admission order",
+        "Step 2: Note chest pain was present at ED arrival",
+        "Step 3: Note pneumonia developed during ED encounter",
+        "Step 4: Both conditions considered present on admission per rule"
+      ],
+      "correct_coding": {
+        "primary_code": "J18.9 with POA indicator Y",
+        "secondary_codes": [
+          "R06.02 with POA indicator Y"
+        ],
+        "sequencing": "Both conditions get Y indicator",
+        "rationale": "Conditions developing during outpatient encounters are considered present on admission (Evidence: pg no: 117, L55-L57)"
+      },
+      "incorrect_coding": {
+        "code": "J18.9 with POA indicator N",
+        "codes": [
+          "J18.9 with N",
+          "R06.02 with Y"
+        ],
+        "rationale": "Would incorrectly indicate pneumonia was not present on admission",
+        "common_mistake": "Not recognizing outpatient encounter conditions as present on admission"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Provider must resolve inconsistent, missing, conflicting or unclear documentation (Evidence: pg no: 117, L58)",
+      "No POA indicator reported if condition not coded per UHDDS (Evidence: pg no: 117, L58)"
+    ],
+    "best_practices": [
+      "Consider all outpatient encounter conditions as present on admission (Evidence: pg no: 117, L55-L57)",
+      "Use inpatient admission order time as reference point (Evidence: pg no: 117, L55)"
+    ],
+    "common_mistakes": [
+      "Not considering outpatient encounter conditions as present on admission (Evidence: pg no: 117, L55-L57)",
+      "Using wrong timing reference for POA determination (Evidence: pg no: 117, L55)"
+    ],
+    "tips": [
+      "Emergency department, observation, and outpatient surgery conditions are considered POA (Evidence: pg no: 117, L55-L57)"
+    ],
+    "implementation_notes": [
+      "Applies only to facilities subject to POA collection mandates",
+      "Must follow UHDDS definitions for reportable conditions"
+    ],
+    "clinical_context": [
+      "Emergency department to inpatient transitions",
+      "Observation to inpatient conversions",
+      "Outpatient surgery to inpatient admissions"
+    ]
+  },
+  "search_keywords": [
+    "POA general requirements",
+    "present on admission definition",
+    "inpatient admission order",
+    "outpatient encounter POA",
+    "emergency department POA",
+    "observation POA"
+  ],
+  "metadata": {
+    "category": "convention",
+    "subcategory": "POA_reporting",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "POA",
+      "general_requirements",
+      "inpatient",
+      "timing"
+    ]
+  },
+  "page_range_processed": "pages_114_to_117"
+}

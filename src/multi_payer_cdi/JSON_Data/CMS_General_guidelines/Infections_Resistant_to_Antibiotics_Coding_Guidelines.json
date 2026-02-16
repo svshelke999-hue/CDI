@@ -1,0 +1,140 @@
+{
+  "guideline_id": "I.C.1.c",
+  "semantic_title": "Infections Resistant to Antibiotics Coding Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 1. Chapter 1: Certain Infectious and Parasitic Diseases > c. Infections resistant to antibiotics",
+  "page_number": 22,
+  "content": {
+    "full_text": "Many bacterial infections are resistant to current antibiotics. It is necessary to identify all infections documented as antibiotic resistant. Assign a code from category Z16, Resistance to antimicrobial drugs, following the infection code only if the infection code does not identify drug resistance. (Evidence: pg no: 22, L51-L53)",
+    "summary": "Guidelines for coding antibiotic-resistant infections using Z16 codes when resistance is not already specified in the primary infection code (Evidence: pg no: 22, L51-L53)",
+    "key_concepts": [
+      "Antibiotic resistance identification (Evidence: pg no: 22, L51-L52)",
+      "Z16 category for antimicrobial resistance (Evidence: pg no: 22, L52)",
+      "Conditional use based on primary code specificity (Evidence: pg no: 22, L52-L53)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "RESISTANCE_IDENTIFY",
+        "rule_text": "It is necessary to identify all infections documented as antibiotic resistant (Evidence: pg no: 22, L51-L52)",
+        "explanation": "All documented antibiotic resistance must be coded to provide complete clinical picture (Evidence: pg no: 22, L51-L52)",
+        "importance": "critical",
+        "applies_to": "all_resistant_infections",
+        "common_applications": [
+          "MRSA infections",
+          "VRE infections",
+          "Multi-drug resistant tuberculosis",
+          "Extended-spectrum beta-lactamase producing organisms"
+        ]
+      },
+      {
+        "rule_id": "RESISTANCE_Z16",
+        "rule_text": "Assign a code from category Z16, Resistance to antimicrobial drugs, following the infection code only if the infection code does not identify drug resistance (Evidence: pg no: 22, L52-L53)",
+        "explanation": "Z16 codes are used only when the primary infection code doesn't already specify the resistance pattern (Evidence: pg no: 22, L52-L53)",
+        "importance": "critical",
+        "applies_to": "Z16",
+        "common_applications": [
+          "Infections where primary code is non-specific for resistance",
+          "Additional resistance pattern documentation"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify documented antibiotic-resistant infection",
+      "Step 2: Assign primary infection code",
+      "Step 3: Check if primary code already specifies drug resistance",
+      "Step 4: If resistance not specified in primary code, assign appropriate Z16 code",
+      "Step 5: Sequence Z16 code after the infection code"
+    ],
+    "related_terminology": [
+      "antibiotic resistance",
+      "antimicrobial drugs",
+      "drug resistance",
+      "MRSA",
+      "VRE",
+      "multi-drug resistant",
+      "extended-spectrum beta-lactamase"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z16",
+        "description": "Resistance to antimicrobial drugs (Evidence: pg no: 22, L52)",
+        "requirement": "Use only if primary infection code doesn't identify drug resistance",
+        "usage_rules": [
+          "Follow infection code (Evidence: pg no: 22, L52-L53)",
+          "Only when resistance not specified in primary code (Evidence: pg no: 22, L52-L53)"
+        ]
+      }
+    ],
+    "code_categories_mentioned": [
+      "Antimicrobial resistance codes",
+      "Bacterial infection codes"
+    ]
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "RESISTANCE_1",
+      "scenario": "Patient with pneumonia caused by methicillin-resistant Staphylococcus aureus (MRSA)",
+      "documentation_example": "Pneumonia due to MRSA, confirmed by culture and sensitivity",
+      "step_by_step": [
+        "Step 1: Code pneumonia from respiratory chapter",
+        "Step 2: Check if pneumonia code specifies MRSA resistance",
+        "Step 3: If not specified, assign Z16 code for methicillin resistance",
+        "Step 4: Also assign B95.62 for MRSA organism if needed"
+      ],
+      "correct_coding": {
+        "primary_code": "pneumonia code",
+        "secondary_codes": [
+          "B95.62 (MRSA)",
+          "Z16.11 (methicillin resistance) if not specified in primary"
+        ],
+        "sequencing": "Infection first, organism second, resistance third if needed",
+        "rationale": "Must identify antibiotic resistance when documented, using Z16 only if not specified in primary code (Evidence: pg no: 22, L51-L53)"
+      }
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not use Z16 codes if the infection code already identifies drug resistance (Evidence: pg no: 22, L52-L53)"
+    ],
+    "best_practices": [
+      "Always identify and code documented antibiotic resistance (Evidence: pg no: 22, L51-L52)",
+      "Check primary infection code specificity before adding Z16 codes (Evidence: pg no: 22, L52-L53)"
+    ],
+    "common_mistakes": [
+      "Using Z16 codes when resistance is already specified in primary code",
+      "Failing to code documented antibiotic resistance"
+    ],
+    "tips": [
+      "Review culture and sensitivity reports for resistance patterns",
+      "Z16 codes are always additional, never primary"
+    ]
+  },
+  "search_keywords": [
+    "antibiotic resistance",
+    "Z16 resistance codes",
+    "MRSA",
+    "VRE",
+    "drug resistant infections",
+    "antimicrobial resistance",
+    "multi-drug resistant"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "infectious diseases",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "tags": [
+      "resistance",
+      "Z16",
+      "antibiotics",
+      "MRSA",
+      "VRE",
+      "drug resistance"
+    ]
+  },
+  "page_range_processed": "pages_21_to_24"
+}

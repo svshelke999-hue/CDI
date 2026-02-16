@@ -1,0 +1,185 @@
+{
+  "guideline_id": "I.C.1.g.1.b",
+  "semantic_title": "COVID-19 Sequencing of Codes and Cross-References",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 1. Certain Infectious and Parasitic Diseases > g. Coronavirus infections > 1) COVID-19 infection > (b) Sequencing of codes",
+  "page_number": 28,
+  "content": {
+    "full_text": "When COVID-19 meets the definition of principal diagnosis, code U07.1, COVID-19, should be sequenced first, followed by the appropriate codes for associated manifestations, except when another guideline requires that certain codes be sequenced first, such as obstetrics, sepsis, or transplant complications. For a COVID-19 infection that progresses to sepsis, see Section I.C.1.d. Sepsis, Severe Sepsis, and Septic Shock. See Section I.C.15.s. for COVID-19 infection in pregnancy, childbirth, and the puerperium. See Section I.C.16.h. for COVID-19 infection in newborn. For a COVID-19 infection in a lung transplant patient, see Section I.C.19.g.3.a. Transplant complications other than kidney. (Evidence: pg no: 28-29, L44-L55)",
+    "summary": "Guidelines for sequencing COVID-19 codes and cross-references to other specific guidelines (Evidence: pg no: 28-29, L44-L55)",
+    "key_concepts": [
+      "Principal diagnosis sequencing (Evidence: pg no: 28, L45)",
+      "Associated manifestations coding (Evidence: pg no: 28, L46)",
+      "Exception guidelines (Evidence: pg no: 28, L46-L47)",
+      "Cross-references to specific situations (Evidence: pg no: 29, L50-L55)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "COVID_SEQ_001",
+        "rule_text": "Sequence U07.1 first when COVID-19 is principal diagnosis (Evidence: pg no: 28, L45-L46)",
+        "explanation": "When COVID-19 meets the definition of principal diagnosis, it should be sequenced first, followed by manifestation codes (Evidence: pg no: 28, L45-L46)",
+        "importance": "high",
+        "applies_to": "U07.1",
+        "common_applications": [
+          "COVID-19 as primary reason for admission",
+          "COVID-19 with respiratory manifestations"
+        ]
+      },
+      {
+        "rule_id": "COVID_SEQ_002",
+        "rule_text": "Exceptions exist for obstetrics, sepsis, and transplant complications (Evidence: pg no: 28, L46-L47)",
+        "explanation": "Other guidelines may require different sequencing for specific situations like pregnancy, sepsis, or transplant complications (Evidence: pg no: 28, L46-L47)",
+        "importance": "high",
+        "applies_to": "U07.1",
+        "common_applications": [
+          "COVID-19 in pregnancy",
+          "COVID-19 with sepsis",
+          "COVID-19 in transplant patients"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if COVID-19 is the principal diagnosis",
+      "Step 2: Check for exception guidelines (obstetrics, sepsis, transplant)",
+      "Step 3: Sequence U07.1 first if no exceptions apply",
+      "Step 4: Add manifestation codes as secondary"
+    ],
+    "related_terminology": [
+      "Principal diagnosis",
+      "Associated manifestations",
+      "Sequencing",
+      "Exception guidelines"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "U07.1",
+        "description": "COVID-19 (Evidence: pg no: 28, L45)",
+        "context": "Sequence first when principal diagnosis",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "U07": "Emergency use codes for COVID-19",
+          "1": "COVID-19"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Associated manifestation codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.1.d",
+        "title": "Sepsis, Severe Sepsis, and Septic Shock",
+        "relationship": "applies_to",
+        "explanation": "For COVID-19 that progresses to sepsis"
+      },
+      {
+        "guideline_id": "I.C.15.s",
+        "title": "COVID-19 infection in pregnancy, childbirth, and the puerperium",
+        "relationship": "applies_to",
+        "explanation": "For COVID-19 in pregnancy situations"
+      },
+      {
+        "guideline_id": "I.C.16.h",
+        "title": "COVID-19 infection in newborn",
+        "relationship": "applies_to",
+        "explanation": "For COVID-19 in newborns"
+      },
+      {
+        "guideline_id": "I.C.19.g.3.a",
+        "title": "Transplant complications other than kidney",
+        "relationship": "applies_to",
+        "explanation": "For COVID-19 in lung transplant patients"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "COVID_SEQ_SC001",
+      "scenario": "Patient admitted primarily for COVID-19 with pneumonia",
+      "documentation_example": "Patient admitted with COVID-19 pneumonia",
+      "step_by_step": [
+        "Step 1: Identify COVID-19 as principal diagnosis",
+        "Step 2: Sequence U07.1 first",
+        "Step 3: Add pneumonia code as secondary"
+      ],
+      "correct_coding": {
+        "primary_code": "U07.1",
+        "secondary_codes": [
+          "J12.82"
+        ],
+        "sequencing": "COVID-19 first, then manifestations",
+        "rationale": "COVID-19 is principal diagnosis and should be sequenced first (Evidence: pg no: 28, L45-L46)"
+      },
+      "incorrect_coding": {
+        "code": "J12.82",
+        "codes": [
+          "J12.82",
+          "U07.1"
+        ],
+        "rationale": "Incorrect sequencing when COVID-19 is principal diagnosis",
+        "common_mistake": "Sequencing manifestation before COVID-19"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Exception guidelines may override standard sequencing (Evidence: pg no: 28, L46-L47)"
+    ],
+    "best_practices": [
+      "Always check for exception guidelines first",
+      "Sequence U07.1 first when it's the principal diagnosis",
+      "Include all associated manifestations"
+    ],
+    "common_mistakes": [
+      "Not checking for exception guidelines",
+      "Incorrect sequencing of COVID-19 and manifestations"
+    ],
+    "tips": [
+      "Review cross-referenced guidelines for special situations",
+      "Principal diagnosis definition applies",
+      "Manifestations should be coded additionally"
+    ],
+    "implementation_notes": [
+      "Multiple cross-references to other guidelines",
+      "Exception guidelines take precedence"
+    ],
+    "clinical_context": [
+      "COVID-19 can affect multiple body systems",
+      "Special populations require different coding approaches"
+    ]
+  },
+  "search_keywords": [
+    "COVID-19 sequencing",
+    "U07.1",
+    "principal diagnosis",
+    "manifestations",
+    "obstetrics",
+    "sepsis",
+    "transplant"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "infectious_diseases",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "COVID-19",
+      "sequencing",
+      "principal_diagnosis",
+      "cross_references"
+    ]
+  },
+  "page_range_processed": "pages_27_to_30"
+}

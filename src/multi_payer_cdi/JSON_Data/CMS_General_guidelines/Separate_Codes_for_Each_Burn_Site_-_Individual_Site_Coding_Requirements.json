@@ -1,0 +1,195 @@
+{
+  "guideline_id": "I.C.19.d.5",
+  "semantic_title": "Separate Codes for Each Burn Site - Individual Site Coding Requirements",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 19. Injury, Poisoning, and Certain Other Consequences of External Causes > d. Coding of Burns and Corrosions > 5) Assign separate codes for each burn site",
+  "page_number": 81,
+  "content": {
+    "full_text": "When coding burns, assign separate codes for each burn site. Category T30, Burn and corrosion, body region unspecified is extremely vague and should rarely be used. Codes for burns of 'multiple sites' should only be assigned when the medical record documentation does not specify the individual sites. (Evidence: pg no: 81, L86-L87)",
+    "summary": "Requirement for individual site-specific coding for burns, with restrictions on use of unspecified and multiple site codes (Evidence: pg no: 81, L86-L87)",
+    "key_concepts": [
+      "Separate codes for each burn site (Evidence: pg no: 81, L86)",
+      "Avoidance of T30 category (Evidence: pg no: 81, L86-L87)",
+      "Restricted use of multiple site codes (Evidence: pg no: 81, L87)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "separate_site_coding",
+        "rule_text": "When coding burns, assign separate codes for each burn site (Evidence: pg no: 81, L86)",
+        "explanation": "Each anatomically distinct burn site requires its own specific code (Evidence: pg no: 81, L86)",
+        "importance": "critical",
+        "applies_to": "all_burn_codes",
+        "common_applications": [
+          "Multiple burn sites",
+          "Distinct anatomical locations",
+          "Comprehensive burn documentation"
+        ]
+      },
+      {
+        "rule_id": "avoid_t30_category",
+        "rule_text": "Category T30, Burn and corrosion, body region unspecified is extremely vague and should rarely be used (Evidence: pg no: 81, L86-L87)",
+        "explanation": "T30 codes lack specificity and should be avoided when specific site information is available (Evidence: pg no: 81, L86-L87)",
+        "importance": "high",
+        "applies_to": "T30",
+        "common_applications": [
+          "Last resort coding",
+          "Extremely limited documentation"
+        ]
+      },
+      {
+        "rule_id": "multiple_sites_restriction",
+        "rule_text": "Codes for burns of 'multiple sites' should only be assigned when the medical record documentation does not specify the individual sites (Evidence: pg no: 81, L87)",
+        "explanation": "Multiple site codes are only appropriate when individual sites cannot be determined from documentation (Evidence: pg no: 81, L87)",
+        "importance": "high",
+        "applies_to": "multiple_site_codes",
+        "common_applications": [
+          "Inadequate documentation",
+          "Non-specific burn descriptions"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Review documentation for all burn sites",
+      "Step 2: Identify each specific anatomical location",
+      "Step 3: Assign separate code for each identified site",
+      "Step 4: Avoid T30 and multiple site codes when sites are specified",
+      "Step 5: Use multiple site codes only when individual sites unknown"
+    ],
+    "related_terminology": [
+      "Separate codes",
+      "Burn sites",
+      "Individual sites",
+      "Multiple sites",
+      "Body region unspecified",
+      "Site-specific coding"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "T30",
+        "description": "Burn and corrosion, body region unspecified - extremely vague and should rarely be used (Evidence: pg no: 81, L86-L87)",
+        "requirement": "Avoid when specific sites are documented",
+        "usage_rules": [
+          "Use only when site information is completely unavailable (Evidence: pg no: 81, L86-L87)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Site-specific burn codes",
+      "Multiple site burn codes",
+      "Unspecified site codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "multiple_specific_sites",
+      "scenario": "Patient with burns on hand, arm, and chest",
+      "documentation_example": "Second-degree burns of right hand, left arm, and chest",
+      "step_by_step": [
+        "Step 1: Identify all burn sites (hand, arm, chest)",
+        "Step 2: Assign separate code for hand burn",
+        "Step 3: Assign separate code for arm burn",
+        "Step 4: Assign separate code for chest burn"
+      ],
+      "correct_coding": {
+        "primary_code": "T23.2xx (hand burn)",
+        "secondary_codes": [
+          "T22.2xx (arm burn)",
+          "T21.2xx (chest burn)"
+        ],
+        "sequencing": "Separate code for each site",
+        "rationale": "Each burn site requires separate coding when sites are specified (Evidence: pg no: 81, L86)"
+      },
+      "incorrect_coding": {
+        "code": "T30.xxx or multiple site code",
+        "codes": [
+          "Single unspecified or multiple site code"
+        ],
+        "rationale": "Should not use vague codes when specific sites are documented",
+        "common_mistake": "Using multiple site codes when individual sites are known"
+      }
+    },
+    {
+      "scenario_id": "unspecified_documentation",
+      "scenario": "Patient with burns but sites not specified in documentation",
+      "documentation_example": "Multiple burns, sites not specified",
+      "step_by_step": [
+        "Step 1: Review documentation for site specificity",
+        "Step 2: Determine individual sites cannot be identified",
+        "Step 3: Consider multiple site code as appropriate",
+        "Step 4: Avoid T30 if any site information available"
+      ],
+      "correct_coding": {
+        "primary_code": "Multiple site code (if appropriate)",
+        "secondary_codes": [],
+        "sequencing": "Use least vague code available",
+        "rationale": "Multiple site codes only when individual sites not specified (Evidence: pg no: 81, L87)"
+      },
+      "incorrect_coding": {
+        "code": "Specific site codes",
+        "codes": [
+          "Guessing at specific sites"
+        ],
+        "rationale": "Should not assign specific codes without documentation support",
+        "common_mistake": "Assuming specific sites when not documented"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Avoid T30 category except in rare circumstances (Evidence: pg no: 81, L86-L87)",
+      "Do not use multiple site codes when individual sites are documented (Evidence: pg no: 81, L87)"
+    ],
+    "best_practices": [
+      "Always code each burn site separately when sites are specified (Evidence: pg no: 81, L86)",
+      "Use most specific codes available based on documentation (Evidence: pg no: 81, L86-L87)"
+    ],
+    "common_mistakes": [
+      "Using vague codes when specific information is available (Evidence: pg no: 81, L86-L87)",
+      "Not coding all documented burn sites separately (Evidence: pg no: 81, L86)"
+    ],
+    "tips": [
+      "Review documentation carefully for all burn site mentions (Evidence: pg no: 81, L86)"
+    ],
+    "implementation_notes": [
+      "Requires thorough documentation review for site identification"
+    ],
+    "clinical_context": [
+      "Critical for accurate burn injury documentation and treatment tracking"
+    ]
+  },
+  "search_keywords": [
+    "separate burn codes",
+    "burn sites",
+    "individual sites",
+    "T30",
+    "multiple sites",
+    "site-specific coding",
+    "burn documentation"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "burn_coding",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "burns",
+      "site_specific",
+      "separate_codes",
+      "documentation"
+    ]
+  },
+  "page_range_processed": "pages_78_to_81"
+}

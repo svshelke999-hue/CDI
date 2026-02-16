@@ -1,0 +1,1898 @@
+{
+  "file_name": "tmp9xaqqzb0.pdf, tmpowdfpygs.pdf",
+  "extraction_data": {
+    "patient_name": "William F Wallace",
+    "patient_age": "86 years old",
+    "chart_specialty": "Orthopedics",
+    "cpt": [],
+    "procedure": [
+      "Left intertrochanteric femoral fracture open reduction internal fixation"
+    ],
+    "summary": "",
+    "multi_chart_data": {
+      "tmp9xaqqzb0.pdf": {
+        "chart_type": "consultation_note",
+        "chart_type_confidence": "high",
+        "extracted_info": {
+          "patient_name": "William F Wallace",
+          "patient_age": "86 years old",
+          "chart_specialty": "Orthopedics",
+          "cpt": [],
+          "procedure": [
+            "Planned operative fixation of left intertrochanteric femoral fracture"
+          ],
+          "summary": "86-year-old male with severely comminuted left intertrochanteric femoral fracture after a fall. Patient has significant medical comorbidities including CAD, A-fib, and recent left inguinal hernia repair. Patient was on Plavix but it was held post-surgery. After discussion of risks and benefits, patient has elected to proceed with surgical fixation.",
+          "diagnosis": [
+            "Severely comminuted left intertrochanteric femoral fracture",
+            "A-fib",
+            "Coronary artery disease status post stents",
+            "Hypertension",
+            "Hypercholesteremia",
+            "Gout",
+            "Venous insufficiency of leg",
+            "History of TIA (2021)",
+            "History of inguinal hernia repair (10/2025)",
+            "History of bacteremia due to group B Streptococcus",
+            "History of ESBL infection"
+          ],
+          "key_information": [
+            "Patient on Plavix for CAD but currently holding post-surgery",
+            "Patient has diffuse wounds and ulcerations across lower legs in various stages of healing",
+            "High surgical risk due to age and comorbidities",
+            "Patient was ambulatory prior to fall",
+            "Patient has history of right total hip arthroplasty in 2015",
+            "Patient has venous insufficiency which may impact healing",
+            "Patient has history of infections including ESBL and bacteremia",
+            "Shortened and externally rotated left leg noted on exam",
+            "Patient and son informed of high risk nature of surgery including possibility of death"
+          ],
+          "chart_type": "consultation_note"
+        }
+      },
+      "tmpowdfpygs.pdf": {
+        "chart_type": "operative_note",
+        "chart_type_confidence": "high",
+        "extracted_info": {
+          "patient_name": "William F Wallace",
+          "patient_age": "86 y.o.",
+          "chart_specialty": "Orthopedic Surgery",
+          "cpt": [],
+          "procedure": [
+            "Left intertrochanteric femoral fracture open reduction internal fixation"
+          ],
+          "summary": "86-year-old male presented after a mechanical fall with a displaced left intertrochanteric femur fracture. Patient underwent open reduction internal fixation using an Arthrex short nail with lag screw, antirotation screw, and interlocking screws. Postoperatively, the patient will be partial weight bearing (50%) for 6 weeks with DVT prophylaxis and progressive mobilization.",
+          "chart_type": "operative_note"
+        }
+      }
+    }
+  },
+  "payer_results": {
+    "cigna": {
+      "payer_name": "Cigna",
+      "procedures_evaluated": 1,
+      "procedure_results": [
+        {
+          "procedure_evaluated": "Left intertrochanteric femoral fracture open reduction internal fixation",
+          "variant_or_subprocedure": "Intramedullary nail fixation",
+          "policy_name": "Cigna Medical Coverage Policy for Shoulder Surgery",
+          "decision": "Insufficient",
+          "primary_reasons": [
+            "The provided Cigna guidelines are for shoulder procedures, not hip/femur fracture fixation",
+            "No applicable Cigna policy for intertrochanteric femur fracture was provided for evaluation"
+          ],
+          "requirement_checklist": [
+            {
+              "requirement_id": "applicable_policy",
+              "type": "single",
+              "status": "unmet",
+              "evidence": [
+                {
+                  "line_reference": "L300-L301"
+                }
+              ],
+              "missing_to_meet": "Appropriate Cigna policy for intertrochanteric femur fracture fixation",
+              "suggestion": "Request specific Cigna policy for hip/femur fracture fixation procedures"
+            }
+          ],
+          "timing_validation": {
+            "conservative_duration_weeks": "unknown",
+            "pt_sessions_completed": "unknown",
+            "follow_up_interval": "unknown"
+          },
+          "contraindications_exclusions": {
+            "active_infection": "absent",
+            "severe_arthritis": "unclear",
+            "other_contraindications": []
+          },
+          "coding_implications": {
+            "eligible_codes_if_sufficient": [],
+            "notes": "Cannot determine eligible codes without appropriate policy"
+          },
+          "improvement_recommendations": {
+            "policy_needed": [
+              "Request specific policy for hip/femur fracture fixation procedures"
+            ],
+            "cdi_documentation_gaps": [],
+            "completion_guidance": [
+              "Ensure appropriate policy is available for review"
+            ],
+            "next_steps": [
+              "Obtain correct medical policy for intertrochanteric femur fracture fixation"
+            ]
+          },
+          "_original_procedure_name": "Left intertrochanteric femoral fracture open reduction internal fixation",
+          "medical_chart_reference": [
+            "L300-L301"
+          ],
+          "guideline_availability": {
+            "status": "available",
+            "search_hits": 6,
+            "max_score": 10.0,
+            "message": "Found 6 guideline(s) for Cigna"
+          },
+          "sources": [
+            {
+              "header": "[CIGNA | Left intertrochanteric femoral fracture open reduction internal fixation | Chunk 1 | score=10.000 | file=cigna_guideline_1.json | id=cigna_7]",
+              "file": "cigna_guideline_1.json",
+              "record_id": "cigna_7",
+              "chunk_index": 1,
+              "payer": "cigna",
+              "score": 10.0,
+              "description": "{'procedure_id': 'fracture_tumor_infection_foreign_body_surgery', 'category': 'Shoulder (Evidence: pg no: 4, L149)', 'section_title': 'Arthroscopic or Open Procedure for Fracture, Tumor, Infection, or Foreign Body (Evidence: pg no: 4, L149)', 'names': ['Shoulder Surgery for Fracture (Evidence: pg no: 4, L149)', 'Shoulder Surgery for Tumor (Evidence: pg no: 4, L149)', 'Shoulder Surgery for Infection (Evidence: pg no: 4, L149)', 'Shoulder Surgery for Foreign Body (Evidence: pg no: 4, L149)'], 'description': 'Shoulder arthroscopic or open procedures for fracture, tumor, infection, or foreign body that has led to or will likely lead to progressive destruction (Evidence: pg no: 4, L149-L151)', 'scope': 'Arthroscopic or open procedures for specific pathological conditions (Evidence: pg no: 4, L149-L150)', 'general_requirements': {'documentation': ['Surgery being performed for fracture, tumor, infection, or foreign body that has led to or will likely lead to progressive destruction (Evidence: pg no: 4, L150-L151)']}, 'exclusions': [], 'codes': [{'code': '23145', 'system': 'CPT', 'description': 'Excision or curettage of bone cyst or benign tumor of clavicle or scapula; with autograft (includes obtaining graft) (Evidence: pg no: 13, L529-L530)'}, {'code': '23155', 'system': 'CPT', 'description': 'Excision or curettage of bone cyst or benign tumor of proximal humerus; with autograft (includes obtaining graft) (Evidence: pg no: 13, L531-L532)'}, {'code': '23172', 'system': 'CPT', 'descr",
+              "full_source": {
+                "procedure_id": "fracture_tumor_infection_foreign_body_surgery",
+                "category": "Shoulder (Evidence: pg no: 4, L149)",
+                "section_title": "Arthroscopic or Open Procedure for Fracture, Tumor, Infection, or Foreign Body (Evidence: pg no: 4, L149)",
+                "names": [
+                  "Shoulder Surgery for Fracture (Evidence: pg no: 4, L149)",
+                  "Shoulder Surgery for Tumor (Evidence: pg no: 4, L149)",
+                  "Shoulder Surgery for Infection (Evidence: pg no: 4, L149)",
+                  "Shoulder Surgery for Foreign Body (Evidence: pg no: 4, L149)"
+                ],
+                "description": "Shoulder arthroscopic or open procedures for fracture, tumor, infection, or foreign body that has led to or will likely lead to progressive destruction (Evidence: pg no: 4, L149-L151)",
+                "scope": "Arthroscopic or open procedures for specific pathological conditions (Evidence: pg no: 4, L149-L150)",
+                "general_requirements": {
+                  "documentation": [
+                    "Surgery being performed for fracture, tumor, infection, or foreign body that has led to or will likely lead to progressive destruction (Evidence: pg no: 4, L150-L151)"
+                  ]
+                },
+                "exclusions": [],
+                "codes": [
+                  {
+                    "code": "23145",
+                    "system": "CPT",
+                    "description": "Excision or curettage of bone cyst or benign tumor of clavicle or scapula; with autograft (includes obtaining graft) (Evidence: pg no: 13, L529-L530)"
+                  },
+                  {
+                    "code": "23155",
+                    "system": "CPT",
+                    "description": "Excision or curettage of bone cyst or benign tumor of proximal humerus; with autograft (includes obtaining graft) (Evidence: pg no: 13, L531-L532)"
+                  },
+                  {
+                    "code": "23172",
+                    "system": "CPT",
+                    "description": "Sequestrectomy (e.g. for osteomyelitis or bone abscess), scapula (Evidence: pg no: 13, L533)"
+                  },
+                  {
+                    "code": "23174",
+                    "system": "CPT",
+                    "description": "Sequestrectomy (e.g. for osteomyelitis or bone abscess), humeral head to surgical neck (Evidence: pg no: 13, L534)"
+                  }
+                ],
+                "notes": "May be considered medically necessary when surgery addresses progressive destruction (Evidence: pg no: 4, L149-L151)"
+              },
+              "payer_guideline_reference": [
+                "(Evidence: pg no: 4, L149-L151)",
+                "(Evidence: pg no: 4, L150-L151)",
+                "(Evidence: pg no: 13, L531-L532)",
+                "(Evidence: pg no: 4, L149)",
+                "(Evidence: pg no: 13, L533)",
+                "(Evidence: pg no: 13, L529-L530)",
+                "(Evidence: pg no: 13, L534)",
+                "(Evidence: pg no: 4, L149-L150)"
+              ]
+            },
+            {
+              "header": "[CIGNA | Left intertrochanteric femoral fracture open reduction internal fixation | Chunk 2 | score=10.000 | file=cigna_guideline_2.json | id=cigna_8]",
+              "file": "cigna_guideline_2.json",
+              "record_id": "cigna_8",
+              "chunk_index": 2,
+              "payer": "cigna",
+              "score": 10.0,
+              "description": "{'procedure_id': 'labral_repair', 'category': 'Shoulder (Evidence: pg no: 9, L372)', 'section_title': 'Labral Repair (Evidence: pg no: 9, L372)', 'names': ['Labral Repair (Evidence: pg no: 9, L372)', 'SLAP Repair (Evidence: pg no: 9, L382)', 'Bankart Repair (Evidence: pg no: 9, L382)'], 'description': 'Repair of labral tears (e.g., SLAP, Bankart) with specific range of motion and orthopedic test requirements (Evidence: pg no: 9-10, L374-L402)', 'scope': 'Arthroscopic or open labral repair (Evidence: pg no: 9, L374)', 'general_requirements': {'documentation': ['Function-limiting pain (Evidence: pg no: 9, L376-L378)', 'Failure of provider-directed non-surgical management for at least three (3) months in duration (Evidence: pg no: 9, L379-L380)', \"Advanced diagnostic imaging study (e.g., MRI, CT) demonstrates labral tear (e.g., SLAP, Bankart) and correlates with the individual's reported symptoms and physical exam findings (Evidence: pg no: 9, L381-L383)\", 'Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain, cervical radiculopathy, and advanced glenohumeral osteoarthritis (Evidence: pg no: 9, L384-L386)', 'Minimally limited or full shoulder range of motion (Evidence: pg no: 9, L389)', \"ONE or MORE positive orthopedic tests including O'Brien's Test, Biceps Load Test, Clunk Test, Anterior Slide Test, Compression Rotation Test, Speed's Test, Modified dynamic labral shear (Evidence: p",
+              "full_source": {
+                "procedure_id": "labral_repair",
+                "category": "Shoulder (Evidence: pg no: 9, L372)",
+                "section_title": "Labral Repair (Evidence: pg no: 9, L372)",
+                "names": [
+                  "Labral Repair (Evidence: pg no: 9, L372)",
+                  "SLAP Repair (Evidence: pg no: 9, L382)",
+                  "Bankart Repair (Evidence: pg no: 9, L382)"
+                ],
+                "description": "Repair of labral tears (e.g., SLAP, Bankart) with specific range of motion and orthopedic test requirements (Evidence: pg no: 9-10, L374-L402)",
+                "scope": "Arthroscopic or open labral repair (Evidence: pg no: 9, L374)",
+                "general_requirements": {
+                  "documentation": [
+                    "Function-limiting pain (Evidence: pg no: 9, L376-L378)",
+                    "Failure of provider-directed non-surgical management for at least three (3) months in duration (Evidence: pg no: 9, L379-L380)",
+                    "Advanced diagnostic imaging study (e.g., MRI, CT) demonstrates labral tear (e.g., SLAP, Bankart) and correlates with the individual's reported symptoms and physical exam findings (Evidence: pg no: 9, L381-L383)",
+                    "Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain, cervical radiculopathy, and advanced glenohumeral osteoarthritis (Evidence: pg no: 9, L384-L386)",
+                    "Minimally limited or full shoulder range of motion (Evidence: pg no: 9, L389)",
+                    "ONE or MORE positive orthopedic tests including O'Brien's Test, Biceps Load Test, Clunk Test, Anterior Slide Test, Compression Rotation Test, Speed's Test, Modified dynamic labral shear (Evidence: pg no: 9-10, L390-L402)"
+                  ]
+                },
+                "exclusions": [
+                  "Any other indication or condition (Evidence: pg no: 10, L404-L405)"
+                ],
+                "codes": [
+                  {
+                    "code": "23455",
+                    "system": "CPT",
+                    "description": "Capsulorrhaphy, anterior; with labral repair (e.g. Bankart procedure) (Evidence: pg no: 13, L548)"
+                  },
+                  {
+                    "code": "29807",
+                    "system": "CPT",
+                    "description": "Arthroscopy, shoulder, surgical; repair of SLAP lesion (Evidence: pg no: 13, L558)"
+                  }
+                ],
+                "notes": "Requires minimally limited or full range of motion and specific positive orthopedic tests (Evidence: pg no: 9-10, L387-L402)"
+              },
+              "payer_guideline_reference": [
+                "(Evidence: pg no: 9, L381-L383)",
+                "(Evidence: pg no: 9, L379-L380)",
+                "(Evidence: pg no: 9, L384-L386)",
+                "(Evidence: pg no: 9, L382)",
+                "(Evidence: pg no: 9, L376-L378)",
+                "(Evidence: pg no: 9, L372)",
+                "(Evidence: pg no: 13, L548)",
+                "(Evidence: pg no: 9, L374)",
+                "(Evidence: pg no: 10, L404-L405)",
+                "(Evidence: pg no: 9, L389)",
+                "(Evidence: pg no: 13, L558)"
+              ]
+            }
+          ],
+          "guideline_source": "payer"
+        }
+      ],
+      "usage": "UsageInfo(input_tokens=11360, output_tokens=1456, model_id='unknown', input_cost=0.03408, output_cost=0.02184, total_cost=0.05592, cache_creation_input_tokens=0, cache_read_input_tokens=0, cache_write_cost=0.0, cache_read_cost=0.0)",
+      "sources": [
+        {
+          "header": "[CIGNA | Left intertrochanteric femoral fracture open reduction internal fixation | Chunk 1 | score=10.000 | file=cigna_guideline_1.json | id=cigna_7]",
+          "file": "cigna_guideline_1.json",
+          "record_id": "cigna_7",
+          "chunk_index": 1,
+          "payer": "cigna",
+          "score": 10.0,
+          "description": "{'procedure_id': 'fracture_tumor_infection_foreign_body_surgery', 'category': 'Shoulder (Evidence: pg no: 4, L149)', 'section_title': 'Arthroscopic or Open Procedure for Fracture, Tumor, Infection, or Foreign Body (Evidence: pg no: 4, L149)', 'names': ['Shoulder Surgery for Fracture (Evidence: pg no: 4, L149)', 'Shoulder Surgery for Tumor (Evidence: pg no: 4, L149)', 'Shoulder Surgery for Infection (Evidence: pg no: 4, L149)', 'Shoulder Surgery for Foreign Body (Evidence: pg no: 4, L149)'], 'description': 'Shoulder arthroscopic or open procedures for fracture, tumor, infection, or foreign body that has led to or will likely lead to progressive destruction (Evidence: pg no: 4, L149-L151)', 'scope': 'Arthroscopic or open procedures for specific pathological conditions (Evidence: pg no: 4, L149-L150)', 'general_requirements': {'documentation': ['Surgery being performed for fracture, tumor, infection, or foreign body that has led to or will likely lead to progressive destruction (Evidence: pg no: 4, L150-L151)']}, 'exclusions': [], 'codes': [{'code': '23145', 'system': 'CPT', 'description': 'Excision or curettage of bone cyst or benign tumor of clavicle or scapula; with autograft (includes obtaining graft) (Evidence: pg no: 13, L529-L530)'}, {'code': '23155', 'system': 'CPT', 'description': 'Excision or curettage of bone cyst or benign tumor of proximal humerus; with autograft (includes obtaining graft) (Evidence: pg no: 13, L531-L532)'}, {'code': '23172', 'system': 'CPT', 'descr",
+          "full_source": {
+            "procedure_id": "fracture_tumor_infection_foreign_body_surgery",
+            "category": "Shoulder (Evidence: pg no: 4, L149)",
+            "section_title": "Arthroscopic or Open Procedure for Fracture, Tumor, Infection, or Foreign Body (Evidence: pg no: 4, L149)",
+            "names": [
+              "Shoulder Surgery for Fracture (Evidence: pg no: 4, L149)",
+              "Shoulder Surgery for Tumor (Evidence: pg no: 4, L149)",
+              "Shoulder Surgery for Infection (Evidence: pg no: 4, L149)",
+              "Shoulder Surgery for Foreign Body (Evidence: pg no: 4, L149)"
+            ],
+            "description": "Shoulder arthroscopic or open procedures for fracture, tumor, infection, or foreign body that has led to or will likely lead to progressive destruction (Evidence: pg no: 4, L149-L151)",
+            "scope": "Arthroscopic or open procedures for specific pathological conditions (Evidence: pg no: 4, L149-L150)",
+            "general_requirements": {
+              "documentation": [
+                "Surgery being performed for fracture, tumor, infection, or foreign body that has led to or will likely lead to progressive destruction (Evidence: pg no: 4, L150-L151)"
+              ]
+            },
+            "exclusions": [],
+            "codes": [
+              {
+                "code": "23145",
+                "system": "CPT",
+                "description": "Excision or curettage of bone cyst or benign tumor of clavicle or scapula; with autograft (includes obtaining graft) (Evidence: pg no: 13, L529-L530)"
+              },
+              {
+                "code": "23155",
+                "system": "CPT",
+                "description": "Excision or curettage of bone cyst or benign tumor of proximal humerus; with autograft (includes obtaining graft) (Evidence: pg no: 13, L531-L532)"
+              },
+              {
+                "code": "23172",
+                "system": "CPT",
+                "description": "Sequestrectomy (e.g. for osteomyelitis or bone abscess), scapula (Evidence: pg no: 13, L533)"
+              },
+              {
+                "code": "23174",
+                "system": "CPT",
+                "description": "Sequestrectomy (e.g. for osteomyelitis or bone abscess), humeral head to surgical neck (Evidence: pg no: 13, L534)"
+              }
+            ],
+            "notes": "May be considered medically necessary when surgery addresses progressive destruction (Evidence: pg no: 4, L149-L151)"
+          },
+          "payer_guideline_reference": [
+            "(Evidence: pg no: 4, L149-L151)",
+            "(Evidence: pg no: 4, L150-L151)",
+            "(Evidence: pg no: 13, L531-L532)",
+            "(Evidence: pg no: 4, L149)",
+            "(Evidence: pg no: 13, L533)",
+            "(Evidence: pg no: 13, L529-L530)",
+            "(Evidence: pg no: 13, L534)",
+            "(Evidence: pg no: 4, L149-L150)"
+          ]
+        },
+        {
+          "header": "[CIGNA | Left intertrochanteric femoral fracture open reduction internal fixation | Chunk 2 | score=10.000 | file=cigna_guideline_2.json | id=cigna_8]",
+          "file": "cigna_guideline_2.json",
+          "record_id": "cigna_8",
+          "chunk_index": 2,
+          "payer": "cigna",
+          "score": 10.0,
+          "description": "{'procedure_id': 'labral_repair', 'category': 'Shoulder (Evidence: pg no: 9, L372)', 'section_title': 'Labral Repair (Evidence: pg no: 9, L372)', 'names': ['Labral Repair (Evidence: pg no: 9, L372)', 'SLAP Repair (Evidence: pg no: 9, L382)', 'Bankart Repair (Evidence: pg no: 9, L382)'], 'description': 'Repair of labral tears (e.g., SLAP, Bankart) with specific range of motion and orthopedic test requirements (Evidence: pg no: 9-10, L374-L402)', 'scope': 'Arthroscopic or open labral repair (Evidence: pg no: 9, L374)', 'general_requirements': {'documentation': ['Function-limiting pain (Evidence: pg no: 9, L376-L378)', 'Failure of provider-directed non-surgical management for at least three (3) months in duration (Evidence: pg no: 9, L379-L380)', \"Advanced diagnostic imaging study (e.g., MRI, CT) demonstrates labral tear (e.g., SLAP, Bankart) and correlates with the individual's reported symptoms and physical exam findings (Evidence: pg no: 9, L381-L383)\", 'Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain, cervical radiculopathy, and advanced glenohumeral osteoarthritis (Evidence: pg no: 9, L384-L386)', 'Minimally limited or full shoulder range of motion (Evidence: pg no: 9, L389)', \"ONE or MORE positive orthopedic tests including O'Brien's Test, Biceps Load Test, Clunk Test, Anterior Slide Test, Compression Rotation Test, Speed's Test, Modified dynamic labral shear (Evidence: p",
+          "full_source": {
+            "procedure_id": "labral_repair",
+            "category": "Shoulder (Evidence: pg no: 9, L372)",
+            "section_title": "Labral Repair (Evidence: pg no: 9, L372)",
+            "names": [
+              "Labral Repair (Evidence: pg no: 9, L372)",
+              "SLAP Repair (Evidence: pg no: 9, L382)",
+              "Bankart Repair (Evidence: pg no: 9, L382)"
+            ],
+            "description": "Repair of labral tears (e.g., SLAP, Bankart) with specific range of motion and orthopedic test requirements (Evidence: pg no: 9-10, L374-L402)",
+            "scope": "Arthroscopic or open labral repair (Evidence: pg no: 9, L374)",
+            "general_requirements": {
+              "documentation": [
+                "Function-limiting pain (Evidence: pg no: 9, L376-L378)",
+                "Failure of provider-directed non-surgical management for at least three (3) months in duration (Evidence: pg no: 9, L379-L380)",
+                "Advanced diagnostic imaging study (e.g., MRI, CT) demonstrates labral tear (e.g., SLAP, Bankart) and correlates with the individual's reported symptoms and physical exam findings (Evidence: pg no: 9, L381-L383)",
+                "Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain, cervical radiculopathy, and advanced glenohumeral osteoarthritis (Evidence: pg no: 9, L384-L386)",
+                "Minimally limited or full shoulder range of motion (Evidence: pg no: 9, L389)",
+                "ONE or MORE positive orthopedic tests including O'Brien's Test, Biceps Load Test, Clunk Test, Anterior Slide Test, Compression Rotation Test, Speed's Test, Modified dynamic labral shear (Evidence: pg no: 9-10, L390-L402)"
+              ]
+            },
+            "exclusions": [
+              "Any other indication or condition (Evidence: pg no: 10, L404-L405)"
+            ],
+            "codes": [
+              {
+                "code": "23455",
+                "system": "CPT",
+                "description": "Capsulorrhaphy, anterior; with labral repair (e.g. Bankart procedure) (Evidence: pg no: 13, L548)"
+              },
+              {
+                "code": "29807",
+                "system": "CPT",
+                "description": "Arthroscopy, shoulder, surgical; repair of SLAP lesion (Evidence: pg no: 13, L558)"
+              }
+            ],
+            "notes": "Requires minimally limited or full range of motion and specific positive orthopedic tests (Evidence: pg no: 9-10, L387-L402)"
+          },
+          "payer_guideline_reference": [
+            "(Evidence: pg no: 9, L381-L383)",
+            "(Evidence: pg no: 9, L379-L380)",
+            "(Evidence: pg no: 9, L384-L386)",
+            "(Evidence: pg no: 9, L382)",
+            "(Evidence: pg no: 9, L376-L378)",
+            "(Evidence: pg no: 9, L372)",
+            "(Evidence: pg no: 13, L548)",
+            "(Evidence: pg no: 9, L374)",
+            "(Evidence: pg no: 10, L404-L405)",
+            "(Evidence: pg no: 9, L389)",
+            "(Evidence: pg no: 13, L558)"
+          ]
+        }
+      ],
+      "error": null
+    },
+    "uhc": {
+      "payer_name": "UnitedHealthcare",
+      "procedures_evaluated": 1,
+      "procedure_results": [
+        {
+          "procedure_evaluated": "Left intertrochanteric femoral fracture open reduction internal fixation",
+          "variant_or_subprocedure": "Intramedullary nail fixation",
+          "policy_name": "UnitedHealthcare Medical Policy for Shoulder Procedures",
+          "decision": "Insufficient",
+          "primary_reasons": [
+            "The provided UHC guidelines are for shoulder procedures, not hip/femur fracture fixation",
+            "No applicable UHC policy for intertrochanteric femur fracture was provided for evaluation"
+          ],
+          "requirement_checklist": [
+            {
+              "requirement_id": "applicable_policy",
+              "type": "single",
+              "status": "unmet",
+              "evidence": [
+                {
+                  "line_reference": "L300-L301"
+                }
+              ],
+              "missing_to_meet": "Appropriate UHC policy for intertrochanteric femur fracture fixation",
+              "suggestion": "Request specific UHC policy for hip/femur fracture fixation procedures"
+            }
+          ],
+          "timing_validation": {
+            "conservative_duration_weeks": "unknown",
+            "pt_sessions_completed": "unknown",
+            "follow_up_interval": "unknown"
+          },
+          "contraindications_exclusions": {
+            "active_infection": "absent",
+            "severe_arthritis": "unclear",
+            "other_contraindications": []
+          },
+          "coding_implications": {
+            "eligible_codes_if_sufficient": [],
+            "notes": "Cannot determine eligible codes without appropriate policy"
+          },
+          "improvement_recommendations": {
+            "policy_needed": [
+              "Request specific policy for hip/femur fracture fixation procedures"
+            ],
+            "cdi_documentation_gaps": [],
+            "completion_guidance": [
+              "Ensure appropriate policy is available for review"
+            ],
+            "next_steps": [
+              "Obtain correct medical policy for intertrochanteric femur fracture fixation"
+            ]
+          },
+          "_original_procedure_name": "Left intertrochanteric femoral fracture open reduction internal fixation",
+          "medical_chart_reference": [
+            "L300-L301"
+          ],
+          "guideline_availability": {
+            "status": "available",
+            "search_hits": 6,
+            "max_score": 24.0,
+            "message": "Found 6 guideline(s) for UnitedHealthcare"
+          },
+          "sources": [
+            {
+              "header": "[UHC | Left intertrochanteric femoral fracture open reduction internal fixation | Chunk 1 | score=24.000 | file=uhc_guideline_1.json | id=uhc_16]",
+              "file": "uhc_guideline_1.json",
+              "record_id": "uhc_16",
+              "chunk_index": 1,
+              "payer": "uhc",
+              "score": 24.0,
+              "description": "{'procedure_id': 'subacromial_balloon_spacers', 'category': 'Shoulder (Evidence: pg no: 2, L89)', 'section_title': 'Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)', 'names': ['Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)', 'InSpace™ Subacromial Tissue Spacer System (Evidence: pg no: 2, L90)', 'Subacromial balloon spacer implantation (SBSI) (Evidence: pg no: 3, L124)', 'InSpace Biodegradable Subacromial Spacer (Evidence: pg no: 5, L254)'], 'description': 'A minimally invasive, biodegradable balloon spacer for treating massive, inoperable rotator cuff tears (MIRCTs). It preserves musculoskeletal and bone tissues, does not require the use of an anchor, and does not require a permanent implant. It is used as a spacer to eliminate friction between the acromion and the humeral head or rotator cuff to restore shoulder function and reduce pain. It is designed to biodegrade over the course of twelve months (Evidence: pg no: 2, L90-L93)', 'scope': 'Treatment of massive, irreparable rotator cuff tears (Evidence: pg no: 2, L90-L91)', 'general_requirements': {'documentation': ['Medical records documentation may be required to assess whether the member meets the clinical criteria for coverage (Evidence: pg no: 1, L40-L42)']}, 'exclusions': ['Unproven and not medically necessary due to insufficient evidence of efficacy (Evidence: pg no: 1, L37-L38)'], 'codes': [], 'notes': 'The current published literature is at high-risk of bias due to the small sample size, s",
+              "full_source": {
+                "procedure_id": "subacromial_balloon_spacers",
+                "category": "Shoulder (Evidence: pg no: 2, L89)",
+                "section_title": "Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)",
+                "names": [
+                  "Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)",
+                  "InSpace™ Subacromial Tissue Spacer System (Evidence: pg no: 2, L90)",
+                  "Subacromial balloon spacer implantation (SBSI) (Evidence: pg no: 3, L124)",
+                  "InSpace Biodegradable Subacromial Spacer (Evidence: pg no: 5, L254)"
+                ],
+                "description": "A minimally invasive, biodegradable balloon spacer for treating massive, inoperable rotator cuff tears (MIRCTs). It preserves musculoskeletal and bone tissues, does not require the use of an anchor, and does not require a permanent implant. It is used as a spacer to eliminate friction between the acromion and the humeral head or rotator cuff to restore shoulder function and reduce pain. It is designed to biodegrade over the course of twelve months (Evidence: pg no: 2, L90-L93)",
+                "scope": "Treatment of massive, irreparable rotator cuff tears (Evidence: pg no: 2, L90-L91)",
+                "general_requirements": {
+                  "documentation": [
+                    "Medical records documentation may be required to assess whether the member meets the clinical criteria for coverage (Evidence: pg no: 1, L40-L42)"
+                  ]
+                },
+                "exclusions": [
+                  "Unproven and not medically necessary due to insufficient evidence of efficacy (Evidence: pg no: 1, L37-L38)"
+                ],
+                "codes": [],
+                "notes": "The current published literature is at high-risk of bias due to the small sample size, single-center focus, retrospective design, and lack of randomization, blinding, and control. There are device-related complications, and long-term studies are necessary as short-term results appear to degrade over time (Evidence: pg no: 2, L94-L97)"
+              },
+              "payer_guideline_reference": [
+                "(Evidence: pg no: 2, L90)",
+                "(Evidence: pg no: 2, L90-L93)",
+                "(Evidence: pg no: 2, L89)",
+                "(Evidence: pg no: 2, L90-L91)",
+                "(Evidence: pg no: 2, L94-L97)",
+                "(Evidence: pg no: 3, L124)",
+                "(Evidence: pg no: 1, L37-L38)",
+                "(Evidence: pg no: 1, L40-L42)",
+                "(Evidence: pg no: 5, L254)"
+              ]
+            },
+            {
+              "header": "[UHC | Left intertrochanteric femoral fracture open reduction internal fixation | Chunk 2 | score=10.000 | file=uhc_guideline_2.json | id=uhc_10]",
+              "file": "uhc_guideline_2.json",
+              "record_id": "uhc_10",
+              "chunk_index": 2,
+              "payer": "uhc",
+              "score": 10.0,
+              "description": "{'procedure_id': 'removal_replacement_tjr_shoulder', 'category': 'Shoulder (Evidence: pg no: 1, L33)', 'section_title': 'Removal and Replacement, Total Joint Replacement (TJR), Shoulder (Evidence: pg no: 1, L33)', 'names': ['Removal and Replacement, Total Joint Replacement (TJR), Shoulder (Evidence: pg no: 1, L33)'], 'description': 'Surgical removal and replacement of total joint replacement components in the shoulder (Evidence: pg no: 1, L33)', 'scope': 'Revision surgery for shoulder joint replacement (Evidence: pg no: 1, L33)', 'general_requirements': {'documentation': ['Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)']}, 'exclusions': [], 'codes': [], 'notes': 'Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)'}",
+              "full_source": {
+                "procedure_id": "removal_replacement_tjr_shoulder",
+                "category": "Shoulder (Evidence: pg no: 1, L33)",
+                "section_title": "Removal and Replacement, Total Joint Replacement (TJR), Shoulder (Evidence: pg no: 1, L33)",
+                "names": [
+                  "Removal and Replacement, Total Joint Replacement (TJR), Shoulder (Evidence: pg no: 1, L33)"
+                ],
+                "description": "Surgical removal and replacement of total joint replacement components in the shoulder (Evidence: pg no: 1, L33)",
+                "scope": "Revision surgery for shoulder joint replacement (Evidence: pg no: 1, L33)",
+                "general_requirements": {
+                  "documentation": [
+                    "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+                  ]
+                },
+                "exclusions": [],
+                "codes": [],
+                "notes": "Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)"
+              },
+              "payer_guideline_reference": [
+                "(Evidence: pg no: 1, L25-L27)",
+                "(Evidence: pg no: 1, L25)",
+                "(Evidence: pg no: 1, L33)"
+              ]
+            },
+            {
+              "header": "[UHC | Left intertrochanteric femoral fracture open reduction internal fixation | Chunk 3 | score=10.000 | file=uhc_guideline_3.json | id=uhc_11]",
+              "file": "uhc_guideline_3.json",
+              "record_id": "uhc_11",
+              "chunk_index": 3,
+              "payer": "uhc",
+              "score": 10.0,
+              "description": "{'procedure_id': 'reverse_total_shoulder_arthroplasty', 'category': 'Shoulder (Evidence: pg no: 3, L113, L117)', 'section_title': 'Reverse Total Shoulder Arthroplasty (RTSA) (Evidence: pg no: 3, L117)', 'names': ['Reverse total shoulder arthroplasty (Evidence: pg no: 3, L113)', 'RTSA (Evidence: pg no: 3, L117)'], 'description': 'Surgical procedure involving reverse total shoulder arthroplasty, often used as a salvage procedure for failed treatments (Evidence: pg no: 3, L113, L117, L162)', 'scope': 'Salvage procedure for failed shoulder treatments (Evidence: pg no: 4, L162)', 'general_requirements': {'documentation': ['Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)']}, 'exclusions': [], 'codes': [], 'notes': 'Mean time to conversion to reverse total shoulder arthroplasty was 11.0 versus 25.4 months for SAB versus debridement arm. 5% of participants needed salvage reverse shoulder arthroplasty (Evidence: pg no: 3, L113-L114, L162)'}",
+              "full_source": {
+                "procedure_id": "reverse_total_shoulder_arthroplasty",
+                "category": "Shoulder (Evidence: pg no: 3, L113, L117)",
+                "section_title": "Reverse Total Shoulder Arthroplasty (RTSA) (Evidence: pg no: 3, L117)",
+                "names": [
+                  "Reverse total shoulder arthroplasty (Evidence: pg no: 3, L113)",
+                  "RTSA (Evidence: pg no: 3, L117)"
+                ],
+                "description": "Surgical procedure involving reverse total shoulder arthroplasty, often used as a salvage procedure for failed treatments (Evidence: pg no: 3, L113, L117, L162)",
+                "scope": "Salvage procedure for failed shoulder treatments (Evidence: pg no: 4, L162)",
+                "general_requirements": {
+                  "documentation": [
+                    "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+                  ]
+                },
+                "exclusions": [],
+                "codes": [],
+                "notes": "Mean time to conversion to reverse total shoulder arthroplasty was 11.0 versus 25.4 months for SAB versus debridement arm. 5% of participants needed salvage reverse shoulder arthroplasty (Evidence: pg no: 3, L113-L114, L162)"
+              },
+              "payer_guideline_reference": [
+                "(Evidence: pg no: 3, L117)",
+                "(Evidence: pg no: 3, L113)",
+                "(Evidence: pg no: 4, L162)",
+                "(Evidence: pg no: 1, L25-L27)"
+              ]
+            },
+            {
+              "header": "[UHC | Left intertrochanteric femoral fracture open reduction internal fixation | Chunk 4 | score=8.000 | file=uhc_guideline_4.json | id=uhc_0]",
+              "file": "uhc_guideline_4.json",
+              "record_id": "uhc_0",
+              "chunk_index": 4,
+              "payer": "uhc",
+              "score": 8.0,
+              "description": "{'procedure_id': 'adhesion_lysis_shoulder', 'category': 'Shoulder (Evidence: pg no: 2, L81)', 'section_title': 'Lysis and Resection of Adhesions (Evidence: pg no: 2, L81)', 'names': ['Lysis and resection of adhesions (Evidence: pg no: 2, L81)'], 'description': 'Arthroscopic surgical lysis and resection of adhesions, with or without manipulation (Evidence: pg no: 2, L81)', 'scope': 'Surgical treatment of shoulder adhesions via arthroscopic approach (Evidence: pg no: 2, L81)', 'general_requirements': {'documentation': ['Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)']}, 'exclusions': [], 'codes': [{'code': '29825', 'system': 'CPT', 'description': 'Arthroscopy, shoulder, surgical; with lysis and resection of adhesions, with or without manipulation (Evidence: pg no: 2, L81)'}], 'notes': 'Part of arthroscopic shoulder surgery procedures (Evidence: pg no: 2, L81)'}",
+              "full_source": {
+                "procedure_id": "adhesion_lysis_shoulder",
+                "category": "Shoulder (Evidence: pg no: 2, L81)",
+                "section_title": "Lysis and Resection of Adhesions (Evidence: pg no: 2, L81)",
+                "names": [
+                  "Lysis and resection of adhesions (Evidence: pg no: 2, L81)"
+                ],
+                "description": "Arthroscopic surgical lysis and resection of adhesions, with or without manipulation (Evidence: pg no: 2, L81)",
+                "scope": "Surgical treatment of shoulder adhesions via arthroscopic approach (Evidence: pg no: 2, L81)",
+                "general_requirements": {
+                  "documentation": [
+                    "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+                  ]
+                },
+                "exclusions": [],
+                "codes": [
+                  {
+                    "code": "29825",
+                    "system": "CPT",
+                    "description": "Arthroscopy, shoulder, surgical; with lysis and resection of adhesions, with or without manipulation (Evidence: pg no: 2, L81)"
+                  }
+                ],
+                "notes": "Part of arthroscopic shoulder surgery procedures (Evidence: pg no: 2, L81)"
+              },
+              "payer_guideline_reference": [
+                "(Evidence: pg no: 1, L25-L27)",
+                "(Evidence: pg no: 2, L81)"
+              ]
+            }
+          ],
+          "guideline_source": "payer"
+        }
+      ],
+      "usage": "UsageInfo(input_tokens=11360, output_tokens=1456, model_id='unknown', input_cost=0.03408, output_cost=0.02184, total_cost=0.05592, cache_creation_input_tokens=0, cache_read_input_tokens=0, cache_write_cost=0.0, cache_read_cost=0.0)",
+      "sources": [
+        {
+          "header": "[UHC | Left intertrochanteric femoral fracture open reduction internal fixation | Chunk 1 | score=24.000 | file=uhc_guideline_1.json | id=uhc_16]",
+          "file": "uhc_guideline_1.json",
+          "record_id": "uhc_16",
+          "chunk_index": 1,
+          "payer": "uhc",
+          "score": 24.0,
+          "description": "{'procedure_id': 'subacromial_balloon_spacers', 'category': 'Shoulder (Evidence: pg no: 2, L89)', 'section_title': 'Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)', 'names': ['Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)', 'InSpace™ Subacromial Tissue Spacer System (Evidence: pg no: 2, L90)', 'Subacromial balloon spacer implantation (SBSI) (Evidence: pg no: 3, L124)', 'InSpace Biodegradable Subacromial Spacer (Evidence: pg no: 5, L254)'], 'description': 'A minimally invasive, biodegradable balloon spacer for treating massive, inoperable rotator cuff tears (MIRCTs). It preserves musculoskeletal and bone tissues, does not require the use of an anchor, and does not require a permanent implant. It is used as a spacer to eliminate friction between the acromion and the humeral head or rotator cuff to restore shoulder function and reduce pain. It is designed to biodegrade over the course of twelve months (Evidence: pg no: 2, L90-L93)', 'scope': 'Treatment of massive, irreparable rotator cuff tears (Evidence: pg no: 2, L90-L91)', 'general_requirements': {'documentation': ['Medical records documentation may be required to assess whether the member meets the clinical criteria for coverage (Evidence: pg no: 1, L40-L42)']}, 'exclusions': ['Unproven and not medically necessary due to insufficient evidence of efficacy (Evidence: pg no: 1, L37-L38)'], 'codes': [], 'notes': 'The current published literature is at high-risk of bias due to the small sample size, s",
+          "full_source": {
+            "procedure_id": "subacromial_balloon_spacers",
+            "category": "Shoulder (Evidence: pg no: 2, L89)",
+            "section_title": "Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)",
+            "names": [
+              "Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)",
+              "InSpace™ Subacromial Tissue Spacer System (Evidence: pg no: 2, L90)",
+              "Subacromial balloon spacer implantation (SBSI) (Evidence: pg no: 3, L124)",
+              "InSpace Biodegradable Subacromial Spacer (Evidence: pg no: 5, L254)"
+            ],
+            "description": "A minimally invasive, biodegradable balloon spacer for treating massive, inoperable rotator cuff tears (MIRCTs). It preserves musculoskeletal and bone tissues, does not require the use of an anchor, and does not require a permanent implant. It is used as a spacer to eliminate friction between the acromion and the humeral head or rotator cuff to restore shoulder function and reduce pain. It is designed to biodegrade over the course of twelve months (Evidence: pg no: 2, L90-L93)",
+            "scope": "Treatment of massive, irreparable rotator cuff tears (Evidence: pg no: 2, L90-L91)",
+            "general_requirements": {
+              "documentation": [
+                "Medical records documentation may be required to assess whether the member meets the clinical criteria for coverage (Evidence: pg no: 1, L40-L42)"
+              ]
+            },
+            "exclusions": [
+              "Unproven and not medically necessary due to insufficient evidence of efficacy (Evidence: pg no: 1, L37-L38)"
+            ],
+            "codes": [],
+            "notes": "The current published literature is at high-risk of bias due to the small sample size, single-center focus, retrospective design, and lack of randomization, blinding, and control. There are device-related complications, and long-term studies are necessary as short-term results appear to degrade over time (Evidence: pg no: 2, L94-L97)"
+          },
+          "payer_guideline_reference": [
+            "(Evidence: pg no: 2, L90)",
+            "(Evidence: pg no: 2, L90-L93)",
+            "(Evidence: pg no: 2, L89)",
+            "(Evidence: pg no: 2, L90-L91)",
+            "(Evidence: pg no: 2, L94-L97)",
+            "(Evidence: pg no: 3, L124)",
+            "(Evidence: pg no: 1, L37-L38)",
+            "(Evidence: pg no: 1, L40-L42)",
+            "(Evidence: pg no: 5, L254)"
+          ]
+        },
+        {
+          "header": "[UHC | Left intertrochanteric femoral fracture open reduction internal fixation | Chunk 2 | score=10.000 | file=uhc_guideline_2.json | id=uhc_10]",
+          "file": "uhc_guideline_2.json",
+          "record_id": "uhc_10",
+          "chunk_index": 2,
+          "payer": "uhc",
+          "score": 10.0,
+          "description": "{'procedure_id': 'removal_replacement_tjr_shoulder', 'category': 'Shoulder (Evidence: pg no: 1, L33)', 'section_title': 'Removal and Replacement, Total Joint Replacement (TJR), Shoulder (Evidence: pg no: 1, L33)', 'names': ['Removal and Replacement, Total Joint Replacement (TJR), Shoulder (Evidence: pg no: 1, L33)'], 'description': 'Surgical removal and replacement of total joint replacement components in the shoulder (Evidence: pg no: 1, L33)', 'scope': 'Revision surgery for shoulder joint replacement (Evidence: pg no: 1, L33)', 'general_requirements': {'documentation': ['Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)']}, 'exclusions': [], 'codes': [], 'notes': 'Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)'}",
+          "full_source": {
+            "procedure_id": "removal_replacement_tjr_shoulder",
+            "category": "Shoulder (Evidence: pg no: 1, L33)",
+            "section_title": "Removal and Replacement, Total Joint Replacement (TJR), Shoulder (Evidence: pg no: 1, L33)",
+            "names": [
+              "Removal and Replacement, Total Joint Replacement (TJR), Shoulder (Evidence: pg no: 1, L33)"
+            ],
+            "description": "Surgical removal and replacement of total joint replacement components in the shoulder (Evidence: pg no: 1, L33)",
+            "scope": "Revision surgery for shoulder joint replacement (Evidence: pg no: 1, L33)",
+            "general_requirements": {
+              "documentation": [
+                "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+              ]
+            },
+            "exclusions": [],
+            "codes": [],
+            "notes": "Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)"
+          },
+          "payer_guideline_reference": [
+            "(Evidence: pg no: 1, L25-L27)",
+            "(Evidence: pg no: 1, L25)",
+            "(Evidence: pg no: 1, L33)"
+          ]
+        },
+        {
+          "header": "[UHC | Left intertrochanteric femoral fracture open reduction internal fixation | Chunk 3 | score=10.000 | file=uhc_guideline_3.json | id=uhc_11]",
+          "file": "uhc_guideline_3.json",
+          "record_id": "uhc_11",
+          "chunk_index": 3,
+          "payer": "uhc",
+          "score": 10.0,
+          "description": "{'procedure_id': 'reverse_total_shoulder_arthroplasty', 'category': 'Shoulder (Evidence: pg no: 3, L113, L117)', 'section_title': 'Reverse Total Shoulder Arthroplasty (RTSA) (Evidence: pg no: 3, L117)', 'names': ['Reverse total shoulder arthroplasty (Evidence: pg no: 3, L113)', 'RTSA (Evidence: pg no: 3, L117)'], 'description': 'Surgical procedure involving reverse total shoulder arthroplasty, often used as a salvage procedure for failed treatments (Evidence: pg no: 3, L113, L117, L162)', 'scope': 'Salvage procedure for failed shoulder treatments (Evidence: pg no: 4, L162)', 'general_requirements': {'documentation': ['Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)']}, 'exclusions': [], 'codes': [], 'notes': 'Mean time to conversion to reverse total shoulder arthroplasty was 11.0 versus 25.4 months for SAB versus debridement arm. 5% of participants needed salvage reverse shoulder arthroplasty (Evidence: pg no: 3, L113-L114, L162)'}",
+          "full_source": {
+            "procedure_id": "reverse_total_shoulder_arthroplasty",
+            "category": "Shoulder (Evidence: pg no: 3, L113, L117)",
+            "section_title": "Reverse Total Shoulder Arthroplasty (RTSA) (Evidence: pg no: 3, L117)",
+            "names": [
+              "Reverse total shoulder arthroplasty (Evidence: pg no: 3, L113)",
+              "RTSA (Evidence: pg no: 3, L117)"
+            ],
+            "description": "Surgical procedure involving reverse total shoulder arthroplasty, often used as a salvage procedure for failed treatments (Evidence: pg no: 3, L113, L117, L162)",
+            "scope": "Salvage procedure for failed shoulder treatments (Evidence: pg no: 4, L162)",
+            "general_requirements": {
+              "documentation": [
+                "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+              ]
+            },
+            "exclusions": [],
+            "codes": [],
+            "notes": "Mean time to conversion to reverse total shoulder arthroplasty was 11.0 versus 25.4 months for SAB versus debridement arm. 5% of participants needed salvage reverse shoulder arthroplasty (Evidence: pg no: 3, L113-L114, L162)"
+          },
+          "payer_guideline_reference": [
+            "(Evidence: pg no: 3, L117)",
+            "(Evidence: pg no: 3, L113)",
+            "(Evidence: pg no: 4, L162)",
+            "(Evidence: pg no: 1, L25-L27)"
+          ]
+        },
+        {
+          "header": "[UHC | Left intertrochanteric femoral fracture open reduction internal fixation | Chunk 4 | score=8.000 | file=uhc_guideline_4.json | id=uhc_0]",
+          "file": "uhc_guideline_4.json",
+          "record_id": "uhc_0",
+          "chunk_index": 4,
+          "payer": "uhc",
+          "score": 8.0,
+          "description": "{'procedure_id': 'adhesion_lysis_shoulder', 'category': 'Shoulder (Evidence: pg no: 2, L81)', 'section_title': 'Lysis and Resection of Adhesions (Evidence: pg no: 2, L81)', 'names': ['Lysis and resection of adhesions (Evidence: pg no: 2, L81)'], 'description': 'Arthroscopic surgical lysis and resection of adhesions, with or without manipulation (Evidence: pg no: 2, L81)', 'scope': 'Surgical treatment of shoulder adhesions via arthroscopic approach (Evidence: pg no: 2, L81)', 'general_requirements': {'documentation': ['Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)']}, 'exclusions': [], 'codes': [{'code': '29825', 'system': 'CPT', 'description': 'Arthroscopy, shoulder, surgical; with lysis and resection of adhesions, with or without manipulation (Evidence: pg no: 2, L81)'}], 'notes': 'Part of arthroscopic shoulder surgery procedures (Evidence: pg no: 2, L81)'}",
+          "full_source": {
+            "procedure_id": "adhesion_lysis_shoulder",
+            "category": "Shoulder (Evidence: pg no: 2, L81)",
+            "section_title": "Lysis and Resection of Adhesions (Evidence: pg no: 2, L81)",
+            "names": [
+              "Lysis and resection of adhesions (Evidence: pg no: 2, L81)"
+            ],
+            "description": "Arthroscopic surgical lysis and resection of adhesions, with or without manipulation (Evidence: pg no: 2, L81)",
+            "scope": "Surgical treatment of shoulder adhesions via arthroscopic approach (Evidence: pg no: 2, L81)",
+            "general_requirements": {
+              "documentation": [
+                "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+              ]
+            },
+            "exclusions": [],
+            "codes": [
+              {
+                "code": "29825",
+                "system": "CPT",
+                "description": "Arthroscopy, shoulder, surgical; with lysis and resection of adhesions, with or without manipulation (Evidence: pg no: 2, L81)"
+              }
+            ],
+            "notes": "Part of arthroscopic shoulder surgery procedures (Evidence: pg no: 2, L81)"
+          },
+          "payer_guideline_reference": [
+            "(Evidence: pg no: 1, L25-L27)",
+            "(Evidence: pg no: 2, L81)"
+          ]
+        }
+      ],
+      "error": null
+    },
+    "anthem": {
+      "payer_name": "Anthem",
+      "procedures_evaluated": 1,
+      "procedure_results": [
+        {
+          "procedure_evaluated": "Left intertrochanteric femoral fracture open reduction internal fixation",
+          "variant_or_subprocedure": "Intramedullary nail fixation",
+          "policy_name": "Anthem Medical Policy for Hip and Shoulder Procedures",
+          "decision": "Sufficient",
+          "primary_reasons": [
+            "Documentation confirms hip fracture (intertrochanteric femur fracture)",
+            "Procedure performed is appropriate for the documented diagnosis"
+          ],
+          "requirement_checklist": [
+            {
+              "requirement_id": "hip_fracture",
+              "type": "single",
+              "status": "met",
+              "evidence": [
+                {
+                  "line_reference": "L181-L185"
+                }
+              ],
+              "missing_to_meet": "",
+              "suggestion": ""
+            },
+            {
+              "requirement_id": "appropriate_procedure",
+              "type": "single",
+              "status": "met",
+              "evidence": [
+                {
+                  "line_reference": "L300-L301"
+                }
+              ],
+              "missing_to_meet": "",
+              "suggestion": ""
+            },
+            {
+              "requirement_id": "imaging_confirmation",
+              "type": "single",
+              "status": "met",
+              "evidence": [
+                {
+                  "line_reference": "L179-L181"
+                }
+              ],
+              "missing_to_meet": "",
+              "suggestion": ""
+            }
+          ],
+          "timing_validation": {
+            "conservative_duration_weeks": "not applicable",
+            "pt_sessions_completed": "not applicable",
+            "follow_up_interval": "6 weeks"
+          },
+          "contraindications_exclusions": {
+            "active_infection": "absent",
+            "severe_arthritis": "unclear",
+            "other_contraindications": []
+          },
+          "coding_implications": {
+            "eligible_codes_if_sufficient": [],
+            "notes": "Specific CPT codes for intertrochanteric femur fracture fixation not provided in available policy"
+          },
+          "improvement_recommendations": {
+            "policy_needed": [
+              "Request specific policy section for intertrochanteric femur fracture fixation"
+            ],
+            "cdi_documentation_gaps": [],
+            "completion_guidance": [],
+            "next_steps": [
+              "Verify appropriate CPT codes for the procedure performed"
+            ]
+          },
+          "_original_procedure_name": "Left intertrochanteric femoral fracture open reduction internal fixation",
+          "medical_chart_reference": [
+            "L181-L185",
+            "L300-L301",
+            "L179-L181"
+          ],
+          "guideline_availability": {
+            "status": "available",
+            "search_hits": 6,
+            "max_score": 20.0,
+            "message": "Found 6 guideline(s) for Anthem"
+          },
+          "sources": [
+            {
+              "header": "[ANTHEM | Left intertrochanteric femoral fracture open reduction internal fixation | Chunk 1 | score=20.000 | file=anthem_guideline_1.json | id=anthem_54]",
+              "file": "anthem_guideline_1.json",
+              "record_id": "anthem_54",
+              "chunk_index": 1,
+              "payer": "anthem",
+              "score": 20.0,
+              "description": "{'procedure_id': 'primary_total_hip_arthroplasty', 'category': 'Hip (Evidence: pg no: 22, L743)', 'section_title': 'Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)', 'names': ['Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)', 'Total hip arthroplasty (THA) (Evidence: pg no: 22, L746)', 'Total hip replacement (THR) (Evidence: pg no: 22, L746)'], 'description': 'Total hip arthroplasty (THA), also referred to as total hip replacement (THR), involves removal of the femoral head and acetabulum and placement of a prosthesis anchored to the bone. The goal of the procedure is long-term pain relief and restoration of function. (Evidence: pg no: 22, L746-L749)', 'scope': 'This guideline addresses hip arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 22, L756-L757)', 'general_requirements': {'documentation': ['Primary and secondary tumors of the proximal femur (Evidence: pg no: 24, L837)', 'Hip fracture or complications including malunion, nonunion or failed prior fixation (Evidence: pg no: 24, L838)', 'Failed previous hip fracture fixation (Evidence: pg no: 24, L839)', 'Avascular necrosis (osteonecrosis) with unresponsive severe pain (Evidence: pg no: 24, L840)', 'Revision of hip arthrodesis (Evidence: pg no: 24, L841)', 'Imaging evidence of significant joint destruction and cartilage loss, defined as Tönnis grade 3, modi",
+              "full_source": {
+                "procedure_id": "primary_total_hip_arthroplasty",
+                "category": "Hip (Evidence: pg no: 22, L743)",
+                "section_title": "Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)",
+                "names": [
+                  "Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)",
+                  "Total hip arthroplasty (THA) (Evidence: pg no: 22, L746)",
+                  "Total hip replacement (THR) (Evidence: pg no: 22, L746)"
+                ],
+                "description": "Total hip arthroplasty (THA), also referred to as total hip replacement (THR), involves removal of the femoral head and acetabulum and placement of a prosthesis anchored to the bone. The goal of the procedure is long-term pain relief and restoration of function. (Evidence: pg no: 22, L746-L749)",
+                "scope": "This guideline addresses hip arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 22, L756-L757)",
+                "general_requirements": {
+                  "documentation": [
+                    "Primary and secondary tumors of the proximal femur (Evidence: pg no: 24, L837)",
+                    "Hip fracture or complications including malunion, nonunion or failed prior fixation (Evidence: pg no: 24, L838)",
+                    "Failed previous hip fracture fixation (Evidence: pg no: 24, L839)",
+                    "Avascular necrosis (osteonecrosis) with unresponsive severe pain (Evidence: pg no: 24, L840)",
+                    "Revision of hip arthrodesis (Evidence: pg no: 24, L841)",
+                    "Imaging evidence of significant joint destruction and cartilage loss, defined as Tönnis grade 3, modified Outerbridge grade III – IV, or Kellgren-Lawrence grade 3 – 4 (Evidence: pg no: 24, L844-L845)",
+                    "Limited range of motion, antalgic gait and disabling pain of at least 3 months' duration (Evidence: pg no: 24, L846)",
+                    "Pain with passive motion of the hip (Evidence: pg no: 24, L847)",
+                    "Failure of at least 3 months of non-surgical conservative management (Evidence: pg no: 24, L848-L849)",
+                    "Functional limitation secondary to hip pathology which interferes with the ability to perform age-appropriate daily activities (Evidence: pg no: 24, L850-L851)"
+                  ]
+                },
+                "exclusions": [
+                  "Indications for total hip arthroplasty other than those addressed in this guideline are considered not medically necessary (Evidence: pg no: 26, L937-L938)"
+                ],
+                "codes": [
+                  {
+                    "code": "27130",
+                    "system": "CPT",
+                    "description": "Arthroplasty, acetabular and proximal femoral prosthetic replacement (total hip arthroplasty), with or without autograft or allograft (Evidence: pg no: 27, L973-L974)"
+                  }
+                ],
+                "notes": "All arthroplasty and acetabuloplasty/resection arthroplasty procedures are inclusive of synovectomy, removal of osteophytes, removal of loose bodies, manipulation of the hip, and release or repair of structures to gain entrance to the hip joint. (Evidence: pg no: 22, L749-L751)"
+              },
+              "payer_guideline_reference": [
+                "(Evidence: pg no: 24, L837)",
+                "(Evidence: pg no: 26, L937-L938)",
+                "(Evidence: pg no: 24, L841)",
+                "(Evidence: pg no: 22, L749-L751)",
+                "(Evidence: pg no: 24, L847)",
+                "(Evidence: pg no: 24, L846)",
+                "(Evidence: pg no: 24, L839)",
+                "(Evidence: pg no: 24, L844-L845)",
+                "(Evidence: pg no: 24, L848-L849)",
+                "(Evidence: pg no: 24, L838)",
+                "(Evidence: pg no: 22, L743)",
+                "(Evidence: pg no: 22, L746-L749)",
+                "(Evidence: pg no: 22, L746)",
+                "(Evidence: pg no: 24, L835)",
+                "(Evidence: pg no: 22, L756-L757)",
+                "(Evidence: pg no: 27, L973-L974)",
+                "(Evidence: pg no: 24, L850-L851)",
+                "(Evidence: pg no: 24, L840)"
+              ]
+            },
+            {
+              "header": "[ANTHEM | Left intertrochanteric femoral fracture open reduction internal fixation | Chunk 2 | score=18.000 | file=anthem_guideline_2.json | id=anthem_57]",
+              "file": "anthem_guideline_2.json",
+              "record_id": "anthem_57",
+              "chunk_index": 2,
+              "payer": "anthem",
+              "score": 18.0,
+              "description": "{'procedure_id': 'reverse_shoulder_arthroplasty', 'category': 'Shoulder (Evidence: pg no: 7, L169)', 'section_title': 'Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)', 'names': ['Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)', 'Reverse total shoulder arthroplasty (Evidence: pg no: 7, L178)'], 'description': 'Reverse total shoulder arthroplasty is similar to standard arthroplasty in that both components of the joint are replaced but the ball and socket portions of the joint are reversed, allowing the deltoid muscle to assume partial function of the rotator cuff. This procedure is typically utilized when there is concomitant rotator cuff disease. (Evidence: pg no: 7, L178-L180)', 'scope': 'This guideline addresses shoulder arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of a congenital condition, acute or traumatic event such as fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 7, L181-L183)', 'general_requirements': {'documentation': ['Reconstruction after a tumor resection (Evidence: pg no: 10, L302)', 'Glenohumeral osteoarthritis with irreparable rotator cuff tear (Evidence: pg no: 10, L303)', 'Glenoid bone stock inadequate to support a glenoid prosthesis (Evidence: pg no: 10, L304)', 'Failed hemiarthroplasty (Evidence: pg no: 10, L305)', 'Failed total shoulder arthroplasty with non-repairable rotator cuff (Evidence: pg no: 10, L306)', 'Shoulder fracture that is not re",
+              "full_source": {
+                "procedure_id": "reverse_shoulder_arthroplasty",
+                "category": "Shoulder (Evidence: pg no: 7, L169)",
+                "section_title": "Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)",
+                "names": [
+                  "Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)",
+                  "Reverse total shoulder arthroplasty (Evidence: pg no: 7, L178)"
+                ],
+                "description": "Reverse total shoulder arthroplasty is similar to standard arthroplasty in that both components of the joint are replaced but the ball and socket portions of the joint are reversed, allowing the deltoid muscle to assume partial function of the rotator cuff. This procedure is typically utilized when there is concomitant rotator cuff disease. (Evidence: pg no: 7, L178-L180)",
+                "scope": "This guideline addresses shoulder arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of a congenital condition, acute or traumatic event such as fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 7, L181-L183)",
+                "general_requirements": {
+                  "documentation": [
+                    "Reconstruction after a tumor resection (Evidence: pg no: 10, L302)",
+                    "Glenohumeral osteoarthritis with irreparable rotator cuff tear (Evidence: pg no: 10, L303)",
+                    "Glenoid bone stock inadequate to support a glenoid prosthesis (Evidence: pg no: 10, L304)",
+                    "Failed hemiarthroplasty (Evidence: pg no: 10, L305)",
+                    "Failed total shoulder arthroplasty with non-repairable rotator cuff (Evidence: pg no: 10, L306)",
+                    "Shoulder fracture that is not repairable or cannot be reconstructed with other techniques (Evidence: pg no: 10, L307)",
+                    "Deficient rotator cuff with limited ability to actively flex the upper extremity to 90 degrees against gravity (Evidence: pg no: 10, L310-L311)"
+                  ]
+                },
+                "exclusions": [],
+                "codes": [],
+                "notes": "Considered medically necessary for ANY of the listed indications when associated with pain and functional impairment. (Evidence: pg no: 10, L301)"
+              },
+              "payer_guideline_reference": [
+                "(Evidence: pg no: 10, L307)",
+                "(Evidence: pg no: 10, L301)",
+                "(Evidence: pg no: 10, L303)",
+                "(Evidence: pg no: 10, L300)",
+                "(Evidence: pg no: 7, L181-L183)",
+                "(Evidence: pg no: 7, L178-L180)",
+                "(Evidence: pg no: 7, L178)",
+                "(Evidence: pg no: 10, L305)",
+                "(Evidence: pg no: 10, L310-L311)",
+                "(Evidence: pg no: 10, L302)",
+                "(Evidence: pg no: 10, L306)",
+                "(Evidence: pg no: 10, L304)",
+                "(Evidence: pg no: 7, L169)"
+              ]
+            }
+          ],
+          "guideline_source": "payer"
+        }
+      ],
+      "usage": "UsageInfo(input_tokens=11360, output_tokens=1456, model_id='unknown', input_cost=0.03408, output_cost=0.02184, total_cost=0.05592, cache_creation_input_tokens=0, cache_read_input_tokens=0, cache_write_cost=0.0, cache_read_cost=0.0)",
+      "sources": [
+        {
+          "header": "[ANTHEM | Left intertrochanteric femoral fracture open reduction internal fixation | Chunk 1 | score=20.000 | file=anthem_guideline_1.json | id=anthem_54]",
+          "file": "anthem_guideline_1.json",
+          "record_id": "anthem_54",
+          "chunk_index": 1,
+          "payer": "anthem",
+          "score": 20.0,
+          "description": "{'procedure_id': 'primary_total_hip_arthroplasty', 'category': 'Hip (Evidence: pg no: 22, L743)', 'section_title': 'Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)', 'names': ['Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)', 'Total hip arthroplasty (THA) (Evidence: pg no: 22, L746)', 'Total hip replacement (THR) (Evidence: pg no: 22, L746)'], 'description': 'Total hip arthroplasty (THA), also referred to as total hip replacement (THR), involves removal of the femoral head and acetabulum and placement of a prosthesis anchored to the bone. The goal of the procedure is long-term pain relief and restoration of function. (Evidence: pg no: 22, L746-L749)', 'scope': 'This guideline addresses hip arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 22, L756-L757)', 'general_requirements': {'documentation': ['Primary and secondary tumors of the proximal femur (Evidence: pg no: 24, L837)', 'Hip fracture or complications including malunion, nonunion or failed prior fixation (Evidence: pg no: 24, L838)', 'Failed previous hip fracture fixation (Evidence: pg no: 24, L839)', 'Avascular necrosis (osteonecrosis) with unresponsive severe pain (Evidence: pg no: 24, L840)', 'Revision of hip arthrodesis (Evidence: pg no: 24, L841)', 'Imaging evidence of significant joint destruction and cartilage loss, defined as Tönnis grade 3, modi",
+          "full_source": {
+            "procedure_id": "primary_total_hip_arthroplasty",
+            "category": "Hip (Evidence: pg no: 22, L743)",
+            "section_title": "Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)",
+            "names": [
+              "Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)",
+              "Total hip arthroplasty (THA) (Evidence: pg no: 22, L746)",
+              "Total hip replacement (THR) (Evidence: pg no: 22, L746)"
+            ],
+            "description": "Total hip arthroplasty (THA), also referred to as total hip replacement (THR), involves removal of the femoral head and acetabulum and placement of a prosthesis anchored to the bone. The goal of the procedure is long-term pain relief and restoration of function. (Evidence: pg no: 22, L746-L749)",
+            "scope": "This guideline addresses hip arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 22, L756-L757)",
+            "general_requirements": {
+              "documentation": [
+                "Primary and secondary tumors of the proximal femur (Evidence: pg no: 24, L837)",
+                "Hip fracture or complications including malunion, nonunion or failed prior fixation (Evidence: pg no: 24, L838)",
+                "Failed previous hip fracture fixation (Evidence: pg no: 24, L839)",
+                "Avascular necrosis (osteonecrosis) with unresponsive severe pain (Evidence: pg no: 24, L840)",
+                "Revision of hip arthrodesis (Evidence: pg no: 24, L841)",
+                "Imaging evidence of significant joint destruction and cartilage loss, defined as Tönnis grade 3, modified Outerbridge grade III – IV, or Kellgren-Lawrence grade 3 – 4 (Evidence: pg no: 24, L844-L845)",
+                "Limited range of motion, antalgic gait and disabling pain of at least 3 months' duration (Evidence: pg no: 24, L846)",
+                "Pain with passive motion of the hip (Evidence: pg no: 24, L847)",
+                "Failure of at least 3 months of non-surgical conservative management (Evidence: pg no: 24, L848-L849)",
+                "Functional limitation secondary to hip pathology which interferes with the ability to perform age-appropriate daily activities (Evidence: pg no: 24, L850-L851)"
+              ]
+            },
+            "exclusions": [
+              "Indications for total hip arthroplasty other than those addressed in this guideline are considered not medically necessary (Evidence: pg no: 26, L937-L938)"
+            ],
+            "codes": [
+              {
+                "code": "27130",
+                "system": "CPT",
+                "description": "Arthroplasty, acetabular and proximal femoral prosthetic replacement (total hip arthroplasty), with or without autograft or allograft (Evidence: pg no: 27, L973-L974)"
+              }
+            ],
+            "notes": "All arthroplasty and acetabuloplasty/resection arthroplasty procedures are inclusive of synovectomy, removal of osteophytes, removal of loose bodies, manipulation of the hip, and release or repair of structures to gain entrance to the hip joint. (Evidence: pg no: 22, L749-L751)"
+          },
+          "payer_guideline_reference": [
+            "(Evidence: pg no: 24, L837)",
+            "(Evidence: pg no: 26, L937-L938)",
+            "(Evidence: pg no: 24, L841)",
+            "(Evidence: pg no: 22, L749-L751)",
+            "(Evidence: pg no: 24, L847)",
+            "(Evidence: pg no: 24, L846)",
+            "(Evidence: pg no: 24, L839)",
+            "(Evidence: pg no: 24, L844-L845)",
+            "(Evidence: pg no: 24, L848-L849)",
+            "(Evidence: pg no: 24, L838)",
+            "(Evidence: pg no: 22, L743)",
+            "(Evidence: pg no: 22, L746-L749)",
+            "(Evidence: pg no: 22, L746)",
+            "(Evidence: pg no: 24, L835)",
+            "(Evidence: pg no: 22, L756-L757)",
+            "(Evidence: pg no: 27, L973-L974)",
+            "(Evidence: pg no: 24, L850-L851)",
+            "(Evidence: pg no: 24, L840)"
+          ]
+        },
+        {
+          "header": "[ANTHEM | Left intertrochanteric femoral fracture open reduction internal fixation | Chunk 2 | score=18.000 | file=anthem_guideline_2.json | id=anthem_57]",
+          "file": "anthem_guideline_2.json",
+          "record_id": "anthem_57",
+          "chunk_index": 2,
+          "payer": "anthem",
+          "score": 18.0,
+          "description": "{'procedure_id': 'reverse_shoulder_arthroplasty', 'category': 'Shoulder (Evidence: pg no: 7, L169)', 'section_title': 'Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)', 'names': ['Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)', 'Reverse total shoulder arthroplasty (Evidence: pg no: 7, L178)'], 'description': 'Reverse total shoulder arthroplasty is similar to standard arthroplasty in that both components of the joint are replaced but the ball and socket portions of the joint are reversed, allowing the deltoid muscle to assume partial function of the rotator cuff. This procedure is typically utilized when there is concomitant rotator cuff disease. (Evidence: pg no: 7, L178-L180)', 'scope': 'This guideline addresses shoulder arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of a congenital condition, acute or traumatic event such as fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 7, L181-L183)', 'general_requirements': {'documentation': ['Reconstruction after a tumor resection (Evidence: pg no: 10, L302)', 'Glenohumeral osteoarthritis with irreparable rotator cuff tear (Evidence: pg no: 10, L303)', 'Glenoid bone stock inadequate to support a glenoid prosthesis (Evidence: pg no: 10, L304)', 'Failed hemiarthroplasty (Evidence: pg no: 10, L305)', 'Failed total shoulder arthroplasty with non-repairable rotator cuff (Evidence: pg no: 10, L306)', 'Shoulder fracture that is not re",
+          "full_source": {
+            "procedure_id": "reverse_shoulder_arthroplasty",
+            "category": "Shoulder (Evidence: pg no: 7, L169)",
+            "section_title": "Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)",
+            "names": [
+              "Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)",
+              "Reverse total shoulder arthroplasty (Evidence: pg no: 7, L178)"
+            ],
+            "description": "Reverse total shoulder arthroplasty is similar to standard arthroplasty in that both components of the joint are replaced but the ball and socket portions of the joint are reversed, allowing the deltoid muscle to assume partial function of the rotator cuff. This procedure is typically utilized when there is concomitant rotator cuff disease. (Evidence: pg no: 7, L178-L180)",
+            "scope": "This guideline addresses shoulder arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of a congenital condition, acute or traumatic event such as fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 7, L181-L183)",
+            "general_requirements": {
+              "documentation": [
+                "Reconstruction after a tumor resection (Evidence: pg no: 10, L302)",
+                "Glenohumeral osteoarthritis with irreparable rotator cuff tear (Evidence: pg no: 10, L303)",
+                "Glenoid bone stock inadequate to support a glenoid prosthesis (Evidence: pg no: 10, L304)",
+                "Failed hemiarthroplasty (Evidence: pg no: 10, L305)",
+                "Failed total shoulder arthroplasty with non-repairable rotator cuff (Evidence: pg no: 10, L306)",
+                "Shoulder fracture that is not repairable or cannot be reconstructed with other techniques (Evidence: pg no: 10, L307)",
+                "Deficient rotator cuff with limited ability to actively flex the upper extremity to 90 degrees against gravity (Evidence: pg no: 10, L310-L311)"
+              ]
+            },
+            "exclusions": [],
+            "codes": [],
+            "notes": "Considered medically necessary for ANY of the listed indications when associated with pain and functional impairment. (Evidence: pg no: 10, L301)"
+          },
+          "payer_guideline_reference": [
+            "(Evidence: pg no: 10, L307)",
+            "(Evidence: pg no: 10, L301)",
+            "(Evidence: pg no: 10, L303)",
+            "(Evidence: pg no: 10, L300)",
+            "(Evidence: pg no: 7, L181-L183)",
+            "(Evidence: pg no: 7, L178-L180)",
+            "(Evidence: pg no: 7, L178)",
+            "(Evidence: pg no: 10, L305)",
+            "(Evidence: pg no: 10, L310-L311)",
+            "(Evidence: pg no: 10, L302)",
+            "(Evidence: pg no: 10, L306)",
+            "(Evidence: pg no: 10, L304)",
+            "(Evidence: pg no: 7, L169)"
+          ]
+        }
+      ],
+      "error": null
+    }
+  },
+  "total_usage": "UsageInfo(input_tokens=25562, output_tokens=4314, model_id='unknown', input_cost=0.076686, output_cost=0.06471, total_cost=0.14139600000000002, cache_creation_input_tokens=0, cache_read_input_tokens=0, cache_write_cost=0.0, cache_read_cost=0.0)",
+  "total_cost": 0.105744,
+  "execution_times": {
+    "cigna": 19.50023341178894,
+    "uhc": 19.50023341178894,
+    "anthem": 19.50023341178894
+  },
+  "sources": [
+    {
+      "header": "[CIGNA | Left intertrochanteric femoral fracture open reduction internal fixation | Chunk 1 | score=10.000 | file=cigna_guideline_1.json | id=cigna_7]",
+      "file": "cigna_guideline_1.json",
+      "record_id": "cigna_7",
+      "chunk_index": 1,
+      "payer": "cigna",
+      "score": 10.0,
+      "description": "{'procedure_id': 'fracture_tumor_infection_foreign_body_surgery', 'category': 'Shoulder (Evidence: pg no: 4, L149)', 'section_title': 'Arthroscopic or Open Procedure for Fracture, Tumor, Infection, or Foreign Body (Evidence: pg no: 4, L149)', 'names': ['Shoulder Surgery for Fracture (Evidence: pg no: 4, L149)', 'Shoulder Surgery for Tumor (Evidence: pg no: 4, L149)', 'Shoulder Surgery for Infection (Evidence: pg no: 4, L149)', 'Shoulder Surgery for Foreign Body (Evidence: pg no: 4, L149)'], 'description': 'Shoulder arthroscopic or open procedures for fracture, tumor, infection, or foreign body that has led to or will likely lead to progressive destruction (Evidence: pg no: 4, L149-L151)', 'scope': 'Arthroscopic or open procedures for specific pathological conditions (Evidence: pg no: 4, L149-L150)', 'general_requirements': {'documentation': ['Surgery being performed for fracture, tumor, infection, or foreign body that has led to or will likely lead to progressive destruction (Evidence: pg no: 4, L150-L151)']}, 'exclusions': [], 'codes': [{'code': '23145', 'system': 'CPT', 'description': 'Excision or curettage of bone cyst or benign tumor of clavicle or scapula; with autograft (includes obtaining graft) (Evidence: pg no: 13, L529-L530)'}, {'code': '23155', 'system': 'CPT', 'description': 'Excision or curettage of bone cyst or benign tumor of proximal humerus; with autograft (includes obtaining graft) (Evidence: pg no: 13, L531-L532)'}, {'code': '23172', 'system': 'CPT', 'descr",
+      "full_source": {
+        "procedure_id": "fracture_tumor_infection_foreign_body_surgery",
+        "category": "Shoulder (Evidence: pg no: 4, L149)",
+        "section_title": "Arthroscopic or Open Procedure for Fracture, Tumor, Infection, or Foreign Body (Evidence: pg no: 4, L149)",
+        "names": [
+          "Shoulder Surgery for Fracture (Evidence: pg no: 4, L149)",
+          "Shoulder Surgery for Tumor (Evidence: pg no: 4, L149)",
+          "Shoulder Surgery for Infection (Evidence: pg no: 4, L149)",
+          "Shoulder Surgery for Foreign Body (Evidence: pg no: 4, L149)"
+        ],
+        "description": "Shoulder arthroscopic or open procedures for fracture, tumor, infection, or foreign body that has led to or will likely lead to progressive destruction (Evidence: pg no: 4, L149-L151)",
+        "scope": "Arthroscopic or open procedures for specific pathological conditions (Evidence: pg no: 4, L149-L150)",
+        "general_requirements": {
+          "documentation": [
+            "Surgery being performed for fracture, tumor, infection, or foreign body that has led to or will likely lead to progressive destruction (Evidence: pg no: 4, L150-L151)"
+          ]
+        },
+        "exclusions": [],
+        "codes": [
+          {
+            "code": "23145",
+            "system": "CPT",
+            "description": "Excision or curettage of bone cyst or benign tumor of clavicle or scapula; with autograft (includes obtaining graft) (Evidence: pg no: 13, L529-L530)"
+          },
+          {
+            "code": "23155",
+            "system": "CPT",
+            "description": "Excision or curettage of bone cyst or benign tumor of proximal humerus; with autograft (includes obtaining graft) (Evidence: pg no: 13, L531-L532)"
+          },
+          {
+            "code": "23172",
+            "system": "CPT",
+            "description": "Sequestrectomy (e.g. for osteomyelitis or bone abscess), scapula (Evidence: pg no: 13, L533)"
+          },
+          {
+            "code": "23174",
+            "system": "CPT",
+            "description": "Sequestrectomy (e.g. for osteomyelitis or bone abscess), humeral head to surgical neck (Evidence: pg no: 13, L534)"
+          }
+        ],
+        "notes": "May be considered medically necessary when surgery addresses progressive destruction (Evidence: pg no: 4, L149-L151)"
+      },
+      "payer_guideline_reference": [
+        "(Evidence: pg no: 4, L149-L151)",
+        "(Evidence: pg no: 4, L150-L151)",
+        "(Evidence: pg no: 13, L531-L532)",
+        "(Evidence: pg no: 4, L149)",
+        "(Evidence: pg no: 13, L533)",
+        "(Evidence: pg no: 13, L529-L530)",
+        "(Evidence: pg no: 13, L534)",
+        "(Evidence: pg no: 4, L149-L150)"
+      ]
+    },
+    {
+      "header": "[CIGNA | Left intertrochanteric femoral fracture open reduction internal fixation | Chunk 2 | score=10.000 | file=cigna_guideline_2.json | id=cigna_8]",
+      "file": "cigna_guideline_2.json",
+      "record_id": "cigna_8",
+      "chunk_index": 2,
+      "payer": "cigna",
+      "score": 10.0,
+      "description": "{'procedure_id': 'labral_repair', 'category': 'Shoulder (Evidence: pg no: 9, L372)', 'section_title': 'Labral Repair (Evidence: pg no: 9, L372)', 'names': ['Labral Repair (Evidence: pg no: 9, L372)', 'SLAP Repair (Evidence: pg no: 9, L382)', 'Bankart Repair (Evidence: pg no: 9, L382)'], 'description': 'Repair of labral tears (e.g., SLAP, Bankart) with specific range of motion and orthopedic test requirements (Evidence: pg no: 9-10, L374-L402)', 'scope': 'Arthroscopic or open labral repair (Evidence: pg no: 9, L374)', 'general_requirements': {'documentation': ['Function-limiting pain (Evidence: pg no: 9, L376-L378)', 'Failure of provider-directed non-surgical management for at least three (3) months in duration (Evidence: pg no: 9, L379-L380)', \"Advanced diagnostic imaging study (e.g., MRI, CT) demonstrates labral tear (e.g., SLAP, Bankart) and correlates with the individual's reported symptoms and physical exam findings (Evidence: pg no: 9, L381-L383)\", 'Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain, cervical radiculopathy, and advanced glenohumeral osteoarthritis (Evidence: pg no: 9, L384-L386)', 'Minimally limited or full shoulder range of motion (Evidence: pg no: 9, L389)', \"ONE or MORE positive orthopedic tests including O'Brien's Test, Biceps Load Test, Clunk Test, Anterior Slide Test, Compression Rotation Test, Speed's Test, Modified dynamic labral shear (Evidence: p",
+      "full_source": {
+        "procedure_id": "labral_repair",
+        "category": "Shoulder (Evidence: pg no: 9, L372)",
+        "section_title": "Labral Repair (Evidence: pg no: 9, L372)",
+        "names": [
+          "Labral Repair (Evidence: pg no: 9, L372)",
+          "SLAP Repair (Evidence: pg no: 9, L382)",
+          "Bankart Repair (Evidence: pg no: 9, L382)"
+        ],
+        "description": "Repair of labral tears (e.g., SLAP, Bankart) with specific range of motion and orthopedic test requirements (Evidence: pg no: 9-10, L374-L402)",
+        "scope": "Arthroscopic or open labral repair (Evidence: pg no: 9, L374)",
+        "general_requirements": {
+          "documentation": [
+            "Function-limiting pain (Evidence: pg no: 9, L376-L378)",
+            "Failure of provider-directed non-surgical management for at least three (3) months in duration (Evidence: pg no: 9, L379-L380)",
+            "Advanced diagnostic imaging study (e.g., MRI, CT) demonstrates labral tear (e.g., SLAP, Bankart) and correlates with the individual's reported symptoms and physical exam findings (Evidence: pg no: 9, L381-L383)",
+            "Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain, cervical radiculopathy, and advanced glenohumeral osteoarthritis (Evidence: pg no: 9, L384-L386)",
+            "Minimally limited or full shoulder range of motion (Evidence: pg no: 9, L389)",
+            "ONE or MORE positive orthopedic tests including O'Brien's Test, Biceps Load Test, Clunk Test, Anterior Slide Test, Compression Rotation Test, Speed's Test, Modified dynamic labral shear (Evidence: pg no: 9-10, L390-L402)"
+          ]
+        },
+        "exclusions": [
+          "Any other indication or condition (Evidence: pg no: 10, L404-L405)"
+        ],
+        "codes": [
+          {
+            "code": "23455",
+            "system": "CPT",
+            "description": "Capsulorrhaphy, anterior; with labral repair (e.g. Bankart procedure) (Evidence: pg no: 13, L548)"
+          },
+          {
+            "code": "29807",
+            "system": "CPT",
+            "description": "Arthroscopy, shoulder, surgical; repair of SLAP lesion (Evidence: pg no: 13, L558)"
+          }
+        ],
+        "notes": "Requires minimally limited or full range of motion and specific positive orthopedic tests (Evidence: pg no: 9-10, L387-L402)"
+      },
+      "payer_guideline_reference": [
+        "(Evidence: pg no: 9, L381-L383)",
+        "(Evidence: pg no: 9, L379-L380)",
+        "(Evidence: pg no: 9, L384-L386)",
+        "(Evidence: pg no: 9, L382)",
+        "(Evidence: pg no: 9, L376-L378)",
+        "(Evidence: pg no: 9, L372)",
+        "(Evidence: pg no: 13, L548)",
+        "(Evidence: pg no: 9, L374)",
+        "(Evidence: pg no: 10, L404-L405)",
+        "(Evidence: pg no: 9, L389)",
+        "(Evidence: pg no: 13, L558)"
+      ]
+    },
+    {
+      "header": "[UHC | Left intertrochanteric femoral fracture open reduction internal fixation | Chunk 1 | score=24.000 | file=uhc_guideline_1.json | id=uhc_16]",
+      "file": "uhc_guideline_1.json",
+      "record_id": "uhc_16",
+      "chunk_index": 1,
+      "payer": "uhc",
+      "score": 24.0,
+      "description": "{'procedure_id': 'subacromial_balloon_spacers', 'category': 'Shoulder (Evidence: pg no: 2, L89)', 'section_title': 'Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)', 'names': ['Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)', 'InSpace™ Subacromial Tissue Spacer System (Evidence: pg no: 2, L90)', 'Subacromial balloon spacer implantation (SBSI) (Evidence: pg no: 3, L124)', 'InSpace Biodegradable Subacromial Spacer (Evidence: pg no: 5, L254)'], 'description': 'A minimally invasive, biodegradable balloon spacer for treating massive, inoperable rotator cuff tears (MIRCTs). It preserves musculoskeletal and bone tissues, does not require the use of an anchor, and does not require a permanent implant. It is used as a spacer to eliminate friction between the acromion and the humeral head or rotator cuff to restore shoulder function and reduce pain. It is designed to biodegrade over the course of twelve months (Evidence: pg no: 2, L90-L93)', 'scope': 'Treatment of massive, irreparable rotator cuff tears (Evidence: pg no: 2, L90-L91)', 'general_requirements': {'documentation': ['Medical records documentation may be required to assess whether the member meets the clinical criteria for coverage (Evidence: pg no: 1, L40-L42)']}, 'exclusions': ['Unproven and not medically necessary due to insufficient evidence of efficacy (Evidence: pg no: 1, L37-L38)'], 'codes': [], 'notes': 'The current published literature is at high-risk of bias due to the small sample size, s",
+      "full_source": {
+        "procedure_id": "subacromial_balloon_spacers",
+        "category": "Shoulder (Evidence: pg no: 2, L89)",
+        "section_title": "Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)",
+        "names": [
+          "Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)",
+          "InSpace™ Subacromial Tissue Spacer System (Evidence: pg no: 2, L90)",
+          "Subacromial balloon spacer implantation (SBSI) (Evidence: pg no: 3, L124)",
+          "InSpace Biodegradable Subacromial Spacer (Evidence: pg no: 5, L254)"
+        ],
+        "description": "A minimally invasive, biodegradable balloon spacer for treating massive, inoperable rotator cuff tears (MIRCTs). It preserves musculoskeletal and bone tissues, does not require the use of an anchor, and does not require a permanent implant. It is used as a spacer to eliminate friction between the acromion and the humeral head or rotator cuff to restore shoulder function and reduce pain. It is designed to biodegrade over the course of twelve months (Evidence: pg no: 2, L90-L93)",
+        "scope": "Treatment of massive, irreparable rotator cuff tears (Evidence: pg no: 2, L90-L91)",
+        "general_requirements": {
+          "documentation": [
+            "Medical records documentation may be required to assess whether the member meets the clinical criteria for coverage (Evidence: pg no: 1, L40-L42)"
+          ]
+        },
+        "exclusions": [
+          "Unproven and not medically necessary due to insufficient evidence of efficacy (Evidence: pg no: 1, L37-L38)"
+        ],
+        "codes": [],
+        "notes": "The current published literature is at high-risk of bias due to the small sample size, single-center focus, retrospective design, and lack of randomization, blinding, and control. There are device-related complications, and long-term studies are necessary as short-term results appear to degrade over time (Evidence: pg no: 2, L94-L97)"
+      },
+      "payer_guideline_reference": [
+        "(Evidence: pg no: 2, L90)",
+        "(Evidence: pg no: 2, L90-L93)",
+        "(Evidence: pg no: 2, L89)",
+        "(Evidence: pg no: 2, L90-L91)",
+        "(Evidence: pg no: 2, L94-L97)",
+        "(Evidence: pg no: 3, L124)",
+        "(Evidence: pg no: 1, L37-L38)",
+        "(Evidence: pg no: 1, L40-L42)",
+        "(Evidence: pg no: 5, L254)"
+      ]
+    },
+    {
+      "header": "[UHC | Left intertrochanteric femoral fracture open reduction internal fixation | Chunk 2 | score=10.000 | file=uhc_guideline_2.json | id=uhc_10]",
+      "file": "uhc_guideline_2.json",
+      "record_id": "uhc_10",
+      "chunk_index": 2,
+      "payer": "uhc",
+      "score": 10.0,
+      "description": "{'procedure_id': 'removal_replacement_tjr_shoulder', 'category': 'Shoulder (Evidence: pg no: 1, L33)', 'section_title': 'Removal and Replacement, Total Joint Replacement (TJR), Shoulder (Evidence: pg no: 1, L33)', 'names': ['Removal and Replacement, Total Joint Replacement (TJR), Shoulder (Evidence: pg no: 1, L33)'], 'description': 'Surgical removal and replacement of total joint replacement components in the shoulder (Evidence: pg no: 1, L33)', 'scope': 'Revision surgery for shoulder joint replacement (Evidence: pg no: 1, L33)', 'general_requirements': {'documentation': ['Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)']}, 'exclusions': [], 'codes': [], 'notes': 'Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)'}",
+      "full_source": {
+        "procedure_id": "removal_replacement_tjr_shoulder",
+        "category": "Shoulder (Evidence: pg no: 1, L33)",
+        "section_title": "Removal and Replacement, Total Joint Replacement (TJR), Shoulder (Evidence: pg no: 1, L33)",
+        "names": [
+          "Removal and Replacement, Total Joint Replacement (TJR), Shoulder (Evidence: pg no: 1, L33)"
+        ],
+        "description": "Surgical removal and replacement of total joint replacement components in the shoulder (Evidence: pg no: 1, L33)",
+        "scope": "Revision surgery for shoulder joint replacement (Evidence: pg no: 1, L33)",
+        "general_requirements": {
+          "documentation": [
+            "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+          ]
+        },
+        "exclusions": [],
+        "codes": [],
+        "notes": "Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)"
+      },
+      "payer_guideline_reference": [
+        "(Evidence: pg no: 1, L25-L27)",
+        "(Evidence: pg no: 1, L25)",
+        "(Evidence: pg no: 1, L33)"
+      ]
+    },
+    {
+      "header": "[UHC | Left intertrochanteric femoral fracture open reduction internal fixation | Chunk 3 | score=10.000 | file=uhc_guideline_3.json | id=uhc_11]",
+      "file": "uhc_guideline_3.json",
+      "record_id": "uhc_11",
+      "chunk_index": 3,
+      "payer": "uhc",
+      "score": 10.0,
+      "description": "{'procedure_id': 'reverse_total_shoulder_arthroplasty', 'category': 'Shoulder (Evidence: pg no: 3, L113, L117)', 'section_title': 'Reverse Total Shoulder Arthroplasty (RTSA) (Evidence: pg no: 3, L117)', 'names': ['Reverse total shoulder arthroplasty (Evidence: pg no: 3, L113)', 'RTSA (Evidence: pg no: 3, L117)'], 'description': 'Surgical procedure involving reverse total shoulder arthroplasty, often used as a salvage procedure for failed treatments (Evidence: pg no: 3, L113, L117, L162)', 'scope': 'Salvage procedure for failed shoulder treatments (Evidence: pg no: 4, L162)', 'general_requirements': {'documentation': ['Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)']}, 'exclusions': [], 'codes': [], 'notes': 'Mean time to conversion to reverse total shoulder arthroplasty was 11.0 versus 25.4 months for SAB versus debridement arm. 5% of participants needed salvage reverse shoulder arthroplasty (Evidence: pg no: 3, L113-L114, L162)'}",
+      "full_source": {
+        "procedure_id": "reverse_total_shoulder_arthroplasty",
+        "category": "Shoulder (Evidence: pg no: 3, L113, L117)",
+        "section_title": "Reverse Total Shoulder Arthroplasty (RTSA) (Evidence: pg no: 3, L117)",
+        "names": [
+          "Reverse total shoulder arthroplasty (Evidence: pg no: 3, L113)",
+          "RTSA (Evidence: pg no: 3, L117)"
+        ],
+        "description": "Surgical procedure involving reverse total shoulder arthroplasty, often used as a salvage procedure for failed treatments (Evidence: pg no: 3, L113, L117, L162)",
+        "scope": "Salvage procedure for failed shoulder treatments (Evidence: pg no: 4, L162)",
+        "general_requirements": {
+          "documentation": [
+            "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+          ]
+        },
+        "exclusions": [],
+        "codes": [],
+        "notes": "Mean time to conversion to reverse total shoulder arthroplasty was 11.0 versus 25.4 months for SAB versus debridement arm. 5% of participants needed salvage reverse shoulder arthroplasty (Evidence: pg no: 3, L113-L114, L162)"
+      },
+      "payer_guideline_reference": [
+        "(Evidence: pg no: 3, L117)",
+        "(Evidence: pg no: 3, L113)",
+        "(Evidence: pg no: 4, L162)",
+        "(Evidence: pg no: 1, L25-L27)"
+      ]
+    },
+    {
+      "header": "[UHC | Left intertrochanteric femoral fracture open reduction internal fixation | Chunk 4 | score=8.000 | file=uhc_guideline_4.json | id=uhc_0]",
+      "file": "uhc_guideline_4.json",
+      "record_id": "uhc_0",
+      "chunk_index": 4,
+      "payer": "uhc",
+      "score": 8.0,
+      "description": "{'procedure_id': 'adhesion_lysis_shoulder', 'category': 'Shoulder (Evidence: pg no: 2, L81)', 'section_title': 'Lysis and Resection of Adhesions (Evidence: pg no: 2, L81)', 'names': ['Lysis and resection of adhesions (Evidence: pg no: 2, L81)'], 'description': 'Arthroscopic surgical lysis and resection of adhesions, with or without manipulation (Evidence: pg no: 2, L81)', 'scope': 'Surgical treatment of shoulder adhesions via arthroscopic approach (Evidence: pg no: 2, L81)', 'general_requirements': {'documentation': ['Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)']}, 'exclusions': [], 'codes': [{'code': '29825', 'system': 'CPT', 'description': 'Arthroscopy, shoulder, surgical; with lysis and resection of adhesions, with or without manipulation (Evidence: pg no: 2, L81)'}], 'notes': 'Part of arthroscopic shoulder surgery procedures (Evidence: pg no: 2, L81)'}",
+      "full_source": {
+        "procedure_id": "adhesion_lysis_shoulder",
+        "category": "Shoulder (Evidence: pg no: 2, L81)",
+        "section_title": "Lysis and Resection of Adhesions (Evidence: pg no: 2, L81)",
+        "names": [
+          "Lysis and resection of adhesions (Evidence: pg no: 2, L81)"
+        ],
+        "description": "Arthroscopic surgical lysis and resection of adhesions, with or without manipulation (Evidence: pg no: 2, L81)",
+        "scope": "Surgical treatment of shoulder adhesions via arthroscopic approach (Evidence: pg no: 2, L81)",
+        "general_requirements": {
+          "documentation": [
+            "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+          ]
+        },
+        "exclusions": [],
+        "codes": [
+          {
+            "code": "29825",
+            "system": "CPT",
+            "description": "Arthroscopy, shoulder, surgical; with lysis and resection of adhesions, with or without manipulation (Evidence: pg no: 2, L81)"
+          }
+        ],
+        "notes": "Part of arthroscopic shoulder surgery procedures (Evidence: pg no: 2, L81)"
+      },
+      "payer_guideline_reference": [
+        "(Evidence: pg no: 1, L25-L27)",
+        "(Evidence: pg no: 2, L81)"
+      ]
+    },
+    {
+      "header": "[ANTHEM | Left intertrochanteric femoral fracture open reduction internal fixation | Chunk 1 | score=20.000 | file=anthem_guideline_1.json | id=anthem_54]",
+      "file": "anthem_guideline_1.json",
+      "record_id": "anthem_54",
+      "chunk_index": 1,
+      "payer": "anthem",
+      "score": 20.0,
+      "description": "{'procedure_id': 'primary_total_hip_arthroplasty', 'category': 'Hip (Evidence: pg no: 22, L743)', 'section_title': 'Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)', 'names': ['Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)', 'Total hip arthroplasty (THA) (Evidence: pg no: 22, L746)', 'Total hip replacement (THR) (Evidence: pg no: 22, L746)'], 'description': 'Total hip arthroplasty (THA), also referred to as total hip replacement (THR), involves removal of the femoral head and acetabulum and placement of a prosthesis anchored to the bone. The goal of the procedure is long-term pain relief and restoration of function. (Evidence: pg no: 22, L746-L749)', 'scope': 'This guideline addresses hip arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 22, L756-L757)', 'general_requirements': {'documentation': ['Primary and secondary tumors of the proximal femur (Evidence: pg no: 24, L837)', 'Hip fracture or complications including malunion, nonunion or failed prior fixation (Evidence: pg no: 24, L838)', 'Failed previous hip fracture fixation (Evidence: pg no: 24, L839)', 'Avascular necrosis (osteonecrosis) with unresponsive severe pain (Evidence: pg no: 24, L840)', 'Revision of hip arthrodesis (Evidence: pg no: 24, L841)', 'Imaging evidence of significant joint destruction and cartilage loss, defined as Tönnis grade 3, modi",
+      "full_source": {
+        "procedure_id": "primary_total_hip_arthroplasty",
+        "category": "Hip (Evidence: pg no: 22, L743)",
+        "section_title": "Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)",
+        "names": [
+          "Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)",
+          "Total hip arthroplasty (THA) (Evidence: pg no: 22, L746)",
+          "Total hip replacement (THR) (Evidence: pg no: 22, L746)"
+        ],
+        "description": "Total hip arthroplasty (THA), also referred to as total hip replacement (THR), involves removal of the femoral head and acetabulum and placement of a prosthesis anchored to the bone. The goal of the procedure is long-term pain relief and restoration of function. (Evidence: pg no: 22, L746-L749)",
+        "scope": "This guideline addresses hip arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 22, L756-L757)",
+        "general_requirements": {
+          "documentation": [
+            "Primary and secondary tumors of the proximal femur (Evidence: pg no: 24, L837)",
+            "Hip fracture or complications including malunion, nonunion or failed prior fixation (Evidence: pg no: 24, L838)",
+            "Failed previous hip fracture fixation (Evidence: pg no: 24, L839)",
+            "Avascular necrosis (osteonecrosis) with unresponsive severe pain (Evidence: pg no: 24, L840)",
+            "Revision of hip arthrodesis (Evidence: pg no: 24, L841)",
+            "Imaging evidence of significant joint destruction and cartilage loss, defined as Tönnis grade 3, modified Outerbridge grade III – IV, or Kellgren-Lawrence grade 3 – 4 (Evidence: pg no: 24, L844-L845)",
+            "Limited range of motion, antalgic gait and disabling pain of at least 3 months' duration (Evidence: pg no: 24, L846)",
+            "Pain with passive motion of the hip (Evidence: pg no: 24, L847)",
+            "Failure of at least 3 months of non-surgical conservative management (Evidence: pg no: 24, L848-L849)",
+            "Functional limitation secondary to hip pathology which interferes with the ability to perform age-appropriate daily activities (Evidence: pg no: 24, L850-L851)"
+          ]
+        },
+        "exclusions": [
+          "Indications for total hip arthroplasty other than those addressed in this guideline are considered not medically necessary (Evidence: pg no: 26, L937-L938)"
+        ],
+        "codes": [
+          {
+            "code": "27130",
+            "system": "CPT",
+            "description": "Arthroplasty, acetabular and proximal femoral prosthetic replacement (total hip arthroplasty), with or without autograft or allograft (Evidence: pg no: 27, L973-L974)"
+          }
+        ],
+        "notes": "All arthroplasty and acetabuloplasty/resection arthroplasty procedures are inclusive of synovectomy, removal of osteophytes, removal of loose bodies, manipulation of the hip, and release or repair of structures to gain entrance to the hip joint. (Evidence: pg no: 22, L749-L751)"
+      },
+      "payer_guideline_reference": [
+        "(Evidence: pg no: 24, L837)",
+        "(Evidence: pg no: 26, L937-L938)",
+        "(Evidence: pg no: 24, L841)",
+        "(Evidence: pg no: 22, L749-L751)",
+        "(Evidence: pg no: 24, L847)",
+        "(Evidence: pg no: 24, L846)",
+        "(Evidence: pg no: 24, L839)",
+        "(Evidence: pg no: 24, L844-L845)",
+        "(Evidence: pg no: 24, L848-L849)",
+        "(Evidence: pg no: 24, L838)",
+        "(Evidence: pg no: 22, L743)",
+        "(Evidence: pg no: 22, L746-L749)",
+        "(Evidence: pg no: 22, L746)",
+        "(Evidence: pg no: 24, L835)",
+        "(Evidence: pg no: 22, L756-L757)",
+        "(Evidence: pg no: 27, L973-L974)",
+        "(Evidence: pg no: 24, L850-L851)",
+        "(Evidence: pg no: 24, L840)"
+      ]
+    },
+    {
+      "header": "[ANTHEM | Left intertrochanteric femoral fracture open reduction internal fixation | Chunk 2 | score=18.000 | file=anthem_guideline_2.json | id=anthem_57]",
+      "file": "anthem_guideline_2.json",
+      "record_id": "anthem_57",
+      "chunk_index": 2,
+      "payer": "anthem",
+      "score": 18.0,
+      "description": "{'procedure_id': 'reverse_shoulder_arthroplasty', 'category': 'Shoulder (Evidence: pg no: 7, L169)', 'section_title': 'Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)', 'names': ['Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)', 'Reverse total shoulder arthroplasty (Evidence: pg no: 7, L178)'], 'description': 'Reverse total shoulder arthroplasty is similar to standard arthroplasty in that both components of the joint are replaced but the ball and socket portions of the joint are reversed, allowing the deltoid muscle to assume partial function of the rotator cuff. This procedure is typically utilized when there is concomitant rotator cuff disease. (Evidence: pg no: 7, L178-L180)', 'scope': 'This guideline addresses shoulder arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of a congenital condition, acute or traumatic event such as fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 7, L181-L183)', 'general_requirements': {'documentation': ['Reconstruction after a tumor resection (Evidence: pg no: 10, L302)', 'Glenohumeral osteoarthritis with irreparable rotator cuff tear (Evidence: pg no: 10, L303)', 'Glenoid bone stock inadequate to support a glenoid prosthesis (Evidence: pg no: 10, L304)', 'Failed hemiarthroplasty (Evidence: pg no: 10, L305)', 'Failed total shoulder arthroplasty with non-repairable rotator cuff (Evidence: pg no: 10, L306)', 'Shoulder fracture that is not re",
+      "full_source": {
+        "procedure_id": "reverse_shoulder_arthroplasty",
+        "category": "Shoulder (Evidence: pg no: 7, L169)",
+        "section_title": "Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)",
+        "names": [
+          "Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)",
+          "Reverse total shoulder arthroplasty (Evidence: pg no: 7, L178)"
+        ],
+        "description": "Reverse total shoulder arthroplasty is similar to standard arthroplasty in that both components of the joint are replaced but the ball and socket portions of the joint are reversed, allowing the deltoid muscle to assume partial function of the rotator cuff. This procedure is typically utilized when there is concomitant rotator cuff disease. (Evidence: pg no: 7, L178-L180)",
+        "scope": "This guideline addresses shoulder arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of a congenital condition, acute or traumatic event such as fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 7, L181-L183)",
+        "general_requirements": {
+          "documentation": [
+            "Reconstruction after a tumor resection (Evidence: pg no: 10, L302)",
+            "Glenohumeral osteoarthritis with irreparable rotator cuff tear (Evidence: pg no: 10, L303)",
+            "Glenoid bone stock inadequate to support a glenoid prosthesis (Evidence: pg no: 10, L304)",
+            "Failed hemiarthroplasty (Evidence: pg no: 10, L305)",
+            "Failed total shoulder arthroplasty with non-repairable rotator cuff (Evidence: pg no: 10, L306)",
+            "Shoulder fracture that is not repairable or cannot be reconstructed with other techniques (Evidence: pg no: 10, L307)",
+            "Deficient rotator cuff with limited ability to actively flex the upper extremity to 90 degrees against gravity (Evidence: pg no: 10, L310-L311)"
+          ]
+        },
+        "exclusions": [],
+        "codes": [],
+        "notes": "Considered medically necessary for ANY of the listed indications when associated with pain and functional impairment. (Evidence: pg no: 10, L301)"
+      },
+      "payer_guideline_reference": [
+        "(Evidence: pg no: 10, L307)",
+        "(Evidence: pg no: 10, L301)",
+        "(Evidence: pg no: 10, L303)",
+        "(Evidence: pg no: 10, L300)",
+        "(Evidence: pg no: 7, L181-L183)",
+        "(Evidence: pg no: 7, L178-L180)",
+        "(Evidence: pg no: 7, L178)",
+        "(Evidence: pg no: 10, L305)",
+        "(Evidence: pg no: 10, L310-L311)",
+        "(Evidence: pg no: 10, L302)",
+        "(Evidence: pg no: 10, L306)",
+        "(Evidence: pg no: 10, L304)",
+        "(Evidence: pg no: 7, L169)"
+      ]
+    }
+  ],
+  "original_chart": "\n\n=== CHART: tmp9xaqqzb0.pdf (Type: consultation_note) ===\n10/29/25, 11:24 AM Wallace, William F (MR # MR71970) DOB: 12/15/1938\n\nConsult Note by Choo, Kevin, MD filed on 10/28/2025 5:41 PM.\n\nAuthor: Choo, Kevin, MD Service: Orthopedics Author Type: Physician\nDate of Service: 10/28/2025 Filed: 10/28/2025 5:41 PM Status: Signed\nEditor: Choo, Kevin, MD (Physician)\n\nGreenwich Hospital\n\nOrthopedic Consult Note\n\natient Data:\natient Name: William F Wallace\n\nDOB: 12/15/1938\nMRN: MR71970\n\nConsult Information:\n\nConsultation requested by: Rana, Sunil, MD\nReason for consultation: Left femur fracture\n\nPresentation History:\nHPI\n\n86 y.o. male with recent elective left inguinal hernia repair on Plavix coronary artery disease status post stents\nhowever holding status post surgery. sustained a fall with head strike on his way to his doctors office. Patient states\nhe tripped and fell striking his head. Patient endorses left groin and left lower femur pain. Leg shortened and\nexternally rotated.\n\nReview of Allergies/Medical History/Medications:\n\nAllergies has no known allergies.\n\nPast Medical History has a past medical history of A-fib (HC Code) (HC CODE) (2010), Anxiety, Bacteremia due to\ngroup B Streptococcus (10/10/2022), Basal cell carcinoma, Bleeding, Depression, GERD (gastroesophageal reflux\ndisease), Gout, Heart disease, transient ischemic attack (TIA) (2021), Hypercholesteremia, Hypertension, Infection\ndue to extended spectrum beta lactamase (ESBL) producing bacteria (08/04/2023), Inguinal hernia (10/2025),\nMelanoma in situ (HC CODE), Mitral valve disease, SOB (shortness of breath), Squamous cell skin cancer, Toe\ninfection (02/11/2025), UTI (urinary tract infection) (11/04/2024), and Venous insufficiency of leg.\n\nPast Surgical History has a past surgical history that includes Total hip arthroplasty (Right, 2015); Hernia repair\n(Right, 2015); Mohs surgery (10/2023); Colonoscopy; Upper gastrointestinal endoscopy; Cataract extraction\n(Bilateral); and Angioplasty.\n\nFamily History family history is not on file.\n\nSocial History reports that he has never smoked. He has never used smokeless tobacco. He reports current alcohol\nuse of about 14.0 standard drinks of alcohol per week. He reports that he does not use drugs.\n\nInpatient Medications:\nCurrent Facility-Administered Medications\n\nMedication Dose Route Frequency Provider Last Last\nRate Admin\n* acetaminophen 975 mg Oral Q6H Walker, 975 mg\n(TYLENOL) tablet Mackenzie, PA at\n975 mg 10/28/2\n5 1147\n* allopurinoL 300 mg Oral Daily Soni, Dhara, PA 300 mg\n(ZYLOPRIM) tablet at\n300 mg 10/28/2\n5 0855\n* atenolol 12.5 Oral Daily Rana, Sunil, MD 12.5 mg\n\nWallace, William F (MRN MR71970) Printed by Stagno, Cesarina [767] at 10/29/2025 11:24 AM 1/4\n\n10/29/25, 11:24 AM Wallace, William F (MR # MR71970) DOB: 12/15/1938\n\n(TENORMIN) tablet mg at\n12.5 mg 10/28/2\n5 1529\n* chlorhexidine Topical (Top) Daily Viola, Tara, PA\ngluconate\n\n(HIBICLENS/BETA\n\nSEPT) 4 % topical\n\nliquid\n\nmupirocin Topical (Top) BID Viola, Tara, PA\n(BACTROBAN) 2 %\n\nointment\n\nFollowed by\n\n[START ON 1 Nasal Q12H Viola, Tara, PA\n11/2/2025] ethyl Applicati\n\nalcohol 62 % nasal on\n\nswab 1 Application\n\n* [Held by provider] 40mg _ Oral Daily Soni, Dhara, PA\nfurosemide (LASIX)\ntablet 40 mg\n* polyethylene glycol 17g Oral Daily Walker,\n(MIRALAX) packet Mackenzie, PA\n17g\n* potassium chloride 20 mEq Oral Daily Soni, Dhara, PA 20 mEq\nSA (K-DUR,KLOR- at\nCON M) 24 hr tablet 10/28/2\n20 mEq 5 0855\n* rosuvastatin 40mg _ Oral Daily Soni, Dhara, PA 40 mg\n(CRESTOR) tablet at\n40 mg 10/28/2\n5 0855\n* sodium chloride 0.9 3 mL IV Push Q8H Walker, 3 mL at\n% flush 3 mL Mackenzie, PA 10/28/2\n5 0059\n* [START ON Topical (Top) Once per Balingcongan,\n10/29/2025] white day on Jose Ramon\npetrolatum Monday Elbo, PA\n(AQUAPHOR with Wednesday\nNATURAL Friday\n\nHEALING) ointment\n\nReview of Systems:\n\nReview of Systems\nNeg except as noted above\n\nPhysical Exam:\n\nVitals:\n\nLast 24 hours: Temp: [97.3 °F (36.3 °C)-98.2 °F (36.8 °C)] 97.3 °F (36.3 °C)\nPulse: [66-89] 89\n\nResp: [18] 18\n\nBP: (82-118)/(46-78) 118/78\n\nSpO2: [94 %-98 %] 94 %\n\nPhysical Exam\n\nThe patient is well appearing\n\nAlert and oriented x 3, in no acute distress, cooperative with examination\nBreathing comfortable without excessive work of breathing\n\nSclera anicteric\n\nNo edema, 2+ pulses and normothermic\n\nNo loss to of sensation to light touch\n\nWallace, William F (MRN MR71970) Printed by Stagno, Cesarina [767] at 10/29/2025 11:24 AM 2/4\n\n10/29/25, 11:24 AM Wallace, William F (MR # MR71970) DOB: 12/15/1938\n\nFocused examination demonstrates:\n\nLeft femur\n\nROM deferred\n\nShortened\n\nThe patient has no focal neurologic or vascular deficit\nFiring EHL FHL TA GSC\n\nSILT Su Sa SP DP T distribution\n\nToes wwp\n\nDiffuse wounds and ulcerations across the lower legs in various stages of healing\n\nReview of Labs/Diagnostics:\n\nDiagnostic Review:\nXR and CT of the left hip\nSeverely comminuted and angulated left proximal intertrochanteric femoral fracture\n\nImpression:\n\nSeverely comminuted left intertrochanteric femoral fracture\n\n86year old with serious medical co morbidities\nPatient is optimized, advised by PCP and Cardiology to proceed if remains stable\n\n| discussed with the patient and son the high risk nature of this surgery, particularly given his frailty and\nmedical co morbidities\nThere is a chance of serious medical complication and possibly death\n\nWe discussed non operative and operative options\n\nGiven that he was walking prior to the fall, it is within their goals of care to undergo operative fixation of this injury,\nacknowledging the non modifiable high risk nature\n\nAll questions answered\n\nA careful discussion of the risks and benefits of the surgery was held with the patient including infection, bleeding,\ndamage to neurovascular structures and potential for continued pain, continued weakness, worsening pain and\nworsening weakness, stiffness, stability, limb length discrepancy, fracture, infection and the need for revision surgery\nin the future, DVT prophylaxis and the risks for anesthetic complications and pulmonary complications and even\ndeath. The patient expressed an understanding of these risks and the patient wished to proceed with surgery.\n\nElectronically Signed:\nKevin Choo, MD\n10/28/2025 5:36 PM\n\nElectronically signed by Choo, Kevin, MD at 10/28/2025 5:41 PM\n\nED to Hosp-Admission (Current) on 10/27/2025 Note shared with patient\n\nRouting History\n\nPriority Sent On From To Message Type\nt 10/27/2025 1:10 Edi, Rad Results In Mariani, Tania Victoria, MD Results\n\nPM\nt 10/27/2025 1:08 Edi, Rad Results In Mariani, Tania Victoria, MD Results\n\nPM\n\nWallace, William F (MRN MR71970) Printed by Stagno, Cesarina [767] at 10/29/2025 11:24 AM 3/4\n\n10/29/25, 11:24 AM\n\nPriority\n\nt\nt\n\nSent On\n10/27/2025 1:08\nPM\n\n10/27/2025 1:03\nPM\n\n10/27/2025 12:45\nPM\n\n10/27/2025 12:44\nPM\n\nWallace, William F (MR # MR71970) DOB: 12/15/1938\n\nFrom\nEdi, Rad Results In\n\nEdi, Rad Results In\n\nEdi, Rad Results In\n\nEdi, Rad Results In\n\nTo\nMariani, Tania Victoria, MD\n\nMariani, Tania Victoria, MD\nMariani, Tania Victoria, MD\n\nMariani, Tania Victoria, MD\n\nWallace, William F (MRN MR71970) Printed by Stagno, Cesarina [767] at 10/29/2025 11:24 AM\n\nMessage Type\nResults\n\nResults\nResults\n\nResults\n\n4/4\n=== END CHART: tmp9xaqqzb0.pdf ===\n\n\n=== CHART: tmpowdfpygs.pdf (Type: operative_note) ===\n10/29/25, 11:22 AM Wallace, William F (MR # MR71970) DOB: 12/15/1938\n\nOperative Note by Choo, Kevin, MD filed on 10/28/2025 9:50 PM.\n\nAuthor: Choo, Kevin, MD Service: Orthopedics Author Type: Physician\nDate of Service: 10/28/2025 Filed: 10/28/2025 9:50 PM Status: Signed\n\nEditor: Choo, Kevin, MD (Physician)\n\nOrthopedic Surgery Operative Report\n\nPatient Name: William F Wallace\n\nDate of Procedure: 10/28/25\n\nLocation: Greenwich Hospital\n\nMRN: MR71970\n\nProcedure: Left intertrochanteric femoral fracture open reduction internal fixaion\nPreliminary Diagnosis: Left Intertrochanteric Femur Fracture, displaced\nPostoperative Diagnosis: Left Intertrochanteric Femur Fracture, displaced\nSurgeon: Dr. Kevin Choo\n\nFirst Assist: None\n\nAnesthesia Staff: ANESTHESIOLOGIST: Temme, David William, MD\nAnesthesia Type: General with LMA\n\nSpecimens:\n* No specimens in log *\n\nEstimated Blood Loss:\n\n200mL\n\nImplants:\n\nImplant Name Type Inv. Item Serial No. Manufacturer Lot LRB_ No. Action\nNo. Used\n\nlag screw 10.5 x ARTHREX 15374 Left 1 Implanted\n\n105mm 045\n\nanti rotation screw ARTHREX 15219 Left 1 Implanted\n\n5.0 x 90 mm 624\n\nscrew 5.0 x 36mm ARTHREX 15452 Left 1 Implanted\n718\n\nscrew 5.0 x 36 mm ARTHREX 15407 Left 1 Implanted\n231\n\nArthrex short nail\n\n105mm lag screw\n\n90mm antirotation screw\n36mm interlocking screws\n12mm Arthrex short nail\n\nIndication:\n\nThe patient is a 86 y.o. male who was brought to Greenwich Hospital Emergency Department after a mechanical fall\nafter which the patient was unable to bear weight. X rays in the emergency room demonstrated evidence of a\ndisplaced femoral fracture. Given the nature of the injury, a discussion regarding the risks associated with and the\nalternatives to surgery were discussed. This discussion included the potential complications of deep venous\nthrombosis, infection, nerve or blood vessel injury, ligament injury, dislocation, leg length discrepancy, fracture, mal-\nor non-union, and incomplete resolution of pain, the patient wished to proceed with open reduction internal fixation of\nthe intertrochanteric femur.\n\nProcedure:\n\nThe patient was brought to the Operating Room and after the successful induction of general/LMA anesthesia, a\nclosed reduction was performed. Flouroscopy was used to confirm that the reduction was within acceptable\n\nWallace, William F (MRN MR71970) Printed by Stagno, Cesarina [767] at 10/29/2025 11:22 AM\n\n10/29/25, 11:22 AM Wallace, William F (MR # MR71970) DOB: 12/15/1938\n\nparameters.The lower extremity was then prepped and draped in the usual sterile manner with the patient in the\nsupine position on the fracture table. Prophylactic antibiotics were administered within 30 minutes prior to the\nprocedure as well as 1 gram of tranexamic acid. A time out was performed by all members of the surgical team\nconfirming patient identity and surgical site laterality.\n\nA lateral incision was made proximal to, and in-line with, the femur. The entry guidewire was then advanced onto the\nappropriate start site on the greater trochanter. This was confirmed with intraoperative flouroscopy on both the AP\nand lateral views. The guidewire was then advanced with power into the intramedullary canal. Again flouroscopy was\nused to confirm that the entry guidewire was in the appropriate position. The entry reamer was then used through the\nsoft tissue protector canula. Flouroscopy was used to confirm appropriate position of the entry reamer within the\nintramedullary canal and that it had been advanced to a sufficient depth. The reamer and entry guidewire were then\nremoved.\n\nThe nail was then carefully advanced over the guidewire. During advancement of the nail, all reduction maneuvers\nwere employed to maintain the reduction during insertion of the nail. Flouroscopy was again used to confirm that the\nnail had been advanced to the appropriate depth. The long guidewire was then removed. An incision was made over\nthe lateral aspect of the thigh and the cannula for the lag screw was advanced until it made contact with the lateral\ncortical bone. Using flouroscopic guidance, the guidewire for the lag screw was then inserted and confirmed to be in\nappropriate position with the guidwire center-center on AP and lateral views of the femoral head. The depth of the\nguidewire was then measured and the 105 mm lag screw selected. The guidewire was then overdrilled and tapped\nfor the screw of the appropriate depth. The lag screw was then inserted to the appropriate depth which again\nconfirmed using flouroscopy. Similarly the anti rotation screw also placed in the standard fashion.\n\nWe then turned our attention to insertion of the distal interlocking screws. Two small incisions made over the lateral\nthigh in line with the cannula for the distal interlocking screw. The cannula was then advanced through the incision\nand down to bone. The drill was then carefully advanced and the depth of the interlocking screw measured off of the\ndrill. The screws of appropriate length was then inserted. Flouroscopy was again used to confirm that the screws\nwere in appropriate position.\n\nThe wounds were then copiously irrigated. The fascia was closed with interrupted 0 vicryl suture. The deep\nsubcutaneous layers were closed with interrupted 0 vicryl and the dermal layer with 3-0 vicryl. The skin was then\nclosed with staples. Sterile dressings were then applied and the patient was awaken from anesthesia. The patient\nwas transferred to the recovery room in stable condition. All sponge and instrument counts were correct.\n\nPostop Plan\n\nThe patient will be partial weight bearing (50% weight bearing for 6 weeks). DVT prophylaxis will be started on\nPOD1; additional DVT prophylaxis will include SCDs, compression stockings, progressive mobilization. They will\nreceive 24 hours of postoperative antibiotics. The patient will be discharged from the hospital when they are\nmedically stable, have met all PT goals, and their pain is well controlled with oral analgesia.\n\nKevin Choo, MD\n\nElectronically signed by Choo, Kevin, MD at 10/28/2025 9:50 PM\n\nED to Hosp-Admission (Current) on 10/27/2025 Note shared with patient\n\nRouting History\n\nPriority Sent On From To Message Type\n\nt 10/27/2025 1:10 Edi, Rad Results In Mariani, Tania Victoria, MD Results\nPM\n\nt 10/27/2025 1:08 Edi, Rad Results In Mariani, Tania Victoria, MD Results\nPM\n\nt 10/27/2025 1:08 Edi, Rad Results In Mariani, Tania Victoria, MD Results\nPM\n\nt 10/27/2025 1:03 Edi, Rad Results In Mariani, Tania Victoria, MD Results\nPM\n\nt 10/27/2025 12:45 Edi, Rad Results In Mariani, Tania Victoria, MD Results\nPM\n\nt 10/27/2025 12:44 —_ Edi, Rad Results In Mariani, Tania Victoria, MD Results\nPM\n\nWallace, William F (MRN MR71970) Printed by Stagno, Cesarina [767] at 10/29/2025 11:22 AM 2/3\n\n10/29/25, 11:22 AM Wallace, William F (MR # MR71970) DOB: 12/15/1938\n\nWallace, William F (MRN MR71970) Printed by Stagno, Cesarina [767] at 10/29/2025 11:22 AM 3/3\n=== END CHART: tmpowdfpygs.pdf ===\n",
+  "improved_chart_by_ai": "Orthopedic Surgery Operative Report\n\n[AI ADDED: Patient Information]\nPatient Name: William F Wallace\nDate of Procedure: 10/28/25\nLocation: Greenwich Hospital\nMRN: MR71970\nDOB: 12/15/1938\n\n[AI ADDED: Procedure Information]\nProcedure: Left intertrochanteric femoral fracture open reduction internal fixation\nPreliminary Diagnosis: Left Intertrochanteric Femur Fracture, displaced\nPostoperative Diagnosis: Left Intertrochanteric Femur Fracture, displaced\nSurgeon: Dr. Kevin Choo\nFirst Assist: None\nAnesthesia Staff: [NEEDS PHYSICIAN INPUT: anesthesia provider name and type of anesthesia administered]\n\n[AI ADDED: Preoperative Diagnosis]\nPreoperative Diagnosis: Severely comminuted and displaced left intertrochanteric femoral fracture\n\n[AI ADDED: Indications for Procedure]\nIndications: 86-year-old male with severely comminuted left intertrochanteric femoral fracture following a fall. Patient has significant medical comorbidities including CAD, A-fib, and recent left inguinal hernia repair. Patient was on Plavix but it was held post-surgery. After thorough discussion of risks and benefits, patient elected to proceed with surgical fixation.\n\n[AI ADDED: Description of Procedure]\nDescription of Procedure: [NEEDS PHYSICIAN INPUT: detailed description of surgical approach, reduction technique, type of fixation device used, and any complications encountered]\n\n[AI ADDED: Estimated Blood Loss]\nEstimated Blood Loss: [NEEDS PHYSICIAN INPUT: amount in mL]\n\n[AI ADDED: Specimens]\nSpecimens: [NEEDS PHYSICIAN INPUT: any specimens sent to pathology, if applicable]\n\n[AI ADDED: Implants]\nImplants: [NEEDS PHYSICIAN INPUT: specific type, manufacturer, and size of implant(s) used]\n\n[AI ADDED: Complications]\nComplications: [NEEDS PHYSICIAN INPUT: any intraoperative complications or \"None\"]\n\n[AI ADDED: Disposition]\nDisposition: [NEEDS PHYSICIAN INPUT: patient's condition and destination after procedure]\n\n[AI ADDED: Postoperative Plan]\nPostoperative Plan: [NEEDS PHYSICIAN INPUT: weight-bearing status, rehabilitation protocol, follow-up timing, and any specific postoperative precautions]\n\n[AI ADDED: Signature Block]\nSurgeon Signature: Dr. Kevin Choo\nDate: 10/28/2025",
+  "enhanced_by_ai": {
+    "improvements": [
+      {
+        "section": "Document Structure",
+        "original": "Minimal structure with basic patient and procedure information",
+        "improved": "Added comprehensive structure with clear sections for all required operative note components",
+        "reason": "Properly structured operative notes are required for complete documentation of surgical procedures and medical necessity",
+        "payers_affected": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ]
+      },
+      {
+        "section": "Preoperative Diagnosis",
+        "original": "Missing",
+        "improved": "Added preoperative diagnosis section with detailed fracture description",
+        "reason": "Clear documentation of preoperative diagnosis is required to establish medical necessity for the procedure",
+        "payers_affected": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ]
+      },
+      {
+        "section": "Indications for Procedure",
+        "original": "Missing",
+        "improved": "Added comprehensive indications section including patient history, comorbidities, and decision-making process",
+        "reason": "Documentation of specific indications for surgery is required to establish medical necessity",
+        "payers_affected": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ]
+      },
+      {
+        "section": "Description of Procedure",
+        "original": "Missing",
+        "improved": "Added section with placeholder for detailed surgical description",
+        "reason": "Detailed description of the surgical procedure is required for proper coding and to document the complexity of the case",
+        "payers_affected": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ]
+      },
+      {
+        "section": "Postoperative Plan",
+        "original": "Missing",
+        "improved": "Added section for postoperative management details",
+        "reason": "Documentation of postoperative plan is required for continuity of care and to support medical necessity of the procedure",
+        "payers_affected": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ]
+      }
+    ],
+    "user_input_required": [
+      {
+        "section": "Procedure Details",
+        "field": "Surgical approach and technique",
+        "reason": "Detailed description of surgical approach and technique is required to document procedure complexity and support coding",
+        "suggestion": "Document specific approach (lateral, anterior), reduction technique, and any challenges encountered during the procedure",
+        "payers_requiring": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ],
+        "priority": "high"
+      },
+      {
+        "section": "Implants",
+        "field": "Specific implant information",
+        "reason": "Documentation of specific implant type, manufacturer, and size is required for proper coding and to establish medical necessity",
+        "suggestion": "Document the specific type of fixation device (e.g., cephalomedullary nail, sliding hip screw), manufacturer, model number, and size",
+        "payers_requiring": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ],
+        "priority": "high"
+      },
+      {
+        "section": "Postoperative Plan",
+        "field": "Weight-bearing status and rehabilitation protocol",
+        "reason": "Documentation of postoperative weight-bearing status and rehabilitation protocol is required to establish appropriate postoperative care",
+        "suggestion": "Specify weight-bearing restrictions (e.g., non-weight bearing, toe-touch weight bearing, partial weight bearing), duration of restrictions, and physical therapy recommendations",
+        "payers_requiring": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ],
+        "priority": "medium"
+      },
+      {
+        "section": "Anesthesia",
+        "field": "Type of anesthesia and provider",
+        "reason": "Documentation of anesthesia type and provider is required for complete operative documentation",
+        "suggestion": "Document type of anesthesia (general, spinal, regional block) and name of anesthesia provider",
+        "payers_requiring": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ],
+        "priority": "medium"
+      },
+      {
+        "section": "Estimated Blood Loss",
+        "field": "Blood loss volume",
+        "reason": "Documentation of estimated blood loss is required to establish procedure complexity and patient risk factors",
+        "suggestion": "Document estimated blood loss in milliliters",
+        "payers_requiring": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ],
+        "priority": "medium"
+      }
+    ],
+    "recommendations": [
+      {
+        "category": "Procedure Documentation",
+        "recommendation": "Document detailed surgical approach, reduction technique, and fixation method",
+        "payers": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ],
+        "priority": "high"
+      },
+      {
+        "category": "Implant Documentation",
+        "recommendation": "Document specific implant details including type, manufacturer, and size",
+        "payers": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ],
+        "priority": "high"
+      },
+      {
+        "category": "Postoperative Care",
+        "recommendation": "Document specific weight-bearing status, rehabilitation protocol, and follow-up plan",
+        "payers": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ],
+        "priority": "medium"
+      },
+      {
+        "category": "Medical Necessity",
+        "recommendation": "Ensure documentation clearly links the patient's clinical condition to the need for surgical intervention",
+        "payers": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ],
+        "priority": "high"
+      }
+    ],
+    "compliance_impact": {
+      "before": "Incomplete operative note lacking essential elements required for proper documentation and medical necessity justification. Missing surgical details, implant information, and postoperative plan.",
+      "after": "Comprehensive operative note with structured format and complete documentation of all required elements. Once physician input is added, the note will meet documentation requirements for all payers.",
+      "key_changes": [
+        "Added structured format with clear sections for all required operative note components",
+        "Added preoperative diagnosis and indications for procedure to establish medical necessity",
+        "Added sections for detailed surgical description, implant information, and complications",
+        "Added postoperative plan section for continuity of care documentation",
+        "Identified specific areas requiring physician input to complete documentation"
+      ]
+    },
+    "success": true
+  },
+  "error": null,
+  "payer_summary": {
+    "per_payer": {
+      "cigna": {
+        "payer_key": "cigna",
+        "payer_name": "Cigna",
+        "total_procedures": 1,
+        "sufficient_count": 0,
+        "insufficient_count": 1,
+        "other_count": 0,
+        "sufficient_percentage": 0.0,
+        "insufficient_percentage": 100.0,
+        "other_percentage": 0.0
+      },
+      "uhc": {
+        "payer_key": "uhc",
+        "payer_name": "UnitedHealthcare",
+        "total_procedures": 1,
+        "sufficient_count": 0,
+        "insufficient_count": 1,
+        "other_count": 0,
+        "sufficient_percentage": 0.0,
+        "insufficient_percentage": 100.0,
+        "other_percentage": 0.0
+      },
+      "anthem": {
+        "payer_key": "anthem",
+        "payer_name": "Anthem",
+        "total_procedures": 1,
+        "sufficient_count": 1,
+        "insufficient_count": 0,
+        "other_count": 0,
+        "sufficient_percentage": 100.0,
+        "insufficient_percentage": 0.0,
+        "other_percentage": 0.0
+      }
+    },
+    "overall": {
+      "total_procedures": 3,
+      "sufficient_count": 1,
+      "insufficient_count": 2,
+      "other_count": 0,
+      "sufficient_percentage": 33.33,
+      "insufficient_percentage": 66.67,
+      "other_percentage": 0.0
+    }
+  },
+  "multi_chart_info": {
+    "total_charts": 2,
+    "chart_details": {
+      "tmp9xaqqzb0.pdf": {
+        "chart_type": "consultation_note",
+        "display_title": "Consultation Note",
+        "chart_type_confidence": "high",
+        "extraction_data": {
+          "patient_name": "William F Wallace",
+          "patient_age": "86 years old",
+          "chart_specialty": "Orthopedics",
+          "cpt": [],
+          "procedure": [
+            "Planned operative fixation of left intertrochanteric femoral fracture"
+          ],
+          "summary": "86-year-old male with severely comminuted left intertrochanteric femoral fracture after a fall. Patient has significant medical comorbidities including CAD, A-fib, and recent left inguinal hernia repair. Patient was on Plavix but it was held post-surgery. After discussion of risks and benefits, patient has elected to proceed with surgical fixation.",
+          "diagnosis": [
+            "Severely comminuted left intertrochanteric femoral fracture",
+            "A-fib",
+            "Coronary artery disease status post stents",
+            "Hypertension",
+            "Hypercholesteremia",
+            "Gout",
+            "Venous insufficiency of leg",
+            "History of TIA (2021)",
+            "History of inguinal hernia repair (10/2025)",
+            "History of bacteremia due to group B Streptococcus",
+            "History of ESBL infection"
+          ],
+          "key_information": [
+            "Patient on Plavix for CAD but currently holding post-surgery",
+            "Patient has diffuse wounds and ulcerations across lower legs in various stages of healing",
+            "High surgical risk due to age and comorbidities",
+            "Patient was ambulatory prior to fall",
+            "Patient has history of right total hip arthroplasty in 2015",
+            "Patient has venous insufficiency which may impact healing",
+            "Patient has history of infections including ESBL and bacteremia",
+            "Shortened and externally rotated left leg noted on exam",
+            "Patient and son informed of high risk nature of surgery including possibility of death"
+          ],
+          "chart_type": "consultation_note"
+        },
+        "file_path": "C:\\Users\\svshelke\\AppData\\Local\\Temp\\tmp9xaqqzb0.pdf"
+      },
+      "tmpowdfpygs.pdf": {
+        "chart_type": "operative_note",
+        "display_title": "Operative Report",
+        "chart_type_confidence": "high",
+        "extraction_data": {
+          "patient_name": "William F Wallace",
+          "patient_age": "86 y.o.",
+          "chart_specialty": "Orthopedic Surgery",
+          "cpt": [],
+          "procedure": [
+            "Left intertrochanteric femoral fracture open reduction internal fixation"
+          ],
+          "summary": "86-year-old male presented after a mechanical fall with a displaced left intertrochanteric femur fracture. Patient underwent open reduction internal fixation using an Arthrex short nail with lag screw, antirotation screw, and interlocking screws. Postoperatively, the patient will be partial weight bearing (50%) for 6 weeks with DVT prophylaxis and progressive mobilization.",
+          "chart_type": "operative_note"
+        },
+        "file_path": "C:\\Users\\svshelke\\AppData\\Local\\Temp\\tmpowdfpygs.pdf"
+      }
+    },
+    "combined_extraction": {
+      "patient_name": "William F Wallace",
+      "patient_age": "86 years old",
+      "chart_specialty": "Orthopedics",
+      "cpt": [],
+      "procedure": [
+        "Left intertrochanteric femoral fracture open reduction internal fixation"
+      ],
+      "summary": "",
+      "multi_chart_data": {
+        "tmp9xaqqzb0.pdf": {
+          "chart_type": "consultation_note",
+          "chart_type_confidence": "high",
+          "extracted_info": {
+            "patient_name": "William F Wallace",
+            "patient_age": "86 years old",
+            "chart_specialty": "Orthopedics",
+            "cpt": [],
+            "procedure": [
+              "Planned operative fixation of left intertrochanteric femoral fracture"
+            ],
+            "summary": "86-year-old male with severely comminuted left intertrochanteric femoral fracture after a fall. Patient has significant medical comorbidities including CAD, A-fib, and recent left inguinal hernia repair. Patient was on Plavix but it was held post-surgery. After discussion of risks and benefits, patient has elected to proceed with surgical fixation.",
+            "diagnosis": [
+              "Severely comminuted left intertrochanteric femoral fracture",
+              "A-fib",
+              "Coronary artery disease status post stents",
+              "Hypertension",
+              "Hypercholesteremia",
+              "Gout",
+              "Venous insufficiency of leg",
+              "History of TIA (2021)",
+              "History of inguinal hernia repair (10/2025)",
+              "History of bacteremia due to group B Streptococcus",
+              "History of ESBL infection"
+            ],
+            "key_information": [
+              "Patient on Plavix for CAD but currently holding post-surgery",
+              "Patient has diffuse wounds and ulcerations across lower legs in various stages of healing",
+              "High surgical risk due to age and comorbidities",
+              "Patient was ambulatory prior to fall",
+              "Patient has history of right total hip arthroplasty in 2015",
+              "Patient has venous insufficiency which may impact healing",
+              "Patient has history of infections including ESBL and bacteremia",
+              "Shortened and externally rotated left leg noted on exam",
+              "Patient and son informed of high risk nature of surgery including possibility of death"
+            ],
+            "chart_type": "consultation_note"
+          }
+        },
+        "tmpowdfpygs.pdf": {
+          "chart_type": "operative_note",
+          "chart_type_confidence": "high",
+          "extracted_info": {
+            "patient_name": "William F Wallace",
+            "patient_age": "86 y.o.",
+            "chart_specialty": "Orthopedic Surgery",
+            "cpt": [],
+            "procedure": [
+              "Left intertrochanteric femoral fracture open reduction internal fixation"
+            ],
+            "summary": "86-year-old male presented after a mechanical fall with a displaced left intertrochanteric femur fracture. Patient underwent open reduction internal fixation using an Arthrex short nail with lag screw, antirotation screw, and interlocking screws. Postoperatively, the patient will be partial weight bearing (50%) for 6 weeks with DVT prophylaxis and progressive mobilization.",
+            "chart_type": "operative_note"
+          }
+        }
+      }
+    },
+    "operative_chart": "tmpowdfpygs.pdf",
+    "other_charts_info": {
+      "tmp9xaqqzb0.pdf": {
+        "chart_type": "consultation_note",
+        "display_title": "Consultation Note",
+        "extraction_data": {
+          "patient_name": "William F Wallace",
+          "patient_age": "86 years old",
+          "chart_specialty": "Orthopedics",
+          "cpt": [],
+          "procedure": [
+            "Planned operative fixation of left intertrochanteric femoral fracture"
+          ],
+          "summary": "86-year-old male with severely comminuted left intertrochanteric femoral fracture after a fall. Patient has significant medical comorbidities including CAD, A-fib, and recent left inguinal hernia repair. Patient was on Plavix but it was held post-surgery. After discussion of risks and benefits, patient has elected to proceed with surgical fixation.",
+          "diagnosis": [
+            "Severely comminuted left intertrochanteric femoral fracture",
+            "A-fib",
+            "Coronary artery disease status post stents",
+            "Hypertension",
+            "Hypercholesteremia",
+            "Gout",
+            "Venous insufficiency of leg",
+            "History of TIA (2021)",
+            "History of inguinal hernia repair (10/2025)",
+            "History of bacteremia due to group B Streptococcus",
+            "History of ESBL infection"
+          ],
+          "key_information": [
+            "Patient on Plavix for CAD but currently holding post-surgery",
+            "Patient has diffuse wounds and ulcerations across lower legs in various stages of healing",
+            "High surgical risk due to age and comorbidities",
+            "Patient was ambulatory prior to fall",
+            "Patient has history of right total hip arthroplasty in 2015",
+            "Patient has venous insufficiency which may impact healing",
+            "Patient has history of infections including ESBL and bacteremia",
+            "Shortened and externally rotated left leg noted on exam",
+            "Patient and son informed of high risk nature of surgery including possibility of death"
+          ],
+          "chart_type": "consultation_note"
+        },
+        "summary": "86-year-old male with severely comminuted left intertrochanteric femoral fracture after a fall. Patient has significant medical comorbidities including CAD, A-fib, and recent left inguinal hernia repair. Patient was on Plavix but it was held post-surgery. After discussion of risks and benefits, patient has elected to proceed with surgical fixation.",
+        "diagnosis": [
+          "Severely comminuted left intertrochanteric femoral fracture",
+          "A-fib",
+          "Coronary artery disease status post stents",
+          "Hypertension",
+          "Hypercholesteremia",
+          "Gout",
+          "Venous insufficiency of leg",
+          "History of TIA (2021)",
+          "History of inguinal hernia repair (10/2025)",
+          "History of bacteremia due to group B Streptococcus",
+          "History of ESBL infection"
+        ],
+        "tests": [],
+        "reports": [],
+        "medications": [],
+        "allergies": [],
+        "risk_assessment": "",
+        "history": {},
+        "physical_exam": {},
+        "imaging": [],
+        "conservative_treatment": {},
+        "functional_limitations": {}
+      }
+    },
+    "same_patient": true,
+    "same_patient_reason": "Both charts have identical patient name 'William F Wallace', identical MRN 'MR71970', and identical DOB '12/15/1938'",
+    "patient_name": "William F Wallace",
+    "patient_id": "MR71970",
+    "duplicates": [],
+    "duplicate_reason": "No duplicates found. The charts are different types (consultation_note and operative_note) with different content.",
+    "all_chart_names": [
+      "tmp9xaqqzb0.pdf",
+      "tmpowdfpygs.pdf"
+    ]
+  }
+}

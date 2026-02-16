@@ -1,0 +1,279 @@
+{
+  "guideline_id": "I.C.10.b.3",
+  "semantic_title": "Sequencing of Acute Respiratory Failure and Another Acute Condition",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 10. Chapter 10: Diseases of the Respiratory System > b. Acute Respiratory Failure > 3. Sequencing of acute respiratory failure and another acute condition",
+  "page_number": 56,
+  "content": {
+    "full_text": "When a patient is admitted with respiratory failure and another acute condition, (e.g., myocardial infarction, cerebrovascular accident, aspiration pneumonia), the principal diagnosis will not be the same in every situation. This applies whether the other acute condition is a respiratory or nonrespiratory condition. Selection of the principal diagnosis will be dependent on the circumstances of admission. If both the respiratory failure and the other acute condition are equally responsible for occasioning the admission to the hospital, and there are no chapter-specific sequencing rules, the guideline regarding two or more diagnoses that equally meet the definition for principal diagnosis (Section II, C.) may be applied in these situations. If the documentation is not clear as to whether acute respiratory failure and another condition are equally responsible for occasioning the admission, query the provider for clarification. (Evidence: pg no: 56-57, L65-L72)",
+    "summary": "Guidelines for sequencing respiratory failure with other acute conditions, including equal responsibility scenarios and provider query requirements (Evidence: pg no: 56-57, L65-L72)",
+    "key_concepts": [
+      "Variable principal diagnosis selection (Evidence: pg no: 56, L67-L68)",
+      "Circumstances of admission dependency (Evidence: pg no: 56, L68)",
+      "Equal responsibility scenarios (Evidence: pg no: 56, L68-L69)",
+      "Provider query requirement (Evidence: pg no: 57, L71-L72)",
+      "Chapter-specific rule precedence (Evidence: pg no: 56, L69)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "variable_sequencing",
+        "rule_text": "Principal diagnosis will not be the same in every situation when respiratory failure coexists with another acute condition (Evidence: pg no: 56, L67-L68)",
+        "explanation": "Sequencing depends on specific circumstances of each admission rather than following a fixed rule (Evidence: pg no: 56, L67-L68)",
+        "importance": "critical",
+        "applies_to": "J96.0, J96.2 with other acute conditions",
+        "common_applications": [
+          "Respiratory failure with MI",
+          "Respiratory failure with stroke",
+          "Respiratory failure with pneumonia"
+        ]
+      },
+      {
+        "rule_id": "circumstances_dependent",
+        "rule_text": "Selection of principal diagnosis will be dependent on the circumstances of admission (Evidence: pg no: 56, L68)",
+        "explanation": "Each case must be evaluated individually based on what condition primarily occasioned the admission (Evidence: pg no: 56, L68)",
+        "importance": "critical",
+        "applies_to": "J96.0, J96.2 with other acute conditions",
+        "common_applications": [
+          "Case-by-case evaluation",
+          "Admission circumstances analysis",
+          "Primary reason assessment"
+        ]
+      },
+      {
+        "rule_id": "equal_responsibility_rule",
+        "rule_text": "If both conditions are equally responsible for admission and no chapter-specific rules exist, apply Section II, C. guideline (Evidence: pg no: 56, L68-L69)",
+        "explanation": "When conditions equally meet principal diagnosis criteria, follow the general guideline for multiple equally qualifying diagnoses (Evidence: pg no: 56, L68-L69)",
+        "importance": "high",
+        "applies_to": "J96.0, J96.2 with equally responsible conditions",
+        "common_applications": [
+          "Simultaneous acute conditions",
+          "Equal severity presentations",
+          "Unclear primary condition"
+        ]
+      },
+      {
+        "rule_id": "provider_query_requirement",
+        "rule_text": "If documentation is unclear about equal responsibility, query the provider for clarification (Evidence: pg no: 57, L71-L72)",
+        "explanation": "When documentation doesn't clearly indicate which condition is primarily responsible, seek provider clarification (Evidence: pg no: 57, L71-L72)",
+        "importance": "high",
+        "applies_to": "unclear documentation scenarios",
+        "common_applications": [
+          "Ambiguous documentation",
+          "Unclear primary condition",
+          "Need for clarification"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify respiratory failure and other acute condition(s)",
+      "Step 2: Assess circumstances of admission for each condition",
+      "Step 3: Determine which condition is chiefly responsible",
+      "Step 4: If equally responsible, check for chapter-specific rules",
+      "Step 5: If no specific rules and equal responsibility, apply Section II, C.",
+      "Step 6: If unclear, query provider for clarification"
+    ],
+    "related_terminology": [
+      "Sequencing",
+      "Circumstances of admission",
+      "Equally responsible",
+      "Principal diagnosis selection",
+      "Provider query",
+      "Chapter-specific sequencing rules"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "J96.0, J96.2",
+        "description": "Acute respiratory failure codes (Evidence: pg no: 56, L65)",
+        "requirement": "Sequence based on admission circumstances",
+        "usage_rules": [
+          "May be principal or secondary depending on circumstances (Evidence: pg no: 56, L67-L68)",
+          "Consider equal responsibility scenarios (Evidence: pg no: 56, L68-L69)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "Respiratory failure + acute condition",
+        "description": "Variable sequencing based on circumstances (Evidence: pg no: 56, L67-L68)",
+        "example": "J96.00 + I21.9 or I21.9 + J96.00",
+        "explanation": "Order depends on which condition primarily occasioned admission"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Acute respiratory failure with other acute conditions"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "Section_II_C",
+        "title": "Two or more diagnoses that equally meet the definition for principal diagnosis",
+        "relationship": "implements",
+        "explanation": "Applied when respiratory failure and other condition are equally responsible"
+      },
+      {
+        "guideline_id": "I.C.10.b.1",
+        "title": "Acute respiratory failure as principal diagnosis",
+        "relationship": "builds_upon",
+        "explanation": "Provides context for complex sequencing scenarios"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "respiratory_failure_primary_focus",
+      "scenario": "Respiratory failure is primary reason for admission with concurrent MI",
+      "documentation_example": "Patient admitted primarily for acute respiratory failure, incidental finding of small MI on EKG",
+      "step_by_step": [
+        "Step 1: Identify both respiratory failure and MI",
+        "Step 2: Assess admission circumstances",
+        "Step 3: Determine respiratory failure is primary focus",
+        "Step 4: Sequence respiratory failure as principal"
+      ],
+      "correct_coding": {
+        "primary_code": "J96.00",
+        "secondary_codes": [
+          "I21.9"
+        ],
+        "sequencing": "Respiratory failure principal based on admission circumstances",
+        "rationale": "Respiratory failure is the condition chiefly responsible for admission (Evidence: pg no: 56, L68)"
+      },
+      "incorrect_coding": {
+        "code": "I21.9",
+        "codes": [
+          "I21.9",
+          "J96.00"
+        ],
+        "rationale": "MI is incidental, not the primary reason for admission",
+        "common_mistake": "Not properly assessing which condition occasioned the admission"
+      }
+    },
+    {
+      "scenario_id": "equal_responsibility_scenario",
+      "scenario": "Respiratory failure and pneumonia equally responsible for admission",
+      "documentation_example": "Patient admitted with severe pneumonia and acute respiratory failure, both conditions equally severe and requiring immediate treatment",
+      "step_by_step": [
+        "Step 1: Identify both conditions",
+        "Step 2: Assess that both are equally responsible",
+        "Step 3: Check for chapter-specific sequencing rules",
+        "Step 4: Apply Section II, C. guideline for equal conditions"
+      ],
+      "correct_coding": {
+        "primary_code": "either condition acceptable",
+        "secondary_codes": [
+          "other condition"
+        ],
+        "sequencing": "Either sequence acceptable per Section II, C.",
+        "rationale": "Both conditions equally meet principal diagnosis criteria with no chapter-specific rules (Evidence: pg no: 56, L68-L69)"
+      },
+      "incorrect_coding": {
+        "code": "arbitrary selection",
+        "codes": [
+          "without proper assessment"
+        ],
+        "rationale": "Must properly assess equal responsibility before applying guideline",
+        "common_mistake": "Not following Section II, C. guideline for equal conditions"
+      }
+    },
+    {
+      "scenario_id": "unclear_documentation",
+      "scenario": "Documentation unclear about primary condition",
+      "documentation_example": "Patient with respiratory failure and stroke, documentation unclear which condition was primary reason for admission",
+      "step_by_step": [
+        "Step 1: Identify unclear documentation",
+        "Step 2: Recognize need for clarification",
+        "Step 3: Query provider for clarification",
+        "Step 4: Code based on provider response"
+      ],
+      "correct_coding": {
+        "primary_code": "pending provider query",
+        "secondary_codes": [
+          "pending provider query"
+        ],
+        "sequencing": "Based on provider clarification",
+        "rationale": "Provider query required when documentation is unclear about equal responsibility (Evidence: pg no: 57, L71-L72)"
+      },
+      "incorrect_coding": {
+        "code": "assumption-based coding",
+        "codes": [
+          "without provider query"
+        ],
+        "rationale": "Should not assume sequencing when documentation is unclear",
+        "common_mistake": "Making sequencing decisions without proper documentation support"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "mi_with_respiratory_failure",
+      "scenario": "MI primary, respiratory failure secondary",
+      "code_example": "I21.9, J96.00",
+      "breakdown": {
+        "I21.9": "Acute MI as principal diagnosis (Evidence: pg no: 56, L66)",
+        "J96.00": "Respiratory failure as secondary diagnosis (Evidence: pg no: 56, L66)"
+      },
+      "rationale": "Sequencing based on circumstances showing MI as primary reason for admission (Evidence: pg no: 56, L68)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not use fixed sequencing rules - assess each case individually (Evidence: pg no: 56, L67-L68)",
+      "Must query provider when documentation is unclear (Evidence: pg no: 57, L71-L72)"
+    ],
+    "best_practices": [
+      "Carefully assess circumstances of admission for each condition (Evidence: pg no: 56, L68)",
+      "Apply Section II, C. guideline when conditions are equally responsible (Evidence: pg no: 56, L68-L69)",
+      "Query provider when documentation is ambiguous (Evidence: pg no: 57, L71-L72)"
+    ],
+    "common_mistakes": [
+      "Using fixed sequencing rules instead of case-by-case assessment",
+      "Not querying provider when documentation is unclear",
+      "Ignoring equal responsibility scenarios"
+    ],
+    "tips": [
+      "Sequencing varies based on individual admission circumstances (Evidence: pg no: 56, L67-L68)",
+      "Both respiratory and non-respiratory conditions follow same principles (Evidence: pg no: 56, L67)",
+      "Provider queries are essential for unclear cases (Evidence: pg no: 57, L71-L72)"
+    ],
+    "implementation_notes": [
+      "Requires thorough documentation review",
+      "May need provider communication for clarification",
+      "Must consider chapter-specific rules first"
+    ],
+    "clinical_context": [
+      "Multiple acute conditions commonly coexist",
+      "Admission circumstances vary significantly between cases",
+      "Provider intent and clinical focus guide sequencing decisions"
+    ]
+  },
+  "search_keywords": [
+    "respiratory failure sequencing",
+    "multiple acute conditions",
+    "equal responsibility",
+    "circumstances of admission",
+    "provider query",
+    "principal diagnosis selection",
+    "Section II C"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "respiratory_system_failure",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "respiratory_failure",
+      "sequencing",
+      "multiple_conditions",
+      "equal_responsibility",
+      "provider_query"
+    ]
+  },
+  "page_range_processed": "pages_54_to_57"
+}

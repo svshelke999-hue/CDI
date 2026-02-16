@@ -1,0 +1,220 @@
+{
+  "guideline_id": "Appendix_I.Reporting_Options_Definitions",
+  "semantic_title": "POA Reporting Options, Definitions, and Timeframe Guidelines",
+  "section_path": "Appendix I > Present on Admission Reporting Guidelines > Reporting Options and Definitions",
+  "page_number": 117,
+  "content": {
+    "full_text": "Reporting Options: Y – Yes, N – No, U – Unknown, W – Clinically undetermined, Unreported/Not used – (Exempt from POA reporting). Reporting Definitions: Y = present at the time of inpatient admission, N = not present at the time of inpatient admission, U = documentation is insufficient to determine if condition is present on admission, W = provider is unable to clinically determine whether condition was present on admission or not. Timeframe for POA Identification and Documentation: There is no required timeframe as to when a provider (per the definition of \"provider\" used in these guidelines) must identify or document a condition to be present on admission. In some clinical situations, it may not be possible for a provider to make a definitive diagnosis (or a condition may not be recognized or reported by the patient) for a period of time after admission. In some cases, it may be several days before the provider arrives at a definitive diagnosis. This does not mean that the condition was not present on admission. Determination of whether the condition was present on admission or not will be based on the applicable POA guideline as identified in this document, or on the provider's best clinical judgment. If at the time of code assignment the documentation is unclear as to whether a condition was present on admission or not, it is appropriate to query the provider for clarification. (Evidence: pg no: 117, L59-L68)",
+    "summary": "Complete POA reporting options, their definitions, and guidelines for timeframe flexibility in POA determination (Evidence: pg no: 117, L59-L68)",
+    "key_concepts": [
+      "Five POA reporting options: Y, N, U, W, Unreported (Evidence: pg no: 117, L60-L62)",
+      "Specific definitions for each reporting option (Evidence: pg no: 117, L64-L66)",
+      "No required timeframe for POA identification (Evidence: pg no: 117, L67)",
+      "Delayed diagnosis does not mean not present on admission (Evidence: pg no: 117, L67-L68)",
+      "Provider query appropriate when documentation unclear (Evidence: pg no: 117, L68)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "POA.Options.1",
+        "rule_text": "Use Y indicator when condition present at time of inpatient admission (Evidence: pg no: 117, L64)",
+        "explanation": "Y indicator definitively indicates the condition was present when inpatient admission occurred (Evidence: pg no: 117, L64)",
+        "importance": "critical",
+        "applies_to": "conditions clearly present on admission",
+        "common_applications": [
+          "Pre-existing chronic conditions",
+          "Conditions documented before admission",
+          "Conditions present during outpatient encounters"
+        ]
+      },
+      {
+        "rule_id": "POA.Options.2",
+        "rule_text": "Use N indicator when condition not present at time of inpatient admission (Evidence: pg no: 117, L65)",
+        "explanation": "N indicator definitively indicates the condition was not present when inpatient admission occurred (Evidence: pg no: 117, L65)",
+        "importance": "critical",
+        "applies_to": "conditions clearly not present on admission",
+        "common_applications": [
+          "Hospital-acquired infections",
+          "Post-admission complications",
+          "Conditions developing after admission"
+        ]
+      },
+      {
+        "rule_id": "POA.Options.3",
+        "rule_text": "Use U indicator when documentation insufficient to determine POA status (Evidence: pg no: 117, L66)",
+        "explanation": "U indicator used when available documentation does not provide enough information to determine POA status (Evidence: pg no: 117, L66)",
+        "importance": "high",
+        "applies_to": "conditions with insufficient documentation",
+        "common_applications": [
+          "Incomplete medical records",
+          "Missing documentation",
+          "Ambiguous documentation"
+        ]
+      },
+      {
+        "rule_id": "POA.Options.4",
+        "rule_text": "Use W indicator when provider unable to clinically determine POA status (Evidence: pg no: 117, L66)",
+        "explanation": "W indicator used when provider cannot clinically determine whether condition was present on admission (Evidence: pg no: 117, L66)",
+        "importance": "high",
+        "applies_to": "conditions with clinical uncertainty",
+        "common_applications": [
+          "Conditions with unclear onset",
+          "Gradual onset conditions",
+          "Conditions with uncertain timing"
+        ]
+      },
+      {
+        "rule_id": "POA.Timeframe.1",
+        "rule_text": "No required timeframe for provider to identify or document POA conditions (Evidence: pg no: 117, L67)",
+        "explanation": "Providers are not bound by specific timeframes to identify or document conditions as present on admission (Evidence: pg no: 117, L67)",
+        "importance": "medium",
+        "applies_to": "POA identification timing",
+        "common_applications": [
+          "Delayed diagnosis situations",
+          "Complex diagnostic workups",
+          "Gradual symptom recognition"
+        ]
+      },
+      {
+        "rule_id": "POA.Timeframe.2",
+        "rule_text": "Delayed diagnosis does not mean condition was not present on admission (Evidence: pg no: 117, L67-L68)",
+        "explanation": "The fact that a diagnosis is made days after admission does not automatically mean the condition was not present on admission (Evidence: pg no: 117, L67-L68)",
+        "importance": "high",
+        "applies_to": "delayed diagnosis situations",
+        "common_applications": [
+          "Complex diagnostic cases",
+          "Conditions requiring extensive testing",
+          "Subtle or asymptomatic conditions"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Review available documentation for POA determination",
+      "Step 2: Apply appropriate POA indicator based on evidence",
+      "Step 3: Use Y if clearly present on admission",
+      "Step 4: Use N if clearly not present on admission",
+      "Step 5: Use U if documentation insufficient",
+      "Step 6: Use W if provider cannot clinically determine",
+      "Step 7: Query provider if documentation unclear"
+    ],
+    "related_terminology": [
+      "POA indicators",
+      "present on admission",
+      "insufficient documentation",
+      "clinical determination",
+      "provider query",
+      "delayed diagnosis"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Codes exempt from POA reporting"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "POA.Options.scenario1",
+      "scenario": "Patient admitted with chest pain, myocardial infarction diagnosed 3 days later after enzyme results",
+      "documentation_example": "Patient admitted with chest pain. Troponin levels drawn on admission were elevated but results not available until day 3. MI diagnosed on day 3.",
+      "step_by_step": [
+        "Step 1: Note chest pain present on admission",
+        "Step 2: Note MI diagnosed on day 3",
+        "Step 3: Consider that elevated troponins were drawn on admission",
+        "Step 4: Determine MI was likely present on admission despite delayed diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "I21.9 with POA indicator Y",
+        "secondary_codes": [],
+        "sequencing": "Y indicator appropriate",
+        "rationale": "Delayed diagnosis does not mean condition was not present on admission, especially with supporting evidence (Evidence: pg no: 117, L67-L68)"
+      },
+      "incorrect_coding": {
+        "code": "I21.9 with POA indicator N",
+        "codes": [
+          "I21.9 with N"
+        ],
+        "rationale": "Would incorrectly assume delayed diagnosis means not present on admission",
+        "common_mistake": "Assuming delayed diagnosis automatically means not present on admission"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "POA.Options.example1",
+      "scenario": "Y indicator usage",
+      "code_example": "Y = Yes, present at time of inpatient admission",
+      "breakdown": {
+        "Y": "Definitive indicator that condition was present on admission (Evidence: pg no: 117, L64)"
+      },
+      "rationale": "Used when documentation clearly supports presence on admission (Evidence: pg no: 117, L64)"
+    },
+    {
+      "example_id": "POA.Options.example2",
+      "scenario": "U indicator usage",
+      "code_example": "U = Unknown, documentation insufficient",
+      "breakdown": {
+        "U": "Used when documentation does not provide sufficient information (Evidence: pg no: 117, L66)"
+      },
+      "rationale": "Appropriate when medical record lacks adequate information for determination (Evidence: pg no: 117, L66)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Delayed diagnosis does not automatically mean not present on admission (Evidence: pg no: 117, L67-L68)"
+    ],
+    "best_practices": [
+      "Query provider when documentation is unclear about POA status (Evidence: pg no: 117, L68)",
+      "Consider all available clinical evidence, not just timing of diagnosis (Evidence: pg no: 117, L67-L68)",
+      "Use provider's best clinical judgment when guidelines don't provide clear direction (Evidence: pg no: 117, L68)"
+    ],
+    "common_mistakes": [
+      "Assuming delayed diagnosis means not present on admission (Evidence: pg no: 117, L67-L68)",
+      "Not querying provider when documentation is unclear (Evidence: pg no: 117, L68)"
+    ],
+    "tips": [
+      "No timeframe requirement for POA identification allows flexibility (Evidence: pg no: 117, L67)",
+      "Provider clinical judgment is key when documentation is unclear (Evidence: pg no: 117, L68)"
+    ],
+    "implementation_notes": [
+      "Five distinct reporting options available",
+      "Each option has specific definition and use case"
+    ],
+    "clinical_context": [
+      "Complex diagnostic situations",
+      "Delayed diagnosis scenarios",
+      "Insufficient documentation cases"
+    ]
+  },
+  "search_keywords": [
+    "POA indicators",
+    "Y N U W indicators",
+    "POA definitions",
+    "delayed diagnosis POA",
+    "POA timeframe",
+    "provider query POA"
+  ],
+  "metadata": {
+    "category": "convention",
+    "subcategory": "POA_reporting",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "POA",
+      "indicators",
+      "definitions",
+      "timeframe",
+      "provider_judgment"
+    ]
+  },
+  "page_range_processed": "pages_114_to_117"
+}

@@ -1,0 +1,153 @@
+{
+  "guideline_id": "I.C.15.g",
+  "semantic_title": "Diabetes Mellitus in Pregnancy Coding Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 15. Chapter 15: Pregnancy, Childbirth, and the Puerperium > g. Diabetes mellitus in pregnancy",
+  "page_number": 66,
+  "content": {
+    "full_text": "Diabetes mellitus is a significant complicating factor in pregnancy. Pregnant patients who are diabetic should be assigned a code from category O24, (Evidence: pg no: 66, L95-L96)",
+    "summary": "Introduction to diabetes mellitus coding in pregnancy using category O24 (Evidence: pg no: 66, L95-L96)",
+    "key_concepts": [
+      "Diabetes as significant pregnancy complication (Evidence: pg no: 66, L95)",
+      "O24 category requirement (Evidence: pg no: 66, L96)",
+      "Diabetic pregnancy coding (Evidence: pg no: 66, L95-L96)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.C.15.g.1",
+        "rule_text": "Assign O24 category codes for diabetic pregnant patients (Evidence: pg no: 66, L95-L96)",
+        "explanation": "All pregnant patients with diabetes should receive a code from category O24 regardless of diabetes type (Evidence: pg no: 66, L95-L96)",
+        "importance": "critical",
+        "applies_to": "O24",
+        "common_applications": [
+          "Pre-existing Type 1 diabetes in pregnancy",
+          "Pre-existing Type 2 diabetes in pregnancy",
+          "Gestational diabetes",
+          "Other specified diabetes in pregnancy"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify diabetes in pregnant patient",
+      "Step 2: Determine type of diabetes (pre-existing vs gestational)",
+      "Step 3: Assign appropriate O24 code based on diabetes type and trimester"
+    ],
+    "related_terminology": [
+      "Diabetes mellitus",
+      "Gestational diabetes",
+      "Pre-existing diabetes",
+      "Pregnancy complications"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "O24",
+        "description": "Diabetes mellitus in pregnancy, childbirth, and the puerperium (Evidence: pg no: 66, L96)",
+        "requirement": "Required for all diabetic pregnant patients",
+        "usage_rules": [
+          "Use for all types of diabetes in pregnancy (Evidence: pg no: 66, L95-L96)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Diabetes mellitus in pregnancy codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.15.c",
+        "title": "Pre-existing conditions versus conditions due to the pregnancy",
+        "relationship": "applies_concept",
+        "explanation": "Diabetes coding applies pre-existing vs gestational distinction"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "diabetes_pregnancy_1",
+      "scenario": "Type 1 diabetic patient at 24 weeks gestation for routine prenatal visit",
+      "documentation_example": "24-week prenatal visit, patient with Type 1 diabetes diagnosed 10 years ago, well controlled on insulin",
+      "step_by_step": [
+        "Step 1: Identify Type 1 diabetes in pregnant patient",
+        "Step 2: Recognize as pre-existing diabetes",
+        "Step 3: Assign O24.012 for pre-existing Type 1 diabetes, second trimester"
+      ],
+      "correct_coding": {
+        "primary_code": "O24.012",
+        "secondary_codes": [
+          "E10.9",
+          "Z3A.24"
+        ],
+        "sequencing": "O24 code as primary",
+        "rationale": "Diabetic pregnant patients require O24 category codes (Evidence: pg no: 66, L95-L96)"
+      },
+      "incorrect_coding": {
+        "code": "E10.9",
+        "codes": [
+          "E10.9"
+        ],
+        "rationale": "Should use O24 code for diabetes in pregnancy, not just diabetes code",
+        "common_mistake": "Using only diabetes code without pregnancy-specific O24 code"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "All diabetic pregnant patients need O24 codes (Evidence: pg no: 66, L95-L96)"
+    ],
+    "best_practices": [
+      "Always use O24 category for diabetes in pregnancy (Evidence: pg no: 66, L95-L96)",
+      "Distinguish between pre-existing and gestational diabetes",
+      "Include appropriate trimester in code selection"
+    ],
+    "common_mistakes": [
+      "Using only diabetes codes without O24 codes",
+      "Not recognizing diabetes as pregnancy complication"
+    ],
+    "tips": [
+      "Diabetes is always significant in pregnancy",
+      "O24 codes are mandatory for diabetic pregnant patients"
+    ],
+    "implementation_notes": [
+      "Requires knowledge of diabetes types and pregnancy coding",
+      "May need additional diabetes codes as secondary"
+    ],
+    "clinical_context": [
+      "High-risk pregnancy management",
+      "Endocrine complications in pregnancy",
+      "Diabetes management during pregnancy"
+    ]
+  },
+  "search_keywords": [
+    "diabetes pregnancy",
+    "gestational diabetes",
+    "pre-existing diabetes",
+    "O24 codes",
+    "diabetes mellitus pregnancy",
+    "pregnancy complications"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "obstetric_coding",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "pregnancy",
+      "diabetes",
+      "gestational_diabetes",
+      "O24",
+      "complications"
+    ]
+  },
+  "page_range_processed": "pages_63_to_66"
+}

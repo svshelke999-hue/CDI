@@ -1,0 +1,149 @@
+{
+  "guideline_id": "I.C.21.c.3.a",
+  "semantic_title": "Mechanical Ventilator Weaning Encounters - Coding Sequence for Chronic Respiratory Failure with Ventilator Dependence",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 21. Factors Influencing Health Status > c. Categories of Z Codes > 3) Status",
+  "page_number": 94,
+  "content": {
+    "full_text": "For encounters for weaning from a mechanical ventilator, assign a code from subcategory J96.1, Chronic respiratory failure, followed by code Z99.11, Dependence on respirator [ventilator] status. (Evidence: pg no: 94, L21-L22)",
+    "summary": "Specific coding sequence required for mechanical ventilator weaning encounters using chronic respiratory failure code followed by ventilator dependence status code (Evidence: pg no: 94, L21-L22)",
+    "key_concepts": [
+      "Mechanical ventilator weaning encounters (Evidence: pg no: 94, L21)",
+      "Chronic respiratory failure coding (Evidence: pg no: 94, L22)",
+      "Ventilator dependence status (Evidence: pg no: 94, L22)",
+      "Required code sequencing (Evidence: pg no: 94, L21-L22)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "VENT_WEAN_SEQ",
+        "rule_text": "Assign code from subcategory J96.1 first, followed by code Z99.11 (Evidence: pg no: 94, L21-L22)",
+        "explanation": "For ventilator weaning encounters, the chronic respiratory failure code must be sequenced before the ventilator dependence status code (Evidence: pg no: 94, L21-L22)",
+        "importance": "critical",
+        "applies_to": "J96.1, Z99.11",
+        "common_applications": [
+          "Ventilator weaning encounters",
+          "Chronic respiratory failure with ventilator dependence"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify encounter as ventilator weaning",
+      "Step 2: Assign appropriate code from subcategory J96.1",
+      "Step 3: Assign code Z99.11 as secondary code"
+    ],
+    "related_terminology": [
+      "Mechanical ventilator weaning",
+      "Chronic respiratory failure",
+      "Ventilator dependence",
+      "Respirator status"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "J96.1",
+        "description": "Chronic respiratory failure subcategory (Evidence: pg no: 94, L22)",
+        "requirement": "Must be sequenced first for ventilator weaning encounters",
+        "usage_rules": [
+          "Use for ventilator weaning encounters (Evidence: pg no: 94, L21-L22)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "Z99.11",
+        "description": "Dependence on respirator [ventilator] status (Evidence: pg no: 94, L22)",
+        "context": "Secondary code for ventilator weaning encounters",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "Z99": "Dependence on enabling machines and devices",
+          "11": "Respirator [ventilator] status"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Chronic respiratory failure",
+      "Ventilator dependence status"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "VENT_WEAN_01",
+      "scenario": "Patient admitted for mechanical ventilator weaning with chronic respiratory failure",
+      "documentation_example": "Patient with chronic respiratory failure admitted for ventilator weaning trial",
+      "step_by_step": [
+        "Step 1: Identify chronic respiratory failure condition",
+        "Step 2: Assign appropriate J96.1 code",
+        "Step 3: Assign Z99.11 as secondary code"
+      ],
+      "correct_coding": {
+        "primary_code": "J96.1x",
+        "secondary_codes": [
+          "Z99.11"
+        ],
+        "sequencing": "J96.1 code first, then Z99.11",
+        "rationale": "Guidelines specify this exact sequence for ventilator weaning encounters (Evidence: pg no: 94, L21-L22)"
+      },
+      "incorrect_coding": {
+        "code": "Z99.11",
+        "codes": [
+          "Z99.11 alone"
+        ],
+        "rationale": "Missing the required chronic respiratory failure code",
+        "common_mistake": "Using only the status code without the underlying condition"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Must sequence J96.1 code before Z99.11 (Evidence: pg no: 94, L21-L22)"
+    ],
+    "best_practices": [
+      "Always use both codes in specified sequence for ventilator weaning (Evidence: pg no: 94, L21-L22)"
+    ],
+    "common_mistakes": [
+      "Reversing the code sequence",
+      "Using only one of the required codes"
+    ],
+    "tips": [
+      "Remember the specific sequence requirement for ventilator weaning encounters"
+    ],
+    "implementation_notes": [
+      "This applies specifically to weaning encounters"
+    ],
+    "clinical_context": [
+      "Mechanical ventilator weaning process",
+      "Chronic respiratory failure management"
+    ]
+  },
+  "search_keywords": [
+    "ventilator weaning",
+    "mechanical ventilator",
+    "chronic respiratory failure",
+    "J96.1",
+    "Z99.11",
+    "respirator dependence"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "status_codes",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "ventilator",
+      "respiratory",
+      "status",
+      "sequencing"
+    ]
+  },
+  "page_range_processed": "pages_93_to_96"
+}

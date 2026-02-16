@@ -1,0 +1,172 @@
+{
+  "guideline_id": "I.C.6.a.4",
+  "semantic_title": "Glaucoma Stage Evolution During Hospital Admission",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 7. Chapter 7: Diseases of the Eye and Adnexa > a. Glaucoma > 4) Patient admitted with glaucoma and stage evolves during the admission",
+  "page_number": 49,
+  "content": {
+    "full_text": "If a patient is admitted with glaucoma and the stage progresses during the admission, assign the code for highest stage documented. (Evidence: pg no: 49, L29-L30)",
+    "summary": "When glaucoma stage progresses during hospital stay, code the highest stage reached during admission (Evidence: pg no: 49, L29-L30)",
+    "key_concepts": [
+      "Glaucoma stage progression during admission (Evidence: pg no: 49, L29)",
+      "Highest stage documentation principle (Evidence: pg no: 49, L30)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "GLAU_STAGE_PROGRESSION",
+        "rule_text": "Assign code for highest stage documented when glaucoma progresses during admission (Evidence: pg no: 49, L30)",
+        "explanation": "When a patient's glaucoma worsens or progresses to a higher stage during the hospital stay, the final code should reflect the most severe stage reached (Evidence: pg no: 49, L29-L30)",
+        "importance": "high",
+        "applies_to": "H40 category codes with staging",
+        "common_applications": [
+          "Acute glaucoma exacerbations",
+          "Progressive glaucoma during treatment",
+          "Complications leading to stage advancement"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Document initial glaucoma stage at admission",
+      "Step 2: Monitor and document any stage progression during stay",
+      "Step 3: Identify highest stage reached during admission",
+      "Step 4: Assign code corresponding to highest documented stage",
+      "Step 5: Ensure documentation supports stage progression"
+    ],
+    "related_terminology": [
+      "Glaucoma progression",
+      "Stage evolution",
+      "Highest stage",
+      "Admission documentation",
+      "Stage advancement"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "H40",
+        "description": "Glaucoma codes with staging seventh characters (Evidence: pg no: 49, L29-L30)",
+        "requirement": "Use highest stage reached during admission",
+        "usage_rules": [
+          "Monitor stage changes throughout admission (Evidence: pg no: 49, L29)",
+          "Code reflects final highest stage documented (Evidence: pg no: 49, L30)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "H40.xxx with progressive seventh character",
+        "description": "Glaucoma codes showing stage progression (Evidence: pg no: 49, L30)",
+        "example": "H40.111 progressing to H40.113 during admission",
+        "explanation": "Seventh character changes to reflect highest stage reached"
+      }
+    ],
+    "code_categories_mentioned": [
+      "H40 Glaucoma with stage progression considerations"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.6.a.5",
+        "title": "Indeterminate stage glaucoma",
+        "relationship": "related_to",
+        "explanation": "Both deal with glaucoma staging documentation issues"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "GLAU_PROGRESSION_1",
+      "scenario": "Patient admitted with mild glaucoma that progresses to severe stage during hospitalization",
+      "documentation_example": "Admission: Primary open-angle glaucoma, mild stage OD. Day 3: Progression to severe stage noted due to acute pressure elevation.",
+      "step_by_step": [
+        "Step 1: Note initial mild stage at admission",
+        "Step 2: Document progression to severe stage during stay",
+        "Step 3: Identify severe stage as highest level reached",
+        "Step 4: Assign code for severe stage glaucoma"
+      ],
+      "correct_coding": {
+        "primary_code": "H40.113",
+        "secondary_codes": [],
+        "sequencing": "Use highest stage code as primary",
+        "rationale": "Severe stage (3) is highest documented during admission despite mild initial presentation (Evidence: pg no: 49, L30)"
+      },
+      "incorrect_coding": {
+        "code": "H40.111",
+        "codes": [
+          "Initial mild stage code"
+        ],
+        "rationale": "Should not code initial stage when progression occurred",
+        "common_mistake": "Coding admission stage instead of highest stage reached"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "GLAU_PROG_EX1",
+      "scenario": "Glaucoma progression from moderate to end-stage during admission",
+      "code_example": "H40.114 (end-stage)",
+      "breakdown": {
+        "H40.11": "Primary open-angle glaucoma, right eye (Evidence: pg no: 49, L30)",
+        "4": "End-stage (highest stage reached) (Evidence: pg no: 49, L30)"
+      },
+      "rationale": "End-stage represents highest documented progression during admission (Evidence: pg no: 49, L30)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not code initial admission stage if progression occurs (Evidence: pg no: 49, L30)",
+      "Ensure documentation supports stage progression claims"
+    ],
+    "best_practices": [
+      "Document stage changes throughout admission clearly (Evidence: pg no: 49, L29)",
+      "Use highest stage reached as final code assignment (Evidence: pg no: 49, L30)"
+    ],
+    "common_mistakes": [
+      "Coding admission stage instead of final highest stage (Evidence: pg no: 49, L30)",
+      "Missing documentation of stage progression during stay"
+    ],
+    "tips": [
+      "Monitor glaucoma patients for stage changes during admission (Evidence: pg no: 49, L29)",
+      "Final coding should reflect worst condition reached during stay (Evidence: pg no: 49, L30)"
+    ],
+    "implementation_notes": [
+      "Requires ongoing assessment during admission",
+      "Documentation must support stage progression"
+    ],
+    "clinical_context": [
+      "Glaucoma can worsen rapidly during acute episodes",
+      "Hospital interventions may not prevent progression",
+      "Stage advancement indicates disease severity"
+    ]
+  },
+  "search_keywords": [
+    "glaucoma progression",
+    "stage evolution",
+    "highest stage",
+    "admission progression",
+    "glaucoma worsening",
+    "stage advancement",
+    "hospital stay",
+    "glaucoma monitoring"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "eye_and_adnexa_glaucoma",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "glaucoma",
+      "progression",
+      "staging",
+      "inpatient",
+      "monitoring"
+    ]
+  },
+  "page_range_processed": "pages_48_to_51"
+}

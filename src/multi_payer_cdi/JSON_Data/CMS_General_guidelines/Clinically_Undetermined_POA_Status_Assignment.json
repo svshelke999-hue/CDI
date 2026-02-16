@@ -1,0 +1,121 @@
+{
+  "guideline_id": "POA.7",
+  "semantic_title": "Clinically Undetermined POA Status Assignment",
+  "section_path": "Present on Admission Guidelines > Assigning the POA Indicator > Documentation states that it cannot be determined whether the condition was or was not present on admission",
+  "page_number": 118,
+  "content": {
+    "full_text": "Assign 'W' when the medical record documentation indicates that it cannot be clinically determined whether or not the condition was present on admission. (Evidence: pg no: 118, L35-L36)",
+    "summary": "Use W indicator when provider explicitly states POA status cannot be clinically determined (Evidence: pg no: 118, L35-L36)",
+    "key_concepts": [
+      "Clinical determination impossibility (Evidence: pg no: 118, L35-L36)",
+      "Provider statement of inability (Evidence: pg no: 118, L35-L36)",
+      "W indicator assignment (Evidence: pg no: 118, L36)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "POA.7.1",
+        "rule_text": "Assign W when provider states POA cannot be clinically determined (Evidence: pg no: 118, L36)",
+        "explanation": "The W indicator is used specifically when medical record documentation explicitly states that clinical determination of POA status is not possible (Evidence: pg no: 118, L35-L36)",
+        "importance": "high",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Provider explicitly states cannot determine POA",
+          "Clinical circumstances make determination impossible"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Look for provider statement about POA determination",
+      "Step 2: Confirm provider states clinical determination is impossible",
+      "Step 3: Assign W indicator"
+    ],
+    "related_terminology": [
+      "Clinically undetermined",
+      "Provider statement",
+      "W indicator",
+      "Clinical determination"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "All conditions where POA cannot be clinically determined"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "POA.7.S1",
+      "scenario": "Provider states cannot determine if condition was present on admission",
+      "documentation_example": "Unable to clinically determine whether patient's condition was present on admission due to clinical circumstances",
+      "step_by_step": [
+        "Step 1: Identify provider statement about inability to determine",
+        "Step 2: Confirm this is clinical determination issue",
+        "Step 3: Assign W indicator"
+      ],
+      "correct_coding": {
+        "primary_code": "Condition with W indicator",
+        "secondary_codes": [],
+        "sequencing": "Standard rules apply",
+        "rationale": "Provider explicitly stated clinical determination not possible (Evidence: pg no: 118, L35-L36)"
+      },
+      "incorrect_coding": {
+        "code": "Condition with U indicator",
+        "codes": [],
+        "rationale": "Should use W when provider states clinical determination impossible",
+        "common_mistake": "Confusing U and W indicators"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Only use when provider explicitly states clinical determination impossible (Evidence: pg no: 118, L35-L36)"
+    ],
+    "best_practices": [
+      "Look for explicit provider statements about clinical determination (Evidence: pg no: 118, L35-L36)"
+    ],
+    "common_mistakes": [
+      "Confusing W with U indicator (Evidence: pg no: 118, L35-L36)"
+    ],
+    "tips": [
+      "W requires provider statement, not just unclear documentation (Evidence: pg no: 118, L35-L36)"
+    ],
+    "implementation_notes": [
+      "Train coders on difference between U and W indicators"
+    ],
+    "clinical_context": [
+      "Some clinical situations make POA determination impossible"
+    ]
+  },
+  "search_keywords": [
+    "W indicator POA",
+    "clinically undetermined",
+    "cannot determine POA",
+    "provider statement POA",
+    "clinical determination impossible"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "POA_assignment",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "POA",
+      "W_indicator",
+      "clinical",
+      "undetermined",
+      "provider"
+    ]
+  },
+  "page_range_processed": "pages_117_to_120"
+}

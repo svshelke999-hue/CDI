@@ -1,0 +1,157 @@
+{
+  "guideline_id": "III.C",
+  "semantic_title": "Coding Uncertain Diagnoses as Additional Diagnoses in Inpatient Settings",
+  "section_path": "Section III > C. Uncertain Diagnosis",
+  "page_number": 111,
+  "content": {
+    "full_text": "If the diagnosis documented at the time of discharge is qualified as \"probable,\" \"suspected,\" \"likely,\" \"questionable,\" \"possible,\" or \"still to be ruled out,\" \"compatible with,\" \"consistent with,\" or other similar terms indicating uncertainty, code the condition as if it existed or was established. The bases for these guidelines are the diagnostic workup, arrangements for further workup or observation, and initial therapeutic approach that correspond most closely with the established diagnosis. Note: This guideline is applicable only to inpatient admissions to short-term, acute, long-term care and psychiatric hospitals. (Evidence: pg no: 111, L83-L86)",
+    "summary": "Uncertain diagnoses should be coded as confirmed diagnoses in inpatient settings only (Evidence: pg no: 111, L83-L86)",
+    "key_concepts": [
+      "Uncertain diagnoses coded as confirmed in inpatient settings (Evidence: pg no: 111, L83-L85)",
+      "Multiple qualifying terms indicate uncertainty (Evidence: pg no: 111, L83-L84)",
+      "Based on diagnostic workup and therapeutic approach (Evidence: pg no: 111, L85)",
+      "Applies only to inpatient settings (Evidence: pg no: 111, L85-L86)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "III.C.1",
+        "rule_text": "Code uncertain diagnoses as if they existed or were established (Evidence: pg no: 111, L85)",
+        "explanation": "When diagnoses are qualified with terms indicating uncertainty, they should be coded as confirmed diagnoses in inpatient settings (Evidence: pg no: 111, L83-L85)",
+        "importance": "critical",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Probable secondary diagnoses",
+          "Suspected complications",
+          "Likely comorbidities"
+        ]
+      },
+      {
+        "rule_id": "III.C.2",
+        "rule_text": "This guideline is applicable only to inpatient admissions to short-term, acute, long-term care and psychiatric hospitals (Evidence: pg no: 111, L85-L86)",
+        "explanation": "The uncertain diagnosis rule applies exclusively to inpatient settings and does not apply to outpatient encounters (Evidence: pg no: 111, L85-L86)",
+        "importance": "critical",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Inpatient hospital stays",
+          "Psychiatric hospital admissions",
+          "Long-term care facilities"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify if additional diagnosis has qualifying uncertain terms",
+      "Step 2: Confirm this is an inpatient setting",
+      "Step 3: Code the uncertain diagnosis as if it were confirmed",
+      "Step 4: Base coding on diagnostic workup and therapeutic approach"
+    ],
+    "related_terminology": [
+      "probable",
+      "suspected",
+      "likely",
+      "questionable",
+      "possible",
+      "still to be ruled out",
+      "compatible with",
+      "consistent with",
+      "uncertain diagnosis"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": []
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "II.H",
+        "title": "Uncertain Diagnosis for Principal Diagnosis",
+        "relationship": "related_to",
+        "explanation": "Same rule applies to both principal and additional diagnoses in inpatient settings"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "III.C.1",
+      "scenario": "Inpatient with pneumonia and probable UTI based on urinalysis",
+      "documentation_example": "Patient admitted for pneumonia. Urinalysis shows probable UTI. Started on antibiotics for both conditions.",
+      "step_by_step": [
+        "Step 1: Identify pneumonia as principal diagnosis",
+        "Step 2: Note 'probable UTI' as uncertain additional diagnosis",
+        "Step 3: Confirm this is inpatient setting",
+        "Step 4: Code UTI as if confirmed"
+      ],
+      "correct_coding": {
+        "primary_code": "J18.9",
+        "secondary_codes": [
+          "N39.0"
+        ],
+        "sequencing": "Pneumonia first, then UTI as additional diagnosis",
+        "rationale": "Uncertain diagnoses are coded as confirmed in inpatient settings (Evidence: pg no: 111, L83-L85)"
+      },
+      "incorrect_coding": {
+        "code": "J18.9",
+        "codes": [
+          "J18.9",
+          "R82.90"
+        ],
+        "rationale": "Should code UTI as confirmed, not just abnormal urinalysis",
+        "common_mistake": "Coding symptoms instead of uncertain but probable diagnoses"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "This rule applies ONLY to inpatient settings, not outpatient (Evidence: pg no: 111, L85-L86)"
+    ],
+    "best_practices": [
+      "Base coding decisions on diagnostic workup and therapeutic approach (Evidence: pg no: 111, L85)"
+    ],
+    "common_mistakes": [
+      "Applying uncertain diagnosis rule to outpatient settings (Evidence: pg no: 111, L85-L86)",
+      "Coding symptoms instead of uncertain diagnoses in inpatient settings (Evidence: pg no: 111, L83-L85)"
+    ],
+    "tips": [
+      "Look for qualifying terms that indicate uncertainty (Evidence: pg no: 111, L83-L84)"
+    ],
+    "implementation_notes": [
+      "Same rule applies to both principal and additional diagnoses"
+    ],
+    "clinical_context": [
+      "Common with secondary diagnoses that are clinically suspected but not definitively confirmed"
+    ]
+  },
+  "search_keywords": [
+    "uncertain diagnosis",
+    "probable",
+    "suspected",
+    "likely",
+    "questionable",
+    "possible",
+    "inpatient only",
+    "additional diagnoses",
+    "secondary diagnoses"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "uncertain_diagnosis_additional",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "uncertain_diagnosis",
+      "inpatient_only",
+      "additional_diagnoses",
+      "probable",
+      "suspected"
+    ]
+  },
+  "page_range_processed": "pages_108_to_111"
+}

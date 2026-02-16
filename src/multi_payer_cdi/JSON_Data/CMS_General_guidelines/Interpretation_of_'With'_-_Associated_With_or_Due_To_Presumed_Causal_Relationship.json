@@ -1,0 +1,178 @@
+{
+  "guideline_id": "I.A.15",
+  "semantic_title": "Interpretation of 'With' - Associated With or Due To Presumed Causal Relationship",
+  "section_path": "Section I > A. Conventions > 15. 'With'",
+  "page_number": 11,
+  "content": {
+    "full_text": "The word \"with\" or \"in\" should be interpreted to mean \"associated with\" or \"due to\" when it appears in a code title, the Alphabetic Index (either under a main term or subterm), or an instructional note in the Tabular List. The classification presumes a causal relationship between the two conditions linked by these terms in the Alphabetic Index or Tabular List. These conditions should be coded as related even in the absence of provider documentation explicitly linking them, unless the documentation clearly states the conditions are unrelated or when another guideline exists that specifically requires a documented linkage between two conditions (e.g., sepsis guideline for \"acute organ dysfunction that is not clearly associated with the sepsis\"). For conditions not specifically linked by these relational terms in the classification or when a guideline requires that a linkage between two conditions be explicitly documented, provider documentation must link the conditions in order to code them as related. The word \"with\" in the Alphabetic Index is sequenced immediately following the main term or subterm, not in alphabetical order. (Evidence: pg no: 11, L53-L59)",
+    "summary": "The word 'with' or 'in' presumes causal relationship between conditions and should be coded as related even without explicit provider documentation, with specific exceptions (Evidence: pg no: 11, L53-L57)",
+    "key_concepts": [
+      "With/in means associated with or due to (Evidence: pg no: 11, L53-L54)",
+      "Classification presumes causal relationship (Evidence: pg no: 11, L54-L55)",
+      "Code as related without explicit documentation (Evidence: pg no: 11, L55-L56)",
+      "Exception when documentation states unrelated (Evidence: pg no: 11, L56)",
+      "Exception when specific guideline requires documented linkage (Evidence: pg no: 11, L56-L57)",
+      "With sequenced immediately after main term (Evidence: pg no: 11, L58-L59)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "WITH_PRESUMPTION",
+        "rule_text": "Classification presumes causal relationship between conditions linked by 'with' or 'in' (Evidence: pg no: 11, L54-L55)",
+        "explanation": "Conditions should be coded as related even without explicit provider documentation linking them (Evidence: pg no: 11, L55-L56)",
+        "importance": "high",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Diabetes with complications",
+          "Hypertension with heart disease"
+        ]
+      },
+      {
+        "rule_id": "WITH_EXCEPTIONS",
+        "rule_text": "Do not presume relationship when documentation clearly states conditions are unrelated (Evidence: pg no: 11, L56)",
+        "explanation": "Provider documentation can override presumed relationship (Evidence: pg no: 11, L56)",
+        "importance": "high",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Explicitly unrelated conditions",
+          "Coincidental occurrences"
+        ]
+      },
+      {
+        "rule_id": "WITH_GUIDELINE_EXCEPTION",
+        "rule_text": "Some guidelines require explicit documentation of linkage (Evidence: pg no: 11, L56-L57)",
+        "explanation": "Specific guidelines may override general 'with' presumption rule (Evidence: pg no: 11, L56-L57)",
+        "importance": "high",
+        "applies_to": "specific_guidelines",
+        "common_applications": [
+          "Sepsis with organ dysfunction",
+          "Other condition-specific guidelines"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify 'with' or 'in' in code title or index",
+      "Step 2: Check if conditions are present",
+      "Step 3: Presume causal relationship",
+      "Step 4: Check for explicit documentation stating unrelated",
+      "Step 5: Check for specific guideline exceptions",
+      "Step 6: Code as related unless exception applies"
+    ],
+    "related_terminology": [
+      "With",
+      "In",
+      "Associated with",
+      "Due to",
+      "Causal relationship",
+      "Presumed relationship",
+      "Documented linkage"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "Condition A with Condition B",
+        "description": "Presumes causal relationship between conditions (Evidence: pg no: 11, L54-L55)",
+        "example": "Diabetes with nephropathy",
+        "explanation": "Code as related even without explicit provider documentation"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Sepsis codes",
+      "Diabetes codes",
+      "Hypertension codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "WITH_PRESUMPTION_SCENARIO",
+      "scenario": "Patient with diabetes and nephropathy documented separately",
+      "documentation_example": "Type 2 diabetes mellitus. Chronic kidney disease.",
+      "step_by_step": [
+        "Step 1: Identify diabetes and nephropathy",
+        "Step 2: Check for 'with' relationship in classification",
+        "Step 3: Apply presumption rule",
+        "Step 4: Code as diabetic nephropathy"
+      ],
+      "correct_coding": {
+        "primary_code": "Diabetic nephropathy code",
+        "secondary_codes": [],
+        "sequencing": "Combined code when available",
+        "rationale": "With presumption rule applies even without explicit linkage documentation (Evidence: pg no: 11, L55-L56)"
+      },
+      "incorrect_coding": {
+        "code": "Separate codes",
+        "codes": [
+          "Diabetes code + separate nephropathy code"
+        ],
+        "rationale": "Should use combined code when 'with' relationship exists",
+        "common_mistake": "Coding conditions separately when 'with' relationship exists"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not presume relationship when documentation clearly states conditions are unrelated (Evidence: pg no: 11, L56)",
+      "Some guidelines require explicit documentation despite 'with' rule (Evidence: pg no: 11, L56-L57)"
+    ],
+    "best_practices": [
+      "Apply presumption rule unless specific exceptions apply (Evidence: pg no: 11, L55-L57)",
+      "Check for condition-specific guidelines that may override (Evidence: pg no: 11, L56-L57)"
+    ],
+    "common_mistakes": [
+      "Requiring explicit documentation when 'with' presumption applies",
+      "Ignoring provider documentation that states conditions are unrelated",
+      "Not checking for guideline-specific exceptions"
+    ],
+    "tips": [
+      "Look for 'with' immediately after main terms in Alphabetic Index",
+      "Remember 'with' is not in alphabetical order",
+      "Check for sepsis and other specific guideline exceptions"
+    ],
+    "implementation_notes": [
+      "Alphabetic Index sequencing differs for 'with' entries",
+      "Provider documentation can override presumption",
+      "Some guidelines have specific linkage requirements"
+    ],
+    "clinical_context": [
+      "Common in chronic disease complications",
+      "Useful for related condition coding"
+    ]
+  },
+  "search_keywords": [
+    "with interpretation",
+    "associated with",
+    "due to",
+    "causal relationship",
+    "presumed relationship",
+    "documented linkage",
+    "sepsis guideline",
+    "unrelated conditions",
+    "diabetes with",
+    "hypertension with"
+  ],
+  "metadata": {
+    "category": "convention",
+    "subcategory": "word_interpretation",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "with_interpretation",
+      "causal_relationship",
+      "presumed_linkage",
+      "sepsis_exception"
+    ]
+  },
+  "page_range_processed": "pages_9_to_12"
+}

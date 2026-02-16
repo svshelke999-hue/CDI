@@ -1,0 +1,94 @@
+{
+  "guideline_id": "I.C.15.h",
+  "semantic_title": "Long-term Use of Insulin and Oral Hypoglycemics in Pregnancy",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 15. Pregnancy, Childbirth, and the Puerperium > h. Long term use of insulin and oral hypoglycemics",
+  "page_number": 67,
+  "content": {
+    "full_text": "See section I.C.4.a.3 for information on the long-term use of insulin and oral hypoglycemics. (Evidence: pg no: 67, L28-L29)",
+    "summary": "Cross-reference to general guidelines for coding long-term medication use in diabetic pregnant patients (Evidence: pg no: 67, L28-L29)",
+    "key_concepts": [
+      "Cross-reference to general insulin coding guidelines (Evidence: pg no: 67, L29)",
+      "Long-term medication use coding (Evidence: pg no: 67, L28)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "insulin_pregnancy_reference",
+        "rule_text": "Refer to section I.C.4.a.3 for insulin and oral hypoglycemic coding (Evidence: pg no: 67, L28-L29)",
+        "explanation": "The general guidelines for long-term medication use apply to pregnant patients with diabetes (Evidence: pg no: 67, L28-L29)",
+        "importance": "medium",
+        "applies_to": "Z79 codes",
+        "common_applications": [
+          "Long-term insulin use in pregnancy",
+          "Long-term oral hypoglycemic use in pregnancy"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Code diabetes in pregnancy per guideline g",
+      "Step 2: Refer to I.C.4.a.3 for additional medication codes"
+    ],
+    "related_terminology": [
+      "insulin",
+      "oral hypoglycemics",
+      "long-term use"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": []
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.4.a.3",
+        "title": "Long-term use of insulin and oral hypoglycemics",
+        "relationship": "implements",
+        "explanation": "Directs to general guidelines for medication coding"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [],
+    "best_practices": [
+      "Always check general medication coding guidelines (Evidence: pg no: 67, L28-L29)"
+    ],
+    "common_mistakes": [],
+    "tips": [
+      "This is a cross-reference guideline - check I.C.4.a.3 for details"
+    ],
+    "implementation_notes": [
+      "General medication coding rules apply to pregnancy cases"
+    ],
+    "clinical_context": []
+  },
+  "search_keywords": [
+    "insulin",
+    "oral hypoglycemics",
+    "long-term use",
+    "pregnancy",
+    "medication coding"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "cross_reference",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "cross_reference",
+      "insulin",
+      "medications",
+      "pregnancy"
+    ]
+  },
+  "page_range_processed": "pages_66_to_69"
+}

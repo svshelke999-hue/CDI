@@ -1,0 +1,130 @@
+{
+  "guideline_id": "I.C.15.n.2",
+  "semantic_title": "Uncomplicated Delivery with Resolved Antepartum Complication",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 15. Pregnancy, Childbirth, and the Puerperium > n. Normal Delivery, Code O80 > 2) Uncomplicated delivery with resolved antepartum complication",
+  "page_number": 69,
+  "content": {
+    "full_text": "Code O80 may be used if the patient had a complication at some point during the pregnancy, but the complication is not present at the time of the admission for delivery. (Evidence: pg no: 69, L77-L79)",
+    "summary": "Exception allowing O80 use when previous pregnancy complications have resolved by delivery admission (Evidence: pg no: 69, L77-L79)",
+    "key_concepts": [
+      "O80 allowed with resolved complications (Evidence: pg no: 69, L78-L79)",
+      "Complication must not be present at delivery admission (Evidence: pg no: 69, L78-L79)",
+      "Historical complications don't exclude O80 (Evidence: pg no: 69, L77-L79)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "o80_resolved_complications",
+        "rule_text": "O80 may be used if pregnancy complications existed but are resolved at delivery admission (Evidence: pg no: 69, L77-L79)",
+        "explanation": "Previous pregnancy complications that have resolved and are not present during the delivery admission do not exclude the use of O80 (Evidence: pg no: 69, L77-L79)",
+        "importance": "high",
+        "applies_to": "O80",
+        "common_applications": [
+          "Previous gestational hypertension now resolved",
+          "Previous threatened abortion now resolved"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify any pregnancy complications during pregnancy",
+      "Step 2: Determine if complications are present at delivery admission",
+      "Step 3: If complications resolved, O80 may be used",
+      "Step 4: Verify all other O80 criteria are met"
+    ],
+    "related_terminology": [
+      "resolved complications",
+      "antepartum complications",
+      "delivery admission",
+      "historical complications"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "O80",
+        "description": "Encounter for full term uncomplicated delivery (Evidence: pg no: 69, L78)",
+        "context": "May be used with resolved antepartum complications",
+        "requires_additional_codes": false,
+        "breakdown": {}
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": []
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "resolved_hypertension_delivery",
+      "scenario": "Patient with previous gestational hypertension, now resolved at delivery",
+      "documentation_example": "32-year-old female with history of gestational hypertension at 28 weeks, now resolved, delivered full-term healthy infant without complications",
+      "step_by_step": [
+        "Step 1: Note previous gestational hypertension",
+        "Step 2: Confirm hypertension resolved at delivery",
+        "Step 3: Verify uncomplicated delivery",
+        "Step 4: Assign O80"
+      ],
+      "correct_coding": {
+        "primary_code": "O80",
+        "secondary_codes": [],
+        "sequencing": "O80 as principal diagnosis",
+        "rationale": "Resolved complications don't exclude O80 use (Evidence: pg no: 69, L77-L79)"
+      },
+      "incorrect_coding": {
+        "codes": [
+          "O13.3",
+          "Z37.0"
+        ],
+        "rationale": "Should use O80 since hypertension resolved",
+        "common_mistake": "Coding resolved complications as current"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [],
+    "best_practices": [
+      "Verify complications are truly resolved at delivery admission (Evidence: pg no: 69, L78-L79)"
+    ],
+    "common_mistakes": [
+      "Coding resolved complications as current",
+      "Not using O80 when complications have resolved"
+    ],
+    "tips": [
+      "Focus on current status at delivery, not historical complications"
+    ],
+    "implementation_notes": [
+      "Applies only when complications are completely resolved"
+    ],
+    "clinical_context": [
+      "Many pregnancy complications resolve before delivery"
+    ]
+  },
+  "search_keywords": [
+    "O80",
+    "resolved complications",
+    "antepartum complications",
+    "historical complications",
+    "delivery admission"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "normal_delivery",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "O80",
+      "resolved_complications",
+      "antepartum",
+      "delivery",
+      "exceptions"
+    ]
+  },
+  "page_range_processed": "pages_66_to_69"
+}

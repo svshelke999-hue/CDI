@@ -1,0 +1,153 @@
+{
+  "guideline_id": "I.C.20.a.3",
+  "semantic_title": "Complete External Cause Code Documentation Requirements",
+  "section_path": "Chapter 20: External Causes of Morbidity > a. General External Cause Coding Guidelines > 3) Use the full range of external cause codes",
+  "page_number": 88,
+  "content": {
+    "full_text": "Use the full range of external cause codes to completely describe the cause, the intent, the place of occurrence, and if applicable, the activity of the patient at the time of the event, and the patient's status, for all injuries, and other health conditions due to an external cause. (Evidence: pg no: 88, L34-L35)",
+    "summary": "Complete external cause documentation requires codes for cause, intent, place of occurrence, activity, and patient status when applicable (Evidence: pg no: 88, L34-L35)",
+    "key_concepts": [
+      "Full range of external cause codes required (Evidence: pg no: 88, L34)",
+      "Must describe cause and intent (Evidence: pg no: 88, L35)",
+      "Include place of occurrence when applicable (Evidence: pg no: 88, L35)",
+      "Include patient activity when applicable (Evidence: pg no: 88, L35)",
+      "Include patient status when applicable (Evidence: pg no: 88, L35)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "EXT_COMPLETE_001",
+        "rule_text": "Use full range of external cause codes to completely describe all relevant circumstances (Evidence: pg no: 88, L34-L35)",
+        "explanation": "Complete external cause coding requires multiple code types to fully capture the circumstances of injuries and external cause conditions (Evidence: pg no: 88, L34-L35)",
+        "importance": "high",
+        "applies_to": "All injuries and health conditions due to external causes",
+        "common_applications": [
+          "Injury documentation",
+          "External cause condition documentation",
+          "Comprehensive event description"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify the cause of the injury or condition",
+      "Step 2: Determine the intent (accidental, intentional, etc.)",
+      "Step 3: Document place of occurrence if applicable",
+      "Step 4: Include activity code if applicable",
+      "Step 5: Add patient status code if applicable"
+    ],
+    "related_terminology": [
+      "Cause",
+      "Intent",
+      "Place of occurrence",
+      "Activity",
+      "Patient status",
+      "External cause"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Full range of external cause codes",
+        "description": "All external cause code categories for complete documentation (Evidence: pg no: 88, L34)",
+        "requirement": "Use as needed to completely describe circumstances",
+        "usage_rules": [
+          "Include cause and intent codes (Evidence: pg no: 88, L35)",
+          "Add place of occurrence when applicable (Evidence: pg no: 88, L35)",
+          "Add activity codes when applicable (Evidence: pg no: 88, L35)",
+          "Add status codes when applicable (Evidence: pg no: 88, L35)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Cause codes",
+      "Intent codes",
+      "Place of occurrence codes",
+      "Activity codes",
+      "Status codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "COMPLETE_EXT_001",
+      "scenario": "Patient injured in workplace accident while operating machinery",
+      "documentation_example": "Employee sustained laceration while operating drill press at manufacturing facility",
+      "step_by_step": [
+        "Step 1: Code the laceration (primary diagnosis)",
+        "Step 2: Code the cause (machinery accident)",
+        "Step 3: Code the intent (accidental)",
+        "Step 4: Code place of occurrence (workplace/factory)",
+        "Step 5: Code activity (operating machinery)",
+        "Step 6: Code status (employee/worker)"
+      ],
+      "correct_coding": {
+        "primary_code": "Laceration code",
+        "secondary_codes": [
+          "Machinery cause code",
+          "Workplace place code",
+          "Machinery activity code",
+          "Worker status code"
+        ],
+        "sequencing": "Primary diagnosis first, then external cause codes",
+        "rationale": "Complete documentation requires all applicable external cause code types (Evidence: pg no: 88, L34-L35)"
+      },
+      "incorrect_coding": {
+        "code": "Only cause code without other external cause details",
+        "codes": [
+          "Incomplete external cause coding"
+        ],
+        "rationale": "Fails to completely describe the circumstances",
+        "common_mistake": "Using only partial external cause coding"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Must use full range of applicable external cause codes (Evidence: pg no: 88, L34)"
+    ],
+    "best_practices": [
+      "Document all relevant circumstances with appropriate codes (Evidence: pg no: 88, L34-L35)"
+    ],
+    "common_mistakes": [
+      "Incomplete external cause documentation (Evidence: pg no: 88, L34-L35)"
+    ],
+    "tips": [
+      "Consider all five elements: cause, intent, place, activity, status (Evidence: pg no: 88, L35)"
+    ],
+    "implementation_notes": [
+      "Applies to all injuries and external cause conditions"
+    ],
+    "clinical_context": [
+      "Comprehensive documentation supports injury research and prevention"
+    ]
+  },
+  "search_keywords": [
+    "full range external cause",
+    "complete external cause documentation",
+    "cause intent place activity status",
+    "comprehensive external cause coding"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "external_causes",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "external_causes",
+      "complete_documentation",
+      "cause_intent",
+      "chapter_20"
+    ]
+  },
+  "page_range_processed": "pages_87_to_90"
+}

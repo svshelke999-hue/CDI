@@ -1,0 +1,803 @@
+L001: 
+L002: 
+L003: === CHART: tmpsiuch4o3.pdf (Type: consultation_note) ===
+L004: 11/12/25, 10:22 AM Barrie, Patricia H (MR # MR3451845) DOB: 09/02/1949
+L005: 
+L006: Consults by Held, Michael Brian, MD filed on 11/10/2025 10:31 AM.
+L007: 
+L008: Author: Held, Michael Brian, MD Service: Orthopedics
+L009: 
+L010: Date of Service: 11/10/2025 Filed: 11/10/2025 10:31 AM
+L011: Editor: Held, Michael Brian, MD (Physician)
+L012: 
+L013: ORTHOPAEDICS & REHABILITATION
+L014: 
+L015: Patient name: Patricia Barrie
+L016: 
+L017: Yale MRN: MR3451845
+L018: 
+L019: Date of birth: 9/2/1949
+L020: 
+L021: Date of visit: 11/10/2025
+L022: 
+L023: Attending of record for this patient: Pasternack, Jordan B, MD
+L024: Provider leaving this note: Michael B Held, MD
+L025: 
+L026: Reason for consult: Left Intertrochanteric hip fracture
+L027: 
+L028: History of present illness:
+L029: 
+L030: Patricia H Barrie is a 76 y.o. female with PMHX of htn, hid, hypothyroisism, colon ca, thoracic aortic aneurysm, predm
+L031: who presents s/p mechanical fall with left hip pain and inability to ambulate. At baseline the patient ambulates without
+L032: 
+L033: assistive device. No headstrike or LOC. No other pain
+L034: Ortho Hx: R THA, L TKA
+L035: 
+L036: Social history:
+L037: 
+L038: reports that she has never smoked. She has never used smokeless tobacco. She reports current alcohol use. She
+L039: 
+L040: reports that she does not use drugs.
+L041: 
+L042: PMHx:
+L043: Past Medical History
+L044: Past Medical History:
+L045: Diagnosis
+L046: * BCC (basal cell carcinoma), scalp
+L047: Chest pain
+L048: Coronary angiogram without significant blockages
+L049: Chronic upper back pain
+L050: post- MVA , Sylvia Knoblock, MD
+L051: Clinical trial exam
+L052: 
+L053: Author Type: Physician
+L054: 
+L055: Date
+L056: 
+L057: 10/2023
+L058: 
+L059: 08/2000
+L060: 
+L061: 08/2015
+L062: 
+L063: PACES S0820, Clinical trial with aspirin based rx for Colon cancer , [PI}Sajid Khan, MD 203-337-8507, or 203-
+L064: 
+L065: 785-4191 24hr contact
+L066: 
+L067: Colon cancer (HC Code) (HC CODE)
+L068: 
+L069: Mauer/ Thornton, PACES study, PI- Sajid Khan, MD
+L070: CPAP (continuous positive airway pressure) dependence
+L071: Diabetes mellitus (HC CODE)
+L072: 
+L073: pre diabetes
+L074: 
+L075: Ductal carcinoma in situ (DCIS) of left breast
+L076: 
+L077: J. O'Connell, MD found after Breast reduction sx.
+L078: Facial nerve disorder
+L079: 
+L080: J. O'Connor, MD, left side, hemifacial spasms
+L081: Family history of breast cancer
+L082: 
+L083: [Daughter] ; hx . bilat. breast biopsies- benign
+L084: H/O cosmetic surgery
+L085: 
+L086: face lift
+L087: 
+L088: Hematuria
+L089: 
+L090: w/u--> Neg., Robert Weinstein, MD
+L091: 
+L092: Hemifacial spasm
+L093: 
+L094: left, treated with Botox g 3 months
+L095: 
+L096: Herpes zoster
+L097: 
+L098: left T-8 Dermatome
+L099: 
+L100: History of colonoscopy
+L101: 
+L102: Ken Mauer,MD, f/u in 8/2020
+L103: 
+L104: Hydradenitis
+L105: 
+L106: Hypercholesterolemia with hypertriglyceridemia
+L107: Hypertension
+L108: 
+L109: Barrie, Patricia H (MRN MR3451845) Printed by Stagno, Cesarina [767] at 11/12/2025 10:21 AM
+L110: 
+L111: 06/16/2014
+L112: 
+L113: 01/12/2018
+L114: 
+L115: 2013
+L116: 
+L117: 10/18/2012
+L118: 
+L119: 01/2016
+L120: 
+L121: 08/01/2018
+L122: 
+L123: 1/4
+L124: 
+L125: 11/12/25, 10:22 AM
+L126: 
+L127: Hypothyroidism
+L128: 
+L129: Kidney stone
+L130: 
+L131: Normal cardiac stress test
+L132: MIBI--> no ischemia, EF = 83%
+L133: Obesity
+L134: 
+L135: Obstructive sleep apnea on CPAP
+L136: 
+L137: nasal pads, J & L, pt. has not worn in years, suggest restart 05/26/2022
+L138: 
+L139: Osteopenia
+L140: 
+L141: Temporomandibular disorder
+L142: Thoracic aortic aneurysm (HC Code)
+L143: 4.2cm
+L144: 
+L145: PSHx:
+L146: Past Surgical History
+L147: Past Surgical History:
+L148: 
+L149: Procedure
+L150: 
+L151: BRAIN SURGERY
+L152: 
+L153: BREAST BIOPSY
+L154: 
+L155: rt br stereo benign 94'
+L156: 
+L157: BREAST REDUCTION SURGERY
+L158: 
+L159: DCIS found in Left breast, J. O'Connel, MD
+L160: cataract surgery
+L161: 
+L162: COLON SURGERY
+L163: 
+L164: hemi colectomy
+L165: 
+L166: HYSTERECTOMY
+L167: 
+L168: KIDNEY STONE SURGERY
+L169: 
+L170: Left Total knee replacement
+L171: 
+L172: Steven Haas, MD, HSS
+L173: 
+L174: LITHOTRIPSY
+L175: 
+L176: TONSILLECTOMY
+L177: 
+L178: TONSILLECTOMY AND ADENOIDECTOMY
+L179: TOTAL ABDOMINAL HYSTERECTOMY W/ BILATERAL
+L180: SALPINGOOPHORECTOMY
+L181: 
+L182: TUBAL LIGATION
+L183: 
+L184: WISDOM TOOTH EXTRACTION
+L185: 
+L186: Home medications:
+L187: Current Medications
+L188: Current Facility-Administered Medications
+L189: 
+L190: Medication Dose Route Frequency
+L191: 
+L192: * acetaminophen 975 mg Oral Q6H
+L193: (TYLENOL) tablet
+L194: 975 mg
+L195: 
+L196: « ALPRAZolam 0.5mg _ Oral TID PRN
+L197: (XANAX) tablet 0.5
+L198: mg
+L199: 
+L200: * bisacodyL 5 mg Oral DAILY PRN
+L201: (DULCOLAX) EC
+L202: tablet 5 mg
+L203: 
+L204: * bisacodyL 10mg_ Rectal DAILY PRN
+L205: (DULCOLAX)
+L206: suppository 10 mg
+L207: 
+L208: * calcium carbonate 1,000 Oral BID PRN
+L209: (TUMS) chewable mg
+L210: tablet 1,000 mg
+L211: 
+L212: * carvediloL 3.125 Oral BID WC
+L213: (COREG) mg
+L214: Immediate Release
+L215: tablet 3.125 mg
+L216: 
+L217: ¢ chlorhexidine Topical (Top) Once PRN
+L218: 
+L219: gluconate 2 %
+L220: towelette
+L221: 
+L222: Laterality
+L223: 
+L224: Right
+L225: 
+L226: Bilateral
+L227: 
+L228: Left
+L229: 
+L230: Provider
+L231: Yunkovic, Kathryn
+L232: M, PA
+L233: 
+L234: Yunkovic, Kathryn
+L235: M, PA
+L236: 
+L237: Yunkovic, Kathryn
+L238: M, PA
+L239: 
+L240: Yunkovic, Kathryn
+L241: M, PA
+L242: 
+L243: Yunkovic, Kathryn
+L244: M, PA
+L245: 
+L246: Yunkovic, Kathryn
+L247: M, PA
+L248: 
+L249: Yunkovic, Kathryn
+L250: M, PA
+L251: 
+L252: Barrie, Patricia H (MRN MR3451845) Printed by Stagno, Cesarina [767] at 11/12/2025 10:21 AM
+L253: 
+L254: Barrie, Patricia H (MR # MR3451845) DOB: 09/02/1949
+L255: 
+L256: Last
+L257: Rate
+L258: 
+L259: 09/2003
+L260: 
+L261: 02/2017
+L262: 
+L263: 10/29/2014
+L264: 
+L265: Date
+L266: 1994
+L267: 01/12/2018
+L268: 
+L269: 09/2024
+L270: 2015
+L271: 
+L272: 11/25/2020
+L273: 
+L274: 09/2003
+L275: 
+L276: Last
+L277: Admin
+L278: 975 mg
+L279: at
+L280: 11/10/2
+L281: 5 0606
+L282: 
+L283: 3.125
+L284: mg at
+L285: 11/09/2
+L286: 51719
+L287: 
+L288: 2/4
+L289: 
+L290: 11/12/25, 10:22 AM
+L291: 
+L292: levothyroxine
+L293: (SYNTHROID,
+L294: LEVOTHROID)
+L295: tablet 50 mcg
+L296: losartan (COZAAR)
+L297: tablet 100 mg
+L298: melatonin tablet 3
+L299: mg
+L300: 
+L301: ondansetron (PF)
+L302: (ZOFRAN) injection
+L303: 4mg
+L304: 
+L305: ondansetron
+L306: (ZOFRAN-ODT)
+L307: 
+L308: disintegrating tablet
+L309: 
+L310: 4mg
+L311: 
+L312: polyethylene glycol
+L313: (MIRALAX) packet
+L314: 17g
+L315: prochlorperazine
+L316: edisylate
+L317: (COMPAZINE)
+L318: injection 10 mg
+L319: rosuvastatin
+L320: (CRESTOR) tablet
+L321: 20 mg
+L322: 
+L323: sodium chloride 0.9
+L324: % flush 3 mL
+L325: sodium chloride 0.9
+L326: % flush 3 mL
+L327: sodium chloride
+L328: 0.9% infusion
+L329: 
+L330: traMADol
+L331: 
+L332: (ULTRAM) tablet 25
+L333: 
+L334: mg
+L335: traMADoL
+L336: 
+L337: (ULTRAM) tablet 50
+L338: 
+L339: mg
+L340: 
+L341: Allergies:
+L342: Ragweed and Nitrofuran analogues
+L343: 
+L344: Relevant exam:
+L345: 
+L346: 50 mcg
+L347: 
+L348: 100 mg
+L349: 
+L350: 3 mg
+L351: 
+L352: 4mg
+L353: 
+L354: 4mg
+L355: 
+L356: 17g
+L357: 
+L358: 10 mg
+L359: 
+L360: 20 mg
+L361: 
+L362: 3 mL
+L363: 3 mL
+L364: 100
+L365: 
+L366: mL/hr
+L367: 
+L368: 25 mg
+L369: 
+L370: 50 mg
+L371: 
+L372: Barrie, Patricia H (MR # MR3451845) DOB: 09/02/1949
+L373: 
+L374: Oral
+L375: 
+L376: Oral
+L377: 
+L378: Oral
+L379: 
+L380: IV Push
+L381: 
+L382: Translingual
+L383: 
+L384: Oral
+L385: 
+L386: IV Push
+L387: 
+L388: Oral
+L389: 
+L390: IV Push
+L391: 
+L392: IV Push
+L393: 
+L394: Intravenous
+L395: 
+L396: Oral
+L397: 
+L398: Oral
+L399: 
+L400: Daily
+L401: 
+L402: Daily
+L403: 
+L404: Nightly PRN
+L405: 
+L406: Q6H PRN
+L407: 
+L408: Q6H PRN
+L409: 
+L410: Daily
+L411: 
+L412: Q6H PRN
+L413: 
+L414: Nightly
+L415: 
+L416: Q8H
+L417: 
+L418: PRN for Line
+L419: Care
+L420: Continuous
+L421: 
+L422: Q4H PRN
+L423: 
+L424: Q4H PRN
+L425: 
+L426: Yunkovic, Kathryn
+L427: M, PA
+L428: 
+L429: Yunkovic, Kathryn
+L430: M, PA
+L431: Yunkovic, Kathryn
+L432: M, PA
+L433: 
+L434: Yunkovic, Kathryn
+L435: M, PA
+L436: 
+L437: Yunkovic, Kathryn
+L438: M, PA
+L439: 
+L440: Yunkovic, Kathryn
+L441: M, PA
+L442: 
+L443: Yunkovic, Kathryn
+L444: M, PA
+L445: 
+L446: Gillern, Larisa, PA
+L447: 
+L448: Yunkovic, Kathryn
+L449: M, PA
+L450: 
+L451: Yunkovic, Kathryn
+L452: M, PA
+L453: 
+L454: Meis, Alexandra,
+L455: MD
+L456: 
+L457: Gillern, Larisa, PA
+L458: 
+L459: Gillern, Larisa, PA
+L460: 
+L461: Temp: [97.6 °F (36.4 °C)-98.8 °F (37.1 °C)] 97.9 °F (36.6 °C)
+L462: Pulse: [47-64] 64
+L463: 
+L464: Resp: [16-18] 18
+L465: 
+L466: BP: (112-175)/(64-90) 130/75
+L467: 
+L468: SpO2: [97 %-100 %] 97 %
+L469: 
+L470: SpO2: [97 %-100 %] 97 % (11/10 0538)
+L471: 
+L472: Gen: Awake, alert, NAD
+L473: Heart: Regular heartrate
+L474: Lung: unlabored breathing
+L475: 
+L476: LLE:
+L477: 
+L478: Skin intact, leg shortened/externally rotated
+L479: 
+L480: Intact ankle dorsiflexion, plantar flexion, EHL
+L481: Sensation intact grossly sp/dp/t nerve distributions
+L482: Toes wwp, palpable DP pulse
+L483: 
+L484: Nonpainful L knee/ankle ROM
+L485: 
+L486: Barrie, Patricia H (MRN MR3451845) Printed by Stagno, Cesarina [767] at 11/12/2025 10:21 AM
+L487: 
+L488: 50 mcg
+L489: at
+L490: 
+L491: 11/10/2
+L492: 5 0606
+L493: 
+L494: 3 mg at
+L495: 11/09/2
+L496: 5 2330
+L497: 
+L498: 20 mg
+L499: at
+L500: 11/10/2
+L501: 5 0026
+L502: 
+L503: 100 100
+L504: mL/hr at mL/hr at
+L505: 11/10/2 11/10/2
+L506: 50027 50027
+L507: 
+L508: 3/4
+L509: 
+L510: 11/12/25, 10:22 AM
+L511: 
+L512: Barrie, Patricia H (MR # MR3451845) DOB: 09/02/1949
+L513: Pelvis: No pain or instability with AP or lateral compression
+L514: 
+L515: All other large joints in the extremities were palpated and ranged with no signs of deformity or pain.
+L516: 
+L517: Imaging / studies:
+L518: XR AP pelvis + femur demonstrates Left intertrochanteric hip fracture
+L519: 
+L520: Impression and plan:
+L521: 
+L522: Patricia H Barrie is a 76 y.o. female sustained a left intertrochanteric hip fracture. Femur fractures in the elderly are of
+L523: the highest severity due to the morbidity without treatment and risk of death due to bed-ridden disability, risk of
+L524: ulcers, and risk of clot and other medical complications causing death. Therefore | had a long discussion with the
+L525: patient and their family about the treatment options, including nonoperative and operative intervention. We
+L526: discussed risks and benefits and alternatives to fixation as well as chances of full or partial weight bearing after. After
+L527: going over these options, we decided to pursue left hip ORIF with a cephalomedullary nail.
+L528: 
+L529: We discussed the risks of surgery including infection, wound complications, bleeding, need for a transfusion, possible
+L530: damage to surronding neurovascular structures, potential for continued pain, continued weakness, worsening pain
+L531: and worsening weakness, stiffness, instability/dislocation, limb length discrepancy, fracture, infection requiring the
+L532: resection or revision, component loosening or cutout and the need for conversion surgery in the future. We also
+L533: discussed the risks of thromboembolic complications, stroke, heart attack, cardiac event, heart failure, pulmonary
+L534: edema, fat/cement embolus, aspiration, death, and the risks of anesthesia and nerve blocks.
+L535: 
+L536: Awaiting primary medical service optimization and clearance. Would favor spinal anesthesia and early care as delay
+L537: in care results in perioperative morbidity and mortality with geriatric femur fractures.
+L538: 
+L539: - osteoporosis labs (1,25-vitamin D, intact PTH, and ionized Calcium)
+L540: - NPO/IVF for OR in AM
+L541: 
+L542: - NWB LLE
+L543: 
+L544: - Pain control
+L545: 
+L546: - DVT: HSQ pre-op
+L547: 
+L548: - Medicine consult for pre operative risk stratification
+L549: 
+L550: - Booked/consented
+L551: 
+L552: Michael B Held, MD
+L553: 
+L554: Electronically signed by Held, Michael Brian, MD at 11/10/2025 10:31 AM
+L555: 
+L556: ED to Hosp-Admission (Current) on 11/9/2025
+L557: 
+L558: Routing History
+L559: 
+L560: Priority Sent On
+L561: 
+L562: t 11/9/2025 4:05 PM
+L563: t 11/9/2025 2:47 PM
+L564: t 11/9/2025 2:26 PM
+L565: t 11/9/2025 2:17 PM
+L566: t 11/9/2025 2:17 PM
+L567: 
+L568: From
+L569: 
+L570: Lab, Background User
+L571: Lab, Background User
+L572: Edi, Rad Results In
+L573: Edi, Rad Results In
+L574: Edi, Rad Results In
+L575: 
+L576: Note shared with patient
+L577: 
+L578: To
+L579: 
+L580: Pasternack, Jordan B, MD
+L581: 
+L582: Khan, Sajid A, MD
+L583: 
+L584: Meis, Alexandra, MD
+L585: Meis, Alexandra, MD
+L586: Meis, Alexandra, MD
+L587: 
+L588: Barrie, Patricia H (MRN MR3451845) Printed by Stagno, Cesarina [767] at 11/12/2025 10:21 AM
+L589: 
+L590: Message Type
+L591: Results
+L592: Results
+L593: Results
+L594: Results
+L595: Results
+L596: 
+L597: 4/4
+L598: === END CHART: tmpsiuch4o3.pdf ===
+L599: 
+L600: 
+L601: === CHART: tmpnq31otz1.pdf (Type: operative_note) ===
+L602: 11/12/25, 10:22 AM Barrie, Patricia H (MR # MR3451845) DOB: 09/02/1949
+L603: 
+L604: Operative Note by Held, Michael Brian, MD filed on 11/10/2025 3:45 PM.
+L605: 
+L606: Author: Held, Michael Brian, MD Service: Orthopedics Author Type: Physician
+L607: Date of Service: 11/10/2025 Filed: 11/10/2025 3:45 PM Status: Signed
+L608: Editor: Held, Michael Brian, MD (Physician)
+L609: 
+L610: Orthopedic Surgery Operative Report
+L611: Patient Name: Patricia H Barrie
+L612: 
+L613: Date of Procedure: 11/10/25
+L614: 
+L615: Location: Greenwich Hospital
+L616: 
+L617: MRN: MR3451845
+L618: 
+L619: Procedure: Intramedullary Nailing of Left Intertrochanteric Femur Fracture
+L620: Suggested cpt code: 27245
+L621: 
+L622: Preliminary Diagnosis: Left intertrochanteric Femur Fracture, displaced
+L623: Postoperative Diagnosis: Same
+L624: 
+L625: Surgeon: Dr. Michael B Held
+L626: First Assist: None
+L627: 
+L628: Anesthesia Staff: ANESTHESIOLOGIST: Brea, Francisco, MD
+L629: CRNA: Feinstein, Victoria Kristin, CRNA
+L630: 
+L631: Anesthesia Type: General
+L632: 
+L633: Specimens:
+L634: * No specimens in log *
+L635: 
+L636: Estimated Blood Loss:
+L637: 
+L638: 150cc
+L639: 
+L640: Implants:
+L641: 
+L642: Implant Name Type Inv. Item Serial No. Manufacturer Lot LRB_ No. Action
+L643: No. Used
+L644: 
+L645: 10.5mm x 90mm ___ Implant Arthrex Inc 15387 Left 1 Implanted
+L646: 
+L647: Arthrex 860
+L648: 
+L649: Telescoping Lag
+L650: 
+L651: Screw, Left,
+L652: 
+L653: Threaded
+L654: 
+L655: Short Trochanteric Arthrex Inc 43001 Left 1 Implanted
+L656: 
+L657: Nail, 10mm x 20cm 06409
+L658: 
+L659: x 125deg
+L660: 
+L661: 5.0mm x 38mm Implant Arthrex Inc 15411 Left 1 Implanted
+L662: 
+L663: Arthrex Captured 349
+L664: 
+L665: Cortical Screw
+L666: 
+L667: Indication:
+L668: 
+L669: The patient is a 76 y.o. female with past medical history of htn, hld, hypothy, colon ca who suffered a mechanical fall
+L670: on 11/9/25. The patient was brought to the Greenwich Hospital Emergency Room, where they were found to have a
+L671: left hip pertrochanteric femur fracture. The patient uses no assistive device for ambulating at baseline. She has a
+L672: prior right hip replacement and left knee replacement at HSS a few years ago.
+L673: 
+L674: | had a long discussion with the patient and family regarding treatment options for her left proximal femur fracture,
+L675: and | did recommend surgical repair. We discussed the risks, benefits and alternatives. Nonoperative treatment will
+L676: result in prolonged recumbency, non-weight bearing to the right lower extremity, and potentially bedsores, DVT,
+L677: pneumonia, persistent pain, limited mobility, displacement of fracture, fracture non-union, fracture malunion, or
+L678: deformity. The risks, benefits, and alternatives of surgery were discussed. The risks of surgery include, but not limited
+L679: to, pain, bleeding, stiffness, infection, damage to nearby structures, blood vessel injury, nerve injury, tendon injury,
+L680: failure of fixation, hardware failure, hardware complications, soft tissue irritation secondary to hardware, peri-implant
+L681: fractures, fracture non-union, fracture malunion, fracture displacement, limb deformity, scar formation, post-traumatic
+L682: arthritis, the need for additional surgery, thromboembolic complications, stroke, heart attack, cardiac event, heart
+L683: 
+L684: Barrie, Patricia H (MRN MR3451845) Printed by Stagno, Cesarina [767] at 11/12/2025 10:22 AM 1/3
+L685: 
+L686: 11/12/25, 10:22 AM Barrie, Patricia H (MR # MR3451845) DOB: 09/02/1949
+L687: 
+L688: failure, pulmonary edema, fat embolus, aspiration, death, and the risks of anesthesia. The potential benefits of
+L689: surgery are pain relief or improvement, fracture stability, improved mobility, and allowance of immediate weight
+L690: bearing post-operatively. We did discuss that we may need to perform an open reduction of the fracture to manually
+L691: manipulate the fracture fragments, in order to improve the alignment of the fracture prior to internal fixation. The
+L692: patient expressed understanding and elected to proceed with operative fixation of the left proximal femur fracture with
+L693: a cephalomedullary nail.
+L694: 
+L695: We also discussed the overall poor prognosis for patients who have suffered a femur fracture, with high morbidity and
+L696: mortality rates following this particular pattern of injury. The patient and family expressed understanding and elected
+L697: to proceed with operative fixation of the proximal femur fracture.
+L698: 
+L699: The patient was seen by the Medicine service and was determined to be optimized from a medical standpoint for this
+L700: surgery. The medicine team cleared the patient for surgery as well.
+L701: 
+L702: Procedure:
+L703: 
+L704: The patient was brought to the Operating Room and after the successful induction of general anesthesia, a closed
+L705: reduction was performed. Flouroscopy was used to confirm that the reduction was within acceptable parameters. The
+L706: left lower extremity was then prepped and draped in the usual sterile manner with the patient in the supine position
+L707: on the fracture table. Prophylactic antibiotics were administered within 30 minutes prior to the procedure as well as 1
+L708: gram of tranexamic acid. A time out was performed by all members of the surgical team confirming patient identity
+L709: and surgical site laterality.
+L710: 
+L711: A lateral incision was made proximal to, and in-line with, the femur. The entry guidewire was then advanced onto the
+L712: appropriate start site on the greater trochanter. This was confirmed with intraoperative flouroscopy on both the AP
+L713: and lateral views. The guidewire was then advanced with power into the intramedullary canal. Again flouroscopy was
+L714: used to confirm that the entry guidewire was in the appropriate position. The entry reamer was then used through the
+L715: soft tissue protector canula. Flouroscopy was used to confirm appropriate position of the entry reamer within the
+L716: intramedullary canal and that it had been advanced to a sufficient depth. The reamer and entry guidewire were then
+L717: removed.
+L718: 
+L719: The nail was then carefully advanced over the guidewire. During advancement of the nail, all reduction maneuvers
+L720: were employed to maintain the reduction during insertion of the nail. Flouroscopy was again used to confirm that the
+L721: nail had been advanced to the appropriate depth. The long guidewire was then removed. An incision was made over
+L722: the lateral aspect of the thigh and the cannula for the lag screw was advanced until it made contact with the lateral
+L723: cortical bone. Using flouroscopic guidance, the guidewire for the lag screw was then inserted and confirmed to be in
+L724: appropriate position with the guidwire center-center on AP and lateral views of the femoral head. The depth of the
+L725: guidewire was then measured and the 90 mm left threaded lag screw selected. The guidewire was then overdrilled
+L726: and tapped for the screw of the appropriate depth. The lag screw was then inserted to the appropriate depth which
+L727: again confirmed using flouroscopy.
+L728: 
+L729: We then turned our attention to insertion of the distal interlocking screw. A small incision was made over the lateral
+L730: thigh in line with the cannula for the distal interlocking screw. The cannula was then advanced through the incision
+L731: and down to bone. The drill was then carefully advanced and the depth of the interlocking screw measured off of the
+L732: drill at 38mm. The screw of appropriate length was then inserted. Flouroscopy was again used to confirm that the
+L733: screws were in appropriate position.
+L734: 
+L735: The wounds were then copiously irrigated. The fascia was closed with interrupted 0 vicryl suture. The deep
+L736: subcutaneous layers were closed with interrupted 0 vicryl and the dermal layer with 3-0 vicryl. The skin was then
+L737: closed with staples. Sterile dressings were then applied and the patient was awaken from anesthesia. The patient
+L738: was transferred to the recovery room in stable condition. All sponge and instrument counts were correct.
+L739: 
+L740: Arthrex short nail implant system was used for this procedure
+L741: 
+L742: Postop Plan
+L743: 
+L744: The patient will be WBAT. DVT prophylaxis will be started with asa 81bid the morning of POD1; additional DVT
+L745: prophylaxis will include SCDs, compression stockings, progressive mobilization. They will receive 24 hours of
+L746: postoperative antibiotics. The patient will be discharged from the hospital when they are medically stable, have met
+L747: all PT goals, and their pain is well controlled with oral analgesia.
+L748: 
+L749: Dr. Michael B. Held
+L750: Electronically signed by Held, Michael Brian, MD at 11/10/2025 3:45 PM
+L751: 
+L752: Barrie, Patricia H (MRN MR3451845) Printed by Stagno, Cesarina [767] at 11/12/2025 10:22 AM 2/3
+L753: 
+L754: 11/12/25, 10:22 AM
+L755: 
+L756: ED to Hosp-Admission (Current) on 11/9/2025
+L757: 
+L758: Routing History
+L759: 
+L760: Priority Sent On
+L761: 
+L762: t 11/9/2025 4:05 PM
+L763: 11/9/2025 2:47 PM
+L764: 11/9/2025 2:26 PM
+L765: 11/9/2025 2:17 PM
+L766: 11/9/2025 2:17 PM
+L767: 
+L768: —> >
+L769: 
+L770: Barrie, Patricia H (MR # MR3451845) DOB: 09/02/1949
+L771: 
+L772: From
+L773: 
+L774: Lab, Background User
+L775: Lab, Background User
+L776: Edi, Rad Results In
+L777: Edi, Rad Results In
+L778: Edi, Rad Results In
+L779: 
+L780: Note shared with patient
+L781: 
+L782: To
+L783: 
+L784: Pasternack, Jordan B, MD
+L785: 
+L786: Khan, Sajid A, MD
+L787: 
+L788: Meis, Alexandra, MD
+L789: Meis, Alexandra, MD
+L790: Meis, Alexandra, MD
+L791: 
+L792: Barrie, Patricia H (MRN MR3451845) Printed by Stagno, Cesarina [767] at 11/12/2025 10:22 AM
+L793: 
+L794: Message Type
+L795: Results
+L796: Results
+L797: Results
+L798: Results
+L799: Results
+L800: 
+L801: 3/3
+L802: === END CHART: tmpnq31otz1.pdf ===
+L803: 

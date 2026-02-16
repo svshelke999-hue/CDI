@@ -1,0 +1,130 @@
+L001: === CHART: Pre-operative Note ===
+L002: 
+L003: [AI ADDED: Patient Information]
+L004: Patient: Crawford, Melissa Lynn
+L005: MRN: MR227404
+L006: DOB: 05/30/1965
+L007: Date of Service: 11/15/2025
+L008: 
+L009: [AI ADDED: Provider Information]
+L010: Author: Choo, Kevin, MD
+L011: Service: Orthopedics
+L012: Filed: 11/15/2025 3:20 PM
+L013: Status: Signed
+L014: 
+L015: [AI ADDED: Pre-operative Diagnosis]
+L016: Pre-operative Diagnosis: [⚠️ PHYSICIAN INPUT REQUIRED: Specific pre-operative diagnosis including type of prosthetic joint infection (e.g., acute hematogenous PJI vs. chronic PJI)]
+L017: 
+L018: [AI ADDED: Planned Procedure]
+L019: Planned Procedure: [⚠️ PHYSICIAN INPUT REQUIRED: Specific planned procedure details including approach, components to be revised, and any additional procedures planned]
+L020: 
+L021: HISTORY OF PRESENT ILLNESS:
+L022: The patient is a 60 y.o. female with history of left total knee replacement performed in June 2025. The patient did well and was recovering quickly from her left knee replacement until recently. She has a history of lower extremity neuropathy leading to Charcot feet and has had numerous foot procedures to correct midfoot deformities.
+L023: 
+L024: Due to her Charcot foot arthropathy, she has been dealing with ulcerations and foot infections over the years. Recently, they had been well managed prior to the knee replacement. More recently, she began to have worsening of her foot issues; followed by Dr. Pao and wound care; she had infection and purulence, which was cultured and she was placed on antibiotics recently. Separately, she also had been on antibiotics for a UTI.
+L025: 
+L026: days ago, she had acute onset of left knee pain and severe swelling. Prior to this she was doing well with the knee replacement surgery. This was progressive and painful and she had a large effusion. She was sent to the GH ED yesterday where she had elevated inflammatory markers, the knee was aspirated and was consistent with acute infection with a highly inflammatory white blood cell count, and there was a positive culture.
+L027: 
+L028: She was admitted and IV antibiotics were initiated after the organism was identified. Dr. Rossi from ID was consulted.
+L029: 
+L030: [AI ADDED: Laboratory Data]
+L031: Laboratory Data:
+L032: - WBC: 11 [AI ADDED: units/reference range]
+L033: - ESR: 67 [AI ADDED: units/reference range]
+L034: - CRP: 24.5 [AI ADDED: units/reference range]
+L035: - [⚠️ PHYSICIAN INPUT REQUIRED: Synovial fluid analysis results including cell count, differential, culture results, and organism identified]
+L036: 
+L037: [AI ADDED: Imaging Studies]
+L038: Imaging Studies: [⚠️ PHYSICIAN INPUT REQUIRED: Relevant imaging findings of the left knee including radiographs, CT, or MRI if performed]
+L039: 
+L040: [AI ADDED: Physical Examination]
+L041: Physical Examination: [⚠️ PHYSICIAN INPUT REQUIRED: Detailed physical examination findings of the left knee including range of motion, stability, effusion, erythema, warmth, and wound assessment]
+L042: 
+L043: REVIEW OF SYSTEMS: As above.
+L044: 
+L045: MEDICATIONS:
+L046: Current Facility-Administered Medications:
+L047: - acetaminophen (TYLENOL) tablet 1,000 mg, Oral, Q6H
+L048: - ceftriaxone (ROCEPHIN) 2 g in sodium chloride 0.9% PF 20 mL (100 mg/mL), IV Push, Q24H
+L049: - fentaNYL PF (SUBLIMAZE) injection 25 mcg, IV Push, Q10 MIN PRN
+L050: - fentaNYL PF (SUBLIMAZE) injection 25 mcg, IV Push, Q5 MIN PRN
+L051: - fentaNYL PF (SUBLIMAZE) injection 50 mcg, IV Push, Q5 MIN PRN
+L052: - HYDROmorphone (DILAUDID) injection 0.5 mg, IV Push, Q15 MIN PRN
+L053: - lactated ringers infusion, 100 mL/hr, Intravenous, Continuous
+L054: - lactated ringers infusion, 75 mL/hr, Intravenous, Continuous
+L055: - metoclopramide (REGLAN) injection 10 mg, IV Push, Once PRN
+L056: - naloxone (NARCAN) injection 0.04 mg, IV Push, Q5 MIN PRN
+L057: - ondansetron (PF) (ZOFRAN) injection 4 mg, IV Push, Q10 MIN PRN
+L058: - oxyCODONE (ROXICODONE) Immediate Release tablet 10 mg, Oral, Q4H PRN
+L059: - oxyCODONE (ROXICODONE) Immediate Release tablet 2.5 mg, Oral, Q30 MIN PRN
+L060: - oxyCODONE (ROXICODONE) Immediate Release tablet 5 mg, Oral, Q30 MIN PRN
+L061: - sodium chloride 0.9% infusion, 100 mL/hr, Intravenous, Continuous
+L062: - vancomycin (VANCOCIN) 1.25 g in sodium chloride 0.9% 250 mL IVPB, Intravenous, Q12H
+L063: 
+L064: [AI ADDED: Home Medications]
+L065: Home Medications: [⚠️ PHYSICIAN INPUT REQUIRED: Complete list of home medications with dosages and frequencies]
+L066: 
+L067: ALLERGIES:
+L068: - Erythromycin: hives
+L069: - Macrolide Antibiotics: Hives
+L070: - Milk: "Cow Dairy only", Hives and Rash
+L071: - Pravastatin: Myalgia, Hives
+L072: - Simvastatin: Muscle aches, Other
+L073: - Thimerosal: Blood shot eyes from preservative, Other
+L074: - Mercury: Unknown
+L075: - Amoxicillin: Rash
+L076: - Augmentin [Amoxicillin-Pot Clavulanate]: Rash
+L077: - Tape [Adhesive Tape-Silicones]: "redness at the site of tape", Rash
+L078: 
+L079: PAST MEDICAL HISTORY:
+L080: - Anxiety
+L081: - Arthritis
+L082: - Chronic pain
+L083: - Dyslipidemia
+L084: - Essential hypertension
+L085: - History of ETOH abuse
+L086: - Hypercholesteremia
+L087: - Microscopic colitis (on mesalamine daily)
+L088: - Neuropathy of feet
+L089: - Rectus sheath hematoma (RLQ)
+L090: 
+L091: PAST SURGICAL HISTORY:
+L092: - Left open L3-L4 microdiscectomy (2019)
+L093: - Right cataract extraction (07/2016)
+L094: - Left cataract extraction
+L095: - Colonoscopy (08/01/2024)
+L096: - Right debridement foot (02/14/2024)
+L097: - Left foot neuroma surgery (02/28/2024)
+L098: - Right foot surgery - arthrodesis (07/20/2018)
+L099: - Right foot surgery - removal of hardware (04/03/2023)
+L100: - Right ORIF foot fracture (06/13/2022)
+L101: - Right removal implant deep foot; debridement fifth toe; excision bone spur (02/2022)
+L102: - Right upper gastrointestinal endoscopy (10/2017)
+L103: - Left total knee arthroplasty (06/2025) [AI ADDED: date derived from HPI]
+L104: 
+L105: [AI ADDED: Social History]
+L106: Social History: [⚠️ PHYSICIAN INPUT REQUIRED: Smoking status, alcohol use, living situation, and occupational status]
+L107: 
+L108: [AI ADDED: Assessment]
+L109: Assessment:
+L110: . [⚠️ PHYSICIAN INPUT REQUIRED: Specific diagnosis with ICD-10 code, e.g., "Prosthetic joint infection, left knee (T84.51XA)"]
+L111: . [⚠️ PHYSICIAN INPUT REQUIRED: Secondary diagnoses relevant to surgical planning]
+L112: 
+L113: [AI ADDED: Plan]
+L114: Plan:
+L115: . [⚠️ PHYSICIAN INPUT REQUIRED: Detailed surgical plan including specific components to be revised]
+L116: . [⚠️ PHYSICIAN INPUT REQUIRED: Antibiotic management plan including duration of IV and oral antibiotics]
+L117: . [⚠️ PHYSICIAN INPUT REQUIRED: Post-operative rehabilitation plan]
+L118: . [⚠️ PHYSICIAN INPUT REQUIRED: Risk assessment and mitigation strategies]
+L119: 
+L120: [AI ADDED: Medical Necessity Documentation]
+L121: Medical Necessity Documentation:
+L122: - Diagnosis: Prosthetic joint infection of left total knee arthroplasty
+L123: - Failed conservative treatment: [⚠️ PHYSICIAN INPUT REQUIRED: Specific conservative measures attempted]
+L124: - Duration of symptoms: Acute onset 4 days ago with progressive worsening
+L125: - Functional limitations: [⚠️ PHYSICIAN INPUT REQUIRED: Specific functional limitations caused by condition]
+L126: - Diagnostic evidence: Positive joint aspiration with inflammatory markers and positive culture
+L127: - Specialist consultation: Infectious Disease consultation with Dr. Rossi
+L128: 
+L129: [AI ADDED: Informed Consent]
+L130: Informed Consent: [⚠️ PHYSICIAN INPUT REQUIRED: Documentation that risks, benefits, and alternatives were discussed with the patient and informed consent was obtained]

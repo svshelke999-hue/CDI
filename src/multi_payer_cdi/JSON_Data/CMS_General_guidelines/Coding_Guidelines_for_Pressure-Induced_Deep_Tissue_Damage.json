@@ -1,0 +1,150 @@
+{
+  "guideline_id": "I.C.12.a.7",
+  "semantic_title": "Coding Guidelines for Pressure-Induced Deep Tissue Damage",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 12. Chapter 12: Diseases of the Skin and Subcutaneous Tissue > a. Pressure ulcer stage documentation > 7. Pressure-induced deep tissue damage",
+  "page_number": 60,
+  "content": {
+    "full_text": "For pressure-induced deep tissue damage or deep tissue pressure injury, assign only the appropriate code for pressure-induced deep tissue damage (L89.--6). (Evidence: pg no: 60, L4-L5)",
+    "summary": "Guidelines for coding pressure-induced deep tissue damage using specific L89 codes with 6th character designation (Evidence: pg no: 60, L4-L5)",
+    "key_concepts": [
+      "Pressure-induced deep tissue damage (Evidence: pg no: 60, L4)",
+      "Deep tissue pressure injury (Evidence: pg no: 60, L4)",
+      "L89 code series with 6th character (Evidence: pg no: 60, L5)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "PIDTD_001",
+        "rule_text": "Assign only the appropriate code for pressure-induced deep tissue damage (L89.--6) (Evidence: pg no: 60, L5)",
+        "explanation": "When documenting pressure-induced deep tissue damage or deep tissue pressure injury, use only the specific L89 codes with the 6th character designation, do not assign additional pressure ulcer codes (Evidence: pg no: 60, L4-L5)",
+        "importance": "critical",
+        "applies_to": "L89 codes",
+        "common_applications": [
+          "Deep tissue pressure injuries",
+          "Pressure-induced deep tissue damage"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify pressure-induced deep tissue damage or deep tissue pressure injury in documentation",
+      "Step 2: Assign appropriate L89 code with 6th character designation (--6)",
+      "Step 3: Do not assign additional pressure ulcer codes"
+    ],
+    "related_terminology": [
+      "Pressure-induced deep tissue damage",
+      "Deep tissue pressure injury",
+      "L89 codes"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "L89",
+        "description": "Pressure ulcer codes (Evidence: pg no: 60, L5)",
+        "requirement": "Use 6th character designation for deep tissue damage",
+        "usage_rules": [
+          "Use only L89 codes with 6th character (--6) for deep tissue damage (Evidence: pg no: 60, L5)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "L89.--6",
+        "description": "Pressure-induced deep tissue damage codes (Evidence: pg no: 60, L5)",
+        "context": "For pressure-induced deep tissue damage or deep tissue pressure injury",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "L89": "Pressure ulcer category",
+          "--": "Site designation",
+          "6": "Deep tissue damage designation"
+        }
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": "L89.--6",
+        "description": "Pattern for pressure-induced deep tissue damage codes (Evidence: pg no: 60, L5)",
+        "example": "L89.--6",
+        "explanation": "The 6th character specifically identifies deep tissue damage"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Pressure ulcer codes (L89)"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "PIDTD_SC001",
+      "scenario": "Patient presents with pressure-induced deep tissue damage on sacrum",
+      "documentation_example": "Deep tissue pressure injury of sacrum",
+      "step_by_step": [
+        "Step 1: Identify the condition as pressure-induced deep tissue damage",
+        "Step 2: Locate appropriate L89 code for sacrum site",
+        "Step 3: Apply 6th character designation (6) for deep tissue damage"
+      ],
+      "correct_coding": {
+        "primary_code": "L89.--6 (appropriate site code)",
+        "secondary_codes": [],
+        "sequencing": "Primary code only",
+        "rationale": "Only the L89 code with 6th character designation is needed for deep tissue damage (Evidence: pg no: 60, L4-L5)"
+      },
+      "incorrect_coding": {
+        "code": "Multiple pressure ulcer codes",
+        "codes": [
+          "L89 codes without 6th character",
+          "Additional pressure ulcer codes"
+        ],
+        "rationale": "Guidelines specify to assign only the appropriate deep tissue damage code",
+        "common_mistake": "Adding multiple pressure ulcer codes when only the deep tissue damage code is needed"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not assign additional pressure ulcer codes when coding deep tissue damage (Evidence: pg no: 60, L5)"
+    ],
+    "best_practices": [
+      "Use only the specific L89 code with 6th character designation for deep tissue damage (Evidence: pg no: 60, L5)"
+    ],
+    "common_mistakes": [
+      "Assigning multiple pressure ulcer codes instead of only the deep tissue damage code (Evidence: pg no: 60, L5)"
+    ],
+    "tips": [
+      "Look for the 6th character designation (6) in L89 codes for deep tissue damage (Evidence: pg no: 60, L5)"
+    ],
+    "implementation_notes": [
+      "This guideline applies to both pressure-induced deep tissue damage and deep tissue pressure injury"
+    ],
+    "clinical_context": [
+      "Deep tissue damage represents a specific stage of pressure injury"
+    ]
+  },
+  "search_keywords": [
+    "pressure-induced deep tissue damage",
+    "deep tissue pressure injury",
+    "L89 codes",
+    "6th character designation",
+    "pressure ulcer coding"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "skin_and_subcutaneous_tissue",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "pressure_ulcers",
+      "deep_tissue_damage",
+      "L89_codes"
+    ]
+  },
+  "page_range_processed": "pages_60_to_63"
+}

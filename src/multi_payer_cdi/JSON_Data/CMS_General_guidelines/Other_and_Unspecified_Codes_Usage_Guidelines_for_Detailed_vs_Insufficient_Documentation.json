@@ -1,0 +1,218 @@
+{
+  "guideline_id": "I.A.9",
+  "semantic_title": "Other and Unspecified Codes: Usage Guidelines for Detailed vs Insufficient Documentation",
+  "section_path": "Section I > A. Conventions > 9. Other and Unspecified codes",
+  "page_number": 9,
+  "content": {
+    "full_text": "a. 'Other' codes - Codes titled 'other' or 'other specified' are for use when the information in the medical record provides detail for which a specific code does not exist. Alphabetic Index entries with NEC in the line designate 'other' codes in the Tabular List. These Alphabetic Index entries represent specific disease entities for which no specific code exists, so the term is included within an 'other' code. b. 'Unspecified' codes - Codes titled 'unspecified' are for use when the information in the medical record is insufficient to assign a more specific code. For those categories for which an unspecified code is not provided, the 'other specified' code may represent both other and unspecified. (Evidence: pg no: 9, L65-L72)",
+    "summary": "Distinguishes between 'other' codes (for detailed but non-specific conditions) and 'unspecified' codes (for insufficient documentation) with usage guidelines (Evidence: pg no: 9, L65-L72)",
+    "key_concepts": [
+      "'Other' codes used when detail exists but no specific code available (Evidence: pg no: 9, L66-L67)",
+      "NEC in Index designates 'other' codes in Tabular List (Evidence: pg no: 9, L67-L68)",
+      "'Unspecified' codes used when documentation is insufficient (Evidence: pg no: 9, L70-L71)",
+      "'Other specified' may represent both other and unspecified when no unspecified code exists (Evidence: pg no: 9, L71-L72)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.A.9.R1",
+        "rule_text": "'Other' codes are for use when the medical record provides detail for which a specific code does not exist (Evidence: pg no: 9, L66-L67)",
+        "explanation": "Use 'other' or 'other specified' codes when the condition is well-documented but doesn't match any existing specific code (Evidence: pg no: 9, L66-L67)",
+        "importance": "high",
+        "applies_to": "other_specified_codes",
+        "common_applications": [
+          "Rare conditions with good documentation",
+          "Conditions not specifically listed in ICD-10-CM"
+        ]
+      },
+      {
+        "rule_id": "I.A.9.R2",
+        "rule_text": "Alphabetic Index entries with NEC designate 'other' codes in the Tabular List (Evidence: pg no: 9, L67-L68)",
+        "explanation": "When NEC appears in the Alphabetic Index, it directs to 'other' codes that capture specific disease entities without individual codes (Evidence: pg no: 9, L67-L68)",
+        "importance": "high",
+        "applies_to": "other_specified_codes",
+        "common_applications": [
+          "Following NEC directions from Index",
+          "Identifying appropriate 'other' codes"
+        ]
+      },
+      {
+        "rule_id": "I.A.9.R3",
+        "rule_text": "'Unspecified' codes are for use when information in the medical record is insufficient to assign a more specific code (Evidence: pg no: 9, L70-L71)",
+        "explanation": "Use 'unspecified' codes when documentation lacks sufficient detail to determine a more specific code (Evidence: pg no: 9, L70-L71)",
+        "importance": "high",
+        "applies_to": "unspecified_codes",
+        "common_applications": [
+          "Incomplete documentation",
+          "Vague diagnostic statements"
+        ]
+      },
+      {
+        "rule_id": "I.A.9.R4",
+        "rule_text": "When no unspecified code is provided, the 'other specified' code may represent both other and unspecified (Evidence: pg no: 9, L71-L72)",
+        "explanation": "In categories lacking separate unspecified codes, the 'other specified' code serves dual purpose for both detailed but non-specific and insufficiently documented conditions (Evidence: pg no: 9, L71-L72)",
+        "importance": "medium",
+        "applies_to": "categories_without_unspecified_codes",
+        "common_applications": [
+          "Categories with limited code options",
+          "Default coding when specificity unavailable"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Assess level of documentation detail",
+      "Step 2: Determine if condition is well-documented but lacks specific code",
+      "Step 3: Use 'other' codes for detailed but non-specific conditions",
+      "Step 4: Use 'unspecified' codes for insufficient documentation",
+      "Step 5: Check if category has separate unspecified codes"
+    ],
+    "related_terminology": [
+      "Other codes",
+      "Other specified",
+      "Unspecified codes",
+      "NEC (Not elsewhere classifiable)",
+      "Medical record documentation",
+      "Code specificity"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Other specified codes",
+      "Unspecified codes",
+      "Categories without separate unspecified codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.A.6",
+        "title": "Abbreviations",
+        "relationship": "builds_upon",
+        "explanation": "Uses NEC abbreviation concepts for 'other' codes"
+      },
+      {
+        "guideline_id": "I.B.18",
+        "title": "Use of Signs/Symptom/Unspecified Codes",
+        "relationship": "related_to",
+        "explanation": "Expands on unspecified code usage"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "I.A.9.S1",
+      "scenario": "Well-documented rare condition without specific code",
+      "documentation_example": "Patient diagnosed with Takotsubo cardiomyopathy (stress-induced cardiomyopathy)",
+      "step_by_step": [
+        "Step 1: Recognize condition is well-documented",
+        "Step 2: Search for specific Takotsubo cardiomyopathy code",
+        "Step 3: If no specific code exists, look for 'other specified' cardiomyopathy",
+        "Step 4: Use 'other specified' code with NEC designation"
+      ],
+      "correct_coding": {
+        "primary_code": "Other specified cardiomyopathy",
+        "secondary_codes": [],
+        "sequencing": "Primary diagnosis",
+        "rationale": "Condition is detailed but no specific code exists, requiring 'other' code (Evidence: pg no: 9, L66-L67)"
+      },
+      "incorrect_coding": {
+        "code": "Unspecified cardiomyopathy",
+        "codes": [],
+        "rationale": "Should not use unspecified when condition is well-documented",
+        "common_mistake": "Using unspecified instead of other when documentation is adequate"
+      }
+    },
+    {
+      "scenario_id": "I.A.9.S2",
+      "scenario": "Insufficient documentation for specific code assignment",
+      "documentation_example": "Patient has pneumonia (no organism specified, no other details)",
+      "step_by_step": [
+        "Step 1: Recognize documentation lacks specificity",
+        "Step 2: Look for unspecified pneumonia code",
+        "Step 3: Assign unspecified code due to insufficient detail",
+        "Step 4: Consider querying provider for more specific information"
+      ],
+      "correct_coding": {
+        "primary_code": "Unspecified pneumonia",
+        "secondary_codes": [],
+        "sequencing": "Primary diagnosis",
+        "rationale": "Documentation is insufficient for more specific code assignment (Evidence: pg no: 9, L70-L71)"
+      },
+      "incorrect_coding": {
+        "code": "Other specified pneumonia",
+        "codes": [],
+        "rationale": "Should not use 'other' when documentation is insufficient",
+        "common_mistake": "Using 'other' codes when documentation is actually insufficient"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "I.A.9.E1",
+      "scenario": "Other vs Unspecified code selection",
+      "code_example": "Detailed rare condition vs vague diagnosis",
+      "breakdown": {
+        "Other specified": "Use when condition is detailed but no specific code exists (Evidence: pg no: 9, L66-L67)",
+        "Unspecified": "Use when documentation is insufficient for specificity (Evidence: pg no: 9, L70-L71)"
+      },
+      "rationale": "Code selection depends on documentation quality, not condition rarity (Evidence: pg no: 9, L66-L72)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not use unspecified codes when documentation is adequate for 'other' codes (Evidence: pg no: 9, L66-L67, L70-L71)",
+      "Some categories use 'other specified' for both other and unspecified (Evidence: pg no: 9, L71-L72)"
+    ],
+    "best_practices": [
+      "Assess documentation quality before selecting other vs unspecified",
+      "Follow NEC directions from Index to appropriate 'other' codes",
+      "Query providers when documentation is insufficient"
+    ],
+    "common_mistakes": [
+      "Using unspecified when other specified is appropriate",
+      "Not recognizing NEC designations in Index",
+      "Assuming rare conditions always use 'other' codes"
+    ],
+    "tips": [
+      "Other = documented but not specifically coded",
+      "Unspecified = insufficient documentation",
+      "NEC in Index points to 'other' codes"
+    ],
+    "implementation_notes": [
+      "Code selection reflects documentation quality"
+    ],
+    "clinical_context": [
+      "Encourages complete clinical documentation for accurate coding"
+    ]
+  },
+  "search_keywords": [
+    "other codes",
+    "other specified",
+    "unspecified codes",
+    "NEC designation",
+    "documentation quality",
+    "code specificity",
+    "insufficient documentation"
+  ],
+  "metadata": {
+    "category": "convention",
+    "subcategory": "code_specificity",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "October 1, 2025",
+    "tags": [
+      "other_codes",
+      "unspecified_codes",
+      "documentation",
+      "NEC",
+      "specificity"
+    ]
+  },
+  "page_range_processed": "pages_7_to_9"
+}

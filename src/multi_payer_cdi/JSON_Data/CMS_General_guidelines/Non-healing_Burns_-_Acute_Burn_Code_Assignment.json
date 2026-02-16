@@ -1,0 +1,167 @@
+{
+  "guideline_id": "I.C.19.d.3",
+  "semantic_title": "Non-healing Burns - Acute Burn Code Assignment",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 19. Injury, Poisoning, and Certain Other Consequences of External Causes > d. Coding of Burns and Corrosions > 3) Non-healing burns",
+  "page_number": 81,
+  "content": {
+    "full_text": "Non-healing burns are coded as acute burns. Necrosis of burned skin should be coded as a non-healed burn. (Evidence: pg no: 81, L81-L83)",
+    "summary": "Coding rule for non-healing burns and necrotic burn tissue, requiring acute burn codes rather than sequela codes (Evidence: pg no: 81, L81-L83)",
+    "key_concepts": [
+      "Non-healing burns as acute burns (Evidence: pg no: 81, L81-L82)",
+      "Necrosis coding as non-healed burn (Evidence: pg no: 81, L82-L83)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "non_healing_acute_coding",
+        "rule_text": "Non-healing burns are coded as acute burns (Evidence: pg no: 81, L81-L82)",
+        "explanation": "Burns that fail to heal properly should be coded using acute burn codes, not sequela codes (Evidence: pg no: 81, L81-L82)",
+        "importance": "high",
+        "applies_to": "non_healing_burns",
+        "common_applications": [
+          "Chronic non-healing burns",
+          "Delayed healing burns",
+          "Complicated burn healing"
+        ]
+      },
+      {
+        "rule_id": "necrosis_as_non_healed",
+        "rule_text": "Necrosis of burned skin should be coded as a non-healed burn (Evidence: pg no: 81, L82-L83)",
+        "explanation": "Necrotic tissue in burn areas is considered a non-healed burn and coded accordingly (Evidence: pg no: 81, L82-L83)",
+        "importance": "high",
+        "applies_to": "necrotic_burns",
+        "common_applications": [
+          "Burn necrosis",
+          "Tissue death in burns",
+          "Complicated burn wounds"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify burn healing status",
+      "Step 2: Determine if burn is non-healing or necrotic",
+      "Step 3: Assign acute burn code (not sequela)",
+      "Step 4: Include appropriate 7th character for encounter type"
+    ],
+    "related_terminology": [
+      "Non-healing burns",
+      "Acute burns",
+      "Necrosis",
+      "Non-healed burns",
+      "Burn healing complications"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Acute burn codes",
+      "Non-healing burn codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "non_healing_burn",
+      "scenario": "Patient with burn from 6 months ago that has not healed",
+      "documentation_example": "Non-healing third-degree burn of hand from 6 months ago",
+      "step_by_step": [
+        "Step 1: Identify burn as non-healing",
+        "Step 2: Determine this is not a sequela",
+        "Step 3: Assign acute burn code",
+        "Step 4: Use appropriate 7th character for encounter type"
+      ],
+      "correct_coding": {
+        "primary_code": "T23.3xx (acute third-degree hand burn)",
+        "secondary_codes": [],
+        "sequencing": "Acute burn code with appropriate 7th character",
+        "rationale": "Non-healing burns are coded as acute burns, not sequelae (Evidence: pg no: 81, L81-L82)"
+      },
+      "incorrect_coding": {
+        "code": "Sequela code",
+        "codes": [
+          "Burn sequela or late effect code"
+        ],
+        "rationale": "Non-healing burns should not be coded as sequelae",
+        "common_mistake": "Using sequela codes for non-healing burns"
+      }
+    },
+    {
+      "scenario_id": "burn_necrosis",
+      "scenario": "Patient with necrotic tissue in burn area",
+      "documentation_example": "Necrosis of burned skin on chest",
+      "step_by_step": [
+        "Step 1: Identify necrosis in burn area",
+        "Step 2: Recognize as non-healed burn",
+        "Step 3: Assign acute burn code",
+        "Step 4: Do not use separate necrosis code"
+      ],
+      "correct_coding": {
+        "primary_code": "T21.xxx (acute burn code for chest)",
+        "secondary_codes": [],
+        "sequencing": "Acute burn code only",
+        "rationale": "Necrosis of burned skin is coded as non-healed burn (Evidence: pg no: 81, L82-L83)"
+      },
+      "incorrect_coding": {
+        "code": "Separate necrosis code",
+        "codes": [
+          "Necrosis code plus burn code"
+        ],
+        "rationale": "Necrosis should be coded as part of non-healed burn",
+        "common_mistake": "Adding separate codes for burn necrosis"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not use sequela codes for non-healing burns (Evidence: pg no: 81, L81-L82)"
+    ],
+    "best_practices": [
+      "Code non-healing burns as acute burns regardless of time elapsed (Evidence: pg no: 81, L81-L82)",
+      "Include necrosis as part of non-healed burn coding (Evidence: pg no: 81, L82-L83)"
+    ],
+    "common_mistakes": [
+      "Using sequela codes for non-healing burns (Evidence: pg no: 81, L81-L82)",
+      "Coding necrosis separately from burn (Evidence: pg no: 81, L82-L83)"
+    ],
+    "tips": [
+      "Non-healing status determines coding approach, not time elapsed (Evidence: pg no: 81, L81-L82)"
+    ],
+    "implementation_notes": [
+      "Requires assessment of healing status rather than chronological age of burn"
+    ],
+    "clinical_context": [
+      "Important for wound care and burn treatment coding"
+    ]
+  },
+  "search_keywords": [
+    "non-healing burns",
+    "acute burns",
+    "burn necrosis",
+    "non-healed burns",
+    "chronic burns",
+    "burn healing complications"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "burn_coding",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "burns",
+      "non_healing",
+      "necrosis",
+      "acute_coding"
+    ]
+  },
+  "page_range_processed": "pages_78_to_81"
+}

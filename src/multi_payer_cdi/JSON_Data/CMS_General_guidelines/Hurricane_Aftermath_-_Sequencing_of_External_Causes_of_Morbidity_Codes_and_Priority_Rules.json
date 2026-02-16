@@ -1,0 +1,264 @@
+{
+  "guideline_id": "I.A.19.b",
+  "semantic_title": "Hurricane Aftermath - Sequencing of External Causes of Morbidity Codes and Priority Rules",
+  "section_path": "Section I > A. Conventions > 19. Coding for Healthcare Encounters in Hurricane Aftermath > b. Sequencing of External Causes of Morbidity Codes",
+  "page_number": 18,
+  "content": {
+    "full_text": "Codes for cataclysmic events, such as a hurricane, take priority over all other external cause codes except child and adult abuse and terrorism and should be sequenced before other external cause of injury codes. Assign as many external cause of morbidity codes as necessary to fully explain each cause. For example, if an injury occurs as a result of a building collapse during the hurricane, external cause codes for both the hurricane and the building collapse should be assigned, with the external causes code for hurricane being sequenced as the first external cause code. For injuries incurred as a direct result of the hurricane, assign the appropriate code(s) for the injuries, followed by the code X37.0-, Hurricane (with the appropriate 7th character), and any other applicable external cause of injury codes. Code X37.0- also should be assigned when an injury is incurred as a result of flooding caused by a levee breaking related to the hurricane. Code X38.-, Flood (with the appropriate 7th character), should be assigned when an injury is from flooding resulting directly from the storm. Code X36.0.-, Collapse of dam or man-made structure, should not be assigned when the cause of the collapse is due to the hurricane. Use of code X36.0- is limited to collapses of man-made structures due to earth surface movements, not due to storm surges directly from a hurricane. (Evidence: pg no: 18, L80-L83)",
+    "summary": "Establishes priority sequencing rules for hurricane-related external cause codes and provides specific guidance for various hurricane-related injury scenarios (Evidence: pg no: 18, L80-L83)",
+    "key_concepts": [
+      "Hurricane codes take priority over most external cause codes (Evidence: pg no: 18, L80-L81)",
+      "Exceptions for abuse and terrorism codes (Evidence: pg no: 18, L80-L81)",
+      "Multiple external cause codes as necessary (Evidence: pg no: 18, L81)",
+      "Hurricane sequenced first among external causes (Evidence: pg no: 18, L81-L82)",
+      "Specific code assignments for different scenarios (Evidence: pg no: 18, L82-L83)",
+      "Restrictions on certain code usage (Evidence: pg no: 18, L82-L83)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.A.19.b.1",
+        "rule_text": "Codes for cataclysmic events take priority over all other external cause codes except child and adult abuse and terrorism (Evidence: pg no: 18, L80-L81)",
+        "explanation": "Hurricane codes have priority in sequencing over most other external cause codes, with only abuse and terrorism codes taking higher priority (Evidence: pg no: 18, L80-L81)",
+        "importance": "high",
+        "applies_to": "hurricane_external_cause_codes",
+        "common_applications": [
+          "Multiple external cause scenarios",
+          "Complex injury circumstances",
+          "Priority determination"
+        ]
+      },
+      {
+        "rule_id": "I.A.19.b.2",
+        "rule_text": "Assign as many external cause of morbidity codes as necessary to fully explain each cause (Evidence: pg no: 18, L81)",
+        "explanation": "Multiple external cause codes should be used when necessary to completely describe all contributing factors to the injury (Evidence: pg no: 18, L81)",
+        "importance": "medium",
+        "applies_to": "multiple_external_causes",
+        "common_applications": [
+          "Building collapse during hurricane",
+          "Multiple contributing factors",
+          "Complex injury scenarios"
+        ]
+      },
+      {
+        "rule_id": "I.A.19.b.3",
+        "rule_text": "Code X37.0- should be assigned when an injury is incurred as a result of flooding caused by a levee breaking related to the hurricane (Evidence: pg no: 18, L82)",
+        "explanation": "Hurricane code X37.0- is appropriate for levee break flooding when the levee failure is related to the hurricane (Evidence: pg no: 18, L82)",
+        "importance": "medium",
+        "applies_to": "hurricane_flooding_codes",
+        "common_applications": [
+          "Levee failure injuries",
+          "Hurricane-related flooding",
+          "Infrastructure failure"
+        ]
+      },
+      {
+        "rule_id": "I.A.19.b.4",
+        "rule_text": "Code X36.0- should not be assigned when the cause of the collapse is due to the hurricane (Evidence: pg no: 18, L82-L83)",
+        "explanation": "The collapse of dam or man-made structure code is limited to earth surface movements, not storm surges from hurricanes (Evidence: pg no: 18, L82-L83)",
+        "importance": "medium",
+        "applies_to": "structure_collapse_codes",
+        "common_applications": [
+          "Hurricane-related building collapse",
+          "Storm surge damage",
+          "Infrastructure failure distinction"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify all contributing external causes",
+      "Step 2: Determine if hurricane is involved",
+      "Step 3: Check for abuse or terrorism (higher priority)",
+      "Step 4: Sequence hurricane code first among external causes",
+      "Step 5: Add additional external cause codes as needed",
+      "Step 6: Apply specific code rules for flooding and collapse scenarios"
+    ],
+    "related_terminology": [
+      "Cataclysmic events",
+      "External cause priority",
+      "Hurricane code",
+      "Building collapse",
+      "Levee breaking",
+      "Storm surge",
+      "Earth surface movements",
+      "Man-made structure collapse"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "X37.0-",
+        "description": "Hurricane (with appropriate 7th character) (Evidence: pg no: 18, L82)",
+        "context": "Direct hurricane injuries and levee break flooding",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "X37": "Cataclysmic storm category",
+          "0": "Hurricane specific",
+          "7th character": "Encounter type (A, D, S)"
+        }
+      },
+      {
+        "code": "X38.-",
+        "description": "Flood (with appropriate 7th character) (Evidence: pg no: 18, L82)",
+        "context": "Flooding resulting directly from storm",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "X38": "Flood category",
+          "7th character": "Encounter type (A, D, S)"
+        }
+      },
+      {
+        "code": "X36.0-",
+        "description": "Collapse of dam or man-made structure (Evidence: pg no: 18, L82-L83)",
+        "context": "Limited to earth surface movements, not hurricane storm surges",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "X36": "Collapse category",
+          "0": "Dam or man-made structure",
+          "Restriction": "Not for hurricane-caused collapse"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Cataclysmic event codes",
+      "Hurricane codes",
+      "Flood codes",
+      "Structure collapse codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "I.A.19.b.S1",
+      "scenario": "Building collapse during hurricane causing injury",
+      "documentation_example": "Patient injured when building collapsed during Hurricane XYZ",
+      "step_by_step": [
+        "Step 1: Identify injury from building collapse during hurricane",
+        "Step 2: Assign injury code first",
+        "Step 3: Assign hurricane code X37.0- as first external cause",
+        "Step 4: Assign building collapse code as additional external cause"
+      ],
+      "correct_coding": {
+        "primary_code": "[Injury code]",
+        "secondary_codes": [
+          "X37.0XXA (Hurricane)",
+          "[Building collapse code]"
+        ],
+        "sequencing": "Hurricane code sequenced before other external causes",
+        "rationale": "Hurricane takes priority and should be sequenced first among external cause codes (Evidence: pg no: 18, L81-L82)"
+      },
+      "incorrect_coding": {
+        "codes": [
+          "[Injury code]",
+          "[Building collapse code]",
+          "X37.0XXA"
+        ],
+        "rationale": "Hurricane code should be sequenced first among external causes",
+        "common_mistake": "Not prioritizing hurricane code in external cause sequencing"
+      }
+    },
+    {
+      "scenario_id": "I.A.19.b.S2",
+      "scenario": "Injury from levee break flooding during hurricane",
+      "documentation_example": "Patient injured in flooding caused by levee failure during Hurricane XYZ",
+      "step_by_step": [
+        "Step 1: Identify injury from levee break flooding",
+        "Step 2: Determine levee break related to hurricane",
+        "Step 3: Assign injury code first",
+        "Step 4: Assign hurricane code X37.0- for levee break scenario"
+      ],
+      "correct_coding": {
+        "primary_code": "[Injury code]",
+        "secondary_codes": [
+          "X37.0XXA (Hurricane)"
+        ],
+        "sequencing": "Hurricane code appropriate for levee break flooding",
+        "rationale": "Hurricane code should be assigned for levee break flooding related to hurricane (Evidence: pg no: 18, L82)"
+      },
+      "incorrect_coding": {
+        "codes": [
+          "[Injury code]",
+          "X38.XXA (Flood)"
+        ],
+        "rationale": "Should use hurricane code when levee break is hurricane-related",
+        "common_mistake": "Using flood code instead of hurricane code for hurricane-related levee breaks"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "I.A.19.b.E1",
+      "scenario": "Building collapse during hurricane",
+      "code_example": "Hurricane and building collapse codes both assigned",
+      "breakdown": {
+        "Hurricane code": "X37.0- sequenced first (Evidence: pg no: 18, L81-L82)",
+        "Building collapse": "Additional external cause code (Evidence: pg no: 18, L81-L82)",
+        "Sequencing": "Hurricane takes priority (Evidence: pg no: 18, L81-L82)"
+      },
+      "rationale": "Multiple external cause codes needed with hurricane taking priority in sequencing (Evidence: pg no: 18, L81-L82)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not use X36.0- for hurricane-caused structure collapse (Evidence: pg no: 18, L82-L83)",
+      "Hurricane codes take priority except for abuse and terrorism (Evidence: pg no: 18, L80-L81)",
+      "Use X37.0- for levee break flooding related to hurricane (Evidence: pg no: 18, L82)"
+    ],
+    "best_practices": [
+      "Assign multiple external cause codes as necessary (Evidence: pg no: 18, L81)",
+      "Sequence hurricane code first among external causes (Evidence: pg no: 18, L81-L82)",
+      "Use appropriate 7th characters for encounter type (Evidence: pg no: 18, L82)"
+    ],
+    "common_mistakes": [
+      "Not prioritizing hurricane codes in sequencing",
+      "Using structure collapse codes for hurricane-caused collapse",
+      "Missing additional external cause codes when multiple factors involved"
+    ],
+    "tips": [
+      "Hurricane codes have high priority in external cause sequencing",
+      "Multiple external causes may be needed for complete picture",
+      "Specific rules apply for flooding and structure collapse scenarios"
+    ],
+    "implementation_notes": [
+      "Priority rules help ensure consistent coding",
+      "Specific scenarios have detailed code assignment rules"
+    ],
+    "clinical_context": [
+      "Hurricane injuries often involve multiple contributing factors",
+      "Accurate external cause coding supports disaster response analysis"
+    ]
+  },
+  "search_keywords": [
+    "hurricane sequencing",
+    "external cause priority",
+    "cataclysmic events",
+    "building collapse",
+    "levee break",
+    "flood coding",
+    "structure collapse",
+    "storm surge",
+    "multiple external causes"
+  ],
+  "metadata": {
+    "category": "convention",
+    "subcategory": "external_cause_sequencing",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "hurricane",
+      "sequencing",
+      "priority",
+      "external_cause",
+      "multiple_codes"
+    ]
+  },
+  "page_range_processed": "pages_15_to_18"
+}

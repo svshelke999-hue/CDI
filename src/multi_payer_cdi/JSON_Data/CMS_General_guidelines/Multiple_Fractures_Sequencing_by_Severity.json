@@ -1,0 +1,123 @@
+{
+  "guideline_id": "I.C.19.c.2",
+  "semantic_title": "Multiple Fractures Sequencing by Severity",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 19. Injury, Poisoning, and Certain Other Consequences of External Causes > c. Coding of Traumatic Fractures > 2) Multiple fractures sequencing",
+  "page_number": 80,
+  "content": {
+    "full_text": "Multiple fractures are sequenced in accordance with the severity of the fracture. (Evidence: pg no: 80, L63-L65)",
+    "summary": "Sequencing rule for multiple fractures based on severity assessment (Evidence: pg no: 80, L63-L65)",
+    "key_concepts": [
+      "Severity-based sequencing for multiple fractures (Evidence: pg no: 80, L64-L65)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "severity_based_sequencing",
+        "rule_text": "Multiple fractures are sequenced in accordance with the severity of the fracture (Evidence: pg no: 80, L64-L65)",
+        "explanation": "When multiple fractures are present, the most severe fracture should be sequenced first (Evidence: pg no: 80, L64-L65)",
+        "importance": "high",
+        "applies_to": "multiple_fracture_codes",
+        "common_applications": [
+          "Polytrauma cases",
+          "Multiple site fractures",
+          "Complex trauma"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify all fractures present",
+      "Step 2: Assess severity of each fracture",
+      "Step 3: Sequence most severe fracture first",
+      "Step 4: Continue sequencing by decreasing severity"
+    ],
+    "related_terminology": [
+      "Multiple fractures",
+      "Severity assessment",
+      "Fracture sequencing"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Multiple fracture codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "multiple_fracture_severity",
+      "scenario": "Patient with both simple wrist fracture and complex femur fracture",
+      "documentation_example": "Closed wrist fracture and open comminuted femur fracture",
+      "step_by_step": [
+        "Step 1: Identify both fractures",
+        "Step 2: Assess severity (femur fracture more severe)",
+        "Step 3: Sequence femur fracture first",
+        "Step 4: Sequence wrist fracture second"
+      ],
+      "correct_coding": {
+        "primary_code": "S72.xxx (femur fracture)",
+        "secondary_codes": [
+          "S62.xxx (wrist fracture)"
+        ],
+        "sequencing": "Most severe fracture first",
+        "rationale": "Open comminuted femur fracture is more severe than closed wrist fracture (Evidence: pg no: 80, L64-L65)"
+      },
+      "incorrect_coding": {
+        "code": "S62.xxx as primary",
+        "codes": [
+          "Wrist fracture sequenced first"
+        ],
+        "rationale": "Less severe fracture should not be sequenced first",
+        "common_mistake": "Not considering severity when sequencing multiple fractures"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [],
+    "best_practices": [
+      "Always assess relative severity when multiple fractures are present (Evidence: pg no: 80, L64-L65)"
+    ],
+    "common_mistakes": [
+      "Sequencing fractures by anatomical location rather than severity (Evidence: pg no: 80, L64-L65)"
+    ],
+    "tips": [
+      "Consider factors like open vs closed, displacement, and complexity (Evidence: pg no: 80, L64-L65)"
+    ],
+    "implementation_notes": [
+      "Requires clinical judgment to assess severity"
+    ],
+    "clinical_context": [
+      "Important in trauma and emergency settings"
+    ]
+  },
+  "search_keywords": [
+    "multiple fractures",
+    "fracture sequencing",
+    "severity",
+    "polytrauma",
+    "fracture priority"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "fracture_coding",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "fractures",
+      "multiple_injuries",
+      "sequencing",
+      "severity"
+    ]
+  },
+  "page_range_processed": "pages_78_to_81"
+}

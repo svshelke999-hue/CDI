@@ -1,0 +1,151 @@
+{
+  "guideline_id": "I.C.1.d.1.a.i-iv",
+  "semantic_title": "Specific Sepsis Coding Scenarios and Rules",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 1. Chapter 1: Certain Infectious and Parasitic Diseases > d. Sepsis, Severe Sepsis, and Septic Shock > 1. Coding of Sepsis and Severe Sepsis > a. Sepsis > i-iv",
+  "page_number": 23,
+  "content": {
+    "full_text": "(i) Negative or inconclusive blood cultures and sepsis: Negative or inconclusive blood cultures do not preclude a diagnosis of sepsis in patients with clinical evidence of the condition; however, the provider should be queried. (ii) Urosepsis: The term urosepsis is a nonspecific term. It is not to be considered synonymous with sepsis. It has no default code in the Alphabetic Index. Should a provider use this term, he/she must be queried for clarification. (iii) Sepsis with organ dysfunction: If a patient has sepsis and associated acute organ dysfunction or multiple organ dysfunction (MOD), follow the instructions for coding severe sepsis. (iv) Acute organ dysfunction that is not clearly associated with the sepsis: If a patient has sepsis and an acute organ dysfunction, but the medical record documentation indicates that the acute organ dysfunction is related to a medical condition other than the sepsis, do not assign a code from subcategory R65.2, Severe sepsis. An acute organ dysfunction must be associated with the sepsis in order to assign the severe sepsis code. If the documentation is not clear as to whether an acute organ dysfunction is related to the sepsis or another medical condition, query the provider. (Evidence: pg no: 23, L63-L74)",
+    "summary": "Specific scenarios and rules for sepsis coding including blood culture results, urosepsis terminology, and organ dysfunction relationships (Evidence: pg no: 23, L63-L74)",
+    "key_concepts": [
+      "Blood culture results and sepsis diagnosis (Evidence: pg no: 23, L63-L65)",
+      "Urosepsis terminology clarification (Evidence: pg no: 23, L66-L69)",
+      "Sepsis with organ dysfunction coding (Evidence: pg no: 23, L70-L72)",
+      "Organ dysfunction causality determination (Evidence: pg no: 23, L73-L74)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "SEPSIS_BLOOD_CULTURES",
+        "rule_text": "Negative or inconclusive blood cultures do not preclude a diagnosis of sepsis in patients with clinical evidence of the condition; however, the provider should be queried (Evidence: pg no: 23, L63-L65)",
+        "explanation": "Sepsis can be diagnosed based on clinical evidence even without positive blood cultures, but provider clarification is recommended (Evidence: pg no: 23, L63-L65)",
+        "importance": "high",
+        "applies_to": "sepsis_diagnosis",
+        "common_applications": [
+          "Sepsis with negative cultures",
+          "Clinical sepsis diagnosis"
+        ]
+      },
+      {
+        "rule_id": "UROSEPSIS_TERM",
+        "rule_text": "The term urosepsis is a nonspecific term. It is not to be considered synonymous with sepsis. It has no default code in the Alphabetic Index. Should a provider use this term, he/she must be queried for clarification (Evidence: pg no: 23, L66-L69)",
+        "explanation": "Urosepsis is not equivalent to sepsis and requires provider clarification for proper coding (Evidence: pg no: 23, L66-L69)",
+        "importance": "critical",
+        "applies_to": "urosepsis_documentation",
+        "common_applications": [
+          "UTI with systemic symptoms",
+          "Urinary tract related infections"
+        ]
+      },
+      {
+        "rule_id": "SEPSIS_ORGAN_DYSFUNCTION",
+        "rule_text": "If a patient has sepsis and associated acute organ dysfunction or multiple organ dysfunction (MOD), follow the instructions for coding severe sepsis (Evidence: pg no: 23, L70-L72)",
+        "explanation": "Sepsis with acute organ dysfunction should be coded as severe sepsis following specific coding instructions (Evidence: pg no: 23, L70-L72)",
+        "importance": "critical",
+        "applies_to": "severe_sepsis_coding",
+        "common_applications": [
+          "Sepsis with renal failure",
+          "Sepsis with respiratory failure",
+          "Multiple organ dysfunction"
+        ]
+      },
+      {
+        "rule_id": "ORGAN_DYSFUNCTION_CAUSALITY",
+        "rule_text": "If a patient has sepsis and an acute organ dysfunction, but the medical record documentation indicates that the acute organ dysfunction is related to a medical condition other than the sepsis, do not assign a code from subcategory R65.2, Severe sepsis. An acute organ dysfunction must be associated with the sepsis in order to assign the severe sepsis code (Evidence: pg no: 23, L73-L74)",
+        "explanation": "Severe sepsis codes should only be used when organ dysfunction is clearly related to sepsis, not other medical conditions (Evidence: pg no: 23, L73-L74)",
+        "importance": "critical",
+        "applies_to": "R65.2",
+        "common_applications": [
+          "Sepsis with pre-existing organ dysfunction",
+          "Organ dysfunction from other causes"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Evaluate clinical evidence for sepsis regardless of culture results",
+      "Step 2: Query provider if urosepsis term is used",
+      "Step 3: Assess for acute organ dysfunction",
+      "Step 4: Determine if organ dysfunction is sepsis-related",
+      "Step 5: Code as severe sepsis only if dysfunction is sepsis-associated"
+    ],
+    "related_terminology": [
+      "blood cultures",
+      "urosepsis",
+      "acute organ dysfunction",
+      "multiple organ dysfunction",
+      "MOD",
+      "severe sepsis",
+      "clinical evidence"
+    ]
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "SEPSIS_CULTURES",
+      "scenario": "Patient with clinical sepsis but negative blood cultures",
+      "documentation_example": "Patient presents with fever, hypotension, elevated lactate, clinical sepsis. Blood cultures negative x2",
+      "step_by_step": [
+        "Step 1: Review clinical evidence for sepsis",
+        "Step 2: Note negative blood cultures",
+        "Step 3: Query provider for sepsis confirmation",
+        "Step 4: Code sepsis if clinically supported"
+      ],
+      "correct_coding": {
+        "primary_code": "appropriate sepsis code",
+        "rationale": "Negative cultures don't preclude sepsis diagnosis with clinical evidence (Evidence: pg no: 23, L63-L65)"
+      }
+    },
+    {
+      "scenario_id": "UROSEPSIS_QUERY",
+      "scenario": "Provider documents 'urosepsis'",
+      "documentation_example": "Patient with UTI and urosepsis",
+      "step_by_step": [
+        "Step 1: Identify urosepsis terminology",
+        "Step 2: Recognize this is nonspecific term",
+        "Step 3: Query provider for clarification",
+        "Step 4: Code based on clarified diagnosis"
+      ],
+      "correct_coding": {
+        "rationale": "Urosepsis requires provider clarification as it's not synonymous with sepsis (Evidence: pg no: 23, L66-L69)"
+      }
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not assume urosepsis equals sepsis (Evidence: pg no: 23, L66-L69)",
+      "Do not code severe sepsis if organ dysfunction is not sepsis-related (Evidence: pg no: 23, L73-L74)"
+    ],
+    "best_practices": [
+      "Query providers when blood cultures are negative but sepsis is suspected (Evidence: pg no: 23, L63-L65)",
+      "Always clarify urosepsis terminology (Evidence: pg no: 23, L66-L69)",
+      "Verify organ dysfunction is sepsis-associated before coding severe sepsis (Evidence: pg no: 23, L73-L74)"
+    ],
+    "common_mistakes": [
+      "Coding urosepsis as sepsis without clarification",
+      "Assigning severe sepsis codes when organ dysfunction is from other causes"
+    ]
+  },
+  "search_keywords": [
+    "sepsis blood cultures",
+    "urosepsis query",
+    "sepsis organ dysfunction",
+    "severe sepsis causality",
+    "negative cultures sepsis",
+    "MOD multiple organ dysfunction"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "sepsis",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "tags": [
+      "sepsis",
+      "urosepsis",
+      "blood cultures",
+      "organ dysfunction",
+      "severe sepsis",
+      "query"
+    ]
+  },
+  "page_range_processed": "pages_21_to_24"
+}

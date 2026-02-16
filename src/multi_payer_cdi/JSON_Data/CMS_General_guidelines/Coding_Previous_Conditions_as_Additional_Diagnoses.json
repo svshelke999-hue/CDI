@@ -1,0 +1,192 @@
+{
+  "guideline_id": "III.A",
+  "semantic_title": "Coding Previous Conditions as Additional Diagnoses",
+  "section_path": "Section III > A. Previous conditions",
+  "page_number": 111,
+  "content": {
+    "full_text": "If the provider has included a diagnosis in the final diagnostic statement, such as the discharge summary or the face sheet, it should ordinarily be coded. Some providers include in the diagnostic statement resolved conditions or diagnoses and status-post procedures from previous admissions that have no bearing on the current stay. Such conditions are not to be reported and are coded only if required by hospital policy. However, history codes (categories Z80-Z87) may be used as secondary codes if the historical condition or family history has an impact on current care or influences treatment. (Evidence: pg no: 111, L76-L78)",
+    "summary": "Previous conditions should only be coded if they impact current care, with specific rules for resolved conditions and history codes (Evidence: pg no: 111, L76-L78)",
+    "key_concepts": [
+      "Code diagnoses in final diagnostic statement (Evidence: pg no: 111, L76)",
+      "Exclude resolved conditions with no current impact (Evidence: pg no: 111, L76-L77)",
+      "History codes when historical conditions impact current care (Evidence: pg no: 111, L78)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "III.A.1",
+        "rule_text": "If the provider has included a diagnosis in the final diagnostic statement, such as the discharge summary or the face sheet, it should ordinarily be coded (Evidence: pg no: 111, L76)",
+        "explanation": "Diagnoses documented in final diagnostic statements should generally be coded unless they meet exclusion criteria (Evidence: pg no: 111, L76)",
+        "importance": "high",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Discharge summary diagnoses",
+          "Face sheet diagnoses"
+        ]
+      },
+      {
+        "rule_id": "III.A.2",
+        "rule_text": "Resolved conditions or diagnoses and status-post procedures from previous admissions that have no bearing on the current stay are not to be reported and are coded only if required by hospital policy (Evidence: pg no: 111, L76-L77)",
+        "explanation": "Previous conditions that don't affect the current hospital stay should not be coded unless hospital policy requires it (Evidence: pg no: 111, L76-L77)",
+        "importance": "high",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Resolved previous infections",
+          "Status-post procedures from prior admissions"
+        ]
+      },
+      {
+        "rule_id": "III.A.3",
+        "rule_text": "History codes (categories Z80-Z87) may be used as secondary codes if the historical condition or family history has an impact on current care or influences treatment (Evidence: pg no: 111, L78)",
+        "explanation": "History codes should be used when past medical or family history impacts current treatment decisions or care planning (Evidence: pg no: 111, L78)",
+        "importance": "high",
+        "applies_to": "Z80-Z87",
+        "common_applications": [
+          "Family history affecting screening decisions",
+          "Personal history affecting treatment choices"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Review final diagnostic statement",
+      "Step 2: Identify any previous conditions or resolved diagnoses",
+      "Step 3: Determine if previous conditions impact current care",
+      "Step 4: Code current-impact conditions, exclude non-impacting ones",
+      "Step 5: Consider history codes for relevant historical conditions"
+    ],
+    "related_terminology": [
+      "previous conditions",
+      "resolved conditions",
+      "status-post procedures",
+      "history codes",
+      "final diagnostic statement",
+      "discharge summary"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z80-Z87",
+        "description": "Personal and family history codes (Evidence: pg no: 111, L78)",
+        "requirement": "Use when history impacts current care or influences treatment",
+        "usage_rules": [
+          "Use as secondary codes only (Evidence: pg no: 111, L78)",
+          "Must have impact on current care or treatment (Evidence: pg no: 111, L78)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Personal history codes",
+      "Family history codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "III.A.1",
+      "scenario": "Patient admitted for chest pain with history of MI affecting current treatment decisions",
+      "documentation_example": "Patient admitted for chest pain evaluation. History of MI 2 years ago influences decision for aggressive cardiac workup and antiplatelet therapy.",
+      "step_by_step": [
+        "Step 1: Identify chest pain as principal diagnosis",
+        "Step 2: Note history of MI in documentation",
+        "Step 3: Determine history affects current treatment decisions",
+        "Step 4: Use history code Z87.891 as secondary diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "R06.02",
+        "secondary_codes": [
+          "Z87.891"
+        ],
+        "sequencing": "Current condition first, then relevant history code",
+        "rationale": "History of MI impacts current care decisions and treatment (Evidence: pg no: 111, L78)"
+      },
+      "incorrect_coding": {
+        "code": "R06.02",
+        "codes": [
+          "R06.02"
+        ],
+        "rationale": "Should include history code since it influences current treatment",
+        "common_mistake": "Omitting relevant history codes that impact current care"
+      }
+    },
+    {
+      "scenario_id": "III.A.2",
+      "scenario": "Patient admitted for pneumonia with resolved appendicitis from previous admission",
+      "documentation_example": "Patient admitted for pneumonia. Discharge summary mentions resolved appendicitis from previous admission 6 months ago with no current impact.",
+      "step_by_step": [
+        "Step 1: Identify pneumonia as principal diagnosis",
+        "Step 2: Note resolved appendicitis in documentation",
+        "Step 3: Determine resolved appendicitis has no bearing on current stay",
+        "Step 4: Do not code resolved appendicitis"
+      ],
+      "correct_coding": {
+        "primary_code": "J18.9",
+        "secondary_codes": [],
+        "sequencing": "Only current pneumonia coded",
+        "rationale": "Resolved conditions with no bearing on current stay should not be reported (Evidence: pg no: 111, L76-L77)"
+      },
+      "incorrect_coding": {
+        "code": "J18.9",
+        "codes": [
+          "J18.9",
+          "K35.9"
+        ],
+        "rationale": "Should not code resolved appendicitis as it has no current impact",
+        "common_mistake": "Coding resolved conditions that don't affect current care"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not code resolved conditions that have no bearing on current stay (Evidence: pg no: 111, L76-L77)"
+    ],
+    "best_practices": [
+      "Code diagnoses in final diagnostic statements unless excluded (Evidence: pg no: 111, L76)",
+      "Use history codes when past conditions impact current care (Evidence: pg no: 111, L78)"
+    ],
+    "common_mistakes": [
+      "Coding all conditions mentioned regardless of current impact (Evidence: pg no: 111, L76-L77)",
+      "Omitting relevant history codes that influence treatment (Evidence: pg no: 111, L78)"
+    ],
+    "tips": [
+      "Focus on whether previous conditions affect current episode of care (Evidence: pg no: 111, L76-L78)"
+    ],
+    "implementation_notes": [
+      "Hospital policy may require coding certain resolved conditions"
+    ],
+    "clinical_context": [
+      "Important for distinguishing between relevant and irrelevant historical information"
+    ]
+  },
+  "search_keywords": [
+    "previous conditions",
+    "resolved conditions",
+    "history codes",
+    "Z80-Z87",
+    "final diagnostic statement",
+    "discharge summary",
+    "status-post procedures"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "previous_conditions",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "previous_conditions",
+      "history_codes",
+      "resolved_conditions",
+      "Z80-Z87"
+    ]
+  },
+  "page_range_processed": "pages_108_to_111"
+}

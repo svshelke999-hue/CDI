@@ -1,0 +1,136 @@
+{
+  "guideline_id": "I.C.15.p.1",
+  "semantic_title": "Use of Code O94 for Sequelae of Pregnancy, Childbirth, and Puerperium Complications",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 15. Chapter 15: Pregnancy, Childbirth, and the Puerperium > p. Code O94, Sequelae of complication of pregnancy, childbirth, and the puerperium > 1) Code O94",
+  "page_number": 70,
+  "content": {
+    "full_text": "Code O94, Sequelae of complication of pregnancy, childbirth, and the puerperium, is for use in those cases when an initial complication of a pregnancy develops a sequela or sequelae requiring care or treatment at a future date. (Evidence: pg no: 70, L32-L35)",
+    "summary": "Code O94 is used when initial pregnancy complications develop sequelae requiring future care or treatment. (Evidence: pg no: 70, L32-L35)",
+    "key_concepts": [
+      "Sequelae of pregnancy complications (Evidence: pg no: 70, L32)",
+      "Future care requirements (Evidence: pg no: 70, L34-L35)",
+      "Initial complication development (Evidence: pg no: 70, L33-L34)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "O94_usage",
+        "rule_text": "Use O94 when initial pregnancy complication develops sequelae requiring future care (Evidence: pg no: 70, L32-L35)",
+        "explanation": "This code is specifically for cases where an original pregnancy complication has resulted in ongoing effects that need medical attention at a later time (Evidence: pg no: 70, L33-L35)",
+        "importance": "high",
+        "applies_to": "O94",
+        "common_applications": [
+          "Long-term effects of pregnancy complications",
+          "Follow-up care for pregnancy-related sequelae"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify initial pregnancy complication",
+      "Step 2: Determine if sequelae developed",
+      "Step 3: Verify future care/treatment is required",
+      "Step 4: Assign O94 code"
+    ],
+    "related_terminology": [
+      "Sequelae",
+      "Pregnancy complications",
+      "Future care requirements"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "O94",
+        "description": "Sequelae of complication of pregnancy, childbirth, and the puerperium (Evidence: pg no: 70, L32-L33)",
+        "context": "When initial pregnancy complications develop sequelae requiring future care",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "O94": "Sequelae of pregnancy, childbirth, and puerperium complications"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Sequelae codes for pregnancy complications"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "O94_sequelae",
+      "scenario": "Patient presents for treatment of ongoing effects from previous pregnancy complication",
+      "documentation_example": "Patient has chronic condition resulting from previous pregnancy complication requiring ongoing treatment",
+      "step_by_step": [
+        "Step 1: Identify the sequela condition",
+        "Step 2: Confirm it resulted from pregnancy complication",
+        "Step 3: Code the sequela first",
+        "Step 4: Follow with O94"
+      ],
+      "correct_coding": {
+        "primary_code": "Sequela code",
+        "secondary_codes": [
+          "O94"
+        ],
+        "sequencing": "Sequela code first, then O94",
+        "rationale": "Sequela codes are sequenced following the code describing the sequelae (Evidence: pg no: 70, L39-L40)"
+      },
+      "incorrect_coding": {
+        "code": "O94",
+        "codes": [
+          "O94 as primary"
+        ],
+        "rationale": "O94 should follow the sequela code, not be primary",
+        "common_mistake": "Using O94 as primary diagnosis instead of sequencing after sequela code"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Must have documented sequelae from initial pregnancy complication (Evidence: pg no: 70, L33-L35)"
+    ],
+    "best_practices": [
+      "Ensure proper sequencing with sequela code first (Evidence: pg no: 70, L39-L40)"
+    ],
+    "common_mistakes": [
+      "Using O94 as primary diagnosis instead of secondary"
+    ],
+    "tips": [
+      "Code can be used at any time after initial postpartum period (Evidence: pg no: 70, L37)"
+    ],
+    "implementation_notes": [
+      "Requires documentation of causal relationship between original complication and current sequela"
+    ],
+    "clinical_context": [
+      "Used for long-term follow-up of pregnancy complications"
+    ]
+  },
+  "search_keywords": [
+    "O94",
+    "sequelae",
+    "pregnancy complications",
+    "future care",
+    "long-term effects"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "pregnancy_sequelae",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "O94",
+      "sequelae",
+      "pregnancy",
+      "complications"
+    ]
+  },
+  "page_range_processed": "pages_69_to_72"
+}

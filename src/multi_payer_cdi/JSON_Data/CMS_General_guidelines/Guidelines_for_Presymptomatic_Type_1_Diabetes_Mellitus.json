@@ -1,0 +1,131 @@
+{
+  "guideline_id": "I.C.4.a.1.a",
+  "semantic_title": "Guidelines for Presymptomatic Type 1 Diabetes Mellitus",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 4. Chapter 4: Endocrine, Nutritional, and Metabolic Diseases > a. Diabetes mellitus > 1) Type of diabetes > (a) Presymptomatic Type 1 Diabetes Mellitus",
+  "page_number": 39,
+  "content": {
+    "full_text": "Codes E10.A-, Type 1 diabetes mellitus, presymptomatic, are assigned for early-stage type 1 diabetes that predates the onset of symptoms. (Evidence: pg no: 39, L95-L97)",
+    "summary": "Guidelines for coding presymptomatic type 1 diabetes mellitus using E10.A- codes (Evidence: pg no: 39, L95-L97)",
+    "key_concepts": [
+      "E10.A- codes for presymptomatic type 1 diabetes (Evidence: pg no: 39, L95-L96)",
+      "Early-stage type 1 diabetes (Evidence: pg no: 39, L96)",
+      "Predates onset of symptoms (Evidence: pg no: 39, L96-L97)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "presymptomatic_t1dm_coding",
+        "rule_text": "Codes E10.A- are assigned for early-stage type 1 diabetes that predates the onset of symptoms (Evidence: pg no: 39, L95-L97)",
+        "explanation": "These specific codes are used when type 1 diabetes is diagnosed before clinical symptoms develop, typically through screening or biomarker testing (Evidence: pg no: 39, L95-L97)",
+        "importance": "high",
+        "applies_to": "presymptomatic type 1 diabetes cases",
+        "common_applications": [
+          "Positive autoantibody testing without symptoms",
+          "Early-stage diabetes detected through screening"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify type 1 diabetes diagnosis",
+      "Step 2: Determine if patient is presymptomatic (no clinical symptoms)",
+      "Step 3: Assign appropriate E10.A- code",
+      "Step 4: Consider any associated conditions or complications"
+    ],
+    "related_terminology": [
+      "Presymptomatic diabetes",
+      "Type 1 diabetes mellitus",
+      "Early-stage diabetes",
+      "Asymptomatic diabetes",
+      "Diabetes screening"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "E10.A-",
+        "description": "Type 1 diabetes mellitus, presymptomatic (Evidence: pg no: 39, L95-L96)",
+        "requirement": "Used for early-stage type 1 diabetes before symptom onset",
+        "usage_rules": [
+          "Only for presymptomatic cases (Evidence: pg no: 39, L96-L97)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Type 1 diabetes codes",
+      "Presymptomatic diabetes codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "presymptomatic_t1dm",
+      "scenario": "Patient with positive diabetes autoantibodies but no clinical symptoms of diabetes",
+      "documentation_example": "Presymptomatic type 1 diabetes mellitus identified through positive GAD antibodies and IA-2 antibodies, no clinical symptoms present",
+      "step_by_step": [
+        "Step 1: Identify type 1 diabetes diagnosis",
+        "Step 2: Confirm patient is presymptomatic (no symptoms)",
+        "Step 3: Assign E10.A- code"
+      ],
+      "correct_coding": {
+        "primary_code": "E10.A- (Type 1 diabetes mellitus, presymptomatic)",
+        "secondary_codes": [],
+        "sequencing": "Presymptomatic diabetes code",
+        "rationale": "Early-stage type 1 diabetes without symptoms uses E10.A- codes (Evidence: pg no: 39, L95-L97)"
+      },
+      "incorrect_coding": {
+        "code": "E10.9",
+        "codes": [
+          "E10.9 (Type 1 diabetes mellitus without complications)"
+        ],
+        "rationale": "Should use presymptomatic code when patient has no symptoms",
+        "common_mistake": "Using regular type 1 diabetes code for presymptomatic cases"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [],
+    "best_practices": [
+      "Use E10.A- codes specifically for presymptomatic cases (Evidence: pg no: 39, L95-L97)"
+    ],
+    "common_mistakes": [
+      "Using regular type 1 diabetes codes for presymptomatic patients"
+    ],
+    "tips": [
+      "Presymptomatic means before clinical symptoms develop (Evidence: pg no: 39, L96-L97)"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Applies to diabetes detected through screening or biomarker testing before symptoms"
+    ]
+  },
+  "search_keywords": [
+    "presymptomatic diabetes",
+    "type 1 diabetes",
+    "E10.A",
+    "early-stage diabetes",
+    "asymptomatic diabetes"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "diabetes_types",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "diabetes",
+      "type_1",
+      "presymptomatic",
+      "early_stage"
+    ]
+  },
+  "page_range_processed": "pages_36_to_39"
+}

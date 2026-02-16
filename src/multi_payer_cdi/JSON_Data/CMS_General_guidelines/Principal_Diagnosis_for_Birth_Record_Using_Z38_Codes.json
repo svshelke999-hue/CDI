@@ -1,0 +1,204 @@
+{
+  "guideline_id": "I.C.16.a.2",
+  "semantic_title": "Principal Diagnosis for Birth Record Using Z38 Codes",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 16. Chapter 16: Certain Conditions Originating in the Perinatal Period > a. General Perinatal Rules > 2) Principal Diagnosis for Birth Record",
+  "page_number": 70,
+  "content": {
+    "full_text": "When coding the birth episode in a newborn record, assign a code from category Z38, Liveborn infants according to place of birth and type of delivery, as the principal diagnosis. A code from category Z38 is assigned only once, to a newborn at the time of birth. If a newborn is transferred to another institution, a code from category Z38 should not be used at the receiving hospital. A code from category Z38 is used only on the newborn record, not on the mother's record. (Evidence: pg no: 70, L79-L84)",
+    "summary": "Use Z38 codes as principal diagnosis for birth episodes, assigned only once at birth, not for transfers or on maternal records. (Evidence: pg no: 70, L79-L84)",
+    "key_concepts": [
+      "Z38 as principal diagnosis for birth (Evidence: pg no: 70, L79-L80)",
+      "One-time assignment at birth (Evidence: pg no: 70, L80-L81)",
+      "No use for transfers (Evidence: pg no: 70, L82-L83)",
+      "Newborn record only (Evidence: pg no: 70, L84)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "z38_principal_birth",
+        "rule_text": "Assign Z38 code as principal diagnosis for birth episode (Evidence: pg no: 70, L79-L80)",
+        "explanation": "When coding the initial birth episode in a newborn record, a code from category Z38 must be assigned as the principal diagnosis to indicate the circumstances of birth (Evidence: pg no: 70, L79-L80)",
+        "importance": "critical",
+        "applies_to": "Z38",
+        "common_applications": [
+          "Hospital births",
+          "Birth center deliveries",
+          "Home births with hospital admission"
+        ]
+      },
+      {
+        "rule_id": "z38_one_time_only",
+        "rule_text": "Z38 code assigned only once, at time of birth (Evidence: pg no: 70, L80-L81)",
+        "explanation": "A Z38 code is used only once in a newborn's lifetime, specifically for the initial birth episode, and never for subsequent encounters (Evidence: pg no: 70, L80-L81)",
+        "importance": "critical",
+        "applies_to": "Z38",
+        "common_applications": [
+          "Initial birth admission",
+          "Birth documentation"
+        ]
+      },
+      {
+        "rule_id": "z38_no_transfers",
+        "rule_text": "Do not use Z38 at receiving hospital for transfers (Evidence: pg no: 70, L82-L83)",
+        "explanation": "When a newborn is transferred to another institution, the receiving hospital should not assign a Z38 code since it was already used at the birth facility (Evidence: pg no: 70, L82-L83)",
+        "importance": "high",
+        "applies_to": "Z38",
+        "common_applications": [
+          "NICU transfers",
+          "Specialty hospital transfers"
+        ]
+      },
+      {
+        "rule_id": "z38_newborn_only",
+        "rule_text": "Z38 codes used only on newborn record, not mother's record (Evidence: pg no: 70, L84)",
+        "explanation": "Z38 codes are exclusively for newborn records and must never appear on the maternal record (Evidence: pg no: 70, L84)",
+        "importance": "critical",
+        "applies_to": "Z38",
+        "common_applications": [
+          "Newborn record documentation",
+          "Birth outcome recording"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify birth episode in newborn record",
+      "Step 2: Select appropriate Z38 code based on place and type of delivery",
+      "Step 3: Assign Z38 code as principal diagnosis",
+      "Step 4: Add additional diagnoses for any conditions",
+      "Step 5: Ensure Z38 is not used for transfers or on maternal record"
+    ],
+    "related_terminology": [
+      "Birth episode",
+      "Liveborn infants",
+      "Place of birth",
+      "Type of delivery",
+      "Principal diagnosis"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z38",
+        "description": "Liveborn infants according to place of birth and type of delivery (Evidence: pg no: 70, L79-L80)",
+        "requirement": "Principal diagnosis for birth episodes",
+        "usage_rules": [
+          "Assigned only once at birth (Evidence: pg no: 70, L80-L81)",
+          "Not used for transfers (Evidence: pg no: 70, L82-L83)",
+          "Newborn record only (Evidence: pg no: 70, L84)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Z38 liveborn infant codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "normal_birth",
+      "scenario": "Term newborn delivered vaginally in hospital",
+      "documentation_example": "Full-term male infant born via spontaneous vaginal delivery in hospital, no complications noted.",
+      "step_by_step": [
+        "Step 1: Identify hospital birth",
+        "Step 2: Identify vaginal delivery",
+        "Step 3: Select appropriate Z38 code",
+        "Step 4: Assign as principal diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "Z38.00",
+        "secondary_codes": [],
+        "sequencing": "Z38.00 as principal diagnosis",
+        "rationale": "Z38 codes are assigned as principal diagnosis for birth episodes (Evidence: pg no: 70, L79-L80)"
+      },
+      "incorrect_coding": {
+        "code": "Other code as principal",
+        "codes": [
+          "Any non-Z38 code as principal for birth"
+        ],
+        "rationale": "Z38 must be principal for birth episodes",
+        "common_mistake": "Using condition codes as principal instead of Z38"
+      }
+    },
+    {
+      "scenario_id": "transfer_scenario",
+      "scenario": "Newborn born at hospital A, transferred to hospital B for NICU care",
+      "documentation_example": "Newborn transferred from birth hospital to tertiary NICU for respiratory distress management.",
+      "step_by_step": [
+        "Step 1: Hospital A uses Z38 for birth episode",
+        "Step 2: Hospital B does not use Z38",
+        "Step 3: Hospital B codes reason for transfer as principal",
+        "Step 4: Hospital B adds appropriate condition codes"
+      ],
+      "correct_coding": {
+        "primary_code": "Hospital A: Z38.x, Hospital B: Condition code",
+        "secondary_codes": [
+          "Additional condition codes as appropriate"
+        ],
+        "sequencing": "Z38 only at birth hospital, condition codes at receiving hospital",
+        "rationale": "Z38 should not be used at receiving hospital for transfers (Evidence: pg no: 70, L82-L83)"
+      },
+      "incorrect_coding": {
+        "code": "Z38 at both hospitals",
+        "codes": [
+          "Using Z38 at receiving hospital"
+        ],
+        "rationale": "Z38 is assigned only once, at birth",
+        "common_mistake": "Using Z38 at receiving hospital for transfers"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Never use Z38 codes for transfers to other institutions (Evidence: pg no: 70, L82-L83)",
+      "Z38 codes are never used on maternal records (Evidence: pg no: 70, L84)"
+    ],
+    "best_practices": [
+      "Always use Z38 as principal diagnosis for birth episodes (Evidence: pg no: 70, L79-L80)",
+      "Assign Z38 only once per newborn lifetime (Evidence: pg no: 70, L80-L81)"
+    ],
+    "common_mistakes": [
+      "Using Z38 at receiving hospitals for transfers",
+      "Using Z38 on maternal records",
+      "Using Z38 for subsequent newborn encounters"
+    ],
+    "tips": [
+      "Remember: Z38 = birth episode only, one time use"
+    ],
+    "implementation_notes": [
+      "Critical for proper birth documentation and statistics"
+    ],
+    "clinical_context": [
+      "Essential for tracking birth outcomes and newborn health"
+    ]
+  },
+  "search_keywords": [
+    "Z38 codes",
+    "birth episode",
+    "principal diagnosis",
+    "liveborn infants",
+    "newborn transfers"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "birth_coding",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "Z38",
+      "birth",
+      "principal diagnosis",
+      "newborn",
+      "transfers"
+    ]
+  },
+  "page_range_processed": "pages_69_to_72"
+}

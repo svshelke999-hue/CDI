@@ -1,0 +1,229 @@
+{
+  "guideline_id": "I.C.6.a.5",
+  "semantic_title": "Indeterminate Stage Glaucoma Coding Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 7. Chapter 7: Diseases of the Eye and Adnexa > a. Glaucoma > 5) Indeterminate stage glaucoma",
+  "page_number": 49,
+  "content": {
+    "full_text": "Assignment of the seventh character \"4\" for \"indeterminate stage\" should be based on the clinical documentation. The seventh character \"4\" is used for glaucomas whose stage cannot be clinically determined. This seventh character should not be confused with the seventh character \"0\", unspecified, which should be assigned when there is no documentation regarding the stage of the glaucoma. (Evidence: pg no: 49, L32)",
+    "summary": "Seventh character \"4\" for indeterminate stage is used when glaucoma stage cannot be clinically determined, distinct from \"0\" for unspecified when no documentation exists (Evidence: pg no: 49, L32)",
+    "key_concepts": [
+      "Indeterminate stage definition and usage (Evidence: pg no: 49, L32)",
+      "Clinical determination impossibility (Evidence: pg no: 49, L32)",
+      "Distinction between indeterminate and unspecified (Evidence: pg no: 49, L32)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "GLAU_INDETERMINATE_STAGE",
+        "rule_text": "Use seventh character \"4\" for indeterminate stage when stage cannot be clinically determined (Evidence: pg no: 49, L32)",
+        "explanation": "Indeterminate stage applies when clinical assessment cannot determine the specific glaucoma stage despite adequate documentation and examination (Evidence: pg no: 49, L32)",
+        "importance": "high",
+        "applies_to": "H40 category codes requiring staging",
+        "common_applications": [
+          "Complex glaucoma cases with unclear staging",
+          "Mixed findings preventing clear stage determination",
+          "Clinical ambiguity in stage assessment"
+        ]
+      },
+      {
+        "rule_id": "GLAU_INDETERMINATE_VS_UNSPECIFIED",
+        "rule_text": "Seventh character \"4\" (indeterminate) differs from \"0\" (unspecified) - use \"0\" when no documentation exists (Evidence: pg no: 49, L32)",
+        "explanation": "Indeterminate (4) means clinical determination is impossible despite documentation, while unspecified (0) means no documentation about staging exists (Evidence: pg no: 49, L32)",
+        "importance": "critical",
+        "applies_to": "H40 category codes",
+        "common_applications": [
+          "Documentation review for staging information",
+          "Clinical assessment capability evaluation",
+          "Appropriate seventh character selection"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Review clinical documentation for glaucoma staging information",
+      "Step 2: Determine if clinical assessment was attempted",
+      "Step 3: If assessment attempted but stage cannot be determined, use \"4\"",
+      "Step 4: If no documentation about staging exists, use \"0\"",
+      "Step 5: Ensure choice reflects documentation reality"
+    ],
+    "related_terminology": [
+      "Indeterminate stage",
+      "Unspecified stage",
+      "Clinical determination",
+      "Seventh character",
+      "Glaucoma staging",
+      "Documentation requirements"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "H40",
+        "description": "Glaucoma codes requiring seventh character for staging (Evidence: pg no: 49, L32)",
+        "requirement": "Distinguish between indeterminate and unspecified staging",
+        "usage_rules": [
+          "Use \"4\" when stage cannot be clinically determined (Evidence: pg no: 49, L32)",
+          "Use \"0\" when no staging documentation exists (Evidence: pg no: 49, L32)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "H40.xx4",
+        "description": "Glaucoma codes with indeterminate stage seventh character (Evidence: pg no: 49, L32)",
+        "example": "H40.114 for indeterminate stage primary open-angle glaucoma",
+        "explanation": "Fourth seventh character indicates stage cannot be clinically determined"
+      },
+      {
+        "pattern": "H40.xx0",
+        "description": "Glaucoma codes with unspecified stage seventh character (Evidence: pg no: 49, L32)",
+        "example": "H40.110 for unspecified stage primary open-angle glaucoma",
+        "explanation": "Zero seventh character indicates no documentation regarding stage"
+      }
+    ],
+    "code_categories_mentioned": [
+      "H40 Glaucoma with staging considerations"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.6.a.4",
+        "title": "Patient admitted with glaucoma and stage evolves during admission",
+        "relationship": "related_to",
+        "explanation": "Both address glaucoma staging documentation challenges"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "GLAU_INDETERMINATE_1",
+      "scenario": "Patient with glaucoma where clinical findings are mixed and stage cannot be determined despite thorough evaluation",
+      "documentation_example": "Primary open-angle glaucoma OD. Visual field shows moderate defects, but optic nerve appearance suggests mild changes. Cup-to-disc ratio intermediate. Stage cannot be definitively determined due to conflicting clinical findings.",
+      "step_by_step": [
+        "Step 1: Note that clinical evaluation was performed",
+        "Step 2: Identify that conflicting findings prevent stage determination",
+        "Step 3: Recognize this as indeterminate rather than unspecified",
+        "Step 4: Assign seventh character \"4\" for indeterminate stage"
+      ],
+      "correct_coding": {
+        "primary_code": "H40.114",
+        "secondary_codes": [],
+        "sequencing": "Primary code with indeterminate staging",
+        "rationale": "Clinical assessment performed but stage cannot be determined due to conflicting findings (Evidence: pg no: 49, L32)"
+      },
+      "incorrect_coding": {
+        "code": "H40.110",
+        "codes": [
+          "Unspecified stage code"
+        ],
+        "rationale": "Should not use unspecified when clinical assessment was attempted",
+        "common_mistake": "Using unspecified when indeterminate is more appropriate"
+      }
+    },
+    {
+      "scenario_id": "GLAU_UNSPECIFIED_1",
+      "scenario": "Patient with glaucoma diagnosis but no documentation about staging evaluation or findings",
+      "documentation_example": "Primary open-angle glaucoma OD. No further staging information documented.",
+      "step_by_step": [
+        "Step 1: Note glaucoma diagnosis exists",
+        "Step 2: Identify absence of staging documentation",
+        "Step 3: Recognize this as unspecified rather than indeterminate",
+        "Step 4: Assign seventh character \"0\" for unspecified stage"
+      ],
+      "correct_coding": {
+        "primary_code": "H40.110",
+        "secondary_codes": [],
+        "sequencing": "Primary code with unspecified staging",
+        "rationale": "No documentation regarding glaucoma stage exists (Evidence: pg no: 49, L32)"
+      },
+      "incorrect_coding": {
+        "code": "H40.114",
+        "codes": [
+          "Indeterminate stage code"
+        ],
+        "rationale": "Should not use indeterminate when no clinical assessment documented",
+        "common_mistake": "Using indeterminate when unspecified is more appropriate"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "GLAU_INDETERMINATE_EX1",
+      "scenario": "Glaucoma with indeterminate staging due to clinical complexity",
+      "code_example": "H40.114",
+      "breakdown": {
+        "H40.11": "Primary open-angle glaucoma, right eye (Evidence: pg no: 49, L32)",
+        "4": "Indeterminate stage - cannot be clinically determined (Evidence: pg no: 49, L32)"
+      },
+      "rationale": "Stage cannot be clinically determined despite adequate documentation and assessment (Evidence: pg no: 49, L32)"
+    },
+    {
+      "example_id": "GLAU_UNSPECIFIED_EX1",
+      "scenario": "Glaucoma with no staging documentation",
+      "code_example": "H40.110",
+      "breakdown": {
+        "H40.11": "Primary open-angle glaucoma, right eye (Evidence: pg no: 49, L32)",
+        "0": "Unspecified stage - no documentation regarding stage (Evidence: pg no: 49, L32)"
+      },
+      "rationale": "No documentation exists regarding the stage of glaucoma (Evidence: pg no: 49, L32)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not confuse indeterminate (4) with unspecified (0) seventh characters (Evidence: pg no: 49, L32)",
+      "Base assignment on clinical documentation availability and assessment capability (Evidence: pg no: 49, L32)"
+    ],
+    "best_practices": [
+      "Review documentation thoroughly before selecting seventh character (Evidence: pg no: 49, L32)",
+      "Use indeterminate only when clinical determination is impossible despite assessment (Evidence: pg no: 49, L32)"
+    ],
+    "common_mistakes": [
+      "Using indeterminate when no documentation exists (Evidence: pg no: 49, L32)",
+      "Using unspecified when clinical assessment shows indeterminate findings (Evidence: pg no: 49, L32)"
+    ],
+    "tips": [
+      "Indeterminate requires clinical assessment attempt (Evidence: pg no: 49, L32)",
+      "Unspecified indicates absence of staging documentation (Evidence: pg no: 49, L32)"
+    ],
+    "implementation_notes": [
+      "Requires careful documentation review",
+      "Clinical context determines appropriate seventh character"
+    ],
+    "clinical_context": [
+      "Some glaucoma cases have conflicting clinical findings",
+      "Documentation quality affects coding accuracy",
+      "Clinical assessment capability varies by case complexity"
+    ]
+  },
+  "search_keywords": [
+    "indeterminate stage",
+    "unspecified stage",
+    "seventh character 4",
+    "seventh character 0",
+    "glaucoma staging",
+    "clinical determination",
+    "documentation requirements",
+    "staging assessment"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "eye_and_adnexa_glaucoma",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "glaucoma",
+      "staging",
+      "indeterminate",
+      "unspecified",
+      "documentation",
+      "seventh_character"
+    ]
+  },
+  "page_range_processed": "pages_48_to_51"
+}

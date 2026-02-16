@@ -1,0 +1,157 @@
+{
+  "guideline_id": "I.C.2.c.1",
+  "semantic_title": "Anemia Associated with Malignancy Coding and Sequencing",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 2. Chapter 2: Neoplasms > c. Coding and sequencing of complications > 1) Anemia associated with malignancy",
+  "page_number": 34,
+  "content": {
+    "full_text": "When admission/encounter is for management of an anemia associated with the malignancy, and the treatment is only for anemia, the appropriate code for the malignancy is sequenced as the principal or first-listed diagnosis followed by the appropriate code for the anemia (such as code D63.0, Anemia in neoplastic disease). (Evidence: pg no: 34, L29-L31)",
+    "summary": "Sequencing guidelines for anemia caused by malignancy where treatment is only for anemia (Evidence: pg no: 34, L29-L31)",
+    "key_concepts": [
+      "Anemia associated with malignancy (Evidence: pg no: 34, L29-L30)",
+      "Treatment only for anemia (Evidence: pg no: 34, L30)",
+      "Malignancy sequenced first (Evidence: pg no: 34, L30-L31)",
+      "Anemia code follows malignancy code (Evidence: pg no: 34, L30-L31)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "malignancy_anemia_sequencing",
+        "rule_text": "Malignancy code is sequenced as principal/first-listed diagnosis followed by anemia code (Evidence: pg no: 34, L30-L31)",
+        "explanation": "When treating anemia caused by malignancy, the underlying malignancy takes precedence in sequencing even though treatment is directed at the anemia (Evidence: pg no: 34, L29-L31)",
+        "importance": "critical",
+        "applies_to": "anemia caused by malignancy",
+        "common_applications": [
+          "Patient with lung cancer develops anemia, admitted for blood transfusion",
+          "Patient with leukemia has anemia requiring treatment"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Confirm anemia is associated with malignancy",
+      "Step 2: Verify treatment is only for anemia management",
+      "Step 3: Sequence malignancy code as principal/first-listed",
+      "Step 4: Add appropriate anemia code as secondary diagnosis"
+    ],
+    "related_terminology": [
+      "Anemia in neoplastic disease",
+      "Malignancy-associated anemia",
+      "Principal diagnosis",
+      "First-listed diagnosis"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "C00-C96",
+        "description": "Malignant neoplasm codes to be sequenced first (Evidence: pg no: 34, L30-L31)",
+        "requirement": "Sequence as principal/first-listed when treating associated anemia",
+        "usage_rules": [
+          "Use as principal diagnosis when treating malignancy-associated anemia (Evidence: pg no: 34, L30-L31)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "D63.0",
+        "description": "Anemia in neoplastic disease (Evidence: pg no: 34, L31)",
+        "context": "Use for anemia associated with malignancy",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "D63": "Anemia in chronic diseases classified elsewhere",
+          "0": "In neoplastic disease"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Malignant neoplasms",
+      "Anemia codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.2.c",
+        "title": "Coding and sequencing of complications",
+        "relationship": "implements",
+        "explanation": "Specific implementation of complication sequencing framework"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "malignancy_anemia_treatment",
+      "scenario": "Patient with colon cancer admitted for management of severe anemia, receives blood transfusion",
+      "documentation_example": "Patient with known adenocarcinoma of colon presents with severe anemia secondary to malignancy, admitted for blood transfusion",
+      "step_by_step": [
+        "Step 1: Identify anemia is associated with malignancy",
+        "Step 2: Confirm treatment is only for anemia (blood transfusion)",
+        "Step 3: Sequence colon cancer as principal diagnosis",
+        "Step 4: Add anemia in neoplastic disease as secondary diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "C18.9 (Malignant neoplasm of colon, unspecified)",
+        "secondary_codes": [
+          "D63.0 (Anemia in neoplastic disease)"
+        ],
+        "sequencing": "Malignancy first, anemia second",
+        "rationale": "Malignancy is the underlying cause and is sequenced first even when treating the anemia (Evidence: pg no: 34, L30-L31)"
+      },
+      "incorrect_coding": {
+        "code": "D63.0 as principal",
+        "codes": [
+          "D63.0 as principal diagnosis"
+        ],
+        "rationale": "Anemia should not be principal when it's caused by malignancy",
+        "common_mistake": "Sequencing the symptom (anemia) before the underlying cause (malignancy)"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "This applies only when treatment is solely for anemia management (Evidence: pg no: 34, L30)"
+    ],
+    "best_practices": [
+      "Always sequence the underlying malignancy first (Evidence: pg no: 34, L30-L31)",
+      "Use D63.0 for anemia specifically related to neoplastic disease (Evidence: pg no: 34, L31)"
+    ],
+    "common_mistakes": [
+      "Sequencing anemia first because it's being treated (Evidence: pg no: 34, L30-L31)"
+    ],
+    "tips": [
+      "Remember the malignancy is the underlying cause even if anemia is being treated (Evidence: pg no: 34, L30-L31)"
+    ],
+    "implementation_notes": [
+      "This guideline prioritizes the underlying condition over the symptom being treated"
+    ],
+    "clinical_context": [
+      "Anemia is a common complication of malignancy requiring specific coding approach"
+    ]
+  },
+  "search_keywords": [
+    "anemia malignancy",
+    "cancer anemia coding",
+    "D63.0",
+    "anemia neoplastic disease",
+    "malignancy anemia sequencing"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "neoplasms",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "neoplasms",
+      "anemia",
+      "sequencing",
+      "complications"
+    ]
+  },
+  "page_range_processed": "pages_33_to_36"
+}

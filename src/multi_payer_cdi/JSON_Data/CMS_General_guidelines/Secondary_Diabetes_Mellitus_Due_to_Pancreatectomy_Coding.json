@@ -1,0 +1,180 @@
+{
+  "guideline_id": "I.C.4.a.4.b.i",
+  "semantic_title": "Secondary Diabetes Mellitus Due to Pancreatectomy Coding",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 4. Chapter 4: Endocrine, Nutritional and Metabolic Diseases > a. Diabetes mellitus > 4. Assigning and sequencing secondary diabetes codes and its causes > (i) Secondary diabetes mellitus due to pancreatectomy",
+  "page_number": 42,
+  "content": {
+    "full_text": "For postpancreatectomy diabetes mellitus (lack of insulin due to the surgical removal of all or part of the pancreas), assign code E89.1, Postprocedural hypoinsulinemia. Assign a code from category E13 as the principal or first-listed diagnosis and a code from subcategory Z90.41, Acquired absence of pancreas, as an additional code. (Evidence: pg no: 42, L8-L11)",
+    "summary": "Provides specific coding instructions for diabetes resulting from pancreatic surgery, requiring multiple codes including E89.1, E13 category, and Z90.41 (Evidence: pg no: 42, L8-L11)",
+    "key_concepts": [
+      "Postpancreatectomy diabetes mellitus (Evidence: pg no: 42, L8)",
+      "Multiple code assignment requirement (Evidence: pg no: 42, L9-L11)",
+      "Principal diagnosis sequencing (Evidence: pg no: 42, L9-L10)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "POST_PANC_DM_001",
+        "rule_text": "Assign E89.1 for postprocedural hypoinsulinemia (Evidence: pg no: 42, L9)",
+        "explanation": "This code captures the postprocedural complication of insulin deficiency following pancreatic surgery (Evidence: pg no: 42, L8-L9)",
+        "importance": "critical",
+        "applies_to": "E89.1",
+        "common_applications": [
+          "Total pancreatectomy",
+          "Partial pancreatectomy with resulting diabetes"
+        ]
+      },
+      {
+        "rule_id": "POST_PANC_DM_002",
+        "rule_text": "Assign E13 category code as principal or first-listed diagnosis (Evidence: pg no: 42, L9-L10)",
+        "explanation": "The diabetes condition takes precedence in sequencing for postpancreatectomy cases (Evidence: pg no: 42, L9-L10)",
+        "importance": "critical",
+        "applies_to": "E13",
+        "common_applications": [
+          "Inpatient principal diagnosis",
+          "Outpatient first-listed diagnosis"
+        ]
+      },
+      {
+        "rule_id": "POST_PANC_DM_003",
+        "rule_text": "Assign Z90.41 as additional code for acquired absence of pancreas (Evidence: pg no: 42, L10-L11)",
+        "explanation": "This code documents the anatomical status following pancreatic removal (Evidence: pg no: 42, L10-L11)",
+        "importance": "high",
+        "applies_to": "Z90.41",
+        "common_applications": [
+          "Complete pancreatectomy",
+          "Significant pancreatic resection"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify postpancreatectomy diabetes mellitus",
+      "Step 2: Assign E89.1 for postprocedural hypoinsulinemia",
+      "Step 3: Assign appropriate E13 code as principal/first-listed",
+      "Step 4: Add Z90.41 for acquired absence of pancreas"
+    ],
+    "related_terminology": [
+      "Postpancreatectomy diabetes",
+      "Hypoinsulinemia",
+      "Acquired absence of pancreas",
+      "Surgical removal of pancreas"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "E13",
+        "description": "Other specified diabetes mellitus (Evidence: pg no: 42, L9-L10)",
+        "requirement": "Use as principal or first-listed diagnosis",
+        "usage_rules": [
+          "Sequence as principal or first-listed diagnosis (Evidence: pg no: 42, L9-L10)"
+        ]
+      },
+      {
+        "range": "Z90.41",
+        "description": "Acquired absence of pancreas (Evidence: pg no: 42, L10-L11)",
+        "requirement": "Use as additional code",
+        "usage_rules": [
+          "Assign as additional code (Evidence: pg no: 42, L10-L11)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "E89.1",
+        "description": "Postprocedural hypoinsulinemia (Evidence: pg no: 42, L9)",
+        "context": "For insulin deficiency following pancreatic surgery",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "E89": "Postprocedural endocrine and metabolic complications",
+          ".1": "Hypoinsulinemia"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Postprocedural complications",
+      "Other specified diabetes mellitus",
+      "Acquired absence of organs"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "POST_PANC_001",
+      "scenario": "Patient develops diabetes mellitus following total pancreatectomy for pancreatic cancer",
+      "documentation_example": "Postpancreatectomy diabetes mellitus due to total pancreatectomy performed 6 months ago",
+      "step_by_step": [
+        "Step 1: Identify postpancreatectomy diabetes mellitus",
+        "Step 2: Assign E89.1 for postprocedural hypoinsulinemia",
+        "Step 3: Assign appropriate E13 code as principal diagnosis",
+        "Step 4: Add Z90.41 for acquired absence of pancreas"
+      ],
+      "correct_coding": {
+        "primary_code": "E13.9",
+        "secondary_codes": [
+          "E89.1",
+          "Z90.41"
+        ],
+        "sequencing": "E13 code first, then E89.1, then Z90.41",
+        "rationale": "E13 is principal diagnosis, E89.1 captures the postprocedural complication, Z90.41 documents anatomical status (Evidence: pg no: 42, L8-L11)"
+      },
+      "incorrect_coding": {
+        "code": "E89.1",
+        "codes": [
+          "E89.1 only"
+        ],
+        "rationale": "Missing the diabetes code and anatomical status code",
+        "common_mistake": "Using only the postprocedural complication code"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Must use all three code types for complete coding (Evidence: pg no: 42, L8-L11)"
+    ],
+    "best_practices": [
+      "Sequence E13 category code as principal or first-listed (Evidence: pg no: 42, L9-L10)"
+    ],
+    "common_mistakes": [
+      "Omitting the Z90.41 code for acquired absence",
+      "Incorrect sequencing of codes"
+    ],
+    "tips": [
+      "Remember all three components: diabetes, postprocedural complication, and anatomical status"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Applies to both total and partial pancreatectomy when diabetes results"
+    ]
+  },
+  "search_keywords": [
+    "postpancreatectomy diabetes",
+    "E89.1",
+    "E13",
+    "Z90.41",
+    "pancreatic surgery diabetes",
+    "hypoinsulinemia"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "diabetes_mellitus",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "diabetes",
+      "postprocedural",
+      "pancreatectomy",
+      "multiple_codes"
+    ]
+  },
+  "page_range_processed": "pages_42_to_45"
+}

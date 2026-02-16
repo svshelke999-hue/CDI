@@ -1,0 +1,251 @@
+{
+  "guideline_id": "I.C.19.e.4",
+  "semantic_title": "Coding Multiple Drugs and Substances - Individual vs Combination Codes",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 19. Injury, Poisoning, and Certain Other Consequences of External Causes > e. Adverse Effects, Poisoning, Underdosing and Toxic Effects > 4. If two or more drugs, medicinal or biological substances",
+  "page_number": 83,
+  "content": {
+    "full_text": "If two or more drugs, medicinal or biological substances are taken, code each individually unless a combination code is listed in the Table of Drugs and Chemicals. If multiple unspecified drugs, medicinal or biological substances were taken, assign the appropriate code from subcategory T50.91, Poisoning by, adverse effect of and underdosing of multiple unspecified drugs, medicaments and biological substances. (Evidence: pg no: 82-83, L41-L47)",
+    "summary": "Guidelines for coding multiple drugs or substances, specifying when to code individually versus when to use combination codes or unspecified multiple substance codes (Evidence: pg no: 82-83, L41-L47)",
+    "key_concepts": [
+      "Individual coding for multiple substances (Evidence: pg no: 82, L41-L43)",
+      "Combination codes when available (Evidence: pg no: 82, L43)",
+      "T50.91 for multiple unspecified substances (Evidence: pg no: 83, L46-L47)",
+      "Table of Drugs and Chemicals reference (Evidence: pg no: 82, L43)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "INDIVIDUAL_CODING_MULTIPLE_SUBSTANCES",
+        "rule_text": "If two or more drugs, medicinal or biological substances are taken, code each individually unless a combination code is listed (Evidence: pg no: 82, L41-L43)",
+        "explanation": "When multiple substances are involved, the default approach is to assign separate codes for each substance unless the Table of Drugs and Chemicals provides a specific combination code (Evidence: pg no: 82, L41-L43)",
+        "importance": "high",
+        "applies_to": "T36-T65",
+        "common_applications": [
+          "Multiple drug interactions",
+          "Polypharmacy cases",
+          "Multiple substance exposures",
+          "Complex poisoning scenarios"
+        ]
+      },
+      {
+        "rule_id": "COMBINATION_CODE_PRIORITY",
+        "rule_text": "Use combination code if listed in Table of Drugs and Chemicals (Evidence: pg no: 82, L43)",
+        "explanation": "When the Table of Drugs and Chemicals provides a specific combination code for multiple substances taken together, use that combination code instead of individual codes (Evidence: pg no: 82, L43)",
+        "importance": "high",
+        "applies_to": "combination_drug_codes",
+        "common_applications": [
+          "Fixed-dose combinations",
+          "Common drug combinations",
+          "Established combination products"
+        ]
+      },
+      {
+        "rule_id": "T50_91_MULTIPLE_UNSPECIFIED",
+        "rule_text": "For multiple unspecified drugs, use subcategory T50.91 (Evidence: pg no: 83, L46-L47)",
+        "explanation": "When multiple drugs, medicinal or biological substances were taken but the specific substances are not identified or specified, assign the appropriate code from subcategory T50.91 (Evidence: pg no: 83, L46-L47)",
+        "importance": "high",
+        "applies_to": "T50.91",
+        "common_applications": [
+          "Unknown substance poisonings",
+          "Multiple unidentified medications",
+          "Complex cases with unspecified agents"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify all drugs/substances involved",
+      "Step 2: Check if substances are specified or unspecified",
+      "Step 3: If unspecified, use T50.91 subcategory",
+      "Step 4: If specified, check Table of Drugs for combination codes",
+      "Step 5: Use combination code if available, otherwise code individually",
+      "Step 6: Verify all codes in Tabular List"
+    ],
+    "related_terminology": [
+      "Multiple drugs",
+      "Individual coding",
+      "Combination codes",
+      "Unspecified substances",
+      "T50.91",
+      "Table of Drugs and Chemicals"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "T36-T65",
+        "description": "Categories for individual drug and substance coding (Evidence: pg no: 82, L41-L43)",
+        "requirement": "Code each substance individually unless combination code available",
+        "usage_rules": [
+          "Default to individual coding for multiple substances (Evidence: pg no: 82, L41-L43)",
+          "Check for combination codes in Table of Drugs (Evidence: pg no: 82, L43)"
+        ]
+      },
+      {
+        "range": "T50.91",
+        "description": "Poisoning by, adverse effect of and underdosing of multiple unspecified drugs, medicaments and biological substances (Evidence: pg no: 83, L46-L47)",
+        "requirement": "Use when multiple substances are unspecified",
+        "usage_rules": [
+          "For multiple unspecified substances only (Evidence: pg no: 83, L46-L47)",
+          "When specific substances cannot be identified (Evidence: pg no: 83, L46-L47)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "T50.91",
+        "description": "Multiple unspecified drugs, medicaments and biological substances (Evidence: pg no: 83, L46-L47)",
+        "context": "When multiple substances taken but not specified",
+        "requires_additional_codes": "check_code_notes",
+        "breakdown": {
+          "T50": "Poisoning by, adverse effect of and underdosing of other and unspecified drugs, medicaments and biological substances",
+          "91": "Multiple unspecified drugs, medicaments and biological substances"
+        }
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": "Individual codes vs Combination codes",
+        "description": "Decision tree for multiple substance coding (Evidence: pg no: 82-83, L41-L47)",
+        "example": "T36.0X1- + T39.1X1- (individual) vs combination code if available",
+        "explanation": "Use individual codes unless specific combination code exists in Table of Drugs (Evidence: pg no: 82, L41-L43)"
+      }
+    ],
+    "code_categories_mentioned": [
+      "T36-T65 individual drug codes",
+      "T50.91 multiple unspecified substances",
+      "Combination drug codes when available"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "MULTIPLE_SPECIFIED_DRUGS",
+      "scenario": "Patient took overdose of both acetaminophen and ibuprofen",
+      "documentation_example": "Intentional overdose of acetaminophen and ibuprofen",
+      "step_by_step": [
+        "Step 1: Identify substances (acetaminophen, ibuprofen)",
+        "Step 2: Check Table of Drugs for combination code",
+        "Step 3: If no combination code, code each individually",
+        "Step 4: Assign acetaminophen poisoning code",
+        "Step 5: Assign ibuprofen poisoning code",
+        "Step 6: Use appropriate 7th character for intent"
+      ],
+      "correct_coding": {
+        "primary_code": "Acetaminophen poisoning code",
+        "secondary_codes": [
+          "Ibuprofen poisoning code"
+        ],
+        "sequencing": "Both substances coded individually",
+        "rationale": "Multiple specified substances coded individually unless combination code available (Evidence: pg no: 82, L41-L43)"
+      },
+      "incorrect_coding": {
+        "code": "T50.91 (multiple unspecified)",
+        "codes": [
+          "Unspecified multiple substances"
+        ],
+        "rationale": "Substances are specified, not unspecified",
+        "common_mistake": "Using T50.91 when substances are actually specified"
+      }
+    },
+    {
+      "scenario_id": "MULTIPLE_UNSPECIFIED_SUBSTANCES",
+      "scenario": "Patient found unconscious with multiple unknown pills",
+      "documentation_example": "Poisoning by multiple unidentified medications found at scene",
+      "step_by_step": [
+        "Step 1: Identify that multiple substances were taken",
+        "Step 2: Determine that specific substances are unknown",
+        "Step 3: Assign code from T50.91 subcategory",
+        "Step 4: Use appropriate 7th character for intent",
+        "Step 5: Code any manifestations separately"
+      ],
+      "correct_coding": {
+        "primary_code": "T50.91X1- (accidental poisoning by multiple unspecified substances)",
+        "secondary_codes": [
+          "Codes for any manifestations"
+        ],
+        "sequencing": "T50.91 code first, then manifestations",
+        "rationale": "Multiple unspecified substances require T50.91 subcategory (Evidence: pg no: 83, L46-L47)"
+      },
+      "incorrect_coding": {
+        "code": "Individual unspecified drug codes",
+        "codes": [
+          "Multiple individual unspecified codes"
+        ],
+        "rationale": "Should use single T50.91 code for multiple unspecified",
+        "common_mistake": "Using multiple individual unspecified codes instead of T50.91"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "COMBINATION_CODE_USAGE",
+      "scenario": "When combination codes are available vs individual coding",
+      "code_example": "Combination code vs individual codes",
+      "breakdown": {
+        "Combination available": "Use specific combination code from Table of Drugs (Evidence: pg no: 82, L43)",
+        "No combination": "Code each substance individually (Evidence: pg no: 82, L41-L43)",
+        "Unspecified multiple": "Use T50.91 subcategory (Evidence: pg no: 83, L46-L47)"
+      },
+      "rationale": "Coding approach depends on availability of combination codes and specificity of substances (Evidence: pg no: 82-83, L41-L47)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not use T50.91 when specific substances are known (Evidence: pg no: 83, L46-L47)",
+      "Check Table of Drugs for combination codes before coding individually (Evidence: pg no: 82, L43)"
+    ],
+    "best_practices": [
+      "Default to individual coding unless combination code exists (Evidence: pg no: 82, L41-L43)",
+      "Use T50.91 only for truly unspecified multiple substances (Evidence: pg no: 83, L46-L47)",
+      "Always verify codes in Tabular List after Table lookup"
+    ],
+    "common_mistakes": [
+      "Using T50.91 when substances are actually specified",
+      "Missing available combination codes",
+      "Not coding all substances individually when required"
+    ],
+    "tips": [
+      "Combination codes take priority when available (Evidence: pg no: 82, L43)",
+      "T50.91 is for unspecified substances only (Evidence: pg no: 83, L46-L47)"
+    ],
+    "implementation_notes": [
+      "Important for accurate substance tracking",
+      "Critical for drug interaction analysis",
+      "Essential for pharmacovigilance"
+    ],
+    "clinical_context": [
+      "Common in emergency department settings",
+      "Important for overdose management",
+      "Relevant for polypharmacy complications"
+    ]
+  },
+  "search_keywords": [
+    "multiple drugs",
+    "combination codes",
+    "individual coding",
+    "T50.91",
+    "unspecified substances",
+    "Table of Drugs"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "adverse_effects_poisoning",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "multiple_drugs",
+      "combination_codes",
+      "individual_coding",
+      "T50.91",
+      "unspecified"
+    ]
+  },
+  "page_range_processed": "pages_81_to_84"
+}

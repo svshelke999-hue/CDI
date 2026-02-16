@@ -1,0 +1,150 @@
+L001: Greenwich Hospital
+L002: 
+L003: Orthopedic History & Physical
+L004: 
+L005: [AI ADDED: Date of Service: 1/3/2026]
+L006: 
+L007: History provided by: the nursing home
+L008: History limited by: the condition of the patient
+L009: Patient presents from: Skilled nursing facility
+L010: 
+L011: [AI ADDED: DEMOGRAPHICS]
+L012: Patient: Ipekdjian, George
+L013: MRN: MR408906
+L014: DOB: 09/26/1943
+L015: Age: 82 years
+L016: 
+L017: [AI ADDED: ATTENDING PHYSICIAN]
+L018: Pasternack, Jordan B, MD
+L019: Service: Orthopedics
+L020: 
+L021: Subjective:
+L022: 
+L023: Chief Complaint: Right hip pain following a fall
+L024: 
+L025: [AI ADDED: HISTORY OF PRESENT ILLNESS]
+L026: Mr. Ipekdjian is an 82 y.o. male with HTN, Dementia, DM2, multinodular goiter, frequent falls causing traumatic SDH + SAH and skull fracture (9/2024), nephrolithiasis s/p left ureteral stent placement who suffered an unwitnessed fall today with head strike while in the shower at Nathaniel Witherall ECF, and was transported to the GH ED for evaluation of right hip pain and inability to bear weight. Patient does not remember the fall. He remembers slipping then does not remember events before that. There was no reported loss of consciousness or near syncope. Patient denies any chest pain, dizziness or light headedness prior to the fall. Pain worse with any ROM of RLE. Patient is at their baseline mental status.
+L027: 
+L028: [AI ADDED: PAIN ASSESSMENT]
+L029: Location: Right hip
+L030: Severity: [⚠️ PHYSICIAN INPUT REQUIRED: Pain score on scale of 0-10]
+L031: Quality: [⚠️ PHYSICIAN INPUT REQUIRED: Description of pain quality (sharp, dull, aching, etc.)]
+L032: Radiation: [⚠️ PHYSICIAN INPUT REQUIRED: Does pain radiate to other areas?]
+L033: Aggravating factors: Movement and weight-bearing of right lower extremity
+L034: Relieving factors: [⚠️ PHYSICIAN INPUT REQUIRED: What relieves the pain?]
+L035: 
+L036: [AI ADDED: PAST MEDICAL HISTORY - ORGANIZED]
+L037: Diagnosis:
+L038: * Bipolar 1 disorder
+L039: * Dementia
+L040: * Diabetes mellitus type 2
+L041: * Difficulty walking
+L042: * Dysphagia
+L043: * Hypercholesterolemia
+L044: * Hypertension
+L045: * Kidney stone (11/2025)
+L046: * Pneumonia
+L047: * Subarachnoid hemorrhage (09/2024)
+L048: * Subdural hematoma, traumatic (09/2024)
+L049: * Skull fracture (09/2024) secondary to fall
+L050: * Multinodular goiter [AI ADDED: from HPI]
+L051: 
+L052: [AI ADDED: PAST SURGICAL HISTORY - ORGANIZED]
+L053: * Colonoscopy (date not specified)
+L054: * Left radial fracture repair (2023)
+L055: * Left ureteral stent placement (date not specified) [AI ADDED: from HPI]
+L056: 
+L057: [AI ADDED: SOCIAL HISTORY - ORGANIZED]
+L058: Marital status: Single
+L059: Living situation: Resides in skilled nursing facility (Nathaniel Witherall ECF)
+L060: Tobacco use: Unknown
+L061: Vaping status: Never used
+L062: Alcohol use: Not currently
+L063: Drug use: Never
+L064: Sexual activity: Not currently
+L065: Food insecurity: None reported (5/27/2025)
+L066: Transportation needs: None reported (5/27/2025)
+L067: Housing stability: Low risk (12/3/2025), has steady place to live
+L068: 
+L069: [AI ADDED: FAMILY HISTORY]
+L070: No known family medical problems documented
+L071: 
+L072: [AI ADDED: ALLERGIES/ADVERSE REACTIONS]
+L073: Lisinopril: Cough
+L074: 
+L075: [AI ADDED: CURRENT MEDICATIONS]
+L076: [⚠️ PHYSICIAN INPUT REQUIRED: Complete list of current medications with dosages and frequencies]
+L077: 
+L078: Review of Systems:
+L079: [⚠️ PHYSICIAN INPUT REQUIRED: Complete review of systems]
+L080: 
+L081: Objective:
+L082: 
+L083: [AI ADDED: VITAL SIGNS]
+L084: [⚠️ PHYSICIAN INPUT REQUIRED: Complete vital signs including temperature, heart rate, blood pressure, respiratory rate, oxygen saturation]
+L085: 
+L086: Physical Exam:
+L087: General: Patient is awake, alert but confused, currently in pain
+L088: 
+L089: [AI ADDED: NEUROLOGICAL EXAMINATION]
+L090: [⚠️ PHYSICIAN INPUT REQUIRED: Complete neurological examination including mental status, cranial nerves, motor, sensory, reflexes, coordination]
+L091: 
+L092: [AI ADDED: MUSCULOSKELETAL EXAMINATION]
+L093: Right lower extremity: Skin over hip and groin intact without laceration, erythema or open wounds. Patient has tenderness to palpation over the hip and groin as well as mid/distal thigh. He has no other tenderness to palpation to the tib-fib, ankle, and foot. He has pain with attempted range of motion of the hip. Compartments soft and compressible. Intact active dorsiflexion, plantarflexion, eversion, and inversion. SILT DP/SP/Su/Sa/T. BCR, foot wwp.
+L094: 
+L095: [AI ADDED: CARDIOVASCULAR EXAMINATION]
+L096: [⚠️ PHYSICIAN INPUT REQUIRED: Complete cardiovascular examination including heart sounds, rhythm, murmurs, peripheral pulses]
+L097: 
+L098: [AI ADDED: RESPIRATORY EXAMINATION]
+L099: [⚠️ PHYSICIAN INPUT REQUIRED: Complete respiratory examination including breath sounds, respiratory effort]
+L100: 
+L101: [AI ADDED: ABDOMINAL EXAMINATION]
+L102: [⚠️ PHYSICIAN INPUT REQUIRED: Complete abdominal examination including bowel sounds, tenderness, masses]
+L103: 
+L104: [AI ADDED: LABORATORY STUDIES]
+L105: [⚠️ PHYSICIAN INPUT REQUIRED: Relevant laboratory values including CBC, CMP, coagulation studies, other pertinent labs]
+L106: 
+L107: [AI ADDED: DIAGNOSTIC IMAGING]
+L108: X-Ray: Right unstable intertrochanteric fracture
+L109: [⚠️ PHYSICIAN INPUT REQUIRED: Detailed radiographic findings including fracture pattern, displacement, comminution]
+L110: 
+L111: [AI ADDED: OTHER DIAGNOSTIC STUDIES]
+L112: [⚠️ PHYSICIAN INPUT REQUIRED: Any additional diagnostic studies performed such as CT, MRI, EKG]
+L113: 
+L114: Assessment:
+L115: 
+L116: Mr. Ipekdjian is an 82 y.o. male with HTN, Dementia, DM2, multinodular goiter, frequent falls causing traumatic SDH + SAH and skull fracture (9/2024), nephrolithiasis s/p left ureteral stent placement who presents with a right unstable intertrochanteric femur fracture following a fall.
+L117: 
+L118: [AI ADDED: DIAGNOSIS - ICD-10 CODES]
+L119: . Right unstable intertrochanteric femur fracture [⚠️ PHYSICIAN INPUT REQUIRED: Specific ICD-10 code]
+L120: . Fall [⚠️ PHYSICIAN INPUT REQUIRED: Specific ICD-10 code]
+L121: 
+L122: [AI ADDED: MEDICAL DECISION MAKING]
+L123: I had a very long and thorough discussion with the patient's cousin Paul, who is his healthcare proxy, regarding this injury. I did present surgical intervention as an option to treat this injury. Surgical intervention would take the form of a hip cephalomedullary nail. The patient understands that conservative treatment for this injury is an option, and would consist of nonweightbearing of the injured lower extremity for approximately 6 weeks while the fracture heals. They understand that conservative treatment is associated with higher risks of nonunion, malunion, prolonged immobility, the sequelae of prolonged immobility such as ulcers and blood clots, and increased pain. They also understand that the risks associated with surgery, which are described below, are not present with nonoperative treatment. They do understand that nonoperative treatment of hip fractures is typically associated with an approximately 89% mortality rate at 1 year.
+L124: 
+L125: The risks, benefits, and alternatives to surgery were discussed at length with the patient's cousin Paul, who is his healthcare proxy, today over the phone. Risks discussed include but are not limited to bleeding, infection, neurovascular injury, anesthesia risks, wound healing problems, failure to alleviate pain, new pain, stiffness, nonunion, malunion, symptomatic hardware, hardware failure, arthritis, recurrent deformity, recurrent instability, inability to return to previous level of activity, medical complications, the need for more surgery in the future, loss of limb, and loss of life. Specifically, complications and loss of life is a significant risk of undergoing this procedure. The patient's cousin understood this. No guarantees were given. All questions were answered. After this discussion, the patient's cousin Paul, who is his healthcare proxy, chose to proceed with surgical intervention.
+L126: 
+L127: [AI ADDED: MEDICAL NECESSITY DOCUMENTATION]
+L128: Surgical intervention with cephalomedullary nail fixation is medically necessary for this patient due to:
+L129: . Unstable intertrochanteric fracture pattern [⚠️ PHYSICIAN INPUT REQUIRED: Specific fracture classification]
+L130: . Complete inability to bear weight on affected extremity
+L131: . Significant pain with any movement of the hip
+L132: . High risk of complications with non-operative management given patient's age and comorbidities
+L133: . [⚠️ PHYSICIAN INPUT REQUIRED: Additional clinical factors supporting surgical intervention]
+L134: 
+L135: [AI ADDED: PLAN]
+L136: . Surgical intervention: Right hip cephalomedullary nail fixation [⚠️ PHYSICIAN INPUT REQUIRED: Specific planned procedure details and timing]
+L137: . Non-weight bearing right lower extremity
+L138: . NPO/IVF
+L139: . DVT prophylaxis: Hold chemical prophylaxis for OR today, venodynes
+L140: . Pain control: Oxycodone 5mg as needed for moderate to severe pain [⚠️ PHYSICIAN INPUT REQUIRED: Complete pain management plan]
+L141: . [⚠️ PHYSICIAN INPUT REQUIRED: Post-operative rehabilitation plan]
+L142: . [⚠️ PHYSICIAN INPUT REQUIRED: Follow-up plan]
+L143: 
+L144: [AI ADDED: INFORMED CONSENT]
+L145: Informed consent obtained from healthcare proxy (cousin Paul) after thorough discussion of risks, benefits, and alternatives. Patient's healthcare proxy has elected to proceed with surgical intervention.
+L146: 
+L147: [AI ADDED: SIGNATURE]
+L148: Pasternack, Jordan B, MD
+L149: Orthopedics
+L150: Date: 1/3/2026

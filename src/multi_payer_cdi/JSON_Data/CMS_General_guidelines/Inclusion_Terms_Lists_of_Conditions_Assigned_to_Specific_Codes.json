@@ -1,0 +1,161 @@
+{
+  "guideline_id": "I.A.11",
+  "semantic_title": "Inclusion Terms: Lists of Conditions Assigned to Specific Codes",
+  "section_path": "Section I > A. Conventions > 11. Inclusion terms",
+  "page_number": 9,
+  "content": {
+    "full_text": "List of terms is included under some codes. These terms are the conditions for which that code is to be used. The terms may be synonyms of the code title, or, in the case of 'other specified' codes, the terms are a list of the various conditions assigned to that code. The inclusion terms are not necessarily exhaustive. Additional terms found only in the Alphabetic Index may also be assigned to a code. (Evidence: pg no: 9, L76-L77)",
+    "summary": "Defines inclusion terms as lists of conditions under codes that specify what conditions the code covers, noting they are not exhaustive (Evidence: pg no: 9, L76-L77)",
+    "key_concepts": [
+      "Inclusion terms list conditions for which a code is used (Evidence: pg no: 9, L76)",
+      "Terms may be synonyms or lists for 'other specified' codes (Evidence: pg no: 9, L76-L77)",
+      "Inclusion terms are not exhaustive (Evidence: pg no: 9, L77)",
+      "Additional terms may be found only in Alphabetic Index (Evidence: pg no: 9, L77)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.A.11.R1",
+        "rule_text": "Inclusion terms are the conditions for which that code is to be used (Evidence: pg no: 9, L76)",
+        "explanation": "The listed terms under a code specify exactly which conditions should be assigned to that particular code (Evidence: pg no: 9, L76)",
+        "importance": "high",
+        "applies_to": "codes_with_inclusion_terms",
+        "common_applications": [
+          "Code selection verification",
+          "Condition-to-code matching"
+        ]
+      },
+      {
+        "rule_id": "I.A.11.R2",
+        "rule_text": "Terms may be synonyms of the code title or lists of conditions for 'other specified' codes (Evidence: pg no: 9, L76-L77)",
+        "explanation": "Inclusion terms serve different purposes: providing synonyms for regular codes or listing specific conditions covered by 'other specified' codes (Evidence: pg no: 9, L76-L77)",
+        "importance": "high",
+        "applies_to": "all_codes_with_inclusion_terms",
+        "common_applications": [
+          "Synonym recognition",
+          "Other specified code content identification"
+        ]
+      },
+      {
+        "rule_id": "I.A.11.R3",
+        "rule_text": "Inclusion terms are not necessarily exhaustive; additional terms may be found only in the Alphabetic Index (Evidence: pg no: 9, L77)",
+        "explanation": "The inclusion terms provide examples but don't represent all possible conditions for a code; the Alphabetic Index may contain additional assignable terms (Evidence: pg no: 9, L77)",
+        "importance": "high",
+        "applies_to": "all_codes_with_inclusion_terms",
+        "common_applications": [
+          "Comprehensive code research",
+          "Alphabetic Index consultation"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Check inclusion terms under relevant codes",
+      "Step 2: Verify if documented condition matches inclusion terms",
+      "Step 3: If no match found, check Alphabetic Index for additional terms",
+      "Step 4: Select appropriate code based on comprehensive term review"
+    ],
+    "related_terminology": [
+      "Inclusion terms",
+      "Code conditions",
+      "Synonyms",
+      "Other specified codes",
+      "Exhaustive lists",
+      "Alphabetic Index terms"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Codes with inclusion terms",
+      "Other specified codes with condition lists"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.A.1",
+        "title": "The Alphabetic Index and Tabular List",
+        "relationship": "related_to",
+        "explanation": "Alphabetic Index may contain additional terms not in inclusion lists"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "I.A.11.S1",
+      "scenario": "Using inclusion terms for code verification",
+      "documentation_example": "Patient diagnosed with myocardial infarction",
+      "step_by_step": [
+        "Step 1: Locate myocardial infarction codes in Tabular List",
+        "Step 2: Check inclusion terms under relevant codes",
+        "Step 3: Verify 'myocardial infarction' appears in inclusion terms",
+        "Step 4: Select appropriate code based on inclusion term match"
+      ],
+      "correct_coding": {
+        "primary_code": "Code with matching inclusion term",
+        "secondary_codes": [],
+        "sequencing": "Primary diagnosis",
+        "rationale": "Inclusion terms specify conditions for which the code should be used (Evidence: pg no: 9, L76)"
+      },
+      "incorrect_coding": {
+        "code": "Code without matching inclusion term",
+        "codes": [],
+        "rationale": "Should use code that includes the documented condition",
+        "common_mistake": "Not checking inclusion terms for code verification"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Inclusion terms are not exhaustive - check Alphabetic Index for additional terms (Evidence: pg no: 9, L77)"
+    ],
+    "best_practices": [
+      "Always check inclusion terms when available",
+      "Consult Alphabetic Index for comprehensive term coverage",
+      "Use inclusion terms to verify appropriate code selection"
+    ],
+    "common_mistakes": [
+      "Assuming inclusion terms are complete lists",
+      "Not checking Alphabetic Index for additional terms",
+      "Ignoring inclusion terms during code selection"
+    ],
+    "tips": [
+      "Inclusion terms help verify correct code selection",
+      "Other specified codes often have detailed inclusion term lists"
+    ],
+    "implementation_notes": [
+      "Inclusion terms provide code-specific guidance"
+    ],
+    "clinical_context": [
+      "Helps match clinical documentation to appropriate codes"
+    ]
+  },
+  "search_keywords": [
+    "inclusion terms",
+    "code conditions",
+    "synonyms",
+    "other specified",
+    "exhaustive lists",
+    "alphabetic index terms"
+  ],
+  "metadata": {
+    "category": "convention",
+    "subcategory": "code_content",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "October 1, 2025",
+    "tags": [
+      "inclusion_terms",
+      "code_content",
+      "synonyms",
+      "other_specified"
+    ]
+  },
+  "page_range_processed": "pages_7_to_9"
+}

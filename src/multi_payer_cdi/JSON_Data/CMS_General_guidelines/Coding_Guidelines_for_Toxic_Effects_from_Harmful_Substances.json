@@ -1,0 +1,196 @@
+{
+  "guideline_id": "I.C.19.e.d",
+  "semantic_title": "Coding Guidelines for Toxic Effects from Harmful Substances",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 19. Chapter 19: Injury, poisoning, and certain other consequences of external causes > e. Adverse Effects, Poisoning, Underdosing and Toxic Effects > (d) Toxic Effects",
+  "page_number": 85,
+  "content": {
+    "full_text": "When a harmful substance is ingested or comes in contact with a person, this is classified as a toxic effect. The toxic effect codes are in categories T51-T65. When coding a toxic effect, assign the toxic effect code first, followed by codes for all associated manifestations of the toxic effect. Toxic effect codes have an associated intent: accidental, intentional self-harm, assault and undetermined. For Sequela (Late Effects) see Section I.B.10. Sequela (Evidence: pg no: 84-85, L18-L26)",
+    "summary": "Toxic effects from harmful substances are coded with T51-T65, sequenced first with manifestations following, and include intent indicators (Evidence: pg no: 84-85, L18-L26)",
+    "key_concepts": [
+      "Harmful substance exposure (Evidence: pg no: 84, L19)",
+      "Toxic effect classification (Evidence: pg no: 84, L20)",
+      "T51-T65 code categories (Evidence: pg no: 84, L20)",
+      "Sequencing rules (Evidence: pg no: 84, L20-L21)",
+      "Intent indicators (Evidence: pg no: 85, L24-L25)",
+      "Manifestation coding (Evidence: pg no: 84, L21)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "toxic_effect_definition_rule",
+        "rule_text": "When a harmful substance is ingested or comes in contact with a person, this is classified as a toxic effect (Evidence: pg no: 84, L19-L20)",
+        "explanation": "Toxic effects occur when harmful substances enter the body through ingestion or contact, distinct from drug poisoning (Evidence: pg no: 84, L19-L20)",
+        "importance": "critical",
+        "applies_to": "T51-T65",
+        "common_applications": [
+          "Chemical exposures",
+          "Environmental toxins",
+          "Industrial substance exposure"
+        ]
+      },
+      {
+        "rule_id": "toxic_effect_sequencing_rule",
+        "rule_text": "When coding a toxic effect, assign the toxic effect code first, followed by codes for all associated manifestations of the toxic effect (Evidence: pg no: 84, L20-L21)",
+        "explanation": "Toxic effect codes from T51-T65 are sequenced as primary codes, with all resulting symptoms and conditions coded as secondary (Evidence: pg no: 84, L20-L21)",
+        "importance": "critical",
+        "applies_to": "T51-T65",
+        "common_applications": [
+          "All toxic effect coding scenarios"
+        ]
+      },
+      {
+        "rule_id": "toxic_effect_intent_rule",
+        "rule_text": "Toxic effect codes have an associated intent: accidental, intentional self-harm, assault and undetermined (Evidence: pg no: 85, L24-L25)",
+        "explanation": "All toxic effect codes must include intent specification using appropriate character indicators (Evidence: pg no: 85, L24-L25)",
+        "importance": "high",
+        "applies_to": "T51-T65",
+        "common_applications": [
+          "Accidental exposures",
+          "Suicide attempts",
+          "Assault cases",
+          "Unknown intent situations"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify harmful substance involved",
+      "Step 2: Determine route of exposure (ingestion, contact)",
+      "Step 3: Assign appropriate T51-T65 code with intent",
+      "Step 4: Code all manifestations as secondary codes",
+      "Step 5: Consider sequela coding if applicable"
+    ],
+    "related_terminology": [
+      "Toxic effect",
+      "Harmful substance",
+      "Chemical exposure",
+      "Intent indicators",
+      "Manifestations",
+      "Sequela"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "T51-T65",
+        "description": "Toxic effects of substances chiefly nonmedicinal as to source (Evidence: pg no: 84, L20)",
+        "requirement": "Use for harmful substance exposures",
+        "usage_rules": [
+          "Assign toxic effect code first (Evidence: pg no: 84, L20-L21)",
+          "Include intent indicator (Evidence: pg no: 85, L24-L25)",
+          "Follow with manifestation codes (Evidence: pg no: 84, L21)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "T51-T65 with intent characters",
+        "description": "Toxic effect codes include intent: accidental, intentional self-harm, assault, undetermined (Evidence: pg no: 85, L24-L25)",
+        "example": "T51.0X1A (accidental), T51.0X2A (intentional self-harm)",
+        "explanation": "Intent is specified in character position"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Toxic effect codes",
+      "Manifestation codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.B.10",
+        "title": "Sequela (Late Effects)",
+        "relationship": "applies_to",
+        "explanation": "Referenced for coding late effects of toxic exposures (Evidence: pg no: 85, L26)"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "toxic_effect_scenario_1",
+      "scenario": "Worker accidentally exposed to industrial solvent develops respiratory symptoms",
+      "documentation_example": "Factory worker accidentally inhaled toluene vapors, developed cough, shortness of breath, and dizziness",
+      "step_by_step": [
+        "Step 1: Identify toluene as harmful substance",
+        "Step 2: Determine accidental exposure",
+        "Step 3: Assign toxic effect code with accidental intent",
+        "Step 4: Code respiratory manifestations as secondary"
+      ],
+      "correct_coding": {
+        "primary_code": "T52.2X1A",
+        "secondary_codes": [
+          "R05",
+          "R06.02",
+          "R42"
+        ],
+        "sequencing": "Toxic effect code first, manifestations follow",
+        "rationale": "Toxic effect codes are sequenced first with manifestations following (Evidence: pg no: 84, L20-L21)"
+      },
+      "incorrect_coding": {
+        "code": "R05",
+        "codes": [
+          "R05",
+          "R06.02"
+        ],
+        "rationale": "Cannot sequence manifestations before toxic effect code",
+        "common_mistake": "Sequencing manifestations first"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Always sequence toxic effect code first before manifestations (Evidence: pg no: 84, L20-L21)"
+    ],
+    "best_practices": [
+      "Document all manifestations of toxic exposure (Evidence: pg no: 84, L21)",
+      "Clearly document intent when known (Evidence: pg no: 85, L24-L25)"
+    ],
+    "common_mistakes": [
+      "Sequencing manifestations before toxic effect codes (Evidence: pg no: 84, L20-L21)",
+      "Omitting intent indicators (Evidence: pg no: 85, L24-L25)"
+    ],
+    "tips": [
+      "Consider sequela coding for long-term effects (Evidence: pg no: 85, L26)",
+      "Document substance identification clearly"
+    ],
+    "implementation_notes": [
+      "Requires clear documentation of substance and exposure route",
+      "May need poison control center consultation"
+    ],
+    "clinical_context": [
+      "Common in occupational medicine",
+      "Emergency department presentations",
+      "Environmental health cases"
+    ]
+  },
+  "search_keywords": [
+    "toxic effects",
+    "harmful substances",
+    "chemical exposure",
+    "T51-T65",
+    "toxic manifestations",
+    "intent indicators",
+    "substance exposure"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "poisoning_and_adverse_effects",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient",
+      "emergency"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "toxic_effects",
+      "T51-T65",
+      "harmful_substances",
+      "intent",
+      "manifestations"
+    ]
+  },
+  "page_range_processed": "pages_84_to_87"
+}

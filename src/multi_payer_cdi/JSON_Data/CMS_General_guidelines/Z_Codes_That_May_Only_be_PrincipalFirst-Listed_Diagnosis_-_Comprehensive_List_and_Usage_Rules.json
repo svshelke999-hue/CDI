@@ -1,0 +1,317 @@
+{
+  "guideline_id": "I.C.21.c.15",
+  "semantic_title": "Z Codes That May Only be Principal/First-Listed Diagnosis - Comprehensive List and Usage Rules",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 21. Chapter 21: Factors influencing health status and contact with health services (Z00-Z99) > c. Categories of Z Codes > 15) Z Codes That May Only be Principal/First-Listed Diagnosis",
+  "page_number": 106,
+  "content": {
+    "full_text": "The following Z codes/subcategories/categories may only be reported as the principal/first-listed diagnosis, except when there are multiple encounters on the same day and the medical records for the encounters are combined (Evidence: pg no: 105-106, L24-L25)",
+    "summary": "Comprehensive list of Z codes that are restricted to principal or first-listed diagnosis position with exception for combined same-day encounters (Evidence: pg no: 105-106, L24-L25)",
+    "key_concepts": [
+      "Specific Z codes restricted to principal/first-listed position (Evidence: pg no: 105, L24)",
+      "Exception exists for multiple same-day encounters with combined records (Evidence: pg no: 105-106, L25)",
+      "Comprehensive list includes examination, procedure, and care encounter codes (Evidence: pg no: 106, L26-L51)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "PRINCIPAL_Z_RESTRICTION",
+        "rule_text": "Listed Z codes may only be reported as principal/first-listed diagnosis (Evidence: pg no: 105, L24)",
+        "explanation": "These codes represent the primary reason for the healthcare encounter and cannot be used as secondary diagnoses (Evidence: pg no: 105, L24)",
+        "importance": "critical",
+        "applies_to": "specified_z_codes",
+        "common_applications": [
+          "Routine examinations",
+          "Preventive procedures",
+          "Newborn care",
+          "Pregnancy supervision"
+        ]
+      },
+      {
+        "rule_id": "SAME_DAY_EXCEPTION",
+        "rule_text": "Exception applies when multiple encounters occur on same day with combined medical records (Evidence: pg no: 105-106, L25)",
+        "explanation": "When encounters are combined into single record, the restriction may not apply (Evidence: pg no: 105-106, L25)",
+        "importance": "high",
+        "applies_to": "specified_z_codes",
+        "common_applications": [
+          "Multiple same-day visits",
+          "Combined encounter documentation"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify if Z code is on the restricted list",
+      "Step 2: Verify if encounter qualifies for principal/first-listed position",
+      "Step 3: Check for same-day multiple encounter exception",
+      "Step 4: Apply appropriate sequencing rules"
+    ],
+    "related_terminology": [
+      "Principal diagnosis",
+      "First-listed diagnosis",
+      "Multiple encounters",
+      "Combined records",
+      "Same-day visits"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z00",
+        "description": "Encounter for general examination without complaint, suspected or reported diagnosis (Evidence: pg no: 106, L26)",
+        "requirement": "Principal/first-listed only",
+        "usage_rules": [
+          "Except Z00.6 (Evidence: pg no: 106, L27)"
+        ]
+      },
+      {
+        "range": "Z01",
+        "description": "Encounter for other special examination without complaint, suspected or reported diagnosis (Evidence: pg no: 106, L28-L29)",
+        "requirement": "Principal/first-listed only",
+        "usage_rules": []
+      },
+      {
+        "range": "Z02",
+        "description": "Encounter for administrative examination (Evidence: pg no: 106, L30)",
+        "requirement": "Principal/first-listed only",
+        "usage_rules": []
+      },
+      {
+        "range": "Z04",
+        "description": "Encounter for examination and observation for other reasons (Evidence: pg no: 106, L31)",
+        "requirement": "Principal/first-listed only",
+        "usage_rules": []
+      },
+      {
+        "range": "Z34",
+        "description": "Encounter for supervision of normal pregnancy (Evidence: pg no: 106, L37)",
+        "requirement": "Principal/first-listed only",
+        "usage_rules": []
+      },
+      {
+        "range": "Z38",
+        "description": "Liveborn infants according to place of birth and type of delivery (Evidence: pg no: 106, L39-L40)",
+        "requirement": "Principal/first-listed only",
+        "usage_rules": []
+      },
+      {
+        "range": "Z39",
+        "description": "Encounter for maternal postpartum care and examination (Evidence: pg no: 106, L38)",
+        "requirement": "Principal/first-listed only",
+        "usage_rules": []
+      },
+      {
+        "range": "Z40",
+        "description": "Encounter for prophylactic surgery (Evidence: pg no: 106, L41)",
+        "requirement": "Principal/first-listed only",
+        "usage_rules": []
+      },
+      {
+        "range": "Z42",
+        "description": "Encounter for plastic and reconstructive surgery following medical procedure or healed injury (Evidence: pg no: 106, L42-L43)",
+        "requirement": "Principal/first-listed only",
+        "usage_rules": []
+      },
+      {
+        "range": "Z52",
+        "description": "Donors of organs and tissues (Evidence: pg no: 106, L46)",
+        "requirement": "Principal/first-listed only",
+        "usage_rules": [
+          "Except Z52.9, Donor of unspecified organ or tissue (Evidence: pg no: 106, L47)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "Z31.81",
+        "description": "Encounter for male factor infertility in female patient (Evidence: pg no: 106, L35)",
+        "context": "Principal/first-listed diagnosis only",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z31": "Procreative management",
+          ".81": "Male factor infertility in female patient"
+        }
+      },
+      {
+        "code": "Z31.83",
+        "description": "Encounter for assisted reproductive fertility procedure cycle (Evidence: pg no: 106, L36)",
+        "context": "Principal/first-listed diagnosis only",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z31": "Procreative management",
+          ".83": "Assisted reproductive fertility procedure cycle"
+        }
+      },
+      {
+        "code": "Z31.84",
+        "description": "Encounter for fertility preservation procedure (Evidence: pg no: 106, L37)",
+        "context": "Principal/first-listed diagnosis only",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z31": "Procreative management",
+          ".84": "Fertility preservation procedure"
+        }
+      },
+      {
+        "code": "Z32.2",
+        "description": "Encounter for elective termination of pregnancy (Evidence: pg no: 106, L32)",
+        "context": "Principal/first-listed diagnosis only",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z32": "Encounter for pregnancy test and childbirth instruction",
+          ".2": "Elective termination of pregnancy"
+        }
+      },
+      {
+        "code": "Z51.0",
+        "description": "Encounter for antineoplastic radiation therapy (Evidence: pg no: 106, L44)",
+        "context": "Principal/first-listed diagnosis only",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z51": "Encounter for other aftercare",
+          ".0": "Antineoplastic radiation therapy"
+        }
+      },
+      {
+        "code": "Z51.1-",
+        "description": "Encounter for antineoplastic chemotherapy and immunotherapy (Evidence: pg no: 106, L44-L45)",
+        "context": "Principal/first-listed diagnosis only",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z51": "Encounter for other aftercare",
+          ".1-": "Antineoplastic chemotherapy and immunotherapy subcategory"
+        }
+      },
+      {
+        "code": "Z76.1",
+        "description": "Encounter for health supervision and care of foundling (Evidence: pg no: 106, L48)",
+        "context": "Principal/first-listed diagnosis only",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z76": "Persons encountering health services in other circumstances",
+          ".1": "Health supervision and care of foundling"
+        }
+      },
+      {
+        "code": "Z76.2",
+        "description": "Encounter for health supervision and care of other healthy infant and child (Evidence: pg no: 106, L48-L49)",
+        "context": "Principal/first-listed diagnosis only",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z76": "Persons encountering health services in other circumstances",
+          ".2": "Health supervision and care of other healthy infant and child"
+        }
+      },
+      {
+        "code": "Z99.12",
+        "description": "Encounter for respirator [ventilator] dependence during power failure (Evidence: pg no: 106, L50-L51)",
+        "context": "Principal/first-listed diagnosis only",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z99": "Dependence on enabling machines and devices",
+          ".12": "Respirator dependence during power failure"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "General examinations",
+      "Special examinations",
+      "Administrative examinations",
+      "Observation encounters",
+      "Pregnancy supervision",
+      "Newborn codes",
+      "Postpartum care",
+      "Prophylactic surgery",
+      "Reconstructive surgery",
+      "Organ donors",
+      "Fertility procedures",
+      "Cancer treatment",
+      "Child health supervision"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "PRINCIPAL_Z_ROUTINE_EXAM",
+      "scenario": "Patient presents for routine annual physical examination",
+      "documentation_example": "Annual physical examination - patient healthy, no complaints",
+      "step_by_step": [
+        "Step 1: Identify encounter type as routine examination",
+        "Step 2: Select appropriate Z00 code",
+        "Step 3: Assign as principal/first-listed diagnosis",
+        "Step 4: Add any additional findings as secondary diagnoses"
+      ],
+      "correct_coding": {
+        "primary_code": "Z00.00",
+        "secondary_codes": [],
+        "sequencing": "Must be principal/first-listed diagnosis",
+        "rationale": "Z00 codes may only be used as principal/first-listed diagnosis (Evidence: pg no: 106, L26-L27)"
+      },
+      "incorrect_coding": {
+        "code": "Z00.00",
+        "codes": [
+          "Z00.00"
+        ],
+        "rationale": "Cannot be used as secondary diagnosis",
+        "common_mistake": "Attempting to use routine examination codes as secondary diagnoses"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "These Z codes cannot be used as secondary diagnoses (Evidence: pg no: 105, L24)",
+      "Exception only applies to same-day combined encounters (Evidence: pg no: 105-106, L25)"
+    ],
+    "best_practices": [
+      "Verify encounter type matches code restriction requirements",
+      "Check for same-day encounter combinations before applying restrictions"
+    ],
+    "common_mistakes": [
+      "Using restricted Z codes as secondary diagnoses",
+      "Misunderstanding same-day encounter exception"
+    ],
+    "tips": [
+      "Review complete list before coding encounters",
+      "Consider encounter documentation carefully for appropriate sequencing"
+    ],
+    "implementation_notes": [
+      "Requires understanding of encounter types",
+      "May affect coding workflow for multiple encounters"
+    ],
+    "clinical_context": [
+      "Routine examinations",
+      "Preventive care",
+      "Newborn care",
+      "Cancer treatment encounters"
+    ]
+  },
+  "search_keywords": [
+    "principal diagnosis Z codes",
+    "first-listed diagnosis",
+    "Z code restrictions",
+    "examination codes",
+    "routine care codes",
+    "newborn codes",
+    "cancer treatment codes"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "Z_codes_sequencing",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "Z_codes",
+      "principal_diagnosis",
+      "sequencing",
+      "restrictions"
+    ]
+  },
+  "page_range_processed": "pages_105_to_108"
+}

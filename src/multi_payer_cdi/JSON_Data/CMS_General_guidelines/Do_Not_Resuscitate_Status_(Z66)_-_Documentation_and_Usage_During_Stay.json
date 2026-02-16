@@ -1,0 +1,141 @@
+{
+  "guideline_id": "I.C.21.c.3.i",
+  "semantic_title": "Do Not Resuscitate Status (Z66) - Documentation and Usage During Stay",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 21. Factors Influencing Health Status > c. Categories of Z Codes > 3) Status",
+  "page_number": 95,
+  "content": {
+    "full_text": "This code may be used when it is documented by the provider that a patient is on do not resuscitate status at any time during the stay. (Evidence: pg no: 95, L52)",
+    "summary": "Z66 can be used when provider documents DNR status at any time during the stay (Evidence: pg no: 95, L51-L52)",
+    "key_concepts": [
+      "Do not resuscitate status (Evidence: pg no: 95, L51)",
+      "Provider documentation required (Evidence: pg no: 95, L52)",
+      "Any time during stay (Evidence: pg no: 95, L52)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "DNR_DOC",
+        "rule_text": "Use when provider documents DNR status at any time during stay (Evidence: pg no: 95, L52)",
+        "explanation": "Z66 can be assigned whenever provider documentation indicates patient has DNR status during any part of the hospital stay (Evidence: pg no: 95, L52)",
+        "importance": "high",
+        "applies_to": "Z66",
+        "common_applications": [
+          "End-of-life care",
+          "Palliative care encounters",
+          "Advanced directive documentation"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Review provider documentation for DNR status",
+      "Step 2: Confirm DNR was documented at any time during stay",
+      "Step 3: Assign Z66 code as appropriate"
+    ],
+    "related_terminology": [
+      "Do not resuscitate",
+      "DNR status",
+      "Advanced directives",
+      "End-of-life care"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "Z66",
+        "description": "Do not resuscitate (Evidence: pg no: 95, L51)",
+        "context": "Use when provider documents DNR status during stay",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z66": "Do not resuscitate status"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Do not resuscitate status"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "DNR_01",
+      "scenario": "Patient with terminal cancer and DNR order",
+      "documentation_example": "Patient with metastatic lung cancer admitted for pain management. DNR order documented by attending physician on admission.",
+      "step_by_step": [
+        "Step 1: Identify primary condition (cancer with pain)",
+        "Step 2: Note DNR documentation by provider",
+        "Step 3: Assign primary diagnosis codes",
+        "Step 4: Assign Z66 as additional diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "C78.00",
+        "secondary_codes": [
+          "Z66"
+        ],
+        "sequencing": "Primary condition first, then DNR status",
+        "rationale": "Provider documented DNR status during stay (Evidence: pg no: 95, L52)"
+      },
+      "incorrect_coding": {
+        "code": "No Z66",
+        "codes": [
+          "Missing DNR code"
+        ],
+        "rationale": "Should capture documented DNR status",
+        "common_mistake": "Not coding documented DNR status"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Requires provider documentation (Evidence: pg no: 95, L52)"
+    ],
+    "best_practices": [
+      "Review documentation throughout entire stay for DNR orders",
+      "Ensure provider documentation is present"
+    ],
+    "common_mistakes": [
+      "Not coding documented DNR status",
+      "Using without proper provider documentation"
+    ],
+    "tips": [
+      "DNR can be documented at any time during stay"
+    ],
+    "implementation_notes": [
+      "Important for quality measures and care planning"
+    ],
+    "clinical_context": [
+      "End-of-life care",
+      "Palliative care",
+      "Advanced care planning"
+    ]
+  },
+  "search_keywords": [
+    "do not resuscitate",
+    "DNR",
+    "Z66",
+    "advanced directives",
+    "end of life",
+    "palliative care"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "status_codes",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "DNR",
+      "resuscitate",
+      "directives",
+      "palliative"
+    ]
+  },
+  "page_range_processed": "pages_93_to_96"
+}

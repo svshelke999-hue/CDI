@@ -1,0 +1,147 @@
+{
+  "guideline_id": "I.C.15.l.2",
+  "semantic_title": "Tobacco Use During Pregnancy, Childbirth and Puerperium",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 15. Pregnancy, Childbirth, and the Puerperium > l. Alcohol, tobacco and drug use during pregnancy, childbirth and the puerperium > 2) Tobacco use during pregnancy, childbirth and the puerperium",
+  "page_number": 68,
+  "content": {
+    "full_text": "Codes under subcategory O99.33, Smoking (tobacco) complicating pregnancy, childbirth, and the puerperium, should be assigned for any pregnancy case when a patient uses any type of tobacco product during the pregnancy or postpartum. A secondary code from category F17, Nicotine dependence, should also be assigned to identify the type of nicotine dependence. (Evidence: pg no: 68, L57-L59)",
+    "summary": "Guidelines for coding tobacco use in pregnancy requiring dual coding with obstetric and nicotine dependence codes (Evidence: pg no: 68, L57-L59)",
+    "key_concepts": [
+      "O99.33 for any tobacco use in pregnancy/postpartum (Evidence: pg no: 68, L58-L59)",
+      "F17 secondary code required for nicotine dependence type (Evidence: pg no: 68, L59)",
+      "Applies to any type of tobacco product (Evidence: pg no: 68, L58-L59)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "tobacco_pregnancy_dual_coding",
+        "rule_text": "Assign O99.33 and secondary F17 code for tobacco use in pregnancy (Evidence: pg no: 68, L57-L59)",
+        "explanation": "Any tobacco product use during pregnancy or postpartum requires both obstetric complication code and nicotine dependence code (Evidence: pg no: 68, L57-L59)",
+        "importance": "critical",
+        "applies_to": "O99.33, F17",
+        "common_applications": [
+          "Cigarette smoking during pregnancy",
+          "Other tobacco product use in pregnancy"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify tobacco use during pregnancy or postpartum",
+      "Step 2: Assign appropriate O99.33 code",
+      "Step 3: Add secondary F17 code for nicotine dependence type"
+    ],
+    "related_terminology": [
+      "tobacco use",
+      "smoking",
+      "nicotine dependence",
+      "pregnancy complications"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "O99.33",
+        "description": "Smoking (tobacco) complicating pregnancy, childbirth, and the puerperium (Evidence: pg no: 68, L58)",
+        "requirement": "Primary code for tobacco use in pregnancy",
+        "usage_rules": [
+          "Use for any type of tobacco product use (Evidence: pg no: 68, L58-L59)"
+        ]
+      },
+      {
+        "range": "F17",
+        "description": "Nicotine dependence (Evidence: pg no: 68, L59)",
+        "requirement": "Secondary code required",
+        "usage_rules": [
+          "Identifies type of nicotine dependence (Evidence: pg no: 68, L59)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Subcategory O99.33 - Smoking (tobacco) complicating pregnancy, childbirth, and the puerperium",
+      "Category F17 - Nicotine dependence"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "pregnancy_smoking",
+      "scenario": "Pregnant patient who smokes cigarettes",
+      "documentation_example": "25-year-old female at 30 weeks gestation, continues to smoke 1 pack per day",
+      "step_by_step": [
+        "Step 1: Identify tobacco use complicating pregnancy",
+        "Step 2: Assign O99.33x code",
+        "Step 3: Add F17.210 for cigarette nicotine dependence"
+      ],
+      "correct_coding": {
+        "primary_code": "O99.333",
+        "secondary_codes": [
+          "F17.210"
+        ],
+        "sequencing": "Obstetric complication first, then nicotine dependence",
+        "rationale": "Dual coding required for complete documentation of tobacco use in pregnancy (Evidence: pg no: 68, L57-L59)"
+      },
+      "incorrect_coding": {
+        "code": "F17.210",
+        "codes": [
+          "F17.210 only"
+        ],
+        "rationale": "Missing obstetric complication code",
+        "common_mistake": "Using only nicotine dependence code without pregnancy complication code"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Must code any type of tobacco product use during pregnancy or postpartum (Evidence: pg no: 68, L58-L59)"
+    ],
+    "best_practices": [
+      "Always use dual coding for tobacco use in pregnancy (Evidence: pg no: 68, L57-L59)"
+    ],
+    "common_mistakes": [
+      "Using only F17 codes without O99.33",
+      "Missing secondary nicotine dependence codes"
+    ],
+    "tips": [
+      "Applies to any tobacco product, not just cigarettes"
+    ],
+    "implementation_notes": [
+      "Applies to pregnancy and postpartum periods"
+    ],
+    "clinical_context": [
+      "Tobacco use is significant complication in pregnancy"
+    ]
+  },
+  "search_keywords": [
+    "tobacco use",
+    "smoking",
+    "pregnancy",
+    "O99.33",
+    "F17",
+    "nicotine dependence",
+    "cigarettes"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "substance_use_pregnancy",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "tobacco_use",
+      "smoking",
+      "pregnancy",
+      "dual_coding",
+      "nicotine_dependence"
+    ]
+  },
+  "page_range_processed": "pages_66_to_69"
+}

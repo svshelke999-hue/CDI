@@ -1,0 +1,156 @@
+{
+  "guideline_id": "I.C.16.c.1",
+  "semantic_title": "Assigning Codes for Perinatal Conditions That Require Treatment",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 16. Chapter 16: Certain conditions originating in the perinatal period > c. Coding Additional Perinatal Diagnoses > 1) Assigning codes for conditions that require treatment",
+  "page_number": 73,
+  "content": {
+    "full_text": "Assign codes for conditions that require treatment or further investigation, prolong the length of stay, or require resource utilization. (Evidence: pg no: 73, L39-L40)",
+    "summary": "Code perinatal conditions that require treatment, further investigation, prolong stay, or require resource utilization (Evidence: pg no: 73, L39-L40)",
+    "key_concepts": [
+      "Treatment requirement (Evidence: pg no: 73, L39)",
+      "Further investigation (Evidence: pg no: 73, L39)",
+      "Prolonged length of stay (Evidence: pg no: 73, L40)",
+      "Resource utilization (Evidence: pg no: 73, L40)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "perinatal_treatment_coding_rule",
+        "rule_text": "Assign codes for perinatal conditions that require treatment or further investigation (Evidence: pg no: 73, L39)",
+        "explanation": "Any perinatal condition that necessitates active treatment or additional diagnostic workup should be coded (Evidence: pg no: 73, L39)",
+        "importance": "high",
+        "applies_to": "All perinatal conditions",
+        "common_applications": [
+          "Respiratory distress requiring oxygen therapy",
+          "Hypoglycemia requiring glucose monitoring and treatment"
+        ]
+      },
+      {
+        "rule_id": "perinatal_resource_coding_rule",
+        "rule_text": "Assign codes for conditions that prolong length of stay or require resource utilization (Evidence: pg no: 73, L40)",
+        "explanation": "Conditions that impact hospital resources or extend the typical newborn stay should be coded even if minimal treatment is required (Evidence: pg no: 73, L40)",
+        "importance": "high",
+        "applies_to": "All perinatal conditions",
+        "common_applications": [
+          "Feeding difficulties requiring extended monitoring",
+          "Mild jaundice requiring phototherapy"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify all perinatal conditions documented",
+      "Step 2: Determine if condition requires treatment",
+      "Step 3: Assess if further investigation is needed",
+      "Step 4: Evaluate impact on length of stay or resources",
+      "Step 5: Assign codes for qualifying conditions"
+    ],
+    "related_terminology": [
+      "Treatment requirement",
+      "Further investigation",
+      "Length of stay",
+      "Resource utilization"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "P00-P96",
+        "description": "Certain conditions originating in the perinatal period (Evidence: pg no: 73, L39-L40)",
+        "requirement": "Code when conditions meet specified criteria",
+        "usage_rules": [
+          "Must require treatment or investigation (Evidence: pg no: 73, L39)",
+          "Must prolong stay or require resources (Evidence: pg no: 73, L40)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Perinatal conditions requiring treatment or investigation"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.16.c.2",
+        "title": "Codes for conditions with future health care implications",
+        "relationship": "related_to",
+        "explanation": "Both guidelines address when to code additional perinatal diagnoses"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "perinatal_treatment_required",
+      "scenario": "Newborn with transient tachypnea requiring oxygen therapy and extended monitoring",
+      "documentation_example": "Term newborn developed transient tachypnea of the newborn. Required supplemental oxygen for 24 hours and extended monitoring. Resolved prior to discharge.",
+      "step_by_step": [
+        "Step 1: Identify transient tachypnea as perinatal condition",
+        "Step 2: Confirm condition required treatment (oxygen therapy)",
+        "Step 3: Note extended monitoring represents resource utilization",
+        "Step 4: Assign code for transient tachypnea"
+      ],
+      "correct_coding": {
+        "primary_code": "Z38.00",
+        "secondary_codes": [
+          "P22.1"
+        ],
+        "sequencing": "Z38 as principal, P22.1 as secondary",
+        "rationale": "Condition required treatment and resource utilization (Evidence: pg no: 73, L39-L40)"
+      },
+      "incorrect_coding": {
+        "code": "Z38.00 only",
+        "codes": [],
+        "rationale": "Should code the transient tachypnea since it required treatment and monitoring",
+        "common_mistake": "Not coding conditions that require treatment or resources"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [],
+    "best_practices": [
+      "Code all conditions requiring treatment or investigation (Evidence: pg no: 73, L39)",
+      "Consider resource utilization impact when determining coding (Evidence: pg no: 73, L40)"
+    ],
+    "common_mistakes": [
+      "Not coding conditions that prolong stay or require resources"
+    ],
+    "tips": [
+      "Consider both clinical treatment and resource impact (Evidence: pg no: 73, L39-L40)"
+    ],
+    "implementation_notes": [
+      "Applies to all perinatal conditions meeting specified criteria"
+    ],
+    "clinical_context": [
+      "Newborn care requiring additional interventions or monitoring"
+    ]
+  },
+  "search_keywords": [
+    "perinatal conditions",
+    "treatment required",
+    "further investigation",
+    "length of stay",
+    "resource utilization",
+    "additional diagnoses"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "perinatal_conditions",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "perinatal",
+      "treatment",
+      "investigation",
+      "resources",
+      "additional diagnoses"
+    ]
+  },
+  "page_range_processed": "pages_72_to_75"
+}

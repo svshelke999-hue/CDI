@@ -1,0 +1,247 @@
+{
+  "guideline_id": "POA.6",
+  "semantic_title": "Present on Admission (POA) Indicator Assignment for Obstetrical Conditions",
+  "section_path": "Present on Admission Reporting Guidelines > Obstetrical Conditions",
+  "page_number": 120,
+  "content": {
+    "full_text": "Whether or not the patient delivers during the current hospitalization does not affect assignment of the POA indicator. The determining factor for POA assignment is whether the pregnancy complication or obstetrical condition described by the code was present at the time of admission or not. If the pregnancy complication or obstetrical condition was present on admission (e.g., patient admitted in preterm labor), assign 'Y'. If the pregnancy complication or obstetrical condition was not present on admission (e.g., 2nd degree laceration during delivery, postpartum hemorrhage that occurred during current hospitalization, fetal distress develops after admission), assign 'N'. If the obstetrical code includes more than one diagnosis and any of the diagnoses identified by the code were not present on admission assign 'N'. (e.g., Category O11, Pre-existing hypertension with pre-eclampsia) (Evidence: pg no: 120, L12-L17)",
+    "summary": "Guidelines for assigning POA indicators to obstetrical conditions based on presence at admission, not delivery status (Evidence: pg no: 120, L12-L13)",
+    "key_concepts": [
+      "Delivery status irrelevant to POA assignment (Evidence: pg no: 120, L12-L13)",
+      "Timing of pregnancy complication determines POA (Evidence: pg no: 120, L13-L14)",
+      "Multiple diagnoses in obstetrical codes (Evidence: pg no: 120, L16-L17)",
+      "Pre-existing conditions with pregnancy complications (Evidence: pg no: 120, L17)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "POA.6.1",
+        "rule_text": "Whether or not the patient delivers during the current hospitalization does not affect assignment of the POA indicator (Evidence: pg no: 120, L12-L13)",
+        "explanation": "POA assignment for obstetrical conditions is independent of delivery status during the hospitalization (Evidence: pg no: 120, L12-L13)",
+        "importance": "critical",
+        "applies_to": "obstetrical_codes",
+        "common_applications": [
+          "Antepartum admissions",
+          "Labor and delivery admissions",
+          "Postpartum admissions"
+        ]
+      },
+      {
+        "rule_id": "POA.6.2",
+        "rule_text": "The determining factor for POA assignment is whether the pregnancy complication or obstetrical condition described by the code was present at the time of admission or not (Evidence: pg no: 120, L13-L14)",
+        "explanation": "POA assignment depends solely on whether the specific obstetrical condition existed at admission time (Evidence: pg no: 120, L13-L14)",
+        "importance": "critical",
+        "applies_to": "obstetrical_codes",
+        "common_applications": [
+          "Pregnancy complications",
+          "Labor complications",
+          "Delivery complications"
+        ]
+      },
+      {
+        "rule_id": "POA.6.3",
+        "rule_text": "If the obstetrical code includes more than one diagnosis and any of the diagnoses identified by the code were not present on admission assign 'N' (Evidence: pg no: 120, L16-L17)",
+        "explanation": "For obstetrical codes representing multiple conditions, any condition not present on admission requires POA 'N' assignment (Evidence: pg no: 120, L16-L17)",
+        "importance": "critical",
+        "applies_to": "obstetrical_codes",
+        "common_applications": [
+          "Pre-existing hypertension with pre-eclampsia",
+          "Combined obstetrical conditions"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify obstetrical condition/complication",
+      "Step 2: Determine if condition was present at time of admission",
+      "Step 3: Ignore delivery status during hospitalization",
+      "Step 4: For multiple diagnoses in one code, ensure all were present on admission",
+      "Step 5: Assign 'Y' if present on admission, 'N' if not present or developed after admission"
+    ],
+    "related_terminology": [
+      "Obstetrical conditions",
+      "Pregnancy complications",
+      "Present on admission",
+      "Preterm labor",
+      "Postpartum hemorrhage",
+      "Fetal distress",
+      "Pre-eclampsia"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Category O11 - Pre-existing hypertension with pre-eclampsia (Evidence: pg no: 120, L17)",
+      "Obstetrical codes",
+      "Pregnancy complication codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "POA.5",
+        "title": "Same Diagnosis Code for Two or More Conditions",
+        "relationship": "applies_concept",
+        "explanation": "Multiple diagnosis concept applies to obstetrical codes"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "POA.6.S1",
+      "scenario": "Patient admitted in preterm labor",
+      "documentation_example": "Patient admitted at 34 weeks gestation in active preterm labor",
+      "step_by_step": [
+        "Step 1: Identify preterm labor as obstetrical condition",
+        "Step 2: Confirm preterm labor was present at admission",
+        "Step 3: Assign POA indicator 'Y'"
+      ],
+      "correct_coding": {
+        "primary_code": "Preterm labor code",
+        "secondary_codes": [],
+        "sequencing": "Standard obstetrical sequencing",
+        "rationale": "Preterm labor was present at time of admission (Evidence: pg no: 120, L14-L15)"
+      },
+      "incorrect_coding": {
+        "code": "Same code with POA 'N'",
+        "codes": [],
+        "rationale": "Would be incorrect since condition was present on admission",
+        "common_mistake": "Confusing delivery timing with condition onset timing"
+      }
+    },
+    {
+      "scenario_id": "POA.6.S2",
+      "scenario": "Second degree laceration during delivery",
+      "documentation_example": "Patient delivered vaginally with second degree perineal laceration",
+      "step_by_step": [
+        "Step 1: Identify laceration as obstetrical condition",
+        "Step 2: Determine laceration occurred during delivery, not present on admission",
+        "Step 3: Assign POA indicator 'N'"
+      ],
+      "correct_coding": {
+        "primary_code": "Second degree laceration code",
+        "secondary_codes": [],
+        "sequencing": "Standard obstetrical sequencing",
+        "rationale": "Laceration occurred during delivery, not present on admission (Evidence: pg no: 120, L15)"
+      },
+      "incorrect_coding": {
+        "code": "Same code with POA 'Y'",
+        "codes": [],
+        "rationale": "Would be incorrect since laceration was not present on admission",
+        "common_mistake": "Assigning 'Y' for delivery complications"
+      }
+    },
+    {
+      "scenario_id": "POA.6.S3",
+      "scenario": "Pre-existing hypertension with pre-eclampsia developing after admission",
+      "documentation_example": "Patient with chronic hypertension admitted for routine care, develops pre-eclampsia on day 2",
+      "step_by_step": [
+        "Step 1: Identify O11 represents both pre-existing hypertension and pre-eclampsia",
+        "Step 2: Determine hypertension was present, pre-eclampsia developed after admission",
+        "Step 3: Assign POA indicator 'N' because not all conditions were present on admission"
+      ],
+      "correct_coding": {
+        "primary_code": "O11",
+        "secondary_codes": [],
+        "sequencing": "Standard obstetrical sequencing",
+        "rationale": "Any diagnosis in the code not present on admission requires 'N' assignment (Evidence: pg no: 120, L16-L17)"
+      },
+      "incorrect_coding": {
+        "code": "O11 with POA 'Y'",
+        "codes": [],
+        "rationale": "Would be incorrect because pre-eclampsia was not present on admission",
+        "common_mistake": "Focusing only on pre-existing condition, ignoring newly developed condition"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "POA.6.E1",
+      "scenario": "Patient admitted in preterm labor",
+      "code_example": "Preterm labor code with POA 'Y'",
+      "breakdown": {
+        "preterm_labor": "Obstetrical condition present at admission (Evidence: pg no: 120, L14-L15)",
+        "admission_timing": "Condition existed when patient was admitted (Evidence: pg no: 120, L14-L15)"
+      },
+      "rationale": "Condition was present at time of admission (Evidence: pg no: 120, L14-L15)"
+    },
+    {
+      "example_id": "POA.6.E2",
+      "scenario": "Second degree laceration during delivery",
+      "code_example": "Laceration code with POA 'N'",
+      "breakdown": {
+        "delivery_complication": "Occurred during delivery process (Evidence: pg no: 120, L15)",
+        "timing": "Not present at admission (Evidence: pg no: 120, L15)"
+      },
+      "rationale": "Laceration occurred during current hospitalization, not present on admission (Evidence: pg no: 120, L15)"
+    },
+    {
+      "example_id": "POA.6.E3",
+      "scenario": "Category O11 - Pre-existing hypertension with pre-eclampsia",
+      "code_example": "O11 with POA 'N'",
+      "breakdown": {
+        "multiple_diagnoses": "Code includes both hypertension and pre-eclampsia (Evidence: pg no: 120, L17)",
+        "mixed_timing": "Pre-eclampsia developed after admission (Evidence: pg no: 120, L17)"
+      },
+      "rationale": "Any diagnosis in the code not present on admission requires 'N' (Evidence: pg no: 120, L16-L17)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Delivery status does not affect POA assignment (Evidence: pg no: 120, L12-L13)",
+      "Multiple diagnoses in obstetrical codes require all to be present on admission for 'Y' (Evidence: pg no: 120, L16-L17)"
+    ],
+    "best_practices": [
+      "Focus on timing of condition onset, not delivery timing (Evidence: pg no: 120, L13-L14)",
+      "Carefully evaluate each component of combination obstetrical codes (Evidence: pg no: 120, L16-L17)"
+    ],
+    "common_mistakes": [
+      "Confusing delivery complications with admission conditions (Evidence: pg no: 120, L15)",
+      "Ignoring newly developed components of combination codes (Evidence: pg no: 120, L16-L17)"
+    ],
+    "tips": [
+      "Determine exact timing of each obstetrical condition (Evidence: pg no: 120, L13-L14)",
+      "Review combination codes for multiple diagnoses (Evidence: pg no: 120, L16-L17)"
+    ],
+    "implementation_notes": [
+      "Applies to all obstetrical and pregnancy-related codes",
+      "Requires careful documentation review for timing"
+    ],
+    "clinical_context": [
+      "Antepartum complications",
+      "Labor and delivery complications",
+      "Postpartum complications"
+    ]
+  },
+  "search_keywords": [
+    "obstetrical conditions",
+    "pregnancy complications",
+    "POA indicator",
+    "present on admission",
+    "preterm labor",
+    "delivery complications",
+    "postpartum hemorrhage",
+    "fetal distress",
+    "pre-eclampsia",
+    "pre-existing hypertension"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "obstetrical_conditions",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "POA",
+      "obstetrical",
+      "pregnancy",
+      "delivery",
+      "complications"
+    ]
+  },
+  "page_range_processed": "pages_120_to_121"
+}

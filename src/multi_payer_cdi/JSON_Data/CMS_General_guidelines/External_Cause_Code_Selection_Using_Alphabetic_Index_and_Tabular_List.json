@@ -1,0 +1,116 @@
+{
+  "guideline_id": "I.C.20.a.5",
+  "semantic_title": "External Cause Code Selection Using Alphabetic Index and Tabular List",
+  "section_path": "Chapter 20: External Causes of Morbidity > a. General External Cause Coding Guidelines > 5) The selection of the appropriate external cause code",
+  "page_number": 88,
+  "content": {
+    "full_text": "The selection of the appropriate external cause code is guided by the Alphabetic Index of External Causes and by Inclusion and Exclusion notes in the Tabular List. (Evidence: pg no: 88, L38-L40)",
+    "summary": "External cause code selection follows standard ICD-10-CM methodology using the Alphabetic Index of External Causes and Tabular List notes (Evidence: pg no: 88, L38-L40)",
+    "key_concepts": [
+      "Use Alphabetic Index of External Causes (Evidence: pg no: 88, L39)",
+      "Follow Inclusion and Exclusion notes (Evidence: pg no: 88, L39-L40)",
+      "Standard ICD-10-CM selection methodology (Evidence: pg no: 88, L38-L40)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "EXT_SELECT_001",
+        "rule_text": "External cause code selection is guided by the Alphabetic Index of External Causes (Evidence: pg no: 88, L38-L39)",
+        "explanation": "The specialized Alphabetic Index of External Causes provides the primary guidance for identifying appropriate external cause codes (Evidence: pg no: 88, L38-L39)",
+        "importance": "critical",
+        "applies_to": "All external cause code selection",
+        "common_applications": [
+          "Initial code identification",
+          "External cause lookup",
+          "Code verification"
+        ]
+      },
+      {
+        "rule_id": "EXT_SELECT_002",
+        "rule_text": "Use Inclusion and Exclusion notes in the Tabular List for final code selection (Evidence: pg no: 88, L39-L40)",
+        "explanation": "After identifying potential codes in the index, the Tabular List inclusion and exclusion notes provide definitive guidance for appropriate code selection (Evidence: pg no: 88, L39-L40)",
+        "importance": "critical",
+        "applies_to": "All external cause code verification",
+        "common_applications": [
+          "Code verification",
+          "Final code selection",
+          "Code accuracy confirmation"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Look up external cause in Alphabetic Index of External Causes",
+      "Step 2: Identify potential code(s) from index",
+      "Step 3: Verify code in Tabular List",
+      "Step 4: Review Inclusion and Exclusion notes",
+      "Step 5: Select most appropriate code based on documentation"
+    ],
+    "related_terminology": [
+      "Alphabetic Index of External Causes",
+      "Inclusion notes",
+      "Exclusion notes",
+      "Tabular List",
+      "Code selection"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "External cause codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Must use both Alphabetic Index and Tabular List (Evidence: pg no: 88, L38-L40)"
+    ],
+    "best_practices": [
+      "Always verify codes in Tabular List (Evidence: pg no: 88, L39-L40)",
+      "Review inclusion and exclusion notes carefully (Evidence: pg no: 88, L39-L40)"
+    ],
+    "common_mistakes": [
+      "Coding directly from index without Tabular List verification (Evidence: pg no: 88, L38-L40)"
+    ],
+    "tips": [
+      "Use specialized External Causes index (Evidence: pg no: 88, L39)"
+    ],
+    "implementation_notes": [
+      "Standard ICD-10-CM methodology applies to external causes"
+    ],
+    "clinical_context": [
+      "Accurate external cause coding requires proper reference use"
+    ]
+  },
+  "search_keywords": [
+    "external cause code selection",
+    "Alphabetic Index External Causes",
+    "inclusion exclusion notes",
+    "tabular list external causes",
+    "external cause methodology"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "external_causes",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "external_causes",
+      "code_selection",
+      "alphabetic_index",
+      "tabular_list",
+      "chapter_20"
+    ]
+  },
+  "page_range_processed": "pages_87_to_90"
+}

@@ -1,0 +1,157 @@
+{
+  "guideline_id": "I.C.21.a",
+  "semantic_title": "Use of Z Codes in Any Healthcare Setting",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 21. Chapter 21: Factors influencing health status and contact with health services > a. Use of Z Codes in Any Healthcare Setting",
+  "page_number": 93,
+  "content": {
+    "full_text": "Z codes are for use in any healthcare setting. Z codes may be used as either a first-listed (principal diagnosis code in the inpatient setting) or secondary code, depending on the circumstances of the encounter. Certain Z codes may only be used as first-listed or principal diagnosis. (Evidence: pg no: 93, L63-L65)",
+    "summary": "Guidelines for using Z codes in any healthcare setting as either first-listed or secondary codes (Evidence: pg no: 93, L63-L65)",
+    "key_concepts": [
+      "Z codes usable in any healthcare setting (Evidence: pg no: 93, L63)",
+      "Can be first-listed or secondary codes (Evidence: pg no: 93, L63-L64)",
+      "Some Z codes restricted to first-listed use (Evidence: pg no: 93, L64-L65)",
+      "Usage depends on encounter circumstances (Evidence: pg no: 93, L64)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "z_codes_any_setting",
+        "rule_text": "Z codes are for use in any healthcare setting (Evidence: pg no: 93, L63)",
+        "explanation": "Z codes can be used in inpatient, outpatient, and any other healthcare setting without restriction (Evidence: pg no: 93, L63)",
+        "importance": "high",
+        "applies_to": "all Z codes",
+        "common_applications": [
+          "Inpatient encounters",
+          "Outpatient visits",
+          "Emergency department visits"
+        ]
+      },
+      {
+        "rule_id": "z_codes_sequencing_flexibility",
+        "rule_text": "Z codes may be first-listed or secondary depending on circumstances (Evidence: pg no: 93, L63-L64)",
+        "explanation": "Z codes can be used as either first-listed (principal diagnosis in inpatient setting) or secondary codes based on the specific circumstances of the encounter (Evidence: pg no: 93, L63-L64)",
+        "importance": "high",
+        "applies_to": "most Z codes",
+        "common_applications": [
+          "Primary reason for encounter",
+          "Additional information about patient"
+        ]
+      },
+      {
+        "rule_id": "z_codes_first_listed_restriction",
+        "rule_text": "Certain Z codes may only be used as first-listed or principal diagnosis (Evidence: pg no: 93, L64-L65)",
+        "explanation": "Some Z codes have restrictions and can only be used as the first-listed or principal diagnosis code (Evidence: pg no: 93, L64-L65)",
+        "importance": "high",
+        "applies_to": "specific Z codes with restrictions",
+        "common_applications": [
+          "Screening encounters",
+          "Certain preventive services"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify the healthcare setting",
+      "Step 2: Determine the primary reason for encounter",
+      "Step 3: Check if Z code has sequencing restrictions",
+      "Step 4: Assign as first-listed or secondary as appropriate"
+    ],
+    "related_terminology": [
+      "Healthcare setting",
+      "First-listed diagnosis",
+      "Principal diagnosis",
+      "Secondary code",
+      "Encounter circumstances"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z00-Z99",
+        "description": "Factors influencing health status and contact with health services (Evidence: pg no: 93, L60)",
+        "requirement": "Usable in any healthcare setting",
+        "usage_rules": [
+          "Can be first-listed or secondary (Evidence: pg no: 93, L63-L64)",
+          "Some restricted to first-listed use (Evidence: pg no: 93, L64-L65)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Z codes (Z00-Z99)"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "z_code_primary_encounter",
+      "scenario": "Patient comes for routine screening as primary reason for visit",
+      "documentation_example": "Annual mammography screening, no symptoms",
+      "step_by_step": [
+        "Step 1: Identify screening as primary reason for encounter",
+        "Step 2: Select appropriate Z code for screening",
+        "Step 3: Use as first-listed diagnosis",
+        "Step 4: Add any secondary codes as needed"
+      ],
+      "correct_coding": {
+        "primary_code": "Z screening code",
+        "secondary_codes": [],
+        "sequencing": "Z code first-listed",
+        "rationale": "Screening is primary reason for encounter (Evidence: pg no: 93, L63-L64)"
+      },
+      "incorrect_coding": {
+        "code": "Using Z code as secondary when it's primary reason",
+        "codes": [],
+        "rationale": "Should be first-listed when it's the primary reason for encounter",
+        "common_mistake": "Incorrect sequencing of Z codes"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Some Z codes may only be used as first-listed (Evidence: pg no: 93, L64-L65)"
+    ],
+    "best_practices": [
+      "Use Z codes in any healthcare setting as appropriate (Evidence: pg no: 93, L63)",
+      "Consider encounter circumstances for sequencing (Evidence: pg no: 93, L64)"
+    ],
+    "common_mistakes": [
+      "Restricting Z codes to certain settings inappropriately"
+    ],
+    "tips": [
+      "Check individual Z code guidelines for sequencing restrictions (Evidence: pg no: 93, L64-L65)"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Preventive care visits",
+      "Screening encounters",
+      "Follow-up visits"
+    ]
+  },
+  "search_keywords": [
+    "Z codes",
+    "healthcare setting",
+    "first-listed diagnosis",
+    "secondary codes",
+    "encounter circumstances"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "z_codes",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "z_codes",
+      "healthcare_settings",
+      "sequencing"
+    ]
+  },
+  "page_range_processed": "pages_90_to_93"
+}

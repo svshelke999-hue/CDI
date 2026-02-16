@@ -1,0 +1,96 @@
+{
+  "guideline_id": "IV.O",
+  "semantic_title": "Cross-Reference for Routine Outpatient Prenatal Visits Coding",
+  "section_path": "Section IV > Diagnostic Coding and Reporting Guidelines for Outpatient Services > O. Routine outpatient prenatal visits",
+  "page_number": 115,
+  "content": {
+    "full_text": "See Section I.C.15. Routine outpatient prenatal visits. (Evidence: pg no: 115, L27-L28)",
+    "summary": "Cross-reference directing to specific section for routine outpatient prenatal visit coding guidelines (Evidence: pg no: 115, L27-L28)",
+    "key_concepts": [
+      "Cross-reference to Section I.C.15 (Evidence: pg no: 115, L28)",
+      "Routine prenatal visit coding (Evidence: pg no: 115, L27)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "IV.O.1",
+        "rule_text": "Refer to Section I.C.15 for routine outpatient prenatal visit coding (Evidence: pg no: 115, L27-L28)",
+        "explanation": "Specific guidelines for routine prenatal visits are located in the chapter-specific section (Evidence: pg no: 115, L27-L28)",
+        "importance": "medium",
+        "applies_to": "routine outpatient prenatal visits",
+        "common_applications": [
+          "Routine prenatal care",
+          "Prenatal checkups",
+          "Obstetric follow-up visits"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify encounter as routine prenatal visit",
+      "Step 2: Refer to Section I.C.15 for specific coding guidelines"
+    ],
+    "related_terminology": [
+      "routine prenatal visits",
+      "outpatient prenatal care",
+      "obstetric visits"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Prenatal visit codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.15",
+        "title": "Routine outpatient prenatal visits",
+        "relationship": "references_to",
+        "explanation": "Direct reference to chapter-specific guidelines for prenatal visits"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [],
+    "best_practices": [
+      "Always refer to Section I.C.15 for detailed prenatal visit coding guidelines (Evidence: pg no: 115, L27-L28)"
+    ],
+    "common_mistakes": [],
+    "tips": [
+      "This is a cross-reference - actual guidelines are in Section I.C.15 (Evidence: pg no: 115, L28)"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Obstetric care",
+      "Prenatal care management"
+    ]
+  },
+  "search_keywords": [
+    "prenatal visits",
+    "routine prenatal care",
+    "obstetric visits",
+    "pregnancy care",
+    "prenatal coding"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "cross_reference",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "cross_reference",
+      "prenatal_care",
+      "obstetrics"
+    ]
+  },
+  "page_range_processed": "pages_114_to_117"
+}

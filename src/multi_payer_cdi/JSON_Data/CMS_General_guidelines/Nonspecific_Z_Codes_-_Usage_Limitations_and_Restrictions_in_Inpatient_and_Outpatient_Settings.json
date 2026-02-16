@@ -1,0 +1,238 @@
+{
+  "guideline_id": "I.C.21.c.14",
+  "semantic_title": "Nonspecific Z Codes - Usage Limitations and Restrictions in Inpatient and Outpatient Settings",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 21. Chapter 21: Factors influencing health status and contact with health services (Z00-Z99) > c. Categories of Z Codes > 14) Nonspecific Z Codes",
+  "page_number": 105,
+  "content": {
+    "full_text": "Certain Z codes are so non-specific, or potentially redundant with other codes in the classification, that there can be little justification for their use in the inpatient setting. Their use in the outpatient setting should be limited to those instances when there is no further documentation to permit more precise coding. Otherwise, any sign or symptom or any other reason for visit that is captured in another code should be used. (Evidence: pg no: 105, L13-L15)",
+    "summary": "Guidelines for limiting the use of nonspecific Z codes in both inpatient and outpatient settings when more specific coding options are available (Evidence: pg no: 105, L13-L15)",
+    "key_concepts": [
+      "Nonspecific Z codes have little justification for inpatient use (Evidence: pg no: 105, L13-L14)",
+      "Outpatient use should be limited to instances with insufficient documentation (Evidence: pg no: 105, L14-L15)",
+      "More specific codes should be used when available (Evidence: pg no: 105, L15)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "NONSPEC_Z_INPATIENT",
+        "rule_text": "Nonspecific Z codes should not be used in inpatient settings (Evidence: pg no: 105, L13-L14)",
+        "explanation": "These codes are too vague or redundant with other classification codes to justify their use in the detailed inpatient coding environment (Evidence: pg no: 105, L13-L14)",
+        "importance": "high",
+        "applies_to": "nonspecific_z_codes",
+        "common_applications": [
+          "Inpatient hospital coding",
+          "Detailed diagnostic coding requirements"
+        ]
+      },
+      {
+        "rule_id": "NONSPEC_Z_OUTPATIENT",
+        "rule_text": "Outpatient use should be limited to instances with insufficient documentation for more precise coding (Evidence: pg no: 105, L14-L15)",
+        "explanation": "When adequate documentation exists to support more specific coding, the nonspecific Z codes should not be used (Evidence: pg no: 105, L14-L15)",
+        "importance": "high",
+        "applies_to": "nonspecific_z_codes",
+        "common_applications": [
+          "Outpatient clinic coding",
+          "Emergency department coding"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Review available documentation for specificity",
+      "Step 2: Determine if more precise coding is possible",
+      "Step 3: Use nonspecific Z code only if no other option exists and in outpatient setting",
+      "Step 4: Avoid nonspecific Z codes in inpatient settings"
+    ],
+    "related_terminology": [
+      "Nonspecific codes",
+      "Redundant codes",
+      "Precise coding",
+      "Documentation adequacy"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "Z02.9",
+        "description": "Encounter for administrative examinations, unspecified (Evidence: pg no: 105, L16)",
+        "context": "Nonspecific Z code with limited use justification",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z02": "Administrative examinations category",
+          ".9": "Unspecified subcategory"
+        }
+      },
+      {
+        "code": "Z04.9",
+        "description": "Encounter for examination and observation for unspecified reason (Evidence: pg no: 105, L16-L17)",
+        "context": "Nonspecific Z code with limited use justification",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z04": "Examination and observation category",
+          ".9": "Unspecified reason"
+        }
+      },
+      {
+        "code": "Z13.9",
+        "description": "Encounter for screening, unspecified (Evidence: pg no: 105, L18)",
+        "context": "Nonspecific Z code with limited use justification",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z13": "Screening encounters category",
+          ".9": "Unspecified screening"
+        }
+      },
+      {
+        "code": "Z41.9",
+        "description": "Encounter for procedure for purposes other than remedying health state, unspecified (Evidence: pg no: 105, L18-L19)",
+        "context": "Nonspecific Z code with limited use justification",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z41": "Procedures not for health remediation",
+          ".9": "Unspecified procedure"
+        }
+      },
+      {
+        "code": "Z52.9",
+        "description": "Donor of unspecified organ or tissue (Evidence: pg no: 105, L20)",
+        "context": "Nonspecific Z code with limited use justification",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z52": "Organ and tissue donors",
+          ".9": "Unspecified organ or tissue"
+        }
+      },
+      {
+        "code": "Z86.59",
+        "description": "Personal history of other mental and behavioral disorders (Evidence: pg no: 105, L20)",
+        "context": "Nonspecific Z code with limited use justification",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z86": "Personal history of certain other diseases",
+          ".59": "Other mental and behavioral disorders"
+        }
+      },
+      {
+        "code": "Z88.9",
+        "description": "Allergy status to unspecified drugs, medicaments and biological substances (Evidence: pg no: 105, L20-L21)",
+        "context": "Nonspecific Z code with limited use justification",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z88": "Allergy status to drugs and biological substances",
+          ".9": "Unspecified substances"
+        }
+      },
+      {
+        "code": "Z92.0",
+        "description": "Personal history of contraception (Evidence: pg no: 105, L22)",
+        "context": "Nonspecific Z code with limited use justification",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z92": "Personal history of medical treatment",
+          ".0": "Contraception history"
+        }
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": "Z__.9",
+        "description": "Unspecified subcategories within Z code categories (Evidence: pg no: 105, L16-L22)",
+        "example": "Z02.9, Z04.9, Z13.9",
+        "explanation": "These represent the most nonspecific codes within their respective categories"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Administrative examinations",
+      "Examination and observation",
+      "Screening encounters",
+      "Non-remedial procedures",
+      "Organ donors",
+      "Personal history codes",
+      "Allergy status codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "NONSPEC_Z_OUTPATIENT",
+      "scenario": "Patient presents for administrative examination but specific type is not documented",
+      "documentation_example": "Patient seen for work physical - no further details provided",
+      "step_by_step": [
+        "Step 1: Review documentation for specific examination type",
+        "Step 2: Determine if more specific Z02 code applies",
+        "Step 3: Use Z02.9 only if no specific type can be determined",
+        "Step 4: Consider querying provider for more specific information"
+      ],
+      "correct_coding": {
+        "primary_code": "Z02.9",
+        "secondary_codes": [],
+        "sequencing": "Primary diagnosis only when no other specific code available",
+        "rationale": "Used only when documentation insufficient for more precise coding in outpatient setting (Evidence: pg no: 105, L14-L15)"
+      },
+      "incorrect_coding": {
+        "code": "Z02.9",
+        "codes": [
+          "Z02.9"
+        ],
+        "rationale": "Should not be used in inpatient setting or when more specific codes are available",
+        "common_mistake": "Using nonspecific code when adequate documentation exists for precise coding"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Nonspecific Z codes have little justification for inpatient use (Evidence: pg no: 105, L13-L14)",
+      "Should not be used when more specific coding is possible (Evidence: pg no: 105, L15)"
+    ],
+    "best_practices": [
+      "Review documentation thoroughly before using nonspecific codes (Evidence: pg no: 105, L14-L15)",
+      "Query providers for additional specificity when possible"
+    ],
+    "common_mistakes": [
+      "Using nonspecific Z codes in inpatient settings (Evidence: pg no: 105, L13-L14)",
+      "Choosing nonspecific codes when specific alternatives exist (Evidence: pg no: 105, L15)"
+    ],
+    "tips": [
+      "Always check for more specific codes within the same category",
+      "Consider the setting (inpatient vs outpatient) when evaluating code appropriateness"
+    ],
+    "implementation_notes": [
+      "Requires careful documentation review",
+      "May need provider queries for specificity"
+    ],
+    "clinical_context": [
+      "Administrative examinations",
+      "Screening procedures",
+      "Observation encounters"
+    ]
+  },
+  "search_keywords": [
+    "nonspecific Z codes",
+    "unspecified Z codes",
+    "inpatient restrictions",
+    "outpatient limitations",
+    "precise coding",
+    "documentation requirements"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "Z_codes_usage",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "Z_codes",
+      "nonspecific",
+      "documentation",
+      "coding_precision"
+    ]
+  },
+  "page_range_processed": "pages_105_to_108"
+}

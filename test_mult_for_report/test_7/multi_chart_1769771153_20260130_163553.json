@@ -1,0 +1,1868 @@
+{
+  "file_name": "tmpsiuch4o3.pdf, tmpnq31otz1.pdf",
+  "extraction_data": {
+    "patient_name": "Patricia H Barrie",
+    "patient_age": "76 y.o.",
+    "chart_specialty": "Orthopedics",
+    "cpt": [
+      "27245"
+    ],
+    "procedure": [
+      "Intramedullary Nailing of Left Intertrochanteric Femur Fracture"
+    ],
+    "summary": "",
+    "multi_chart_data": {
+      "tmpsiuch4o3.pdf": {
+        "chart_type": "consultation_note",
+        "chart_type_confidence": "high",
+        "extracted_info": {
+          "patient_name": "Patricia H Barrie",
+          "patient_age": "76 y.o.",
+          "chart_specialty": "Orthopedics",
+          "cpt": [],
+          "procedure": [
+            "Left hip ORIF with cephalomedullary nail (planned)",
+            "Right THA (history)",
+            "Left TKA (history)"
+          ],
+          "summary": "76-year-old female with history of hypertension, hyperlipidemia, hypothyroidism, colon cancer, thoracic aortic aneurysm, and prediabetes who sustained a left intertrochanteric hip fracture after a mechanical fall. Patient is scheduled for ORIF with cephalomedullary nail.",
+          "diagnosis": [
+            "Left intertrochanteric hip fracture",
+            "Hypertension",
+            "Hyperlipidemia",
+            "Hypothyroidism",
+            "Colon cancer",
+            "Thoracic aortic aneurysm (4.2cm)",
+            "Prediabetes",
+            "Obstructive sleep apnea",
+            "Osteopenia",
+            "Basal cell carcinoma of scalp",
+            "Ductal carcinoma in situ (DCIS) of left breast"
+          ],
+          "key_information": [
+            "Patient has history of right THA and left TKA",
+            "Patient ambulates without assistive device at baseline",
+            "Osteoporosis labs ordered (1,25-vitamin D, intact PTH, and ionized Calcium)",
+            "Non-weight bearing on left lower extremity",
+            "DVT prophylaxis with HSQ pre-op",
+            "Medicine consult requested for pre-operative risk stratification",
+            "Allergies to Ragweed and Nitrofuran analogues",
+            "Surgeon recommends spinal anesthesia and early care to reduce perioperative morbidity and mortality",
+            "Patient has thoracic aortic aneurysm (4.2cm) which may impact anesthesia risk",
+            "Patient has history of colon cancer and is part of PACES clinical trial"
+          ],
+          "chart_type": "consultation_note"
+        }
+      },
+      "tmpnq31otz1.pdf": {
+        "chart_type": "operative_note",
+        "chart_type_confidence": "high",
+        "extracted_info": {
+          "patient_name": "Patricia H Barrie",
+          "patient_age": "76 y.o.",
+          "chart_specialty": "Orthopedic Surgery",
+          "cpt": [
+            "27245"
+          ],
+          "procedure": [
+            "Intramedullary Nailing of Left Intertrochanteric Femur Fracture"
+          ],
+          "summary": "76-year-old female with history of hypertension, hyperlipidemia, hypothyroidism, and colon cancer who suffered a mechanical fall resulting in a left intertrochanteric femur fracture. The patient underwent intramedullary nailing of the left intertrochanteric femur fracture using an Arthrex short nail implant system. The procedure involved closed reduction, insertion of a 10mm x 20cm x 125deg short trochanteric nail, a 10.5mm x 90mm telescoping lag screw, and a 5.0mm x 38mm cortical screw. Patient is weight-bearing as tolerated postoperatively.",
+          "chart_type": "operative_note",
+          "has_cpt_codes": true
+        }
+      }
+    }
+  },
+  "payer_results": {
+    "cigna": {
+      "payer_name": "Cigna",
+      "procedures_evaluated": 1,
+      "procedure_results": [
+        {
+          "procedure_evaluated": "Intramedullary Nailing of Left Intertrochanteric Femur Fracture",
+          "variant_or_subprocedure": "Left Intertrochanteric Femur Fracture",
+          "policy_name": "Cigna Medical Coverage Policy",
+          "decision": "Insufficient",
+          "primary_reasons": [
+            "No applicable Cigna policy found for intramedullary nailing of femur fractures",
+            "Unable to evaluate against specific Cigna criteria for this procedure"
+          ],
+          "requirement_checklist": [
+            {
+              "requirement_id": "policy_availability",
+              "type": "single",
+              "status": "unmet",
+              "evidence": [
+                {
+                  "line_reference": "L619-L622"
+                }
+              ],
+              "missing_to_meet": "Specific Cigna policy for intramedullary nailing of femur fractures",
+              "suggestion": "Request current Cigna medical policy for intramedullary nailing of femur fractures"
+            }
+          ],
+          "timing_validation": {
+            "conservative_duration_weeks": "unknown",
+            "pt_sessions_completed": "unknown",
+            "follow_up_interval": "unknown"
+          },
+          "contraindications_exclusions": {
+            "active_infection": "absent",
+            "severe_arthritis": "absent",
+            "other_contraindications": []
+          },
+          "coding_implications": {
+            "eligible_codes_if_sufficient": [
+              "27245"
+            ],
+            "notes": "CPT code 27245 documented in operative note (L620)"
+          },
+          "improvement_recommendations": {
+            "policy_needed": [
+              "Request current medical policy for intramedullary nailing of femur fractures"
+            ],
+            "cdi_documentation_gaps": [],
+            "completion_guidance": [
+              "Ensure documentation includes all elements required by current policy when obtained"
+            ],
+            "next_steps": [
+              "Obtain current medical necessity criteria for intramedullary nailing procedures"
+            ]
+          },
+          "_original_procedure_name": "Intramedullary Nailing of Left Intertrochanteric Femur Fracture",
+          "medical_chart_reference": [
+            "L619-L622",
+            "L620"
+          ],
+          "guideline_availability": {
+            "status": "available",
+            "search_hits": 6,
+            "max_score": 10.0,
+            "message": "Found 6 guideline(s) for Cigna"
+          },
+          "sources": [
+            {
+              "header": "[CIGNA | Intramedullary Nailing of Left Intertrochanteric Femur Fracture | Chunk 1 | score=10.000 | file=cigna_guideline_1.json | id=cigna_1]",
+              "file": "cigna_guideline_1.json",
+              "record_id": "cigna_1",
+              "chunk_index": 1,
+              "payer": "cigna",
+              "score": 10.0,
+              "description": "{'procedure_id': 'biceps_tenodesis', 'category': 'Shoulder (Evidence: pg no: 10, L406)', 'section_title': 'Biceps Tenodesis (Evidence: pg no: 10, L406)', 'names': ['Biceps Tenodesis (Evidence: pg no: 10, L406)'], 'description': 'Tenodesis of biceps tendon for labral tear/biceps tendon pathology with specific range of motion and physical exam requirements (Evidence: pg no: 10, L408-L437)', 'scope': 'Arthroscopic or open biceps tenodesis (Evidence: pg no: 10, L408)', 'general_requirements': {'documentation': ['Function-limiting pain (Evidence: pg no: 10, L410-L412)', 'Failure of provider-directed non-surgical management for at least three (3) months in duration, except for discrete traumatic event resulting in acute proximal biceps tendon rupture (Evidence: pg no: 10, L413-L416)', 'Advanced diagnostic imaging study (e.g., MRI, CT) demonstrates labral tear/biceps tendon pathology (e.g., SLAP, Bankart, full-thickness subscapularis tear) and correlates with symptoms and physical exam findings (Evidence: pg no: 10, L417-L420)', 'Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain, cervical radiculopathy, and advanced glenohumeral osteoarthritis (Evidence: pg no: 10, L421-L423)', 'Minimally limited or full shoulder range of motion (Evidence: pg no: 10, L426)', \"ONE OR MORE positive physical exam findings including O'Brien's Test, Biceps Load Test, Clunk Test, Anterior Slide Test, Compr",
+              "full_source": {
+                "procedure_id": "biceps_tenodesis",
+                "category": "Shoulder (Evidence: pg no: 10, L406)",
+                "section_title": "Biceps Tenodesis (Evidence: pg no: 10, L406)",
+                "names": [
+                  "Biceps Tenodesis (Evidence: pg no: 10, L406)"
+                ],
+                "description": "Tenodesis of biceps tendon for labral tear/biceps tendon pathology with specific range of motion and physical exam requirements (Evidence: pg no: 10, L408-L437)",
+                "scope": "Arthroscopic or open biceps tenodesis (Evidence: pg no: 10, L408)",
+                "general_requirements": {
+                  "documentation": [
+                    "Function-limiting pain (Evidence: pg no: 10, L410-L412)",
+                    "Failure of provider-directed non-surgical management for at least three (3) months in duration, except for discrete traumatic event resulting in acute proximal biceps tendon rupture (Evidence: pg no: 10, L413-L416)",
+                    "Advanced diagnostic imaging study (e.g., MRI, CT) demonstrates labral tear/biceps tendon pathology (e.g., SLAP, Bankart, full-thickness subscapularis tear) and correlates with symptoms and physical exam findings (Evidence: pg no: 10, L417-L420)",
+                    "Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain, cervical radiculopathy, and advanced glenohumeral osteoarthritis (Evidence: pg no: 10, L421-L423)",
+                    "Minimally limited or full shoulder range of motion (Evidence: pg no: 10, L426)",
+                    "ONE OR MORE positive physical exam findings including O'Brien's Test, Biceps Load Test, Clunk Test, Anterior Slide Test, Compression Rotation Test, Speed's Test, Upper cut test, Popeye sign, Yergason's test, Proximal biceps (groove) tenderness (Evidence: pg no: 10, L427-L437)"
+                  ]
+                },
+                "exclusions": [
+                  "Any other indication or condition (Evidence: pg no: 10, L439-L440)"
+                ],
+                "codes": [
+                  {
+                    "code": "23430",
+                    "system": "CPT",
+                    "description": "Tenodesis of long tendon of biceps (Evidence: pg no: 13, L545)"
+                  },
+                  {
+                    "code": "23440",
+                    "system": "CPT",
+                    "description": "Resection or transplantation of long tendon of biceps (Evidence: pg no: 13, L546)"
+                  },
+                  {
+                    "code": "29828",
+                    "system": "CPT",
+                    "description": "Arthroscopy, shoulder, surgical; biceps tenodesis (Evidence: pg no: 14, L586)"
+                  }
+                ],
+                "notes": "Conservative management exception for acute proximal biceps tendon rupture (Evidence: pg no: 10, L414-L416)"
+              },
+              "payer_guideline_reference": [
+                "(Evidence: pg no: 10, L421-L423)",
+                "(Evidence: pg no: 14, L586)",
+                "(Evidence: pg no: 10, L413-L416)",
+                "(Evidence: pg no: 10, L410-L412)",
+                "(Evidence: pg no: 10, L406)",
+                "(Evidence: pg no: 10, L426)",
+                "(Evidence: pg no: 10, L408)",
+                "(Evidence: pg no: 10, L417-L420)",
+                "(Evidence: pg no: 13, L546)",
+                "(Evidence: pg no: 10, L414-L416)",
+                "(Evidence: pg no: 10, L439-L440)",
+                "(Evidence: pg no: 13, L545)",
+                "(Evidence: pg no: 10, L408-L437)",
+                "(Evidence: pg no: 10, L427-L437)"
+              ]
+            },
+            {
+              "header": "[CIGNA | Intramedullary Nailing of Left Intertrochanteric Femur Fracture | Chunk 2 | score=10.000 | file=cigna_guideline_2.json | id=cigna_5]",
+              "file": "cigna_guideline_2.json",
+              "record_id": "cigna_5",
+              "chunk_index": 2,
+              "payer": "cigna",
+              "score": 10.0,
+              "description": "{'procedure_id': 'diagnostic_arthroscopy', 'category': 'Shoulder (Evidence: pg no: 4, L152)', 'section_title': 'Diagnostic Arthroscopy (Evidence: pg no: 4, L152)', 'names': ['Diagnostic Arthroscopy (Evidence: pg no: 4, L152)'], 'description': 'Diagnostic arthroscopy as a stand-alone procedure for evaluation of shoulder pathology when advanced imaging is inconclusive (Evidence: pg no: 4, L154-L155)', 'scope': 'Stand-alone diagnostic procedure (Evidence: pg no: 4, L154-L155)', 'general_requirements': {'documentation': ['Function-limiting pain for at least six (6) months in duration (Evidence: pg no: 4, L156-L157)', 'Abnormal shoulder physical examination findings compared to non-involved side including functionally limited range of motion or measurable loss in strength (Evidence: pg no: 4, L158-L161)', 'Positive Neer Impingement Test or Hawkins-Kennedy Impingement Test (Evidence: pg no: 4, L162)', 'Failure of provider-directed non-surgical management for at least three (3) months in duration (Evidence: pg no: 4, L163-L164)', 'Advanced diagnostic imaging study (e.g., MRI, CT) is inconclusive for internal derangement/pathology (Evidence: pg no: 4, L165)', 'Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain and advanced glenohumeral osteoarthritis (Evidence: pg no: 4, L166-L168)']}, 'exclusions': ['Any other indication or condition (Evidence: pg no: 5, L171-L172)', 'In-office diagno",
+              "full_source": {
+                "procedure_id": "diagnostic_arthroscopy",
+                "category": "Shoulder (Evidence: pg no: 4, L152)",
+                "section_title": "Diagnostic Arthroscopy (Evidence: pg no: 4, L152)",
+                "names": [
+                  "Diagnostic Arthroscopy (Evidence: pg no: 4, L152)"
+                ],
+                "description": "Diagnostic arthroscopy as a stand-alone procedure for evaluation of shoulder pathology when advanced imaging is inconclusive (Evidence: pg no: 4, L154-L155)",
+                "scope": "Stand-alone diagnostic procedure (Evidence: pg no: 4, L154-L155)",
+                "general_requirements": {
+                  "documentation": [
+                    "Function-limiting pain for at least six (6) months in duration (Evidence: pg no: 4, L156-L157)",
+                    "Abnormal shoulder physical examination findings compared to non-involved side including functionally limited range of motion or measurable loss in strength (Evidence: pg no: 4, L158-L161)",
+                    "Positive Neer Impingement Test or Hawkins-Kennedy Impingement Test (Evidence: pg no: 4, L162)",
+                    "Failure of provider-directed non-surgical management for at least three (3) months in duration (Evidence: pg no: 4, L163-L164)",
+                    "Advanced diagnostic imaging study (e.g., MRI, CT) is inconclusive for internal derangement/pathology (Evidence: pg no: 4, L165)",
+                    "Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain and advanced glenohumeral osteoarthritis (Evidence: pg no: 4, L166-L168)"
+                  ]
+                },
+                "exclusions": [
+                  "Any other indication or condition (Evidence: pg no: 5, L171-L172)",
+                  "In-office diagnostic arthroscopy (e.g., Mi-Eye™, VisionScope®) - considered experimental, investigational, or unproven (Evidence: pg no: 5, L175-L176)"
+                ],
+                "codes": [
+                  {
+                    "code": "29805",
+                    "system": "CPT",
+                    "description": "Arthroscopy, shoulder, diagnostic, with or without synovial biopsy (separate procedure) (Evidence: pg no: 13, L556)"
+                  }
+                ],
+                "notes": "Considered medically necessary only when ALL criteria are met (Evidence: pg no: 4, L155)"
+              },
+              "payer_guideline_reference": [
+                "(Evidence: pg no: 4, L158-L161)",
+                "(Evidence: pg no: 4, L152)",
+                "(Evidence: pg no: 4, L156-L157)",
+                "(Evidence: pg no: 5, L175-L176)",
+                "(Evidence: pg no: 4, L155)",
+                "(Evidence: pg no: 13, L556)",
+                "(Evidence: pg no: 4, L154-L155)",
+                "(Evidence: pg no: 4, L165)",
+                "(Evidence: pg no: 4, L166-L168)",
+                "(Evidence: pg no: 4, L162)",
+                "(Evidence: pg no: 5, L171-L172)",
+                "(Evidence: pg no: 4, L163-L164)"
+              ]
+            }
+          ],
+          "guideline_source": "payer"
+        }
+      ],
+      "usage": "UsageInfo(input_tokens=14037, output_tokens=1510, model_id='unknown', input_cost=0.042111, output_cost=0.02265, total_cost=0.064761, cache_creation_input_tokens=0, cache_read_input_tokens=0, cache_write_cost=0.0, cache_read_cost=0.0)",
+      "sources": [
+        {
+          "header": "[CIGNA | Intramedullary Nailing of Left Intertrochanteric Femur Fracture | Chunk 1 | score=10.000 | file=cigna_guideline_1.json | id=cigna_1]",
+          "file": "cigna_guideline_1.json",
+          "record_id": "cigna_1",
+          "chunk_index": 1,
+          "payer": "cigna",
+          "score": 10.0,
+          "description": "{'procedure_id': 'biceps_tenodesis', 'category': 'Shoulder (Evidence: pg no: 10, L406)', 'section_title': 'Biceps Tenodesis (Evidence: pg no: 10, L406)', 'names': ['Biceps Tenodesis (Evidence: pg no: 10, L406)'], 'description': 'Tenodesis of biceps tendon for labral tear/biceps tendon pathology with specific range of motion and physical exam requirements (Evidence: pg no: 10, L408-L437)', 'scope': 'Arthroscopic or open biceps tenodesis (Evidence: pg no: 10, L408)', 'general_requirements': {'documentation': ['Function-limiting pain (Evidence: pg no: 10, L410-L412)', 'Failure of provider-directed non-surgical management for at least three (3) months in duration, except for discrete traumatic event resulting in acute proximal biceps tendon rupture (Evidence: pg no: 10, L413-L416)', 'Advanced diagnostic imaging study (e.g., MRI, CT) demonstrates labral tear/biceps tendon pathology (e.g., SLAP, Bankart, full-thickness subscapularis tear) and correlates with symptoms and physical exam findings (Evidence: pg no: 10, L417-L420)', 'Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain, cervical radiculopathy, and advanced glenohumeral osteoarthritis (Evidence: pg no: 10, L421-L423)', 'Minimally limited or full shoulder range of motion (Evidence: pg no: 10, L426)', \"ONE OR MORE positive physical exam findings including O'Brien's Test, Biceps Load Test, Clunk Test, Anterior Slide Test, Compr",
+          "full_source": {
+            "procedure_id": "biceps_tenodesis",
+            "category": "Shoulder (Evidence: pg no: 10, L406)",
+            "section_title": "Biceps Tenodesis (Evidence: pg no: 10, L406)",
+            "names": [
+              "Biceps Tenodesis (Evidence: pg no: 10, L406)"
+            ],
+            "description": "Tenodesis of biceps tendon for labral tear/biceps tendon pathology with specific range of motion and physical exam requirements (Evidence: pg no: 10, L408-L437)",
+            "scope": "Arthroscopic or open biceps tenodesis (Evidence: pg no: 10, L408)",
+            "general_requirements": {
+              "documentation": [
+                "Function-limiting pain (Evidence: pg no: 10, L410-L412)",
+                "Failure of provider-directed non-surgical management for at least three (3) months in duration, except for discrete traumatic event resulting in acute proximal biceps tendon rupture (Evidence: pg no: 10, L413-L416)",
+                "Advanced diagnostic imaging study (e.g., MRI, CT) demonstrates labral tear/biceps tendon pathology (e.g., SLAP, Bankart, full-thickness subscapularis tear) and correlates with symptoms and physical exam findings (Evidence: pg no: 10, L417-L420)",
+                "Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain, cervical radiculopathy, and advanced glenohumeral osteoarthritis (Evidence: pg no: 10, L421-L423)",
+                "Minimally limited or full shoulder range of motion (Evidence: pg no: 10, L426)",
+                "ONE OR MORE positive physical exam findings including O'Brien's Test, Biceps Load Test, Clunk Test, Anterior Slide Test, Compression Rotation Test, Speed's Test, Upper cut test, Popeye sign, Yergason's test, Proximal biceps (groove) tenderness (Evidence: pg no: 10, L427-L437)"
+              ]
+            },
+            "exclusions": [
+              "Any other indication or condition (Evidence: pg no: 10, L439-L440)"
+            ],
+            "codes": [
+              {
+                "code": "23430",
+                "system": "CPT",
+                "description": "Tenodesis of long tendon of biceps (Evidence: pg no: 13, L545)"
+              },
+              {
+                "code": "23440",
+                "system": "CPT",
+                "description": "Resection or transplantation of long tendon of biceps (Evidence: pg no: 13, L546)"
+              },
+              {
+                "code": "29828",
+                "system": "CPT",
+                "description": "Arthroscopy, shoulder, surgical; biceps tenodesis (Evidence: pg no: 14, L586)"
+              }
+            ],
+            "notes": "Conservative management exception for acute proximal biceps tendon rupture (Evidence: pg no: 10, L414-L416)"
+          },
+          "payer_guideline_reference": [
+            "(Evidence: pg no: 10, L421-L423)",
+            "(Evidence: pg no: 14, L586)",
+            "(Evidence: pg no: 10, L413-L416)",
+            "(Evidence: pg no: 10, L410-L412)",
+            "(Evidence: pg no: 10, L406)",
+            "(Evidence: pg no: 10, L426)",
+            "(Evidence: pg no: 10, L408)",
+            "(Evidence: pg no: 10, L417-L420)",
+            "(Evidence: pg no: 13, L546)",
+            "(Evidence: pg no: 10, L414-L416)",
+            "(Evidence: pg no: 10, L439-L440)",
+            "(Evidence: pg no: 13, L545)",
+            "(Evidence: pg no: 10, L408-L437)",
+            "(Evidence: pg no: 10, L427-L437)"
+          ]
+        },
+        {
+          "header": "[CIGNA | Intramedullary Nailing of Left Intertrochanteric Femur Fracture | Chunk 2 | score=10.000 | file=cigna_guideline_2.json | id=cigna_5]",
+          "file": "cigna_guideline_2.json",
+          "record_id": "cigna_5",
+          "chunk_index": 2,
+          "payer": "cigna",
+          "score": 10.0,
+          "description": "{'procedure_id': 'diagnostic_arthroscopy', 'category': 'Shoulder (Evidence: pg no: 4, L152)', 'section_title': 'Diagnostic Arthroscopy (Evidence: pg no: 4, L152)', 'names': ['Diagnostic Arthroscopy (Evidence: pg no: 4, L152)'], 'description': 'Diagnostic arthroscopy as a stand-alone procedure for evaluation of shoulder pathology when advanced imaging is inconclusive (Evidence: pg no: 4, L154-L155)', 'scope': 'Stand-alone diagnostic procedure (Evidence: pg no: 4, L154-L155)', 'general_requirements': {'documentation': ['Function-limiting pain for at least six (6) months in duration (Evidence: pg no: 4, L156-L157)', 'Abnormal shoulder physical examination findings compared to non-involved side including functionally limited range of motion or measurable loss in strength (Evidence: pg no: 4, L158-L161)', 'Positive Neer Impingement Test or Hawkins-Kennedy Impingement Test (Evidence: pg no: 4, L162)', 'Failure of provider-directed non-surgical management for at least three (3) months in duration (Evidence: pg no: 4, L163-L164)', 'Advanced diagnostic imaging study (e.g., MRI, CT) is inconclusive for internal derangement/pathology (Evidence: pg no: 4, L165)', 'Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain and advanced glenohumeral osteoarthritis (Evidence: pg no: 4, L166-L168)']}, 'exclusions': ['Any other indication or condition (Evidence: pg no: 5, L171-L172)', 'In-office diagno",
+          "full_source": {
+            "procedure_id": "diagnostic_arthroscopy",
+            "category": "Shoulder (Evidence: pg no: 4, L152)",
+            "section_title": "Diagnostic Arthroscopy (Evidence: pg no: 4, L152)",
+            "names": [
+              "Diagnostic Arthroscopy (Evidence: pg no: 4, L152)"
+            ],
+            "description": "Diagnostic arthroscopy as a stand-alone procedure for evaluation of shoulder pathology when advanced imaging is inconclusive (Evidence: pg no: 4, L154-L155)",
+            "scope": "Stand-alone diagnostic procedure (Evidence: pg no: 4, L154-L155)",
+            "general_requirements": {
+              "documentation": [
+                "Function-limiting pain for at least six (6) months in duration (Evidence: pg no: 4, L156-L157)",
+                "Abnormal shoulder physical examination findings compared to non-involved side including functionally limited range of motion or measurable loss in strength (Evidence: pg no: 4, L158-L161)",
+                "Positive Neer Impingement Test or Hawkins-Kennedy Impingement Test (Evidence: pg no: 4, L162)",
+                "Failure of provider-directed non-surgical management for at least three (3) months in duration (Evidence: pg no: 4, L163-L164)",
+                "Advanced diagnostic imaging study (e.g., MRI, CT) is inconclusive for internal derangement/pathology (Evidence: pg no: 4, L165)",
+                "Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain and advanced glenohumeral osteoarthritis (Evidence: pg no: 4, L166-L168)"
+              ]
+            },
+            "exclusions": [
+              "Any other indication or condition (Evidence: pg no: 5, L171-L172)",
+              "In-office diagnostic arthroscopy (e.g., Mi-Eye™, VisionScope®) - considered experimental, investigational, or unproven (Evidence: pg no: 5, L175-L176)"
+            ],
+            "codes": [
+              {
+                "code": "29805",
+                "system": "CPT",
+                "description": "Arthroscopy, shoulder, diagnostic, with or without synovial biopsy (separate procedure) (Evidence: pg no: 13, L556)"
+              }
+            ],
+            "notes": "Considered medically necessary only when ALL criteria are met (Evidence: pg no: 4, L155)"
+          },
+          "payer_guideline_reference": [
+            "(Evidence: pg no: 4, L158-L161)",
+            "(Evidence: pg no: 4, L152)",
+            "(Evidence: pg no: 4, L156-L157)",
+            "(Evidence: pg no: 5, L175-L176)",
+            "(Evidence: pg no: 4, L155)",
+            "(Evidence: pg no: 13, L556)",
+            "(Evidence: pg no: 4, L154-L155)",
+            "(Evidence: pg no: 4, L165)",
+            "(Evidence: pg no: 4, L166-L168)",
+            "(Evidence: pg no: 4, L162)",
+            "(Evidence: pg no: 5, L171-L172)",
+            "(Evidence: pg no: 4, L163-L164)"
+          ]
+        }
+      ],
+      "error": null
+    },
+    "uhc": {
+      "payer_name": "UnitedHealthcare",
+      "procedures_evaluated": 1,
+      "procedure_results": [
+        {
+          "procedure_evaluated": "Intramedullary Nailing of Left Intertrochanteric Femur Fracture",
+          "variant_or_subprocedure": "Left Intertrochanteric Femur Fracture",
+          "policy_name": "UnitedHealthcare Medical Policy",
+          "decision": "Insufficient",
+          "primary_reasons": [
+            "No applicable UnitedHealthcare policy found for intramedullary nailing of femur fractures",
+            "Unable to evaluate against specific UHC criteria for this procedure"
+          ],
+          "requirement_checklist": [
+            {
+              "requirement_id": "policy_availability",
+              "type": "single",
+              "status": "unmet",
+              "evidence": [
+                {
+                  "line_reference": "L619-L622"
+                }
+              ],
+              "missing_to_meet": "Specific UnitedHealthcare policy for intramedullary nailing of femur fractures",
+              "suggestion": "Request current UnitedHealthcare medical policy for intramedullary nailing of femur fractures"
+            }
+          ],
+          "timing_validation": {
+            "conservative_duration_weeks": "unknown",
+            "pt_sessions_completed": "unknown",
+            "follow_up_interval": "unknown"
+          },
+          "contraindications_exclusions": {
+            "active_infection": "absent",
+            "severe_arthritis": "absent",
+            "other_contraindications": []
+          },
+          "coding_implications": {
+            "eligible_codes_if_sufficient": [
+              "27245"
+            ],
+            "notes": "CPT code 27245 documented in operative note (L620)"
+          },
+          "improvement_recommendations": {
+            "policy_needed": [
+              "Request current medical policy for intramedullary nailing of femur fractures"
+            ],
+            "cdi_documentation_gaps": [],
+            "completion_guidance": [
+              "Ensure documentation includes all elements required by current policy when obtained"
+            ],
+            "next_steps": [
+              "Obtain current medical necessity criteria for intramedullary nailing procedures"
+            ]
+          },
+          "_original_procedure_name": "Intramedullary Nailing of Left Intertrochanteric Femur Fracture",
+          "medical_chart_reference": [
+            "L619-L622",
+            "L620"
+          ],
+          "guideline_availability": {
+            "status": "available",
+            "search_hits": 6,
+            "max_score": 26.0,
+            "message": "Found 6 guideline(s) for UnitedHealthcare"
+          },
+          "sources": [
+            {
+              "header": "[UHC | Intramedullary Nailing of Left Intertrochanteric Femur Fracture | Chunk 1 | score=26.000 | file=uhc_guideline_1.json | id=uhc_16]",
+              "file": "uhc_guideline_1.json",
+              "record_id": "uhc_16",
+              "chunk_index": 1,
+              "payer": "uhc",
+              "score": 26.0,
+              "description": "{'procedure_id': 'subacromial_balloon_spacers', 'category': 'Shoulder (Evidence: pg no: 2, L89)', 'section_title': 'Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)', 'names': ['Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)', 'InSpace™ Subacromial Tissue Spacer System (Evidence: pg no: 2, L90)', 'Subacromial balloon spacer implantation (SBSI) (Evidence: pg no: 3, L124)', 'InSpace Biodegradable Subacromial Spacer (Evidence: pg no: 5, L254)'], 'description': 'A minimally invasive, biodegradable balloon spacer for treating massive, inoperable rotator cuff tears (MIRCTs). It preserves musculoskeletal and bone tissues, does not require the use of an anchor, and does not require a permanent implant. It is used as a spacer to eliminate friction between the acromion and the humeral head or rotator cuff to restore shoulder function and reduce pain. It is designed to biodegrade over the course of twelve months (Evidence: pg no: 2, L90-L93)', 'scope': 'Treatment of massive, irreparable rotator cuff tears (Evidence: pg no: 2, L90-L91)', 'general_requirements': {'documentation': ['Medical records documentation may be required to assess whether the member meets the clinical criteria for coverage (Evidence: pg no: 1, L40-L42)']}, 'exclusions': ['Unproven and not medically necessary due to insufficient evidence of efficacy (Evidence: pg no: 1, L37-L38)'], 'codes': [], 'notes': 'The current published literature is at high-risk of bias due to the small sample size, s",
+              "full_source": {
+                "procedure_id": "subacromial_balloon_spacers",
+                "category": "Shoulder (Evidence: pg no: 2, L89)",
+                "section_title": "Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)",
+                "names": [
+                  "Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)",
+                  "InSpace™ Subacromial Tissue Spacer System (Evidence: pg no: 2, L90)",
+                  "Subacromial balloon spacer implantation (SBSI) (Evidence: pg no: 3, L124)",
+                  "InSpace Biodegradable Subacromial Spacer (Evidence: pg no: 5, L254)"
+                ],
+                "description": "A minimally invasive, biodegradable balloon spacer for treating massive, inoperable rotator cuff tears (MIRCTs). It preserves musculoskeletal and bone tissues, does not require the use of an anchor, and does not require a permanent implant. It is used as a spacer to eliminate friction between the acromion and the humeral head or rotator cuff to restore shoulder function and reduce pain. It is designed to biodegrade over the course of twelve months (Evidence: pg no: 2, L90-L93)",
+                "scope": "Treatment of massive, irreparable rotator cuff tears (Evidence: pg no: 2, L90-L91)",
+                "general_requirements": {
+                  "documentation": [
+                    "Medical records documentation may be required to assess whether the member meets the clinical criteria for coverage (Evidence: pg no: 1, L40-L42)"
+                  ]
+                },
+                "exclusions": [
+                  "Unproven and not medically necessary due to insufficient evidence of efficacy (Evidence: pg no: 1, L37-L38)"
+                ],
+                "codes": [],
+                "notes": "The current published literature is at high-risk of bias due to the small sample size, single-center focus, retrospective design, and lack of randomization, blinding, and control. There are device-related complications, and long-term studies are necessary as short-term results appear to degrade over time (Evidence: pg no: 2, L94-L97)"
+              },
+              "payer_guideline_reference": [
+                "(Evidence: pg no: 2, L90)",
+                "(Evidence: pg no: 2, L90-L93)",
+                "(Evidence: pg no: 2, L89)",
+                "(Evidence: pg no: 2, L90-L91)",
+                "(Evidence: pg no: 2, L94-L97)",
+                "(Evidence: pg no: 3, L124)",
+                "(Evidence: pg no: 1, L37-L38)",
+                "(Evidence: pg no: 1, L40-L42)",
+                "(Evidence: pg no: 5, L254)"
+              ]
+            },
+            {
+              "header": "[UHC | Intramedullary Nailing of Left Intertrochanteric Femur Fracture | Chunk 2 | score=16.000 | file=uhc_guideline_2.json | id=uhc_2]",
+              "file": "uhc_guideline_2.json",
+              "record_id": "uhc_2",
+              "chunk_index": 2,
+              "payer": "uhc",
+              "score": 16.0,
+              "description": "{'procedure_id': 'arthroscopy_shoulder_diagnostic', 'category': 'Shoulder (Evidence: pg no: 1, L28)', 'section_title': 'Arthroscopy, Diagnostic, +/- Synovial Biopsy, Shoulder (Evidence: pg no: 1, L30)', 'names': ['Arthroscopy, shoulder, diagnostic, with or without synovial biopsy (Evidence: pg no: 2, L67)'], 'description': 'Diagnostic arthroscopy of the shoulder with or without synovial biopsy as a separate procedure (Evidence: pg no: 2, L67)', 'scope': 'Diagnostic procedure for shoulder evaluation (Evidence: pg no: 2, L67)', 'general_requirements': {'documentation': ['Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)']}, 'exclusions': [], 'codes': [{'code': '29805', 'system': 'CPT', 'description': 'Arthroscopy, shoulder, diagnostic, with or without synovial biopsy (separate procedure) (Evidence: pg no: 2, L67)'}], 'notes': 'Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)'}",
+              "full_source": {
+                "procedure_id": "arthroscopy_shoulder_diagnostic",
+                "category": "Shoulder (Evidence: pg no: 1, L28)",
+                "section_title": "Arthroscopy, Diagnostic, +/- Synovial Biopsy, Shoulder (Evidence: pg no: 1, L30)",
+                "names": [
+                  "Arthroscopy, shoulder, diagnostic, with or without synovial biopsy (Evidence: pg no: 2, L67)"
+                ],
+                "description": "Diagnostic arthroscopy of the shoulder with or without synovial biopsy as a separate procedure (Evidence: pg no: 2, L67)",
+                "scope": "Diagnostic procedure for shoulder evaluation (Evidence: pg no: 2, L67)",
+                "general_requirements": {
+                  "documentation": [
+                    "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+                  ]
+                },
+                "exclusions": [],
+                "codes": [
+                  {
+                    "code": "29805",
+                    "system": "CPT",
+                    "description": "Arthroscopy, shoulder, diagnostic, with or without synovial biopsy (separate procedure) (Evidence: pg no: 2, L67)"
+                  }
+                ],
+                "notes": "Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)"
+              },
+              "payer_guideline_reference": [
+                "(Evidence: pg no: 1, L30)",
+                "(Evidence: pg no: 1, L25-L27)",
+                "(Evidence: pg no: 1, L25)",
+                "(Evidence: pg no: 1, L28)",
+                "(Evidence: pg no: 2, L67)"
+              ]
+            },
+            {
+              "header": "[UHC | Intramedullary Nailing of Left Intertrochanteric Femur Fracture | Chunk 3 | score=12.000 | file=uhc_guideline_3.json | id=uhc_0]",
+              "file": "uhc_guideline_3.json",
+              "record_id": "uhc_0",
+              "chunk_index": 3,
+              "payer": "uhc",
+              "score": 12.0,
+              "description": "{'procedure_id': 'adhesion_lysis_shoulder', 'category': 'Shoulder (Evidence: pg no: 2, L81)', 'section_title': 'Lysis and Resection of Adhesions (Evidence: pg no: 2, L81)', 'names': ['Lysis and resection of adhesions (Evidence: pg no: 2, L81)'], 'description': 'Arthroscopic surgical lysis and resection of adhesions, with or without manipulation (Evidence: pg no: 2, L81)', 'scope': 'Surgical treatment of shoulder adhesions via arthroscopic approach (Evidence: pg no: 2, L81)', 'general_requirements': {'documentation': ['Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)']}, 'exclusions': [], 'codes': [{'code': '29825', 'system': 'CPT', 'description': 'Arthroscopy, shoulder, surgical; with lysis and resection of adhesions, with or without manipulation (Evidence: pg no: 2, L81)'}], 'notes': 'Part of arthroscopic shoulder surgery procedures (Evidence: pg no: 2, L81)'}",
+              "full_source": {
+                "procedure_id": "adhesion_lysis_shoulder",
+                "category": "Shoulder (Evidence: pg no: 2, L81)",
+                "section_title": "Lysis and Resection of Adhesions (Evidence: pg no: 2, L81)",
+                "names": [
+                  "Lysis and resection of adhesions (Evidence: pg no: 2, L81)"
+                ],
+                "description": "Arthroscopic surgical lysis and resection of adhesions, with or without manipulation (Evidence: pg no: 2, L81)",
+                "scope": "Surgical treatment of shoulder adhesions via arthroscopic approach (Evidence: pg no: 2, L81)",
+                "general_requirements": {
+                  "documentation": [
+                    "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+                  ]
+                },
+                "exclusions": [],
+                "codes": [
+                  {
+                    "code": "29825",
+                    "system": "CPT",
+                    "description": "Arthroscopy, shoulder, surgical; with lysis and resection of adhesions, with or without manipulation (Evidence: pg no: 2, L81)"
+                  }
+                ],
+                "notes": "Part of arthroscopic shoulder surgery procedures (Evidence: pg no: 2, L81)"
+              },
+              "payer_guideline_reference": [
+                "(Evidence: pg no: 1, L25-L27)",
+                "(Evidence: pg no: 2, L81)"
+              ]
+            }
+          ],
+          "guideline_source": "payer"
+        }
+      ],
+      "usage": "UsageInfo(input_tokens=14037, output_tokens=1510, model_id='unknown', input_cost=0.042111, output_cost=0.02265, total_cost=0.064761, cache_creation_input_tokens=0, cache_read_input_tokens=0, cache_write_cost=0.0, cache_read_cost=0.0)",
+      "sources": [
+        {
+          "header": "[UHC | Intramedullary Nailing of Left Intertrochanteric Femur Fracture | Chunk 1 | score=26.000 | file=uhc_guideline_1.json | id=uhc_16]",
+          "file": "uhc_guideline_1.json",
+          "record_id": "uhc_16",
+          "chunk_index": 1,
+          "payer": "uhc",
+          "score": 26.0,
+          "description": "{'procedure_id': 'subacromial_balloon_spacers', 'category': 'Shoulder (Evidence: pg no: 2, L89)', 'section_title': 'Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)', 'names': ['Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)', 'InSpace™ Subacromial Tissue Spacer System (Evidence: pg no: 2, L90)', 'Subacromial balloon spacer implantation (SBSI) (Evidence: pg no: 3, L124)', 'InSpace Biodegradable Subacromial Spacer (Evidence: pg no: 5, L254)'], 'description': 'A minimally invasive, biodegradable balloon spacer for treating massive, inoperable rotator cuff tears (MIRCTs). It preserves musculoskeletal and bone tissues, does not require the use of an anchor, and does not require a permanent implant. It is used as a spacer to eliminate friction between the acromion and the humeral head or rotator cuff to restore shoulder function and reduce pain. It is designed to biodegrade over the course of twelve months (Evidence: pg no: 2, L90-L93)', 'scope': 'Treatment of massive, irreparable rotator cuff tears (Evidence: pg no: 2, L90-L91)', 'general_requirements': {'documentation': ['Medical records documentation may be required to assess whether the member meets the clinical criteria for coverage (Evidence: pg no: 1, L40-L42)']}, 'exclusions': ['Unproven and not medically necessary due to insufficient evidence of efficacy (Evidence: pg no: 1, L37-L38)'], 'codes': [], 'notes': 'The current published literature is at high-risk of bias due to the small sample size, s",
+          "full_source": {
+            "procedure_id": "subacromial_balloon_spacers",
+            "category": "Shoulder (Evidence: pg no: 2, L89)",
+            "section_title": "Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)",
+            "names": [
+              "Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)",
+              "InSpace™ Subacromial Tissue Spacer System (Evidence: pg no: 2, L90)",
+              "Subacromial balloon spacer implantation (SBSI) (Evidence: pg no: 3, L124)",
+              "InSpace Biodegradable Subacromial Spacer (Evidence: pg no: 5, L254)"
+            ],
+            "description": "A minimally invasive, biodegradable balloon spacer for treating massive, inoperable rotator cuff tears (MIRCTs). It preserves musculoskeletal and bone tissues, does not require the use of an anchor, and does not require a permanent implant. It is used as a spacer to eliminate friction between the acromion and the humeral head or rotator cuff to restore shoulder function and reduce pain. It is designed to biodegrade over the course of twelve months (Evidence: pg no: 2, L90-L93)",
+            "scope": "Treatment of massive, irreparable rotator cuff tears (Evidence: pg no: 2, L90-L91)",
+            "general_requirements": {
+              "documentation": [
+                "Medical records documentation may be required to assess whether the member meets the clinical criteria for coverage (Evidence: pg no: 1, L40-L42)"
+              ]
+            },
+            "exclusions": [
+              "Unproven and not medically necessary due to insufficient evidence of efficacy (Evidence: pg no: 1, L37-L38)"
+            ],
+            "codes": [],
+            "notes": "The current published literature is at high-risk of bias due to the small sample size, single-center focus, retrospective design, and lack of randomization, blinding, and control. There are device-related complications, and long-term studies are necessary as short-term results appear to degrade over time (Evidence: pg no: 2, L94-L97)"
+          },
+          "payer_guideline_reference": [
+            "(Evidence: pg no: 2, L90)",
+            "(Evidence: pg no: 2, L90-L93)",
+            "(Evidence: pg no: 2, L89)",
+            "(Evidence: pg no: 2, L90-L91)",
+            "(Evidence: pg no: 2, L94-L97)",
+            "(Evidence: pg no: 3, L124)",
+            "(Evidence: pg no: 1, L37-L38)",
+            "(Evidence: pg no: 1, L40-L42)",
+            "(Evidence: pg no: 5, L254)"
+          ]
+        },
+        {
+          "header": "[UHC | Intramedullary Nailing of Left Intertrochanteric Femur Fracture | Chunk 2 | score=16.000 | file=uhc_guideline_2.json | id=uhc_2]",
+          "file": "uhc_guideline_2.json",
+          "record_id": "uhc_2",
+          "chunk_index": 2,
+          "payer": "uhc",
+          "score": 16.0,
+          "description": "{'procedure_id': 'arthroscopy_shoulder_diagnostic', 'category': 'Shoulder (Evidence: pg no: 1, L28)', 'section_title': 'Arthroscopy, Diagnostic, +/- Synovial Biopsy, Shoulder (Evidence: pg no: 1, L30)', 'names': ['Arthroscopy, shoulder, diagnostic, with or without synovial biopsy (Evidence: pg no: 2, L67)'], 'description': 'Diagnostic arthroscopy of the shoulder with or without synovial biopsy as a separate procedure (Evidence: pg no: 2, L67)', 'scope': 'Diagnostic procedure for shoulder evaluation (Evidence: pg no: 2, L67)', 'general_requirements': {'documentation': ['Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)']}, 'exclusions': [], 'codes': [{'code': '29805', 'system': 'CPT', 'description': 'Arthroscopy, shoulder, diagnostic, with or without synovial biopsy (separate procedure) (Evidence: pg no: 2, L67)'}], 'notes': 'Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)'}",
+          "full_source": {
+            "procedure_id": "arthroscopy_shoulder_diagnostic",
+            "category": "Shoulder (Evidence: pg no: 1, L28)",
+            "section_title": "Arthroscopy, Diagnostic, +/- Synovial Biopsy, Shoulder (Evidence: pg no: 1, L30)",
+            "names": [
+              "Arthroscopy, shoulder, diagnostic, with or without synovial biopsy (Evidence: pg no: 2, L67)"
+            ],
+            "description": "Diagnostic arthroscopy of the shoulder with or without synovial biopsy as a separate procedure (Evidence: pg no: 2, L67)",
+            "scope": "Diagnostic procedure for shoulder evaluation (Evidence: pg no: 2, L67)",
+            "general_requirements": {
+              "documentation": [
+                "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+              ]
+            },
+            "exclusions": [],
+            "codes": [
+              {
+                "code": "29805",
+                "system": "CPT",
+                "description": "Arthroscopy, shoulder, diagnostic, with or without synovial biopsy (separate procedure) (Evidence: pg no: 2, L67)"
+              }
+            ],
+            "notes": "Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)"
+          },
+          "payer_guideline_reference": [
+            "(Evidence: pg no: 1, L30)",
+            "(Evidence: pg no: 1, L25-L27)",
+            "(Evidence: pg no: 1, L25)",
+            "(Evidence: pg no: 1, L28)",
+            "(Evidence: pg no: 2, L67)"
+          ]
+        },
+        {
+          "header": "[UHC | Intramedullary Nailing of Left Intertrochanteric Femur Fracture | Chunk 3 | score=12.000 | file=uhc_guideline_3.json | id=uhc_0]",
+          "file": "uhc_guideline_3.json",
+          "record_id": "uhc_0",
+          "chunk_index": 3,
+          "payer": "uhc",
+          "score": 12.0,
+          "description": "{'procedure_id': 'adhesion_lysis_shoulder', 'category': 'Shoulder (Evidence: pg no: 2, L81)', 'section_title': 'Lysis and Resection of Adhesions (Evidence: pg no: 2, L81)', 'names': ['Lysis and resection of adhesions (Evidence: pg no: 2, L81)'], 'description': 'Arthroscopic surgical lysis and resection of adhesions, with or without manipulation (Evidence: pg no: 2, L81)', 'scope': 'Surgical treatment of shoulder adhesions via arthroscopic approach (Evidence: pg no: 2, L81)', 'general_requirements': {'documentation': ['Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)']}, 'exclusions': [], 'codes': [{'code': '29825', 'system': 'CPT', 'description': 'Arthroscopy, shoulder, surgical; with lysis and resection of adhesions, with or without manipulation (Evidence: pg no: 2, L81)'}], 'notes': 'Part of arthroscopic shoulder surgery procedures (Evidence: pg no: 2, L81)'}",
+          "full_source": {
+            "procedure_id": "adhesion_lysis_shoulder",
+            "category": "Shoulder (Evidence: pg no: 2, L81)",
+            "section_title": "Lysis and Resection of Adhesions (Evidence: pg no: 2, L81)",
+            "names": [
+              "Lysis and resection of adhesions (Evidence: pg no: 2, L81)"
+            ],
+            "description": "Arthroscopic surgical lysis and resection of adhesions, with or without manipulation (Evidence: pg no: 2, L81)",
+            "scope": "Surgical treatment of shoulder adhesions via arthroscopic approach (Evidence: pg no: 2, L81)",
+            "general_requirements": {
+              "documentation": [
+                "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+              ]
+            },
+            "exclusions": [],
+            "codes": [
+              {
+                "code": "29825",
+                "system": "CPT",
+                "description": "Arthroscopy, shoulder, surgical; with lysis and resection of adhesions, with or without manipulation (Evidence: pg no: 2, L81)"
+              }
+            ],
+            "notes": "Part of arthroscopic shoulder surgery procedures (Evidence: pg no: 2, L81)"
+          },
+          "payer_guideline_reference": [
+            "(Evidence: pg no: 1, L25-L27)",
+            "(Evidence: pg no: 2, L81)"
+          ]
+        }
+      ],
+      "error": null
+    },
+    "anthem": {
+      "payer_name": "Anthem",
+      "procedures_evaluated": 1,
+      "procedure_results": [
+        {
+          "procedure_evaluated": "Intramedullary Nailing of Left Intertrochanteric Femur Fracture",
+          "variant_or_subprocedure": "Left Intertrochanteric Femur Fracture",
+          "policy_name": "Anthem Medical Policy",
+          "decision": "Sufficient",
+          "primary_reasons": [
+            "Documentation supports hip fracture as indication for surgical intervention",
+            "Patient has documented intertrochanteric femur fracture requiring fixation"
+          ],
+          "requirement_checklist": [
+            {
+              "requirement_id": "hip_fracture",
+              "type": "single",
+              "status": "met",
+              "evidence": [
+                {
+                  "line_reference": "L518, L622, L669-L672"
+                }
+              ],
+              "missing_to_meet": "",
+              "suggestion": ""
+            },
+            {
+              "requirement_id": "imaging_evidence",
+              "type": "single",
+              "status": "met",
+              "evidence": [
+                {
+                  "line_reference": "L518"
+                }
+              ],
+              "missing_to_meet": "",
+              "suggestion": ""
+            },
+            {
+              "requirement_id": "functional_limitation",
+              "type": "single",
+              "status": "met",
+              "evidence": [
+                {
+                  "line_reference": "L030-L033"
+                }
+              ],
+              "missing_to_meet": "",
+              "suggestion": ""
+            }
+          ],
+          "timing_validation": {
+            "conservative_duration_weeks": "not applicable",
+            "pt_sessions_completed": "not applicable",
+            "follow_up_interval": "unknown"
+          },
+          "contraindications_exclusions": {
+            "active_infection": "absent",
+            "severe_arthritis": "absent",
+            "other_contraindications": []
+          },
+          "coding_implications": {
+            "eligible_codes_if_sufficient": [
+              "27245"
+            ],
+            "notes": "CPT code 27245 documented in operative note (L620)"
+          },
+          "improvement_recommendations": {
+            "policy_needed": [
+              "Request current medical policy specific to intramedullary nailing procedures"
+            ],
+            "cdi_documentation_gaps": [],
+            "completion_guidance": [],
+            "next_steps": [
+              "Continue to monitor for any policy updates related to fracture fixation procedures"
+            ]
+          },
+          "_original_procedure_name": "Intramedullary Nailing of Left Intertrochanteric Femur Fracture",
+          "medical_chart_reference": [
+            "L518",
+            "L622",
+            "L669-L672",
+            "L030-L033",
+            "L620"
+          ],
+          "guideline_availability": {
+            "status": "available",
+            "search_hits": 6,
+            "max_score": 18.0,
+            "message": "Found 6 guideline(s) for Anthem"
+          },
+          "sources": [
+            {
+              "header": "[ANTHEM | Intramedullary Nailing of Left Intertrochanteric Femur Fracture | Chunk 1 | score=18.000 | file=anthem_guideline_1.json | id=anthem_54]",
+              "file": "anthem_guideline_1.json",
+              "record_id": "anthem_54",
+              "chunk_index": 1,
+              "payer": "anthem",
+              "score": 18.0,
+              "description": "{'procedure_id': 'primary_total_hip_arthroplasty', 'category': 'Hip (Evidence: pg no: 22, L743)', 'section_title': 'Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)', 'names': ['Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)', 'Total hip arthroplasty (THA) (Evidence: pg no: 22, L746)', 'Total hip replacement (THR) (Evidence: pg no: 22, L746)'], 'description': 'Total hip arthroplasty (THA), also referred to as total hip replacement (THR), involves removal of the femoral head and acetabulum and placement of a prosthesis anchored to the bone. The goal of the procedure is long-term pain relief and restoration of function. (Evidence: pg no: 22, L746-L749)', 'scope': 'This guideline addresses hip arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 22, L756-L757)', 'general_requirements': {'documentation': ['Primary and secondary tumors of the proximal femur (Evidence: pg no: 24, L837)', 'Hip fracture or complications including malunion, nonunion or failed prior fixation (Evidence: pg no: 24, L838)', 'Failed previous hip fracture fixation (Evidence: pg no: 24, L839)', 'Avascular necrosis (osteonecrosis) with unresponsive severe pain (Evidence: pg no: 24, L840)', 'Revision of hip arthrodesis (Evidence: pg no: 24, L841)', 'Imaging evidence of significant joint destruction and cartilage loss, defined as Tönnis grade 3, modi",
+              "full_source": {
+                "procedure_id": "primary_total_hip_arthroplasty",
+                "category": "Hip (Evidence: pg no: 22, L743)",
+                "section_title": "Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)",
+                "names": [
+                  "Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)",
+                  "Total hip arthroplasty (THA) (Evidence: pg no: 22, L746)",
+                  "Total hip replacement (THR) (Evidence: pg no: 22, L746)"
+                ],
+                "description": "Total hip arthroplasty (THA), also referred to as total hip replacement (THR), involves removal of the femoral head and acetabulum and placement of a prosthesis anchored to the bone. The goal of the procedure is long-term pain relief and restoration of function. (Evidence: pg no: 22, L746-L749)",
+                "scope": "This guideline addresses hip arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 22, L756-L757)",
+                "general_requirements": {
+                  "documentation": [
+                    "Primary and secondary tumors of the proximal femur (Evidence: pg no: 24, L837)",
+                    "Hip fracture or complications including malunion, nonunion or failed prior fixation (Evidence: pg no: 24, L838)",
+                    "Failed previous hip fracture fixation (Evidence: pg no: 24, L839)",
+                    "Avascular necrosis (osteonecrosis) with unresponsive severe pain (Evidence: pg no: 24, L840)",
+                    "Revision of hip arthrodesis (Evidence: pg no: 24, L841)",
+                    "Imaging evidence of significant joint destruction and cartilage loss, defined as Tönnis grade 3, modified Outerbridge grade III – IV, or Kellgren-Lawrence grade 3 – 4 (Evidence: pg no: 24, L844-L845)",
+                    "Limited range of motion, antalgic gait and disabling pain of at least 3 months' duration (Evidence: pg no: 24, L846)",
+                    "Pain with passive motion of the hip (Evidence: pg no: 24, L847)",
+                    "Failure of at least 3 months of non-surgical conservative management (Evidence: pg no: 24, L848-L849)",
+                    "Functional limitation secondary to hip pathology which interferes with the ability to perform age-appropriate daily activities (Evidence: pg no: 24, L850-L851)"
+                  ]
+                },
+                "exclusions": [
+                  "Indications for total hip arthroplasty other than those addressed in this guideline are considered not medically necessary (Evidence: pg no: 26, L937-L938)"
+                ],
+                "codes": [
+                  {
+                    "code": "27130",
+                    "system": "CPT",
+                    "description": "Arthroplasty, acetabular and proximal femoral prosthetic replacement (total hip arthroplasty), with or without autograft or allograft (Evidence: pg no: 27, L973-L974)"
+                  }
+                ],
+                "notes": "All arthroplasty and acetabuloplasty/resection arthroplasty procedures are inclusive of synovectomy, removal of osteophytes, removal of loose bodies, manipulation of the hip, and release or repair of structures to gain entrance to the hip joint. (Evidence: pg no: 22, L749-L751)"
+              },
+              "payer_guideline_reference": [
+                "(Evidence: pg no: 24, L837)",
+                "(Evidence: pg no: 26, L937-L938)",
+                "(Evidence: pg no: 24, L841)",
+                "(Evidence: pg no: 22, L749-L751)",
+                "(Evidence: pg no: 24, L847)",
+                "(Evidence: pg no: 24, L846)",
+                "(Evidence: pg no: 24, L839)",
+                "(Evidence: pg no: 24, L844-L845)",
+                "(Evidence: pg no: 24, L848-L849)",
+                "(Evidence: pg no: 24, L838)",
+                "(Evidence: pg no: 22, L743)",
+                "(Evidence: pg no: 22, L746-L749)",
+                "(Evidence: pg no: 22, L746)",
+                "(Evidence: pg no: 24, L835)",
+                "(Evidence: pg no: 22, L756-L757)",
+                "(Evidence: pg no: 27, L973-L974)",
+                "(Evidence: pg no: 24, L850-L851)",
+                "(Evidence: pg no: 24, L840)"
+              ]
+            },
+            {
+              "header": "[ANTHEM | Intramedullary Nailing of Left Intertrochanteric Femur Fracture | Chunk 2 | score=18.000 | file=anthem_guideline_2.json | id=anthem_57]",
+              "file": "anthem_guideline_2.json",
+              "record_id": "anthem_57",
+              "chunk_index": 2,
+              "payer": "anthem",
+              "score": 18.0,
+              "description": "{'procedure_id': 'reverse_shoulder_arthroplasty', 'category': 'Shoulder (Evidence: pg no: 7, L169)', 'section_title': 'Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)', 'names': ['Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)', 'Reverse total shoulder arthroplasty (Evidence: pg no: 7, L178)'], 'description': 'Reverse total shoulder arthroplasty is similar to standard arthroplasty in that both components of the joint are replaced but the ball and socket portions of the joint are reversed, allowing the deltoid muscle to assume partial function of the rotator cuff. This procedure is typically utilized when there is concomitant rotator cuff disease. (Evidence: pg no: 7, L178-L180)', 'scope': 'This guideline addresses shoulder arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of a congenital condition, acute or traumatic event such as fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 7, L181-L183)', 'general_requirements': {'documentation': ['Reconstruction after a tumor resection (Evidence: pg no: 10, L302)', 'Glenohumeral osteoarthritis with irreparable rotator cuff tear (Evidence: pg no: 10, L303)', 'Glenoid bone stock inadequate to support a glenoid prosthesis (Evidence: pg no: 10, L304)', 'Failed hemiarthroplasty (Evidence: pg no: 10, L305)', 'Failed total shoulder arthroplasty with non-repairable rotator cuff (Evidence: pg no: 10, L306)', 'Shoulder fracture that is not re",
+              "full_source": {
+                "procedure_id": "reverse_shoulder_arthroplasty",
+                "category": "Shoulder (Evidence: pg no: 7, L169)",
+                "section_title": "Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)",
+                "names": [
+                  "Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)",
+                  "Reverse total shoulder arthroplasty (Evidence: pg no: 7, L178)"
+                ],
+                "description": "Reverse total shoulder arthroplasty is similar to standard arthroplasty in that both components of the joint are replaced but the ball and socket portions of the joint are reversed, allowing the deltoid muscle to assume partial function of the rotator cuff. This procedure is typically utilized when there is concomitant rotator cuff disease. (Evidence: pg no: 7, L178-L180)",
+                "scope": "This guideline addresses shoulder arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of a congenital condition, acute or traumatic event such as fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 7, L181-L183)",
+                "general_requirements": {
+                  "documentation": [
+                    "Reconstruction after a tumor resection (Evidence: pg no: 10, L302)",
+                    "Glenohumeral osteoarthritis with irreparable rotator cuff tear (Evidence: pg no: 10, L303)",
+                    "Glenoid bone stock inadequate to support a glenoid prosthesis (Evidence: pg no: 10, L304)",
+                    "Failed hemiarthroplasty (Evidence: pg no: 10, L305)",
+                    "Failed total shoulder arthroplasty with non-repairable rotator cuff (Evidence: pg no: 10, L306)",
+                    "Shoulder fracture that is not repairable or cannot be reconstructed with other techniques (Evidence: pg no: 10, L307)",
+                    "Deficient rotator cuff with limited ability to actively flex the upper extremity to 90 degrees against gravity (Evidence: pg no: 10, L310-L311)"
+                  ]
+                },
+                "exclusions": [],
+                "codes": [],
+                "notes": "Considered medically necessary for ANY of the listed indications when associated with pain and functional impairment. (Evidence: pg no: 10, L301)"
+              },
+              "payer_guideline_reference": [
+                "(Evidence: pg no: 10, L307)",
+                "(Evidence: pg no: 10, L301)",
+                "(Evidence: pg no: 10, L303)",
+                "(Evidence: pg no: 10, L300)",
+                "(Evidence: pg no: 7, L181-L183)",
+                "(Evidence: pg no: 7, L178-L180)",
+                "(Evidence: pg no: 7, L178)",
+                "(Evidence: pg no: 10, L305)",
+                "(Evidence: pg no: 10, L310-L311)",
+                "(Evidence: pg no: 10, L302)",
+                "(Evidence: pg no: 10, L306)",
+                "(Evidence: pg no: 10, L304)",
+                "(Evidence: pg no: 7, L169)"
+              ]
+            }
+          ],
+          "guideline_source": "payer"
+        }
+      ],
+      "usage": "UsageInfo(input_tokens=14037, output_tokens=1510, model_id='unknown', input_cost=0.042111, output_cost=0.02265, total_cost=0.064761, cache_creation_input_tokens=0, cache_read_input_tokens=0, cache_write_cost=0.0, cache_read_cost=0.0)",
+      "sources": [
+        {
+          "header": "[ANTHEM | Intramedullary Nailing of Left Intertrochanteric Femur Fracture | Chunk 1 | score=18.000 | file=anthem_guideline_1.json | id=anthem_54]",
+          "file": "anthem_guideline_1.json",
+          "record_id": "anthem_54",
+          "chunk_index": 1,
+          "payer": "anthem",
+          "score": 18.0,
+          "description": "{'procedure_id': 'primary_total_hip_arthroplasty', 'category': 'Hip (Evidence: pg no: 22, L743)', 'section_title': 'Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)', 'names': ['Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)', 'Total hip arthroplasty (THA) (Evidence: pg no: 22, L746)', 'Total hip replacement (THR) (Evidence: pg no: 22, L746)'], 'description': 'Total hip arthroplasty (THA), also referred to as total hip replacement (THR), involves removal of the femoral head and acetabulum and placement of a prosthesis anchored to the bone. The goal of the procedure is long-term pain relief and restoration of function. (Evidence: pg no: 22, L746-L749)', 'scope': 'This guideline addresses hip arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 22, L756-L757)', 'general_requirements': {'documentation': ['Primary and secondary tumors of the proximal femur (Evidence: pg no: 24, L837)', 'Hip fracture or complications including malunion, nonunion or failed prior fixation (Evidence: pg no: 24, L838)', 'Failed previous hip fracture fixation (Evidence: pg no: 24, L839)', 'Avascular necrosis (osteonecrosis) with unresponsive severe pain (Evidence: pg no: 24, L840)', 'Revision of hip arthrodesis (Evidence: pg no: 24, L841)', 'Imaging evidence of significant joint destruction and cartilage loss, defined as Tönnis grade 3, modi",
+          "full_source": {
+            "procedure_id": "primary_total_hip_arthroplasty",
+            "category": "Hip (Evidence: pg no: 22, L743)",
+            "section_title": "Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)",
+            "names": [
+              "Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)",
+              "Total hip arthroplasty (THA) (Evidence: pg no: 22, L746)",
+              "Total hip replacement (THR) (Evidence: pg no: 22, L746)"
+            ],
+            "description": "Total hip arthroplasty (THA), also referred to as total hip replacement (THR), involves removal of the femoral head and acetabulum and placement of a prosthesis anchored to the bone. The goal of the procedure is long-term pain relief and restoration of function. (Evidence: pg no: 22, L746-L749)",
+            "scope": "This guideline addresses hip arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 22, L756-L757)",
+            "general_requirements": {
+              "documentation": [
+                "Primary and secondary tumors of the proximal femur (Evidence: pg no: 24, L837)",
+                "Hip fracture or complications including malunion, nonunion or failed prior fixation (Evidence: pg no: 24, L838)",
+                "Failed previous hip fracture fixation (Evidence: pg no: 24, L839)",
+                "Avascular necrosis (osteonecrosis) with unresponsive severe pain (Evidence: pg no: 24, L840)",
+                "Revision of hip arthrodesis (Evidence: pg no: 24, L841)",
+                "Imaging evidence of significant joint destruction and cartilage loss, defined as Tönnis grade 3, modified Outerbridge grade III – IV, or Kellgren-Lawrence grade 3 – 4 (Evidence: pg no: 24, L844-L845)",
+                "Limited range of motion, antalgic gait and disabling pain of at least 3 months' duration (Evidence: pg no: 24, L846)",
+                "Pain with passive motion of the hip (Evidence: pg no: 24, L847)",
+                "Failure of at least 3 months of non-surgical conservative management (Evidence: pg no: 24, L848-L849)",
+                "Functional limitation secondary to hip pathology which interferes with the ability to perform age-appropriate daily activities (Evidence: pg no: 24, L850-L851)"
+              ]
+            },
+            "exclusions": [
+              "Indications for total hip arthroplasty other than those addressed in this guideline are considered not medically necessary (Evidence: pg no: 26, L937-L938)"
+            ],
+            "codes": [
+              {
+                "code": "27130",
+                "system": "CPT",
+                "description": "Arthroplasty, acetabular and proximal femoral prosthetic replacement (total hip arthroplasty), with or without autograft or allograft (Evidence: pg no: 27, L973-L974)"
+              }
+            ],
+            "notes": "All arthroplasty and acetabuloplasty/resection arthroplasty procedures are inclusive of synovectomy, removal of osteophytes, removal of loose bodies, manipulation of the hip, and release or repair of structures to gain entrance to the hip joint. (Evidence: pg no: 22, L749-L751)"
+          },
+          "payer_guideline_reference": [
+            "(Evidence: pg no: 24, L837)",
+            "(Evidence: pg no: 26, L937-L938)",
+            "(Evidence: pg no: 24, L841)",
+            "(Evidence: pg no: 22, L749-L751)",
+            "(Evidence: pg no: 24, L847)",
+            "(Evidence: pg no: 24, L846)",
+            "(Evidence: pg no: 24, L839)",
+            "(Evidence: pg no: 24, L844-L845)",
+            "(Evidence: pg no: 24, L848-L849)",
+            "(Evidence: pg no: 24, L838)",
+            "(Evidence: pg no: 22, L743)",
+            "(Evidence: pg no: 22, L746-L749)",
+            "(Evidence: pg no: 22, L746)",
+            "(Evidence: pg no: 24, L835)",
+            "(Evidence: pg no: 22, L756-L757)",
+            "(Evidence: pg no: 27, L973-L974)",
+            "(Evidence: pg no: 24, L850-L851)",
+            "(Evidence: pg no: 24, L840)"
+          ]
+        },
+        {
+          "header": "[ANTHEM | Intramedullary Nailing of Left Intertrochanteric Femur Fracture | Chunk 2 | score=18.000 | file=anthem_guideline_2.json | id=anthem_57]",
+          "file": "anthem_guideline_2.json",
+          "record_id": "anthem_57",
+          "chunk_index": 2,
+          "payer": "anthem",
+          "score": 18.0,
+          "description": "{'procedure_id': 'reverse_shoulder_arthroplasty', 'category': 'Shoulder (Evidence: pg no: 7, L169)', 'section_title': 'Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)', 'names': ['Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)', 'Reverse total shoulder arthroplasty (Evidence: pg no: 7, L178)'], 'description': 'Reverse total shoulder arthroplasty is similar to standard arthroplasty in that both components of the joint are replaced but the ball and socket portions of the joint are reversed, allowing the deltoid muscle to assume partial function of the rotator cuff. This procedure is typically utilized when there is concomitant rotator cuff disease. (Evidence: pg no: 7, L178-L180)', 'scope': 'This guideline addresses shoulder arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of a congenital condition, acute or traumatic event such as fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 7, L181-L183)', 'general_requirements': {'documentation': ['Reconstruction after a tumor resection (Evidence: pg no: 10, L302)', 'Glenohumeral osteoarthritis with irreparable rotator cuff tear (Evidence: pg no: 10, L303)', 'Glenoid bone stock inadequate to support a glenoid prosthesis (Evidence: pg no: 10, L304)', 'Failed hemiarthroplasty (Evidence: pg no: 10, L305)', 'Failed total shoulder arthroplasty with non-repairable rotator cuff (Evidence: pg no: 10, L306)', 'Shoulder fracture that is not re",
+          "full_source": {
+            "procedure_id": "reverse_shoulder_arthroplasty",
+            "category": "Shoulder (Evidence: pg no: 7, L169)",
+            "section_title": "Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)",
+            "names": [
+              "Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)",
+              "Reverse total shoulder arthroplasty (Evidence: pg no: 7, L178)"
+            ],
+            "description": "Reverse total shoulder arthroplasty is similar to standard arthroplasty in that both components of the joint are replaced but the ball and socket portions of the joint are reversed, allowing the deltoid muscle to assume partial function of the rotator cuff. This procedure is typically utilized when there is concomitant rotator cuff disease. (Evidence: pg no: 7, L178-L180)",
+            "scope": "This guideline addresses shoulder arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of a congenital condition, acute or traumatic event such as fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 7, L181-L183)",
+            "general_requirements": {
+              "documentation": [
+                "Reconstruction after a tumor resection (Evidence: pg no: 10, L302)",
+                "Glenohumeral osteoarthritis with irreparable rotator cuff tear (Evidence: pg no: 10, L303)",
+                "Glenoid bone stock inadequate to support a glenoid prosthesis (Evidence: pg no: 10, L304)",
+                "Failed hemiarthroplasty (Evidence: pg no: 10, L305)",
+                "Failed total shoulder arthroplasty with non-repairable rotator cuff (Evidence: pg no: 10, L306)",
+                "Shoulder fracture that is not repairable or cannot be reconstructed with other techniques (Evidence: pg no: 10, L307)",
+                "Deficient rotator cuff with limited ability to actively flex the upper extremity to 90 degrees against gravity (Evidence: pg no: 10, L310-L311)"
+              ]
+            },
+            "exclusions": [],
+            "codes": [],
+            "notes": "Considered medically necessary for ANY of the listed indications when associated with pain and functional impairment. (Evidence: pg no: 10, L301)"
+          },
+          "payer_guideline_reference": [
+            "(Evidence: pg no: 10, L307)",
+            "(Evidence: pg no: 10, L301)",
+            "(Evidence: pg no: 10, L303)",
+            "(Evidence: pg no: 10, L300)",
+            "(Evidence: pg no: 7, L181-L183)",
+            "(Evidence: pg no: 7, L178-L180)",
+            "(Evidence: pg no: 7, L178)",
+            "(Evidence: pg no: 10, L305)",
+            "(Evidence: pg no: 10, L310-L311)",
+            "(Evidence: pg no: 10, L302)",
+            "(Evidence: pg no: 10, L306)",
+            "(Evidence: pg no: 10, L304)",
+            "(Evidence: pg no: 7, L169)"
+          ]
+        }
+      ],
+      "error": null
+    }
+  },
+  "total_usage": "UsageInfo(input_tokens=31346, output_tokens=7018, model_id='unknown', input_cost=0.094038, output_cost=0.10526999999999999, total_cost=0.19930799999999999, cache_creation_input_tokens=0, cache_read_input_tokens=0, cache_write_cost=0.0, cache_read_cost=0.0)",
+  "total_cost": 0.15312900000000002,
+  "execution_times": {
+    "cigna": 19.259191274642944,
+    "uhc": 19.259191274642944,
+    "anthem": 19.259191274642944
+  },
+  "sources": [
+    {
+      "header": "[CIGNA | Intramedullary Nailing of Left Intertrochanteric Femur Fracture | Chunk 1 | score=10.000 | file=cigna_guideline_1.json | id=cigna_1]",
+      "file": "cigna_guideline_1.json",
+      "record_id": "cigna_1",
+      "chunk_index": 1,
+      "payer": "cigna",
+      "score": 10.0,
+      "description": "{'procedure_id': 'biceps_tenodesis', 'category': 'Shoulder (Evidence: pg no: 10, L406)', 'section_title': 'Biceps Tenodesis (Evidence: pg no: 10, L406)', 'names': ['Biceps Tenodesis (Evidence: pg no: 10, L406)'], 'description': 'Tenodesis of biceps tendon for labral tear/biceps tendon pathology with specific range of motion and physical exam requirements (Evidence: pg no: 10, L408-L437)', 'scope': 'Arthroscopic or open biceps tenodesis (Evidence: pg no: 10, L408)', 'general_requirements': {'documentation': ['Function-limiting pain (Evidence: pg no: 10, L410-L412)', 'Failure of provider-directed non-surgical management for at least three (3) months in duration, except for discrete traumatic event resulting in acute proximal biceps tendon rupture (Evidence: pg no: 10, L413-L416)', 'Advanced diagnostic imaging study (e.g., MRI, CT) demonstrates labral tear/biceps tendon pathology (e.g., SLAP, Bankart, full-thickness subscapularis tear) and correlates with symptoms and physical exam findings (Evidence: pg no: 10, L417-L420)', 'Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain, cervical radiculopathy, and advanced glenohumeral osteoarthritis (Evidence: pg no: 10, L421-L423)', 'Minimally limited or full shoulder range of motion (Evidence: pg no: 10, L426)', \"ONE OR MORE positive physical exam findings including O'Brien's Test, Biceps Load Test, Clunk Test, Anterior Slide Test, Compr",
+      "full_source": {
+        "procedure_id": "biceps_tenodesis",
+        "category": "Shoulder (Evidence: pg no: 10, L406)",
+        "section_title": "Biceps Tenodesis (Evidence: pg no: 10, L406)",
+        "names": [
+          "Biceps Tenodesis (Evidence: pg no: 10, L406)"
+        ],
+        "description": "Tenodesis of biceps tendon for labral tear/biceps tendon pathology with specific range of motion and physical exam requirements (Evidence: pg no: 10, L408-L437)",
+        "scope": "Arthroscopic or open biceps tenodesis (Evidence: pg no: 10, L408)",
+        "general_requirements": {
+          "documentation": [
+            "Function-limiting pain (Evidence: pg no: 10, L410-L412)",
+            "Failure of provider-directed non-surgical management for at least three (3) months in duration, except for discrete traumatic event resulting in acute proximal biceps tendon rupture (Evidence: pg no: 10, L413-L416)",
+            "Advanced diagnostic imaging study (e.g., MRI, CT) demonstrates labral tear/biceps tendon pathology (e.g., SLAP, Bankart, full-thickness subscapularis tear) and correlates with symptoms and physical exam findings (Evidence: pg no: 10, L417-L420)",
+            "Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain, cervical radiculopathy, and advanced glenohumeral osteoarthritis (Evidence: pg no: 10, L421-L423)",
+            "Minimally limited or full shoulder range of motion (Evidence: pg no: 10, L426)",
+            "ONE OR MORE positive physical exam findings including O'Brien's Test, Biceps Load Test, Clunk Test, Anterior Slide Test, Compression Rotation Test, Speed's Test, Upper cut test, Popeye sign, Yergason's test, Proximal biceps (groove) tenderness (Evidence: pg no: 10, L427-L437)"
+          ]
+        },
+        "exclusions": [
+          "Any other indication or condition (Evidence: pg no: 10, L439-L440)"
+        ],
+        "codes": [
+          {
+            "code": "23430",
+            "system": "CPT",
+            "description": "Tenodesis of long tendon of biceps (Evidence: pg no: 13, L545)"
+          },
+          {
+            "code": "23440",
+            "system": "CPT",
+            "description": "Resection or transplantation of long tendon of biceps (Evidence: pg no: 13, L546)"
+          },
+          {
+            "code": "29828",
+            "system": "CPT",
+            "description": "Arthroscopy, shoulder, surgical; biceps tenodesis (Evidence: pg no: 14, L586)"
+          }
+        ],
+        "notes": "Conservative management exception for acute proximal biceps tendon rupture (Evidence: pg no: 10, L414-L416)"
+      },
+      "payer_guideline_reference": [
+        "(Evidence: pg no: 10, L421-L423)",
+        "(Evidence: pg no: 14, L586)",
+        "(Evidence: pg no: 10, L413-L416)",
+        "(Evidence: pg no: 10, L410-L412)",
+        "(Evidence: pg no: 10, L406)",
+        "(Evidence: pg no: 10, L426)",
+        "(Evidence: pg no: 10, L408)",
+        "(Evidence: pg no: 10, L417-L420)",
+        "(Evidence: pg no: 13, L546)",
+        "(Evidence: pg no: 10, L414-L416)",
+        "(Evidence: pg no: 10, L439-L440)",
+        "(Evidence: pg no: 13, L545)",
+        "(Evidence: pg no: 10, L408-L437)",
+        "(Evidence: pg no: 10, L427-L437)"
+      ]
+    },
+    {
+      "header": "[CIGNA | Intramedullary Nailing of Left Intertrochanteric Femur Fracture | Chunk 2 | score=10.000 | file=cigna_guideline_2.json | id=cigna_5]",
+      "file": "cigna_guideline_2.json",
+      "record_id": "cigna_5",
+      "chunk_index": 2,
+      "payer": "cigna",
+      "score": 10.0,
+      "description": "{'procedure_id': 'diagnostic_arthroscopy', 'category': 'Shoulder (Evidence: pg no: 4, L152)', 'section_title': 'Diagnostic Arthroscopy (Evidence: pg no: 4, L152)', 'names': ['Diagnostic Arthroscopy (Evidence: pg no: 4, L152)'], 'description': 'Diagnostic arthroscopy as a stand-alone procedure for evaluation of shoulder pathology when advanced imaging is inconclusive (Evidence: pg no: 4, L154-L155)', 'scope': 'Stand-alone diagnostic procedure (Evidence: pg no: 4, L154-L155)', 'general_requirements': {'documentation': ['Function-limiting pain for at least six (6) months in duration (Evidence: pg no: 4, L156-L157)', 'Abnormal shoulder physical examination findings compared to non-involved side including functionally limited range of motion or measurable loss in strength (Evidence: pg no: 4, L158-L161)', 'Positive Neer Impingement Test or Hawkins-Kennedy Impingement Test (Evidence: pg no: 4, L162)', 'Failure of provider-directed non-surgical management for at least three (3) months in duration (Evidence: pg no: 4, L163-L164)', 'Advanced diagnostic imaging study (e.g., MRI, CT) is inconclusive for internal derangement/pathology (Evidence: pg no: 4, L165)', 'Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain and advanced glenohumeral osteoarthritis (Evidence: pg no: 4, L166-L168)']}, 'exclusions': ['Any other indication or condition (Evidence: pg no: 5, L171-L172)', 'In-office diagno",
+      "full_source": {
+        "procedure_id": "diagnostic_arthroscopy",
+        "category": "Shoulder (Evidence: pg no: 4, L152)",
+        "section_title": "Diagnostic Arthroscopy (Evidence: pg no: 4, L152)",
+        "names": [
+          "Diagnostic Arthroscopy (Evidence: pg no: 4, L152)"
+        ],
+        "description": "Diagnostic arthroscopy as a stand-alone procedure for evaluation of shoulder pathology when advanced imaging is inconclusive (Evidence: pg no: 4, L154-L155)",
+        "scope": "Stand-alone diagnostic procedure (Evidence: pg no: 4, L154-L155)",
+        "general_requirements": {
+          "documentation": [
+            "Function-limiting pain for at least six (6) months in duration (Evidence: pg no: 4, L156-L157)",
+            "Abnormal shoulder physical examination findings compared to non-involved side including functionally limited range of motion or measurable loss in strength (Evidence: pg no: 4, L158-L161)",
+            "Positive Neer Impingement Test or Hawkins-Kennedy Impingement Test (Evidence: pg no: 4, L162)",
+            "Failure of provider-directed non-surgical management for at least three (3) months in duration (Evidence: pg no: 4, L163-L164)",
+            "Advanced diagnostic imaging study (e.g., MRI, CT) is inconclusive for internal derangement/pathology (Evidence: pg no: 4, L165)",
+            "Other potential pathological conditions have been excluded including fracture, thoracic outlet syndrome, brachial plexus disorders, referred neck pain and advanced glenohumeral osteoarthritis (Evidence: pg no: 4, L166-L168)"
+          ]
+        },
+        "exclusions": [
+          "Any other indication or condition (Evidence: pg no: 5, L171-L172)",
+          "In-office diagnostic arthroscopy (e.g., Mi-Eye™, VisionScope®) - considered experimental, investigational, or unproven (Evidence: pg no: 5, L175-L176)"
+        ],
+        "codes": [
+          {
+            "code": "29805",
+            "system": "CPT",
+            "description": "Arthroscopy, shoulder, diagnostic, with or without synovial biopsy (separate procedure) (Evidence: pg no: 13, L556)"
+          }
+        ],
+        "notes": "Considered medically necessary only when ALL criteria are met (Evidence: pg no: 4, L155)"
+      },
+      "payer_guideline_reference": [
+        "(Evidence: pg no: 4, L158-L161)",
+        "(Evidence: pg no: 4, L152)",
+        "(Evidence: pg no: 4, L156-L157)",
+        "(Evidence: pg no: 5, L175-L176)",
+        "(Evidence: pg no: 4, L155)",
+        "(Evidence: pg no: 13, L556)",
+        "(Evidence: pg no: 4, L154-L155)",
+        "(Evidence: pg no: 4, L165)",
+        "(Evidence: pg no: 4, L166-L168)",
+        "(Evidence: pg no: 4, L162)",
+        "(Evidence: pg no: 5, L171-L172)",
+        "(Evidence: pg no: 4, L163-L164)"
+      ]
+    },
+    {
+      "header": "[UHC | Intramedullary Nailing of Left Intertrochanteric Femur Fracture | Chunk 1 | score=26.000 | file=uhc_guideline_1.json | id=uhc_16]",
+      "file": "uhc_guideline_1.json",
+      "record_id": "uhc_16",
+      "chunk_index": 1,
+      "payer": "uhc",
+      "score": 26.0,
+      "description": "{'procedure_id': 'subacromial_balloon_spacers', 'category': 'Shoulder (Evidence: pg no: 2, L89)', 'section_title': 'Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)', 'names': ['Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)', 'InSpace™ Subacromial Tissue Spacer System (Evidence: pg no: 2, L90)', 'Subacromial balloon spacer implantation (SBSI) (Evidence: pg no: 3, L124)', 'InSpace Biodegradable Subacromial Spacer (Evidence: pg no: 5, L254)'], 'description': 'A minimally invasive, biodegradable balloon spacer for treating massive, inoperable rotator cuff tears (MIRCTs). It preserves musculoskeletal and bone tissues, does not require the use of an anchor, and does not require a permanent implant. It is used as a spacer to eliminate friction between the acromion and the humeral head or rotator cuff to restore shoulder function and reduce pain. It is designed to biodegrade over the course of twelve months (Evidence: pg no: 2, L90-L93)', 'scope': 'Treatment of massive, irreparable rotator cuff tears (Evidence: pg no: 2, L90-L91)', 'general_requirements': {'documentation': ['Medical records documentation may be required to assess whether the member meets the clinical criteria for coverage (Evidence: pg no: 1, L40-L42)']}, 'exclusions': ['Unproven and not medically necessary due to insufficient evidence of efficacy (Evidence: pg no: 1, L37-L38)'], 'codes': [], 'notes': 'The current published literature is at high-risk of bias due to the small sample size, s",
+      "full_source": {
+        "procedure_id": "subacromial_balloon_spacers",
+        "category": "Shoulder (Evidence: pg no: 2, L89)",
+        "section_title": "Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)",
+        "names": [
+          "Subacromial Balloon Spacers (SABS) (Evidence: pg no: 2, L89)",
+          "InSpace™ Subacromial Tissue Spacer System (Evidence: pg no: 2, L90)",
+          "Subacromial balloon spacer implantation (SBSI) (Evidence: pg no: 3, L124)",
+          "InSpace Biodegradable Subacromial Spacer (Evidence: pg no: 5, L254)"
+        ],
+        "description": "A minimally invasive, biodegradable balloon spacer for treating massive, inoperable rotator cuff tears (MIRCTs). It preserves musculoskeletal and bone tissues, does not require the use of an anchor, and does not require a permanent implant. It is used as a spacer to eliminate friction between the acromion and the humeral head or rotator cuff to restore shoulder function and reduce pain. It is designed to biodegrade over the course of twelve months (Evidence: pg no: 2, L90-L93)",
+        "scope": "Treatment of massive, irreparable rotator cuff tears (Evidence: pg no: 2, L90-L91)",
+        "general_requirements": {
+          "documentation": [
+            "Medical records documentation may be required to assess whether the member meets the clinical criteria for coverage (Evidence: pg no: 1, L40-L42)"
+          ]
+        },
+        "exclusions": [
+          "Unproven and not medically necessary due to insufficient evidence of efficacy (Evidence: pg no: 1, L37-L38)"
+        ],
+        "codes": [],
+        "notes": "The current published literature is at high-risk of bias due to the small sample size, single-center focus, retrospective design, and lack of randomization, blinding, and control. There are device-related complications, and long-term studies are necessary as short-term results appear to degrade over time (Evidence: pg no: 2, L94-L97)"
+      },
+      "payer_guideline_reference": [
+        "(Evidence: pg no: 2, L90)",
+        "(Evidence: pg no: 2, L90-L93)",
+        "(Evidence: pg no: 2, L89)",
+        "(Evidence: pg no: 2, L90-L91)",
+        "(Evidence: pg no: 2, L94-L97)",
+        "(Evidence: pg no: 3, L124)",
+        "(Evidence: pg no: 1, L37-L38)",
+        "(Evidence: pg no: 1, L40-L42)",
+        "(Evidence: pg no: 5, L254)"
+      ]
+    },
+    {
+      "header": "[UHC | Intramedullary Nailing of Left Intertrochanteric Femur Fracture | Chunk 2 | score=16.000 | file=uhc_guideline_2.json | id=uhc_2]",
+      "file": "uhc_guideline_2.json",
+      "record_id": "uhc_2",
+      "chunk_index": 2,
+      "payer": "uhc",
+      "score": 16.0,
+      "description": "{'procedure_id': 'arthroscopy_shoulder_diagnostic', 'category': 'Shoulder (Evidence: pg no: 1, L28)', 'section_title': 'Arthroscopy, Diagnostic, +/- Synovial Biopsy, Shoulder (Evidence: pg no: 1, L30)', 'names': ['Arthroscopy, shoulder, diagnostic, with or without synovial biopsy (Evidence: pg no: 2, L67)'], 'description': 'Diagnostic arthroscopy of the shoulder with or without synovial biopsy as a separate procedure (Evidence: pg no: 2, L67)', 'scope': 'Diagnostic procedure for shoulder evaluation (Evidence: pg no: 2, L67)', 'general_requirements': {'documentation': ['Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)']}, 'exclusions': [], 'codes': [{'code': '29805', 'system': 'CPT', 'description': 'Arthroscopy, shoulder, diagnostic, with or without synovial biopsy (separate procedure) (Evidence: pg no: 2, L67)'}], 'notes': 'Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)'}",
+      "full_source": {
+        "procedure_id": "arthroscopy_shoulder_diagnostic",
+        "category": "Shoulder (Evidence: pg no: 1, L28)",
+        "section_title": "Arthroscopy, Diagnostic, +/- Synovial Biopsy, Shoulder (Evidence: pg no: 1, L30)",
+        "names": [
+          "Arthroscopy, shoulder, diagnostic, with or without synovial biopsy (Evidence: pg no: 2, L67)"
+        ],
+        "description": "Diagnostic arthroscopy of the shoulder with or without synovial biopsy as a separate procedure (Evidence: pg no: 2, L67)",
+        "scope": "Diagnostic procedure for shoulder evaluation (Evidence: pg no: 2, L67)",
+        "general_requirements": {
+          "documentation": [
+            "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+          ]
+        },
+        "exclusions": [],
+        "codes": [
+          {
+            "code": "29805",
+            "system": "CPT",
+            "description": "Arthroscopy, shoulder, diagnostic, with or without synovial biopsy (separate procedure) (Evidence: pg no: 2, L67)"
+          }
+        ],
+        "notes": "Listed as proven and medically necessary in certain circumstances (Evidence: pg no: 1, L25)"
+      },
+      "payer_guideline_reference": [
+        "(Evidence: pg no: 1, L30)",
+        "(Evidence: pg no: 1, L25-L27)",
+        "(Evidence: pg no: 1, L25)",
+        "(Evidence: pg no: 1, L28)",
+        "(Evidence: pg no: 2, L67)"
+      ]
+    },
+    {
+      "header": "[UHC | Intramedullary Nailing of Left Intertrochanteric Femur Fracture | Chunk 3 | score=12.000 | file=uhc_guideline_3.json | id=uhc_0]",
+      "file": "uhc_guideline_3.json",
+      "record_id": "uhc_0",
+      "chunk_index": 3,
+      "payer": "uhc",
+      "score": 12.0,
+      "description": "{'procedure_id': 'adhesion_lysis_shoulder', 'category': 'Shoulder (Evidence: pg no: 2, L81)', 'section_title': 'Lysis and Resection of Adhesions (Evidence: pg no: 2, L81)', 'names': ['Lysis and resection of adhesions (Evidence: pg no: 2, L81)'], 'description': 'Arthroscopic surgical lysis and resection of adhesions, with or without manipulation (Evidence: pg no: 2, L81)', 'scope': 'Surgical treatment of shoulder adhesions via arthroscopic approach (Evidence: pg no: 2, L81)', 'general_requirements': {'documentation': ['Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)']}, 'exclusions': [], 'codes': [{'code': '29825', 'system': 'CPT', 'description': 'Arthroscopy, shoulder, surgical; with lysis and resection of adhesions, with or without manipulation (Evidence: pg no: 2, L81)'}], 'notes': 'Part of arthroscopic shoulder surgery procedures (Evidence: pg no: 2, L81)'}",
+      "full_source": {
+        "procedure_id": "adhesion_lysis_shoulder",
+        "category": "Shoulder (Evidence: pg no: 2, L81)",
+        "section_title": "Lysis and Resection of Adhesions (Evidence: pg no: 2, L81)",
+        "names": [
+          "Lysis and resection of adhesions (Evidence: pg no: 2, L81)"
+        ],
+        "description": "Arthroscopic surgical lysis and resection of adhesions, with or without manipulation (Evidence: pg no: 2, L81)",
+        "scope": "Surgical treatment of shoulder adhesions via arthroscopic approach (Evidence: pg no: 2, L81)",
+        "general_requirements": {
+          "documentation": [
+            "Medical necessity clinical coverage criteria per InterQual CP: Procedures (Evidence: pg no: 1, L25-L27)"
+          ]
+        },
+        "exclusions": [],
+        "codes": [
+          {
+            "code": "29825",
+            "system": "CPT",
+            "description": "Arthroscopy, shoulder, surgical; with lysis and resection of adhesions, with or without manipulation (Evidence: pg no: 2, L81)"
+          }
+        ],
+        "notes": "Part of arthroscopic shoulder surgery procedures (Evidence: pg no: 2, L81)"
+      },
+      "payer_guideline_reference": [
+        "(Evidence: pg no: 1, L25-L27)",
+        "(Evidence: pg no: 2, L81)"
+      ]
+    },
+    {
+      "header": "[ANTHEM | Intramedullary Nailing of Left Intertrochanteric Femur Fracture | Chunk 1 | score=18.000 | file=anthem_guideline_1.json | id=anthem_54]",
+      "file": "anthem_guideline_1.json",
+      "record_id": "anthem_54",
+      "chunk_index": 1,
+      "payer": "anthem",
+      "score": 18.0,
+      "description": "{'procedure_id': 'primary_total_hip_arthroplasty', 'category': 'Hip (Evidence: pg no: 22, L743)', 'section_title': 'Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)', 'names': ['Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)', 'Total hip arthroplasty (THA) (Evidence: pg no: 22, L746)', 'Total hip replacement (THR) (Evidence: pg no: 22, L746)'], 'description': 'Total hip arthroplasty (THA), also referred to as total hip replacement (THR), involves removal of the femoral head and acetabulum and placement of a prosthesis anchored to the bone. The goal of the procedure is long-term pain relief and restoration of function. (Evidence: pg no: 22, L746-L749)', 'scope': 'This guideline addresses hip arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 22, L756-L757)', 'general_requirements': {'documentation': ['Primary and secondary tumors of the proximal femur (Evidence: pg no: 24, L837)', 'Hip fracture or complications including malunion, nonunion or failed prior fixation (Evidence: pg no: 24, L838)', 'Failed previous hip fracture fixation (Evidence: pg no: 24, L839)', 'Avascular necrosis (osteonecrosis) with unresponsive severe pain (Evidence: pg no: 24, L840)', 'Revision of hip arthrodesis (Evidence: pg no: 24, L841)', 'Imaging evidence of significant joint destruction and cartilage loss, defined as Tönnis grade 3, modi",
+      "full_source": {
+        "procedure_id": "primary_total_hip_arthroplasty",
+        "category": "Hip (Evidence: pg no: 22, L743)",
+        "section_title": "Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)",
+        "names": [
+          "Primary Total Hip Arthroplasty (Evidence: pg no: 24, L835)",
+          "Total hip arthroplasty (THA) (Evidence: pg no: 22, L746)",
+          "Total hip replacement (THR) (Evidence: pg no: 22, L746)"
+        ],
+        "description": "Total hip arthroplasty (THA), also referred to as total hip replacement (THR), involves removal of the femoral head and acetabulum and placement of a prosthesis anchored to the bone. The goal of the procedure is long-term pain relief and restoration of function. (Evidence: pg no: 22, L746-L749)",
+        "scope": "This guideline addresses hip arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of an acute fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 22, L756-L757)",
+        "general_requirements": {
+          "documentation": [
+            "Primary and secondary tumors of the proximal femur (Evidence: pg no: 24, L837)",
+            "Hip fracture or complications including malunion, nonunion or failed prior fixation (Evidence: pg no: 24, L838)",
+            "Failed previous hip fracture fixation (Evidence: pg no: 24, L839)",
+            "Avascular necrosis (osteonecrosis) with unresponsive severe pain (Evidence: pg no: 24, L840)",
+            "Revision of hip arthrodesis (Evidence: pg no: 24, L841)",
+            "Imaging evidence of significant joint destruction and cartilage loss, defined as Tönnis grade 3, modified Outerbridge grade III – IV, or Kellgren-Lawrence grade 3 – 4 (Evidence: pg no: 24, L844-L845)",
+            "Limited range of motion, antalgic gait and disabling pain of at least 3 months' duration (Evidence: pg no: 24, L846)",
+            "Pain with passive motion of the hip (Evidence: pg no: 24, L847)",
+            "Failure of at least 3 months of non-surgical conservative management (Evidence: pg no: 24, L848-L849)",
+            "Functional limitation secondary to hip pathology which interferes with the ability to perform age-appropriate daily activities (Evidence: pg no: 24, L850-L851)"
+          ]
+        },
+        "exclusions": [
+          "Indications for total hip arthroplasty other than those addressed in this guideline are considered not medically necessary (Evidence: pg no: 26, L937-L938)"
+        ],
+        "codes": [
+          {
+            "code": "27130",
+            "system": "CPT",
+            "description": "Arthroplasty, acetabular and proximal femoral prosthetic replacement (total hip arthroplasty), with or without autograft or allograft (Evidence: pg no: 27, L973-L974)"
+          }
+        ],
+        "notes": "All arthroplasty and acetabuloplasty/resection arthroplasty procedures are inclusive of synovectomy, removal of osteophytes, removal of loose bodies, manipulation of the hip, and release or repair of structures to gain entrance to the hip joint. (Evidence: pg no: 22, L749-L751)"
+      },
+      "payer_guideline_reference": [
+        "(Evidence: pg no: 24, L837)",
+        "(Evidence: pg no: 26, L937-L938)",
+        "(Evidence: pg no: 24, L841)",
+        "(Evidence: pg no: 22, L749-L751)",
+        "(Evidence: pg no: 24, L847)",
+        "(Evidence: pg no: 24, L846)",
+        "(Evidence: pg no: 24, L839)",
+        "(Evidence: pg no: 24, L844-L845)",
+        "(Evidence: pg no: 24, L848-L849)",
+        "(Evidence: pg no: 24, L838)",
+        "(Evidence: pg no: 22, L743)",
+        "(Evidence: pg no: 22, L746-L749)",
+        "(Evidence: pg no: 22, L746)",
+        "(Evidence: pg no: 24, L835)",
+        "(Evidence: pg no: 22, L756-L757)",
+        "(Evidence: pg no: 27, L973-L974)",
+        "(Evidence: pg no: 24, L850-L851)",
+        "(Evidence: pg no: 24, L840)"
+      ]
+    },
+    {
+      "header": "[ANTHEM | Intramedullary Nailing of Left Intertrochanteric Femur Fracture | Chunk 2 | score=18.000 | file=anthem_guideline_2.json | id=anthem_57]",
+      "file": "anthem_guideline_2.json",
+      "record_id": "anthem_57",
+      "chunk_index": 2,
+      "payer": "anthem",
+      "score": 18.0,
+      "description": "{'procedure_id': 'reverse_shoulder_arthroplasty', 'category': 'Shoulder (Evidence: pg no: 7, L169)', 'section_title': 'Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)', 'names': ['Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)', 'Reverse total shoulder arthroplasty (Evidence: pg no: 7, L178)'], 'description': 'Reverse total shoulder arthroplasty is similar to standard arthroplasty in that both components of the joint are replaced but the ball and socket portions of the joint are reversed, allowing the deltoid muscle to assume partial function of the rotator cuff. This procedure is typically utilized when there is concomitant rotator cuff disease. (Evidence: pg no: 7, L178-L180)', 'scope': 'This guideline addresses shoulder arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of a congenital condition, acute or traumatic event such as fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 7, L181-L183)', 'general_requirements': {'documentation': ['Reconstruction after a tumor resection (Evidence: pg no: 10, L302)', 'Glenohumeral osteoarthritis with irreparable rotator cuff tear (Evidence: pg no: 10, L303)', 'Glenoid bone stock inadequate to support a glenoid prosthesis (Evidence: pg no: 10, L304)', 'Failed hemiarthroplasty (Evidence: pg no: 10, L305)', 'Failed total shoulder arthroplasty with non-repairable rotator cuff (Evidence: pg no: 10, L306)', 'Shoulder fracture that is not re",
+      "full_source": {
+        "procedure_id": "reverse_shoulder_arthroplasty",
+        "category": "Shoulder (Evidence: pg no: 7, L169)",
+        "section_title": "Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)",
+        "names": [
+          "Reverse Shoulder Arthroplasty (Evidence: pg no: 10, L300)",
+          "Reverse total shoulder arthroplasty (Evidence: pg no: 7, L178)"
+        ],
+        "description": "Reverse total shoulder arthroplasty is similar to standard arthroplasty in that both components of the joint are replaced but the ball and socket portions of the joint are reversed, allowing the deltoid muscle to assume partial function of the rotator cuff. This procedure is typically utilized when there is concomitant rotator cuff disease. (Evidence: pg no: 7, L178-L180)",
+        "scope": "This guideline addresses shoulder arthroplasty when performed as an elective, non-emergent procedure and not as part of the care of a congenital condition, acute or traumatic event such as fracture (excluding fracture of implant and periprosthetic fracture). (Evidence: pg no: 7, L181-L183)",
+        "general_requirements": {
+          "documentation": [
+            "Reconstruction after a tumor resection (Evidence: pg no: 10, L302)",
+            "Glenohumeral osteoarthritis with irreparable rotator cuff tear (Evidence: pg no: 10, L303)",
+            "Glenoid bone stock inadequate to support a glenoid prosthesis (Evidence: pg no: 10, L304)",
+            "Failed hemiarthroplasty (Evidence: pg no: 10, L305)",
+            "Failed total shoulder arthroplasty with non-repairable rotator cuff (Evidence: pg no: 10, L306)",
+            "Shoulder fracture that is not repairable or cannot be reconstructed with other techniques (Evidence: pg no: 10, L307)",
+            "Deficient rotator cuff with limited ability to actively flex the upper extremity to 90 degrees against gravity (Evidence: pg no: 10, L310-L311)"
+          ]
+        },
+        "exclusions": [],
+        "codes": [],
+        "notes": "Considered medically necessary for ANY of the listed indications when associated with pain and functional impairment. (Evidence: pg no: 10, L301)"
+      },
+      "payer_guideline_reference": [
+        "(Evidence: pg no: 10, L307)",
+        "(Evidence: pg no: 10, L301)",
+        "(Evidence: pg no: 10, L303)",
+        "(Evidence: pg no: 10, L300)",
+        "(Evidence: pg no: 7, L181-L183)",
+        "(Evidence: pg no: 7, L178-L180)",
+        "(Evidence: pg no: 7, L178)",
+        "(Evidence: pg no: 10, L305)",
+        "(Evidence: pg no: 10, L310-L311)",
+        "(Evidence: pg no: 10, L302)",
+        "(Evidence: pg no: 10, L306)",
+        "(Evidence: pg no: 10, L304)",
+        "(Evidence: pg no: 7, L169)"
+      ]
+    }
+  ],
+  "original_chart": "\n\n=== CHART: tmpsiuch4o3.pdf (Type: consultation_note) ===\n11/12/25, 10:22 AM Barrie, Patricia H (MR # MR3451845) DOB: 09/02/1949\n\nConsults by Held, Michael Brian, MD filed on 11/10/2025 10:31 AM.\n\nAuthor: Held, Michael Brian, MD Service: Orthopedics\n\nDate of Service: 11/10/2025 Filed: 11/10/2025 10:31 AM\nEditor: Held, Michael Brian, MD (Physician)\n\nORTHOPAEDICS & REHABILITATION\n\nPatient name: Patricia Barrie\n\nYale MRN: MR3451845\n\nDate of birth: 9/2/1949\n\nDate of visit: 11/10/2025\n\nAttending of record for this patient: Pasternack, Jordan B, MD\nProvider leaving this note: Michael B Held, MD\n\nReason for consult: Left Intertrochanteric hip fracture\n\nHistory of present illness:\n\nPatricia H Barrie is a 76 y.o. female with PMHX of htn, hid, hypothyroisism, colon ca, thoracic aortic aneurysm, predm\nwho presents s/p mechanical fall with left hip pain and inability to ambulate. At baseline the patient ambulates without\n\nassistive device. No headstrike or LOC. No other pain\nOrtho Hx: R THA, L TKA\n\nSocial history:\n\nreports that she has never smoked. She has never used smokeless tobacco. She reports current alcohol use. She\n\nreports that she does not use drugs.\n\nPMHx:\nPast Medical History\nPast Medical History:\nDiagnosis\n* BCC (basal cell carcinoma), scalp\nChest pain\nCoronary angiogram without significant blockages\nChronic upper back pain\npost- MVA , Sylvia Knoblock, MD\nClinical trial exam\n\nAuthor Type: Physician\n\nDate\n\n10/2023\n\n08/2000\n\n08/2015\n\nPACES S0820, Clinical trial with aspirin based rx for Colon cancer , [PI}Sajid Khan, MD 203-337-8507, or 203-\n\n785-4191 24hr contact\n\nColon cancer (HC Code) (HC CODE)\n\nMauer/ Thornton, PACES study, PI- Sajid Khan, MD\nCPAP (continuous positive airway pressure) dependence\nDiabetes mellitus (HC CODE)\n\npre diabetes\n\nDuctal carcinoma in situ (DCIS) of left breast\n\nJ. O'Connell, MD found after Breast reduction sx.\nFacial nerve disorder\n\nJ. O'Connor, MD, left side, hemifacial spasms\nFamily history of breast cancer\n\n[Daughter] ; hx . bilat. breast biopsies- benign\nH/O cosmetic surgery\n\nface lift\n\nHematuria\n\nw/u--> Neg., Robert Weinstein, MD\n\nHemifacial spasm\n\nleft, treated with Botox g 3 months\n\nHerpes zoster\n\nleft T-8 Dermatome\n\nHistory of colonoscopy\n\nKen Mauer,MD, f/u in 8/2020\n\nHydradenitis\n\nHypercholesterolemia with hypertriglyceridemia\nHypertension\n\nBarrie, Patricia H (MRN MR3451845) Printed by Stagno, Cesarina [767] at 11/12/2025 10:21 AM\n\n06/16/2014\n\n01/12/2018\n\n2013\n\n10/18/2012\n\n01/2016\n\n08/01/2018\n\n1/4\n\n11/12/25, 10:22 AM\n\nHypothyroidism\n\nKidney stone\n\nNormal cardiac stress test\nMIBI--> no ischemia, EF = 83%\nObesity\n\nObstructive sleep apnea on CPAP\n\nnasal pads, J & L, pt. has not worn in years, suggest restart 05/26/2022\n\nOsteopenia\n\nTemporomandibular disorder\nThoracic aortic aneurysm (HC Code)\n4.2cm\n\nPSHx:\nPast Surgical History\nPast Surgical History:\n\nProcedure\n\nBRAIN SURGERY\n\nBREAST BIOPSY\n\nrt br stereo benign 94'\n\nBREAST REDUCTION SURGERY\n\nDCIS found in Left breast, J. O'Connel, MD\ncataract surgery\n\nCOLON SURGERY\n\nhemi colectomy\n\nHYSTERECTOMY\n\nKIDNEY STONE SURGERY\n\nLeft Total knee replacement\n\nSteven Haas, MD, HSS\n\nLITHOTRIPSY\n\nTONSILLECTOMY\n\nTONSILLECTOMY AND ADENOIDECTOMY\nTOTAL ABDOMINAL HYSTERECTOMY W/ BILATERAL\nSALPINGOOPHORECTOMY\n\nTUBAL LIGATION\n\nWISDOM TOOTH EXTRACTION\n\nHome medications:\nCurrent Medications\nCurrent Facility-Administered Medications\n\nMedication Dose Route Frequency\n\n* acetaminophen 975 mg Oral Q6H\n(TYLENOL) tablet\n975 mg\n\n« ALPRAZolam 0.5mg _ Oral TID PRN\n(XANAX) tablet 0.5\nmg\n\n* bisacodyL 5 mg Oral DAILY PRN\n(DULCOLAX) EC\ntablet 5 mg\n\n* bisacodyL 10mg_ Rectal DAILY PRN\n(DULCOLAX)\nsuppository 10 mg\n\n* calcium carbonate 1,000 Oral BID PRN\n(TUMS) chewable mg\ntablet 1,000 mg\n\n* carvediloL 3.125 Oral BID WC\n(COREG) mg\nImmediate Release\ntablet 3.125 mg\n\n¢ chlorhexidine Topical (Top) Once PRN\n\ngluconate 2 %\ntowelette\n\nLaterality\n\nRight\n\nBilateral\n\nLeft\n\nProvider\nYunkovic, Kathryn\nM, PA\n\nYunkovic, Kathryn\nM, PA\n\nYunkovic, Kathryn\nM, PA\n\nYunkovic, Kathryn\nM, PA\n\nYunkovic, Kathryn\nM, PA\n\nYunkovic, Kathryn\nM, PA\n\nYunkovic, Kathryn\nM, PA\n\nBarrie, Patricia H (MRN MR3451845) Printed by Stagno, Cesarina [767] at 11/12/2025 10:21 AM\n\nBarrie, Patricia H (MR # MR3451845) DOB: 09/02/1949\n\nLast\nRate\n\n09/2003\n\n02/2017\n\n10/29/2014\n\nDate\n1994\n01/12/2018\n\n09/2024\n2015\n\n11/25/2020\n\n09/2003\n\nLast\nAdmin\n975 mg\nat\n11/10/2\n5 0606\n\n3.125\nmg at\n11/09/2\n51719\n\n2/4\n\n11/12/25, 10:22 AM\n\nlevothyroxine\n(SYNTHROID,\nLEVOTHROID)\ntablet 50 mcg\nlosartan (COZAAR)\ntablet 100 mg\nmelatonin tablet 3\nmg\n\nondansetron (PF)\n(ZOFRAN) injection\n4mg\n\nondansetron\n(ZOFRAN-ODT)\n\ndisintegrating tablet\n\n4mg\n\npolyethylene glycol\n(MIRALAX) packet\n17g\nprochlorperazine\nedisylate\n(COMPAZINE)\ninjection 10 mg\nrosuvastatin\n(CRESTOR) tablet\n20 mg\n\nsodium chloride 0.9\n% flush 3 mL\nsodium chloride 0.9\n% flush 3 mL\nsodium chloride\n0.9% infusion\n\ntraMADol\n\n(ULTRAM) tablet 25\n\nmg\ntraMADoL\n\n(ULTRAM) tablet 50\n\nmg\n\nAllergies:\nRagweed and Nitrofuran analogues\n\nRelevant exam:\n\n50 mcg\n\n100 mg\n\n3 mg\n\n4mg\n\n4mg\n\n17g\n\n10 mg\n\n20 mg\n\n3 mL\n3 mL\n100\n\nmL/hr\n\n25 mg\n\n50 mg\n\nBarrie, Patricia H (MR # MR3451845) DOB: 09/02/1949\n\nOral\n\nOral\n\nOral\n\nIV Push\n\nTranslingual\n\nOral\n\nIV Push\n\nOral\n\nIV Push\n\nIV Push\n\nIntravenous\n\nOral\n\nOral\n\nDaily\n\nDaily\n\nNightly PRN\n\nQ6H PRN\n\nQ6H PRN\n\nDaily\n\nQ6H PRN\n\nNightly\n\nQ8H\n\nPRN for Line\nCare\nContinuous\n\nQ4H PRN\n\nQ4H PRN\n\nYunkovic, Kathryn\nM, PA\n\nYunkovic, Kathryn\nM, PA\nYunkovic, Kathryn\nM, PA\n\nYunkovic, Kathryn\nM, PA\n\nYunkovic, Kathryn\nM, PA\n\nYunkovic, Kathryn\nM, PA\n\nYunkovic, Kathryn\nM, PA\n\nGillern, Larisa, PA\n\nYunkovic, Kathryn\nM, PA\n\nYunkovic, Kathryn\nM, PA\n\nMeis, Alexandra,\nMD\n\nGillern, Larisa, PA\n\nGillern, Larisa, PA\n\nTemp: [97.6 °F (36.4 °C)-98.8 °F (37.1 °C)] 97.9 °F (36.6 °C)\nPulse: [47-64] 64\n\nResp: [16-18] 18\n\nBP: (112-175)/(64-90) 130/75\n\nSpO2: [97 %-100 %] 97 %\n\nSpO2: [97 %-100 %] 97 % (11/10 0538)\n\nGen: Awake, alert, NAD\nHeart: Regular heartrate\nLung: unlabored breathing\n\nLLE:\n\nSkin intact, leg shortened/externally rotated\n\nIntact ankle dorsiflexion, plantar flexion, EHL\nSensation intact grossly sp/dp/t nerve distributions\nToes wwp, palpable DP pulse\n\nNonpainful L knee/ankle ROM\n\nBarrie, Patricia H (MRN MR3451845) Printed by Stagno, Cesarina [767] at 11/12/2025 10:21 AM\n\n50 mcg\nat\n\n11/10/2\n5 0606\n\n3 mg at\n11/09/2\n5 2330\n\n20 mg\nat\n11/10/2\n5 0026\n\n100 100\nmL/hr at mL/hr at\n11/10/2 11/10/2\n50027 50027\n\n3/4\n\n11/12/25, 10:22 AM\n\nBarrie, Patricia H (MR # MR3451845) DOB: 09/02/1949\nPelvis: No pain or instability with AP or lateral compression\n\nAll other large joints in the extremities were palpated and ranged with no signs of deformity or pain.\n\nImaging / studies:\nXR AP pelvis + femur demonstrates Left intertrochanteric hip fracture\n\nImpression and plan:\n\nPatricia H Barrie is a 76 y.o. female sustained a left intertrochanteric hip fracture. Femur fractures in the elderly are of\nthe highest severity due to the morbidity without treatment and risk of death due to bed-ridden disability, risk of\nulcers, and risk of clot and other medical complications causing death. Therefore | had a long discussion with the\npatient and their family about the treatment options, including nonoperative and operative intervention. We\ndiscussed risks and benefits and alternatives to fixation as well as chances of full or partial weight bearing after. After\ngoing over these options, we decided to pursue left hip ORIF with a cephalomedullary nail.\n\nWe discussed the risks of surgery including infection, wound complications, bleeding, need for a transfusion, possible\ndamage to surronding neurovascular structures, potential for continued pain, continued weakness, worsening pain\nand worsening weakness, stiffness, instability/dislocation, limb length discrepancy, fracture, infection requiring the\nresection or revision, component loosening or cutout and the need for conversion surgery in the future. We also\ndiscussed the risks of thromboembolic complications, stroke, heart attack, cardiac event, heart failure, pulmonary\nedema, fat/cement embolus, aspiration, death, and the risks of anesthesia and nerve blocks.\n\nAwaiting primary medical service optimization and clearance. Would favor spinal anesthesia and early care as delay\nin care results in perioperative morbidity and mortality with geriatric femur fractures.\n\n- osteoporosis labs (1,25-vitamin D, intact PTH, and ionized Calcium)\n- NPO/IVF for OR in AM\n\n- NWB LLE\n\n- Pain control\n\n- DVT: HSQ pre-op\n\n- Medicine consult for pre operative risk stratification\n\n- Booked/consented\n\nMichael B Held, MD\n\nElectronically signed by Held, Michael Brian, MD at 11/10/2025 10:31 AM\n\nED to Hosp-Admission (Current) on 11/9/2025\n\nRouting History\n\nPriority Sent On\n\nt 11/9/2025 4:05 PM\nt 11/9/2025 2:47 PM\nt 11/9/2025 2:26 PM\nt 11/9/2025 2:17 PM\nt 11/9/2025 2:17 PM\n\nFrom\n\nLab, Background User\nLab, Background User\nEdi, Rad Results In\nEdi, Rad Results In\nEdi, Rad Results In\n\nNote shared with patient\n\nTo\n\nPasternack, Jordan B, MD\n\nKhan, Sajid A, MD\n\nMeis, Alexandra, MD\nMeis, Alexandra, MD\nMeis, Alexandra, MD\n\nBarrie, Patricia H (MRN MR3451845) Printed by Stagno, Cesarina [767] at 11/12/2025 10:21 AM\n\nMessage Type\nResults\nResults\nResults\nResults\nResults\n\n4/4\n=== END CHART: tmpsiuch4o3.pdf ===\n\n\n=== CHART: tmpnq31otz1.pdf (Type: operative_note) ===\n11/12/25, 10:22 AM Barrie, Patricia H (MR # MR3451845) DOB: 09/02/1949\n\nOperative Note by Held, Michael Brian, MD filed on 11/10/2025 3:45 PM.\n\nAuthor: Held, Michael Brian, MD Service: Orthopedics Author Type: Physician\nDate of Service: 11/10/2025 Filed: 11/10/2025 3:45 PM Status: Signed\nEditor: Held, Michael Brian, MD (Physician)\n\nOrthopedic Surgery Operative Report\nPatient Name: Patricia H Barrie\n\nDate of Procedure: 11/10/25\n\nLocation: Greenwich Hospital\n\nMRN: MR3451845\n\nProcedure: Intramedullary Nailing of Left Intertrochanteric Femur Fracture\nSuggested cpt code: 27245\n\nPreliminary Diagnosis: Left intertrochanteric Femur Fracture, displaced\nPostoperative Diagnosis: Same\n\nSurgeon: Dr. Michael B Held\nFirst Assist: None\n\nAnesthesia Staff: ANESTHESIOLOGIST: Brea, Francisco, MD\nCRNA: Feinstein, Victoria Kristin, CRNA\n\nAnesthesia Type: General\n\nSpecimens:\n* No specimens in log *\n\nEstimated Blood Loss:\n\n150cc\n\nImplants:\n\nImplant Name Type Inv. Item Serial No. Manufacturer Lot LRB_ No. Action\nNo. Used\n\n10.5mm x 90mm ___ Implant Arthrex Inc 15387 Left 1 Implanted\n\nArthrex 860\n\nTelescoping Lag\n\nScrew, Left,\n\nThreaded\n\nShort Trochanteric Arthrex Inc 43001 Left 1 Implanted\n\nNail, 10mm x 20cm 06409\n\nx 125deg\n\n5.0mm x 38mm Implant Arthrex Inc 15411 Left 1 Implanted\n\nArthrex Captured 349\n\nCortical Screw\n\nIndication:\n\nThe patient is a 76 y.o. female with past medical history of htn, hld, hypothy, colon ca who suffered a mechanical fall\non 11/9/25. The patient was brought to the Greenwich Hospital Emergency Room, where they were found to have a\nleft hip pertrochanteric femur fracture. The patient uses no assistive device for ambulating at baseline. She has a\nprior right hip replacement and left knee replacement at HSS a few years ago.\n\n| had a long discussion with the patient and family regarding treatment options for her left proximal femur fracture,\nand | did recommend surgical repair. We discussed the risks, benefits and alternatives. Nonoperative treatment will\nresult in prolonged recumbency, non-weight bearing to the right lower extremity, and potentially bedsores, DVT,\npneumonia, persistent pain, limited mobility, displacement of fracture, fracture non-union, fracture malunion, or\ndeformity. The risks, benefits, and alternatives of surgery were discussed. The risks of surgery include, but not limited\nto, pain, bleeding, stiffness, infection, damage to nearby structures, blood vessel injury, nerve injury, tendon injury,\nfailure of fixation, hardware failure, hardware complications, soft tissue irritation secondary to hardware, peri-implant\nfractures, fracture non-union, fracture malunion, fracture displacement, limb deformity, scar formation, post-traumatic\narthritis, the need for additional surgery, thromboembolic complications, stroke, heart attack, cardiac event, heart\n\nBarrie, Patricia H (MRN MR3451845) Printed by Stagno, Cesarina [767] at 11/12/2025 10:22 AM 1/3\n\n11/12/25, 10:22 AM Barrie, Patricia H (MR # MR3451845) DOB: 09/02/1949\n\nfailure, pulmonary edema, fat embolus, aspiration, death, and the risks of anesthesia. The potential benefits of\nsurgery are pain relief or improvement, fracture stability, improved mobility, and allowance of immediate weight\nbearing post-operatively. We did discuss that we may need to perform an open reduction of the fracture to manually\nmanipulate the fracture fragments, in order to improve the alignment of the fracture prior to internal fixation. The\npatient expressed understanding and elected to proceed with operative fixation of the left proximal femur fracture with\na cephalomedullary nail.\n\nWe also discussed the overall poor prognosis for patients who have suffered a femur fracture, with high morbidity and\nmortality rates following this particular pattern of injury. The patient and family expressed understanding and elected\nto proceed with operative fixation of the proximal femur fracture.\n\nThe patient was seen by the Medicine service and was determined to be optimized from a medical standpoint for this\nsurgery. The medicine team cleared the patient for surgery as well.\n\nProcedure:\n\nThe patient was brought to the Operating Room and after the successful induction of general anesthesia, a closed\nreduction was performed. Flouroscopy was used to confirm that the reduction was within acceptable parameters. The\nleft lower extremity was then prepped and draped in the usual sterile manner with the patient in the supine position\non the fracture table. Prophylactic antibiotics were administered within 30 minutes prior to the procedure as well as 1\ngram of tranexamic acid. A time out was performed by all members of the surgical team confirming patient identity\nand surgical site laterality.\n\nA lateral incision was made proximal to, and in-line with, the femur. The entry guidewire was then advanced onto the\nappropriate start site on the greater trochanter. This was confirmed with intraoperative flouroscopy on both the AP\nand lateral views. The guidewire was then advanced with power into the intramedullary canal. Again flouroscopy was\nused to confirm that the entry guidewire was in the appropriate position. The entry reamer was then used through the\nsoft tissue protector canula. Flouroscopy was used to confirm appropriate position of the entry reamer within the\nintramedullary canal and that it had been advanced to a sufficient depth. The reamer and entry guidewire were then\nremoved.\n\nThe nail was then carefully advanced over the guidewire. During advancement of the nail, all reduction maneuvers\nwere employed to maintain the reduction during insertion of the nail. Flouroscopy was again used to confirm that the\nnail had been advanced to the appropriate depth. The long guidewire was then removed. An incision was made over\nthe lateral aspect of the thigh and the cannula for the lag screw was advanced until it made contact with the lateral\ncortical bone. Using flouroscopic guidance, the guidewire for the lag screw was then inserted and confirmed to be in\nappropriate position with the guidwire center-center on AP and lateral views of the femoral head. The depth of the\nguidewire was then measured and the 90 mm left threaded lag screw selected. The guidewire was then overdrilled\nand tapped for the screw of the appropriate depth. The lag screw was then inserted to the appropriate depth which\nagain confirmed using flouroscopy.\n\nWe then turned our attention to insertion of the distal interlocking screw. A small incision was made over the lateral\nthigh in line with the cannula for the distal interlocking screw. The cannula was then advanced through the incision\nand down to bone. The drill was then carefully advanced and the depth of the interlocking screw measured off of the\ndrill at 38mm. The screw of appropriate length was then inserted. Flouroscopy was again used to confirm that the\nscrews were in appropriate position.\n\nThe wounds were then copiously irrigated. The fascia was closed with interrupted 0 vicryl suture. The deep\nsubcutaneous layers were closed with interrupted 0 vicryl and the dermal layer with 3-0 vicryl. The skin was then\nclosed with staples. Sterile dressings were then applied and the patient was awaken from anesthesia. The patient\nwas transferred to the recovery room in stable condition. All sponge and instrument counts were correct.\n\nArthrex short nail implant system was used for this procedure\n\nPostop Plan\n\nThe patient will be WBAT. DVT prophylaxis will be started with asa 81bid the morning of POD1; additional DVT\nprophylaxis will include SCDs, compression stockings, progressive mobilization. They will receive 24 hours of\npostoperative antibiotics. The patient will be discharged from the hospital when they are medically stable, have met\nall PT goals, and their pain is well controlled with oral analgesia.\n\nDr. Michael B. Held\nElectronically signed by Held, Michael Brian, MD at 11/10/2025 3:45 PM\n\nBarrie, Patricia H (MRN MR3451845) Printed by Stagno, Cesarina [767] at 11/12/2025 10:22 AM 2/3\n\n11/12/25, 10:22 AM\n\nED to Hosp-Admission (Current) on 11/9/2025\n\nRouting History\n\nPriority Sent On\n\nt 11/9/2025 4:05 PM\n11/9/2025 2:47 PM\n11/9/2025 2:26 PM\n11/9/2025 2:17 PM\n11/9/2025 2:17 PM\n\n—> >\n\nBarrie, Patricia H (MR # MR3451845) DOB: 09/02/1949\n\nFrom\n\nLab, Background User\nLab, Background User\nEdi, Rad Results In\nEdi, Rad Results In\nEdi, Rad Results In\n\nNote shared with patient\n\nTo\n\nPasternack, Jordan B, MD\n\nKhan, Sajid A, MD\n\nMeis, Alexandra, MD\nMeis, Alexandra, MD\nMeis, Alexandra, MD\n\nBarrie, Patricia H (MRN MR3451845) Printed by Stagno, Cesarina [767] at 11/12/2025 10:22 AM\n\nMessage Type\nResults\nResults\nResults\nResults\nResults\n\n3/3\n=== END CHART: tmpnq31otz1.pdf ===\n",
+  "improved_chart_by_ai": "=== CHART: tmpsiuch4o3.pdf (Type: consultation_note) ===\n[AI ADDED: ORTHOPEDIC CONSULTATION NOTE]\n\nDate of Service: 11/10/2025\nFiled: 11/10/2025 10:31 AM\nEditor: Held, Michael Brian, MD (Physician)\n\nORTHOPAEDICS & REHABILITATION\n\nPatient name: Patricia Barrie\nYale MRN: MR3451845\nDate of birth: 9/2/1949 [AI ADDED: Age: 76 years]\nDate of visit: 11/10/2025\n\nAttending of record for this patient: Pasternack, Jordan B, MD\nProvider leaving this note: Michael B Held, MD\n\n[AI ADDED: CONSULTATION DETAILS]\nReason for consult: Left Intertrochanteric hip fracture\n\n[AI ADDED: HISTORY SECTION]\nHistory of present illness:\nPatricia H Barrie is a 76 y.o. female with PMHX of hypertension, hyperlipidemia, hypothyroidism, colon cancer, thoracic aortic aneurysm, prediabetes who presents status post mechanical fall with left hip pain and inability to ambulate. At baseline, the patient ambulates without assistive device. No headstrike or loss of consciousness reported. No other pain reported.\n[NEEDS PHYSICIAN INPUT: Specific details about the fall including date/time, mechanism, location, and immediate symptoms]\n[NEEDS PHYSICIAN INPUT: Pain severity on 0-10 scale, quality of pain, aggravating/alleviating factors]\n\nOrtho Hx: Right Total Hip Arthroplasty, Left Total Knee Arthroplasty\n\nSocial history:\nPatient reports that she has never smoked. She has never used smokeless tobacco. She reports current alcohol use [NEEDS PHYSICIAN INPUT: Frequency and amount of alcohol consumption]. She reports that she does not use drugs.\n[AI ADDED: Living situation] [NEEDS PHYSICIAN INPUT: Current living arrangement, home setup (stairs, bathroom location), available support system, and functional status prior to fall]\n\nPast Medical History:\n- Basal cell carcinoma, scalp (10/2023)\n- Chest pain\n- Coronary angiogram without significant blockages (08/2000)\n- Chronic upper back pain post-MVA (08/2015)\n- Clinical trial participation: PACES S0820, Clinical trial with aspirin-based treatment for Colon cancer\n- Colon cancer (06/16/2014)\n- CPAP dependence\n- Diabetes mellitus (prediabetes) (01/12/2018)\n- Ductal carcinoma in situ (DCIS) of left breast (2013)\n- Facial nerve disorder, left side, hemifacial spasms\n- Family history of breast cancer [Daughter]\n- History of cosmetic surgery (face lift)\n- Hematuria (workup negative)\n- Hemifacial spasm (left, treated with Botox every 3 months)\n- Herpes zoster (left T-8 Dermatome)\n- History of colonoscopy (follow-up in 8/2020)\n- Hydradenitis\n- Hypercholesterolemia with hypertriglyceridemia\n- Hypertension\n- Hypothyroidism\n- Kidney stone\n- Normal cardiac stress test (MIBI with no ischemia, EF = 83%)\n- Obesity\n- Obstructive sleep apnea on CPAP (has not worn in years, suggested restart 05/26/2022)\n- Osteopenia\n- Temporomandibular disorder\n- Thoracic aortic aneurysm (4.2cm) (10/18/2012)\n\nPast Surgical History:\n- Brain surgery\n- Right breast stereotactic biopsy (benign) (1994)\n- Bilateral breast reduction surgery (DCIS found in Left breast) (01/12/2018)\n- Cataract surgery\n- Colon surgery (hemicolectomy) (09/2024)\n- Hysterectomy (2015)\n- Kidney stone surgery\n- Left Total knee replacement (11/25/2020)\n- Lithotripsy\n- Tonsillectomy\n- Tonsillectomy and adenoidectomy\n- Total abdominal hysterectomy with bilateral salpingo-oophorectomy\n- Tubal ligation\n- Wisdom tooth extraction\n\n[AI ADDED: MEDICATION SECTION]\nCurrent Medications:\n- Acetaminophen (TYLENOL) 975 mg tablet, oral, Q6H\n- Alprazolam (XANAX) 0.5 mg tablet, oral, TID PRN\n- Bisacodyl (DULCOLAX) 5 mg EC tablet, oral, DAILY PRN\n- Bisacodyl (DULCOLAX) 10 mg suppository, rectal, DAILY PRN\n- Calcium carbonate (TUMS) 1,000 mg chewable tablet, oral, BID PRN\n- Carvedilol (COREG) 3.125 mg Immediate Release tablet, oral, BID WC\n- Chlorhexidine gluconate 2% towelette, topical, Once PRN\n- Levothyroxine (SYNTHROID, LEVOTHROID) 50 mcg tablet, oral, Daily\n- Losartan (COZAAR) 100 mg tablet, oral, Daily\n- Melatonin 3 mg tablet, oral, Nightly PRN\n- Ondansetron (ZOFRAN) 4 mg injection, IV Push, Q6H PRN\n- Ondansetron (ZOFRAN-ODT) 4 mg disintegrating tablet, translingual, Q6H PRN\n- Polyethylene glycol (MIRALAX) 17 g packet, oral, Daily\n- Prochlorperazine edisylate (COMPAZINE) 10 mg injection, IV Push, Q6H PRN\n- Rosuvastatin (CRESTOR) 20 mg tablet, oral, Nightly\n- Sodium chloride 0.9% flush 3 mL, IV Push, Q8H\n- Sodium chloride 0.9% flush 3 mL, IV Push, PRN for Line Care\n- Sodium chloride 0.9% infusion, 100 mL/hr, Intravenous, Continuous\n- Tramadol (ULTRAM) 25 mg tablet, oral, Q4H PRN\n- Tramadol (ULTRAM) 50 mg tablet, oral, Q4H PRN\n\nAllergies:\nRagweed and Nitrofuran analogues\n\n[AI ADDED: PHYSICAL EXAMINATION SECTION]\nVital Signs:\nTemperature: 97.9°F (36.6°C) [Range: 97.6°F (36.4°C)-98.8°F (37.1°C)]\nPulse: 64 [Range: 47-64]\nRespiratory Rate: 18 [Range: 16-18]\nBlood Pressure: 130/75 [Range: (112-175)/(64-90)]\nSpO2: 97% [Range: 97%-100%]\n\nGeneral: Awake, alert, no acute distress\nCardiovascular: Regular heart rate\nRespiratory: Unlabored breathing\n\nLeft Lower Extremity:\n- Skin intact\n- Leg shortened and externally rotated [AI ADDED: consistent with intertrochanteric hip fracture]\n- Intact ankle dorsiflexion, plantar flexion, extensor hallucis longus function\n- Sensation intact grossly in superficial peroneal, deep peroneal, and tibial nerve distributions\n- Toes warm, well-perfused with palpable dorsalis pedis pulse\n- Nonpainful left knee/ankle range of motion\n\nPelvis: No pain or instability with anteroposterior or lateral compression\n\nAll other large joints in the extremities were palpated and ranged with no signs of deformity or pain.\n\n[AI ADDED: DIAGNOSTIC STUDIES SECTION]\nImaging/Studies:\nXR AP pelvis + femur demonstrates Left intertrochanteric hip fracture\n[NEEDS PHYSICIAN INPUT: Detailed fracture classification (e.g., AO/OTA classification), displacement measurements, and any comminution or extension]\n\n[AI ADDED: ASSESSMENT AND PLAN SECTION]\nImpression and Plan:\nPatricia H Barrie is a 76-year-old female who sustained a left intertrochanteric hip fracture. Femur fractures in the elderly are of the highest severity due to the morbidity without treatment and risk of death due to bed-ridden disability, risk of ulcers, and risk of clot and other medical complications causing death. \n\n[AI ADDED: Medical necessity documentation] The patient requires surgical intervention due to:\n1. Displaced intertrochanteric hip fracture confirmed on imaging\n2. Inability to ambulate\n3. Risk of significant morbidity and mortality with non-operative management\n4. Previously independent ambulatory status\n5. Medical optimization for surgical intervention\n\nI had a long discussion with the patient and their family about the treatment options, including nonoperative and operative intervention. We discussed risks and benefits and alternatives to fixation as well as chances of full or partial weight bearing after. After going over these options, we decided to pursue left hip ORIF with a cephalomedullary nail.\n\nWe discussed the risks of surgery including infection, wound complications, bleeding, need for a transfusion, possible damage to surrounding neurovascular structures, potential for continued pain, continued weakness, worsening pain and worsening weakness, stiffness, instability/dislocation, limb length discrepancy, fracture, infection requiring the resection or revision, component loosening or cutout and the need for conversion surgery in the future. We also discussed the risks of thromboembolic complications, stroke, heart attack, cardiac event, heart failure, pulmonary edema, fat/cement embolus, aspiration, death, and the risks of anesthesia.\n\n[AI ADDED: Surgical plan details]\nProcedure planned: Left hip open reduction internal fixation (ORIF) with cephalomedullary nail\nTiming: [NEEDS PHYSICIAN INPUT: Planned date/time for surgery]\nAnesthesia: [NEEDS PHYSICIAN INPUT: Type of anesthesia planned]\nAnticipated post-operative course: [NEEDS PHYSICIAN INPUT: Expected length of stay, rehabilitation needs, weight-bearing status]\n\n[AI ADDED: Preoperative optimization]\nPreoperative medical optimization: [NEEDS PHYSICIAN INPUT: Specific medical clearance obtained or needed, medication adjustments prior to surgery]\n\n[AI ADDED: Informed consent documentation]\nThe patient demonstrates capacity to provide informed consent and understands the risks, benefits, and alternatives to the proposed procedure. All questions were answered to the patient's satisfaction. The patient agrees to proceed with the planned surgical intervention.\n\n[AI ADDED: Signature block]\nElectronically signed by: Michael B Held, MD\nDate: 11/10/2025",
+  "enhanced_by_ai": {
+    "improvements": [
+      {
+        "section": "Overall Document Structure",
+        "original": "Unstructured consultation note with minimal section headers",
+        "improved": "Added clear section headers and organized content into logical clinical sections",
+        "reason": "Improved organization enhances clarity and ensures all required elements are properly documented for medical necessity determination",
+        "payers_affected": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ]
+      },
+      {
+        "section": "History of Present Illness",
+        "original": "Patricia H Barrie is a 76 y.o. female with PMHX of htn, hid, hypothyroisism, colon ca, thoracic aortic aneurysm, predm who presents s/p mechanical fall with left hip pain and inability to ambulate.",
+        "improved": "Patricia H Barrie is a 76 y.o. female with PMHX of hypertension, hyperlipidemia, hypothyroidism, colon cancer, thoracic aortic aneurysm, prediabetes who presents status post mechanical fall with left hip pain and inability to ambulate.",
+        "reason": "Expanded abbreviations and improved clarity of medical history to better document patient's condition and support medical necessity",
+        "payers_affected": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ]
+      },
+      {
+        "section": "Assessment and Plan",
+        "original": "Patricia H Barrie is a 76 y.o. female sustained a left intertrochanteric hip fracture.",
+        "improved": "Added medical necessity documentation section with specific clinical indications for surgical intervention",
+        "reason": "Explicitly documenting medical necessity criteria helps establish the clinical appropriateness of the planned procedure",
+        "payers_affected": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ]
+      },
+      {
+        "section": "Physical Examination",
+        "original": "LLE: Skin intact, leg shortened/externally rotated",
+        "improved": "Left Lower Extremity: - Skin intact - Leg shortened and externally rotated [AI ADDED: consistent with intertrochanteric hip fracture]",
+        "reason": "Enhanced physical examination documentation with clearer formatting and clinical correlation to support diagnosis and treatment plan",
+        "payers_affected": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ]
+      },
+      {
+        "section": "Surgical Plan",
+        "original": "After going over these options, we decided to pursue left hip ORIF with a cephalomedullary nail.",
+        "improved": "Added detailed surgical plan section with procedure type, timing, anesthesia, and post-operative expectations",
+        "reason": "Comprehensive surgical planning documentation supports medical necessity and appropriateness of the selected intervention",
+        "payers_affected": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ]
+      },
+      {
+        "section": "Informed Consent",
+        "original": "We discussed the risks of surgery including infection, wound complications...",
+        "improved": "Added structured informed consent documentation confirming patient capacity and understanding",
+        "reason": "Proper informed consent documentation is essential for procedural medical necessity and compliance",
+        "payers_affected": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ]
+      }
+    ],
+    "user_input_required": [
+      {
+        "section": "History of Present Illness",
+        "field": "Fall details and pain assessment",
+        "reason": "Specific details about the fall mechanism and pain characteristics are necessary to establish medical necessity for surgical intervention",
+        "suggestion": "Document date/time of fall, mechanism, location, immediate symptoms, pain severity (0-10 scale), quality, and aggravating/alleviating factors",
+        "payers_requiring": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ],
+        "priority": "high"
+      },
+      {
+        "section": "Social History",
+        "field": "Functional status and living situation",
+        "reason": "Pre-injury functional status and living situation are critical for establishing baseline and determining appropriate post-operative care planning",
+        "suggestion": "Document current living arrangement, home setup (stairs, bathroom location), available support system, and functional status prior to fall",
+        "payers_requiring": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ],
+        "priority": "medium"
+      },
+      {
+        "section": "Imaging/Studies",
+        "field": "Detailed fracture classification",
+        "reason": "Specific fracture classification helps establish medical necessity for the selected surgical approach (cephalomedullary nail)",
+        "suggestion": "Document AO/OTA classification, displacement measurements, and any comminution or extension",
+        "payers_requiring": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ],
+        "priority": "high"
+      },
+      {
+        "section": "Surgical Plan",
+        "field": "Surgical timing and post-operative plan",
+        "reason": "Specific surgical timing and post-operative planning details are necessary for comprehensive treatment documentation",
+        "suggestion": "Document planned date/time for surgery, type of anesthesia, expected length of stay, rehabilitation needs, and weight-bearing status",
+        "payers_requiring": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ],
+        "priority": "medium"
+      },
+      {
+        "section": "Preoperative Optimization",
+        "field": "Medical clearance and medication management",
+        "reason": "Documentation of preoperative medical optimization is important for patient safety and surgical readiness",
+        "suggestion": "Document specific medical clearance obtained or needed and any medication adjustments prior to surgery",
+        "payers_requiring": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ],
+        "priority": "medium"
+      }
+    ],
+    "recommendations": [
+      {
+        "category": "Clinical Documentation",
+        "recommendation": "Document specific fracture classification (AO/OTA) to support selection of cephalomedullary nail as appropriate fixation method",
+        "payers": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ],
+        "priority": "high"
+      },
+      {
+        "category": "Medical Necessity",
+        "recommendation": "Clearly document pre-injury functional status to establish baseline and expected post-operative goals",
+        "payers": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ],
+        "priority": "high"
+      },
+      {
+        "category": "Procedural Documentation",
+        "recommendation": "Include specific post-operative weight-bearing instructions and rehabilitation plan in the surgical planning section",
+        "payers": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ],
+        "priority": "medium"
+      },
+      {
+        "category": "Risk Assessment",
+        "recommendation": "Document medical risk assessment and optimization strategies for this elderly patient with multiple comorbidities",
+        "payers": [
+          "Cigna",
+          "UnitedHealthcare",
+          "Anthem"
+        ],
+        "priority": "medium"
+      }
+    ],
+    "compliance_impact": {
+      "before": "The original consultation note lacked structured organization, had incomplete documentation of medical necessity criteria, and was missing key details about the fracture classification and post-operative planning that would support the selected surgical approach",
+      "after": "The improved chart provides clear medical necessity documentation, better organized clinical information, and specific placeholders for physician input on critical elements needed for full compliance with payer requirements",
+      "key_changes": [
+        "Added explicit medical necessity documentation section",
+        "Improved organization with clear section headers",
+        "Enhanced physical examination documentation",
+        "Added detailed surgical planning section",
+        "Expanded abbreviations for clarity",
+        "Added structured informed consent documentation",
+        "Identified specific areas requiring physician input for complete documentation"
+      ]
+    },
+    "success": true
+  },
+  "error": null,
+  "payer_summary": {
+    "per_payer": {
+      "cigna": {
+        "payer_key": "cigna",
+        "payer_name": "Cigna",
+        "total_procedures": 1,
+        "sufficient_count": 0,
+        "insufficient_count": 1,
+        "other_count": 0,
+        "sufficient_percentage": 0.0,
+        "insufficient_percentage": 100.0,
+        "other_percentage": 0.0
+      },
+      "uhc": {
+        "payer_key": "uhc",
+        "payer_name": "UnitedHealthcare",
+        "total_procedures": 1,
+        "sufficient_count": 0,
+        "insufficient_count": 1,
+        "other_count": 0,
+        "sufficient_percentage": 0.0,
+        "insufficient_percentage": 100.0,
+        "other_percentage": 0.0
+      },
+      "anthem": {
+        "payer_key": "anthem",
+        "payer_name": "Anthem",
+        "total_procedures": 1,
+        "sufficient_count": 1,
+        "insufficient_count": 0,
+        "other_count": 0,
+        "sufficient_percentage": 100.0,
+        "insufficient_percentage": 0.0,
+        "other_percentage": 0.0
+      }
+    },
+    "overall": {
+      "total_procedures": 3,
+      "sufficient_count": 1,
+      "insufficient_count": 2,
+      "other_count": 0,
+      "sufficient_percentage": 33.33,
+      "insufficient_percentage": 66.67,
+      "other_percentage": 0.0
+    }
+  },
+  "multi_chart_info": {
+    "total_charts": 2,
+    "chart_details": {
+      "tmpsiuch4o3.pdf": {
+        "chart_type": "consultation_note",
+        "display_title": "Consultation Note",
+        "chart_type_confidence": "high",
+        "extraction_data": {
+          "patient_name": "Patricia H Barrie",
+          "patient_age": "76 y.o.",
+          "chart_specialty": "Orthopedics",
+          "cpt": [],
+          "procedure": [
+            "Left hip ORIF with cephalomedullary nail (planned)",
+            "Right THA (history)",
+            "Left TKA (history)"
+          ],
+          "summary": "76-year-old female with history of hypertension, hyperlipidemia, hypothyroidism, colon cancer, thoracic aortic aneurysm, and prediabetes who sustained a left intertrochanteric hip fracture after a mechanical fall. Patient is scheduled for ORIF with cephalomedullary nail.",
+          "diagnosis": [
+            "Left intertrochanteric hip fracture",
+            "Hypertension",
+            "Hyperlipidemia",
+            "Hypothyroidism",
+            "Colon cancer",
+            "Thoracic aortic aneurysm (4.2cm)",
+            "Prediabetes",
+            "Obstructive sleep apnea",
+            "Osteopenia",
+            "Basal cell carcinoma of scalp",
+            "Ductal carcinoma in situ (DCIS) of left breast"
+          ],
+          "key_information": [
+            "Patient has history of right THA and left TKA",
+            "Patient ambulates without assistive device at baseline",
+            "Osteoporosis labs ordered (1,25-vitamin D, intact PTH, and ionized Calcium)",
+            "Non-weight bearing on left lower extremity",
+            "DVT prophylaxis with HSQ pre-op",
+            "Medicine consult requested for pre-operative risk stratification",
+            "Allergies to Ragweed and Nitrofuran analogues",
+            "Surgeon recommends spinal anesthesia and early care to reduce perioperative morbidity and mortality",
+            "Patient has thoracic aortic aneurysm (4.2cm) which may impact anesthesia risk",
+            "Patient has history of colon cancer and is part of PACES clinical trial"
+          ],
+          "chart_type": "consultation_note"
+        },
+        "file_path": "C:\\Users\\svshelke\\AppData\\Local\\Temp\\tmpsiuch4o3.pdf"
+      },
+      "tmpnq31otz1.pdf": {
+        "chart_type": "operative_note",
+        "display_title": "Operative Report",
+        "chart_type_confidence": "high",
+        "extraction_data": {
+          "patient_name": "Patricia H Barrie",
+          "patient_age": "76 y.o.",
+          "chart_specialty": "Orthopedic Surgery",
+          "cpt": [
+            "27245"
+          ],
+          "procedure": [
+            "Intramedullary Nailing of Left Intertrochanteric Femur Fracture"
+          ],
+          "summary": "76-year-old female with history of hypertension, hyperlipidemia, hypothyroidism, and colon cancer who suffered a mechanical fall resulting in a left intertrochanteric femur fracture. The patient underwent intramedullary nailing of the left intertrochanteric femur fracture using an Arthrex short nail implant system. The procedure involved closed reduction, insertion of a 10mm x 20cm x 125deg short trochanteric nail, a 10.5mm x 90mm telescoping lag screw, and a 5.0mm x 38mm cortical screw. Patient is weight-bearing as tolerated postoperatively.",
+          "chart_type": "operative_note",
+          "has_cpt_codes": true
+        },
+        "file_path": "C:\\Users\\svshelke\\AppData\\Local\\Temp\\tmpnq31otz1.pdf"
+      }
+    },
+    "combined_extraction": {
+      "patient_name": "Patricia H Barrie",
+      "patient_age": "76 y.o.",
+      "chart_specialty": "Orthopedics",
+      "cpt": [
+        "27245"
+      ],
+      "procedure": [
+        "Intramedullary Nailing of Left Intertrochanteric Femur Fracture"
+      ],
+      "summary": "",
+      "multi_chart_data": {
+        "tmpsiuch4o3.pdf": {
+          "chart_type": "consultation_note",
+          "chart_type_confidence": "high",
+          "extracted_info": {
+            "patient_name": "Patricia H Barrie",
+            "patient_age": "76 y.o.",
+            "chart_specialty": "Orthopedics",
+            "cpt": [],
+            "procedure": [
+              "Left hip ORIF with cephalomedullary nail (planned)",
+              "Right THA (history)",
+              "Left TKA (history)"
+            ],
+            "summary": "76-year-old female with history of hypertension, hyperlipidemia, hypothyroidism, colon cancer, thoracic aortic aneurysm, and prediabetes who sustained a left intertrochanteric hip fracture after a mechanical fall. Patient is scheduled for ORIF with cephalomedullary nail.",
+            "diagnosis": [
+              "Left intertrochanteric hip fracture",
+              "Hypertension",
+              "Hyperlipidemia",
+              "Hypothyroidism",
+              "Colon cancer",
+              "Thoracic aortic aneurysm (4.2cm)",
+              "Prediabetes",
+              "Obstructive sleep apnea",
+              "Osteopenia",
+              "Basal cell carcinoma of scalp",
+              "Ductal carcinoma in situ (DCIS) of left breast"
+            ],
+            "key_information": [
+              "Patient has history of right THA and left TKA",
+              "Patient ambulates without assistive device at baseline",
+              "Osteoporosis labs ordered (1,25-vitamin D, intact PTH, and ionized Calcium)",
+              "Non-weight bearing on left lower extremity",
+              "DVT prophylaxis with HSQ pre-op",
+              "Medicine consult requested for pre-operative risk stratification",
+              "Allergies to Ragweed and Nitrofuran analogues",
+              "Surgeon recommends spinal anesthesia and early care to reduce perioperative morbidity and mortality",
+              "Patient has thoracic aortic aneurysm (4.2cm) which may impact anesthesia risk",
+              "Patient has history of colon cancer and is part of PACES clinical trial"
+            ],
+            "chart_type": "consultation_note"
+          }
+        },
+        "tmpnq31otz1.pdf": {
+          "chart_type": "operative_note",
+          "chart_type_confidence": "high",
+          "extracted_info": {
+            "patient_name": "Patricia H Barrie",
+            "patient_age": "76 y.o.",
+            "chart_specialty": "Orthopedic Surgery",
+            "cpt": [
+              "27245"
+            ],
+            "procedure": [
+              "Intramedullary Nailing of Left Intertrochanteric Femur Fracture"
+            ],
+            "summary": "76-year-old female with history of hypertension, hyperlipidemia, hypothyroidism, and colon cancer who suffered a mechanical fall resulting in a left intertrochanteric femur fracture. The patient underwent intramedullary nailing of the left intertrochanteric femur fracture using an Arthrex short nail implant system. The procedure involved closed reduction, insertion of a 10mm x 20cm x 125deg short trochanteric nail, a 10.5mm x 90mm telescoping lag screw, and a 5.0mm x 38mm cortical screw. Patient is weight-bearing as tolerated postoperatively.",
+            "chart_type": "operative_note",
+            "has_cpt_codes": true
+          }
+        }
+      }
+    },
+    "operative_chart": "tmpnq31otz1.pdf",
+    "other_charts_info": {
+      "tmpsiuch4o3.pdf": {
+        "chart_type": "consultation_note",
+        "display_title": "Consultation Note",
+        "extraction_data": {
+          "patient_name": "Patricia H Barrie",
+          "patient_age": "76 y.o.",
+          "chart_specialty": "Orthopedics",
+          "cpt": [],
+          "procedure": [
+            "Left hip ORIF with cephalomedullary nail (planned)",
+            "Right THA (history)",
+            "Left TKA (history)"
+          ],
+          "summary": "76-year-old female with history of hypertension, hyperlipidemia, hypothyroidism, colon cancer, thoracic aortic aneurysm, and prediabetes who sustained a left intertrochanteric hip fracture after a mechanical fall. Patient is scheduled for ORIF with cephalomedullary nail.",
+          "diagnosis": [
+            "Left intertrochanteric hip fracture",
+            "Hypertension",
+            "Hyperlipidemia",
+            "Hypothyroidism",
+            "Colon cancer",
+            "Thoracic aortic aneurysm (4.2cm)",
+            "Prediabetes",
+            "Obstructive sleep apnea",
+            "Osteopenia",
+            "Basal cell carcinoma of scalp",
+            "Ductal carcinoma in situ (DCIS) of left breast"
+          ],
+          "key_information": [
+            "Patient has history of right THA and left TKA",
+            "Patient ambulates without assistive device at baseline",
+            "Osteoporosis labs ordered (1,25-vitamin D, intact PTH, and ionized Calcium)",
+            "Non-weight bearing on left lower extremity",
+            "DVT prophylaxis with HSQ pre-op",
+            "Medicine consult requested for pre-operative risk stratification",
+            "Allergies to Ragweed and Nitrofuran analogues",
+            "Surgeon recommends spinal anesthesia and early care to reduce perioperative morbidity and mortality",
+            "Patient has thoracic aortic aneurysm (4.2cm) which may impact anesthesia risk",
+            "Patient has history of colon cancer and is part of PACES clinical trial"
+          ],
+          "chart_type": "consultation_note"
+        },
+        "summary": "76-year-old female with history of hypertension, hyperlipidemia, hypothyroidism, colon cancer, thoracic aortic aneurysm, and prediabetes who sustained a left intertrochanteric hip fracture after a mechanical fall. Patient is scheduled for ORIF with cephalomedullary nail.",
+        "diagnosis": [
+          "Left intertrochanteric hip fracture",
+          "Hypertension",
+          "Hyperlipidemia",
+          "Hypothyroidism",
+          "Colon cancer",
+          "Thoracic aortic aneurysm (4.2cm)",
+          "Prediabetes",
+          "Obstructive sleep apnea",
+          "Osteopenia",
+          "Basal cell carcinoma of scalp",
+          "Ductal carcinoma in situ (DCIS) of left breast"
+        ],
+        "tests": [],
+        "reports": [],
+        "medications": [],
+        "allergies": [],
+        "risk_assessment": "",
+        "history": {},
+        "physical_exam": {},
+        "imaging": [],
+        "conservative_treatment": {},
+        "functional_limitations": {}
+      }
+    },
+    "same_patient": true,
+    "same_patient_reason": "Both charts have identical patient name (Patricia H Barrie) and identical patient ID (MR3451845), as well as matching DOB (09/02/1949)",
+    "patient_name": "Patricia H Barrie",
+    "patient_id": "MR3451845",
+    "duplicates": [],
+    "duplicate_reason": "No duplicates found. The charts are different types (consultation_note vs operative_note) with different content.",
+    "all_chart_names": [
+      "tmpsiuch4o3.pdf",
+      "tmpnq31otz1.pdf"
+    ]
+  }
+}

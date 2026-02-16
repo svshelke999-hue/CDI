@@ -64,25 +64,55 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Brand colors (light purple and light peacock green)
-PRIMARY_PURPLE = "#8B5CF6"     # light purple
-ACCENT_TEAL = "#14B8A6"        # light peacock/teal
-TEXT_DARK = "#2b2b2b"
+# Brand colors from medical website color palette
+DARK_BLUE = "#122056"          # Page text color
+ACCENT_BLUE = "#5B65DC"        # Accent color (buttons, links, active tabs)
+LIGHT_BLUE = "#EEEFFD"         # Secondary buttons and ordered list elements
+BG_LIGHT = "#FAFAFD"           # Page background color
+WHITE = "#FFFFFF"              # Menu bar and tile color
 
-# Custom CSS for brand styling
+# Custom CSS for brand styling with medical website color palette
 st.markdown(f"""
 <style>
     :root {{
-        --primary: {PRIMARY_PURPLE};
-        --accent: {ACCENT_TEAL};
-        --text-dark: {TEXT_DARK};
+        --dark-blue: {DARK_BLUE};
+        --accent-blue: {ACCENT_BLUE};
+        --light-blue: {LIGHT_BLUE};
+        --bg-light: {BG_LIGHT};
+        --white: {WHITE};
+    }}
+
+    /* Typography normalization */
+    html, body, [class*="st-"], .stApp {{
+        font-size: 16px;
+    }}
+    .stApp, .stApp * {{
+        font-weight: 400;
+    }}
+    /* Standardize markdown heading sizes (Streamlit uses these heavily) */
+    .stMarkdown h1 {{ font-size: 1.8rem; font-weight: 800; margin: 0.6rem 0; }}
+    .stMarkdown h2 {{ font-size: 1.5rem; font-weight: 800; margin: 0.5rem 0; }}
+    .stMarkdown h3 {{ font-size: 1.25rem; font-weight: 750; margin: 0.4rem 0; }}
+    .stMarkdown h4 {{ font-size: 1.1rem; font-weight: 700; margin: 0.35rem 0; }}
+    .stMarkdown p, .stMarkdown li {{ font-size: 1rem; }}
+    /* Keep labels readable but not oversized */
+    label, .stMarkdown label {{ font-size: 1rem; font-weight: 600; }}
+
+    /* Page background */
+    .stApp {{
+        background-color: {BG_LIGHT};
+    }}
+    
+    /* Main content area background */
+    .main .block-container {{
+        background-color: {BG_LIGHT};
     }}
 
     /* Header */
     .main-header {{
         font-size: 2.5rem;
         font-weight: 800;
-        color: var(--primary);
+        color: {DARK_BLUE};
         text-align: center;
         padding: 1rem 0;
     }}
@@ -90,23 +120,23 @@ st.markdown(f"""
     .sub-header {{
         font-size: 1.5rem;
         font-weight: 700;
-        color: var(--text-dark);
+        color: {DARK_BLUE};
         margin-top: 1rem;
     }}
 
     .payer-section {{
-        background-color: #f7f7ff; /* subtle purple tint */
+        background-color: {WHITE};
         padding: 1rem;
         border-radius: 0.5rem;
-        border: 1px solid #ecebff;
+        border: 1px solid {LIGHT_BLUE};
         margin: 1rem 0;
     }}
 
     .metric-card {{
-        background-color: #ffffff;
+        background-color: {WHITE};
         padding: 1rem;
         border-radius: 0.5rem;
-        border: 1px solid #ebecef;
+        border: 1px solid {LIGHT_BLUE};
         text-align: center;
         box-shadow: 0 1px 2px rgba(0,0,0,0.04);
     }}
@@ -116,7 +146,7 @@ st.markdown(f"""
     .decision-not-applicable {{ color: #b56b00; font-weight: 700; }}
 
     .requirement-met {{
-        background-color: #e6fff7; /* teal tint */
+        background-color: {LIGHT_BLUE};
         padding: 0.5rem; border-radius: 0.25rem; margin: 0.25rem 0;
     }}
     .requirement-unmet {{
@@ -128,27 +158,99 @@ st.markdown(f"""
         padding: 0.5rem; border-radius: 0.25rem; margin: 0.25rem 0;
     }}
 
-    /* Buttons */
+    /* Primary Buttons - Dark Blue */
     .stButton>button {{
-        background: linear-gradient(90deg, var(--primary), var(--accent));
-        color: #ffffff; border: 0; padding: 0.6rem 1rem; font-weight: 700;
+        background-color: {DARK_BLUE};
+        color: {WHITE};
+        border: 0;
+        padding: 0.6rem 1rem;
+        font-weight: 800;
+        font-size: 1rem;
         border-radius: 8px;
     }}
     .stButton>button:hover {{
+        background-color: {ACCENT_BLUE};
         filter: brightness(1.05);
     }}
 
-    /* Progress bar */
-    .stProgress > div > div > div > div {{ background-color: var(--accent); }}
-
-    /* Tabs */
-    .stTabs [data-baseweb="tab-list"] button[aria-selected="true"] {{
-        border-bottom: 3px solid var(--primary);
+    /* Secondary Buttons - Light Blue */
+    .stButton>button[kind="secondary"] {{
+        background-color: {LIGHT_BLUE};
+        color: {DARK_BLUE};
+        border: 1px solid {ACCENT_BLUE};
     }}
 
-    /* Sidebar accents */
+    /* Progress bar */
+    .stProgress > div > div > div > div {{
+        background-color: {ACCENT_BLUE};
+    }}
+
+    /* Tabs - bigger/bolder + clear selected state (used for payer tabs + Medical Chart) */
+    .stTabs [data-baseweb="tab-list"] {{
+        background-color: {WHITE};
+        border-bottom: 2px solid {LIGHT_BLUE};
+        padding: 0.25rem 0.25rem 0;
+    }}
+    
+    .stTabs [data-baseweb="tab-list"] button {{
+        color: {DARK_BLUE};
+        font-size: 1.15rem;
+        font-weight: 800;
+        padding: 0.75rem 1.1rem;
+        border-radius: 12px 12px 0 0;
+        margin-right: 0.35rem;
+    }}
+    
+    .stTabs [data-baseweb="tab-list"] button[aria-selected="true"] {{
+        border-bottom: 3px solid {ACCENT_BLUE};
+        background: {ACCENT_BLUE};
+        color: {WHITE};
+        font-weight: 900;
+    }}
+
+    /* Sidebar */
+    section[data-testid="stSidebar"] {{
+        background-color: {LIGHT_BLUE};
+    }}
+    
     section[data-testid="stSidebar"] [data-testid="stHeader"] {{
-        color: var(--primary);
+        color: {DARK_BLUE};
+    }}
+
+    /* Expanders and containers */
+    .streamlit-expanderHeader {{
+        background-color: {WHITE};
+        color: {DARK_BLUE};
+    }}
+
+    /* Links */
+    a {{
+        color: {ACCENT_BLUE};
+    }}
+    a:hover {{
+        color: {DARK_BLUE};
+    }}
+
+    /* Text areas and inputs */
+    .stTextInput>div>div>input {{
+        background-color: {WHITE};
+        border-color: {LIGHT_BLUE};
+    }}
+
+    /* Select widgets (selectbox/multiselect) - slightly larger and clearer */
+    [data-baseweb="select"] > div {{
+        font-size: 1.05rem;
+        font-weight: 600;
+    }}
+    /* Radio/checkbox text */
+    [role="radiogroup"] label, [data-testid="stCheckbox"] label {{
+        font-size: 1.05rem;
+        font-weight: 600;
+    }}
+
+    /* Dataframes and tables */
+    .dataframe {{
+        background-color: {WHITE};
     }}
 </style>
 """, unsafe_allow_html=True)
@@ -170,6 +272,8 @@ def initialize_session_state():
         st.session_state.original_chart_text = None
     if 'user_input_fields' not in st.session_state:
         st.session_state.user_input_fields = {}
+    if 'view_mode' not in st.session_state:
+        st.session_state.view_mode = "📋 CDI Recommendations"
 
 
 def initialize_cdi_system():
@@ -185,56 +289,41 @@ def initialize_cdi_system():
         return False
 
 
-def display_system_info():
-    """Display system configuration in sidebar."""
-    st.sidebar.markdown("### 🔧 System Configuration")
+def display_available_payers():
+    """Display available payers in sidebar with medical color palette styling."""
+    # Apply light blue background to sidebar (from color palette)
+    st.sidebar.markdown(
+        f"""
+        <style>
+        section[data-testid="stSidebar"] {{
+            background-color: {LIGHT_BLUE};
+        }}
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
     
+    # Display Available Payers heading in dark blue
+    st.sidebar.markdown(
+        f'<h3 style="color: {DARK_BLUE}; font-weight: bold; margin-bottom: 1rem;">Available Payers</h3>',
+        unsafe_allow_html=True
+    )
+    
+    # Get payer names from Config
     if st.session_state.cdi_system:
         info = st.session_state.cdi_system.get_system_info()
+        configured_payers = info.get('configured_payers', [])
         
-        st.sidebar.markdown(f"**Version:** {info['version']}")
-        st.sidebar.markdown(f"**Cache Enabled:** {'✅' if info['cache_enabled'] else '❌'}")
-        
-        # Display data source info
-        data_source = info.get('data_source', 'unknown')
-        st.sidebar.markdown(f"**Data Source:** {data_source.upper()}")
-        
-        # Show connection status based on data source
-        if data_source == 'opensearch':
-            opensearch_connected = info.get('opensearch_connected', False)
-            st.sidebar.markdown(f"**OpenSearch:** {'✅ Connected' if opensearch_connected else '❌ Disconnected'}")
-        elif data_source == 'json':
-            json_available = info.get('json_files_available', {})
-            available_count = sum(1 for v in json_available.values() if v)
-            total_count = len(json_available)
-            st.sidebar.markdown(f"**JSON Files:** ✅ {available_count}/{total_count} Available")
-        
-        st.sidebar.markdown(f"**Model:** {info['claude_model'].split('.')[-1]}")
-        
-        st.sidebar.markdown("**Configured Payers:**")
-        for payer in info['configured_payers']:
-            payer_config = Config.PAYER_CONFIG[payer]
-            st.sidebar.markdown(f"- {payer_config['name']}")
-
-
-def display_cache_stats():
-    """Display cache statistics."""
-    if st.session_state.cdi_system:
-        st.sidebar.markdown("---")
-        st.sidebar.markdown("### 💾 Cache Statistics")
-        
-        cache_stats = st.session_state.cdi_system.cache_manager.cache_stats
-        
-        col1, col2 = st.sidebar.columns(2)
-        with col1:
-            st.metric("Extraction Hits", cache_stats.extraction_hits)
-            st.metric("Compliance Hits", cache_stats.compliance_hits)
-        with col2:
-            st.metric("Extraction Misses", cache_stats.extraction_misses)
-            st.metric("Compliance Misses", cache_stats.compliance_misses)
-        
-        st.sidebar.metric("Hit Rate", f"{cache_stats.get_hit_rate():.1f}%")
-        st.sidebar.metric("Total Savings", f"${cache_stats.total_savings_usd:.6f}")
+        if configured_payers:
+            for payer in configured_payers:
+                payer_config = Config.PAYER_CONFIG.get(payer, {})
+                payer_name = payer_config.get('name', payer)
+                st.sidebar.markdown(f"• {payer_name}")
+        else:
+            # Fallback: show all payers from Config
+            for payer_key, payer_config in Config.PAYER_CONFIG.items():
+                payer_name = payer_config.get('name', payer_key)
+                st.sidebar.markdown(f"• {payer_name}")
 
 
 def get_decision_class(decision):
@@ -250,7 +339,7 @@ def get_decision_class(decision):
 
 def display_extraction_data(extraction_data):
     """Display extraction data in a formatted way."""
-    st.markdown("### 📋 Extraction Results")
+    st.markdown("#### 📋 Extraction Results")
     
     # Check if CPT codes are present
     cpt_codes = extraction_data.get("cpt", [])
@@ -303,12 +392,6 @@ def display_extraction_data(extraction_data):
                 st.markdown(f"• {proc}")
         else:
             st.info("No procedures detected")
-    
-    # Summary at the end
-    st.markdown("---")
-    st.markdown("**Clinical Summary:**")
-    summary = extraction_data.get("summary", "No summary available")
-    st.info(summary)
 
 
 def display_medical_chart(numbered_chart):
@@ -450,28 +533,328 @@ def display_improvement_recommendations(recommendations):
     if not recommendations:
         st.info("No improvement recommendations available")
         return
+
+    # 1) Prefer concise, model-generated summary recommendations (top 3–5)
+    summary_recs = recommendations.get("summary_recommendations") or []
+    summary_recs = [r for r in summary_recs if isinstance(r, str) and r.strip()]
+
+    if summary_recs:
+        unique = []
+        seen = set()
+        for r in summary_recs:
+            r_clean = r.strip()
+            if r_clean and r_clean not in seen:
+                seen.add(r_clean)
+                unique.append(r_clean)
+        # Limit to 5 bullets for a focused view
+        to_show = unique[:5]
+        if to_show:
+            st.markdown("**Improvement Recommendations:**")
+            for r in to_show:
+                st.markdown(f"- {r}")
+            return
+
+    # 2) Fallback: build up to 5 concise bullets from available fields (no category prefixes)
+    all_recommendations = []
+
+    def _extend_clean(items):
+        for item in items or []:
+            if isinstance(item, str):
+                txt = item.strip()
+                if txt:
+                    all_recommendations.append(txt)
+
+    # Prefer clinical documentation/action items first
+    _extend_clean(recommendations.get("cdi_documentation_gaps"))
+    _extend_clean(recommendations.get("completion_guidance"))
+    _extend_clean(recommendations.get("next_steps"))
+    _extend_clean(recommendations.get("documentation_gaps"))
+    _extend_clean(recommendations.get("compliance_actions"))
+    _extend_clean(recommendations.get("policy_needed"))
+
+    # De-duplicate while preserving order and cap at 5
+    if all_recommendations:
+        seen = set()
+        final_list = []
+        for r in all_recommendations:
+            if r not in seen:
+                seen.add(r)
+                final_list.append(r)
+            if len(final_list) >= 5:
+                break
+
+        if final_list:
+            st.markdown("**Improvement Recommendations:**")
+            for r in final_list:
+                st.markdown(f"- {r}")
+            return
+
+    # 3) If still nothing meaningful, show fallback message
+    st.info("No specific recommendations available for this procedure")
+
+
+def display_cms_guidelines(cms_sources, cms_guidelines_context, cms_has_guidelines, proc_result):
+    """Display CMS general guidelines with evidence and compliance status."""
     
-    priority = recommendations.get("priority", "medium")
-    priority_colors = {
-        "high": "🔴",
-        "medium": "🟡",
-        "low": "🟢"
-    }
-    priority_icon = priority_colors.get(priority.lower(), "⚪")
+    # Always show the tab, even if no CMS guidelines were found
+    # This helps users understand that CMS guidelines are being checked
     
-    st.markdown(f"**Priority:** {priority_icon} {priority.upper()}")
+    if not cms_sources and not cms_has_guidelines:
+        st.info("ℹ️ No CMS general guidelines were retrieved for this procedure.")
+        st.caption("CMS general guidelines are universal coding requirements that apply to all payers. They are checked before payer-specific guidelines.")
+        st.markdown("---")
+        st.markdown("### Why no CMS guidelines?")
+        st.markdown("""
+        Possible reasons:
+        - No relevant CMS general guidelines matched the procedure/diagnosis
+        - CMS guidelines database may need to be updated
+        - The procedure may not have specific CMS general guideline requirements
+        
+        **Note:** Even if no CMS guidelines are shown, the evaluation still checks payer-specific guidelines.
+        """)
+        return
     
-    doc_gaps = recommendations.get("documentation_gaps", [])
-    if doc_gaps:
-        st.markdown("**Documentation Gaps:**")
-        for gap in doc_gaps:
-            st.markdown(f"- {gap}")
+    # If we have context but no sources, still show something
+    if cms_guidelines_context and not cms_sources:
+        st.warning("⚠️ CMS guidelines context found but sources are missing. This may indicate a data structure issue.")
+        st.markdown("### CMS Guidelines Context")
+        st.text(cms_guidelines_context[:1000] + "..." if len(cms_guidelines_context) > 1000 else cms_guidelines_context)
+        return
     
-    compliance_actions = recommendations.get("compliance_actions", [])
-    if compliance_actions:
-        st.markdown("**Compliance Actions:**")
-        for action in compliance_actions:
-            st.markdown(f"- {action}")
+    st.markdown("### 📋 CMS General Guidelines Overview")
+    st.success(f"✓ Found **{len(cms_sources)}** relevant CMS general guideline(s)")
+    st.info("💡 **CMS general guidelines are universal requirements that apply to ALL payers. These must be satisfied before payer-specific guidelines are evaluated.**")
+    
+    # Display compliance status summary
+    st.markdown("---")
+    st.markdown("### ✅ CMS Compliance Status")
+    
+    # Analyze requirement checklist and decision to determine CMS compliance
+    requirements = proc_result.get("requirement_checklist", [])
+    decision = proc_result.get("decision", "").lower()
+    primary_reasons = proc_result.get("primary_reasons", [])
+    
+    # Determine overall CMS compliance
+    cms_compliance_status = "unknown"
+    cms_compliance_reason = ""
+    cms_specific_issues = []
+    
+    # Check if decision indicates CMS compliance
+    if "sufficient" in decision:
+        # Check if there are any unmet requirements that might be CMS-related
+        unmet_cms_reqs = []
+        for req in requirements:
+            req_id = req.get("requirement_id", "").lower()
+            status = req.get("status", "").lower()
+            # Look for CMS-related requirements
+            if status in ["unmet", "unclear"] and any(keyword in req_id for keyword in ["documentation", "coding", "diagnosis", "reporting", "accurate"]):
+                unmet_cms_reqs.append(req)
+        
+        if unmet_cms_reqs:
+            cms_compliance_status = "partially_met"
+            cms_compliance_reason = "CMS guidelines mostly met, but some requirements need attention"
+            for req in unmet_cms_reqs[:3]:  # Show first 3 issues
+                missing = req.get("missing_to_meet", "")
+                if missing:
+                    cms_specific_issues.append(f"• {req.get('requirement_id', 'Unknown')}: {missing}")
+        else:
+            cms_compliance_status = "met"
+            cms_compliance_reason = "✅ Procedure meets CMS general guidelines"
+    elif "insufficient" in decision:
+        cms_compliance_status = "not_met"
+        cms_compliance_reason = "❌ Procedure does not meet CMS general guidelines"
+        # Extract CMS-related issues from primary reasons
+        for reason in primary_reasons:
+            if any(keyword in reason.lower() for keyword in ["documentation", "coding", "diagnosis", "reporting", "accurate", "cms"]):
+                cms_specific_issues.append(f"• {reason}")
+    else:
+        cms_compliance_status = "unclear"
+        cms_compliance_reason = "⚠️ CMS compliance status unclear - review required"
+    
+    # Display compliance badge
+    col1, col2 = st.columns([1, 3])
+    with col1:
+        if cms_compliance_status == "met":
+            st.success("✅ **MET**")
+        elif cms_compliance_status == "partially_met":
+            st.warning("⚠️ **PARTIALLY MET**")
+        elif cms_compliance_status == "not_met":
+            st.error("❌ **NOT MET**")
+        else:
+            st.warning("⚠️ **UNCLEAR**")
+    
+    with col2:
+        st.markdown(f"**Status:** {cms_compliance_reason}")
+        if cms_specific_issues:
+            st.markdown("**Issues identified:**")
+            for issue in cms_specific_issues:
+                st.markdown(issue)
+    
+    # Display each CMS guideline with evidence
+    st.markdown("---")
+    st.markdown("### 📄 CMS Guidelines Used")
+    
+    for idx, cms_source in enumerate(cms_sources, 1):
+        full_source = cms_source.get("full_source", {})
+        semantic_title = full_source.get("semantic_title", "CMS General Guideline")
+        guideline_id = full_source.get("guideline_id", "")
+        score = cms_source.get("score", 0.0)
+        
+        # Get content
+        content = full_source.get("content", {})
+        full_text = content.get("full_text", "")
+        summary = content.get("summary", "")
+        key_concepts = content.get("key_concepts", [])
+        detailed_rules = content.get("detailed_rules", [])
+        
+        # Get metadata
+        metadata = full_source.get("metadata", {})
+        category = metadata.get("category", "")
+        section_path = full_source.get("section_path", "")
+        page_number = full_source.get("page_number", "")
+        
+        # Create expander for each guideline
+        with st.expander(f"**Guideline {idx}:** {semantic_title} | Score: {score:.1f}", expanded=idx==1):
+            # Header information
+            col1, col2 = st.columns([2, 1])
+            with col1:
+                if guideline_id:
+                    st.markdown(f"**Guideline ID:** `{guideline_id}`")
+                if section_path:
+                    st.markdown(f"**Section:** {section_path}")
+                if page_number:
+                    st.markdown(f"**Page:** {page_number}")
+            with col2:
+                st.metric("Relevance Score", f"{score:.1f}")
+                if category:
+                    st.caption(f"Category: {category}")
+            
+            # Display full text
+            if full_text:
+                st.markdown("---")
+                st.markdown("#### 📝 Guideline Text")
+                st.markdown(full_text)
+            
+            # Display summary
+            if summary:
+                st.markdown("---")
+                st.markdown("#### 📋 Summary")
+                st.info(summary)
+            
+            # Display key concepts
+            if key_concepts:
+                st.markdown("---")
+                st.markdown("#### 🔑 Key Concepts")
+                for concept in key_concepts:
+                    st.markdown(f"• {concept}")
+            
+            # Display detailed rules
+            if detailed_rules:
+                st.markdown("---")
+                st.markdown("#### 📜 Detailed Rules")
+                for rule in detailed_rules:
+                    rule_id = rule.get("rule_id", "")
+                    rule_text = rule.get("rule_text", "")
+                    explanation = rule.get("explanation", "")
+                    importance = rule.get("importance", "")
+                    
+                    rule_container = st.container()
+                    with rule_container:
+                        if rule_id:
+                            st.markdown(f"**{rule_id}**")
+                        if rule_text:
+                            st.markdown(f"• {rule_text}")
+                        if explanation:
+                            st.caption(f"  → {explanation}")
+                        if importance:
+                            importance_badge = "🔴 Critical" if importance == "critical" else "🟡 Important" if importance == "important" else "🔵 Standard"
+                            st.caption(importance_badge)
+            
+            # Display evidence references
+            st.markdown("---")
+            st.markdown("#### 📍 Evidence References")
+            
+            # Extract evidence from the guideline content
+            evidence_refs = []
+            if full_text:
+                import re
+                # Look for evidence patterns like "(Evidence: pg no: X, LY)"
+                pattern = r'\(Evidence:\s*pg\s+no:\s*(\d+),?\s*L(\d+(?:-L\d+)?)\)'
+                matches = re.findall(pattern, full_text)
+                for match in matches:
+                    evidence_refs.append(f"Page {match[0]}, Line {match[1]}")
+            
+            if summary:
+                matches = re.findall(pattern, summary)
+                for match in matches:
+                    evidence_refs.append(f"Page {match[0]}, Line {match[1]}")
+            
+            if evidence_refs:
+                unique_evidence = sorted(set(evidence_refs))
+                st.success(f"Found **{len(unique_evidence)}** evidence reference(s)")
+                for ref in unique_evidence:
+                    st.markdown(f"• {ref}")
+            else:
+                st.info("No specific page/line evidence references found in this guideline")
+            
+            # Display coding scenarios if available
+            coding_scenarios = full_source.get("coding_scenarios", [])
+            if coding_scenarios:
+                st.markdown("---")
+                st.markdown("#### 💡 Coding Scenarios")
+                for scenario in coding_scenarios[:2]:  # Show first 2 scenarios
+                    scenario_text = scenario.get("scenario", "")
+                    if scenario_text:
+                        with st.expander(f"Scenario: {scenario_text[:50]}...", expanded=False):
+                            st.markdown(f"**Scenario:** {scenario_text}")
+                            
+                            correct_coding = scenario.get("correct_coding", {})
+                            if correct_coding:
+                                st.markdown("**Correct Coding:**")
+                                primary_code = correct_coding.get("primary_code", "")
+                                secondary_codes = correct_coding.get("secondary_codes", [])
+                                if primary_code:
+                                    st.markdown(f"• Primary: `{primary_code}`")
+                                if secondary_codes:
+                                    for code in secondary_codes:
+                                        st.markdown(f"• Secondary: `{code}`")
+    
+    # Display how CMS guidelines relate to payer evaluation
+    st.markdown("---")
+    st.markdown("### 🔗 Relationship to Payer Evaluation")
+    st.info("""
+    **CMS General Guidelines are evaluated FIRST**, before any payer-specific guidelines.
+    
+    - If CMS guidelines are **NOT MET**, the procedure may be insufficient regardless of payer-specific compliance
+    - If CMS guidelines are **MET**, the evaluation proceeds to payer-specific guidelines
+    - Each payer may have additional requirements beyond CMS general guidelines
+    """)
+    
+    # Show requirement checklist items that might relate to CMS
+    if requirements:
+        st.markdown("---")
+        st.markdown("### 📋 Related Requirements")
+        st.caption("The following requirements may be related to CMS general guidelines:")
+        
+        cms_related_reqs = []
+        for req in requirements:
+            req_id = req.get("requirement_id", "").lower()
+            # Look for requirements that might be CMS-related
+            if any(keyword in req_id for keyword in ["documentation", "coding", "diagnosis", "reporting", "accurate"]):
+                cms_related_reqs.append(req)
+        
+        if cms_related_reqs:
+            for req in cms_related_reqs[:5]:  # Show first 5
+                req_id = req.get("requirement_id", "")
+                status = req.get("status", "")
+                missing = req.get("missing_to_meet", "")
+                
+                status_badge = "✅ Met" if status == "met" else "❌ Not Met" if status == "unmet" else "⚠️ Unclear"
+                st.markdown(f"**{req_id}** - {status_badge}")
+                if missing and status != "met":
+                    st.caption(f"  Missing: {missing}")
+        else:
+            st.caption("No specific CMS-related requirements identified in the checklist")
 
 
 def display_payer_guideline_evidence(sources):
@@ -791,14 +1174,15 @@ def display_procedure_result(proc_result, proc_idx, payer_key="unknown"):
             st.caption(f"Total {len(unique_refs)} reference(s) from payer guideline documents")
         
         # Detailed sections in tabs
-        tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs([
+        tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8 = st.tabs([
             "📝 Requirements", 
             "📋 Chart Evidence",
             "⏰ Timing", 
             "⚠️ Contraindications", 
             "💊 Coding", 
             "📈 Recommendations",
-            "📄 Guideline Evidence"
+            "📄 Guideline Evidence",
+            "🏥 CMS Guidelines"
         ])
         
         with tab1:
@@ -850,6 +1234,23 @@ def display_procedure_result(proc_result, proc_idx, payer_key="unknown"):
             # Get sources from the procedure result if available
             sources = proc_result.get("sources", [])
             display_payer_guideline_evidence(sources)
+        
+        with tab8:
+            st.markdown("#### CMS General Guidelines")
+            # Get CMS sources from the procedure result
+            cms_sources = proc_result.get("cms_sources", [])
+            cms_guidelines_context = proc_result.get("cms_guidelines_context", "")
+            cms_has_guidelines = proc_result.get("cms_has_guidelines", False)
+            
+            # Debug: Show what we're getting
+            if st.session_state.get("debug_mode", False):
+                with st.expander("🔍 Debug Info", expanded=False):
+                    st.write("CMS Sources:", len(cms_sources) if cms_sources else "None")
+                    st.write("CMS Has Guidelines:", cms_has_guidelines)
+                    st.write("CMS Context Length:", len(cms_guidelines_context) if cms_guidelines_context else 0)
+                    st.write("Procedure Result Keys:", list(proc_result.keys())[:10])
+            
+            display_cms_guidelines(cms_sources, cms_guidelines_context, cms_has_guidelines, proc_result)
 
 
 def display_payer_results(payer_key, payer_result):
@@ -1371,7 +1772,7 @@ def display_improved_medical_chart(original_chart, improved_data):
     
     # Compliance Impact Summary
     if compliance_impact:
-        st.markdown("### 📊 Compliance Impact")
+        st.markdown("### Compliance Impact")
         
         before_text = compliance_impact.get("before", "N/A")
         after_text = compliance_impact.get("after", "N/A")
@@ -1539,10 +1940,11 @@ def display_improved_medical_chart(original_chart, improved_data):
     
     # Remove line numbers for cleaner comparison
     original_clean = remove_line_numbers(original_chart)
-    # Remove line numbers and all ADDED markers from comparison version
+    # Remove line numbers and all markers from comparison version (final human-readable chart)
     populated_clean = remove_line_numbers(final_chart)
-    
-    # Remove all ADDED markers from comparison (keep content, remove markers)
+
+    # Remove AI markers entirely (keep the actual chart text)
+    populated_clean = re.sub(r'\[AI ADDED:\s*[^\]]+\]\s*', '', populated_clean)
     populated_clean = re.sub(r'\[ADDED:\s*([^\]]+)\]', r'\1', populated_clean)
     populated_clean = re.sub(r'\[➕ ADDED BY AI:\s*([^\]]+)\]', r'\1', populated_clean)
     # Remove PHYSICIAN INPUT markers (already filled in, so just remove the markers)
@@ -1582,10 +1984,11 @@ def display_improved_medical_chart(original_chart, improved_data):
     st.markdown("---")
     st.markdown("## 💾 Download Improved Chart")
     
-    # Remove line numbers and all markers for clean medical chart format
+    # Remove line numbers and all markers for clean medical chart format (download)
     chart_no_lines = remove_line_numbers(final_chart)
     chart_no_lines = re.sub(r'^L\d+\|', '', chart_no_lines, flags=re.MULTILINE)
     # Remove all marker types for clean medical chart format
+    chart_no_lines = re.sub(r'\[AI ADDED:\s*[^\]]+\]\s*', '', chart_no_lines)
     chart_no_lines = re.sub(r'\[ADDED:\s*([^\]]+)\]', r'\1', chart_no_lines)
     chart_no_lines = re.sub(r'\[➕ ADDED BY AI:\s*([^\]]+)\]', r'\1', chart_no_lines)
     chart_no_lines = re.sub(r'\[NEEDS PHYSICIAN INPUT:[^\]]+\]', '', chart_no_lines)
@@ -1642,7 +2045,7 @@ def display_cross_payer_dashboard(result):
     cpt_codes = extraction_data.get("cpt", []) if extraction_data else []
     
     # Summary metrics
-    st.markdown("### 📊 Summary Metrics")
+    st.markdown("###  Summary Metrics")
     
     col1, col2, col3, col4 = st.columns(4)
     
@@ -1893,143 +2296,581 @@ def display_cross_payer_dashboard(result):
             with col4:
                 st.metric("Total Conflicts", total_conflicts)
     
-    # Payer-wise Comparison Table
-    if payer_summary:
-        st.markdown("#### Payer-wise Comparison")
-        
-        # Create comparison table data
-        comparison_data = []
-        for payer_name, stats in payer_summary.items():
-            comparison_data.append({
-                'Payer': payer_name,
-                'Sufficient': stats['sufficient'],
-                'Insufficient': stats['insufficient'],
-                'Total Cost': f"${stats['total_cost']:.6f}"
-            })
-        
-        # Display as Streamlit native table
-        import pandas as pd
-        df = pd.DataFrame(comparison_data)
-        
-        # Style the dataframe
-        def highlight_sufficient(val):
-            if isinstance(val, (int, float)) and val > 0:
-                return 'background-color: #ecfdf5; color: #065f46; font-weight: bold;'
-            return ''
-        
-        def highlight_insufficient(val):
-            if isinstance(val, (int, float)) and val > 0:
-                return 'background-color: #fff7ed; color: #7c2d12; font-weight: bold;'
-            return ''
-        
-        
-        def highlight_cost(val):
-            if isinstance(val, str) and '$' in val:
-                return 'font-weight: bold;'
-            return ''
-        
-        # Apply styling
-        styled_df = df.style.applymap(highlight_sufficient, subset=['Sufficient'])\
-                           .applymap(highlight_insufficient, subset=['Insufficient'])\
-                           .applymap(highlight_cost, subset=['Total Cost'])
-        
-        st.dataframe(
-            styled_df,
-            width='stretch',
-            hide_index=True,
-            column_config={
-                "Payer": st.column_config.TextColumn("Payer", width="medium"),
-                "Sufficient": st.column_config.NumberColumn("Sufficient", width="small"),
-                "Insufficient": st.column_config.NumberColumn("Insufficient", width="small"),
-                "Total Cost": st.column_config.TextColumn("Total Cost", width="small")
-            }
-        )
-    
     st.markdown("---")
     
-    # Common Documentation Gaps & Actionable Recommendations
-    st.markdown("### 📝 Common Documentation Gaps")
-    
-    # Extract common gaps from all sources
-    all_gaps = set()
-    
-    # Get gaps from payer results
-    for payer_key, payer_result in payer_results.items():
-        if isinstance(payer_result, dict):
-            procedure_results = payer_result.get('procedure_results', [])
-        else:
-            procedure_results = getattr(payer_result, 'procedure_results', [])
+    # Important Information from Related Files
+    multi_chart_info = getattr(result, "multi_chart_info", None)
+    if multi_chart_info:
+        other_charts_info = multi_chart_info.get("other_charts_info", {})
         
-        for proc_result in procedure_results:
-            if isinstance(proc_result, dict):
-                reasons = proc_result.get('primary_reasons', [])
-                req_checklist = proc_result.get('requirement_checklist', [])
-            else:
-                reasons = getattr(proc_result, 'primary_reasons', [])
-                req_checklist = getattr(proc_result, 'requirement_checklist', [])
+        if other_charts_info:
+            st.markdown("### 📄 Important Information from Related Files")
+        
+            # Collect important information from all related charts
+            important_info = []
             
-            # Extract gaps from reasons
-            for reason in reasons:
-                if any(keyword in reason.lower() for keyword in ['missing', 'absent', 'not found', 'lacks', 'incomplete', 'no ', 'not ']):
-                    all_gaps.add(reason)
-            
-            # Extract gaps from unmet requirements
-            for req in req_checklist:
-                if isinstance(req, dict):
-                    status = req.get('status', '')
-                    gap_text = req.get('missing_to_meet', '')
-                else:
-                    status = getattr(req, 'status', '')
-                    gap_text = getattr(req, 'missing_to_meet', '')
+            for chart_file, chart_info in other_charts_info.items():
+                chart_title = chart_info.get("display_title") or chart_info.get("chart_type", "unknown").replace("_", " ").title()
                 
-                if status == 'unmet' and gap_text:
-                    all_gaps.add(gap_text)
+                # Collect summary
+                if chart_info.get("summary"):
+                    important_info.append(f"{chart_title} Summary: {chart_info['summary']}")
+                
+                # Collect diagnosis
+                diagnosis = chart_info.get("diagnosis", [])
+                if diagnosis:
+                    if isinstance(diagnosis, list):
+                        diag_text = ", ".join(diagnosis[:3])  # First 3 diagnoses
+                        if len(diagnosis) > 3:
+                            diag_text += f" and {len(diagnosis) - 3} more"
+                    else:
+                        diag_text = str(diagnosis)
+                    important_info.append(f"{chart_title} Diagnosis: {diag_text}")
+        
+                # Collect important tests/studies
+                tests = chart_info.get("tests", [])
+                reports = chart_info.get("reports", [])
+                if tests or reports:
+                    test_items = []
+                    if tests:
+                        if isinstance(tests, list):
+                            test_items.extend(tests[:3])
+                        else:
+                            test_items.append(str(tests))
+                    if reports:
+                        if isinstance(reports, list):
+                            test_items.extend([f"Report: {r}" for r in reports[:2]])
+                        else:
+                            test_items.append(f"Report: {reports}")
+                    if test_items:
+                        test_text = ", ".join(test_items)
+                        important_info.append(f"{chart_title} Tests/Studies: {test_text}")
+                
+                # Collect medications
+                medications = chart_info.get("medications", [])
+                if medications:
+                    if isinstance(medications, list):
+                        med_text = ", ".join(medications[:5])  # First 5 medications
+                        if len(medications) > 5:
+                            med_text += f" and {len(medications) - 5} more"
+                    else:
+                        med_text = str(medications)
+                    important_info.append(f"{chart_title} Medications: {med_text}")
+                
+                # Collect imaging studies
+                imaging = chart_info.get("imaging", [])
+                if imaging:
+                    if isinstance(imaging, list):
+                        img_text = ", ".join(imaging[:3])
+                        if len(imaging) > 3:
+                            img_text += f" and {len(imaging) - 3} more"
+                    else:
+                        img_text = str(imaging)
+                    important_info.append(f"{chart_title} Imaging: {img_text}")
+                
+                # Collect conservative treatment info
+                conservative_treatment = chart_info.get("conservative_treatment", {})
+                if conservative_treatment and isinstance(conservative_treatment, dict):
+                    treatment_items = []
+                    for key, value in conservative_treatment.items():
+                        if value:
+                            treatment_items.append(f"{key.replace('_', ' ').title()}: {value}")
+                    if treatment_items:
+                        treatment_text = "; ".join(treatment_items[:3])
+                        important_info.append(f"{chart_title} Conservative Treatment: {treatment_text}")
+            
+            # Display important information in the same format as Common Documentation Gaps
+            if important_info:
+                info_html = "<ul style='margin-top: 8px;'>"
+                for info in important_info[:15]:  # Top 15 items
+                    info_html += f"<li>{info}</li>"
+                info_html += "</ul>"
+                st.markdown(info_html, unsafe_allow_html=True)
+            else:
+                st.info("ℹ️ No additional information available from related files.")
+            
+            st.markdown("")
     
-    # Display gaps as bullets
-    if all_gaps:
-        gap_html = "<ul style='margin-top: 8px;'>"
-        for gap in sorted(all_gaps)[:10]:  # Top 10
-            gap_html += f"<li>{gap}</li>"
-        gap_html += "</ul>"
-        st.markdown(gap_html, unsafe_allow_html=True)
-    else:
-        st.success("✅ No common documentation gaps identified across payers!")
+    # Standardized CDI Summary (simple, human-readable bullets)
+    st.markdown("### 🧩 CDI Summary (Key Gaps)")
+
+    # Get related charts information for gap filtering
+    multi_chart_info = getattr(result, "multi_chart_info", None)
+    other_charts_info = {}
+    if multi_chart_info:
+        other_charts_info = multi_chart_info.get("other_charts_info", {})
+
+    policy_needed = set()
+    cdi_gaps = set()
     
-    st.markdown("")
+    # Helper function to check if gap information is already in related charts
+    def is_gap_covered_in_related_charts(gap_text):
+        """Check if the gap information is already documented in related charts."""
+        if not other_charts_info or not gap_text:
+            return False
+        
+        gap_lower = gap_text.lower()
+        
+        # Check each related chart for the information
+        for chart_file, chart_info in other_charts_info.items():
+            # Check conservative treatment
+            if any(kw in gap_lower for kw in ["conservative", "treatment", "therapy", "pt", "physical therapy", "medication", "injection"]):
+                conservative_treatment = chart_info.get("conservative_treatment", {})
+                if conservative_treatment and isinstance(conservative_treatment, dict):
+                    # Check if conservative treatment info exists
+                    has_treatment = any(
+                        value for key, value in conservative_treatment.items() 
+                        if value and isinstance(value, (str, int, float)) and str(value).strip()
+                    )
+                    if has_treatment:
+                        return True
+            
+            # Check duration/timeframe
+            if any(kw in gap_lower for kw in ["duration", "weeks", "months", "timeframe", "period"]):
+                # Check if duration is mentioned in summary or other fields
+                summary = chart_info.get("summary", "")
+                if summary and isinstance(summary, str):
+                    if any(kw in summary.lower() for kw in ["week", "month", "duration", "timeframe"]):
+                        return True
+            
+            # Check physical examination
+            if any(kw in gap_lower for kw in ["physical examination", "exam", "range of motion", "rom", "strength", "test", "impingement"]):
+                summary = chart_info.get("summary", "")
+                if summary and isinstance(summary, str):
+                    if any(kw in summary.lower() for kw in ["exam", "examination", "rom", "range of motion", "strength", "impingement", "neer", "hawkins"]):
+                        return True
+            
+            # Check functional limitations
+            if any(kw in gap_lower for kw in ["functional", "limitation", "adl", "activities of daily living", "activity"]):
+                summary = chart_info.get("summary", "")
+                if summary and isinstance(summary, str):
+                    if any(kw in summary.lower() for kw in ["functional", "limitation", "adl", "activity", "daily living"]):
+                        return True
+            
+            # Check pain assessment
+            if any(kw in gap_lower for kw in ["pain", "scale", "vas", "nrs", "score"]):
+                summary = chart_info.get("summary", "")
+                if summary and isinstance(summary, str):
+                    if any(kw in summary.lower() for kw in ["pain", "vas", "nrs", "scale", "score"]):
+                        return True
+            
+            # Check imaging
+            if any(kw in gap_lower for kw in ["imaging", "mri", "xray", "x-ray", "ct", "radiology", "finding"]):
+                imaging = chart_info.get("imaging", [])
+                if imaging:
+                    return True
+                tests = chart_info.get("tests", [])
+                if tests:
+                    tests_str = " ".join([str(t) for t in tests]).lower()
+                    if any(kw in tests_str for kw in ["mri", "xray", "x-ray", "ct", "imaging"]):
+                        return True
+        
+        return False
+
+    # Helper function to check if text is policy-related (not a documentation gap)
+    def is_policy_related(text):
+        text_lower = text.lower()
+        policy_keywords = [
+            "policy", "guideline", "payer", "cigna", "anthem", "uhc", "unitedhealthcare",
+            "aetna", "medicare", "medicaid", "policy_availability", "applicable policy",
+            "request specific", "medical policy", "guideline needed", "applicable"
+        ]
+        return any(kw in text_lower for kw in policy_keywords)
     
-    # Actionable Recommendations
-    st.markdown("### ✅ Actionable Recommendations")
+    # Helper function to check if text is generic/unhelpful
+    def is_generic_unhelpful(text):
+        text_lower = text.lower()
+        generic_phrases = [
+            "unable to determine",
+            "without applicable policy",
+            "without specific policy",
+            "policy not available",
+            "guideline not found",
+            "no policy found"
+        ]
+        return any(phrase in text_lower for phrase in generic_phrases)
     
-    # Extract recommendations from all sources
-    all_recommendations = set()
+    # Helper function to check if it's a clinical documentation gap (can be improved in chart)
+    def is_clinical_gap(text):
+        text_lower = text.lower()
+        clinical_keywords = [
+            "conservative", "treatment", "therapy", "pt", "physical therapy", "medication", "injection",
+            "duration", "weeks", "months", "timeframe", "period",
+            "physical examination", "exam", "range of motion", "rom", "strength", "test", "impingement",
+            "functional", "limitation", "adl", "activities of daily living", "activity",
+            "pain", "scale", "vas", "nrs", "score", "measurement",
+            "imaging", "mri", "xray", "x-ray", "ct", "radiology", "finding",
+            "documented", "documentation", "not documented", "missing", "lacks", "incomplete",
+            "not specified", "not stated", "not provided", "not measured", "not recorded"
+        ]
+        return any(kw in text_lower for kw in clinical_keywords)
     
-    # Get recommendations from payer results
+    # Clean up gap text to be more readable and user-friendly
+    def _clean_gap_text(text):
+        """Remove technical IDs, clean up language, make it readable for non-technical users."""
+        if not text:
+            return ""
+        
+        original_text = text
+        
+        # Remove requirement ID prefixes (format: "requirement_id: description")
+        # Handle cases like "conservative_management: Documentation of..."
+        if ":" in text:
+            parts = text.split(":", 1)
+            if len(parts) == 2:
+                first_part = parts[0].strip()
+                # Check if first part looks like a technical ID
+                # Technical IDs typically have underscores, are short, or are all lowercase with underscores
+                if ("_" in first_part and len(first_part) < 50) or \
+                   (first_part.islower() and "_" in first_part) or \
+                   (len(first_part) < 30 and not " " in first_part):
+                    # Use only the description part
+                    text = parts[1].strip()
+        
+        text = text.strip()
+        if not text:
+            return ""
+        
+        # Clean up common technical patterns and make more readable
+        # Remove redundant "Documentation of" prefix
+        if text.lower().startswith("documentation of "):
+            text = text[17:].strip()
+        
+        # Remove redundant "Document" prefix
+        if text.lower().startswith("document "):
+            text = text[9:].strip()
+        
+        # Convert technical language to plain language
+        # "Documentation of failure of provider-directed non-surgical management" 
+        # -> "Failure of non-surgical treatment"
+        text = text.replace("provider-directed non-surgical management", "non-surgical treatment")
+        text = text.replace("non-surgical management", "non-surgical treatment")
+        text = text.replace("conservative management", "conservative treatment")
+        
+        # Clean up "Insufficient documentation to meet..." type messages
+        if "insufficient documentation" in text.lower() and "to meet" in text.lower():
+            if "criteria for" in text.lower():
+                parts = text.lower().split("criteria for")
+                if len(parts) > 1:
+                    procedure = parts[1].strip()
+                    text = f"Documentation does not meet requirements for {procedure}"
+            elif "interqual" in text.lower() or "criteria" in text.lower():
+                # Simplify technical criteria references
+                text = "Documentation does not meet all required criteria"
+        
+        # Make descriptions more natural
+        # "Documentation of abnormal shoulder physical examination findings compared to non-involved side"
+        # -> "Abnormal shoulder physical examination findings compared to non-involved side"
+        # "Documentation of positive Neer Impingement Test"
+        # -> "Positive Neer Impingement Test results"
+        
+        # Remove "Documentation of" if still present
+        if text.lower().startswith("documentation of "):
+            text = text[17:].strip()
+        
+        # Make "Document specific..." -> "Specific..."
+        if text.lower().startswith("document specific"):
+            text = text[15:].strip()
+            if text:
+                text = "Specific " + text
+        
+        # Make "Specify..." -> "Missing: ..." for clarity
+        if text.lower().startswith("specify "):
+            text = text[8:].strip()
+            if text:
+                text = f"Missing: {text}"
+        
+        # Clean up "Include..." -> "Missing: ..."
+        if text.lower().startswith("include "):
+            text = text[8:].strip()
+            if text:
+                text = f"Missing: {text}"
+        
+        # Make sure it starts with a capital letter
+        if text and text[0].islower():
+            text = text[0].upper() + text[1:]
+        
+        # Final cleanup - remove any remaining technical jargon
+        text = text.replace("CP: Procedures", "procedure")
+        text = text.replace("InterQual", "")
+        text = text.strip()
+        
+        return text
+
     for payer_key, payer_result in payer_results.items():
         if isinstance(payer_result, dict):
-            procedure_results = payer_result.get('procedure_results', [])
+            payer_name = payer_result.get("payer_name", payer_key)
+            procedure_results = payer_result.get("procedure_results", [])
         else:
-            procedure_results = getattr(payer_result, 'procedure_results', [])
-        
+            payer_name = getattr(payer_result, "payer_name", payer_key)
+            procedure_results = getattr(payer_result, "procedure_results", [])
+
         for proc_result in procedure_results:
-            if isinstance(proc_result, dict):
-                improvement = proc_result.get('improvement_recommendations', {})
-                actions = improvement.get('compliance_actions', []) if improvement else []
-            else:
-                improvement = getattr(proc_result, 'improvement_recommendations', {})
-                actions = improvement.get('compliance_actions', []) if improvement else []
+            # Get procedure result as dict for easier access
+            if not isinstance(proc_result, dict):
+                proc_result = {
+                    "improvement_recommendations": getattr(proc_result, "improvement_recommendations", {}),
+                    "requirement_checklist": getattr(proc_result, "requirement_checklist", []),
+                    "primary_reasons": getattr(proc_result, "primary_reasons", [])
+                }
             
-            for action in actions:
-                if action and action.strip():
-                    all_recommendations.add(action.strip())
+            improvement = proc_result.get("improvement_recommendations", {})
+            if not isinstance(improvement, dict):
+                improvement = {}
+
+            # Extract policy needs (separate from documentation gaps)
+            for s in improvement.get("policy_needed", []) or []:
+                if isinstance(s, str) and s.strip():
+                    policy_needed.add(s.strip())
+            
+            # Extract cdi_documentation_gaps - ONLY clinical documentation gaps
+            for s in improvement.get("cdi_documentation_gaps", []) or []:
+                if isinstance(s, str) and s.strip():
+                    s_clean = s.strip()
+                    # Only add if it's a clinical gap and not policy-related
+                    if is_clinical_gap(s_clean) and not is_policy_related(s_clean) and not is_generic_unhelpful(s_clean):
+                        cleaned = _clean_gap_text(s_clean)
+                        if cleaned:
+                            # Check if this gap is already covered in related charts
+                            if not is_gap_covered_in_related_charts(cleaned):
+                                cdi_gaps.add(cleaned)
+                    elif is_policy_related(s_clean):
+                        policy_needed.add(s_clean)
+            
+            # Also check documentation_gaps - ONLY clinical documentation gaps
+            for s in improvement.get("documentation_gaps", []) or []:
+                if isinstance(s, str) and s.strip():
+                    s_clean = s.strip()
+                    if is_clinical_gap(s_clean) and not is_policy_related(s_clean) and not is_generic_unhelpful(s_clean):
+                        cleaned = _clean_gap_text(s_clean)
+                        if cleaned:
+                            # Check if this gap is already covered in related charts
+                            if not is_gap_covered_in_related_charts(cleaned):
+                                cdi_gaps.add(cleaned)
+                    elif is_policy_related(s_clean):
+                        policy_needed.add(s_clean)
+            
+            # Extract from requirement_checklist - focus ONLY on clinical documentation gaps
+            requirement_checklist = proc_result.get("requirement_checklist", [])
+            if isinstance(requirement_checklist, list):
+                for req in requirement_checklist:
+                    if isinstance(req, dict):
+                        status = req.get("status", "").lower()
+                        if status in ["unmet", "unclear", "insufficient", "not met", "partially met"]:
+                            missing = req.get("missing_to_meet", "")
+                            req_id = req.get("requirement_id", "").lower()
+                            req_type = req.get("requirement_type", "").lower()
+                            
+                            # Skip ALL policy-related requirements
+                            if "policy_availability" in req_id or "policy" in req_id or "policy" in req_type:
+                                if missing and missing.strip():
+                                    policy_needed.add(missing.strip())
+                                continue
+                            
+                            # Only add if it's a clinical documentation gap
+                            if missing and missing.strip():
+                                missing_clean = missing.strip()
+                                # Must be clinical gap, not policy-related, not generic
+                                if is_clinical_gap(missing_clean) and not is_policy_related(missing_clean) and not is_generic_unhelpful(missing_clean):
+                                    # Never include requirement ID - just use the missing description
+                                    # Clean up the text to be more readable
+                                    gap_text = _clean_gap_text(missing_clean)
+                                    if gap_text:
+                                        # Check if this gap is already covered in related charts
+                                        if not is_gap_covered_in_related_charts(gap_text):
+                                            cdi_gaps.add(gap_text)
+            
+            # Extract from primary_reasons - ONLY clinical documentation gaps
+            primary_reasons = proc_result.get("primary_reasons", [])
+            if isinstance(primary_reasons, list):
+                for reason in primary_reasons:
+                    if isinstance(reason, str) and reason.strip():
+                        reason_clean = reason.strip()
+                        # Only add if it's a clinical gap
+                        if is_clinical_gap(reason_clean) and not is_policy_related(reason_clean) and not is_generic_unhelpful(reason_clean):
+                            if any(keyword in reason_clean.lower() for keyword in [
+                                "missing", "not documented", "lacks", "insufficient", "absent", 
+                                "not found", "not specified", "not stated", "not provided",
+                                "incomplete", "unclear", "not measured", "not recorded"
+                            ]):
+                                cleaned = _clean_gap_text(reason_clean)
+                                if cleaned:
+                                    # Check if this gap is already covered in related charts
+                                    if not is_gap_covered_in_related_charts(cleaned):
+                                        cdi_gaps.add(cleaned)
+
+    def _render_bullets(items):
+        if not items:
+            return
+        html = "<ul style='margin-top: 8px;'>"
+        for it in items:
+            html += f"<li>{it}</li>"
+        html += "</ul>"
+        st.markdown(html, unsafe_allow_html=True)
+
+    # Helper function to check if two gaps are semantically similar (duplicates)
+    def are_gaps_similar(gap1, gap2):
+        """Check if two gaps are essentially saying the same thing."""
+        g1_lower = gap1.lower().strip()
+        g2_lower = gap2.lower().strip()
+        
+        # Exact match (after normalization)
+        if g1_lower == g2_lower:
+            return True
+        
+        # Check for very similar wording (one is subset of other)
+        if g1_lower in g2_lower or g2_lower in g1_lower:
+            # But not if one is much shorter (might be too generic)
+            if abs(len(g1_lower) - len(g2_lower)) < 20:
+                return True
+        
+        # Extract key concepts from each gap
+        def extract_key_concepts(text):
+            concepts = set()
+            # Key terms to look for
+            keywords = [
+                "conservative", "treatment", "therapy", "duration", "weeks", "months", 
+                "three", "3", "minimum", "required", "specified", "detailed", "documentation",
+                "acute", "chronic", "tear", "within", "clarity", "unclear",
+                "physical examination", "exam", "rom", "range of motion", "strength",
+                "functional", "limitation", "pain", "scale", "vas", "imaging", "mri"
+            ]
+            text_lower = text.lower()
+            for kw in keywords:
+                if kw in text_lower:
+                    concepts.add(kw)
+            return concepts
+        
+        concepts1 = extract_key_concepts(gap1)
+        concepts2 = extract_key_concepts(gap2)
+        
+        # If they share most key concepts, they're similar
+        if len(concepts1) > 0 and len(concepts2) > 0:
+            overlap = len(concepts1 & concepts2)
+            total_unique = len(concepts1 | concepts2)
+            similarity_ratio = overlap / total_unique if total_unique > 0 else 0
+            # If 70% or more concepts overlap, consider them similar
+            if similarity_ratio >= 0.7:
+                return True
+        
+        return False
     
-    if all_recommendations:
-        rec_html = "<ol style='margin-top: 8px;'>"
-        for rec in sorted(all_recommendations)[:10]:  # Top 10
-            rec_html += f"<li>{rec}</li>"
-        rec_html += "</ol>"
-        st.markdown(rec_html, unsafe_allow_html=True)
+    # Simplify gaps - show specific clinical documentation gaps only, with deduplication
+    def _format_clinical_gaps(raw_gaps: set) -> list:
+        if not raw_gaps:
+            return []
+        
+        # Clean and filter gaps
+        filtered_gaps = []
+        for gap in raw_gaps:
+            # Clean up the gap text
+            cleaned_gap = _clean_gap_text(gap)
+            if not cleaned_gap:
+                continue
+            
+            gap_lower = cleaned_gap.lower()
+            # Skip if it's policy-related or generic
+            if not is_policy_related(cleaned_gap) and not is_generic_unhelpful(cleaned_gap) and is_clinical_gap(cleaned_gap):
+                filtered_gaps.append(cleaned_gap)
+        
+        if not filtered_gaps:
+            return []
+        
+        # Remove exact duplicates first
+        unique_gaps = list(set(filtered_gaps))
+        
+        # Deduplicate similar gaps - keep the most specific one
+        deduplicated = []
+        used_indices = set()
+        
+        for i, gap1 in enumerate(unique_gaps):
+            if i in used_indices:
+                continue
+            
+            # Find all similar gaps
+            similar_group = [gap1]
+            for j, gap2 in enumerate(unique_gaps[i+1:], start=i+1):
+                if j in used_indices:
+                    continue
+                if are_gaps_similar(gap1, gap2):
+                    similar_group.append(gap2)
+                    used_indices.add(j)
+            
+            # From the similar group, pick the best one:
+            # 1. Prefer longer (more specific)
+            # 2. Prefer ones with numbers/specifics (e.g., "3 months" vs "duration")
+            # 3. Prefer ones that are clearer (not "unclear" or "insufficient")
+            best_gap = max(similar_group, key=lambda g: (
+                len(g),  # Longer is better
+                sum(1 for word in g.lower().split() if word.isdigit() or word in ['three', 'six', 'minimum', 'required']),  # Has specifics
+                -1 if any(kw in g.lower() for kw in ['unclear', 'insufficient', 'not specified', 'missing']) else 1  # Prefer positive statements
+            ))
+            
+            deduplicated.append(best_gap)
+            used_indices.add(i)
+        
+        # Sort by specificity (longer = more specific) and limit to top 15
+        final_gaps = sorted(deduplicated, key=lambda x: len(x), reverse=True)[:15]
+        
+        return final_gaps
+
+    # 1) Policy / guideline needed
+    st.markdown("#### 📚 Policy / Guideline Needed (if any)")
+    if policy_needed:
+        policy_list = sorted(list(set(policy_needed)))
+        _render_bullets(policy_list)
     else:
-        st.info("No specific recommendations available")
+        st.info("No policy gaps detected.")
+
+    # 2) CDI documentation gaps – show ONLY clinical documentation gaps
+    st.markdown("#### 📝 CDI Documentation Gaps (Top Priorities)")
+    formatted_gaps = _format_clinical_gaps(cdi_gaps)
+    if formatted_gaps:
+        _render_bullets(formatted_gaps)
+    else:
+        # Fallback: Try to extract from requirement_checklist one more time
+        all_requirement_gaps = []
+        for payer_key, payer_result in payer_results.items():
+            if isinstance(payer_result, dict):
+                procedure_results = payer_result.get("procedure_results", [])
+            else:
+                procedure_results = getattr(payer_result, "procedure_results", [])
+            
+            for proc_result in procedure_results:
+                if not isinstance(proc_result, dict):
+                    proc_result = {
+                        "requirement_checklist": getattr(proc_result, "requirement_checklist", []),
+                    }
+                
+                requirement_checklist = proc_result.get("requirement_checklist", [])
+                if isinstance(requirement_checklist, list):
+                    for req in requirement_checklist:
+                        if isinstance(req, dict):
+                            status = req.get("status", "").lower()
+                            req_id = req.get("requirement_id", "").lower()
+                            
+                            # Skip ALL policy-related requirements
+                            if "policy_availability" in req_id or "policy" in req_id:
+                                continue
+                            
+                            if status in ["unmet", "unclear", "insufficient", "not met", "partially met"]:
+                                missing = req.get("missing_to_meet", "")
+                                if missing and missing.strip():
+                                    missing_clean = missing.strip()
+                                    # Only add if it's a clinical gap
+                                    if is_clinical_gap(missing_clean) and not is_policy_related(missing_clean) and not is_generic_unhelpful(missing_clean):
+                                        # Clean up the text
+                                        cleaned = _clean_gap_text(missing_clean)
+                                        if cleaned:
+                                            # Check if this gap is already covered in related charts
+                                            if not is_gap_covered_in_related_charts(cleaned):
+                                                all_requirement_gaps.append(cleaned)
+        
+        if all_requirement_gaps:
+            unique_gaps = sorted(list(set(all_requirement_gaps)), key=lambda x: len(x), reverse=True)[:15]
+            _render_bullets(unique_gaps)
+        else:
+            st.info("✅ No clinical documentation gaps identified. Documentation appears complete for the evaluated requirements.")
     
     st.markdown("---")
     
@@ -2087,20 +2928,83 @@ def display_cross_payer_dashboard(result):
                 checklist_html += "</ul>"
                 st.markdown(checklist_html, unsafe_allow_html=True)
     
-    # Completion Guidance
+    # Completion Guidance - Generate dynamically based on actual gaps found
     st.markdown("#### ✍️ Completion Guidance")
-    guidance_items = [
-        "Summarize conservative measures with dates and documented outcomes",
-        "Include specific functional scores (ASES, Constant, VAS) with dates",
-        "Attach all relevant imaging reports with radiologist interpretations",
-        "Document clinical findings with objective measurements (ROM, strength)"
-    ]
     
-    guidance_html = "<ul style='margin-top: 8px;'>"
-    for item in guidance_items:
-        guidance_html += f"<li>{item}</li>"
-    guidance_html += "</ul>"
-    st.markdown(guidance_html, unsafe_allow_html=True)
+    # Generate guidance based on what gaps are actually present
+    guidance_items = []
+    
+    # Get the formatted gaps from CDI Summary (already deduplicated and cleaned)
+    formatted_gaps = _format_clinical_gaps(cdi_gaps)
+    all_gaps_text = " ".join([g.lower() for g in formatted_gaps]) if formatted_gaps else ""
+    
+    # Also check checklist items
+    has_conservative = len(checklist_items["🏃‍♂️ Conservative Treatment"]) > 0
+    has_imaging = len(checklist_items["🏥 Imaging"]) > 0
+    has_clinical = len(checklist_items["📊 Clinical Assessments"]) > 0
+    has_functional = len(checklist_items["🧠 Functional Limitations"]) > 0
+    
+    # Combine all gap text for analysis
+    cdi_gaps_lower = all_gaps_text
+    
+    # Generate specific guidance based on gaps found
+    if has_conservative or any(kw in cdi_gaps_lower for kw in ["conservative", "treatment", "therapy", "pt"]):
+        # Check if duration is mentioned
+        if any(kw in cdi_gaps_lower for kw in ["duration", "weeks", "months", "3 months", "six months"]):
+            guidance_items.append("Document conservative treatment with specific duration (e.g., '6 weeks', '3 months'), start/end dates, treatment type, frequency, and patient response/outcome")
+        else:
+            guidance_items.append("Document conservative treatment attempts including type (PT, medications, injections), dates, duration, frequency, and patient response/outcome")
+    
+    if has_functional or any(kw in cdi_gaps_lower for kw in ["functional", "score", "ases", "constant", "vas", "limitation"]):
+        # Check what specific scores are needed
+        if "ases" in cdi_gaps_lower:
+            guidance_items.append("Include ASES (American Shoulder and Elbow Surgeons) score with date of assessment")
+        if "constant" in cdi_gaps_lower:
+            guidance_items.append("Include Constant-Murley score with date of assessment")
+        if "vas" in cdi_gaps_lower or "pain" in cdi_gaps_lower:
+            guidance_items.append("Document pain assessment using VAS (Visual Analog Scale) or NRS (Numeric Rating Scale) with baseline and current measurements")
+        if not any(kw in cdi_gaps_lower for kw in ["ases", "constant", "vas"]):
+            guidance_items.append("Include specific functional scores (e.g., ASES, Constant, VAS) with dates of assessment")
+    
+    if has_imaging or any(kw in cdi_gaps_lower for kw in ["imaging", "mri", "xray", "x-ray", "ct", "radiology"]):
+        guidance_items.append("Attach all relevant imaging reports (MRI, X-ray, CT) with radiologist interpretations and specific findings that support the diagnosis")
+    
+    if has_clinical or any(kw in cdi_gaps_lower for kw in ["physical examination", "exam", "rom", "range of motion", "strength", "test"]):
+        # Check what specific exam findings are needed
+        if "rom" in cdi_gaps_lower or "range of motion" in cdi_gaps_lower:
+            guidance_items.append("Document range of motion measurements (degrees) for affected and unaffected sides with specific values")
+        if "strength" in cdi_gaps_lower:
+            guidance_items.append("Document strength testing results using standardized grading system (e.g., 0-5 scale) with side-to-side comparison")
+        if "impingement" in cdi_gaps_lower or "neer" in cdi_gaps_lower or "hawkins" in cdi_gaps_lower:
+            guidance_items.append("Document results of specific physical examination tests (e.g., Neer Impingement Test, Hawkins-Kennedy Test) with positive/negative findings")
+        if not any(kw in cdi_gaps_lower for kw in ["rom", "strength", "impingement"]):
+            guidance_items.append("Document clinical findings with objective measurements (range of motion, strength, special tests)")
+    
+    # Check for other specific gaps
+    if any(kw in cdi_gaps_lower for kw in ["acute", "chronic", "tear"]):
+        guidance_items.append("Clarify timeline of condition (acute vs chronic) with specific dates or duration since onset")
+    
+    if any(kw in cdi_gaps_lower for kw in ["duration", "symptom", "timeframe"]) and not has_conservative:
+        guidance_items.append("Document duration of symptoms and functional limitations with specific timeframes (e.g., '6 weeks', '3 months')")
+    
+    # If no specific guidance was generated, provide general guidance based on what's in checklist
+    if not guidance_items:
+        if checklist_items["🏃‍♂️ Conservative Treatment"] or checklist_items["🏥 Imaging"] or checklist_items["📊 Clinical Assessments"] or checklist_items["🧠 Functional Limitations"]:
+            guidance_items.append("Review the missing documentation items above and add the specific clinical information to the medical chart")
+        else:
+            guidance_items.append("No specific documentation gaps identified. Review the requirement checklist below for detailed requirements.")
+    
+    # Limit to top 6 most relevant guidance items
+    guidance_items = guidance_items[:6]
+    
+    if guidance_items:
+        guidance_html = "<ul style='margin-top: 8px;'>"
+        for item in guidance_items:
+            guidance_html += f"<li>{item}</li>"
+        guidance_html += "</ul>"
+        st.markdown(guidance_html, unsafe_allow_html=True)
+    else:
+        st.info("No specific completion guidance available. Review the missing documentation checklist above.")
     
     st.markdown("---")
     
@@ -2268,12 +3172,83 @@ def display_processing_results(result):
     
     # Header
     st.markdown('<div class="main-header">📊 Processing Results</div>', unsafe_allow_html=True)
-    st.markdown(f"**File:** {os.path.basename(file_name)}")
+    # File name line removed (looks noisy, especially with temp file names / multiple uploads)
     
     # Error handling
     if error:
         st.error(f"❌ Processing Error: {error}")
         return
+    
+    # Multi-chart information display
+    multi_chart_info = getattr(result, "multi_chart_info", None)
+    if multi_chart_info:
+        st.markdown("### 📁 Multi-Chart Processing")
+        st.info(f"Processed {multi_chart_info.get('total_charts', 0)} chart(s) as a complete inpatient record")
+        
+        # Display list of all identified chart names
+        all_chart_names = multi_chart_info.get("all_chart_names", [])
+        if all_chart_names:
+            st.markdown("#### 📋 List of All Identified Charts")
+            chart_details = multi_chart_info.get("chart_details", {})
+            
+            # Create a formatted numbered list of charts with their types
+            chart_list_items = []
+            for idx, chart_name in enumerate(all_chart_names, 1):
+                chart_detail = chart_details.get(chart_name, {})
+                chart_type_info = chart_detail if isinstance(chart_detail, dict) else {}
+                display_title = chart_type_info.get("display_title") or chart_type_info.get("chart_type", "Unknown").replace("_", " ").title()
+                chart_list_items.append(f"{idx}. **{display_title}** ({chart_name})")
+            
+            if chart_list_items:
+                # Display as vertical list
+                for item in chart_list_items:
+                    st.markdown(item)
+            else:
+                # Fallback: just show names
+                for idx, name in enumerate(all_chart_names, 1):
+                    st.markdown(f"{idx}. **{name}**")
+        
+        # Display patient matching information in dropdown
+        same_patient = multi_chart_info.get("same_patient", False)
+        same_patient_reason = multi_chart_info.get("same_patient_reason", "")
+        patient_name = multi_chart_info.get("patient_name")
+        patient_id = multi_chart_info.get("patient_id")
+        
+        if same_patient:
+            st.markdown("#### ✅ Patient Matching")
+            st.success(f"**All charts are from the same patient**")
+            with st.expander("📋 View Patient Details", expanded=False):
+                if patient_name:
+                    st.write(f"**Patient Name:** {patient_name}")
+                if patient_id:
+                    st.write(f"**Patient ID:** {patient_id}")
+                if same_patient_reason:
+                    st.caption(f"*{same_patient_reason}*")
+        else:
+            st.markdown("#### ⚠️ Unmatched Patient data/records")
+            st.warning(f"**Charts may be from different patients**")
+            with st.expander("📋 View Detailed Information", expanded=False):
+                if same_patient_reason:
+                    st.write(same_patient_reason)
+                if patient_name:
+                    st.write(f"**Patient Name Found:** {patient_name}")
+                if patient_id:
+                    st.write(f"**Patient ID Found:** {patient_id}")
+        
+        # Display duplicate information in dropdown
+        duplicates = multi_chart_info.get("duplicates", [])
+        duplicate_reason = multi_chart_info.get("duplicate_reason", "")
+        if duplicates:
+            st.markdown("#### ⚠️ Duplicate Charts")
+            st.warning(f"**Duplicate charts detected: {', '.join(duplicates)}**")
+            with st.expander("📋 View Duplicate Details", expanded=False):
+                if duplicate_reason:
+                    st.write(duplicate_reason)
+                st.write(f"**Duplicate Files:** {', '.join(duplicates)}")
+        else:
+            st.markdown("#### ✅ Duplicate Check")
+            st.success("**No duplicate charts detected**")
+        
     
     # Patient overview
     if extraction_data:
@@ -2282,13 +3257,63 @@ def display_processing_results(result):
         chart_specialty = extraction_data.get("chart_specialty", "Unknown") or "Unknown"
         
         st.markdown("### 🧑‍⚕️ Patient Overview")
+        st.markdown(
+            """
+            <style>
+              .patient-kpi {
+                border: 1px solid rgba(49, 51, 63, 0.12);
+                border-radius: 10px;
+                padding: 12px 14px;
+                background: rgba(250, 250, 250, 0.6);
+              }
+              .patient-kpi .label {
+                font-size: 0.85rem;
+                color: rgba(49, 51, 63, 0.75);
+                margin-bottom: 4px;
+                font-weight: 600;
+              }
+              .patient-kpi .value {
+                font-size: 1.35rem; /* smaller, standard-ish size */
+                line-height: 1.2;
+                font-weight: 700;
+                color: rgba(49, 51, 63, 0.95);
+                word-break: break-word;
+              }
+            </style>
+            """,
+            unsafe_allow_html=True,
+        )
         overview_col1, overview_col2, overview_col3 = st.columns(3)
         with overview_col1:
-            st.metric("Patient Name", patient_name)
+            st.markdown(
+                f"""
+                <div class="patient-kpi">
+                  <div class="label">Patient Name</div>
+                  <div class="value">{patient_name}</div>
+                </div>
+                """,
+                unsafe_allow_html=True,
+            )
         with overview_col2:
-            st.metric("Patient Age", patient_age)
+            st.markdown(
+                f"""
+                <div class="patient-kpi">
+                  <div class="label">Patient Age</div>
+                  <div class="value">{patient_age}</div>
+                </div>
+                """,
+                unsafe_allow_html=True,
+            )
         with overview_col3:
-            st.metric("Chart Specialty", chart_specialty)
+            st.markdown(
+                f"""
+                <div class="patient-kpi">
+                  <div class="label">Chart Specialty</div>
+                  <div class="value">{chart_specialty}</div>
+                </div>
+                """,
+                unsafe_allow_html=True,
+            )
     
     # Payer summary - calculate if not present
     payer_summary = getattr(result, "payer_summary", None)
@@ -2380,13 +3405,70 @@ def display_processing_results(result):
                 return "0.00%"
         
         st.markdown("### 📊 Payer Sufficiency Summary")
+        st.markdown(
+            """
+            <style>
+              .kpi-grid { margin-top: 0.25rem; }
+              .kpi-card {
+                border: 1px solid rgba(49, 51, 63, 0.12);
+                border-radius: 10px;
+                padding: 10px 12px;
+                background: rgba(250, 250, 250, 0.6);
+              }
+              .kpi-card .label {
+                font-size: 0.85rem;
+                color: rgba(49, 51, 63, 0.75);
+                margin-bottom: 2px;
+                font-weight: 600;
+              }
+              .kpi-card .value {
+                font-size: 1.15rem; /* consistent, not oversized like st.metric */
+                line-height: 1.2;
+                font-weight: 700;
+                color: rgba(49, 51, 63, 0.95);
+                word-break: break-word;
+              }
+              .small-section-title {
+                font-size: 1.05rem;
+                font-weight: 700;
+                margin: 0.25rem 0 0.5rem 0;
+              }
+            </style>
+            """,
+            unsafe_allow_html=True,
+        )
+
         overall_col1, overall_col2, overall_col3 = st.columns(3)
         with overall_col1:
-            st.metric("Overall Sufficient %", _format_pct(overall_summary.get("sufficient_percentage", 0.0)))
+            st.markdown(
+                f"""
+                <div class="kpi-card">
+                  <div class="label">Overall Sufficient %</div>
+                  <div class="value">{_format_pct(overall_summary.get("sufficient_percentage", 0.0))}</div>
+                </div>
+                """,
+                unsafe_allow_html=True,
+            )
         with overall_col2:
-            st.metric("Overall Insufficient %", _format_pct(overall_summary.get("insufficient_percentage", 0.0)))
+            st.markdown(
+                f"""
+                <div class="kpi-card">
+                  <div class="label">Overall Insufficient %</div>
+                  <div class="value">{_format_pct(overall_summary.get("insufficient_percentage", 0.0))}</div>
+                </div>
+                """,
+                unsafe_allow_html=True,
+            )
         with overall_col3:
-            st.metric("Procedures Evaluated", overall_summary.get("total_procedures", 0))
+            st.markdown(
+                f"""
+                <div class="kpi-card">
+                  <div class="label">Procedures Evaluated</div>
+                  <div class="value">{overall_summary.get("total_procedures", 0)}</div>
+                </div>
+                """,
+                unsafe_allow_html=True,
+            )
         
         summary_rows = []
         for payer_key, summary in per_payer_summary.items():
@@ -2406,41 +3488,129 @@ def display_processing_results(result):
             import pandas as pd
             summary_df = pd.DataFrame(summary_rows)
             st.dataframe(summary_df, width='stretch', hide_index=True)
-        
-        with st.expander("View Raw Summary JSON", expanded=False):
-            st.json(payer_summary)
     
     st.markdown("---")
     
-    # Overall metrics
-    st.markdown("### 📈 Overall Metrics")
+    # View mode selector - Three buttons with different colors + persistent "active" highlight
+    # We derive the active state from st.session_state.view_mode (more reliable than click events).
+    current_view_mode = st.session_state.get("view_mode", "📋 CDI Recommendations")
+    st.markdown(
+        f"""
+        <script>
+        (function() {{
+            const ACTIVE_VIEW_MODE = {json.dumps(current_view_mode)};
+            const ACTIVE_OUTLINE = '0 0 0 4px rgba(91, 101, 220, 0.45), 0 10px 18px rgba(0,0,0,0.18)';
+
+            function applyBaseStyle(button, bg, fg, hoverBg, baseShadow) {{
+                button.style.cssText =
+                    'background-color: ' + bg + ' !important;' +
+                    'color: ' + fg + ' !important;' +
+                    'border: 0 !important;' +
+                    'padding: 1.05rem 1.6rem !important;' +
+                    'font-weight: 950 !important;' +
+                    'font-size: 18px !important;' +
+                    'border-radius: 12px !important;' +
+                    'width: 100% !important;' +
+                    'box-shadow: ' + baseShadow + ' !important;' +
+                    'text-transform: uppercase !important;' +
+                    'letter-spacing: 0.7px !important;' +
+                    'transition: all 0.2s ease !important;';
+
+                // Ensure we don't stack listeners on rerenders
+                if (!button.dataset.vmStyled) {{
+                    button.addEventListener('mouseenter', function() {{
+                        this.style.backgroundColor = hoverBg;
+                        this.style.transform = 'translateY(-2px)';
+                    }});
+                    button.addEventListener('mouseleave', function() {{
+                        this.style.backgroundColor = bg;
+                        this.style.transform = 'translateY(0)';
+                    }});
+                    button.dataset.vmStyled = '1';
+                }}
+            }}
+
+            function setActive(button, isActive) {{
+                if (isActive) {{
+                    button.style.filter = 'none';
+                    button.style.opacity = '1';
+                    button.style.boxShadow = ACTIVE_OUTLINE;
+                    button.style.transform = 'translateY(-1px)';
+                }} else {{
+                    button.style.opacity = '0.75';
+                    button.style.filter = 'saturate(0.9)';
+                }}
+            }}
+
+            function styleViewModeButtons() {{
+                const buttons = document.querySelectorAll('button');
+                buttons.forEach(function(button) {{
+                    const text = (button.textContent || '').trim();
+                    if (text === 'CDI Recommendations') {{
+                        applyBaseStyle(
+                            button,
+                            '#DC3545',
+                            'white',
+                            '#C82333',
+                            '0 4px 8px rgba(220, 53, 69, 0.30)'
+                        );
+                        setActive(button, ACTIVE_VIEW_MODE.includes('CDI Recommendations'));
+                    }} else if (text === 'Cross-Payer Dashboard') {{
+                        applyBaseStyle(
+                            button,
+                            '#28A745',
+                            'white',
+                            '#218838',
+                            '0 4px 8px rgba(40, 167, 69, 0.30)'
+                        );
+                        setActive(button, ACTIVE_VIEW_MODE.includes('Cross-Payer Dashboard'));
+                    }} else if (text === 'Medical Chart Improvement') {{
+                        applyBaseStyle(
+                            button,
+                            '#FFC107',
+                            '#000000',
+                            '#E0A800',
+                            '0 4px 8px rgba(255, 193, 7, 0.30)'
+                        );
+                        setActive(button, ACTIVE_VIEW_MODE.includes('Medical Chart Improvement'));
+                    }}
+                }});
+            }}
+
+            styleViewModeButtons();
+            setTimeout(styleViewModeButtons, 100);
+            setTimeout(styleViewModeButtons, 500);
+
+            const observer = new MutationObserver(styleViewModeButtons);
+            observer.observe(document.body, {{ childList: true, subtree: true }});
+        }})();
+        </script>
+        """,
+        unsafe_allow_html=True,
+    )
     
-    col1, col2, col3, col4 = st.columns(4)
+    col1, col2, col3 = st.columns(3)
     
     with col1:
-        total_tokens = total_usage.input_tokens + total_usage.output_tokens
-        st.metric("Total Tokens", f"{total_tokens:,}")
+        button_cdi = st.button("CDI Recommendations", key="btn_cdi", use_container_width=True)
+        if button_cdi:
+            st.session_state.view_mode = "📋 CDI Recommendations"
+            st.rerun()
     
     with col2:
-        st.metric("Total Cost", f"${total_cost:.6f}")
+        button_dashboard = st.button("Cross-Payer Dashboard", key="btn_dashboard", use_container_width=True)
+        if button_dashboard:
+            st.session_state.view_mode = "📊 Cross-Payer Dashboard"
+            st.rerun()
     
     with col3:
-        payers_processed = len([p for p in payer_results.values() if not p.get("error")])
-        st.metric("Payers Processed", payers_processed)
+        button_improvement = st.button("Medical Chart Improvement", key="btn_improvement", use_container_width=True)
+        if button_improvement:
+            st.session_state.view_mode = "✨ Medical Chart Improvement"
+            st.rerun()
     
-    with col4:
-        total_time = sum(execution_times.values()) if execution_times else 0
-        st.metric("Total Time", f"{total_time:.2f}s")
-    
-    st.markdown("---")
-    
-    # View mode selector
-    view_mode = st.radio(
-        "Select View Mode:",
-        ["📋 CDI Recommendations", "📊 Cross-Payer Dashboard", "✨ Medical Chart Improvement"],
-        horizontal=True,
-        help="Choose between CDI recommendations, cross-payer analysis, or chart improvement"
-    )
+    # Get current view mode from session state
+    view_mode = st.session_state.view_mode
     
     st.markdown("---")
     
@@ -2570,16 +3740,219 @@ def display_processing_results(result):
         # Last tab: Medical Chart
         with tabs[-1]:
             display_medical_chart(numbered_chart)
-        
-        # Execution times
+
+        # Other Chart Findings - Display before Overall Metrics
+        multi_chart_info = getattr(result, "multi_chart_info", None)
+        if multi_chart_info:
+            other_charts_info = multi_chart_info.get("other_charts_info", {})
+            operative_chart_name = multi_chart_info.get("operative_chart", "N/A")
+            
+            if other_charts_info:
+                st.markdown("---")
+                st.markdown("### 📋 Related Given Charts")
+                st.info(f"ℹ️ **CDI Evaluation:** Used operative chart (**{operative_chart_name}**) for compliance evaluation. Information from related charts below was cross-referenced to avoid false gap identification.")
+                
+                for chart_file, chart_info in other_charts_info.items():
+                    # Use display_title if available, otherwise fallback to formatted chart_type
+                    chart_title = chart_info.get("display_title") or chart_info.get("chart_type", "unknown").replace("_", " ").title()
+                    chart_file_path = chart_info.get("file_path", chart_file)
+                    file_display_name = os.path.basename(chart_file_path)
+                    
+                    # Display chart title as attractive heading in bold accent blue
+                    st.markdown(f'<h4 style="color: {ACCENT_BLUE}; font-weight: bold; margin-top: 1rem; margin-bottom: 0.5rem;">📄 {chart_title}</h4>', unsafe_allow_html=True)
+                    
+                    # Dropdown/expander for detail information
+                    with st.expander("View Details", expanded=False):
+                        # Show file name in details
+                        st.write(f"**File Name:** {file_display_name}")
+                        st.write(f"**Chart Type:** {chart_title}")
+                        if chart_info.get("chart_type_confidence"):
+                            st.write(f"**Confidence:** {chart_info.get('chart_type_confidence', 'unknown').title()}")
+                        st.markdown("---")
+                        
+                        # Summary Section
+                        if chart_info.get("summary"):
+                            st.markdown("**📝 Summary:**")
+                            st.write(chart_info["summary"])
+                            st.markdown("")
+                        
+                        # Diagnosis Section
+                        diagnosis = chart_info.get("diagnosis", [])
+                        
+                        if diagnosis:
+                            st.markdown("**🏥 Diagnosis:**")
+                            if isinstance(diagnosis, list):
+                                for diag in diagnosis:
+                                    st.markdown(f"• {diag}")
+                            else:
+                                st.markdown(f"• {diagnosis}")
+                            st.markdown("")
+                        
+                        # Important Tests Section
+                        tests = chart_info.get("tests", [])
+                        reports = chart_info.get("reports", [])
+                        if tests or reports:
+                            st.markdown("**🧪 Important Tests & Studies:**")
+                            if tests:
+                                if isinstance(tests, list):
+                                    for test in tests:
+                                        st.markdown(f"• {test}")
+                                else:
+                                    st.markdown(f"• {tests}")
+                            if reports:
+                                st.markdown("**Test Reports:**")
+                                if isinstance(reports, list):
+                                    for report in reports[:10]:  # Limit to first 10 reports
+                                        st.markdown(f"• {report}")
+                                    if len(reports) > 10:
+                                        st.caption(f"... and {len(reports) - 10} more reports")
+                                else:
+                                    st.markdown(f"• {reports}")
+                            st.markdown("")
+                        
+                        # Medications Section
+                        medications = chart_info.get("medications", [])
+                        if medications:
+                            st.markdown("**💊 Medications:**")
+                            if isinstance(medications, list):
+                                for med in medications:
+                                    st.markdown(f"• {med}")
+                            else:
+                                st.markdown(f"• {medications}")
+                            st.markdown("")
+                        
+                        # Conservative Treatment Section
+                        conservative_treatment = chart_info.get("conservative_treatment", {})
+                        if conservative_treatment:
+                            st.markdown("**🏃 Conservative Treatment:**")
+                            if isinstance(conservative_treatment, dict):
+                                for key, value in conservative_treatment.items():
+                                    if value:
+                                        st.markdown(f"• **{key.replace('_', ' ').title()}:** {value}")
+                            else:
+                                st.markdown(f"• {conservative_treatment}")
+                            st.markdown("")
+                        
+                        # Physical Examination Section
+                        physical_exam = chart_info.get("physical_exam", {})
+                        if physical_exam:
+                            st.markdown("**🔍 Physical Examination:**")
+                            if isinstance(physical_exam, dict):
+                                for key, value in physical_exam.items():
+                                    if value:
+                                        st.markdown(f"• **{key.replace('_', ' ').title()}:** {value}")
+                            else:
+                                st.markdown(f"• {physical_exam}")
+                            st.markdown("")
+
+                        # Functional Limitations Section
+                        functional_limitations = chart_info.get("functional_limitations", {})
+                        if functional_limitations:
+                            st.markdown("**⚠️ Functional Limitations:**")
+                            if isinstance(functional_limitations, dict):
+                                for key, value in functional_limitations.items():
+                                    if value:
+                                        st.markdown(f"• **{key.replace('_', ' ').title()}:** {value}")
+                            else:
+                                st.markdown(f"• {functional_limitations}")
+                            st.markdown("")
+                        
+                        # Risk Assessment Section
+                        risk_assessment = chart_info.get("risk_assessment", "")
+                        if risk_assessment:
+                            st.markdown("**⚡ Risk Assessment:**")
+                            st.markdown(f"• {risk_assessment}")
+                            st.markdown("")
+                        
+                        # Allergies Section
+                        allergies = chart_info.get("allergies", [])
+                        if allergies:
+                            st.markdown("**🚫 Allergies:**")
+                            if isinstance(allergies, list):
+                                for allergy in allergies:
+                                    st.markdown(f"• {allergy}")
+                            else:
+                                st.markdown(f"• {allergies}")
+                            st.markdown("")
+                        
+                        # Imaging Section
+                        imaging = chart_info.get("imaging", [])
+                        if imaging:
+                            st.markdown("**📸 Imaging Studies:**")
+                            if isinstance(imaging, list):
+                                for img in imaging:
+                                    st.markdown(f"• {img}")
+                            else:
+                                st.markdown(f"• {imaging}")
+                            st.markdown("")
+
+        # Overall Metrics + Execution Times (moved here after "Related Given Charts")
+        st.markdown("---")
+        st.markdown('<div class="small-section-title">📈 Overall Metrics</div>', unsafe_allow_html=True)
+
+        total_tokens = total_usage.input_tokens + total_usage.output_tokens
+        payers_processed = len([p for p in payer_results.values() if not p.get("error")])
+        total_time = sum(execution_times.values()) if execution_times else 0
+
+        m1, m2, m3, m4 = st.columns(4)
+        with m1:
+            st.markdown(
+                f"""
+                <div class="kpi-card">
+                  <div class="label">Total Tokens</div>
+                  <div class="value">{total_tokens:,}</div>
+                </div>
+                """,
+                unsafe_allow_html=True,
+            )
+        with m2:
+            st.markdown(
+                f"""
+                <div class="kpi-card">
+                  <div class="label">Total Cost</div>
+                  <div class="value">${total_cost:.6f}</div>
+                </div>
+                """,
+                unsafe_allow_html=True,
+            )
+        with m3:
+            st.markdown(
+                f"""
+                <div class="kpi-card">
+                  <div class="label">Payers Processed</div>
+                  <div class="value">{payers_processed}</div>
+                </div>
+                """,
+                unsafe_allow_html=True,
+            )
+        with m4:
+            st.markdown(
+                f"""
+                <div class="kpi-card">
+                  <div class="label">Total Time</div>
+                  <div class="value">{total_time:.2f}s</div>
+                </div>
+                """,
+                unsafe_allow_html=True,
+            )
+
         if execution_times:
             st.markdown("---")
-            st.markdown("### ⏱️ Execution Times")
-            
+            st.markdown('<div class="small-section-title">⏱️ Execution Times</div>', unsafe_allow_html=True)
+
             cols = st.columns(len(execution_times))
             for col, (payer_key, exec_time) in zip(cols, execution_times.items()):
                 payer_name = Config.PAYER_CONFIG[payer_key]["name"]
-                col.metric(payer_name, f"{exec_time:.2f}s")
+                with col:
+                    st.markdown(
+                        f"""
+                        <div class="kpi-card">
+                          <div class="label">{payer_name}</div>
+                          <div class="value">{exec_time:.2f}s</div>
+                        </div>
+                        """,
+                        unsafe_allow_html=True,
+                    )
     
     else:  # Cross-Payer Dashboard
         display_cross_payer_dashboard(result)
@@ -2606,8 +3979,7 @@ def main():
         st.stop()
     
     # Sidebar
-    display_system_info()
-    display_cache_stats()
+    display_available_payers()
     
     # Main content area
     st.markdown("---")
@@ -2631,50 +4003,88 @@ def main():
     if missing_notes:
         st.info(" ".join(missing_notes))
     
-    uploaded_file = st.file_uploader(
-        "Choose a medical chart file (PDF or TXT)",
-        type=["pdf", "txt"],
-        help="Upload a medical chart file for CDI compliance evaluation"
+    # Single uploader; branch flow based on count (1 => single chart, >1 => multichart)
+    uploaded_files = st.file_uploader(
+        "Choose medical chart file(s) (PDF, TXT, or DOCX)",
+        type=["pdf", "txt", "docx"],
+        accept_multiple_files=True,
+        help="Upload 1 file for single-chart analysis, or multiple related charts for complete-record (multichart) analysis.",
     )
-    
-    # Process button
-    if uploaded_file is not None:
+
+    if uploaded_files and len(uploaded_files) > 0:
+        is_multi = len(uploaded_files) > 1
+        button_label = " Process All Charts" if is_multi else " Process Chart"
+
         col1, col2, col3 = st.columns([1, 2, 1])
-        
         with col2:
-            if st.button("🚀 Process Chart", type="primary", width='stretch'):
-                # Save uploaded file to temporary location
-                with tempfile.NamedTemporaryFile(delete=False, suffix=Path(uploaded_file.name).suffix) as tmp_file:
-                    tmp_file.write(uploaded_file.getvalue())
-                    tmp_file_path = tmp_file.name
-                
-                try:
-                    # Process the file
-                    with st.spinner("🔄 Processing medical chart... This may take a minute."):
-                        progress_bar = st.progress(0)
-                        progress_bar.progress(10)
-                        
-                        result = st.session_state.cdi_system.process_file(tmp_file_path)
-                        
-                        progress_bar.progress(100)
-                        st.session_state.processing_result = result
-                        st.session_state.file_processed = True
-                    
-                    st.success("✅ Processing completed successfully!")
-                    
-                    # Clean up temporary file
+            if st.button(button_label, type="primary", width="stretch"):
+                if not is_multi:
+                    uploaded_file = uploaded_files[0]
+                    with tempfile.NamedTemporaryFile(
+                        delete=False, suffix=Path(uploaded_file.name).suffix
+                    ) as tmp_file:
+                        tmp_file.write(uploaded_file.getvalue())
+                        tmp_file_path = tmp_file.name
+
                     try:
-                        os.unlink(tmp_file_path)
-                    except:
-                        pass
-                    
-                except Exception as e:
-                    st.error(f"❌ Error processing file: {e}")
-                    # Clean up temporary file
+                        with st.spinner("🔄 Processing medical chart... This may take a minute."):
+                            progress_bar = st.progress(0)
+                            progress_bar.progress(10)
+
+                            result = st.session_state.cdi_system.process_file(tmp_file_path)
+
+                            progress_bar.progress(100)
+                            st.session_state.processing_result = result
+                            st.session_state.file_processed = True
+
+                        st.markdown(
+                            '<div style="background-color: #10b981; color: white; padding: 12px 20px; border-radius: 8px; font-weight: bold; font-size: 16px; text-align: center; margin: 10px 0;">Processing Done</div>',
+                            unsafe_allow_html=True,
+                        )
+                    except Exception as e:
+                        st.error(f"❌ Error processing file: {e}")
+                    finally:
+                        try:
+                            os.unlink(tmp_file_path)
+                        except Exception:
+                            pass
+                else:
+                    temp_files = []
                     try:
-                        os.unlink(tmp_file_path)
-                    except:
-                        pass
+                        for uploaded_file in uploaded_files:
+                            tmp_file = tempfile.NamedTemporaryFile(
+                                delete=False, suffix=Path(uploaded_file.name).suffix
+                            )
+                            tmp_file.write(uploaded_file.getvalue())
+                            tmp_file.close()
+                            temp_files.append(tmp_file.name)
+
+                        with st.spinner(
+                            "🔄 Processing multiple charts as complete record... This may take several minutes."
+                        ):
+                            progress_bar = st.progress(0)
+                            progress_bar.progress(10)
+
+                            result = st.session_state.cdi_system.process_multiple_charts(
+                                temp_files
+                            )
+
+                            progress_bar.progress(100)
+                            st.session_state.processing_result = result
+                            st.session_state.file_processed = True
+
+                        st.markdown(
+                            '<div style="background-color: #10b981; color: white; padding: 12px 20px; border-radius: 8px; font-weight: bold; font-size: 16px; text-align: center; margin: 10px 0;">Processing Done</div>',
+                            unsafe_allow_html=True,
+                        )
+                    except Exception as e:
+                        st.error(f"❌ Error processing files: {e}")
+                    finally:
+                        for tmp_path in temp_files:
+                            try:
+                                os.unlink(tmp_path)
+                            except Exception:
+                                pass
     
     # Display results if available
     if st.session_state.file_processed and st.session_state.processing_result:
@@ -2689,7 +4099,7 @@ def main():
         result_json = json.dumps(result_dict, indent=2, default=str, ensure_ascii=False)
         
         st.download_button(
-            label="📥 Download Results (JSON)",
+            label=" Download Results (JSON)",
             data=result_json,
             file_name=f"cdi_results_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json",
             mime="application/json",

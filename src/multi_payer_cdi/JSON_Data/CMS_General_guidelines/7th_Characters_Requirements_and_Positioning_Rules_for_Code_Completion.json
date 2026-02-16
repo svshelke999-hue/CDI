@@ -1,0 +1,227 @@
+{
+  "guideline_id": "I.A.5",
+  "semantic_title": "7th Characters: Requirements and Positioning Rules for Code Completion",
+  "section_path": "Section I > A. Conventions > 5. 7th Characters",
+  "page_number": 8,
+  "content": {
+    "full_text": "Certain ICD-10-CM categories have applicable 7th characters. The applicable 7th character is required for all codes within the category, or as the notes in the Tabular List instruct. The 7th character must always be the 7th character in the data field. If a code that requires a 7th character is not 6 characters, a placeholder X must be used to fill in the empty characters. (Evidence: pg no: 8, L32-L37)",
+    "summary": "Establishes requirements for 7th characters including positioning rules and use of placeholder X when needed (Evidence: pg no: 8, L32-L37)",
+    "key_concepts": [
+      "Certain categories have applicable 7th characters (Evidence: pg no: 8, L33)",
+      "7th character required for all codes in applicable categories (Evidence: pg no: 8, L33-L34)",
+      "7th character must be in 7th position (Evidence: pg no: 8, L35)",
+      "Placeholder X used when code is less than 6 characters (Evidence: pg no: 8, L36-L37)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.A.5.R1",
+        "rule_text": "The applicable 7th character is required for all codes within the category, or as the notes in the Tabular List instruct (Evidence: pg no: 8, L33-L34)",
+        "explanation": "When a category has 7th character requirements, all codes within that category must include the appropriate 7th character (Evidence: pg no: 8, L33-L34)",
+        "importance": "critical",
+        "applies_to": "codes_with_7th_character",
+        "common_applications": [
+          "Injury codes",
+          "Obstetric codes",
+          "External cause codes",
+          "Certain other specified categories"
+        ]
+      },
+      {
+        "rule_id": "I.A.5.R2",
+        "rule_text": "The 7th character must always be the 7th character in the data field (Evidence: pg no: 8, L35)",
+        "explanation": "The 7th character must occupy the 7th position regardless of the base code length (Evidence: pg no: 8, L35)",
+        "importance": "critical",
+        "applies_to": "codes_with_7th_character",
+        "common_applications": [
+          "Data entry validation",
+          "Code structure verification"
+        ]
+      },
+      {
+        "rule_id": "I.A.5.R3",
+        "rule_text": "If a code that requires a 7th character is not 6 characters, a placeholder X must be used to fill in the empty characters (Evidence: pg no: 8, L36-L37)",
+        "explanation": "Placeholder X characters must be inserted to ensure the 7th character appears in the correct position (Evidence: pg no: 8, L36-L37)",
+        "importance": "critical",
+        "applies_to": "codes_with_7th_character_less_than_6_chars",
+        "common_applications": [
+          "Short codes requiring 7th characters",
+          "Code padding for proper positioning"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if code requires 7th character",
+      "Step 2: Count characters in base code",
+      "Step 3: Add placeholder X if code is less than 6 characters",
+      "Step 4: Add appropriate 7th character in 7th position",
+      "Step 5: Verify final code structure"
+    ],
+    "related_terminology": [
+      "7th characters",
+      "Character positioning",
+      "Placeholder X",
+      "Data field",
+      "Code completion",
+      "Tabular List notes"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "XXX.XXXA",
+        "description": "7-character code with 7th character in proper position (Evidence: pg no: 8, L35)",
+        "example": "S72.001A",
+        "explanation": "7th character A in 7th position"
+      },
+      {
+        "pattern": "XXX.XXXA",
+        "description": "Code with placeholder X to position 7th character (Evidence: pg no: 8, L36-L37)",
+        "example": "T36.0X1A",
+        "explanation": "X used to ensure 7th character is in 7th position"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Categories with applicable 7th characters"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.A.4",
+        "title": "Placeholder character",
+        "relationship": "implements",
+        "explanation": "Uses placeholder X for 7th character positioning"
+      }
+    ],
+    "referenced_by": [
+      {
+        "guideline_id": "I.A.2",
+        "title": "Format and Structure",
+        "relationship": "builds_upon",
+        "explanation": "Expands on code structure with 7th character details"
+      },
+      {
+        "guideline_id": "I.A.3",
+        "title": "Use of codes for reporting purposes",
+        "relationship": "implements",
+        "explanation": "Applies 7th character requirements for reporting"
+      }
+    ]
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "I.A.5.S1",
+      "scenario": "Fracture code requiring 7th character with placeholder X",
+      "documentation_example": "Closed fracture of unspecified part of neck of right femur, initial encounter",
+      "step_by_step": [
+        "Step 1: Locate code S72.001 (fracture of unspecified part of neck of right femur)",
+        "Step 2: Note this is 6 characters, no X needed",
+        "Step 3: Add 7th character A for initial encounter",
+        "Step 4: Final code S72.001A"
+      ],
+      "correct_coding": {
+        "primary_code": "S72.001A",
+        "secondary_codes": [],
+        "sequencing": "Primary diagnosis",
+        "rationale": "7th character A properly positioned in 7th position (Evidence: pg no: 8, L35)"
+      },
+      "incorrect_coding": {
+        "code": "S72.001",
+        "codes": [],
+        "rationale": "Missing required 7th character",
+        "common_mistake": "Omitting required 7th character"
+      }
+    },
+    {
+      "scenario_id": "I.A.5.S2",
+      "scenario": "Short code requiring placeholder X for 7th character positioning",
+      "documentation_example": "Poisoning by penicillin, accidental, initial encounter",
+      "step_by_step": [
+        "Step 1: Locate code T36.0 (poisoning by penicillins)",
+        "Step 2: Note this is only 5 characters",
+        "Step 3: Add placeholder X to reach 6 characters",
+        "Step 4: Add intent code 1 (accidental)",
+        "Step 5: Add 7th character A (initial encounter)"
+      ],
+      "correct_coding": {
+        "primary_code": "T36.0X1A",
+        "secondary_codes": [],
+        "sequencing": "Primary diagnosis",
+        "rationale": "Placeholder X used to position 7th character correctly (Evidence: pg no: 8, L36-L37)"
+      },
+      "incorrect_coding": {
+        "code": "T36.01A",
+        "codes": [],
+        "rationale": "Missing placeholder X, 7th character not in correct position",
+        "common_mistake": "Not using placeholder X when code is less than 6 characters"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "I.A.5.E1",
+      "scenario": "Proper 7th character positioning",
+      "code_example": "S72.001A vs T36.0X1A",
+      "breakdown": {
+        "S72.001A": "6-character base code, 7th character A in position 7 (Evidence: pg no: 8, L35)",
+        "T36.0X1A": "5-character base code, X placeholder, then 7th character A in position 7 (Evidence: pg no: 8, L36-L37)"
+      },
+      "rationale": "7th character must always be in 7th position regardless of base code length (Evidence: pg no: 8, L35-L37)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "7th character must always be in 7th position (Evidence: pg no: 8, L35)",
+      "Placeholder X required when base code is less than 6 characters (Evidence: pg no: 8, L36-L37)",
+      "7th character is required for all codes in applicable categories (Evidence: pg no: 8, L33-L34)"
+    ],
+    "best_practices": [
+      "Check Tabular List notes for 7th character requirements",
+      "Count characters to determine if placeholder X is needed",
+      "Verify 7th character is in correct position"
+    ],
+    "common_mistakes": [
+      "Omitting required 7th characters",
+      "Not using placeholder X when needed",
+      "Placing 7th character in wrong position"
+    ],
+    "tips": [
+      "7th character requirements are indicated in Tabular List",
+      "Always count characters to ensure proper positioning"
+    ],
+    "implementation_notes": [
+      "7th character positioning is critical for code validity"
+    ],
+    "clinical_context": [
+      "7th characters often indicate encounter type or healing status"
+    ]
+  },
+  "search_keywords": [
+    "7th character",
+    "seventh character",
+    "character positioning",
+    "placeholder X",
+    "code completion",
+    "data field",
+    "character requirements"
+  ],
+  "metadata": {
+    "category": "convention",
+    "subcategory": "character_requirements",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "October 1, 2025",
+    "tags": [
+      "7th_character",
+      "positioning",
+      "placeholder_X",
+      "code_completion"
+    ]
+  },
+  "page_range_processed": "pages_7_to_9"
+}

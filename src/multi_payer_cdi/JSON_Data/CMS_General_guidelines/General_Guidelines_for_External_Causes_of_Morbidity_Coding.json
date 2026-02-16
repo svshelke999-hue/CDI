@@ -1,0 +1,209 @@
+{
+  "guideline_id": "I.C.20",
+  "semantic_title": "General Guidelines for External Causes of Morbidity Coding",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 20. Chapter 20: External Causes of Morbidity (V00-Y99)",
+  "page_number": 87,
+  "content": {
+    "full_text": "The external causes of morbidity codes should never be sequenced as the first-listed or principal diagnosis. External cause codes are intended to provide data for injury research and evaluation of injury prevention strategies. These codes capture how the injury or health condition happened (cause), the intent (unintentional or accidental; or intentional, such as suicide or assault), the place where the event occurred the activity of the patient at the time of the event, and the person's status (e.g., civilian, military). There is no national requirement for mandatory ICD-10-CM external cause code reporting. Unless a provider is subject to a state-based external cause code reporting mandate or these codes are required by a particular payer, reporting of ICD-10-CM codes in Chapter 20, External Causes of Morbidity, is not required. In the absence of a mandatory reporting requirement, providers are encouraged to voluntarily report external cause codes, as they provide valuable data for injury research and evaluation of injury prevention strategies. (Evidence: pg no: 87, L66-L72)",
+    "summary": "External cause codes (V00-Y99) are never principal diagnosis, provide injury research data, and are not nationally mandated but encouraged for voluntary reporting (Evidence: pg no: 87, L66-L72)",
+    "key_concepts": [
+      "Never principal diagnosis (Evidence: pg no: 87, L66-L67)",
+      "Injury research purpose (Evidence: pg no: 87, L67-L68)",
+      "Data capture elements (Evidence: pg no: 87, L68-L69)",
+      "No national mandate (Evidence: pg no: 87, L69-L71)",
+      "Voluntary reporting encouraged (Evidence: pg no: 87, L71-L72)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "external_cause_sequencing_rule",
+        "rule_text": "The external causes of morbidity codes should never be sequenced as the first-listed or principal diagnosis (Evidence: pg no: 87, L66-L67)",
+        "explanation": "External cause codes from Chapter 20 are always secondary codes and cannot be used as the primary reason for encounter (Evidence: pg no: 87, L66-L67)",
+        "importance": "critical",
+        "applies_to": "V00-Y99",
+        "common_applications": [
+          "All external cause coding scenarios"
+        ]
+      },
+      {
+        "rule_id": "external_cause_purpose_rule",
+        "rule_text": "External cause codes are intended to provide data for injury research and evaluation of injury prevention strategies (Evidence: pg no: 87, L67-L68)",
+        "explanation": "The primary purpose of external cause codes is data collection for research and prevention rather than clinical care (Evidence: pg no: 87, L67-L68)",
+        "importance": "high",
+        "applies_to": "V00-Y99",
+        "common_applications": [
+          "Public health surveillance",
+          "Injury prevention programs"
+        ]
+      },
+      {
+        "rule_id": "external_cause_data_elements_rule",
+        "rule_text": "These codes capture how the injury happened (cause), the intent, the place where the event occurred, the activity of the patient, and the person's status (Evidence: pg no: 87, L68-L69)",
+        "explanation": "External cause codes provide comprehensive data about injury circumstances including mechanism, intent, location, activity, and patient status (Evidence: pg no: 87, L68-L69)",
+        "importance": "high",
+        "applies_to": "V00-Y99",
+        "common_applications": [
+          "Complete injury documentation"
+        ]
+      },
+      {
+        "rule_id": "external_cause_reporting_rule",
+        "rule_text": "There is no national requirement for mandatory ICD-10-CM external cause code reporting (Evidence: pg no: 87, L69-L70)",
+        "explanation": "External cause coding is not federally mandated unless required by state or payer-specific requirements (Evidence: pg no: 87, L69-L71)",
+        "importance": "high",
+        "applies_to": "V00-Y99",
+        "common_applications": [
+          "Coding policy decisions"
+        ]
+      },
+      {
+        "rule_id": "voluntary_reporting_rule",
+        "rule_text": "Providers are encouraged to voluntarily report external cause codes, as they provide valuable data for injury research and evaluation of injury prevention strategies (Evidence: pg no: 87, L71-L72)",
+        "explanation": "Even without mandates, voluntary external cause coding is encouraged for its public health value (Evidence: pg no: 87, L71-L72)",
+        "importance": "medium",
+        "applies_to": "V00-Y99",
+        "common_applications": [
+          "Quality improvement initiatives",
+          "Research participation"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Code primary injury or condition first",
+      "Step 2: Determine if external cause coding is required by state/payer",
+      "Step 3: If coding external causes, identify mechanism of injury",
+      "Step 4: Determine intent (accidental, intentional, undetermined)",
+      "Step 5: Add place of occurrence, activity, and status codes as appropriate"
+    ],
+    "related_terminology": [
+      "External causes",
+      "Injury mechanism",
+      "Intent",
+      "Place of occurrence",
+      "Activity codes",
+      "Status codes",
+      "Injury research",
+      "Prevention strategies"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "V00-Y99",
+        "description": "External Causes of Morbidity (Evidence: pg no: 87, L66)",
+        "requirement": "Never use as principal diagnosis",
+        "usage_rules": [
+          "Never sequence as first-listed or principal diagnosis (Evidence: pg no: 87, L66-L67)",
+          "Use for injury research data (Evidence: pg no: 87, L67-L68)",
+          "Not nationally mandated (Evidence: pg no: 87, L69-L70)",
+          "Voluntary reporting encouraged (Evidence: pg no: 87, L71-L72)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "External cause codes",
+      "Injury mechanism codes",
+      "Intent codes",
+      "Place codes",
+      "Activity codes",
+      "Status codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "external_cause_scenario",
+      "scenario": "Patient falls from ladder at home while cleaning gutters, sustains wrist fracture",
+      "documentation_example": "Patient fell from ladder while cleaning gutters at home, sustained closed fracture of left wrist",
+      "step_by_step": [
+        "Step 1: Code wrist fracture as primary diagnosis",
+        "Step 2: Determine if external cause coding required",
+        "Step 3: If coding, identify fall from ladder as mechanism",
+        "Step 4: Code as accidental intent",
+        "Step 5: Add home as place of occurrence and maintenance activity"
+      ],
+      "correct_coding": {
+        "primary_code": "S62.102A",
+        "secondary_codes": [
+          "W11.XXXA",
+          "Y92.009",
+          "Y93.H9",
+          "Y99.8"
+        ],
+        "sequencing": "Injury first, external causes as secondary",
+        "rationale": "External cause codes never principal, injury coded first (Evidence: pg no: 87, L66-L67)"
+      },
+      "incorrect_coding": {
+        "code": "W11.XXXA",
+        "codes": [
+          "W11.XXXA"
+        ],
+        "rationale": "Cannot use external cause as principal diagnosis",
+        "common_mistake": "Sequencing external cause codes first"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Never sequence external cause codes as principal or first-listed diagnosis (Evidence: pg no: 87, L66-L67)"
+    ],
+    "best_practices": [
+      "Use external cause codes for injury research value even if not required (Evidence: pg no: 87, L71-L72)",
+      "Include all relevant external cause data elements when coding (Evidence: pg no: 87, L68-L69)"
+    ],
+    "common_mistakes": [
+      "Using external cause codes as principal diagnosis (Evidence: pg no: 87, L66-L67)",
+      "Assuming external cause coding is always required (Evidence: pg no: 87, L69-L70)"
+    ],
+    "tips": [
+      "Check state and payer requirements for external cause coding (Evidence: pg no: 87, L70-L71)",
+      "Consider voluntary reporting for research value (Evidence: pg no: 87, L71-L72)"
+    ],
+    "implementation_notes": [
+      "Requires knowledge of local reporting requirements",
+      "May need policy development for voluntary reporting"
+    ],
+    "clinical_context": [
+      "Emergency department visits",
+      "Trauma cases",
+      "Injury prevention programs",
+      "Public health surveillance"
+    ]
+  },
+  "search_keywords": [
+    "external causes",
+    "V00-Y99",
+    "injury codes",
+    "external cause sequencing",
+    "injury research",
+    "prevention strategies",
+    "intent codes",
+    "place of occurrence",
+    "activity codes"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "external_causes",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient",
+      "emergency"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "external_causes",
+      "V00-Y99",
+      "injury_research",
+      "sequencing",
+      "voluntary_reporting"
+    ]
+  },
+  "page_range_processed": "pages_84_to_87"
+}

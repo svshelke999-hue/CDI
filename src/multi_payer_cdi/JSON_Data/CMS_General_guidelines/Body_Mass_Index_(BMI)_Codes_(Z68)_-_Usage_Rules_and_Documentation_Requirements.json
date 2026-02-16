@@ -1,0 +1,208 @@
+{
+  "guideline_id": "I.C.21.c.3.j",
+  "semantic_title": "Body Mass Index (BMI) Codes (Z68) - Usage Rules and Documentation Requirements",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 21. Factors Influencing Health Status > c. Categories of Z Codes > 3) Status",
+  "page_number": 95,
+  "content": {
+    "full_text": "BMI codes should only be assigned when there is an associated, reportable diagnosis (such as obesity or anorexia) documented by the patient's provider. Do not assign BMI codes during pregnancy. When the documentation reflects fluctuating BMI values during the current encounter for an associated reportable condition, assign a code for the most severe value. See Section I.B.14. for BMI documentation by clinicians other than the patient's provider. (Evidence: pg no: 95, L55-L59)",
+    "summary": "Z68 BMI codes require associated reportable diagnosis, not used in pregnancy, use most severe value for fluctuating BMI, with special documentation requirements (Evidence: pg no: 95, L55-L59)",
+    "key_concepts": [
+      "Associated reportable diagnosis required (Evidence: pg no: 95, L55)",
+      "Provider documentation required (Evidence: pg no: 95, L55)",
+      "Not used during pregnancy (Evidence: pg no: 95, L56)",
+      "Most severe value for fluctuating BMI (Evidence: pg no: 95, L56-L58)",
+      "Documentation by other clinicians (Evidence: pg no: 95, L59)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "BMI_ASSOC_DIAG",
+        "rule_text": "Only assign when there is associated reportable diagnosis documented by provider (Evidence: pg no: 95, L55)",
+        "explanation": "BMI codes require a related diagnosis such as obesity or anorexia documented by the patient's provider (Evidence: pg no: 95, L55)",
+        "importance": "critical",
+        "applies_to": "Z68",
+        "common_applications": [
+          "Obesity diagnoses",
+          "Anorexia diagnoses",
+          "Malnutrition conditions"
+        ]
+      },
+      {
+        "rule_id": "BMI_NO_PREG",
+        "rule_text": "Do not assign BMI codes during pregnancy (Evidence: pg no: 95, L56)",
+        "explanation": "BMI codes should not be used for pregnant patients (Evidence: pg no: 95, L56)",
+        "importance": "critical",
+        "applies_to": "Z68",
+        "common_applications": [
+          "Pregnancy encounters",
+          "Obstetric care"
+        ]
+      },
+      {
+        "rule_id": "BMI_SEVERE_VAL",
+        "rule_text": "For fluctuating BMI values, assign code for most severe value (Evidence: pg no: 95, L56-L58)",
+        "explanation": "When BMI values fluctuate during encounter, use the most severe value for coding (Evidence: pg no: 95, L56-L58)",
+        "importance": "high",
+        "applies_to": "Z68",
+        "common_applications": [
+          "Multiple BMI measurements",
+          "Fluctuating weight conditions"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify associated reportable diagnosis",
+      "Step 2: Confirm provider documentation",
+      "Step 3: Verify patient is not pregnant",
+      "Step 4: Select most severe BMI value if multiple values",
+      "Step 5: Assign appropriate Z68 code"
+    ],
+    "related_terminology": [
+      "Body mass index",
+      "BMI",
+      "Obesity",
+      "Anorexia",
+      "Malnutrition"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z68",
+        "description": "Body mass index (BMI) (Evidence: pg no: 95, L54)",
+        "requirement": "Requires associated reportable diagnosis",
+        "usage_rules": [
+          "Only with associated reportable diagnosis (Evidence: pg no: 95, L55)",
+          "Not during pregnancy (Evidence: pg no: 95, L56)",
+          "Use most severe value for fluctuating BMI (Evidence: pg no: 95, L56-L58)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Body mass index codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.B.14",
+        "title": "Documentation by clinicians other than patient's provider",
+        "relationship": "implements",
+        "explanation": "Provides documentation requirements for BMI by other clinicians"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "BMI_01",
+      "scenario": "Obese patient with documented BMI",
+      "documentation_example": "Patient with morbid obesity, BMI 42. Provider documents obesity as affecting treatment plan.",
+      "step_by_step": [
+        "Step 1: Identify obesity diagnosis",
+        "Step 2: Confirm provider documentation",
+        "Step 3: Assign obesity code as primary",
+        "Step 4: Assign appropriate Z68 code for BMI 42"
+      ],
+      "correct_coding": {
+        "primary_code": "E66.01",
+        "secondary_codes": [
+          "Z68.42"
+        ],
+        "sequencing": "Obesity diagnosis first, then BMI code",
+        "rationale": "BMI code requires associated reportable diagnosis (Evidence: pg no: 95, L55)"
+      },
+      "incorrect_coding": {
+        "code": "Z68.42",
+        "codes": [
+          "Z68.42 alone"
+        ],
+        "rationale": "BMI codes require associated reportable diagnosis",
+        "common_mistake": "Using BMI codes without associated diagnosis"
+      }
+    },
+    {
+      "scenario_id": "BMI_02",
+      "scenario": "Pregnant patient with elevated BMI",
+      "documentation_example": "Pregnant patient at 28 weeks gestation with BMI of 35.",
+      "step_by_step": [
+        "Step 1: Identify pregnancy status",
+        "Step 2: Note BMI documentation",
+        "Step 3: Do not assign BMI code due to pregnancy",
+        "Step 4: Use appropriate pregnancy codes"
+      ],
+      "correct_coding": {
+        "primary_code": "Z34.00",
+        "secondary_codes": [],
+        "sequencing": "Pregnancy code only, no BMI code",
+        "rationale": "Do not assign BMI codes during pregnancy (Evidence: pg no: 95, L56)"
+      },
+      "incorrect_coding": {
+        "code": "Z68.35",
+        "codes": [
+          "BMI codes during pregnancy"
+        ],
+        "rationale": "BMI codes should not be used during pregnancy",
+        "common_mistake": "Using BMI codes for pregnant patients"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not use during pregnancy (Evidence: pg no: 95, L56)",
+      "Requires associated reportable diagnosis (Evidence: pg no: 95, L55)",
+      "Must follow Section I.B.14 for documentation by other clinicians (Evidence: pg no: 95, L59)"
+    ],
+    "best_practices": [
+      "Always verify associated diagnosis is present",
+      "Use most severe BMI value when multiple values documented",
+      "Check pregnancy status before assigning BMI codes"
+    ],
+    "common_mistakes": [
+      "Using BMI codes without associated diagnosis",
+      "Using BMI codes during pregnancy",
+      "Not using most severe value for fluctuating BMI"
+    ],
+    "tips": [
+      "BMI codes are always secondary to the associated condition",
+      "Remember pregnancy exclusion rule"
+    ],
+    "implementation_notes": [
+      "Important for quality measures and population health"
+    ],
+    "clinical_context": [
+      "Obesity management",
+      "Nutritional assessment",
+      "Metabolic conditions"
+    ]
+  },
+  "search_keywords": [
+    "body mass index",
+    "BMI",
+    "Z68",
+    "obesity",
+    "anorexia",
+    "pregnancy exclusion",
+    "documentation requirements"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "status_codes",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "BMI",
+      "obesity",
+      "pregnancy",
+      "documentation"
+    ]
+  },
+  "page_range_processed": "pages_93_to_96"
+}

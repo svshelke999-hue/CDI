@@ -1,0 +1,149 @@
+{
+  "guideline_id": "I.C.19.b.3",
+  "semantic_title": "Iatrogenic Injuries - Use of Complication Codes Instead of Injury Codes",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 19. Injury, Poisoning, and Certain Other Consequences of External Causes > b. Coding of Injuries > 3) Iatrogenic injuries",
+  "page_number": 79,
+  "content": {
+    "full_text": "Injury codes from Chapter 19 should not be assigned for injuries that occur during, or as a result of, a medical intervention. Assign the appropriate complication code(s). (Evidence: pg no: 79, L38-L39)",
+    "summary": "Prohibition against using Chapter 19 injury codes for iatrogenic injuries, requiring complication codes instead (Evidence: pg no: 79, L38-L39)",
+    "key_concepts": [
+      "Iatrogenic injury exclusion from Chapter 19 (Evidence: pg no: 79, L38-L39)",
+      "Medical intervention-related injuries (Evidence: pg no: 79, L38-L39)",
+      "Complication code assignment requirement (Evidence: pg no: 79, L39)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "no_chapter19_iatrogenic",
+        "rule_text": "Injury codes from Chapter 19 should not be assigned for injuries that occur during, or as a result of, a medical intervention (Evidence: pg no: 79, L38-L39)",
+        "explanation": "Injuries caused by medical procedures require complication codes rather than standard injury codes (Evidence: pg no: 79, L38-L39)",
+        "importance": "critical",
+        "applies_to": "S00-T14.9",
+        "common_applications": [
+          "Surgical complications",
+          "Procedural injuries",
+          "Medical device-related injuries"
+        ]
+      },
+      {
+        "rule_id": "use_complication_codes",
+        "rule_text": "Assign the appropriate complication code(s) (Evidence: pg no: 79, L39)",
+        "explanation": "Complication codes are specifically designed for injuries resulting from medical interventions (Evidence: pg no: 79, L39)",
+        "importance": "critical",
+        "applies_to": "complication_codes",
+        "common_applications": [
+          "Post-operative complications",
+          "Device complications",
+          "Procedural complications"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify if injury occurred during or as result of medical intervention",
+      "Step 2: If iatrogenic, do not use Chapter 19 injury codes",
+      "Step 3: Locate appropriate complication code",
+      "Step 4: Assign complication code instead of injury code"
+    ],
+    "related_terminology": [
+      "Iatrogenic injuries",
+      "Medical intervention",
+      "Complication codes",
+      "Chapter 19 exclusion"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "S00-T14.9",
+        "description": "Traumatic injury codes that should not be used for iatrogenic injuries (Evidence: pg no: 79, L38-L39)",
+        "requirement": "Do not use for medical intervention-related injuries",
+        "usage_rules": [
+          "Exclude iatrogenic injuries from this range (Evidence: pg no: 79, L38-L39)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Chapter 19 injury codes",
+      "Complication codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "surgical_complication",
+      "scenario": "Patient develops injury during surgical procedure",
+      "documentation_example": "Accidental laceration of organ during surgical procedure",
+      "step_by_step": [
+        "Step 1: Recognize injury occurred during medical intervention",
+        "Step 2: Do not assign Chapter 19 injury code",
+        "Step 3: Locate appropriate surgical complication code",
+        "Step 4: Assign complication code"
+      ],
+      "correct_coding": {
+        "primary_code": "Appropriate complication code",
+        "secondary_codes": [],
+        "sequencing": "Complication code only",
+        "rationale": "Iatrogenic injuries require complication codes, not injury codes (Evidence: pg no: 79, L38-L39)"
+      },
+      "incorrect_coding": {
+        "code": "Chapter 19 injury code",
+        "codes": [
+          "S00-T14.9 range codes"
+        ],
+        "rationale": "Chapter 19 codes are prohibited for iatrogenic injuries",
+        "common_mistake": "Using injury codes for medical intervention complications"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Never use Chapter 19 injury codes for iatrogenic injuries (Evidence: pg no: 79, L38-L39)"
+    ],
+    "best_practices": [
+      "Always determine if injury is related to medical intervention before coding (Evidence: pg no: 79, L38-L39)"
+    ],
+    "common_mistakes": [
+      "Using injury codes for surgical complications (Evidence: pg no: 79, L38-L39)"
+    ],
+    "tips": [
+      "Look for complication codes when injury occurs during medical care (Evidence: pg no: 79, L39)"
+    ],
+    "implementation_notes": [
+      "Requires careful review of circumstances surrounding injury"
+    ],
+    "clinical_context": [
+      "Common in surgical and procedural settings"
+    ]
+  },
+  "search_keywords": [
+    "iatrogenic",
+    "medical intervention",
+    "surgical complications",
+    "complication codes",
+    "Chapter 19 exclusion",
+    "procedural injuries"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "injury_coding",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "iatrogenic",
+      "complications",
+      "medical_intervention",
+      "exclusions"
+    ]
+  },
+  "page_range_processed": "pages_78_to_81"
+}

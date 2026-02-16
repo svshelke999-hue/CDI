@@ -1,0 +1,150 @@
+{
+  "guideline_id": "I.A.18",
+  "semantic_title": "Default Codes - Most Common or Unspecified Code for Main Term",
+  "section_path": "Section I > A. Conventions > 18. Default codes",
+  "page_number": 12,
+  "content": {
+    "full_text": "A code listed next to a main term in the ICD-10-CM Alphabetic Index is referred to as a default code. The default code represents that condition that is most commonly associated with the main term or is the unspecified code for the condition. If a condition is documented in a medical record (for example, appendicitis) without any additional information, such as acute or chronic, the default code should be assigned. (Evidence: pg no: 12, L70-L72)",
+    "summary": "Default codes represent the most common or unspecified form of a condition and should be used when no additional specificity is documented (Evidence: pg no: 12, L70-L72)",
+    "key_concepts": [
+      "Code listed next to main term (Evidence: pg no: 12, L70-L71)",
+      "Most commonly associated condition (Evidence: pg no: 12, L71)",
+      "Unspecified code for condition (Evidence: pg no: 12, L71-L72)",
+      "Used when no additional information available (Evidence: pg no: 12, L72)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "DEFAULT_ASSIGNMENT",
+        "rule_text": "Default code should be assigned when condition documented without additional information (Evidence: pg no: 12, L72)",
+        "explanation": "When documentation lacks specificity like acute or chronic, use the default code (Evidence: pg no: 12, L72)",
+        "importance": "medium",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Unspecified conditions",
+          "Conditions without additional detail"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Locate main term in Alphabetic Index",
+      "Step 2: Identify code listed next to main term",
+      "Step 3: Check if additional specificity is documented",
+      "Step 4: Use default code if no additional information",
+      "Step 5: Use more specific code if additional details available"
+    ],
+    "related_terminology": [
+      "Default code",
+      "Main term",
+      "Most commonly associated",
+      "Unspecified code",
+      "Additional information"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "Main term - Default code",
+        "description": "Code immediately following main term in Alphabetic Index (Evidence: pg no: 12, L70-L71)",
+        "example": "Appendicitis - default code",
+        "explanation": "Represents most common or unspecified form"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Appendicitis codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "DEFAULT_APPENDICITIS",
+      "scenario": "Patient diagnosed with appendicitis without additional specificity",
+      "documentation_example": "Appendicitis",
+      "step_by_step": [
+        "Step 1: Look up Appendicitis in Alphabetic Index",
+        "Step 2: Note default code next to main term",
+        "Step 3: Check documentation for additional details",
+        "Step 4: Use default code since no specificity provided"
+      ],
+      "correct_coding": {
+        "primary_code": "Default appendicitis code",
+        "secondary_codes": [],
+        "sequencing": "Single code sufficient",
+        "rationale": "No additional information provided, so default code appropriate (Evidence: pg no: 12, L72)"
+      },
+      "incorrect_coding": {
+        "code": "Specific appendicitis code",
+        "codes": [
+          "Acute appendicitis without documentation"
+        ],
+        "rationale": "Should not assume specificity not documented",
+        "common_mistake": "Assuming specificity when not documented"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "APPENDICITIS_DEFAULT",
+      "scenario": "Appendicitis without additional information",
+      "code_example": "Default appendicitis code",
+      "breakdown": {
+        "Default code": "Most common or unspecified form of appendicitis (Evidence: pg no: 12, L71-L72)"
+      },
+      "rationale": "Use default when no additional specificity like acute or chronic is documented (Evidence: pg no: 12, L72)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [],
+    "best_practices": [
+      "Use default code when no additional information is documented (Evidence: pg no: 12, L72)",
+      "Look for more specific codes when additional details are available"
+    ],
+    "common_mistakes": [
+      "Assuming specificity not documented",
+      "Not using default code when appropriate"
+    ],
+    "tips": [
+      "Default codes are immediately next to main terms",
+      "Represent most common or unspecified forms"
+    ],
+    "implementation_notes": [
+      "Part of Alphabetic Index structure",
+      "Helps when documentation lacks specificity"
+    ],
+    "clinical_context": [
+      "Common when documentation is limited",
+      "Useful for general diagnostic statements"
+    ]
+  },
+  "search_keywords": [
+    "default code",
+    "main term",
+    "unspecified",
+    "most common",
+    "appendicitis",
+    "no additional information",
+    "alphabetic index"
+  ],
+  "metadata": {
+    "category": "convention",
+    "subcategory": "alphabetic_index",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "default_code",
+      "main_term",
+      "unspecified",
+      "alphabetic_index"
+    ]
+  },
+  "page_range_processed": "pages_9_to_12"
+}

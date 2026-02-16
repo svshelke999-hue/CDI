@@ -1,0 +1,80 @@
+{
+  "guideline_id": "I.C.18.f",
+  "semantic_title": "Deleted Guideline - Functional Quadriplegia",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 18. Chapter 18: Symptoms, signs, and abnormal clinical and laboratory findings > f. Functional quadriplegia",
+  "page_number": 77,
+  "content": {
+    "full_text": "GUIDELINE HAS BEEN DELETED EFFECTIVE OCTOBER 1, 2017 (Evidence: pg no: 77, L43)",
+    "summary": "Notice that the functional quadriplegia guideline has been removed from the coding guidelines (Evidence: pg no: 77, L43)",
+    "key_concepts": [
+      "Deleted guideline notification (Evidence: pg no: 77, L43)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "deleted_guideline_notice",
+        "rule_text": "GUIDELINE HAS BEEN DELETED EFFECTIVE OCTOBER 1, 2017 (Evidence: pg no: 77, L43)",
+        "explanation": "This guideline is no longer in effect and should not be referenced (Evidence: pg no: 77, L43)",
+        "importance": "high",
+        "applies_to": "functional_quadriplegia",
+        "common_applications": [
+          "Historical reference only"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Note that this guideline no longer exists",
+      "Step 2: Refer to current coding guidelines for quadriplegia"
+    ],
+    "related_terminology": [
+      "functional quadriplegia",
+      "deleted guideline"
+    ]
+  },
+  "code_references": {
+    "specific_codes": [],
+    "code_ranges": [],
+    "code_patterns": [],
+    "code_categories_mentioned": []
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "This guideline has been deleted and should not be used (Evidence: pg no: 77, L43)"
+    ],
+    "best_practices": [],
+    "common_mistakes": [
+      "Attempting to apply deleted guidelines"
+    ],
+    "tips": [],
+    "implementation_notes": [
+      "Effective deletion date: October 1, 2017"
+    ],
+    "clinical_context": []
+  },
+  "search_keywords": [
+    "functional quadriplegia",
+    "deleted guideline",
+    "removed guideline"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "deleted_guideline",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "October 1, 2017",
+    "tags": [
+      "deleted",
+      "historical",
+      "quadriplegia"
+    ]
+  },
+  "page_range_processed": "pages_75_to_78"
+}

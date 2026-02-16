@@ -1,0 +1,237 @@
+{
+  "guideline_id": "I.C.1.d.6",
+  "semantic_title": "Coding Guidelines for Sepsis and Severe Sepsis Associated with Noninfectious Process",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 1. Certain Infectious and Parasitic Diseases > d. Sepsis, Severe Sepsis, and Septic Shock > 6. Sepsis and severe sepsis associated with a noninfectious process (condition)",
+  "page_number": 26,
+  "content": {
+    "full_text": "In some cases, a noninfectious process (condition) such as trauma, may lead to an infection which can result in sepsis or severe sepsis. If sepsis or severe sepsis is documented as associated with a noninfectious condition, such as a burn or serious injury, and this condition meets the definition for principal diagnosis, the code for the noninfectious condition should be sequenced first, followed by the code for the resulting infection. If severe sepsis is present, a code from subcategory R65.2 should also be assigned with any associated organ dysfunction(s) codes. It is not necessary to assign a code from subcategory R65.1, Systemic inflammatory response syndrome (SIRS) of non-infectious origin, for these cases. If the infection meets the definition of principal diagnosis, it should be sequenced before the non-infectious condition. When both the associated non-infectious condition and the infection meet the definition of principal diagnosis, either may be assigned as principal diagnosis. Only one code from category R65, Symptoms and signs specifically associated with systemic inflammation and infection, should be assigned. Therefore, when a non-infectious condition leads to an infection resulting in severe sepsis, assign the appropriate code from subcategory R65.2, Severe sepsis. Do not additionally assign a code from subcategory R65.1, Systemic inflammatory response syndrome (SIRS) of non-infectious origin. (Evidence: pg no: 26, L38-L45)",
+    "summary": "Guidelines for coding sepsis that develops secondary to noninfectious conditions like trauma or burns, with specific sequencing rules and restrictions on SIRS coding (Evidence: pg no: 26, L38-L45)",
+    "key_concepts": [
+      "Noninfectious conditions leading to infection (Evidence: pg no: 26, L40-L41)",
+      "Principal diagnosis determination rules (Evidence: pg no: 26, L41-L43)",
+      "SIRS coding restrictions (Evidence: pg no: 26, L44-L45)",
+      "Single R65 category code rule (Evidence: pg no: 26, L44)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "noninfectious_principal",
+        "rule_text": "When noninfectious condition meets principal diagnosis definition, sequence it first (Evidence: pg no: 26, L41-L42)",
+        "explanation": "If the noninfectious condition like trauma or burn meets the definition for principal diagnosis, it should be sequenced before the resulting infection (Evidence: pg no: 26, L41-L42)",
+        "importance": "critical",
+        "applies_to": "trauma, burns, serious injuries leading to sepsis",
+        "common_applications": [
+          "Burn patients developing sepsis",
+          "Trauma patients with secondary infections"
+        ]
+      },
+      {
+        "rule_id": "infection_principal",
+        "rule_text": "When infection meets principal diagnosis definition, sequence it before noninfectious condition (Evidence: pg no: 26, L43)",
+        "explanation": "If the infection rather than the noninfectious condition meets the principal diagnosis criteria, the infection should be sequenced first (Evidence: pg no: 26, L43)",
+        "importance": "critical",
+        "applies_to": "cases where infection is the primary focus of treatment",
+        "common_applications": [
+          "Severe sepsis requiring intensive treatment",
+          "Life-threatening infections secondary to trauma"
+        ]
+      },
+      {
+        "rule_id": "no_sirs_with_sepsis",
+        "rule_text": "Do not assign R65.1 SIRS codes when R65.2 severe sepsis codes are used (Evidence: pg no: 26, L44-L45)",
+        "explanation": "Only one code from category R65 should be assigned; when severe sepsis is present, use R65.2 and do not additionally assign R65.1 SIRS codes (Evidence: pg no: 26, L44-L45)",
+        "importance": "critical",
+        "applies_to": "all cases with noninfectious conditions leading to severe sepsis",
+        "common_applications": [
+          "Trauma with severe sepsis",
+          "Burns with severe sepsis"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify noninfectious condition and resulting infection",
+      "Step 2: Determine which condition meets principal diagnosis definition",
+      "Step 3: Sequence codes based on principal diagnosis determination",
+      "Step 4: Assign severe sepsis code (R65.2) if present",
+      "Step 5: Add organ dysfunction codes if applicable",
+      "Step 6: Do not assign SIRS codes (R65.1) when severe sepsis present"
+    ],
+    "related_terminology": [
+      "noninfectious process",
+      "trauma",
+      "burn",
+      "serious injury",
+      "principal diagnosis",
+      "SIRS",
+      "systemic inflammatory response syndrome",
+      "organ dysfunction",
+      "secondary infection"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "R65.2",
+        "description": "Severe sepsis subcategory (Evidence: pg no: 26, L42, L45)",
+        "requirement": "Assign when severe sepsis present with organ dysfunction codes",
+        "usage_rules": [
+          "Use instead of R65.1 when severe sepsis present (Evidence: pg no: 26, L45)",
+          "Include with organ dysfunction codes (Evidence: pg no: 26, L42)"
+        ]
+      },
+      {
+        "range": "R65.1",
+        "description": "Systemic inflammatory response syndrome (SIRS) of non-infectious origin (Evidence: pg no: 26, L42, L45)",
+        "requirement": "Do not assign when R65.2 is used",
+        "usage_rules": [
+          "Not necessary when severe sepsis present (Evidence: pg no: 26, L42)",
+          "Do not use with R65.2 codes (Evidence: pg no: 26, L45)"
+        ]
+      },
+      {
+        "range": "R65",
+        "description": "Symptoms and signs specifically associated with systemic inflammation and infection (Evidence: pg no: 26, L44)",
+        "requirement": "Only one code from this category should be assigned",
+        "usage_rules": [
+          "Single code rule from entire category (Evidence: pg no: 26, L44)",
+          "Choose appropriate subcategory based on condition (Evidence: pg no: 26, L44-L45)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "Noninfectious condition + infection code + R65.2 + organ dysfunction",
+        "description": "Standard pattern when noninfectious condition is principal diagnosis (Evidence: pg no: 26, L41-L42)",
+        "example": "Burn code + infection code + R65.20 + organ dysfunction codes",
+        "explanation": "Sequence based on principal diagnosis determination"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Trauma codes",
+      "Burn codes",
+      "Infection codes",
+      "Severe sepsis codes",
+      "Organ dysfunction codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.18",
+        "title": "SIRS due to non-infectious process",
+        "relationship": "related_to",
+        "explanation": "Referenced for additional guidance on SIRS coding (Evidence: pg no: 26, L46)"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "burn_sepsis",
+      "scenario": "Patient with severe burns develops infection leading to severe sepsis",
+      "documentation_example": "Third-degree burns with secondary infection resulting in severe sepsis with respiratory failure",
+      "step_by_step": [
+        "Step 1: Determine if burn or sepsis meets principal diagnosis definition",
+        "Step 2: If burn is principal, sequence burn code first",
+        "Step 3: Assign infection code as secondary",
+        "Step 4: Assign severe sepsis code (R65.2X)",
+        "Step 5: Assign organ dysfunction codes",
+        "Step 6: Do not assign SIRS codes"
+      ],
+      "correct_coding": {
+        "primary_code": "Burn code (if principal diagnosis)",
+        "secondary_codes": [
+          "Infection code",
+          "R65.2X",
+          "Organ dysfunction codes"
+        ],
+        "sequencing": "Based on principal diagnosis determination",
+        "rationale": "Noninfectious condition sequenced first when it meets principal diagnosis criteria (Evidence: pg no: 26, L41-L42)"
+      },
+      "incorrect_coding": {
+        "code": "R65.1 with R65.2",
+        "codes": [
+          "Both SIRS and severe sepsis codes"
+        ],
+        "rationale": "Only one code from R65 category allowed",
+        "common_mistake": "Adding SIRS codes when severe sepsis already coded"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "trauma_infection",
+      "scenario": "Motor vehicle accident with trauma leading to infection and sepsis",
+      "code_example": "Trauma code + infection code + sepsis code",
+      "breakdown": {
+        "trauma_code": "Primary injury code if principal diagnosis (Evidence: pg no: 26, L41)",
+        "infection_code": "Secondary infection resulting from trauma (Evidence: pg no: 26, L42)",
+        "sepsis_code": "Appropriate sepsis code based on severity (Evidence: pg no: 26, L42)"
+      },
+      "rationale": "Sequencing depends on which condition meets principal diagnosis definition (Evidence: pg no: 26, L41-L43)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Only one code from R65 category allowed (Evidence: pg no: 26, L44)",
+      "Do not use R65.1 when R65.2 is assigned (Evidence: pg no: 26, L45)",
+      "Principal diagnosis determination affects sequencing (Evidence: pg no: 26, L41-L43)"
+    ],
+    "best_practices": [
+      "Carefully determine principal diagnosis (Evidence: pg no: 26, L41-L43)",
+      "Include all organ dysfunction codes when severe sepsis present (Evidence: pg no: 26, L42)",
+      "Follow single R65 code rule (Evidence: pg no: 26, L44)"
+    ],
+    "common_mistakes": [
+      "Assigning both R65.1 and R65.2 codes (Evidence: pg no: 26, L44-L45)",
+      "Incorrect sequencing based on principal diagnosis (Evidence: pg no: 26, L41-L43)",
+      "Unnecessary SIRS coding when severe sepsis present (Evidence: pg no: 26, L42, L45)"
+    ],
+    "tips": [
+      "Review principal diagnosis definition carefully (Evidence: pg no: 26, L41-L43)",
+      "Consider treatment focus when determining sequencing (Evidence: pg no: 26, L43)",
+      "Reference SIRS guidelines for additional guidance (Evidence: pg no: 26, L46)"
+    ],
+    "implementation_notes": [
+      "Requires understanding of principal diagnosis criteria",
+      "May need clinical judgment for sequencing decisions",
+      "Important for trauma and burn centers"
+    ],
+    "clinical_context": [
+      "Common in trauma centers",
+      "Frequent in burn units",
+      "Important for ICU coding"
+    ]
+  },
+  "search_keywords": [
+    "noninfectious process",
+    "trauma sepsis",
+    "burn sepsis",
+    "secondary infection",
+    "SIRS",
+    "principal diagnosis",
+    "sequencing",
+    "R65.1",
+    "R65.2",
+    "organ dysfunction"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "infectious_diseases",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "noninfectious",
+      "trauma",
+      "burns",
+      "SIRS",
+      "sequencing",
+      "principal_diagnosis"
+    ]
+  },
+  "page_range_processed": "pages_24_to_27"
+}

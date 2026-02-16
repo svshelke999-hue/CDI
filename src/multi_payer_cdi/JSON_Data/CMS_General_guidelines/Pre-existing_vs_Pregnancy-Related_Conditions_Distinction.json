@@ -1,0 +1,220 @@
+{
+  "guideline_id": "I.C.15.c",
+  "semantic_title": "Pre-existing vs Pregnancy-Related Conditions Distinction",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 15. Chapter 15: Pregnancy, Childbirth, and the Puerperium > c. Pre-existing conditions versus conditions due to the pregnancy",
+  "page_number": 65,
+  "content": {
+    "full_text": "Certain categories in Chapter 15 distinguish between conditions of the mother that existed prior to pregnancy (pre-existing) and those that are a direct result of pregnancy. When assigning codes from Chapter 15, it is important to assess if a condition was pre-existing prior to pregnancy or developed during or due to the pregnancy in order to assign the correct code. Categories that do not distinguish between pre-existing and pregnancy-related conditions may be used for either. It is acceptable to use codes specifically for the puerperium with codes complicating pregnancy and childbirth if a condition arises postpartum during the delivery encounter. (Evidence: pg no: 65-66, L70-L77)",
+    "summary": "Guidelines for distinguishing between pre-existing and pregnancy-related conditions in obstetric coding (Evidence: pg no: 65-66, L70-L77)",
+    "key_concepts": [
+      "Pre-existing vs pregnancy-related distinction (Evidence: pg no: 65-66, L70-L72)",
+      "Condition timing assessment (Evidence: pg no: 65-66, L72-L73)",
+      "Category-specific requirements (Evidence: pg no: 65-66, L73-L74)",
+      "Puerperium code usage (Evidence: pg no: 66, L74-L77)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.C.15.c.1",
+        "rule_text": "Assess timing of condition development for correct code assignment (Evidence: pg no: 65-66, L72-L73)",
+        "explanation": "Determine if condition existed before pregnancy or developed during/due to pregnancy to select appropriate code (Evidence: pg no: 65-66, L72-L73)",
+        "importance": "critical",
+        "applies_to": "O00-O9A",
+        "common_applications": [
+          "Diabetes in pregnancy",
+          "Hypertension in pregnancy",
+          "Mental health conditions",
+          "Cardiac conditions"
+        ]
+      },
+      {
+        "rule_id": "I.C.15.c.2",
+        "rule_text": "Some categories distinguish pre-existing from pregnancy-related conditions (Evidence: pg no: 65-66, L70-L72)",
+        "explanation": "Certain Chapter 15 categories have separate codes for pre-existing vs pregnancy-induced conditions (Evidence: pg no: 65-66, L70-L72)",
+        "importance": "critical",
+        "applies_to": "Selected O categories",
+        "common_applications": [
+          "Pre-existing vs gestational diabetes",
+          "Chronic vs gestational hypertension",
+          "Pre-existing vs pregnancy-related mental disorders"
+        ]
+      },
+      {
+        "rule_id": "I.C.15.c.3",
+        "rule_text": "Categories without distinction may be used for either condition type (Evidence: pg no: 66, L73-L74)",
+        "explanation": "Some categories can be used for both pre-existing and pregnancy-related conditions (Evidence: pg no: 66, L73-L74)",
+        "importance": "high",
+        "applies_to": "Selected O categories",
+        "common_applications": [
+          "General pregnancy complications",
+          "Conditions without timing specificity"
+        ]
+      },
+      {
+        "rule_id": "I.C.15.c.4",
+        "rule_text": "Puerperium codes can be used with pregnancy/childbirth codes if condition arises postpartum during delivery encounter (Evidence: pg no: 66, L74-L77)",
+        "explanation": "When condition develops postpartum during the delivery encounter, puerperium codes can be combined with pregnancy/childbirth codes (Evidence: pg no: 66, L74-L77)",
+        "importance": "high",
+        "applies_to": "Puerperium codes",
+        "common_applications": [
+          "Postpartum hemorrhage during delivery encounter",
+          "Postpartum complications arising during delivery stay"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify the maternal condition",
+      "Step 2: Determine if condition existed before pregnancy or developed during/due to pregnancy",
+      "Step 3: Check if category distinguishes between pre-existing and pregnancy-related",
+      "Step 4: Select appropriate code based on timing and category structure"
+    ],
+    "related_terminology": [
+      "Pre-existing conditions",
+      "Pregnancy-related conditions",
+      "Gestational conditions",
+      "Puerperium",
+      "Condition timing"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "O00-O9A",
+        "description": "Pregnancy, Childbirth, and the Puerperium codes (Evidence: pg no: 65-66, L70)",
+        "requirement": "Assess condition timing for correct code selection",
+        "usage_rules": [
+          "Distinguish pre-existing from pregnancy-related when category allows (Evidence: pg no: 65-66, L70-L72)",
+          "Some categories can be used for either type (Evidence: pg no: 66, L73-L74)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Categories distinguishing pre-existing vs pregnancy-related conditions",
+      "Categories usable for either condition type",
+      "Puerperium-specific codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.15.d",
+        "title": "Pre-existing hypertension in pregnancy",
+        "relationship": "applies_concept",
+        "explanation": "Specific example of pre-existing vs pregnancy-related distinction"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "preexisting_1",
+      "scenario": "Patient with Type 1 diabetes diagnosed 5 years ago, now pregnant",
+      "documentation_example": "32-year-old female with Type 1 diabetes mellitus diagnosed 5 years ago, currently 28 weeks pregnant",
+      "step_by_step": [
+        "Step 1: Identify diabetes as the condition",
+        "Step 2: Determine diabetes existed before pregnancy (pre-existing)",
+        "Step 3: Use pre-existing diabetes in pregnancy code"
+      ],
+      "correct_coding": {
+        "primary_code": "O24.012",
+        "secondary_codes": [
+          "E10.9",
+          "Z3A.28"
+        ],
+        "sequencing": "Pre-existing diabetes code first",
+        "rationale": "Diabetes existed before pregnancy, requires pre-existing diabetes code (Evidence: pg no: 65-66, L72-L73)"
+      },
+      "incorrect_coding": {
+        "code": "O24.410",
+        "codes": [
+          "O24.410"
+        ],
+        "rationale": "This is gestational diabetes code, not appropriate for pre-existing diabetes",
+        "common_mistake": "Using gestational diabetes code for pre-existing diabetes"
+      }
+    },
+    {
+      "scenario_id": "pregnancy_related_1",
+      "scenario": "Patient develops gestational diabetes at 26 weeks gestation",
+      "documentation_example": "Patient with no prior history of diabetes develops gestational diabetes at 26 weeks gestation",
+      "step_by_step": [
+        "Step 1: Identify diabetes as the condition",
+        "Step 2: Determine diabetes developed during pregnancy",
+        "Step 3: Use gestational diabetes code"
+      ],
+      "correct_coding": {
+        "primary_code": "O24.410",
+        "secondary_codes": [
+          "Z3A.26"
+        ],
+        "sequencing": "Gestational diabetes as primary",
+        "rationale": "Diabetes developed during pregnancy, use pregnancy-related code (Evidence: pg no: 65-66, L72-L73)"
+      },
+      "incorrect_coding": {
+        "code": "O24.012",
+        "codes": [
+          "O24.012"
+        ],
+        "rationale": "This is pre-existing diabetes code, not appropriate for gestational diabetes",
+        "common_mistake": "Using pre-existing diabetes code for gestational diabetes"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Carefully assess timing of condition development (Evidence: pg no: 65-66, L72-L73)"
+    ],
+    "best_practices": [
+      "Review medical history to determine if condition was pre-existing (Evidence: pg no: 65-66, L72-L73)",
+      "Use category-specific codes when distinction is available",
+      "Document timing of condition development clearly"
+    ],
+    "common_mistakes": [
+      "Using gestational codes for pre-existing conditions",
+      "Using pre-existing codes for pregnancy-induced conditions",
+      "Not assessing condition timing before coding"
+    ],
+    "tips": [
+      "Check patient's medical history for condition onset",
+      "Look for documentation of condition before pregnancy",
+      "Some categories have both pre-existing and gestational options"
+    ],
+    "implementation_notes": [
+      "Requires thorough review of medical history",
+      "May need provider clarification on condition timing"
+    ],
+    "clinical_context": [
+      "Prenatal care",
+      "High-risk pregnancy management",
+      "Chronic disease management in pregnancy"
+    ]
+  },
+  "search_keywords": [
+    "pre-existing conditions",
+    "pregnancy-related conditions",
+    "gestational conditions",
+    "condition timing",
+    "diabetes in pregnancy",
+    "hypertension in pregnancy"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "obstetric_coding",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "pregnancy",
+      "pre_existing",
+      "gestational",
+      "condition_timing"
+    ]
+  },
+  "page_range_processed": "pages_63_to_66"
+}

@@ -1,0 +1,118 @@
+{
+  "guideline_id": "I.C.15.o.1",
+  "semantic_title": "Peripartum and Postpartum Period Definitions",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 15. Pregnancy, Childbirth, and the Puerperium > o. The Peripartum and Postpartum Periods > 1) Peripartum and Postpartum periods",
+  "page_number": 69,
+  "content": {
+    "full_text": "The postpartum period begins immediately after delivery and continues for six weeks following delivery. The peripartum period is defined as the last month of pregnancy to five months postpartum. (Evidence: pg no: 69, L84-L85)",
+    "summary": "Official definitions of postpartum and peripartum periods for coding purposes (Evidence: pg no: 69, L84-L85)",
+    "key_concepts": [
+      "Postpartum period: immediately after delivery to 6 weeks (Evidence: pg no: 69, L85)",
+      "Peripartum period: last month of pregnancy to 5 months postpartum (Evidence: pg no: 69, L85)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "postpartum_definition",
+        "rule_text": "Postpartum period is immediately after delivery for six weeks (Evidence: pg no: 69, L85)",
+        "explanation": "The official postpartum period for coding purposes begins immediately after delivery and lasts for six weeks (Evidence: pg no: 69, L85)",
+        "importance": "high",
+        "applies_to": "postpartum codes",
+        "common_applications": [
+          "Postpartum complications",
+          "Postpartum care coding"
+        ]
+      },
+      {
+        "rule_id": "peripartum_definition",
+        "rule_text": "Peripartum period is last month of pregnancy to five months postpartum (Evidence: pg no: 69, L85)",
+        "explanation": "The peripartum period extends from the last month of pregnancy through five months after delivery (Evidence: pg no: 69, L85)",
+        "importance": "high",
+        "applies_to": "peripartum codes",
+        "common_applications": [
+          "Peripartum cardiomyopathy",
+          "Extended pregnancy-related conditions"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine timing relative to delivery",
+      "Step 2: Apply appropriate period definition",
+      "Step 3: Select codes based on period"
+    ],
+    "related_terminology": [
+      "postpartum",
+      "peripartum",
+      "delivery",
+      "pregnancy periods"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": []
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "period_definitions",
+      "scenario": "Understanding pregnancy-related periods",
+      "code_example": "Period definitions",
+      "breakdown": {
+        "Postpartum": "Immediately after delivery to 6 weeks (Evidence: pg no: 69, L85)",
+        "Peripartum": "Last month of pregnancy to 5 months postpartum (Evidence: pg no: 69, L85)"
+      },
+      "rationale": "Official definitions for coding period-specific conditions (Evidence: pg no: 69, L84-L85)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [],
+    "best_practices": [
+      "Use official period definitions for coding decisions (Evidence: pg no: 69, L84-L85)"
+    ],
+    "common_mistakes": [
+      "Confusing postpartum and peripartum periods",
+      "Using incorrect timeframes"
+    ],
+    "tips": [
+      "Peripartum period is longer and includes late pregnancy"
+    ],
+    "implementation_notes": [
+      "These are official coding definitions"
+    ],
+    "clinical_context": [
+      "Different conditions may occur in different periods"
+    ]
+  },
+  "search_keywords": [
+    "postpartum",
+    "peripartum",
+    "period definitions",
+    "six weeks",
+    "five months",
+    "pregnancy periods"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "period_definitions",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "definitions",
+      "postpartum",
+      "peripartum",
+      "timeframes",
+      "pregnancy_periods"
+    ]
+  },
+  "page_range_processed": "pages_66_to_69"
+}

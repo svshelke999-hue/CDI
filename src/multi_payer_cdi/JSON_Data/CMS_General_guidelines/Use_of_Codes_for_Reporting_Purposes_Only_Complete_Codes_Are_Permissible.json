@@ -1,0 +1,169 @@
+{
+  "guideline_id": "I.A.3",
+  "semantic_title": "Use of Codes for Reporting Purposes: Only Complete Codes Are Permissible",
+  "section_path": "Section I > A. Conventions > 3. Use of codes for reporting purposes",
+  "page_number": 8,
+  "content": {
+    "full_text": "For reporting purposes only codes are permissible, not categories or subcategories, and any applicable 7th character is required. (Evidence: pg no: 8, L24-L26)",
+    "summary": "Establishes that only complete codes with all required characters can be used for reporting, not categories or subcategories (Evidence: pg no: 8, L24-L26)",
+    "key_concepts": [
+      "Only codes are permissible for reporting (Evidence: pg no: 8, L25)",
+      "Categories and subcategories cannot be used for reporting (Evidence: pg no: 8, L25)",
+      "7th characters are required when applicable (Evidence: pg no: 8, L25-L26)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.A.3.R1",
+        "rule_text": "For reporting purposes only codes are permissible, not categories or subcategories (Evidence: pg no: 8, L24-L25)",
+        "explanation": "Complete codes at the highest level of specificity must be used for all reporting purposes (Evidence: pg no: 8, L24-L25)",
+        "importance": "critical",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Insurance claims",
+          "Medical records",
+          "Statistical reporting"
+        ]
+      },
+      {
+        "rule_id": "I.A.3.R2",
+        "rule_text": "Any applicable 7th character is required (Evidence: pg no: 8, L25-L26)",
+        "explanation": "When a code has an applicable 7th character, it must be included for the code to be valid for reporting (Evidence: pg no: 8, L25-L26)",
+        "importance": "critical",
+        "applies_to": "codes_with_7th_character",
+        "common_applications": [
+          "Injury codes",
+          "Obstetric codes",
+          "External cause codes"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Locate the most specific code available",
+      "Step 2: Verify it is a complete code, not a category or subcategory",
+      "Step 3: Check if 7th character is applicable",
+      "Step 4: Add required 7th character if applicable",
+      "Step 5: Use complete code for reporting"
+    ],
+    "related_terminology": [
+      "Reporting",
+      "Codes",
+      "Categories",
+      "Subcategories",
+      "7th characters",
+      "Code completeness"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "All ICD-10-CM codes used for reporting"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.A.2",
+        "title": "Format and Structure",
+        "relationship": "builds_upon",
+        "explanation": "Uses structure concepts for reporting requirements"
+      },
+      {
+        "guideline_id": "I.A.5",
+        "title": "7th Characters",
+        "relationship": "implements",
+        "explanation": "Applies 7th character requirements for reporting"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "I.A.3.S1",
+      "scenario": "Reporting a hypertensive heart disease",
+      "documentation_example": "Patient has hypertensive heart disease with heart failure",
+      "step_by_step": [
+        "Step 1: Locate category I11 (hypertensive heart disease)",
+        "Step 2: Find subcategory I11.0 (hypertensive heart disease with heart failure)",
+        "Step 3: Verify this is the most specific code available",
+        "Step 4: Use I11.0 for reporting (complete code)"
+      ],
+      "correct_coding": {
+        "primary_code": "I11.0",
+        "secondary_codes": [],
+        "sequencing": "Primary diagnosis",
+        "rationale": "I11.0 is a complete code, not a category or subcategory (Evidence: pg no: 8, L24-L25)"
+      },
+      "incorrect_coding": {
+        "code": "I11",
+        "codes": [],
+        "rationale": "I11 is a category, not a complete code",
+        "common_mistake": "Using categories instead of complete codes for reporting"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "I.A.3.E1",
+      "scenario": "Valid vs invalid reporting codes",
+      "code_example": "S72.301A vs S72",
+      "breakdown": {
+        "S72.301A": "Valid reporting code - complete with 7th character (Evidence: pg no: 8, L25-L26)",
+        "S72": "Invalid for reporting - category only (Evidence: pg no: 8, L24-L25)"
+      },
+      "rationale": "Only complete codes with all required characters can be used for reporting (Evidence: pg no: 8, L24-L26)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Categories and subcategories cannot be used for reporting (Evidence: pg no: 8, L25)",
+      "Missing 7th characters make codes invalid for reporting (Evidence: pg no: 8, L25-L26)"
+    ],
+    "best_practices": [
+      "Always verify code completeness before reporting",
+      "Check for 7th character requirements",
+      "Use highest level of specificity available"
+    ],
+    "common_mistakes": [
+      "Reporting categories instead of codes",
+      "Omitting required 7th characters",
+      "Using incomplete codes"
+    ],
+    "tips": [
+      "Complete codes are the only acceptable format for reporting",
+      "When in doubt, verify code structure in Tabular List"
+    ],
+    "implementation_notes": [
+      "This rule applies to all healthcare reporting scenarios"
+    ],
+    "clinical_context": [
+      "Accurate reporting requires complete code specification"
+    ]
+  },
+  "search_keywords": [
+    "reporting codes",
+    "complete codes",
+    "categories subcategories",
+    "7th character required",
+    "code completeness",
+    "reporting requirements"
+  ],
+  "metadata": {
+    "category": "convention",
+    "subcategory": "reporting_requirements",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "October 1, 2025",
+    "tags": [
+      "reporting",
+      "complete_codes",
+      "7th_character",
+      "requirements"
+    ]
+  },
+  "page_range_processed": "pages_7_to_9"
+}

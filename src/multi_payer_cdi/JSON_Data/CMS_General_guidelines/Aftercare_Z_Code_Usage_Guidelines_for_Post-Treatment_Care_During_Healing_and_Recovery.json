@@ -1,0 +1,319 @@
+{
+  "guideline_id": "I.C.21.7",
+  "semantic_title": "Aftercare Z Code Usage Guidelines for Post-Treatment Care During Healing and Recovery",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 21. Factors influencing health status and contact with health services (Z00-Z99) > 7. Aftercare",
+  "page_number": 100,
+  "content": {
+    "full_text": "Aftercare visit codes cover situations when the initial treatment of a disease has been performed and the patient requires continued care during the healing or recovery phase, or for the long-term consequences of the disease. The aftercare Z code should not be used if treatment is directed at a current, acute disease. The diagnosis code is to be used in these cases. The aftercare Z codes should also not be used for aftercare for injuries. For aftercare of an injury, assign the acute injury code with the appropriate 7th character (for subsequent encounter). The aftercare codes are generally first listed to explain the specific reason for the encounter. An aftercare code may be reported as an additional code when a specific type of aftercare is provided in addition to the reason for the encounter. An example of this would be the closure of a colostomy during an encounter for treatment of another condition. Aftercare codes should be used in conjunction with other aftercare codes or diagnosis codes to provide better detail on the specifics of an aftercare encounter visit, unless otherwise directed by the classification. The sequencing of multiple aftercare codes depends on the circumstances of the encounter. Certain aftercare Z code categories need a secondary diagnosis code to describe the resolving condition or sequelae. For others, the condition is included in the code title. Additional Z code aftercare category terms include fitting and adjustment, and attention to artificial openings. Status Z codes may be used with aftercare Z codes to indicate the nature of the aftercare. (Evidence: pg no: 100, L14-L32)",
+    "summary": "Guidelines for using aftercare Z codes for continued care during healing or recovery phase after initial treatment completion, with specific rules for sequencing and combination with other codes (Evidence: pg no: 100, L14-L32)",
+    "key_concepts": [
+      "Aftercare codes for post-treatment healing phase (Evidence: pg no: 100, L14-L16)",
+      "Not for current acute disease treatment (Evidence: pg no: 100, L16-L17)",
+      "Not for injury aftercare - use injury codes with 7th character (Evidence: pg no: 100, L18-L19)",
+      "Generally first-listed codes (Evidence: pg no: 100, L20-L21)",
+      "Can be used as additional codes (Evidence: pg no: 100, L21-L26)",
+      "Status codes may be combined with aftercare codes (Evidence: pg no: 100, L31-L32)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "AFTERCARE_001",
+        "rule_text": "Aftercare Z codes should not be used if treatment is directed at a current, acute disease (Evidence: pg no: 100, L16-L17)",
+        "explanation": "When a patient is receiving treatment for an active, current disease condition, the diagnosis code for that condition should be used instead of an aftercare code (Evidence: pg no: 100, L16-L17)",
+        "importance": "critical",
+        "applies_to": "all aftercare Z codes",
+        "common_applications": [
+          "Distinguishing between active treatment and aftercare",
+          "Proper code selection for ongoing disease management"
+        ]
+      },
+      {
+        "rule_id": "AFTERCARE_002",
+        "rule_text": "Aftercare Z codes should not be used for aftercare for injuries (Evidence: pg no: 100, L18-L19)",
+        "explanation": "For injury aftercare, assign the acute injury code with the appropriate 7th character for subsequent encounter instead of aftercare Z codes (Evidence: pg no: 100, L18-L19)",
+        "importance": "critical",
+        "applies_to": "injury-related aftercare",
+        "common_applications": [
+          "Follow-up visits for healing fractures",
+          "Wound care for traumatic injuries"
+        ]
+      },
+      {
+        "rule_id": "AFTERCARE_003",
+        "rule_text": "Aftercare codes are generally first listed to explain the specific reason for the encounter (Evidence: pg no: 100, L20-L21)",
+        "explanation": "The aftercare code should be the primary diagnosis when the encounter is specifically for aftercare services (Evidence: pg no: 100, L20-L21)",
+        "importance": "high",
+        "applies_to": "all aftercare encounters",
+        "common_applications": [
+          "Post-surgical follow-up visits",
+          "Routine aftercare appointments"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if initial treatment has been completed",
+      "Step 2: Verify patient is in healing/recovery phase or managing long-term consequences",
+      "Step 3: Confirm treatment is not for current acute disease",
+      "Step 4: For injuries, use injury code with 7th character instead of aftercare code",
+      "Step 5: List aftercare code first when it's the primary reason for encounter",
+      "Step 6: Add status codes if needed to indicate nature of aftercare",
+      "Step 7: Sequence multiple codes based on encounter circumstances"
+    ],
+    "related_terminology": [
+      "aftercare",
+      "post-treatment care",
+      "healing phase",
+      "recovery phase",
+      "long-term consequences",
+      "fitting and adjustment",
+      "artificial openings",
+      "status codes"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z42",
+        "description": "Encounter for plastic and reconstructive surgery following medical procedure or healed injury (Evidence: pg no: 100, L34-L35)",
+        "requirement": "Use for post-surgical plastic and reconstructive procedures",
+        "usage_rules": [
+          "For procedures following medical treatment (Evidence: pg no: 100, L34-L35)",
+          "For procedures following healed injury (Evidence: pg no: 100, L34-L35)"
+        ]
+      },
+      {
+        "range": "Z43",
+        "description": "Encounter for attention to artificial openings (Evidence: pg no: 100, L36)",
+        "requirement": "Use for care of artificial openings",
+        "usage_rules": [
+          "Should not be used with corresponding status code (Evidence: pg no: 100, L32)"
+        ]
+      },
+      {
+        "range": "Z44",
+        "description": "Encounter for fitting and adjustment of external prosthetic device (Evidence: pg no: 100, L37-L38)",
+        "requirement": "Use for external prosthetic device services",
+        "usage_rules": [
+          "For fitting services (Evidence: pg no: 100, L37-L38)",
+          "For adjustment services (Evidence: pg no: 100, L37-L38)"
+        ]
+      },
+      {
+        "range": "Z45",
+        "description": "Encounter for adjustment and management of implanted device (Evidence: pg no: 100, L39-L40)",
+        "requirement": "Use for implanted device management",
+        "usage_rules": [
+          "For adjustment services (Evidence: pg no: 100, L39-L40)",
+          "For management services (Evidence: pg no: 100, L39-L40)"
+        ]
+      },
+      {
+        "range": "Z46",
+        "description": "Encounter for fitting and adjustment of other devices (Evidence: pg no: 100, L41)",
+        "requirement": "Use for other device services not elsewhere classified",
+        "usage_rules": [
+          "For fitting of other devices (Evidence: pg no: 100, L41)",
+          "For adjustment of other devices (Evidence: pg no: 100, L41)"
+        ]
+      },
+      {
+        "range": "Z47",
+        "description": "Orthopedic aftercare (Evidence: pg no: 100, L42)",
+        "requirement": "Use for orthopedic aftercare services",
+        "usage_rules": [
+          "For post-orthopedic procedure care (Evidence: pg no: 100, L42)"
+        ]
+      },
+      {
+        "range": "Z48",
+        "description": "Encounter for other postprocedural aftercare (Evidence: pg no: 100, L43)",
+        "requirement": "Use for postprocedural aftercare not elsewhere classified",
+        "usage_rules": [
+          "For aftercare following various procedures (Evidence: pg no: 100, L43)"
+        ]
+      },
+      {
+        "range": "Z49",
+        "description": "Encounter for care involving renal dialysis (Evidence: pg no: 100, L44)",
+        "requirement": "Use for dialysis-related encounters",
+        "usage_rules": [
+          "For renal dialysis care (Evidence: pg no: 100, L44)"
+        ]
+      },
+      {
+        "range": "Z51",
+        "description": "Encounter for other aftercare and medical care (Evidence: pg no: 100, L45)",
+        "requirement": "Use for other aftercare not elsewhere classified",
+        "usage_rules": [
+          "For other aftercare services (Evidence: pg no: 100, L45)",
+          "For other medical care services (Evidence: pg no: 100, L45)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "Z95.1",
+        "description": "Presence of aortocoronary bypass graft (Evidence: pg no: 100, L32)",
+        "context": "Used as status code with aftercare codes",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "Z95": "Status code category",
+          ".1": "Specific to aortocoronary bypass graft"
+        }
+      },
+      {
+        "code": "Z48.812",
+        "description": "Encounter for surgical aftercare following surgery on the circulatory system (Evidence: pg no: 100, L32)",
+        "context": "Used with status codes to indicate type of surgery",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z48": "Other postprocedural aftercare",
+          ".812": "Surgical aftercare following circulatory system surgery"
+        }
+      },
+      {
+        "code": "Z43.0",
+        "description": "Encounter for attention to tracheostomy (Evidence: pg no: 100, L32)",
+        "context": "Should not be used with Z93.0 tracheostomy status",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z43": "Attention to artificial openings",
+          ".0": "Tracheostomy"
+        }
+      },
+      {
+        "code": "Z93.0",
+        "description": "Tracheostomy status (Evidence: pg no: 100, L32)",
+        "context": "Should not be used with Z43.0",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z93": "Artificial opening status",
+          ".0": "Tracheostomy"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Aftercare Z codes",
+      "Status Z codes",
+      "Injury codes with 7th character"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "AFTERCARE_SCENARIO_001",
+      "scenario": "Patient presents for closure of colostomy during treatment of another condition",
+      "documentation_example": "Patient admitted for treatment of pneumonia, colostomy closure also performed during stay",
+      "step_by_step": [
+        "Step 1: Identify primary reason for encounter (pneumonia treatment)",
+        "Step 2: Identify additional aftercare service (colostomy closure)",
+        "Step 3: Code primary condition first",
+        "Step 4: Add aftercare code as additional code"
+      ],
+      "correct_coding": {
+        "primary_code": "Pneumonia code",
+        "secondary_codes": [
+          "Appropriate aftercare code for colostomy closure"
+        ],
+        "sequencing": "Primary condition first, aftercare code as additional",
+        "rationale": "Aftercare code used as additional code when specific aftercare provided in addition to main reason for encounter (Evidence: pg no: 100, L24-L26)"
+      },
+      "incorrect_coding": {
+        "code": "Aftercare code as primary",
+        "codes": [
+          "Aftercare code only"
+        ],
+        "rationale": "Would not capture the primary reason for the encounter",
+        "common_mistake": "Using aftercare code as primary when other treatment is main focus"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "AFTERCARE_EX_001",
+      "scenario": "Status code used with aftercare code",
+      "code_example": "Z95.1 with Z48.812",
+      "breakdown": {
+        "Z95.1": "Indicates presence of aortocoronary bypass graft (Evidence: pg no: 100, L32)",
+        "Z48.812": "Indicates encounter for surgical aftercare following circulatory system surgery (Evidence: pg no: 100, L32)"
+      },
+      "rationale": "Status code provides additional detail about the nature of the aftercare being performed (Evidence: pg no: 100, L31-L32)"
+    },
+    {
+      "example_id": "AFTERCARE_EX_002",
+      "scenario": "Incorrect combination of codes",
+      "code_example": "Z43.0 with Z93.0",
+      "breakdown": {
+        "Z43.0": "Encounter for attention to tracheostomy (Evidence: pg no: 100, L32)",
+        "Z93.0": "Tracheostomy status (Evidence: pg no: 100, L32)"
+      },
+      "rationale": "Should not use status code when aftercare code already indicates the type of status (Evidence: pg no: 100, L32)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not use aftercare codes for current acute disease treatment (Evidence: pg no: 100, L16-L17)",
+      "Do not use aftercare codes for injury aftercare - use injury codes with 7th character (Evidence: pg no: 100, L18-L19)",
+      "Do not use status codes when aftercare code indicates the type of status (Evidence: pg no: 100, L32)"
+    ],
+    "best_practices": [
+      "Use aftercare codes in conjunction with other codes for better detail (Evidence: pg no: 100, L27)",
+      "Consider sequencing based on encounter circumstances (Evidence: pg no: 100, L27-L28)",
+      "Use status codes with aftercare codes when appropriate to indicate nature of aftercare (Evidence: pg no: 100, L31-L32)"
+    ],
+    "common_mistakes": [
+      "Using aftercare codes for active disease treatment",
+      "Using aftercare codes for injury follow-up instead of injury codes with 7th character",
+      "Incorrect sequencing of multiple aftercare codes"
+    ],
+    "tips": [
+      "Check if initial treatment has been completed before using aftercare codes",
+      "Verify patient is in healing/recovery phase",
+      "Consider whether additional codes are needed to describe resolving condition"
+    ],
+    "implementation_notes": [
+      "Some aftercare categories need secondary diagnosis codes",
+      "Other aftercare codes include condition in code title",
+      "Sequencing depends on encounter circumstances"
+    ],
+    "clinical_context": [
+      "Post-surgical care during healing phase",
+      "Long-term consequence management",
+      "Device fitting and adjustment services"
+    ]
+  },
+  "search_keywords": [
+    "aftercare",
+    "post-treatment",
+    "healing phase",
+    "recovery",
+    "Z codes",
+    "aftercare sequencing",
+    "status codes",
+    "artificial openings",
+    "device adjustment",
+    "postprocedural care"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "Z codes aftercare",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "aftercare",
+      "Z codes",
+      "post-treatment",
+      "sequencing",
+      "status codes"
+    ]
+  },
+  "page_range_processed": "pages_99_to_102"
+}

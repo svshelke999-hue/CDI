@@ -1,0 +1,191 @@
+{
+  "guideline_id": "I.C.16.d",
+  "semantic_title": "Coding Prematurity and Fetal Growth Retardation",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 16. Chapter 16: Certain conditions originating in the perinatal period > d. Prematurity and Fetal Growth Retardation",
+  "page_number": 73,
+  "content": {
+    "full_text": "Providers utilize different criteria in determining prematurity. A code for prematurity should not be assigned unless it is documented. Assignment of codes in categories P05, Disorders of newborn related to slow fetal growth and fetal malnutrition, and P07, Disorders of newborn related to short gestation and low birth weight, not elsewhere classified, should be based on the recorded birth weight and estimated gestational age. When both birth weight and gestational age are available, two codes from category P07 should be assigned, with the code for birth weight sequenced before the code for gestational age. (Evidence: pg no: 73-74, L45-L52)",
+    "summary": "Prematurity codes require documentation and should be based on recorded birth weight and gestational age, with specific sequencing rules when both are available (Evidence: pg no: 73-74, L45-L52)",
+    "key_concepts": [
+      "Provider documentation requirement (Evidence: pg no: 73, L47)",
+      "Birth weight criteria (Evidence: pg no: 73, L48)",
+      "Gestational age criteria (Evidence: pg no: 73, L48)",
+      "Dual coding when both available (Evidence: pg no: 74, L51-L52)",
+      "Birth weight sequencing priority (Evidence: pg no: 74, L52)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "prematurity_documentation_rule",
+        "rule_text": "A code for prematurity should not be assigned unless it is documented (Evidence: pg no: 73, L47)",
+        "explanation": "Despite different provider criteria for determining prematurity, codes should only be assigned when prematurity is explicitly documented (Evidence: pg no: 73, L46-L47)",
+        "importance": "critical",
+        "applies_to": "P05, P07 categories",
+        "common_applications": [
+          "Preterm infants with documented prematurity",
+          "Low birth weight infants with documented status"
+        ]
+      },
+      {
+        "rule_id": "birth_weight_gestational_age_rule",
+        "rule_text": "Code assignment should be based on recorded birth weight and estimated gestational age (Evidence: pg no: 73, L47-L48)",
+        "explanation": "P05 and P07 category codes should be assigned based on objective measurements of birth weight and gestational age rather than subjective assessments (Evidence: pg no: 73, L47-L48)",
+        "importance": "high",
+        "applies_to": "P05, P07 categories",
+        "common_applications": [
+          "Using specific birth weight measurements for code selection",
+          "Using documented gestational age for appropriate code assignment"
+        ]
+      },
+      {
+        "rule_id": "dual_p07_coding_rule",
+        "rule_text": "When both birth weight and gestational age are available, assign two codes from P07 with birth weight sequenced first (Evidence: pg no: 74, L51-L52)",
+        "explanation": "When complete information is available, both aspects should be coded with birth weight taking sequencing priority over gestational age (Evidence: pg no: 74, L51-L52)",
+        "importance": "high",
+        "applies_to": "P07 category",
+        "common_applications": [
+          "Preterm infants with documented birth weight and gestational age",
+          "Low birth weight infants with known gestational age"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Verify prematurity or growth retardation is documented",
+      "Step 2: Obtain recorded birth weight",
+      "Step 3: Obtain estimated gestational age",
+      "Step 4: Determine appropriate P05 or P07 codes",
+      "Step 5: If both weight and age available, assign two P07 codes",
+      "Step 6: Sequence birth weight code before gestational age code"
+    ],
+    "related_terminology": [
+      "Prematurity",
+      "Fetal growth retardation",
+      "Birth weight",
+      "Gestational age",
+      "Short gestation",
+      "Low birth weight"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "P05",
+        "description": "Disorders of newborn related to slow fetal growth and fetal malnutrition (Evidence: pg no: 73, L47-L48)",
+        "requirement": "Based on recorded birth weight and gestational age",
+        "usage_rules": [
+          "Requires documentation of condition (Evidence: pg no: 73, L47)"
+        ]
+      },
+      {
+        "range": "P07",
+        "description": "Disorders of newborn related to short gestation and low birth weight, not elsewhere classified (Evidence: pg no: 73, L48)",
+        "requirement": "Based on recorded birth weight and gestational age",
+        "usage_rules": [
+          "When both available, assign two codes (Evidence: pg no: 74, L51-L52)",
+          "Sequence birth weight before gestational age (Evidence: pg no: 74, L52)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "P05 - Slow fetal growth and malnutrition",
+      "P07 - Short gestation and low birth weight"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.16.e",
+        "title": "Low birth weight and immaturity status",
+        "relationship": "related_to",
+        "explanation": "Extends P07 usage to later encounters when affecting current health"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "dual_p07_coding",
+      "scenario": "Preterm infant born at 32 weeks gestation weighing 1800 grams",
+      "documentation_example": "Preterm male infant born at 32 weeks gestational age, birth weight 1800 grams. Admitted to NICU for prematurity management.",
+      "step_by_step": [
+        "Step 1: Confirm prematurity is documented",
+        "Step 2: Note birth weight of 1800 grams",
+        "Step 3: Note gestational age of 32 weeks",
+        "Step 4: Determine appropriate P07 codes for both parameters",
+        "Step 5: Sequence birth weight code first, then gestational age code"
+      ],
+      "correct_coding": {
+        "primary_code": "Z38.00",
+        "secondary_codes": [
+          "P07.14",
+          "P07.33"
+        ],
+        "sequencing": "Z38 principal, P07.14 (birth weight) before P07.33 (gestational age)",
+        "rationale": "Both birth weight and gestational age available, birth weight sequenced first (Evidence: pg no: 74, L51-L52)"
+      },
+      "incorrect_coding": {
+        "code": "P07.33, P07.14",
+        "codes": [
+          "P07.33",
+          "P07.14"
+        ],
+        "rationale": "Birth weight code should be sequenced before gestational age code",
+        "common_mistake": "Incorrect sequencing of birth weight and gestational age codes"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not assign prematurity codes without documentation (Evidence: pg no: 73, L47)"
+    ],
+    "best_practices": [
+      "Base code assignment on recorded measurements (Evidence: pg no: 73, L47-L48)",
+      "Sequence birth weight before gestational age when both coded (Evidence: pg no: 74, L52)"
+    ],
+    "common_mistakes": [
+      "Assigning prematurity codes without documentation",
+      "Incorrect sequencing of P07 codes"
+    ],
+    "tips": [
+      "Use objective measurements for code selection (Evidence: pg no: 73, L47-L48)",
+      "Remember birth weight sequencing priority (Evidence: pg no: 74, L52)"
+    ],
+    "implementation_notes": [
+      "Providers may use different criteria for prematurity determination"
+    ],
+    "clinical_context": [
+      "NICU admissions for preterm or low birth weight infants"
+    ]
+  },
+  "search_keywords": [
+    "prematurity",
+    "fetal growth retardation",
+    "birth weight",
+    "gestational age",
+    "P05",
+    "P07",
+    "preterm",
+    "low birth weight"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "perinatal_conditions",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "prematurity",
+      "birth weight",
+      "gestational age",
+      "P05",
+      "P07",
+      "sequencing"
+    ]
+  },
+  "page_range_processed": "pages_72_to_75"
+}

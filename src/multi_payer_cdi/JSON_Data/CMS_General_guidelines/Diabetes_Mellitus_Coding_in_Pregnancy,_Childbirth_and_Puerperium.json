@@ -1,0 +1,149 @@
+{
+  "guideline_id": "I.C.15.g",
+  "semantic_title": "Diabetes Mellitus Coding in Pregnancy, Childbirth and Puerperium",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 15. Pregnancy, Childbirth, and the Puerperium > g. Diabetes mellitus in pregnancy",
+  "page_number": 67,
+  "content": {
+    "full_text": "Diabetes mellitus is a significant complicating factor in pregnancy. Pregnant patients who are diabetic should be assigned a code from category O24, Diabetes mellitus in pregnancy, childbirth, and the puerperium, first, followed by the appropriate diabetes code(s) (E08-E13) from Chapter 4. (Evidence: pg no: 67, L22-L27)",
+    "summary": "Guidelines for coding diabetes mellitus in pregnant patients requiring dual coding from obstetric and endocrine chapters (Evidence: pg no: 67, L22-L27)",
+    "key_concepts": [
+      "Diabetes as significant pregnancy complication (Evidence: pg no: 67, L23)",
+      "Dual coding requirement for pregnancy diabetes (Evidence: pg no: 67, L23-L27)",
+      "Sequencing priority for obstetric codes (Evidence: pg no: 67, L26-L27)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "diabetes_pregnancy_sequencing",
+        "rule_text": "Code from category O24 should be assigned first, followed by appropriate diabetes codes E08-E13 (Evidence: pg no: 67, L26-L27)",
+        "explanation": "When a pregnant patient has diabetes, the obstetric complication code takes precedence in sequencing, followed by the specific diabetes type code (Evidence: pg no: 67, L23-L27)",
+        "importance": "critical",
+        "applies_to": "O24, E08-E13",
+        "common_applications": [
+          "Type 1 diabetes in pregnancy",
+          "Type 2 diabetes in pregnancy"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify diabetes in pregnant patient",
+      "Step 2: Assign appropriate O24 code first",
+      "Step 3: Add secondary diabetes code from E08-E13"
+    ],
+    "related_terminology": [
+      "diabetes mellitus",
+      "pregnancy complications",
+      "dual coding"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "O24",
+        "description": "Diabetes mellitus in pregnancy, childbirth, and the puerperium (Evidence: pg no: 67, L23-L24)",
+        "requirement": "Must be sequenced first",
+        "usage_rules": [
+          "Use as primary code for diabetes in pregnancy (Evidence: pg no: 67, L26)"
+        ]
+      },
+      {
+        "range": "E08-E13",
+        "description": "Diabetes mellitus codes from Chapter 4 (Evidence: pg no: 67, L27)",
+        "requirement": "Use as secondary codes",
+        "usage_rules": [
+          "Follow O24 codes to specify diabetes type (Evidence: pg no: 67, L27)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Category O24 - Diabetes mellitus in pregnancy, childbirth, and the puerperium"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.4.a.3",
+        "title": "Long term use of insulin and oral hypoglycemics",
+        "relationship": "related_to",
+        "explanation": "Referenced for additional coding guidance on insulin use"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "diabetes_pregnancy_type2",
+      "scenario": "Pregnant patient with pre-existing Type 2 diabetes",
+      "documentation_example": "32-year-old female at 28 weeks gestation with Type 2 diabetes mellitus",
+      "step_by_step": [
+        "Step 1: Identify diabetes complicating pregnancy",
+        "Step 2: Assign O24 code for diabetes in pregnancy",
+        "Step 3: Add E11 code for Type 2 diabetes"
+      ],
+      "correct_coding": {
+        "primary_code": "O24.1",
+        "secondary_codes": [
+          "E11.9"
+        ],
+        "sequencing": "O24 code first, then diabetes type code",
+        "rationale": "Obstetric complication takes precedence with diabetes type specified (Evidence: pg no: 67, L23-L27)"
+      },
+      "incorrect_coding": {
+        "code": "E11.9",
+        "codes": [
+          "E11.9 only"
+        ],
+        "rationale": "Missing obstetric complication code",
+        "common_mistake": "Using only diabetes code without pregnancy complication code"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Diabetes is a significant complicating factor in pregnancy (Evidence: pg no: 67, L23)"
+    ],
+    "best_practices": [
+      "Always sequence O24 codes before diabetes type codes (Evidence: pg no: 67, L26-L27)"
+    ],
+    "common_mistakes": [
+      "Using only diabetes codes without obstetric complication codes"
+    ],
+    "tips": [
+      "Remember dual coding requirement for pregnancy diabetes"
+    ],
+    "implementation_notes": [
+      "Applies to all types of pre-existing diabetes in pregnancy"
+    ],
+    "clinical_context": [
+      "Diabetes significantly impacts pregnancy management and outcomes"
+    ]
+  },
+  "search_keywords": [
+    "diabetes",
+    "pregnancy",
+    "O24",
+    "E08-E13",
+    "dual coding",
+    "diabetes mellitus pregnancy"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "pregnancy_complications",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "diabetes",
+      "pregnancy",
+      "dual_coding",
+      "sequencing"
+    ]
+  },
+  "page_range_processed": "pages_66_to_69"
+}

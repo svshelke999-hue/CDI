@@ -1,0 +1,197 @@
+{
+  "guideline_id": "I.A.17",
+  "semantic_title": "Borderline Diagnosis Coding - Confirmed Diagnosis Assignment and Specific Index Entries",
+  "section_path": "Section I > A. Conventions > 17. Borderline Diagnosis",
+  "page_number": 17,
+  "content": {
+    "full_text": "If the provider documents a \"borderline\" diagnosis at the time of discharge, the diagnosis is coded as confirmed, unless the classification provides a specific entry (e.g., borderline diabetes). If a borderline condition has a specific index entry in ICD-10-CM, it should be coded as such. Since borderline conditions are not uncertain diagnoses, no distinction is made between the care setting (inpatient versus outpatient). Whenever the documentation is unclear regarding a borderline condition, coders are encouraged to query for clarification. (Evidence: pg no: 17, L60-L62)",
+    "summary": "Provides guidance for coding borderline diagnoses as confirmed unless specific index entries exist, with no care setting distinctions (Evidence: pg no: 17, L60-L62)",
+    "key_concepts": [
+      "Borderline diagnoses coded as confirmed (Evidence: pg no: 17, L60-L61)",
+      "Specific index entry exceptions (Evidence: pg no: 17, L61)",
+      "No care setting distinction (Evidence: pg no: 17, L62)",
+      "Query encouragement for unclear documentation (Evidence: pg no: 17, L62)",
+      "Not uncertain diagnoses (Evidence: pg no: 17, L62)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.A.17.1",
+        "rule_text": "Borderline diagnosis at discharge is coded as confirmed (Evidence: pg no: 17, L60-L61)",
+        "explanation": "When a provider documents a borderline diagnosis at the time of discharge, it should be coded as if it were a confirmed diagnosis (Evidence: pg no: 17, L60-L61)",
+        "importance": "high",
+        "applies_to": "borderline_diagnoses",
+        "common_applications": [
+          "Borderline hypertension",
+          "Borderline personality disorder",
+          "Borderline intellectual functioning"
+        ]
+      },
+      {
+        "rule_id": "I.A.17.2",
+        "rule_text": "Use specific index entries when available for borderline conditions (Evidence: pg no: 17, L61)",
+        "explanation": "If the ICD-10-CM classification provides a specific index entry for a borderline condition, that specific code should be used instead of the confirmed diagnosis code (Evidence: pg no: 17, L61)",
+        "importance": "high",
+        "applies_to": "borderline_diagnoses",
+        "common_applications": [
+          "Borderline diabetes with specific code",
+          "Other conditions with specific borderline entries"
+        ]
+      },
+      {
+        "rule_id": "I.A.17.3",
+        "rule_text": "No distinction between inpatient versus outpatient settings (Evidence: pg no: 17, L62)",
+        "explanation": "Borderline conditions are treated the same way regardless of whether the encounter is inpatient or outpatient because they are not considered uncertain diagnoses (Evidence: pg no: 17, L62)",
+        "importance": "medium",
+        "applies_to": "borderline_diagnoses",
+        "common_applications": [
+          "Inpatient discharge diagnoses",
+          "Outpatient visit diagnoses",
+          "Emergency department diagnoses"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify borderline diagnosis documentation at discharge",
+      "Step 2: Check Alphabetic Index for specific borderline entry",
+      "Step 3: If specific entry exists, use that code",
+      "Step 4: If no specific entry, code as confirmed diagnosis",
+      "Step 5: Query provider if documentation is unclear"
+    ],
+    "related_terminology": [
+      "Borderline diagnosis",
+      "Confirmed diagnosis",
+      "Specific index entry",
+      "Uncertain diagnoses",
+      "Care setting",
+      "Discharge diagnosis"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Borderline diabetes codes",
+      "Borderline condition codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "I.A.17.S1",
+      "scenario": "Patient discharged with borderline hypertension",
+      "documentation_example": "Discharge diagnosis: Borderline hypertension",
+      "step_by_step": [
+        "Step 1: Identify borderline hypertension at discharge",
+        "Step 2: Check Alphabetic Index for specific borderline hypertension entry",
+        "Step 3: No specific entry found",
+        "Step 4: Code as confirmed hypertension"
+      ],
+      "correct_coding": {
+        "primary_code": "I10 (Essential hypertension)",
+        "secondary_codes": [],
+        "sequencing": "Code as confirmed diagnosis",
+        "rationale": "No specific borderline hypertension code exists, so code as confirmed hypertension (Evidence: pg no: 17, L60-L61)"
+      },
+      "incorrect_coding": {
+        "code": "R03.0 (Elevated blood pressure reading)",
+        "rationale": "Should not use symptom code when borderline diagnosis is documented at discharge",
+        "common_mistake": "Using symptom codes instead of confirmed diagnosis codes for borderline conditions"
+      }
+    },
+    {
+      "scenario_id": "I.A.17.S2",
+      "scenario": "Patient with borderline diabetes",
+      "documentation_example": "Discharge diagnosis: Borderline diabetes",
+      "step_by_step": [
+        "Step 1: Identify borderline diabetes at discharge",
+        "Step 2: Check Alphabetic Index for specific borderline diabetes entry",
+        "Step 3: Specific entry found",
+        "Step 4: Use the specific borderline diabetes code"
+      ],
+      "correct_coding": {
+        "primary_code": "R73.03 (Prediabetes)",
+        "secondary_codes": [],
+        "sequencing": "Use specific borderline/prediabetes code",
+        "rationale": "Specific code exists for borderline diabetes condition (Evidence: pg no: 17, L61)"
+      },
+      "incorrect_coding": {
+        "code": "E11.9 (Type 2 diabetes without complications)",
+        "rationale": "Should use specific borderline code when available, not confirmed diabetes code",
+        "common_mistake": "Not checking for specific borderline entries in the index"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "I.A.17.E1",
+      "scenario": "Borderline diabetes example",
+      "code_example": "Borderline diabetes with specific index entry",
+      "breakdown": {
+        "Condition": "Borderline diabetes (Evidence: pg no: 17, L61)",
+        "Index check": "Specific entry exists (Evidence: pg no: 17, L61)",
+        "Coding": "Use specific borderline code (Evidence: pg no: 17, L61)"
+      },
+      "rationale": "When specific index entries exist for borderline conditions, they should be used instead of confirmed diagnosis codes (Evidence: pg no: 17, L61)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Always check for specific borderline entries in the Alphabetic Index (Evidence: pg no: 17, L61)",
+      "Do not treat borderline diagnoses as uncertain diagnoses (Evidence: pg no: 17, L62)"
+    ],
+    "best_practices": [
+      "Query provider when borderline documentation is unclear (Evidence: pg no: 17, L62)",
+      "Apply same rules regardless of care setting (Evidence: pg no: 17, L62)",
+      "Check Alphabetic Index before coding as confirmed diagnosis (Evidence: pg no: 17, L61)"
+    ],
+    "common_mistakes": [
+      "Not checking for specific borderline index entries",
+      "Treating borderline diagnoses as uncertain",
+      "Applying different rules for inpatient vs outpatient"
+    ],
+    "tips": [
+      "Borderline conditions are definitive, not uncertain",
+      "Specific codes take precedence over general confirmed coding",
+      "Care setting does not affect borderline diagnosis coding"
+    ],
+    "implementation_notes": [
+      "Consistent application across all care settings",
+      "Provider queries may be necessary for clarification"
+    ],
+    "clinical_context": [
+      "Borderline conditions represent clinical findings at discharge",
+      "May indicate conditions requiring monitoring or intervention"
+    ]
+  },
+  "search_keywords": [
+    "borderline diagnosis",
+    "confirmed diagnosis",
+    "specific index entry",
+    "borderline diabetes",
+    "care setting",
+    "uncertain diagnosis",
+    "discharge diagnosis",
+    "provider query"
+  ],
+  "metadata": {
+    "category": "convention",
+    "subcategory": "diagnosis_certainty",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "borderline",
+      "confirmed_diagnosis",
+      "index_entries",
+      "care_setting"
+    ]
+  },
+  "page_range_processed": "pages_15_to_18"
+}

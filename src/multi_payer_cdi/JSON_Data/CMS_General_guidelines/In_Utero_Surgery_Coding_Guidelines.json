@@ -1,0 +1,211 @@
+{
+  "guideline_id": "I.C.15.e.2",
+  "semantic_title": "In Utero Surgery Coding Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 15. Chapter 15: Pregnancy, Childbirth, and the Puerperium > e. Fetal Conditions Affecting the Management of the Mother > 2) In utero surgery",
+  "page_number": 66,
+  "content": {
+    "full_text": "In cases when surgery is performed on the fetus, a diagnosis code from category O35, Maternal care for known or suspected fetal abnormality and damage, should be assigned identifying the fetal condition. Assign the appropriate procedure code for the procedure performed. No code from Chapter 16, the perinatal codes, should be used on the mother's record to identify fetal conditions. Surgery performed in utero on a fetus is still to be coded as an obstetric encounter. (Evidence: pg no: 66, L84-L87)",
+    "summary": "Guidelines for coding in utero fetal surgery on maternal records (Evidence: pg no: 66, L84-L87)",
+    "key_concepts": [
+      "O35 category for fetal surgery (Evidence: pg no: 66, L85-L86)",
+      "Procedure code assignment (Evidence: pg no: 66, L86)",
+      "Chapter 16 code exclusion (Evidence: pg no: 66, L87)",
+      "Obstetric encounter classification (Evidence: pg no: 66, L87)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.C.15.e.2.1",
+        "rule_text": "Use O35 category for fetal condition when in utero surgery performed (Evidence: pg no: 66, L85-L86)",
+        "explanation": "When fetal surgery is performed, assign diagnosis code from O35 category to identify the fetal condition being treated (Evidence: pg no: 66, L85-L86)",
+        "importance": "critical",
+        "applies_to": "O35",
+        "common_applications": [
+          "Fetal spina bifida repair",
+          "Fetal cardiac interventions",
+          "Fetal tumor removal",
+          "Fetal shunt procedures"
+        ]
+      },
+      {
+        "rule_id": "I.C.15.e.2.2",
+        "rule_text": "Assign appropriate procedure code for surgery performed (Evidence: pg no: 66, L86)",
+        "explanation": "In addition to diagnosis code, assign the specific procedure code for the fetal surgery performed (Evidence: pg no: 66, L86)",
+        "importance": "critical",
+        "applies_to": "Procedure codes",
+        "common_applications": [
+          "Fetal surgical procedures",
+          "In utero interventions",
+          "Fetal therapy procedures"
+        ]
+      },
+      {
+        "rule_id": "I.C.15.e.2.3",
+        "rule_text": "Do not use Chapter 16 perinatal codes on mother's record (Evidence: pg no: 66, L87)",
+        "explanation": "Perinatal codes from Chapter 16 should not be used on the maternal record for fetal conditions (Evidence: pg no: 66, L87)",
+        "importance": "critical",
+        "applies_to": "P00-P96",
+        "common_applications": [
+          "Fetal condition coding",
+          "In utero surgery coding",
+          "Maternal record coding"
+        ]
+      },
+      {
+        "rule_id": "I.C.15.e.2.4",
+        "rule_text": "In utero surgery coded as obstetric encounter (Evidence: pg no: 66, L87)",
+        "explanation": "Surgery performed on fetus in utero is still considered an obstetric encounter for coding purposes (Evidence: pg no: 66, L87)",
+        "importance": "high",
+        "applies_to": "All in utero procedures",
+        "common_applications": [
+          "Fetal surgery encounters",
+          "Maternal-fetal procedures",
+          "In utero interventions"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify fetal surgery performed in utero",
+      "Step 2: Assign O35 code for fetal condition being treated",
+      "Step 3: Assign appropriate procedure code for surgery",
+      "Step 4: Do not use Chapter 16 codes on maternal record",
+      "Step 5: Code as obstetric encounter"
+    ],
+    "related_terminology": [
+      "In utero surgery",
+      "Fetal surgery",
+      "Obstetric encounter",
+      "Perinatal codes",
+      "Procedure codes"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "O35",
+        "description": "Maternal care for known or suspected fetal abnormality and damage (Evidence: pg no: 66, L85-L86)",
+        "requirement": "Use for fetal conditions requiring in utero surgery",
+        "usage_rules": [
+          "Identify specific fetal condition being treated (Evidence: pg no: 66, L85-L86)"
+        ]
+      },
+      {
+        "range": "P00-P96",
+        "description": "Perinatal codes (Evidence: pg no: 66, L87)",
+        "requirement": "Do not use on maternal record",
+        "usage_rules": [
+          "Excluded from maternal records for fetal conditions (Evidence: pg no: 66, L87)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Fetal abnormality codes",
+      "Perinatal codes",
+      "Procedure codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.15.e.1",
+        "title": "Codes from categories O35 and O36",
+        "relationship": "builds_upon",
+        "explanation": "Specific application of O35 codes for surgical intervention"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "fetal_surgery_1",
+      "scenario": "In utero repair of fetal spina bifida at 26 weeks gestation",
+      "documentation_example": "Patient underwent in utero fetal surgery for repair of spina bifida at 26 weeks gestation, procedure successful",
+      "step_by_step": [
+        "Step 1: Identify in utero surgery for spina bifida",
+        "Step 2: Assign O35.03X0 for maternal care for fetal spina bifida",
+        "Step 3: Assign appropriate procedure code for fetal spina bifida repair",
+        "Step 4: Do not use any P codes on maternal record"
+      ],
+      "correct_coding": {
+        "primary_code": "O35.03X0",
+        "secondary_codes": [
+          "Z3A.26"
+        ],
+        "sequencing": "Fetal condition code as primary",
+        "rationale": "In utero surgery requires O35 code for fetal condition, not perinatal codes (Evidence: pg no: 66, L85-L87)"
+      },
+      "incorrect_coding": {
+        "code": "P05.9",
+        "codes": [
+          "P05.9"
+        ],
+        "rationale": "Should not use Chapter 16 perinatal codes on maternal record",
+        "common_mistake": "Using perinatal codes on maternal record for fetal conditions"
+      }
+    }
+  ],
+  "procedure_links": [
+    {
+      "cpt_code": "Various fetal surgery codes",
+      "description": "Specific procedure codes for in utero fetal surgery",
+      "relationship": "commonly_coded_with",
+      "context": "Required with O35 diagnosis codes for fetal surgery",
+      "note": "Must assign appropriate procedure code for surgery performed"
+    }
+  ],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Never use Chapter 16 perinatal codes on maternal record (Evidence: pg no: 66, L87)"
+    ],
+    "best_practices": [
+      "Always assign O35 code for fetal condition requiring surgery (Evidence: pg no: 66, L85-L86)",
+      "Include appropriate procedure code for surgery performed (Evidence: pg no: 66, L86)",
+      "Code as obstetric encounter (Evidence: pg no: 66, L87)"
+    ],
+    "common_mistakes": [
+      "Using perinatal codes on maternal record",
+      "Forgetting to assign procedure code",
+      "Not recognizing as obstetric encounter"
+    ],
+    "tips": [
+      "In utero surgery always uses maternal codes, not fetal/perinatal codes",
+      "Remember to code both diagnosis and procedure"
+    ],
+    "implementation_notes": [
+      "Requires knowledge of appropriate procedure codes",
+      "Coordination between diagnosis and procedure coding"
+    ],
+    "clinical_context": [
+      "Maternal-fetal medicine centers",
+      "Specialized fetal surgery programs",
+      "High-risk pregnancy management"
+    ]
+  },
+  "search_keywords": [
+    "in utero surgery",
+    "fetal surgery",
+    "O35 codes",
+    "perinatal codes exclusion",
+    "obstetric encounter",
+    "procedure codes"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "obstetric_coding",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "pregnancy",
+      "fetal_surgery",
+      "in_utero",
+      "O35",
+      "procedure_coding"
+    ]
+  },
+  "page_range_processed": "pages_63_to_66"
+}

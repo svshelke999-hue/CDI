@@ -1,0 +1,263 @@
+{
+  "guideline_id": "I.C.1.g.1.l",
+  "semantic_title": "Coding Guidelines for Multisystem Inflammatory Syndrome Related to COVID-19",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 1. Chapter 1: Certain Infectious and Parasitic Diseases > g. Coronavirus infections > 1. COVID-19 infections > l. Multisystem Inflammatory Syndrome",
+  "page_number": 32,
+  "content": {
+    "full_text": "For individuals with multisystem inflammatory syndrome (MIS) and COVID-19, assign code U07.1, COVID-19, as the principal/first-listed diagnosis and assign code M35.81, Multisystem inflammatory syndrome, as an additional diagnosis. If an individual with a history of COVID-19 develops MIS, assign codes M35.81, Multisystem inflammatory syndrome, and U09.9, Post COVID-19 condition, unspecified. If an individual with a known or suspected exposure to COVID-19, and no current COVID-19 infection or history of COVID-19, develops MIS, assign codes M35.81, Multisystem inflammatory syndrome, and Z20.822, Contact with and (suspected) exposure to COVID-19. Additional codes should be assigned for any associated complications of MIS. (Evidence: pg no: 32, L51-L58)",
+    "summary": "Provides comprehensive coding instructions for multisystem inflammatory syndrome (MIS) in various COVID-19 contexts including active infection, history, and exposure scenarios (Evidence: pg no: 32, L51-L58)",
+    "key_concepts": [
+      "MIS with active COVID-19 coding (Evidence: pg no: 32, L52-L53)",
+      "MIS with COVID-19 history coding (Evidence: pg no: 32, L53-L54)",
+      "MIS with COVID-19 exposure coding (Evidence: pg no: 32, L54-L57)",
+      "Additional complication coding requirement (Evidence: pg no: 32, L58)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "MIS_COVID_01",
+        "rule_text": "For MIS with active COVID-19, assign U07.1 as principal and M35.81 as additional (Evidence: pg no: 32, L52-L53)",
+        "explanation": "When an individual has both multisystem inflammatory syndrome and COVID-19, assign U07.1 as the principal/first-listed diagnosis and M35.81 as an additional diagnosis (Evidence: pg no: 32, L52-L53)",
+        "importance": "critical",
+        "applies_to": "U07.1, M35.81",
+        "common_applications": [
+          "Pediatric MIS-C cases with active COVID-19",
+          "Adult MIS-A cases with active COVID-19"
+        ]
+      },
+      {
+        "rule_id": "MIS_COVID_02",
+        "rule_text": "For MIS with COVID-19 history, assign M35.81 and U09.9 (Evidence: pg no: 32, L53-L54)",
+        "explanation": "If an individual with a history of COVID-19 develops MIS, assign codes M35.81 and U09.9 (Evidence: pg no: 32, L53-L54)",
+        "importance": "critical",
+        "applies_to": "M35.81, U09.9",
+        "common_applications": [
+          "Post-COVID MIS development",
+          "Delayed MIS presentation"
+        ]
+      },
+      {
+        "rule_id": "MIS_COVID_03",
+        "rule_text": "For MIS with COVID-19 exposure only, assign M35.81 and Z20.822 (Evidence: pg no: 32, L54-L57)",
+        "explanation": "If an individual with known or suspected exposure to COVID-19, and no current COVID-19 infection or history of COVID-19, develops MIS, assign codes M35.81 and Z20.822 (Evidence: pg no: 32, L54-L57)",
+        "importance": "critical",
+        "applies_to": "M35.81, Z20.822",
+        "common_applications": [
+          "MIS in exposed individuals without confirmed infection",
+          "MIS with suspected COVID-19 exposure"
+        ]
+      },
+      {
+        "rule_id": "MIS_COMP_01",
+        "rule_text": "Assign additional codes for MIS complications (Evidence: pg no: 32, L58)",
+        "explanation": "Additional codes should be assigned for any associated complications of MIS (Evidence: pg no: 32, L58)",
+        "importance": "high",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Cardiac complications",
+          "Gastrointestinal complications"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine COVID-19 status (active, history, exposure only)",
+      "Step 2: Confirm MIS diagnosis",
+      "Step 3: Apply appropriate coding combination based on COVID-19 status",
+      "Step 4: Identify and code any MIS complications",
+      "Step 5: Sequence codes according to guidelines"
+    ],
+    "related_terminology": [
+      "multisystem inflammatory syndrome",
+      "MIS-C",
+      "MIS-A",
+      "post-COVID condition",
+      "COVID-19 exposure"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "U07.1",
+        "description": "COVID-19 (Evidence: pg no: 32, L52)",
+        "context": "Principal diagnosis when MIS occurs with active COVID-19",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "U07": "COVID-19 category",
+          ".1": "Confirmed COVID-19"
+        }
+      },
+      {
+        "code": "M35.81",
+        "description": "Multisystem inflammatory syndrome (Evidence: pg no: 32, L53)",
+        "context": "Used in all MIS scenarios with appropriate companion codes",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "M35": "Other systemic involvement of connective tissue",
+          ".81": "Multisystem inflammatory syndrome"
+        }
+      },
+      {
+        "code": "U09.9",
+        "description": "Post COVID-19 condition, unspecified (Evidence: pg no: 32, L54)",
+        "context": "Used with M35.81 when MIS develops after COVID-19 history",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "U09": "Post COVID-19 condition",
+          ".9": "Unspecified"
+        }
+      },
+      {
+        "code": "Z20.822",
+        "description": "Contact with and (suspected) exposure to COVID-19 (Evidence: pg no: 32, L57)",
+        "context": "Used with M35.81 when MIS occurs with COVID-19 exposure only",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "Z20": "Contact with and exposure to communicable diseases",
+          ".822": "Contact with and (suspected) exposure to COVID-19"
+        }
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": "U07.1 + M35.81",
+        "description": "MIS with active COVID-19 (Evidence: pg no: 32, L52-L53)",
+        "example": "U07.1, M35.81",
+        "explanation": "COVID-19 as principal, MIS as additional"
+      },
+      {
+        "pattern": "M35.81 + U09.9",
+        "description": "MIS with COVID-19 history (Evidence: pg no: 32, L53-L54)",
+        "example": "M35.81, U09.9",
+        "explanation": "MIS with post-COVID condition"
+      },
+      {
+        "pattern": "M35.81 + Z20.822",
+        "description": "MIS with COVID-19 exposure only (Evidence: pg no: 32, L54-L57)",
+        "example": "M35.81, Z20.822",
+        "explanation": "MIS with exposure but no confirmed infection"
+      }
+    ],
+    "code_categories_mentioned": [
+      "COVID-19 infections",
+      "Systemic connective tissue disorders",
+      "Post COVID-19 conditions",
+      "Contact and exposure codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "MIS_COVID_01",
+      "scenario": "Child presents with MIS-C and active COVID-19 infection",
+      "documentation_example": "8-year-old with multisystem inflammatory syndrome and confirmed COVID-19 infection",
+      "step_by_step": [
+        "Step 1: Confirm active COVID-19 infection",
+        "Step 2: Confirm MIS diagnosis",
+        "Step 3: Assign U07.1 as principal diagnosis",
+        "Step 4: Assign M35.81 as additional diagnosis",
+        "Step 5: Code any complications"
+      ],
+      "correct_coding": {
+        "primary_code": "U07.1",
+        "secondary_codes": [
+          "M35.81"
+        ],
+        "sequencing": "U07.1 first, M35.81 as additional",
+        "rationale": "COVID-19 is principal when occurring with MIS (Evidence: pg no: 32, L52-L53)"
+      },
+      "incorrect_coding": {
+        "code": "M35.81",
+        "codes": [
+          "M35.81 as principal"
+        ],
+        "rationale": "COVID-19 should be principal when both conditions are present",
+        "common_mistake": "Incorrect sequencing of codes"
+      }
+    },
+    {
+      "scenario_id": "MIS_COVID_02",
+      "scenario": "Patient develops MIS after recovering from COVID-19",
+      "documentation_example": "Patient with history of COVID-19 two months ago now presents with multisystem inflammatory syndrome",
+      "step_by_step": [
+        "Step 1: Confirm COVID-19 history",
+        "Step 2: Confirm no current COVID-19 infection",
+        "Step 3: Confirm MIS diagnosis",
+        "Step 4: Assign M35.81",
+        "Step 5: Assign U09.9"
+      ],
+      "correct_coding": {
+        "primary_code": "M35.81",
+        "secondary_codes": [
+          "U09.9"
+        ],
+        "sequencing": "M35.81 and U09.9",
+        "rationale": "MIS with post-COVID condition for history cases (Evidence: pg no: 32, L53-L54)"
+      },
+      "incorrect_coding": {
+        "code": "U07.1",
+        "codes": [
+          "U07.1",
+          "M35.81"
+        ],
+        "rationale": "U07.1 is for active infection, not history",
+        "common_mistake": "Using active COVID code for history cases"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Different coding combinations required based on COVID-19 status (Evidence: pg no: 32, L51-L57)"
+    ],
+    "best_practices": [
+      "Always code MIS complications with additional codes (Evidence: pg no: 32, L58)",
+      "Carefully determine COVID-19 status before coding (Evidence: pg no: 32, L51-L57)"
+    ],
+    "common_mistakes": [
+      "Using same code combination for all MIS scenarios",
+      "Incorrect sequencing of principal and additional diagnoses"
+    ],
+    "tips": [
+      "Consider timing of COVID-19 infection relative to MIS development"
+    ],
+    "implementation_notes": [
+      "Establish clear protocols for determining COVID-19 status in MIS cases"
+    ],
+    "clinical_context": [
+      "Pediatric MIS-C cases",
+      "Adult MIS-A cases",
+      "Post-COVID complications"
+    ]
+  },
+  "search_keywords": [
+    "multisystem inflammatory syndrome",
+    "MIS",
+    "MIS-C",
+    "MIS-A",
+    "M35.81",
+    "COVID-19 MIS",
+    "post-COVID MIS"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "COVID-19 coding",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "COVID-19",
+      "MIS",
+      "multisystem_inflammatory",
+      "pediatric",
+      "complications"
+    ]
+  },
+  "page_range_processed": "pages_30_to_33"
+}

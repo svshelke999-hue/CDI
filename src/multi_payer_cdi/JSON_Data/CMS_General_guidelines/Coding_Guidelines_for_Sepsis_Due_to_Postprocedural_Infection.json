@@ -1,0 +1,299 @@
+{
+  "guideline_id": "I.C.1.d.5",
+  "semantic_title": "Coding Guidelines for Sepsis Due to Postprocedural Infection",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 1. Certain Infectious and Parasitic Diseases > d. Sepsis, Severe Sepsis, and Septic Shock > 5. Sepsis due to a postprocedural infection",
+  "page_number": 25,
+  "content": {
+    "full_text": "Documentation of causal relationship: As with all postprocedural complications, code assignment is based on the provider's documentation of the relationship between the infection and the procedure. Sepsis due to a postprocedural infection: For sepsis following a postprocedural wound (surgical site) infection, a code from T81.41 to T81.43, Infection following a procedure, T81.49, Infection following a procedure, other surgical site, or a code from O86.00 to O86.03, Infection of obstetric surgical wound, or code O86.09, Infection of obstetric surgical wound, other surgical site, that identifies the site of the infection should be sequenced first, if known. Assign an additional code for sepsis following a procedure (T81.44) or sepsis following an obstetrical procedure (O86.04). Use an additional code to identify the infectious agent. If the patient has severe sepsis, the appropriate code from subcategory R65.2 should also be assigned with the additional code(s) for any acute organ dysfunction. For infections following infusion, transfusion, therapeutic injection, or immunization, a code from subcategory T80.2, Infections following infusion, transfusion, and therapeutic injection, or code T88.0-, Infection following immunization, should be coded first, followed by the code for the specific infection. If the patient has severe sepsis, the appropriate code from subcategory R65.2 should also be assigned, with the additional codes(s) for any acute organ dysfunction. Postprocedural infection and postprocedural septic shock: If a postprocedural infection has resulted in postprocedural septic shock, assign the codes indicated above for sepsis due to a postprocedural infection, followed by code T81.12-, Postprocedural septic shock. Do not assign code R65.21, Severe sepsis with septic shock. Additional code(s) should be assigned for any acute organ dysfunction. (Evidence: pg no: 25-26, L22-L35)",
+    "summary": "Comprehensive guidelines for coding sepsis that develops following medical procedures, including specific sequencing rules and code assignments for different types of postprocedural infections (Evidence: pg no: 25-26, L22-L35)",
+    "key_concepts": [
+      "Provider documentation requirement for causal relationship (Evidence: pg no: 25, L23-L24)",
+      "Surgical site infection sequencing (Evidence: pg no: 25-26, L25-L33)",
+      "Infusion/transfusion infection coding (Evidence: pg no: 26, L33-L34)",
+      "Postprocedural septic shock coding (Evidence: pg no: 26, L34-L35)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "postproc_documentation",
+        "rule_text": "Code assignment based on provider's documentation of relationship between infection and procedure (Evidence: pg no: 25, L23-L24)",
+        "explanation": "Provider must document causal relationship between the procedure and resulting infection for appropriate code assignment (Evidence: pg no: 25, L23-L24)",
+        "importance": "critical",
+        "applies_to": "all postprocedural complications",
+        "common_applications": [
+          "Post-surgical infections",
+          "Post-procedure sepsis"
+        ]
+      },
+      {
+        "rule_id": "surgical_site_sequencing",
+        "rule_text": "For surgical site infections, sequence infection site code first, then sepsis code (Evidence: pg no: 25-26, L26-L31)",
+        "explanation": "Specific infection site codes from T81.41-T81.43, T81.49, or O86.00-O86.03, O86.09 should be sequenced first when site is known (Evidence: pg no: 25-26, L26-L30)",
+        "importance": "critical",
+        "applies_to": "T81.41-T81.43, T81.49, O86.00-O86.03, O86.09",
+        "common_applications": [
+          "Post-surgical wound infections",
+          "Obstetric surgical site infections"
+        ]
+      },
+      {
+        "rule_id": "postproc_septic_shock",
+        "rule_text": "For postprocedural septic shock, use T81.12- instead of R65.21 (Evidence: pg no: 26, L34-L35)",
+        "explanation": "When postprocedural infection results in septic shock, assign T81.12- Postprocedural septic shock rather than R65.21 Severe sepsis with septic shock (Evidence: pg no: 26, L34-L35)",
+        "importance": "critical",
+        "applies_to": "postprocedural septic shock cases",
+        "common_applications": [
+          "Post-surgical septic shock",
+          "Post-procedure complications with shock"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Verify provider documentation of causal relationship",
+      "Step 2: Identify type of postprocedural infection (surgical site vs infusion/transfusion)",
+      "Step 3: Sequence appropriate infection site code first",
+      "Step 4: Add sepsis following procedure code (T81.44 or O86.04)",
+      "Step 5: Add infectious agent code",
+      "Step 6: Add severe sepsis code (R65.2) if applicable",
+      "Step 7: Add organ dysfunction codes if present",
+      "Step 8: For septic shock, use T81.12- instead of R65.21"
+    ],
+    "related_terminology": [
+      "postprocedural infection",
+      "surgical site infection",
+      "causal relationship",
+      "infusion infection",
+      "transfusion infection",
+      "immunization infection",
+      "postprocedural septic shock",
+      "infectious agent"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "T81.41-T81.43",
+        "description": "Infection following a procedure (Evidence: pg no: 25, L27)",
+        "requirement": "Sequence first when site known",
+        "usage_rules": [
+          "Used for surgical site infections (Evidence: pg no: 25, L26-L27)",
+          "Sequence before sepsis codes (Evidence: pg no: 25, L30)"
+        ]
+      },
+      {
+        "range": "O86.00-O86.03",
+        "description": "Infection of obstetric surgical wound (Evidence: pg no: 25, L28)",
+        "requirement": "For obstetric surgical site infections",
+        "usage_rules": [
+          "Sequence first when site known (Evidence: pg no: 25, L29-L30)",
+          "Use with obstetric procedures (Evidence: pg no: 25, L28)"
+        ]
+      },
+      {
+        "range": "T80.2",
+        "description": "Infections following infusion, transfusion, and therapeutic injection (Evidence: pg no: 26, L33)",
+        "requirement": "Code first for infusion/transfusion infections",
+        "usage_rules": [
+          "Used for infusion-related infections (Evidence: pg no: 26, L33)",
+          "Followed by specific infection code (Evidence: pg no: 26, L33-L34)"
+        ]
+      },
+      {
+        "range": "R65.2",
+        "description": "Severe sepsis subcategory (Evidence: pg no: 26, L32, L34)",
+        "requirement": "Assign when severe sepsis present",
+        "usage_rules": [
+          "Include with organ dysfunction codes (Evidence: pg no: 26, L32-L33, L34)",
+          "Used for both surgical and infusion infections (Evidence: pg no: 26, L32, L34)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "T81.44",
+        "description": "Sepsis following a procedure (Evidence: pg no: 25, L31)",
+        "context": "Additional code for non-obstetric postprocedural sepsis",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "T81": "Complications of procedures",
+          "44": "Sepsis following procedure"
+        }
+      },
+      {
+        "code": "O86.04",
+        "description": "Sepsis following an obstetrical procedure (Evidence: pg no: 25, L31)",
+        "context": "Additional code for obstetric postprocedural sepsis",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "O86": "Other puerperal infections",
+          "04": "Sepsis following obstetrical procedure"
+        }
+      },
+      {
+        "code": "T81.49",
+        "description": "Infection following a procedure, other surgical site (Evidence: pg no: 25, L27-L28)",
+        "context": "For surgical site infections not specified elsewhere",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "T81": "Complications of procedures",
+          "49": "Other surgical site infection"
+        }
+      },
+      {
+        "code": "O86.09",
+        "description": "Infection of obstetric surgical wound, other surgical site (Evidence: pg no: 25, L28-L29)",
+        "context": "For obstetric surgical site infections not specified elsewhere",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "O86": "Other puerperal infections",
+          "09": "Other obstetric surgical site infection"
+        }
+      },
+      {
+        "code": "T88.0-",
+        "description": "Infection following immunization (Evidence: pg no: 26, L33)",
+        "context": "Code first for immunization-related infections",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "T88": "Other complications of surgical and medical care",
+          "0": "Infection following immunization"
+        }
+      },
+      {
+        "code": "T81.12-",
+        "description": "Postprocedural septic shock (Evidence: pg no: 26, L35)",
+        "context": "Use instead of R65.21 for postprocedural septic shock",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "T81": "Complications of procedures",
+          "12": "Postprocedural septic shock"
+        }
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": "Site infection code + T81.44/O86.04 + infectious agent + R65.2 (if severe)",
+        "description": "Standard pattern for postprocedural sepsis coding (Evidence: pg no: 25-26, L30-L32)",
+        "example": "T81.41 + T81.44 + B95.62 + R65.20",
+        "explanation": "Sequential coding from infection site to sepsis to organism to severity"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Postprocedural infection codes",
+      "Sepsis following procedure codes",
+      "Infectious agent codes",
+      "Severe sepsis codes",
+      "Organ dysfunction codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "surgical_site_sepsis",
+      "scenario": "Patient develops sepsis following surgical wound infection",
+      "documentation_example": "Post-operative wound infection with sepsis due to MRSA",
+      "step_by_step": [
+        "Step 1: Verify provider documented causal relationship",
+        "Step 2: Assign surgical site infection code first (T81.41-T81.43)",
+        "Step 3: Add sepsis following procedure code (T81.44)",
+        "Step 4: Add infectious agent code (B95.62 for MRSA)",
+        "Step 5: Add severe sepsis code if applicable"
+      ],
+      "correct_coding": {
+        "primary_code": "T81.4X (surgical site infection)",
+        "secondary_codes": [
+          "T81.44",
+          "B95.62",
+          "R65.2X if severe"
+        ],
+        "sequencing": "Site infection first, then sepsis, then organism, then severity",
+        "rationale": "Site-specific infection code takes priority in postprocedural cases (Evidence: pg no: 25, L29-L30)"
+      },
+      "incorrect_coding": {
+        "code": "A41.02 as primary",
+        "codes": [
+          "Sepsis code first without site infection"
+        ],
+        "rationale": "Missing required postprocedural infection sequencing",
+        "common_mistake": "Using general sepsis codes instead of postprocedural sequence"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "obstetric_sepsis",
+      "scenario": "Sepsis following cesarean section wound infection",
+      "code_example": "O86.01 + O86.04 + infectious agent code",
+      "breakdown": {
+        "O86.01": "Infection of obstetric surgical wound, superficial incisional site (Evidence: pg no: 25, L28)",
+        "O86.04": "Sepsis following obstetrical procedure (Evidence: pg no: 25, L31)",
+        "infectious_agent": "Additional code to identify organism (Evidence: pg no: 25, L31)"
+      },
+      "rationale": "Obstetric procedures require specific O86 codes rather than T81 codes (Evidence: pg no: 25, L28-L31)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Provider must document causal relationship (Evidence: pg no: 25, L23-L24)",
+      "Do not use R65.21 for postprocedural septic shock (Evidence: pg no: 26, L35)",
+      "Different codes for obstetric vs non-obstetric procedures (Evidence: pg no: 25, L28, L31)"
+    ],
+    "best_practices": [
+      "Always sequence infection site code first when known (Evidence: pg no: 25, L29-L30)",
+      "Include infectious agent identification (Evidence: pg no: 25, L31)",
+      "Add organ dysfunction codes when severe sepsis present (Evidence: pg no: 26, L32-L33)"
+    ],
+    "common_mistakes": [
+      "Using general sepsis codes instead of postprocedural sequence (Evidence: pg no: 25, L30-L31)",
+      "Incorrect sequencing of infection site and sepsis codes (Evidence: pg no: 25, L29-L30)",
+      "Using R65.21 instead of T81.12- for postprocedural septic shock (Evidence: pg no: 26, L35)"
+    ],
+    "tips": [
+      "Review procedure notes for infection relationship documentation (Evidence: pg no: 25, L23-L24)",
+      "Distinguish between surgical site and infusion/transfusion infections (Evidence: pg no: 25-26, L26, L33)",
+      "Use appropriate obstetric codes when applicable (Evidence: pg no: 25, L28)"
+    ],
+    "implementation_notes": [
+      "Requires careful review of procedure and infection documentation",
+      "Multiple code assignments typically required",
+      "Different pathways for different procedure types"
+    ],
+    "clinical_context": [
+      "Common in post-surgical patients",
+      "Frequent in ICU and post-operative settings",
+      "Important for infection control tracking"
+    ]
+  },
+  "search_keywords": [
+    "postprocedural sepsis",
+    "surgical site infection",
+    "post-operative infection",
+    "procedure-related sepsis",
+    "infusion infection",
+    "transfusion infection",
+    "immunization infection",
+    "postprocedural septic shock",
+    "T81.44",
+    "O86.04"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "infectious_diseases",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "postprocedural",
+      "sepsis",
+      "surgical_site",
+      "sequencing",
+      "complications"
+    ]
+  },
+  "page_range_processed": "pages_24_to_27"
+}

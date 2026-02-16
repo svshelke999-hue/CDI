@@ -1,0 +1,144 @@
+{
+  "guideline_id": "IV.L.1",
+  "semantic_title": "Exception Rule for Chemotherapy and Radiation Therapy Primary Reason for Admission",
+  "section_path": "Section IV > Diagnostic Coding and Reporting Guidelines for Outpatient Services > L. Patients receiving therapeutic services only",
+  "page_number": 115,
+  "content": {
+    "full_text": "The only exception to this rule is that when the primary reason for the admission/encounter is chemotherapy or radiation therapy, the appropriate Z code for the service is listed first, and the diagnosis or problem for which the service is being performed listed second. (Evidence: pg no: 115, L20-L21)",
+    "summary": "Special sequencing rule for chemotherapy and radiation therapy encounters where Z code is listed first instead of the underlying diagnosis (Evidence: pg no: 115, L20-L21)",
+    "key_concepts": [
+      "Exception to standard therapeutic services sequencing (Evidence: pg no: 115, L20)",
+      "Z code sequencing priority for chemotherapy/radiation (Evidence: pg no: 115, L21)",
+      "Secondary listing of underlying diagnosis (Evidence: pg no: 115, L21)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "IV.L.1.a",
+        "rule_text": "When primary reason for admission/encounter is chemotherapy or radiation therapy, list appropriate Z code first (Evidence: pg no: 115, L20-L21)",
+        "explanation": "This is an exception to the general rule for therapeutic services where normally the diagnosis responsible for services would be sequenced first (Evidence: pg no: 115, L20-L21)",
+        "importance": "critical",
+        "applies_to": "chemotherapy and radiation therapy encounters",
+        "common_applications": [
+          "Chemotherapy administration encounters",
+          "Radiation therapy treatment encounters"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify if primary reason is chemotherapy or radiation therapy",
+      "Step 2: Assign appropriate Z code as first-listed diagnosis",
+      "Step 3: List diagnosis/problem for which service is performed as second diagnosis"
+    ],
+    "related_terminology": [
+      "chemotherapy",
+      "radiation therapy",
+      "Z codes",
+      "therapeutic services",
+      "sequencing"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z codes for chemotherapy and radiation therapy",
+        "description": "Appropriate Z codes for chemotherapy and radiation therapy services (Evidence: pg no: 115, L21)",
+        "requirement": "Must be listed first when these are primary reason for encounter",
+        "usage_rules": [
+          "List Z code first for chemotherapy/radiation encounters (Evidence: pg no: 115, L21)",
+          "Follow with diagnosis for which service is performed (Evidence: pg no: 115, L21)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Z codes for chemotherapy services",
+      "Z codes for radiation therapy services"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "IV.L",
+        "title": "Patients receiving therapeutic services only",
+        "relationship": "implements",
+        "explanation": "This is an exception to the general therapeutic services rule"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "IV.L.1.scenario1",
+      "scenario": "Patient admitted primarily for chemotherapy treatment for breast cancer",
+      "documentation_example": "Patient admitted for chemotherapy administration for breast cancer treatment",
+      "step_by_step": [
+        "Step 1: Identify chemotherapy as primary reason for encounter",
+        "Step 2: Assign appropriate Z code for chemotherapy as first-listed",
+        "Step 3: Assign breast cancer code as secondary diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "Z51.11 (Encounter for antineoplastic chemotherapy)",
+        "secondary_codes": [
+          "C50.9 (Malignant neoplasm of unspecified site of unspecified female breast)"
+        ],
+        "sequencing": "Z code first, cancer diagnosis second",
+        "rationale": "Exception rule requires Z code first when chemotherapy is primary reason for encounter (Evidence: pg no: 115, L20-L21)"
+      },
+      "incorrect_coding": {
+        "code": "C50.9 as primary",
+        "codes": [
+          "C50.9",
+          "Z51.11"
+        ],
+        "rationale": "Would violate the exception rule for chemotherapy encounters",
+        "common_mistake": "Following standard therapeutic services sequencing instead of exception rule"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "This is an exception to the general therapeutic services sequencing rule (Evidence: pg no: 115, L20)"
+    ],
+    "best_practices": [
+      "Always verify if encounter is primarily for chemotherapy or radiation therapy before applying standard sequencing rules (Evidence: pg no: 115, L20-L21)"
+    ],
+    "common_mistakes": [
+      "Applying standard therapeutic services sequencing to chemotherapy/radiation encounters (Evidence: pg no: 115, L20-L21)"
+    ],
+    "tips": [
+      "Remember this exception applies only when chemotherapy or radiation is the PRIMARY reason for encounter (Evidence: pg no: 115, L20)"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Oncology treatment encounters",
+      "Cancer care management"
+    ]
+  },
+  "search_keywords": [
+    "chemotherapy",
+    "radiation therapy",
+    "Z code sequencing",
+    "therapeutic services exception",
+    "oncology coding",
+    "cancer treatment"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "outpatient_coding",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "sequencing",
+      "therapeutic_services",
+      "oncology",
+      "Z_codes"
+    ]
+  },
+  "page_range_processed": "pages_114_to_117"
+}

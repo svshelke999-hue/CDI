@@ -1,0 +1,168 @@
+{
+  "guideline_id": "I.C.20.j.1",
+  "semantic_title": "Terrorism Cause of Injury Identified by Federal Government (FBI)",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 20. Chapter 20: External Causes of Morbidity > j. Terrorism Guidelines > 1) Cause of injury identified by the Federal Government (FBI) as terrorism",
+  "page_number": 92,
+  "content": {
+    "full_text": "When the cause of an injury is identified by the Federal Government (FBI) as terrorism, the first-listed external cause code should be a code from category Y38, Terrorism. The definition of terrorism employed by the FBI is found at the inclusion note at the beginning of category Y38. Use additional code for place of occurrence (Y92.-). More than one Y38 code may be assigned if the injury is the result of more than one mechanism of terrorism. (Evidence: pg no: 92, L40-L43)",
+    "summary": "Guidelines for coding terrorism-related injuries when officially identified by the FBI (Evidence: pg no: 92, L40-L43)",
+    "key_concepts": [
+      "FBI identification required for terrorism coding (Evidence: pg no: 92, L40)",
+      "Y38 category for terrorism codes (Evidence: pg no: 92, L41)",
+      "First-listed external cause should be terrorism code (Evidence: pg no: 92, L41)",
+      "Additional place of occurrence coding required (Evidence: pg no: 92, L42)",
+      "Multiple Y38 codes allowed for multiple mechanisms (Evidence: pg no: 92, L42-L43)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "fbi_terrorism_identification",
+        "rule_text": "Use Y38 codes only when FBI identifies cause as terrorism (Evidence: pg no: 92, L40-L41)",
+        "explanation": "Terrorism codes from category Y38 should only be used when the Federal Government (FBI) has officially identified the cause of injury as terrorism (Evidence: pg no: 92, L40-L41)",
+        "importance": "critical",
+        "applies_to": "Y38 terrorism codes",
+        "common_applications": [
+          "Officially designated terrorist attacks",
+          "FBI-confirmed terrorism incidents"
+        ]
+      },
+      {
+        "rule_id": "terrorism_first_listed",
+        "rule_text": "Terrorism code should be first-listed external cause (Evidence: pg no: 92, L41)",
+        "explanation": "When terrorism is identified, the Y38 code should be the first-listed external cause code in the sequence (Evidence: pg no: 92, L41)",
+        "importance": "high",
+        "applies_to": "Y38 terrorism codes",
+        "common_applications": [
+          "Sequencing external cause codes",
+          "Terrorism-related injuries"
+        ]
+      },
+      {
+        "rule_id": "terrorism_place_occurrence",
+        "rule_text": "Use additional code for place of occurrence (Y92.-) (Evidence: pg no: 92, L42)",
+        "explanation": "When coding terrorism, also assign an additional code from Y92.- to indicate the place where the terrorist event occurred (Evidence: pg no: 92, L42)",
+        "importance": "high",
+        "applies_to": "terrorism coding",
+        "common_applications": [
+          "Location specification for terrorism events",
+          "Complete external cause coding"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Verify FBI identification of terrorism",
+      "Step 2: Assign Y38 code as first-listed external cause",
+      "Step 3: Add place of occurrence code (Y92.-)",
+      "Step 4: Assign multiple Y38 codes if multiple mechanisms involved"
+    ],
+    "related_terminology": [
+      "Terrorism",
+      "FBI identification",
+      "Federal Government",
+      "Place of occurrence",
+      "Multiple mechanisms"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Y38",
+        "description": "Terrorism codes (Evidence: pg no: 92, L41)",
+        "requirement": "FBI identification required",
+        "usage_rules": [
+          "First-listed external cause when terrorism identified (Evidence: pg no: 92, L41)",
+          "Multiple codes allowed for multiple mechanisms (Evidence: pg no: 92, L42-L43)"
+        ]
+      },
+      {
+        "range": "Y92.-",
+        "description": "Place of occurrence codes (Evidence: pg no: 92, L42)",
+        "requirement": "Additional code required with terrorism",
+        "usage_rules": [
+          "Use with terrorism codes (Evidence: pg no: 92, L42)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Y38 Terrorism",
+      "Y92.- Place of occurrence"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "fbi_confirmed_terrorism",
+      "scenario": "Patient injured in attack officially designated as terrorism by FBI",
+      "documentation_example": "Injuries sustained in terrorist attack (FBI confirmed) at shopping mall",
+      "step_by_step": [
+        "Step 1: Confirm FBI identification of terrorism",
+        "Step 2: Assign appropriate Y38 terrorism code as first-listed external cause",
+        "Step 3: Assign Y92.- code for place of occurrence (shopping mall)",
+        "Step 4: Code nature of injuries"
+      ],
+      "correct_coding": {
+        "primary_code": "Nature of injury code",
+        "secondary_codes": [
+          "Y38.x (terrorism)",
+          "Y92.x (place of occurrence)"
+        ],
+        "sequencing": "Injury, then terrorism code first among external causes, then place",
+        "rationale": "FBI-confirmed terrorism requires Y38 coding with place of occurrence (Evidence: pg no: 92, L40-L42)"
+      },
+      "incorrect_coding": {
+        "code": "Assault code instead of terrorism code",
+        "codes": [],
+        "rationale": "Should use terrorism code when FBI confirms terrorism",
+        "common_mistake": "Not using terrorism codes when officially designated"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Only use Y38 codes when FBI identifies cause as terrorism (Evidence: pg no: 92, L40-L41)"
+    ],
+    "best_practices": [
+      "Always include place of occurrence code with terrorism codes (Evidence: pg no: 92, L42)",
+      "Use multiple Y38 codes for multiple mechanisms (Evidence: pg no: 92, L42-L43)",
+      "Check FBI definition at beginning of Y38 category (Evidence: pg no: 92, L41-L42)"
+    ],
+    "common_mistakes": [
+      "Using terrorism codes without FBI confirmation",
+      "Omitting place of occurrence codes"
+    ],
+    "tips": [
+      "Refer to inclusion note at beginning of Y38 for FBI definition (Evidence: pg no: 92, L41-L42)"
+    ],
+    "implementation_notes": [],
+    "clinical_context": []
+  },
+  "search_keywords": [
+    "terrorism",
+    "FBI identification",
+    "Y38 codes",
+    "place of occurrence",
+    "terrorist attack"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "external_causes",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "external_causes",
+      "terrorism",
+      "FBI",
+      "Y38"
+    ]
+  },
+  "page_range_processed": "pages_90_to_93"
+}

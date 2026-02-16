@@ -1,0 +1,129 @@
+{
+  "guideline_id": "I.C.20.h",
+  "semantic_title": "Unknown or Undetermined Intent Guidelines for External Cause Coding",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 20. Chapter 20: External Causes of Morbidity > h. Unknown or Undetermined Intent Guideline",
+  "page_number": 91,
+  "content": {
+    "full_text": "If the intent (accident, self-harm, assault) of the cause of an injury or other condition is unknown or unspecified, code the intent as accidental intent. All transport accident categories assume accidental intent. (Evidence: pg no: 91, L23-L25)",
+    "summary": "Guidelines for coding external causes when intent cannot be determined, defaulting to accidental intent (Evidence: pg no: 91, L23-L25)",
+    "key_concepts": [
+      "Unknown intent defaults to accidental (Evidence: pg no: 91, L24)",
+      "Transport accidents assume accidental intent (Evidence: pg no: 91, L25)",
+      "Intent categories include accident, self-harm, and assault (Evidence: pg no: 91, L23)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "unknown_intent_default",
+        "rule_text": "Code unknown or unspecified intent as accidental intent (Evidence: pg no: 91, L24)",
+        "explanation": "When documentation does not specify whether an injury was intentional or accidental, the coder should default to coding it as accidental (Evidence: pg no: 91, L23-L24)",
+        "importance": "critical",
+        "applies_to": "all external cause codes",
+        "common_applications": [
+          "Injuries with unclear circumstances",
+          "Incomplete documentation scenarios"
+        ]
+      },
+      {
+        "rule_id": "transport_accident_assumption",
+        "rule_text": "All transport accident categories assume accidental intent (Evidence: pg no: 91, L25)",
+        "explanation": "Transport accidents are coded as accidental by default unless specifically documented otherwise (Evidence: pg no: 91, L25)",
+        "importance": "high",
+        "applies_to": "transport accident codes",
+        "common_applications": [
+          "Motor vehicle accidents",
+          "Pedestrian accidents"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Review documentation for intent specification",
+      "Step 2: If intent is unknown or unspecified, code as accidental",
+      "Step 3: For transport accidents, default to accidental intent"
+    ],
+    "related_terminology": [
+      "Intent",
+      "Accidental",
+      "Self-harm",
+      "Assault",
+      "Transport accidents"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Transport accident categories"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "unknown_intent_injury",
+      "scenario": "Patient presents with injury but documentation unclear about whether it was intentional or accidental",
+      "documentation_example": "Patient found with head injury, circumstances unknown",
+      "step_by_step": [
+        "Step 1: Review documentation for intent indicators",
+        "Step 2: Note that intent is not specified",
+        "Step 3: Code as accidental intent per guidelines"
+      ],
+      "correct_coding": {
+        "primary_code": "Accidental external cause code",
+        "secondary_codes": [],
+        "sequencing": "Standard external cause sequencing",
+        "rationale": "Unknown intent defaults to accidental per guidelines (Evidence: pg no: 91, L24)"
+      },
+      "incorrect_coding": {
+        "code": "Undetermined intent code",
+        "codes": [],
+        "rationale": "Should not use undetermined intent unless specifically documented",
+        "common_mistake": "Using undetermined intent codes when intent is simply not documented"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not assume undetermined intent without specific documentation (Evidence: pg no: 91, L23-L24)"
+    ],
+    "best_practices": [
+      "Always review documentation thoroughly for intent indicators (Evidence: pg no: 91, L23)",
+      "Default to accidental when intent is unclear (Evidence: pg no: 91, L24)"
+    ],
+    "common_mistakes": [
+      "Using undetermined intent codes inappropriately (Evidence: pg no: 91, L23-L24)"
+    ],
+    "tips": [
+      "Transport accidents are always considered accidental unless documented otherwise (Evidence: pg no: 91, L25)"
+    ],
+    "implementation_notes": [],
+    "clinical_context": []
+  },
+  "search_keywords": [
+    "unknown intent",
+    "undetermined intent",
+    "accidental intent",
+    "external cause intent",
+    "transport accidents"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "external_causes",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "external_causes",
+      "intent",
+      "accidents",
+      "transport"
+    ]
+  },
+  "page_range_processed": "pages_90_to_93"
+}

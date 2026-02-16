@@ -1,0 +1,179 @@
+{
+  "guideline_id": "I.C.15.n.1",
+  "semantic_title": "Encounter for Full Term Uncomplicated Delivery - Code O80",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 15. Pregnancy, Childbirth, and the Puerperium > n. Normal Delivery, Code O80 > 1) Encounter for full term uncomplicated delivery",
+  "page_number": 69,
+  "content": {
+    "full_text": "Code O80 should be assigned when a patient is admitted for a full-term normal delivery and delivers a single, healthy infant without any complications antepartum, during the delivery, or postpartum during the delivery episode. Code O80 is always a principal diagnosis. It is not to be used if any other code from chapter 15 is needed to describe a current complication of the antenatal, delivery, or postnatal period. Additional codes from other chapters may be used with code O80 if they are not related to or are in any way complicating the pregnancy. (Evidence: pg no: 69, L70-L76)",
+    "summary": "Strict criteria for using O80 code for uncomplicated deliveries including exclusions and additional coding rules (Evidence: pg no: 69, L70-L76)",
+    "key_concepts": [
+      "Full-term normal delivery criteria (Evidence: pg no: 69, L70-L72)",
+      "O80 always principal diagnosis (Evidence: pg no: 69, L74)",
+      "No Chapter 15 complications allowed (Evidence: pg no: 69, L74-L76)",
+      "Non-pregnancy related codes permitted (Evidence: pg no: 69, L75-L76)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "o80_criteria",
+        "rule_text": "O80 requires full-term normal delivery of single, healthy infant without complications (Evidence: pg no: 69, L70-L72)",
+        "explanation": "Code O80 has strict criteria: must be full-term, normal delivery, single infant, healthy infant, and no complications during any phase (Evidence: pg no: 69, L70-L72)",
+        "importance": "critical",
+        "applies_to": "O80",
+        "common_applications": [
+          "Routine vaginal delivery",
+          "Uncomplicated birth"
+        ]
+      },
+      {
+        "rule_id": "o80_principal_diagnosis",
+        "rule_text": "Code O80 is always a principal diagnosis (Evidence: pg no: 69, L74)",
+        "explanation": "When O80 is used, it must be the principal diagnosis and cannot be secondary (Evidence: pg no: 69, L74)",
+        "importance": "critical",
+        "applies_to": "O80",
+        "common_applications": [
+          "Inpatient delivery coding",
+          "Principal diagnosis assignment"
+        ]
+      },
+      {
+        "rule_id": "o80_chapter15_exclusion",
+        "rule_text": "Do not use O80 if any other Chapter 15 code is needed for current complications (Evidence: pg no: 69, L74-L76)",
+        "explanation": "Any current pregnancy, delivery, or postpartum complication requiring a Chapter 15 code excludes the use of O80 (Evidence: pg no: 69, L74-L76)",
+        "importance": "critical",
+        "applies_to": "O80, Chapter 15 codes",
+        "common_applications": [
+          "Complicated deliveries",
+          "Delivery with pregnancy complications"
+        ]
+      },
+      {
+        "rule_id": "o80_other_chapters",
+        "rule_text": "Additional codes from other chapters may be used if not pregnancy-related (Evidence: pg no: 69, L75-L76)",
+        "explanation": "Non-pregnancy related conditions can be coded with O80 as long as they don't complicate the pregnancy (Evidence: pg no: 69, L75-L76)",
+        "importance": "medium",
+        "applies_to": "O80, non-Chapter 15 codes",
+        "common_applications": [
+          "Chronic conditions not affecting pregnancy",
+          "Incidental findings"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Verify full-term delivery",
+      "Step 2: Confirm single, healthy infant",
+      "Step 3: Ensure no complications antepartum, during delivery, or postpartum",
+      "Step 4: Verify no Chapter 15 codes needed",
+      "Step 5: Assign O80 as principal diagnosis",
+      "Step 6: Add non-pregnancy related codes if applicable"
+    ],
+    "related_terminology": [
+      "full-term delivery",
+      "normal delivery",
+      "uncomplicated delivery",
+      "principal diagnosis",
+      "single infant"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "O80",
+        "description": "Encounter for full term uncomplicated delivery (Evidence: pg no: 69, L70)",
+        "context": "Principal diagnosis for uncomplicated deliveries",
+        "requires_additional_codes": "check_code_notes",
+        "breakdown": {
+          "O": "Pregnancy, childbirth and the puerperium",
+          "80": "Encounter for full term uncomplicated delivery"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Chapter 15 - Pregnancy, childbirth and the puerperium"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "uncomplicated_delivery",
+      "scenario": "Full-term vaginal delivery without complications",
+      "documentation_example": "28-year-old female delivered a healthy full-term infant vaginally without complications",
+      "step_by_step": [
+        "Step 1: Verify full-term delivery - yes",
+        "Step 2: Confirm single, healthy infant - yes",
+        "Step 3: Check for complications - none",
+        "Step 4: Assign O80 as principal diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "O80",
+        "secondary_codes": [],
+        "sequencing": "O80 as principal diagnosis only",
+        "rationale": "Meets all criteria for uncomplicated delivery (Evidence: pg no: 69, L70-L76)"
+      },
+      "incorrect_coding": {
+        "codes": [
+          "O80",
+          "O34.10"
+        ],
+        "rationale": "Cannot use O80 with any other Chapter 15 codes",
+        "common_mistake": "Adding pregnancy complication codes with O80"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "O80 is always principal diagnosis (Evidence: pg no: 69, L74)",
+      "Cannot use with any other Chapter 15 codes (Evidence: pg no: 69, L74-L76)"
+    ],
+    "best_practices": [
+      "Verify all criteria before using O80 (Evidence: pg no: 69, L70-L72)",
+      "Only add non-pregnancy related codes (Evidence: pg no: 69, L75-L76)"
+    ],
+    "common_mistakes": [
+      "Using O80 with pregnancy complications",
+      "Using O80 for complicated deliveries",
+      "Missing the strict criteria requirements"
+    ],
+    "tips": [
+      "O80 is very restrictive - any complication excludes its use"
+    ],
+    "implementation_notes": [
+      "Applies only to delivery episodes",
+      "Must be truly uncomplicated throughout entire episode"
+    ],
+    "clinical_context": [
+      "Reserved for completely normal, uncomplicated deliveries"
+    ]
+  },
+  "search_keywords": [
+    "O80",
+    "normal delivery",
+    "uncomplicated delivery",
+    "full-term delivery",
+    "principal diagnosis",
+    "single infant"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "normal_delivery",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "normal_delivery",
+      "O80",
+      "principal_diagnosis",
+      "uncomplicated",
+      "exclusions"
+    ]
+  },
+  "page_range_processed": "pages_66_to_69"
+}

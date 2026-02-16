@@ -1,0 +1,112 @@
+{
+  "guideline_id": "I.C.20.h.1",
+  "semantic_title": "Use of Undetermined Intent External Cause Codes",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 20. Chapter 20: External Causes of Morbidity > h. Unknown or Undetermined Intent Guideline > 1) Use of undetermined intent",
+  "page_number": 91,
+  "content": {
+    "full_text": "External cause codes for events of undetermined intent are only for use if the documentation in the record specifies that the intent cannot be determined. (Evidence: pg no: 91, L27)",
+    "summary": "Undetermined intent codes require specific documentation stating intent cannot be determined (Evidence: pg no: 91, L27)",
+    "key_concepts": [
+      "Undetermined intent codes have specific documentation requirements (Evidence: pg no: 91, L27)",
+      "Documentation must explicitly state intent cannot be determined (Evidence: pg no: 91, L27)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "undetermined_intent_documentation",
+        "rule_text": "Use undetermined intent codes only when documentation specifies intent cannot be determined (Evidence: pg no: 91, L27)",
+        "explanation": "These codes are reserved for cases where the medical record explicitly documents that the intent of the injury cannot be determined, not simply when intent is not mentioned (Evidence: pg no: 91, L27)",
+        "importance": "critical",
+        "applies_to": "undetermined intent external cause codes",
+        "common_applications": [
+          "Cases with explicit documentation of undetermined intent",
+          "Forensic or investigative scenarios"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Look for explicit documentation about intent determination",
+      "Step 2: Verify documentation states intent cannot be determined",
+      "Step 3: Only then use undetermined intent codes"
+    ],
+    "related_terminology": [
+      "Undetermined intent",
+      "Documentation requirements",
+      "Intent determination"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Undetermined intent external cause codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "documented_undetermined_intent",
+      "scenario": "Medical record explicitly states that intent of injury cannot be determined after investigation",
+      "documentation_example": "Patient injury - intent cannot be determined despite investigation",
+      "step_by_step": [
+        "Step 1: Identify explicit documentation about intent determination",
+        "Step 2: Confirm documentation states intent cannot be determined",
+        "Step 3: Use appropriate undetermined intent external cause code"
+      ],
+      "correct_coding": {
+        "primary_code": "Undetermined intent external cause code",
+        "secondary_codes": [],
+        "sequencing": "Standard external cause sequencing",
+        "rationale": "Documentation explicitly states intent cannot be determined (Evidence: pg no: 91, L27)"
+      },
+      "incorrect_coding": {
+        "code": "Undetermined intent code when intent simply not mentioned",
+        "codes": [],
+        "rationale": "Requires explicit documentation that intent cannot be determined",
+        "common_mistake": "Using undetermined intent when intent is simply not documented"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Only use when documentation explicitly states intent cannot be determined (Evidence: pg no: 91, L27)"
+    ],
+    "best_practices": [
+      "Look for specific language about intent determination in documentation (Evidence: pg no: 91, L27)"
+    ],
+    "common_mistakes": [
+      "Using undetermined intent codes when intent is simply not mentioned (Evidence: pg no: 91, L27)"
+    ],
+    "tips": [
+      "Distinguish between 'not documented' and 'cannot be determined' (Evidence: pg no: 91, L27)"
+    ],
+    "implementation_notes": [],
+    "clinical_context": []
+  },
+  "search_keywords": [
+    "undetermined intent",
+    "documentation requirements",
+    "intent cannot be determined",
+    "external cause coding"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "external_causes",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "external_causes",
+      "undetermined_intent",
+      "documentation"
+    ]
+  },
+  "page_range_processed": "pages_90_to_93"
+}

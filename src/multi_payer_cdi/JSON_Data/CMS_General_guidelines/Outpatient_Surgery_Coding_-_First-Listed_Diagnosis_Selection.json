@@ -1,0 +1,150 @@
+{
+  "guideline_id": "IV.A.1",
+  "semantic_title": "Outpatient Surgery Coding - First-Listed Diagnosis Selection",
+  "section_path": "Section IV > A. Selection of first-listed condition > 1. Outpatient Surgery",
+  "page_number": 112,
+  "content": {
+    "full_text": "When a patient presents for outpatient surgery (same day surgery), code the reason for the surgery as the first-listed diagnosis (reason for the encounter), even if the surgery is not performed due to a contraindication. (Evidence: pg no: 112, L32-L34)",
+    "summary": "Establishes coding protocol for outpatient surgery encounters, prioritizing surgical reason regardless of procedure completion (Evidence: pg no: 112, L32-L34)",
+    "key_concepts": [
+      "Reason for surgery is always first-listed diagnosis (Evidence: pg no: 112, L33)",
+      "Rule applies even when surgery is not performed (Evidence: pg no: 112, L33-L34)",
+      "Contraindications do not change first-listed diagnosis (Evidence: pg no: 112, L34)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "IV.A.1.1",
+        "rule_text": "Code the reason for surgery as first-listed diagnosis for outpatient surgery (Evidence: pg no: 112, L33)",
+        "explanation": "The surgical indication takes priority as the reason for the encounter in same-day surgery settings (Evidence: pg no: 112, L33)",
+        "importance": "critical",
+        "applies_to": "outpatient_surgery_codes",
+        "common_applications": [
+          "Same-day surgery procedures",
+          "Ambulatory surgical center visits"
+        ]
+      },
+      {
+        "rule_id": "IV.A.1.2",
+        "rule_text": "Apply rule even if surgery not performed due to contraindication (Evidence: pg no: 112, L33-L34)",
+        "explanation": "The reason for the encounter remains the surgical indication regardless of procedure completion (Evidence: pg no: 112, L33-L34)",
+        "importance": "high",
+        "applies_to": "cancelled_surgery_encounters",
+        "common_applications": [
+          "Surgery cancelled due to medical contraindications",
+          "Pre-operative complications preventing surgery"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify the reason for the scheduled surgery",
+      "Step 2: Code the surgical indication as first-listed diagnosis",
+      "Step 3: Code any contraindications or complications as secondary diagnoses",
+      "Step 4: Document whether surgery was performed or cancelled"
+    ],
+    "related_terminology": [
+      "Outpatient surgery",
+      "Same day surgery",
+      "Contraindication",
+      "Reason for encounter"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Surgical indication codes",
+      "Contraindication codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "IV.A",
+        "title": "Selection of first-listed condition",
+        "relationship": "implements",
+        "explanation": "Specific application of first-listed diagnosis concept for surgery"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "IV.A.1.S1",
+      "scenario": "Patient scheduled for outpatient cholecystectomy, surgery cancelled due to elevated blood pressure",
+      "documentation_example": "Scheduled for laparoscopic cholecystectomy for cholelithiasis. Surgery cancelled due to hypertensive crisis.",
+      "step_by_step": [
+        "Step 1: Identify reason for surgery - cholelithiasis",
+        "Step 2: Code cholelithiasis as first-listed diagnosis",
+        "Step 3: Code hypertensive crisis as secondary diagnosis",
+        "Step 4: Note surgery was not performed"
+      ],
+      "correct_coding": {
+        "primary_code": "K80.20",
+        "secondary_codes": [
+          "I16.9"
+        ],
+        "sequencing": "Surgical reason first, contraindication second",
+        "rationale": "Reason for encounter remains the surgical indication even when surgery not performed (Evidence: pg no: 112, L33-L34)"
+      },
+      "incorrect_coding": {
+        "code": "I16.9",
+        "codes": [
+          "I16.9",
+          "K80.20"
+        ],
+        "rationale": "Contraindication should not be first-listed",
+        "common_mistake": "Coding the contraindication as primary diagnosis"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not change first-listed diagnosis when surgery is cancelled (Evidence: pg no: 112, L33-L34)"
+    ],
+    "best_practices": [
+      "Always code the reason for surgery as first-listed diagnosis (Evidence: pg no: 112, L33)",
+      "Code contraindications as secondary diagnoses when surgery is cancelled"
+    ],
+    "common_mistakes": [
+      "Coding contraindication as first-listed when surgery cancelled",
+      "Failing to code the surgical indication when procedure not performed"
+    ],
+    "tips": [
+      "The encounter reason remains constant regardless of procedure completion"
+    ],
+    "implementation_notes": [
+      "Applies to all same-day surgery encounters",
+      "Documentation should clearly indicate surgical indication"
+    ],
+    "clinical_context": [
+      "Outpatient surgery may be cancelled for various medical reasons",
+      "Billing and coding reflect the encounter purpose, not just procedures performed"
+    ]
+  },
+  "search_keywords": [
+    "outpatient surgery",
+    "same day surgery",
+    "cancelled surgery",
+    "contraindication",
+    "surgical indication"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "outpatient_surgery",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "surgery",
+      "outpatient",
+      "cancelled_procedure",
+      "contraindication"
+    ]
+  },
+  "page_range_processed": "pages_111_to_114"
+}

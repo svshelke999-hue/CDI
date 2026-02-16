@@ -1,0 +1,193 @@
+{
+  "guideline_id": "I.C.20.j.3",
+  "semantic_title": "Code Y38.9, Terrorism, Secondary Effects",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 20. Chapter 20: External Causes of Morbidity > j. Terrorism Guidelines > 3) Code Y38.9, Terrorism, secondary effects",
+  "page_number": 92,
+  "content": {
+    "full_text": "Assign code Y38.9, Terrorism, secondary effects, for conditions occurring subsequent to the terrorist event. This code should not be assigned for conditions that are due to the initial terrorist act. It is acceptable to assign code Y38.9 with another code from Y38 if there is an injury due to the initial terrorist event and an injury that is a subsequent result of the terrorist event. (Evidence: pg no: 92, L49-L51)",
+    "summary": "Guidelines for using Y38.9 for secondary effects of terrorism, distinct from initial terrorist act injuries (Evidence: pg no: 92, L49-L51)",
+    "key_concepts": [
+      "Y38.9 for conditions subsequent to terrorist event (Evidence: pg no: 92, L49-L50)",
+      "Not for initial terrorist act conditions (Evidence: pg no: 92, L50)",
+      "Can be used with other Y38 codes (Evidence: pg no: 92, L50-L51)",
+      "Distinction between initial and subsequent effects (Evidence: pg no: 92, L49-L51)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "terrorism_secondary_effects_usage",
+        "rule_text": "Use Y38.9 for conditions occurring subsequent to terrorist event (Evidence: pg no: 92, L49-L50)",
+        "explanation": "Code Y38.9 is specifically for conditions that develop after the initial terrorist event, not for injuries directly caused by the initial act (Evidence: pg no: 92, L49-L50)",
+        "importance": "high",
+        "applies_to": "Y38.9 code",
+        "common_applications": [
+          "Post-traumatic stress from terrorism",
+          "Complications developing after terrorist attack"
+        ]
+      },
+      {
+        "rule_id": "terrorism_initial_act_exclusion",
+        "rule_text": "Do not use Y38.9 for conditions due to initial terrorist act (Evidence: pg no: 92, L50)",
+        "explanation": "Y38.9 should not be assigned for conditions that are directly caused by the initial terrorist act itself (Evidence: pg no: 92, L50)",
+        "importance": "high",
+        "applies_to": "Y38.9 code",
+        "common_applications": [
+          "Direct injuries from terrorist attack",
+          "Immediate consequences of terrorism"
+        ]
+      },
+      {
+        "rule_id": "terrorism_combined_coding",
+        "rule_text": "Y38.9 can be used with other Y38 codes when both initial and subsequent effects present (Evidence: pg no: 92, L50-L51)",
+        "explanation": "It is acceptable to assign both Y38.9 and another Y38 code when a patient has both injuries from the initial terrorist event and subsequent effects (Evidence: pg no: 92, L50-L51)",
+        "importance": "medium",
+        "applies_to": "Y38 codes",
+        "common_applications": [
+          "Patients with both direct and secondary effects",
+          "Complex terrorism-related conditions"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify if condition is from initial terrorist act or subsequent",
+      "Step 2: If subsequent, use Y38.9",
+      "Step 3: If initial act, use appropriate specific Y38 code",
+      "Step 4: Use both if patient has both types of effects"
+    ],
+    "related_terminology": [
+      "Secondary effects",
+      "Subsequent conditions",
+      "Initial terrorist act",
+      "Combined coding"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Y38",
+        "description": "Terrorism codes (Evidence: pg no: 92, L50-L51)",
+        "requirement": "FBI confirmation required",
+        "usage_rules": [
+          "Can be combined with Y38.9 when appropriate (Evidence: pg no: 92, L50-L51)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "Y38.9",
+        "description": "Terrorism, secondary effects (Evidence: pg no: 92, L49)",
+        "context": "For conditions subsequent to terrorist event",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Y38": "Terrorism category",
+          ".9": "Secondary effects"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Y38 Terrorism codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "terrorism_secondary_effects",
+      "scenario": "Patient develops PTSD months after surviving terrorist attack",
+      "documentation_example": "Post-traumatic stress disorder, secondary effect of terrorist attack 6 months ago",
+      "step_by_step": [
+        "Step 1: Identify condition as secondary effect of terrorism",
+        "Step 2: Code the PTSD condition",
+        "Step 3: Assign Y38.9 for terrorism secondary effects",
+        "Step 4: Do not use other Y38 codes for this condition"
+      ],
+      "correct_coding": {
+        "primary_code": "PTSD code",
+        "secondary_codes": [
+          "Y38.9"
+        ],
+        "sequencing": "Condition first, then secondary effects code",
+        "rationale": "Condition occurred subsequent to terrorist event (Evidence: pg no: 92, L49-L50)"
+      },
+      "incorrect_coding": {
+        "code": "Specific Y38 code for initial terrorist act",
+        "codes": [],
+        "rationale": "Should use Y38.9 for secondary effects, not initial act codes",
+        "common_mistake": "Using wrong Y38 code for timing of condition"
+      }
+    },
+    {
+      "scenario_id": "terrorism_combined_effects",
+      "scenario": "Patient has both direct injuries from terrorist attack and later develops secondary conditions",
+      "documentation_example": "Fractures from terrorist bombing (initial) and PTSD developed later (secondary)",
+      "step_by_step": [
+        "Step 1: Identify both initial and secondary effects",
+        "Step 2: Code fractures with specific Y38 code",
+        "Step 3: Code PTSD with Y38.9",
+        "Step 4: Use both Y38 codes as appropriate"
+      ],
+      "correct_coding": {
+        "primary_code": "Fracture codes and PTSD code",
+        "secondary_codes": [
+          "Specific Y38 code",
+          "Y38.9"
+        ],
+        "sequencing": "Conditions first, then appropriate Y38 codes",
+        "rationale": "Acceptable to use Y38.9 with other Y38 codes when both types present (Evidence: pg no: 92, L50-L51)"
+      },
+      "incorrect_coding": {
+        "code": "Only Y38.9 for all terrorism-related conditions",
+        "codes": [],
+        "rationale": "Should use specific codes for initial act injuries",
+        "common_mistake": "Using only secondary effects code for all conditions"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not use Y38.9 for conditions due to initial terrorist act (Evidence: pg no: 92, L50)"
+    ],
+    "best_practices": [
+      "Distinguish between initial and subsequent effects of terrorism (Evidence: pg no: 92, L49-L51)",
+      "Use Y38.9 only for conditions occurring after the terrorist event (Evidence: pg no: 92, L49-L50)"
+    ],
+    "common_mistakes": [
+      "Using Y38.9 for direct injuries from terrorist attack (Evidence: pg no: 92, L50)"
+    ],
+    "tips": [
+      "Can combine Y38.9 with other Y38 codes when both types of effects present (Evidence: pg no: 92, L50-L51)"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Post-traumatic stress disorders",
+      "Long-term complications of terrorism"
+    ]
+  },
+  "search_keywords": [
+    "Y38.9",
+    "terrorism secondary effects",
+    "subsequent conditions",
+    "initial terrorist act",
+    "combined Y38 coding"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "external_causes",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "external_causes",
+      "terrorism",
+      "secondary_effects",
+      "Y38.9"
+    ]
+  },
+  "page_range_processed": "pages_90_to_93"
+}

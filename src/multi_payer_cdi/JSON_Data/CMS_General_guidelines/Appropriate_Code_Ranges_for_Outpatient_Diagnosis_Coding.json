@@ -1,0 +1,163 @@
+{
+  "guideline_id": "IV.B",
+  "semantic_title": "Appropriate Code Ranges for Outpatient Diagnosis Coding",
+  "section_path": "Section IV > B. Codes from A00.0 through T88.9, Z00-Z99, U00-U85",
+  "page_number": 113,
+  "content": {
+    "full_text": "The appropriate code(s) from A00.0 through T88.9, Z00-Z99 and U00-U85 must be used to identify diagnoses, symptoms, conditions, problems, complaints, or other reason(s) for the encounter/visit. (Evidence: pg no: 113, L39-L42)",
+    "summary": "Defines the complete range of ICD-10-CM codes that must be used for outpatient encounter coding (Evidence: pg no: 113, L39-L42)",
+    "key_concepts": [
+      "Complete code range A00.0-T88.9, Z00-Z99, U00-U85 must be used (Evidence: pg no: 113, L40)",
+      "Codes identify diagnoses, symptoms, conditions, problems, complaints (Evidence: pg no: 113, L41)",
+      "Covers all reasons for encounter/visit (Evidence: pg no: 113, L41-L42)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "IV.B.1",
+        "rule_text": "Use codes from A00.0 through T88.9, Z00-Z99, and U00-U85 for outpatient encounters (Evidence: pg no: 113, L40)",
+        "explanation": "These code ranges encompass all valid ICD-10-CM codes for identifying reasons for outpatient encounters (Evidence: pg no: 113, L40)",
+        "importance": "critical",
+        "applies_to": "all_outpatient_codes",
+        "common_applications": [
+          "All outpatient diagnosis coding",
+          "Symptom coding when diagnosis not established",
+          "Z-code usage for health status factors"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify the reason for encounter/visit",
+      "Step 2: Determine if it's a diagnosis, symptom, condition, problem, or complaint",
+      "Step 3: Select appropriate code from specified ranges",
+      "Step 4: Verify code validity and specificity"
+    ],
+    "related_terminology": [
+      "Diagnoses",
+      "Symptoms",
+      "Conditions",
+      "Problems",
+      "Complaints",
+      "Encounter",
+      "Visit"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "A00.0-T88.9",
+        "description": "Main classification codes for diseases, injuries, and external causes (Evidence: pg no: 113, L40)",
+        "requirement": "Must be used for appropriate conditions",
+        "usage_rules": [
+          "Primary range for most diagnoses and conditions (Evidence: pg no: 113, L40)"
+        ]
+      },
+      {
+        "range": "Z00-Z99",
+        "description": "Factors influencing health status and contact with health services (Evidence: pg no: 113, L40)",
+        "requirement": "Must be used for health status factors",
+        "usage_rules": [
+          "Used for circumstances other than disease or injury (Evidence: pg no: 113, L40)"
+        ]
+      },
+      {
+        "range": "U00-U85",
+        "description": "Codes for special purposes (Evidence: pg no: 113, L40)",
+        "requirement": "Must be used when applicable",
+        "usage_rules": [
+          "Used for special coding circumstances (Evidence: pg no: 113, L40)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Disease codes",
+      "Injury codes",
+      "External cause codes",
+      "Z-codes",
+      "U-codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "IV.B.S1",
+      "scenario": "Patient presents with multiple complaints and established diagnoses",
+      "documentation_example": "Chief complaint: Fatigue and joint pain. Past medical history: Diabetes type 2, hypertension.",
+      "step_by_step": [
+        "Step 1: Identify primary reason - fatigue",
+        "Step 2: Code fatigue from appropriate range",
+        "Step 3: Code joint pain as secondary",
+        "Step 4: Code chronic conditions if relevant to encounter"
+      ],
+      "correct_coding": {
+        "primary_code": "R53.83",
+        "secondary_codes": [
+          "M25.50",
+          "E11.9",
+          "I10"
+        ],
+        "sequencing": "Primary complaint first, then related conditions",
+        "rationale": "All codes must come from specified ranges A00.0-T88.9, Z00-Z99, U00-U85 (Evidence: pg no: 113, L40)"
+      },
+      "incorrect_coding": {
+        "code": "Outside specified ranges",
+        "codes": [],
+        "rationale": "Only specified code ranges are valid for outpatient encounters",
+        "common_mistake": "Using codes outside the specified ranges"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Only use codes from specified ranges A00.0-T88.9, Z00-Z99, U00-U85 (Evidence: pg no: 113, L40)"
+    ],
+    "best_practices": [
+      "Verify all codes fall within specified ranges (Evidence: pg no: 113, L40)",
+      "Use appropriate code type for reason for encounter"
+    ],
+    "common_mistakes": [
+      "Using codes outside specified ranges",
+      "Failing to code all relevant reasons for encounter"
+    ],
+    "tips": [
+      "The ranges cover all possible reasons for outpatient encounters"
+    ],
+    "implementation_notes": [
+      "Applies to all outpatient settings",
+      "Includes hospital-based and provider-based services"
+    ],
+    "clinical_context": [
+      "Outpatient encounters may involve multiple reasons requiring multiple codes"
+    ]
+  },
+  "search_keywords": [
+    "code ranges",
+    "A00-T88",
+    "Z00-Z99",
+    "U00-U85",
+    "outpatient coding",
+    "valid codes"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "code_ranges",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "code_ranges",
+      "valid_codes",
+      "outpatient",
+      "encounter_coding"
+    ]
+  },
+  "page_range_processed": "pages_111_to_114"
+}

@@ -1,0 +1,156 @@
+{
+  "guideline_id": "I.C.16.b.1",
+  "semantic_title": "Use of Z05 Codes for Observation and Evaluation of Newborns for Suspected Conditions Not Found",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 16. Chapter 16: Certain conditions originating in the perinatal period > b. Observation and Evaluation of Newborns for Suspected Conditions not Found > 1) Use of Z05 codes",
+  "page_number": 73,
+  "content": {
+    "full_text": "Assign a code from category Z05, Observation and evaluation of newborn for suspected diseases and conditions ruled out, to identify those instances when a healthy newborn is evaluated for a suspected condition/disease that is determined after study not to be present. Do not use a code from category Z05 when the patient is documented to have signs or symptoms of a suspected problem; in such cases code the sign or symptom. (Evidence: pg no: 73, L27-L32)",
+    "summary": "Z05 codes are used for healthy newborns evaluated for suspected conditions that are ruled out after study, not when signs or symptoms are present (Evidence: pg no: 73, L27-L32)",
+    "key_concepts": [
+      "Z05 category for observation and evaluation (Evidence: pg no: 73, L28)",
+      "Suspected conditions ruled out (Evidence: pg no: 73, L29)",
+      "Healthy newborn evaluation (Evidence: pg no: 73, L29)",
+      "Signs or symptoms exclusion (Evidence: pg no: 73, L30-L32)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "Z05_assignment_rule",
+        "rule_text": "Assign Z05 codes when a healthy newborn is evaluated for suspected conditions that are determined not to be present after study (Evidence: pg no: 73, L28-L30)",
+        "explanation": "Z05 codes specifically identify instances where newborns undergo evaluation for suspected diseases or conditions that are ultimately ruled out through clinical study (Evidence: pg no: 73, L28-L30)",
+        "importance": "critical",
+        "applies_to": "Z05 category",
+        "common_applications": [
+          "Newborn screening evaluations with negative results",
+          "Suspected infections ruled out after testing"
+        ]
+      },
+      {
+        "rule_id": "Z05_exclusion_rule",
+        "rule_text": "Do not use Z05 codes when patient has documented signs or symptoms of suspected problem (Evidence: pg no: 73, L30-L32)",
+        "explanation": "When signs or symptoms are present, the appropriate codes for those signs or symptoms should be used instead of Z05 codes (Evidence: pg no: 73, L30-L32)",
+        "importance": "critical",
+        "applies_to": "Z05 category",
+        "common_applications": [
+          "Newborns with fever under investigation",
+          "Newborns with respiratory symptoms being evaluated"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if newborn is healthy without signs/symptoms",
+      "Step 2: Confirm suspected condition was evaluated",
+      "Step 3: Verify condition was ruled out after study",
+      "Step 4: Assign appropriate Z05 code"
+    ],
+    "related_terminology": [
+      "Observation and evaluation",
+      "Suspected diseases",
+      "Conditions ruled out",
+      "Healthy newborn"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z05",
+        "description": "Observation and evaluation of newborn for suspected diseases and conditions ruled out (Evidence: pg no: 73, L28-L29)",
+        "requirement": "Use only for healthy newborns with suspected conditions ruled out",
+        "usage_rules": [
+          "Do not use when signs or symptoms are documented (Evidence: pg no: 73, L30-L32)",
+          "Use only when condition is determined not to be present after study (Evidence: pg no: 73, L29-L30)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Z05 - Observation and evaluation of newborn for suspected diseases and conditions ruled out"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.16.b.2",
+        "title": "Z05 on other than birth record",
+        "relationship": "related_to",
+        "explanation": "Provides additional guidance on Z05 usage in different encounter types"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "Z05_healthy_newborn",
+      "scenario": "Healthy newborn evaluated for suspected sepsis, blood cultures negative, no signs of infection",
+      "documentation_example": "Newborn evaluated for rule out sepsis. Blood cultures negative. No fever, no feeding difficulties. Infant appears well.",
+      "step_by_step": [
+        "Step 1: Identify that newborn is healthy without signs/symptoms",
+        "Step 2: Confirm sepsis was suspected and evaluated",
+        "Step 3: Verify sepsis was ruled out after study",
+        "Step 4: Assign appropriate Z05 code for suspected sepsis ruled out"
+      ],
+      "correct_coding": {
+        "primary_code": "Z05.1",
+        "secondary_codes": [],
+        "sequencing": "Z05 code as appropriate for encounter type",
+        "rationale": "Healthy newborn with suspected condition ruled out after evaluation (Evidence: pg no: 73, L28-L30)"
+      },
+      "incorrect_coding": {
+        "code": "A41.9",
+        "codes": [
+          "P36.9"
+        ],
+        "rationale": "Should not code sepsis when it was ruled out and newborn is healthy",
+        "common_mistake": "Coding the suspected condition instead of the observation code"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not use Z05 codes when signs or symptoms are documented (Evidence: pg no: 73, L30-L32)"
+    ],
+    "best_practices": [
+      "Verify condition was actually ruled out through study before assigning Z05 (Evidence: pg no: 73, L29-L30)",
+      "Code signs or symptoms when present instead of Z05 (Evidence: pg no: 73, L31-L32)"
+    ],
+    "common_mistakes": [
+      "Using Z05 codes when newborn has signs or symptoms of suspected problem (Evidence: pg no: 73, L30-L32)"
+    ],
+    "tips": [
+      "Z05 codes are only for healthy newborns (Evidence: pg no: 73, L29)"
+    ],
+    "implementation_notes": [
+      "Requires documentation that condition was evaluated and ruled out"
+    ],
+    "clinical_context": [
+      "Used in newborn screening and evaluation processes"
+    ]
+  },
+  "search_keywords": [
+    "Z05",
+    "newborn observation",
+    "suspected conditions ruled out",
+    "healthy newborn evaluation",
+    "newborn screening"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "perinatal_conditions",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "newborn",
+      "observation",
+      "Z05",
+      "perinatal",
+      "screening"
+    ]
+  },
+  "page_range_processed": "pages_72_to_75"
+}

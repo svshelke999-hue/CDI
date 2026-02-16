@@ -1,0 +1,142 @@
+{
+  "guideline_id": "I.C.2.b",
+  "semantic_title": "Admission/Encounter for Treatment of Secondary Neoplasm Site",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 2. Chapter 2: Neoplasms > b. Admission/Encounter for treatment of secondary site",
+  "page_number": 34,
+  "content": {
+    "full_text": "When a patient is admitted because of a primary neoplasm with metastasis and treatment is directed toward the secondary site only, the secondary neoplasm is designated as the principal diagnosis even though the primary malignancy is still present. (Evidence: pg no: 34, L21-L26)",
+    "summary": "Guidelines for sequencing secondary neoplasm as principal diagnosis when treatment is directed only at metastatic site (Evidence: pg no: 34, L21-L26)",
+    "key_concepts": [
+      "Secondary neoplasm as principal diagnosis (Evidence: pg no: 34, L22-L25)",
+      "Treatment directed toward secondary site only (Evidence: pg no: 34, L22-L23)",
+      "Primary malignancy still present but not treated (Evidence: pg no: 34, L25-L26)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "secondary_site_principal",
+        "rule_text": "Secondary neoplasm is designated as principal diagnosis when treatment is directed toward secondary site only (Evidence: pg no: 34, L22-L25)",
+        "explanation": "Even though the primary malignancy is still present, if treatment is only directed at the metastatic site, the secondary neoplasm takes precedence as principal diagnosis (Evidence: pg no: 34, L22-L26)",
+        "importance": "critical",
+        "applies_to": "all neoplasm codes with metastasis",
+        "common_applications": [
+          "Patient with lung cancer metastatic to brain, admitted for brain tumor resection",
+          "Patient with breast cancer metastatic to bone, admitted for bone lesion treatment"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify primary neoplasm with metastasis",
+      "Step 2: Determine if treatment is directed only toward secondary site",
+      "Step 3: Assign secondary neoplasm as principal diagnosis",
+      "Step 4: Code primary malignancy as secondary diagnosis"
+    ],
+    "related_terminology": [
+      "Secondary neoplasm",
+      "Metastasis",
+      "Principal diagnosis",
+      "Primary malignancy"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "C77-C79",
+        "description": "Secondary malignant neoplasm codes (Evidence: pg no: 34, L22-L25)",
+        "requirement": "Use as principal when treatment directed at secondary site only",
+        "usage_rules": [
+          "Sequence as principal diagnosis when treatment is for secondary site only (Evidence: pg no: 34, L22-L25)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Secondary malignant neoplasms"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.2.a",
+        "title": "Admission/Encounter for treatment of primary site",
+        "relationship": "related_to",
+        "explanation": "Contrasts with primary site treatment guidelines"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "secondary_site_treatment",
+      "scenario": "Patient with primary lung cancer metastatic to brain, admitted for brain tumor resection only",
+      "documentation_example": "Patient with known lung adenocarcinoma with brain metastasis, admitted for craniotomy and resection of brain lesion",
+      "step_by_step": [
+        "Step 1: Identify that treatment is directed only at brain metastasis",
+        "Step 2: Assign brain metastasis code as principal diagnosis",
+        "Step 3: Assign lung cancer code as secondary diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "C79.31 (Secondary malignant neoplasm of brain)",
+        "secondary_codes": [
+          "C78.00 (Secondary malignant neoplasm of unspecified lung)"
+        ],
+        "sequencing": "Secondary neoplasm first, primary neoplasm second",
+        "rationale": "Treatment is directed only toward the secondary site (Evidence: pg no: 34, L22-L25)"
+      },
+      "incorrect_coding": {
+        "code": "C78.00 as principal",
+        "codes": [
+          "C78.00 as principal diagnosis"
+        ],
+        "rationale": "Primary lung cancer code should not be principal when treatment is only for brain metastasis",
+        "common_mistake": "Sequencing primary neoplasm first when treatment is only for secondary site"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Primary malignancy may still be present but is not the focus of treatment (Evidence: pg no: 34, L25-L26)"
+    ],
+    "best_practices": [
+      "Carefully review documentation to determine which site is being treated (Evidence: pg no: 34, L22-L23)"
+    ],
+    "common_mistakes": [
+      "Always sequencing primary neoplasm first regardless of treatment focus (Evidence: pg no: 34, L22-L25)"
+    ],
+    "tips": [
+      "Focus on where treatment is directed, not which cancer came first (Evidence: pg no: 34, L22-L25)"
+    ],
+    "implementation_notes": [
+      "This guideline applies even when primary malignancy is still present"
+    ],
+    "clinical_context": [
+      "Common in oncology when metastatic disease requires immediate intervention"
+    ]
+  },
+  "search_keywords": [
+    "secondary neoplasm",
+    "metastasis treatment",
+    "principal diagnosis sequencing",
+    "secondary site treatment",
+    "metastatic cancer coding"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "neoplasms",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "neoplasms",
+      "sequencing",
+      "metastasis",
+      "secondary_site"
+    ]
+  },
+  "page_range_processed": "pages_33_to_36"
+}

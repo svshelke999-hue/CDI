@@ -1,0 +1,195 @@
+{
+  "guideline_id": "I.C.16.h",
+  "semantic_title": "COVID-19 Infection in Newborn Coding Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 16. Chapter 16: Certain conditions originating in the perinatal period > h. COVID-19 Infection in Newborn",
+  "page_number": 74,
+  "content": {
+    "full_text": "For a newborn that tests positive for COVID-19, assign code U07.1, COVID-19, and the appropriate codes for associated manifestation(s) in neonates/newborns in the absence of documentation indicating a specific type of transmission. For a newborn that tests positive for COVID-19 and the provider documents the condition was contracted in utero or during the birth process, assign codes P35.8, Other congenital viral diseases, and U07.1, COVID-19. When coding the birth episode in a newborn record, the appropriate code from category Z38, Liveborn infants according to place of birth and type of delivery, should be assigned as the principal diagnosis. (Evidence: pg no: 74, L63-L65)",
+    "summary": "COVID-19 in newborns requires U07.1 plus manifestation codes, with P35.8 added when transmission is documented as in utero or during birth, and Z38 as principal for birth episodes (Evidence: pg no: 74, L63-L65)",
+    "key_concepts": [
+      "U07.1 for COVID-19 in newborns (Evidence: pg no: 74, L63)",
+      "Manifestation coding (Evidence: pg no: 74, L63-L64)",
+      "Transmission type documentation (Evidence: pg no: 74, L64)",
+      "P35.8 for in utero/birth transmission (Evidence: pg no: 74, L64)",
+      "Z38 principal for birth episodes (Evidence: pg no: 74, L64-L65)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "newborn_covid_basic_rule",
+        "rule_text": "For newborn testing positive for COVID-19, assign U07.1 and manifestation codes when transmission type not documented (Evidence: pg no: 74, L63-L64)",
+        "explanation": "When a newborn tests positive for COVID-19 without specific documentation of transmission method, use the standard COVID-19 code plus any associated manifestations (Evidence: pg no: 74, L63-L64)",
+        "importance": "high",
+        "applies_to": "Newborns with COVID-19",
+        "common_applications": [
+          "Newborn with positive COVID test, no transmission details",
+          "COVID-19 with respiratory symptoms in newborn"
+        ]
+      },
+      {
+        "rule_id": "newborn_covid_congenital_rule",
+        "rule_text": "When COVID-19 transmission is documented as in utero or during birth, assign P35.8 and U07.1 (Evidence: pg no: 74, L64)",
+        "explanation": "When provider specifically documents that COVID-19 was contracted in utero or during the birth process, both the congenital viral disease code and COVID-19 code are required (Evidence: pg no: 74, L64)",
+        "importance": "high",
+        "applies_to": "Newborns with documented congenital COVID-19",
+        "common_applications": [
+          "Maternal COVID during pregnancy with fetal transmission",
+          "COVID transmission during delivery process"
+        ]
+      },
+      {
+        "rule_id": "newborn_covid_birth_episode_rule",
+        "rule_text": "Z38 should be assigned as principal diagnosis for birth episodes with COVID-19 (Evidence: pg no: 74, L64-L65)",
+        "explanation": "The standard birth episode coding hierarchy applies even when COVID-19 is present, with Z38 remaining the principal diagnosis (Evidence: pg no: 74, L64-L65)",
+        "importance": "critical",
+        "applies_to": "Birth episodes with COVID-19",
+        "common_applications": [
+          "All birth admissions where newborn has COVID-19"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Confirm newborn tested positive for COVID-19",
+      "Step 2: Check documentation for transmission type",
+      "Step 3: If transmission not specified, assign U07.1 plus manifestations",
+      "Step 4: If in utero/birth transmission documented, assign P35.8 and U07.1",
+      "Step 5: For birth episodes, assign Z38 as principal diagnosis",
+      "Step 6: Sequence COVID codes as secondary diagnoses"
+    ],
+    "related_terminology": [
+      "COVID-19",
+      "Newborn infection",
+      "Congenital viral disease",
+      "In utero transmission",
+      "Birth process transmission",
+      "Manifestations"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z38",
+        "description": "Liveborn infants according to place of birth and type of delivery (Evidence: pg no: 74, L64-L65)",
+        "requirement": "Principal diagnosis for birth episodes",
+        "usage_rules": [
+          "Remains principal even with COVID-19 present (Evidence: pg no: 74, L64-L65)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "U07.1",
+        "description": "COVID-19 (Evidence: pg no: 74, L63)",
+        "context": "For all newborns testing positive for COVID-19",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "U07.1": "COVID-19 confirmed by laboratory testing"
+        }
+      },
+      {
+        "code": "P35.8",
+        "description": "Other congenital viral diseases (Evidence: pg no: 74, L64)",
+        "context": "When COVID-19 transmission documented as in utero or during birth",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "P35.8": "Congenital viral disease when transmission is documented"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "U07.1 - COVID-19",
+      "P35.8 - Other congenital viral diseases",
+      "Z38 - Liveborn infants"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "newborn_covid_congenital",
+      "scenario": "Newborn born to COVID-positive mother, tests positive for COVID-19, provider documents in utero transmission",
+      "documentation_example": "Term newborn born to mother with active COVID-19 infection. Newborn tested positive for COVID-19 on day 1. Provider documents that infection was likely contracted in utero given timing and maternal status.",
+      "step_by_step": [
+        "Step 1: Confirm newborn tested positive for COVID-19",
+        "Step 2: Note provider documentation of in utero transmission",
+        "Step 3: Assign Z38 as principal for birth episode",
+        "Step 4: Assign P35.8 for congenital viral disease",
+        "Step 5: Assign U07.1 for COVID-19"
+      ],
+      "correct_coding": {
+        "primary_code": "Z38.00",
+        "secondary_codes": [
+          "P35.8",
+          "U07.1"
+        ],
+        "sequencing": "Z38 principal, P35.8 and U07.1 as secondary",
+        "rationale": "Documented in utero transmission requires both P35.8 and U07.1 with Z38 as principal (Evidence: pg no: 74, L64-L65)"
+      },
+      "incorrect_coding": {
+        "code": "U07.1 only",
+        "codes": [
+          "Z38.00",
+          "U07.1"
+        ],
+        "rationale": "Should include P35.8 when transmission is documented as in utero or during birth",
+        "common_mistake": "Not coding P35.8 when congenital transmission is documented"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [],
+    "best_practices": [
+      "Always assign U07.1 for COVID-19 positive newborns (Evidence: pg no: 74, L63)",
+      "Add P35.8 when transmission documented as in utero or during birth (Evidence: pg no: 74, L64)",
+      "Maintain Z38 as principal for birth episodes (Evidence: pg no: 74, L64-L65)"
+    ],
+    "common_mistakes": [
+      "Not adding P35.8 when congenital transmission is documented",
+      "Not coding manifestations of COVID-19 in newborns"
+    ],
+    "tips": [
+      "Check documentation for transmission type (Evidence: pg no: 74, L64)",
+      "Code manifestations in addition to U07.1 (Evidence: pg no: 74, L63-L64)"
+    ],
+    "implementation_notes": [
+      "Requires assessment of transmission documentation"
+    ],
+    "clinical_context": [
+      "Newborn COVID-19 infections with various transmission routes"
+    ]
+  },
+  "search_keywords": [
+    "COVID-19",
+    "newborn",
+    "U07.1",
+    "P35.8",
+    "congenital viral disease",
+    "in utero transmission",
+    "birth transmission",
+    "manifestations"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "perinatal_conditions",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "COVID-19",
+      "newborn",
+      "U07.1",
+      "P35.8",
+      "congenital",
+      "transmission",
+      "Z38"
+    ]
+  },
+  "page_range_processed": "pages_72_to_75"
+}

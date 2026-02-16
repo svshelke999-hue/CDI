@@ -1,0 +1,108 @@
+{
+  "guideline_id": "I.A.10",
+  "semantic_title": "Includes Notes: Definition and Examples for Category Content",
+  "section_path": "Section I > A. Conventions > 10. Includes Notes",
+  "page_number": 9,
+  "content": {
+    "full_text": "This note appears immediately under a three-character code title to further define, or give examples of, the content of the category. (Evidence: pg no: 9, L73-L75)",
+    "summary": "Defines Includes Notes as appearing under three-character code titles to provide definitions or examples of category content (Evidence: pg no: 9, L73-L75)",
+    "key_concepts": [
+      "Includes Notes appear under three-character code titles (Evidence: pg no: 9, L74)",
+      "Notes further define category content (Evidence: pg no: 9, L74-L75)",
+      "Notes give examples of category content (Evidence: pg no: 9, L74-L75)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.A.10.R1",
+        "rule_text": "Includes Notes appear immediately under a three-character code title (Evidence: pg no: 9, L74)",
+        "explanation": "These instructional notes are positioned directly below category titles to provide immediate clarification (Evidence: pg no: 9, L74)",
+        "importance": "medium",
+        "applies_to": "three_character_categories",
+        "common_applications": [
+          "Category content clarification",
+          "Code selection guidance"
+        ]
+      },
+      {
+        "rule_id": "I.A.10.R2",
+        "rule_text": "Includes Notes further define or give examples of the category content (Evidence: pg no: 9, L74-L75)",
+        "explanation": "These notes provide additional definition or specific examples to clarify what conditions belong in the category (Evidence: pg no: 9, L74-L75)",
+        "importance": "medium",
+        "applies_to": "three_character_categories",
+        "common_applications": [
+          "Understanding category scope",
+          "Verifying appropriate code selection"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Locate three-character category",
+      "Step 2: Check for Includes Notes immediately below title",
+      "Step 3: Review definitions and examples provided",
+      "Step 4: Verify condition fits within category scope"
+    ],
+    "related_terminology": [
+      "Includes Notes",
+      "Three-character code titles",
+      "Category content",
+      "Definitions",
+      "Examples"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Three-character categories with Includes Notes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [],
+    "best_practices": [
+      "Always check for Includes Notes under category titles",
+      "Use notes to verify appropriate category selection"
+    ],
+    "common_mistakes": [
+      "Ignoring Includes Notes when selecting codes"
+    ],
+    "tips": [
+      "Includes Notes provide valuable category clarification"
+    ],
+    "implementation_notes": [
+      "Notes help ensure accurate category assignment"
+    ],
+    "clinical_context": [
+      "Provides clinical context for category boundaries"
+    ]
+  },
+  "search_keywords": [
+    "includes notes",
+    "category definition",
+    "three character codes",
+    "category content",
+    "examples"
+  ],
+  "metadata": {
+    "category": "convention",
+    "subcategory": "instructional_notes",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "October 1, 2025",
+    "tags": [
+      "includes_notes",
+      "category_definition",
+      "instructional_notes"
+    ]
+  },
+  "page_range_processed": "pages_7_to_9"
+}

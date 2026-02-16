@@ -1,0 +1,207 @@
+{
+  "guideline_id": "I.C.15.q.2",
+  "semantic_title": "Coding Retained Products of Conception Following Abortion",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 15. Chapter 15: Pregnancy, Childbirth, and the Puerperium > q. Termination of Pregnancy and Spontaneous abortions > 2) Retained Products of Conception following an abortion",
+  "page_number": 70,
+  "content": {
+    "full_text": "Subsequent encounters for retained products of conception following a spontaneous abortion or elective termination of pregnancy, without complications are assigned O03.4, Incomplete spontaneous abortion without complication, or code O07.4, Failed attempted termination of pregnancy without complication. This advice is appropriate even when the patient was discharged previously with a discharge diagnosis of complete abortion. If the patient has a specific complication associated with the spontaneous abortion or elective termination of pregnancy in addition to retained products of conception, assign the appropriate complication code (e.g., O03.-, O04.-, O07.-) instead of code O03.4 or O07.4. (Evidence: pg no: 70, L45-L50)",
+    "summary": "Subsequent encounters for retained products of conception use O03.4 or O07.4 unless complications are present, then use appropriate complication codes. (Evidence: pg no: 70, L45-L50)",
+    "key_concepts": [
+      "Retained products of conception (Evidence: pg no: 70, L45)",
+      "Subsequent encounters (Evidence: pg no: 70, L45-L46)",
+      "Complication-based code selection (Evidence: pg no: 70, L49-L50)",
+      "Override of previous complete abortion diagnosis (Evidence: pg no: 70, L48-L49)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "retained_products_no_complications",
+        "rule_text": "Use O03.4 or O07.4 for retained products without complications (Evidence: pg no: 70, L46-L48)",
+        "explanation": "When retained products of conception are found on subsequent encounters without additional complications, use the incomplete abortion codes even if previously coded as complete (Evidence: pg no: 70, L46-L49)",
+        "importance": "high",
+        "applies_to": "O03.4, O07.4",
+        "common_applications": [
+          "Follow-up visits after abortion",
+          "Imaging findings of retained products"
+        ]
+      },
+      {
+        "rule_id": "retained_products_with_complications",
+        "rule_text": "Use appropriate complication codes when complications are present with retained products (Evidence: pg no: 70, L49-L50)",
+        "explanation": "If the patient has specific complications in addition to retained products, use the complication-specific codes from O03.-, O04.-, or O07.- instead of the basic incomplete codes (Evidence: pg no: 70, L49-L50)",
+        "importance": "critical",
+        "applies_to": "O03.-, O04.-, O07.-",
+        "common_applications": [
+          "Infection with retained products",
+          "Hemorrhage with retained products"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify retained products of conception",
+      "Step 2: Determine if complications are present",
+      "Step 3: If no complications, use O03.4 or O07.4",
+      "Step 4: If complications present, use appropriate complication code"
+    ],
+    "related_terminology": [
+      "Retained products of conception",
+      "Incomplete abortion",
+      "Failed termination",
+      "Subsequent encounters"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "O03.-",
+        "description": "Spontaneous abortion codes with complications (Evidence: pg no: 70, L50)",
+        "requirement": "Use when complications present with retained products",
+        "usage_rules": [
+          "Select specific complication code when complications exist (Evidence: pg no: 70, L49-L50)"
+        ]
+      },
+      {
+        "range": "O04.-",
+        "description": "Medical abortion codes with complications (Evidence: pg no: 70, L50)",
+        "requirement": "Use when complications present with retained products",
+        "usage_rules": [
+          "Select specific complication code when complications exist (Evidence: pg no: 70, L49-L50)"
+        ]
+      },
+      {
+        "range": "O07.-",
+        "description": "Failed attempted termination codes with complications (Evidence: pg no: 70, L50)",
+        "requirement": "Use when complications present with retained products",
+        "usage_rules": [
+          "Select specific complication code when complications exist (Evidence: pg no: 70, L49-L50)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "O03.4",
+        "description": "Incomplete spontaneous abortion without complication (Evidence: pg no: 70, L47-L48)",
+        "context": "Subsequent encounters for retained products after spontaneous abortion without complications",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "O03.4": "Incomplete spontaneous abortion without complication"
+        }
+      },
+      {
+        "code": "O07.4",
+        "description": "Failed attempted termination of pregnancy without complication (Evidence: pg no: 70, L48-L49)",
+        "context": "Subsequent encounters for retained products after elective termination without complications",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "O07.4": "Failed attempted termination without complication"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Abortion complication codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "retained_products_no_complications",
+      "scenario": "Patient returns 2 weeks after abortion with ultrasound showing retained products, no other complications",
+      "documentation_example": "Patient had complete abortion 2 weeks ago. Ultrasound today shows retained products of conception. No bleeding, infection, or other complications noted.",
+      "step_by_step": [
+        "Step 1: Identify retained products of conception",
+        "Step 2: Confirm no complications present",
+        "Step 3: Determine type of original abortion",
+        "Step 4: Code O03.4 for spontaneous or O07.4 for elective"
+      ],
+      "correct_coding": {
+        "primary_code": "O03.4 or O07.4",
+        "secondary_codes": [],
+        "sequencing": "Single code based on abortion type",
+        "rationale": "Retained products without complications use incomplete abortion codes even if previously coded as complete (Evidence: pg no: 70, L46-L49)"
+      },
+      "incorrect_coding": {
+        "code": "Complete abortion code",
+        "codes": [
+          "Maintaining previous complete abortion diagnosis"
+        ],
+        "rationale": "Must change to incomplete when retained products found",
+        "common_mistake": "Not updating diagnosis when retained products discovered"
+      }
+    },
+    {
+      "scenario_id": "retained_products_with_complications",
+      "scenario": "Patient returns after abortion with retained products and infection",
+      "documentation_example": "Patient presents with retained products of conception and endometritis following elective termination.",
+      "step_by_step": [
+        "Step 1: Identify retained products of conception",
+        "Step 2: Identify complication (infection)",
+        "Step 3: Select appropriate complication code",
+        "Step 4: Use O07.- with infection code, not O07.4"
+      ],
+      "correct_coding": {
+        "primary_code": "O07.- with infection",
+        "secondary_codes": [],
+        "sequencing": "Complication-specific code",
+        "rationale": "When complications are present with retained products, use complication codes instead of O03.4 or O07.4 (Evidence: pg no: 70, L49-L50)"
+      },
+      "incorrect_coding": {
+        "code": "O07.4",
+        "codes": [
+          "O07.4 with separate infection code"
+        ],
+        "rationale": "Should use integrated complication code, not separate codes",
+        "common_mistake": "Using basic incomplete code when complications are present"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Can override previous complete abortion diagnosis when retained products found (Evidence: pg no: 70, L48-L49)"
+    ],
+    "best_practices": [
+      "Use complication-specific codes when complications are present (Evidence: pg no: 70, L49-L50)"
+    ],
+    "common_mistakes": [
+      "Not changing from complete to incomplete when retained products discovered",
+      "Using basic incomplete codes when complications are present"
+    ],
+    "tips": [
+      "Always assess for complications when coding retained products"
+    ],
+    "implementation_notes": [
+      "Allows for accurate coding of subsequent findings regardless of initial diagnosis"
+    ],
+    "clinical_context": [
+      "Common in follow-up care after abortion procedures"
+    ]
+  },
+  "search_keywords": [
+    "retained products",
+    "incomplete abortion",
+    "O03.4",
+    "O07.4",
+    "subsequent encounters"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "abortion_complications",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "retained products",
+      "abortion",
+      "complications",
+      "subsequent encounters"
+    ]
+  },
+  "page_range_processed": "pages_69_to_72"
+}

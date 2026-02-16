@@ -1,0 +1,158 @@
+{
+  "guideline_id": "I.A.19",
+  "semantic_title": "Code Assignment Based on Provider's Diagnostic Statement Not Clinical Criteria",
+  "section_path": "Section I > A. Conventions > 19. Code assignment and Clinical Criteria",
+  "page_number": 12,
+  "content": {
+    "full_text": "The assignment of a diagnosis code is based on the provider's diagnostic statement that the condition exists. The provider's statement that the patient has a particular condition is sufficient. Code assignment is not based on clinical criteria used by the provider to establish the diagnosis. If there is conflicting medical record documentation, query the provider. (Evidence: pg no: 12, L73-L74)",
+    "summary": "Code assignment is based on provider's diagnostic statement, not clinical criteria, and provider's statement is sufficient for coding (Evidence: pg no: 12, L73-L74)",
+    "key_concepts": [
+      "Based on provider's diagnostic statement (Evidence: pg no: 12, L73)",
+      "Provider statement is sufficient (Evidence: pg no: 12, L73-L74)",
+      "Not based on clinical criteria (Evidence: pg no: 12, L74)",
+      "Query provider for conflicting documentation (Evidence: pg no: 12, L74)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "PROVIDER_STATEMENT_SUFFICIENT",
+        "rule_text": "Provider's statement that patient has particular condition is sufficient for code assignment (Evidence: pg no: 12, L73-L74)",
+        "explanation": "Coders should rely on provider's diagnostic statement rather than interpreting clinical criteria (Evidence: pg no: 12, L73-L74)",
+        "importance": "critical",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "All diagnostic coding",
+          "Provider documentation review"
+        ]
+      },
+      {
+        "rule_id": "NOT_CLINICAL_CRITERIA",
+        "rule_text": "Code assignment not based on clinical criteria used by provider to establish diagnosis (Evidence: pg no: 12, L74)",
+        "explanation": "Coders should not second-guess provider's diagnosis based on clinical criteria (Evidence: pg no: 12, L74)",
+        "importance": "critical",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Complex diagnostic situations",
+          "Conditions with specific clinical criteria"
+        ]
+      },
+      {
+        "rule_id": "CONFLICTING_DOCUMENTATION_QUERY",
+        "rule_text": "Query provider when there is conflicting medical record documentation (Evidence: pg no: 12, L74)",
+        "explanation": "When documentation conflicts, clarification from provider is needed rather than coder interpretation (Evidence: pg no: 12, L74)",
+        "importance": "high",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Conflicting diagnostic statements",
+          "Unclear documentation"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Review provider's diagnostic statement",
+      "Step 2: Accept provider's statement as sufficient",
+      "Step 3: Do not evaluate clinical criteria",
+      "Step 4: Query provider if documentation conflicts",
+      "Step 5: Code based on provider's confirmed diagnosis"
+    ],
+    "related_terminology": [
+      "Provider's diagnostic statement",
+      "Clinical criteria",
+      "Code assignment",
+      "Conflicting documentation",
+      "Provider query"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": []
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "PROVIDER_STATEMENT_SCENARIO",
+      "scenario": "Provider states patient has condition despite clinical criteria not fully met",
+      "documentation_example": "Patient has diabetes mellitus type 2 (despite some atypical presentation)",
+      "step_by_step": [
+        "Step 1: Note provider's diagnostic statement",
+        "Step 2: Accept provider's diagnosis",
+        "Step 3: Do not evaluate clinical criteria",
+        "Step 4: Code diabetes as stated"
+      ],
+      "correct_coding": {
+        "primary_code": "Type 2 diabetes code",
+        "secondary_codes": [],
+        "sequencing": "As appropriate for encounter",
+        "rationale": "Provider's statement is sufficient regardless of clinical criteria (Evidence: pg no: 12, L73-L74)"
+      },
+      "incorrect_coding": {
+        "code": "No diabetes code",
+        "codes": [
+          "Refusing to code based on clinical criteria"
+        ],
+        "rationale": "Should not second-guess provider's diagnosis",
+        "common_mistake": "Evaluating clinical criteria instead of accepting provider statement"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not base code assignment on clinical criteria evaluation (Evidence: pg no: 12, L74)",
+      "Query provider for conflicting documentation rather than making assumptions (Evidence: pg no: 12, L74)"
+    ],
+    "best_practices": [
+      "Accept provider's diagnostic statement as sufficient (Evidence: pg no: 12, L73-L74)",
+      "Query provider when documentation is conflicting or unclear (Evidence: pg no: 12, L74)"
+    ],
+    "common_mistakes": [
+      "Second-guessing provider's diagnosis based on clinical criteria",
+      "Refusing to code conditions that don't meet perceived clinical criteria",
+      "Making coding decisions without provider clarification when documentation conflicts"
+    ],
+    "tips": [
+      "Trust provider's clinical judgment",
+      "Focus on what provider states, not how they arrived at diagnosis"
+    ],
+    "implementation_notes": [
+      "Fundamental principle of medical coding",
+      "Maintains appropriate scope of coder responsibilities"
+    ],
+    "clinical_context": [
+      "Providers have clinical training to make diagnoses",
+      "Coders translate diagnoses to codes, not make diagnoses"
+    ]
+  },
+  "search_keywords": [
+    "provider statement",
+    "diagnostic statement",
+    "clinical criteria",
+    "code assignment",
+    "provider query",
+    "conflicting documentation",
+    "sufficient",
+    "diagnosis"
+  ],
+  "metadata": {
+    "category": "convention",
+    "subcategory": "code_assignment_principles",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "provider_statement",
+      "clinical_criteria",
+      "code_assignment",
+      "provider_query"
+    ]
+  },
+  "page_range_processed": "pages_9_to_12"
+}

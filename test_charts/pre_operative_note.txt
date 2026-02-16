@@ -1,0 +1,49 @@
+PRE-OPERATIVE ASSESSMENT
+
+Patient Name: John Smith
+Date of Birth: 01/15/1975
+Age: 49 years old
+MRN: 123456789
+
+INDICATIONS FOR SURGERY:
+The patient is a 49-year-old male with a history of right shoulder pain and limited range of motion. 
+Patient has failed conservative management including physical therapy, NSAIDs, and corticosteroid injections.
+
+PLANNED PROCEDURE:
+Arthroscopic rotator cuff repair, right shoulder
+Arthroscopic subacromial decompression, right shoulder
+
+PRE-OPERATIVE EVALUATION:
+
+LABORATORY STUDIES:
+- Complete Blood Count (CBC): Within normal limits
+- Comprehensive Metabolic Panel (CMP): Within normal limits
+- PT/INR: 1.1 (normal)
+- PTT: 28 seconds (normal)
+
+IMAGING STUDIES:
+- MRI Right Shoulder: Shows full-thickness rotator cuff tear involving the supraspinatus tendon
+- X-ray Right Shoulder: Shows subacromial spurring
+
+CARDIAC EVALUATION:
+- EKG: Normal sinus rhythm, no acute changes
+- Chest X-ray: Clear lungs, no cardiomegaly
+
+MEDICATIONS:
+- Ibuprofen 600mg TID
+- Acetaminophen 500mg QID PRN pain
+- Omeprazole 20mg daily
+
+ALLERGIES:
+- No known drug allergies
+
+RISK ASSESSMENT:
+ASA Class II - Mild systemic disease
+Patient is cleared for surgery.
+
+ANESTHESIA CONSULTATION:
+Patient evaluated by anesthesia. No contraindications to general anesthesia.
+
+CONSENT:
+Informed consent obtained for planned procedures. Patient understands risks, benefits, and alternatives.
+

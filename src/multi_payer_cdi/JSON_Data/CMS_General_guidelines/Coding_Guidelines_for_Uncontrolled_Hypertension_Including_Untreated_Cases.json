@@ -1,0 +1,130 @@
+{
+  "guideline_id": "I.C.9.a.9",
+  "semantic_title": "Coding Guidelines for Uncontrolled Hypertension Including Untreated Cases",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 9. Diseases of the Circulatory System > a. Hypertension > 9) Hypertension, Uncontrolled",
+  "page_number": 52,
+  "content": {
+    "full_text": "Uncontrolled hypertension may refer to untreated hypertension or hypertension not responding to current therapeutic regimen. In either case, assign the appropriate code from categories I10-I15, Hypertensive diseases. (Evidence: pg no: 52, L39-L41)",
+    "summary": "Guidelines for coding uncontrolled hypertension whether untreated or treatment-resistant (Evidence: pg no: 52, L39-L41)",
+    "key_concepts": [
+      "Uncontrolled hypertension definition (Evidence: pg no: 52, L39)",
+      "Untreated hypertension (Evidence: pg no: 52, L39-L40)",
+      "Treatment non-responsive hypertension (Evidence: pg no: 52, L40)",
+      "Use of I10-I15 categories (Evidence: pg no: 52, L40-L41)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "UNCTRL_HTN_001",
+        "rule_text": "Assign appropriate code from categories I10-I15 for uncontrolled hypertension (Evidence: pg no: 52, L40-L41)",
+        "explanation": "Whether hypertension is untreated or not responding to therapy, it should be coded using standard hypertension categories I10-I15 (Evidence: pg no: 52, L39-L41)",
+        "importance": "high",
+        "applies_to": "I10-I15",
+        "common_applications": [
+          "Newly diagnosed untreated hypertension",
+          "Treatment-resistant hypertension cases"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify uncontrolled hypertension documentation",
+      "Step 2: Determine if untreated or treatment non-responsive",
+      "Step 3: Assign appropriate code from I10-I15 categories"
+    ],
+    "related_terminology": [
+      "Uncontrolled hypertension",
+      "Untreated hypertension",
+      "Treatment-resistant hypertension",
+      "Non-responsive hypertension"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "I10-I15",
+        "description": "Hypertensive diseases (Evidence: pg no: 52, L40-L41)",
+        "requirement": "Use for uncontrolled hypertension",
+        "usage_rules": [
+          "Apply regardless of treatment status (Evidence: pg no: 52, L39-L41)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Hypertensive diseases"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "UNCTRL_HTN_SC001",
+      "scenario": "Patient with uncontrolled hypertension despite medication",
+      "documentation_example": "Uncontrolled hypertension, not responding to current medications",
+      "step_by_step": [
+        "Step 1: Identify uncontrolled hypertension",
+        "Step 2: Note treatment non-responsive status",
+        "Step 3: Assign appropriate I10-I15 code"
+      ],
+      "correct_coding": {
+        "primary_code": "I10",
+        "secondary_codes": [],
+        "sequencing": "Standard hypertension coding",
+        "rationale": "Uncontrolled hypertension is coded using I10-I15 categories regardless of treatment response (Evidence: pg no: 52, L40-L41)"
+      },
+      "incorrect_coding": {
+        "code": "R03.0",
+        "codes": [
+          "R03.0"
+        ],
+        "rationale": "Would be incorrect as this is established hypertension",
+        "common_mistake": "Using elevated BP code for established uncontrolled hypertension"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [],
+    "best_practices": [
+      "Code uncontrolled hypertension same as controlled hypertension (Evidence: pg no: 52, L40-L41)"
+    ],
+    "common_mistakes": [
+      "Using different coding approach for uncontrolled status"
+    ],
+    "tips": [
+      "Treatment response does not affect code selection (Evidence: pg no: 52, L39-L41)"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Emergency department visits",
+      "Medication adjustment encounters"
+    ]
+  },
+  "search_keywords": [
+    "uncontrolled hypertension",
+    "untreated hypertension",
+    "treatment resistant",
+    "non-responsive hypertension",
+    "I10-I15"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "hypertension",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "hypertension",
+      "uncontrolled",
+      "untreated",
+      "treatment_resistant"
+    ]
+  },
+  "page_range_processed": "pages_51_to_54"
+}

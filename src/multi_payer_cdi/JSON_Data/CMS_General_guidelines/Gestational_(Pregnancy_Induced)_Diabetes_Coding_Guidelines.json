@@ -1,0 +1,211 @@
+{
+  "guideline_id": "I.C.15.i",
+  "semantic_title": "Gestational (Pregnancy Induced) Diabetes Coding Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 15. Pregnancy, Childbirth, and the Puerperium > i. Gestational (pregnancy induced) diabetes",
+  "page_number": 67,
+  "content": {
+    "full_text": "Gestational (pregnancy induced) diabetes can occur during the second and third trimester of pregnancy in patients who were not diabetic prior to pregnancy. Gestational diabetes can cause complications in the pregnancy similar to those of pre-existing diabetes mellitus. It also puts the patient at greater risk of developing diabetes after the pregnancy. Codes for gestational diabetes are in subcategory O24.4, Gestational diabetes mellitus. No other code from category O24, Diabetes mellitus in pregnancy, childbirth, and the puerperium, should be used with a code from O24.4. The codes under subcategory O24.4 include diet controlled, insulin controlled, and controlled by oral hypoglycemic drugs. If a patient with gestational diabetes is treated with both diet and insulin, only the code for insulin-controlled is required. If a patient with gestational diabetes is treated with both diet and oral hypoglycemic medications, only the code for 'controlled by oral hypoglycemic drugs' is required. Codes Z79.4, Long-term (current) use of insulin, Z79.84, Long-term (current) use of oral hypoglycemic drugs, and Z79.85, Long-term (current) use of injectable non-insulin antidiabetic drugs, should not be assigned with codes from subcategory O24.4. An abnormal glucose tolerance in pregnancy is assigned a code from subcategory O99.81, Abnormal glucose complicating pregnancy, childbirth, and the puerperium. (Evidence: pg no: 67, L30-L38)",
+    "summary": "Comprehensive guidelines for coding gestational diabetes including control methods, exclusions, and related conditions (Evidence: pg no: 67, L30-L38)",
+    "key_concepts": [
+      "Gestational diabetes occurs in second/third trimester (Evidence: pg no: 67, L31)",
+      "Exclusive use of O24.4 subcategory (Evidence: pg no: 67, L33-L34)",
+      "Treatment method determines specific code (Evidence: pg no: 67, L34-L36)",
+      "Z79 codes excluded with O24.4 (Evidence: pg no: 67, L35-L38)",
+      "Abnormal glucose tolerance coded separately (Evidence: pg no: 67, L38)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "gestational_diabetes_exclusivity",
+        "rule_text": "No other code from category O24 should be used with O24.4 codes (Evidence: pg no: 67, L33-L34)",
+        "explanation": "Gestational diabetes codes are mutually exclusive with other pregnancy diabetes codes (Evidence: pg no: 67, L33-L34)",
+        "importance": "critical",
+        "applies_to": "O24.4",
+        "common_applications": [
+          "Gestational diabetes coding",
+          "Pregnancy diabetes differentiation"
+        ]
+      },
+      {
+        "rule_id": "treatment_priority_insulin",
+        "rule_text": "If treated with both diet and insulin, only insulin-controlled code is required (Evidence: pg no: 67, L34-L35)",
+        "explanation": "When multiple treatments are used, insulin takes priority over diet control (Evidence: pg no: 67, L34-L35)",
+        "importance": "high",
+        "applies_to": "O24.4",
+        "common_applications": [
+          "Combined diet and insulin therapy",
+          "Treatment escalation cases"
+        ]
+      },
+      {
+        "rule_id": "treatment_priority_oral",
+        "rule_text": "If treated with both diet and oral hypoglycemics, only oral hypoglycemic code is required (Evidence: pg no: 67, L35-L36)",
+        "explanation": "When multiple treatments are used, oral medications take priority over diet control (Evidence: pg no: 67, L35-L36)",
+        "importance": "high",
+        "applies_to": "O24.4",
+        "common_applications": [
+          "Combined diet and oral medication therapy"
+        ]
+      },
+      {
+        "rule_id": "z79_exclusion_gestational",
+        "rule_text": "Z79.4, Z79.84, and Z79.85 should not be assigned with O24.4 codes (Evidence: pg no: 67, L35-L38)",
+        "explanation": "Long-term medication use codes are excluded when using gestational diabetes codes (Evidence: pg no: 67, L35-L38)",
+        "importance": "critical",
+        "applies_to": "O24.4, Z79.4, Z79.84, Z79.85",
+        "common_applications": [
+          "Gestational diabetes with insulin",
+          "Gestational diabetes with oral medications"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Confirm gestational diabetes diagnosis",
+      "Step 2: Identify treatment method(s)",
+      "Step 3: Select appropriate O24.4 code based on highest level treatment",
+      "Step 4: Do not add Z79 codes",
+      "Step 5: Use O99.81 for abnormal glucose tolerance only"
+    ],
+    "related_terminology": [
+      "gestational diabetes",
+      "pregnancy induced diabetes",
+      "diet controlled",
+      "insulin controlled",
+      "oral hypoglycemic drugs"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "O24.4",
+        "description": "Gestational diabetes mellitus subcategory (Evidence: pg no: 67, L33)",
+        "requirement": "Exclusive use for gestational diabetes",
+        "usage_rules": [
+          "Do not use other O24 codes with O24.4 (Evidence: pg no: 67, L33-L34)",
+          "Select based on treatment method (Evidence: pg no: 67, L34)"
+        ]
+      },
+      {
+        "range": "O99.81",
+        "description": "Abnormal glucose complicating pregnancy, childbirth, and the puerperium (Evidence: pg no: 67, L38)",
+        "requirement": "Use for abnormal glucose tolerance",
+        "usage_rules": [
+          "Separate from gestational diabetes coding (Evidence: pg no: 67, L38)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "Z79.4",
+        "description": "Long-term (current) use of insulin (Evidence: pg no: 67, L35)",
+        "context": "Excluded with O24.4 codes",
+        "requires_additional_codes": false,
+        "breakdown": {}
+      },
+      {
+        "code": "Z79.84",
+        "description": "Long-term (current) use of oral hypoglycemic drugs (Evidence: pg no: 67, L35-L36)",
+        "context": "Excluded with O24.4 codes",
+        "requires_additional_codes": false,
+        "breakdown": {}
+      },
+      {
+        "code": "Z79.85",
+        "description": "Long-term (current) use of injectable non-insulin antidiabetic drugs (Evidence: pg no: 67, L36-L37)",
+        "context": "Excluded with O24.4 codes",
+        "requires_additional_codes": false,
+        "breakdown": {}
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Subcategory O24.4 - Gestational diabetes mellitus",
+      "Category O24 - Diabetes mellitus in pregnancy, childbirth, and the puerperium"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "gestational_diabetes_diet_insulin",
+      "scenario": "Patient with gestational diabetes treated with both diet and insulin",
+      "documentation_example": "28-year-old female at 32 weeks gestation with gestational diabetes mellitus, controlled with diet and insulin",
+      "step_by_step": [
+        "Step 1: Identify gestational diabetes",
+        "Step 2: Note combined diet and insulin treatment",
+        "Step 3: Apply priority rule - insulin takes precedence",
+        "Step 4: Assign insulin-controlled code only"
+      ],
+      "correct_coding": {
+        "primary_code": "O24.414",
+        "secondary_codes": [],
+        "sequencing": "Single code only",
+        "rationale": "Insulin treatment takes priority over diet control (Evidence: pg no: 67, L34-L35)"
+      },
+      "incorrect_coding": {
+        "codes": [
+          "O24.410",
+          "Z79.4"
+        ],
+        "rationale": "Should not use diet-controlled code when insulin is used, and Z79.4 is excluded",
+        "common_mistake": "Using multiple treatment codes or adding Z79 codes"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not use Z79 codes with O24.4 subcategory (Evidence: pg no: 67, L35-L38)",
+      "Do not use other O24 codes with O24.4 (Evidence: pg no: 67, L33-L34)"
+    ],
+    "best_practices": [
+      "Select O24.4 code based on highest level of treatment (Evidence: pg no: 67, L34-L36)",
+      "Use O99.81 for abnormal glucose tolerance, not gestational diabetes (Evidence: pg no: 67, L38)"
+    ],
+    "common_mistakes": [
+      "Adding Z79 codes with gestational diabetes codes",
+      "Using multiple O24 codes together",
+      "Coding diet control when insulin or oral meds are used"
+    ],
+    "tips": [
+      "Insulin and oral medications take priority over diet control",
+      "Gestational diabetes is exclusive - don't mix with other diabetes codes"
+    ],
+    "implementation_notes": [
+      "Occurs in second and third trimester only",
+      "Increases future diabetes risk"
+    ],
+    "clinical_context": [
+      "Develops in previously non-diabetic patients",
+      "Can cause pregnancy complications similar to pre-existing diabetes"
+    ]
+  },
+  "search_keywords": [
+    "gestational diabetes",
+    "pregnancy induced diabetes",
+    "O24.4",
+    "diet controlled",
+    "insulin controlled",
+    "oral hypoglycemic",
+    "Z79 exclusion"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "pregnancy_complications",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "gestational_diabetes",
+      "treatment_priority",
+      "code_exclusions",
+      "pregnancy"
+    ]
+  },
+  "page_range_processed": "pages_66_to_69"
+}

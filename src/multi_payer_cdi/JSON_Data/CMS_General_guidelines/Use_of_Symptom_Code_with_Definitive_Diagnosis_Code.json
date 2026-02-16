@@ -1,0 +1,182 @@
+{
+  "guideline_id": "I.C.18.b",
+  "semantic_title": "Use of Symptom Code with Definitive Diagnosis Code",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 18. Chapter 18: Symptoms, signs, and abnormal clinical and laboratory findings, not elsewhere classified (R00-R99) > b. Use of a symptom code with a definitive diagnosis code",
+  "page_number": 75,
+  "content": {
+    "full_text": "Codes for signs and symptoms may be reported in addition to a related definitive diagnosis when the sign or symptom is not routinely associated with that diagnosis, such as the various signs and symptoms associated with complex syndromes. The definitive diagnosis code should be sequenced before the symptom code. Signs or symptoms that are associated routinely with a disease process should not be assigned as additional codes, unless otherwise instructed by the classification. (Evidence: pg no: 75, L86-L88)",
+    "summary": "Symptom codes can be used with definitive diagnosis codes when symptoms are not routinely associated with the diagnosis, with definitive diagnosis sequenced first, but routine symptoms should not be coded separately (Evidence: pg no: 75, L86-L88)",
+    "key_concepts": [
+      "Additional symptom coding with diagnosis (Evidence: pg no: 75, L86)",
+      "Non-routine symptom association (Evidence: pg no: 75, L86-L87)",
+      "Complex syndromes (Evidence: pg no: 75, L87)",
+      "Definitive diagnosis sequencing priority (Evidence: pg no: 75, L87)",
+      "Routine symptom exclusion (Evidence: pg no: 75, L88)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "non_routine_symptom_rule",
+        "rule_text": "Code symptoms in addition to definitive diagnosis when symptom is not routinely associated with the diagnosis (Evidence: pg no: 75, L86-L87)",
+        "explanation": "When a patient has symptoms that are not typically expected or routinely seen with their diagnosed condition, these symptoms should be coded separately (Evidence: pg no: 75, L86-L87)",
+        "importance": "high",
+        "applies_to": "Definitive diagnosis with non-routine symptoms",
+        "common_applications": [
+          "Complex syndromes with multiple manifestations",
+          "Unusual presentations of common conditions"
+        ]
+      },
+      {
+        "rule_id": "diagnosis_symptom_sequencing_rule",
+        "rule_text": "Definitive diagnosis code should be sequenced before symptom code (Evidence: pg no: 75, L87)",
+        "explanation": "When both definitive diagnosis and symptom codes are assigned, the definitive diagnosis takes precedence in sequencing (Evidence: pg no: 75, L87)",
+        "importance": "high",
+        "applies_to": "Combined diagnosis and symptom coding",
+        "common_applications": [
+          "All encounters with both definitive diagnosis and non-routine symptoms"
+        ]
+      },
+      {
+        "rule_id": "routine_symptom_exclusion_rule",
+        "rule_text": "Do not assign additional codes for symptoms routinely associated with a disease process (Evidence: pg no: 75, L88)",
+        "explanation": "Symptoms that are expected and routinely occur with a particular diagnosis should not be coded separately unless specifically instructed by the classification (Evidence: pg no: 75, L88)",
+        "importance": "critical",
+        "applies_to": "Routine disease symptoms",
+        "common_applications": [
+          "Fever with pneumonia",
+          "Chest pain with myocardial infarction"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify definitive diagnosis",
+      "Step 2: Identify all documented symptoms",
+      "Step 3: Determine which symptoms are routinely associated with diagnosis",
+      "Step 4: Code only non-routine symptoms separately",
+      "Step 5: Sequence definitive diagnosis first, then symptom codes"
+    ],
+    "related_terminology": [
+      "Definitive diagnosis",
+      "Non-routine symptoms",
+      "Complex syndromes",
+      "Routine association",
+      "Disease process"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "R00-R99",
+        "description": "Symptoms, signs, and abnormal clinical and laboratory findings (Evidence: pg no: 75, L86)",
+        "requirement": "Use with definitive diagnosis when symptoms not routinely associated",
+        "usage_rules": [
+          "Sequence after definitive diagnosis (Evidence: pg no: 75, L87)",
+          "Do not use for routine symptoms (Evidence: pg no: 75, L88)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "R00-R99 - Symptoms and signs"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.18.a",
+        "title": "Use of symptom codes",
+        "relationship": "related_to",
+        "explanation": "Contrasts with using symptom codes when no definitive diagnosis exists"
+      },
+      {
+        "guideline_id": "I.C.18.c",
+        "title": "Combination codes that include symptoms",
+        "relationship": "related_to",
+        "explanation": "Related to avoiding duplicate coding when combination codes exist"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "non_routine_symptom_with_diagnosis",
+      "scenario": "Patient with diabetes mellitus presenting with unusual neurological symptoms not typically associated with diabetes",
+      "documentation_example": "Patient with Type 2 diabetes mellitus presents with acute onset of diplopia and vertigo. These neurological symptoms are not typical for diabetic complications. Workup for other causes ongoing.",
+      "step_by_step": [
+        "Step 1: Identify Type 2 diabetes as definitive diagnosis",
+        "Step 2: Identify diplopia and vertigo as symptoms",
+        "Step 3: Determine these symptoms are not routinely associated with diabetes",
+        "Step 4: Sequence diabetes first, then symptom codes"
+      ],
+      "correct_coding": {
+        "primary_code": "E11.9",
+        "secondary_codes": [
+          "H53.2",
+          "R42"
+        ],
+        "sequencing": "Definitive diagnosis first, then non-routine symptoms",
+        "rationale": "Non-routine symptoms coded separately with definitive diagnosis sequenced first (Evidence: pg no: 75, L86-L87)"
+      },
+      "incorrect_coding": {
+        "code": "H53.2, R42, E11.9",
+        "codes": [
+          "H53.2",
+          "R42",
+          "E11.9"
+        ],
+        "rationale": "Definitive diagnosis should be sequenced before symptom codes",
+        "common_mistake": "Incorrect sequencing of diagnosis and symptom codes"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not code routine symptoms separately (Evidence: pg no: 75, L88)"
+    ],
+    "best_practices": [
+      "Sequence definitive diagnosis before symptom codes (Evidence: pg no: 75, L87)",
+      "Only code non-routine symptoms with definitive diagnosis (Evidence: pg no: 75, L86-L87)"
+    ],
+    "common_mistakes": [
+      "Coding routine symptoms separately",
+      "Incorrect sequencing of diagnosis and symptom codes"
+    ],
+    "tips": [
+      "Consider if symptom is routinely associated with diagnosis (Evidence: pg no: 75, L86-L87)"
+    ],
+    "implementation_notes": [
+      "Requires clinical knowledge of typical disease presentations"
+    ],
+    "clinical_context": [
+      "Complex presentations with unusual symptom combinations"
+    ]
+  },
+  "search_keywords": [
+    "symptom codes with diagnosis",
+    "non-routine symptoms",
+    "definitive diagnosis",
+    "sequencing",
+    "complex syndromes",
+    "routine symptoms"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "symptoms_signs",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "symptoms",
+      "definitive diagnosis",
+      "sequencing",
+      "non-routine",
+      "complex syndromes"
+    ]
+  },
+  "page_range_processed": "pages_72_to_75"
+}

@@ -1,0 +1,253 @@
+{
+  "guideline_id": "I.C.21.c.3.l",
+  "semantic_title": "Long-term Drug Therapy (Z79) - Usage Rules and Exclusions",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 21. Factors Influencing Health Status > c. Categories of Z Codes > 3) Status",
+  "page_number": 95,
+  "content": {
+    "full_text": "Codes from this category indicate a patient's continuous use of a prescribed drug (including such things as aspirin therapy) for the long-term treatment of a condition or for prophylactic use. It is not for use for patients who have addictions to drugs. This subcategory is not for use of medications for detoxification or maintenance programs to prevent withdrawal symptoms (e.g., methadone maintenance for opiate dependence). Assign the appropriate code for the drug use, abuse, or dependence instead. Assign a code from Z79 if the patient is receiving a medication for an extended period as a prophylactic measure (such as for the prevention of deep vein thrombosis) or as treatment of a chronic condition (such as arthritis) or a disease requiring a lengthy course of treatment (such as cancer). Do not assign a code from category Z79 for medication being administered for a brief period of time to treat an acute illness or injury (such as a course of antibiotics to treat acute bronchitis). (Evidence: pg no: 95, L62-L69)",
+    "summary": "Z79 codes for continuous prescribed drug use for long-term treatment or prophylaxis, excluding addictions, detox programs, and brief acute treatments (Evidence: pg no: 95, L62-L69)",
+    "key_concepts": [
+      "Continuous prescribed drug use (Evidence: pg no: 95, L62-L63)",
+      "Long-term treatment or prophylaxis (Evidence: pg no: 95, L63)",
+      "Excludes drug addictions (Evidence: pg no: 95, L63)",
+      "Excludes detox/maintenance programs (Evidence: pg no: 95, L63-L64)",
+      "Extended prophylactic use (Evidence: pg no: 95, L65)",
+      "Chronic condition treatment (Evidence: pg no: 95, L65-L66)",
+      "Excludes brief acute treatments (Evidence: pg no: 95, L66-L69)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "LONGTERM_CONT",
+        "rule_text": "Use for continuous prescribed drug use for long-term treatment or prophylaxis (Evidence: pg no: 95, L62-L63)",
+        "explanation": "Z79 codes indicate ongoing prescribed medication use for extended treatment or prevention (Evidence: pg no: 95, L62-L63)",
+        "importance": "high",
+        "applies_to": "Z79",
+        "common_applications": [
+          "Chronic disease management",
+          "Prophylactic therapy",
+          "Long-term treatment regimens"
+        ]
+      },
+      {
+        "rule_id": "LONGTERM_EXCL_ADDICT",
+        "rule_text": "Not for patients with drug addictions (Evidence: pg no: 95, L63)",
+        "explanation": "Z79 codes should not be used for patients who have drug addictions - use appropriate addiction codes instead (Evidence: pg no: 95, L63)",
+        "importance": "critical",
+        "applies_to": "Z79",
+        "common_applications": [
+          "Drug addiction cases",
+          "Substance abuse disorders"
+        ]
+      },
+      {
+        "rule_id": "LONGTERM_EXCL_DETOX",
+        "rule_text": "Not for detoxification or maintenance programs (Evidence: pg no: 95, L63-L64)",
+        "explanation": "Z79 codes should not be used for medications in detox or maintenance programs like methadone maintenance (Evidence: pg no: 95, L63-L64)",
+        "importance": "critical",
+        "applies_to": "Z79",
+        "common_applications": [
+          "Methadone maintenance",
+          "Detoxification programs",
+          "Withdrawal prevention"
+        ]
+      },
+      {
+        "rule_id": "LONGTERM_EXCL_BRIEF",
+        "rule_text": "Do not use for brief treatments of acute conditions (Evidence: pg no: 95, L66-L69)",
+        "explanation": "Z79 codes should not be assigned for short-term medications treating acute illnesses like antibiotics for bronchitis (Evidence: pg no: 95, L66-L69)",
+        "importance": "critical",
+        "applies_to": "Z79",
+        "common_applications": [
+          "Antibiotic courses",
+          "Acute illness treatments",
+          "Short-term therapies"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify medication use",
+      "Step 2: Determine if use is long-term/continuous",
+      "Step 3: Verify not for addiction, detox, or brief acute treatment",
+      "Step 4: Confirm prophylactic or chronic condition treatment",
+      "Step 5: Assign appropriate Z79 code"
+    ],
+    "related_terminology": [
+      "Long-term drug therapy",
+      "Prophylactic medication",
+      "Chronic medication",
+      "Continuous therapy",
+      "Extended treatment"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z79",
+        "description": "Long-term (current) drug therapy (Evidence: pg no: 95, L62)",
+        "requirement": "For continuous prescribed drug use for long-term treatment or prophylaxis",
+        "usage_rules": [
+          "Continuous prescribed use (Evidence: pg no: 95, L62-L63)",
+          "Not for addictions (Evidence: pg no: 95, L63)",
+          "Not for detox programs (Evidence: pg no: 95, L63-L64)",
+          "Not for brief acute treatments (Evidence: pg no: 95, L66-L69)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Long-term drug therapy"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "LONGTERM_01",
+      "scenario": "Patient on long-term aspirin for cardiac prophylaxis",
+      "documentation_example": "Patient with history of myocardial infarction on daily aspirin 81mg for cardiac protection. Long-term therapy planned.",
+      "step_by_step": [
+        "Step 1: Identify cardiac condition",
+        "Step 2: Note long-term aspirin use for prophylaxis",
+        "Step 3: Assign cardiac condition code",
+        "Step 4: Assign Z79.82 for long-term aspirin"
+      ],
+      "correct_coding": {
+        "primary_code": "Z51.81",
+        "secondary_codes": [
+          "Z79.82",
+          "Z87.891"
+        ],
+        "sequencing": "Encounter reason first, then long-term therapy",
+        "rationale": "Long-term prophylactic medication use qualifies for Z79 (Evidence: pg no: 95, L65)"
+      },
+      "incorrect_coding": {
+        "code": "No Z79",
+        "codes": [
+          "Missing long-term therapy code"
+        ],
+        "rationale": "Should capture long-term prophylactic therapy",
+        "common_mistake": "Not coding documented long-term therapy"
+      }
+    },
+    {
+      "scenario_id": "LONGTERM_02",
+      "scenario": "Patient with acute bronchitis on antibiotics",
+      "documentation_example": "Patient with acute bronchitis prescribed 7-day course of azithromycin.",
+      "step_by_step": [
+        "Step 1: Identify acute bronchitis",
+        "Step 2: Note short-term antibiotic course",
+        "Step 3: Do not assign Z79 for brief treatment",
+        "Step 4: Assign only bronchitis code"
+      ],
+      "correct_coding": {
+        "primary_code": "J20.9",
+        "secondary_codes": [],
+        "sequencing": "Acute condition only, no long-term therapy code",
+        "rationale": "Do not use Z79 for brief treatments of acute conditions (Evidence: pg no: 95, L66-L69)"
+      },
+      "incorrect_coding": {
+        "code": "Z79.2",
+        "codes": [
+          "Long-term antibiotic codes"
+        ],
+        "rationale": "Should not use for brief acute treatments",
+        "common_mistake": "Using Z79 for short-term antibiotic courses"
+      }
+    },
+    {
+      "scenario_id": "LONGTERM_03",
+      "scenario": "Patient on methadone maintenance for opioid dependence",
+      "documentation_example": "Patient with opioid dependence in methadone maintenance program.",
+      "step_by_step": [
+        "Step 1: Identify opioid dependence",
+        "Step 2: Note methadone maintenance program",
+        "Step 3: Do not use Z79 for maintenance programs",
+        "Step 4: Assign appropriate dependence code"
+      ],
+      "correct_coding": {
+        "primary_code": "F11.20",
+        "secondary_codes": [],
+        "sequencing": "Dependence code only, no Z79",
+        "rationale": "Z79 not for maintenance programs to prevent withdrawal (Evidence: pg no: 95, L63-L64)"
+      },
+      "incorrect_coding": {
+        "code": "Z79.891",
+        "codes": [
+          "Long-term therapy codes"
+        ],
+        "rationale": "Should not use for detox/maintenance programs",
+        "common_mistake": "Using Z79 for methadone maintenance"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "LONGTERM_EX1",
+      "scenario": "Aspirin therapy for cardiac protection",
+      "code_example": "Z79.82",
+      "breakdown": {
+        "Z79": "Long-term drug therapy (Evidence: pg no: 95, L62)",
+        "82": "Aspirin"
+      },
+      "rationale": "Long-term prophylactic use qualifies for Z79 (Evidence: pg no: 95, L65)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not use for drug addictions (Evidence: pg no: 95, L63)",
+      "Do not use for detox/maintenance programs (Evidence: pg no: 95, L63-L64)",
+      "Do not use for brief acute treatments (Evidence: pg no: 95, L66-L69)"
+    ],
+    "best_practices": [
+      "Distinguish between long-term and short-term therapy",
+      "Consider the purpose of medication use",
+      "Use addiction codes instead of Z79 for substance abuse"
+    ],
+    "common_mistakes": [
+      "Using Z79 for short-term antibiotic courses",
+      "Using Z79 for methadone maintenance",
+      "Using Z79 for drug addiction cases"
+    ],
+    "tips": [
+      "Focus on continuous, long-term prescribed use",
+      "Consider prophylactic vs. treatment purposes"
+    ],
+    "implementation_notes": [
+      "Important for medication reconciliation and safety"
+    ],
+    "clinical_context": [
+      "Chronic disease management",
+      "Preventive care",
+      "Medication management"
+    ]
+  },
+  "search_keywords": [
+    "long-term drug therapy",
+    "Z79",
+    "chronic medication",
+    "prophylactic therapy",
+    "continuous medication",
+    "aspirin therapy"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "status_codes",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "medication",
+      "therapy",
+      "chronic",
+      "prophylactic"
+    ]
+  },
+  "page_range_processed": "pages_93_to_96"
+}

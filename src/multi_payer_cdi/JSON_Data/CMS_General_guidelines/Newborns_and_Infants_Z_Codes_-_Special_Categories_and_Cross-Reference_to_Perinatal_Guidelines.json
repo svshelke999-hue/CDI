@@ -1,0 +1,149 @@
+{
+  "guideline_id": "I.C.21.c.16",
+  "semantic_title": "Newborns and Infants Z Codes - Special Categories and Cross-Reference to Perinatal Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 21. Chapter 21: Factors influencing health status and contact with health services (Z00-Z99) > c. Categories of Z Codes > 16) Newborns and Infants",
+  "page_number": 106,
+  "content": {
+    "full_text": "See Section I.C.16. Newborn (Perinatal) Guidelines, for further instruction on the use of these codes. Newborn Z codes/subcategories/categories: Z76.1 Encounter for health supervision and care of foundling, Z00.1- Encounter for routine child health examination, Z38 Liveborn infants according to place of birth and type of delivery (Evidence: pg no: 106, L52-L55)",
+    "summary": "Specific Z codes for newborns and infants with cross-reference to detailed perinatal coding guidelines (Evidence: pg no: 106, L52-L55)",
+    "key_concepts": [
+      "Specific Z codes designated for newborn and infant encounters (Evidence: pg no: 106, L53-L55)",
+      "Cross-reference to Section I.C.16 for detailed instructions (Evidence: pg no: 106, L52-L53)",
+      "Includes health supervision, routine examinations, and birth codes (Evidence: pg no: 106, L54-L55)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "NEWBORN_Z_REFERENCE",
+        "rule_text": "Refer to Section I.C.16 Newborn (Perinatal) Guidelines for detailed instructions (Evidence: pg no: 106, L52-L53)",
+        "explanation": "Complete coding instructions for newborn Z codes are found in the perinatal guidelines section (Evidence: pg no: 106, L52-L53)",
+        "importance": "critical",
+        "applies_to": "newborn_z_codes",
+        "common_applications": [
+          "Newborn coding",
+          "Infant health supervision",
+          "Birth encounter coding"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify newborn or infant encounter",
+      "Step 2: Select appropriate Z code from designated categories",
+      "Step 3: Refer to Section I.C.16 for detailed coding instructions",
+      "Step 4: Apply perinatal guidelines as specified"
+    ],
+    "related_terminology": [
+      "Newborn codes",
+      "Infant codes",
+      "Perinatal guidelines",
+      "Health supervision",
+      "Routine examinations",
+      "Liveborn infants"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z00.1-",
+        "description": "Encounter for routine child health examination (Evidence: pg no: 106, L54)",
+        "requirement": "See perinatal guidelines for detailed instructions",
+        "usage_rules": [
+          "Refer to Section I.C.16 for complete guidance (Evidence: pg no: 106, L52-L53)"
+        ]
+      },
+      {
+        "range": "Z38",
+        "description": "Liveborn infants according to place of birth and type of delivery (Evidence: pg no: 106, L54-L55)",
+        "requirement": "See perinatal guidelines for detailed instructions",
+        "usage_rules": [
+          "Refer to Section I.C.16 for complete guidance (Evidence: pg no: 106, L52-L53)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "Z76.1",
+        "description": "Encounter for health supervision and care of foundling (Evidence: pg no: 106, L54)",
+        "context": "Newborn and infant care encounters",
+        "requires_additional_codes": "check_code_notes",
+        "breakdown": {
+          "Z76": "Persons encountering health services in other circumstances",
+          ".1": "Health supervision and care of foundling"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Health supervision codes",
+      "Routine child health examination codes",
+      "Liveborn infant codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.16",
+        "title": "Newborn (Perinatal) Guidelines",
+        "relationship": "implements",
+        "explanation": "Provides detailed instructions for using newborn Z codes"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Must refer to perinatal guidelines for complete coding instructions (Evidence: pg no: 106, L52-L53)"
+    ],
+    "best_practices": [
+      "Always consult Section I.C.16 when coding newborn encounters",
+      "Understand the relationship between Z codes and perinatal conditions"
+    ],
+    "common_mistakes": [
+      "Coding newborn encounters without consulting perinatal guidelines",
+      "Misunderstanding the scope of newborn Z codes"
+    ],
+    "tips": [
+      "Keep perinatal guidelines readily accessible when coding newborn encounters",
+      "Understand the distinction between newborn Z codes and condition codes"
+    ],
+    "implementation_notes": [
+      "Requires familiarity with perinatal coding guidelines",
+      "May involve complex coding scenarios"
+    ],
+    "clinical_context": [
+      "Newborn care",
+      "Infant health supervision",
+      "Birth encounters",
+      "Foundling care"
+    ]
+  },
+  "search_keywords": [
+    "newborn Z codes",
+    "infant Z codes",
+    "perinatal guidelines",
+    "health supervision",
+    "routine child examination",
+    "liveborn infants",
+    "foundling care"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "newborn_infant_codes",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "Z_codes",
+      "newborn",
+      "infant",
+      "perinatal",
+      "cross_reference"
+    ]
+  },
+  "page_range_processed": "pages_105_to_108"
+}

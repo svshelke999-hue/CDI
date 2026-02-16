@@ -1,0 +1,151 @@
+{
+  "guideline_id": "IV.E",
+  "semantic_title": "Encounters for Circumstances Other Than Disease or Injury",
+  "section_path": "Section IV > E. Encounters for circumstances other than a disease or injury",
+  "page_number": 113,
+  "content": {
+    "full_text": "ICD-10-CM provides codes to deal with encounters for circumstances other than a disease or injury. The Factors Influencing Health Status and Contact with Health Services codes (Z00-Z99) are provided to deal with occasions when circumstances other than a disease or injury are recorded as diagnosis or problems. See Section I.C.21. Factors influencing health status and contact with health services. (Evidence: pg no: 113, L48-L52)",
+    "summary": "Introduces Z-codes for encounters not related to disease or injury, with reference to detailed guidelines in Section I.C.21 (Evidence: pg no: 113, L48-L52)",
+    "key_concepts": [
+      "ICD-10-CM provides codes for non-disease/injury encounters (Evidence: pg no: 113, L48-L49)",
+      "Z00-Z99 codes for factors influencing health status (Evidence: pg no: 113, L50)",
+      "Used when circumstances other than disease/injury recorded (Evidence: pg no: 113, L50-L51)",
+      "Detailed guidelines in Section I.C.21 (Evidence: pg no: 113, L52)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "IV.E.1",
+        "rule_text": "Use Z00-Z99 codes for encounters with circumstances other than disease or injury (Evidence: pg no: 113, L50-L51)",
+        "explanation": "Z-codes are specifically designed for encounters where the reason is not a current disease or injury (Evidence: pg no: 113, L50-L51)",
+        "importance": "high",
+        "applies_to": "Z_codes",
+        "common_applications": [
+          "Preventive care visits",
+          "Screening encounters",
+          "Administrative encounters",
+          "Follow-up visits without active problems"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if encounter is for disease/injury or other circumstances",
+      "Step 2: If other circumstances, identify the specific reason",
+      "Step 3: Search Z00-Z99 code range for appropriate code",
+      "Step 4: Refer to Section I.C.21 for detailed Z-code guidelines",
+      "Step 5: Apply appropriate Z-code"
+    ],
+    "related_terminology": [
+      "Circumstances",
+      "Disease",
+      "Injury",
+      "Factors influencing health status",
+      "Contact with health services",
+      "Z-codes"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z00-Z99",
+        "description": "Factors Influencing Health Status and Contact with Health Services (Evidence: pg no: 113, L50)",
+        "requirement": "Use for circumstances other than disease or injury",
+        "usage_rules": [
+          "For occasions when circumstances other than disease or injury are recorded (Evidence: pg no: 113, L50-L51)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Factors Influencing Health Status and Contact with Health Services"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.21",
+        "title": "Factors influencing health status and contact with health services",
+        "relationship": "references_to",
+        "explanation": "Detailed guidelines for Z-code usage"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "IV.E.S1",
+      "scenario": "Patient presents for routine annual physical examination",
+      "documentation_example": "Patient here for routine annual physical examination. No acute complaints. Review of systems negative.",
+      "step_by_step": [
+        "Step 1: Identify this as non-disease/injury encounter",
+        "Step 2: Determine specific reason - routine physical",
+        "Step 3: Search Z00-Z99 for routine examination code",
+        "Step 4: Select appropriate Z-code",
+        "Step 5: Apply Z-code as first-listed diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "Z00.00",
+        "secondary_codes": [],
+        "sequencing": "Z-code as first-listed for encounter reason",
+        "rationale": "Z-codes appropriate for circumstances other than disease or injury (Evidence: pg no: 113, L50-L51)"
+      },
+      "incorrect_coding": {
+        "code": "No code assigned",
+        "codes": [],
+        "rationale": "All encounters require appropriate coding",
+        "common_mistake": "Not coding preventive care encounters"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not use Z-codes when active disease or injury is the reason for encounter"
+    ],
+    "best_practices": [
+      "Use Z-codes for non-disease/injury circumstances (Evidence: pg no: 113, L50-L51)",
+      "Refer to Section I.C.21 for detailed Z-code guidelines (Evidence: pg no: 113, L52)"
+    ],
+    "common_mistakes": [
+      "Not recognizing when Z-codes are appropriate",
+      "Using Z-codes when disease/injury codes are more appropriate",
+      "Not referring to detailed Z-code guidelines"
+    ],
+    "tips": [
+      "Z-codes cover a wide range of non-medical encounter reasons"
+    ],
+    "implementation_notes": [
+      "Requires understanding of Z-code categories and usage",
+      "May require reference to detailed guidelines in Section I.C.21"
+    ],
+    "clinical_context": [
+      "Many outpatient encounters are for preventive or administrative purposes",
+      "Z-codes ensure appropriate coding for all encounter types"
+    ]
+  },
+  "search_keywords": [
+    "Z codes",
+    "circumstances",
+    "non-disease encounters",
+    "factors influencing health status",
+    "preventive care",
+    "screening"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "Z_code_usage",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "Z_codes",
+      "preventive_care",
+      "non_disease_encounters",
+      "health_status_factors"
+    ]
+  },
+  "page_range_processed": "pages_111_to_114"
+}

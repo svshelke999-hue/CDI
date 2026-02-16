@@ -1,0 +1,218 @@
+{
+  "guideline_id": "I.C.5.b.4",
+  "semantic_title": "Medical Conditions Due to Psychoactive Substance Use, Abuse and Dependence",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 5. Chapter 5: Mental, Behavioral and Neurodevelopmental disorders > b. Mental and behavioral disorders due to psychoactive substance use > 4) Medical Conditions Due to Psychoactive Substance Use, Abuse and Dependence",
+  "page_number": 44,
+  "content": {
+    "full_text": "Medical conditions due to substance use, abuse, and dependence are not classified as substance-induced disorders. Assign the diagnosis code for the medical condition as directed by the Alphabetical Index along with the appropriate psychoactive substance use, abuse or dependence code. For example, for alcoholic pancreatitis due to alcohol dependence, assign the appropriate code from subcategory K85.2, Alcohol induced acute pancreatitis, and the appropriate code from subcategory F10.2, such as code F10.20, Alcohol dependence, uncomplicated. It would not be appropriate to assign code F10.288, Alcohol dependence with other alcohol-induced disorder. (Evidence: pg no: 44, L61-L64)",
+    "summary": "Clarifies that medical conditions caused by substance use require separate coding for both the medical condition and the substance use disorder, and are not classified as substance-induced disorders (Evidence: pg no: 44, L61-L64)",
+    "key_concepts": [
+      "Medical conditions vs substance-induced disorders distinction (Evidence: pg no: 44, L61-L62)",
+      "Dual coding requirement (Evidence: pg no: 44, L62-L63)",
+      "Alphabetical Index guidance (Evidence: pg no: 44, L62-L63)",
+      "Inappropriate code exclusion (Evidence: pg no: 44, L64)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "MED_COND_SUBST_001",
+        "rule_text": "Medical conditions due to substance use are not substance-induced disorders (Evidence: pg no: 44, L61-L62)",
+        "explanation": "There is a distinction between medical conditions caused by substances and substance-induced disorders classified in Chapter 5 (Evidence: pg no: 44, L61-L62)",
+        "importance": "critical",
+        "applies_to": "Medical conditions caused by substances",
+        "common_applications": [
+          "Alcoholic liver disease",
+          "Drug-induced cardiomyopathy",
+          "Substance-related pancreatitis"
+        ]
+      },
+      {
+        "rule_id": "MED_COND_SUBST_002",
+        "rule_text": "Assign medical condition code as directed by Alphabetical Index (Evidence: pg no: 44, L62-L63)",
+        "explanation": "Use the Alphabetical Index to find the appropriate code for the medical condition caused by substance use (Evidence: pg no: 44, L62-L63)",
+        "importance": "critical",
+        "applies_to": "Medical conditions caused by substances",
+        "common_applications": [
+          "Looking up alcoholic pancreatitis",
+          "Finding drug-induced conditions"
+        ]
+      },
+      {
+        "rule_id": "MED_COND_SUBST_003",
+        "rule_text": "Also assign appropriate substance use, abuse, or dependence code (Evidence: pg no: 44, L63)",
+        "explanation": "In addition to the medical condition code, assign the relevant substance use disorder code (Evidence: pg no: 44, L63)",
+        "importance": "critical",
+        "applies_to": "F10-F19",
+        "common_applications": [
+          "Alcohol dependence with medical complications",
+          "Drug abuse causing medical conditions"
+        ]
+      },
+      {
+        "rule_id": "MED_COND_SUBST_004",
+        "rule_text": "Do not use 'with other alcohol-induced disorder' codes for medical conditions (Evidence: pg no: 44, L64)",
+        "explanation": "Codes like F10.288 are for substance-induced disorders, not medical conditions caused by substances (Evidence: pg no: 44, L64)",
+        "importance": "high",
+        "applies_to": "F1X.X88 codes",
+        "common_applications": [
+          "Avoiding F10.288 for alcoholic pancreatitis",
+          "Distinguishing disorder types"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify medical condition caused by substance",
+      "Step 2: Use Alphabetical Index to find medical condition code",
+      "Step 3: Identify level of substance involvement (use/abuse/dependence)",
+      "Step 4: Assign appropriate substance use disorder code",
+      "Step 5: Avoid substance-induced disorder codes for medical conditions"
+    ],
+    "related_terminology": [
+      "Medical conditions",
+      "Substance-induced disorders",
+      "Alcoholic pancreatitis",
+      "Alphabetical Index",
+      "Dual coding"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "K85.2",
+        "description": "Alcohol induced acute pancreatitis (Evidence: pg no: 44, L63-L64)",
+        "requirement": "Use with appropriate substance use disorder code",
+        "usage_rules": [
+          "Assign along with F10.2 code (Evidence: pg no: 44, L63-L64)"
+        ]
+      },
+      {
+        "range": "F10.2",
+        "description": "Alcohol dependence (Evidence: pg no: 44, L64)",
+        "requirement": "Use with medical condition code when applicable",
+        "usage_rules": [
+          "Use with medical condition codes (Evidence: pg no: 44, L63-L64)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "F10.20",
+        "description": "Alcohol dependence, uncomplicated (Evidence: pg no: 44, L64)",
+        "context": "For alcohol dependence causing medical conditions",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "F10": "Alcohol related disorders",
+          ".20": "Dependence, uncomplicated"
+        }
+      },
+      {
+        "code": "F10.288",
+        "description": "Alcohol dependence with other alcohol-induced disorder (Evidence: pg no: 44, L64)",
+        "context": "NOT appropriate for medical conditions",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "F10": "Alcohol related disorders",
+          ".288": "Dependence with other induced disorder"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Medical conditions due to substance use",
+      "Alcohol-induced medical conditions"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "MED_COND_SUBST_001",
+      "scenario": "Patient with alcoholic pancreatitis due to chronic alcohol dependence",
+      "documentation_example": "Acute alcoholic pancreatitis secondary to chronic alcohol dependence",
+      "step_by_step": [
+        "Step 1: Identify alcoholic pancreatitis as medical condition",
+        "Step 2: Use Alphabetical Index to find K85.2",
+        "Step 3: Identify alcohol dependence",
+        "Step 4: Assign F10.20 for uncomplicated dependence",
+        "Step 5: Do not use F10.288"
+      ],
+      "correct_coding": {
+        "primary_code": "K85.20",
+        "secondary_codes": [
+          "F10.20"
+        ],
+        "sequencing": "Medical condition first, then substance use disorder",
+        "rationale": "Medical condition coded separately from substance use disorder, not as substance-induced disorder (Evidence: pg no: 44, L61-L64)"
+      },
+      "incorrect_coding": {
+        "code": "F10.288",
+        "rationale": "F10.288 is for substance-induced disorders, not medical conditions",
+        "common_mistake": "Using substance-induced disorder code for medical condition"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "MED_COND_001",
+      "scenario": "Alcoholic pancreatitis due to alcohol dependence",
+      "code_example": "K85.20 + F10.20",
+      "breakdown": {
+        "K85.20": "Alcohol induced acute pancreatitis (Evidence: pg no: 44, L63-L64)",
+        "F10.20": "Alcohol dependence, uncomplicated (Evidence: pg no: 44, L64)"
+      },
+      "rationale": "Medical condition requires separate coding from substance use disorder (Evidence: pg no: 44, L61-L64)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not use F1X.X88 codes for medical conditions (Evidence: pg no: 44, L64)",
+      "Medical conditions are not substance-induced disorders (Evidence: pg no: 44, L61-L62)"
+    ],
+    "best_practices": [
+      "Always use Alphabetical Index for medical condition codes (Evidence: pg no: 44, L62-L63)",
+      "Code both the medical condition and substance use disorder (Evidence: pg no: 44, L62-L63)"
+    ],
+    "common_mistakes": [
+      "Using substance-induced disorder codes for medical conditions",
+      "Omitting the substance use disorder code",
+      "Not consulting Alphabetical Index"
+    ],
+    "tips": [
+      "Medical conditions = dual coding",
+      "Substance-induced disorders = single F code",
+      "Use Alphabetical Index for medical conditions"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Important for substance abuse treatment programs",
+      "Affects medical vs psychiatric coding"
+    ]
+  },
+  "search_keywords": [
+    "medical conditions substance use",
+    "alcoholic pancreatitis",
+    "K85.2",
+    "F10.20",
+    "dual coding",
+    "substance induced vs medical"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "substance_use_disorders",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "substance_use",
+      "medical_conditions",
+      "dual_coding",
+      "pancreatitis"
+    ]
+  },
+  "page_range_processed": "pages_42_to_45"
+}

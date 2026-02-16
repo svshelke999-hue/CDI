@@ -1,0 +1,142 @@
+{
+  "guideline_id": "I.C.20.j.2",
+  "semantic_title": "Suspected Terrorism Cause of Injury",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 20. Chapter 20: External Causes of Morbidity > j. Terrorism Guidelines > 2) Cause of an injury is suspected to be the result of terrorism",
+  "page_number": 92,
+  "content": {
+    "full_text": "When the cause of an injury is suspected to be the result of terrorism a code from category Y38 should not be assigned. Suspected cases should be classified as assault. (Evidence: pg no: 92, L47-L48)",
+    "summary": "Guidelines for coding suspected terrorism cases - do not use Y38 codes, classify as assault instead (Evidence: pg no: 92, L47-L48)",
+    "key_concepts": [
+      "Suspected terrorism does not use Y38 codes (Evidence: pg no: 92, L47-L48)",
+      "Suspected cases classified as assault (Evidence: pg no: 92, L48)",
+      "Distinction between confirmed and suspected terrorism (Evidence: pg no: 92, L47-L48)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "suspected_terrorism_prohibition",
+        "rule_text": "Do not assign Y38 codes for suspected terrorism (Evidence: pg no: 92, L47-L48)",
+        "explanation": "When terrorism is only suspected but not confirmed by the FBI, do not use codes from category Y38 (Evidence: pg no: 92, L47-L48)",
+        "importance": "critical",
+        "applies_to": "suspected terrorism cases",
+        "common_applications": [
+          "Unconfirmed terrorist incidents",
+          "Suspected but not verified attacks"
+        ]
+      },
+      {
+        "rule_id": "suspected_terrorism_assault_classification",
+        "rule_text": "Classify suspected terrorism cases as assault (Evidence: pg no: 92, L48)",
+        "explanation": "When terrorism is suspected but not confirmed, use assault codes instead of terrorism codes (Evidence: pg no: 92, L48)",
+        "importance": "high",
+        "applies_to": "suspected terrorism cases",
+        "common_applications": [
+          "Pending investigation cases",
+          "Unverified incidents"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if terrorism is confirmed by FBI or only suspected",
+      "Step 2: If only suspected, do not use Y38 codes",
+      "Step 3: Classify as assault instead",
+      "Step 4: Use appropriate assault external cause codes"
+    ],
+    "related_terminology": [
+      "Suspected terrorism",
+      "Assault classification",
+      "FBI confirmation",
+      "Unconfirmed incidents"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Y38",
+        "description": "Terrorism codes - not for suspected cases (Evidence: pg no: 92, L47-L48)",
+        "requirement": "FBI confirmation required",
+        "usage_rules": [
+          "Do not use for suspected terrorism (Evidence: pg no: 92, L47-L48)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Y38 Terrorism (prohibited for suspected cases)",
+      "Assault codes (for suspected terrorism)"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "suspected_terrorism_incident",
+      "scenario": "Patient injured in incident suspected to be terrorism but not yet confirmed by FBI",
+      "documentation_example": "Injuries from explosion, suspected terrorist attack pending investigation",
+      "step_by_step": [
+        "Step 1: Note that terrorism is suspected, not confirmed",
+        "Step 2: Do not use Y38 terrorism codes",
+        "Step 3: Classify as assault",
+        "Step 4: Use appropriate assault external cause codes"
+      ],
+      "correct_coding": {
+        "primary_code": "Nature of injury code",
+        "secondary_codes": [
+          "Assault external cause code"
+        ],
+        "sequencing": "Standard external cause sequencing",
+        "rationale": "Suspected terrorism should be classified as assault (Evidence: pg no: 92, L48)"
+      },
+      "incorrect_coding": {
+        "code": "Y38 terrorism code",
+        "codes": [],
+        "rationale": "Should not use Y38 codes for suspected terrorism",
+        "common_mistake": "Using terrorism codes before FBI confirmation"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Never use Y38 codes for suspected terrorism (Evidence: pg no: 92, L47-L48)"
+    ],
+    "best_practices": [
+      "Wait for FBI confirmation before using terrorism codes (Evidence: pg no: 92, L47-L48)",
+      "Use assault codes for suspected cases (Evidence: pg no: 92, L48)"
+    ],
+    "common_mistakes": [
+      "Using terrorism codes for suspected cases (Evidence: pg no: 92, L47-L48)"
+    ],
+    "tips": [
+      "Distinguish between confirmed and suspected terrorism (Evidence: pg no: 92, L47-L48)"
+    ],
+    "implementation_notes": [],
+    "clinical_context": []
+  },
+  "search_keywords": [
+    "suspected terrorism",
+    "assault classification",
+    "Y38 prohibition",
+    "unconfirmed terrorism",
+    "pending investigation"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "external_causes",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "external_causes",
+      "terrorism",
+      "suspected",
+      "assault"
+    ]
+  },
+  "page_range_processed": "pages_90_to_93"
+}

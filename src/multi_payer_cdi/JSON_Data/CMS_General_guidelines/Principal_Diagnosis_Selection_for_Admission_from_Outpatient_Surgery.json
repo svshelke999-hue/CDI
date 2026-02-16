@@ -1,0 +1,173 @@
+{
+  "guideline_id": "II.J",
+  "semantic_title": "Principal Diagnosis Selection for Admission from Outpatient Surgery",
+  "section_path": "Section II > J. Admission from Outpatient Surgery",
+  "page_number": 109,
+  "content": {
+    "full_text": "When a patient receives surgery in the hospital's outpatient surgery department and is subsequently admitted for continuing inpatient care at the same hospital, the following guidelines should be followed in selecting the principal diagnosis for the inpatient admission: • If the reason for the inpatient admission is a complication, assign the complication as the principal diagnosis. • If no complication, or other condition, is documented as the reason for the inpatient admission, assign the reason for the outpatient surgery as the principal diagnosis. • If the reason for the inpatient admission is another condition unrelated to the surgery, assign the unrelated condition as the principal diagnosis. (Evidence: pg no: 109-110, L46-L52)",
+    "summary": "Three specific rules govern principal diagnosis selection when outpatient surgery patients are admitted as inpatients (Evidence: pg no: 109-110, L46-L52)",
+    "key_concepts": [
+      "Complication as principal diagnosis if present (Evidence: pg no: 109, L47)",
+      "Original surgical reason if no complications (Evidence: pg no: 109, L48)",
+      "Unrelated condition if that's the reason for admission (Evidence: pg no: 110, L51-L52)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "II.J.1",
+        "rule_text": "If the reason for the inpatient admission is a complication, assign the complication as the principal diagnosis (Evidence: pg no: 109, L47)",
+        "explanation": "When a surgical complication necessitates inpatient admission, the complication becomes the principal diagnosis (Evidence: pg no: 109, L47)",
+        "importance": "critical",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Post-operative bleeding",
+          "Surgical site infections",
+          "Anesthesia complications"
+        ]
+      },
+      {
+        "rule_id": "II.J.2",
+        "rule_text": "If no complication, or other condition, is documented as the reason for the inpatient admission, assign the reason for the outpatient surgery as the principal diagnosis (Evidence: pg no: 109, L48)",
+        "explanation": "When no complications occur and no other conditions necessitate admission, the original surgical condition becomes the principal diagnosis (Evidence: pg no: 109, L48)",
+        "importance": "high",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Extended recovery needs",
+          "Social circumstances requiring inpatient stay"
+        ]
+      },
+      {
+        "rule_id": "II.J.3",
+        "rule_text": "If the reason for the inpatient admission is another condition unrelated to the surgery, assign the unrelated condition as the principal diagnosis (Evidence: pg no: 110, L51-L52)",
+        "explanation": "When a condition unrelated to the surgery necessitates inpatient admission, that unrelated condition becomes the principal diagnosis (Evidence: pg no: 110, L51-L52)",
+        "importance": "high",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Cardiac events during recovery",
+          "Unrelated medical emergencies"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify outpatient surgery followed by inpatient admission",
+      "Step 2: Determine reason for inpatient admission",
+      "Step 3: Apply appropriate rule based on reason (complication, no complication, or unrelated condition)",
+      "Step 4: Assign principal diagnosis accordingly"
+    ],
+    "related_terminology": [
+      "outpatient surgery",
+      "inpatient admission",
+      "complication",
+      "unrelated condition",
+      "principal diagnosis"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": []
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "II.J.1",
+      "scenario": "Patient has outpatient appendectomy, develops post-operative bleeding requiring inpatient admission",
+      "documentation_example": "Patient underwent outpatient laparoscopic appendectomy. Post-operatively developed bleeding at surgical site requiring admission for observation and control.",
+      "step_by_step": [
+        "Step 1: Identify outpatient surgery (appendectomy) followed by admission",
+        "Step 2: Determine reason is complication (bleeding)",
+        "Step 3: Apply rule II.J.1 - complication as principal diagnosis",
+        "Step 4: Code post-operative bleeding as principal diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "T81.0XXA",
+        "secondary_codes": [
+          "K35.9"
+        ],
+        "sequencing": "Complication first, then original surgical condition",
+        "rationale": "Complication is the reason for inpatient admission (Evidence: pg no: 109, L47)"
+      },
+      "incorrect_coding": {
+        "code": "K35.9",
+        "codes": [
+          "K35.9"
+        ],
+        "rationale": "Original appendicitis should not be principal when complication is reason for admission",
+        "common_mistake": "Coding original surgical condition when complication is present"
+      }
+    },
+    {
+      "scenario_id": "II.J.2",
+      "scenario": "Patient has outpatient hernia repair, needs extended recovery due to social circumstances",
+      "documentation_example": "Patient underwent outpatient inguinal hernia repair. Due to lack of home support and need for extended monitoring, patient admitted as inpatient.",
+      "step_by_step": [
+        "Step 1: Identify outpatient surgery (hernia repair) followed by admission",
+        "Step 2: Determine no complications documented",
+        "Step 3: Apply rule II.J.2 - original surgical reason as principal diagnosis",
+        "Step 4: Code inguinal hernia as principal diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "K40.90",
+        "secondary_codes": [],
+        "sequencing": "Original surgical condition as principal diagnosis",
+        "rationale": "No complications documented, so original surgical reason becomes principal diagnosis (Evidence: pg no: 109, L48)"
+      },
+      "incorrect_coding": {
+        "code": "Z51.89",
+        "codes": [
+          "Z51.89"
+        ],
+        "rationale": "Should not code aftercare when original condition is still being treated",
+        "common_mistake": "Coding aftercare instead of original surgical condition"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [],
+    "best_practices": [
+      "Always determine the specific reason for inpatient admission (Evidence: pg no: 109-110, L46-L52)"
+    ],
+    "common_mistakes": [
+      "Not distinguishing between complications and unrelated conditions (Evidence: pg no: 109-110, L47-L52)",
+      "Coding original condition when complication is present (Evidence: pg no: 109, L47)"
+    ],
+    "tips": [
+      "Three distinct scenarios require different principal diagnosis selection (Evidence: pg no: 109-110, L46-L52)"
+    ],
+    "implementation_notes": [
+      "Applies only when outpatient surgery and inpatient admission are at same hospital"
+    ],
+    "clinical_context": [
+      "Common with same-day surgery programs"
+    ]
+  },
+  "search_keywords": [
+    "outpatient surgery",
+    "inpatient admission",
+    "surgical complications",
+    "same hospital",
+    "principal diagnosis selection",
+    "unrelated condition"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "outpatient_to_inpatient",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "outpatient_surgery",
+      "inpatient_admission",
+      "complications",
+      "principal_diagnosis"
+    ]
+  },
+  "page_range_processed": "pages_108_to_111"
+}

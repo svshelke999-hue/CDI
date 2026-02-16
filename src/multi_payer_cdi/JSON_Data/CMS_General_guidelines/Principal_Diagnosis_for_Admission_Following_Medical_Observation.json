@@ -1,0 +1,120 @@
+{
+  "guideline_id": "II.I.1",
+  "semantic_title": "Principal Diagnosis for Admission Following Medical Observation",
+  "section_path": "Section II > I. Admission from Observation Unit > 1. Admission Following Medical Observation",
+  "page_number": 109,
+  "content": {
+    "full_text": "When a patient is admitted to an observation unit for a medical condition, which either worsens or does not improve, and is subsequently admitted as an inpatient of the same hospital for this same medical condition, the principal diagnosis would be the medical condition which led to the hospital admission. (Evidence: pg no: 109, L40-L41)",
+    "summary": "When a patient moves from observation to inpatient status for the same medical condition, that condition becomes the principal diagnosis (Evidence: pg no: 109, L40-L41)",
+    "key_concepts": [
+      "Same medical condition from observation to inpatient (Evidence: pg no: 109, L40-L41)",
+      "Condition worsens or does not improve in observation (Evidence: pg no: 109, L40)",
+      "Medical condition that led to hospital admission is principal diagnosis (Evidence: pg no: 109, L41)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "II.I.1.1",
+        "rule_text": "The principal diagnosis would be the medical condition which led to the hospital admission (Evidence: pg no: 109, L41)",
+        "explanation": "When a patient transitions from observation to inpatient status for the same condition, the original medical condition that necessitated the hospital admission becomes the principal diagnosis (Evidence: pg no: 109, L40-L41)",
+        "importance": "high",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Chest pain observation to inpatient for cardiac workup",
+          "Abdominal pain observation to inpatient for appendicitis"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify that patient was in observation unit",
+      "Step 2: Confirm patient was subsequently admitted as inpatient",
+      "Step 3: Verify it's the same medical condition",
+      "Step 4: Code the original medical condition as principal diagnosis"
+    ],
+    "related_terminology": [
+      "observation unit",
+      "medical condition",
+      "inpatient admission",
+      "principal diagnosis"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": []
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "II.I.1.1",
+      "scenario": "Patient in observation for chest pain, condition worsens, admitted as inpatient for same chest pain workup",
+      "documentation_example": "Patient placed in observation for chest pain. Condition did not improve after 12 hours, admitted as inpatient for further cardiac evaluation.",
+      "step_by_step": [
+        "Step 1: Identify observation unit stay for chest pain",
+        "Step 2: Confirm subsequent inpatient admission",
+        "Step 3: Verify same condition (chest pain/cardiac evaluation)",
+        "Step 4: Code chest pain as principal diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "R06.02",
+        "secondary_codes": [],
+        "sequencing": "Original medical condition as principal diagnosis",
+        "rationale": "The medical condition that led to hospital admission becomes principal diagnosis (Evidence: pg no: 109, L41)"
+      },
+      "incorrect_coding": {
+        "code": "Z51.89",
+        "codes": [
+          "Z51.89"
+        ],
+        "rationale": "Should not code observation status when patient becomes inpatient",
+        "common_mistake": "Coding observation status instead of the medical condition"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [],
+    "best_practices": [
+      "Focus on the original medical condition that necessitated admission (Evidence: pg no: 109, L41)"
+    ],
+    "common_mistakes": [
+      "Coding observation status instead of the underlying medical condition (Evidence: pg no: 109, L40-L41)"
+    ],
+    "tips": [
+      "The condition must be the same from observation to inpatient status (Evidence: pg no: 109, L40-L41)"
+    ],
+    "implementation_notes": [
+      "Applies when patient transitions from observation to inpatient at same hospital"
+    ],
+    "clinical_context": [
+      "Common when observation patients require more intensive monitoring or treatment"
+    ]
+  },
+  "search_keywords": [
+    "observation unit",
+    "medical observation",
+    "inpatient admission",
+    "same hospital",
+    "principal diagnosis",
+    "condition worsens"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "observation_to_inpatient",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "observation",
+      "inpatient_admission",
+      "principal_diagnosis"
+    ]
+  },
+  "page_range_processed": "pages_108_to_111"
+}

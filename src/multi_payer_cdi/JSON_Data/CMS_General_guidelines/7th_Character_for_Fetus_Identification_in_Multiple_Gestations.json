@@ -1,0 +1,204 @@
+{
+  "guideline_id": "I.C.15.a.6",
+  "semantic_title": "7th Character for Fetus Identification in Multiple Gestations",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 15. Chapter 15: Pregnancy, Childbirth, and the Puerperium > a. General Rules for Obstetric Cases > 6) 7th character for fetus identification",
+  "page_number": 64,
+  "content": {
+    "full_text": "Where applicable, a 7th character is to be assigned for certain categories (O31, O32, O33.3 - O33.6, O35, O36, O40, O41, O60.1, O60.2, O64, and O69) to identify the fetus for which the complication code applies. Assign 7th character '0': • For single gestations • When the documentation in the record is insufficient to determine the fetus affected and it is not possible to obtain clarification. • When it is not possible to clinically determine which fetus is affected. (Evidence: pg no: 64, L36-L42)",
+    "summary": "Guidelines for assigning 7th character to identify specific fetus in multiple gestation complications (Evidence: pg no: 64, L36-L42)",
+    "key_concepts": [
+      "Fetus identification in specific categories (Evidence: pg no: 64, L37-L38)",
+      "7th character assignment rules (Evidence: pg no: 64, L38-L42)",
+      "Single gestation coding (Evidence: pg no: 64, L40)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.C.15.a.6.1",
+        "rule_text": "Assign 7th character for fetus identification in specified categories (Evidence: pg no: 64, L37-L38)",
+        "explanation": "Categories O31, O32, O33.3-O33.6, O35, O36, O40, O41, O60.1, O60.2, O64, and O69 require 7th character to identify affected fetus (Evidence: pg no: 64, L37-L38)",
+        "importance": "critical",
+        "applies_to": "O31, O32, O33.3-O33.6, O35, O36, O40, O41, O60.1, O60.2, O64, O69",
+        "common_applications": [
+          "Multiple gestation complications",
+          "Fetal abnormalities",
+          "Labor complications in twins"
+        ]
+      },
+      {
+        "rule_id": "I.C.15.a.6.2",
+        "rule_text": "Use 7th character '0' for single gestations (Evidence: pg no: 64, L40)",
+        "explanation": "Single pregnancies always use 7th character '0' since there is only one fetus (Evidence: pg no: 64, L40)",
+        "importance": "critical",
+        "applies_to": "O31, O32, O33.3-O33.6, O35, O36, O40, O41, O60.1, O60.2, O64, O69",
+        "common_applications": [
+          "Single pregnancy complications",
+          "Fetal abnormalities in singleton"
+        ]
+      },
+      {
+        "rule_id": "I.C.15.a.6.3",
+        "rule_text": "Use 7th character '0' when fetus cannot be determined (Evidence: pg no: 64, L41-L42)",
+        "explanation": "When documentation is insufficient or clinical determination impossible, use '0' (Evidence: pg no: 64, L41-L42)",
+        "importance": "high",
+        "applies_to": "O31, O32, O33.3-O33.6, O35, O36, O40, O41, O60.1, O60.2, O64, O69",
+        "common_applications": [
+          "Incomplete documentation in multiple gestations",
+          "Emergency situations"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify if code is from specified categories requiring 7th character",
+      "Step 2: Determine if pregnancy is single or multiple gestation",
+      "Step 3: For single gestations, assign '0'",
+      "Step 4: For multiple gestations, identify affected fetus or use '0' if undetermined"
+    ],
+    "related_terminology": [
+      "7th character",
+      "Fetus identification",
+      "Multiple gestation",
+      "Single gestation",
+      "Complication codes"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "O31",
+        "description": "Complications specific to multiple gestation (Evidence: pg no: 64, L38)",
+        "requirement": "Requires 7th character for fetus identification",
+        "usage_rules": [
+          "Use '0' for single gestations (Evidence: pg no: 64, L40)"
+        ]
+      },
+      {
+        "range": "O32",
+        "description": "Maternal care for malpresentation of fetus (Evidence: pg no: 64, L38)",
+        "requirement": "Requires 7th character for fetus identification",
+        "usage_rules": [
+          "Use '0' for single gestations (Evidence: pg no: 64, L40)"
+        ]
+      },
+      {
+        "range": "O33.3-O33.6",
+        "description": "Maternal care for disproportion (Evidence: pg no: 64, L38)",
+        "requirement": "Requires 7th character for fetus identification",
+        "usage_rules": [
+          "Use '0' for single gestations (Evidence: pg no: 64, L40)"
+        ]
+      },
+      {
+        "range": "O35",
+        "description": "Maternal care for known or suspected fetal abnormality (Evidence: pg no: 64, L38)",
+        "requirement": "Requires 7th character for fetus identification",
+        "usage_rules": [
+          "Use '0' for single gestations (Evidence: pg no: 64, L40)"
+        ]
+      },
+      {
+        "range": "O36",
+        "description": "Maternal care for other fetal problems (Evidence: pg no: 64, L38)",
+        "requirement": "Requires 7th character for fetus identification",
+        "usage_rules": [
+          "Use '0' for single gestations (Evidence: pg no: 64, L40)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "Oxxx.xxx0",
+        "description": "7th character '0' for single gestations or undetermined fetus (Evidence: pg no: 64, L39-L42)",
+        "example": "O36.5930",
+        "explanation": "Final character '0' indicates single gestation or fetus cannot be determined"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Multiple gestation complication categories",
+      "Fetal abnormality categories",
+      "Labor complication categories"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "fetus_id_1",
+      "scenario": "Twin pregnancy with fetal growth restriction affecting twin A",
+      "documentation_example": "Twin gestation at 32 weeks, Twin A showing intrauterine growth restriction",
+      "step_by_step": [
+        "Step 1: Identify code O36.5932 (maternal care for intrauterine growth restriction, third trimester)",
+        "Step 2: Recognize this is category O36 requiring 7th character",
+        "Step 3: Assign 7th character '1' for first fetus (Twin A)"
+      ],
+      "correct_coding": {
+        "primary_code": "O36.59321",
+        "secondary_codes": [],
+        "sequencing": "Primary diagnosis",
+        "rationale": "7th character '1' identifies first fetus in multiple gestation (Evidence: pg no: 64, L37-L38)"
+      },
+      "incorrect_coding": {
+        "code": "O36.59320",
+        "codes": [
+          "O36.59320"
+        ],
+        "rationale": "Character '0' would be incorrect when specific fetus is identified",
+        "common_mistake": "Using '0' when fetus can be specifically identified"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Only specific categories require 7th character for fetus identification (Evidence: pg no: 64, L37-L38)"
+    ],
+    "best_practices": [
+      "Always use '0' for single gestations (Evidence: pg no: 64, L40)",
+      "Identify specific fetus when documented in multiple gestations"
+    ],
+    "common_mistakes": [
+      "Forgetting to assign 7th character in required categories",
+      "Using specific fetus character for single gestations"
+    ],
+    "tips": [
+      "Check if category requires 7th character before coding",
+      "Review ultrasound reports for fetus identification"
+    ],
+    "implementation_notes": [
+      "Requires knowledge of which categories need 7th character"
+    ],
+    "clinical_context": [
+      "Multiple gestation pregnancies",
+      "Fetal complications",
+      "Labor and delivery complications"
+    ]
+  },
+  "search_keywords": [
+    "7th character",
+    "fetus identification",
+    "multiple gestation",
+    "twin pregnancy",
+    "fetal complications",
+    "obstetric coding"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "obstetric_coding",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "pregnancy",
+      "multiple_gestation",
+      "fetus_identification",
+      "7th_character"
+    ]
+  },
+  "page_range_processed": "pages_63_to_66"
+}

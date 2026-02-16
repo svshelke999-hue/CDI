@@ -1,0 +1,100 @@
+{
+  "guideline_id": "IV.Q",
+  "semantic_title": "Cross-Reference for Routine Health Screenings Coding",
+  "section_path": "Section IV > Diagnostic Coding and Reporting Guidelines for Outpatient Services > Q. Encounters for routine health screenings",
+  "page_number": 115,
+  "content": {
+    "full_text": "See Section I.C.21. Factors influencing health status and contact with health services, Screening (Evidence: pg no: 115, L35-L36)",
+    "summary": "Cross-reference directing to specific section for routine health screening coding guidelines (Evidence: pg no: 115, L35-L36)",
+    "key_concepts": [
+      "Cross-reference to Section I.C.21 (Evidence: pg no: 115, L36)",
+      "Routine health screening coding (Evidence: pg no: 115, L35)",
+      "Factors influencing health status (Evidence: pg no: 115, L36)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "IV.Q.1",
+        "rule_text": "Refer to Section I.C.21 for routine health screening coding (Evidence: pg no: 115, L35-L36)",
+        "explanation": "Specific guidelines for routine health screenings are located in the chapter-specific section covering factors influencing health status (Evidence: pg no: 115, L35-L36)",
+        "importance": "medium",
+        "applies_to": "routine health screening encounters",
+        "common_applications": [
+          "Cancer screenings",
+          "Preventive health screenings",
+          "Routine screening procedures"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify encounter as routine health screening",
+      "Step 2: Refer to Section I.C.21 for specific coding guidelines"
+    ],
+    "related_terminology": [
+      "routine health screenings",
+      "screening procedures",
+      "factors influencing health status",
+      "preventive screenings"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Screening codes",
+      "Health status factor codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.21",
+        "title": "Factors influencing health status and contact with health services, Screening",
+        "relationship": "references_to",
+        "explanation": "Direct reference to chapter-specific guidelines for screening encounters"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [],
+    "best_practices": [
+      "Always refer to Section I.C.21 for detailed screening coding guidelines (Evidence: pg no: 115, L35-L36)"
+    ],
+    "common_mistakes": [],
+    "tips": [
+      "This is a cross-reference - actual guidelines are in Section I.C.21 (Evidence: pg no: 115, L36)"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Preventive care",
+      "Screening programs",
+      "Health maintenance"
+    ]
+  },
+  "search_keywords": [
+    "routine health screenings",
+    "screening procedures",
+    "preventive screenings",
+    "health status factors",
+    "screening coding"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "cross_reference",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "cross_reference",
+      "screening",
+      "preventive_care"
+    ]
+  },
+  "page_range_processed": "pages_114_to_117"
+}

@@ -1,0 +1,193 @@
+{
+  "guideline_id": "I.C.12.a.3",
+  "semantic_title": "Documented Pressure Ulcer Stage Coding Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 12. Chapter 12: Diseases of the Skin and Subcutaneous Tissue > a. Pressure ulcer stage codes > 3) Documented pressure ulcer stage",
+  "page_number": 59,
+  "content": {
+    "full_text": "Assignment of the pressure ulcer stage code should be guided by clinical documentation of the stage or documentation of the terms found in the Alphabetic Index. For clinical terms describing the stage that are not found in the Alphabetic Index, and there is no documentation of the stage, the provider should be queried. (Evidence: pg no: 59, L42-L43)",
+    "summary": "Guidelines for pressure ulcer stage code assignment based on clinical documentation and Alphabetic Index terms (Evidence: pg no: 59, L42-L43)",
+    "key_concepts": [
+      "Clinical documentation guidance (Evidence: pg no: 59, L42)",
+      "Alphabetic Index term reference (Evidence: pg no: 59, L42-L43)",
+      "Provider query requirements (Evidence: pg no: 59, L43)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "STAGE_DOCUMENTATION_001",
+        "rule_text": "Stage code assignment should be guided by clinical documentation or Alphabetic Index terms (Evidence: pg no: 59, L42-L43)",
+        "explanation": "Use either the documented stage or clinical terms that correspond to stages listed in the Alphabetic Index (Evidence: pg no: 59, L42-L43)",
+        "importance": "critical",
+        "applies_to": "L89 stage codes",
+        "common_applications": [
+          "Direct stage documentation",
+          "Clinical descriptive terms",
+          "Alphabetic Index term matching"
+        ]
+      },
+      {
+        "rule_id": "PROVIDER_QUERY_001",
+        "rule_text": "Query provider when clinical terms are not in Alphabetic Index and no stage documentation exists (Evidence: pg no: 59, L43)",
+        "explanation": "When clinical terms describing the stage are not found in the Alphabetic Index and there is no clear stage documentation, the provider should be queried for clarification (Evidence: pg no: 59, L43)",
+        "importance": "high",
+        "applies_to": "unclear stage documentation",
+        "common_applications": [
+          "Ambiguous clinical descriptions",
+          "Non-standard terminology",
+          "Unclear documentation"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Review clinical documentation for stage",
+      "Step 2: Check if clinical terms match Alphabetic Index",
+      "Step 3: If terms not in Index and no clear stage, query provider",
+      "Step 4: Assign appropriate stage code based on clarification"
+    ],
+    "related_terminology": [
+      "Clinical documentation",
+      "Alphabetic Index",
+      "Provider query",
+      "Stage terminology"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "L89",
+        "description": "Pressure ulcer codes requiring stage documentation (Evidence: pg no: 59, L42)",
+        "requirement": "Must have clinical documentation or Alphabetic Index term support",
+        "usage_rules": [
+          "Base assignment on documented stage or Index terms (Evidence: pg no: 59, L42-L43)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": []
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "STAGE_DOCUMENTATION_001",
+      "scenario": "Clinical description matches Alphabetic Index terms",
+      "documentation_example": "Pressure ulcer with full thickness skin loss extending into subcutaneous tissue.",
+      "step_by_step": [
+        "Step 1: Review clinical description",
+        "Step 2: Check Alphabetic Index for matching terms",
+        "Step 3: Match 'full thickness skin loss' to stage 3",
+        "Step 4: Assign appropriate stage 3 code"
+      ],
+      "correct_coding": {
+        "primary_code": "L89.--3",
+        "secondary_codes": [],
+        "sequencing": "Single stage code based on documentation",
+        "rationale": "Clinical description matches Alphabetic Index terms for stage 3 (Evidence: pg no: 59, L42-L43)"
+      },
+      "incorrect_coding": {
+        "code": "L89.--9",
+        "codes": [
+          "Unspecified stage"
+        ],
+        "rationale": "Should not use unspecified when clinical terms provide stage information",
+        "common_mistake": "Not matching clinical terms to Index entries"
+      }
+    },
+    {
+      "scenario_id": "PROVIDER_QUERY_001",
+      "scenario": "Ambiguous clinical terms not in Alphabetic Index",
+      "documentation_example": "Pressure ulcer with moderate tissue damage, unclear depth.",
+      "step_by_step": [
+        "Step 1: Review clinical description",
+        "Step 2: Check Alphabetic Index for 'moderate tissue damage'",
+        "Step 3: Term not found in Index",
+        "Step 4: Query provider for stage clarification"
+      ],
+      "correct_coding": {
+        "primary_code": "Query needed",
+        "secondary_codes": [],
+        "sequencing": "Cannot assign until clarification",
+        "rationale": "Clinical terms not in Alphabetic Index require provider query (Evidence: pg no: 59, L43)"
+      },
+      "incorrect_coding": {
+        "code": "L89.--9",
+        "codes": [
+          "Assuming unspecified"
+        ],
+        "rationale": "Should query provider rather than assume unspecified",
+        "common_mistake": "Not querying when terms are unclear"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "DOCUMENTATION_GUIDANCE_001",
+      "scenario": "Using clinical documentation for stage assignment",
+      "code_example": "Clinical terms → Alphabetic Index → Stage code",
+      "breakdown": {
+        "Clinical documentation": "Provider's description of ulcer characteristics (Evidence: pg no: 59, L42)",
+        "Alphabetic Index": "Reference for matching clinical terms to stages (Evidence: pg no: 59, L42-L43)",
+        "Stage code": "Appropriate L89 code based on documentation match"
+      },
+      "rationale": "Systematic approach ensures accurate stage assignment (Evidence: pg no: 59, L42-L43)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Query provider when clinical terms are not in Alphabetic Index (Evidence: pg no: 59, L43)"
+    ],
+    "best_practices": [
+      "Always check Alphabetic Index for clinical term matches (Evidence: pg no: 59, L42-L43)",
+      "Use clinical documentation as primary guide",
+      "Query provider when documentation is unclear"
+    ],
+    "common_mistakes": [
+      "Not checking Alphabetic Index for term matches",
+      "Assuming unspecified instead of querying provider",
+      "Ignoring clinical descriptive terms"
+    ],
+    "tips": [
+      "Familiarize yourself with Alphabetic Index pressure ulcer terms",
+      "Look for clinical descriptions that indicate stage",
+      "Don't hesitate to query when documentation is ambiguous"
+    ],
+    "implementation_notes": [
+      "Requires access to Alphabetic Index",
+      "May need provider communication for clarification"
+    ],
+    "clinical_context": [
+      "Providers may use varying terminology",
+      "Clinical descriptions often more detailed than simple stage numbers",
+      "Accurate staging critical for care planning"
+    ]
+  },
+  "search_keywords": [
+    "pressure ulcer stage documentation",
+    "alphabetic index",
+    "provider query",
+    "clinical documentation",
+    "stage assignment",
+    "L89 coding"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "skin_pressure_ulcers_documentation",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "pressure ulcer",
+      "documentation",
+      "staging",
+      "alphabetic index",
+      "provider query"
+    ]
+  },
+  "page_range_processed": "pages_57_to_60"
+}

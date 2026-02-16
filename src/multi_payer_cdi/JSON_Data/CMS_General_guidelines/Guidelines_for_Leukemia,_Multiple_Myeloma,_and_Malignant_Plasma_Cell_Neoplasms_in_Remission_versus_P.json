@@ -1,0 +1,228 @@
+{
+  "guideline_id": "I.C.2.n",
+  "semantic_title": "Guidelines for Leukemia, Multiple Myeloma, and Malignant Plasma Cell Neoplasms in Remission versus Personal History",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 2. Chapter 2: Neoplasms > n. Leukemia, Multiple Myeloma, and Malignant Plasma Cell Neoplasms in remission versus personal history",
+  "page_number": 38,
+  "content": {
+    "full_text": "The categories for leukemia, and category C90, Multiple myeloma and malignant plasma cell neoplasms, have codes indicating whether or not the leukemia has achieved remission. There are also codes Z85.6, Personal history of leukemia, and Z85.79, Personal history of other malignant neoplasms of lymphoid, hematopoietic and related tissues. If the documentation is unclear as to whether the leukemia has achieved remission, the provider should be queried. (Evidence: pg no: 38, L58-L62)",
+    "summary": "Guidelines for coding leukemia and related neoplasms in remission versus using personal history codes (Evidence: pg no: 38, L58-L62)",
+    "key_concepts": [
+      "Leukemia categories have remission indicators (Evidence: pg no: 38, L58-L60)",
+      "C90 category includes remission codes (Evidence: pg no: 38, L60)",
+      "Personal history codes Z85.6 and Z85.79 available (Evidence: pg no: 38, L60-L62)",
+      "Query provider if remission status unclear (Evidence: pg no: 38, L62)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "remission_code_availability",
+        "rule_text": "Leukemia categories and C90 have codes indicating whether leukemia has achieved remission (Evidence: pg no: 38, L58-L60)",
+        "explanation": "These specific neoplasm categories include built-in remission status indicators within the code structure (Evidence: pg no: 38, L58-L60)",
+        "importance": "high",
+        "applies_to": "leukemia and multiple myeloma categories",
+        "common_applications": [
+          "Acute lymphoblastic leukemia in remission",
+          "Multiple myeloma in remission"
+        ]
+      },
+      {
+        "rule_id": "personal_history_alternatives",
+        "rule_text": "Personal history codes Z85.6 and Z85.79 are available for leukemia and related tissues (Evidence: pg no: 38, L60-L62)",
+        "explanation": "Alternative personal history codes exist for these hematopoietic malignancies when appropriate (Evidence: pg no: 38, L60-L62)",
+        "importance": "high",
+        "applies_to": "leukemia and hematopoietic neoplasms",
+        "common_applications": [
+          "History of treated leukemia",
+          "History of lymphoid malignancies"
+        ]
+      },
+      {
+        "rule_id": "provider_query_requirement",
+        "rule_text": "If documentation is unclear as to whether leukemia has achieved remission, the provider should be queried (Evidence: pg no: 38, L62)",
+        "explanation": "Accurate remission status is critical for proper code selection and requires clarification when documentation is ambiguous (Evidence: pg no: 38, L62)",
+        "importance": "critical",
+        "applies_to": "unclear remission status documentation",
+        "common_applications": [
+          "Ambiguous treatment response documentation",
+          "Unclear disease status notes"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify leukemia, multiple myeloma, or malignant plasma cell neoplasm",
+      "Step 2: Review documentation for remission status",
+      "Step 3a: If remission status clear - use appropriate remission code",
+      "Step 3b: If remission status unclear - query provider",
+      "Step 4: Consider personal history codes when appropriate"
+    ],
+    "related_terminology": [
+      "Leukemia",
+      "Multiple myeloma",
+      "Malignant plasma cell neoplasms",
+      "Remission",
+      "Personal history",
+      "Hematopoietic tissues",
+      "Lymphoid tissues"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "C90",
+        "description": "Multiple myeloma and malignant plasma cell neoplasms (Evidence: pg no: 38, L60)",
+        "requirement": "Has codes indicating remission status",
+        "usage_rules": [
+          "Use remission indicators when available (Evidence: pg no: 38, L58-L60)"
+        ]
+      },
+      {
+        "range": "Leukemia categories",
+        "description": "Various leukemia categories with remission indicators (Evidence: pg no: 38, L58-L60)",
+        "requirement": "Include remission status in code selection",
+        "usage_rules": [
+          "Query provider if remission status unclear (Evidence: pg no: 38, L62)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "Z85.6",
+        "description": "Personal history of leukemia (Evidence: pg no: 38, L60-L61)",
+        "context": "Used for personal history of leukemia when appropriate",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z85": "Personal history of malignant neoplasm",
+          "6": "Leukemia"
+        }
+      },
+      {
+        "code": "Z85.79",
+        "description": "Personal history of other malignant neoplasms of lymphoid, hematopoietic and related tissues (Evidence: pg no: 38, L61-L62)",
+        "context": "Used for personal history of lymphoid and hematopoietic malignancies",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z85": "Personal history of malignant neoplasm",
+          "79": "Other lymphoid, hematopoietic and related tissues"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Leukemia categories",
+      "Multiple myeloma codes",
+      "Personal history codes",
+      "Remission indicator codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.21",
+        "title": "Factors influencing health status and contact with health services, History (of)",
+        "relationship": "related_to",
+        "explanation": "Referenced for additional guidance on personal history coding"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "leukemia_in_remission",
+      "scenario": "Patient with acute lymphoblastic leukemia documented as in complete remission",
+      "documentation_example": "Follow-up visit for acute lymphoblastic leukemia, currently in complete remission",
+      "step_by_step": [
+        "Step 1: Identify acute lymphoblastic leukemia",
+        "Step 2: Note clear documentation of complete remission",
+        "Step 3: Use appropriate leukemia code with remission indicator"
+      ],
+      "correct_coding": {
+        "primary_code": "C91.01 (Acute lymphoblastic leukemia, in remission)",
+        "secondary_codes": [],
+        "sequencing": "Leukemia code with remission indicator",
+        "rationale": "Clear remission status documented, use remission code (Evidence: pg no: 38, L58-L60)"
+      },
+      "incorrect_coding": {
+        "code": "Z85.6",
+        "codes": [
+          "Z85.6 (Personal history of leukemia)"
+        ],
+        "rationale": "Should use remission code when remission status is documented",
+        "common_mistake": "Using personal history instead of remission code"
+      }
+    },
+    {
+      "scenario_id": "unclear_remission_status",
+      "scenario": "Patient with history of multiple myeloma, current disease status unclear from documentation",
+      "documentation_example": "Patient with multiple myeloma, last treatment 6 months ago, current status not clearly documented",
+      "step_by_step": [
+        "Step 1: Identify multiple myeloma",
+        "Step 2: Note unclear remission status in documentation",
+        "Step 3: Query provider for clarification of current disease status"
+      ],
+      "correct_coding": {
+        "primary_code": "Query provider before coding",
+        "secondary_codes": [],
+        "sequencing": "Cannot determine without provider clarification",
+        "rationale": "Unclear remission status requires provider query (Evidence: pg no: 38, L62)"
+      },
+      "incorrect_coding": {
+        "code": "C90.00",
+        "codes": [
+          "C90.00 (Multiple myeloma not having achieved remission)"
+        ],
+        "rationale": "Should not assume remission status without clear documentation",
+        "common_mistake": "Coding without clarifying unclear remission status"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Always query provider when remission status is unclear (Evidence: pg no: 38, L62)"
+    ],
+    "best_practices": [
+      "Use built-in remission indicators when available (Evidence: pg no: 38, L58-L60)",
+      "Consider personal history codes when appropriate (Evidence: pg no: 38, L60-L62)"
+    ],
+    "common_mistakes": [
+      "Not querying provider when remission status is unclear (Evidence: pg no: 38, L62)",
+      "Using personal history codes instead of remission codes inappropriately"
+    ],
+    "tips": [
+      "Leukemia and multiple myeloma have specific remission indicators (Evidence: pg no: 38, L58-L60)",
+      "Personal history codes are available as alternatives (Evidence: pg no: 38, L60-L62)"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Applies to ongoing care of hematopoietic malignancies"
+    ]
+  },
+  "search_keywords": [
+    "leukemia",
+    "multiple myeloma",
+    "remission",
+    "personal history",
+    "Z85.6",
+    "Z85.79",
+    "hematopoietic",
+    "lymphoid"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "hematopoietic_neoplasms",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "leukemia",
+      "multiple_myeloma",
+      "remission",
+      "personal_history",
+      "hematopoietic"
+    ]
+  },
+  "page_range_processed": "pages_36_to_39"
+}

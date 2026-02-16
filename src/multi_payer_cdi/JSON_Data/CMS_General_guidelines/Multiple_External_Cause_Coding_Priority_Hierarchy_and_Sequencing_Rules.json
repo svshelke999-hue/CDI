@@ -1,0 +1,219 @@
+{
+  "guideline_id": "I.C.20.f",
+  "semantic_title": "Multiple External Cause Coding Priority Hierarchy and Sequencing Rules",
+  "section_path": "Chapter 20: External Causes of Morbidity > f. Multiple External Cause Coding Guidelines",
+  "page_number": 90,
+  "content": {
+    "full_text": "More than one external cause code is required to fully describe the external cause of an illness or injury. The assignment of external cause codes should be sequenced in the following priority: If two or more events cause separate injuries, an external cause code should be assigned for each cause. The first-listed external cause code will be selected in the following order: External codes for child and adult abuse take priority over all other external cause codes. See Section I.C.19., Child and Adult abuse guidelines. External cause codes for terrorism events take priority over all other external cause codes except child and adult abuse. External cause codes for cataclysmic events take priority over all other external cause codes except child and adult abuse and terrorism. External cause codes for transport accidents take priority over all other external cause codes except cataclysmic events, child and adult abuse and terrorism. Activity and external cause status codes are assigned following all causal (intent) external cause codes. The first-listed external cause code should correspond to the cause of the most serious diagnosis due to an assault, accident, or self-harm, following the order of hierarchy listed above. (Evidence: pg no: 90, L72-L81)",
+    "summary": "Multiple external cause codes follow a specific priority hierarchy: abuse > terrorism > cataclysmic events > transport accidents > other causes, with activity/status codes last, and first-listed code corresponding to most serious diagnosis (Evidence: pg no: 90, L72-L81)",
+    "key_concepts": [
+      "Multiple external cause codes may be required (Evidence: pg no: 90, L72-L73)",
+      "Specific priority hierarchy exists (Evidence: pg no: 90, L73-L74)",
+      "Child and adult abuse codes have highest priority (Evidence: pg no: 90, L75)",
+      "Terrorism codes second priority (Evidence: pg no: 90, L76)",
+      "Cataclysmic events third priority (Evidence: pg no: 90, L77)",
+      "Transport accidents fourth priority (Evidence: pg no: 90, L78)",
+      "Activity and status codes assigned last (Evidence: pg no: 90, L79)",
+      "First-listed corresponds to most serious diagnosis (Evidence: pg no: 90, L80-L81)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "MULT_EXT_HIER_001",
+        "rule_text": "Child and adult abuse codes take priority over all other external cause codes (Evidence: pg no: 90, L75)",
+        "explanation": "Abuse-related external cause codes have the highest priority in the hierarchy and should be sequenced first when present with other external causes (Evidence: pg no: 90, L75)",
+        "importance": "critical",
+        "applies_to": "Child and adult abuse external cause codes",
+        "common_applications": [
+          "Abuse-related injuries",
+          "Multiple trauma with abuse component",
+          "Complex injury scenarios involving abuse"
+        ]
+      },
+      {
+        "rule_id": "MULT_EXT_HIER_002",
+        "rule_text": "Terrorism codes take priority over all except child and adult abuse (Evidence: pg no: 90, L76)",
+        "explanation": "Terrorism-related external cause codes have second highest priority and should be sequenced first unless abuse codes are also present (Evidence: pg no: 90, L76)",
+        "importance": "critical",
+        "applies_to": "Terrorism external cause codes",
+        "common_applications": [
+          "Terrorism-related injuries",
+          "Mass casualty events",
+          "Security-related incidents"
+        ]
+      },
+      {
+        "rule_id": "MULT_EXT_HIER_003",
+        "rule_text": "Cataclysmic events take priority over all except abuse and terrorism (Evidence: pg no: 90, L77)",
+        "explanation": "Natural disasters and cataclysmic events have third priority in the external cause hierarchy (Evidence: pg no: 90, L77)",
+        "importance": "high",
+        "applies_to": "Cataclysmic event external cause codes",
+        "common_applications": [
+          "Natural disaster injuries",
+          "Weather-related incidents",
+          "Environmental catastrophes"
+        ]
+      },
+      {
+        "rule_id": "MULT_EXT_HIER_004",
+        "rule_text": "Transport accidents take priority over all except cataclysmic events, abuse and terrorism (Evidence: pg no: 90, L78)",
+        "explanation": "Transportation-related external cause codes have fourth priority in the hierarchy (Evidence: pg no: 90, L78)",
+        "importance": "high",
+        "applies_to": "Transport accident external cause codes",
+        "common_applications": [
+          "Motor vehicle accidents",
+          "Aviation accidents",
+          "Maritime accidents",
+          "Railway accidents"
+        ]
+      },
+      {
+        "rule_id": "MULT_EXT_HIER_005",
+        "rule_text": "Activity and status codes assigned following all causal (intent) external cause codes (Evidence: pg no: 90, L79)",
+        "explanation": "Supplementary external cause codes for activity and status are always sequenced after all causal and intent codes regardless of the hierarchy (Evidence: pg no: 90, L79)",
+        "importance": "high",
+        "applies_to": "Activity and external cause status codes",
+        "common_applications": [
+          "Activity code sequencing",
+          "Status code sequencing",
+          "Supplementary code placement"
+        ]
+      },
+      {
+        "rule_id": "MULT_EXT_HIER_006",
+        "rule_text": "First-listed external cause corresponds to cause of most serious diagnosis following hierarchy (Evidence: pg no: 90, L80-L81)",
+        "explanation": "When multiple external causes are present, the first-listed should correspond to the cause of the most serious diagnosis while still following the established priority hierarchy (Evidence: pg no: 90, L80-L81)",
+        "importance": "critical",
+        "applies_to": "All multiple external cause scenarios",
+        "common_applications": [
+          "Complex injury scenarios",
+          "Multiple trauma cases",
+          "Prioritization decisions"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify all external causes contributing to injuries/conditions",
+      "Step 2: Apply priority hierarchy: abuse > terrorism > cataclysmic > transport > other",
+      "Step 3: Sequence causal/intent codes according to hierarchy",
+      "Step 4: Add activity and status codes after all causal codes",
+      "Step 5: Verify first-listed corresponds to most serious diagnosis within hierarchy"
+    ],
+    "related_terminology": [
+      "Priority hierarchy",
+      "Child and adult abuse",
+      "Terrorism",
+      "Cataclysmic events",
+      "Transport accidents",
+      "Activity codes",
+      "Status codes",
+      "Most serious diagnosis"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Child and adult abuse codes",
+      "Terrorism codes",
+      "Cataclysmic event codes",
+      "Transport accident codes",
+      "Activity codes",
+      "Status codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.19",
+        "title": "Child and Adult abuse guidelines",
+        "relationship": "implements",
+        "explanation": "Referenced for specific abuse coding guidelines"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "MULT_HIER_001",
+      "scenario": "Patient injured in motor vehicle accident during terrorist attack, sustains multiple injuries",
+      "documentation_example": "Patient involved in MVA during terrorist incident, sustained head trauma and leg fracture",
+      "step_by_step": [
+        "Step 1: Identify external causes (terrorism, motor vehicle accident)",
+        "Step 2: Apply hierarchy - terrorism takes priority over transport accident",
+        "Step 3: Sequence terrorism code first, then transport accident code",
+        "Step 4: Add place/activity/status codes if applicable",
+        "Step 5: Verify sequencing reflects most serious diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "Head trauma (if most serious)",
+        "secondary_codes": [
+          "Leg fracture",
+          "Terrorism external cause code",
+          "MVA external cause code"
+        ],
+        "sequencing": "Most serious injury first, then terrorism code, then transport code",
+        "rationale": "Terrorism codes take priority over transport accident codes in the hierarchy (Evidence: pg no: 90, L76, L78)"
+      },
+      "incorrect_coding": {
+        "code": "MVA code before terrorism code",
+        "codes": [
+          "Transport accident code sequenced first"
+        ],
+        "rationale": "Violates priority hierarchy",
+        "common_mistake": "Not following established priority hierarchy"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Must follow established priority hierarchy (Evidence: pg no: 90, L73-L81)",
+      "Activity and status codes always last (Evidence: pg no: 90, L79)"
+    ],
+    "best_practices": [
+      "Apply hierarchy consistently (Evidence: pg no: 90, L73-L81)",
+      "Consider most serious diagnosis within hierarchy constraints (Evidence: pg no: 90, L80-L81)"
+    ],
+    "common_mistakes": [
+      "Not following priority hierarchy (Evidence: pg no: 90, L73-L81)",
+      "Sequencing activity/status codes before causal codes (Evidence: pg no: 90, L79)"
+    ],
+    "tips": [
+      "Memorize the hierarchy: abuse > terrorism > cataclysmic > transport (Evidence: pg no: 90, L75-L78)"
+    ],
+    "implementation_notes": [
+      "Hierarchy ensures consistent prioritization across cases"
+    ],
+    "clinical_context": [
+      "Complex scenarios may involve multiple external cause types requiring prioritization"
+    ]
+  },
+  "search_keywords": [
+    "multiple external cause hierarchy",
+    "external cause priority",
+    "abuse terrorism cataclysmic transport",
+    "external cause sequencing",
+    "priority hierarchy external causes",
+    "most serious diagnosis external cause"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "external_causes",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "external_causes",
+      "priority_hierarchy",
+      "multiple_codes",
+      "sequencing",
+      "chapter_20"
+    ]
+  },
+  "page_range_processed": "pages_87_to_90"
+}

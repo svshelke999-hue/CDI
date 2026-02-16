@@ -1,0 +1,236 @@
+{
+  "guideline_id": "I.C.12.a.5",
+  "semantic_title": "Pressure Ulcers Documented as Healing Coding Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 12. Chapter 12: Diseases of the Skin and Subcutaneous Tissue > a. Pressure ulcer stage codes > 5) Pressure ulcers documented as healing",
+  "page_number": 59,
+  "content": {
+    "full_text": "Pressure ulcers described as healing should be assigned the appropriate pressure ulcer stage code based on the documentation in the medical record. If the documentation does not provide information about the stage of the healing pressure ulcer, assign the appropriate code for unspecified stage. If the documentation is unclear as to whether the patient has a current (new) pressure ulcer or if the patient is being treated for a healing pressure ulcer, query the provider. For ulcers that were present on admission but healed at the time of discharge, assign the code for the site and stage of the pressure ulcer at the time of admission. (Evidence: pg no: 59, L46-L48)",
+    "summary": "Comprehensive guidelines for coding healing pressure ulcers, including stage assignment, provider queries, and admission to discharge scenarios (Evidence: pg no: 59, L46-L48)",
+    "key_concepts": [
+      "Healing ulcers require stage coding (Evidence: pg no: 59, L46-L47)",
+      "Unspecified stage for undocumented healing ulcers (Evidence: pg no: 59, L47)",
+      "Provider query for unclear documentation (Evidence: pg no: 59, L47-L48)",
+      "Admission stage coding for ulcers healed at discharge (Evidence: pg no: 59, L48)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "HEALING_STAGE_001",
+        "rule_text": "Healing pressure ulcers should be assigned appropriate stage code based on documentation (Evidence: pg no: 59, L46-L47)",
+        "explanation": "Pressure ulcers that are healing are still active conditions requiring stage-specific coding based on medical record documentation (Evidence: pg no: 59, L46-L47)",
+        "importance": "critical",
+        "applies_to": "L89 codes",
+        "common_applications": [
+          "Healing stage 2 ulcers",
+          "Healing stage 3 ulcers",
+          "Improving pressure ulcers"
+        ]
+      },
+      {
+        "rule_id": "HEALING_UNSPECIFIED_001",
+        "rule_text": "Use unspecified stage code when healing ulcer stage is not documented (Evidence: pg no: 59, L47)",
+        "explanation": "If documentation describes ulcer as healing but does not provide stage information, assign the unspecified stage code (Evidence: pg no: 59, L47)",
+        "importance": "high",
+        "applies_to": "L89.--9",
+        "common_applications": [
+          "Healing ulcer without stage documentation",
+          "Incomplete healing documentation"
+        ]
+      },
+      {
+        "rule_id": "HEALING_QUERY_001",
+        "rule_text": "Query provider when unclear if ulcer is new or healing (Evidence: pg no: 59, L47-L48)",
+        "explanation": "When documentation is unclear about whether the patient has a new pressure ulcer or is being treated for a healing one, provider clarification is needed (Evidence: pg no: 59, L47-L48)",
+        "importance": "high",
+        "applies_to": "unclear documentation",
+        "common_applications": [
+          "Ambiguous ulcer status",
+          "Unclear treatment context"
+        ]
+      },
+      {
+        "rule_id": "ADMISSION_TO_DISCHARGE_001",
+        "rule_text": "For ulcers present at admission but healed at discharge, code admission stage (Evidence: pg no: 59, L48)",
+        "explanation": "When ulcers were present on admission but healed by discharge, assign the code for the site and stage at the time of admission (Evidence: pg no: 59, L48)",
+        "importance": "critical",
+        "applies_to": "L89 codes",
+        "common_applications": [
+          "Successful ulcer treatment during stay",
+          "Admission to discharge healing"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify healing pressure ulcer",
+      "Step 2: Check documentation for stage information",
+      "Step 3: If stage documented, assign appropriate stage code",
+      "Step 4: If stage not documented, use unspecified stage",
+      "Step 5: If unclear new vs healing, query provider",
+      "Step 6: For admission ulcers healed at discharge, use admission stage"
+    ],
+    "related_terminology": [
+      "Healing pressure ulcer",
+      "Unspecified stage",
+      "Provider query",
+      "Admission stage",
+      "Discharge status"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "L89",
+        "description": "Pressure ulcer codes for healing ulcers (Evidence: pg no: 59, L46-L47)",
+        "requirement": "Assign based on documented stage",
+        "usage_rules": [
+          "Use appropriate stage code for healing ulcers (Evidence: pg no: 59, L46-L47)",
+          "Use admission stage for ulcers healed at discharge (Evidence: pg no: 59, L48)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "L89.--9",
+        "description": "Unspecified stage pressure ulcer (Evidence: pg no: 59, L47)",
+        "context": "When healing ulcer stage is not documented",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "L89": "Pressure ulcer category",
+          "--": "Site designation",
+          "9": "Unspecified stage"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": []
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "HEALING_DOCUMENTED_STAGE_001",
+      "scenario": "Healing stage 2 sacral pressure ulcer",
+      "documentation_example": "Patient has healing stage 2 pressure ulcer of sacrum, showing good granulation tissue.",
+      "step_by_step": [
+        "Step 1: Identify healing pressure ulcer",
+        "Step 2: Note documented stage (stage 2)",
+        "Step 3: Note location (sacrum)",
+        "Step 4: Assign L89.152 for stage 2 sacral ulcer"
+      ],
+      "correct_coding": {
+        "primary_code": "L89.152",
+        "secondary_codes": [],
+        "sequencing": "Single code for healing ulcer with documented stage",
+        "rationale": "Healing ulcers are coded with appropriate stage when documented (Evidence: pg no: 59, L46-L47)"
+      },
+      "incorrect_coding": {
+        "code": "No code",
+        "codes": [
+          "Not coding healing ulcer"
+        ],
+        "rationale": "Healing ulcers are still active conditions requiring coding",
+        "common_mistake": "Not coding healing ulcers"
+      }
+    },
+    {
+      "scenario_id": "ADMISSION_HEALED_DISCHARGE_001",
+      "scenario": "Stage 3 ulcer at admission, healed at discharge",
+      "documentation_example": "Patient admitted with stage 3 sacral pressure ulcer. At discharge, ulcer is completely healed.",
+      "step_by_step": [
+        "Step 1: Identify admission ulcer status (stage 3)",
+        "Step 2: Note discharge status (healed)",
+        "Step 3: Determine coding based on admission stage",
+        "Step 4: Assign L89.153 for admission stage 3"
+      ],
+      "correct_coding": {
+        "primary_code": "L89.153",
+        "secondary_codes": [],
+        "sequencing": "Code based on admission stage",
+        "rationale": "For ulcers present at admission but healed at discharge, code admission stage (Evidence: pg no: 59, L48)"
+      },
+      "incorrect_coding": {
+        "code": "No code",
+        "codes": [
+          "Not coding because healed at discharge"
+        ],
+        "rationale": "Should code admission stage even if healed at discharge",
+        "common_mistake": "Not coding ulcers that heal during stay"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "HEALING_SCENARIOS_001",
+      "scenario": "Different healing ulcer coding scenarios",
+      "code_example": "Various L89 codes based on documentation",
+      "breakdown": {
+        "Documented stage": "Use appropriate stage code (Evidence: pg no: 59, L46-L47)",
+        "Undocumented stage": "Use unspecified stage code (Evidence: pg no: 59, L47)",
+        "Unclear status": "Query provider for clarification (Evidence: pg no: 59, L47-L48)",
+        "Admission to discharge": "Code admission stage (Evidence: pg no: 59, L48)"
+      },
+      "rationale": "Comprehensive approach covers all healing ulcer scenarios (Evidence: pg no: 59, L46-L48)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Query provider when unclear if ulcer is new or healing (Evidence: pg no: 59, L47-L48)",
+      "Do not fail to code healing ulcers - they are still active conditions"
+    ],
+    "best_practices": [
+      "Code healing ulcers with documented stage (Evidence: pg no: 59, L46-L47)",
+      "Use unspecified stage when healing stage not documented (Evidence: pg no: 59, L47)",
+      "Code admission stage for ulcers healed at discharge (Evidence: pg no: 59, L48)"
+    ],
+    "common_mistakes": [
+      "Not coding healing ulcers",
+      "Confusing healing with healed ulcers",
+      "Not coding ulcers that heal during stay",
+      "Not querying unclear documentation"
+    ],
+    "tips": [
+      "Healing ulcers are still active conditions",
+      "Look for stage documentation in healing ulcers",
+      "Check admission documentation for baseline stage",
+      "Query when documentation is ambiguous"
+    ],
+    "implementation_notes": [
+      "Requires careful documentation review",
+      "May need provider communication for unclear cases"
+    ],
+    "clinical_context": [
+      "Healing represents ongoing treatment process",
+      "Stage may change during healing process",
+      "Successful healing is positive outcome"
+    ]
+  },
+  "search_keywords": [
+    "healing pressure ulcer",
+    "pressure ulcer healing",
+    "unspecified stage",
+    "admission stage",
+    "healing documentation",
+    "L89 healing"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "skin_pressure_ulcers_healing",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "pressure ulcer",
+      "healing",
+      "staging",
+      "admission",
+      "discharge",
+      "documentation"
+    ]
+  },
+  "page_range_processed": "pages_57_to_60"
+}

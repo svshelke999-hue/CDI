@@ -1,0 +1,186 @@
+{
+  "guideline_id": "I.C.4.b.1",
+  "semantic_title": "Obesity Class Coding Requirements and Documentation",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 4. Chapter 4: Endocrine, Nutritional and Metabolic Diseases > b. Obesity > 1) Obesity class",
+  "page_number": 42,
+  "content": {
+    "full_text": "The obesity class codes in subcategory E66.81, Obesity class, require a fifth character to convey the severity of obesity. The obesity class should be documented in the medical record by the provider for these codes to be assigned. The obesity class codes can be reported with other obesity codes in the classification found in Chapters 4 and 15 to fully describe the condition. However, if both class 3 obesity and morbid obesity are documented, only a code for class 3 obesity should be assigned as it is more specific. (Evidence: pg no: 42, L21-L25)",
+    "summary": "Provides specific requirements for obesity class coding including documentation needs, fifth character requirements, and specificity rules when multiple obesity types are documented (Evidence: pg no: 42, L21-L25)",
+    "key_concepts": [
+      "Fifth character requirement for severity (Evidence: pg no: 42, L22)",
+      "Provider documentation requirement (Evidence: pg no: 42, L22-L23)",
+      "Combination with other obesity codes (Evidence: pg no: 42, L23-L24)",
+      "Specificity hierarchy (Evidence: pg no: 42, L24-L25)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "OBESITY_CLASS_001",
+        "rule_text": "Fifth character required to convey obesity severity (Evidence: pg no: 42, L22)",
+        "explanation": "Subcategory E66.81 requires a fifth character to specify the exact class of obesity (Evidence: pg no: 42, L21-L22)",
+        "importance": "critical",
+        "applies_to": "E66.81",
+        "common_applications": [
+          "Class 1 obesity",
+          "Class 2 obesity",
+          "Class 3 obesity"
+        ]
+      },
+      {
+        "rule_id": "OBESITY_CLASS_002",
+        "rule_text": "Provider must document obesity class in medical record (Evidence: pg no: 42, L22-L23)",
+        "explanation": "These codes cannot be assigned without specific provider documentation of the obesity class (Evidence: pg no: 42, L22-L23)",
+        "importance": "critical",
+        "applies_to": "E66.81",
+        "common_applications": [
+          "Provider assessment",
+          "Clinical documentation"
+        ]
+      },
+      {
+        "rule_id": "OBESITY_CLASS_003",
+        "rule_text": "Can be reported with other obesity codes from Chapters 4 and 15 (Evidence: pg no: 42, L23-L24)",
+        "explanation": "Obesity class codes can be used in combination with other obesity codes to provide complete description (Evidence: pg no: 42, L23-L24)",
+        "importance": "medium",
+        "applies_to": "E66.81",
+        "common_applications": [
+          "Multiple obesity manifestations",
+          "Comprehensive obesity coding"
+        ]
+      },
+      {
+        "rule_id": "OBESITY_CLASS_004",
+        "rule_text": "Class 3 obesity takes precedence over morbid obesity when both documented (Evidence: pg no: 42, L24-L25)",
+        "explanation": "When both class 3 obesity and morbid obesity are documented, only assign class 3 obesity code as it is more specific (Evidence: pg no: 42, L24-L25)",
+        "importance": "high",
+        "applies_to": "E66.81",
+        "common_applications": [
+          "Conflicting documentation",
+          "Multiple obesity descriptors"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Verify provider documented obesity class",
+      "Step 2: Identify specific obesity class (1, 2, or 3)",
+      "Step 3: Assign E66.81 with appropriate fifth character",
+      "Step 4: Consider additional obesity codes if applicable",
+      "Step 5: Apply specificity rules if multiple types documented"
+    ],
+    "related_terminology": [
+      "Obesity class",
+      "Obesity severity",
+      "Morbid obesity",
+      "Provider documentation",
+      "Fifth character"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "E66.81",
+        "description": "Obesity class (Evidence: pg no: 42, L21)",
+        "requirement": "Requires fifth character and provider documentation",
+        "usage_rules": [
+          "Must have provider documentation (Evidence: pg no: 42, L22-L23)",
+          "Requires fifth character for severity (Evidence: pg no: 42, L22)",
+          "Takes precedence over morbid obesity when both documented (Evidence: pg no: 42, L24-L25)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "E66.81X",
+        "description": "Obesity class with fifth character for severity (Evidence: pg no: 42, L21-L22)",
+        "example": "E66.813 for Class 3 obesity",
+        "explanation": "Fifth character specifies the class of obesity"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Obesity class codes",
+      "Chapter 4 obesity codes",
+      "Chapter 15 obesity codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "OBESITY_CLASS_001",
+      "scenario": "Provider documents both 'Class 3 obesity' and 'morbid obesity' for the same patient",
+      "documentation_example": "Patient has Class 3 obesity, also described as morbid obesity",
+      "step_by_step": [
+        "Step 1: Note both Class 3 obesity and morbid obesity are documented",
+        "Step 2: Apply specificity rule - Class 3 is more specific",
+        "Step 3: Assign only Class 3 obesity code",
+        "Step 4: Do not assign morbid obesity code"
+      ],
+      "correct_coding": {
+        "primary_code": "E66.813",
+        "secondary_codes": [],
+        "sequencing": "Class 3 obesity only",
+        "rationale": "Class 3 obesity is more specific than morbid obesity when both are documented (Evidence: pg no: 42, L24-L25)"
+      },
+      "incorrect_coding": {
+        "codes": [
+          "E66.813",
+          "E66.01"
+        ],
+        "rationale": "Should not code both when Class 3 is more specific",
+        "common_mistake": "Coding both Class 3 and morbid obesity"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Cannot assign without provider documentation (Evidence: pg no: 42, L22-L23)",
+      "Class 3 obesity excludes morbid obesity coding (Evidence: pg no: 42, L24-L25)"
+    ],
+    "best_practices": [
+      "Verify provider documentation before assigning (Evidence: pg no: 42, L22-L23)",
+      "Use most specific code when multiple obesity types documented (Evidence: pg no: 42, L24-L25)"
+    ],
+    "common_mistakes": [
+      "Assigning without provider documentation",
+      "Coding both Class 3 and morbid obesity",
+      "Missing fifth character"
+    ],
+    "tips": [
+      "Always check for provider documentation of obesity class",
+      "Remember specificity hierarchy"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Requires clinical assessment and documentation by provider"
+    ]
+  },
+  "search_keywords": [
+    "obesity class",
+    "E66.81",
+    "fifth character",
+    "provider documentation",
+    "class 3 obesity",
+    "morbid obesity specificity"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "obesity",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "obesity",
+      "documentation",
+      "specificity",
+      "fifth_character"
+    ]
+  },
+  "page_range_processed": "pages_42_to_45"
+}

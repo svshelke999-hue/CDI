@@ -1,0 +1,206 @@
+{
+  "guideline_id": "I.B.11",
+  "semantic_title": "Coding Impending or Threatened Conditions",
+  "section_path": "Section I > B. General Coding Guidelines > 11. Impending or Threatened Condition",
+  "page_number": 15,
+  "content": {
+    "full_text": "Code any condition described at the time of discharge as \"impending\" or \"threatened\" as follows: If it did occur, code as confirmed diagnosis. If it did not occur, reference the Alphabetic Index to determine if the condition has a subentry term for \"impending\" or \"threatened\" and also reference main term entries for \"Impending\" and for \"Threatened.\" If the subterms are listed, assign the given code. If the subterms are not listed, code the existing underlying condition(s) and not the condition described as impending or threatened. (Evidence: pg no: 15, L72-L75)",
+    "summary": "Provides specific coding instructions for conditions described as impending or threatened, with different approaches based on whether the condition occurred and whether specific index entries exist. (Evidence: pg no: 15, L72-L75)",
+    "key_concepts": [
+      "Different coding based on whether condition occurred (Evidence: pg no: 15, L74)",
+      "If occurred, code as confirmed diagnosis (Evidence: pg no: 15, L74)",
+      "If not occurred, check Alphabetic Index for specific subterms (Evidence: pg no: 15, L74-L75)",
+      "Check both condition subterms and main term entries (Evidence: pg no: 15, L74-L75)",
+      "If no subterms exist, code underlying conditions only (Evidence: pg no: 15, L75)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.B.11.1",
+        "rule_text": "If impending/threatened condition occurred, code as confirmed diagnosis (Evidence: pg no: 15, L74)",
+        "explanation": "When a condition that was described as impending or threatened actually occurred during the encounter, it should be coded as a confirmed diagnosis rather than as impending or threatened (Evidence: pg no: 15, L74)",
+        "importance": "high",
+        "applies_to": "impending_threatened_conditions",
+        "common_applications": [
+          "Impending myocardial infarction that occurred",
+          "Threatened abortion that progressed to actual abortion",
+          "Impending respiratory failure that developed"
+        ]
+      },
+      {
+        "rule_id": "I.B.11.2",
+        "rule_text": "If condition did not occur, check for specific 'impending' or 'threatened' subterms (Evidence: pg no: 15, L74-L75)",
+        "explanation": "When the impending or threatened condition did not actually occur, check the Alphabetic Index for specific subentry terms under the condition and also check main term entries for 'Impending' and 'Threatened' (Evidence: pg no: 15, L74-L75)",
+        "importance": "high",
+        "applies_to": "impending_threatened_conditions",
+        "common_applications": [
+          "Threatened abortion that did not progress",
+          "Impending myocardial infarction that was prevented",
+          "Threatened preterm labor that resolved"
+        ]
+      },
+      {
+        "rule_id": "I.B.11.3",
+        "rule_text": "If specific subterms exist, assign the given code (Evidence: pg no: 15, L75)",
+        "explanation": "When the Alphabetic Index contains specific subentry terms for 'impending' or 'threatened' under the condition, or when main term entries exist for 'Impending' or 'Threatened', assign the code provided by these entries (Evidence: pg no: 15, L75)",
+        "importance": "high",
+        "applies_to": "impending_threatened_conditions",
+        "common_applications": [
+          "Using specific threatened abortion codes",
+          "Using specific impending condition codes when available",
+          "Following index guidance for threatened conditions"
+        ]
+      },
+      {
+        "rule_id": "I.B.11.4",
+        "rule_text": "If no subterms listed, code underlying conditions only (Evidence: pg no: 15, L75)",
+        "explanation": "When the Alphabetic Index does not contain specific subentry terms for 'impending' or 'threatened', code only the existing underlying condition(s) and do not code the condition described as impending or threatened (Evidence: pg no: 15, L75)",
+        "importance": "high",
+        "applies_to": "impending_threatened_conditions",
+        "common_applications": [
+          "Coding underlying heart disease for impending MI without specific code",
+          "Coding underlying conditions when no threatened subterm exists",
+          "Avoiding unspecified codes for impending conditions"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify condition described as impending or threatened",
+      "Step 2: Determine if the condition actually occurred during encounter",
+      "Step 3: If occurred, code as confirmed diagnosis",
+      "Step 4: If not occurred, check Alphabetic Index for condition subterms",
+      "Step 5: Also check main term entries for 'Impending' and 'Threatened'",
+      "Step 6: If subterms exist, assign the given code",
+      "Step 7: If no subterms, code only underlying conditions"
+    ],
+    "related_terminology": [
+      "impending",
+      "threatened",
+      "confirmed diagnosis",
+      "subentry term",
+      "main term entries",
+      "underlying condition",
+      "Alphabetic Index"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Impending conditions",
+      "Threatened conditions",
+      "Underlying conditions"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "I.B.11.S1",
+      "scenario": "Patient with threatened abortion that did not progress",
+      "documentation_example": "Admission diagnosis: Threatened abortion at 12 weeks gestation. Patient stabilized, bleeding stopped, pregnancy continuing normally.",
+      "step_by_step": [
+        "Step 1: Identify threatened abortion",
+        "Step 2: Determine abortion did not occur",
+        "Step 3: Check Alphabetic Index for 'threatened' under abortion",
+        "Step 4: Find specific code for threatened abortion",
+        "Step 5: Assign the threatened abortion code"
+      ],
+      "correct_coding": {
+        "primary_code": "O20.0",
+        "secondary_codes": [],
+        "sequencing": "Threatened condition code",
+        "rationale": "Specific code exists for threatened abortion in index (Evidence: pg no: 15, L74-L75)"
+      },
+      "incorrect_coding": {
+        "code": "O03.9",
+        "codes": [
+          "O03.9"
+        ],
+        "rationale": "Should not code actual abortion when it was only threatened and did not occur",
+        "common_mistake": "Coding the actual condition when it was only threatened"
+      }
+    },
+    {
+      "scenario_id": "I.B.11.S2",
+      "scenario": "Patient with impending respiratory failure that actually occurred",
+      "documentation_example": "Admission: Impending respiratory failure. During stay, patient developed acute respiratory failure requiring intubation.",
+      "step_by_step": [
+        "Step 1: Identify impending respiratory failure",
+        "Step 2: Determine respiratory failure actually occurred",
+        "Step 3: Code as confirmed diagnosis",
+        "Step 4: Assign acute respiratory failure code"
+      ],
+      "correct_coding": {
+        "primary_code": "J96.00",
+        "secondary_codes": [],
+        "sequencing": "Confirmed diagnosis",
+        "rationale": "Condition occurred, so code as confirmed diagnosis (Evidence: pg no: 15, L74)"
+      },
+      "incorrect_coding": {
+        "code": "Impending respiratory failure code",
+        "codes": [],
+        "rationale": "Should code actual condition when it occurred, not impending",
+        "common_mistake": "Coding impending when actual condition occurred"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Always check if impending/threatened condition actually occurred (Evidence: pg no: 15, L74)",
+      "Do not code impending condition if no specific subterms exist (Evidence: pg no: 15, L75)"
+    ],
+    "best_practices": [
+      "Check both condition subterms and main term entries for Impending/Threatened (Evidence: pg no: 15, L74-L75)",
+      "Code underlying conditions when no specific impending/threatened codes exist (Evidence: pg no: 15, L75)"
+    ],
+    "common_mistakes": [
+      "Coding actual condition when it was only threatened (Evidence: pg no: 15, L74)",
+      "Missing specific threatened/impending subterms in index (Evidence: pg no: 15, L74-L75)"
+    ],
+    "tips": [
+      "Look carefully at discharge documentation to determine if condition occurred (Evidence: pg no: 15, L72-L74)",
+      "Check main term entries for 'Impending' and 'Threatened' (Evidence: pg no: 15, L74-L75)"
+    ],
+    "implementation_notes": [
+      "Requires careful review of clinical course during encounter"
+    ],
+    "clinical_context": [
+      "Common in obstetrics for threatened conditions",
+      "Important in emergency and critical care settings"
+    ]
+  },
+  "search_keywords": [
+    "impending",
+    "threatened",
+    "confirmed diagnosis",
+    "subentry term",
+    "main term entries",
+    "underlying condition",
+    "Alphabetic Index",
+    "occurred",
+    "did not occur"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "conditional_coding",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "impending",
+      "threatened",
+      "conditional_coding",
+      "alphabetic_index",
+      "subterms",
+      "underlying_conditions"
+    ]
+  },
+  "page_range_processed": "pages_12_to_15"
+}

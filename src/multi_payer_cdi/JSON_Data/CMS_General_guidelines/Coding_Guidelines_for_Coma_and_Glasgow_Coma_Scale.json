@@ -1,0 +1,224 @@
+{
+  "guideline_id": "I.C.18.e",
+  "semantic_title": "Coding Guidelines for Coma and Glasgow Coma Scale",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 18. Chapter 18: Symptoms, signs, and abnormal clinical and laboratory findings > e. Coma",
+  "page_number": 76,
+  "content": {
+    "full_text": "Code R40.20, Unspecified coma, should be assigned when the underlying cause of the coma is not known, or the cause is a traumatic brain injury and the coma scale is not documented in the medical record. Do not report codes for unspecified coma, individual or total Glasgow coma scale scores for a patient with a medically induced coma or a sedated patient. The coma scale codes (R40.21- to R40.24-) can be used in conjunction with traumatic brain injury codes. These codes cannot be used with code R40.2A, Nontraumatic coma due to underlying condition. They are primarily for use by trauma registries, but they may be used in any setting where this information is collected. The coma scale codes should be sequenced after the diagnosis code(s). These codes, one from each subcategory, are needed to complete the scale. The 7th character indicates when the scale was recorded. The 7th character should match for all three codes. At a minimum, report the initial score documented on presentation at your facility. This may be a score from the emergency medicine technician (EMT) or in the emergency department. If desired, a facility may choose to capture multiple coma scale scores. Assign code R40.24-, Glasgow coma scale, total score, when only the total score is documented in the medical record and not the individual score(s). If multiple coma scores are captured within the first 24 hours after hospital admission, assign only the code for the score at the time of admission. ICD-10-CM does not classify coma scores that are reported after admission but less than 24 hours later. (Evidence: pg no: 76-77, L27-L41)",
+    "summary": "Comprehensive guidelines for coding coma conditions and Glasgow Coma Scale scores, including when to use unspecified coma codes and detailed rules for coma scale documentation (Evidence: pg no: 76-77, L27-L41)",
+    "key_concepts": [
+      "Unspecified coma coding criteria (Evidence: pg no: 76, L27)",
+      "Exclusions for medically induced coma (Evidence: pg no: 76, L28)",
+      "Glasgow Coma Scale coding rules (Evidence: pg no: 76-77, L30-L41)",
+      "Timing requirements for coma scale documentation (Evidence: pg no: 77, L40-L41)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "R40.20_usage",
+        "rule_text": "Code R40.20, Unspecified coma, should be assigned when the underlying cause of the coma is not known, or the cause is a traumatic brain injury and the coma scale is not documented in the medical record (Evidence: pg no: 76, L27)",
+        "explanation": "This code is for situations where coma etiology is unknown or when TBI-related coma lacks scale documentation (Evidence: pg no: 76, L27)",
+        "importance": "critical",
+        "applies_to": "R40.20",
+        "common_applications": [
+          "Unknown cause coma",
+          "TBI without documented coma scale"
+        ]
+      },
+      {
+        "rule_id": "medically_induced_exclusion",
+        "rule_text": "Do not report codes for unspecified coma, individual or total Glasgow coma scale scores for a patient with a medically induced coma or a sedated patient (Evidence: pg no: 76, L28)",
+        "explanation": "Medically induced or sedated states should not be coded as coma conditions (Evidence: pg no: 76, L28)",
+        "importance": "critical",
+        "applies_to": "R40.20, R40.21-R40.24",
+        "common_applications": [
+          "Surgical sedation",
+          "Medically induced coma"
+        ]
+      },
+      {
+        "rule_id": "coma_scale_sequencing",
+        "rule_text": "The coma scale codes should be sequenced after the diagnosis code(s) (Evidence: pg no: 77, L31)",
+        "explanation": "Coma scale codes are supplementary and follow the primary diagnosis (Evidence: pg no: 77, L31)",
+        "importance": "high",
+        "applies_to": "R40.21-R40.24",
+        "common_applications": [
+          "TBI with coma scale",
+          "Trauma registry reporting"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if coma is medically induced or natural",
+      "Step 2: Identify underlying cause if known",
+      "Step 3: Check for documented coma scale scores",
+      "Step 4: Apply appropriate coma codes based on documentation",
+      "Step 5: Sequence coma scale codes after diagnosis codes"
+    ],
+    "related_terminology": [
+      "unspecified coma",
+      "Glasgow coma scale",
+      "traumatic brain injury",
+      "medically induced coma",
+      "coma scale scores"
+    ]
+  },
+  "code_references": {
+    "specific_codes": [
+      {
+        "code": "R40.20",
+        "description": "Unspecified coma - for unknown cause or TBI without scale documentation (Evidence: pg no: 76, L27)",
+        "context": "When underlying cause unknown or TBI lacks coma scale documentation",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "R40": "Somnolence, stupor and coma",
+          ".20": "Unspecified coma"
+        }
+      },
+      {
+        "code": "R40.2A",
+        "description": "Nontraumatic coma due to underlying condition (Evidence: pg no: 77, L31)",
+        "context": "Cannot be used with coma scale codes",
+        "requires_additional_codes": "check_code_notes",
+        "breakdown": {
+          "R40": "Somnolence, stupor and coma",
+          ".2A": "Nontraumatic coma due to underlying condition"
+        }
+      },
+      {
+        "code": "R40.24-",
+        "description": "Glasgow coma scale, total score - when only total documented (Evidence: pg no: 77, L38-L39)",
+        "context": "Use when only total score documented, not individual components",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "R40": "Somnolence, stupor and coma",
+          ".24": "Glasgow coma scale, total score"
+        }
+      }
+    ],
+    "code_ranges": [
+      {
+        "range": "R40.21-R40.24",
+        "description": "Coma scale codes for use with traumatic brain injury (Evidence: pg no: 77, L30)",
+        "requirement": "Cannot be used with R40.2A",
+        "usage_rules": [
+          "Use in conjunction with traumatic brain injury codes (Evidence: pg no: 77, L30)",
+          "Sequence after diagnosis codes (Evidence: pg no: 77, L31)",
+          "7th character must match for all three codes (Evidence: pg no: 77, L34)"
+        ]
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": "7th character timing",
+        "description": "7th character indicates when scale was recorded and should match for all codes (Evidence: pg no: 77, L33-L34)",
+        "example": "All coma scale codes use same 7th character",
+        "explanation": "Ensures consistency in timing documentation"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Coma codes",
+      "Glasgow Coma Scale codes",
+      "Traumatic brain injury codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.B.14",
+        "title": "Coma scale documentation by clinicians other than patient's provider",
+        "relationship": "related_to",
+        "explanation": "Referenced for documentation requirements (Evidence: pg no: 77, L41)"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "unknown_cause_coma",
+      "scenario": "Patient presents in coma, cause unknown",
+      "documentation_example": "Patient found unconscious, cause of coma unknown",
+      "step_by_step": [
+        "Step 1: Verify coma is not medically induced",
+        "Step 2: Confirm underlying cause is unknown",
+        "Step 3: Assign R40.20"
+      ],
+      "correct_coding": {
+        "primary_code": "R40.20",
+        "secondary_codes": [],
+        "sequencing": "Primary diagnosis",
+        "rationale": "Appropriate when underlying cause of coma is not known (Evidence: pg no: 76, L27)"
+      },
+      "incorrect_coding": {
+        "code": "Coma scale codes without diagnosis",
+        "rationale": "Coma scale codes should be sequenced after diagnosis codes",
+        "common_mistake": "Using coma scale codes as primary diagnosis"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "EMT_score_example",
+      "scenario": "EMT documents initial Glasgow Coma Scale score",
+      "code_example": "R40.21-R40.23 with appropriate 7th characters",
+      "breakdown": {
+        "timing": "Initial score from EMT acceptable (Evidence: pg no: 77, L35-L36)"
+      },
+      "rationale": "Minimum requirement is initial score documented on presentation (Evidence: pg no: 77, L35)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not code coma scales for medically induced coma or sedated patients (Evidence: pg no: 76, L28)",
+      "Cannot use coma scale codes with R40.2A (Evidence: pg no: 77, L31)"
+    ],
+    "best_practices": [
+      "Report initial score documented on presentation at minimum (Evidence: pg no: 77, L35)",
+      "Use matching 7th characters for all coma scale codes (Evidence: pg no: 77, L34)"
+    ],
+    "common_mistakes": [
+      "Coding medically induced coma as natural coma",
+      "Using mismatched 7th characters for coma scale codes"
+    ],
+    "tips": [
+      "Facilities may choose to capture multiple coma scale scores if desired (Evidence: pg no: 77, L37)",
+      "Use R40.24- when only total score is documented (Evidence: pg no: 77, L38-L39)"
+    ],
+    "implementation_notes": [
+      "Primarily for trauma registries but may be used in any setting (Evidence: pg no: 77, L31-L32)",
+      "Only code admission score if multiple scores within 24 hours (Evidence: pg no: 77, L40-L41)"
+    ],
+    "clinical_context": [
+      "Emergency department presentations",
+      "Trauma registry documentation",
+      "Traumatic brain injury cases"
+    ]
+  },
+  "search_keywords": [
+    "coma",
+    "Glasgow coma scale",
+    "R40.20",
+    "unspecified coma",
+    "traumatic brain injury",
+    "medically induced coma",
+    "coma scale codes"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "symptoms_signs_abnormal_findings",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "emergency",
+      "trauma_registry"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "coma",
+      "glasgow_coma_scale",
+      "traumatic_brain_injury",
+      "neurological_assessment"
+    ]
+  },
+  "page_range_processed": "pages_75_to_78"
+}

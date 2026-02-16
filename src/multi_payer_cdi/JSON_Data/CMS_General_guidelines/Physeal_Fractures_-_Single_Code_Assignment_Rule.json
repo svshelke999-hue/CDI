@@ -1,0 +1,136 @@
+{
+  "guideline_id": "I.C.19.c.3",
+  "semantic_title": "Physeal Fractures - Single Code Assignment Rule",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 19. Injury, Poisoning, and Certain Other Consequences of External Causes > c. Coding of Traumatic Fractures > 3) Physeal fractures",
+  "page_number": 80,
+  "content": {
+    "full_text": "For physeal fractures, assign only the code identifying the type of physeal fracture. Do not assign a separate code to identify the specific bone that is fractured. (Evidence: pg no: 80, L66-L67)",
+    "summary": "Coding rule for physeal fractures requiring only the physeal fracture type code without additional bone-specific codes (Evidence: pg no: 80, L66-L67)",
+    "key_concepts": [
+      "Single code assignment for physeal fractures (Evidence: pg no: 80, L66-L67)",
+      "Exclusion of separate bone codes (Evidence: pg no: 80, L67)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "physeal_single_code",
+        "rule_text": "For physeal fractures, assign only the code identifying the type of physeal fracture (Evidence: pg no: 80, L66-L67)",
+        "explanation": "Physeal fracture codes are comprehensive and include both the fracture type and bone information (Evidence: pg no: 80, L66-L67)",
+        "importance": "high",
+        "applies_to": "physeal_fracture_codes",
+        "common_applications": [
+          "Pediatric fractures",
+          "Growth plate injuries",
+          "Salter-Harris fractures"
+        ]
+      },
+      {
+        "rule_id": "no_separate_bone_code",
+        "rule_text": "Do not assign a separate code to identify the specific bone that is fractured (Evidence: pg no: 80, L67)",
+        "explanation": "The physeal fracture code already incorporates the bone location, making additional bone codes redundant (Evidence: pg no: 80, L67)",
+        "importance": "high",
+        "applies_to": "physeal_fracture_codes",
+        "common_applications": [
+          "Avoiding duplicate coding",
+          "Proper physeal fracture documentation"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify physeal fracture",
+      "Step 2: Determine physeal fracture type",
+      "Step 3: Assign appropriate physeal fracture code",
+      "Step 4: Do not add separate bone fracture code"
+    ],
+    "related_terminology": [
+      "Physeal fractures",
+      "Growth plate fractures",
+      "Salter-Harris classification",
+      "Pediatric fractures"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Physeal fracture codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "physeal_fracture_coding",
+      "scenario": "Child with Salter-Harris Type II fracture of distal radius",
+      "documentation_example": "Salter-Harris Type II physeal fracture of distal radius",
+      "step_by_step": [
+        "Step 1: Identify as physeal fracture",
+        "Step 2: Determine Salter-Harris type",
+        "Step 3: Assign physeal fracture code only",
+        "Step 4: Do not add separate radius fracture code"
+      ],
+      "correct_coding": {
+        "primary_code": "S59.xxx (physeal fracture code)",
+        "secondary_codes": [],
+        "sequencing": "Single physeal fracture code only",
+        "rationale": "Physeal fracture codes are comprehensive and include bone information (Evidence: pg no: 80, L66-L67)"
+      },
+      "incorrect_coding": {
+        "code": "S59.xxx + S52.xxx",
+        "codes": [
+          "Physeal fracture code plus separate radius fracture code"
+        ],
+        "rationale": "Separate bone codes should not be assigned with physeal fractures",
+        "common_mistake": "Adding separate bone fracture codes to physeal fracture codes"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not assign separate bone fracture codes with physeal fractures (Evidence: pg no: 80, L67)"
+    ],
+    "best_practices": [
+      "Use only the physeal fracture code for growth plate injuries (Evidence: pg no: 80, L66-L67)"
+    ],
+    "common_mistakes": [
+      "Adding redundant bone fracture codes to physeal fractures (Evidence: pg no: 80, L67)"
+    ],
+    "tips": [
+      "Physeal fracture codes are comprehensive and self-contained (Evidence: pg no: 80, L66-L67)"
+    ],
+    "implementation_notes": [
+      "Particularly important in pediatric coding"
+    ],
+    "clinical_context": [
+      "Common in pediatric orthopedics and emergency medicine"
+    ]
+  },
+  "search_keywords": [
+    "physeal fractures",
+    "growth plate fractures",
+    "Salter-Harris",
+    "pediatric fractures",
+    "single code assignment"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "fracture_coding",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "physeal_fractures",
+      "pediatric",
+      "growth_plate",
+      "single_coding"
+    ]
+  },
+  "page_range_processed": "pages_78_to_81"
+}

@@ -1,0 +1,183 @@
+{
+  "guideline_id": "I.C.21.c.3.k",
+  "semantic_title": "Physical Restraint Status (Z78.1) - Documentation Requirements and Usage Restrictions",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 21. Factors Influencing Health Status > c. Categories of Z Codes > 3) Status",
+  "page_number": 95,
+  "content": {
+    "full_text": "Code Z78.1, Physical restraint status, may be used when it is documented by the provider that a patient has been put in restraints during the current encounter. Please note that this code should not be reported when it is documented by the provider that a patient is temporarily restrained during a procedure. (Evidence: pg no: 95, L61)",
+    "summary": "Z78.1 for physical restraint status requires provider documentation but excludes temporary procedural restraints (Evidence: pg no: 95, L61)",
+    "key_concepts": [
+      "Physical restraint status (Evidence: pg no: 95, L61)",
+      "Provider documentation required (Evidence: pg no: 95, L61)",
+      "Current encounter restraints (Evidence: pg no: 95, L61)",
+      "Excludes temporary procedural restraints (Evidence: pg no: 95, L61)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "RESTRAINT_DOC",
+        "rule_text": "Use when provider documents patient in restraints during current encounter (Evidence: pg no: 95, L61)",
+        "explanation": "Z78.1 requires provider documentation that patient was placed in physical restraints during the current encounter (Evidence: pg no: 95, L61)",
+        "importance": "high",
+        "applies_to": "Z78.1",
+        "common_applications": [
+          "Behavioral health encounters",
+          "Safety restraints",
+          "Medical restraints"
+        ]
+      },
+      {
+        "rule_id": "RESTRAINT_EXCL_PROC",
+        "rule_text": "Do not report for temporary restraints during procedures (Evidence: pg no: 95, L61)",
+        "explanation": "Z78.1 should not be used when restraints are temporary and only for procedural purposes (Evidence: pg no: 95, L61)",
+        "importance": "critical",
+        "applies_to": "Z78.1",
+        "common_applications": [
+          "Surgical procedures",
+          "Diagnostic procedures",
+          "Temporary positioning"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Review provider documentation for restraint use",
+      "Step 2: Determine if restraints were for procedure only",
+      "Step 3: If non-procedural restraints, assign Z78.1",
+      "Step 4: If procedural restraints only, do not assign Z78.1"
+    ],
+    "related_terminology": [
+      "Physical restraints",
+      "Restraint status",
+      "Procedural restraints",
+      "Safety restraints"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "Z78.1",
+        "description": "Physical restraint status (Evidence: pg no: 95, L61)",
+        "context": "Use when patient in restraints during encounter, excluding procedural restraints",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z78": "Other specified health status",
+          "1": "Physical restraint status"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Physical restraint status"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "RESTRAINT_01",
+      "scenario": "Psychiatric patient in physical restraints for safety",
+      "documentation_example": "Patient with acute psychosis placed in physical restraints for safety of patient and staff. Restraints maintained throughout shift.",
+      "step_by_step": [
+        "Step 1: Identify primary psychiatric condition",
+        "Step 2: Note provider documentation of restraint use",
+        "Step 3: Confirm restraints are not just procedural",
+        "Step 4: Assign Z78.1 as additional diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "F29",
+        "secondary_codes": [
+          "Z78.1"
+        ],
+        "sequencing": "Primary condition first, then restraint status",
+        "rationale": "Provider documented restraints during encounter for non-procedural reasons (Evidence: pg no: 95, L61)"
+      },
+      "incorrect_coding": {
+        "code": "No Z78.1",
+        "codes": [
+          "Missing restraint code"
+        ],
+        "rationale": "Should capture documented restraint use",
+        "common_mistake": "Not coding documented restraint status"
+      }
+    },
+    {
+      "scenario_id": "RESTRAINT_02",
+      "scenario": "Patient temporarily restrained during surgery",
+      "documentation_example": "Patient positioned and restrained during surgical procedure for safety. Restraints removed immediately post-procedure.",
+      "step_by_step": [
+        "Step 1: Identify surgical procedure",
+        "Step 2: Note restraints were procedural only",
+        "Step 3: Do not assign Z78.1 for procedural restraints"
+      ],
+      "correct_coding": {
+        "primary_code": "Surgical diagnosis",
+        "secondary_codes": [],
+        "sequencing": "No restraint code for procedural restraints",
+        "rationale": "Should not report temporary procedural restraints (Evidence: pg no: 95, L61)"
+      },
+      "incorrect_coding": {
+        "code": "Z78.1",
+        "codes": [
+          "Z78.1 for procedural restraints"
+        ],
+        "rationale": "Should not use for temporary procedural restraints",
+        "common_mistake": "Using restraint code for procedural restraints"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not use for temporary procedural restraints (Evidence: pg no: 95, L61)",
+      "Requires provider documentation (Evidence: pg no: 95, L61)"
+    ],
+    "best_practices": [
+      "Distinguish between safety restraints and procedural restraints",
+      "Ensure provider documentation is present"
+    ],
+    "common_mistakes": [
+      "Using for temporary procedural restraints",
+      "Not coding documented non-procedural restraints"
+    ],
+    "tips": [
+      "Focus on the purpose and duration of restraints",
+      "Procedural restraints are excluded"
+    ],
+    "implementation_notes": [
+      "Important for patient safety monitoring"
+    ],
+    "clinical_context": [
+      "Behavioral health",
+      "Patient safety",
+      "Emergency department care"
+    ]
+  },
+  "search_keywords": [
+    "physical restraints",
+    "Z78.1",
+    "restraint status",
+    "procedural restraints",
+    "safety restraints",
+    "behavioral health"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "status_codes",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "restraints",
+      "safety",
+      "behavioral",
+      "procedural"
+    ]
+  },
+  "page_range_processed": "pages_93_to_96"
+}

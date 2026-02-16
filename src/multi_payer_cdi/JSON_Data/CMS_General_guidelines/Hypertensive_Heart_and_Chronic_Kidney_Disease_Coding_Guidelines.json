@@ -1,0 +1,357 @@
+{
+  "guideline_id": "I.C.9.a.3",
+  "semantic_title": "Hypertensive Heart and Chronic Kidney Disease Coding Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 9. Chapter 9: Diseases of the Circulatory System > a. Hypertension > 3) Hypertensive Heart and Chronic Kidney Disease",
+  "page_number": 51,
+  "content": {
+    "full_text": "The codes in category I13, Hypertensive heart and chronic kidney disease, are combination codes that include hypertension, heart disease and chronic kidney disease. Assign codes from combination category I13, Hypertensive heart and chronic kidney disease, when there is hypertension with both heart and chronic kidney disease. If heart failure is present, assign an additional code from category I50 to identify the type of heart failure. The appropriate code from category N18, Chronic kidney disease, should be used as a secondary code with a code from category I13 to identify the stage of chronic kidney disease. See Section I.C.14. Chronic kidney disease. The Includes note at I13 specifies that the conditions included at I11 and I12 are included together in I13. If a patient has hypertension, heart disease and chronic kidney disease, then a code from I13 should be used, not codes from I11 or I12. For patients with both acute renal failure and chronic kidney disease, the acute renal failure should also be coded. Sequence according to the circumstances of the admission/encounter. (Evidence: pg no: 51, L63-L74)",
+    "summary": "Guidelines for coding hypertensive heart and chronic kidney disease using I13 combination codes, including requirements for additional codes and proper sequencing when all three conditions are present (Evidence: pg no: 51, L63-L74)",
+    "key_concepts": [
+      "I13 combination codes for triple condition involvement (Evidence: pg no: 51, L63-L65)",
+      "Additional I50 codes for heart failure specification (Evidence: pg no: 51, L67-L68)",
+      "N18 secondary codes for CKD staging (Evidence: pg no: 51, L69-L71)",
+      "I13 supersedes I11 and I12 when all conditions present (Evidence: pg no: 51, L72)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "HTN_HEART_CKD_I13_COMBINATION",
+        "rule_text": "Use I13 category codes when hypertension occurs with both heart disease and chronic kidney disease (Evidence: pg no: 51, L65-L66)",
+        "explanation": "The codes in category I13 are combination codes that include hypertension, heart disease, and chronic kidney disease together. Use I13 when all three conditions are present (Evidence: pg no: 51, L63-L66)",
+        "importance": "critical",
+        "applies_to": "Concurrent hypertension, heart disease, and chronic kidney disease",
+        "common_applications": [
+          "Hypertensive cardiomyopathy with CKD",
+          "Heart failure with hypertensive nephropathy",
+          "Combined cardiovascular and renal complications of hypertension"
+        ]
+      },
+      {
+        "rule_id": "HTN_HEART_CKD_I50_ADDITIONAL",
+        "rule_text": "Assign additional I50 code when heart failure is present with I13 codes (Evidence: pg no: 51, L67-L68)",
+        "explanation": "If heart failure is present in a patient with hypertensive heart and chronic kidney disease, assign an additional code from category I50 to identify the specific type of heart failure (Evidence: pg no: 51, L67-L68)",
+        "importance": "high",
+        "applies_to": "I13 codes with concurrent heart failure",
+        "common_applications": [
+          "Systolic heart failure with hypertensive heart and kidney disease",
+          "Diastolic heart failure with combined hypertensive complications",
+          "Combined heart failure with renal complications"
+        ]
+      },
+      {
+        "rule_id": "HTN_HEART_CKD_N18_SECONDARY",
+        "rule_text": "Use appropriate N18 code as secondary with I13 to identify CKD stage (Evidence: pg no: 51, L69-L71)",
+        "explanation": "The appropriate code from category N18 (Chronic kidney disease) should be used as a secondary code with a code from category I13 to identify the stage of chronic kidney disease (Evidence: pg no: 51, L69-L71)",
+        "importance": "high",
+        "applies_to": "All I13 category codes",
+        "common_applications": [
+          "CKD stage identification with combined hypertensive disease",
+          "Disease progression monitoring",
+          "Treatment planning based on CKD stage"
+        ]
+      },
+      {
+        "rule_id": "HTN_HEART_CKD_I13_SUPERSEDES",
+        "rule_text": "Use I13 instead of I11 or I12 when patient has hypertension, heart disease, and chronic kidney disease (Evidence: pg no: 51, L72)",
+        "explanation": "If a patient has hypertension, heart disease, and chronic kidney disease, use a code from I13 rather than codes from I11 or I12, as I13 includes the conditions from both I11 and I12 (Evidence: pg no: 51, L71-L72)",
+        "importance": "critical",
+        "applies_to": "Patients with all three conditions present",
+        "common_applications": [
+          "Complex hypertensive disease with multiple organ involvement",
+          "Advanced hypertensive complications",
+          "Multi-system hypertensive disease"
+        ]
+      },
+      {
+        "rule_id": "HTN_HEART_CKD_ACUTE_RENAL",
+        "rule_text": "Code acute renal failure additionally when present with chronic kidney disease (Evidence: pg no: 51, L73-L74)",
+        "explanation": "For patients with both acute renal failure and chronic kidney disease in the setting of hypertensive heart and kidney disease, the acute renal failure should also be coded (Evidence: pg no: 51, L73-L74)",
+        "importance": "high",
+        "applies_to": "I13 codes with concurrent acute renal failure",
+        "common_applications": [
+          "Acute on chronic kidney disease",
+          "CKD exacerbation with acute component",
+          "Hospital admission for acute renal failure in complex hypertensive disease"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify presence of hypertension, heart disease, and chronic kidney disease",
+      "Step 2: Assign appropriate I13 category code for combination",
+      "Step 3: If heart failure present, add I50 code for heart failure type",
+      "Step 4: Assign N18 secondary code for CKD staging",
+      "Step 5: Check for concurrent acute renal failure",
+      "Step 6: If acute renal failure present, add appropriate acute renal failure code",
+      "Step 7: Sequence according to admission/encounter circumstances"
+    ],
+    "related_terminology": [
+      "Hypertensive heart and chronic kidney disease",
+      "Combination codes",
+      "Triple condition involvement",
+      "Heart failure specification",
+      "CKD staging",
+      "Acute on chronic kidney disease",
+      "Multi-organ hypertensive complications",
+      "I13 supersedes I11 and I12"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "I13",
+        "description": "Hypertensive heart and chronic kidney disease combination codes (Evidence: pg no: 51, L63, L65)",
+        "requirement": "Use when hypertension occurs with both heart disease and CKD",
+        "usage_rules": [
+          "Add I50 code if heart failure present (Evidence: pg no: 51, L67-L68)",
+          "Add N18 secondary code for CKD staging (Evidence: pg no: 51, L69-L71)",
+          "Use instead of I11 or I12 when all conditions present (Evidence: pg no: 51, L72)"
+        ]
+      },
+      {
+        "range": "I50",
+        "description": "Heart failure codes (Evidence: pg no: 51, L68)",
+        "requirement": "Use as additional codes with I13 when heart failure present",
+        "usage_rules": [
+          "Required additional code when heart failure exists with I13 (Evidence: pg no: 51, L67-L68)"
+        ]
+      },
+      {
+        "range": "N18",
+        "description": "Chronic kidney disease codes (Evidence: pg no: 51, L70)",
+        "requirement": "Use as secondary codes with I13 for CKD staging",
+        "usage_rules": [
+          "Required secondary code with I13 category (Evidence: pg no: 51, L69-L71)"
+        ]
+      },
+      {
+        "range": "I11",
+        "description": "Hypertensive heart disease codes (Evidence: pg no: 51, L71)",
+        "requirement": "Do not use when I13 is appropriate",
+        "usage_rules": [
+          "Superseded by I13 when heart disease, hypertension, and CKD all present (Evidence: pg no: 51, L72)"
+        ]
+      },
+      {
+        "range": "I12",
+        "description": "Hypertensive chronic kidney disease codes (Evidence: pg no: 51, L71)",
+        "requirement": "Do not use when I13 is appropriate",
+        "usage_rules": [
+          "Superseded by I13 when heart disease, hypertension, and CKD all present (Evidence: pg no: 51, L72)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "I13.x + N18.x",
+        "description": "Hypertensive heart and kidney disease with CKD staging (Evidence: pg no: 51, L69-L71)",
+        "example": "I13.0 + N18.4",
+        "explanation": "Combination of I13 code with N18 secondary code for CKD stage"
+      },
+      {
+        "pattern": "I13.x + I50.x + N18.x",
+        "description": "Complete coding for hypertensive heart and kidney disease with heart failure (Evidence: pg no: 51, L67-L71)",
+        "example": "I13.0 + I50.9 + N18.4",
+        "explanation": "I13 code with both heart failure specification and CKD staging"
+      }
+    ],
+    "code_categories_mentioned": [
+      "I13 Hypertensive heart and chronic kidney disease",
+      "I50 Heart failure",
+      "N18 Chronic kidney disease",
+      "I11 Hypertensive heart disease",
+      "I12 Hypertensive chronic kidney disease"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.14",
+        "title": "Chronic kidney disease",
+        "relationship": "related_to",
+        "explanation": "Referenced for additional CKD coding guidance"
+      },
+      {
+        "guideline_id": "I.C.9.a.1",
+        "title": "Hypertension with Heart Disease",
+        "relationship": "builds_upon",
+        "explanation": "I13 includes conditions from I11 category"
+      },
+      {
+        "guideline_id": "I.C.9.a.2",
+        "title": "Hypertensive Chronic Kidney Disease",
+        "relationship": "builds_upon",
+        "explanation": "I13 includes conditions from I12 category"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "HTN_HEART_CKD_COMPLETE_1",
+      "scenario": "Patient with hypertensive heart disease, heart failure, and chronic kidney disease stage 3",
+      "documentation_example": "Patient has hypertensive heart disease with systolic heart failure and chronic kidney disease stage 3.",
+      "step_by_step": [
+        "Step 1: Identify hypertension, heart disease, heart failure, and CKD",
+        "Step 2: Recognize all three main conditions present (hypertension, heart disease, CKD)",
+        "Step 3: Assign I13 category code for combination",
+        "Step 4: Add I50 code for systolic heart failure",
+        "Step 5: Add N18.3 for CKD stage 3"
+      ],
+      "correct_coding": {
+        "primary_code": "I13.0",
+        "secondary_codes": [
+          "I50.21",
+          "N18.3"
+        ],
+        "sequencing": "I13 combination code with heart failure and CKD specifications",
+        "rationale": "All three conditions present require I13 with additional I50 and N18 codes (Evidence: pg no: 51, L65-L71)"
+      },
+      "incorrect_coding": {
+        "code": "I11.0",
+        "codes": [
+          "I11.0",
+          "I50.21",
+          "I12.9",
+          "N18.3"
+        ],
+        "rationale": "Should not use I11 and I12 separately when I13 is appropriate",
+        "common_mistake": "Using I11 and I12 codes instead of I13 when all conditions present"
+      }
+    },
+    {
+      "scenario_id": "HTN_HEART_CKD_NO_HF_1",
+      "scenario": "Patient with hypertensive heart disease and chronic kidney disease without heart failure",
+      "documentation_example": "Patient has hypertensive heart disease with cardiomegaly and chronic kidney disease stage 4.",
+      "step_by_step": [
+        "Step 1: Identify hypertension, heart disease, and CKD",
+        "Step 2: Note absence of heart failure",
+        "Step 3: Assign I13 category code for combination",
+        "Step 4: Do not assign I50 code (no heart failure)",
+        "Step 5: Add N18.4 for CKD stage 4"
+      ],
+      "correct_coding": {
+        "primary_code": "I13.10",
+        "secondary_codes": [
+          "N18.4"
+        ],
+        "sequencing": "I13 combination code with CKD staging only",
+        "rationale": "Hypertension with heart disease and CKD but no heart failure requires I13 with N18 only (Evidence: pg no: 51, L65-L71)"
+      },
+      "incorrect_coding": {
+        "code": "I13.0",
+        "codes": [
+          "I13.0",
+          "I50.9",
+          "N18.4"
+        ],
+        "rationale": "Should not assign I50 code when heart failure not present",
+        "common_mistake": "Adding heart failure codes when not documented"
+      }
+    },
+    {
+      "scenario_id": "HTN_HEART_CKD_ACUTE_1",
+      "scenario": "Patient with hypertensive heart and kidney disease plus acute renal failure",
+      "documentation_example": "Patient with hypertensive heart and chronic kidney disease stage 5, now with acute renal failure.",
+      "step_by_step": [
+        "Step 1: Identify hypertensive heart and kidney disease",
+        "Step 2: Note concurrent acute renal failure",
+        "Step 3: Assign I13 category code",
+        "Step 4: Add N18.6 for end-stage renal disease",
+        "Step 5: Add acute renal failure code"
+      ],
+      "correct_coding": {
+        "primary_code": "N17.9",
+        "secondary_codes": [
+          "I13.2",
+          "N18.6"
+        ],
+        "sequencing": "Acute renal failure as primary if reason for admission",
+        "rationale": "Acute renal failure should be coded additionally with I13 combination (Evidence: pg no: 51, L73-L74)"
+      },
+      "incorrect_coding": {
+        "code": "I13.2",
+        "codes": [
+          "I13.2",
+          "N18.6"
+        ],
+        "rationale": "Should not omit acute renal failure code when present",
+        "common_mistake": "Missing concurrent acute renal failure in complex hypertensive disease"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "HTN_HEART_CKD_EX1",
+      "scenario": "Complete hypertensive heart and kidney disease with heart failure",
+      "code_example": "I13.0 + I50.9 + N18.4",
+      "breakdown": {
+        "I13.0": "Hypertensive heart and chronic kidney disease with heart failure and stage 1-4 CKD (Evidence: pg no: 51, L65)",
+        "I50.9": "Heart failure, unspecified (additional code) (Evidence: pg no: 51, L67-L68)",
+        "N18.4": "Chronic kidney disease, stage 4 (secondary code) (Evidence: pg no: 51, L69-L71)"
+      },
+      "rationale": "I13 combination code requires both I50 and N18 additional codes when heart failure and CKD present (Evidence: pg no: 51, L67-L71)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not use I11 or I12 codes when I13 is appropriate (Evidence: pg no: 51, L72)",
+      "Must include N18 secondary code with I13 for CKD staging (Evidence: pg no: 51, L69-L71)",
+      "Must include I50 code when heart failure present with I13 (Evidence: pg no: 51, L67-L68)"
+    ],
+    "best_practices": [
+      "Use I13 when all three conditions (hypertension, heart disease, CKD) are present (Evidence: pg no: 51, L65-L66)",
+      "Always add appropriate secondary codes for complete clinical picture (Evidence: pg no: 51, L67-L71)"
+    ],
+    "common_mistakes": [
+      "Using I11 and I12 separately instead of I13 combination code (Evidence: pg no: 51, L72)",
+      "Omitting required I50 codes when heart failure present (Evidence: pg no: 51, L67-L68)",
+      "Omitting required N18 codes for CKD staging (Evidence: pg no: 51, L69-L71)"
+    ],
+    "tips": [
+      "I13 includes conditions from both I11 and I12 categories (Evidence: pg no: 51, L71-L72)",
+      "Check Section I.C.14 for additional CKD coding guidance (Evidence: pg no: 51, L71)",
+      "Acute renal failure can coexist with chronic conditions (Evidence: pg no: 51, L73-L74)"
+    ],
+    "implementation_notes": [
+      "I13 represents the most complex form of hypertensive disease",
+      "Requires careful attention to all additional code requirements"
+    ],
+    "clinical_context": [
+      "Represents advanced hypertensive disease with multi-organ involvement",
+      "Common in patients with long-standing, poorly controlled hypertension",
+      "Requires comprehensive management of cardiovascular and renal complications"
+    ]
+  },
+  "search_keywords": [
+    "hypertensive heart and chronic kidney disease",
+    "I13 category",
+    "combination codes",
+    "heart failure",
+    "chronic kidney disease",
+    "I50 additional codes",
+    "N18 secondary codes",
+    "acute renal failure",
+    "multi-organ hypertensive disease",
+    "I11 I12 superseded"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "circulatory_system_hypertensive_combined",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "hypertension",
+      "heart_disease",
+      "chronic_kidney_disease",
+      "I13",
+      "combination_codes",
+      "multi_organ"
+    ]
+  },
+  "page_range_processed": "pages_48_to_51"
+}

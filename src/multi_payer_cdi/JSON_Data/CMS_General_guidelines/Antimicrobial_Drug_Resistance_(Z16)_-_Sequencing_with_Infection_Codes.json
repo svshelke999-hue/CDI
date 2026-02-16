@@ -1,0 +1,140 @@
+{
+  "guideline_id": "I.C.21.c.3.d",
+  "semantic_title": "Antimicrobial Drug Resistance (Z16) - Sequencing with Infection Codes",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 21. Factors Influencing Health Status > c. Categories of Z Codes > 3) Status",
+  "page_number": 94,
+  "content": {
+    "full_text": "This category indicates that a patient has a condition that is resistant to antimicrobial drug treatment. Sequence the infection code first. (Evidence: pg no: 94, L35-L36)",
+    "summary": "Z16 codes indicate antimicrobial drug resistance and must be sequenced after the infection code (Evidence: pg no: 94, L35-L36)",
+    "key_concepts": [
+      "Antimicrobial drug resistance (Evidence: pg no: 94, L35-L36)",
+      "Infection code sequenced first (Evidence: pg no: 94, L36)",
+      "Secondary diagnosis usage (Evidence: pg no: 94, L36)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "RESIST_SEQ",
+        "rule_text": "Sequence the infection code first (Evidence: pg no: 94, L36)",
+        "explanation": "When coding antimicrobial resistance, the underlying infection must be the principal or first-listed diagnosis (Evidence: pg no: 94, L36)",
+        "importance": "critical",
+        "applies_to": "Z16",
+        "common_applications": [
+          "MRSA infections",
+          "Drug-resistant tuberculosis",
+          "Antibiotic-resistant infections"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify the underlying infection",
+      "Step 2: Assign appropriate infection code as principal diagnosis",
+      "Step 3: Assign Z16 code as secondary diagnosis"
+    ],
+    "related_terminology": [
+      "Antimicrobial resistance",
+      "Drug resistance",
+      "MRSA",
+      "Antibiotic resistance"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z16",
+        "description": "Resistance to antimicrobial drugs (Evidence: pg no: 94, L34)",
+        "requirement": "Must be sequenced after infection code",
+        "usage_rules": [
+          "Sequence infection code first (Evidence: pg no: 94, L36)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Antimicrobial drug resistance"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "RESIST_01",
+      "scenario": "Patient with MRSA pneumonia",
+      "documentation_example": "Patient diagnosed with pneumonia due to methicillin-resistant Staphylococcus aureus (MRSA).",
+      "step_by_step": [
+        "Step 1: Identify pneumonia as primary condition",
+        "Step 2: Assign pneumonia code as principal diagnosis",
+        "Step 3: Assign Z16 code for methicillin resistance"
+      ],
+      "correct_coding": {
+        "primary_code": "J15.212",
+        "secondary_codes": [
+          "Z16.11"
+        ],
+        "sequencing": "Infection code first, then resistance code",
+        "rationale": "Infection must be sequenced before resistance code (Evidence: pg no: 94, L36)"
+      },
+      "incorrect_coding": {
+        "code": "Z16.11",
+        "codes": [
+          "Z16.11 as principal"
+        ],
+        "rationale": "Resistance code cannot be principal diagnosis",
+        "common_mistake": "Sequencing resistance code before infection code"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Never sequence Z16 codes before infection codes (Evidence: pg no: 94, L36)"
+    ],
+    "best_practices": [
+      "Always identify underlying infection first",
+      "Use Z16 codes as secondary diagnoses only"
+    ],
+    "common_mistakes": [
+      "Incorrect sequencing of resistance codes",
+      "Using resistance codes without infection codes"
+    ],
+    "tips": [
+      "Remember infection always comes first in sequencing"
+    ],
+    "implementation_notes": [
+      "Critical for antimicrobial stewardship tracking"
+    ],
+    "clinical_context": [
+      "Infectious disease management",
+      "Antimicrobial stewardship",
+      "Hospital-acquired infections"
+    ]
+  },
+  "search_keywords": [
+    "antimicrobial resistance",
+    "Z16",
+    "drug resistance",
+    "MRSA",
+    "infection sequencing",
+    "antibiotic resistance"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "status_codes",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "resistance",
+      "infection",
+      "sequencing",
+      "antimicrobial"
+    ]
+  },
+  "page_range_processed": "pages_93_to_96"
+}

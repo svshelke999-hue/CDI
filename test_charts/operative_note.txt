@@ -1,0 +1,55 @@
+OPERATIVE REPORT
+
+Patient Name: John Smith
+Date of Birth: 01/15/1975
+Age: 49 years old
+MRN: 123456789
+Date of Surgery: 03/15/2024
+Surgeon: Dr. Jane Doe, MD
+Anesthesiologist: Dr. Robert Johnson, MD
+
+PREOPERATIVE DIAGNOSIS:
+1. Full-thickness rotator cuff tear, right shoulder
+2. Subacromial impingement syndrome, right shoulder
+
+POSTOPERATIVE DIAGNOSIS:
+1. Full-thickness rotator cuff tear, right shoulder
+2. Subacromial impingement syndrome, right shoulder
+
+PROCEDURE PERFORMED:
+1. Arthroscopic rotator cuff repair, right shoulder
+2. Arthroscopic subacromial decompression, right shoulder
+
+ANESTHESIA:
+General endotracheal anesthesia
+
+INDICATIONS:
+The patient is a 49-year-old male with right shoulder pain and limited range of motion. 
+MRI demonstrated a full-thickness rotator cuff tear. Patient failed conservative management 
+including physical therapy, NSAIDs, and corticosteroid injections.
+
+OPERATIVE TECHNIQUE:
+The patient was placed in the beach chair position. General anesthesia was induced. 
+The right shoulder was prepped and draped in sterile fashion.
+
+Arthroscopic portals were established. Diagnostic arthroscopy revealed a full-thickness 
+tear of the supraspinatus tendon measuring approximately 2.5 cm. The subacromial space 
+was entered and significant subacromial spurring was identified.
+
+The rotator cuff tear was debrided and prepared. A double-row repair was performed using 
+suture anchors. The subacromial decompression was completed with removal of the acromial spur.
+
+All instruments were removed. Portals were closed with simple interrupted sutures. 
+A sterile dressing was applied.
+
+ESTIMATED BLOOD LOSS:
+Minimal
+
+COMPLICATIONS:
+None
+
+CPT CODES:
+29827 - Arthroscopy, shoulder, surgical; with rotator cuff repair
+29826 - Arthroscopy, shoulder, surgical; decompression of subacromial space with partial 
+        acromioplasty and coracoacromial ligament release
+

@@ -1,0 +1,204 @@
+{
+  "guideline_id": "I.C.2.l.4",
+  "semantic_title": "Coding Guidelines for Encounter for Complication Associated with Neoplasm",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 2. Chapter 2: Neoplasms > l. Sequencing of neoplasm codes > 4) Encounter for complication associated with a neoplasm",
+  "page_number": 37,
+  "content": {
+    "full_text": "When an encounter is for management of a complication associated with a neoplasm, such as dehydration, and the treatment is only for the complication, the complication is coded first, followed by the appropriate code(s) for the neoplasm. The exception to this guideline is anemia. When the admission/encounter is for management of an anemia associated with the malignancy, and the treatment is only for anemia, the appropriate code for the malignancy is sequenced as the principal or first-listed diagnosis followed by code D63.0, Anemia in neoplastic disease. (Evidence: pg no: 37, L37-L39)",
+    "summary": "Guidelines for sequencing when treating complications of neoplasms, with special exception for anemia (Evidence: pg no: 37, L37-L39)",
+    "key_concepts": [
+      "Complication coded first when treatment is only for complication (Evidence: pg no: 37, L37-L38)",
+      "Neoplasm code follows complication code (Evidence: pg no: 37, L38)",
+      "Exception for anemia - malignancy sequenced first (Evidence: pg no: 37, L38-L39)",
+      "Use D63.0 for anemia in neoplastic disease (Evidence: pg no: 37, L39)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "complication_sequencing_general",
+        "rule_text": "The complication is coded first when treatment is only for the complication (Evidence: pg no: 37, L37-L38)",
+        "explanation": "When the encounter focuses solely on managing a neoplasm-related complication, that complication takes sequencing priority (Evidence: pg no: 37, L37-L38)",
+        "importance": "high",
+        "applies_to": "neoplasm complications except anemia",
+        "common_applications": [
+          "Dehydration from chemotherapy",
+          "Nausea and vomiting from treatment"
+        ]
+      },
+      {
+        "rule_id": "anemia_exception_rule",
+        "rule_text": "For anemia associated with malignancy, the malignancy is sequenced first followed by D63.0 (Evidence: pg no: 37, L38-L39)",
+        "explanation": "Anemia is specifically excepted from the general complication sequencing rule and requires the malignancy to be sequenced first (Evidence: pg no: 37, L38-L39)",
+        "importance": "critical",
+        "applies_to": "anemia in neoplastic disease",
+        "common_applications": [
+          "Anemia from bone marrow involvement",
+          "Anemia from chemotherapy effects"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify if encounter is for complication management only",
+      "Step 2: Determine if complication is anemia or other complication",
+      "Step 3a: For non-anemia complications - code complication first, then neoplasm",
+      "Step 3b: For anemia - code malignancy first, then D63.0"
+    ],
+    "related_terminology": [
+      "Neoplasm complications",
+      "Dehydration",
+      "Anemia in neoplastic disease",
+      "Treatment focus",
+      "Sequencing exception"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Various complication codes",
+        "description": "Codes for complications associated with neoplasms (Evidence: pg no: 37, L37-L38)",
+        "requirement": "Sequenced first when treatment is only for complication (except anemia)",
+        "usage_rules": [
+          "Complication first, then neoplasm (Evidence: pg no: 37, L37-L38)",
+          "Exception: anemia follows different rule (Evidence: pg no: 37, L38-L39)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "D63.0",
+        "description": "Anemia in neoplastic disease (Evidence: pg no: 37, L39)",
+        "context": "Used when encounter is for management of anemia associated with malignancy",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "D63": "Anemia in chronic diseases classified elsewhere",
+          "0": "In neoplastic disease"
+        }
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": "Complication code + Neoplasm code",
+        "description": "Standard pattern for most neoplasm complications (Evidence: pg no: 37, L37-L38)",
+        "example": "E86.0 + C78.00",
+        "explanation": "Complication sequenced first, then neoplasm"
+      },
+      {
+        "pattern": "Neoplasm code + D63.0",
+        "description": "Exception pattern for anemia in neoplastic disease (Evidence: pg no: 37, L38-L39)",
+        "example": "C78.00 + D63.0",
+        "explanation": "Malignancy first, then anemia code"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Complication codes",
+      "Neoplasm codes",
+      "Anemia codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "dehydration_complication",
+      "scenario": "Patient with lung cancer admitted solely for treatment of severe dehydration from chemotherapy",
+      "documentation_example": "Admission for IV fluid resuscitation for severe dehydration secondary to chemotherapy for lung adenocarcinoma",
+      "step_by_step": [
+        "Step 1: Identify encounter is for complication management only (dehydration)",
+        "Step 2: Determine complication is not anemia",
+        "Step 3: Code dehydration first, then lung cancer"
+      ],
+      "correct_coding": {
+        "primary_code": "E86.0 (Dehydration)",
+        "secondary_codes": [
+          "C78.00 (Malignant neoplasm of unspecified part of unspecified bronchus or lung)"
+        ],
+        "sequencing": "Complication first, then neoplasm",
+        "rationale": "Treatment is only for the complication (Evidence: pg no: 37, L37-L38)"
+      },
+      "incorrect_coding": {
+        "code": "C78.00",
+        "codes": [
+          "C78.00 as principal diagnosis"
+        ],
+        "rationale": "Lung cancer should not be principal when treating complication only",
+        "common_mistake": "Sequencing neoplasm first when treating complications"
+      }
+    },
+    {
+      "scenario_id": "anemia_exception",
+      "scenario": "Patient with breast cancer admitted for blood transfusion for severe anemia",
+      "documentation_example": "Admission for packed red blood cell transfusion for severe anemia associated with metastatic breast cancer",
+      "step_by_step": [
+        "Step 1: Identify encounter is for anemia management only",
+        "Step 2: Recognize anemia exception rule applies",
+        "Step 3: Code breast cancer first, then D63.0"
+      ],
+      "correct_coding": {
+        "primary_code": "C50.911 (Malignant neoplasm of unspecified site of right female breast)",
+        "secondary_codes": [
+          "D63.0 (Anemia in neoplastic disease)"
+        ],
+        "sequencing": "Malignancy first, then anemia code",
+        "rationale": "Anemia is exception to general complication sequencing rule (Evidence: pg no: 37, L38-L39)"
+      },
+      "incorrect_coding": {
+        "code": "D63.0",
+        "codes": [
+          "D63.0 as principal diagnosis"
+        ],
+        "rationale": "Anemia should not be principal - malignancy comes first per exception rule",
+        "common_mistake": "Applying general complication rule to anemia"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Anemia is specifically excepted from general complication sequencing rule (Evidence: pg no: 37, L38-L39)"
+    ],
+    "best_practices": [
+      "Always identify the specific focus of treatment to determine sequencing (Evidence: pg no: 37, L37-L38)",
+      "Remember the anemia exception when coding neoplasm-related anemia (Evidence: pg no: 37, L38-L39)"
+    ],
+    "common_mistakes": [
+      "Applying general complication rule to anemia cases (Evidence: pg no: 37, L38-L39)",
+      "Sequencing neoplasm first for non-anemia complications (Evidence: pg no: 37, L37-L38)"
+    ],
+    "tips": [
+      "Anemia always follows the malignancy in sequencing (Evidence: pg no: 37, L38-L39)",
+      "Use D63.0 specifically for anemia in neoplastic disease (Evidence: pg no: 37, L39)"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Applies to supportive care encounters for neoplasm complications"
+    ]
+  },
+  "search_keywords": [
+    "neoplasm complications",
+    "anemia",
+    "D63.0",
+    "dehydration",
+    "complication sequencing",
+    "anemia exception"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "neoplasm_complications",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "neoplasms",
+      "complications",
+      "anemia",
+      "sequencing",
+      "exceptions"
+    ]
+  },
+  "page_range_processed": "pages_36_to_39"
+}

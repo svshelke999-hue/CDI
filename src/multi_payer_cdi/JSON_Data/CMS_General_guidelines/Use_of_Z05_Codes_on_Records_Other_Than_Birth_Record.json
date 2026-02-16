@@ -1,0 +1,171 @@
+{
+  "guideline_id": "I.C.16.b.2",
+  "semantic_title": "Use of Z05 Codes on Records Other Than Birth Record",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 16. Chapter 16: Certain conditions originating in the perinatal period > b. Observation and Evaluation of Newborns for Suspected Conditions not Found > 2) Z05 on other than the birth record",
+  "page_number": 73,
+  "content": {
+    "full_text": "A code from category Z05 may also be assigned as a principal or first-listed code for readmissions or encounters when the code from category Z38 code no longer applies. Codes from category Z05 are for use only for healthy newborns and infants for which no condition after study is found to be present. (Evidence: pg no: 73, L33-L35)",
+    "summary": "Z05 codes can be used as principal/first-listed codes for readmissions or encounters when Z38 no longer applies, but only for healthy newborns/infants with no conditions found (Evidence: pg no: 73, L33-L35)",
+    "key_concepts": [
+      "Principal or first-listed code usage (Evidence: pg no: 73, L34)",
+      "Readmissions or encounters (Evidence: pg no: 73, L34)",
+      "Z38 code no longer applicable (Evidence: pg no: 73, L34-L35)",
+      "Healthy newborns and infants only (Evidence: pg no: 73, L35)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "Z05_principal_code_rule",
+        "rule_text": "Z05 codes may be assigned as principal or first-listed code for readmissions or encounters when Z38 no longer applies (Evidence: pg no: 73, L33-L35)",
+        "explanation": "When the birth episode is over and Z38 codes are no longer appropriate, Z05 codes can serve as the principal diagnosis for subsequent encounters involving observation and evaluation (Evidence: pg no: 73, L33-L35)",
+        "importance": "high",
+        "applies_to": "Z05 category",
+        "common_applications": [
+          "Readmissions for continued observation",
+          "Follow-up encounters for suspected conditions"
+        ]
+      },
+      {
+        "rule_id": "Z05_healthy_only_rule",
+        "rule_text": "Z05 codes are for use only for healthy newborns and infants for which no condition after study is found to be present (Evidence: pg no: 73, L35)",
+        "explanation": "The fundamental requirement that Z05 codes apply only to healthy patients without identified conditions remains regardless of encounter type (Evidence: pg no: 73, L35)",
+        "importance": "critical",
+        "applies_to": "Z05 category",
+        "common_applications": [
+          "Follow-up evaluations with negative findings",
+          "Continued observation with no abnormalities found"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if this is a readmission or subsequent encounter",
+      "Step 2: Confirm Z38 code no longer applies",
+      "Step 3: Verify newborn/infant is healthy with no conditions found",
+      "Step 4: Assign Z05 as principal or first-listed code"
+    ],
+    "related_terminology": [
+      "Principal code",
+      "First-listed code",
+      "Readmissions",
+      "Subsequent encounters"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z05",
+        "description": "Observation and evaluation of newborn for suspected diseases and conditions ruled out (Evidence: pg no: 73, L33)",
+        "requirement": "Use as principal/first-listed for readmissions when Z38 no longer applies",
+        "usage_rules": [
+          "Only for healthy newborns and infants (Evidence: pg no: 73, L35)",
+          "No condition found after study (Evidence: pg no: 73, L35)"
+        ]
+      },
+      {
+        "range": "Z38",
+        "description": "Liveborn infants according to place of birth and type of delivery (Evidence: pg no: 73, L34-L35)",
+        "requirement": "No longer applies in readmission scenarios",
+        "usage_rules": [
+          "Used only for birth episodes (Evidence: pg no: 73, L34-L35)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Z05 - Observation and evaluation codes",
+      "Z38 - Liveborn infant codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.16.b.1",
+        "title": "Use of Z05 codes",
+        "relationship": "builds_upon",
+        "explanation": "Extends the basic Z05 usage rules to readmission scenarios"
+      },
+      {
+        "guideline_id": "I.C.16.b.3",
+        "title": "Z05 on a birth record",
+        "relationship": "related_to",
+        "explanation": "Contrasts with birth record usage where Z05 is secondary"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "Z05_readmission",
+      "scenario": "3-day-old infant readmitted for continued observation for suspected cardiac abnormality, echocardiogram normal, no murmur detected",
+      "documentation_example": "3-day-old infant readmitted for continued cardiac evaluation. Echocardiogram normal. No murmur on examination. Infant feeding well, vital signs stable.",
+      "step_by_step": [
+        "Step 1: Identify this is a readmission (not birth episode)",
+        "Step 2: Confirm Z38 no longer applies",
+        "Step 3: Verify infant is healthy with cardiac abnormality ruled out",
+        "Step 4: Assign Z05 code as principal diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "Z05.0",
+        "secondary_codes": [],
+        "sequencing": "Z05 as principal diagnosis for readmission",
+        "rationale": "Readmission for observation with suspected condition ruled out, Z38 no longer applicable (Evidence: pg no: 73, L33-L35)"
+      },
+      "incorrect_coding": {
+        "code": "Z38.00",
+        "codes": [
+          "Q24.9"
+        ],
+        "rationale": "Z38 only applies to birth episode, should not code suspected condition that was ruled out",
+        "common_mistake": "Using birth codes for readmissions or coding ruled-out conditions"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Z05 codes are only for healthy newborns and infants with no conditions found (Evidence: pg no: 73, L35)"
+    ],
+    "best_practices": [
+      "Use Z05 as principal code for readmissions when Z38 no longer applies (Evidence: pg no: 73, L33-L35)"
+    ],
+    "common_mistakes": [
+      "Using Z38 codes for readmissions or subsequent encounters"
+    ],
+    "tips": [
+      "Z05 can be principal diagnosis in readmission scenarios (Evidence: pg no: 73, L34)"
+    ],
+    "implementation_notes": [
+      "Distinguish between birth episodes and subsequent encounters"
+    ],
+    "clinical_context": [
+      "Applies to readmissions and follow-up encounters for newborns"
+    ]
+  },
+  "search_keywords": [
+    "Z05",
+    "readmission",
+    "principal diagnosis",
+    "first-listed code",
+    "newborn follow-up",
+    "Z38 no longer applies"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "perinatal_conditions",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "newborn",
+      "readmission",
+      "Z05",
+      "principal diagnosis",
+      "follow-up"
+    ]
+  },
+  "page_range_processed": "pages_72_to_75"
+}

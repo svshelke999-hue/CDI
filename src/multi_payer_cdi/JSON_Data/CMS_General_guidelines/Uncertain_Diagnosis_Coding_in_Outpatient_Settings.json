@@ -1,0 +1,205 @@
+{
+  "guideline_id": "IV.H",
+  "semantic_title": "Uncertain Diagnosis Coding in Outpatient Settings",
+  "section_path": "Section IV > H. Uncertain diagnosis",
+  "page_number": 114,
+  "content": {
+    "full_text": "Do not code diagnoses documented as \"probable\", \"suspected,\" \"questionable,\" \"rule out,\" \"compatible with,\" \"consistent with,\" or \"working diagnosis\" or other similar terms indicating uncertainty. Rather, code the condition(s) to the highest degree of certainty for that encounter/visit, such as symptoms, signs, abnormal test results, or other reason for the visit. Please note: This differs from the coding practices used by short-term, acute care, long-term care and psychiatric hospitals. (Evidence: pg no: 114, L72-L76)",
+    "summary": "Prohibits coding uncertain diagnoses in outpatient settings, requiring coding to highest degree of certainty instead, with explicit contrast to inpatient practices (Evidence: pg no: 114, L72-L76)",
+    "key_concepts": [
+      "Do not code uncertain diagnoses in outpatient settings (Evidence: pg no: 114, L73-L74)",
+      "Code to highest degree of certainty (Evidence: pg no: 114, L74-L75)",
+      "Use symptoms, signs, abnormal test results instead (Evidence: pg no: 114, L75)",
+      "Differs from inpatient coding practices (Evidence: pg no: 114, L75-L76)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "IV.H.1",
+        "rule_text": "Do not code diagnoses with uncertainty qualifiers in outpatient settings (Evidence: pg no: 114, L73-L74)",
+        "explanation": "Terms like probable, suspected, questionable, rule out, compatible with, consistent with, or working diagnosis should not be coded as if confirmed (Evidence: pg no: 114, L73-L74)",
+        "importance": "critical",
+        "applies_to": "uncertain_diagnoses",
+        "common_applications": [
+          "Differential diagnosis scenarios",
+          "Diagnostic workup encounters",
+          "Rule-out procedures"
+        ]
+      },
+      {
+        "rule_id": "IV.H.2",
+        "rule_text": "Code to highest degree of certainty using symptoms, signs, or abnormal test results (Evidence: pg no: 114, L74-L75)",
+        "explanation": "Instead of uncertain diagnoses, code the documented symptoms, signs, abnormal findings, or other confirmed reasons for the visit (Evidence: pg no: 114, L74-L75)",
+        "importance": "critical",
+        "applies_to": "outpatient_coding",
+        "common_applications": [
+          "Symptom-based coding",
+          "Abnormal finding documentation",
+          "Reason for visit coding"
+        ]
+      },
+      {
+        "rule_id": "IV.H.3",
+        "rule_text": "Outpatient uncertain diagnosis coding differs from inpatient practices (Evidence: pg no: 114, L75-L76)",
+        "explanation": "This guideline is specific to outpatient settings and contrasts with inpatient coding where uncertain diagnoses may be coded (Evidence: pg no: 114, L75-L76)",
+        "importance": "high",
+        "applies_to": "setting_specific_rules",
+        "common_applications": [
+          "Coder education",
+          "Setting-specific training",
+          "Policy development"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Review documentation for diagnostic uncertainty terms",
+      "Step 2: If uncertain terms found, do not code as confirmed diagnosis",
+      "Step 3: Identify symptoms, signs, or abnormal findings documented",
+      "Step 4: Code these findings to highest degree of certainty",
+      "Step 5: Verify coding reflects actual clinical certainty level"
+    ],
+    "related_terminology": [
+      "Probable",
+      "Suspected",
+      "Questionable",
+      "Rule out",
+      "Compatible with",
+      "Consistent with",
+      "Working diagnosis",
+      "Uncertainty",
+      "Highest degree of certainty"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Symptom codes",
+      "Sign codes",
+      "Abnormal test result codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "IV.D",
+        "title": "Codes that describe symptoms and signs",
+        "relationship": "implements",
+        "explanation": "Use symptom codes when diagnosis uncertain"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "IV.H.S1",
+      "scenario": "Patient presents with chest pain, provider documents 'rule out myocardial infarction'",
+      "documentation_example": "Patient presents with chest pain. EKG shows non-specific changes. Assessment: Chest pain, rule out myocardial infarction. Plan: Serial cardiac enzymes, observation.",
+      "step_by_step": [
+        "Step 1: Identify uncertainty term - 'rule out'",
+        "Step 2: Do not code myocardial infarction",
+        "Step 3: Identify confirmed finding - chest pain",
+        "Step 4: Code chest pain as primary diagnosis",
+        "Step 5: Consider coding abnormal EKG if documented"
+      ],
+      "correct_coding": {
+        "primary_code": "R07.89",
+        "secondary_codes": [
+          "R94.31"
+        ],
+        "sequencing": "Symptom first, abnormal finding secondary",
+        "rationale": "Do not code uncertain diagnoses, code to highest degree of certainty with symptoms and abnormal findings (Evidence: pg no: 114, L74-L75)"
+      },
+      "incorrect_coding": {
+        "code": "I21.9",
+        "codes": [],
+        "rationale": "Should not code 'rule out' diagnoses in outpatient settings",
+        "common_mistake": "Coding uncertain diagnoses as if confirmed"
+      }
+    },
+    {
+      "scenario_id": "IV.H.S2",
+      "scenario": "Patient with probable pneumonia based on clinical presentation",
+      "documentation_example": "Patient presents with cough, fever, and shortness of breath. Chest x-ray pending. Assessment: Probable pneumonia based on clinical presentation.",
+      "step_by_step": [
+        "Step 1: Identify uncertainty term - 'probable'",
+        "Step 2: Do not code pneumonia",
+        "Step 3: Identify confirmed symptoms - cough, fever, shortness of breath",
+        "Step 4: Code all documented symptoms",
+        "Step 5: Avoid coding the uncertain diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "R05.3",
+        "secondary_codes": [
+          "R50.9",
+          "R06.02"
+        ],
+        "sequencing": "Primary symptom first, additional symptoms secondary",
+        "rationale": "Code symptoms to highest degree of certainty rather than probable diagnosis (Evidence: pg no: 114, L74-L75)"
+      },
+      "incorrect_coding": {
+        "code": "J18.9",
+        "codes": [],
+        "rationale": "Should not code probable diagnoses in outpatient settings",
+        "common_mistake": "Coding probable diagnoses as confirmed"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not code uncertain diagnoses in outpatient settings (Evidence: pg no: 114, L73-L74)",
+      "This differs from inpatient coding practices (Evidence: pg no: 114, L75-L76)"
+    ],
+    "best_practices": [
+      "Code to highest degree of certainty (Evidence: pg no: 114, L74-L75)",
+      "Use symptoms, signs, and abnormal test results (Evidence: pg no: 114, L75)",
+      "Avoid all uncertainty qualifier terms"
+    ],
+    "common_mistakes": [
+      "Coding rule-out diagnoses as confirmed",
+      "Using inpatient coding practices in outpatient settings",
+      "Not recognizing uncertainty qualifiers in documentation"
+    ],
+    "tips": [
+      "Look for uncertainty terms in provider documentation",
+      "Remember this rule is specific to outpatient settings"
+    ],
+    "implementation_notes": [
+      "Requires coder training on uncertainty terms",
+      "May require provider education on documentation impact",
+      "Important for compliance and accuracy"
+    ],
+    "clinical_context": [
+      "Outpatient diagnostic workup often involves uncertainty",
+      "Coding should reflect actual clinical certainty level"
+    ]
+  },
+  "search_keywords": [
+    "uncertain diagnosis",
+    "probable",
+    "suspected",
+    "rule out",
+    "questionable",
+    "working diagnosis",
+    "outpatient uncertainty"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "uncertain_diagnosis",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "uncertain_diagnosis",
+      "outpatient_specific",
+      "symptoms",
+      "rule_out",
+      "probable"
+    ]
+  },
+  "page_range_processed": "pages_111_to_114"
+}

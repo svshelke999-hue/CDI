@@ -1,0 +1,182 @@
+{
+  "guideline_id": "I.C.1.d.4",
+  "semantic_title": "Coding Guidelines for Sepsis or Severe Sepsis with Localized Infection",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 1. Certain Infectious and Parasitic Diseases > d. Sepsis, Severe Sepsis, and Septic Shock > 4. Sepsis or severe sepsis with a localized infection",
+  "page_number": 25,
+  "content": {
+    "full_text": "If the reason for admission is sepsis or severe sepsis and a localized infection, such as pneumonia or cellulitis, a code(s) for the underlying systemic infection should be assigned first and the code for the localized infection should be assigned as a secondary diagnosis. If the patient has severe sepsis, a code from subcategory R65.2 should also be assigned as a secondary diagnosis. If the patient is admitted with a localized infection, such as pneumonia, and sepsis/severe sepsis doesn't develop until after admission, the localized infection should be assigned first, followed by the appropriate sepsis/severe sepsis codes. (Evidence: pg no: 25, L16-L21)",
+    "summary": "Provides sequencing rules for coding when both sepsis/severe sepsis and localized infections are present, with different rules based on timing of development (Evidence: pg no: 25, L16-L21)",
+    "key_concepts": [
+      "Systemic infection sequencing priority (Evidence: pg no: 25, L17)",
+      "Localized infection as secondary diagnosis (Evidence: pg no: 25, L17)",
+      "Timing-based sequencing rules (Evidence: pg no: 25, L18-L21)",
+      "Severe sepsis code assignment (Evidence: pg no: 25, L17-L18)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "sepsis_localized_admission",
+        "rule_text": "When reason for admission is sepsis or severe sepsis with localized infection, assign systemic infection code first (Evidence: pg no: 25, L16-L17)",
+        "explanation": "The underlying systemic infection takes priority in sequencing when sepsis is the reason for admission, with localized infections coded as secondary (Evidence: pg no: 25, L16-L17)",
+        "importance": "critical",
+        "applies_to": "sepsis codes with concurrent localized infections",
+        "common_applications": [
+          "Sepsis with pneumonia on admission",
+          "Severe sepsis with cellulitis on admission"
+        ]
+      },
+      {
+        "rule_id": "localized_develops_sepsis",
+        "rule_text": "When patient admitted with localized infection and sepsis develops after admission, sequence localized infection first (Evidence: pg no: 25, L18-L21)",
+        "explanation": "If sepsis develops during the encounter rather than being present on admission, the original reason for admission (localized infection) should be sequenced first (Evidence: pg no: 25, L18-L21)",
+        "importance": "critical",
+        "applies_to": "cases where sepsis develops after admission",
+        "common_applications": [
+          "Pneumonia admission with subsequent sepsis development",
+          "Post-surgical infection leading to sepsis"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if sepsis/severe sepsis was present on admission or developed after",
+      "Step 2: If sepsis present on admission, sequence systemic infection code first",
+      "Step 3: Assign localized infection as secondary diagnosis",
+      "Step 4: If severe sepsis present, add R65.2 code as secondary",
+      "Step 5: If sepsis developed after admission, sequence localized infection first"
+    ],
+    "related_terminology": [
+      "systemic infection",
+      "localized infection",
+      "pneumonia",
+      "cellulitis",
+      "severe sepsis",
+      "secondary diagnosis"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "R65.2",
+        "description": "Severe sepsis subcategory (Evidence: pg no: 25, L18)",
+        "requirement": "Required as secondary diagnosis when severe sepsis present",
+        "usage_rules": [
+          "Always assign as secondary diagnosis (Evidence: pg no: 25, L18)",
+          "Used in conjunction with systemic infection codes (Evidence: pg no: 25, L18)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Systemic infection codes",
+      "Localized infection codes",
+      "Severe sepsis codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.1.d.9",
+        "title": "Hemolytic-uremic syndrome associated with sepsis",
+        "relationship": "related_to",
+        "explanation": "Referenced for specific condition involving sepsis (Evidence: pg no: 25, L21)"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "sepsis_pneumonia_admission",
+      "scenario": "Patient admitted with sepsis and pneumonia present on admission",
+      "documentation_example": "Patient presents with sepsis due to pneumonia",
+      "step_by_step": [
+        "Step 1: Identify sepsis as reason for admission",
+        "Step 2: Assign systemic infection code as primary",
+        "Step 3: Assign pneumonia code as secondary",
+        "Step 4: Add severe sepsis code if applicable"
+      ],
+      "correct_coding": {
+        "primary_code": "Systemic infection code",
+        "secondary_codes": [
+          "Pneumonia code",
+          "R65.2 if severe sepsis"
+        ],
+        "sequencing": "Systemic infection first, localized infection second",
+        "rationale": "Sepsis is the reason for admission and takes priority (Evidence: pg no: 25, L16-L17)"
+      },
+      "incorrect_coding": {
+        "code": "Pneumonia as primary diagnosis",
+        "codes": [
+          "Pneumonia first, sepsis second"
+        ],
+        "rationale": "Incorrect when sepsis is the reason for admission",
+        "common_mistake": "Sequencing localized infection first when sepsis is admission reason"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "pneumonia_cellulitis_sepsis",
+      "scenario": "Sepsis with pneumonia and cellulitis on admission",
+      "code_example": "Systemic infection code + pneumonia code + cellulitis code",
+      "breakdown": {
+        "primary": "Systemic infection code (Evidence: pg no: 25, L17)",
+        "secondary": "Localized infection codes (Evidence: pg no: 25, L17)"
+      },
+      "rationale": "Systemic infection takes priority when sepsis is reason for admission (Evidence: pg no: 25, L16-L17)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Sequencing depends on timing of sepsis development (Evidence: pg no: 25, L18-L21)",
+      "Different rules apply for sepsis present on admission vs developed after (Evidence: pg no: 25, L16-L21)"
+    ],
+    "best_practices": [
+      "Always determine timing of sepsis development (Evidence: pg no: 25, L18-L21)",
+      "Include R65.2 code when severe sepsis present (Evidence: pg no: 25, L18)"
+    ],
+    "common_mistakes": [
+      "Incorrect sequencing based on timing (Evidence: pg no: 25, L18-L21)",
+      "Omitting severe sepsis codes when applicable (Evidence: pg no: 25, L18)"
+    ],
+    "tips": [
+      "Review admission documentation carefully for timing (Evidence: pg no: 25, L18-L21)",
+      "Consider hemolytic-uremic syndrome guidelines when applicable (Evidence: pg no: 25, L21)"
+    ],
+    "implementation_notes": [
+      "Requires careful review of admission vs post-admission development",
+      "Multiple secondary codes may be needed for severe sepsis"
+    ],
+    "clinical_context": [
+      "Common in ICU settings",
+      "Frequently involves respiratory and skin infections"
+    ]
+  },
+  "search_keywords": [
+    "sepsis",
+    "severe sepsis",
+    "localized infection",
+    "pneumonia",
+    "cellulitis",
+    "sequencing",
+    "admission",
+    "systemic infection",
+    "secondary diagnosis"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "infectious_diseases",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "sepsis",
+      "sequencing",
+      "localized_infection",
+      "timing"
+    ]
+  },
+  "page_range_processed": "pages_24_to_27"
+}

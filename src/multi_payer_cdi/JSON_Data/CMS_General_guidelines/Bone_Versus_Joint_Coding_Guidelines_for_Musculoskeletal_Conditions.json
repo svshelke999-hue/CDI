@@ -1,0 +1,167 @@
+{
+  "guideline_id": "I.C.13.a.1",
+  "semantic_title": "Bone Versus Joint Coding Guidelines for Musculoskeletal Conditions",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 13. Chapter 13: Diseases of the Musculoskeletal System and Connective Tissue > a. Site and laterality > 1. Bone versus joint",
+  "page_number": 61,
+  "content": {
+    "full_text": "For certain conditions, the bone may be affected at the upper or lower end, (e.g., avascular necrosis of bone, M87, Osteoporosis, M80, M81). Though the portion of the bone affected may be at the joint, the site designation will be the bone, not the joint. (Evidence: pg no: 61, L27, L30-L31)",
+    "summary": "When bone conditions affect areas near joints, the site designation should be the bone, not the joint (Evidence: pg no: 61, L30-L31)",
+    "key_concepts": [
+      "Bone versus joint designation (Evidence: pg no: 61, L26)",
+      "Upper or lower end of bone (Evidence: pg no: 61, L27)",
+      "Avascular necrosis (Evidence: pg no: 61, L27)",
+      "Osteoporosis (Evidence: pg no: 61, L27)",
+      "Site designation priority (Evidence: pg no: 61, L30-L31)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "MSK_BONE_JOINT_001",
+        "rule_text": "Though the portion of the bone affected may be at the joint, the site designation will be the bone, not the joint (Evidence: pg no: 61, L30-L31)",
+        "explanation": "When bone conditions affect areas near or at joints, coding should designate the bone as the site rather than the joint (Evidence: pg no: 61, L30-L31)",
+        "importance": "critical",
+        "applies_to": "M80, M81, M87",
+        "common_applications": [
+          "Avascular necrosis coding",
+          "Osteoporosis coding",
+          "Bone end conditions"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify bone condition affecting upper or lower end",
+      "Step 2: Determine if affected area is near or at a joint",
+      "Step 3: Designate site as bone, not joint",
+      "Step 4: Select appropriate bone-specific code"
+    ],
+    "related_terminology": [
+      "Bone designation",
+      "Joint designation",
+      "Upper end of bone",
+      "Lower end of bone",
+      "Site designation"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "M80",
+        "description": "Osteoporosis with current pathological fracture (Evidence: pg no: 61, L27)",
+        "requirement": "Use bone designation, not joint",
+        "usage_rules": [
+          "Site designation is bone even if near joint (Evidence: pg no: 61, L30-L31)"
+        ]
+      },
+      {
+        "range": "M81",
+        "description": "Osteoporosis without current pathological fracture (Evidence: pg no: 61, L27)",
+        "requirement": "Use bone designation, not joint",
+        "usage_rules": [
+          "Site designation is bone even if near joint (Evidence: pg no: 61, L30-L31)"
+        ]
+      },
+      {
+        "range": "M87",
+        "description": "Avascular necrosis of bone (Evidence: pg no: 61, L27)",
+        "requirement": "Use bone designation, not joint",
+        "usage_rules": [
+          "Site designation is bone even if near joint (Evidence: pg no: 61, L30-L31)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Avascular necrosis codes (M87)",
+      "Osteoporosis codes (M80, M81)"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "MSK_BONE_JOINT_SC001",
+      "scenario": "Patient with avascular necrosis affecting upper end of femur near hip joint",
+      "documentation_example": "Avascular necrosis of upper end of right femur",
+      "step_by_step": [
+        "Step 1: Identify condition as avascular necrosis",
+        "Step 2: Note location at upper end of femur (near hip joint)",
+        "Step 3: Designate site as bone (femur), not joint (hip)",
+        "Step 4: Select M87 code for right femur"
+      ],
+      "correct_coding": {
+        "primary_code": "M87 code for right femur",
+        "secondary_codes": [],
+        "sequencing": "Primary condition",
+        "rationale": "Site designation is bone (femur) even though condition is near joint (Evidence: pg no: 61, L30-L31)"
+      },
+      "incorrect_coding": {
+        "code": "Hip joint code",
+        "codes": [
+          "Joint-specific codes"
+        ],
+        "rationale": "Guidelines specify bone designation takes priority over joint",
+        "common_mistake": "Using joint codes when bone is the affected structure"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "MSK_BONE_JOINT_EX001",
+      "scenario": "Osteoporosis affecting lower end of radius near wrist",
+      "code_example": "M81 code for radius",
+      "breakdown": {
+        "condition": "Osteoporosis (Evidence: pg no: 61, L27)",
+        "site": "Radius bone, not wrist joint (Evidence: pg no: 61, L30-L31)"
+      },
+      "rationale": "Bone designation takes priority even when condition is near joint (Evidence: pg no: 61, L30-L31)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not use joint codes when bone is the affected structure (Evidence: pg no: 61, L30-L31)"
+    ],
+    "best_practices": [
+      "Always designate bone as site when bone conditions affect areas near joints (Evidence: pg no: 61, L30-L31)"
+    ],
+    "common_mistakes": [
+      "Using joint codes for bone conditions near joints (Evidence: pg no: 61, L30-L31)"
+    ],
+    "tips": [
+      "Focus on the affected structure (bone vs joint) rather than anatomical proximity (Evidence: pg no: 61, L30-L31)"
+    ],
+    "implementation_notes": [
+      "This principle applies specifically to conditions like avascular necrosis and osteoporosis"
+    ],
+    "clinical_context": [
+      "Bone conditions can affect areas near joints but the pathology is in the bone structure"
+    ]
+  },
+  "search_keywords": [
+    "bone versus joint",
+    "avascular necrosis",
+    "osteoporosis",
+    "bone end conditions",
+    "site designation",
+    "M80 M81 M87"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "musculoskeletal_system",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "bone_joint_distinction",
+      "site_designation",
+      "osteoporosis",
+      "avascular_necrosis"
+    ]
+  },
+  "page_range_processed": "pages_60_to_63"
+}

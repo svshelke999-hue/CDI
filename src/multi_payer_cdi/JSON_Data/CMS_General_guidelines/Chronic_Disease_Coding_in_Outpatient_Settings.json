@@ -1,0 +1,138 @@
+{
+  "guideline_id": "IV.I",
+  "semantic_title": "Chronic Disease Coding in Outpatient Settings",
+  "section_path": "Section IV > I. Chronic diseases",
+  "page_number": 114,
+  "content": {
+    "full_text": "Chronic diseases treated on an ongoing basis may be coded and reported as many times as the patient receives treatment and care for the condition(s). (Evidence: pg no: 114, L77-L78)",
+    "summary": "Allows repeated coding of chronic diseases for each encounter where treatment and care are provided (Evidence: pg no: 114, L77-L78)",
+    "key_concepts": [
+      "Chronic diseases may be coded repeatedly (Evidence: pg no: 114, L77-L78)",
+      "Applies when patient receives treatment and care (Evidence: pg no: 114, L78)",
+      "Based on ongoing treatment basis (Evidence: pg no: 114, L77-L78)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "IV.I.1",
+        "rule_text": "Code chronic diseases each time patient receives treatment and care (Evidence: pg no: 114, L77-L78)",
+        "explanation": "Chronic conditions that are actively managed or treated during an encounter should be coded for that encounter (Evidence: pg no: 114, L77-L78)",
+        "importance": "high",
+        "applies_to": "chronic_diseases",
+        "common_applications": [
+          "Diabetes management visits",
+          "Hypertension follow-up",
+          "Chronic pain management",
+          "COPD monitoring"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify chronic diseases documented",
+      "Step 2: Determine if treatment or care provided for each condition",
+      "Step 3: Code conditions that received treatment or care",
+      "Step 4: Consider impact on current encounter",
+      "Step 5: Include in coding for current visit"
+    ],
+    "related_terminology": [
+      "Chronic diseases",
+      "Ongoing basis",
+      "Treatment",
+      "Care",
+      "Repeated coding"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Chronic disease codes",
+      "Ongoing condition codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "IV.I.S1",
+      "scenario": "Patient with diabetes and hypertension presents for routine management of both conditions",
+      "documentation_example": "Patient here for routine follow-up of diabetes and hypertension. Blood pressure well controlled. Diabetes management reviewed, medication adjusted.",
+      "step_by_step": [
+        "Step 1: Identify chronic diseases - diabetes, hypertension",
+        "Step 2: Confirm treatment/care provided for both",
+        "Step 3: Code both conditions for this encounter",
+        "Step 4: Sequence based on encounter focus",
+        "Step 5: Include both in current visit coding"
+      ],
+      "correct_coding": {
+        "primary_code": "E11.9",
+        "secondary_codes": [
+          "I10"
+        ],
+        "sequencing": "Based on primary focus of encounter",
+        "rationale": "Chronic diseases receiving treatment and care may be coded for each encounter (Evidence: pg no: 114, L77-L78)"
+      },
+      "incorrect_coding": {
+        "code": "Only coding one condition",
+        "codes": [
+          "E11.9"
+        ],
+        "rationale": "Should code all chronic conditions receiving care",
+        "common_mistake": "Not coding all chronic conditions addressed in encounter"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Only code chronic diseases when treatment or care is provided"
+    ],
+    "best_practices": [
+      "Code chronic diseases each time they receive treatment (Evidence: pg no: 114, L77-L78)",
+      "Consider ongoing management as treatment",
+      "Include monitoring and medication management as care"
+    ],
+    "common_mistakes": [
+      "Not coding chronic conditions that are actively managed",
+      "Coding chronic conditions not addressed in current encounter",
+      "Inconsistent coding of ongoing conditions"
+    ],
+    "tips": [
+      "Ongoing treatment includes monitoring and medication management"
+    ],
+    "implementation_notes": [
+      "Requires clear documentation of condition management",
+      "May impact quality measures and risk adjustment"
+    ],
+    "clinical_context": [
+      "Chronic disease management is ongoing process",
+      "Multiple conditions often managed simultaneously"
+    ]
+  },
+  "search_keywords": [
+    "chronic diseases",
+    "ongoing treatment",
+    "repeated coding",
+    "chronic conditions",
+    "disease management"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "chronic_disease_coding",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "chronic_diseases",
+      "ongoing_treatment",
+      "repeated_coding",
+      "disease_management"
+    ]
+  },
+  "page_range_processed": "pages_111_to_114"
+}

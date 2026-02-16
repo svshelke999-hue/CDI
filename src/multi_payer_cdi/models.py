@@ -144,6 +144,7 @@ class ProcessingResult:
     enhanced_by_ai: Optional[Dict[str, Any]] = None
     error: Optional[str] = None
     payer_summary: Dict[str, Any] = field(default_factory=dict)
+    multi_chart_info: Optional[Dict[str, Any]] = None  # For multi-chart processing
 
 
 class ExtractionData:

@@ -1,0 +1,157 @@
+{
+  "guideline_id": "I.A.1",
+  "semantic_title": "Structure and Components of ICD-10-CM: Alphabetic Index and Tabular List",
+  "section_path": "Section I > A. Conventions > 1. The Alphabetic Index and Tabular List",
+  "page_number": 7,
+  "content": {
+    "full_text": "The ICD-10-CM is divided into the Alphabetic Index, an alphabetical list of terms and their corresponding code, and the Tabular List, a structured list of codes divided into chapters based on body system or condition. The Alphabetic Index consists of the following parts: the Index of Diseases and Injury, the Index of External Causes of Injury, the Table of Neoplasms and the Table of Drugs and Chemicals. (Evidence: pg no: 7, L12-L14)",
+    "summary": "Defines the two main components of ICD-10-CM and the four parts of the Alphabetic Index (Evidence: pg no: 7, L12-L14)",
+    "key_concepts": [
+      "ICD-10-CM has two main components: Alphabetic Index and Tabular List (Evidence: pg no: 7, L12-L13)",
+      "Alphabetic Index contains terms with corresponding codes (Evidence: pg no: 7, L13)",
+      "Tabular List is structured by chapters based on body systems or conditions (Evidence: pg no: 7, L13-L14)",
+      "Alphabetic Index has four distinct parts (Evidence: pg no: 7, L14)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.A.1.R1",
+        "rule_text": "ICD-10-CM is divided into Alphabetic Index and Tabular List (Evidence: pg no: 7, L12-L13)",
+        "explanation": "The classification system has two primary components that work together for code assignment (Evidence: pg no: 7, L12-L13)",
+        "importance": "critical",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Initial code lookup",
+          "Code verification"
+        ]
+      },
+      {
+        "rule_id": "I.A.1.R2",
+        "rule_text": "Alphabetic Index consists of four parts: Index of Diseases and Injury, Index of External Causes of Injury, Table of Neoplasms, and Table of Drugs and Chemicals (Evidence: pg no: 7, L14)",
+        "explanation": "The Alphabetic Index is subdivided into specialized sections for different types of conditions and causes (Evidence: pg no: 7, L14)",
+        "importance": "high",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Selecting appropriate index section",
+          "Specialized condition lookup"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify the type of condition to determine which part of Alphabetic Index to use",
+      "Step 2: Look up the term in the appropriate index section",
+      "Step 3: Verify the code in the Tabular List",
+      "Step 4: Apply any additional instructions from the Tabular List"
+    ],
+    "related_terminology": [
+      "Alphabetic Index",
+      "Tabular List",
+      "Index of Diseases and Injury",
+      "Index of External Causes of Injury",
+      "Table of Neoplasms",
+      "Table of Drugs and Chemicals"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "All disease and injury codes",
+      "External cause codes",
+      "Neoplasm codes",
+      "Drug and chemical codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.2",
+        "title": "Neoplasms",
+        "relationship": "related_to",
+        "explanation": "References Table of Neoplasms usage"
+      },
+      {
+        "guideline_id": "I.C.19",
+        "title": "Adverse effects, poisoning, underdosing and toxic effects",
+        "relationship": "related_to",
+        "explanation": "References Table of Drugs and Chemicals usage"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "I.A.1.S1",
+      "scenario": "Coding a malignant neoplasm of the breast",
+      "documentation_example": "Patient diagnosed with invasive ductal carcinoma of the left breast",
+      "step_by_step": [
+        "Step 1: Identify this as a neoplasm condition",
+        "Step 2: Use Table of Neoplasms in Alphabetic Index",
+        "Step 3: Look up 'breast' and find malignant column",
+        "Step 4: Verify code in Tabular List"
+      ],
+      "correct_coding": {
+        "primary_code": "Use Table of Neoplasms",
+        "secondary_codes": [],
+        "sequencing": "Primary malignancy first",
+        "rationale": "Table of Neoplasms is the appropriate section for neoplasm coding (Evidence: pg no: 7, L14)"
+      },
+      "incorrect_coding": {
+        "code": "Using Index of Diseases and Injury",
+        "codes": [],
+        "rationale": "Would not provide proper neoplasm behavior classification",
+        "common_mistake": "Not using specialized tables when available"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Must use appropriate section of Alphabetic Index for accurate coding (Evidence: pg no: 7, L14)"
+    ],
+    "best_practices": [
+      "Always verify codes found in Alphabetic Index by checking Tabular List",
+      "Use specialized tables (Neoplasms, Drugs and Chemicals) when applicable"
+    ],
+    "common_mistakes": [
+      "Using wrong section of Alphabetic Index",
+      "Stopping at Alphabetic Index without Tabular List verification"
+    ],
+    "tips": [
+      "Familiarize yourself with all four parts of the Alphabetic Index",
+      "Remember that Tabular List is organized by body system/condition"
+    ],
+    "implementation_notes": [
+      "Both components must be used together for accurate coding"
+    ],
+    "clinical_context": [
+      "Different clinical conditions require different index sections"
+    ]
+  },
+  "search_keywords": [
+    "alphabetic index",
+    "tabular list",
+    "ICD-10-CM structure",
+    "index of diseases",
+    "external causes",
+    "table of neoplasms",
+    "drugs and chemicals"
+  ],
+  "metadata": {
+    "category": "convention",
+    "subcategory": "structure",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "October 1, 2025",
+    "tags": [
+      "structure",
+      "alphabetic_index",
+      "tabular_list",
+      "components"
+    ]
+  },
+  "page_range_processed": "pages_7_to_9"
+}

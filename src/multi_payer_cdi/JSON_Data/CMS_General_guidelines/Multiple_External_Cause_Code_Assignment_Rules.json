@@ -1,0 +1,144 @@
+{
+  "guideline_id": "I.C.20.a.4",
+  "semantic_title": "Multiple External Cause Code Assignment Rules",
+  "section_path": "Chapter 20: External Causes of Morbidity > a. General External Cause Coding Guidelines > 4) Assign as many external cause codes as necessary",
+  "page_number": 88,
+  "content": {
+    "full_text": "Assign as many external cause codes as necessary to fully explain each cause. If only one external code can be recorded, assign the code most related to the principal diagnosis. (Evidence: pg no: 88, L36-L37)",
+    "summary": "Use multiple external cause codes as needed to fully explain all causes, prioritizing the code most related to principal diagnosis when limited (Evidence: pg no: 88, L36-L37)",
+    "key_concepts": [
+      "Multiple external cause codes permitted (Evidence: pg no: 88, L36)",
+      "Use as many as necessary for complete explanation (Evidence: pg no: 88, L36)",
+      "Prioritize code most related to principal diagnosis (Evidence: pg no: 88, L37)",
+      "Apply when recording limitations exist (Evidence: pg no: 88, L37)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "MULT_EXT_001",
+        "rule_text": "Assign as many external cause codes as necessary to fully explain each cause (Evidence: pg no: 88, L36)",
+        "explanation": "There is no limit on the number of external cause codes that can be assigned when multiple causes contribute to the injury or condition (Evidence: pg no: 88, L36-L37)",
+        "importance": "high",
+        "applies_to": "All external cause situations",
+        "common_applications": [
+          "Multi-factor accidents",
+          "Complex injury scenarios",
+          "Sequential events leading to injury"
+        ]
+      },
+      {
+        "rule_id": "MULT_EXT_002",
+        "rule_text": "When limited to one external code, assign the code most related to the principal diagnosis (Evidence: pg no: 88, L37)",
+        "explanation": "System or reporting limitations may restrict external cause coding, requiring prioritization based on relationship to the principal diagnosis (Evidence: pg no: 88, L37)",
+        "importance": "critical",
+        "applies_to": "Situations with coding limitations",
+        "common_applications": [
+          "System limitations",
+          "Reporting constraints",
+          "Documentation restrictions"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify all external causes contributing to the condition",
+      "Step 2: Assign codes for each identified cause",
+      "Step 3: If limited to one code, select the one most related to principal diagnosis",
+      "Step 4: Verify complete explanation of causation"
+    ],
+    "related_terminology": [
+      "Multiple external causes",
+      "Principal diagnosis",
+      "External cause priority",
+      "Causation explanation"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "External cause codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "MULT_EXT_001",
+      "scenario": "Patient falls down stairs and strikes head on wall, resulting in concussion and laceration",
+      "documentation_example": "Patient fell down stairs, struck head on wall, sustained concussion and scalp laceration",
+      "step_by_step": [
+        "Step 1: Code primary diagnoses (concussion and laceration)",
+        "Step 2: Code fall down stairs as external cause",
+        "Step 3: Code striking against wall as additional external cause",
+        "Step 4: If limited to one external code, choose the one most related to principal diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "Concussion code (if principal diagnosis)",
+        "secondary_codes": [
+          "Fall down stairs code",
+          "Striking against object code",
+          "Laceration code"
+        ],
+        "sequencing": "Principal diagnosis first, then related codes and external causes",
+        "rationale": "Multiple external causes contributed to the injuries and should be coded when possible (Evidence: pg no: 88, L36)"
+      },
+      "incorrect_coding": {
+        "code": "Only one external cause when multiple contributed",
+        "codes": [
+          "Incomplete external cause documentation"
+        ],
+        "rationale": "Fails to fully explain all contributing causes",
+        "common_mistake": "Not recognizing multiple external causes in complex scenarios"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Don't limit external cause codes unnecessarily (Evidence: pg no: 88, L36)"
+    ],
+    "best_practices": [
+      "Use multiple codes to fully explain causation (Evidence: pg no: 88, L36)",
+      "Prioritize based on principal diagnosis when limited (Evidence: pg no: 88, L37)"
+    ],
+    "common_mistakes": [
+      "Using only one external cause code when multiple apply (Evidence: pg no: 88, L36)"
+    ],
+    "tips": [
+      "Consider all contributing external factors (Evidence: pg no: 88, L36)"
+    ],
+    "implementation_notes": [
+      "System limitations may require prioritization"
+    ],
+    "clinical_context": [
+      "Complex accidents often have multiple contributing causes"
+    ]
+  },
+  "search_keywords": [
+    "multiple external cause codes",
+    "external cause priority",
+    "principal diagnosis related",
+    "multiple causes",
+    "external cause limitations"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "external_causes",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "external_causes",
+      "multiple_codes",
+      "principal_diagnosis",
+      "chapter_20"
+    ]
+  },
+  "page_range_processed": "pages_87_to_90"
+}

@@ -1,0 +1,203 @@
+{
+  "guideline_id": "I.C.1.g.1.n",
+  "semantic_title": "Coding Guidelines for COVID-19 Underimmunization Status",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 1. Chapter 1: Certain Infectious and Parasitic Diseases > g. Coronavirus infections > 1. COVID-19 infections > n. Underimmunization for COVID-19 Status",
+  "page_number": 32,
+  "content": {
+    "full_text": "Code Z28.310, Unvaccinated for COVID-19, may be assigned when the patient has not received a COVID-19 vaccine of any type. Code Z28.311, Partially vaccinated for COVID-19, may be assigned when the patient has been partially vaccinated for COVID-19 as per the recommendations of the Centers for Disease Control and Prevention (CDC) in place at the time of the encounter. For information, visit the CDC's website https://www.cdc.gov/covidschedule. See Section I.B.14. for underimmunization documentation by clinicians other than patient's provider. (Evidence: pg no: 32, L66-L70)",
+    "summary": "Provides coding instructions for COVID-19 vaccination status, including unvaccinated and partially vaccinated patients, with reference to CDC guidelines (Evidence: pg no: 32, L66-L70)",
+    "key_concepts": [
+      "Unvaccinated status coding with Z28.310 (Evidence: pg no: 32, L66-L68)",
+      "Partially vaccinated status coding with Z28.311 (Evidence: pg no: 32, L68-L69)",
+      "CDC recommendations reference (Evidence: pg no: 32, L68-L69)",
+      "Documentation by other clinicians reference (Evidence: pg no: 32, L70)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "COVID_VACC_01",
+        "rule_text": "Assign Z28.310 for unvaccinated COVID-19 patients (Evidence: pg no: 32, L66-L68)",
+        "explanation": "Code Z28.310 may be assigned when the patient has not received a COVID-19 vaccine of any type (Evidence: pg no: 32, L66-L68)",
+        "importance": "high",
+        "applies_to": "Z28.310",
+        "common_applications": [
+          "Unvaccinated patients with COVID-19",
+          "Risk assessment documentation"
+        ]
+      },
+      {
+        "rule_id": "COVID_VACC_02",
+        "rule_text": "Assign Z28.311 for partially vaccinated COVID-19 patients per CDC recommendations (Evidence: pg no: 32, L68-L69)",
+        "explanation": "Code Z28.311 may be assigned when the patient has been partially vaccinated for COVID-19 as per CDC recommendations in place at the time of the encounter (Evidence: pg no: 32, L68-L69)",
+        "importance": "high",
+        "applies_to": "Z28.311",
+        "common_applications": [
+          "Patients with incomplete vaccination series",
+          "Patients needing booster doses"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine patient's COVID-19 vaccination status",
+      "Step 2: Compare to current CDC recommendations",
+      "Step 3: Assign Z28.310 if unvaccinated",
+      "Step 4: Assign Z28.311 if partially vaccinated per CDC guidelines",
+      "Step 5: Reference CDC website for current recommendations"
+    ],
+    "related_terminology": [
+      "vaccination status",
+      "underimmunization",
+      "unvaccinated",
+      "partially vaccinated",
+      "CDC recommendations"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "Z28.310",
+        "description": "Unvaccinated for COVID-19 (Evidence: pg no: 32, L66-L67)",
+        "context": "For patients who have not received any COVID-19 vaccine",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z28": "Immunization not carried out and underimmunization status",
+          ".310": "Unvaccinated for COVID-19"
+        }
+      },
+      {
+        "code": "Z28.311",
+        "description": "Partially vaccinated for COVID-19 (Evidence: pg no: 32, L68)",
+        "context": "For patients partially vaccinated per CDC recommendations",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z28": "Immunization not carried out and underimmunization status",
+          ".311": "Partially vaccinated for COVID-19"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Immunization status codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.B.14",
+        "title": "Underimmunization documentation by clinicians other than patient's provider",
+        "relationship": "related_to",
+        "explanation": "Referenced for documentation requirements by other clinicians"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "COVID_VACC_01",
+      "scenario": "Unvaccinated patient presents with COVID-19 infection",
+      "documentation_example": "Patient with COVID-19, reports never received any COVID-19 vaccination",
+      "step_by_step": [
+        "Step 1: Confirm patient has not received any COVID-19 vaccine",
+        "Step 2: Assign primary diagnosis for COVID-19 (U07.1)",
+        "Step 3: Assign Z28.310 as additional diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "U07.1",
+        "secondary_codes": [
+          "Z28.310"
+        ],
+        "sequencing": "COVID-19 first, vaccination status as additional",
+        "rationale": "Vaccination status provides important epidemiological information (Evidence: pg no: 32, L66-L68)"
+      },
+      "incorrect_coding": {
+        "code": "U07.1",
+        "codes": [
+          "U07.1 only"
+        ],
+        "rationale": "Missing important vaccination status information",
+        "common_mistake": "Not documenting vaccination status"
+      }
+    },
+    {
+      "scenario_id": "COVID_VACC_02",
+      "scenario": "Patient with incomplete COVID-19 vaccination series per CDC guidelines",
+      "documentation_example": "Patient received initial COVID-19 vaccine series but missing recommended booster per current CDC guidelines",
+      "step_by_step": [
+        "Step 1: Review patient's vaccination history",
+        "Step 2: Compare to current CDC recommendations",
+        "Step 3: Determine patient is partially vaccinated",
+        "Step 4: Assign Z28.311 as appropriate"
+      ],
+      "correct_coding": {
+        "primary_code": "Primary reason for encounter",
+        "secondary_codes": [
+          "Z28.311"
+        ],
+        "sequencing": "Vaccination status as additional diagnosis when relevant",
+        "rationale": "Partial vaccination status per CDC guidelines documented (Evidence: pg no: 32, L68-L69)"
+      },
+      "incorrect_coding": {
+        "code": "Z28.310",
+        "codes": [
+          "Z28.310"
+        ],
+        "rationale": "Patient is not unvaccinated, but partially vaccinated",
+        "common_mistake": "Confusing partially vaccinated with unvaccinated status"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Vaccination status must be determined per CDC recommendations at time of encounter (Evidence: pg no: 32, L68-L69)"
+    ],
+    "best_practices": [
+      "Reference current CDC website for vaccination recommendations (Evidence: pg no: 32, L69)",
+      "Consider documentation requirements for other clinicians (Evidence: pg no: 32, L70)"
+    ],
+    "common_mistakes": [
+      "Not checking current CDC recommendations",
+      "Confusing unvaccinated with partially vaccinated status"
+    ],
+    "tips": [
+      "CDC recommendations may change over time",
+      "Vaccination status is epidemiologically important"
+    ],
+    "implementation_notes": [
+      "Establish protocols for checking current CDC recommendations",
+      "Train staff on vaccination status determination"
+    ],
+    "clinical_context": [
+      "COVID-19 risk assessment",
+      "Public health reporting",
+      "Epidemiological tracking"
+    ]
+  },
+  "search_keywords": [
+    "COVID-19 vaccination status",
+    "unvaccinated",
+    "partially vaccinated",
+    "Z28.310",
+    "Z28.311",
+    "CDC recommendations",
+    "underimmunization"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "COVID-19 coding",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "COVID-19",
+      "vaccination_status",
+      "Z_codes",
+      "CDC_guidelines"
+    ]
+  },
+  "page_range_processed": "pages_30_to_33"
+}

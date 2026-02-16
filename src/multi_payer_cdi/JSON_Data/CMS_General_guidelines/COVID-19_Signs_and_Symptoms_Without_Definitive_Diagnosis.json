@@ -1,0 +1,261 @@
+{
+  "guideline_id": "I.C.1.g.1.g",
+  "semantic_title": "COVID-19 Signs and Symptoms Without Definitive Diagnosis",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 1. Certain Infectious and Parasitic Diseases > g. Coronavirus infections > 1) COVID-19 infection > (g) Signs and symptoms without definitive diagnosis of COVID-19",
+  "page_number": 30,
+  "content": {
+    "full_text": "For patients presenting with any signs/symptoms associated with COVID-19 (such as fever, etc.) but a definitive diagnosis has not been established, assign the appropriate code(s) for each of the presenting signs and symptoms such as: • R05.1, Acute cough, or R05.9, Cough, unspecified • R06.02 Shortness of breath • R50.9 Fever, unspecified. If a patient with signs/symptoms associated with COVID-19 also has an actual or suspected contact with or exposure to COVID-19, assign Z20.822, Contact with and (suspected) exposure to COVID-19, as an additional code. (Evidence: pg no: 30, L94-L102)",
+    "summary": "Guidelines for coding COVID-19-associated signs and symptoms when definitive diagnosis is not established (Evidence: pg no: 30, L94-L102)",
+    "key_concepts": [
+      "Signs and symptoms without definitive diagnosis (Evidence: pg no: 30, L96-L97)",
+      "Specific symptom codes provided (Evidence: pg no: 30, L98-L100)",
+      "Additional exposure coding when applicable (Evidence: pg no: 30, L101-L102)",
+      "Multiple symptom coding approach (Evidence: pg no: 30, L97)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "COVID_SYMP_001",
+        "rule_text": "Code individual signs and symptoms when COVID-19 not definitively diagnosed (Evidence: pg no: 30, L96-L97)",
+        "explanation": "When patients present with COVID-19-associated symptoms but no definitive diagnosis, code each presenting sign and symptom separately (Evidence: pg no: 30, L96-L97)",
+        "importance": "high",
+        "applies_to": "Symptom codes (R codes)",
+        "common_applications": [
+          "Fever without confirmed COVID-19",
+          "Cough without confirmed COVID-19",
+          "Shortness of breath without confirmed COVID-19"
+        ]
+      },
+      {
+        "rule_id": "COVID_SYMP_002",
+        "rule_text": "Add Z20.822 when exposure is also documented (Evidence: pg no: 30, L101-L102)",
+        "explanation": "If patient has COVID-19 symptoms and also has documented exposure, add Z20.822 as additional code (Evidence: pg no: 30, L101-L102)",
+        "importance": "high",
+        "applies_to": "Z20.822 and symptom codes",
+        "common_applications": [
+          "Symptomatic patients with known exposure",
+          "Household contacts with symptoms",
+          "Workplace exposure with symptoms"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify COVID-19-associated symptoms",
+      "Step 2: Confirm no definitive COVID-19 diagnosis",
+      "Step 3: Assign appropriate codes for each symptom",
+      "Step 4: Check for documented exposure",
+      "Step 5: Add Z20.822 if exposure documented"
+    ],
+    "related_terminology": [
+      "Signs and symptoms",
+      "Definitive diagnosis",
+      "COVID-19 associated symptoms",
+      "Exposure documentation"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "R05.1",
+        "description": "Acute cough (Evidence: pg no: 30, L98)",
+        "context": "Use for acute cough without confirmed COVID-19",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "R05": "Cough",
+          "1": "Acute"
+        }
+      },
+      {
+        "code": "R05.9",
+        "description": "Cough, unspecified (Evidence: pg no: 30, L98)",
+        "context": "Use for unspecified cough without confirmed COVID-19",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "R05": "Cough",
+          "9": "Unspecified"
+        }
+      },
+      {
+        "code": "R06.02",
+        "description": "Shortness of breath (Evidence: pg no: 30, L99)",
+        "context": "Use for shortness of breath without confirmed COVID-19",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "R06": "Abnormalities of breathing",
+          "02": "Shortness of breath"
+        }
+      },
+      {
+        "code": "R50.9",
+        "description": "Fever, unspecified (Evidence: pg no: 30, L100)",
+        "context": "Use for fever without confirmed COVID-19",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "R50": "Fever, other and unknown origin",
+          "9": "Unspecified"
+        }
+      },
+      {
+        "code": "Z20.822",
+        "description": "Contact with and (suspected) exposure to COVID-19 (Evidence: pg no: 30, L102)",
+        "context": "Additional code when exposure is documented with symptoms",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z20": "Contact with and exposure to communicable diseases",
+          "822": "COVID-19"
+        }
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": "Multiple R codes for symptoms",
+        "description": "Code each presenting symptom separately (Evidence: pg no: 30, L97)",
+        "example": "R50.9 + R05.1 + R06.02",
+        "explanation": "Each symptom gets its own code when no definitive diagnosis"
+      }
+    ],
+    "code_categories_mentioned": [
+      "R codes for signs and symptoms"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": [
+      {
+        "guideline_id": "I.C.1.g.1.a",
+        "title": "COVID-19 confirmed cases",
+        "relationship": "related_to",
+        "explanation": "Referenced from confirmed cases guideline for uncertain diagnoses"
+      }
+    ]
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "COVID_SYMP_SC001",
+      "scenario": "Patient with fever and cough, COVID-19 not confirmed",
+      "documentation_example": "Patient presents with fever and cough, COVID-19 test pending",
+      "step_by_step": [
+        "Step 1: Identify symptoms (fever, cough)",
+        "Step 2: Confirm no definitive COVID-19 diagnosis",
+        "Step 3: Assign R50.9 for fever",
+        "Step 4: Assign R05.9 for cough"
+      ],
+      "correct_coding": {
+        "primary_code": "R50.9",
+        "secondary_codes": [
+          "R05.9"
+        ],
+        "sequencing": "Code each symptom separately",
+        "rationale": "No definitive diagnosis requires symptom coding (Evidence: pg no: 30, L96-L97)"
+      },
+      "incorrect_coding": {
+        "code": "U07.1",
+        "codes": [
+          "U07.1"
+        ],
+        "rationale": "Should not use COVID-19 code without confirmed diagnosis",
+        "common_mistake": "Using COVID-19 code for suspected cases"
+      }
+    },
+    {
+      "scenario_id": "COVID_SYMP_SC002",
+      "scenario": "Patient with COVID-19 symptoms and known exposure",
+      "documentation_example": "Patient with fever and shortness of breath, known COVID-19 exposure, test results pending",
+      "step_by_step": [
+        "Step 1: Identify symptoms",
+        "Step 2: Identify exposure",
+        "Step 3: Code symptoms",
+        "Step 4: Add exposure code"
+      ],
+      "correct_coding": {
+        "primary_code": "R50.9",
+        "secondary_codes": [
+          "R06.02",
+          "Z20.822"
+        ],
+        "sequencing": "Symptoms first, then exposure",
+        "rationale": "Symptoms with exposure requires both symptom codes and Z20.822 (Evidence: pg no: 30, L101-L102)"
+      },
+      "incorrect_coding": {
+        "code": "Z20.822",
+        "codes": [
+          "Z20.822"
+        ],
+        "rationale": "Missing symptom codes when symptoms are documented",
+        "common_mistake": "Coding only exposure without symptoms"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "COVID_SYMP_EX001",
+      "scenario": "Multiple COVID-19 symptoms without diagnosis",
+      "code_example": "R50.9 + R05.1 + R06.02",
+      "breakdown": {
+        "R50.9": "Fever, unspecified (Evidence: pg no: 30, L100)",
+        "R05.1": "Acute cough (Evidence: pg no: 30, L98)",
+        "R06.02": "Shortness of breath (Evidence: pg no: 30, L99)"
+      },
+      "rationale": "Each symptom coded separately when no definitive diagnosis (Evidence: pg no: 30, L96-L97)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not use U07.1 without confirmed diagnosis"
+    ],
+    "best_practices": [
+      "Code each presenting symptom separately",
+      "Add exposure code when documented",
+      "Use specific symptom codes when available",
+      "Check for both symptoms and exposure documentation"
+    ],
+    "common_mistakes": [
+      "Using COVID-19 code for suspected cases",
+      "Missing exposure code when documented",
+      "Not coding all presenting symptoms"
+    ],
+    "tips": [
+      "Look for specific vs unspecified symptom codes",
+      "Exposure can coexist with symptoms",
+      "Multiple symptom codes are appropriate"
+    ],
+    "implementation_notes": [
+      "Provides specific symptom code examples",
+      "Clear guidance on exposure addition"
+    ],
+    "clinical_context": [
+      "Common in early pandemic when testing was limited",
+      "Important for symptom tracking and surveillance"
+    ]
+  },
+  "search_keywords": [
+    "COVID-19 symptoms",
+    "fever",
+    "cough",
+    "shortness of breath",
+    "R50.9",
+    "R05.1",
+    "R06.02",
+    "suspected COVID"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "infectious_diseases",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "COVID-19",
+      "symptoms",
+      "signs",
+      "fever",
+      "cough",
+      "shortness_of_breath"
+    ]
+  },
+  "page_range_processed": "pages_27_to_30"
+}

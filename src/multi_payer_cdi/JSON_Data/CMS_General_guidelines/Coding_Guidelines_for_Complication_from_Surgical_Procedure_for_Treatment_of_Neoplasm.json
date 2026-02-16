@@ -1,0 +1,157 @@
+{
+  "guideline_id": "I.C.2.l.5",
+  "semantic_title": "Coding Guidelines for Complication from Surgical Procedure for Treatment of Neoplasm",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 2. Chapter 2: Neoplasms > l. Sequencing of neoplasm codes > 5) Complication from surgical procedure for treatment of a neoplasm",
+  "page_number": 37,
+  "content": {
+    "full_text": "When an encounter is for treatment of a complication resulting from a surgical procedure performed for the treatment of the neoplasm, designate the complication as the principal/first-listed diagnosis. See the guideline regarding the coding of a current malignancy versus personal history to determine if the code for the neoplasm should also be assigned. (Evidence: pg no: 37, L40-L44)",
+    "summary": "Guidelines for coding surgical complications from neoplasm treatment procedures (Evidence: pg no: 37, L40-L44)",
+    "key_concepts": [
+      "Surgical complication as principal diagnosis (Evidence: pg no: 37, L42-L43)",
+      "Complication from neoplasm treatment surgery (Evidence: pg no: 37, L40-L42)",
+      "Reference to current vs personal history guidelines (Evidence: pg no: 37, L43-L44)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "surgical_complication_sequencing",
+        "rule_text": "Designate the complication as the principal/first-listed diagnosis (Evidence: pg no: 37, L42-L43)",
+        "explanation": "When treating complications from surgical procedures performed for neoplasm treatment, the complication takes sequencing priority (Evidence: pg no: 37, L40-L43)",
+        "importance": "critical",
+        "applies_to": "complications from neoplasm surgery",
+        "common_applications": [
+          "Post-operative bleeding after tumor resection",
+          "Wound infection after cancer surgery"
+        ]
+      },
+      {
+        "rule_id": "neoplasm_code_determination",
+        "rule_text": "See guideline regarding current malignancy versus personal history to determine if neoplasm code should be assigned (Evidence: pg no: 37, L43-L44)",
+        "explanation": "Whether to code the neoplasm depends on current treatment status and presence of active disease (Evidence: pg no: 37, L43-L44)",
+        "importance": "high",
+        "applies_to": "all surgical complications from neoplasm treatment",
+        "common_applications": [
+          "Determining if cancer is still active",
+          "Assessing ongoing treatment status"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify complication from neoplasm treatment surgery",
+      "Step 2: Assign complication as principal/first-listed diagnosis",
+      "Step 3: Determine if neoplasm code needed based on current vs personal history guidelines",
+      "Step 4: Add neoplasm code if appropriate"
+    ],
+    "related_terminology": [
+      "Surgical complications",
+      "Neoplasm treatment",
+      "Principal diagnosis",
+      "Current malignancy",
+      "Personal history"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Various complication codes",
+        "description": "Codes for surgical complications (Evidence: pg no: 37, L40-L43)",
+        "requirement": "Used as principal diagnosis for surgical complications from neoplasm treatment",
+        "usage_rules": [
+          "Complication sequenced first (Evidence: pg no: 37, L42-L43)",
+          "Neoplasm code determination per current vs history guidelines (Evidence: pg no: 37, L43-L44)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Surgical complication codes",
+      "Current malignancy codes",
+      "Personal history codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.2.m",
+        "title": "Current malignancy versus personal history of malignancy",
+        "relationship": "implements",
+        "explanation": "Referenced to determine if neoplasm code should be assigned"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "post_surgical_bleeding",
+      "scenario": "Patient returns with post-operative bleeding after mastectomy for breast cancer, cancer completely excised",
+      "documentation_example": "Post-operative bleeding following mastectomy for breast cancer, no residual cancer present",
+      "step_by_step": [
+        "Step 1: Identify post-operative bleeding complication",
+        "Step 2: Assign bleeding complication as principal diagnosis",
+        "Step 3: Determine cancer was completely excised with no ongoing treatment",
+        "Step 4: Use personal history code for breast cancer"
+      ],
+      "correct_coding": {
+        "primary_code": "T81.0XXA (Hemorrhage and hematoma complicating a procedure)",
+        "secondary_codes": [
+          "Z85.3 (Personal history of malignant neoplasm of breast)"
+        ],
+        "sequencing": "Complication first, then personal history if appropriate",
+        "rationale": "Complication is principal diagnosis, cancer completely treated (Evidence: pg no: 37, L40-L44)"
+      },
+      "incorrect_coding": {
+        "code": "C50.911",
+        "codes": [
+          "C50.911 as principal diagnosis"
+        ],
+        "rationale": "Breast cancer should not be principal when treating surgical complication",
+        "common_mistake": "Sequencing neoplasm first when treating surgical complications"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Must reference current vs personal history guidelines to determine neoplasm coding (Evidence: pg no: 37, L43-L44)"
+    ],
+    "best_practices": [
+      "Always sequence surgical complication first (Evidence: pg no: 37, L42-L43)",
+      "Carefully evaluate treatment status to determine appropriate neoplasm coding (Evidence: pg no: 37, L43-L44)"
+    ],
+    "common_mistakes": [
+      "Sequencing neoplasm first when treating surgical complications (Evidence: pg no: 37, L42-L43)"
+    ],
+    "tips": [
+      "Surgical complications always take sequencing priority (Evidence: pg no: 37, L42-L43)"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Applies to post-operative complications from cancer surgery"
+    ]
+  },
+  "search_keywords": [
+    "surgical complications",
+    "neoplasm surgery",
+    "post-operative complications",
+    "current malignancy",
+    "personal history"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "surgical_complications",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "neoplasms",
+      "surgical_complications",
+      "sequencing",
+      "personal_history"
+    ]
+  },
+  "page_range_processed": "pages_36_to_39"
+}

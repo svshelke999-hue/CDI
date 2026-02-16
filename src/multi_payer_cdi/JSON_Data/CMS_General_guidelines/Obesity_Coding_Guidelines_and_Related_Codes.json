@@ -1,0 +1,163 @@
+{
+  "guideline_id": "I.C.4.b",
+  "semantic_title": "Obesity Coding Guidelines and Related Codes",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 4. Chapter 4: Endocrine, Nutritional and Metabolic Diseases > b. Obesity",
+  "page_number": 42,
+  "content": {
+    "full_text": "The obesity codes in category E66, Overweight and obesity, include codes related to the cause of obesity, such as drug-induced obesity (E66.1), and codes related to effects of obesity, such as code E66.2, Morbid (severe) obesity with alveolar hypoventilation. There are other codes related to obesity in other categories of the classification, such as E88.82, Obesity due to disruption of MC4R pathway; and codes in fifth character subcategory O99.21, Obesity complicating pregnancy, childbirth, and the puerperium. (Evidence: pg no: 42, L16-L20)",
+    "summary": "Describes the comprehensive coding system for obesity including causes, effects, and related conditions across multiple ICD-10-CM categories (Evidence: pg no: 42, L16-L20)",
+    "key_concepts": [
+      "Category E66 obesity codes (Evidence: pg no: 42, L17)",
+      "Cause-related obesity codes (Evidence: pg no: 42, L17-L18)",
+      "Effect-related obesity codes (Evidence: pg no: 42, L18)",
+      "Obesity codes in other categories (Evidence: pg no: 42, L18-L20)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "OBESITY_001",
+        "rule_text": "Use E66 category for primary obesity coding (Evidence: pg no: 42, L17)",
+        "explanation": "Category E66 contains the main obesity and overweight codes including various subtypes (Evidence: pg no: 42, L17)",
+        "importance": "high",
+        "applies_to": "E66",
+        "common_applications": [
+          "General obesity",
+          "Morbid obesity",
+          "Drug-induced obesity"
+        ]
+      },
+      {
+        "rule_id": "OBESITY_002",
+        "rule_text": "Consider obesity codes in other categories when applicable (Evidence: pg no: 42, L18-L20)",
+        "explanation": "Obesity-related codes exist in multiple chapters and should be used when specific conditions apply (Evidence: pg no: 42, L18-L20)",
+        "importance": "medium",
+        "applies_to": "E88.82, O99.21",
+        "common_applications": [
+          "Genetic obesity disorders",
+          "Pregnancy-related obesity"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify type of obesity",
+      "Step 2: Determine if cause-related (e.g., drug-induced)",
+      "Step 3: Check for effects (e.g., alveolar hypoventilation)",
+      "Step 4: Consider codes in other categories if applicable",
+      "Step 5: Select most specific code available"
+    ],
+    "related_terminology": [
+      "Obesity",
+      "Overweight",
+      "Morbid obesity",
+      "Drug-induced obesity",
+      "Alveolar hypoventilation"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "E66",
+        "description": "Overweight and obesity (Evidence: pg no: 42, L17)",
+        "requirement": "Primary category for obesity coding",
+        "usage_rules": [
+          "Use for most obesity conditions (Evidence: pg no: 42, L17)"
+        ]
+      },
+      {
+        "range": "O99.21",
+        "description": "Obesity complicating pregnancy, childbirth, and the puerperium (Evidence: pg no: 42, L20)",
+        "requirement": "Use for pregnancy-related obesity",
+        "usage_rules": [
+          "Fifth character subcategory for pregnancy complications (Evidence: pg no: 42, L20)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "E66.1",
+        "description": "Drug-induced obesity (Evidence: pg no: 42, L18)",
+        "context": "When obesity is caused by medications",
+        "requires_additional_codes": "check_code_notes",
+        "breakdown": {
+          "E66": "Overweight and obesity",
+          ".1": "Drug-induced"
+        }
+      },
+      {
+        "code": "E66.2",
+        "description": "Morbid (severe) obesity with alveolar hypoventilation (Evidence: pg no: 42, L18)",
+        "context": "Severe obesity with respiratory complications",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "E66": "Overweight and obesity",
+          ".2": "Morbid obesity with alveolar hypoventilation"
+        }
+      },
+      {
+        "code": "E88.82",
+        "description": "Obesity due to disruption of MC4R pathway (Evidence: pg no: 42, L19)",
+        "context": "Genetic obesity disorder",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "E88": "Other and unspecified metabolic disorders",
+          ".82": "Obesity due to MC4R pathway disruption"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Overweight and obesity",
+      "Other metabolic disorders",
+      "Pregnancy complications"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [],
+    "best_practices": [
+      "Consider all relevant obesity codes across different categories (Evidence: pg no: 42, L18-L20)"
+    ],
+    "common_mistakes": [
+      "Missing obesity codes in other categories",
+      "Not identifying cause or effect relationships"
+    ],
+    "tips": [
+      "Look beyond E66 category for specific obesity conditions"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Obesity coding spans multiple clinical contexts and specialties"
+    ]
+  },
+  "search_keywords": [
+    "obesity",
+    "overweight",
+    "E66",
+    "morbid obesity",
+    "drug induced obesity",
+    "E88.82",
+    "O99.21"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "obesity",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "obesity",
+      "overweight",
+      "metabolic",
+      "pregnancy"
+    ]
+  },
+  "page_range_processed": "pages_42_to_45"
+}

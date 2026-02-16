@@ -1,0 +1,234 @@
+{
+  "guideline_id": "I.B.10",
+  "semantic_title": "Coding Sequela (Late Effects) of Previous Conditions",
+  "section_path": "Section I > B. General Coding Guidelines > 10. Sequela (Late Effects)",
+  "page_number": 14,
+  "content": {
+    "full_text": "A sequela is the residual effect (condition produced) after the acute phase of an illness or injury has terminated. There is no time limit on when a sequela code can be used. The residual may be apparent early, such as in cerebral infarction, or it may occur months or years later, such as that due to a previous injury. Examples of sequela include: scar formation resulting from a burn, deviated septum due to a nasal fracture, and infertility due to tubal occlusion from old tuberculosis. Coding of sequela generally requires two codes sequenced in the following order: the condition or nature of the sequela is sequenced first. The sequela code is sequenced second. An exception to the above guidelines are those instances where the code for the sequela is followed by a manifestation code identified in the Tabular List and title, or the sequela code has been expanded (at the fourth, fifth or sixth character levels) to include the manifestation(s). The code for the acute phase of an illness or injury that led to the sequela is never used with a code for the late effect. (Evidence: pg no: 14, L62-L66)",
+    "summary": "Defines sequela as residual effects after acute phase termination, requiring two codes with specific sequencing rules, and provides exceptions for expanded sequela codes. (Evidence: pg no: 14, L62-L66)",
+    "key_concepts": [
+      "Sequela is residual effect after acute phase terminated (Evidence: pg no: 14, L62-L63)",
+      "No time limit on when sequela code can be used (Evidence: pg no: 14, L63)",
+      "Generally requires two codes in specific sequence (Evidence: pg no: 14, L64)",
+      "Condition/nature of sequela sequenced first (Evidence: pg no: 14, L64)",
+      "Sequela code sequenced second (Evidence: pg no: 14, L64)",
+      "Exception when sequela code includes manifestation (Evidence: pg no: 14, L65-L66)",
+      "Never use acute phase code with sequela code (Evidence: pg no: 14, L66)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.B.10.1",
+        "rule_text": "Sequence condition/nature of sequela first, sequela code second (Evidence: pg no: 14, L64)",
+        "explanation": "When coding sequela, the general rule is to sequence the current condition or nature of the residual effect first, followed by the appropriate sequela code that identifies the original cause (Evidence: pg no: 14, L64)",
+        "importance": "high",
+        "applies_to": "sequela_codes",
+        "common_applications": [
+          "Scar tissue from previous burn",
+          "Paralysis from previous stroke",
+          "Arthritis from previous fracture"
+        ]
+      },
+      {
+        "rule_id": "I.B.10.2",
+        "rule_text": "No time limit exists for using sequela codes (Evidence: pg no: 14, L63)",
+        "explanation": "Sequela codes can be used regardless of how much time has passed since the original acute condition, whether the residual effect appears early or years later (Evidence: pg no: 14, L63)",
+        "importance": "medium",
+        "applies_to": "sequela_codes",
+        "common_applications": [
+          "Early sequela like immediate paralysis from stroke",
+          "Late sequela like arthritis years after fracture",
+          "Any timeframe for residual effects"
+        ]
+      },
+      {
+        "rule_id": "I.B.10.3",
+        "rule_text": "Exception when sequela code expanded to include manifestation (Evidence: pg no: 14, L65-L66)",
+        "explanation": "When the sequela code has been expanded at the fourth, fifth, or sixth character levels to include the manifestation, or when followed by a manifestation code in the Tabular List, the normal two-code sequencing may not apply (Evidence: pg no: 14, L65-L66)",
+        "importance": "medium",
+        "applies_to": "expanded_sequela_codes",
+        "common_applications": [
+          "Sequela codes with built-in manifestations",
+          "Expanded codes that include residual effects",
+          "Combination sequela/manifestation codes"
+        ]
+      },
+      {
+        "rule_id": "I.B.10.4",
+        "rule_text": "Never use acute phase code with sequela code (Evidence: pg no: 14, L66)",
+        "explanation": "The code for the original acute phase of the illness or injury that led to the sequela should never be used together with a code for the late effect or sequela (Evidence: pg no: 14, L66)",
+        "importance": "high",
+        "applies_to": "sequela_codes",
+        "common_applications": [
+          "Do not code both stroke and sequela of stroke",
+          "Do not code both fracture and sequela of fracture",
+          "Use only sequela coding for late effects"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify current residual condition/effect",
+      "Step 2: Identify original cause of the residual effect",
+      "Step 3: Determine if acute phase has terminated",
+      "Step 4: Look for appropriate sequela code for original cause",
+      "Step 5: Check if sequela code is expanded to include manifestation",
+      "Step 6: Sequence residual condition first, sequela code second (unless exception applies)",
+      "Step 7: Do not include acute phase code"
+    ],
+    "related_terminology": [
+      "sequela",
+      "late effects",
+      "residual effect",
+      "acute phase",
+      "terminated",
+      "manifestation",
+      "scar formation",
+      "deviated septum",
+      "infertility",
+      "cerebral infarction"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Sequela codes",
+      "Late effect codes",
+      "Residual conditions",
+      "Manifestation codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.9",
+        "title": "Sequelae of cerebrovascular disease",
+        "relationship": "applies_concept",
+        "explanation": "Specific application of sequela coding to cerebrovascular conditions"
+      },
+      {
+        "guideline_id": "I.C.15",
+        "title": "Sequelae of complication of pregnancy, childbirth and the puerperium",
+        "relationship": "applies_concept",
+        "explanation": "Specific application of sequela coding to pregnancy complications"
+      },
+      {
+        "guideline_id": "I.C.19",
+        "title": "Application of 7th characters for Chapter 19",
+        "relationship": "applies_concept",
+        "explanation": "Related to sequela coding in injury chapter"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "I.B.10.S1",
+      "scenario": "Patient with scar tissue from previous burn injury",
+      "documentation_example": "Patient presents with hypertrophic scar on left arm from burn injury 2 years ago",
+      "step_by_step": [
+        "Step 1: Identify current condition (hypertrophic scar)",
+        "Step 2: Identify original cause (burn injury)",
+        "Step 3: Confirm acute phase terminated (2 years ago)",
+        "Step 4: Find sequela code for burn",
+        "Step 5: Sequence scar first, sequela of burn second"
+      ],
+      "correct_coding": {
+        "primary_code": "L90.5",
+        "secondary_codes": [
+          "T22.90XS"
+        ],
+        "sequencing": "Residual condition first, sequela code second",
+        "rationale": "Scar is current condition, sequela code identifies original burn cause (Evidence: pg no: 14, L64)"
+      },
+      "incorrect_coding": {
+        "code": "T22.90XA + L90.5",
+        "codes": [
+          "T22.90XA",
+          "L90.5"
+        ],
+        "rationale": "Should not use acute phase code with sequela",
+        "common_mistake": "Using acute phase code with sequela code"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "I.B.10.E1",
+      "scenario": "Scar formation from burn",
+      "code_example": "L90.5 + T22.90XS",
+      "breakdown": {
+        "L90.5": "Scar conditions and fibrosis of skin (Evidence: pg no: 14, L63)",
+        "T22.90XS": "Sequela of burn of unspecified degree of unspecified site of shoulder and upper limb (Evidence: pg no: 14, L63)"
+      },
+      "rationale": "Current scar condition sequenced first, followed by sequela code for original burn (Evidence: pg no: 14, L64)"
+    },
+    {
+      "example_id": "I.B.10.E2",
+      "scenario": "Deviated septum from nasal fracture",
+      "code_example": "J34.2 + S02.2XXS",
+      "breakdown": {
+        "J34.2": "Deviated nasal septum (Evidence: pg no: 14, L63)",
+        "S02.2XXS": "Sequela of fracture of nasal bones (Evidence: pg no: 14, L63)"
+      },
+      "rationale": "Current deviated septum sequenced first, followed by sequela of original fracture (Evidence: pg no: 14, L64)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Never use acute phase code with sequela code (Evidence: pg no: 14, L66)",
+      "Check for expanded sequela codes that include manifestations (Evidence: pg no: 14, L65-L66)"
+    ],
+    "best_practices": [
+      "Always sequence residual condition first (Evidence: pg no: 14, L64)",
+      "Use sequela codes regardless of time elapsed (Evidence: pg no: 14, L63)"
+    ],
+    "common_mistakes": [
+      "Using acute phase codes with sequela codes (Evidence: pg no: 14, L66)",
+      "Incorrect sequencing of residual condition and sequela code (Evidence: pg no: 14, L64)"
+    ],
+    "tips": [
+      "Look for 'S' seventh character for sequela in injury codes (Evidence: pg no: 14, L62-L66)",
+      "Remember no time limit on sequela coding (Evidence: pg no: 14, L63)"
+    ],
+    "implementation_notes": [
+      "Requires understanding of acute versus chronic phases"
+    ],
+    "clinical_context": [
+      "Common in rehabilitation and long-term care settings",
+      "Important for tracking long-term effects of injuries and illnesses"
+    ]
+  },
+  "search_keywords": [
+    "sequela",
+    "late effects",
+    "residual effect",
+    "scar formation",
+    "deviated septum",
+    "infertility",
+    "cerebral infarction",
+    "acute phase",
+    "terminated",
+    "two codes",
+    "sequencing"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "sequela_coding",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "sequela",
+      "late_effects",
+      "residual_conditions",
+      "sequencing",
+      "two_codes",
+      "manifestations"
+    ]
+  },
+  "page_range_processed": "pages_12_to_15"
+}

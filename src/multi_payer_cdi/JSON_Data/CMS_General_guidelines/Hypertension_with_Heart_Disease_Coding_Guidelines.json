@@ -1,0 +1,377 @@
+{
+  "guideline_id": "I.C.9.a.1",
+  "semantic_title": "Hypertension with Heart Disease Coding Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 9. Chapter 9: Diseases of the Circulatory System > a. Hypertension > 1) Hypertension with Heart Disease",
+  "page_number": 50,
+  "content": {
+    "full_text": "Hypertension with heart conditions classified to I50.-, Heart failure, I51.4, Myocarditis, unspecified, I51.89, Other ill-defined heart diseases, and I51.9, Heart disease, unspecified, is assigned to a code from category I11, Hypertensive heart disease. Use additional code(s) from category I50, Heart failure, or I51, Complications and ill-defined descriptions of heart disease, to identify the heart condition. Hypertension with heart conditions classified to I51.5, Myocardial degeneration, or I51.7, Cardiomegaly, is assigned to a code from category I11, Hypertensive heart disease. No additional code is assigned to identify the specific heart condition. The same heart conditions (I50.-, I51.4-I51.7, I51.89, I51.9) with hypertension are coded separately if the provider has documented they are unrelated to the hypertension. The applicable hypertension code I10, Essential (primary) hypertension, or a code from category I15, Secondary hypertension, should be assigned. Sequence according to the circumstances of the admission/encounter. (Evidence: pg no: 50, L45-L54)",
+    "summary": "Guidelines for coding hypertension with various heart conditions, specifying when to use combination codes from I11 category versus separate coding, and requirements for additional codes (Evidence: pg no: 50, L45-L54)",
+    "key_concepts": [
+      "Hypertensive heart disease combination coding (Evidence: pg no: 50, L45-L47)",
+      "Additional code requirements for specific heart conditions (Evidence: pg no: 50, L48-L49)",
+      "Separate coding when conditions documented as unrelated (Evidence: pg no: 50, L51-L52)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "HTN_HEART_I11_WITH_ADDITIONAL",
+        "rule_text": "Use I11 category for hypertension with I50.-, I51.4, I51.89, I51.9 heart conditions, plus additional codes to identify specific heart condition (Evidence: pg no: 50, L45-L49)",
+        "explanation": "When hypertension occurs with heart failure, unspecified myocarditis, other ill-defined heart diseases, or unspecified heart disease, assign a code from I11 category and use additional codes from I50 or I51 to specify the heart condition (Evidence: pg no: 50, L45-L49)",
+        "importance": "high",
+        "applies_to": "I50.-, I51.4, I51.89, I51.9 with hypertension",
+        "common_applications": [
+          "Hypertensive heart disease with heart failure",
+          "Hypertensive heart disease with myocarditis",
+          "Hypertensive heart disease with ill-defined heart conditions"
+        ]
+      },
+      {
+        "rule_id": "HTN_HEART_I11_NO_ADDITIONAL",
+        "rule_text": "Use I11 category for hypertension with I51.5 or I51.7 heart conditions, no additional code needed (Evidence: pg no: 50, L50-L51)",
+        "explanation": "When hypertension occurs with myocardial degeneration or cardiomegaly, assign a code from I11 category but do not assign additional codes to identify the specific heart condition (Evidence: pg no: 50, L50-L51)",
+        "importance": "high",
+        "applies_to": "I51.5, I51.7 with hypertension",
+        "common_applications": [
+          "Hypertensive heart disease with myocardial degeneration",
+          "Hypertensive heart disease with cardiomegaly"
+        ]
+      },
+      {
+        "rule_id": "HTN_HEART_UNRELATED",
+        "rule_text": "Code heart conditions separately from hypertension when provider documents they are unrelated (Evidence: pg no: 50, L51-L52)",
+        "explanation": "When the provider specifically documents that heart conditions are unrelated to hypertension, code the conditions separately using appropriate hypertension codes (I10 or I15) and heart condition codes (Evidence: pg no: 50, L51-L54)",
+        "importance": "critical",
+        "applies_to": "All heart conditions when documented as unrelated to hypertension",
+        "common_applications": [
+          "Concurrent but unrelated hypertension and heart disease",
+          "Heart conditions with different etiology than hypertension",
+          "Provider-specified unrelated conditions"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify hypertension and concurrent heart condition",
+      "Step 2: Check if provider documents conditions as unrelated",
+      "Step 3: If unrelated, code separately with I10 or I15 plus heart condition code",
+      "Step 4: If related, determine specific heart condition type",
+      "Step 5: For I50.-, I51.4, I51.89, I51.9: use I11 plus additional codes",
+      "Step 6: For I51.5, I51.7: use I11 only, no additional codes",
+      "Step 7: Sequence according to admission/encounter circumstances"
+    ],
+    "related_terminology": [
+      "Hypertensive heart disease",
+      "Heart failure",
+      "Myocarditis",
+      "Myocardial degeneration",
+      "Cardiomegaly",
+      "Ill-defined heart diseases",
+      "Unrelated conditions",
+      "Additional codes",
+      "Combination codes"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "I11",
+        "description": "Hypertensive heart disease category (Evidence: pg no: 50, L47, L50)",
+        "requirement": "Use for hypertension with specified heart conditions",
+        "usage_rules": [
+          "Add additional codes for I50.-, I51.4, I51.89, I51.9 (Evidence: pg no: 50, L48-L49)",
+          "No additional codes for I51.5, I51.7 (Evidence: pg no: 50, L50-L51)"
+        ]
+      },
+      {
+        "range": "I50",
+        "description": "Heart failure codes (Evidence: pg no: 50, L45, L48)",
+        "requirement": "Use as additional codes with I11 when heart failure present",
+        "usage_rules": [
+          "Required additional code with I11 for heart failure (Evidence: pg no: 50, L48-L49)"
+        ]
+      },
+      {
+        "range": "I51",
+        "description": "Complications and ill-defined descriptions of heart disease (Evidence: pg no: 50, L48)",
+        "requirement": "Use as additional codes with I11 for specific conditions",
+        "usage_rules": [
+          "Additional codes needed for I51.4, I51.89, I51.9 (Evidence: pg no: 50, L48-L49)",
+          "No additional codes for I51.5, I51.7 (Evidence: pg no: 50, L50-L51)"
+        ]
+      },
+      {
+        "range": "I15",
+        "description": "Secondary hypertension codes (Evidence: pg no: 50, L53)",
+        "requirement": "Use when heart conditions unrelated to hypertension",
+        "usage_rules": [
+          "Code separately when conditions documented as unrelated (Evidence: pg no: 50, L53-L54)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "I10",
+        "description": "Essential (primary) hypertension (Evidence: pg no: 50, L53)",
+        "context": "Used when heart conditions are unrelated to hypertension",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "I10": "Essential hypertension code for unrelated conditions"
+        }
+      },
+      {
+        "code": "I51.4",
+        "description": "Myocarditis, unspecified (Evidence: pg no: 50, L46, L51)",
+        "context": "Requires I11 category code plus additional I51.4 code when related to hypertension",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "I51": "Heart disease complications category",
+          "4": "Myocarditis, unspecified"
+        }
+      },
+      {
+        "code": "I51.5",
+        "description": "Myocardial degeneration (Evidence: pg no: 50, L50, L51)",
+        "context": "Requires only I11 category code, no additional code when related to hypertension",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "I51": "Heart disease complications category",
+          "5": "Myocardial degeneration"
+        }
+      },
+      {
+        "code": "I51.7",
+        "description": "Cardiomegaly (Evidence: pg no: 50, L50, L51)",
+        "context": "Requires only I11 category code, no additional code when related to hypertension",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "I51": "Heart disease complications category",
+          "7": "Cardiomegaly"
+        }
+      },
+      {
+        "code": "I51.89",
+        "description": "Other ill-defined heart diseases (Evidence: pg no: 50, L46, L51)",
+        "context": "Requires I11 category code plus additional I51.89 code when related to hypertension",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "I51": "Heart disease complications category",
+          "89": "Other ill-defined heart diseases"
+        }
+      },
+      {
+        "code": "I51.9",
+        "description": "Heart disease, unspecified (Evidence: pg no: 50, L47, L51)",
+        "context": "Requires I11 category code plus additional I51.9 code when related to hypertension",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "I51": "Heart disease complications category",
+          "9": "Heart disease, unspecified"
+        }
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": "I11.x + I50.x",
+        "description": "Hypertensive heart disease with heart failure specification (Evidence: pg no: 50, L48-L49)",
+        "example": "I11.0 + I50.9",
+        "explanation": "Combination of hypertensive heart disease code with specific heart failure code"
+      },
+      {
+        "pattern": "I11.x alone",
+        "description": "Hypertensive heart disease without additional codes for certain conditions (Evidence: pg no: 50, L50-L51)",
+        "example": "I11.9 for hypertension with cardiomegaly",
+        "explanation": "Single code when heart condition doesn't require additional specification"
+      }
+    ],
+    "code_categories_mentioned": [
+      "I11 Hypertensive heart disease",
+      "I50 Heart failure",
+      "I51 Complications and ill-defined descriptions of heart disease"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.9.a",
+        "title": "Hypertension causal relationships",
+        "relationship": "builds_upon",
+        "explanation": "Implements the general causal relationship principle for heart conditions"
+      }
+    ],
+    "referenced_by": [
+      {
+        "guideline_id": "I.C.9.a.3",
+        "title": "Hypertensive Heart and Chronic Kidney Disease",
+        "relationship": "related_to",
+        "explanation": "Related coding approach for combined heart and kidney involvement"
+      }
+    ]
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "HTN_HEART_FAILURE_1",
+      "scenario": "Patient with hypertension and congestive heart failure",
+      "documentation_example": "Patient diagnosed with essential hypertension and congestive heart failure.",
+      "step_by_step": [
+        "Step 1: Identify hypertension and heart failure",
+        "Step 2: Confirm conditions are related (presumed per classification)",
+        "Step 3: Determine heart failure falls under I50.- category",
+        "Step 4: Assign I11 category code for hypertensive heart disease",
+        "Step 5: Add I50 code to specify heart failure type"
+      ],
+      "correct_coding": {
+        "primary_code": "I11.0",
+        "secondary_codes": [
+          "I50.9"
+        ],
+        "sequencing": "Hypertensive heart disease with heart failure specification",
+        "rationale": "Heart failure (I50.-) requires I11 category plus additional I50 code (Evidence: pg no: 50, L45-L49)"
+      },
+      "incorrect_coding": {
+        "code": "I10",
+        "codes": [
+          "I10",
+          "I50.9"
+        ],
+        "rationale": "Should use combination I11 code when conditions are related",
+        "common_mistake": "Coding hypertension and heart failure separately when related"
+      }
+    },
+    {
+      "scenario_id": "HTN_CARDIOMEGALY_1",
+      "scenario": "Patient with hypertension and cardiomegaly",
+      "documentation_example": "Patient has essential hypertension with cardiomegaly.",
+      "step_by_step": [
+        "Step 1: Identify hypertension and cardiomegaly",
+        "Step 2: Confirm conditions are related (presumed per classification)",
+        "Step 3: Determine cardiomegaly is I51.7",
+        "Step 4: Assign I11 category code for hypertensive heart disease",
+        "Step 5: Do not assign additional code for cardiomegaly"
+      ],
+      "correct_coding": {
+        "primary_code": "I11.9",
+        "secondary_codes": [],
+        "sequencing": "Single hypertensive heart disease code",
+        "rationale": "Cardiomegaly (I51.7) requires only I11 category code, no additional code (Evidence: pg no: 50, L50-L51)"
+      },
+      "incorrect_coding": {
+        "code": "I11.9",
+        "codes": [
+          "I11.9",
+          "I51.7"
+        ],
+        "rationale": "Should not assign additional code for cardiomegaly with hypertensive heart disease",
+        "common_mistake": "Adding unnecessary additional codes for I51.5 or I51.7"
+      }
+    },
+    {
+      "scenario_id": "HTN_HEART_UNRELATED_1",
+      "scenario": "Patient with hypertension and heart failure documented as unrelated",
+      "documentation_example": "Patient has essential hypertension. Also has heart failure secondary to viral cardiomyopathy, unrelated to hypertension.",
+      "step_by_step": [
+        "Step 1: Identify hypertension and heart failure",
+        "Step 2: Note provider documentation of unrelated conditions",
+        "Step 3: Code conditions separately per documentation",
+        "Step 4: Assign I10 for essential hypertension",
+        "Step 5: Assign I50 code for heart failure"
+      ],
+      "correct_coding": {
+        "primary_code": "I10",
+        "secondary_codes": [
+          "I50.9"
+        ],
+        "sequencing": "Separate codes per admission circumstances",
+        "rationale": "Provider documented conditions as unrelated, requiring separate coding (Evidence: pg no: 50, L51-L54)"
+      },
+      "incorrect_coding": {
+        "code": "I11.0",
+        "codes": [
+          "I11.0",
+          "I50.9"
+        ],
+        "rationale": "Should not use combination code when provider states conditions are unrelated",
+        "common_mistake": "Ignoring provider documentation of unrelated conditions"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "HTN_HEART_EX1",
+      "scenario": "Hypertensive heart disease with heart failure",
+      "code_example": "I11.0 + I50.9",
+      "breakdown": {
+        "I11.0": "Hypertensive heart disease with heart failure (Evidence: pg no: 50, L47)",
+        "I50.9": "Heart failure, unspecified (additional code) (Evidence: pg no: 50, L48-L49)"
+      },
+      "rationale": "Heart failure requires both I11 category and additional I50 code (Evidence: pg no: 50, L45-L49)"
+    },
+    {
+      "example_id": "HTN_HEART_EX2",
+      "scenario": "Hypertensive heart disease with myocardial degeneration",
+      "code_example": "I11.9",
+      "breakdown": {
+        "I11.9": "Hypertensive heart disease without heart failure (Evidence: pg no: 50, L50)",
+        "no_additional": "No additional code needed for myocardial degeneration (Evidence: pg no: 50, L50-L51)"
+      },
+      "rationale": "Myocardial degeneration (I51.5) requires only I11 code, no additional code (Evidence: pg no: 50, L50-L51)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not assign additional codes for I51.5 or I51.7 with hypertensive heart disease (Evidence: pg no: 50, L50-L51)",
+      "Must code separately when provider documents conditions as unrelated (Evidence: pg no: 50, L51-L52)"
+    ],
+    "best_practices": [
+      "Always check if provider documents conditions as unrelated (Evidence: pg no: 50, L51-L52)",
+      "Use additional codes only for specified heart conditions (Evidence: pg no: 50, L48-L49)"
+    ],
+    "common_mistakes": [
+      "Adding unnecessary additional codes for I51.5 or I51.7 (Evidence: pg no: 50, L50-L51)",
+      "Using combination codes when conditions documented as unrelated (Evidence: pg no: 50, L51-L52)"
+    ],
+    "tips": [
+      "I50.-, I51.4, I51.89, I51.9 require additional codes with I11 (Evidence: pg no: 50, L45-L49)",
+      "I51.5, I51.7 require only I11 code, no additional codes (Evidence: pg no: 50, L50-L51)"
+    ],
+    "implementation_notes": [
+      "Sequencing depends on admission/encounter circumstances",
+      "Provider documentation overrides classification presumptions"
+    ],
+    "clinical_context": [
+      "Hypertension commonly causes various heart conditions",
+      "Some heart conditions may have non-hypertensive etiologies",
+      "Provider expertise determines relationship when unclear"
+    ]
+  },
+  "search_keywords": [
+    "hypertensive heart disease",
+    "I11 category",
+    "heart failure",
+    "myocarditis",
+    "cardiomegaly",
+    "myocardial degeneration",
+    "additional codes",
+    "unrelated conditions",
+    "combination codes",
+    "I50",
+    "I51"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "circulatory_system_hypertensive_heart",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "hypertension",
+      "heart_disease",
+      "combination_codes",
+      "additional_codes",
+      "I11",
+      "related_conditions"
+    ]
+  },
+  "page_range_processed": "pages_48_to_51"
+}

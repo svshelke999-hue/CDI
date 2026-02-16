@@ -1,0 +1,193 @@
+{
+  "guideline_id": "I.C.12.b.2",
+  "semantic_title": "Coding Guidelines for Non-Pressure Ulcers Documented as Healing",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 12. Chapter 12: Diseases of the Skin and Subcutaneous Tissue > b. Non-Pressure Chronic Ulcers > 2. Non-pressure ulcers documented as healing",
+  "page_number": 60,
+  "content": {
+    "full_text": "Non-pressure ulcers described as healing should be assigned the appropriate non-pressure ulcer code based on the documentation in the medical record. If the documentation does not provide information about the severity of the healing non-pressure ulcer, assign the appropriate code for unspecified severity. If the documentation is unclear as to whether the patient has a current (new) non-pressure ulcer or if the patient is being treated for a healing non-pressure ulcer, query the provider. For ulcers that were present on admission but healed at the time of discharge, assign the code for the site and severity of the non-pressure ulcer at the time of admission. (Evidence: pg no: 60, L12-L16)",
+    "summary": "Healing non-pressure ulcers should be coded based on documented severity, with specific rules for unclear documentation and ulcers that heal during admission (Evidence: pg no: 60, L12-L16)",
+    "key_concepts": [
+      "Healing non-pressure ulcers (Evidence: pg no: 60, L12)",
+      "Severity documentation (Evidence: pg no: 60, L14)",
+      "Unspecified severity (Evidence: pg no: 60, L15)",
+      "Provider queries (Evidence: pg no: 60, L15)",
+      "Admission vs discharge status (Evidence: pg no: 60, L15-L16)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "NPU_HEALING_001",
+        "rule_text": "Non-pressure ulcers described as healing should be assigned the appropriate non-pressure ulcer code based on the documentation in the medical record (Evidence: pg no: 60, L12-L14)",
+        "explanation": "Healing ulcers still require coding based on the documented severity and characteristics in the medical record (Evidence: pg no: 60, L12-L14)",
+        "importance": "critical",
+        "applies_to": "Non-pressure ulcer codes",
+        "common_applications": [
+          "Healing ulcer documentation",
+          "Ongoing ulcer treatment"
+        ]
+      },
+      {
+        "rule_id": "NPU_HEALING_002",
+        "rule_text": "If the documentation does not provide information about the severity of the healing non-pressure ulcer, assign the appropriate code for unspecified severity (Evidence: pg no: 60, L14-L15)",
+        "explanation": "When severity information is not documented for healing ulcers, use unspecified severity codes (Evidence: pg no: 60, L14-L15)",
+        "importance": "high",
+        "applies_to": "Non-pressure ulcer codes",
+        "common_applications": [
+          "Incomplete documentation",
+          "Unspecified severity coding"
+        ]
+      },
+      {
+        "rule_id": "NPU_HEALING_003",
+        "rule_text": "If the documentation is unclear as to whether the patient has a current (new) non-pressure ulcer or if the patient is being treated for a healing non-pressure ulcer, query the provider (Evidence: pg no: 60, L15)",
+        "explanation": "Provider queries are required when documentation is unclear about ulcer status (new vs healing) (Evidence: pg no: 60, L15)",
+        "importance": "critical",
+        "applies_to": "All non-pressure ulcer codes",
+        "common_applications": [
+          "Unclear documentation",
+          "Provider communication"
+        ]
+      },
+      {
+        "rule_id": "NPU_HEALING_004",
+        "rule_text": "For ulcers that were present on admission but healed at the time of discharge, assign the code for the site and severity of the non-pressure ulcer at the time of admission (Evidence: pg no: 60, L15-L16)",
+        "explanation": "Code based on admission status for ulcers that heal during the stay (Evidence: pg no: 60, L15-L16)",
+        "importance": "high",
+        "applies_to": "Non-pressure ulcer codes",
+        "common_applications": [
+          "Ulcers healing during admission",
+          "Admission-based coding"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify healing non-pressure ulcer in documentation",
+      "Step 2: Determine if severity is documented",
+      "Step 3: If severity documented, assign appropriate code",
+      "Step 4: If severity not documented, assign unspecified severity code",
+      "Step 5: If documentation unclear about new vs healing status, query provider",
+      "Step 6: For ulcers healing during stay, code based on admission status"
+    ],
+    "related_terminology": [
+      "Healing ulcers",
+      "Severity documentation",
+      "Unspecified severity",
+      "Provider queries",
+      "Admission status"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Non-pressure ulcer codes",
+      "Unspecified severity codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "NPU_HEALING_SC001",
+      "scenario": "Patient with healing venous ulcer, severity documented",
+      "documentation_example": "Patient being treated for healing venous ulcer, left leg, with exposed fat layer",
+      "step_by_step": [
+        "Step 1: Identify healing non-pressure ulcer",
+        "Step 2: Note severity is documented (exposed fat layer)",
+        "Step 3: Assign appropriate venous ulcer code with documented severity"
+      ],
+      "correct_coding": {
+        "primary_code": "Appropriate venous ulcer code with documented severity",
+        "secondary_codes": [],
+        "sequencing": "Based on encounter focus",
+        "rationale": "Healing ulcers are coded based on documented severity (Evidence: pg no: 60, L12-L14)"
+      },
+      "incorrect_coding": {
+        "code": "No code assigned",
+        "codes": [
+          "Healed ulcer codes"
+        ],
+        "rationale": "Healing ulcers still require appropriate coding",
+        "common_mistake": "Not coding healing ulcers"
+      }
+    },
+    {
+      "scenario_id": "NPU_HEALING_SC002",
+      "scenario": "Patient with healing ulcer, severity not documented",
+      "documentation_example": "Patient with healing diabetic ulcer, right foot, no severity details provided",
+      "step_by_step": [
+        "Step 1: Identify healing non-pressure ulcer",
+        "Step 2: Note severity is not documented",
+        "Step 3: Assign appropriate ulcer code for unspecified severity"
+      ],
+      "correct_coding": {
+        "primary_code": "Diabetic ulcer code with unspecified severity",
+        "secondary_codes": [],
+        "sequencing": "Based on encounter focus",
+        "rationale": "When severity not documented, use unspecified severity code (Evidence: pg no: 60, L14-L15)"
+      },
+      "incorrect_coding": {
+        "code": "Specific severity code without documentation",
+        "codes": [
+          "Assumed severity codes"
+        ],
+        "rationale": "Cannot assign specific severity without documentation",
+        "common_mistake": "Assuming severity without documentation"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Query provider when documentation is unclear about ulcer status (Evidence: pg no: 60, L15)",
+      "Do not assume severity without documentation (Evidence: pg no: 60, L14-L15)"
+    ],
+    "best_practices": [
+      "Code healing ulcers based on documented severity (Evidence: pg no: 60, L12-L14)",
+      "Use unspecified severity when details not provided (Evidence: pg no: 60, L14-L15)",
+      "Code based on admission status for ulcers that heal during stay (Evidence: pg no: 60, L15-L16)"
+    ],
+    "common_mistakes": [
+      "Not coding healing ulcers (Evidence: pg no: 60, L12)",
+      "Assuming severity without documentation (Evidence: pg no: 60, L14-L15)"
+    ],
+    "tips": [
+      "Always review documentation for severity details (Evidence: pg no: 60, L14)",
+      "Query providers when documentation is unclear (Evidence: pg no: 60, L15)"
+    ],
+    "implementation_notes": [
+      "Healing status does not eliminate the need for coding",
+      "Provider queries are essential for unclear documentation"
+    ],
+    "clinical_context": [
+      "Healing ulcers represent ongoing conditions requiring treatment and monitoring"
+    ]
+  },
+  "search_keywords": [
+    "healing non-pressure ulcers",
+    "ulcer severity",
+    "unspecified severity",
+    "provider queries",
+    "admission coding",
+    "discharge healing"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "skin_and_subcutaneous_tissue",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "healing_ulcers",
+      "severity_coding",
+      "provider_queries"
+    ]
+  },
+  "page_range_processed": "pages_60_to_63"
+}

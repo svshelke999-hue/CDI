@@ -1,0 +1,145 @@
+{
+  "guideline_id": "I.C.15.l.1",
+  "semantic_title": "Alcohol Use During Pregnancy, Childbirth and Puerperium",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 15. Pregnancy, Childbirth, and the Puerperium > l. Alcohol, tobacco and drug use during pregnancy, childbirth and the puerperium > 1) Alcohol use during pregnancy, childbirth and the puerperium",
+  "page_number": 68,
+  "content": {
+    "full_text": "Codes under subcategory O99.31, Alcohol use complicating pregnancy, childbirth, and the puerperium, should be assigned for any pregnancy case when a patient uses alcohol during the pregnancy or postpartum. A secondary code from category F10, Alcohol related disorders, should also be assigned to identify manifestations of the alcohol use. (Evidence: pg no: 68, L52-L56)",
+    "summary": "Guidelines for coding alcohol use in pregnancy requiring dual coding with obstetric and mental health codes (Evidence: pg no: 68, L52-L56)",
+    "key_concepts": [
+      "O99.31 for any alcohol use in pregnancy/postpartum (Evidence: pg no: 68, L53-L54)",
+      "F10 secondary code required for manifestations (Evidence: pg no: 68, L54-L56)",
+      "Dual coding requirement (Evidence: pg no: 68, L52-L56)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "alcohol_pregnancy_dual_coding",
+        "rule_text": "Assign O99.31 and secondary F10 code for alcohol use in pregnancy (Evidence: pg no: 68, L53-L56)",
+        "explanation": "Any alcohol use during pregnancy or postpartum requires both obstetric complication code and alcohol disorder code (Evidence: pg no: 68, L52-L56)",
+        "importance": "critical",
+        "applies_to": "O99.31, F10",
+        "common_applications": [
+          "Alcohol use during pregnancy",
+          "Postpartum alcohol use"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify alcohol use during pregnancy or postpartum",
+      "Step 2: Assign appropriate O99.31 code",
+      "Step 3: Add secondary F10 code for alcohol manifestations"
+    ],
+    "related_terminology": [
+      "alcohol use",
+      "pregnancy complications",
+      "alcohol related disorders",
+      "postpartum"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "O99.31",
+        "description": "Alcohol use complicating pregnancy, childbirth, and the puerperium (Evidence: pg no: 68, L53)",
+        "requirement": "Primary code for alcohol use in pregnancy",
+        "usage_rules": [
+          "Use for any alcohol use during pregnancy or postpartum (Evidence: pg no: 68, L53-L54)"
+        ]
+      },
+      {
+        "range": "F10",
+        "description": "Alcohol related disorders (Evidence: pg no: 68, L55)",
+        "requirement": "Secondary code required",
+        "usage_rules": [
+          "Identifies manifestations of alcohol use (Evidence: pg no: 68, L55-L56)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Subcategory O99.31 - Alcohol use complicating pregnancy, childbirth, and the puerperium",
+      "Category F10 - Alcohol related disorders"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "pregnancy_alcohol_use",
+      "scenario": "Pregnant patient with alcohol dependence",
+      "documentation_example": "28-year-old female at 24 weeks gestation with alcohol dependence",
+      "step_by_step": [
+        "Step 1: Identify alcohol use complicating pregnancy",
+        "Step 2: Assign O99.31x code",
+        "Step 3: Add F10.20 for alcohol dependence"
+      ],
+      "correct_coding": {
+        "primary_code": "O99.312",
+        "secondary_codes": [
+          "F10.20"
+        ],
+        "sequencing": "Obstetric complication first, then alcohol disorder",
+        "rationale": "Dual coding required for complete documentation of alcohol use in pregnancy (Evidence: pg no: 68, L52-L56)"
+      },
+      "incorrect_coding": {
+        "code": "F10.20",
+        "codes": [
+          "F10.20 only"
+        ],
+        "rationale": "Missing obstetric complication code",
+        "common_mistake": "Using only alcohol disorder code without pregnancy complication code"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Must code any alcohol use during pregnancy or postpartum (Evidence: pg no: 68, L53-L54)"
+    ],
+    "best_practices": [
+      "Always use dual coding for alcohol use in pregnancy (Evidence: pg no: 68, L52-L56)"
+    ],
+    "common_mistakes": [
+      "Using only F10 codes without O99.31",
+      "Missing secondary alcohol disorder codes"
+    ],
+    "tips": [
+      "Any amount of alcohol use requires coding in pregnancy"
+    ],
+    "implementation_notes": [
+      "Applies to pregnancy and postpartum periods"
+    ],
+    "clinical_context": [
+      "Alcohol use is significant complication in pregnancy"
+    ]
+  },
+  "search_keywords": [
+    "alcohol use",
+    "pregnancy",
+    "O99.31",
+    "F10",
+    "alcohol disorders",
+    "postpartum alcohol"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "substance_use_pregnancy",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "alcohol_use",
+      "pregnancy",
+      "dual_coding",
+      "substance_abuse"
+    ]
+  },
+  "page_range_processed": "pages_66_to_69"
+}

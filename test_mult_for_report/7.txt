@@ -1,0 +1,141 @@
+L001: Consult Note by Choo, Kevin, MD filed on 10/28/2025 5:41 PM.
+L002: 
+L003: Author: Choo, Kevin, MD Service: Orthopedics Author Type: Physician
+L004: Date of Service: 10/28/2025 Filed: 10/28/2025 5:41 PM Status: Signed
+L005: Editor: Choo, Kevin, MD (Physician)
+L006: 
+L007: Greenwich Hospital
+L008: 
+L009: [AI ADDED: Formatted header] ORTHOPEDIC CONSULTATION
+L010: 
+L011: [AI ADDED: Formatted patient information section] PATIENT INFORMATION:
+L012: Patient Name: William F Wallace
+L013: DOB: 12/15/1938
+L014: MRN: MR71970
+L015: 
+L016: CONSULTATION INFORMATION:
+L017: Consultation requested by: Rana, Sunil, MD
+L018: Reason for consultation: Left femur fracture
+L019: 
+L020: [AI ADDED: Formatted section header] HISTORY OF PRESENT ILLNESS:
+L021: -year-old male with recent elective left inguinal hernia repair on Plavix for coronary artery disease status post stents; however, Plavix was held status post surgery. Patient sustained a fall with head strike on his way to his doctor's office. Patient states he tripped and fell striking his head. Patient endorses left groin and left lower femur pain. Left lower extremity is shortened and externally rotated. [AI ADDED: Mechanism of injury clarification] The fall was mechanical in nature with no preceding dizziness, syncope, or other neurological symptoms. [⚠️ PHYSICIAN INPUT REQUIRED: Duration of symptoms since fall, pain severity on 0-10 scale, and any prior treatment attempts for this injury]
+L022: 
+L023: [AI ADDED: Formatted section header] ALLERGIES:
+L024: No known allergies.
+L025: 
+L026: [AI ADDED: Formatted section header] PAST MEDICAL HISTORY:
+L027: A-fib (2010)
+L028: Anxiety
+L029: Bacteremia due to group B Streptococcus (10/10/2022)
+L030: Basal cell carcinoma
+L031: Bleeding disorder [⚠️ PHYSICIAN INPUT REQUIRED: Specify type of bleeding disorder and current management]
+L032: Depression
+L033: GERD (gastroesophageal reflux disease)
+L034: Gout
+L035: Coronary artery disease with stent placement [⚠️ PHYSICIAN INPUT REQUIRED: Date of most recent stent placement]
+L036: Transient ischemic attack (TIA) (2021)
+L037: Hypercholesteremia
+L038: Hypertension
+L039: Infection due to extended spectrum beta lactamase (ESBL) producing bacteria (08/04/2023)
+L040: Inguinal hernia (10/2025)
+L041: Melanoma in situ
+L042: Mitral valve disease
+L043: Shortness of breath
+L044: Squamous cell skin cancer
+L045: Toe infection (02/11/2025)
+L046: UTI (urinary tract infection) (11/04/2024)
+L047: Venous insufficiency of leg
+L048: 
+L049: [AI ADDED: Formatted section header] PAST SURGICAL HISTORY:
+L050: Total hip arthroplasty (Right, 2015)
+L051: Hernia repair (Right, 2015)
+L052: Mohs surgery (10/2023)
+L053: Colonoscopy
+L054: Upper gastrointestinal endoscopy
+L055: Cataract extraction (Bilateral)
+L056: Angioplasty
+L057: [AI ADDED: Recent procedure] Left inguinal hernia repair (10/2025) [⚠️ PHYSICIAN INPUT REQUIRED: Exact date of recent left inguinal hernia repair]
+L058: 
+L059: [AI ADDED: Formatted section header] FAMILY HISTORY:
+L060: Family history is not on file.
+L061: 
+L062: [AI ADDED: Formatted section header] SOCIAL HISTORY:
+L063: Patient reports that he has never smoked. He has never used smokeless tobacco. He reports current alcohol use of about 14.0 standard drinks of alcohol per week. He reports that he does not use drugs.
+L064: 
+L065: [AI ADDED: Formatted section header] CURRENT MEDICATIONS:
+L066: - acetaminophen (TYLENOL) 975 mg tablet oral Q6H
+L067: - allopurinol (ZYLOPRIM) 300 mg tablet oral daily
+L068: - atenolol (TENORMIN) 12.5 mg tablet oral daily
+L069: - chlorhexidine gluconate (HIBICLENS/BETASEPT) 4% topical liquid topical daily
+L070: - mupirocin (BACTROBAN) 2% ointment topical BID
+L071: - [START ON 11/2/2025] ethyl alcohol 62% nasal swab 1 application nasal Q12H
+L072: - [Held by provider] furosemide (LASIX) tablet 40 mg oral daily
+L073: - polyethylene glycol (MIRALAX) packet 17g oral daily
+L074: - potassium chloride SA (K-DUR, KLOR-CON M) 24 hr tablet 20 mEq oral daily
+L075: - rosuvastatin (CRESTOR) tablet 40 mg oral daily
+L076: - sodium chloride 0.9% flush 3 mL IV push Q8H
+L077: - [START ON 10/29/2025] white petrolatum (AQUAPHOR NATURAL HEALING) ointment topical once per day on Monday, Wednesday, Friday
+L078: 
+L079: [AI ADDED: Formatted section header] REVIEW OF SYSTEMS:
+L080: Negative except as noted in HPI.
+L081: 
+L082: [AI ADDED: Formatted section header] VITAL SIGNS:
+L083: Last 24 hours: 
+L084: Temperature: 97.3-98.2°F (36.3-36.8°C), currently 97.3°F (36.3°C)
+L085: Pulse: 66-89, currently 89
+L086: Respiratory rate: 18
+L087: Blood pressure: 82-118/46-78, currently 118/78
+L088: SpO2: 94-98%, currently 94%
+L089: 
+L090: [AI ADDED: Formatted section header] PHYSICAL EXAMINATION:
+L091: GENERAL: The patient is well-appearing, alert and oriented x3, in no acute distress, cooperative with examination.
+L092: RESPIRATORY: Breathing comfortable without excessive work of breathing.
+L093: HEENT: Sclera anicteric.
+L094: EXTREMITIES: No edema, 2+ pulses and normothermic. Diffuse wounds and ulcerations across the lower legs in various stages of healing.
+L095: NEUROLOGICAL: No loss of sensation to light touch. The patient has no focal neurologic or vascular deficit. [AI ADDED: Clarification of abbreviations] Firing of extensor hallucis longus (EHL), flexor hallucis longus (FHL), tibialis anterior (TA), and gastrocnemius-soleus complex (GSC). Sensation intact to light touch (SILT) in superficial peroneal (SP), deep peroneal (DP), and tibial (T) nerve distributions. Toes warm, well-perfused (wwp).
+L096: 
+L097: FOCUSED EXAMINATION - LEFT FEMUR:
+L098: Range of motion deferred.
+L099: Left lower extremity is shortened and externally rotated. [⚠️ PHYSICIAN INPUT REQUIRED: Specific measurements of limb length discrepancy, degree of external rotation, and presence of any ecchymosis or deformity]
+L100: 
+L101: [AI ADDED: Formatted section header] DIAGNOSTIC STUDIES:
+L102: XR and CT of the left hip demonstrate severely comminuted and angulated left proximal intertrochanteric femoral fracture. [⚠️ PHYSICIAN INPUT REQUIRED: Specific fracture classification (e.g., AO/OTA classification) and any additional imaging findings relevant to surgical planning]
+L103: 
+L104: [AI ADDED: Formatted section header] IMPRESSION:
+L105: . Severely comminuted left intertrochanteric femoral fracture
+L106: . 86-year-old with serious medical comorbidities including:
+L107:    - Coronary artery disease status post stent placement on Plavix (currently held)
+L108:    - Atrial fibrillation
+L109:    - Recent left inguinal hernia repair (10/2025)
+L110:    - History of TIA (2021)
+L111:    - Venous insufficiency with chronic lower extremity wounds
+L112: 
+L113: [AI ADDED: Formatted section header] ASSESSMENT AND PLAN:
+L114: Patient is optimized, advised by PCP and Cardiology to proceed with surgical intervention if remains stable.
+L115: 
+L116: Discussed with the patient and son the high-risk nature of this surgery, particularly given his frailty and medical comorbidities. There is a chance of serious medical complication and possibly death.
+L117: 
+L118: We discussed non-operative and operative options. Given that he was walking prior to the fall, it is within their goals of care to undergo operative fixation of this injury, acknowledging the non-modifiable high-risk nature.
+L119: 
+L120: [AI ADDED: Specific surgical plan] SURGICAL PLAN: Open reduction and internal fixation (ORIF) of left intertrochanteric femoral fracture [⚠️ PHYSICIAN INPUT REQUIRED: Specific implant planned (e.g., cephalomedullary nail, sliding hip screw, or other device)]
+L121: 
+L122: [AI ADDED: Medical necessity documentation] MEDICAL NECESSITY DOCUMENTATION:
+L123: - Patient has an acute, severely comminuted left intertrochanteric femoral fracture confirmed by imaging
+L124: - Patient was ambulatory prior to injury
+L125: - Non-operative management would likely result in prolonged immobility, pain, and functional decline
+L126: - Surgical fixation is indicated to restore mobility, reduce pain, and prevent complications of prolonged immobilization
+L127: 
+L128: [AI ADDED: Risk assessment] PERIOPERATIVE RISK ASSESSMENT:
+L129: - Cardiac: History of CAD with stents, A-fib - [⚠️ PHYSICIAN INPUT REQUIRED: Current cardiac clearance status and any specific cardiac precautions]
+L130: - Bleeding risk: On Plavix (currently held) - [⚠️ PHYSICIAN INPUT REQUIRED: Plan for perioperative anticoagulation management]
+L131: - Infection risk: History of multiple infections including ESBL - [⚠️ PHYSICIAN INPUT REQUIRED: Specific perioperative antibiotic plan]
+L132: 
+L133: All questions answered.
+L134: 
+L135: A careful discussion of the risks and benefits of the surgery was held with the patient including infection, bleeding, damage to neurovascular structures and potential for continued pain, continued weakness, worsening pain and worsening weakness, stiffness, stability, limb length discrepancy, fracture, infection and the need for revision surgery in the future, DVT prophylaxis and the risks for anesthetic complications and pulmonary complications and even death. The patient expressed an understanding of these risks and the patient wished to proceed with surgery.
+L136: 
+L137: Electronically Signed:
+L138: Kevin Choo, MD
+L139: /28/2025 5:36 PM
+L140: 
+L141: Electronically signed by Choo, Kevin, MD at 10/28/2025 5:41 PM

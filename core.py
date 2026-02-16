@@ -18,6 +18,7 @@ from .opensearch_client import OpenSearchClient
 from .utils import safe_json_loads
 from .logger import CDILogger, get_logger
 from .chart_improver import ChartImprover
+from .chart_type_identifier import ChartTypeIdentifier
 
 
 class MultiPayerCDI:
@@ -35,6 +36,7 @@ class MultiPayerCDI:
         self.cache_manager = CacheManager()
         self.compliance_evaluator = ComplianceEvaluator(self.cache_manager)
         self.chart_improver = ChartImprover(self.cache_manager)
+        self.chart_type_identifier = ChartTypeIdentifier(self.cache_manager)
         
         # Initialize cache and cleanup
         self.cache_manager.cleanup_old_cache()
@@ -239,13 +241,14 @@ class MultiPayerCDI:
                 error=str(e)
             )
     
-    def map_guidelines_for_case_text_multi_payer(self, llm_output: str, chart_text: str) -> Dict[str, Any]:
+    def map_guidelines_for_case_text_multi_payer(self, llm_output: str, chart_text: str, other_charts_info: Dict[str, Any] = None) -> Dict[str, Any]:
         """
         Enhanced multi-payer processing with better parallel execution and caching.
         
         Args:
             llm_output: JSON output from extraction phase
-            chart_text: Original medical chart text
+            chart_text: Original medical chart text (should be operative chart only for multi-chart)
+            other_charts_info: Optional dict with extracted information from other charts for cross-referencing
             
         Returns:
             Dictionary containing compliance results for all payers
@@ -319,7 +322,8 @@ class MultiPayerCDI:
                     chart_text=chart_text,
                     extraction_data=extraction_data,
                     proc_index=proc_idx,
-                    total_procedures=len(procedures_list)
+                    total_procedures=len(procedures_list),
+                    other_charts_info=other_charts_info
                 )
                 
                 # Distribute results to payer results structure
@@ -524,6 +528,348 @@ class MultiPayerCDI:
             "per_payer": per_payer,
             "overall": overall_summary
         }
+    
+    def process_multiple_charts(self, file_paths: List[str]) -> ProcessingResult:
+        """
+        Process multiple related medical charts as a complete inpatient record.
+        
+        Args:
+            file_paths: List of paths to medical chart files (can be from a folder)
+            
+        Returns:
+            ProcessingResult with combined compliance evaluation
+        """
+        start_time = time.time()
+        print(f"[PROCESSING] Processing {len(file_paths)} chart(s) as complete record...")
+        self.logger.info(f"Processing {len(file_paths)} charts as complete record")
+        
+        try:
+            # Step 1: Read all files and get first 100 words for each
+            chart_data = []
+            for file_path in file_paths:
+                if not FileProcessor.validate_file(file_path):
+                    print(f"[WARNING] Skipping invalid file: {file_path}")
+                    continue
+                
+                original_text = FileProcessor.read_chart(file_path)
+                # Get first 100 words for chart type identification
+                words = original_text.split()[:100]
+                sample_text = " ".join(words)
+                
+                chart_data.append({
+                    "file_path": file_path,
+                    "file_name": os.path.basename(file_path),
+                    "original_text": original_text,
+                    "sample_text": sample_text
+                })
+            
+            if not chart_data:
+                raise ValueError("No valid charts found to process")
+            
+            print(f"[INFO] Successfully loaded {len(chart_data)} chart(s)")
+            
+            # Step 2: Identify chart type for each file
+            print(f"[IDENTIFY] Identifying chart types...")
+            for chart in chart_data:
+                chart_type_info = self.chart_type_identifier.identify_chart_type(
+                    chart["file_path"],
+                    chart["sample_text"]
+                )
+                chart["chart_type"] = chart_type_info.get("chart_type", "other")
+                chart["chart_type_confidence"] = chart_type_info.get("confidence", "low")
+                chart["chart_type_reason"] = chart_type_info.get("reason", "")
+                print(f"[IDENTIFY] {chart['file_name']}: {chart['chart_type']} (confidence: {chart['chart_type_confidence']})")
+            
+            # Step 3: Extract information from each chart separately
+            print(f"[EXTRACTION] Extracting information from each chart...")
+            all_extraction_data = {}
+            combined_extraction = {
+                "patient_name": "Unknown",
+                "patient_age": "Unknown",
+                "chart_specialty": "Unknown",
+                "cpt": [],
+                "procedure": [],
+                "summary": "",
+                "multi_chart_data": {}
+            }
+            
+            total_extraction_usage = {"input_tokens": 0, "output_tokens": 0}
+            
+            for chart in chart_data:
+                file_name = chart["file_name"]
+                chart_type = chart["chart_type"]
+                chart_text = chart["original_text"]
+                numbered_chart_text = FileProcessor.add_line_numbers(chart_text)
+                
+                print(f"[EXTRACTION] Extracting from {file_name} (type: {chart_type})...")
+                
+                # Run extraction with chart type
+                llm_output, extraction_usage = self.compliance_evaluator.run_extraction(
+                    numbered_chart_text,
+                    chart_type=chart_type
+                )
+                
+                total_extraction_usage["input_tokens"] += extraction_usage.get("input_tokens", 0)
+                total_extraction_usage["output_tokens"] += extraction_usage.get("output_tokens", 0)
+                
+                # Parse extraction data
+                extraction_data = safe_json_loads(llm_output, {})
+                if not isinstance(extraction_data, dict):
+                    extraction_data = {}
+                
+                # Store extraction data per chart
+                all_extraction_data[file_name] = {
+                    "chart_type": chart_type,
+                    "chart_type_confidence": chart.get("chart_type_confidence", "low"),
+                    "extraction_data": extraction_data,
+                    "file_path": chart["file_path"]
+                }
+                
+                # Combine key information (procedures, CPT codes, etc.)
+                # Use the most complete patient info (prefer non-"Unknown" values)
+                if extraction_data.get("patient_name") and extraction_data.get("patient_name") != "Unknown":
+                    if combined_extraction["patient_name"] == "Unknown":
+                        combined_extraction["patient_name"] = extraction_data.get("patient_name")
+                
+                if extraction_data.get("patient_age") and extraction_data.get("patient_age") != "Unknown":
+                    if combined_extraction["patient_age"] == "Unknown":
+                        combined_extraction["patient_age"] = extraction_data.get("patient_age")
+                
+                if extraction_data.get("chart_specialty") and extraction_data.get("chart_specialty") != "Unknown":
+                    if combined_extraction["chart_specialty"] == "Unknown":
+                        combined_extraction["chart_specialty"] = extraction_data.get("chart_specialty")
+                
+                # Combine procedures (avoid duplicates)
+                procedures = extraction_data.get("procedure", [])
+                if isinstance(procedures, list):
+                    for proc in procedures:
+                        if proc and proc not in combined_extraction["procedure"]:
+                            combined_extraction["procedure"].append(proc)
+                
+                # Combine CPT codes (avoid duplicates)
+                cpt_codes = extraction_data.get("cpt", [])
+                if isinstance(cpt_codes, list):
+                    for cpt in cpt_codes:
+                        if cpt and cpt not in combined_extraction["cpt"]:
+                            combined_extraction["cpt"].append(cpt)
+                
+                # Store chart-specific data
+                combined_extraction["multi_chart_data"][file_name] = {
+                    "chart_type": chart_type,
+                    "chart_type_confidence": chart.get("chart_type_confidence", "low"),
+                    "extracted_info": extraction_data
+                }
+                
+                print(f"[EXTRACTION] Completed extraction from {file_name}")
+            
+            # Step 4: Identify operative chart and extract information from other charts
+            print(f"[IDENTIFY] Identifying operative chart for CDI evaluation...")
+            operative_chart = None
+            other_charts_info = {}
+            
+            for chart in chart_data:
+                chart_type = chart["chart_type"]
+                if chart_type == "operative_note":
+                    if operative_chart is None:
+                        operative_chart = chart
+                        print(f"[IDENTIFY] Found operative chart: {chart['file_name']}")
+                else:
+                    # Store extracted information from non-operative charts
+                    file_name = chart["file_name"]
+                    extraction_info = all_extraction_data.get(file_name, {}).get("extraction_data", {})
+                    other_charts_info[file_name] = {
+                        "chart_type": chart_type,
+                        "extraction_data": extraction_info,
+                        "summary": extraction_info.get("summary", ""),
+                        "diagnosis": extraction_info.get("diagnosis", []),
+                        "tests": extraction_info.get("tests", []),
+                        "reports": extraction_info.get("reports", []),
+                        "medications": extraction_info.get("medications", []),
+                        "allergies": extraction_info.get("allergies", []),
+                        "risk_assessment": extraction_info.get("risk_assessment", ""),
+                        "history": extraction_info.get("history", {}),
+                        "physical_exam": extraction_info.get("physical_exam", {}),
+                        "imaging": extraction_info.get("imaging", []),
+                        "conservative_treatment": extraction_info.get("conservative_treatment", {}),
+                        "functional_limitations": extraction_info.get("functional_limitations", {})
+                    }
+                    print(f"[INFO] Stored information from {chart_type}: {file_name}")
+            
+            # If no operative chart found, use the first chart as fallback
+            if operative_chart is None:
+                print(f"[WARNING] No operative chart found, using first chart as fallback")
+                operative_chart = chart_data[0]
+            
+            # Step 5: Use ONLY operative chart for CDI compliance evaluation
+            print(f"[COMPLIANCE] Running compliance evaluation using ONLY operative chart: {operative_chart['file_name']}")
+            operative_chart_text = operative_chart["original_text"]
+            numbered_operative_chart = FileProcessor.add_line_numbers(operative_chart_text)
+            
+            # Add information from other charts to extraction data for cross-referencing
+            combined_extraction["other_charts_info"] = other_charts_info
+            
+            # Run compliance evaluation using only operative chart
+            combined_extraction_json = json.dumps(combined_extraction)
+            mapping_result = self.map_guidelines_for_case_text_multi_payer(
+                combined_extraction_json,
+                numbered_operative_chart,
+                other_charts_info=other_charts_info  # Pass for cross-referencing
+            )
+            
+            # Step 6: Create processing result
+            total_usage = UsageInfo(
+                input_tokens=total_extraction_usage.get("input_tokens", 0) + mapping_result["usage"]["input_tokens"],
+                output_tokens=total_extraction_usage.get("output_tokens", 0) + mapping_result["usage"]["output_tokens"]
+            )
+            total_usage.calculate_costs(Config.INPUT_COST_PER_1K, Config.OUTPUT_COST_PER_1K)
+            
+            # Store original charts (without line numbers)
+            original_charts = {}
+            for chart in chart_data:
+                original_charts[chart["file_name"]] = chart["original_text"]
+            
+            # Combine all charts for storage (but CDI was evaluated using only operative chart)
+            combined_chart_text = ""
+            for chart in chart_data:
+                file_name = chart["file_name"]
+                chart_type = chart["chart_type"]
+                chart_text = chart["original_text"]
+                
+                combined_chart_text += f"\n\n=== CHART: {file_name} (Type: {chart_type}) ===\n"
+                combined_chart_text += chart_text
+                combined_chart_text += f"\n=== END CHART: {file_name} ===\n"
+            
+            numbered_combined_chart = FileProcessor.add_line_numbers(combined_chart_text)
+            
+            result = ProcessingResult(
+                file_name=", ".join([os.path.basename(fp) for fp in file_paths]),
+                extraction_data=combined_extraction,
+                payer_results=mapping_result["result"]["payer_results"],
+                total_usage=total_usage,
+                total_cost=mapping_result["cost"]["total_cost_usd"],
+                execution_times=mapping_result["meta"]["execution_times"],
+                sources=mapping_result["sources"],
+                numbered_medical_chart=numbered_combined_chart,
+                original_chart=combined_chart_text
+            )
+            
+            # Add multi-chart metadata
+            result.multi_chart_info = {
+                "total_charts": len(chart_data),
+                "chart_details": all_extraction_data,
+                "combined_extraction": combined_extraction,
+                "operative_chart": operative_chart["file_name"] if operative_chart else None,
+                "other_charts_info": other_charts_info  # Store structured info from other charts
+            }
+            
+            result.payer_summary = self._calculate_payer_summary(result.payer_results)
+            
+            # Generate improved chart
+            print("[CHART IMPROVEMENT] Generating AI-improved chart...")
+            try:
+                improved_chart_data = self.chart_improver.improve_medical_chart(
+                    original_chart=combined_chart_text,
+                    processing_result=result
+                )
+                
+                improved_chart_text = improved_chart_data.get("improved_chart", combined_chart_text)
+                improved_chart_text = re.sub(r'\[ADDED\s*:\s*([^\]]+)\]\s*', r'\1', improved_chart_text, flags=re.IGNORECASE)
+                improved_chart_text = FileProcessor.remove_line_numbers(improved_chart_text)
+                result.improved_chart_by_ai = improved_chart_text
+                
+                result.enhanced_by_ai = {
+                    "improvements": improved_chart_data.get("improvements", []),
+                    "user_input_required": improved_chart_data.get("user_input_required", []),
+                    "recommendations": improved_chart_data.get("recommendations", []),
+                    "compliance_impact": improved_chart_data.get("compliance_impact", {}),
+                    "success": improved_chart_data.get("success", True)
+                }
+                
+                improvement_cost = improved_chart_data.get("cost", 0.0)
+                result.total_cost += improvement_cost
+                
+                improvement_usage = improved_chart_data.get("usage", {})
+                if improvement_usage:
+                    result.total_usage.input_tokens += improvement_usage.get("input_tokens", 0)
+                    result.total_usage.output_tokens += improvement_usage.get("output_tokens", 0)
+                    result.total_usage.calculate_costs(Config.INPUT_COST_PER_1K, Config.OUTPUT_COST_PER_1K)
+                
+                print(f"[CHART IMPROVEMENT] AI chart improvement completed successfully")
+            except Exception as e:
+                print(f"[WARNING] Chart improvement failed: {e}")
+                self.logger.warning(f"Chart improvement failed: {e}")
+                result.improved_chart_by_ai = combined_chart_text
+                result.enhanced_by_ai = {
+                    "improvements": [],
+                    "user_input_required": [],
+                    "recommendations": [],
+                    "compliance_impact": {},
+                    "success": False,
+                    "error": str(e)
+                }
+            
+            # Calculate execution time
+            execution_time = time.time() - start_time
+            
+            # Save outputs
+            result_dict = result.__dict__.copy()
+            numbered_chart = result_dict.pop('numbered_medical_chart', None)
+            json_output_path = CDILogger.save_output(
+                f"multi_chart_{int(time.time())}",
+                result_dict,
+                "json"
+            )
+            
+            if numbered_chart:
+                chart_output_path = CDILogger.save_numbered_chart(
+                    f"multi_chart_{int(time.time())}",
+                    numbered_chart
+                )
+                print(f"[SAVED] Numbered medical chart saved to: {chart_output_path}")
+            
+            # Log processing result
+            CDILogger.log_processing_result(
+                file_name=", ".join([os.path.basename(fp) for fp in file_paths]),
+                payers_processed=len(result.payer_results),
+                procedures_evaluated=mapping_result["result"]["procedures_evaluated"],
+                total_cost=result.total_cost,
+                execution_time=execution_time,
+                success=True
+            )
+            
+            print(f"[OK] Multi-chart processing completed successfully")
+            self.logger.info(f"Multi-chart processing completed. Output: {json_output_path}")
+            return result
+            
+        except Exception as e:
+            execution_time = time.time() - start_time
+            print(f"[ERROR] Error processing multiple charts: {e}")
+            self.logger.error(f"Multi-chart processing failed: {e}")
+            
+            CDILogger.log_processing_result(
+                file_name=", ".join([os.path.basename(fp) for fp in file_paths]) if file_paths else "unknown",
+                payers_processed=0,
+                procedures_evaluated=0,
+                total_cost=0.0,
+                execution_time=execution_time,
+                success=False,
+                error=str(e)
+            )
+            
+            return ProcessingResult(
+                file_name=", ".join([os.path.basename(fp) for fp in file_paths]) if file_paths else "unknown",
+                extraction_data={},
+                payer_results={},
+                total_usage=UsageInfo(),
+                total_cost=0.0,
+                execution_times={},
+                sources=[],
+                numbered_medical_chart=None,
+                original_chart=None,
+                improved_chart_by_ai=None,
+                enhanced_by_ai=None,
+                error=str(e)
+            )
     
     def process_directory(self, input_dir: str) -> Dict[str, Any]:
         """

@@ -1,0 +1,118 @@
+{
+  "guideline_id": "II.F",
+  "semantic_title": "Principal Diagnosis Selection When Original Treatment Plan Not Carried Out",
+  "section_path": "Section II > F. Original treatment plan not carried out",
+  "page_number": 109,
+  "content": {
+    "full_text": "Sequence as the principal diagnosis the condition, which after study occasioned the admission to the hospital, even though treatment may not have been carried out due to unforeseen circumstances. (Evidence: pg no: 109, L29-L30)",
+    "summary": "When the original treatment plan is not carried out, the condition that caused the admission should still be sequenced as the principal diagnosis (Evidence: pg no: 109, L29-L30)",
+    "key_concepts": [
+      "Principal diagnosis remains the condition that occasioned admission (Evidence: pg no: 109, L29)",
+      "Unforeseen circumstances do not change principal diagnosis selection (Evidence: pg no: 109, L30)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "II.F.1",
+        "rule_text": "Sequence as the principal diagnosis the condition, which after study occasioned the admission to the hospital (Evidence: pg no: 109, L29)",
+        "explanation": "Even when treatment plans change or are not carried out due to unforeseen circumstances, the condition that was determined after study to be the reason for admission remains the principal diagnosis (Evidence: pg no: 109, L29-L30)",
+        "importance": "high",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Surgery cancelled due to patient condition",
+          "Treatment modified due to complications"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify the condition that occasioned the admission after study",
+      "Step 2: Sequence this condition as principal diagnosis regardless of treatment changes"
+    ],
+    "related_terminology": [
+      "principal diagnosis",
+      "unforeseen circumstances",
+      "treatment plan"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": []
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "II.F.1",
+      "scenario": "Patient admitted for elective surgery but surgery cancelled due to unstable vital signs",
+      "documentation_example": "Patient admitted for cholecystectomy. Surgery cancelled due to elevated blood pressure and cardiac arrhythmia.",
+      "step_by_step": [
+        "Step 1: Identify that cholecystitis was the condition that occasioned admission",
+        "Step 2: Code cholecystitis as principal diagnosis despite surgery cancellation"
+      ],
+      "correct_coding": {
+        "primary_code": "K80.20",
+        "secondary_codes": [
+          "I10",
+          "I49.9"
+        ],
+        "sequencing": "Cholecystitis remains principal diagnosis",
+        "rationale": "The condition that occasioned admission remains principal diagnosis even when treatment not carried out (Evidence: pg no: 109, L29-L30)"
+      },
+      "incorrect_coding": {
+        "code": "I10",
+        "codes": [
+          "I10"
+        ],
+        "rationale": "Hypertension should not be principal diagnosis just because it prevented surgery",
+        "common_mistake": "Coding the condition that prevented treatment as principal diagnosis"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not change principal diagnosis selection based on treatment modifications (Evidence: pg no: 109, L29-L30)"
+    ],
+    "best_practices": [
+      "Always identify the condition that occasioned admission after study (Evidence: pg no: 109, L29)"
+    ],
+    "common_mistakes": [
+      "Coding complications that prevented treatment as principal diagnosis (Evidence: pg no: 109, L29-L30)"
+    ],
+    "tips": [
+      "Focus on the reason for admission, not the reason treatment was modified (Evidence: pg no: 109, L29-L30)"
+    ],
+    "implementation_notes": [
+      "Applies to all situations where original treatment plans are not carried out"
+    ],
+    "clinical_context": [
+      "Common in surgical cases where procedures are cancelled or modified"
+    ]
+  },
+  "search_keywords": [
+    "original treatment plan",
+    "unforeseen circumstances",
+    "principal diagnosis",
+    "treatment not carried out",
+    "cancelled surgery"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "principal_diagnosis_selection",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "principal_diagnosis",
+      "treatment_planning",
+      "inpatient"
+    ]
+  },
+  "page_range_processed": "pages_108_to_111"
+}

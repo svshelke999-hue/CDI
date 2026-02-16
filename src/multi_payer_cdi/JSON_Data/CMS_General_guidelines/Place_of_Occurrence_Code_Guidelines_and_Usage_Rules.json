@@ -1,0 +1,211 @@
+{
+  "guideline_id": "I.C.20.b",
+  "semantic_title": "Place of Occurrence Code Guidelines and Usage Rules",
+  "section_path": "Chapter 20: External Causes of Morbidity > b. Place of Occurrence Guideline",
+  "page_number": 89,
+  "content": {
+    "full_text": "Codes from category Y92, Place of occurrence of the external cause, are secondary codes for use after other external cause codes to identify the location of the patient at the time of injury or other condition. Generally, a place of occurrence code is assigned only once, at the initial encounter for treatment. However, in the rare instance that a new injury occurs during hospitalization, an additional place of occurrence code may be assigned. No 7th characters are used for Y92. Do not use place of occurrence code Y92.9 if the place is not stated or is not applicable. (Evidence: pg no: 89, L52-L55)",
+    "summary": "Y92 place of occurrence codes are secondary codes used once at initial encounter, with exceptions for new injuries during hospitalization, and do not use 7th characters (Evidence: pg no: 89, L52-L55)",
+    "key_concepts": [
+      "Y92 codes are secondary codes (Evidence: pg no: 89, L52-L53)",
+      "Used after other external cause codes (Evidence: pg no: 89, L52-L53)",
+      "Identify location at time of injury (Evidence: pg no: 89, L53)",
+      "Generally assigned only once at initial encounter (Evidence: pg no: 89, L53-L54)",
+      "Exception for new injuries during hospitalization (Evidence: pg no: 89, L54-L55)",
+      "No 7th characters used (Evidence: pg no: 89, L54-L55)",
+      "Don't use Y92.9 if place not stated (Evidence: pg no: 89, L55)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "PLACE_OCC_001",
+        "rule_text": "Y92 codes are secondary codes used after other external cause codes (Evidence: pg no: 89, L52-L53)",
+        "explanation": "Place of occurrence codes provide additional information about location and must be sequenced after the primary external cause codes (Evidence: pg no: 89, L52-L53)",
+        "importance": "high",
+        "applies_to": "All Y92 place of occurrence codes",
+        "common_applications": [
+          "Injury location documentation",
+          "External cause supplementation",
+          "Location-specific coding"
+        ]
+      },
+      {
+        "rule_id": "PLACE_OCC_002",
+        "rule_text": "Place of occurrence codes generally assigned only once at initial encounter (Evidence: pg no: 89, L53-L54)",
+        "explanation": "Unlike other codes that may be repeated at subsequent encounters, place of occurrence is typically coded only at the first encounter for treatment (Evidence: pg no: 89, L53-L54)",
+        "importance": "high",
+        "applies_to": "Y92 codes",
+        "common_applications": [
+          "Initial encounter coding",
+          "First treatment visit",
+          "Emergency department visits"
+        ]
+      },
+      {
+        "rule_id": "PLACE_OCC_003",
+        "rule_text": "Additional place of occurrence code may be assigned for new injury during hospitalization (Evidence: pg no: 89, L54-L55)",
+        "explanation": "In rare instances when a patient sustains a new injury while hospitalized, an additional place of occurrence code may be assigned for the new injury (Evidence: pg no: 89, L54-L55)",
+        "importance": "medium",
+        "applies_to": "Hospital-acquired injuries",
+        "common_applications": [
+          "Falls during hospitalization",
+          "New injuries in hospital",
+          "Nosocomial injuries"
+        ]
+      },
+      {
+        "rule_id": "PLACE_OCC_004",
+        "rule_text": "Y92 codes do not use 7th characters (Evidence: pg no: 89, L54-L55)",
+        "explanation": "Unlike most external cause codes, place of occurrence codes do not require 7th character extensions (Evidence: pg no: 89, L54-L55)",
+        "importance": "medium",
+        "applies_to": "All Y92 codes",
+        "common_applications": [
+          "Code structure verification",
+          "Coding accuracy",
+          "System entry"
+        ]
+      },
+      {
+        "rule_id": "PLACE_OCC_005",
+        "rule_text": "Do not use Y92.9 if place is not stated or not applicable (Evidence: pg no: 89, L55)",
+        "explanation": "The unspecified place of occurrence code should not be used when the place is unknown or not applicable to the situation (Evidence: pg no: 89, L55)",
+        "importance": "medium",
+        "applies_to": "Y92.9 code",
+        "common_applications": [
+          "Unknown location situations",
+          "Non-applicable scenarios",
+          "Documentation limitations"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Assign primary external cause codes first",
+      "Step 2: Determine the location where injury occurred",
+      "Step 3: Assign appropriate Y92 place of occurrence code",
+      "Step 4: Verify this is initial encounter (or new injury during hospitalization)",
+      "Step 5: Confirm no 7th character is needed"
+    ],
+    "related_terminology": [
+      "Place of occurrence",
+      "Y92 codes",
+      "Secondary codes",
+      "Initial encounter",
+      "Location identification",
+      "7th character"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Y92",
+        "description": "Place of occurrence of the external cause codes (Evidence: pg no: 89, L52)",
+        "requirement": "Secondary codes only, no 7th characters",
+        "usage_rules": [
+          "Use after other external cause codes (Evidence: pg no: 89, L52-L53)",
+          "Generally assign only once at initial encounter (Evidence: pg no: 89, L53-L54)",
+          "No 7th characters (Evidence: pg no: 89, L54-L55)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "Y92.9",
+        "description": "Unspecified place of occurrence (Evidence: pg no: 89, L55)",
+        "context": "Do not use if place not stated or not applicable",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "usage_restriction": "Avoid when place unknown or not applicable (Evidence: pg no: 89, L55)"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Place of occurrence codes",
+      "Y92 category"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "PLACE_OCC_001",
+      "scenario": "Patient falls at home and fractures wrist, seen in ED initially, then follow-up visits",
+      "documentation_example": "Patient fell down stairs at home, sustained wrist fracture, treated in ED",
+      "step_by_step": [
+        "Step 1: Code wrist fracture as primary diagnosis",
+        "Step 2: Code fall down stairs as external cause",
+        "Step 3: Code Y92.009 (home) as place of occurrence at initial encounter only",
+        "Step 4: Do not repeat Y92 code at subsequent encounters"
+      ],
+      "correct_coding": {
+        "primary_code": "Wrist fracture code with 7th character A",
+        "secondary_codes": [
+          "Fall external cause code with 7th character A",
+          "Y92.009 (home) - initial encounter only"
+        ],
+        "sequencing": "Fracture, external cause, place of occurrence",
+        "rationale": "Place of occurrence coded only once at initial encounter, not repeated at subsequent visits (Evidence: pg no: 89, L53-L54)"
+      },
+      "incorrect_coding": {
+        "code": "Y92 code at every encounter",
+        "codes": [
+          "Repeating place of occurrence at follow-up visits"
+        ],
+        "rationale": "Place of occurrence generally coded only once",
+        "common_mistake": "Repeating Y92 codes at subsequent encounters"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Don't use Y92.9 when place not stated (Evidence: pg no: 89, L55)",
+      "Don't repeat Y92 codes at subsequent encounters unless new injury (Evidence: pg no: 89, L53-L55)"
+    ],
+    "best_practices": [
+      "Code place of occurrence only at initial encounter (Evidence: pg no: 89, L53-L54)",
+      "Sequence after other external cause codes (Evidence: pg no: 89, L52-L53)"
+    ],
+    "common_mistakes": [
+      "Using Y92 codes at every encounter (Evidence: pg no: 89, L53-L54)",
+      "Adding 7th characters to Y92 codes (Evidence: pg no: 89, L54-L55)"
+    ],
+    "tips": [
+      "Y92 codes don't need 7th characters (Evidence: pg no: 89, L54-L55)"
+    ],
+    "implementation_notes": [
+      "Exception exists for new injuries during hospitalization"
+    ],
+    "clinical_context": [
+      "Location information valuable for injury prevention research"
+    ]
+  },
+  "search_keywords": [
+    "place of occurrence",
+    "Y92 codes",
+    "initial encounter only",
+    "location coding",
+    "secondary external cause codes",
+    "no 7th character"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "external_causes",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "external_causes",
+      "place_of_occurrence",
+      "Y92_codes",
+      "initial_encounter",
+      "chapter_20"
+    ]
+  },
+  "page_range_processed": "pages_87_to_90"
+}

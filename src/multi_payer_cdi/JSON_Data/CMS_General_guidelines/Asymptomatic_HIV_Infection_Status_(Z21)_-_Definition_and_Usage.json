@@ -1,0 +1,139 @@
+{
+  "guideline_id": "I.C.21.c.3.e",
+  "semantic_title": "Asymptomatic HIV Infection Status (Z21) - Definition and Usage",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 21. Factors Influencing Health Status > c. Categories of Z Codes > 3) Status",
+  "page_number": 94,
+  "content": {
+    "full_text": "This code indicates that a patient has tested positive for HIV but has manifested no signs or symptoms of the disease. (Evidence: pg no: 94, L41)",
+    "summary": "Z21 indicates positive HIV test without disease signs or symptoms (Evidence: pg no: 94, L41)",
+    "key_concepts": [
+      "Positive HIV test (Evidence: pg no: 94, L41)",
+      "No signs or symptoms (Evidence: pg no: 94, L41)",
+      "Asymptomatic status (Evidence: pg no: 94, L40-L41)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "HIV_ASYMP_DEF",
+        "rule_text": "Use when patient tests positive for HIV but has no signs or symptoms (Evidence: pg no: 94, L41)",
+        "explanation": "Z21 is specifically for patients with confirmed HIV infection who remain asymptomatic (Evidence: pg no: 94, L41)",
+        "importance": "critical",
+        "applies_to": "Z21",
+        "common_applications": [
+          "Routine HIV monitoring",
+          "Asymptomatic HIV-positive patients",
+          "HIV screening follow-up"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Confirm positive HIV test results",
+      "Step 2: Verify absence of HIV-related signs and symptoms",
+      "Step 3: Assign Z21 code"
+    ],
+    "related_terminology": [
+      "Asymptomatic HIV",
+      "HIV positive",
+      "HIV status",
+      "HIV infection"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "Z21",
+        "description": "Asymptomatic HIV infection status (Evidence: pg no: 94, L40)",
+        "context": "Use when HIV positive but no signs or symptoms present",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z21": "Asymptomatic HIV infection status"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Asymptomatic HIV infection status"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "HIV_ASYMP_01",
+      "scenario": "HIV-positive patient for routine monitoring with no symptoms",
+      "documentation_example": "Patient with known HIV infection presents for routine monitoring. No signs or symptoms of HIV disease. Laboratory values stable.",
+      "step_by_step": [
+        "Step 1: Confirm HIV-positive status",
+        "Step 2: Verify no HIV-related symptoms present",
+        "Step 3: Assign Z21 code"
+      ],
+      "correct_coding": {
+        "primary_code": "Z21",
+        "secondary_codes": [],
+        "sequencing": "Z21 as appropriate for encounter",
+        "rationale": "Patient has positive HIV test but no disease manifestations (Evidence: pg no: 94, L41)"
+      },
+      "incorrect_coding": {
+        "code": "B20",
+        "codes": [
+          "HIV disease codes"
+        ],
+        "rationale": "Patient has no signs or symptoms of HIV disease",
+        "common_mistake": "Using HIV disease codes when patient is asymptomatic"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not use if patient has HIV-related signs or symptoms (Evidence: pg no: 94, L41)"
+    ],
+    "best_practices": [
+      "Verify absence of HIV-related manifestations before using Z21",
+      "Use for routine monitoring of asymptomatic HIV patients"
+    ],
+    "common_mistakes": [
+      "Using Z21 when patient has HIV-related symptoms",
+      "Confusing with HIV disease codes"
+    ],
+    "tips": [
+      "Z21 is specifically for asymptomatic HIV infection"
+    ],
+    "implementation_notes": [
+      "Important for HIV surveillance and monitoring"
+    ],
+    "clinical_context": [
+      "HIV care and monitoring",
+      "Infectious disease management",
+      "Preventive care"
+    ]
+  },
+  "search_keywords": [
+    "asymptomatic HIV",
+    "Z21",
+    "HIV positive",
+    "HIV status",
+    "HIV infection",
+    "HIV monitoring"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "status_codes",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "outpatient",
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "HIV",
+      "asymptomatic",
+      "status",
+      "infection"
+    ]
+  },
+  "page_range_processed": "pages_93_to_96"
+}

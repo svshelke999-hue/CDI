@@ -1,0 +1,154 @@
+{
+  "guideline_id": "I.C.15.j",
+  "semantic_title": "Sepsis and Septic Shock Complicating Abortion, Pregnancy, Childbirth and Puerperium",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 15. Pregnancy, Childbirth, and the Puerperium > j. Sepsis and septic shock complicating abortion, pregnancy, childbirth and the puerperium",
+  "page_number": 67,
+  "content": {
+    "full_text": "When assigning a chapter 15 code for sepsis complicating abortion, pregnancy, childbirth, and the puerperium, a code for the specific type of infection should be assigned as an additional diagnosis. If severe sepsis is present, a code from subcategory R65.2, Severe sepsis, and code(s) for associated organ dysfunction(s) should also be assigned as additional diagnoses. (Evidence: pg no: 67, L41-L42)",
+    "summary": "Guidelines for coding sepsis complications in obstetric patients requiring additional infection and severity codes (Evidence: pg no: 67, L41-L42)",
+    "key_concepts": [
+      "Chapter 15 sepsis codes require additional infection codes (Evidence: pg no: 67, L41-L42)",
+      "Severe sepsis requires R65.2 coding (Evidence: pg no: 67, L42)",
+      "Organ dysfunction codes needed for severe sepsis (Evidence: pg no: 67, L42)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "obstetric_sepsis_additional_codes",
+        "rule_text": "Code for specific type of infection should be assigned as additional diagnosis (Evidence: pg no: 67, L41-L42)",
+        "explanation": "When using Chapter 15 sepsis codes, the causative organism or infection type must be coded separately (Evidence: pg no: 67, L41-L42)",
+        "importance": "critical",
+        "applies_to": "Chapter 15 sepsis codes",
+        "common_applications": [
+          "Sepsis complicating abortion",
+          "Sepsis in pregnancy",
+          "Puerperal sepsis"
+        ]
+      },
+      {
+        "rule_id": "severe_sepsis_obstetric",
+        "rule_text": "If severe sepsis is present, assign R65.2 and organ dysfunction codes (Evidence: pg no: 67, L42)",
+        "explanation": "Severe sepsis in obstetric patients requires additional coding for severity and associated organ dysfunction (Evidence: pg no: 67, L42)",
+        "importance": "critical",
+        "applies_to": "R65.2, organ dysfunction codes",
+        "common_applications": [
+          "Severe sepsis with organ failure",
+          "Septic shock in pregnancy"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Assign appropriate Chapter 15 sepsis code",
+      "Step 2: Add code for specific infection type",
+      "Step 3: If severe sepsis, add R65.2",
+      "Step 4: Add organ dysfunction codes if applicable"
+    ],
+    "related_terminology": [
+      "sepsis",
+      "septic shock",
+      "severe sepsis",
+      "organ dysfunction",
+      "obstetric sepsis"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "R65.2",
+        "description": "Severe sepsis subcategory (Evidence: pg no: 67, L42)",
+        "requirement": "Required for severe sepsis cases",
+        "usage_rules": [
+          "Use with organ dysfunction codes (Evidence: pg no: 67, L42)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Chapter 15 - Pregnancy, childbirth and the puerperium codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "pregnancy_severe_sepsis",
+      "scenario": "Pregnant patient with severe sepsis and acute kidney injury",
+      "documentation_example": "26-year-old female at 34 weeks gestation with severe sepsis due to E. coli, complicated by acute kidney injury",
+      "step_by_step": [
+        "Step 1: Assign Chapter 15 sepsis code",
+        "Step 2: Add E. coli infection code",
+        "Step 3: Add R65.2 for severe sepsis",
+        "Step 4: Add acute kidney injury code"
+      ],
+      "correct_coding": {
+        "primary_code": "O75.3",
+        "secondary_codes": [
+          "B96.20",
+          "R65.20",
+          "N17.9"
+        ],
+        "sequencing": "Obstetric code first, then infection, severity, and organ dysfunction",
+        "rationale": "Multiple coding required for complete sepsis documentation (Evidence: pg no: 67, L41-L42)"
+      },
+      "incorrect_coding": {
+        "code": "O75.3",
+        "codes": [
+          "O75.3 only"
+        ],
+        "rationale": "Missing infection type, severity, and organ dysfunction codes",
+        "common_mistake": "Using only the obstetric sepsis code without additional required codes"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Always add infection type code with Chapter 15 sepsis codes (Evidence: pg no: 67, L41-L42)"
+    ],
+    "best_practices": [
+      "Code all components: obstetric complication, infection, severity, organ dysfunction (Evidence: pg no: 67, L41-L42)"
+    ],
+    "common_mistakes": [
+      "Using only obstetric sepsis code without additional infection codes",
+      "Missing severe sepsis and organ dysfunction codes"
+    ],
+    "tips": [
+      "Think of sepsis coding as multi-component: cause, severity, effects"
+    ],
+    "implementation_notes": [
+      "Applies to abortion, pregnancy, childbirth, and puerperium"
+    ],
+    "clinical_context": [
+      "Sepsis is a serious complication requiring comprehensive coding"
+    ]
+  },
+  "search_keywords": [
+    "sepsis",
+    "septic shock",
+    "severe sepsis",
+    "pregnancy sepsis",
+    "obstetric sepsis",
+    "R65.2",
+    "organ dysfunction"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "pregnancy_complications",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "sepsis",
+      "severe_sepsis",
+      "pregnancy",
+      "multiple_coding",
+      "organ_dysfunction"
+    ]
+  },
+  "page_range_processed": "pages_66_to_69"
+}

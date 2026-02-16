@@ -1,0 +1,172 @@
+{
+  "guideline_id": "I.20",
+  "semantic_title": "Multiple Sites Coding Guidelines",
+  "section_path": "Section I > 20. Multiple Sites Coding",
+  "page_number": 19,
+  "content": {
+    "full_text": "The classification defines 'multiple' as involving two or more sites. Follow chapter-specific guidelines for assigning codes for 'multiple sites.' In the absence of chapter-specific guidelines, assign codes describing specified sites individually when documented. When the specified site(s) are not documented, assign the appropriate code for 'multiple sites.' (Evidence: pg no: 19, L35-L38)",
+    "summary": "Guidelines for coding conditions involving multiple anatomical sites, including when to use specific site codes versus multiple site codes (Evidence: pg no: 19, L35-L38)",
+    "key_concepts": [
+      "Multiple is defined as involving two or more sites (Evidence: pg no: 19, L36)",
+      "Chapter-specific guidelines take priority for multiple sites coding (Evidence: pg no: 19, L36-L37)",
+      "Individual site codes used when sites are documented (Evidence: pg no: 19, L37-L38)",
+      "Multiple sites codes used when specific sites not documented (Evidence: pg no: 19, L38)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "MULTIPLE_SITES_DEFINITION",
+        "rule_text": "The classification defines 'multiple' as involving two or more sites (Evidence: pg no: 19, L36)",
+        "explanation": "For coding purposes, multiple sites means any condition affecting two or more anatomical locations (Evidence: pg no: 19, L36)",
+        "importance": "critical",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Multi-site injuries",
+          "Systemic conditions affecting multiple organs"
+        ]
+      },
+      {
+        "rule_id": "CHAPTER_SPECIFIC_PRIORITY",
+        "rule_text": "Follow chapter-specific guidelines for assigning codes for 'multiple sites' (Evidence: pg no: 19, L36-L37)",
+        "explanation": "When available, chapter-specific guidelines override general multiple sites coding rules (Evidence: pg no: 19, L36-L37)",
+        "importance": "critical",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Injury coding",
+          "Disease-specific coding"
+        ]
+      },
+      {
+        "rule_id": "DOCUMENTED_SITES_INDIVIDUAL_CODING",
+        "rule_text": "In the absence of chapter-specific guidelines, assign codes describing specified sites individually when documented (Evidence: pg no: 19, L37-L38)",
+        "explanation": "When specific anatomical sites are documented and no chapter-specific guidance exists, code each site separately (Evidence: pg no: 19, L37-L38)",
+        "importance": "high",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Multiple documented injury sites",
+          "Multiple organ involvement"
+        ]
+      },
+      {
+        "rule_id": "UNDOCUMENTED_SITES_MULTIPLE_CODE",
+        "rule_text": "When the specified site(s) are not documented, assign the appropriate code for 'multiple sites' (Evidence: pg no: 19, L38)",
+        "explanation": "Use multiple sites codes when documentation does not specify individual anatomical locations (Evidence: pg no: 19, L38)",
+        "importance": "high",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Vague documentation",
+          "Systemic conditions without site specification"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if condition involves two or more sites",
+      "Step 2: Check for chapter-specific guidelines for multiple sites coding",
+      "Step 3: If chapter-specific guidelines exist, follow them",
+      "Step 4: If no chapter-specific guidelines, check if specific sites are documented",
+      "Step 5: If sites documented, assign individual site codes",
+      "Step 6: If sites not documented, assign multiple sites code"
+    ],
+    "related_terminology": [
+      "Multiple sites",
+      "Anatomical sites",
+      "Chapter-specific guidelines",
+      "Individual site coding",
+      "Site documentation"
+    ]
+  },
+  "code_references": {
+    "code_patterns": [
+      {
+        "pattern": "Multiple sites codes",
+        "description": "Codes designated for conditions affecting multiple anatomical sites (Evidence: pg no: 19, L38)",
+        "example": "Codes ending in .9 or designated as 'multiple sites'",
+        "explanation": "Used when specific sites are not documented or when chapter guidelines specify their use"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Multiple sites codes",
+      "Individual anatomical site codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C",
+        "title": "Chapter-Specific Coding Guidelines",
+        "relationship": "implements",
+        "explanation": "Multiple sites coding must follow chapter-specific guidelines when available"
+      }
+    ]
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "DOCUMENTED_MULTIPLE_SITES",
+      "scenario": "Patient has fractures of right radius and left tibia documented",
+      "documentation_example": "Fracture of right radius and fracture of left tibia",
+      "step_by_step": [
+        "Step 1: Identify that multiple sites are involved (two bones)",
+        "Step 2: Check chapter-specific guidelines for fracture coding",
+        "Step 3: Since specific sites are documented, assign individual codes",
+        "Step 4: Code each fracture separately"
+      ],
+      "correct_coding": {
+        "primary_code": "[Fracture code for right radius]",
+        "secondary_codes": [
+          "[Fracture code for left tibia]"
+        ],
+        "sequencing": "Based on chapter-specific sequencing rules",
+        "rationale": "Specific sites are documented, so individual site codes are assigned (Evidence: pg no: 19, L37-L38)"
+      }
+    },
+    {
+      "scenario_id": "UNDOCUMENTED_MULTIPLE_SITES",
+      "scenario": "Patient has multiple fractures but specific sites not documented",
+      "documentation_example": "Patient has multiple fractures",
+      "step_by_step": [
+        "Step 1: Identify that multiple sites are involved",
+        "Step 2: Note that specific sites are not documented",
+        "Step 3: Check for chapter-specific guidelines",
+        "Step 4: Assign appropriate multiple sites code"
+      ],
+      "correct_coding": {
+        "primary_code": "[Multiple fractures code]",
+        "secondary_codes": [],
+        "sequencing": "Based on chapter-specific sequencing rules",
+        "rationale": "Specific sites not documented, so multiple sites code is appropriate (Evidence: pg no: 19, L38)"
+      }
+    }
+  ],
+  "special_notes": {
+    "best_practices": [
+      "Always check for chapter-specific guidelines first (Evidence: pg no: 19, L36-L37)",
+      "Code individual sites when specifically documented (Evidence: pg no: 19, L37-L38)"
+    ],
+    "tips": [
+      "Multiple means two or more sites (Evidence: pg no: 19, L36)",
+      "Documentation quality determines coding approach (Evidence: pg no: 19, L37-L38)"
+    ]
+  },
+  "search_keywords": [
+    "multiple sites",
+    "anatomical sites",
+    "two or more sites",
+    "individual site coding",
+    "chapter-specific guidelines",
+    "site documentation"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "multiple_sites",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "multiple_sites",
+      "anatomical_coding",
+      "documentation"
+    ]
+  },
+  "page_range_processed": "pages_18_to_21"
+}

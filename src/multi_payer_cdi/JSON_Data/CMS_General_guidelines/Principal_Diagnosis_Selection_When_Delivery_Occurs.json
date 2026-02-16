@@ -1,0 +1,239 @@
+{
+  "guideline_id": "I.C.15.b.4",
+  "semantic_title": "Principal Diagnosis Selection When Delivery Occurs",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 15. Chapter 15: Pregnancy, Childbirth, and the Puerperium > b. Selection of OB Principal or First-listed Diagnosis > 4) When a delivery occurs",
+  "page_number": 65,
+  "content": {
+    "full_text": "When an obstetric patient is admitted and delivers during that admission, the condition that prompted the admission should be sequenced as the principal diagnosis. If multiple conditions prompted the admission, sequence the one most related to the delivery as the principal diagnosis. A code for any complication of the delivery should be assigned as an additional diagnosis. In cases of cesarean delivery, if the patient was admitted with a condition that resulted in the performance of a cesarean procedure, that condition should be selected as the principal diagnosis. If the reason for the admission was unrelated to the condition resulting in the cesarean delivery, the condition related to the reason for the admission should be selected as the principal diagnosis. (Evidence: pg no: 65, L63-L67)",
+    "summary": "Guidelines for selecting principal diagnosis when delivery occurs during admission (Evidence: pg no: 65, L63-L67)",
+    "key_concepts": [
+      "Admission condition as principal diagnosis (Evidence: pg no: 65, L64-L65)",
+      "Delivery-related condition priority (Evidence: pg no: 65, L65-L66)",
+      "Cesarean delivery considerations (Evidence: pg no: 65, L66-L67)",
+      "Delivery complications as additional diagnoses (Evidence: pg no: 65, L66)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.C.15.b.4.1",
+        "rule_text": "Condition prompting admission is principal diagnosis (Evidence: pg no: 65, L64-L65)",
+        "explanation": "When delivery occurs during admission, the condition that caused the admission should be the principal diagnosis (Evidence: pg no: 65, L64-L65)",
+        "importance": "critical",
+        "applies_to": "O00-O9A",
+        "common_applications": [
+          "Labor and delivery admissions",
+          "Pregnancy complications leading to delivery",
+          "Intrapartum care"
+        ]
+      },
+      {
+        "rule_id": "I.C.15.b.4.2",
+        "rule_text": "With multiple admission conditions, choose most delivery-related (Evidence: pg no: 65, L65-L66)",
+        "explanation": "When multiple conditions prompted admission, select the one most related to the delivery as principal (Evidence: pg no: 65, L65-L66)",
+        "importance": "high",
+        "applies_to": "O00-O9A",
+        "common_applications": [
+          "Complex labor cases",
+          "Multiple pregnancy complications",
+          "Complicated deliveries"
+        ]
+      },
+      {
+        "rule_id": "I.C.15.b.4.3",
+        "rule_text": "Delivery complications as additional diagnoses (Evidence: pg no: 65, L66)",
+        "explanation": "Any complications that occur during the delivery should be coded as additional diagnoses (Evidence: pg no: 65, L66)",
+        "importance": "high",
+        "applies_to": "O00-O9A",
+        "common_applications": [
+          "Intrapartum complications",
+          "Delivery complications",
+          "Labor complications"
+        ]
+      },
+      {
+        "rule_id": "I.C.15.b.4.4",
+        "rule_text": "Cesarean indication as principal diagnosis when related to admission (Evidence: pg no: 65, L66-L67)",
+        "explanation": "For cesarean delivery, if admission condition resulted in cesarean, that condition is principal diagnosis (Evidence: pg no: 65, L66-L67)",
+        "importance": "critical",
+        "applies_to": "O00-O9A",
+        "common_applications": [
+          "Cesarean deliveries",
+          "Failed labor progression",
+          "Fetal distress leading to cesarean"
+        ]
+      },
+      {
+        "rule_id": "I.C.15.b.4.5",
+        "rule_text": "Admission reason as principal when unrelated to cesarean indication (Evidence: pg no: 65, L67)",
+        "explanation": "If admission reason was unrelated to cesarean indication, use admission reason as principal diagnosis (Evidence: pg no: 65, L67)",
+        "importance": "high",
+        "applies_to": "O00-O9A",
+        "common_applications": [
+          "Scheduled cesarean deliveries",
+          "Elective cesarean sections",
+          "Unrelated admission complications"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify condition(s) that prompted admission",
+      "Step 2: If multiple conditions, select most delivery-related",
+      "Step 3: For cesarean delivery, determine if admission condition caused cesarean",
+      "Step 4: Code delivery complications as additional diagnoses"
+    ],
+    "related_terminology": [
+      "Principal diagnosis",
+      "Admission condition",
+      "Delivery complications",
+      "Cesarean delivery",
+      "Intrapartum complications"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "O00-O9A",
+        "description": "Pregnancy, Childbirth, and the Puerperium codes (Evidence: pg no: 65, L63-L67)",
+        "requirement": "Use for delivery encounters",
+        "usage_rules": [
+          "Admission condition as principal diagnosis (Evidence: pg no: 65, L64-L65)",
+          "Delivery complications as additional diagnoses (Evidence: pg no: 65, L66)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Labor and delivery codes",
+      "Pregnancy complication codes",
+      "Cesarean delivery codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.15.b.3",
+        "title": "Episodes when no delivery occurs",
+        "relationship": "related_to",
+        "explanation": "Contrasts with non-delivery encounter coding"
+      },
+      {
+        "guideline_id": "I.C.15.b.5",
+        "title": "Outcome of delivery",
+        "relationship": "builds_upon",
+        "explanation": "Delivery encounters require outcome codes"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "delivery_1",
+      "scenario": "Patient admitted in labor at term, develops shoulder dystocia during delivery",
+      "documentation_example": "Patient admitted in spontaneous labor at 39 weeks, normal progression until shoulder dystocia occurred during delivery, resolved with maneuvers",
+      "step_by_step": [
+        "Step 1: Identify admission reason as spontaneous labor",
+        "Step 2: Identify shoulder dystocia as delivery complication",
+        "Step 3: Assign labor code as principal, shoulder dystocia as additional"
+      ],
+      "correct_coding": {
+        "primary_code": "O80",
+        "secondary_codes": [
+          "O66.0",
+          "Z37.0"
+        ],
+        "sequencing": "Labor as principal, complications as additional",
+        "rationale": "Admission condition (labor) is principal, delivery complication (shoulder dystocia) is additional (Evidence: pg no: 65, L64-L66)"
+      },
+      "incorrect_coding": {
+        "code": "O66.0",
+        "codes": [
+          "O66.0"
+        ],
+        "rationale": "Shoulder dystocia was complication, not admission reason",
+        "common_mistake": "Using delivery complication as principal diagnosis"
+      }
+    },
+    {
+      "scenario_id": "cesarean_1",
+      "scenario": "Patient admitted for failed induction, cesarean performed for failure to progress",
+      "documentation_example": "Patient admitted for induction of labor at 41 weeks, failed to progress after 12 hours, cesarean section performed",
+      "step_by_step": [
+        "Step 1: Identify admission reason as failed induction",
+        "Step 2: Determine cesarean was result of admission condition",
+        "Step 3: Use failed induction as principal diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "O61.1",
+        "secondary_codes": [
+          "O10.82",
+          "Z37.0"
+        ],
+        "sequencing": "Failed induction as principal",
+        "rationale": "Admission condition that resulted in cesarean is principal diagnosis (Evidence: pg no: 65, L66-L67)"
+      },
+      "incorrect_coding": {
+        "code": "O82",
+        "codes": [
+          "O82"
+        ],
+        "rationale": "Should use specific indication for cesarean, not just delivery code",
+        "common_mistake": "Using generic cesarean code instead of specific indication"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Distinguish between admission conditions and delivery complications (Evidence: pg no: 65, L64-L66)"
+    ],
+    "best_practices": [
+      "Identify what prompted the admission (Evidence: pg no: 65, L64-L65)",
+      "Code all delivery complications as additional diagnoses (Evidence: pg no: 65, L66)",
+      "For cesarean delivery, determine relationship between admission and cesarean indication (Evidence: pg no: 65, L66-L67)"
+    ],
+    "common_mistakes": [
+      "Using delivery complications as principal diagnosis",
+      "Not considering admission reason for principal diagnosis selection"
+    ],
+    "tips": [
+      "Review admission documentation to identify initial reason for admission",
+      "Separate admission conditions from complications that develop during stay"
+    ],
+    "implementation_notes": [
+      "Requires careful review of admission and delivery documentation",
+      "May need clinical judgment for complex cases"
+    ],
+    "clinical_context": [
+      "Labor and delivery units",
+      "Intrapartum care",
+      "Cesarean deliveries",
+      "Complicated deliveries"
+    ]
+  },
+  "search_keywords": [
+    "delivery occurs",
+    "principal diagnosis",
+    "admission condition",
+    "cesarean delivery",
+    "delivery complications",
+    "labor and delivery"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "obstetric_coding",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "pregnancy",
+      "delivery",
+      "principal_diagnosis",
+      "cesarean",
+      "labor"
+    ]
+  },
+  "page_range_processed": "pages_63_to_66"
+}

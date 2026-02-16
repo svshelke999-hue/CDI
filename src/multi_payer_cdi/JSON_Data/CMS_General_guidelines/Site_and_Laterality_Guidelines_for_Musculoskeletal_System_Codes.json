@@ -1,0 +1,149 @@
+{
+  "guideline_id": "I.C.13.a",
+  "semantic_title": "Site and Laterality Guidelines for Musculoskeletal System Codes",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 13. Chapter 13: Diseases of the Musculoskeletal System and Connective Tissue > a. Site and laterality",
+  "page_number": 61,
+  "content": {
+    "full_text": "Most of the codes within Chapter 13 have site and laterality designations. The site represents the bone, joint or the muscle involved. (Evidence: pg no: 61, L25)",
+    "summary": "Chapter 13 codes include site and laterality designations representing specific bones, joints, or muscles (Evidence: pg no: 61, L25)",
+    "key_concepts": [
+      "Site designations (Evidence: pg no: 61, L25)",
+      "Laterality designations (Evidence: pg no: 61, L25)",
+      "Bone involvement (Evidence: pg no: 61, L25)",
+      "Joint involvement (Evidence: pg no: 61, L25)",
+      "Muscle involvement (Evidence: pg no: 61, L25)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "MSK_SITE_001",
+        "rule_text": "Most of the codes within Chapter 13 have site and laterality designations (Evidence: pg no: 61, L25)",
+        "explanation": "Chapter 13 codes are structured to include specific anatomical site and laterality information (Evidence: pg no: 61, L25)",
+        "importance": "critical",
+        "applies_to": "M00-M99",
+        "common_applications": [
+          "Musculoskeletal condition coding",
+          "Anatomical site specification"
+        ]
+      },
+      {
+        "rule_id": "MSK_SITE_002",
+        "rule_text": "The site represents the bone, joint or the muscle involved (Evidence: pg no: 61, L25)",
+        "explanation": "Site designation specifically identifies whether the condition affects bone, joint, or muscle structures (Evidence: pg no: 61, L25)",
+        "importance": "high",
+        "applies_to": "M00-M99",
+        "common_applications": [
+          "Anatomical structure identification",
+          "Site-specific coding"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify the musculoskeletal condition",
+      "Step 2: Determine the specific anatomical site (bone, joint, or muscle)",
+      "Step 3: Identify laterality (left, right, bilateral)",
+      "Step 4: Select appropriate code with site and laterality designations"
+    ],
+    "related_terminology": [
+      "Site designations",
+      "Laterality",
+      "Bone structures",
+      "Joint structures",
+      "Muscle structures"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "M00-M99",
+        "description": "Diseases of the Musculoskeletal System and Connective Tissue (Evidence: pg no: 61, L23)",
+        "requirement": "Include site and laterality designations",
+        "usage_rules": [
+          "Most codes have site and laterality designations (Evidence: pg no: 61, L25)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Chapter 13 musculoskeletal codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "MSK_SITE_SC001",
+      "scenario": "Patient with arthritis of left knee joint",
+      "documentation_example": "Osteoarthritis of left knee",
+      "step_by_step": [
+        "Step 1: Identify musculoskeletal condition (osteoarthritis)",
+        "Step 2: Determine site (knee joint)",
+        "Step 3: Identify laterality (left)",
+        "Step 4: Select appropriate M code with left knee designation"
+      ],
+      "correct_coding": {
+        "primary_code": "Appropriate M code for left knee osteoarthritis",
+        "secondary_codes": [],
+        "sequencing": "Based on encounter focus",
+        "rationale": "Code must include both site (knee) and laterality (left) designations (Evidence: pg no: 61, L25)"
+      },
+      "incorrect_coding": {
+        "code": "Unspecified site code",
+        "codes": [
+          "Bilateral code when only left affected"
+        ],
+        "rationale": "Must specify exact site and laterality when documented",
+        "common_mistake": "Using unspecified codes when specific site and laterality are documented"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Most Chapter 13 codes require site and laterality specification (Evidence: pg no: 61, L25)"
+    ],
+    "best_practices": [
+      "Always identify specific anatomical site and laterality (Evidence: pg no: 61, L25)",
+      "Distinguish between bone, joint, and muscle involvement (Evidence: pg no: 61, L25)"
+    ],
+    "common_mistakes": [
+      "Using unspecified codes when site and laterality are documented (Evidence: pg no: 61, L25)"
+    ],
+    "tips": [
+      "Review documentation carefully for anatomical site details (Evidence: pg no: 61, L25)"
+    ],
+    "implementation_notes": [
+      "Site and laterality are fundamental components of Chapter 13 coding"
+    ],
+    "clinical_context": [
+      "Musculoskeletal conditions often affect specific anatomical structures with distinct laterality"
+    ]
+  },
+  "search_keywords": [
+    "musculoskeletal site",
+    "laterality",
+    "bone joint muscle",
+    "Chapter 13 coding",
+    "anatomical site",
+    "M codes"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "musculoskeletal_system",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "site_laterality",
+      "musculoskeletal",
+      "anatomical_coding"
+    ]
+  },
+  "page_range_processed": "pages_60_to_63"
+}

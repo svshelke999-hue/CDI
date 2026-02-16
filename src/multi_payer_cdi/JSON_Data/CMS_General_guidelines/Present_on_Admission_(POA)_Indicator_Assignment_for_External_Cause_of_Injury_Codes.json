@@ -1,0 +1,269 @@
+{
+  "guideline_id": "POA.8",
+  "semantic_title": "Present on Admission (POA) Indicator Assignment for External Cause of Injury Codes",
+  "section_path": "Present on Admission Reporting Guidelines > External Cause of Injury Codes",
+  "page_number": 121,
+  "content": {
+    "full_text": "Assign 'Y' for any external cause code representing an external cause of morbidity that occurred prior to inpatient admission (e.g., patient fell out of bed at home, patient fell out of bed in emergency room prior to admission) Assign 'N' for any external cause code representing an external cause of morbidity that occurred during inpatient hospitalization (e.g., patient fell out of hospital bed during hospital stay, patient experienced an adverse reaction to a medication administered after inpatient admission). (Evidence: pg no: 121, L26-L27)",
+    "summary": "Guidelines for assigning POA indicators to external cause codes based on timing of the external cause event relative to admission (Evidence: pg no: 121, L26-L27)",
+    "key_concepts": [
+      "External cause timing relative to admission (Evidence: pg no: 121, L27)",
+      "Pre-admission external causes (Evidence: pg no: 121, L27)",
+      "Post-admission external causes (Evidence: pg no: 121, L27)",
+      "Hospital-acquired external causes (Evidence: pg no: 121, L27)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "POA.8.1",
+        "rule_text": "Assign 'Y' for any external cause code representing an external cause of morbidity that occurred prior to inpatient admission (Evidence: pg no: 121, L27)",
+        "explanation": "External cause codes receive POA indicator 'Y' when the external cause event happened before the patient was admitted to inpatient status (Evidence: pg no: 121, L27)",
+        "importance": "critical",
+        "applies_to": "external_cause_codes",
+        "common_applications": [
+          "Home accidents",
+          "Emergency room incidents prior to admission",
+          "Community-acquired injuries"
+        ]
+      },
+      {
+        "rule_id": "POA.8.2",
+        "rule_text": "Assign 'N' for any external cause code representing an external cause of morbidity that occurred during inpatient hospitalization (Evidence: pg no: 121, L27)",
+        "explanation": "External cause codes receive POA indicator 'N' when the external cause event happened after inpatient admission (Evidence: pg no: 121, L27)",
+        "importance": "critical",
+        "applies_to": "external_cause_codes",
+        "common_applications": [
+          "Hospital falls",
+          "Medication adverse reactions during stay",
+          "Hospital-acquired injuries"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify external cause code",
+      "Step 2: Determine timing of external cause event",
+      "Step 3: Compare timing to inpatient admission",
+      "Step 4: Assign 'Y' if external cause occurred before admission",
+      "Step 5: Assign 'N' if external cause occurred during hospitalization"
+    ],
+    "related_terminology": [
+      "External cause codes",
+      "External cause of morbidity",
+      "Inpatient admission",
+      "Hospital falls",
+      "Adverse reactions",
+      "Pre-admission events",
+      "Hospital-acquired conditions"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "External cause codes",
+      "External cause of morbidity codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "POA.8.S1",
+      "scenario": "Patient fell out of bed at home",
+      "documentation_example": "Patient fell out of bed at home, sustained hip fracture, admitted for treatment",
+      "step_by_step": [
+        "Step 1: Identify external cause as fall from bed",
+        "Step 2: Determine fall occurred at home before admission",
+        "Step 3: Assign POA indicator 'Y' to external cause code"
+      ],
+      "correct_coding": {
+        "primary_code": "Hip fracture code",
+        "secondary_codes": [
+          "External cause code for fall from bed at home"
+        ],
+        "sequencing": "External cause as secondary",
+        "rationale": "External cause occurred prior to inpatient admission (Evidence: pg no: 121, L27)"
+      },
+      "incorrect_coding": {
+        "code": "External cause code with POA 'N'",
+        "codes": [],
+        "rationale": "Would be incorrect since fall occurred before admission",
+        "common_mistake": "Assigning 'N' to pre-admission external causes"
+      }
+    },
+    {
+      "scenario_id": "POA.8.S2",
+      "scenario": "Patient fell out of bed in emergency room prior to admission",
+      "documentation_example": "Patient in ER for chest pain, fell out of bed while waiting, then admitted for both conditions",
+      "step_by_step": [
+        "Step 1: Identify external cause as fall from bed in ER",
+        "Step 2: Determine fall occurred before inpatient admission",
+        "Step 3: Assign POA indicator 'Y' to external cause code"
+      ],
+      "correct_coding": {
+        "primary_code": "Injury from fall code",
+        "secondary_codes": [
+          "External cause code for fall from bed"
+        ],
+        "sequencing": "External cause as secondary",
+        "rationale": "External cause occurred prior to inpatient admission even though in hospital (Evidence: pg no: 121, L27)"
+      },
+      "incorrect_coding": {
+        "code": "External cause code with POA 'N'",
+        "codes": [],
+        "rationale": "Would be incorrect since fall occurred before inpatient admission",
+        "common_mistake": "Confusing hospital location with inpatient admission timing"
+      }
+    },
+    {
+      "scenario_id": "POA.8.S3",
+      "scenario": "Patient fell out of hospital bed during hospital stay",
+      "documentation_example": "Patient admitted for pneumonia, fell out of bed on day 3, sustained contusion",
+      "step_by_step": [
+        "Step 1: Identify external cause as fall from hospital bed",
+        "Step 2: Determine fall occurred during inpatient hospitalization",
+        "Step 3: Assign POA indicator 'N' to external cause code"
+      ],
+      "correct_coding": {
+        "primary_code": "Pneumonia code",
+        "secondary_codes": [
+          "Contusion code",
+          "External cause code for fall from bed"
+        ],
+        "sequencing": "External cause as secondary",
+        "rationale": "External cause occurred during inpatient hospitalization (Evidence: pg no: 121, L27)"
+      },
+      "incorrect_coding": {
+        "code": "External cause code with POA 'Y'",
+        "codes": [],
+        "rationale": "Would be incorrect since fall occurred after admission",
+        "common_mistake": "Assigning 'Y' to hospital-acquired external causes"
+      }
+    },
+    {
+      "scenario_id": "POA.8.S4",
+      "scenario": "Patient experienced adverse reaction to medication administered after inpatient admission",
+      "documentation_example": "Patient admitted for surgery, developed allergic reaction to antibiotic given post-operatively",
+      "step_by_step": [
+        "Step 1: Identify external cause as adverse effect of medication",
+        "Step 2: Determine medication was administered after inpatient admission",
+        "Step 3: Assign POA indicator 'N' to external cause code"
+      ],
+      "correct_coding": {
+        "primary_code": "Surgical condition code",
+        "secondary_codes": [
+          "Allergic reaction code",
+          "External cause code for adverse effect"
+        ],
+        "sequencing": "External cause as secondary",
+        "rationale": "External cause occurred during inpatient hospitalization (Evidence: pg no: 121, L27)"
+      },
+      "incorrect_coding": {
+        "code": "External cause code with POA 'Y'",
+        "codes": [],
+        "rationale": "Would be incorrect since adverse effect occurred after admission",
+        "common_mistake": "Not recognizing post-admission medication effects as hospital-acquired"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "POA.8.E1",
+      "scenario": "Patient fell out of bed at home",
+      "code_example": "External cause code with POA 'Y'",
+      "breakdown": {
+        "location": "Home setting before admission (Evidence: pg no: 121, L27)",
+        "timing": "Prior to inpatient admission (Evidence: pg no: 121, L27)"
+      },
+      "rationale": "External cause occurred before inpatient admission (Evidence: pg no: 121, L27)"
+    },
+    {
+      "example_id": "POA.8.E2",
+      "scenario": "Patient fell out of bed in emergency room prior to admission",
+      "code_example": "External cause code with POA 'Y'",
+      "breakdown": {
+        "location": "Emergency room (Evidence: pg no: 121, L27)",
+        "timing": "Prior to inpatient admission (Evidence: pg no: 121, L27)"
+      },
+      "rationale": "External cause occurred before inpatient admission (Evidence: pg no: 121, L27)"
+    },
+    {
+      "example_id": "POA.8.E3",
+      "scenario": "Patient fell out of hospital bed during hospital stay",
+      "code_example": "External cause code with POA 'N'",
+      "breakdown": {
+        "location": "Hospital bed during stay (Evidence: pg no: 121, L27)",
+        "timing": "During inpatient hospitalization (Evidence: pg no: 121, L27)"
+      },
+      "rationale": "External cause occurred during inpatient hospitalization (Evidence: pg no: 121, L27)"
+    },
+    {
+      "example_id": "POA.8.E4",
+      "scenario": "Adverse reaction to medication administered after inpatient admission",
+      "code_example": "External cause code with POA 'N'",
+      "breakdown": {
+        "medication_timing": "Administered after admission (Evidence: pg no: 121, L27)",
+        "reaction_timing": "During inpatient hospitalization (Evidence: pg no: 121, L27)"
+      },
+      "rationale": "External cause occurred during inpatient hospitalization (Evidence: pg no: 121, L27)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Focus on timing of external cause event, not location (Evidence: pg no: 121, L27)",
+      "Hospital location does not automatically mean POA 'N' if before admission (Evidence: pg no: 121, L27)"
+    ],
+    "best_practices": [
+      "Clearly document timing of external cause events (Evidence: pg no: 121, L27)",
+      "Distinguish between pre-admission and post-admission events (Evidence: pg no: 121, L27)"
+    ],
+    "common_mistakes": [
+      "Confusing hospital location with inpatient admission timing (Evidence: pg no: 121, L27)",
+      "Not recognizing post-admission medication effects as hospital-acquired (Evidence: pg no: 121, L27)"
+    ],
+    "tips": [
+      "Compare external cause timing to inpatient admission time (Evidence: pg no: 121, L27)",
+      "Consider ER events as pre-admission if before inpatient status (Evidence: pg no: 121, L27)"
+    ],
+    "implementation_notes": [
+      "Applies to all external cause codes",
+      "Requires clear documentation of event timing"
+    ],
+    "clinical_context": [
+      "Hospital falls",
+      "Medication adverse effects",
+      "Pre-admission injuries"
+    ]
+  },
+  "search_keywords": [
+    "external cause codes",
+    "POA indicator",
+    "present on admission",
+    "external cause of morbidity",
+    "hospital falls",
+    "adverse reactions",
+    "pre-admission events",
+    "hospital-acquired conditions",
+    "inpatient admission timing"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "external_cause_codes",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "POA",
+      "external_cause",
+      "timing",
+      "hospital_acquired",
+      "pre_admission"
+    ]
+  },
+  "page_range_processed": "pages_120_to_121"
+}

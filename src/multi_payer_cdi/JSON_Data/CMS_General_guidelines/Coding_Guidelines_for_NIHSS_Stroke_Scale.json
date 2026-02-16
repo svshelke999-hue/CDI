@@ -1,0 +1,191 @@
+{
+  "guideline_id": "I.C.18.i",
+  "semantic_title": "Coding Guidelines for NIHSS Stroke Scale",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 18. Chapter 18: Symptoms, signs, and abnormal clinical and laboratory findings > i. NIHSS Stroke Scale",
+  "page_number": 77,
+  "content": {
+    "full_text": "The NIH stroke scale (NIHSS) codes (R29.7--) can be used in conjunction with acute stroke codes (I60-I63) to identify the patient's neurological status and the severity of the stroke. The stroke scale codes should be sequenced after the acute stroke diagnosis code(s). At a minimum, report the initial score documented. If desired, a facility may choose to capture multiple stroke scale scores. (Evidence: pg no: 77, L54-L56)",
+    "summary": "Guidelines for using NIH stroke scale (NIHSS) codes with acute stroke diagnoses, including sequencing and documentation requirements (Evidence: pg no: 77, L54-L56)",
+    "key_concepts": [
+      "NIHSS codes used with acute stroke codes (Evidence: pg no: 77, L54)",
+      "Neurological status identification (Evidence: pg no: 77, L54-L55)",
+      "Stroke severity documentation (Evidence: pg no: 77, L55)",
+      "Sequencing after stroke diagnosis (Evidence: pg no: 77, L55)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "NIHSS_conjunction_use",
+        "rule_text": "The NIH stroke scale (NIHSS) codes (R29.7--) can be used in conjunction with acute stroke codes (I60-I63) (Evidence: pg no: 77, L54)",
+        "explanation": "NIHSS codes supplement acute stroke diagnoses to provide neurological status and severity information (Evidence: pg no: 77, L54-L55)",
+        "importance": "high",
+        "applies_to": "R29.7--, I60-I63",
+        "common_applications": [
+          "Acute stroke with documented NIHSS",
+          "Stroke severity assessment"
+        ]
+      },
+      {
+        "rule_id": "NIHSS_sequencing",
+        "rule_text": "The stroke scale codes should be sequenced after the acute stroke diagnosis code(s) (Evidence: pg no: 77, L55)",
+        "explanation": "NIHSS codes are supplementary and follow the primary stroke diagnosis (Evidence: pg no: 77, L55)",
+        "importance": "high",
+        "applies_to": "R29.7--",
+        "common_applications": [
+          "Acute stroke coding",
+          "Stroke registry reporting"
+        ]
+      },
+      {
+        "rule_id": "minimum_score_reporting",
+        "rule_text": "At a minimum, report the initial score documented (Evidence: pg no: 77, L56)",
+        "explanation": "Initial NIHSS score must be reported when documented (Evidence: pg no: 77, L56)",
+        "importance": "high",
+        "applies_to": "R29.7--",
+        "common_applications": [
+          "Emergency department stroke evaluation",
+          "Initial stroke assessment"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify acute stroke diagnosis (I60-I63)",
+      "Step 2: Check for documented NIHSS score",
+      "Step 3: Code acute stroke diagnosis first",
+      "Step 4: Add appropriate NIHSS code after stroke diagnosis",
+      "Step 5: Include initial score at minimum"
+    ],
+    "related_terminology": [
+      "NIH stroke scale",
+      "NIHSS",
+      "acute stroke",
+      "neurological status",
+      "stroke severity",
+      "stroke scale"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "R29.7--",
+        "description": "NIH stroke scale (NIHSS) codes for neurological status and stroke severity (Evidence: pg no: 77, L54)",
+        "requirement": "Use in conjunction with acute stroke codes",
+        "usage_rules": [
+          "Sequence after acute stroke diagnosis codes (Evidence: pg no: 77, L55)",
+          "Report initial score at minimum (Evidence: pg no: 77, L56)"
+        ]
+      },
+      {
+        "range": "I60-I63",
+        "description": "Acute stroke codes used with NIHSS codes (Evidence: pg no: 77, L54)",
+        "requirement": "Primary diagnosis for stroke cases",
+        "usage_rules": [
+          "Sequence before NIHSS codes (Evidence: pg no: 77, L55)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "Acute stroke code + NIHSS code",
+        "description": "Standard pattern for stroke with documented NIHSS (Evidence: pg no: 77, L54-L55)",
+        "example": "I63.9 + R29.7xx",
+        "explanation": "Provides complete picture of stroke diagnosis and severity"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Acute stroke codes",
+      "NIH stroke scale codes",
+      "Neurological assessment codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.B.14",
+        "title": "NIHSS stroke scale documentation by clinicians other than patient's provider",
+        "relationship": "related_to",
+        "explanation": "Referenced for documentation requirements (Evidence: pg no: 77, L57)"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "acute_stroke_with_NIHSS",
+      "scenario": "Patient presents with acute ischemic stroke, NIHSS score documented",
+      "documentation_example": "Acute cerebral infarction, NIHSS score 15 on admission",
+      "step_by_step": [
+        "Step 1: Code the acute stroke diagnosis first",
+        "Step 2: Add appropriate NIHSS code based on score",
+        "Step 3: Ensure proper sequencing"
+      ],
+      "correct_coding": {
+        "primary_code": "I63.9",
+        "secondary_codes": [
+          "R29.715"
+        ],
+        "sequencing": "Stroke diagnosis first, then NIHSS code",
+        "rationale": "Follows required sequencing with stroke diagnosis before NIHSS code (Evidence: pg no: 77, L55)"
+      },
+      "incorrect_coding": {
+        "code": "R29.715 as primary",
+        "rationale": "NIHSS codes should be sequenced after stroke diagnosis",
+        "common_mistake": "Sequencing NIHSS code before stroke diagnosis"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "NIHSS codes must be sequenced after acute stroke diagnosis codes (Evidence: pg no: 77, L55)"
+    ],
+    "best_practices": [
+      "Report initial NIHSS score at minimum when documented (Evidence: pg no: 77, L56)",
+      "Use NIHSS codes to identify neurological status and stroke severity (Evidence: pg no: 77, L54-L55)"
+    ],
+    "common_mistakes": [
+      "Sequencing NIHSS codes before stroke diagnosis",
+      "Failing to report documented NIHSS scores"
+    ],
+    "tips": [
+      "Facilities may capture multiple stroke scale scores if desired (Evidence: pg no: 77, L56)"
+    ],
+    "implementation_notes": [
+      "Useful for stroke registries and quality reporting"
+    ],
+    "clinical_context": [
+      "Emergency department stroke evaluation",
+      "Acute stroke care",
+      "Neurological assessment",
+      "Stroke registry reporting"
+    ]
+  },
+  "search_keywords": [
+    "NIHSS",
+    "NIH stroke scale",
+    "R29.7",
+    "acute stroke",
+    "stroke severity",
+    "neurological status",
+    "stroke scale"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "symptoms_signs_abnormal_findings",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "emergency",
+      "stroke_centers"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "stroke",
+      "NIHSS",
+      "neurological_assessment",
+      "stroke_severity"
+    ]
+  },
+  "page_range_processed": "pages_75_to_78"
+}

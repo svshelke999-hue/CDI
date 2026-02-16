@@ -1,0 +1,218 @@
+{
+  "guideline_id": "I.C.6.b.1.a",
+  "semantic_title": "Category G89 Codes as Principal or First-Listed Diagnosis",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 6. Chapter 6: Diseases of the Nervous System > b. Pain - Category G89 > 1) General coding information > (a) Category G89 Codes as Principal or First-Listed Diagnosis",
+  "page_number": 46,
+  "content": {
+    "full_text": "Category G89 codes are acceptable as principal diagnosis or the first-listed code: • When pain control or pain management is the reason for the admission/encounter (e.g., a patient with displaced intervertebral disc, nerve impingement and severe back pain presents for injection of steroid into the spinal canal). The underlying cause of the pain should be reported as an additional diagnosis, if known. • When a patient is admitted for the insertion of a neurostimulator for pain control, assign the appropriate pain code as the principal or first-listed diagnosis. When an admission or encounter is for a procedure aimed at treating the underlying condition and a neurostimulator is inserted for pain control during the same admission/encounter, a code for the underlying condition should be assigned as the principal diagnosis and the appropriate pain code should be assigned as a secondary diagnosis. (Evidence: pg no: 46, L26-L33)",
+    "summary": "Specific circumstances when G89 codes can be used as principal or first-listed diagnosis, particularly for pain control encounters and neurostimulator procedures. (Evidence: pg no: 46, L26-L33)",
+    "key_concepts": [
+      "Pain control as reason for encounter (Evidence: pg no: 46, L28-L29)",
+      "Neurostimulator insertion coding (Evidence: pg no: 46, L32)",
+      "Underlying cause reporting (Evidence: pg no: 46, L30-L31)",
+      "Combined procedure coding rules (Evidence: pg no: 46, L32-L33)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "pain_control_principal",
+        "rule_text": "When pain control or pain management is the reason for the admission/encounter, Category G89 codes are acceptable as principal diagnosis or the first-listed code (Evidence: pg no: 46, L27-L28)",
+        "explanation": "G89 codes can be principal when the primary purpose of the encounter is managing or controlling pain (Evidence: pg no: 46, L27-L28)",
+        "importance": "high",
+        "applies_to": "G89",
+        "common_applications": [
+          "Pain management procedures",
+          "Pain control admissions"
+        ]
+      },
+      {
+        "rule_id": "neurostimulator_principal",
+        "rule_text": "When a patient is admitted for the insertion of a neurostimulator for pain control, assign the appropriate pain code as the principal or first-listed diagnosis (Evidence: pg no: 46, L32)",
+        "explanation": "For neurostimulator insertion specifically for pain control, the pain code becomes the principal diagnosis (Evidence: pg no: 46, L32)",
+        "importance": "high",
+        "applies_to": "G89",
+        "common_applications": [
+          "Neurostimulator insertion procedures",
+          "Pain control device implantation"
+        ]
+      },
+      {
+        "rule_id": "combined_procedure_sequencing",
+        "rule_text": "When an admission or encounter is for a procedure aimed at treating the underlying condition and a neurostimulator is inserted for pain control during the same admission/encounter, a code for the underlying condition should be assigned as the principal diagnosis and the appropriate pain code should be assigned as a secondary diagnosis (Evidence: pg no: 46, L32-L33)",
+        "explanation": "For combined procedures treating underlying condition plus neurostimulator insertion, underlying condition is principal and pain code is secondary (Evidence: pg no: 46, L32-L33)",
+        "importance": "high",
+        "applies_to": "G89",
+        "common_applications": [
+          "Combined surgical procedures",
+          "Underlying condition treatment with pain control"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine primary reason for encounter",
+      "Step 2: If pain control/management, use G89 as principal",
+      "Step 3: Report underlying cause as additional diagnosis if known",
+      "Step 4: For neurostimulator insertion alone, use pain code as principal",
+      "Step 5: For combined procedures, use underlying condition as principal, pain as secondary"
+    ],
+    "related_terminology": [
+      "Principal diagnosis",
+      "First-listed code",
+      "Pain control",
+      "Pain management",
+      "Neurostimulator",
+      "Additional diagnosis"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "G89",
+        "description": "Pain codes acceptable as principal diagnosis in specific circumstances (Evidence: pg no: 46, L27)",
+        "requirement": "Pain control or management must be reason for encounter",
+        "usage_rules": [
+          "Use as principal for pain control encounters (Evidence: pg no: 46, L27-L28)",
+          "Use as principal for neurostimulator insertion (Evidence: pg no: 46, L32)",
+          "Use as secondary for combined procedures (Evidence: pg no: 46, L32-L33)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "G89 - Pain, not elsewhere classified"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "steroid_injection_pain",
+      "scenario": "Patient with displaced disc and severe back pain presents for spinal steroid injection",
+      "documentation_example": "Patient with displaced L4-L5 disc, nerve impingement and severe back pain presents for epidural steroid injection for pain management",
+      "step_by_step": [
+        "Step 1: Identify reason for encounter is pain management",
+        "Step 2: Assign appropriate G89 code as principal",
+        "Step 3: Report underlying disc displacement as additional diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "G89.29 (Other chronic pain)",
+        "secondary_codes": [
+          "M51.26 (Other intervertebral disc displacement, lumbar region)"
+        ],
+        "sequencing": "Pain code principal, underlying cause secondary",
+        "rationale": "Pain control is reason for encounter (Evidence: pg no: 46, L28-L29)"
+      },
+      "incorrect_coding": {
+        "codes": [
+          "M51.26",
+          "G89.29"
+        ],
+        "rationale": "Should sequence pain code first when encounter is for pain management",
+        "common_mistake": "Not recognizing pain management as primary reason"
+      }
+    },
+    {
+      "scenario_id": "neurostimulator_insertion",
+      "scenario": "Patient admitted for neurostimulator insertion for chronic pain control",
+      "documentation_example": "Admission for spinal cord stimulator insertion for chronic intractable back pain",
+      "step_by_step": [
+        "Step 1: Identify procedure is neurostimulator insertion for pain control",
+        "Step 2: Assign pain code as principal diagnosis",
+        "Step 3: Report any underlying conditions as additional diagnoses"
+      ],
+      "correct_coding": {
+        "primary_code": "G89.29 (Other chronic pain)",
+        "secondary_codes": [],
+        "sequencing": "Pain code as principal diagnosis",
+        "rationale": "Neurostimulator insertion for pain control uses pain code as principal (Evidence: pg no: 46, L32)"
+      },
+      "incorrect_coding": {
+        "code": "Z45.42 (Encounter for adjustment of neurostimulator)",
+        "rationale": "This is insertion, not adjustment",
+        "common_mistake": "Using adjustment codes for insertion procedures"
+      }
+    }
+  ],
+  "procedure_links": [
+    {
+      "cpt_code": "62320",
+      "description": "Epidural steroid injection",
+      "relationship": "commonly_coded_with",
+      "context": "Pain management procedures",
+      "note": "Use G89 as principal when procedure is for pain control"
+    },
+    {
+      "cpt_code": "63650",
+      "description": "Neurostimulator electrode insertion",
+      "relationship": "commonly_coded_with",
+      "context": "Pain control device insertion",
+      "note": "Pain code as principal for neurostimulator insertion"
+    }
+  ],
+  "examples": [
+    {
+      "example_id": "pain_management_encounter",
+      "scenario": "Epidural injection for pain control",
+      "code_example": "G89.29",
+      "breakdown": {
+        "G89": "Pain, not elsewhere classified (Evidence: pg no: 46, L27)",
+        ".29": "Other chronic pain"
+      },
+      "rationale": "Pain control is primary reason for encounter (Evidence: pg no: 46, L28-L29)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Distinguish between pain control procedures and underlying condition treatment (Evidence: pg no: 46, L32-L33)"
+    ],
+    "best_practices": [
+      "Always report underlying cause as additional diagnosis when known (Evidence: pg no: 46, L30-L31)",
+      "Sequence codes based on primary purpose of encounter"
+    ],
+    "common_mistakes": [
+      "Not using G89 as principal for pain management encounters",
+      "Incorrect sequencing for combined procedures"
+    ],
+    "tips": [
+      "Pain management encounters allow G89 as principal diagnosis",
+      "Neurostimulator insertion for pain control uses pain code as principal"
+    ],
+    "implementation_notes": [
+      "Combined procedures have specific sequencing rules",
+      "Underlying conditions should still be reported when known"
+    ],
+    "clinical_context": [
+      "Pain management is a legitimate primary reason for healthcare encounters",
+      "Neurostimulators are specific pain control devices"
+    ]
+  },
+  "search_keywords": [
+    "G89",
+    "principal diagnosis",
+    "first-listed",
+    "pain control",
+    "pain management",
+    "neurostimulator",
+    "steroid injection",
+    "underlying cause"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "nervous_system_pain",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "pain",
+      "G89",
+      "principal_diagnosis",
+      "neurostimulator",
+      "pain_management"
+    ]
+  },
+  "page_range_processed": "pages_45_to_48"
+}

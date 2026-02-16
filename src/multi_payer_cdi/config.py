@@ -3,6 +3,7 @@ Configuration management for Multi-Payer CDI Compliance Checker.
 """
 
 import os
+from pathlib import Path
 from typing import Dict, Any
 
 
@@ -65,18 +66,24 @@ class Config:
     CHART_INPUT_DIR = os.getenv("CHART_INPUT_DIR", os.path.join(os.getcwd(), "data"))
     
     # JSON Guideline Data Paths (can be overridden with environment variables)
+    # Use relative paths for cloud deployment compatibility
+    _project_root = Path(__file__).parent.parent.parent.parent
     JSON_GUIDELINE_PATHS = {
         "anthem": os.getenv(
             "ANTHEM_JSON_PATH",
-            r"C:\Users\svshelke\OneDrive\CDI\Final_refact_CDI_copy - Copy - Backup - 10_19_amrishdemo\src\multi_payer_cdi\JSON_Data\extracted_procedures_single_call_Anthem_with_evidence_v2"
+            str(_project_root / "src" / "multi_payer_cdi" / "JSON_Data" / "extracted_procedures_single_call_Anthem_with_evidence_v2")
         ),
         "uhc": os.getenv(
             "UHC_JSON_PATH",
-            r"C:\Users\svshelke\OneDrive\CDI\Final_refact_CDI_copy - Copy - Backup - 10_19_amrishdemo\src\multi_payer_cdi\JSON_Data\extracted_procedures_single_call_UHC_with_evidence_v2"
+            str(_project_root / "src" / "multi_payer_cdi" / "JSON_Data" / "extracted_procedures_single_call_UHC_with_evidence_v2")
         ),
         "cigna": os.getenv(
             "CIGNA_JSON_PATH",
-            r"C:\Users\svshelke\OneDrive\CDI\Final_refact_CDI_copy - Copy - Backup - 10_19_amrishdemo\src\multi_payer_cdi\JSON_Data\extracted_procedures_single_call_cigna_with_evidence_v2"
+            str(_project_root / "src" / "multi_payer_cdi" / "JSON_Data" / "extracted_procedures_single_call_cigna_with_evidence_v2")
+        ),
+        "cms_general": os.getenv(
+            "CMS_GENERAL_JSON_PATH",
+            str(_project_root / "src" / "multi_payer_cdi" / "JSON_Data" / "CMS_General_guidelines")
         )
     }
     

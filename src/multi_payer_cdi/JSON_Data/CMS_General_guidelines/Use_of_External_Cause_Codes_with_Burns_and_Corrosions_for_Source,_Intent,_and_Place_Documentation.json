@@ -1,0 +1,191 @@
+{
+  "guideline_id": "I.C.19.d.9",
+  "semantic_title": "Use of External Cause Codes with Burns and Corrosions for Source, Intent, and Place Documentation",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 19. Injury, Poisoning, and Certain Other Consequences of External Causes > d. Burns and Corrosions > 9. Use of an external cause code with burns and corrosions",
+  "page_number": 82,
+  "content": {
+    "full_text": "An external cause code should be used with burns and corrosions to identify the source and intent of the burn, as well as the place where it occurred. (Evidence: pg no: 82, L30-L31)",
+    "summary": "Requirement to use external cause codes with burns and corrosions to document the source, intent, and place of occurrence (Evidence: pg no: 82, L30-L31)",
+    "key_concepts": [
+      "External cause code requirement (Evidence: pg no: 82, L30)",
+      "Source identification (Evidence: pg no: 82, L31)",
+      "Intent documentation (Evidence: pg no: 82, L31)",
+      "Place of occurrence (Evidence: pg no: 82, L31)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "EXTERNAL_CAUSE_REQUIRED",
+        "rule_text": "External cause codes should be used with burns and corrosions (Evidence: pg no: 82, L30-L31)",
+        "explanation": "External cause codes provide essential information about the source, intent, and location of the burn or corrosion incident (Evidence: pg no: 82, L30-L31)",
+        "importance": "high",
+        "applies_to": "all_burn_and_corrosion_codes",
+        "common_applications": [
+          "Injury prevention data",
+          "Public health surveillance",
+          "Legal documentation",
+          "Safety analysis"
+        ]
+      },
+      {
+        "rule_id": "THREE_COMPONENTS_EXTERNAL_CAUSE",
+        "rule_text": "External cause codes should identify source, intent, and place of occurrence (Evidence: pg no: 82, L31)",
+        "explanation": "Complete external cause coding requires documentation of what caused the burn (source), whether it was accidental or intentional (intent), and where it happened (place) (Evidence: pg no: 82, L31)",
+        "importance": "high",
+        "applies_to": "external_cause_codes",
+        "common_applications": [
+          "Accident analysis",
+          "Intentional injury tracking",
+          "Location-based prevention",
+          "Comprehensive injury documentation"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Assign appropriate burn or corrosion code",
+      "Step 2: Identify the source of the burn/corrosion",
+      "Step 3: Determine the intent (accidental, intentional, etc.)",
+      "Step 4: Document the place where it occurred",
+      "Step 5: Assign appropriate external cause codes for all three components"
+    ],
+    "related_terminology": [
+      "External cause codes",
+      "Source of injury",
+      "Intent of injury",
+      "Place of occurrence",
+      "Injury prevention",
+      "Public health surveillance"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "external_cause_codes",
+        "description": "External cause codes for burns and corrosions (Evidence: pg no: 82, L30-L31)",
+        "requirement": "Should be used with all burns and corrosions",
+        "usage_rules": [
+          "Identify source of burn/corrosion (Evidence: pg no: 82, L31)",
+          "Document intent of injury (Evidence: pg no: 82, L31)",
+          "Specify place of occurrence (Evidence: pg no: 82, L31)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "Source + Intent + Place",
+        "description": "Complete external cause coding pattern (Evidence: pg no: 82, L31)",
+        "example": "Source code + Intent code + Place code",
+        "explanation": "Comprehensive external cause documentation for burns and corrosions (Evidence: pg no: 82, L30-L31)"
+      }
+    ],
+    "code_categories_mentioned": [
+      "External cause codes for burns and corrosions"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "KITCHEN_BURN_ACCIDENT",
+      "scenario": "Patient burned by hot oil while cooking at home",
+      "documentation_example": "Second-degree burn right hand from hot cooking oil, accidental, occurred in home kitchen",
+      "step_by_step": [
+        "Step 1: Assign burn code for right hand, second degree",
+        "Step 2: Identify source: hot cooking oil",
+        "Step 3: Determine intent: accidental",
+        "Step 4: Identify place: home kitchen",
+        "Step 5: Assign appropriate external cause codes"
+      ],
+      "correct_coding": {
+        "primary_code": "Burn code for right hand, second degree",
+        "secondary_codes": [
+          "External cause code for hot oil",
+          "External cause code for accidental intent",
+          "External cause code for home"
+        ],
+        "sequencing": "Burn code first, followed by external cause codes",
+        "rationale": "External cause codes required to document source, intent, and place (Evidence: pg no: 82, L30-L31)"
+      },
+      "incorrect_coding": {
+        "code": "Only burn code without external cause",
+        "codes": [
+          "Burn code only"
+        ],
+        "rationale": "Missing required external cause documentation",
+        "common_mistake": "Omitting external cause codes for burns"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "COMPLETE_BURN_CODING",
+      "scenario": "Comprehensive burn coding with external causes",
+      "code_example": "Burn code + External cause codes",
+      "breakdown": {
+        "Primary code": "Specific burn or corrosion code (Evidence: pg no: 82, L30)",
+        "Source code": "External cause identifying what caused burn (Evidence: pg no: 82, L31)",
+        "Intent code": "External cause identifying intent (Evidence: pg no: 82, L31)",
+        "Place code": "External cause identifying location (Evidence: pg no: 82, L31)"
+      },
+      "rationale": "Complete documentation requires all components for comprehensive injury data (Evidence: pg no: 82, L30-L31)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not omit external cause codes for burns and corrosions (Evidence: pg no: 82, L30-L31)"
+    ],
+    "best_practices": [
+      "Always include source, intent, and place information (Evidence: pg no: 82, L31)",
+      "Use external cause codes for injury prevention data (Evidence: pg no: 82, L30-L31)"
+    ],
+    "common_mistakes": [
+      "Coding only the burn without external causes",
+      "Incomplete external cause documentation",
+      "Missing place of occurrence codes"
+    ],
+    "tips": [
+      "External cause codes support public health surveillance (Evidence: pg no: 82, L30-L31)",
+      "Complete external cause coding aids in injury prevention efforts"
+    ],
+    "implementation_notes": [
+      "Important for injury prevention programs",
+      "Required for comprehensive burn documentation",
+      "Supports public health data collection"
+    ],
+    "clinical_context": [
+      "Essential for burn prevention research",
+      "Important for safety program development",
+      "Critical for legal and insurance documentation"
+    ]
+  },
+  "search_keywords": [
+    "external cause codes",
+    "burn source",
+    "burn intent",
+    "place of occurrence",
+    "injury prevention",
+    "burn documentation"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "burns_and_corrosions",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "burns",
+      "corrosions",
+      "external_cause",
+      "source",
+      "intent",
+      "place"
+    ]
+  },
+  "page_range_processed": "pages_81_to_84"
+}

@@ -1,0 +1,147 @@
+{
+  "guideline_id": "I.C.2.l.1",
+  "semantic_title": "Sequencing Guidelines for Encounter for Treatment of Primary Malignancy",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 2. Chapter 2: Neoplasms > l. Sequencing of neoplasm codes > 1) Encounter for treatment of primary malignancy",
+  "page_number": 37,
+  "content": {
+    "full_text": "If the reason for the encounter is for treatment of a primary malignancy, assign the malignancy as the principal/first-listed diagnosis. The primary site is to be sequenced first, followed by any metastatic sites. (Evidence: pg no: 37, L25-L28)",
+    "summary": "Guidelines for sequencing codes when treating primary malignancy with metastases (Evidence: pg no: 37, L25-L28)",
+    "key_concepts": [
+      "Primary malignancy as principal diagnosis (Evidence: pg no: 37, L26-L27)",
+      "Primary site sequenced first (Evidence: pg no: 37, L27-L28)",
+      "Metastatic sites follow primary site (Evidence: pg no: 37, L28)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "primary_malignancy_sequencing",
+        "rule_text": "Assign the malignancy as the principal/first-listed diagnosis when encounter is for treatment of primary malignancy (Evidence: pg no: 37, L26-L27)",
+        "explanation": "When the primary purpose of the encounter is to treat the primary malignancy, that malignancy code takes precedence in sequencing (Evidence: pg no: 37, L25-L27)",
+        "importance": "critical",
+        "applies_to": "all primary malignancy codes",
+        "common_applications": [
+          "Chemotherapy for primary tumor",
+          "Radiation therapy for primary site"
+        ]
+      },
+      {
+        "rule_id": "metastatic_site_sequencing",
+        "rule_text": "The primary site is to be sequenced first, followed by any metastatic sites (Evidence: pg no: 37, L27-L28)",
+        "explanation": "Even when metastases are present, the primary site maintains sequencing priority when treatment is directed at the primary malignancy (Evidence: pg no: 37, L27-L28)",
+        "importance": "high",
+        "applies_to": "primary malignancy with metastases",
+        "common_applications": [
+          "Primary lung cancer with liver metastases",
+          "Primary breast cancer with bone metastases"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify that encounter is for treatment of primary malignancy",
+      "Step 2: Assign primary malignancy as principal/first-listed diagnosis",
+      "Step 3: Sequence primary site first",
+      "Step 4: Add any metastatic sites as additional diagnoses"
+    ],
+    "related_terminology": [
+      "Primary malignancy",
+      "Principal diagnosis",
+      "First-listed diagnosis",
+      "Metastatic sites",
+      "Sequencing"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "C00-C96",
+        "description": "Malignant neoplasms (Evidence: pg no: 37, L25-L28)",
+        "requirement": "Primary site sequenced first",
+        "usage_rules": [
+          "Primary malignancy as principal diagnosis (Evidence: pg no: 37, L26-L27)",
+          "Metastatic sites follow primary site (Evidence: pg no: 37, L28)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Primary malignancy codes",
+      "Metastatic site codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "primary_malignancy_treatment",
+      "scenario": "Patient admitted for chemotherapy for primary lung cancer with liver metastases",
+      "documentation_example": "Admission for chemotherapy treatment of primary lung adenocarcinoma with hepatic metastases",
+      "step_by_step": [
+        "Step 1: Identify primary malignancy (lung adenocarcinoma)",
+        "Step 2: Assign primary lung cancer as principal diagnosis",
+        "Step 3: Add liver metastases as secondary diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "C78.xx (primary lung adenocarcinoma code)",
+        "secondary_codes": [
+          "C78.02 (secondary malignant neoplasm of liver)"
+        ],
+        "sequencing": "Primary site first, then metastatic sites",
+        "rationale": "Treatment is directed at primary malignancy (Evidence: pg no: 37, L25-L28)"
+      },
+      "incorrect_coding": {
+        "code": "C78.02",
+        "codes": [
+          "C78.02 as principal diagnosis"
+        ],
+        "rationale": "Liver metastases should not be principal when treating primary malignancy",
+        "common_mistake": "Sequencing metastatic site first when treatment is for primary malignancy"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not sequence metastatic sites first when treating primary malignancy (Evidence: pg no: 37, L27-L28)"
+    ],
+    "best_practices": [
+      "Always identify the focus of treatment to determine sequencing (Evidence: pg no: 37, L25-L26)"
+    ],
+    "common_mistakes": [
+      "Sequencing metastatic sites before primary site when treating primary malignancy (Evidence: pg no: 37, L27-L28)"
+    ],
+    "tips": [
+      "Primary site always comes first when treating primary malignancy (Evidence: pg no: 37, L27-L28)"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Applies to chemotherapy, radiation therapy, and surgical treatment of primary malignancies"
+    ]
+  },
+  "search_keywords": [
+    "primary malignancy",
+    "sequencing",
+    "principal diagnosis",
+    "metastatic sites",
+    "treatment sequencing"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "neoplasm_sequencing",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "neoplasms",
+      "sequencing",
+      "primary_malignancy",
+      "metastases"
+    ]
+  },
+  "page_range_processed": "pages_36_to_39"
+}

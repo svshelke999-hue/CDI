@@ -1,0 +1,215 @@
+{
+  "guideline_id": "I.C.19.e.c",
+  "semantic_title": "Coding Guidelines for Underdosing of Medications",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 19. Chapter 19: Injury, poisoning, and certain other consequences of external causes > e. Adverse Effects, Poisoning, Underdosing and Toxic Effects > (c) Underdosing",
+  "page_number": 84,
+  "content": {
+    "full_text": "Underdosing refers to taking less of a medication than is prescribed by a provider or a manufacturer's instruction. Discontinuing the use of a prescribed medication on the patient's own initiative (not directed by the patient's provider) is also classified as an underdosing. For underdosing, assign the code from categories T36-T50 (fifth or sixth character \"6\"). Documentation of a change in the patient's condition is not required in order to assign an underdosing code. Documentation that the patient is taking less of a medication than is prescribed or discontinued the prescribed medication is sufficient for code assignment. Codes for underdosing should never be assigned as principal or first-listed codes. If a patient has a relapse or exacerbation of the medical condition for which the drug is prescribed because of the reduction in dose, then the medical condition itself should be coded. Noncompliance (Z91.12-, Z91.13-, Z91.14- and Z91.A4-) or complication of care (Y63.6-Y63.9) codes are to be used with an underdosing code to indicate intent, if known. (Evidence: pg no: 84-85, L8-L16)",
+    "summary": "Underdosing includes taking less medication than prescribed or discontinuing medication without provider direction, coded with T36-T50 using character 6 (Evidence: pg no: 84-85, L8-L16)",
+    "key_concepts": [
+      "Underdosing definition (Evidence: pg no: 84, L8-L10)",
+      "Self-discontinuation classification (Evidence: pg no: 84, L10-L11)",
+      "T36-T50 character 6 coding (Evidence: pg no: 84, L11)",
+      "Documentation requirements (Evidence: pg no: 84, L12-L13)",
+      "Sequencing rules (Evidence: pg no: 84, L13-L14)",
+      "Noncompliance codes (Evidence: pg no: 84-85, L14-L16)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "underdosing_definition_rule",
+        "rule_text": "Underdosing refers to taking less of a medication than is prescribed by a provider or a manufacturer's instruction (Evidence: pg no: 84, L8-L10)",
+        "explanation": "Underdosing encompasses both taking reduced amounts of prescribed medication and completely discontinuing medication without provider direction (Evidence: pg no: 84, L8-L11)",
+        "importance": "critical",
+        "applies_to": "T36-T50",
+        "common_applications": [
+          "Patient taking half prescribed dose",
+          "Patient stopping medication early"
+        ]
+      },
+      {
+        "rule_id": "underdosing_character_rule",
+        "rule_text": "For underdosing, assign the code from categories T36-T50 (fifth or sixth character \"6\") (Evidence: pg no: 84, L11)",
+        "explanation": "Underdosing codes use the specific character 6 in the fifth or sixth position of T36-T50 codes (Evidence: pg no: 84, L11)",
+        "importance": "critical",
+        "applies_to": "T36-T50",
+        "common_applications": [
+          "All underdosing scenarios"
+        ]
+      },
+      {
+        "rule_id": "underdosing_documentation_rule",
+        "rule_text": "Documentation of a change in the patient's condition is not required in order to assign an underdosing code (Evidence: pg no: 84, L12)",
+        "explanation": "Underdosing can be coded based solely on documentation of reduced medication intake, without requiring evidence of clinical consequences (Evidence: pg no: 84, L12-L13)",
+        "importance": "high",
+        "applies_to": "T36-T50",
+        "common_applications": [
+          "Routine medication reconciliation findings"
+        ]
+      },
+      {
+        "rule_id": "underdosing_sequencing_rule",
+        "rule_text": "Codes for underdosing should never be assigned as principal or first-listed codes (Evidence: pg no: 84, L13-L14)",
+        "explanation": "Underdosing codes are always secondary codes and cannot be used as the primary reason for encounter (Evidence: pg no: 84, L13-L14)",
+        "importance": "critical",
+        "applies_to": "T36-T50",
+        "common_applications": [
+          "All underdosing coding scenarios"
+        ]
+      },
+      {
+        "rule_id": "underdosing_condition_rule",
+        "rule_text": "If a patient has a relapse or exacerbation of the medical condition for which the drug is prescribed because of the reduction in dose, then the medical condition itself should be coded (Evidence: pg no: 84, L13-L15)",
+        "explanation": "When underdosing results in worsening of the underlying condition, code the medical condition as primary with underdosing as secondary (Evidence: pg no: 84, L13-L15)",
+        "importance": "high",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Seizure recurrence due to reduced anticonvulsant",
+          "Hypertensive crisis due to missed antihypertensive"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify if patient took less medication than prescribed or discontinued medication",
+      "Step 2: Assign appropriate T36-T50 code with character 6",
+      "Step 3: Determine primary condition (never use underdosing as primary)",
+      "Step 4: Add noncompliance or complication of care codes if intent known",
+      "Step 5: Code any resulting medical condition exacerbation as primary"
+    ],
+    "related_terminology": [
+      "Underdosing",
+      "Medication noncompliance",
+      "Self-discontinuation",
+      "Dose reduction",
+      "Medication adherence"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "T36-T50",
+        "description": "Poisoning by, adverse effects of and underdosing of drugs, medicaments and biological substances (Evidence: pg no: 84, L11)",
+        "requirement": "Use character 6 for underdosing",
+        "usage_rules": [
+          "Never assign as principal or first-listed codes (Evidence: pg no: 84, L13-L14)",
+          "Use fifth or sixth character \"6\" (Evidence: pg no: 84, L11)"
+        ]
+      },
+      {
+        "range": "Z91.12-, Z91.13-, Z91.14-, Z91.A4-",
+        "description": "Noncompliance codes (Evidence: pg no: 84-85, L14-L16)",
+        "requirement": "Use with underdosing codes to indicate intent",
+        "usage_rules": [
+          "Use when intent is known (Evidence: pg no: 84-85, L16)"
+        ]
+      },
+      {
+        "range": "Y63.6-Y63.9",
+        "description": "Complication of care codes (Evidence: pg no: 84-85, L16)",
+        "requirement": "Use with underdosing codes to indicate intent",
+        "usage_rules": [
+          "Use when intent is known (Evidence: pg no: 84-85, L16)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "T36-T50 with character 6",
+        "description": "Underdosing codes use character 6 in fifth or sixth position (Evidence: pg no: 84, L11)",
+        "example": "T36.0X6A",
+        "explanation": "Character 6 specifically indicates underdosing"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Underdosing codes",
+      "Noncompliance codes",
+      "Complication of care codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "underdosing_scenario_1",
+      "scenario": "Patient with diabetes stops taking insulin without provider direction, develops diabetic ketoacidosis",
+      "documentation_example": "Patient with Type 1 diabetes discontinued insulin injections 3 days ago without consulting physician, now presents with DKA",
+      "step_by_step": [
+        "Step 1: Identify insulin discontinuation as underdosing",
+        "Step 2: Code DKA as primary condition",
+        "Step 3: Add underdosing code as secondary",
+        "Step 4: Add noncompliance code if appropriate"
+      ],
+      "correct_coding": {
+        "primary_code": "E10.10",
+        "secondary_codes": [
+          "T38.3X6A",
+          "Z91.120"
+        ],
+        "sequencing": "Medical condition first, underdosing second, noncompliance third",
+        "rationale": "Underdosing never principal, medical condition exacerbation coded first (Evidence: pg no: 84, L13-L15)"
+      },
+      "incorrect_coding": {
+        "code": "T38.3X6A",
+        "codes": [
+          "T38.3X6A"
+        ],
+        "rationale": "Cannot use underdosing as principal diagnosis",
+        "common_mistake": "Using underdosing code as primary diagnosis"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Never assign underdosing codes as principal or first-listed codes (Evidence: pg no: 84, L13-L14)"
+    ],
+    "best_practices": [
+      "Document medication adherence issues clearly (Evidence: pg no: 84, L12-L13)",
+      "Always look for resulting medical condition exacerbations (Evidence: pg no: 84, L13-L15)"
+    ],
+    "common_mistakes": [
+      "Using underdosing codes as primary diagnosis (Evidence: pg no: 84, L13-L14)",
+      "Not coding resulting medical condition exacerbations (Evidence: pg no: 84, L13-L15)"
+    ],
+    "tips": [
+      "Documentation of condition change not required for underdosing code assignment (Evidence: pg no: 84, L12)",
+      "Use noncompliance codes when intent is documented (Evidence: pg no: 84-85, L14-L16)"
+    ],
+    "implementation_notes": [
+      "Requires careful medication reconciliation documentation",
+      "Consider patient education opportunities"
+    ],
+    "clinical_context": [
+      "Common in chronic disease management",
+      "Frequent cause of treatment failures"
+    ]
+  },
+  "search_keywords": [
+    "underdosing",
+    "medication noncompliance",
+    "self-discontinuation",
+    "dose reduction",
+    "T36-T50 character 6",
+    "medication adherence"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "poisoning_and_adverse_effects",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "underdosing",
+      "noncompliance",
+      "T36-T50",
+      "medication_adherence"
+    ]
+  },
+  "page_range_processed": "pages_84_to_87"
+}

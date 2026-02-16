@@ -1,0 +1,189 @@
+{
+  "guideline_id": "I.C.15.b.3",
+  "semantic_title": "Episodes When No Delivery Occurs - Principal Diagnosis Selection",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 15. Chapter 15: Pregnancy, Childbirth, and the Puerperium > b. Selection of OB Principal or First-listed Diagnosis > 3) Episodes when no delivery occurs",
+  "page_number": 65,
+  "content": {
+    "full_text": "In episodes when no delivery occurs, the principal diagnosis should correspond to the principal complication of the pregnancy which necessitated the encounter. Should more than one complication exist, all of which are treated or monitored, any of the complication codes may be sequenced first. (Evidence: pg no: 65, L61-L62)",
+    "summary": "Guidelines for selecting principal diagnosis in pregnancy encounters without delivery (Evidence: pg no: 65, L61-L62)",
+    "key_concepts": [
+      "Principal complication identification (Evidence: pg no: 65, L61-L62)",
+      "Multiple complication sequencing (Evidence: pg no: 65, L62)",
+      "Encounter necessity determination (Evidence: pg no: 65, L61-L62)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.C.15.b.3.1",
+        "rule_text": "Principal diagnosis should be the principal complication necessitating encounter (Evidence: pg no: 65, L61-L62)",
+        "explanation": "When no delivery occurs, select the main pregnancy complication that prompted the encounter as principal diagnosis (Evidence: pg no: 65, L61-L62)",
+        "importance": "critical",
+        "applies_to": "O00-O9A",
+        "common_applications": [
+          "Antepartum hospitalizations",
+          "Emergency department visits during pregnancy",
+          "Pregnancy complication management"
+        ]
+      },
+      {
+        "rule_id": "I.C.15.b.3.2",
+        "rule_text": "With multiple complications, any treated/monitored complication may be sequenced first (Evidence: pg no: 65, L62)",
+        "explanation": "When multiple complications are present and all are treated or monitored, any can be the principal diagnosis (Evidence: pg no: 65, L62)",
+        "importance": "high",
+        "applies_to": "O00-O9A",
+        "common_applications": [
+          "Complex pregnancy cases",
+          "Multiple pregnancy complications",
+          "Comprehensive pregnancy management"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Confirm no delivery occurred during encounter",
+      "Step 2: Identify all pregnancy complications present",
+      "Step 3: Determine which complication necessitated the encounter",
+      "Step 4: If multiple complications treated/monitored, select any as principal"
+    ],
+    "related_terminology": [
+      "Principal diagnosis",
+      "Principal complication",
+      "Pregnancy complications",
+      "Encounter necessity",
+      "Multiple complications"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "O00-O9A",
+        "description": "Pregnancy, Childbirth, and the Puerperium codes (Evidence: pg no: 65, L61-L62)",
+        "requirement": "Use for pregnancy complications without delivery",
+        "usage_rules": [
+          "Principal complication as principal diagnosis (Evidence: pg no: 65, L61-L62)",
+          "Any treated complication can be first with multiple complications (Evidence: pg no: 65, L62)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Pregnancy complication codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.15.b.4",
+        "title": "When a delivery occurs",
+        "relationship": "related_to",
+        "explanation": "Contrasts with delivery encounter coding guidelines"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "no_delivery_1",
+      "scenario": "Patient admitted for severe preeclampsia at 34 weeks, managed conservatively, discharged without delivery",
+      "documentation_example": "34-week gestation, admitted for severe preeclampsia with proteinuria, managed with bed rest and monitoring, discharged home without delivery",
+      "step_by_step": [
+        "Step 1: Confirm no delivery occurred",
+        "Step 2: Identify severe preeclampsia as principal complication",
+        "Step 3: Assign O14.13 as principal diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "O14.13",
+        "secondary_codes": [
+          "Z3A.34"
+        ],
+        "sequencing": "Principal diagnosis",
+        "rationale": "Severe preeclampsia was the principal complication necessitating admission (Evidence: pg no: 65, L61-L62)"
+      },
+      "incorrect_coding": {
+        "code": "O09.893",
+        "codes": [
+          "O09.893"
+        ],
+        "rationale": "Should use specific complication code, not supervision code",
+        "common_mistake": "Using supervision codes instead of specific complication codes"
+      }
+    },
+    {
+      "scenario_id": "no_delivery_2",
+      "scenario": "Patient with gestational diabetes and mild preeclampsia, both conditions monitored during admission",
+      "documentation_example": "32-week gestation, admitted for management of gestational diabetes and mild preeclampsia, both conditions monitored and treated",
+      "step_by_step": [
+        "Step 1: Confirm no delivery occurred",
+        "Step 2: Identify both gestational diabetes and preeclampsia as treated complications",
+        "Step 3: Either complication can be sequenced as principal diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "O24.410",
+        "secondary_codes": [
+          "O14.03",
+          "Z3A.32"
+        ],
+        "sequencing": "Either complication can be principal",
+        "rationale": "Multiple complications treated allows any to be sequenced first (Evidence: pg no: 65, L62)"
+      },
+      "incorrect_coding": {
+        "code": "",
+        "codes": [],
+        "rationale": "",
+        "common_mistake": "Trying to determine single 'most important' complication when multiple are treated"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Only applies to encounters where no delivery occurs (Evidence: pg no: 65, L61)"
+    ],
+    "best_practices": [
+      "Identify the complication that necessitated the encounter (Evidence: pg no: 65, L61-L62)",
+      "Document all complications that are treated or monitored"
+    ],
+    "common_mistakes": [
+      "Using supervision codes instead of specific complication codes",
+      "Difficulty selecting principal diagnosis with multiple complications"
+    ],
+    "tips": [
+      "Focus on why the patient sought care or was admitted",
+      "With multiple complications, any treated condition can be principal"
+    ],
+    "implementation_notes": [
+      "Requires clinical judgment to identify principal complication",
+      "Documentation should support complication selection"
+    ],
+    "clinical_context": [
+      "Antepartum hospitalizations",
+      "Pregnancy complication management",
+      "Emergency obstetric care"
+    ]
+  },
+  "search_keywords": [
+    "no delivery",
+    "principal diagnosis",
+    "pregnancy complications",
+    "antepartum",
+    "multiple complications",
+    "encounter necessity"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "obstetric_coding",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "pregnancy",
+      "complications",
+      "principal_diagnosis",
+      "no_delivery"
+    ]
+  },
+  "page_range_processed": "pages_63_to_66"
+}

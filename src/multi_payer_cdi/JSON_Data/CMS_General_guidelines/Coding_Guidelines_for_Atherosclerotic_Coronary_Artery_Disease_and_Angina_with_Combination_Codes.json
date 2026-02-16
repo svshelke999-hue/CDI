@@ -1,0 +1,199 @@
+{
+  "guideline_id": "I.C.9.b",
+  "semantic_title": "Coding Guidelines for Atherosclerotic Coronary Artery Disease and Angina with Combination Codes",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 9. Diseases of the Circulatory System > b. Atherosclerotic Coronary Artery Disease and Angina",
+  "page_number": 52,
+  "content": {
+    "full_text": "ICD-10-CM has combination codes for atherosclerotic heart disease with angina pectoris. The subcategories for these codes are I25.11, Atherosclerotic heart disease of native coronary artery with angina pectoris and I25.7, Atherosclerosis of coronary artery bypass graft(s) and coronary artery of transplanted heart with angina pectoris. When using one of these combination codes it is not necessary to use an additional code for angina pectoris. A causal relationship can be assumed in a patient with both atherosclerosis and angina pectoris, unless the documentation indicates the angina is due to something other than the atherosclerosis. If a patient with coronary artery disease is admitted due to an acute myocardial infarction (AMI), the AMI should be sequenced before the coronary artery disease. (Evidence: pg no: 52-53, L50-L57)",
+    "summary": "Guidelines for using combination codes for atherosclerotic heart disease with angina and sequencing rules with AMI (Evidence: pg no: 52-53, L50-L57)",
+    "key_concepts": [
+      "Combination codes for atherosclerotic heart disease with angina (Evidence: pg no: 52, L50-L52)",
+      "Subcategories I25.11 and I25.7 (Evidence: pg no: 52, L51-L52)",
+      "No additional angina code needed (Evidence: pg no: 53, L55-L56)",
+      "Assumed causal relationship (Evidence: pg no: 53, L56-L57)",
+      "AMI sequencing priority (Evidence: pg no: 53, L57)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "CAD_ANGINA_001",
+        "rule_text": "Use combination codes I25.11 or I25.7 for atherosclerotic heart disease with angina (Evidence: pg no: 52, L51-L52)",
+        "explanation": "ICD-10-CM provides specific combination codes that include both atherosclerotic heart disease and angina pectoris in single codes (Evidence: pg no: 52, L50-L52)",
+        "importance": "critical",
+        "applies_to": "I25.11, I25.7",
+        "common_applications": [
+          "Native coronary artery disease with angina",
+          "Bypass graft disease with angina"
+        ]
+      },
+      {
+        "rule_id": "CAD_ANGINA_002",
+        "rule_text": "Do not use additional angina code with combination codes (Evidence: pg no: 53, L55-L56)",
+        "explanation": "When using combination codes I25.11 or I25.7, it is not necessary to assign an additional code for angina pectoris (Evidence: pg no: 53, L55-L56)",
+        "importance": "high",
+        "applies_to": "I25.11, I25.7",
+        "common_applications": [
+          "Avoiding duplicate coding",
+          "Proper combination code usage"
+        ]
+      },
+      {
+        "rule_id": "CAD_ANGINA_003",
+        "rule_text": "Assume causal relationship unless documented otherwise (Evidence: pg no: 53, L56-L57)",
+        "explanation": "A causal relationship can be assumed between atherosclerosis and angina pectoris unless documentation indicates the angina is due to something other than atherosclerosis (Evidence: pg no: 53, L56-L57)",
+        "importance": "high",
+        "applies_to": "I25.11, I25.7",
+        "common_applications": [
+          "Standard atherosclerosis with angina cases",
+          "Documentation review for causality"
+        ]
+      },
+      {
+        "rule_id": "CAD_ANGINA_004",
+        "rule_text": "Sequence AMI before coronary artery disease when both present (Evidence: pg no: 53, L57)",
+        "explanation": "If a patient with coronary artery disease is admitted due to acute myocardial infarction, the AMI should be sequenced before the coronary artery disease (Evidence: pg no: 53, L57)",
+        "importance": "critical",
+        "applies_to": "I21.-, I25.-",
+        "common_applications": [
+          "AMI with underlying CAD",
+          "Acute vs chronic condition sequencing"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify atherosclerotic heart disease",
+      "Step 2: Determine if angina is present",
+      "Step 3: Check for causal relationship documentation",
+      "Step 4: Select appropriate combination code",
+      "Step 5: Check for concurrent AMI",
+      "Step 6: Apply sequencing rules if AMI present"
+    ],
+    "related_terminology": [
+      "Atherosclerotic heart disease",
+      "Coronary artery disease",
+      "Angina pectoris",
+      "Native coronary artery",
+      "Coronary artery bypass graft",
+      "Acute myocardial infarction"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "I25.11",
+        "description": "Atherosclerotic heart disease of native coronary artery with angina pectoris (Evidence: pg no: 52, L51-L52)",
+        "context": "Native coronary artery disease with angina",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "I25": "Chronic ischemic heart disease",
+          ".11": "Native coronary artery disease with angina pectoris"
+        }
+      },
+      {
+        "code": "I25.7",
+        "description": "Atherosclerosis of coronary artery bypass graft(s) and coronary artery of transplanted heart with angina pectoris (Evidence: pg no: 52, L52)",
+        "context": "Bypass graft or transplanted heart disease with angina",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "I25": "Chronic ischemic heart disease",
+          ".7": "Bypass graft/transplanted heart disease with angina"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Atherosclerotic heart disease",
+      "Chronic ischemic heart disease"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.9",
+        "title": "Acute myocardial infarction (AMI)",
+        "relationship": "applies_to",
+        "explanation": "Referenced for AMI sequencing rules"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "CAD_ANGINA_SC001",
+      "scenario": "Patient with native coronary artery disease and stable angina",
+      "documentation_example": "Atherosclerotic coronary artery disease with stable angina pectoris",
+      "step_by_step": [
+        "Step 1: Identify atherosclerotic heart disease",
+        "Step 2: Identify angina pectoris",
+        "Step 3: Confirm native coronary artery involvement",
+        "Step 4: Assign combination code I25.11"
+      ],
+      "correct_coding": {
+        "primary_code": "I25.11",
+        "secondary_codes": [],
+        "sequencing": "Single combination code",
+        "rationale": "Combination code includes both atherosclerotic disease and angina (Evidence: pg no: 52-53, L50-L56)"
+      },
+      "incorrect_coding": {
+        "code": "I25.10",
+        "codes": [
+          "I25.10",
+          "I20.9"
+        ],
+        "rationale": "Would be incorrect double coding when combination code available",
+        "common_mistake": "Using separate codes for atherosclerosis and angina"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not double code angina when using combination codes (Evidence: pg no: 53, L55-L56)"
+    ],
+    "best_practices": [
+      "Use combination codes when both conditions present (Evidence: pg no: 52, L50-L52)",
+      "Sequence AMI first when present with CAD (Evidence: pg no: 53, L57)",
+      "Assume causal relationship unless documented otherwise (Evidence: pg no: 53, L56-L57)"
+    ],
+    "common_mistakes": [
+      "Adding separate angina code with combination codes",
+      "Incorrect sequencing with AMI"
+    ],
+    "tips": [
+      "Check documentation for non-atherosclerotic angina causes (Evidence: pg no: 53, L56-L57)"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Cardiology consultations",
+      "Chest pain evaluations",
+      "Cardiac catheterization procedures"
+    ]
+  },
+  "search_keywords": [
+    "atherosclerotic heart disease",
+    "coronary artery disease",
+    "angina pectoris",
+    "I25.11",
+    "I25.7",
+    "combination codes"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "coronary_artery_disease",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "CAD",
+      "angina",
+      "combination_codes",
+      "atherosclerotic",
+      "sequencing"
+    ]
+  },
+  "page_range_processed": "pages_51_to_54"
+}

@@ -1,0 +1,186 @@
+{
+  "guideline_id": "I.A.4",
+  "semantic_title": "Placeholder Character 'X': Usage and Requirements for Code Expansion",
+  "section_path": "Section I > A. Conventions > 4. Placeholder character",
+  "page_number": 8,
+  "content": {
+    "full_text": "The ICD-10-CM utilizes a placeholder character 'X'. The 'X' is used as a placeholder at certain codes to allow for future expansion. An example of this is at the poisoning, adverse effect and underdosing codes, categories T36-T50. Where a placeholder exists, the X must be used in order for the code to be considered a valid code. (Evidence: pg no: 8, L27-L29)",
+    "summary": "Defines the use of placeholder character 'X' for future expansion and its mandatory use where it exists (Evidence: pg no: 8, L27-L29)",
+    "key_concepts": [
+      "ICD-10-CM uses placeholder character 'X' (Evidence: pg no: 8, L28)",
+      "X allows for future expansion (Evidence: pg no: 8, L28)",
+      "X must be used where it exists for code validity (Evidence: pg no: 8, L29)",
+      "Common in poisoning codes T36-T50 (Evidence: pg no: 8, L29)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.A.4.R1",
+        "rule_text": "Where a placeholder exists, the X must be used in order for the code to be considered a valid code (Evidence: pg no: 8, L29)",
+        "explanation": "The placeholder character X is mandatory when it appears in a code structure and cannot be omitted (Evidence: pg no: 8, L29)",
+        "importance": "critical",
+        "applies_to": "codes_with_placeholder_X",
+        "common_applications": [
+          "Poisoning codes T36-T50",
+          "Adverse effect codes",
+          "Underdosing codes"
+        ]
+      },
+      {
+        "rule_id": "I.A.4.R2",
+        "rule_text": "The X is used as a placeholder at certain codes to allow for future expansion (Evidence: pg no: 8, L28)",
+        "explanation": "Placeholder X reserves space in the code structure for potential future subdivisions while maintaining current code validity (Evidence: pg no: 8, L28)",
+        "importance": "high",
+        "applies_to": "codes_with_placeholder_X",
+        "common_applications": [
+          "Code structure maintenance",
+          "Future classification updates"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify if code contains placeholder X",
+      "Step 2: Verify X is in correct position",
+      "Step 3: Include X in final code",
+      "Step 4: Add any required 7th characters after X"
+    ],
+    "related_terminology": [
+      "Placeholder character",
+      "X character",
+      "Code expansion",
+      "Code validity",
+      "Poisoning codes",
+      "Adverse effect codes",
+      "Underdosing codes"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "T36-T50",
+        "description": "Poisoning, adverse effect and underdosing codes that commonly use placeholder X (Evidence: pg no: 8, L29)",
+        "requirement": "Placeholder X must be used where it exists",
+        "usage_rules": [
+          "X must be included for code validity (Evidence: pg no: 8, L29)",
+          "X allows for future expansion (Evidence: pg no: 8, L28)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "XXX.XXX",
+        "description": "Code pattern with placeholder X (Evidence: pg no: 8, L28)",
+        "example": "T36.0X1A",
+        "explanation": "X maintains position for future expansion while keeping code valid"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Poisoning codes",
+      "Adverse effect codes",
+      "Underdosing codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.A.5",
+        "title": "7th Characters",
+        "relationship": "related_to",
+        "explanation": "X may be used with 7th characters"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "I.A.4.S1",
+      "scenario": "Coding poisoning by penicillin, accidental, initial encounter",
+      "documentation_example": "Patient accidentally took overdose of penicillin, initial encounter",
+      "step_by_step": [
+        "Step 1: Locate T36.0 (poisoning by penicillins)",
+        "Step 2: Note placeholder X in position 5",
+        "Step 3: Add intent code 1 (accidental)",
+        "Step 4: Add 7th character A (initial encounter)"
+      ],
+      "correct_coding": {
+        "primary_code": "T36.0X1A",
+        "secondary_codes": [],
+        "sequencing": "Primary diagnosis",
+        "rationale": "Placeholder X must be used for code validity (Evidence: pg no: 8, L29)"
+      },
+      "incorrect_coding": {
+        "code": "T36.01A",
+        "codes": [],
+        "rationale": "Missing required placeholder X makes code invalid",
+        "common_mistake": "Omitting placeholder X character"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "I.A.4.E1",
+      "scenario": "Placeholder X in poisoning code",
+      "code_example": "T36.0X1A",
+      "breakdown": {
+        "T36.0": "Poisoning by penicillins (Evidence: pg no: 8, L29)",
+        "X": "Placeholder character for future expansion (Evidence: pg no: 8, L28)",
+        "1": "Accidental (unintentional)",
+        "A": "Initial encounter"
+      },
+      "rationale": "X is mandatory for code validity and allows future expansion (Evidence: pg no: 8, L28-L29)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Code is invalid without placeholder X where it exists (Evidence: pg no: 8, L29)",
+      "X cannot be omitted or substituted"
+    ],
+    "best_practices": [
+      "Always include X where it appears in code structure",
+      "Check Tabular List for placeholder requirements",
+      "Verify complete code structure including X"
+    ],
+    "common_mistakes": [
+      "Omitting placeholder X character",
+      "Substituting other characters for X",
+      "Not recognizing X as mandatory"
+    ],
+    "tips": [
+      "X is most common in T36-T50 categories",
+      "X allows for future code expansion without changing existing codes"
+    ],
+    "implementation_notes": [
+      "Placeholder X maintains code structure integrity"
+    ],
+    "clinical_context": [
+      "Essential for accurate poisoning and adverse effect coding"
+    ]
+  },
+  "search_keywords": [
+    "placeholder character",
+    "X character",
+    "poisoning codes",
+    "T36-T50",
+    "code expansion",
+    "code validity",
+    "adverse effects"
+  ],
+  "metadata": {
+    "category": "convention",
+    "subcategory": "character_usage",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "October 1, 2025",
+    "tags": [
+      "placeholder",
+      "X_character",
+      "poisoning",
+      "code_validity",
+      "expansion"
+    ]
+  },
+  "page_range_processed": "pages_7_to_9"
+}

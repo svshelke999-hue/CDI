@@ -1,0 +1,167 @@
+{
+  "guideline_id": "I.C.16.e",
+  "semantic_title": "Low Birth Weight and Immaturity Status Coding",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 16. Chapter 16: Certain conditions originating in the perinatal period > e. Low birth weight and immaturity status",
+  "page_number": 74,
+  "content": {
+    "full_text": "Codes from category P07, Disorders of newborn related to short gestation and low birth weight, not elsewhere classified, are for use for a child or adult who was premature or had a low birth weight as a newborn and this is affecting the patient's current health status. See Section I.C.21. Factors influencing health status and contact with health services, Status. (Evidence: pg no: 74, L53-L56)",
+    "summary": "P07 codes can be used for children or adults when their premature birth or low birth weight as a newborn is affecting their current health status (Evidence: pg no: 74, L53-L56)",
+    "key_concepts": [
+      "Child or adult application (Evidence: pg no: 74, L54)",
+      "Historical premature birth (Evidence: pg no: 74, L54)",
+      "Historical low birth weight (Evidence: pg no: 74, L54)",
+      "Current health status impact (Evidence: pg no: 74, L54-L55)",
+      "Status code reference (Evidence: pg no: 74, L56)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "p07_current_impact_rule",
+        "rule_text": "P07 codes are used when premature birth or low birth weight is affecting current health status (Evidence: pg no: 74, L54-L55)",
+        "explanation": "These codes are appropriate for any age patient when their neonatal prematurity or low birth weight continues to have clinical relevance to their current condition (Evidence: pg no: 74, L54-L55)",
+        "importance": "high",
+        "applies_to": "P07 category for children and adults",
+        "common_applications": [
+          "Adult with chronic lung disease related to neonatal prematurity",
+          "Child with developmental delays related to low birth weight"
+        ]
+      },
+      {
+        "rule_id": "p07_age_extension_rule",
+        "rule_text": "P07 codes can be used for children or adults, not just newborns (Evidence: pg no: 74, L54)",
+        "explanation": "Unlike most perinatal codes, P07 codes have extended applicability beyond the newborn period when the historical condition affects current health (Evidence: pg no: 74, L54)",
+        "importance": "high",
+        "applies_to": "P07 category",
+        "common_applications": [
+          "Pediatric encounters with prematurity-related complications",
+          "Adult encounters where low birth weight affects current condition"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify patient had premature birth or low birth weight as newborn",
+      "Step 2: Determine if this historical factor affects current health status",
+      "Step 3: Confirm clinical relevance to current encounter",
+      "Step 4: Assign appropriate P07 code",
+      "Step 5: Consider additional status codes per Section I.C.21"
+    ],
+    "related_terminology": [
+      "Low birth weight status",
+      "Immaturity status",
+      "Premature birth history",
+      "Current health status impact"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "P07",
+        "description": "Disorders of newborn related to short gestation and low birth weight, not elsewhere classified (Evidence: pg no: 74, L53)",
+        "requirement": "Use when historical condition affects current health status",
+        "usage_rules": [
+          "Applicable to children and adults (Evidence: pg no: 74, L54)",
+          "Must be affecting current health status (Evidence: pg no: 74, L54-L55)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "P07 - Short gestation and low birth weight disorders"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.21",
+        "title": "Factors influencing health status and contact with health services, Status",
+        "relationship": "related_to",
+        "explanation": "Referenced for additional status coding guidance"
+      },
+      {
+        "guideline_id": "I.C.16.d",
+        "title": "Prematurity and Fetal Growth Retardation",
+        "relationship": "builds_upon",
+        "explanation": "Extends P07 usage beyond newborn period"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "adult_prematurity_impact",
+      "scenario": "25-year-old adult with chronic lung disease related to bronchopulmonary dysplasia from neonatal prematurity",
+      "documentation_example": "25-year-old female with chronic obstructive lung disease secondary to bronchopulmonary dysplasia. Patient was born at 28 weeks gestation with very low birth weight. Current respiratory symptoms directly related to neonatal prematurity complications.",
+      "step_by_step": [
+        "Step 1: Identify patient was premature as newborn (28 weeks)",
+        "Step 2: Confirm very low birth weight history",
+        "Step 3: Establish current lung disease is related to neonatal prematurity",
+        "Step 4: Assign P07 code for the historical prematurity affecting current health"
+      ],
+      "correct_coding": {
+        "primary_code": "J44.1",
+        "secondary_codes": [
+          "P07.32"
+        ],
+        "sequencing": "Current condition first, then historical P07 code",
+        "rationale": "Historical prematurity affecting current health status in adult patient (Evidence: pg no: 74, L54-L55)"
+      },
+      "incorrect_coding": {
+        "code": "J44.1 only",
+        "codes": [],
+        "rationale": "Should include P07 code since neonatal prematurity is affecting current health status",
+        "common_mistake": "Not coding historical prematurity when it affects current health"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [],
+    "best_practices": [
+      "Use P07 codes when historical prematurity affects current health (Evidence: pg no: 74, L54-L55)",
+      "Consider additional status codes per Section I.C.21 (Evidence: pg no: 74, L56)"
+    ],
+    "common_mistakes": [
+      "Not using P07 codes for children and adults when applicable",
+      "Using P07 codes when historical condition doesn't affect current health"
+    ],
+    "tips": [
+      "P07 codes extend beyond newborn period when clinically relevant (Evidence: pg no: 74, L54)"
+    ],
+    "implementation_notes": [
+      "Requires clinical relevance to current encounter"
+    ],
+    "clinical_context": [
+      "Long-term complications of prematurity or low birth weight"
+    ]
+  },
+  "search_keywords": [
+    "low birth weight status",
+    "immaturity status",
+    "P07",
+    "premature birth history",
+    "adult prematurity",
+    "current health status",
+    "historical prematurity"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "perinatal_conditions",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "P07",
+      "prematurity",
+      "low birth weight",
+      "status",
+      "adult",
+      "child",
+      "current health"
+    ]
+  },
+  "page_range_processed": "pages_72_to_75"
+}

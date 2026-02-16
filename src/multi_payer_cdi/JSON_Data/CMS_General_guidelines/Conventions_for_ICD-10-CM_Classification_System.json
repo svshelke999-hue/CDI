@@ -1,0 +1,115 @@
+{
+  "guideline_id": "I.A",
+  "semantic_title": "Conventions for ICD-10-CM Classification System",
+  "section_path": "Section I > A. Conventions for the ICD-10-CM",
+  "page_number": 7,
+  "content": {
+    "full_text": "The conventions for the ICD-10-CM are the general rules for use of the classification independent of the guidelines. These conventions are incorporated within the Alphabetic Index and Tabular List of the ICD-10-CM as instructional notes. (Evidence: pg no: 7, L8-L11)",
+    "summary": "Establishes that ICD-10-CM conventions are general rules independent of guidelines and are incorporated as instructional notes in both the Alphabetic Index and Tabular List (Evidence: pg no: 7, L8-L11)",
+    "key_concepts": [
+      "Conventions are general rules for classification use (Evidence: pg no: 7, L9-L10)",
+      "Conventions are independent of guidelines (Evidence: pg no: 7, L10)",
+      "Conventions are incorporated as instructional notes (Evidence: pg no: 7, L10-L11)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.A.R1",
+        "rule_text": "Conventions are the general rules for use of the classification independent of the guidelines (Evidence: pg no: 7, L9-L10)",
+        "explanation": "ICD-10-CM conventions serve as foundational rules that apply to the entire classification system, separate from specific coding guidelines (Evidence: pg no: 7, L9-L10)",
+        "importance": "critical",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Code structure interpretation",
+          "Index and tabular list navigation"
+        ]
+      },
+      {
+        "rule_id": "I.A.R2",
+        "rule_text": "Conventions are incorporated within the Alphabetic Index and Tabular List as instructional notes (Evidence: pg no: 7, L10-L11)",
+        "explanation": "The conventions appear as instructional notes throughout both major components of ICD-10-CM to guide proper code selection (Evidence: pg no: 7, L10-L11)",
+        "importance": "critical",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Code lookup procedures",
+          "Verification of code accuracy"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Understand that conventions are foundational rules",
+      "Step 2: Look for instructional notes in both Alphabetic Index and Tabular List",
+      "Step 3: Apply conventions consistently across all code assignments"
+    ],
+    "related_terminology": [
+      "Alphabetic Index",
+      "Tabular List",
+      "Instructional notes",
+      "Classification system"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "All ICD-10-CM categories and codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": [
+      {
+        "guideline_id": "I.A.1",
+        "title": "The Alphabetic Index and Tabular List",
+        "relationship": "implements",
+        "explanation": "Specific implementation of convention principles"
+      }
+    ]
+  },
+  "coding_scenarios": [],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Conventions take precedence over guidelines when conflicts arise (Evidence: pg no: 7, L6-L7)"
+    ],
+    "best_practices": [
+      "Always check for instructional notes in both Index and Tabular List (Evidence: pg no: 7, L10-L11)"
+    ],
+    "common_mistakes": [
+      "Ignoring instructional notes embedded in the classification"
+    ],
+    "tips": [
+      "Conventions are foundational - master them before applying specific guidelines"
+    ],
+    "implementation_notes": [
+      "Conventions apply to all healthcare settings unless otherwise indicated"
+    ],
+    "clinical_context": [
+      "Essential for accurate code assignment in all clinical documentation scenarios"
+    ]
+  },
+  "search_keywords": [
+    "ICD-10-CM conventions",
+    "classification rules",
+    "instructional notes",
+    "alphabetic index",
+    "tabular list"
+  ],
+  "metadata": {
+    "category": "convention",
+    "subcategory": "foundational_rules",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "October 1, 2025",
+    "tags": [
+      "conventions",
+      "foundational",
+      "classification",
+      "instructional_notes"
+    ]
+  },
+  "page_range_processed": "pages_7_to_9"
+}

@@ -1,0 +1,133 @@
+{
+  "guideline_id": "I.C.4.a.4.b.ii",
+  "semantic_title": "Secondary Diabetes Due to Drugs Coding and Cross-References",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 4. Chapter 4: Endocrine, Nutritional and Metabolic Diseases > a. Diabetes mellitus > 4. Assigning and sequencing secondary diabetes codes and its causes > (ii) Secondary diabetes due to drugs",
+  "page_number": 42,
+  "content": {
+    "full_text": "Secondary diabetes may be caused by an adverse effect of correctly administered medications, poisoning or sequela of poisoning. See section I.C.19.e. for coding of adverse effects and poisoning, and section I.C.20 for external cause code reporting. (Evidence: pg no: 42, L12-L15)",
+    "summary": "Explains that drug-induced secondary diabetes can result from adverse effects, poisoning, or sequelae, with references to specific coding sections for proper coding (Evidence: pg no: 42, L12-L15)",
+    "key_concepts": [
+      "Drug-induced secondary diabetes causes (Evidence: pg no: 42, L12-L14)",
+      "Adverse effects vs poisoning distinction (Evidence: pg no: 42, L13-L14)",
+      "Cross-reference requirements (Evidence: pg no: 42, L14-L15)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "DRUG_DM_001",
+        "rule_text": "Secondary diabetes may result from adverse effects of correctly administered medications (Evidence: pg no: 42, L12-L13)",
+        "explanation": "When medications are given correctly but cause diabetes as an unintended consequence, this is classified as an adverse effect (Evidence: pg no: 42, L12-L13)",
+        "importance": "high",
+        "applies_to": "E09",
+        "common_applications": [
+          "Steroid-induced diabetes",
+          "Chemotherapy-induced diabetes"
+        ]
+      },
+      {
+        "rule_id": "DRUG_DM_002",
+        "rule_text": "Secondary diabetes may result from poisoning or sequela of poisoning (Evidence: pg no: 42, L13-L14)",
+        "explanation": "When diabetes results from drug overdose, wrong drug, or long-term effects of previous poisoning (Evidence: pg no: 42, L13-L14)",
+        "importance": "high",
+        "applies_to": "E09",
+        "common_applications": [
+          "Overdose-related diabetes",
+          "Late effects of poisoning"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify drug-induced secondary diabetes",
+      "Step 2: Determine if adverse effect, poisoning, or sequela",
+      "Step 3: Refer to section I.C.19.e for adverse effects and poisoning coding",
+      "Step 4: Refer to section I.C.20 for external cause codes",
+      "Step 5: Apply appropriate coding guidelines"
+    ],
+    "related_terminology": [
+      "Secondary diabetes",
+      "Adverse effects",
+      "Poisoning",
+      "Sequela",
+      "Drug-induced diabetes"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "E09",
+        "description": "Drug or chemical induced diabetes mellitus (Evidence: pg no: 42, L12)",
+        "requirement": "Must follow adverse effect or poisoning coding guidelines",
+        "usage_rules": [
+          "Use with appropriate adverse effect or poisoning codes (Evidence: pg no: 42, L14-L15)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Drug or chemical induced diabetes mellitus"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.19.e",
+        "title": "Adverse effects and poisoning coding",
+        "relationship": "implements",
+        "explanation": "Must follow these guidelines for proper coding of drug-induced diabetes"
+      },
+      {
+        "guideline_id": "I.C.20",
+        "title": "External cause code reporting",
+        "relationship": "implements",
+        "explanation": "Required for external cause codes in drug-induced diabetes cases"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Must distinguish between adverse effects and poisoning (Evidence: pg no: 42, L13-L14)"
+    ],
+    "best_practices": [
+      "Always consult sections I.C.19.e and I.C.20 for complete coding (Evidence: pg no: 42, L14-L15)"
+    ],
+    "common_mistakes": [
+      "Not following adverse effect vs poisoning guidelines",
+      "Omitting external cause codes"
+    ],
+    "tips": [
+      "Determine the mechanism: adverse effect vs poisoning vs sequela"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Applies to medication-induced diabetes in various clinical settings"
+    ]
+  },
+  "search_keywords": [
+    "drug induced diabetes",
+    "secondary diabetes drugs",
+    "E09",
+    "adverse effects diabetes",
+    "poisoning diabetes"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "diabetes_mellitus",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "diabetes",
+      "drug_induced",
+      "adverse_effects",
+      "poisoning"
+    ]
+  },
+  "page_range_processed": "pages_42_to_45"
+}

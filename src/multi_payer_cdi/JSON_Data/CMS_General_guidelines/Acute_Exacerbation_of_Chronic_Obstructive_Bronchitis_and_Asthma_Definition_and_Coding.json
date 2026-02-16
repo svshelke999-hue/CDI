@@ -1,0 +1,234 @@
+{
+  "guideline_id": "I.C.10.a.1",
+  "semantic_title": "Acute Exacerbation of Chronic Obstructive Bronchitis and Asthma Definition and Coding",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 10. Chapter 10: Diseases of the Respiratory System > a. Chronic Obstructive Pulmonary Disease [COPD] and Asthma > 1. Acute exacerbation of chronic obstructive bronchitis and asthma",
+  "page_number": 56,
+  "content": {
+    "full_text": "The codes in categories J44 and J45 distinguish between uncomplicated cases and those in acute exacerbation. An acute exacerbation is a worsening or a decompensation of a chronic condition. An acute exacerbation is not equivalent to an infection superimposed on a chronic condition, though an exacerbation may be triggered by an infection. (Evidence: pg no: 56, L54-L58)",
+    "summary": "Definition of acute exacerbation for COPD and asthma coding, distinguishing from infection and explaining the relationship between categories J44 and J45 (Evidence: pg no: 56, L54-L58)",
+    "key_concepts": [
+      "Acute exacerbation definition (Evidence: pg no: 56, L57)",
+      "Distinction from superimposed infection (Evidence: pg no: 56, L58)",
+      "Categories J44 and J45 differentiation (Evidence: pg no: 56, L56-L57)",
+      "Infection as potential trigger (Evidence: pg no: 56, L58)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "exacerbation_definition",
+        "rule_text": "An acute exacerbation is a worsening or a decompensation of a chronic condition (Evidence: pg no: 56, L57)",
+        "explanation": "Acute exacerbation represents deterioration of baseline chronic respiratory condition, not a new acute condition (Evidence: pg no: 56, L57)",
+        "importance": "critical",
+        "applies_to": "J44, J45",
+        "common_applications": [
+          "COPD flare-up",
+          "Asthma attack",
+          "Worsening chronic bronchitis"
+        ]
+      },
+      {
+        "rule_id": "exacerbation_vs_infection",
+        "rule_text": "An acute exacerbation is not equivalent to an infection superimposed on a chronic condition (Evidence: pg no: 56, L58)",
+        "explanation": "Exacerbation and superimposed infection are distinct concepts, though infection may trigger exacerbation (Evidence: pg no: 56, L58)",
+        "importance": "critical",
+        "applies_to": "J44, J45",
+        "common_applications": [
+          "COPD with pneumonia",
+          "Asthma with respiratory infection",
+          "Chronic bronchitis with acute bronchitis"
+        ]
+      },
+      {
+        "rule_id": "category_distinction",
+        "rule_text": "Categories J44 and J45 distinguish between uncomplicated cases and those in acute exacerbation (Evidence: pg no: 56, L56-L57)",
+        "explanation": "Code structure allows differentiation between stable chronic condition and acute worsening (Evidence: pg no: 56, L56-L57)",
+        "importance": "high",
+        "applies_to": "J44, J45",
+        "common_applications": [
+          "Stable COPD vs COPD exacerbation",
+          "Stable asthma vs asthma exacerbation"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify chronic respiratory condition (COPD or asthma)",
+      "Step 2: Determine if condition is stable or in acute exacerbation",
+      "Step 3: Assess for any superimposed infection separately",
+      "Step 4: Select appropriate code from J44 or J45 based on exacerbation status"
+    ],
+    "related_terminology": [
+      "Acute exacerbation",
+      "Chronic obstructive pulmonary disease",
+      "COPD",
+      "Asthma",
+      "Decompensation",
+      "Superimposed infection",
+      "Uncomplicated cases"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "J44",
+        "description": "Other chronic obstructive pulmonary disease (Evidence: pg no: 56, L56)",
+        "requirement": "Distinguish uncomplicated from acute exacerbation",
+        "usage_rules": [
+          "Use exacerbation codes when condition is worsening (Evidence: pg no: 56, L56-L57)",
+          "Separate from superimposed infection coding (Evidence: pg no: 56, L58)"
+        ]
+      },
+      {
+        "range": "J45",
+        "description": "Asthma (Evidence: pg no: 56, L56)",
+        "requirement": "Distinguish uncomplicated from acute exacerbation",
+        "usage_rules": [
+          "Use exacerbation codes when condition is worsening (Evidence: pg no: 56, L56-L57)",
+          "Separate from superimposed infection coding (Evidence: pg no: 56, L58)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "J44.x vs J44.1",
+        "description": "COPD uncomplicated vs with acute exacerbation (Evidence: pg no: 56, L56-L57)",
+        "example": "J44.0 vs J44.1",
+        "explanation": "Code structure differentiates stable from exacerbated COPD"
+      },
+      {
+        "pattern": "J45.x vs J45.x1",
+        "description": "Asthma uncomplicated vs with acute exacerbation (Evidence: pg no: 56, L56-L57)",
+        "example": "J45.20 vs J45.21",
+        "explanation": "Code structure differentiates stable from exacerbated asthma"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Category J44 - Other chronic obstructive pulmonary disease",
+      "Category J45 - Asthma"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "copd_exacerbation",
+      "scenario": "COPD patient with acute worsening of symptoms",
+      "documentation_example": "Patient with known COPD presents with acute exacerbation, increased dyspnea and sputum production",
+      "step_by_step": [
+        "Step 1: Identify underlying COPD",
+        "Step 2: Recognize acute exacerbation terminology",
+        "Step 3: Rule out superimposed infection",
+        "Step 4: Assign appropriate J44 exacerbation code"
+      ],
+      "correct_coding": {
+        "primary_code": "J44.1",
+        "secondary_codes": [],
+        "sequencing": "Exacerbation code as primary",
+        "rationale": "Acute exacerbation represents worsening of chronic condition requiring specific coding (Evidence: pg no: 56, L57)"
+      },
+      "incorrect_coding": {
+        "code": "J44.0",
+        "codes": [
+          "J44.0"
+        ],
+        "rationale": "Uncomplicated COPD code doesn't capture acute exacerbation",
+        "common_mistake": "Using stable COPD code when exacerbation is documented"
+      }
+    },
+    {
+      "scenario_id": "asthma_with_infection",
+      "scenario": "Asthma exacerbation triggered by respiratory infection",
+      "documentation_example": "Acute asthma exacerbation triggered by viral upper respiratory infection",
+      "step_by_step": [
+        "Step 1: Identify asthma exacerbation",
+        "Step 2: Identify triggering infection",
+        "Step 3: Code both conditions separately",
+        "Step 4: Sequence based on encounter focus"
+      ],
+      "correct_coding": {
+        "primary_code": "J45.21",
+        "secondary_codes": [
+          "J06.9"
+        ],
+        "sequencing": "Exacerbation primary, infection secondary",
+        "rationale": "Exacerbation and infection are distinct though related conditions (Evidence: pg no: 56, L58)"
+      },
+      "incorrect_coding": {
+        "code": "J06.9",
+        "codes": [
+          "J06.9"
+        ],
+        "rationale": "Missing the asthma exacerbation component",
+        "common_mistake": "Coding only the triggering infection"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "copd_stable_vs_exacerbation",
+      "scenario": "Distinguishing stable COPD from exacerbation",
+      "code_example": "J44.0 vs J44.1",
+      "breakdown": {
+        "J44.0": "COPD with acute lower respiratory infection (Evidence: pg no: 56, L56)",
+        "J44.1": "COPD with acute exacerbation (Evidence: pg no: 56, L56)"
+      },
+      "rationale": "Code selection depends on whether condition is stable or in acute worsening (Evidence: pg no: 56, L56-L57)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not confuse acute exacerbation with superimposed infection (Evidence: pg no: 56, L58)"
+    ],
+    "best_practices": [
+      "Carefully distinguish between stable and exacerbated chronic conditions (Evidence: pg no: 56, L56-L57)",
+      "Consider infection as potential trigger but code separately (Evidence: pg no: 56, L58)"
+    ],
+    "common_mistakes": [
+      "Using uncomplicated codes when exacerbation is documented",
+      "Confusing exacerbation with superimposed infection"
+    ],
+    "tips": [
+      "Exacerbation represents worsening of baseline condition (Evidence: pg no: 56, L57)",
+      "Infection may trigger exacerbation but they are coded separately (Evidence: pg no: 56, L58)"
+    ],
+    "implementation_notes": [
+      "Look for documentation of worsening or decompensation",
+      "Assess relationship between infection and exacerbation when both present"
+    ],
+    "clinical_context": [
+      "Exacerbations represent acute worsening of chronic respiratory conditions",
+      "Infections commonly trigger but don't define exacerbations",
+      "Treatment focus often differs between stable and exacerbated conditions"
+    ]
+  },
+  "search_keywords": [
+    "acute exacerbation",
+    "COPD exacerbation",
+    "asthma exacerbation",
+    "J44",
+    "J45",
+    "chronic obstructive pulmonary disease",
+    "decompensation",
+    "superimposed infection"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "respiratory_system_copd_asthma",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "COPD",
+      "asthma",
+      "exacerbation",
+      "chronic_respiratory",
+      "infection"
+    ]
+  },
+  "page_range_processed": "pages_54_to_57"
+}

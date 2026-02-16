@@ -1,0 +1,179 @@
+{
+  "guideline_id": "I.C.9.d.1",
+  "semantic_title": "Coding Guidelines for Sequelae of Cerebrovascular Disease Including Dominant Side Rules",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 9. Diseases of the Circulatory System > d. Sequelae of Cerebrovascular Disease > 1) Category I69, Sequelae of Cerebrovascular disease",
+  "page_number": 53,
+  "content": {
+    "full_text": "Category I69 is used to indicate conditions classifiable to categories I60-I67 as the causes of sequela (neurologic deficits), themselves classified elsewhere. These \"late effects\" include neurologic deficits that persist after initial onset of conditions classifiable to categories I60-I67. The neurologic deficits caused by cerebrovascular disease may be present from the onset or may arise at any time after the onset of the condition classifiable to categories I60-I67. Codes from category I69, Sequelae of cerebrovascular disease, that specify hemiplegia, hemiparesis and monoplegia identify whether the dominant or nondominant side is affected. Should the affected side be documented, but not specified as dominant or nondominant, and the classification system does not indicate a default, code selection is as follows: • For ambidextrous patients, the default should be dominant. • If the left side is affected, the default is non-dominant. • If the right side is affected, the default is dominant. (Evidence: pg no: 53, L65-L73)",
+    "summary": "Guidelines for coding sequelae of cerebrovascular disease with specific rules for determining dominant vs non-dominant side (Evidence: pg no: 53, L65-L73)",
+    "key_concepts": [
+      "Category I69 for sequelae (Evidence: pg no: 53, L65-L66)",
+      "Late effects of I60-I67 conditions (Evidence: pg no: 53, L66-L69)",
+      "Neurologic deficits timing (Evidence: pg no: 53, L68-L69)",
+      "Dominant vs non-dominant side coding (Evidence: pg no: 53, L69-L70)",
+      "Default side assignment rules (Evidence: pg no: 53, L70-L73)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "CVA_SEQ_001",
+        "rule_text": "Use category I69 for sequelae of cerebrovascular disease (Evidence: pg no: 53, L65-L66)",
+        "explanation": "Category I69 indicates conditions classifiable to categories I60-I67 as causes of neurologic sequelae that are classified elsewhere (Evidence: pg no: 53, L65-L67)",
+        "importance": "critical",
+        "applies_to": "I69",
+        "common_applications": [
+          "Stroke with residual deficits",
+          "Post-stroke neurologic impairments"
+        ]
+      },
+      {
+        "rule_id": "CVA_SEQ_002",
+        "rule_text": "Neurologic deficits may be present from onset or arise later (Evidence: pg no: 53, L68-L69)",
+        "explanation": "The neurologic deficits caused by cerebrovascular disease may be present from the onset or may arise at any time after the onset of the I60-I67 condition (Evidence: pg no: 53, L68-L69)",
+        "importance": "high",
+        "applies_to": "I69",
+        "common_applications": [
+          "Immediate post-stroke deficits",
+          "Delayed neurologic complications"
+        ]
+      },
+      {
+        "rule_id": "CVA_SEQ_003",
+        "rule_text": "Apply default rules for dominant/non-dominant side when not specified (Evidence: pg no: 53, L70-L73)",
+        "explanation": "When affected side is documented but dominance not specified, use defaults: ambidextrous = dominant, left side = non-dominant, right side = dominant (Evidence: pg no: 53, L70-L73)",
+        "importance": "high",
+        "applies_to": "I69 codes with hemiplegia, hemiparesis, monoplegia",
+        "common_applications": [
+          "Hemiplegia coding",
+          "Hemiparesis coding",
+          "Monoplegia coding"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify cerebrovascular disease sequelae",
+      "Step 2: Determine if neurologic deficits present",
+      "Step 3: Check for hemiplegia, hemiparesis, or monoplegia",
+      "Step 4: Identify affected side documentation",
+      "Step 5: Apply dominant/non-dominant defaults if needed",
+      "Step 6: Assign appropriate I69 code"
+    ],
+    "related_terminology": [
+      "Sequelae",
+      "Late effects",
+      "Neurologic deficits",
+      "Hemiplegia",
+      "Hemiparesis",
+      "Monoplegia",
+      "Dominant side",
+      "Non-dominant side"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "I69",
+        "description": "Sequelae of cerebrovascular disease (Evidence: pg no: 53, L65-L66)",
+        "requirement": "Use for neurologic sequelae of I60-I67 conditions",
+        "usage_rules": [
+          "Apply dominant/non-dominant defaults when needed (Evidence: pg no: 53, L70-L73)"
+        ]
+      },
+      {
+        "range": "I60-I67",
+        "description": "Cerebrovascular diseases that can cause sequelae (Evidence: pg no: 53, L66-L67)",
+        "requirement": "Original conditions that lead to sequelae",
+        "usage_rules": [
+          "May be coded with I69 if current disease present (Evidence: pg no: 53, L66-L67)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Sequelae of cerebrovascular disease",
+      "Cerebrovascular diseases"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "CVA_SEQ_SC001",
+      "scenario": "Patient with right-sided weakness following stroke",
+      "documentation_example": "Right hemiparesis following cerebral infarction, dominance not specified",
+      "step_by_step": [
+        "Step 1: Identify hemiparesis as sequela",
+        "Step 2: Note right side affected",
+        "Step 3: Apply default rule: right side = dominant",
+        "Step 4: Assign I69 code for dominant side hemiparesis"
+      ],
+      "correct_coding": {
+        "primary_code": "I69.351",
+        "secondary_codes": [],
+        "sequencing": "Based on encounter reason",
+        "rationale": "Right-sided hemiparesis defaults to dominant side when dominance not specified (Evidence: pg no: 53, L70-L73)"
+      },
+      "incorrect_coding": {
+        "code": "I69.352",
+        "codes": [
+          "I69.352"
+        ],
+        "rationale": "Would be incorrect non-dominant coding for right side",
+        "common_mistake": "Not applying default dominance rules"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Must apply default dominance rules when not documented (Evidence: pg no: 53, L70-L73)"
+    ],
+    "best_practices": [
+      "Check for neurologic deficit documentation (Evidence: pg no: 53, L68-L69)",
+      "Apply side dominance defaults consistently (Evidence: pg no: 53, L70-L73)"
+    ],
+    "common_mistakes": [
+      "Not using I69 codes for stroke sequelae",
+      "Incorrect dominance assignment"
+    ],
+    "tips": [
+      "Remember deficits can arise at any time after stroke (Evidence: pg no: 53, L68-L69)"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Rehabilitation services",
+      "Neurology follow-up",
+      "Physical therapy evaluations"
+    ]
+  },
+  "search_keywords": [
+    "stroke sequelae",
+    "cerebrovascular sequelae",
+    "I69",
+    "hemiplegia",
+    "hemiparesis",
+    "dominant side",
+    "late effects"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "cerebrovascular_disease",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "sequelae",
+      "stroke",
+      "neurologic_deficits",
+      "dominance",
+      "I69"
+    ]
+  },
+  "page_range_processed": "pages_51_to_54"
+}

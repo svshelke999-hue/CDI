@@ -1,0 +1,190 @@
+{
+  "guideline_id": "I.C.20.k",
+  "semantic_title": "External Cause Status Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 20. Chapter 20: External Causes of Morbidity > k. External Cause Status",
+  "page_number": 92,
+  "content": {
+    "full_text": "A code from category Y99, External cause status, should be assigned whenever any other external cause code is assigned for an encounter, including an Activity code, except for the events noted below. Assign a code from category Y99, External cause status, to indicate the work status of the person at the time the event occurred. The status code indicates whether the event occurred during military activity, whether a non-military person was at work, whether an individual including a student or volunteer was involved in a non-work activity at the time of the causal event. A code from Y99, External cause status, should be assigned, when applicable, with other external cause codes, such as transport accidents and falls. The external cause status codes are not applicable to poisonings, adverse effects, misadventures or late effects. Do not assign a code from category Y99 if no other external cause codes (cause, activity) are applicable for the encounter. An external cause status code is used only once, at the initial encounter for treatment. Only one code from Y99 should be recorded on a medical record. Do not assign code Y99.9, Unspecified external cause status, if the status is not stated. (Evidence: pg no: 92-93, L53-L58)",
+    "summary": "Comprehensive guidelines for using Y99 external cause status codes with other external cause codes (Evidence: pg no: 92-93, L53-L58)",
+    "key_concepts": [
+      "Y99 assigned with other external cause codes (Evidence: pg no: 92, L53)",
+      "Indicates work status at time of event (Evidence: pg no: 92, L53-L54)",
+      "Not applicable to poisonings, adverse effects, misadventures, late effects (Evidence: pg no: 93, L56)",
+      "Used only once at initial encounter (Evidence: pg no: 93, L58)",
+      "Only one Y99 code per medical record (Evidence: pg no: 93, L58)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "y99_assignment_requirement",
+        "rule_text": "Assign Y99 code whenever other external cause code assigned (Evidence: pg no: 92, L53)",
+        "explanation": "A code from category Y99 should be assigned whenever any other external cause code is assigned for an encounter, with specific exceptions noted (Evidence: pg no: 92, L53)",
+        "importance": "high",
+        "applies_to": "Y99 external cause status codes",
+        "common_applications": [
+          "Transport accidents with external cause codes",
+          "Falls with external cause codes"
+        ]
+      },
+      {
+        "rule_id": "y99_work_status_indication",
+        "rule_text": "Y99 indicates work status at time of event (Evidence: pg no: 92, L53-L55)",
+        "explanation": "The status code indicates whether the event occurred during military activity, work activity, or non-work activity including students or volunteers (Evidence: pg no: 92, L53-L55)",
+        "importance": "medium",
+        "applies_to": "Y99 codes",
+        "common_applications": [
+          "Work-related injuries",
+          "Military activity injuries",
+          "Student/volunteer activities"
+        ]
+      },
+      {
+        "rule_id": "y99_exclusions",
+        "rule_text": "Y99 not applicable to poisonings, adverse effects, misadventures, late effects (Evidence: pg no: 93, L56)",
+        "explanation": "External cause status codes should not be used for poisonings, adverse effects, misadventures, or late effects (Evidence: pg no: 93, L56)",
+        "importance": "high",
+        "applies_to": "Y99 codes",
+        "common_applications": [
+          "Excluding drug poisonings",
+          "Excluding medical misadventures"
+        ]
+      },
+      {
+        "rule_id": "y99_single_use",
+        "rule_text": "Y99 used only once at initial encounter, only one code per record (Evidence: pg no: 93, L58)",
+        "explanation": "External cause status code is used only once at the initial encounter for treatment, and only one code from Y99 should be recorded on a medical record (Evidence: pg no: 93, L58)",
+        "importance": "high",
+        "applies_to": "Y99 codes",
+        "common_applications": [
+          "Initial encounter coding",
+          "Single status per record"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if other external cause codes are being assigned",
+      "Step 2: Check if condition is excluded (poisoning, adverse effect, misadventure, late effect)",
+      "Step 3: If applicable, assign appropriate Y99 code based on work status",
+      "Step 4: Use only at initial encounter and only one code per record"
+    ],
+    "related_terminology": [
+      "External cause status",
+      "Work status",
+      "Military activity",
+      "Non-work activity",
+      "Initial encounter"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Y99",
+        "description": "External cause status codes (Evidence: pg no: 92, L53)",
+        "requirement": "Assign with other external cause codes",
+        "usage_rules": [
+          "Use with transport accidents and falls (Evidence: pg no: 93, L56)",
+          "Not for poisonings, adverse effects, misadventures, late effects (Evidence: pg no: 93, L56)",
+          "Only once at initial encounter (Evidence: pg no: 93, L58)",
+          "Only one code per record (Evidence: pg no: 93, L58)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "Y99.9",
+        "description": "Unspecified external cause status (Evidence: pg no: 93, L58)",
+        "context": "Do not assign if status not stated",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Y99": "External cause status category",
+          ".9": "Unspecified status"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Y99 External cause status"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "work_related_fall",
+      "scenario": "Employee falls at workplace",
+      "documentation_example": "Fall from ladder at construction site during work hours",
+      "step_by_step": [
+        "Step 1: Code the fall injury",
+        "Step 2: Assign external cause code for fall",
+        "Step 3: Assign Y99 code indicating work status",
+        "Step 4: Add place of occurrence if applicable"
+      ],
+      "correct_coding": {
+        "primary_code": "Fall injury code",
+        "secondary_codes": [
+          "Fall external cause code",
+          "Y99.x work status",
+          "Y92.x place code"
+        ],
+        "sequencing": "Injury, external cause, status, place",
+        "rationale": "Y99 required with external cause codes for work-related events (Evidence: pg no: 92, L53-L56)"
+      },
+      "incorrect_coding": {
+        "code": "External cause without Y99 status code",
+        "codes": [],
+        "rationale": "Should include Y99 when other external cause codes assigned",
+        "common_mistake": "Omitting status codes"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not use Y99 for poisonings, adverse effects, misadventures, late effects (Evidence: pg no: 93, L56)",
+      "Do not assign Y99.9 if status not stated (Evidence: pg no: 93, L58)"
+    ],
+    "best_practices": [
+      "Assign Y99 whenever other external cause codes used (Evidence: pg no: 92, L53)",
+      "Use only once at initial encounter (Evidence: pg no: 93, L58)",
+      "Only one Y99 code per medical record (Evidence: pg no: 93, L58)"
+    ],
+    "common_mistakes": [
+      "Omitting Y99 codes when external cause codes assigned (Evidence: pg no: 92, L53)",
+      "Using multiple Y99 codes on same record (Evidence: pg no: 93, L58)"
+    ],
+    "tips": [
+      "Check work status at time of event for appropriate Y99 code (Evidence: pg no: 92, L53-L55)"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Work-related injuries",
+      "Military activities",
+      "Student activities"
+    ]
+  },
+  "search_keywords": [
+    "external cause status",
+    "Y99 codes",
+    "work status",
+    "initial encounter",
+    "military activity"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "external_causes",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "external_causes",
+      "status_codes",
+      "Y99",
+      "work_related"
+    ]
+  },
+  "page_range_processed": "pages_90_to_93"
+}

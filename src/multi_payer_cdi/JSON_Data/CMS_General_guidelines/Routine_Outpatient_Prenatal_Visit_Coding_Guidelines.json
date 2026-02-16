@@ -1,0 +1,170 @@
+{
+  "guideline_id": "I.C.15.b.1",
+  "semantic_title": "Routine Outpatient Prenatal Visit Coding Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 15. Chapter 15: Pregnancy, Childbirth, and the Puerperium > b. Selection of OB Principal or First-listed Diagnosis > 1) Routine outpatient prenatal visits",
+  "page_number": 64,
+  "content": {
+    "full_text": "For routine outpatient prenatal visits when no complications are present, a code from category Z34, Encounter for supervision of normal pregnancy, should be used as the first-listed diagnosis. These codes should not be used in conjunction with chapter 15 codes. (Evidence: pg no: 64, L47-L51)",
+    "summary": "Guidelines for coding routine prenatal visits without complications (Evidence: pg no: 64, L47-L51)",
+    "key_concepts": [
+      "Routine prenatal visit coding (Evidence: pg no: 64, L47-L48)",
+      "Z34 category usage (Evidence: pg no: 64, L49-L50)",
+      "Exclusion of Chapter 15 codes (Evidence: pg no: 64, L50-L51)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.C.15.b.1.1",
+        "rule_text": "Use Z34 codes for routine prenatal visits without complications (Evidence: pg no: 64, L48-L50)",
+        "explanation": "When no complications are present during routine prenatal care, use supervision of normal pregnancy codes (Evidence: pg no: 64, L48-L50)",
+        "importance": "critical",
+        "applies_to": "Z34",
+        "common_applications": [
+          "Regular prenatal checkups",
+          "Normal pregnancy monitoring",
+          "Routine obstetric visits"
+        ]
+      },
+      {
+        "rule_id": "I.C.15.b.1.2",
+        "rule_text": "Do not use Chapter 15 codes with Z34 codes (Evidence: pg no: 64, L50-L51)",
+        "explanation": "Z34 codes are mutually exclusive with Chapter 15 pregnancy complication codes (Evidence: pg no: 64, L50-L51)",
+        "importance": "critical",
+        "applies_to": "Z34, O00-O9A",
+        "common_applications": [
+          "Routine prenatal care coding",
+          "Normal pregnancy supervision"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if prenatal visit is routine without complications",
+      "Step 2: Select appropriate Z34 code for supervision of normal pregnancy",
+      "Step 3: Use as first-listed diagnosis",
+      "Step 4: Do not add any Chapter 15 codes"
+    ],
+    "related_terminology": [
+      "Routine prenatal visits",
+      "Normal pregnancy supervision",
+      "First-listed diagnosis",
+      "Outpatient coding"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z34",
+        "description": "Encounter for supervision of normal pregnancy (Evidence: pg no: 64, L49-L50)",
+        "requirement": "Use as first-listed diagnosis for routine visits",
+        "usage_rules": [
+          "Do not use with Chapter 15 codes (Evidence: pg no: 64, L50-L51)",
+          "Only for visits without complications (Evidence: pg no: 64, L48)"
+        ]
+      },
+      {
+        "range": "O00-O9A",
+        "description": "Pregnancy, Childbirth, and the Puerperium codes (Evidence: pg no: 64, L50-L51)",
+        "requirement": "Do not use with Z34 codes",
+        "usage_rules": [
+          "Mutually exclusive with Z34 codes (Evidence: pg no: 64, L50-L51)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Supervision of normal pregnancy codes",
+      "Chapter 15 pregnancy complication codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.15.b.2",
+        "title": "Supervision of High-Risk Pregnancy",
+        "relationship": "related_to",
+        "explanation": "Contrasts with high-risk pregnancy supervision coding"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "routine_prenatal_1",
+      "scenario": "28-week routine prenatal visit with normal findings",
+      "documentation_example": "28-week prenatal visit, patient doing well, normal fetal heart tones, no complaints",
+      "step_by_step": [
+        "Step 1: Identify as routine prenatal visit without complications",
+        "Step 2: Select Z34.02 (supervision of normal first pregnancy, second trimester)",
+        "Step 3: Use as first-listed diagnosis",
+        "Step 4: Do not add any O codes"
+      ],
+      "correct_coding": {
+        "primary_code": "Z34.02",
+        "secondary_codes": [],
+        "sequencing": "First-listed diagnosis",
+        "rationale": "Routine prenatal visit without complications uses Z34 category (Evidence: pg no: 64, L48-L50)"
+      },
+      "incorrect_coding": {
+        "code": "O09.90",
+        "codes": [
+          "Z34.02",
+          "O09.90"
+        ],
+        "rationale": "Should not combine Z34 codes with Chapter 15 codes",
+        "common_mistake": "Adding Chapter 15 codes to routine prenatal visits"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Never use Chapter 15 codes with Z34 codes (Evidence: pg no: 64, L50-L51)"
+    ],
+    "best_practices": [
+      "Use Z34 codes only for truly routine visits without complications (Evidence: pg no: 64, L48)",
+      "Ensure no complications are documented before using Z34"
+    ],
+    "common_mistakes": [
+      "Using Chapter 15 codes with Z34 codes (Evidence: pg no: 64, L50-L51)",
+      "Using Z34 when complications are present"
+    ],
+    "tips": [
+      "Review visit documentation for any complications before coding",
+      "Z34 codes indicate completely normal pregnancy supervision"
+    ],
+    "implementation_notes": [
+      "Requires clear documentation of routine, uncomplicated visit"
+    ],
+    "clinical_context": [
+      "Regular prenatal checkups",
+      "Normal pregnancy monitoring",
+      "Outpatient obstetric care"
+    ]
+  },
+  "search_keywords": [
+    "routine prenatal visits",
+    "normal pregnancy supervision",
+    "Z34 codes",
+    "outpatient obstetric",
+    "prenatal care",
+    "first-listed diagnosis"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "obstetric_coding",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "pregnancy",
+      "prenatal_care",
+      "routine_visits",
+      "Z34",
+      "outpatient"
+    ]
+  },
+  "page_range_processed": "pages_63_to_66"
+}

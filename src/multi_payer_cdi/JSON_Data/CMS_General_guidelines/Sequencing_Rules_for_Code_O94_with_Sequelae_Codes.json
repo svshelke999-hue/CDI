@@ -1,0 +1,147 @@
+{
+  "guideline_id": "I.C.15.p.3",
+  "semantic_title": "Sequencing Rules for Code O94 with Sequelae Codes",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 15. Chapter 15: Pregnancy, Childbirth, and the Puerperium > p. Code O94, Sequelae of complication of pregnancy, childbirth, and the puerperium > 3) Sequencing of Code O94",
+  "page_number": 70,
+  "content": {
+    "full_text": "This code, like all sequela codes, is to be sequenced following the code describing the sequelae of the complication. (Evidence: pg no: 70, L39-L40)",
+    "summary": "Code O94 must be sequenced after the code describing the actual sequelae, following standard sequela coding rules. (Evidence: pg no: 70, L39-L40)",
+    "key_concepts": [
+      "Sequencing rules for sequela codes (Evidence: pg no: 70, L39-L40)",
+      "O94 as secondary code (Evidence: pg no: 70, L39-L40)",
+      "Standard sequela coding principles (Evidence: pg no: 70, L39)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "O94_sequencing",
+        "rule_text": "O94 is sequenced following the code describing the sequelae (Evidence: pg no: 70, L39-L40)",
+        "explanation": "Like all sequela codes, O94 is never the primary diagnosis but follows the code that describes the actual condition resulting from the pregnancy complication (Evidence: pg no: 70, L39-L40)",
+        "importance": "critical",
+        "applies_to": "O94",
+        "common_applications": [
+          "Secondary diagnosis coding",
+          "Sequela documentation"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Code the current sequela condition first",
+      "Step 2: Sequence O94 as additional diagnosis",
+      "Step 3: Verify proper sequencing order"
+    ],
+    "related_terminology": [
+      "Sequela codes",
+      "Sequencing rules",
+      "Secondary diagnosis"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "O94",
+        "description": "Sequelae of complication of pregnancy, childbirth, and the puerperium (Evidence: pg no: 70, L39-L40)",
+        "context": "Always sequenced after the sequela condition code",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "sequencing": "Secondary to sequela condition code"
+        }
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": "Sequela condition code + O94",
+        "description": "Standard sequencing pattern for pregnancy sequelae (Evidence: pg no: 70, L39-L40)",
+        "example": "Condition code first, then O94",
+        "explanation": "Follows standard sequela coding conventions"
+      }
+    ],
+    "code_categories_mentioned": [
+      "All sequela codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "General_sequela_rules",
+        "title": "General sequela coding rules",
+        "relationship": "implements",
+        "explanation": "O94 follows standard sequela coding conventions"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "O94_sequencing_example",
+      "scenario": "Patient with chronic condition resulting from previous pregnancy complication",
+      "documentation_example": "Patient has chronic hypertension as sequela of previous pregnancy-induced hypertension",
+      "step_by_step": [
+        "Step 1: Code the chronic hypertension first",
+        "Step 2: Add O94 as secondary diagnosis",
+        "Step 3: Verify sequencing is correct"
+      ],
+      "correct_coding": {
+        "primary_code": "Chronic hypertension code",
+        "secondary_codes": [
+          "O94"
+        ],
+        "sequencing": "Sequela condition first, O94 second",
+        "rationale": "Follows standard sequela coding rules where the condition is coded first, followed by the sequela code (Evidence: pg no: 70, L39-L40)"
+      },
+      "incorrect_coding": {
+        "code": "O94",
+        "codes": [
+          "O94 as primary"
+        ],
+        "rationale": "O94 should never be primary when coding sequelae",
+        "common_mistake": "Sequencing O94 before the actual sequela condition"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Never use O94 as primary diagnosis (Evidence: pg no: 70, L39-L40)"
+    ],
+    "best_practices": [
+      "Always sequence sequela condition first, then O94 (Evidence: pg no: 70, L39-L40)"
+    ],
+    "common_mistakes": [
+      "Sequencing O94 before the sequela condition code"
+    ],
+    "tips": [
+      "Follow standard sequela coding conventions for all O94 usage"
+    ],
+    "implementation_notes": [
+      "Consistent with general ICD-10-CM sequela coding rules"
+    ],
+    "clinical_context": [
+      "Ensures proper documentation of causal relationships"
+    ]
+  },
+  "search_keywords": [
+    "O94 sequencing",
+    "sequela codes",
+    "secondary diagnosis",
+    "coding order"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "sequencing_rules",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "O94",
+      "sequencing",
+      "sequela",
+      "secondary"
+    ]
+  },
+  "page_range_processed": "pages_69_to_72"
+}

@@ -1,0 +1,154 @@
+{
+  "guideline_id": "I.C.21.b",
+  "semantic_title": "Z Codes Indicate Reason for Encounter or Provide Additional Patient Information",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 21. Chapter 21: Factors influencing health status and contact with health services > b. Z Codes Indicate a Reason for an Encounter or Provide Additional Information about a Patient Encounter",
+  "page_number": 93,
+  "content": {
+    "full_text": "Z codes are not procedure codes. A corresponding procedure code must accompany a Z code to describe any procedure performed. (Evidence: pg no: 93, L70-L71)",
+    "summary": "Z codes indicate reasons for encounters or provide patient information but are not procedure codes (Evidence: pg no: 93, L70-L71)",
+    "key_concepts": [
+      "Z codes are not procedure codes (Evidence: pg no: 93, L70)",
+      "Corresponding procedure code required for procedures (Evidence: pg no: 93, L70-L71)",
+      "Z codes indicate encounter reasons (Evidence: pg no: 93, L68-L69)",
+      "Z codes provide additional patient information (Evidence: pg no: 93, L68-L69)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "z_codes_not_procedures",
+        "rule_text": "Z codes are not procedure codes (Evidence: pg no: 93, L70)",
+        "explanation": "Z codes describe reasons for encounters or patient status, but they do not describe procedures performed (Evidence: pg no: 93, L70)",
+        "importance": "critical",
+        "applies_to": "all Z codes",
+        "common_applications": [
+          "Distinguishing diagnosis from procedure coding",
+          "Proper code selection"
+        ]
+      },
+      {
+        "rule_id": "procedure_code_requirement",
+        "rule_text": "Corresponding procedure code must accompany Z code for procedures (Evidence: pg no: 93, L70-L71)",
+        "explanation": "When a procedure is performed during an encounter with a Z code, a separate procedure code must be assigned to describe the actual procedure (Evidence: pg no: 93, L70-L71)",
+        "importance": "critical",
+        "applies_to": "Z codes with associated procedures",
+        "common_applications": [
+          "Screening procedures",
+          "Preventive services",
+          "Therapeutic procedures"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify reason for encounter or patient status",
+      "Step 2: Assign appropriate Z code",
+      "Step 3: If procedure performed, assign corresponding procedure code",
+      "Step 4: Ensure both diagnosis and procedure codes are complete"
+    ],
+    "related_terminology": [
+      "Procedure codes",
+      "Encounter reason",
+      "Patient information",
+      "Corresponding codes"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z00-Z99",
+        "description": "Z codes for encounter reasons and patient information (Evidence: pg no: 93, L68-L71)",
+        "requirement": "Not procedure codes",
+        "usage_rules": [
+          "Must accompany with procedure codes when procedures performed (Evidence: pg no: 93, L70-L71)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Z codes (diagnosis codes)",
+      "Procedure codes (separate requirement)"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "screening_with_procedure",
+      "scenario": "Patient receives mammography screening",
+      "documentation_example": "Routine mammography screening performed",
+      "step_by_step": [
+        "Step 1: Identify screening as reason for encounter",
+        "Step 2: Assign Z code for mammography screening",
+        "Step 3: Assign procedure code for mammography",
+        "Step 4: Ensure both codes are documented"
+      ],
+      "correct_coding": {
+        "primary_code": "Z screening code",
+        "secondary_codes": [],
+        "sequencing": "Z code for encounter reason",
+        "rationale": "Z code indicates reason, procedure code describes what was done (Evidence: pg no: 93, L70-L71)"
+      },
+      "incorrect_coding": {
+        "code": "Z code only without procedure code",
+        "codes": [],
+        "rationale": "Must include procedure code when procedure performed",
+        "common_mistake": "Using only Z code for encounters involving procedures"
+      }
+    }
+  ],
+  "procedure_links": [
+    {
+      "cpt_code": "Various procedure codes",
+      "description": "Required when procedures performed with Z codes",
+      "relationship": "required_with",
+      "context": "Any procedure performed during Z code encounter",
+      "note": "Z codes do not replace procedure codes"
+    }
+  ],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Z codes are not procedure codes (Evidence: pg no: 93, L70)"
+    ],
+    "best_practices": [
+      "Always assign procedure codes when procedures performed (Evidence: pg no: 93, L70-L71)",
+      "Use Z codes to indicate encounter reasons or patient information (Evidence: pg no: 93, L68-L69)"
+    ],
+    "common_mistakes": [
+      "Using Z codes as procedure codes (Evidence: pg no: 93, L70)",
+      "Omitting procedure codes when procedures performed (Evidence: pg no: 93, L70-L71)"
+    ],
+    "tips": [
+      "Remember Z codes describe 'why' not 'what was done' (Evidence: pg no: 93, L70-L71)"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Screening encounters",
+      "Preventive services",
+      "Status documentation"
+    ]
+  },
+  "search_keywords": [
+    "Z codes not procedures",
+    "procedure code requirement",
+    "encounter reason",
+    "patient information",
+    "corresponding codes"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "z_codes",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "z_codes",
+      "procedure_codes",
+      "encounter_reason"
+    ]
+  },
+  "page_range_processed": "pages_90_to_93"
+}

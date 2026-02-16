@@ -1,0 +1,216 @@
+{
+  "guideline_id": "I.C.1.e.1.c",
+  "semantic_title": "Coding Guidelines for MRSA and MSSA Colonization",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 1. Certain Infectious and Parasitic Diseases > e. Methicillin Resistant Staphylococcus aureus (MRSA) Conditions > 1. Selection and sequencing of MRSA codes > (c) Methicillin susceptible Staphylococcus aureus (MSSA) and MRSA colonization",
+  "page_number": 27,
+  "content": {
+    "full_text": "The condition or state of being colonized or carrying MSSA or MRSA is called colonization or carriage, while an individual person is described as being colonized or being a carrier. Colonization means that MSSA or MSRA is present on or in the body without necessarily causing illness. A positive MRSA colonization test might be documented by the provider as 'MRSA screen positive' or 'MRSA nasal swab positive'. Assign code Z22.322, Carrier or suspected carrier of Methicillin resistant Staphylococcus aureus, for patients documented as having MRSA colonization. Assign code Z22.321, Carrier or suspected carrier of Methicillin susceptible Staphylococcus aureus, for patients documented as having MSSA colonization. Colonization is not necessarily indicative of a disease process or (Evidence: pg no: 27, L76-L79)",
+    "summary": "Definitions and coding instructions for MRSA and MSSA colonization states, distinguishing between colonization/carriage and active infection (Evidence: pg no: 27, L76-L79)",
+    "key_concepts": [
+      "Colonization vs carriage terminology (Evidence: pg no: 27, L76-L77)",
+      "Colonization without illness (Evidence: pg no: 27, L77-L78)",
+      "Documentation variations for positive screens (Evidence: pg no: 27, L78)",
+      "Specific Z codes for colonization (Evidence: pg no: 27, L78-L79)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "mrsa_colonization_definition",
+        "rule_text": "Colonization means organism present without necessarily causing illness (Evidence: pg no: 27, L77-L78)",
+        "explanation": "MSSA or MRSA colonization indicates the organism is present on or in the body but is not necessarily causing disease (Evidence: pg no: 27, L77-L78)",
+        "importance": "high",
+        "applies_to": "MRSA and MSSA colonization cases",
+        "common_applications": [
+          "Positive screening tests",
+          "Surveillance cultures",
+          "Pre-operative screening"
+        ]
+      },
+      {
+        "rule_id": "mrsa_colonization_coding",
+        "rule_text": "Assign Z22.322 for documented MRSA colonization (Evidence: pg no: 27, L78-L79)",
+        "explanation": "Use Z22.322 for patients documented as having MRSA colonization, including positive screens (Evidence: pg no: 27, L78-L79)",
+        "importance": "critical",
+        "applies_to": "Z22.322",
+        "common_applications": [
+          "MRSA screen positive",
+          "MRSA nasal swab positive",
+          "MRSA colonization documentation"
+        ]
+      },
+      {
+        "rule_id": "mssa_colonization_coding",
+        "rule_text": "Assign Z22.321 for documented MSSA colonization (Evidence: pg no: 27, L79)",
+        "explanation": "Use Z22.321 for patients documented as having MSSA colonization (Evidence: pg no: 27, L79)",
+        "importance": "critical",
+        "applies_to": "Z22.321",
+        "common_applications": [
+          "MSSA colonization",
+          "Methicillin susceptible Staph aureus carriage"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if documentation indicates colonization vs active infection",
+      "Step 2: Identify organism type (MRSA vs MSSA)",
+      "Step 3: Assign appropriate Z22.32X code for colonization",
+      "Step 4: Do not assign infection codes for colonization alone",
+      "Step 5: Consider colonization as risk factor for infection control"
+    ],
+    "related_terminology": [
+      "colonization",
+      "carriage",
+      "carrier",
+      "MRSA screen positive",
+      "MRSA nasal swab positive",
+      "methicillin susceptible",
+      "methicillin resistant",
+      "Staphylococcus aureus",
+      "surveillance"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "Z22.322",
+        "description": "Carrier or suspected carrier of Methicillin resistant Staphylococcus aureus (Evidence: pg no: 27, L78-L79)",
+        "context": "For documented MRSA colonization",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z22": "Carrier of infectious disease",
+          "322": "Carrier of Methicillin resistant Staphylococcus aureus"
+        }
+      },
+      {
+        "code": "Z22.321",
+        "description": "Carrier or suspected carrier of Methicillin susceptible Staphylococcus aureus (Evidence: pg no: 27, L79)",
+        "context": "For documented MSSA colonization",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z22": "Carrier of infectious disease",
+          "321": "Carrier of Methicillin susceptible Staphylococcus aureus"
+        }
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": "Single Z22.32X code for colonization",
+        "description": "Use appropriate carrier code based on organism susceptibility (Evidence: pg no: 27, L78-L79)",
+        "example": "Z22.322 for MRSA colonization, Z22.321 for MSSA colonization",
+        "explanation": "Colonization coded separately from active infections"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Carrier codes",
+      "Colonization codes",
+      "Z codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "mrsa_screen_positive",
+      "scenario": "Patient with positive MRSA screening test without active infection",
+      "documentation_example": "MRSA nasal swab positive, no signs of active infection",
+      "step_by_step": [
+        "Step 1: Identify positive MRSA screen",
+        "Step 2: Confirm no active infection documented",
+        "Step 3: Assign Z22.322 for MRSA colonization",
+        "Step 4: Do not assign infection codes",
+        "Step 5: Consider infection control implications"
+      ],
+      "correct_coding": {
+        "primary_code": "Z22.322",
+        "secondary_codes": [],
+        "sequencing": "Colonization code only",
+        "rationale": "Positive screen indicates colonization without active disease (Evidence: pg no: 27, L77-L79)"
+      },
+      "incorrect_coding": {
+        "code": "A41.02 or other infection codes",
+        "codes": [
+          "Active infection codes for colonization"
+        ],
+        "rationale": "Colonization does not indicate active infection",
+        "common_mistake": "Coding colonization as active infection"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "mssa_colonization",
+      "scenario": "Patient documented as MSSA carrier",
+      "code_example": "Z22.321",
+      "breakdown": {
+        "Z22.321": "Carrier code for MSSA colonization (Evidence: pg no: 27, L79)",
+        "not_infection": "No infection codes needed for colonization (Evidence: pg no: 27, L77-L78)"
+      },
+      "rationale": "Colonization indicates carriage without necessarily causing illness (Evidence: pg no: 27, L77-L78)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Colonization does not indicate active infection (Evidence: pg no: 27, L77-L78)",
+      "Do not assign infection codes for colonization alone (Evidence: pg no: 27, L77-L78)",
+      "Distinguish between colonization and active disease (Evidence: pg no: 27, L77-L78)"
+    ],
+    "best_practices": [
+      "Review documentation for colonization vs infection terminology (Evidence: pg no: 27, L76-L78)",
+      "Use appropriate Z code based on organism susceptibility (Evidence: pg no: 27, L78-L79)",
+      "Consider infection control implications of colonization (Evidence: pg no: 27, L76-L79)"
+    ],
+    "common_mistakes": [
+      "Coding colonization as active infection (Evidence: pg no: 27, L77-L78)",
+      "Using wrong Z code for organism type (Evidence: pg no: 27, L78-L79)",
+      "Missing colonization documentation (Evidence: pg no: 27, L78)"
+    ],
+    "tips": [
+      "Look for screening test documentation (Evidence: pg no: 27, L78)",
+      "Distinguish MRSA from MSSA for correct Z code (Evidence: pg no: 27, L78-L79)",
+      "Remember colonization terminology variations (Evidence: pg no: 27, L76-L77)"
+    ],
+    "implementation_notes": [
+      "Important for infection control programs",
+      "May affect isolation precautions",
+      "Relevant for pre-operative screening"
+    ],
+    "clinical_context": [
+      "Common in hospital admission screening",
+      "Important for infection prevention",
+      "May influence treatment decisions"
+    ]
+  },
+  "search_keywords": [
+    "MRSA colonization",
+    "MSSA colonization",
+    "carrier",
+    "Z22.322",
+    "Z22.321",
+    "screening",
+    "nasal swab",
+    "surveillance",
+    "infection control"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "infectious_diseases",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "MRSA",
+      "MSSA",
+      "colonization",
+      "carrier",
+      "screening",
+      "Z_codes"
+    ]
+  },
+  "page_range_processed": "pages_24_to_27"
+}

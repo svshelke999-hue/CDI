@@ -1,0 +1,214 @@
+{
+  "guideline_id": "I.C.9.a.4",
+  "semantic_title": "Hypertensive Cerebrovascular Disease Coding Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 9. Chapter 9: Diseases of the Circulatory System > a. Hypertension > 4) Hypertensive Cerebrovascular Disease",
+  "page_number": 51,
+  "content": {
+    "full_text": "For hypertensive cerebrovascular disease, first assign the appropriate code from categories I60-I69, followed by the appropriate hypertension code. (Evidence: pg no: 51, L75-L77)",
+    "summary": "Guidelines for coding hypertensive cerebrovascular disease requiring sequencing of cerebrovascular codes first, followed by hypertension codes (Evidence: pg no: 51, L75-L77)",
+    "key_concepts": [
+      "Cerebrovascular code sequencing priority (Evidence: pg no: 51, L76)",
+      "Hypertension code as secondary (Evidence: pg no: 51, L76-L77)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "HTN_CEREBROVASCULAR_SEQUENCING",
+        "rule_text": "For hypertensive cerebrovascular disease, assign cerebrovascular code (I60-I69) first, then hypertension code (Evidence: pg no: 51, L75-L77)",
+        "explanation": "When coding hypertensive cerebrovascular disease, the appropriate code from categories I60-I69 (cerebrovascular diseases) should be assigned first, followed by the appropriate hypertension code (Evidence: pg no: 51, L75-L77)",
+        "importance": "high",
+        "applies_to": "Hypertensive cerebrovascular disease cases",
+        "common_applications": [
+          "Hypertensive stroke",
+          "Hypertensive intracerebral hemorrhage",
+          "Hypertensive subarachnoid hemorrhage",
+          "Cerebrovascular disease with hypertension"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify cerebrovascular disease and hypertension",
+      "Step 2: Determine appropriate cerebrovascular code from I60-I69",
+      "Step 3: Assign cerebrovascular code as primary",
+      "Step 4: Determine appropriate hypertension code",
+      "Step 5: Assign hypertension code as secondary",
+      "Step 6: Ensure sequencing follows guideline requirements"
+    ],
+    "related_terminology": [
+      "Hypertensive cerebrovascular disease",
+      "Cerebrovascular diseases",
+      "Stroke",
+      "Intracerebral hemorrhage",
+      "Subarachnoid hemorrhage",
+      "Hypertensive encephalopathy",
+      "Code sequencing",
+      "Primary and secondary coding"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "I60-I69",
+        "description": "Cerebrovascular diseases category (Evidence: pg no: 51, L76)",
+        "requirement": "Assign first for hypertensive cerebrovascular disease",
+        "usage_rules": [
+          "Primary code for hypertensive cerebrovascular disease (Evidence: pg no: 51, L76)",
+          "Followed by appropriate hypertension code (Evidence: pg no: 51, L76-L77)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "I6x.x followed by hypertension code",
+        "description": "Cerebrovascular code sequenced before hypertension code (Evidence: pg no: 51, L75-L77)",
+        "example": "I61.9 followed by I10",
+        "explanation": "Cerebrovascular condition takes priority in sequencing"
+      }
+    ],
+    "code_categories_mentioned": [
+      "I60-I69 Cerebrovascular diseases",
+      "Hypertension codes (I10-I16)"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.9.a",
+        "title": "Hypertension general guidelines",
+        "relationship": "builds_upon",
+        "explanation": "Applies general hypertension coding principles to cerebrovascular cases"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "HTN_STROKE_1",
+      "scenario": "Patient with hypertensive intracerebral hemorrhage",
+      "documentation_example": "Patient admitted with intracerebral hemorrhage due to hypertension.",
+      "step_by_step": [
+        "Step 1: Identify intracerebral hemorrhage and hypertension",
+        "Step 2: Determine appropriate I61 code for intracerebral hemorrhage",
+        "Step 3: Assign I61 code as primary",
+        "Step 4: Determine appropriate hypertension code (I10 or I15)",
+        "Step 5: Assign hypertension code as secondary"
+      ],
+      "correct_coding": {
+        "primary_code": "I61.9",
+        "secondary_codes": [
+          "I10"
+        ],
+        "sequencing": "Cerebrovascular code first, hypertension code second",
+        "rationale": "Cerebrovascular disease code must be sequenced first for hypertensive cerebrovascular disease (Evidence: pg no: 51, L75-L77)"
+      },
+      "incorrect_coding": {
+        "code": "I10",
+        "codes": [
+          "I10",
+          "I61.9"
+        ],
+        "rationale": "Should not sequence hypertension code first",
+        "common_mistake": "Sequencing hypertension code before cerebrovascular code"
+      }
+    },
+    {
+      "scenario_id": "HTN_SAH_1",
+      "scenario": "Patient with hypertensive subarachnoid hemorrhage",
+      "documentation_example": "Patient presents with subarachnoid hemorrhage secondary to hypertensive crisis.",
+      "step_by_step": [
+        "Step 1: Identify subarachnoid hemorrhage and hypertension",
+        "Step 2: Determine appropriate I60 code for subarachnoid hemorrhage",
+        "Step 3: Assign I60 code as primary",
+        "Step 4: Determine if hypertensive crisis requires I16 code",
+        "Step 5: Assign appropriate hypertension code as secondary"
+      ],
+      "correct_coding": {
+        "primary_code": "I60.9",
+        "secondary_codes": [
+          "I16.9"
+        ],
+        "sequencing": "Subarachnoid hemorrhage first, hypertensive crisis second",
+        "rationale": "Cerebrovascular code takes priority over hypertension code in sequencing (Evidence: pg no: 51, L75-L77)"
+      },
+      "incorrect_coding": {
+        "code": "I16.9",
+        "codes": [
+          "I16.9",
+          "I60.9"
+        ],
+        "rationale": "Should not sequence hypertensive crisis before cerebrovascular event",
+        "common_mistake": "Prioritizing hypertension code over cerebrovascular code"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "HTN_CEREBROVASCULAR_EX1",
+      "scenario": "Hypertensive ischemic stroke",
+      "code_example": "I63.9 + I10",
+      "breakdown": {
+        "I63.9": "Cerebral infarction, unspecified (primary) (Evidence: pg no: 51, L76)",
+        "I10": "Essential hypertension (secondary) (Evidence: pg no: 51, L76-L77)"
+      },
+      "rationale": "Cerebrovascular code sequenced first per guideline requirements (Evidence: pg no: 51, L75-L77)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not sequence hypertension code before cerebrovascular code (Evidence: pg no: 51, L75-L77)",
+      "Sequencing is mandatory, not optional for hypertensive cerebrovascular disease"
+    ],
+    "best_practices": [
+      "Always assign cerebrovascular code first for hypertensive cerebrovascular disease (Evidence: pg no: 51, L76)",
+      "Follow with appropriate hypertension code as secondary (Evidence: pg no: 51, L76-L77)"
+    ],
+    "common_mistakes": [
+      "Sequencing hypertension code before cerebrovascular code (Evidence: pg no: 51, L75-L77)",
+      "Using combination codes when separate sequencing required"
+    ],
+    "tips": [
+      "I60-I69 codes always come first in hypertensive cerebrovascular disease (Evidence: pg no: 51, L76)",
+      "Hypertension code follows as secondary diagnosis (Evidence: pg no: 51, L76-L77)"
+    ],
+    "implementation_notes": [
+      "Sequencing rule is specific and must be followed",
+      "Different from other hypertensive disease coding patterns"
+    ],
+    "clinical_context": [
+      "Cerebrovascular events are often acute presentations",
+      "Hypertension is frequently the underlying cause",
+      "Acute cerebrovascular event takes clinical priority"
+    ]
+  },
+  "search_keywords": [
+    "hypertensive cerebrovascular disease",
+    "cerebrovascular sequencing",
+    "I60-I69",
+    "hypertensive stroke",
+    "intracerebral hemorrhage",
+    "subarachnoid hemorrhage",
+    "code sequencing",
+    "cerebrovascular first",
+    "hypertension secondary"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "circulatory_system_hypertensive_cerebrovascular",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "hypertension",
+      "cerebrovascular",
+      "sequencing",
+      "stroke",
+      "hemorrhage",
+      "I60-I69"
+    ]
+  },
+  "page_range_processed": "pages_48_to_51"
+}

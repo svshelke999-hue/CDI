@@ -1,0 +1,346 @@
+{
+  "guideline_id": "I.C.19.f",
+  "semantic_title": "Coding Guidelines for Adult and Child Abuse, Neglect and Other Maltreatment",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 19. Chapter 19: Injury, poisoning, and certain other consequences of external causes > f. Adult and child abuse, neglect and other maltreatment",
+  "page_number": 85,
+  "content": {
+    "full_text": "Sequence first the appropriate code from categories T74, Adult and child abuse, neglect and other maltreatment, confirmed, or T76, Adult and child abuse, neglect and other maltreatment, suspected, for abuse, neglect and other maltreatment, followed by any accompanying mental health or injury code(s). If the documentation in the medical record states abuse or neglect, it is coded as confirmed (T74.-). It is coded as suspected if it is documented as suspected (T76.-). For cases of confirmed abuse or neglect an external cause code from the assault section (X92-Y09) should be added to identify the cause of any physical injuries. A perpetrator code (Y07) should be added when the perpetrator of the abuse is known. For suspected cases of abuse or neglect, do not report external cause or perpetrator code. If a suspected case of abuse, neglect or mistreatment is ruled out during an encounter code Z04.71, Encounter for examination and observation following alleged physical adult abuse, ruled out, or code Z04.72, Encounter for examination and observation following alleged child physical abuse, ruled out, should be used, not a code from T76. If a suspected case of alleged rape or sexual abuse is ruled out during an encounter code Z04.41, Encounter for examination and observation following alleged adult rape or code Z04.42, Encounter for examination and observation following alleged child rape, should be used, not a code from T76. If a suspected case of forced sexual exploitation or forced labor exploitation is ruled out during an encounter, code Z04.81, Encounter for examination and observation of victim following forced sexual exploitation, or code Z04.82, Encounter for examination and observation of victim following forced labor exploitation, should be used, not a code from T76. See Section I.C.15. Abuse in a pregnant patient. (Evidence: pg no: 85, L27-L37)",
+    "summary": "Abuse and maltreatment coding uses T74 for confirmed cases and T76 for suspected cases, with specific sequencing and external cause requirements (Evidence: pg no: 85, L27-L37)",
+    "key_concepts": [
+      "Confirmed vs suspected abuse (Evidence: pg no: 85, L27-L32)",
+      "T74 and T76 categories (Evidence: pg no: 85, L27-L29)",
+      "Sequencing requirements (Evidence: pg no: 85, L27-L30)",
+      "External cause codes (Evidence: pg no: 85, L32-L33)",
+      "Perpetrator codes (Evidence: pg no: 85, L33)",
+      "Ruled out cases (Evidence: pg no: 85, L34-L37)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "abuse_sequencing_rule",
+        "rule_text": "Sequence first the appropriate code from categories T74 or T76 for abuse, neglect and other maltreatment, followed by any accompanying mental health or injury code(s) (Evidence: pg no: 85, L27-L30)",
+        "explanation": "Abuse codes from T74 (confirmed) or T76 (suspected) are always sequenced first, with associated injuries and mental health conditions following (Evidence: pg no: 85, L27-L30)",
+        "importance": "critical",
+        "applies_to": "T74, T76",
+        "common_applications": [
+          "All abuse and neglect cases"
+        ]
+      },
+      {
+        "rule_id": "confirmed_vs_suspected_rule",
+        "rule_text": "If the documentation states abuse or neglect, it is coded as confirmed (T74.-). It is coded as suspected if documented as suspected (T76.-) (Evidence: pg no: 85, L30-L32)",
+        "explanation": "Documentation language determines whether to use confirmed (T74) or suspected (T76) codes based on provider's clinical assessment (Evidence: pg no: 85, L30-L32)",
+        "importance": "critical",
+        "applies_to": "T74, T76",
+        "common_applications": [
+          "Clinical documentation review",
+          "Provider assessment interpretation"
+        ]
+      },
+      {
+        "rule_id": "external_cause_confirmed_rule",
+        "rule_text": "For cases of confirmed abuse or neglect an external cause code from the assault section (X92-Y09) should be added to identify the cause of any physical injuries (Evidence: pg no: 85, L32-L33)",
+        "explanation": "Confirmed abuse cases require external cause codes from assault section when physical injuries are present (Evidence: pg no: 85, L32-L33)",
+        "importance": "high",
+        "applies_to": "T74 with physical injuries",
+        "common_applications": [
+          "Confirmed physical abuse cases"
+        ]
+      },
+      {
+        "rule_id": "perpetrator_code_rule",
+        "rule_text": "A perpetrator code (Y07) should be added when the perpetrator of the abuse is known (Evidence: pg no: 85, L33)",
+        "explanation": "When the perpetrator is identified, add appropriate Y07 code to specify relationship to victim (Evidence: pg no: 85, L33)",
+        "importance": "high",
+        "applies_to": "T74 confirmed cases",
+        "common_applications": [
+          "Known perpetrator cases"
+        ]
+      },
+      {
+        "rule_id": "suspected_external_cause_rule",
+        "rule_text": "For suspected cases of abuse or neglect, do not report external cause or perpetrator code (Evidence: pg no: 85, L33-L34)",
+        "explanation": "Suspected abuse cases (T76) should not include external cause or perpetrator codes (Evidence: pg no: 85, L33-L34)",
+        "importance": "high",
+        "applies_to": "T76 suspected cases",
+        "common_applications": [
+          "All suspected abuse cases"
+        ]
+      },
+      {
+        "rule_id": "ruled_out_cases_rule",
+        "rule_text": "If suspected case is ruled out, use appropriate Z04 codes, not codes from T76 (Evidence: pg no: 85, L34-L37)",
+        "explanation": "When suspected abuse is ruled out during encounter, use specific Z04 observation codes instead of T76 codes (Evidence: pg no: 85, L34-L37)",
+        "importance": "critical",
+        "applies_to": "Z04.71, Z04.72, Z04.41, Z04.42, Z04.81, Z04.82",
+        "common_applications": [
+          "Ruled out physical abuse",
+          "Ruled out sexual abuse",
+          "Ruled out exploitation"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if abuse is confirmed or suspected from documentation",
+      "Step 2: Assign appropriate T74 (confirmed) or T76 (suspected) code first",
+      "Step 3: Add codes for associated injuries and mental health conditions",
+      "Step 4: For confirmed cases with injuries, add external cause codes (X92-Y09)",
+      "Step 5: Add perpetrator code (Y07) if known for confirmed cases",
+      "Step 6: If suspected case ruled out, use Z04 codes instead"
+    ],
+    "related_terminology": [
+      "Confirmed abuse",
+      "Suspected abuse",
+      "Neglect",
+      "Maltreatment",
+      "Perpetrator",
+      "External cause",
+      "Ruled out"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "T74",
+        "description": "Adult and child abuse, neglect and other maltreatment, confirmed (Evidence: pg no: 85, L28)",
+        "requirement": "Use when abuse is documented as confirmed",
+        "usage_rules": [
+          "Sequence first (Evidence: pg no: 85, L27-L30)",
+          "Add external cause codes for physical injuries (Evidence: pg no: 85, L32-L33)",
+          "Add perpetrator codes when known (Evidence: pg no: 85, L33)"
+        ]
+      },
+      {
+        "range": "T76",
+        "description": "Adult and child abuse, neglect and other maltreatment, suspected (Evidence: pg no: 85, L28-L29)",
+        "requirement": "Use when abuse is documented as suspected",
+        "usage_rules": [
+          "Sequence first (Evidence: pg no: 85, L27-L30)",
+          "Do not add external cause or perpetrator codes (Evidence: pg no: 85, L33-L34)",
+          "Use Z04 codes if ruled out (Evidence: pg no: 85, L34-L37)"
+        ]
+      },
+      {
+        "range": "X92-Y09",
+        "description": "Assault section external cause codes (Evidence: pg no: 85, L32-L33)",
+        "requirement": "Use with confirmed abuse cases with physical injuries",
+        "usage_rules": [
+          "Only for confirmed cases (T74) (Evidence: pg no: 85, L32-L33)"
+        ]
+      },
+      {
+        "range": "Y07",
+        "description": "Perpetrator codes (Evidence: pg no: 85, L33)",
+        "requirement": "Use when perpetrator is known",
+        "usage_rules": [
+          "Only for confirmed cases (Evidence: pg no: 85, L33)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "Z04.71",
+        "description": "Encounter for examination and observation following alleged physical adult abuse, ruled out (Evidence: pg no: 85, L34-L35)",
+        "context": "Use when suspected adult physical abuse is ruled out",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z04": "Encounter for examination and observation",
+          "71": "Adult physical abuse ruled out"
+        }
+      },
+      {
+        "code": "Z04.72",
+        "description": "Encounter for examination and observation following alleged child physical abuse, ruled out (Evidence: pg no: 85, L35)",
+        "context": "Use when suspected child physical abuse is ruled out",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z04": "Encounter for examination and observation",
+          "72": "Child physical abuse ruled out"
+        }
+      },
+      {
+        "code": "Z04.41",
+        "description": "Encounter for examination and observation following alleged adult rape (Evidence: pg no: 85, L36)",
+        "context": "Use when suspected adult rape is ruled out",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z04": "Encounter for examination and observation",
+          "41": "Adult rape ruled out"
+        }
+      },
+      {
+        "code": "Z04.42",
+        "description": "Encounter for examination and observation following alleged child rape (Evidence: pg no: 85, L36)",
+        "context": "Use when suspected child rape is ruled out",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z04": "Encounter for examination and observation",
+          "42": "Child rape ruled out"
+        }
+      },
+      {
+        "code": "Z04.81",
+        "description": "Encounter for examination and observation of victim following forced sexual exploitation (Evidence: pg no: 85, L36-L37)",
+        "context": "Use when suspected forced sexual exploitation is ruled out",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z04": "Encounter for examination and observation",
+          "81": "Forced sexual exploitation ruled out"
+        }
+      },
+      {
+        "code": "Z04.82",
+        "description": "Encounter for examination and observation of victim following forced labor exploitation (Evidence: pg no: 85, L37)",
+        "context": "Use when suspected forced labor exploitation is ruled out",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z04": "Encounter for examination and observation",
+          "82": "Forced labor exploitation ruled out"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Confirmed abuse codes",
+      "Suspected abuse codes",
+      "External cause codes",
+      "Perpetrator codes",
+      "Ruled out observation codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.15",
+        "title": "Abuse in a pregnant patient",
+        "relationship": "related_to",
+        "explanation": "Referenced for pregnancy-related abuse cases (Evidence: pg no: 85, L37)"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "confirmed_abuse_scenario",
+      "scenario": "Child presents with confirmed physical abuse by parent, has multiple bruises and fractures",
+      "documentation_example": "6-year-old child with confirmed physical abuse by father, presents with multiple contusions and fractured ribs",
+      "step_by_step": [
+        "Step 1: Identify confirmed abuse from documentation",
+        "Step 2: Assign T74 code for confirmed child abuse first",
+        "Step 3: Code associated injuries as secondary",
+        "Step 4: Add external cause code for assault",
+        "Step 5: Add perpetrator code for father"
+      ],
+      "correct_coding": {
+        "primary_code": "T74.12XA",
+        "secondary_codes": [
+          "S22.42XA",
+          "T14.8XXA",
+          "X99.9XXA",
+          "Y07.11"
+        ],
+        "sequencing": "Abuse code first, injuries second, external cause and perpetrator follow",
+        "rationale": "Confirmed abuse sequenced first with associated injuries and external causes (Evidence: pg no: 85, L27-L33)"
+      },
+      "incorrect_coding": {
+        "code": "S22.42XA",
+        "codes": [
+          "S22.42XA",
+          "T14.8XXA"
+        ],
+        "rationale": "Cannot sequence injuries before abuse code",
+        "common_mistake": "Sequencing injuries first instead of abuse code"
+      }
+    },
+    {
+      "scenario_id": "suspected_abuse_ruled_out_scenario",
+      "scenario": "Adult brought for evaluation of suspected abuse, examination rules out abuse",
+      "documentation_example": "Adult female brought by concerned friend for evaluation of suspected domestic abuse, examination and interview rule out abuse",
+      "step_by_step": [
+        "Step 1: Identify suspected abuse was ruled out",
+        "Step 2: Do not use T76 code",
+        "Step 3: Assign appropriate Z04.71 code",
+        "Step 4: Do not add external cause or perpetrator codes"
+      ],
+      "correct_coding": {
+        "primary_code": "Z04.71",
+        "secondary_codes": [],
+        "sequencing": "Z04.71 as primary code",
+        "rationale": "Ruled out suspected abuse uses Z04 codes, not T76 codes (Evidence: pg no: 85, L34-L35)"
+      },
+      "incorrect_coding": {
+        "code": "T76.11XA",
+        "codes": [
+          "T76.11XA"
+        ],
+        "rationale": "Should not use T76 when abuse is ruled out",
+        "common_mistake": "Using T76 codes for ruled out cases"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not use external cause or perpetrator codes for suspected cases (Evidence: pg no: 85, L33-L34)",
+      "Use Z04 codes, not T76, when suspected abuse is ruled out (Evidence: pg no: 85, L34-L37)"
+    ],
+    "best_practices": [
+      "Always sequence abuse codes first (Evidence: pg no: 85, L27-L30)",
+      "Document clearly whether abuse is confirmed or suspected (Evidence: pg no: 85, L30-L32)",
+      "Include all associated injuries and mental health conditions (Evidence: pg no: 85, L27-L30)"
+    ],
+    "common_mistakes": [
+      "Using T76 codes for ruled out cases (Evidence: pg no: 85, L34-L37)",
+      "Adding external cause codes to suspected cases (Evidence: pg no: 85, L33-L34)",
+      "Sequencing injuries before abuse codes (Evidence: pg no: 85, L27-L30)"
+    ],
+    "tips": [
+      "Pay attention to documentation language for confirmed vs suspected (Evidence: pg no: 85, L30-L32)",
+      "Consider pregnancy-related guidelines for pregnant patients (Evidence: pg no: 85, L37)"
+    ],
+    "implementation_notes": [
+      "Requires careful documentation review",
+      "May involve social services coordination",
+      "Consider mandatory reporting requirements"
+    ],
+    "clinical_context": [
+      "Emergency department presentations",
+      "Pediatric encounters",
+      "Social work consultations",
+      "Legal implications"
+    ]
+  },
+  "search_keywords": [
+    "abuse",
+    "neglect",
+    "maltreatment",
+    "confirmed abuse",
+    "suspected abuse",
+    "T74",
+    "T76",
+    "perpetrator codes",
+    "external cause",
+    "ruled out abuse"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "abuse_and_maltreatment",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient",
+      "emergency"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "abuse",
+      "neglect",
+      "T74",
+      "T76",
+      "external_cause",
+      "perpetrator",
+      "ruled_out"
+    ]
+  },
+  "page_range_processed": "pages_84_to_87"
+}

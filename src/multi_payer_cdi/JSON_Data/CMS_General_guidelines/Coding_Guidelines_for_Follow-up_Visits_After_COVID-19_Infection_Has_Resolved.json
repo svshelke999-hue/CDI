@@ -1,0 +1,186 @@
+{
+  "guideline_id": "I.C.1.g.1.j",
+  "semantic_title": "Coding Guidelines for Follow-up Visits After COVID-19 Infection Has Resolved",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 1. Chapter 1: Certain Infectious and Parasitic Diseases > g. Coronavirus infections > 1. COVID-19 infections > j. Follow-up visits after COVID-19 infection has resolved",
+  "page_number": 31,
+  "content": {
+    "full_text": "For individuals who previously had COVID-19, without residual symptom(s) or condition(s), and are being seen for follow-up evaluation, and COVID-19 test results are negative, assign codes Z09, Encounter for follow-up examination after completed treatment for conditions other than malignant neoplasm, and Z86.16, Personal history of COVID-19. For follow-up visits for individuals with symptom(s) or condition(s) related to a previous COVID-19 infection, see guideline I.C.1.g.1.m. See Section I.C.21.c.8, Factors influencing health states and contact with health services, Follow-up (Evidence: pg no: 31, L40-L45)",
+    "summary": "Provides coding instructions for follow-up visits after resolved COVID-19 infection, distinguishing between patients with and without residual symptoms (Evidence: pg no: 31, L40-L45)",
+    "key_concepts": [
+      "Follow-up coding for resolved COVID-19 (Evidence: pg no: 31, L40-L43)",
+      "Negative test results requirement (Evidence: pg no: 31, L42)",
+      "No residual symptoms condition (Evidence: pg no: 31, L41-L42)",
+      "Dual code assignment Z09 and Z86.16 (Evidence: pg no: 31, L42-L43)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "COVID_FOLLOWUP_01",
+        "rule_text": "Assign Z09 and Z86.16 for follow-up visits after resolved COVID-19 without residual symptoms (Evidence: pg no: 31, L42-L43)",
+        "explanation": "For patients who previously had COVID-19, have no residual symptoms or conditions, are being seen for follow-up evaluation, and have negative COVID-19 test results, assign both Z09 and Z86.16 (Evidence: pg no: 31, L40-L43)",
+        "importance": "high",
+        "applies_to": "Z09, Z86.16",
+        "common_applications": [
+          "Post-COVID follow-up appointments",
+          "Routine monitoring after COVID-19 recovery"
+        ]
+      },
+      {
+        "rule_id": "COVID_FOLLOWUP_02",
+        "rule_text": "Different coding applies for follow-up visits with residual symptoms (Evidence: pg no: 31, L44-L45)",
+        "explanation": "For follow-up visits where individuals have symptoms or conditions related to previous COVID-19 infection, refer to guideline I.C.1.g.1.m for appropriate coding (Evidence: pg no: 31, L44-L45)",
+        "importance": "high",
+        "applies_to": "Post COVID-19 conditions",
+        "common_applications": [
+          "Long COVID follow-up",
+          "Post-COVID complications"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if patient previously had COVID-19",
+      "Step 2: Assess for residual symptoms or conditions",
+      "Step 3: Verify negative COVID-19 test results",
+      "Step 4: If no residual symptoms and negative tests, assign Z09 and Z86.16",
+      "Step 5: If residual symptoms present, refer to guideline I.C.1.g.1.m"
+    ],
+    "related_terminology": [
+      "follow-up examination",
+      "residual symptoms",
+      "negative test results",
+      "completed treatment"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "Z09",
+        "description": "Encounter for follow-up examination after completed treatment for conditions other than malignant neoplasm (Evidence: pg no: 31, L42-L43)",
+        "context": "For follow-up after resolved COVID-19 without residual symptoms",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "Z09": "Follow-up examination after completed treatment"
+        }
+      },
+      {
+        "code": "Z86.16",
+        "description": "Personal history of COVID-19 (Evidence: pg no: 31, L43)",
+        "context": "Used with Z09 for COVID-19 follow-up visits",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "Z86": "Personal history of certain other diseases",
+          ".16": "Personal history of COVID-19"
+        }
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": "Z09 + Z86.16",
+        "description": "Dual coding for COVID-19 follow-up without residual symptoms (Evidence: pg no: 31, L42-L43)",
+        "example": "Z09, Z86.16",
+        "explanation": "Both codes required for complete follow-up documentation"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Follow-up examination codes",
+      "Personal history codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.1.g.1.m",
+        "title": "Post COVID-19 Condition",
+        "relationship": "applies_to",
+        "explanation": "Referenced for follow-up visits with residual symptoms"
+      },
+      {
+        "guideline_id": "I.C.21.c.8",
+        "title": "Factors influencing health states and contact with health services, Follow-up",
+        "relationship": "related_to",
+        "explanation": "General follow-up coding guidance"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "COVID_FOLLOWUP_01",
+      "scenario": "Patient presents for routine follow-up after COVID-19 recovery, no symptoms, negative test",
+      "documentation_example": "Follow-up visit for patient who had COVID-19 three months ago, fully recovered, no residual symptoms, recent COVID test negative",
+      "step_by_step": [
+        "Step 1: Confirm previous COVID-19 infection",
+        "Step 2: Verify no residual symptoms or conditions",
+        "Step 3: Confirm negative COVID-19 test results",
+        "Step 4: Assign Z09 as primary diagnosis",
+        "Step 5: Assign Z86.16 as additional diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "Z09",
+        "secondary_codes": [
+          "Z86.16"
+        ],
+        "sequencing": "Z09 first, Z86.16 as additional",
+        "rationale": "Follow-up examination code with personal history for complete documentation (Evidence: pg no: 31, L42-L43)"
+      },
+      "incorrect_coding": {
+        "code": "Z86.16",
+        "codes": [
+          "Z86.16 only"
+        ],
+        "rationale": "Missing the follow-up examination code Z09",
+        "common_mistake": "Using only personal history code without follow-up code"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Different coding applies when residual symptoms are present (Evidence: pg no: 31, L44-L45)"
+    ],
+    "best_practices": [
+      "Use both Z09 and Z86.16 for complete follow-up documentation (Evidence: pg no: 31, L42-L43)",
+      "Verify negative test results before using this coding approach (Evidence: pg no: 31, L42)"
+    ],
+    "common_mistakes": [
+      "Using only one code instead of both required codes",
+      "Not distinguishing between follow-up with and without residual symptoms"
+    ],
+    "tips": [
+      "Check for residual symptoms to determine appropriate guideline (Evidence: pg no: 31, L44-L45)"
+    ],
+    "implementation_notes": [
+      "Establish clear protocols for assessing residual symptoms"
+    ],
+    "clinical_context": [
+      "Post-COVID recovery monitoring",
+      "Routine follow-up care"
+    ]
+  },
+  "search_keywords": [
+    "COVID-19 follow-up",
+    "Z09",
+    "Z86.16",
+    "resolved COVID-19",
+    "negative test results",
+    "post-COVID follow-up"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "COVID-19 coding",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "COVID-19",
+      "follow-up",
+      "Z_codes",
+      "resolved_infection"
+    ]
+  },
+  "page_range_processed": "pages_30_to_33"
+}

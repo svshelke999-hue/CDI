@@ -1,0 +1,319 @@
+{
+  "guideline_id": "I.C.10.d.1",
+  "semantic_title": "Documentation of Ventilator Associated Pneumonia Coding Requirements",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 10. Chapter 10: Diseases of the Respiratory System > d. Ventilator associated Pneumonia > 1. Documentation of Ventilator associated Pneumonia",
+  "page_number": 57,
+  "content": {
+    "full_text": "As with all procedural or postprocedural complications, code assignment is based on the provider's documentation of the relationship between the condition and the procedure. Code J95.851, Ventilator associated pneumonia, should be assigned only when the provider has documented ventilator associated pneumonia (VAP). An additional code to identify the organism (e.g., Pseudomonas aeruginosa, code B96.5) should also be assigned. Do not assign an additional code from categories J12-J18 to identify the type of pneumonia. Code J95.851 should not be assigned for cases where the patient has pneumonia and is on a mechanical ventilator and the provider has not specifically stated that the pneumonia is ventilator-associated pneumonia. If the documentation is unclear as to whether the patient has a pneumonia that is a complication attributable to the mechanical ventilator, query the provider. (Evidence: pg no: 57, L80-L83)",
+    "summary": "Specific documentation requirements for coding ventilator associated pneumonia including provider statement requirements, organism coding, and query guidelines (Evidence: pg no: 57, L80-L83)",
+    "key_concepts": [
+      "Provider documentation requirement (Evidence: pg no: 57, L80-L81)",
+      "Specific VAP terminology requirement (Evidence: pg no: 57, L81)",
+      "Organism identification coding (Evidence: pg no: 57, L81)",
+      "Exclusion of pneumonia type codes (Evidence: pg no: 57, L81-L82)",
+      "Provider query requirement (Evidence: pg no: 57, L83)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "provider_documentation_required",
+        "rule_text": "Code J95.851 should be assigned only when provider has documented ventilator associated pneumonia (Evidence: pg no: 57, L81)",
+        "explanation": "Specific provider documentation of VAP relationship is required, not just presence of pneumonia in ventilated patient (Evidence: pg no: 57, L81)",
+        "importance": "critical",
+        "applies_to": "J95.851",
+        "common_applications": [
+          "VAP diagnosis documentation",
+          "Provider-confirmed ventilator relationship",
+          "Postprocedural complication coding"
+        ]
+      },
+      {
+        "rule_id": "organism_coding_required",
+        "rule_text": "An additional code to identify the organism should also be assigned (Evidence: pg no: 57, L81)",
+        "explanation": "When VAP is coded, the causative organism must be identified with additional code when known (Evidence: pg no: 57, L81)",
+        "importance": "high",
+        "applies_to": "J95.851 with organism codes",
+        "common_applications": [
+          "Pseudomonas VAP",
+          "MRSA VAP",
+          "Other bacterial VAP"
+        ]
+      },
+      {
+        "rule_id": "pneumonia_type_exclusion",
+        "rule_text": "Do not assign additional code from categories J12-J18 to identify type of pneumonia (Evidence: pg no: 57, L81-L82)",
+        "explanation": "VAP code J95.851 is sufficient for pneumonia type identification, additional pneumonia codes are not needed (Evidence: pg no: 57, L81-L82)",
+        "importance": "high",
+        "applies_to": "J95.851 with J12-J18 exclusion",
+        "common_applications": [
+          "Avoiding duplicate pneumonia coding",
+          "VAP-specific coding approach"
+        ]
+      },
+      {
+        "rule_id": "mechanical_ventilator_distinction",
+        "rule_text": "Do not assign J95.851 when patient has pneumonia and is on mechanical ventilator without specific VAP documentation (Evidence: pg no: 57, L82)",
+        "explanation": "Presence of pneumonia in mechanically ventilated patient does not automatically qualify as VAP without provider documentation (Evidence: pg no: 57, L82)",
+        "importance": "critical",
+        "applies_to": "J95.851 vs other pneumonia codes",
+        "common_applications": [
+          "Pneumonia in ventilated patients",
+          "Community-acquired pneumonia on ventilator",
+          "Hospital-acquired pneumonia distinction"
+        ]
+      },
+      {
+        "rule_id": "unclear_documentation_query",
+        "rule_text": "If documentation is unclear about pneumonia being ventilator-attributable complication, query the provider (Evidence: pg no: 57, L83)",
+        "explanation": "When relationship between pneumonia and ventilator is unclear, provider clarification is required (Evidence: pg no: 57, L83)",
+        "importance": "high",
+        "applies_to": "unclear VAP documentation",
+        "common_applications": [
+          "Ambiguous pneumonia documentation",
+          "Unclear ventilator relationship",
+          "Need for provider clarification"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify pneumonia diagnosis in ventilated patient",
+      "Step 2: Look for specific VAP documentation by provider",
+      "Step 3: If VAP documented, assign J95.851",
+      "Step 4: Identify and code causative organism",
+      "Step 5: Do not add J12-J18 codes",
+      "Step 6: If unclear, query provider for clarification"
+    ],
+    "related_terminology": [
+      "Ventilator associated pneumonia",
+      "VAP",
+      "Mechanical ventilator",
+      "Postprocedural complication",
+      "Organism identification",
+      "Provider documentation",
+      "Ventilator-attributable"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "J12-J18",
+        "description": "Pneumonia type codes (Evidence: pg no: 57, L81-L82)",
+        "requirement": "Do not use with J95.851",
+        "usage_rules": [
+          "Excluded when VAP is coded (Evidence: pg no: 57, L81-L82)",
+          "VAP code is sufficient for pneumonia identification"
+        ]
+      },
+      {
+        "range": "B96.x",
+        "description": "Organism identification codes (Evidence: pg no: 57, L81)",
+        "requirement": "Use with J95.851 when organism known",
+        "usage_rules": [
+          "Required additional coding for VAP (Evidence: pg no: 57, L81)",
+          "Identifies causative organism"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "J95.851",
+        "description": "Ventilator associated pneumonia (Evidence: pg no: 57, L81)",
+        "context": "Only when provider documents VAP",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "J95": "Intraoperative and postprocedural complications",
+          "851": "Ventilator associated pneumonia specification"
+        }
+      },
+      {
+        "code": "B96.5",
+        "description": "Pseudomonas aeruginosa organism code (Evidence: pg no: 57, L81)",
+        "context": "Example organism code for VAP",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "B96": "Other bacterial agents as cause of disease",
+          "5": "Pseudomonas aeruginosa specification"
+        }
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": "J95.851 + organism code",
+        "description": "VAP with organism identification (Evidence: pg no: 57, L81)",
+        "example": "J95.851 + B96.5",
+        "explanation": "Standard coding pattern for documented VAP with known organism"
+      }
+    ],
+    "code_categories_mentioned": [
+      "J95.851 - Ventilator associated pneumonia",
+      "Categories J12-J18 - Pneumonia types (excluded)",
+      "B96.x - Organism identification codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "documented_vap_pseudomonas",
+      "scenario": "Provider documents VAP with Pseudomonas organism",
+      "documentation_example": "Patient developed ventilator-associated pneumonia due to Pseudomonas aeruginosa on day 5 of mechanical ventilation",
+      "step_by_step": [
+        "Step 1: Identify VAP documentation by provider",
+        "Step 2: Note specific organism identification",
+        "Step 3: Assign J95.851 for VAP",
+        "Step 4: Assign B96.5 for Pseudomonas",
+        "Step 5: Do not add pneumonia type codes"
+      ],
+      "correct_coding": {
+        "primary_code": "J95.851",
+        "secondary_codes": [
+          "B96.5"
+        ],
+        "sequencing": "VAP code with organism identification",
+        "rationale": "Provider specifically documented VAP with organism identification (Evidence: pg no: 57, L81)"
+      },
+      "incorrect_coding": {
+        "code": "J95.851",
+        "codes": [
+          "J95.851",
+          "J15.1",
+          "B96.5"
+        ],
+        "rationale": "Should not add J15.1 pneumonia type code",
+        "common_mistake": "Adding pneumonia type codes with VAP code"
+      }
+    },
+    {
+      "scenario_id": "pneumonia_on_ventilator_no_vap",
+      "scenario": "Pneumonia in ventilated patient without VAP documentation",
+      "documentation_example": "Patient on mechanical ventilator develops pneumonia, no mention of ventilator association",
+      "step_by_step": [
+        "Step 1: Identify pneumonia in ventilated patient",
+        "Step 2: Note absence of VAP documentation",
+        "Step 3: Do not assign J95.851",
+        "Step 4: Use appropriate pneumonia code from J12-J18"
+      ],
+      "correct_coding": {
+        "primary_code": "J15.9",
+        "secondary_codes": [],
+        "sequencing": "Standard pneumonia coding",
+        "rationale": "Cannot use VAP code without specific provider documentation of ventilator association (Evidence: pg no: 57, L82)"
+      },
+      "incorrect_coding": {
+        "code": "J95.851",
+        "codes": [
+          "J95.851"
+        ],
+        "rationale": "VAP code requires specific provider documentation",
+        "common_mistake": "Assuming VAP based on ventilator presence alone"
+      }
+    },
+    {
+      "scenario_id": "unclear_vap_documentation",
+      "scenario": "Unclear documentation about ventilator relationship",
+      "documentation_example": "Patient on ventilator with hospital-acquired pneumonia, unclear if ventilator-related",
+      "step_by_step": [
+        "Step 1: Identify unclear documentation",
+        "Step 2: Recognize need for clarification",
+        "Step 3: Query provider about ventilator relationship",
+        "Step 4: Code based on provider response"
+      ],
+      "correct_coding": {
+        "primary_code": "pending provider query",
+        "secondary_codes": [],
+        "sequencing": "Based on provider clarification",
+        "rationale": "Provider query required when documentation is unclear about ventilator attribution (Evidence: pg no: 57, L83)"
+      },
+      "incorrect_coding": {
+        "code": "assumption-based",
+        "codes": [
+          "without provider query"
+        ],
+        "rationale": "Should not assume VAP without clear documentation",
+        "common_mistake": "Making coding decisions without provider clarification"
+      }
+    }
+  ],
+  "procedure_links": [
+    {
+      "cpt_code": "mechanical ventilation codes",
+      "description": "Mechanical ventilation procedures",
+      "relationship": "related_to",
+      "context": "VAP is complication of mechanical ventilation",
+      "note": "VAP coding requires documented relationship to ventilator procedure"
+    }
+  ],
+  "examples": [
+    {
+      "example_id": "vap_with_mrsa",
+      "scenario": "VAP with MRSA organism",
+      "code_example": "J95.851, B95.62",
+      "breakdown": {
+        "J95.851": "Ventilator associated pneumonia (Evidence: pg no: 57, L81)",
+        "B95.62": "Methicillin resistant Staphylococcus aureus organism code"
+      },
+      "rationale": "VAP code with required organism identification (Evidence: pg no: 57, L81)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not use J95.851 without specific VAP documentation (Evidence: pg no: 57, L82)",
+      "Do not add J12-J18 codes with VAP code (Evidence: pg no: 57, L81-L82)",
+      "Query provider when documentation is unclear (Evidence: pg no: 57, L83)"
+    ],
+    "best_practices": [
+      "Look for specific VAP terminology in provider documentation (Evidence: pg no: 57, L81)",
+      "Always code organism when identified (Evidence: pg no: 57, L81)",
+      "Query provider for unclear ventilator relationships (Evidence: pg no: 57, L83)"
+    ],
+    "common_mistakes": [
+      "Assuming VAP based on ventilator presence alone",
+      "Adding pneumonia type codes with VAP code",
+      "Not coding identified organisms"
+    ],
+    "tips": [
+      "Provider must specifically document VAP relationship (Evidence: pg no: 57, L81)",
+      "Organism coding is required additional step (Evidence: pg no: 57, L81)",
+      "VAP code replaces need for pneumonia type codes (Evidence: pg no: 57, L81-L82)"
+    ],
+    "implementation_notes": [
+      "Requires careful documentation review for VAP terminology",
+      "May need provider queries for unclear cases",
+      "Organism identification enhances coding specificity"
+    ],
+    "clinical_context": [
+      "VAP is serious complication of mechanical ventilation",
+      "Organism identification guides treatment decisions",
+      "Provider documentation establishes causal relationship"
+    ]
+  },
+  "search_keywords": [
+    "ventilator associated pneumonia",
+    "VAP",
+    "J95.851",
+    "mechanical ventilator",
+    "organism identification",
+    "provider documentation",
+    "postprocedural complication",
+    "pneumonia ventilator"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "respiratory_system_vap",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "VAP",
+      "ventilator",
+      "pneumonia",
+      "complication",
+      "organism",
+      "documentation"
+    ]
+  },
+  "page_range_processed": "pages_54_to_57"
+}

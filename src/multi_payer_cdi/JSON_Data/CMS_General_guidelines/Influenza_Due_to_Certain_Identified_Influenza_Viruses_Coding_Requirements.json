@@ -1,0 +1,300 @@
+{
+  "guideline_id": "I.C.10.c",
+  "semantic_title": "Influenza Due to Certain Identified Influenza Viruses Coding Requirements",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 10. Chapter 10: Diseases of the Respiratory System > c. Influenza due to certain identified influenza viruses",
+  "page_number": 57,
+  "content": {
+    "full_text": "Code only confirmed cases of influenza due to certain identified influenza viruses (category J09), and due to other identified influenza virus (category J10). This is an exception to the hospital inpatient guideline Section II, H. (Uncertain Diagnosis). In this context, 'confirmation' does not require documentation of positive laboratory testing specific for avian or other novel influenza A or other identified influenza virus. However, coding should be based on the provider's diagnostic statement that the patient has avian influenza, or other novel influenza A, for category J09, or has another particular identified strain of influenza, such as H1N1 or H3N2, but not identified as novel or variant, for category J10. If the provider records 'suspected' or 'possible' or 'probable' avian influenza, or novel influenza, or other identified influenza, then the appropriate influenza code from category J11, Influenza due to unidentified influenza virus, should be assigned. A code from category J09, Influenza due to certain identified influenza viruses, should not be assigned nor should a code from category J10, Influenza due to other identified influenza virus. (Evidence: pg no: 57, L73-L78)",
+    "summary": "Specific coding requirements for confirmed influenza cases with identified viruses, including exceptions to uncertain diagnosis guidelines and provider statement requirements (Evidence: pg no: 57, L73-L78)",
+    "key_concepts": [
+      "Confirmed cases only requirement (Evidence: pg no: 57, L73-L74)",
+      "Exception to uncertain diagnosis guideline (Evidence: pg no: 57, L74)",
+      "Provider diagnostic statement basis (Evidence: pg no: 57, L75-L76)",
+      "Laboratory testing not required (Evidence: pg no: 57, L74-L75)",
+      "Suspected/possible/probable exclusions (Evidence: pg no: 57, L76-L77)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "confirmed_cases_only",
+        "rule_text": "Code only confirmed cases of influenza due to certain identified influenza viruses (Evidence: pg no: 57, L73-L74)",
+        "explanation": "Categories J09 and J10 are restricted to confirmed cases only, not suspected or possible cases (Evidence: pg no: 57, L73-L74)",
+        "importance": "critical",
+        "applies_to": "J09, J10",
+        "common_applications": [
+          "Avian influenza diagnosis",
+          "Novel influenza A diagnosis",
+          "Specific strain identification"
+        ]
+      },
+      {
+        "rule_id": "uncertain_diagnosis_exception",
+        "rule_text": "This is an exception to the hospital inpatient guideline Section II, H. (Uncertain Diagnosis) (Evidence: pg no: 57, L74)",
+        "explanation": "Unlike other conditions, suspected influenza cases cannot use J09/J10 codes even in inpatient settings (Evidence: pg no: 57, L74)",
+        "importance": "critical",
+        "applies_to": "J09, J10",
+        "common_applications": [
+          "Inpatient suspected influenza",
+          "Probable influenza cases",
+          "Uncertain influenza diagnosis"
+        ]
+      },
+      {
+        "rule_id": "provider_statement_basis",
+        "rule_text": "Coding should be based on provider's diagnostic statement without requiring positive laboratory testing (Evidence: pg no: 57, L75-L76)",
+        "explanation": "Provider's definitive diagnostic statement is sufficient for coding, laboratory confirmation is not mandatory (Evidence: pg no: 57, L74-L76)",
+        "importance": "high",
+        "applies_to": "J09, J10",
+        "common_applications": [
+          "Clinical diagnosis of avian flu",
+          "Provider-confirmed novel influenza",
+          "Specific strain diagnosis"
+        ]
+      },
+      {
+        "rule_id": "suspected_exclusion",
+        "rule_text": "If provider records 'suspected', 'possible', or 'probable', use category J11 instead of J09 or J10 (Evidence: pg no: 57, L76-L78)",
+        "explanation": "Uncertain terminology requires use of unidentified influenza virus category rather than specific identified virus categories (Evidence: pg no: 57, L76-L78)",
+        "importance": "critical",
+        "applies_to": "J11 vs J09/J10",
+        "common_applications": [
+          "Suspected avian influenza",
+          "Possible novel influenza",
+          "Probable specific strain"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify influenza diagnosis in documentation",
+      "Step 2: Determine if specific virus strain is identified",
+      "Step 3: Assess provider's diagnostic certainty (confirmed vs suspected)",
+      "Step 4: If confirmed and specific strain, use J09 or J10",
+      "Step 5: If suspected/possible/probable, use J11",
+      "Step 6: Do not require laboratory confirmation for coding"
+    ],
+    "related_terminology": [
+      "Confirmed cases",
+      "Avian influenza",
+      "Novel influenza A",
+      "Identified influenza virus",
+      "H1N1",
+      "H3N2",
+      "Suspected",
+      "Possible",
+      "Probable",
+      "Unidentified influenza virus"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "J09",
+        "description": "Influenza due to certain identified influenza viruses (Evidence: pg no: 57, L73, L76)",
+        "requirement": "Confirmed cases only",
+        "usage_rules": [
+          "Provider must state definitive diagnosis (Evidence: pg no: 57, L75-L76)",
+          "Do not use for suspected/possible/probable cases (Evidence: pg no: 57, L76-L77)"
+        ]
+      },
+      {
+        "range": "J10",
+        "description": "Influenza due to other identified influenza virus (Evidence: pg no: 57, L74, L76)",
+        "requirement": "Confirmed cases only",
+        "usage_rules": [
+          "For specific strains like H1N1, H3N2 not identified as novel (Evidence: pg no: 57, L76)",
+          "Do not use for suspected/possible/probable cases (Evidence: pg no: 57, L77-L78)"
+        ]
+      },
+      {
+        "range": "J11",
+        "description": "Influenza due to unidentified influenza virus (Evidence: pg no: 57, L77)",
+        "requirement": "Use for suspected/possible/probable cases",
+        "usage_rules": [
+          "Use when provider records uncertain terminology (Evidence: pg no: 57, L76-L77)",
+          "Appropriate for suspected identified strains (Evidence: pg no: 57, L76-L77)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "Confirmed specific strain → J09/J10",
+        "description": "Definitive diagnosis of identified virus uses specific categories (Evidence: pg no: 57, L75-L76)",
+        "example": "Confirmed H1N1 → J10.1",
+        "explanation": "Provider's definitive statement allows specific coding"
+      },
+      {
+        "pattern": "Suspected specific strain → J11",
+        "description": "Uncertain diagnosis uses unidentified category regardless of strain (Evidence: pg no: 57, L76-L77)",
+        "example": "Suspected avian flu → J11.1",
+        "explanation": "Uncertain terminology overrides specific strain identification"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Category J09 - Influenza due to certain identified influenza viruses",
+      "Category J10 - Influenza due to other identified influenza virus",
+      "Category J11 - Influenza due to unidentified influenza virus"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "Section_II_H",
+        "title": "Uncertain Diagnosis",
+        "relationship": "exception_to",
+        "explanation": "Influenza coding creates exception to general uncertain diagnosis rules"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "confirmed_avian_flu",
+      "scenario": "Provider confirms avian influenza diagnosis",
+      "documentation_example": "Patient diagnosed with avian influenza based on clinical presentation and epidemiological factors",
+      "step_by_step": [
+        "Step 1: Identify influenza diagnosis",
+        "Step 2: Note avian influenza specification",
+        "Step 3: Confirm provider uses definitive language",
+        "Step 4: Assign appropriate J09 code"
+      ],
+      "correct_coding": {
+        "primary_code": "J09.X2",
+        "secondary_codes": [],
+        "sequencing": "Confirmed avian influenza",
+        "rationale": "Provider's definitive diagnostic statement supports J09 category usage (Evidence: pg no: 57, L75-L76)"
+      },
+      "incorrect_coding": {
+        "code": "J11.1",
+        "codes": [
+          "J11.1"
+        ],
+        "rationale": "Should use specific J09 code when provider confirms diagnosis",
+        "common_mistake": "Using unidentified category for confirmed specific strain"
+      }
+    },
+    {
+      "scenario_id": "suspected_h1n1",
+      "scenario": "Provider documents suspected H1N1 influenza",
+      "documentation_example": "Suspected H1N1 influenza based on symptoms and community outbreak",
+      "step_by_step": [
+        "Step 1: Identify influenza diagnosis",
+        "Step 2: Note H1N1 strain identification",
+        "Step 3: Recognize 'suspected' terminology",
+        "Step 4: Assign J11 code instead of J10"
+      ],
+      "correct_coding": {
+        "primary_code": "J11.1",
+        "secondary_codes": [],
+        "sequencing": "Unidentified influenza virus",
+        "rationale": "Suspected terminology requires J11 category regardless of strain identification (Evidence: pg no: 57, L76-L77)"
+      },
+      "incorrect_coding": {
+        "code": "J10.1",
+        "codes": [
+          "J10.1"
+        ],
+        "rationale": "Cannot use J10 for suspected cases even with strain identification",
+        "common_mistake": "Using specific strain code for suspected cases"
+      }
+    },
+    {
+      "scenario_id": "probable_novel_influenza",
+      "scenario": "Provider documents probable novel influenza A",
+      "documentation_example": "Probable novel influenza A infection, awaiting confirmatory testing",
+      "step_by_step": [
+        "Step 1: Identify influenza diagnosis",
+        "Step 2: Note novel influenza A specification",
+        "Step 3: Recognize 'probable' terminology",
+        "Step 4: Use J11 despite novel strain identification"
+      ],
+      "correct_coding": {
+        "primary_code": "J11.1",
+        "secondary_codes": [],
+        "sequencing": "Unidentified influenza virus",
+        "rationale": "Probable terminology prevents use of J09 category even for novel strains (Evidence: pg no: 57, L76-L77)"
+      },
+      "incorrect_coding": {
+        "code": "J09.X2",
+        "codes": [
+          "J09.X2"
+        ],
+        "rationale": "Cannot use J09 for probable cases",
+        "common_mistake": "Using specific category for uncertain diagnosis"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "confirmed_h3n2",
+      "scenario": "Confirmed H3N2 influenza",
+      "code_example": "J10.1",
+      "breakdown": {
+        "J10": "Other identified influenza virus category (Evidence: pg no: 57, L74)",
+        "1": "With pneumonia specification"
+      },
+      "rationale": "H3N2 is identified strain but not novel, confirmed by provider (Evidence: pg no: 57, L76)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not use J09 or J10 for suspected/possible/probable cases (Evidence: pg no: 57, L76-L78)",
+      "This is an exception to Section II, H. uncertain diagnosis guideline (Evidence: pg no: 57, L74)"
+    ],
+    "best_practices": [
+      "Base coding on provider's diagnostic statement, not laboratory results (Evidence: pg no: 57, L75-L76)",
+      "Use J11 for any uncertain terminology regardless of strain identification (Evidence: pg no: 57, L76-L77)"
+    ],
+    "common_mistakes": [
+      "Using specific strain codes for suspected cases",
+      "Requiring laboratory confirmation for J09/J10 codes",
+      "Applying general uncertain diagnosis rules to influenza"
+    ],
+    "tips": [
+      "Provider's definitive statement is sufficient for specific coding (Evidence: pg no: 57, L75-L76)",
+      "Uncertain terminology always leads to J11 category (Evidence: pg no: 57, L76-L77)",
+      "Laboratory testing is not required for confirmation (Evidence: pg no: 57, L74-L75)"
+    ],
+    "implementation_notes": [
+      "Requires careful attention to provider's diagnostic language",
+      "Exception to standard uncertain diagnosis coding practices",
+      "Strain identification alone is insufficient without diagnostic certainty"
+    ],
+    "clinical_context": [
+      "Influenza strain identification has public health implications",
+      "Clinical diagnosis may precede laboratory confirmation",
+      "Provider certainty is key factor in code selection"
+    ]
+  },
+  "search_keywords": [
+    "influenza confirmed cases",
+    "avian influenza",
+    "novel influenza A",
+    "H1N1",
+    "H3N2",
+    "J09",
+    "J10",
+    "J11",
+    "suspected influenza",
+    "probable influenza",
+    "uncertain diagnosis exception"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "respiratory_system_influenza",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "influenza",
+      "confirmed_cases",
+      "uncertain_diagnosis",
+      "strain_identification",
+      "provider_statement"
+    ]
+  },
+  "page_range_processed": "pages_54_to_57"
+}

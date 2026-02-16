@@ -1,0 +1,113 @@
+{
+  "guideline_id": "I.C.4.a.4.b",
+  "semantic_title": "Assigning and Sequencing Secondary Diabetes Codes and Their Causes",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 4. Chapter 4: Endocrine, Nutritional and Metabolic Diseases > a. Diabetes mellitus > 4. Assigning and sequencing secondary diabetes codes and its causes",
+  "page_number": 42,
+  "content": {
+    "full_text": "The sequencing of the secondary diabetes codes in relationship to codes for the cause of the diabetes is based on the Tabular List instructions for categories E08, E09 and E13. (Evidence: pg no: 42, L6-L7)",
+    "summary": "Provides guidance on how to sequence secondary diabetes codes in relation to their underlying causes based on tabular list instructions (Evidence: pg no: 42, L6-L7)",
+    "key_concepts": [
+      "Secondary diabetes sequencing (Evidence: pg no: 42, L6)",
+      "Tabular List instructions priority (Evidence: pg no: 42, L6-L7)",
+      "Categories E08, E09, E13 relationships (Evidence: pg no: 42, L7)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "SEC_DM_SEQ_001",
+        "rule_text": "Sequencing must follow Tabular List instructions for categories E08, E09 and E13 (Evidence: pg no: 42, L6-L7)",
+        "explanation": "The order of codes for secondary diabetes and its causes is determined by specific instructions in the tabular list rather than general sequencing rules (Evidence: pg no: 42, L6-L7)",
+        "importance": "critical",
+        "applies_to": "E08, E09, E13",
+        "common_applications": [
+          "Drug-induced diabetes",
+          "Post-pancreatectomy diabetes"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify secondary diabetes condition",
+      "Step 2: Identify underlying cause",
+      "Step 3: Consult Tabular List instructions for E08, E09, E13",
+      "Step 4: Sequence codes according to tabular instructions"
+    ],
+    "related_terminology": [
+      "Secondary diabetes",
+      "Tabular List instructions",
+      "Code sequencing"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "E08",
+        "description": "Diabetes mellitus due to underlying condition (Evidence: pg no: 42, L7)",
+        "requirement": "Follow tabular list sequencing instructions",
+        "usage_rules": [
+          "Sequence according to tabular instructions (Evidence: pg no: 42, L6-L7)"
+        ]
+      },
+      {
+        "range": "E09",
+        "description": "Drug or chemical induced diabetes mellitus (Evidence: pg no: 42, L7)",
+        "requirement": "Follow tabular list sequencing instructions",
+        "usage_rules": [
+          "Sequence according to tabular instructions (Evidence: pg no: 42, L6-L7)"
+        ]
+      },
+      {
+        "range": "E13",
+        "description": "Other specified diabetes mellitus (Evidence: pg no: 42, L7)",
+        "requirement": "Follow tabular list sequencing instructions",
+        "usage_rules": [
+          "Sequence according to tabular instructions (Evidence: pg no: 42, L6-L7)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Secondary diabetes mellitus categories"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Must follow tabular list instructions rather than general sequencing rules (Evidence: pg no: 42, L6-L7)"
+    ],
+    "best_practices": [
+      "Always consult tabular list for E08, E09, E13 sequencing (Evidence: pg no: 42, L6-L7)"
+    ],
+    "common_mistakes": [],
+    "tips": [],
+    "implementation_notes": [],
+    "clinical_context": []
+  },
+  "search_keywords": [
+    "secondary diabetes",
+    "diabetes sequencing",
+    "E08 E09 E13",
+    "tabular list instructions"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "diabetes_mellitus",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "diabetes",
+      "sequencing",
+      "secondary_diabetes"
+    ]
+  },
+  "page_range_processed": "pages_42_to_45"
+}

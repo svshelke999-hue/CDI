@@ -1,0 +1,136 @@
+CDI Expert Review Report (AI “Improved Chart” vs Medical Record Evidence)
+Folder: test_mult_for_report/7
+Prepared: 2026-02-02
+
+Scope / Files Reviewed
+- 1) 7.txt (AI “improved” orthopedic consultation note with AI-added formatting + physician-input placeholders)
+- 2) multi_chart_1770008254_20260202_102734_numbered_chart.txt (raw medical record text: consultation note + operative note)
+- 3) multi_chart_1770008254_20260202_102734.json (raw AI output with structured “improvements/user_input_required/recommendations”)
+
+Case synopsis (record-based)
+- 86-year-old male with mechanical fall and head strike → left groin/left femur pain; left leg shortened/externally rotated.
+- Imaging: XR + CT show “severely comminuted and angulated left proximal intertrochanteric femoral fracture.”
+- Significant comorbidities: CAD s/p stents (on Plavix; held due to recent surgery), atrial fibrillation, prior TIA, venous insufficiency with chronic lower-extremity wounds, multiple prior infections.
+- Procedure performed: Left intertrochanteric femur fracture ORIF with intramedullary nail construct (operative note includes implant details).
+
+Method (how the “test” was done)
+- Extracted AI-added items and “needs physician input” prompts from 7.txt and from JSON (operative-note recommendations).
+- Cross-checked each item against the raw consult note and the raw operative note to classify:
+  - PRESENT (already documented),
+  - PARTIAL (some elements present but incomplete),
+  - MISSING (not found / needs clarification).
+
+Key CDI finding (high-signal)
+- The consult note still lacks some high-value specificity (pain score, dates, AO/OTA classification, periop antiplatelet plan).
+- The operative note already contains many elements the JSON “improved operative note” claims are missing (anesthesia type/provider, EBL, implants, and weight-bearing plan). This indicates the “improved op note” output is template-like and not fully grounded to the actual operative note text.
+
+================================================================================
+Section A — “AI Added” improvements (what the AI changed/added)
+Source: 7.txt + JSON enhanced_by_ai.improvements (operative note)
+
+1) Consultation note formatting
+- AI-added: structured headers (HPI/PMH/PSH/Exam/Imaging/Plan/Medical necessity).
+- Evidence check: NOT APPLICABLE (formatting).
+
+2) Operative note structure (JSON)
+- AI-added: sections for indications, procedure description, EBL, implants, complications, post-op plan.
+- Evidence check: NOT APPLICABLE (formatting), but note many of these elements are already present in the raw operative note.
+
+================================================================================
+Section B — Physician-input suggestions (AI prompts) + evidence check (Consult note)
+Source: 7.txt prompts vs raw consult note
+
+1) Pain assessment details (timing since fall; pain score 0–10; prior treatment attempts)
+- Evidence check: MISSING
+  - Record describes pain location (left groin/lower femur) and inability to bear weight, but does not provide a 0–10 score or duration.
+
+2) “Bleeding disorder” specificity
+- Evidence check: MISSING
+  - Record lists “Bleeding” / “Bleeding disorder” but does not specify type, severity, or management (important given Plavix and surgery).
+
+3) CAD stent timeline (most recent stent placement date)
+- Evidence check: MISSING (stent history present; date not documented in provided consult/operative note text).
+
+4) Exact date of recent left inguinal hernia repair
+- Evidence check: PARTIAL (documented as 10/2025 and described as “recent”; exact date not included).
+
+5) Focused deformity documentation (limb length discrepancy measurement, degree of external rotation, ecchymosis)
+- Evidence check: PARTIAL
+  - PRESENT: “shortened and externally rotated”; ROM deferred.
+  - MISSING: quantified discrepancy/rotation and ecchymosis details.
+
+6) Imaging classification (AO/OTA; other features for planning)
+- Evidence check: PARTIAL
+  - PRESENT: “severely comminuted and angulated left proximal intertrochanteric femoral fracture.”
+  - MISSING: formal AO/OTA classification and stability features.
+
+7) Surgical planning in consult note (specific implant planned)
+- Evidence check: PARTIAL
+  - MISSING in consult: explicit implant choice.
+  - PRESENT elsewhere: operative note documents fixation with an Arthrex short nail + lag screw + antirotation screw + interlocking screws.
+
+8) Perioperative risk/management details (cardiac clearance status; Plavix/anticoag plan; antibiotic plan)
+- Evidence check: PARTIAL
+  - PRESENT: “optimized, advised by PCP and Cardiology to proceed if remains stable”; Plavix was held due to recent surgery.
+  - MISSING: explicit “cardiology cleared/when”, explicit periop antiplatelet strategy (timing to restart), and tailored antibiotic plan despite infection history.
+
+================================================================================
+Section C — JSON “operative note” recommendations + evidence check (Operative note)
+Source: JSON enhanced_by_ai.user_input_required and recommendations vs raw operative note
+
+1) Anesthesia provider + type
+- Evidence check: PRESENT (Temme, David William, MD; General with LMA).
+
+2) Estimated blood loss
+- Evidence check: PRESENT (200 mL).
+
+3) Implants (type/manufacturer/size)
+- Evidence check: PRESENT (Arthrex short nail; 105mm lag screw; 90mm antirotation screw; two 36mm interlocking screws; plus manufacturer/part numbers listed).
+
+4) Procedure description / reduction technique / fixation method
+- Evidence check: PRESENT (closed reduction under fluoroscopy; IM nail insertion steps described).
+
+5) Post-op plan: WB status / rehab / DVT prophylaxis
+- Evidence check: PARTIAL
+  - PRESENT: partial weight bearing 50% for 6 weeks; DVT prophylaxis to start POD1 + SCDs/compression stockings/mobilization; antibiotics x24h; discharge criteria.
+  - MISSING: specific DVT medication name/dose and explicit follow-up appointment timing.
+
+================================================================================
+Section D — CDI expert opinion: additional opportunities (case-specific)
+
+1) Antiplatelet/anticoagulation clarity (high yield)
+- Patient is high risk for both thrombosis (CAD stents, Afib) and bleeding (recent surgery, “bleeding disorder”, operative fracture).
+- Opportunity: document specific perioperative antiplatelet plan (Plavix hold duration, bridging if any, restart timing) and DVT prophylaxis agent/dose.
+
+2) AO/OTA fracture classification and stability
+- Opportunity: add AO/OTA (or other standard) classification to support fixation choice and risk profile (unstable vs stable pattern).
+
+3) Recent surgery timing + relation to fall/syncope screen
+- Opportunity: document exact date of hernia repair and whether there were any post-op limitations contributing to fall risk.
+
+4) Chronic wounds/infection risk mitigation
+- Opportunity: document perioperative antibiotic strategy tailored to chronic lower-extremity wounds/ESBL history (even if “standard periop Ancef” only, document rationale or consult).
+
+================================================================================
+Section E — Suggested compliant CDI query list (record-grounded)
+
+1) Bleeding disorder specificity
+- Query: Please clarify the specific bleeding disorder diagnosis (type/severity) and current management.
+
+2) CAD stent details
+- Query: Please document date of most recent coronary stent placement and current antiplatelet plan.
+
+3) Plavix perioperative management
+- Query: Please document perioperative antiplatelet management (held when/why, planned restart timing).
+
+4) Fracture classification
+- Query: Please document AO/OTA classification and whether the pattern is considered stable vs unstable.
+
+5) DVT prophylaxis medication
+- Query: Please document DVT prophylaxis agent, dose, duration (beyond “start POD1”).
+
+Bottom line
+- True remaining documentation gaps are mostly in the consult note (pain score, dates, AO/OTA, periop antiplatelet/bleeding context).
+- The operative note itself is largely complete and already satisfies many items the AI output labeled as “physician input required.”
+
+

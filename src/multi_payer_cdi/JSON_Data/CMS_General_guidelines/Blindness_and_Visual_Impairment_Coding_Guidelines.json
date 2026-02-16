@@ -1,0 +1,281 @@
+{
+  "guideline_id": "I.C.6.b",
+  "semantic_title": "Blindness and Visual Impairment Coding Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 7. Chapter 7: Diseases of the Eye and Adnexa > b. Blindness",
+  "page_number": 49,
+  "content": {
+    "full_text": "If \"blindness\" or \"low vision\" of both eyes is documented but the visual impairment category is not documented, assign code H54.3, Unqualified visual loss, both eyes. If \"blindness\" or \"low vision\" in one eye is documented but the visual impairment category is not documented, assign a code from H54.6-, Unqualified visual loss, one eye. If \"blindness\" or \"visual loss\" is documented without any information about whether one or both eyes are affected, assign code H54.7, Unspecified visual loss. (Evidence: pg no: 49, L34)",
+    "summary": "Guidelines for coding blindness and visual impairment when specific visual impairment categories are not documented, with different codes based on bilateral versus unilateral involvement (Evidence: pg no: 49, L34)",
+    "key_concepts": [
+      "Unqualified visual loss coding principles (Evidence: pg no: 49, L34)",
+      "Bilateral versus unilateral visual impairment (Evidence: pg no: 49, L34)",
+      "Documentation specificity requirements (Evidence: pg no: 49, L34)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "BLINDNESS_BILATERAL_UNQUALIFIED",
+        "rule_text": "Use H54.3 for bilateral blindness or low vision when visual impairment category not documented (Evidence: pg no: 49, L34)",
+        "explanation": "When documentation indicates blindness or low vision affects both eyes but does not specify the visual impairment category, assign the unqualified bilateral visual loss code (Evidence: pg no: 49, L34)",
+        "importance": "high",
+        "applies_to": "H54.3 code",
+        "common_applications": [
+          "Bilateral blindness without category specification",
+          "Bilateral low vision without detailed classification",
+          "Both eyes affected but impairment level unclear"
+        ]
+      },
+      {
+        "rule_id": "BLINDNESS_UNILATERAL_UNQUALIFIED",
+        "rule_text": "Use H54.6- codes for unilateral blindness or low vision when visual impairment category not documented (Evidence: pg no: 49, L34)",
+        "explanation": "When documentation indicates blindness or low vision affects one eye but does not specify the visual impairment category, assign appropriate unilateral unqualified visual loss code (Evidence: pg no: 49, L34)",
+        "importance": "high",
+        "applies_to": "H54.6- code range",
+        "common_applications": [
+          "Unilateral blindness without category specification",
+          "One eye low vision without detailed classification",
+          "Single eye affected but impairment level unclear"
+        ]
+      },
+      {
+        "rule_id": "BLINDNESS_UNSPECIFIED_LATERALITY",
+        "rule_text": "Use H54.7 for blindness or visual loss when laterality information is not provided (Evidence: pg no: 49, L34)",
+        "explanation": "When documentation indicates blindness or visual loss but provides no information about whether one or both eyes are affected, assign the unspecified visual loss code (Evidence: pg no: 49, L34)",
+        "importance": "high",
+        "applies_to": "H54.7 code",
+        "common_applications": [
+          "Visual loss without laterality documentation",
+          "Blindness with no eye specification",
+          "General visual impairment statements"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify documentation of blindness, low vision, or visual loss",
+      "Step 2: Determine if visual impairment category is specified",
+      "Step 3: If category not specified, assess laterality documentation",
+      "Step 4: For bilateral involvement, use H54.3",
+      "Step 5: For unilateral involvement, use H54.6-",
+      "Step 6: For unknown laterality, use H54.7"
+    ],
+    "related_terminology": [
+      "Blindness",
+      "Low vision",
+      "Visual loss",
+      "Visual impairment category",
+      "Unqualified visual loss",
+      "Bilateral involvement",
+      "Unilateral involvement",
+      "Laterality"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "H54.6-",
+        "description": "Unqualified visual loss, one eye codes (Evidence: pg no: 49, L34)",
+        "requirement": "Use when unilateral blindness or low vision documented without category",
+        "usage_rules": [
+          "Apply when one eye affected (Evidence: pg no: 49, L34)",
+          "Use when visual impairment category not documented (Evidence: pg no: 49, L34)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "H54.3",
+        "description": "Unqualified visual loss, both eyes (Evidence: pg no: 49, L34)",
+        "context": "Used when bilateral blindness or low vision documented without visual impairment category",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "H54": "Visual disturbances and blindness category",
+          "3": "Unqualified visual loss, both eyes"
+        }
+      },
+      {
+        "code": "H54.7",
+        "description": "Unspecified visual loss (Evidence: pg no: 49, L34)",
+        "context": "Used when blindness or visual loss documented without laterality information",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "H54": "Visual disturbances and blindness category",
+          "7": "Unspecified visual loss"
+        }
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": "H54.x based on laterality and specificity",
+        "description": "Visual loss codes selected by documentation detail level (Evidence: pg no: 49, L34)",
+        "example": "H54.3 for bilateral, H54.6- for unilateral, H54.7 for unspecified",
+        "explanation": "Code selection depends on laterality and category documentation"
+      }
+    ],
+    "code_categories_mentioned": [
+      "H54 Visual disturbances and blindness codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "BLINDNESS_BILATERAL_1",
+      "scenario": "Patient documented with bilateral blindness but no visual impairment category specified",
+      "documentation_example": "Patient has blindness in both eyes following diabetic retinopathy complications.",
+      "step_by_step": [
+        "Step 1: Identify bilateral blindness documentation",
+        "Step 2: Note absence of visual impairment category specification",
+        "Step 3: Apply bilateral unqualified visual loss coding rule",
+        "Step 4: Assign H54.3 for bilateral unqualified visual loss"
+      ],
+      "correct_coding": {
+        "primary_code": "H54.3",
+        "secondary_codes": [],
+        "sequencing": "Primary code for bilateral unqualified visual loss",
+        "rationale": "Bilateral blindness documented without visual impairment category specification (Evidence: pg no: 49, L34)"
+      },
+      "incorrect_coding": {
+        "code": "H54.7",
+        "codes": [
+          "Unspecified visual loss"
+        ],
+        "rationale": "Should not use unspecified when laterality is clearly bilateral",
+        "common_mistake": "Using unspecified when bilateral involvement is documented"
+      }
+    },
+    {
+      "scenario_id": "BLINDNESS_UNILATERAL_1",
+      "scenario": "Patient with low vision in right eye, no category specified",
+      "documentation_example": "Patient reports low vision in right eye, left eye normal.",
+      "step_by_step": [
+        "Step 1: Identify unilateral low vision documentation",
+        "Step 2: Note absence of visual impairment category specification",
+        "Step 3: Apply unilateral unqualified visual loss coding rule",
+        "Step 4: Assign appropriate H54.6- code for right eye"
+      ],
+      "correct_coding": {
+        "primary_code": "H54.61",
+        "secondary_codes": [],
+        "sequencing": "Primary code for unilateral unqualified visual loss",
+        "rationale": "Unilateral low vision documented without visual impairment category specification (Evidence: pg no: 49, L34)"
+      },
+      "incorrect_coding": {
+        "code": "H54.3",
+        "codes": [
+          "Bilateral visual loss"
+        ],
+        "rationale": "Should not use bilateral code when only one eye affected",
+        "common_mistake": "Using bilateral code for unilateral condition"
+      }
+    },
+    {
+      "scenario_id": "BLINDNESS_UNSPECIFIED_1",
+      "scenario": "Patient with visual loss, no laterality information provided",
+      "documentation_example": "Patient complains of visual loss. No further details about which eye(s) affected.",
+      "step_by_step": [
+        "Step 1: Identify visual loss documentation",
+        "Step 2: Note absence of laterality information",
+        "Step 3: Apply unspecified visual loss coding rule",
+        "Step 4: Assign H54.7 for unspecified visual loss"
+      ],
+      "correct_coding": {
+        "primary_code": "H54.7",
+        "secondary_codes": [],
+        "sequencing": "Primary code for unspecified visual loss",
+        "rationale": "Visual loss documented without information about affected eye(s) (Evidence: pg no: 49, L34)"
+      },
+      "incorrect_coding": {
+        "code": "H54.3",
+        "codes": [
+          "Bilateral visual loss"
+        ],
+        "rationale": "Should not assume bilateral when laterality not documented",
+        "common_mistake": "Assuming bilateral involvement when laterality unclear"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "BLINDNESS_EX1",
+      "scenario": "Bilateral low vision without category",
+      "code_example": "H54.3",
+      "breakdown": {
+        "H54": "Visual disturbances and blindness (Evidence: pg no: 49, L34)",
+        "3": "Unqualified visual loss, both eyes (Evidence: pg no: 49, L34)"
+      },
+      "rationale": "Both eyes affected but visual impairment category not documented (Evidence: pg no: 49, L34)"
+    },
+    {
+      "example_id": "BLINDNESS_EX2",
+      "scenario": "Unilateral blindness without category",
+      "code_example": "H54.61",
+      "breakdown": {
+        "H54": "Visual disturbances and blindness (Evidence: pg no: 49, L34)",
+        "6": "Unqualified visual loss, one eye (Evidence: pg no: 49, L34)",
+        "1": "Right eye specification"
+      },
+      "rationale": "One eye affected but visual impairment category not documented (Evidence: pg no: 49, L34)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not assume bilateral involvement when laterality not specified (Evidence: pg no: 49, L34)",
+      "Visual impairment category absence requires unqualified codes (Evidence: pg no: 49, L34)"
+    ],
+    "best_practices": [
+      "Carefully assess documentation for laterality information (Evidence: pg no: 49, L34)",
+      "Use most specific code available based on documentation (Evidence: pg no: 49, L34)"
+    ],
+    "common_mistakes": [
+      "Using bilateral codes when laterality unclear (Evidence: pg no: 49, L34)",
+      "Using unspecified when laterality is documented (Evidence: pg no: 49, L34)"
+    ],
+    "tips": [
+      "H54.3 requires bilateral documentation (Evidence: pg no: 49, L34)",
+      "H54.6- requires unilateral documentation (Evidence: pg no: 49, L34)",
+      "H54.7 used when laterality unknown (Evidence: pg no: 49, L34)"
+    ],
+    "implementation_notes": [
+      "Documentation detail determines code selection",
+      "Laterality assessment is crucial for accurate coding"
+    ],
+    "clinical_context": [
+      "Visual impairment can be bilateral or unilateral",
+      "Category specification improves coding accuracy",
+      "Documentation quality affects code selection"
+    ]
+  },
+  "search_keywords": [
+    "blindness",
+    "low vision",
+    "visual loss",
+    "visual impairment",
+    "bilateral blindness",
+    "unilateral blindness",
+    "H54.3",
+    "H54.6",
+    "H54.7",
+    "unqualified visual loss",
+    "unspecified visual loss"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "eye_and_adnexa_blindness",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "blindness",
+      "visual_impairment",
+      "laterality",
+      "documentation",
+      "eye_diseases"
+    ]
+  },
+  "page_range_processed": "pages_48_to_51"
+}

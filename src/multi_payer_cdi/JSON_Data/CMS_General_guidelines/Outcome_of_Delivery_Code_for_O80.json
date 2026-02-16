@@ -1,0 +1,142 @@
+{
+  "guideline_id": "I.C.15.n.3",
+  "semantic_title": "Outcome of Delivery Code for O80",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 15. Pregnancy, Childbirth, and the Puerperium > n. Normal Delivery, Code O80 > 3) Outcome of delivery for O80",
+  "page_number": 69,
+  "content": {
+    "full_text": "Z37.0, Single live birth, is the only outcome of delivery code appropriate for use with O80. (Evidence: pg no: 69, L80-L82)",
+    "summary": "Specific outcome of delivery code requirement when using O80 for uncomplicated deliveries (Evidence: pg no: 69, L80-L82)",
+    "key_concepts": [
+      "Z37.0 is only appropriate outcome code with O80 (Evidence: pg no: 69, L81-L82)",
+      "Single live birth requirement (Evidence: pg no: 69, L81)",
+      "Exclusive pairing requirement (Evidence: pg no: 69, L80-L82)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "o80_outcome_exclusive",
+        "rule_text": "Only Z37.0 should be used as outcome code with O80 (Evidence: pg no: 69, L80-L82)",
+        "explanation": "When using O80 for uncomplicated delivery, the only appropriate outcome of delivery code is Z37.0 for single live birth (Evidence: pg no: 69, L80-L82)",
+        "importance": "critical",
+        "applies_to": "O80, Z37.0",
+        "common_applications": [
+          "Uncomplicated single delivery",
+          "Normal delivery outcome coding"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Assign O80 for uncomplicated delivery",
+      "Step 2: Add Z37.0 as outcome of delivery code",
+      "Step 3: Do not use any other Z37 codes"
+    ],
+    "related_terminology": [
+      "outcome of delivery",
+      "single live birth",
+      "delivery outcome"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "Z37.0",
+        "description": "Single live birth (Evidence: pg no: 69, L81)",
+        "context": "Only outcome code appropriate with O80",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z37": "Outcome of delivery",
+          "0": "Single live birth"
+        }
+      },
+      {
+        "code": "O80",
+        "description": "Encounter for full term uncomplicated delivery (Evidence: pg no: 69, L82)",
+        "context": "Must be paired with Z37.0",
+        "requires_additional_codes": true,
+        "breakdown": {}
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Category Z37 - Outcome of delivery"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "o80_with_outcome",
+      "scenario": "Uncomplicated delivery requiring outcome code",
+      "documentation_example": "Full-term uncomplicated vaginal delivery of healthy single infant",
+      "step_by_step": [
+        "Step 1: Assign O80 for uncomplicated delivery",
+        "Step 2: Add Z37.0 for single live birth outcome"
+      ],
+      "correct_coding": {
+        "primary_code": "O80",
+        "secondary_codes": [
+          "Z37.0"
+        ],
+        "sequencing": "O80 principal, Z37.0 secondary",
+        "rationale": "Z37.0 is the only appropriate outcome code with O80 (Evidence: pg no: 69, L80-L82)"
+      },
+      "incorrect_coding": {
+        "codes": [
+          "O80",
+          "Z37.1"
+        ],
+        "rationale": "Z37.1 is not appropriate with O80",
+        "common_mistake": "Using wrong outcome of delivery code"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Only Z37.0 is appropriate with O80 (Evidence: pg no: 69, L80-L82)"
+    ],
+    "best_practices": [
+      "Always pair O80 with Z37.0 (Evidence: pg no: 69, L80-L82)"
+    ],
+    "common_mistakes": [
+      "Using other Z37 codes with O80",
+      "Forgetting to add outcome code"
+    ],
+    "tips": [
+      "O80 and Z37.0 are a required pair"
+    ],
+    "implementation_notes": [
+      "Exclusive pairing requirement"
+    ],
+    "clinical_context": [
+      "Outcome coding required for all deliveries"
+    ]
+  },
+  "search_keywords": [
+    "O80",
+    "Z37.0",
+    "outcome of delivery",
+    "single live birth",
+    "delivery outcome"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "normal_delivery",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "O80",
+      "Z37.0",
+      "outcome_delivery",
+      "pairing",
+      "single_birth"
+    ]
+  },
+  "page_range_processed": "pages_66_to_69"
+}

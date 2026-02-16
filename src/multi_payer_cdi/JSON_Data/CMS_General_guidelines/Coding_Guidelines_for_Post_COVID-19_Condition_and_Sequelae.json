@@ -1,0 +1,239 @@
+{
+  "guideline_id": "I.C.1.g.1.m",
+  "semantic_title": "Coding Guidelines for Post COVID-19 Condition and Sequelae",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 1. Chapter 1: Certain Infectious and Parasitic Diseases > g. Coronavirus infections > 1. COVID-19 infections > m. Post COVID-19 Condition",
+  "page_number": 32,
+  "content": {
+    "full_text": "For sequela of COVID-19, or associated symptoms or conditions that develop following a previous COVID-19 infection, assign a code(s) for the specific symptom(s) or condition(s) related to the previous COVID-19 infection, if known, and code U09.9, Post COVID-19 condition, unspecified. Code U09.9 should not be assigned for manifestations of an active (current) COVID-19 infection. If a patient has a condition(s) associated with a previous COVID-19 infection and develops a new active (current) COVID-19 infection, code U09.9 may be assigned in conjunction with code U07.1, COVID-19, to identify that the patient also has a condition(s) associated with a previous COVID-19 infection. Code(s) for the specific condition(s) associated with the previous COVID-19 infection and code(s) for manifestation(s) of the new active (current) COVID-19 infection should also be assigned. (Evidence: pg no: 32, L59-L65)",
+    "summary": "Provides comprehensive coding instructions for post-COVID-19 conditions, sequelae, and scenarios involving both post-COVID conditions and new active infections (Evidence: pg no: 32, L59-L65)",
+    "key_concepts": [
+      "Post-COVID condition coding with U09.9 (Evidence: pg no: 32, L60-L62)",
+      "Specific symptom coding requirement (Evidence: pg no: 32, L60-L61)",
+      "Exclusion for active COVID-19 manifestations (Evidence: pg no: 32, L62-L63)",
+      "Concurrent post-COVID and new active infection coding (Evidence: pg no: 32, L63-L65)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "POST_COVID_01",
+        "rule_text": "Assign specific symptom codes and U09.9 for post-COVID conditions (Evidence: pg no: 32, L60-L62)",
+        "explanation": "For sequela of COVID-19 or associated symptoms/conditions that develop following a previous COVID-19 infection, assign codes for the specific symptoms or conditions if known, and code U09.9 (Evidence: pg no: 32, L59-L62)",
+        "importance": "critical",
+        "applies_to": "U09.9 and specific symptom codes",
+        "common_applications": [
+          "Long COVID symptoms",
+          "Post-COVID fatigue",
+          "Post-COVID respiratory issues"
+        ]
+      },
+      {
+        "rule_id": "POST_COVID_02",
+        "rule_text": "Do not use U09.9 for active COVID-19 manifestations (Evidence: pg no: 32, L62-L63)",
+        "explanation": "Code U09.9 should not be assigned for manifestations of an active (current) COVID-19 infection (Evidence: pg no: 32, L62-L63)",
+        "importance": "critical",
+        "applies_to": "U09.9",
+        "common_applications": [
+          "Active COVID-19 symptoms",
+          "Current infection manifestations"
+        ]
+      },
+      {
+        "rule_id": "POST_COVID_03",
+        "rule_text": "Use U09.9 with U07.1 when post-COVID condition coexists with new active infection (Evidence: pg no: 32, L63-L65)",
+        "explanation": "If a patient has conditions associated with previous COVID-19 infection and develops a new active COVID-19 infection, code U09.9 may be assigned with U07.1, plus codes for specific conditions from both infections (Evidence: pg no: 32, L63-L65)",
+        "importance": "high",
+        "applies_to": "U09.9, U07.1",
+        "common_applications": [
+          "Reinfection with ongoing post-COVID symptoms",
+          "New COVID infection in long COVID patients"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if symptoms are from previous or current COVID-19 infection",
+      "Step 2: If post-COVID, identify specific symptoms/conditions",
+      "Step 3: Assign codes for specific symptoms if known",
+      "Step 4: Assign U09.9 for post-COVID condition",
+      "Step 5: If concurrent new infection, also assign U07.1 and new infection manifestations"
+    ],
+    "related_terminology": [
+      "post-COVID condition",
+      "long COVID",
+      "COVID sequelae",
+      "post-acute COVID syndrome",
+      "reinfection"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "U09.9",
+        "description": "Post COVID-19 condition, unspecified (Evidence: pg no: 32, L61-L62)",
+        "context": "For sequelae and symptoms following previous COVID-19 infection",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "U09": "Post COVID-19 condition",
+          ".9": "Unspecified"
+        }
+      },
+      {
+        "code": "U07.1",
+        "description": "COVID-19 (Evidence: pg no: 32, L64)",
+        "context": "Used with U09.9 when new active infection occurs with post-COVID conditions",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "U07": "COVID-19 category",
+          ".1": "Confirmed COVID-19"
+        }
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": "Specific symptom codes + U09.9",
+        "description": "Standard post-COVID condition coding (Evidence: pg no: 32, L60-L62)",
+        "example": "R53.1, U09.9 (fatigue with post-COVID condition)",
+        "explanation": "Code specific symptoms plus post-COVID condition code"
+      },
+      {
+        "pattern": "U07.1 + U09.9 + specific codes",
+        "description": "Concurrent new infection and post-COVID conditions (Evidence: pg no: 32, L63-L65)",
+        "example": "U07.1, U09.9, plus specific condition codes",
+        "explanation": "Both active and post-COVID conditions coded together"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Post COVID-19 conditions",
+      "COVID-19 infections",
+      "Symptom codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": [
+      {
+        "guideline_id": "I.C.1.g.1.j",
+        "title": "Follow-up visits after COVID-19 infection has resolved",
+        "relationship": "related_to",
+        "explanation": "Referenced for follow-up visits with residual symptoms"
+      }
+    ]
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "POST_COVID_01",
+      "scenario": "Patient with persistent fatigue and brain fog three months after COVID-19 recovery",
+      "documentation_example": "Patient reports ongoing fatigue and cognitive difficulties following COVID-19 infection 3 months ago, no current COVID symptoms",
+      "step_by_step": [
+        "Step 1: Confirm symptoms are post-COVID, not active infection",
+        "Step 2: Identify specific symptoms (fatigue, cognitive issues)",
+        "Step 3: Assign codes for specific symptoms",
+        "Step 4: Assign U09.9 for post-COVID condition"
+      ],
+      "correct_coding": {
+        "primary_code": "R53.1",
+        "secondary_codes": [
+          "R41.840",
+          "U09.9"
+        ],
+        "sequencing": "Specific symptoms first, then U09.9",
+        "rationale": "Code specific symptoms related to previous COVID-19 infection with post-COVID condition code (Evidence: pg no: 32, L60-L62)"
+      },
+      "incorrect_coding": {
+        "code": "U09.9",
+        "codes": [
+          "U09.9 only"
+        ],
+        "rationale": "Missing specific symptom codes",
+        "common_mistake": "Using only U09.9 without coding specific symptoms"
+      }
+    },
+    {
+      "scenario_id": "POST_COVID_02",
+      "scenario": "Patient with ongoing post-COVID fatigue develops new COVID-19 infection",
+      "documentation_example": "Patient with persistent fatigue from previous COVID infection now tests positive for new COVID-19 infection with fever and cough",
+      "step_by_step": [
+        "Step 1: Identify ongoing post-COVID symptoms",
+        "Step 2: Identify new active COVID-19 infection",
+        "Step 3: Assign U07.1 for new active infection",
+        "Step 4: Assign U09.9 for post-COVID condition",
+        "Step 5: Code specific symptoms from both conditions"
+      ],
+      "correct_coding": {
+        "primary_code": "U07.1",
+        "secondary_codes": [
+          "R50.9",
+          "R05.1",
+          "R53.1",
+          "U09.9"
+        ],
+        "sequencing": "Active COVID first, then manifestations and post-COVID codes",
+        "rationale": "Both active infection and post-COVID condition can be coded together with specific manifestations (Evidence: pg no: 32, L63-L65)"
+      },
+      "incorrect_coding": {
+        "code": "U07.1",
+        "codes": [
+          "U07.1",
+          "R50.9",
+          "R05.1"
+        ],
+        "rationale": "Missing post-COVID condition and related symptoms",
+        "common_mistake": "Not recognizing concurrent post-COVID and active infection"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not use U09.9 for manifestations of active COVID-19 infection (Evidence: pg no: 32, L62-L63)"
+    ],
+    "best_practices": [
+      "Always code specific symptoms when known (Evidence: pg no: 32, L60-L61)",
+      "Distinguish between post-COVID and active COVID manifestations (Evidence: pg no: 32, L62-L63)"
+    ],
+    "common_mistakes": [
+      "Using U09.9 for active COVID symptoms",
+      "Not coding specific post-COVID symptoms",
+      "Missing concurrent conditions in reinfection cases"
+    ],
+    "tips": [
+      "Consider timing of symptom onset relative to COVID infection",
+      "Document clearly whether symptoms are new or ongoing"
+    ],
+    "implementation_notes": [
+      "Establish clear protocols for distinguishing post-COVID from active symptoms"
+    ],
+    "clinical_context": [
+      "Long COVID clinics",
+      "Post-COVID rehabilitation",
+      "COVID reinfection scenarios"
+    ]
+  },
+  "search_keywords": [
+    "post-COVID condition",
+    "long COVID",
+    "U09.9",
+    "COVID sequelae",
+    "post-acute COVID",
+    "COVID reinfection",
+    "persistent COVID symptoms"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "COVID-19 coding",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "COVID-19",
+      "post-COVID",
+      "long_COVID",
+      "sequelae",
+      "reinfection"
+    ]
+  },
+  "page_range_processed": "pages_30_to_33"
+}

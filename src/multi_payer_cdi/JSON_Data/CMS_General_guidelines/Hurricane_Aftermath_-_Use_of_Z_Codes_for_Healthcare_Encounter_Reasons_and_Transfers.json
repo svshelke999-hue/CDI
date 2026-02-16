@@ -1,0 +1,163 @@
+{
+  "guideline_id": "I.A.19.d",
+  "semantic_title": "Hurricane Aftermath - Use of Z Codes for Healthcare Encounter Reasons and Transfers",
+  "section_path": "Section I > A. Conventions > 19. Coding for Healthcare Encounters in Hurricane Aftermath > d. Use of Z codes",
+  "page_number": 18,
+  "content": {
+    "full_text": "Z codes (other reasons for healthcare encounters) may be assigned as appropriate to further explain the reasons for presenting for healthcare services, including transfers (Evidence: pg no: 18, L91-L92)",
+    "summary": "Allows use of Z codes to provide additional explanation for healthcare encounters during hurricane aftermath, including transfer situations (Evidence: pg no: 18, L91-L92)",
+    "key_concepts": [
+      "Z codes for additional encounter explanation (Evidence: pg no: 18, L91-L92)",
+      "Appropriate use for hurricane aftermath (Evidence: pg no: 18, L91-L92)",
+      "Transfer situation applications (Evidence: pg no: 18, L92)",
+      "Other reasons for healthcare encounters (Evidence: pg no: 18, L91)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.A.19.d.1",
+        "rule_text": "Z codes may be assigned as appropriate to further explain the reasons for presenting for healthcare services (Evidence: pg no: 18, L91-L92)",
+        "explanation": "Z codes can be used to provide additional context and explanation for why patients are seeking healthcare services during hurricane aftermath (Evidence: pg no: 18, L91-L92)",
+        "importance": "medium",
+        "applies_to": "hurricane_encounter_z_codes",
+        "common_applications": [
+          "Evacuation-related transfers",
+          "Shelter medical services",
+          "Displacement-related care",
+          "Emergency services access"
+        ]
+      },
+      {
+        "rule_id": "I.A.19.d.2",
+        "rule_text": "Z codes may be used for transfers during hurricane aftermath (Evidence: pg no: 18, L92)",
+        "explanation": "Transfer situations during hurricane aftermath may warrant Z codes to explain the circumstances and reasons for the transfer (Evidence: pg no: 18, L92)",
+        "importance": "medium",
+        "applies_to": "hurricane_transfer_codes",
+        "common_applications": [
+          "Hospital evacuations",
+          "Inter-facility transfers",
+          "Emergency relocations",
+          "Capacity-related transfers"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify primary reason for healthcare encounter",
+      "Step 2: Determine if additional explanation would be helpful",
+      "Step 3: Consider hurricane-related circumstances",
+      "Step 4: Select appropriate Z codes for additional context",
+      "Step 5: Assign Z codes as secondary diagnoses when appropriate"
+    ],
+    "related_terminology": [
+      "Z codes",
+      "Other reasons for healthcare encounters",
+      "Healthcare transfers",
+      "Hurricane aftermath",
+      "Additional explanation",
+      "Healthcare services"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z00-Z99",
+        "description": "Factors influencing health status and contact with health services (Evidence: pg no: 18, L91)",
+        "requirement": "Use as appropriate for additional explanation",
+        "usage_rules": [
+          "May be assigned for hurricane aftermath encounters (Evidence: pg no: 18, L91-L92)",
+          "Appropriate for transfer situations (Evidence: pg no: 18, L92)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Z codes for other reasons for healthcare encounters",
+      "Transfer-related Z codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "I.A.19.d.S1",
+      "scenario": "Hospital transfer due to hurricane evacuation",
+      "documentation_example": "Patient transferred from coastal hospital due to Hurricane XYZ evacuation, continuing diabetes management",
+      "step_by_step": [
+        "Step 1: Identify primary reason (diabetes management)",
+        "Step 2: Identify transfer due to hurricane evacuation",
+        "Step 3: Assign diabetes code as primary",
+        "Step 4: Consider appropriate Z code for transfer circumstances"
+      ],
+      "correct_coding": {
+        "primary_code": "E11.9 (Type 2 diabetes mellitus without complications)",
+        "secondary_codes": [
+          "Z91.120 (Patient's intentional underdosing of medication regimen due to financial hardship) - if applicable",
+          "or other appropriate Z code"
+        ],
+        "sequencing": "Primary condition first, Z codes as additional explanation",
+        "rationale": "Z codes may be used to further explain reasons for healthcare encounters including transfers (Evidence: pg no: 18, L91-L92)"
+      },
+      "incorrect_coding": {
+        "code": "Z codes as primary diagnosis",
+        "rationale": "Z codes should generally be secondary unless specifically appropriate as primary",
+        "common_mistake": "Using Z codes as primary when medical condition is the main focus"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [],
+    "best_practices": [
+      "Use Z codes to provide additional context for hurricane aftermath encounters (Evidence: pg no: 18, L91-L92)",
+      "Consider transfer-related Z codes when appropriate (Evidence: pg no: 18, L92)",
+      "Assign Z codes as appropriate, not mandatory"
+    ],
+    "common_mistakes": [
+      "Overusing Z codes when not adding meaningful information",
+      "Using Z codes as primary when medical conditions are present",
+      "Missing opportunities to use Z codes for important context"
+    ],
+    "tips": [
+      "Z codes can help explain unusual circumstances",
+      "Transfer situations may benefit from Z code explanation",
+      "Use judgment in determining when Z codes add value"
+    ],
+    "implementation_notes": [
+      "Z code selection should be based on specific circumstances",
+      "Documentation should support Z code assignment"
+    ],
+    "clinical_context": [
+      "Hurricane aftermath creates unique healthcare delivery challenges",
+      "Transfers and evacuations are common during disasters"
+    ]
+  },
+  "search_keywords": [
+    "Z codes",
+    "hurricane aftermath",
+    "healthcare transfers",
+    "other reasons",
+    "healthcare encounters",
+    "evacuation",
+    "additional explanation",
+    "transfer situations"
+  ],
+  "metadata": {
+    "category": "convention",
+    "subcategory": "z_code_usage",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "z_codes",
+      "hurricane",
+      "transfers",
+      "additional_explanation"
+    ]
+  },
+  "page_range_processed": "pages_15_to_18"
+}

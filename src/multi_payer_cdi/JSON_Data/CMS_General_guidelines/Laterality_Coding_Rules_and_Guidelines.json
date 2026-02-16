@@ -1,0 +1,280 @@
+{
+  "guideline_id": "I.B.13",
+  "semantic_title": "Laterality Coding Rules and Guidelines",
+  "section_path": "Section I > B. General Coding Guidelines > 13. Laterality",
+  "page_number": 15,
+  "content": {
+    "full_text": "Some ICD-10-CM codes indicate laterality, specifying whether the condition occurs on the left, right or is bilateral. If no bilateral code is provided and the condition is bilateral, assign separate codes for both the left and right side. If the side is not identified in the medical record, assign the code for the unspecified side. When a patient has a bilateral condition and each side is treated during separate encounters, assign the \"bilateral\" code (as the condition still exists on both sides), including for the encounter to treat the first side. For the second encounter for treatment after one side has previously been treated and the condition no longer exists on that side, assign the appropriate unilateral code for the side where the condition still exists (e.g., cataract surgery performed on each eye in separate encounters). The bilateral code would not be assigned for the subsequent encounter, as the patient no longer has the condition in the previously-treated site. If the treatment on the first side did not completely resolve the condition, then the bilateral code would still be appropriate. When laterality is not documented by the patient's provider, code assignment for the affected side may be based on medical record documentation from other clinicians. If there is conflicting medical record documentation regarding the affected side, the patient's provider should be queried for clarification. Codes for \"unspecified\" side should rarely be used, such as when the documentation in the record is insufficient to determine the affected side and it is not possible to obtain clarification. (Evidence: pg no: 15, L79-L89)",
+    "summary": "Comprehensive rules for coding laterality including bilateral conditions, separate encounters, unspecified sides, and documentation requirements from providers versus other clinicians. (Evidence: pg no: 15, L79-L89)",
+    "key_concepts": [
+      "ICD-10-CM codes may specify left, right, or bilateral (Evidence: pg no: 15, L79-L81)",
+      "Use separate left and right codes when no bilateral code exists (Evidence: pg no: 15, L81-L82)",
+      "Use unspecified code when side not identified (Evidence: pg no: 15, L82)",
+      "Bilateral code used for separate encounters when condition exists on both sides (Evidence: pg no: 15, L83-L85)",
+      "Unilateral code used when one side previously treated and resolved (Evidence: pg no: 15, L85-L87)",
+      "Other clinicians' documentation may be used for laterality (Evidence: pg no: 15, L88-L89)",
+      "Unspecified codes should rarely be used (Evidence: pg no: 15, L89)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.B.13.1",
+        "rule_text": "Assign separate left and right codes when no bilateral code provided (Evidence: pg no: 15, L81-L82)",
+        "explanation": "When a condition is bilateral but no specific bilateral code is provided in ICD-10-CM, assign separate codes for both the left and right sides to accurately represent the bilateral nature of the condition (Evidence: pg no: 15, L81-L82)",
+        "importance": "high",
+        "applies_to": "bilateral_conditions",
+        "common_applications": [
+          "Bilateral knee osteoarthritis with separate left/right codes",
+          "Bilateral carpal tunnel syndrome",
+          "Bilateral hearing loss"
+        ]
+      },
+      {
+        "rule_id": "I.B.13.2",
+        "rule_text": "Use bilateral code for separate encounters when condition exists on both sides (Evidence: pg no: 15, L83-L85)",
+        "explanation": "When a patient has a bilateral condition and each side is treated during separate encounters, use the bilateral code for both encounters as long as the condition still exists on both sides, including for the first encounter (Evidence: pg no: 15, L83-L85)",
+        "importance": "high",
+        "applies_to": "bilateral_conditions",
+        "common_applications": [
+          "Bilateral cataract surgery in separate encounters",
+          "Bilateral joint replacement in separate encounters",
+          "Bilateral hernia repair in separate encounters"
+        ]
+      },
+      {
+        "rule_id": "I.B.13.3",
+        "rule_text": "Use unilateral code when one side previously treated and resolved (Evidence: pg no: 15, L85-L87)",
+        "explanation": "For the second encounter when one side has been previously treated and the condition no longer exists on that side, assign the appropriate unilateral code for the side where the condition still exists (Evidence: pg no: 15, L85-L87)",
+        "importance": "high",
+        "applies_to": "bilateral_conditions",
+        "common_applications": [
+          "Second cataract surgery after first eye resolved",
+          "Second joint replacement after first side healed",
+          "Treatment of remaining unilateral condition"
+        ]
+      },
+      {
+        "rule_id": "I.B.13.4",
+        "rule_text": "May use other clinicians' documentation for laterality when provider doesn't document (Evidence: pg no: 15, L88-L89)",
+        "explanation": "When laterality is not documented by the patient's provider, code assignment for the affected side may be based on medical record documentation from other clinicians such as nurses, therapists, or other healthcare professionals (Evidence: pg no: 15, L88-L89)",
+        "importance": "medium",
+        "applies_to": "all_laterality_codes",
+        "common_applications": [
+          "Using nursing documentation for side affected",
+          "Using therapy notes for laterality",
+          "Using radiology reports for side identification"
+        ]
+      },
+      {
+        "rule_id": "I.B.13.5",
+        "rule_text": "Query provider when conflicting documentation exists (Evidence: pg no: 15, L88-L89)",
+        "explanation": "If there is conflicting medical record documentation regarding the affected side, the patient's provider should be queried for clarification rather than making assumptions about laterality (Evidence: pg no: 15, L88-L89)",
+        "importance": "high",
+        "applies_to": "all_laterality_codes",
+        "common_applications": [
+          "Conflicting documentation between providers",
+          "Unclear or contradictory laterality information",
+          "Discrepancies in medical record documentation"
+        ]
+      },
+      {
+        "rule_id": "I.B.13.6",
+        "rule_text": "Unspecified side codes should rarely be used (Evidence: pg no: 15, L89)",
+        "explanation": "Codes for unspecified side should be used only when documentation is insufficient to determine the affected side and it is not possible to obtain clarification from the provider (Evidence: pg no: 15, L89)",
+        "importance": "medium",
+        "applies_to": "unspecified_laterality_codes",
+        "common_applications": [
+          "Insufficient documentation scenarios",
+          "When clarification cannot be obtained",
+          "Last resort coding option"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify if condition has laterality component",
+      "Step 2: Check if bilateral, left, right, or unspecified codes exist",
+      "Step 3: Determine actual laterality from documentation",
+      "Step 4: For bilateral conditions, check if bilateral code exists",
+      "Step 5: If no bilateral code, assign separate left and right codes",
+      "Step 6: For separate encounters, determine if condition resolved on treated side",
+      "Step 7: Use appropriate bilateral or unilateral code based on current status",
+      "Step 8: Query provider if documentation unclear or conflicting"
+    ],
+    "related_terminology": [
+      "laterality",
+      "left",
+      "right",
+      "bilateral",
+      "unspecified side",
+      "separate encounters",
+      "unilateral",
+      "previously treated",
+      "resolved",
+      "conflicting documentation",
+      "query provider"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "###.##1",
+        "description": "Often indicates right side (Evidence: pg no: 15, L79-L81)",
+        "example": "M17.11 - Unilateral primary osteoarthritis, right knee",
+        "explanation": "Common pattern for right-sided conditions"
+      },
+      {
+        "pattern": "###.##2",
+        "description": "Often indicates left side (Evidence: pg no: 15, L79-L81)",
+        "example": "M17.12 - Unilateral primary osteoarthritis, left knee",
+        "explanation": "Common pattern for left-sided conditions"
+      },
+      {
+        "pattern": "###.##0",
+        "description": "Often indicates bilateral or unspecified (Evidence: pg no: 15, L79-L81)",
+        "example": "M17.10 - Unilateral primary osteoarthritis, unspecified knee",
+        "explanation": "Common pattern for bilateral or unspecified laterality"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Laterality codes",
+      "Bilateral codes",
+      "Unilateral codes",
+      "Unspecified side codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.B.12",
+        "title": "Reporting Same Diagnosis Code More than Once",
+        "relationship": "related_to",
+        "explanation": "Related to when separate codes can be used for bilateral conditions"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "I.B.13.S1",
+      "scenario": "Patient with bilateral cataracts, first eye surgery",
+      "documentation_example": "Patient scheduled for right cataract surgery. Bilateral cataracts present.",
+      "step_by_step": [
+        "Step 1: Identify bilateral cataracts",
+        "Step 2: Check for bilateral cataract code",
+        "Step 3: Confirm condition exists on both sides",
+        "Step 4: Assign bilateral code for first encounter",
+        "Step 5: Use bilateral code even though only treating one side"
+      ],
+      "correct_coding": {
+        "primary_code": "H25.13",
+        "secondary_codes": [],
+        "sequencing": "Bilateral code",
+        "rationale": "Condition still exists on both sides at time of first encounter (Evidence: pg no: 15, L83-L85)"
+      },
+      "incorrect_coding": {
+        "code": "H25.11",
+        "codes": [
+          "H25.11"
+        ],
+        "rationale": "Should not use unilateral code when bilateral condition exists",
+        "common_mistake": "Using unilateral code for first encounter of bilateral condition"
+      }
+    },
+    {
+      "scenario_id": "I.B.13.S2",
+      "scenario": "Patient returns for second eye cataract surgery after first eye resolved",
+      "documentation_example": "Patient returns for left cataract surgery. Right eye cataract surgery completed 3 months ago with excellent result, no residual cataract.",
+      "step_by_step": [
+        "Step 1: Identify current left cataract",
+        "Step 2: Confirm right side previously treated and resolved",
+        "Step 3: Determine condition no longer bilateral",
+        "Step 4: Assign unilateral left code",
+        "Step 5: Do not use bilateral code"
+      ],
+      "correct_coding": {
+        "primary_code": "H25.12",
+        "secondary_codes": [],
+        "sequencing": "Unilateral left code",
+        "rationale": "Condition no longer exists on previously treated right side (Evidence: pg no: 15, L85-L87)"
+      },
+      "incorrect_coding": {
+        "code": "H25.13",
+        "codes": [
+          "H25.13"
+        ],
+        "rationale": "Should not use bilateral code when condition resolved on one side",
+        "common_mistake": "Using bilateral code when condition no longer bilateral"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "I.B.13.E1",
+      "scenario": "Bilateral knee osteoarthritis with separate left/right codes",
+      "code_example": "M17.11 + M17.12",
+      "breakdown": {
+        "M17.11": "Unilateral primary osteoarthritis, right knee (Evidence: pg no: 15, L81-L82)",
+        "M17.12": "Unilateral primary osteoarthritis, left knee (Evidence: pg no: 15, L81-L82)"
+      },
+      "rationale": "No bilateral code available, so separate codes assigned for each side (Evidence: pg no: 15, L81-L82)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not use unilateral codes when bilateral condition exists (Evidence: pg no: 15, L83-L85)",
+      "Query provider when laterality documentation conflicts (Evidence: pg no: 15, L88-L89)"
+    ],
+    "best_practices": [
+      "Use bilateral codes for separate encounters when condition exists on both sides (Evidence: pg no: 15, L83-L85)",
+      "Check other clinicians' documentation when provider doesn't specify laterality (Evidence: pg no: 15, L88-L89)"
+    ],
+    "common_mistakes": [
+      "Using unilateral code for first encounter of bilateral condition (Evidence: pg no: 15, L83-L85)",
+      "Using bilateral code when one side previously resolved (Evidence: pg no: 15, L85-L87)"
+    ],
+    "tips": [
+      "Consider whether treatment completely resolved condition on treated side (Evidence: pg no: 15, L86-L87)",
+      "Avoid unspecified codes when possible (Evidence: pg no: 15, L89)"
+    ],
+    "implementation_notes": [
+      "Requires careful tracking of treatment outcomes"
+    ],
+    "clinical_context": [
+      "Common in surgical specialties with bilateral procedures",
+      "Important for accurate representation of disease burden"
+    ]
+  },
+  "search_keywords": [
+    "laterality",
+    "bilateral",
+    "left",
+    "right",
+    "unspecified side",
+    "separate encounters",
+    "unilateral",
+    "previously treated",
+    "resolved",
+    "conflicting documentation",
+    "other clinicians"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "laterality_coding",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "laterality",
+      "bilateral",
+      "unilateral",
+      "separate_encounters",
+      "provider_documentation",
+      "query_provider"
+    ]
+  },
+  "page_range_processed": "pages_12_to_15"
+}

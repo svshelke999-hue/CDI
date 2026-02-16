@@ -1,0 +1,140 @@
+{
+  "guideline_id": "I.C.21.c.3.b",
+  "semantic_title": "Genetic Carrier Status (Z14) - Definition and Clinical Significance",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 21. Factors Influencing Health Status > c. Categories of Z Codes > 3) Status",
+  "page_number": 94,
+  "content": {
+    "full_text": "Genetic carrier status indicates that a person carries a gene, associated with a particular disease, which may be passed to offspring who may develop that disease. The person does not have the disease and is not at risk of developing the disease. (Evidence: pg no: 94, L24)",
+    "summary": "Z14 codes indicate genetic carrier status where person carries disease gene but doesn't have disease and isn't at risk (Evidence: pg no: 94, L24)",
+    "key_concepts": [
+      "Genetic carrier status (Evidence: pg no: 94, L24)",
+      "Gene transmission to offspring (Evidence: pg no: 94, L24)",
+      "No current disease (Evidence: pg no: 94, L24)",
+      "No personal risk (Evidence: pg no: 94, L24)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "GEN_CARRIER_DEF",
+        "rule_text": "Person carries gene but does not have disease and is not at risk (Evidence: pg no: 94, L24)",
+        "explanation": "Genetic carrier status means carrying a disease-associated gene that can be passed to offspring without personal disease risk (Evidence: pg no: 94, L24)",
+        "importance": "high",
+        "applies_to": "Z14",
+        "common_applications": [
+          "Genetic counseling encounters",
+          "Family planning consultations"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Confirm genetic testing shows carrier status",
+      "Step 2: Verify patient has no current disease",
+      "Step 3: Assign appropriate Z14 code"
+    ],
+    "related_terminology": [
+      "Genetic carrier",
+      "Gene transmission",
+      "Offspring risk",
+      "Genetic counseling"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z14",
+        "description": "Genetic carrier status codes (Evidence: pg no: 94, L23)",
+        "requirement": "Use when person carries gene but has no disease",
+        "usage_rules": [
+          "Patient must not have the disease (Evidence: pg no: 94, L24)",
+          "Patient must not be at risk of developing disease (Evidence: pg no: 94, L24)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Genetic carrier status"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "GEN_CARRIER_01",
+      "scenario": "Patient tested positive as carrier for cystic fibrosis gene but has no disease",
+      "documentation_example": "Genetic testing reveals patient is carrier for cystic fibrosis gene. Patient asymptomatic with no disease manifestation.",
+      "step_by_step": [
+        "Step 1: Confirm carrier status from genetic testing",
+        "Step 2: Verify patient has no cystic fibrosis",
+        "Step 3: Assign appropriate Z14 code"
+      ],
+      "correct_coding": {
+        "primary_code": "Z14.x",
+        "secondary_codes": [],
+        "sequencing": "Z14 code as appropriate",
+        "rationale": "Patient carries gene but has no disease and no personal risk (Evidence: pg no: 94, L24)"
+      },
+      "incorrect_coding": {
+        "code": "Disease code",
+        "codes": [
+          "Active disease codes"
+        ],
+        "rationale": "Patient does not have the disease",
+        "common_mistake": "Coding active disease when patient is only a carrier"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not use if patient has the disease (Evidence: pg no: 94, L24)",
+      "Do not use if patient is at risk of developing disease (Evidence: pg no: 94, L24)"
+    ],
+    "best_practices": [
+      "Confirm genetic testing results before coding",
+      "Verify absence of disease manifestation"
+    ],
+    "common_mistakes": [
+      "Confusing carrier status with genetic susceptibility",
+      "Using when patient has active disease"
+    ],
+    "tips": [
+      "Carrier status means no personal disease risk"
+    ],
+    "implementation_notes": [
+      "Often used in genetic counseling contexts"
+    ],
+    "clinical_context": [
+      "Genetic counseling",
+      "Family planning",
+      "Reproductive health"
+    ]
+  },
+  "search_keywords": [
+    "genetic carrier",
+    "Z14",
+    "gene carrier",
+    "genetic testing",
+    "carrier status",
+    "genetic counseling"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "status_codes",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "outpatient",
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "genetic",
+      "carrier",
+      "status",
+      "counseling"
+    ]
+  },
+  "page_range_processed": "pages_93_to_96"
+}

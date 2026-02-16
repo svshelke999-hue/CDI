@@ -1,0 +1,195 @@
+{
+  "guideline_id": "I.C.1.a.j",
+  "semantic_title": "HIV Disease or HIV Positive Status Managed by Antiretroviral Medication Coding Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 1. Chapter 1: Certain Infectious and Parasitic Diseases > a. Human Immunodeficiency Virus (HIV) Infections > j. HIV disease or HIV positive status managed by antiretroviral medication",
+  "page_number": 22,
+  "content": {
+    "full_text": "If a patient with documented HIV disease, HIV-related illness or AIDS is currently managed on antiretroviral medications, assign code B20, Human immunodeficiency virus [HIV] disease. If a patient with documented HIV positive status is currently managed on antiretroviral medication, assign code Z21, Asymptomatic human immunodeficiency virus [HIV] infection status, in the absence of any additional documentation of HIV disease, HIV-related illness or AIDS. Code Z79.899, Other long term (current) drug therapy, may be assigned as an additional code to identify the long-term (current) use of antiretroviral medications. (Evidence: pg no: 22, L36-L43)",
+    "summary": "Guidelines for coding HIV patients managed with antiretroviral medications, distinguishing between HIV disease and HIV positive status (Evidence: pg no: 22, L36-L43)",
+    "key_concepts": [
+      "HIV disease with antiretroviral management (Evidence: pg no: 22, L38-L40)",
+      "HIV positive status with antiretroviral management (Evidence: pg no: 22, L41)",
+      "Long-term drug therapy coding (Evidence: pg no: 22, L42-L43)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "HIV_ARV_DISEASE",
+        "rule_text": "If a patient with documented HIV disease, HIV-related illness or AIDS is currently managed on antiretroviral medications, assign code B20 (Evidence: pg no: 22, L38-L40)",
+        "explanation": "For patients with documented HIV disease, HIV-related illness, or AIDS who are on antiretroviral therapy, always use B20 regardless of current symptom status (Evidence: pg no: 22, L38-L40)",
+        "importance": "critical",
+        "applies_to": "B20",
+        "common_applications": [
+          "HIV patients with history of opportunistic infections on ARV therapy",
+          "AIDS patients on antiretroviral treatment"
+        ]
+      },
+      {
+        "rule_id": "HIV_ARV_POSITIVE",
+        "rule_text": "If a patient with documented HIV positive status is currently managed on antiretroviral medication, assign code Z21 in the absence of any additional documentation of HIV disease, HIV-related illness or AIDS (Evidence: pg no: 22, L41)",
+        "explanation": "For HIV positive patients on antiretroviral therapy without documented HIV disease or related illness, use Z21 for asymptomatic status (Evidence: pg no: 22, L41)",
+        "importance": "critical",
+        "applies_to": "Z21",
+        "common_applications": [
+          "HIV positive patients on PrEP or treatment without documented illness",
+          "Asymptomatic HIV patients on antiretroviral therapy"
+        ]
+      },
+      {
+        "rule_id": "HIV_ARV_ADDITIONAL",
+        "rule_text": "Code Z79.899, Other long term (current) drug therapy, may be assigned as an additional code to identify the long-term (current) use of antiretroviral medications (Evidence: pg no: 22, L42-L43)",
+        "explanation": "Optional additional code to specifically identify long-term antiretroviral medication use (Evidence: pg no: 22, L42-L43)",
+        "importance": "medium",
+        "applies_to": "Z79.899",
+        "common_applications": [
+          "Additional coding for antiretroviral therapy documentation",
+          "Long-term medication management tracking"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if patient has documented HIV disease, HIV-related illness, or AIDS",
+      "Step 2: If yes, assign B20 regardless of antiretroviral therapy status",
+      "Step 3: If only HIV positive status without disease documentation, assign Z21",
+      "Step 4: Consider adding Z79.899 for long-term antiretroviral therapy documentation"
+    ],
+    "related_terminology": [
+      "HIV disease",
+      "HIV-related illness",
+      "AIDS",
+      "HIV positive status",
+      "antiretroviral medications",
+      "long-term drug therapy"
+    ]
+  },
+  "code_references": {
+    "specific_codes": [
+      {
+        "code": "B20",
+        "description": "Human immunodeficiency virus [HIV] disease (Evidence: pg no: 22, L40)",
+        "context": "For patients with documented HIV disease, HIV-related illness or AIDS on antiretroviral medications",
+        "requires_additional_codes": "check_code_notes",
+        "breakdown": {
+          "B": "Certain infectious and parasitic diseases",
+          "20": "Human immunodeficiency virus [HIV] disease"
+        }
+      },
+      {
+        "code": "Z21",
+        "description": "Asymptomatic human immunodeficiency virus [HIV] infection status (Evidence: pg no: 22, L41)",
+        "context": "For HIV positive patients on antiretroviral therapy without documented HIV disease or illness",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z": "Factors influencing health status and contact with health services",
+          "21": "Asymptomatic human immunodeficiency virus [HIV] infection status"
+        }
+      },
+      {
+        "code": "Z79.899",
+        "description": "Other long term (current) drug therapy (Evidence: pg no: 22, L42)",
+        "context": "Optional additional code for long-term antiretroviral medication use",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z79": "Long term (current) drug therapy",
+          "899": "Other long term (current) drug therapy"
+        }
+      }
+    ],
+    "code_categories_mentioned": [
+      "HIV infection codes",
+      "Long-term drug therapy codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.1.a.g",
+        "title": "Previously diagnosed HIV-related illness",
+        "relationship": "builds_upon",
+        "explanation": "Builds upon the concept of HIV disease coding established in previous guidelines"
+      }
+    ]
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "HIV_ARV_1",
+      "scenario": "Patient with history of Pneumocystis pneumonia (HIV-related illness) currently on antiretroviral therapy",
+      "documentation_example": "Patient with AIDS, history of PCP, currently on HAART therapy",
+      "step_by_step": [
+        "Step 1: Identify documented HIV-related illness (PCP)",
+        "Step 2: Note current antiretroviral therapy",
+        "Step 3: Assign B20 for HIV disease",
+        "Step 4: Consider Z79.899 for long-term ARV therapy"
+      ],
+      "correct_coding": {
+        "primary_code": "B20",
+        "secondary_codes": [
+          "Z79.899"
+        ],
+        "sequencing": "B20 first, Z79.899 as additional",
+        "rationale": "Patient has documented HIV-related illness, so B20 is required regardless of current treatment status (Evidence: pg no: 22, L38-L40)"
+      }
+    },
+    {
+      "scenario_id": "HIV_ARV_2",
+      "scenario": "HIV positive patient on antiretroviral therapy with no documented HIV disease or related illness",
+      "documentation_example": "HIV positive patient on PrEP, no opportunistic infections or AIDS-defining conditions",
+      "step_by_step": [
+        "Step 1: Confirm HIV positive status",
+        "Step 2: Verify no documented HIV disease or related illness",
+        "Step 3: Note antiretroviral therapy",
+        "Step 4: Assign Z21 for asymptomatic status"
+      ],
+      "correct_coding": {
+        "primary_code": "Z21",
+        "secondary_codes": [
+          "Z79.899"
+        ],
+        "sequencing": "Z21 first, Z79.899 as additional",
+        "rationale": "No documented HIV disease or illness, so asymptomatic status code is appropriate (Evidence: pg no: 22, L41)"
+      }
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not use Z21 if patient has any documented HIV disease, HIV-related illness, or AIDS (Evidence: pg no: 22, L41)"
+    ],
+    "best_practices": [
+      "Always verify documentation of HIV disease versus HIV positive status (Evidence: pg no: 22, L38-L41)",
+      "Consider adding Z79.899 for comprehensive medication documentation (Evidence: pg no: 22, L42-L43)"
+    ],
+    "common_mistakes": [
+      "Using Z21 for patients with documented HIV disease history",
+      "Failing to distinguish between HIV disease and HIV positive status"
+    ],
+    "tips": [
+      "Review medical history for any previous HIV-related illnesses",
+      "Antiretroviral therapy status helps determine appropriate coding"
+    ]
+  },
+  "search_keywords": [
+    "HIV antiretroviral",
+    "HIV ARV therapy",
+    "B20 HIV disease",
+    "Z21 HIV positive",
+    "HIV medication management",
+    "long-term drug therapy HIV"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "HIV infections",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "tags": [
+      "HIV",
+      "antiretroviral",
+      "medication",
+      "B20",
+      "Z21",
+      "drug therapy"
+    ]
+  },
+  "page_range_processed": "pages_21_to_24"
+}

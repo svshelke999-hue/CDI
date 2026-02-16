@@ -1,0 +1,227 @@
+{
+  "guideline_id": "I.A.7",
+  "semantic_title": "Punctuation in ICD-10-CM: Brackets, Parentheses, Colons, and Commas Usage Rules",
+  "section_path": "Section I > A. Conventions > 7. Punctuation",
+  "page_number": 8,
+  "content": {
+    "full_text": "[ ] Brackets are used in the Tabular List to enclose synonyms, alternative wording or explanatory phrases. Brackets are used in the Alphabetic Index to identify manifestation codes. ( ) Parentheses are used in both the Alphabetic Index and Tabular List to enclose supplementary words that may be present or absent in the statement of a disease or procedure without affecting the code number to which it is assigned. The terms within the parentheses are referred to as nonessential modifiers. The nonessential modifiers in the Alphabetic Index to Diseases apply to subterms following a main term except when a nonessential modifier and a subentry are mutually exclusive, the subentry takes precedence. For example, in the ICD-10-CM Alphabetic Index under the main term Enteritis, 'acute' is a nonessential modifier and 'chronic' is a subentry. In this case, the nonessential modifier 'acute' does not apply to the subentry 'chronic'. : Colons are used in the Tabular List after an incomplete term which needs one or more of the modifiers following the colon to make it assignable to a given category. (Evidence: pg no: 8-9, L50-L58)",
+    "summary": "Defines the specific uses of brackets, parentheses, and colons in ICD-10-CM with detailed rules for each punctuation mark (Evidence: pg no: 8-9, L50-L58)",
+    "key_concepts": [
+      "Brackets enclose synonyms in Tabular List and identify manifestation codes in Index (Evidence: pg no: 8, L51-L53)",
+      "Parentheses contain nonessential modifiers that don't affect code assignment (Evidence: pg no: 8, L54-L55)",
+      "Nonessential modifiers have precedence rules with subentries (Evidence: pg no: 8, L55-L56)",
+      "Colons indicate incomplete terms requiring modifiers (Evidence: pg no: 9, L57-L58)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.A.7.R1",
+        "rule_text": "Brackets are used in the Tabular List to enclose synonyms, alternative wording or explanatory phrases (Evidence: pg no: 8, L51-L52)",
+        "explanation": "Square brackets in the Tabular List provide additional clarification or alternative terminology for the code description (Evidence: pg no: 8, L51-L52)",
+        "importance": "medium",
+        "applies_to": "tabular_list_codes",
+        "common_applications": [
+          "Code description clarification",
+          "Synonym identification"
+        ]
+      },
+      {
+        "rule_id": "I.A.7.R2",
+        "rule_text": "Brackets are used in the Alphabetic Index to identify manifestation codes (Evidence: pg no: 8, L52-L53)",
+        "explanation": "Square brackets in the Alphabetic Index specifically mark codes that represent manifestations of underlying conditions (Evidence: pg no: 8, L52-L53)",
+        "importance": "high",
+        "applies_to": "manifestation_codes",
+        "common_applications": [
+          "Identifying manifestation codes",
+          "Etiology/manifestation coding"
+        ]
+      },
+      {
+        "rule_id": "I.A.7.R3",
+        "rule_text": "Terms within parentheses are nonessential modifiers that may be present or absent without affecting the code assignment (Evidence: pg no: 8, L54-L55)",
+        "explanation": "Parenthetical terms provide additional context but their presence or absence in documentation doesn't change the assigned code (Evidence: pg no: 8, L54-L55)",
+        "importance": "high",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Code selection flexibility",
+          "Documentation variation accommodation"
+        ]
+      },
+      {
+        "rule_id": "I.A.7.R4",
+        "rule_text": "When a nonessential modifier and a subentry are mutually exclusive, the subentry takes precedence (Evidence: pg no: 8, L55-L56)",
+        "explanation": "If a nonessential modifier conflicts with a specific subentry, the subentry's meaning overrides the nonessential modifier (Evidence: pg no: 8, L55-L56)",
+        "importance": "high",
+        "applies_to": "alphabetic_index_entries",
+        "common_applications": [
+          "Resolving conflicting modifiers",
+          "Accurate code selection"
+        ]
+      },
+      {
+        "rule_id": "I.A.7.R5",
+        "rule_text": "Colons are used in the Tabular List after an incomplete term which needs one or more modifiers following the colon to make it assignable (Evidence: pg no: 9, L57-L58)",
+        "explanation": "A colon indicates that the term is incomplete and requires additional modifiers listed after the colon for proper code assignment (Evidence: pg no: 9, L57-L58)",
+        "importance": "high",
+        "applies_to": "tabular_list_codes",
+        "common_applications": [
+          "Identifying incomplete terms",
+          "Required modifier selection"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify punctuation marks in code descriptions",
+      "Step 2: Apply appropriate interpretation based on punctuation type",
+      "Step 3: For brackets in Index, recognize manifestation codes",
+      "Step 4: For parentheses, understand terms are optional",
+      "Step 5: For colons, identify required modifiers"
+    ],
+    "related_terminology": [
+      "Brackets",
+      "Parentheses",
+      "Colons",
+      "Commas",
+      "Nonessential modifiers",
+      "Manifestation codes",
+      "Synonyms",
+      "Subentries"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Manifestation codes (marked with brackets in Index)",
+      "Codes with nonessential modifiers",
+      "Codes requiring modifiers after colons"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.A.13",
+        "title": "Etiology/manifestation convention",
+        "relationship": "related_to",
+        "explanation": "Brackets identify manifestation codes for etiology/manifestation coding"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "I.A.7.S1",
+      "scenario": "Using nonessential modifiers in parentheses",
+      "documentation_example": "Patient has acute enteritis vs Patient has enteritis",
+      "step_by_step": [
+        "Step 1: Look up 'Enteritis' in Alphabetic Index",
+        "Step 2: Note 'acute' appears in parentheses as nonessential modifier",
+        "Step 3: Assign same code whether 'acute' is documented or not",
+        "Step 4: Check for specific subentries that might override"
+      ],
+      "correct_coding": {
+        "primary_code": "Same code for both scenarios",
+        "secondary_codes": [],
+        "sequencing": "Primary diagnosis",
+        "rationale": "Nonessential modifiers in parentheses don't affect code assignment (Evidence: pg no: 8, L54-L55)"
+      },
+      "incorrect_coding": {
+        "code": "Different codes based on 'acute' presence",
+        "codes": [],
+        "rationale": "Nonessential modifiers should not change code assignment",
+        "common_mistake": "Treating nonessential modifiers as essential"
+      }
+    },
+    {
+      "scenario_id": "I.A.7.S2",
+      "scenario": "Precedence of subentry over nonessential modifier",
+      "documentation_example": "Chronic enteritis with 'acute' as nonessential modifier",
+      "step_by_step": [
+        "Step 1: Look up 'Enteritis' in Alphabetic Index",
+        "Step 2: Note 'acute' in parentheses as nonessential modifier",
+        "Step 3: Find 'chronic' as specific subentry",
+        "Step 4: Use chronic enteritis code, ignoring 'acute' modifier"
+      ],
+      "correct_coding": {
+        "primary_code": "Chronic enteritis code",
+        "secondary_codes": [],
+        "sequencing": "Primary diagnosis",
+        "rationale": "Subentry takes precedence over mutually exclusive nonessential modifier (Evidence: pg no: 8, L55-L56)"
+      },
+      "incorrect_coding": {
+        "code": "Acute enteritis code",
+        "codes": [],
+        "rationale": "Should use subentry when it conflicts with nonessential modifier",
+        "common_mistake": "Not recognizing subentry precedence"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "I.A.7.E1",
+      "scenario": "Enteritis example with nonessential modifier precedence",
+      "code_example": "Enteritis (acute) with chronic subentry",
+      "breakdown": {
+        "(acute)": "Nonessential modifier in parentheses (Evidence: pg no: 8, L54-L55)",
+        "chronic": "Specific subentry that takes precedence (Evidence: pg no: 8, L55-L56)"
+      },
+      "rationale": "Subentry overrides conflicting nonessential modifier (Evidence: pg no: 8, L55-L56)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Subentries take precedence over conflicting nonessential modifiers (Evidence: pg no: 8, L55-L56)",
+      "Brackets in Index specifically identify manifestation codes (Evidence: pg no: 8, L52-L53)",
+      "Colons indicate incomplete terms requiring modifiers (Evidence: pg no: 9, L57-L58)"
+    ],
+    "best_practices": [
+      "Recognize nonessential modifiers don't affect code assignment",
+      "Use subentries when they conflict with nonessential modifiers",
+      "Identify manifestation codes by brackets in Index"
+    ],
+    "common_mistakes": [
+      "Treating nonessential modifiers as essential",
+      "Not recognizing manifestation codes in brackets",
+      "Ignoring required modifiers after colons"
+    ],
+    "tips": [
+      "Parentheses = optional terms",
+      "Brackets in Index = manifestation codes",
+      "Colons = incomplete terms needing modifiers"
+    ],
+    "implementation_notes": [
+      "Punctuation provides critical coding guidance"
+    ],
+    "clinical_context": [
+      "Punctuation reflects clinical documentation flexibility and requirements"
+    ]
+  },
+  "search_keywords": [
+    "punctuation",
+    "brackets",
+    "parentheses",
+    "colons",
+    "nonessential modifiers",
+    "manifestation codes",
+    "subentry precedence",
+    "incomplete terms"
+  ],
+  "metadata": {
+    "category": "convention",
+    "subcategory": "punctuation_rules",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "October 1, 2025",
+    "tags": [
+      "punctuation",
+      "brackets",
+      "parentheses",
+      "colons",
+      "modifiers"
+    ]
+  },
+  "page_range_processed": "pages_7_to_9"
+}

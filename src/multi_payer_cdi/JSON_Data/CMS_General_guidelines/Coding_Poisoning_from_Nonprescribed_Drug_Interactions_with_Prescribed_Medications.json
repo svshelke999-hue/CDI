@@ -1,0 +1,139 @@
+{
+  "guideline_id": "I.C.19.e.iii",
+  "semantic_title": "Coding Poisoning from Nonprescribed Drug Interactions with Prescribed Medications",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 19. Chapter 19: Injury, poisoning, and certain other consequences of external causes > e. Adverse Effects, Poisoning, Underdosing and Toxic Effects > (iii) Nonprescribed drug taken with correctly prescribed and properly administered drug",
+  "page_number": 84,
+  "content": {
+    "full_text": "If a nonprescribed drug or medicinal agent was taken in combination with a correctly prescribed and properly administered drug, any drug toxicity or other reaction resulting from the interaction of the two drugs would be classified as a poisoning. (Evidence: pg no: 84, L3-L5)",
+    "summary": "Drug interactions between nonprescribed and prescribed medications are classified as poisoning (Evidence: pg no: 84, L3-L5)",
+    "key_concepts": [
+      "Nonprescribed drug interaction (Evidence: pg no: 84, L3)",
+      "Correctly prescribed drug (Evidence: pg no: 84, L4)",
+      "Drug toxicity classification (Evidence: pg no: 84, L5)",
+      "Poisoning classification (Evidence: pg no: 84, L5)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "nonprescribed_interaction_rule",
+        "rule_text": "Any drug toxicity or other reaction resulting from the interaction of nonprescribed and prescribed drugs would be classified as a poisoning (Evidence: pg no: 84, L5)",
+        "explanation": "When a patient takes a nonprescribed drug or medicinal agent in combination with a correctly prescribed and properly administered drug, and this results in toxicity or adverse reaction, it must be coded as poisoning rather than adverse effect (Evidence: pg no: 84, L3-L5)",
+        "importance": "critical",
+        "applies_to": "T36-T50 poisoning codes",
+        "common_applications": [
+          "Over-the-counter medication interactions with prescription drugs",
+          "Herbal supplement interactions with prescribed medications"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify if patient took nonprescribed drug or medicinal agent",
+      "Step 2: Confirm prescribed drug was correctly prescribed and properly administered",
+      "Step 3: Determine if toxicity or reaction resulted from interaction",
+      "Step 4: Classify as poisoning using appropriate T36-T50 code"
+    ],
+    "related_terminology": [
+      "Nonprescribed drug",
+      "Medicinal agent",
+      "Drug toxicity",
+      "Drug interaction",
+      "Poisoning"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "T36-T50",
+        "description": "Poisoning by, adverse effects of and underdosing of drugs, medicaments and biological substances (Evidence: pg no: 84, L3-L5)",
+        "requirement": "Use for nonprescribed drug interactions",
+        "usage_rules": [
+          "Apply when nonprescribed drug interacts with prescribed medication (Evidence: pg no: 84, L5)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Poisoning codes for drug interactions"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "nonprescribed_interaction_scenario",
+      "scenario": "Patient taking prescribed warfarin develops bleeding after taking over-the-counter aspirin",
+      "documentation_example": "Patient on prescribed warfarin therapy developed GI bleeding after taking OTC aspirin for headache",
+      "step_by_step": [
+        "Step 1: Identify warfarin as correctly prescribed and administered",
+        "Step 2: Identify aspirin as nonprescribed medication",
+        "Step 3: Recognize bleeding as result of drug interaction",
+        "Step 4: Code as poisoning due to drug interaction"
+      ],
+      "correct_coding": {
+        "primary_code": "T45.511A",
+        "secondary_codes": [
+          "K92.2"
+        ],
+        "sequencing": "Poisoning code first, followed by manifestation",
+        "rationale": "Interaction between nonprescribed and prescribed drugs classified as poisoning (Evidence: pg no: 84, L5)"
+      },
+      "incorrect_coding": {
+        "code": "T45.515A",
+        "codes": [
+          "T45.515A"
+        ],
+        "rationale": "Would be incorrect to use adverse effect code when nonprescribed drug is involved",
+        "common_mistake": "Coding as adverse effect instead of poisoning"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not code as adverse effect when nonprescribed drug is involved (Evidence: pg no: 84, L5)"
+    ],
+    "best_practices": [
+      "Always determine if all drugs were prescribed before coding as adverse effect (Evidence: pg no: 84, L3-L5)"
+    ],
+    "common_mistakes": [
+      "Coding drug interactions as adverse effects when nonprescribed drugs are involved (Evidence: pg no: 84, L5)"
+    ],
+    "tips": [
+      "Look for over-the-counter medications, herbal supplements, or other nonprescribed substances (Evidence: pg no: 84, L3)"
+    ],
+    "implementation_notes": [
+      "Requires careful documentation review to identify all substances involved"
+    ],
+    "clinical_context": [
+      "Common in elderly patients taking multiple medications",
+      "Frequent with herbal supplement use"
+    ]
+  },
+  "search_keywords": [
+    "nonprescribed drug interaction",
+    "drug interaction poisoning",
+    "OTC medication interaction",
+    "prescribed drug interaction",
+    "medicinal agent interaction"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "poisoning_and_adverse_effects",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "poisoning",
+      "drug_interaction",
+      "nonprescribed",
+      "T36-T50"
+    ]
+  },
+  "page_range_processed": "pages_84_to_87"
+}

@@ -1,0 +1,179 @@
+{
+  "guideline_id": "I.C.15.a.7",
+  "semantic_title": "Completed Weeks of Gestation Calculation and Assignment",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 15. Chapter 15: Pregnancy, Childbirth, and the Puerperium > a. General Rules for Obstetric Cases > 7) Completed weeks of gestation",
+  "page_number": 64,
+  "content": {
+    "full_text": "In ICD-10-CM, 'completed' weeks of gestation refers to full weeks. For example, if the provider documents gestation at 39 weeks and 6 days, the code for 39 weeks of gestation should be assigned, as the patient has not yet reached 40 completed weeks. (Evidence: pg no: 64, L43-L45)",
+    "summary": "Guidelines for calculating and assigning completed weeks of gestation codes (Evidence: pg no: 64, L43-L45)",
+    "key_concepts": [
+      "Completed weeks definition (Evidence: pg no: 64, L44)",
+      "Full weeks requirement (Evidence: pg no: 64, L44)",
+      "Gestational age calculation (Evidence: pg no: 64, L44-L45)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.C.15.a.7.1",
+        "rule_text": "Completed weeks refers to full weeks only (Evidence: pg no: 64, L44)",
+        "explanation": "Partial weeks do not count toward completed weeks calculation (Evidence: pg no: 64, L44-L45)",
+        "importance": "critical",
+        "applies_to": "Z3A codes",
+        "common_applications": [
+          "Gestational age documentation",
+          "Weeks of gestation coding",
+          "Pregnancy dating"
+        ]
+      },
+      {
+        "rule_id": "I.C.15.a.7.2",
+        "rule_text": "Round down to completed weeks (Evidence: pg no: 64, L44-L45)",
+        "explanation": "39 weeks and 6 days codes as 39 weeks, not 40 weeks (Evidence: pg no: 64, L44-L45)",
+        "importance": "critical",
+        "applies_to": "Z3A codes",
+        "common_applications": [
+          "Near-term pregnancies",
+          "Precise gestational age documentation"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify documented gestational age in weeks and days",
+      "Step 2: Count only completed full weeks",
+      "Step 3: Assign code based on completed weeks, ignoring partial weeks"
+    ],
+    "related_terminology": [
+      "Completed weeks",
+      "Gestational age",
+      "Full weeks",
+      "Pregnancy dating"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z3A",
+        "description": "Weeks of gestation codes (Evidence: pg no: 64, L43)",
+        "requirement": "Use completed weeks only",
+        "usage_rules": [
+          "Round down to completed weeks (Evidence: pg no: 64, L44-L45)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "Z3A.39",
+        "description": "39 weeks gestation of pregnancy (Evidence: pg no: 64, L44-L45)",
+        "context": "Used for 39 weeks and any number of days up to 39 weeks 6 days",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "Z3A": "Weeks of gestation category",
+          "39": "39 completed weeks"
+        }
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": "Z3A.xx",
+        "description": "Weeks of gestation pattern (Evidence: pg no: 64, L43)",
+        "example": "Z3A.39",
+        "explanation": "Two-digit extension indicates completed weeks"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Weeks of gestation codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "completed_weeks_1",
+      "scenario": "Patient at 39 weeks and 6 days gestation presents for delivery",
+      "documentation_example": "Patient presents in labor at 39 weeks 6 days gestation by LMP",
+      "step_by_step": [
+        "Step 1: Identify gestational age as 39 weeks and 6 days",
+        "Step 2: Determine completed weeks = 39 (not yet 40 completed weeks)",
+        "Step 3: Assign Z3A.39 for 39 weeks gestation"
+      ],
+      "correct_coding": {
+        "primary_code": "Z3A.39",
+        "secondary_codes": [],
+        "sequencing": "Additional diagnosis",
+        "rationale": "39 completed weeks, partial week does not count toward next completed week (Evidence: pg no: 64, L44-L45)"
+      },
+      "incorrect_coding": {
+        "code": "Z3A.40",
+        "codes": [
+          "Z3A.40"
+        ],
+        "rationale": "Patient has not completed 40 weeks yet",
+        "common_mistake": "Rounding up partial weeks to next completed week"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "weeks_calc_1",
+      "scenario": "39 weeks and 6 days gestation",
+      "code_example": "Z3A.39",
+      "breakdown": {
+        "Z3A": "Weeks of gestation category (Evidence: pg no: 64, L43)",
+        "39": "39 completed weeks (Evidence: pg no: 64, L44-L45)"
+      },
+      "rationale": "Patient has not yet reached 40 completed weeks (Evidence: pg no: 64, L44-L45)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not round up partial weeks to next completed week (Evidence: pg no: 64, L44-L45)"
+    ],
+    "best_practices": [
+      "Always count only completed full weeks (Evidence: pg no: 64, L44)",
+      "Verify gestational age calculation with provider documentation"
+    ],
+    "common_mistakes": [
+      "Rounding 39 weeks 6 days to 40 weeks (Evidence: pg no: 64, L44-L45)",
+      "Including partial weeks in completed weeks count"
+    ],
+    "tips": [
+      "Remember that 'completed' means full weeks only",
+      "Check ultrasound dating for most accurate gestational age"
+    ],
+    "implementation_notes": [
+      "Requires careful attention to documented gestational age"
+    ],
+    "clinical_context": [
+      "Pregnancy dating",
+      "Labor and delivery",
+      "Prenatal care"
+    ]
+  },
+  "search_keywords": [
+    "completed weeks",
+    "gestational age",
+    "weeks of gestation",
+    "pregnancy dating",
+    "Z3A codes",
+    "gestation calculation"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "obstetric_coding",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "pregnancy",
+      "gestational_age",
+      "weeks_calculation",
+      "Z3A"
+    ]
+  },
+  "page_range_processed": "pages_63_to_66"
+}

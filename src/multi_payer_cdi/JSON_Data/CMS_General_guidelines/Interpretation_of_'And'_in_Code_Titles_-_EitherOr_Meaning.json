@@ -1,0 +1,164 @@
+{
+  "guideline_id": "I.A.14",
+  "semantic_title": "Interpretation of 'And' in Code Titles - Either/Or Meaning",
+  "section_path": "Section I > A. Conventions > 14. 'And'",
+  "page_number": 11,
+  "content": {
+    "full_text": "The word \"and\" should be interpreted to mean either \"and\" or \"or\" when it appears in a title. For example, cases of \"tuberculosis of bones\", \"tuberculosis of joints\" and \"tuberculosis of bones and joints\" are classified to subcategory A18.0, Tuberculosis of bones and joints. (Evidence: pg no: 11, L49-L52)",
+    "summary": "The word 'and' in code titles should be interpreted as either 'and' or 'or' for coding purposes (Evidence: pg no: 11, L49-L51)",
+    "key_concepts": [
+      "And means either 'and' or 'or' (Evidence: pg no: 11, L50)",
+      "Single code covers individual or combined conditions (Evidence: pg no: 11, L51-L52)",
+      "Inclusive interpretation of conjunction (Evidence: pg no: 11, L50)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "AND_INTERPRETATION",
+        "rule_text": "Word 'and' in titles means either 'and' or 'or' (Evidence: pg no: 11, L50)",
+        "explanation": "This allows single codes to cover both individual conditions and their combinations (Evidence: pg no: 11, L50-L52)",
+        "importance": "medium",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Anatomical site combinations",
+          "Related condition groupings"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify 'and' in code title",
+      "Step 2: Determine if patient has one or both conditions",
+      "Step 3: Use same code regardless of combination",
+      "Step 4: Apply to individual or combined presentations"
+    ],
+    "related_terminology": [
+      "And/or interpretation",
+      "Inclusive coding",
+      "Combined conditions",
+      "Individual conditions"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "A18.0",
+        "description": "Tuberculosis of bones and joints (Evidence: pg no: 11, L52)",
+        "context": "Covers tuberculosis of bones, joints, or both",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "A18.0": "Includes bones only, joints only, or both bones and joints"
+        }
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": "Condition A and Condition B",
+        "description": "Code titles with 'and' cover either or both conditions (Evidence: pg no: 11, L50)",
+        "example": "Tuberculosis of bones and joints",
+        "explanation": "Single code applies to bones only, joints only, or both"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Tuberculosis codes",
+      "Anatomical site codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": [
+      {
+        "guideline_id": "I.A.8",
+        "title": "Use of 'and'",
+        "relationship": "implements",
+        "explanation": "References this section for detailed explanation"
+      }
+    ]
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "TB_BONES_JOINTS",
+      "scenario": "Patient with tuberculosis affecting bones only, joints only, or both",
+      "documentation_example": "Tuberculosis of left femur and right knee joint",
+      "step_by_step": [
+        "Step 1: Identify tuberculosis of bones and joints",
+        "Step 2: Note A18.0 covers bones and joints",
+        "Step 3: Apply 'and' interpretation rule",
+        "Step 4: Use A18.0 for any combination"
+      ],
+      "correct_coding": {
+        "primary_code": "A18.0",
+        "secondary_codes": [],
+        "sequencing": "Single code sufficient",
+        "rationale": "A18.0 covers bones, joints, or both per 'and' interpretation rule (Evidence: pg no: 11, L52)"
+      },
+      "incorrect_coding": {
+        "code": "Multiple codes",
+        "codes": [
+          "Separate codes for bones and joints"
+        ],
+        "rationale": "Single code A18.0 covers all combinations",
+        "common_mistake": "Using separate codes when single code with 'and' applies"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "TB_AND_EXAMPLE",
+      "scenario": "Tuberculosis of bones and joints",
+      "code_example": "A18.0",
+      "breakdown": {
+        "A18.0": "Covers tuberculosis of bones, joints, or both (Evidence: pg no: 11, L52)"
+      },
+      "rationale": "And interpretation allows single code for individual or combined conditions (Evidence: pg no: 11, L50-L52)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [],
+    "best_practices": [
+      "Use single code when 'and' appears in title regardless of individual or combined presentation (Evidence: pg no: 11, L50-L52)"
+    ],
+    "common_mistakes": [
+      "Using multiple codes when single 'and' code applies",
+      "Misinterpreting 'and' as requiring both conditions"
+    ],
+    "tips": [
+      "Look for 'and' in code titles",
+      "Remember 'and' is inclusive, not restrictive"
+    ],
+    "implementation_notes": [
+      "Simplifies coding for related conditions",
+      "Reduces need for multiple codes"
+    ],
+    "clinical_context": [
+      "Common in anatomical site coding",
+      "Useful for related condition groupings"
+    ]
+  },
+  "search_keywords": [
+    "and interpretation",
+    "and or or",
+    "tuberculosis",
+    "bones and joints",
+    "A18.0",
+    "combined conditions",
+    "inclusive coding"
+  ],
+  "metadata": {
+    "category": "convention",
+    "subcategory": "word_interpretation",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "and_interpretation",
+      "inclusive_coding",
+      "tuberculosis",
+      "anatomical_sites"
+    ]
+  },
+  "page_range_processed": "pages_9_to_12"
+}

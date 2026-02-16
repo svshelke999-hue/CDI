@@ -1,0 +1,130 @@
+{
+  "guideline_id": "I.C.19.d.4",
+  "semantic_title": "Infected Burns - Additional Code Assignment for Infection",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 19. Injury, Poisoning, and Certain Other Consequences of External Causes > d. Coding of Burns and Corrosions > 4) Infected burn",
+  "page_number": 81,
+  "content": {
+    "full_text": "For any documented infected burn site, use an additional code for the infection. (Evidence: pg no: 81, L84-L85)",
+    "summary": "Requirement to assign additional infection codes when burns are documented as infected (Evidence: pg no: 81, L84-L85)",
+    "key_concepts": [
+      "Additional coding for burn infections (Evidence: pg no: 81, L84-L85)",
+      "Documented infection requirement (Evidence: pg no: 81, L84)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "additional_infection_code",
+        "rule_text": "For any documented infected burn site, use an additional code for the infection (Evidence: pg no: 81, L84-L85)",
+        "explanation": "When burn sites are documented as infected, both the burn code and appropriate infection code must be assigned (Evidence: pg no: 81, L84-L85)",
+        "importance": "high",
+        "applies_to": "infected_burns",
+        "common_applications": [
+          "Burn wound infections",
+          "Secondary infections in burns",
+          "Complicated burn healing"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify burn and assess for infection documentation",
+      "Step 2: Assign appropriate burn code",
+      "Step 3: If infection documented, identify infection type",
+      "Step 4: Assign additional infection code",
+      "Step 5: Sequence according to circumstances of admission"
+    ],
+    "related_terminology": [
+      "Infected burns",
+      "Burn infections",
+      "Additional codes",
+      "Secondary infections"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Burn codes",
+      "Infection codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "infected_burn_site",
+      "scenario": "Patient with third-degree burn of arm with documented bacterial infection",
+      "documentation_example": "Third-degree burn of right arm with staphylococcal infection",
+      "step_by_step": [
+        "Step 1: Identify burn (third-degree arm burn)",
+        "Step 2: Identify documented infection (staphylococcal)",
+        "Step 3: Assign burn code",
+        "Step 4: Assign additional infection code"
+      ],
+      "correct_coding": {
+        "primary_code": "T22.3xx (third-degree arm burn)",
+        "secondary_codes": [
+          "Appropriate staphylococcal infection code"
+        ],
+        "sequencing": "Burn code and infection code",
+        "rationale": "Documented infected burns require additional infection codes (Evidence: pg no: 81, L84-L85)"
+      },
+      "incorrect_coding": {
+        "code": "T22.3xx only",
+        "codes": [
+          "Burn code without infection code"
+        ],
+        "rationale": "Must include infection code when infection is documented",
+        "common_mistake": "Not coding documented infections in burns"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Always assign additional infection codes for documented burn infections (Evidence: pg no: 81, L84-L85)"
+    ],
+    "best_practices": [
+      "Review documentation carefully for infection mentions (Evidence: pg no: 81, L84)",
+      "Use specific infection codes when organism is identified (Evidence: pg no: 81, L84-L85)"
+    ],
+    "common_mistakes": [
+      "Missing infection codes in documented infected burns (Evidence: pg no: 81, L84-L85)"
+    ],
+    "tips": [
+      "Look for infection documentation in burn cases (Evidence: pg no: 81, L84)"
+    ],
+    "implementation_notes": [
+      "Requires careful documentation review for infection status"
+    ],
+    "clinical_context": [
+      "Common in burn unit and wound care settings"
+    ]
+  },
+  "search_keywords": [
+    "infected burns",
+    "burn infections",
+    "additional codes",
+    "burn complications",
+    "secondary infections"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "burn_coding",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "burns",
+      "infections",
+      "additional_codes",
+      "complications"
+    ]
+  },
+  "page_range_processed": "pages_78_to_81"
+}

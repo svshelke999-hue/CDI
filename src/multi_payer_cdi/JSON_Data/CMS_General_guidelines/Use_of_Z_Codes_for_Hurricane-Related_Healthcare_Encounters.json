@@ -1,0 +1,228 @@
+{
+  "guideline_id": "I.19.d",
+  "semantic_title": "Use of Z Codes for Hurricane-Related Healthcare Encounters",
+  "section_path": "Section I > 19. Cataclysmic Events > d. Use of Z codes",
+  "page_number": 19,
+  "content": {
+    "full_text": "Z codes (other reasons for healthcare encounters) may be assigned as appropriate to further explain the reasons for presenting for healthcare services, including transfers between healthcare facilities, or provide additional information relevant to a patient encounter. The ICD-10-CM Official Guidelines for Coding and Reporting identify which codes maybe assigned as principal or first-listed diagnosis only, secondary diagnosis only, or principal/first-listed or secondary (depending on the circumstances). Possible applicable Z codes include: Z59.0-, Homelessness; Z59.1, Inadequate housing; Z59.5, Extreme poverty; Z75.1, Person awaiting admission to adequate facility elsewhere; Z75.3, Unavailability and inaccessibility of health-care facilities; Z75.4, Unavailability and inaccessibility of other helping agencies; Z76.2, Encounter for health supervision and care of other healthy infant and child; Z99.12, Encounter for respirator [ventilator] dependence during power failure. The external cause of morbidity codes and the Z codes listed above are not an all-inclusive list. Other codes may be applicable to the encounter based upon the documentation. Assign as many codes as necessary to fully explain each healthcare encounter. Since patient history information may be very limited, use any available documentation to assign the appropriate external cause of morbidity and Z codes. (Evidence: pg no: 19-20, L18-L34)",
+    "summary": "Guidelines for using Z codes to explain reasons for healthcare encounters during cataclysmic events like hurricanes, including specific applicable codes and sequencing rules (Evidence: pg no: 19-20, L18-L34)",
+    "key_concepts": [
+      "Z codes explain reasons for healthcare encounters beyond primary diagnosis (Evidence: pg no: 19, L18-L19)",
+      "Z codes provide additional information relevant to patient encounters (Evidence: pg no: 19, L22)",
+      "Multiple Z codes may be assigned as necessary (Evidence: pg no: 20, L32-L33)",
+      "Limited patient history requires use of any available documentation (Evidence: pg no: 20, L33-L34)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "Z_CODE_ASSIGNMENT_HURRICANE",
+        "rule_text": "Z codes may be assigned as appropriate to further explain the reasons for presenting for healthcare services, including transfers between healthcare facilities (Evidence: pg no: 19, L18-L22)",
+        "explanation": "Z codes serve as supplementary codes to provide context for healthcare encounters during cataclysmic events, explaining circumstances beyond the primary medical condition (Evidence: pg no: 19, L18-L22)",
+        "importance": "high",
+        "applies_to": "Z codes",
+        "common_applications": [
+          "Transfers between healthcare facilities",
+          "Additional context for patient encounters"
+        ]
+      },
+      {
+        "rule_id": "Z_CODE_SEQUENCING_RULES",
+        "rule_text": "The ICD-10-CM Official Guidelines identify which codes maybe assigned as principal or first-listed diagnosis only, secondary diagnosis only, or principal/first-listed or secondary (Evidence: pg no: 19, L23-L25)",
+        "explanation": "Z codes have specific sequencing requirements that must be followed based on official guidelines for proper code assignment (Evidence: pg no: 19, L23-L25)",
+        "importance": "critical",
+        "applies_to": "Z codes",
+        "common_applications": [
+          "Principal diagnosis assignment",
+          "Secondary diagnosis assignment"
+        ]
+      },
+      {
+        "rule_id": "MULTIPLE_Z_CODES_ASSIGNMENT",
+        "rule_text": "Assign as many codes as necessary to fully explain each healthcare encounter (Evidence: pg no: 20, L32-L33)",
+        "explanation": "Multiple Z codes should be used when needed to provide complete documentation of the circumstances surrounding the healthcare encounter (Evidence: pg no: 20, L32-L33)",
+        "importance": "high",
+        "applies_to": "Z codes",
+        "common_applications": [
+          "Complex healthcare encounters",
+          "Multiple contributing factors"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify the primary reason for healthcare encounter",
+      "Step 2: Determine if Z codes are appropriate to explain additional circumstances",
+      "Step 3: Select applicable Z codes from the provided list or other appropriate codes",
+      "Step 4: Apply proper sequencing rules based on official guidelines",
+      "Step 5: Assign as many Z codes as necessary to fully explain the encounter"
+    ],
+    "related_terminology": [
+      "Z codes",
+      "Other reasons for healthcare encounters",
+      "Principal diagnosis",
+      "Secondary diagnosis",
+      "Healthcare transfers",
+      "Patient encounter documentation"
+    ]
+  },
+  "code_references": {
+    "specific_codes": [
+      {
+        "code": "Z59.0-",
+        "description": "Homelessness (Evidence: pg no: 19, L26)",
+        "context": "Hurricane-related displacement situations",
+        "requires_additional_codes": "check_code_notes",
+        "breakdown": {
+          "Z59": "Problems related to housing and economic circumstances",
+          "0-": "Homelessness subcategory"
+        }
+      },
+      {
+        "code": "Z59.1",
+        "description": "Inadequate housing (Evidence: pg no: 19, L27)",
+        "context": "Hurricane-damaged housing situations",
+        "requires_additional_codes": "check_code_notes",
+        "breakdown": {
+          "Z59": "Problems related to housing and economic circumstances",
+          "1": "Inadequate housing"
+        }
+      },
+      {
+        "code": "Z59.5",
+        "description": "Extreme poverty (Evidence: pg no: 19, L27)",
+        "context": "Economic hardship following hurricane",
+        "requires_additional_codes": "check_code_notes",
+        "breakdown": {
+          "Z59": "Problems related to housing and economic circumstances",
+          "5": "Extreme poverty"
+        }
+      },
+      {
+        "code": "Z75.1",
+        "description": "Person awaiting admission to adequate facility elsewhere (Evidence: pg no: 19, L27)",
+        "context": "Healthcare facility transfers during hurricane response",
+        "requires_additional_codes": "check_code_notes",
+        "breakdown": {
+          "Z75": "Problems related to medical facilities and other health care",
+          "1": "Person awaiting admission to adequate facility elsewhere"
+        }
+      },
+      {
+        "code": "Z75.3",
+        "description": "Unavailability and inaccessibility of health-care facilities (Evidence: pg no: 19, L27)",
+        "context": "Hurricane-damaged or inaccessible healthcare facilities",
+        "requires_additional_codes": "check_code_notes",
+        "breakdown": {
+          "Z75": "Problems related to medical facilities and other health care",
+          "3": "Unavailability and inaccessibility of health-care facilities"
+        }
+      },
+      {
+        "code": "Z75.4",
+        "description": "Unavailability and inaccessibility of other helping agencies (Evidence: pg no: 19, L28)",
+        "context": "Social services disruption during hurricane",
+        "requires_additional_codes": "check_code_notes",
+        "breakdown": {
+          "Z75": "Problems related to medical facilities and other health care",
+          "4": "Unavailability and inaccessibility of other helping agencies"
+        }
+      },
+      {
+        "code": "Z76.2",
+        "description": "Encounter for health supervision and care of other healthy infant and child (Evidence: pg no: 19, L28-L29)",
+        "context": "Pediatric care during hurricane response",
+        "requires_additional_codes": "check_code_notes",
+        "breakdown": {
+          "Z76": "Persons encountering health services in other circumstances",
+          "2": "Encounter for health supervision and care of other healthy infant and child"
+        }
+      },
+      {
+        "code": "Z99.12",
+        "description": "Encounter for respirator [ventilator] dependence during power failure (Evidence: pg no: 19, L30-L31)",
+        "context": "Power outage affecting ventilator-dependent patients during hurricane",
+        "requires_additional_codes": "check_code_notes",
+        "breakdown": {
+          "Z99": "Dependence on enabling machines and devices, not elsewhere classified",
+          "12": "Encounter for respirator [ventilator] dependence during power failure"
+        }
+      }
+    ],
+    "code_categories_mentioned": [
+      "Z codes (other reasons for healthcare encounters)",
+      "Problems related to housing and economic circumstances (Z59)",
+      "Problems related to medical facilities and other health care (Z75)",
+      "Persons encountering health services in other circumstances (Z76)",
+      "Dependence on enabling machines and devices (Z99)"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.19.a",
+        "title": "External Causes of Morbidity Codes for Hurricane Events",
+        "relationship": "related_to",
+        "explanation": "Z codes work in conjunction with external cause codes to fully document hurricane-related encounters"
+      }
+    ]
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "HURRICANE_HOMELESSNESS",
+      "scenario": "Patient presents for medical care after losing home in hurricane",
+      "documentation_example": "Patient homeless following Hurricane X, presents for routine medical care",
+      "step_by_step": [
+        "Step 1: Code the primary medical condition being treated",
+        "Step 2: Assign Z59.0- for homelessness",
+        "Step 3: Consider external cause codes for hurricane if injury-related"
+      ],
+      "correct_coding": {
+        "primary_code": "[Primary medical condition code]",
+        "secondary_codes": [
+          "Z59.0-"
+        ],
+        "sequencing": "Primary condition first, then Z code",
+        "rationale": "Z code explains the circumstances of homelessness affecting the healthcare encounter (Evidence: pg no: 19, L26)"
+      }
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "The Z codes listed are not all-inclusive - other codes may be applicable (Evidence: pg no: 20, L32)",
+      "Patient history information may be very limited during cataclysmic events (Evidence: pg no: 20, L33-L34)"
+    ],
+    "best_practices": [
+      "Use any available documentation to assign appropriate codes (Evidence: pg no: 20, L33-L34)",
+      "Assign as many codes as necessary to fully explain each healthcare encounter (Evidence: pg no: 20, L32-L33)"
+    ],
+    "tips": [
+      "Consider transfers between healthcare facilities when assigning Z codes (Evidence: pg no: 19, L19-L20)",
+      "Follow official sequencing guidelines for Z code assignment (Evidence: pg no: 19, L23-L25)"
+    ]
+  },
+  "search_keywords": [
+    "Z codes",
+    "hurricane",
+    "cataclysmic events",
+    "homelessness",
+    "healthcare transfers",
+    "power failure",
+    "ventilator dependence",
+    "inadequate housing",
+    "extreme poverty"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "cataclysmic_events",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "Z_codes",
+      "hurricane",
+      "external_causes",
+      "healthcare_encounters"
+    ]
+  },
+  "page_range_processed": "pages_18_to_21"
+}

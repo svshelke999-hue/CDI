@@ -1,0 +1,163 @@
+{
+  "guideline_id": "I.C.16.g",
+  "semantic_title": "Stillbirth Coding Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 16. Chapter 16: Certain conditions originating in the perinatal period > g. Stillbirth",
+  "page_number": 74,
+  "content": {
+    "full_text": "Code P95, Stillbirth, is only for use in institutions that maintain separate records for stillbirths. No other code should be used with P95. Code P95 should not be used on the mother's record. (Evidence: pg no: 74, L61-L62)",
+    "summary": "P95 Stillbirth code is only for institutions with separate stillbirth records, used alone, and not on maternal records (Evidence: pg no: 74, L61-L62)",
+    "key_concepts": [
+      "Institutional requirement for separate records (Evidence: pg no: 74, L61)",
+      "Exclusive code usage (Evidence: pg no: 74, L62)",
+      "Maternal record exclusion (Evidence: pg no: 74, L62)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "p95_institutional_rule",
+        "rule_text": "P95 is only for use in institutions that maintain separate records for stillbirths (Evidence: pg no: 74, L61)",
+        "explanation": "The stillbirth code is restricted to healthcare institutions that have established separate record-keeping systems specifically for stillbirth cases (Evidence: pg no: 74, L61)",
+        "importance": "critical",
+        "applies_to": "P95 code",
+        "common_applications": [
+          "Hospitals with separate stillbirth record systems",
+          "Institutions with dedicated fetal death documentation"
+        ]
+      },
+      {
+        "rule_id": "p95_exclusive_rule",
+        "rule_text": "No other code should be used with P95 (Evidence: pg no: 74, L62)",
+        "explanation": "P95 is a standalone code that should not be combined with any other ICD-10-CM codes on the same record (Evidence: pg no: 74, L62)",
+        "importance": "critical",
+        "applies_to": "P95 code",
+        "common_applications": [
+          "Stillbirth records with P95 as only code"
+        ]
+      },
+      {
+        "rule_id": "p95_maternal_exclusion_rule",
+        "rule_text": "P95 should not be used on the mother's record (Evidence: pg no: 74, L62)",
+        "explanation": "The stillbirth code is specific to fetal records and should never appear on maternal medical records (Evidence: pg no: 74, L62)",
+        "importance": "critical",
+        "applies_to": "P95 code",
+        "common_applications": [
+          "Maternal records use different codes for fetal death"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Confirm institution maintains separate stillbirth records",
+      "Step 2: Verify this is a stillbirth case",
+      "Step 3: Confirm this is not the mother's record",
+      "Step 4: Assign P95 as the only code",
+      "Step 5: Do not assign any additional codes"
+    ],
+    "related_terminology": [
+      "Stillbirth",
+      "Fetal death",
+      "Separate records",
+      "Institutional policy"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "P95",
+        "description": "Stillbirth (Evidence: pg no: 74, L61)",
+        "context": "Only for institutions with separate stillbirth records",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "P95": "Complete stillbirth code, used alone"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "P95 - Stillbirth"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "stillbirth_separate_record",
+      "scenario": "Hospital maintains separate stillbirth records, fetal death at 38 weeks gestation",
+      "documentation_example": "Fetal death at 38 weeks gestation. Institution maintains separate records for stillbirths per policy.",
+      "step_by_step": [
+        "Step 1: Confirm institution has separate stillbirth record system",
+        "Step 2: Verify this is a stillbirth case",
+        "Step 3: Confirm this is the fetal record, not maternal",
+        "Step 4: Assign P95 as the only code"
+      ],
+      "correct_coding": {
+        "primary_code": "P95",
+        "secondary_codes": [],
+        "sequencing": "P95 as only code",
+        "rationale": "P95 used alone in institutions with separate stillbirth records (Evidence: pg no: 74, L61-L62)"
+      },
+      "incorrect_coding": {
+        "code": "P95, Z37.1",
+        "codes": [
+          "P95",
+          "Z37.1"
+        ],
+        "rationale": "No other codes should be used with P95",
+        "common_mistake": "Adding additional codes with P95"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "P95 should not be used on mother's record (Evidence: pg no: 74, L62)",
+      "No other codes should be used with P95 (Evidence: pg no: 74, L62)"
+    ],
+    "best_practices": [
+      "Only use P95 in institutions with separate stillbirth records (Evidence: pg no: 74, L61)",
+      "Use P95 as standalone code only (Evidence: pg no: 74, L62)"
+    ],
+    "common_mistakes": [
+      "Using P95 on maternal records",
+      "Adding additional codes with P95",
+      "Using P95 without separate record system"
+    ],
+    "tips": [
+      "P95 is institutional policy dependent (Evidence: pg no: 74, L61)",
+      "P95 is exclusive - no other codes (Evidence: pg no: 74, L62)"
+    ],
+    "implementation_notes": [
+      "Requires institutional policy for separate stillbirth records"
+    ],
+    "clinical_context": [
+      "Fetal death documentation in specialized record systems"
+    ]
+  },
+  "search_keywords": [
+    "stillbirth",
+    "P95",
+    "fetal death",
+    "separate records",
+    "institutional policy",
+    "exclusive code"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "perinatal_conditions",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "stillbirth",
+      "P95",
+      "fetal death",
+      "separate records",
+      "exclusive"
+    ]
+  },
+  "page_range_processed": "pages_72_to_75"
+}

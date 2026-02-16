@@ -1,0 +1,197 @@
+{
+  "guideline_id": "I.C.19.d.8",
+  "semantic_title": "Coding Both Current Burns and Sequelae When Both Conditions Exist Simultaneously",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 19. Injury, Poisoning, and Certain Other Consequences of External Causes > d. Burns and Corrosions > 8. Sequelae with a late effect code and current burn",
+  "page_number": 82,
+  "content": {
+    "full_text": "When appropriate, both a code for a current burn or corrosion with 7th character \"A\" or \"D\" and a burn or corrosion code with 7th character \"S\" may be assigned on the same record (when both a current burn and sequelae of an old burn exist). Burns and corrosions do not heal at the same rate and a current healing wound may still exist with sequela of a healed burn or corrosion. See Section I.B.10. Sequela (Late Effects) (Evidence: pg no: 82, L26-L29)",
+    "summary": "Guidelines for coding situations where a patient has both current burns/corrosions and sequelae from previous burns/corrosions, allowing both acute and sequela codes on the same record (Evidence: pg no: 82, L26-L29)",
+    "key_concepts": [
+      "Simultaneous coding of current and sequela burns (Evidence: pg no: 82, L26-L28)",
+      "Different healing rates for burns and corrosions (Evidence: pg no: 82, L28-L29)",
+      "7th character A or D for current burns (Evidence: pg no: 82, L27)",
+      "7th character S for sequelae (Evidence: pg no: 82, L27-L28)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "SIMULTANEOUS_CURRENT_SEQUELA",
+        "rule_text": "Both current burn codes (7th character A or D) and sequela codes (7th character S) may be assigned on the same record when both conditions exist (Evidence: pg no: 82, L26-L28)",
+        "explanation": "Burns and corrosions heal at different rates, so a patient may have a current healing wound alongside sequelae from a previously healed burn or corrosion (Evidence: pg no: 82, L28-L29)",
+        "importance": "high",
+        "applies_to": "burn_and_corrosion_codes",
+        "common_applications": [
+          "Multiple burn episodes",
+          "Different healing stages",
+          "Complex burn cases"
+        ]
+      },
+      {
+        "rule_id": "DIFFERENT_HEALING_RATES",
+        "rule_text": "Burns and corrosions do not heal at the same rate and current healing wounds may coexist with sequelae (Evidence: pg no: 82, L28-L29)",
+        "explanation": "This physiological reality supports the coding practice of using both acute and sequela codes when clinically appropriate (Evidence: pg no: 82, L28-L29)",
+        "importance": "high",
+        "applies_to": "burn_and_corrosion_codes",
+        "common_applications": [
+          "Complex wound management",
+          "Multiple injury timeframes",
+          "Ongoing burn care"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify all burn/corrosion conditions present",
+      "Step 2: Determine which are current (healing) vs sequelae",
+      "Step 3: Assign appropriate codes with 7th character A/D for current",
+      "Step 4: Assign appropriate codes with 7th character S for sequelae",
+      "Step 5: Verify both types of conditions are documented"
+    ],
+    "related_terminology": [
+      "Current burns",
+      "Sequelae",
+      "7th character A",
+      "7th character D",
+      "7th character S",
+      "Healing rates",
+      "Late effects",
+      "Simultaneous coding"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "burn_and_corrosion_codes",
+        "description": "All burn and corrosion codes with appropriate 7th characters (Evidence: pg no: 82, L26-L28)",
+        "requirement": "Use A/D for current, S for sequelae",
+        "usage_rules": [
+          "May assign both current and sequela codes on same record (Evidence: pg no: 82, L26-L28)",
+          "Based on different healing rates and clinical presentation (Evidence: pg no: 82, L28-L29)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "Current + Sequela combination",
+        "description": "Both acute (A/D) and sequela (S) codes on same record (Evidence: pg no: 82, L26-L28)",
+        "example": "T24.311A (current burn) + T23.301S (sequela from old burn)",
+        "explanation": "Reflects clinical reality of different healing stages and timeframes (Evidence: pg no: 82, L28-L29)"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Current burn codes with 7th character A or D",
+      "Sequela burn codes with 7th character S"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.B.10",
+        "title": "Sequela (Late Effects)",
+        "relationship": "references",
+        "explanation": "Referenced for additional guidance on sequela coding (Evidence: pg no: 82, L29)"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "CURRENT_AND_OLD_BURNS",
+      "scenario": "Patient with new burn on left arm and contracture from old burn on right leg",
+      "documentation_example": "Patient presents with second-degree burn left forearm from recent accident and joint contracture right knee from burn injury 2 years ago",
+      "step_by_step": [
+        "Step 1: Identify current burn (left forearm, recent)",
+        "Step 2: Identify sequela (right knee contracture from old burn)",
+        "Step 3: Assign current burn code with 7th character A",
+        "Step 4: Assign old burn code with 7th character S",
+        "Step 5: Both codes appropriate on same record"
+      ],
+      "correct_coding": {
+        "primary_code": "Current burn code with 7th character A",
+        "secondary_codes": [
+          "Old burn code with 7th character S"
+        ],
+        "sequencing": "Both codes appropriate based on encounter focus",
+        "rationale": "Different healing stages and timeframes support simultaneous coding (Evidence: pg no: 82, L26-L29)"
+      },
+      "incorrect_coding": {
+        "code": "Only coding one condition",
+        "codes": [
+          "Single code approach"
+        ],
+        "rationale": "Fails to capture complete clinical picture",
+        "common_mistake": "Not recognizing both current and sequela conditions can coexist"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "MIXED_HEALING_STAGES",
+      "scenario": "Patient with burns at different healing stages",
+      "code_example": "Multiple burn codes with different 7th characters",
+      "breakdown": {
+        "Current burn": "Code with 7th character A or D (Evidence: pg no: 82, L27)",
+        "Sequela": "Code with 7th character S (Evidence: pg no: 82, L27-L28)",
+        "Rationale": "Different healing rates support simultaneous coding (Evidence: pg no: 82, L28-L29)"
+      },
+      "rationale": "Burns heal at different rates allowing coexistence of current and sequela conditions (Evidence: pg no: 82, L28-L29)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Ensure both current and sequela conditions are properly documented (Evidence: pg no: 82, L26-L28)"
+    ],
+    "best_practices": [
+      "Recognize that burns heal at different rates (Evidence: pg no: 82, L28-L29)",
+      "Code all documented burn conditions regardless of timeframe (Evidence: pg no: 82, L26-L28)",
+      "Reference Section I.B.10 for additional sequela guidance (Evidence: pg no: 82, L29)"
+    ],
+    "common_mistakes": [
+      "Assuming only one type of burn code can be used per encounter",
+      "Not recognizing different healing stages",
+      "Failing to code all documented conditions"
+    ],
+    "tips": [
+      "Burns and corrosions have variable healing rates (Evidence: pg no: 82, L28-L29)",
+      "Both acute and sequela codes may be appropriate simultaneously (Evidence: pg no: 82, L26-L28)"
+    ],
+    "implementation_notes": [
+      "Important for complex burn cases",
+      "Supports comprehensive documentation",
+      "Reflects clinical reality of burn healing"
+    ],
+    "clinical_context": [
+      "Common in burn centers",
+      "Relevant for patients with multiple burn episodes",
+      "Important for comprehensive burn care documentation"
+    ]
+  },
+  "search_keywords": [
+    "current burns",
+    "burn sequela",
+    "simultaneous coding",
+    "7th character A D S",
+    "healing rates",
+    "multiple burns",
+    "burn stages"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "burns_and_corrosions",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "burns",
+      "corrosions",
+      "current",
+      "sequela",
+      "simultaneous_coding",
+      "7th_character"
+    ]
+  },
+  "page_range_processed": "pages_81_to_84"
+}

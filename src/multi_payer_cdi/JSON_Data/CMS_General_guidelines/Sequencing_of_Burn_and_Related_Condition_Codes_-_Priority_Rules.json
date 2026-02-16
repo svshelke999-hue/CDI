@@ -1,0 +1,206 @@
+{
+  "guideline_id": "I.C.19.d.1",
+  "semantic_title": "Sequencing of Burn and Related Condition Codes - Priority Rules",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 19. Injury, Poisoning, and Certain Other Consequences of External Causes > d. Coding of Burns and Corrosions > 1) Sequencing of burn and related condition codes",
+  "page_number": 81,
+  "content": {
+    "full_text": "Sequence first the code that reflects the highest degree of burn when more than one burn is present. a. When the reason for the admission or encounter is for treatment of external multiple burns, sequence first the code that reflects the burn of the highest degree. b. When a patient has both internal and external burns, the circumstances of admission govern the selection of the principal diagnosis or first-listed diagnosis. c. When a patient is admitted for burn injuries and other related conditions such as smoke inhalation and/or respiratory failure, the circumstances of admission govern the selection of the principal or first-listed diagnosis. (Evidence: pg no: 81, L71-L78)",
+    "summary": "Sequencing rules for burn codes prioritizing highest degree burns and using circumstances of admission to determine principal diagnosis when multiple conditions are present (Evidence: pg no: 81, L71-L78)",
+    "key_concepts": [
+      "Highest degree burn sequencing priority (Evidence: pg no: 81, L71-L72)",
+      "External multiple burns sequencing (Evidence: pg no: 81, L72-L73)",
+      "Internal and external burns sequencing (Evidence: pg no: 81, L74)",
+      "Burns with related conditions sequencing (Evidence: pg no: 81, L77-L78)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "highest_degree_first",
+        "rule_text": "Sequence first the code that reflects the highest degree of burn when more than one burn is present (Evidence: pg no: 81, L71-L72)",
+        "explanation": "The most severe burn (highest degree) takes sequencing priority regardless of anatomical location (Evidence: pg no: 81, L71-L72)",
+        "importance": "critical",
+        "applies_to": "multiple_burn_codes",
+        "common_applications": [
+          "Multiple burn sites",
+          "Mixed degree burns",
+          "Complex burn injuries"
+        ]
+      },
+      {
+        "rule_id": "external_multiple_burns",
+        "rule_text": "When the reason for the admission or encounter is for treatment of external multiple burns, sequence first the code that reflects the burn of the highest degree (Evidence: pg no: 81, L72-L73)",
+        "explanation": "For external burns specifically, highest degree burn is sequenced first when multiple burns are the reason for admission (Evidence: pg no: 81, L72-L73)",
+        "importance": "high",
+        "applies_to": "external_burn_codes",
+        "common_applications": [
+          "Multiple external burn treatment",
+          "Burn unit admissions"
+        ]
+      },
+      {
+        "rule_id": "internal_external_burns",
+        "rule_text": "When a patient has both internal and external burns, the circumstances of admission govern the selection of the principal diagnosis or first-listed diagnosis (Evidence: pg no: 81, L74)",
+        "explanation": "Clinical circumstances and treatment focus determine sequencing when both internal and external burns are present (Evidence: pg no: 81, L74)",
+        "importance": "high",
+        "applies_to": "internal_and_external_burns",
+        "common_applications": [
+          "Complex burn cases",
+          "Inhalation injury with external burns"
+        ]
+      },
+      {
+        "rule_id": "burns_with_related_conditions",
+        "rule_text": "When a patient is admitted for burn injuries and other related conditions such as smoke inhalation and/or respiratory failure, the circumstances of admission govern the selection of the principal or first-listed diagnosis (Evidence: pg no: 81, L77-L78)",
+        "explanation": "Treatment focus and clinical circumstances determine principal diagnosis when burns occur with related conditions (Evidence: pg no: 81, L77-L78)",
+        "importance": "high",
+        "applies_to": "burns_with_complications",
+        "common_applications": [
+          "Smoke inhalation with burns",
+          "Respiratory failure with burns",
+          "Complex burn scenarios"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify all burns and related conditions",
+      "Step 2: Determine degrees of all burns present",
+      "Step 3: For multiple burns, sequence highest degree first",
+      "Step 4: For internal/external burns, assess circumstances of admission",
+      "Step 5: For burns with related conditions, determine treatment focus",
+      "Step 6: Sequence principal diagnosis based on circumstances"
+    ],
+    "related_terminology": [
+      "Burn sequencing",
+      "Highest degree",
+      "Multiple burns",
+      "Internal burns",
+      "External burns",
+      "Smoke inhalation",
+      "Respiratory failure",
+      "Circumstances of admission",
+      "Principal diagnosis"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "External burn codes",
+      "Internal burn codes",
+      "Related condition codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "multiple_degree_burns",
+      "scenario": "Patient with first-degree burn on arm and third-degree burn on leg",
+      "documentation_example": "First-degree burn of right arm and third-degree burn of left leg",
+      "step_by_step": [
+        "Step 1: Identify both burns and their degrees",
+        "Step 2: Determine highest degree (third-degree)",
+        "Step 3: Sequence third-degree burn first",
+        "Step 4: Sequence first-degree burn second"
+      ],
+      "correct_coding": {
+        "primary_code": "T24.xxx (third-degree leg burn)",
+        "secondary_codes": [
+          "T22.xxx (first-degree arm burn)"
+        ],
+        "sequencing": "Highest degree burn first",
+        "rationale": "Third-degree burn is more severe and should be sequenced first (Evidence: pg no: 81, L71-L72)"
+      },
+      "incorrect_coding": {
+        "code": "T22.xxx as primary",
+        "codes": [
+          "First-degree burn sequenced first"
+        ],
+        "rationale": "Lower degree burn should not be sequenced before higher degree",
+        "common_mistake": "Sequencing by anatomical location rather than severity"
+      }
+    },
+    {
+      "scenario_id": "burns_with_smoke_inhalation",
+      "scenario": "Patient admitted primarily for smoke inhalation with minor external burns",
+      "documentation_example": "Severe smoke inhalation with respiratory distress and minor first-degree burns",
+      "step_by_step": [
+        "Step 1: Identify burns and related conditions",
+        "Step 2: Assess circumstances of admission",
+        "Step 3: Determine primary treatment focus (respiratory)",
+        "Step 4: Sequence based on treatment priority"
+      ],
+      "correct_coding": {
+        "primary_code": "Smoke inhalation code",
+        "secondary_codes": [
+          "T2x.xxx (burn codes)"
+        ],
+        "sequencing": "Based on circumstances of admission",
+        "rationale": "Circumstances of admission govern sequencing when burns occur with related conditions (Evidence: pg no: 81, L77-L78)"
+      },
+      "incorrect_coding": {
+        "code": "Burn code as primary",
+        "codes": [
+          "Burn sequenced first regardless of circumstances"
+        ],
+        "rationale": "Should consider treatment focus and circumstances",
+        "common_mistake": "Always sequencing burns first regardless of clinical circumstances"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Consider circumstances of admission when burns occur with related conditions (Evidence: pg no: 81, L77-L78)"
+    ],
+    "best_practices": [
+      "Always sequence highest degree burn first when multiple burns present (Evidence: pg no: 81, L71-L72)",
+      "Assess treatment focus for complex burn scenarios (Evidence: pg no: 81, L74, L77-L78)"
+    ],
+    "common_mistakes": [
+      "Sequencing burns by anatomical location rather than severity (Evidence: pg no: 81, L71-L72)",
+      "Not considering circumstances of admission for complex cases (Evidence: pg no: 81, L74, L77-L78)"
+    ],
+    "tips": [
+      "Degree of burn determines sequencing priority (Evidence: pg no: 81, L71-L72)",
+      "Clinical circumstances override simple sequencing rules (Evidence: pg no: 81, L74, L77-L78)"
+    ],
+    "implementation_notes": [
+      "Requires clinical judgment for complex scenarios"
+    ],
+    "clinical_context": [
+      "Critical for burn unit and emergency department coding"
+    ]
+  },
+  "search_keywords": [
+    "burn sequencing",
+    "highest degree",
+    "multiple burns",
+    "internal burns",
+    "external burns",
+    "smoke inhalation",
+    "respiratory failure",
+    "circumstances of admission",
+    "principal diagnosis"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "burn_coding",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "burns",
+      "sequencing",
+      "multiple_injuries",
+      "complications"
+    ]
+  },
+  "page_range_processed": "pages_78_to_81"
+}

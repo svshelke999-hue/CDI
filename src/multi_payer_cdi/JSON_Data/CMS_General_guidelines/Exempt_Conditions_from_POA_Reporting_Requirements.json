@@ -1,0 +1,119 @@
+{
+  "guideline_id": "POA.1",
+  "semantic_title": "Exempt Conditions from POA Reporting Requirements",
+  "section_path": "Present on Admission Guidelines > Assigning the POA Indicator > Exempt from Reporting",
+  "page_number": 118,
+  "content": {
+    "full_text": "Leave the 'present on admission' field blank if the condition is on the list of ICD-10-CM codes for which this field is not applicable. This is the only circumstance in which the field may be left blank. (Evidence: pg no: 118, L20-L23)",
+    "summary": "Specific ICD-10-CM codes are exempt from POA reporting and should have the POA field left blank (Evidence: pg no: 118, L20-L23)",
+    "key_concepts": [
+      "Exempt condition list (Evidence: pg no: 118, L20)",
+      "Blank POA field requirement (Evidence: pg no: 118, L21-L22)",
+      "Only circumstance for blank field (Evidence: pg no: 118, L22-L23)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "POA.1.1",
+        "rule_text": "Leave the present on admission field blank for exempt conditions (Evidence: pg no: 118, L21-L22)",
+        "explanation": "When a condition appears on the official exempt list, the POA field must be left blank rather than assigned any indicator (Evidence: pg no: 118, L21-L23)",
+        "importance": "critical",
+        "applies_to": "exempt_codes_only",
+        "common_applications": [
+          "Conditions on official exempt list",
+          "Codes specifically designated as not applicable for POA"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Check if condition is on exempt list",
+      "Step 2: If exempt, leave POA field blank",
+      "Step 3: Do not assign any POA indicator"
+    ],
+    "related_terminology": [
+      "Present on admission",
+      "Exempt list",
+      "POA indicator"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "ICD-10-CM codes on exempt list"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "POA.1.S1",
+      "scenario": "Patient has condition that appears on POA exempt list",
+      "documentation_example": "Patient diagnosed with condition X that is on the POA exempt list",
+      "step_by_step": [
+        "Step 1: Identify the condition code",
+        "Step 2: Verify code is on exempt list",
+        "Step 3: Leave POA field blank"
+      ],
+      "correct_coding": {
+        "primary_code": "Exempt code",
+        "secondary_codes": [],
+        "sequencing": "Standard sequencing rules apply",
+        "rationale": "Exempt conditions do not require POA indicators (Evidence: pg no: 118, L20-L23)"
+      },
+      "incorrect_coding": {
+        "code": "Exempt code with POA indicator",
+        "codes": [],
+        "rationale": "Should not assign any POA indicator to exempt conditions",
+        "common_mistake": "Assigning Y, N, U, or W to exempt conditions"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "This is the only circumstance where POA field may be left blank (Evidence: pg no: 118, L22-L23)"
+    ],
+    "best_practices": [
+      "Always verify if condition is on exempt list before assigning POA indicator (Evidence: pg no: 118, L20-L21)"
+    ],
+    "common_mistakes": [
+      "Assigning POA indicators to exempt conditions (Evidence: pg no: 118, L21-L23)"
+    ],
+    "tips": [
+      "Check official exempt list for each condition (Evidence: pg no: 118, L20-L21)"
+    ],
+    "implementation_notes": [
+      "Maintain current exempt list for reference"
+    ],
+    "clinical_context": [
+      "Certain conditions do not require POA determination"
+    ]
+  },
+  "search_keywords": [
+    "POA exempt",
+    "present on admission exempt",
+    "blank POA field",
+    "exempt conditions",
+    "POA reporting exceptions"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "POA_reporting",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "POA",
+      "exempt",
+      "reporting",
+      "indicators"
+    ]
+  },
+  "page_range_processed": "pages_117_to_120"
+}

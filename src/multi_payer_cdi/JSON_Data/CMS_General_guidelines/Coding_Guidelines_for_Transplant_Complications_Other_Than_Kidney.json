@@ -1,0 +1,231 @@
+{
+  "guideline_id": "I.C.19.g.3.a",
+  "semantic_title": "Coding Guidelines for Transplant Complications Other Than Kidney",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 19. Chapter 19: Injury, poisoning, and certain other consequences of external causes > g. Complications of care > 3) Transplant complications > (a) Transplant complications other than kidney",
+  "page_number": 86,
+  "content": {
+    "full_text": "Codes under category T86, Complications of transplanted organs and tissues, are for use for both complications and rejection of transplanted organs. A transplant complication code is only assigned if the complication affects the function of the transplanted organ. Two codes are required to fully describe a transplant complication: the appropriate code from category T86 and a secondary code that identifies the complication. Pre-existing conditions or conditions that develop after the transplant are not coded as complications unless they affect the function of the transplanted organs. See I.C.21. for transplant organ removal status See I.C.2. for malignant neoplasm associated with transplanted organ. See I.C.1.d.4. for sequencing of sepsis due to infection in transplanted organ (Evidence: pg no: 86, L47-L51)",
+    "summary": "Transplant complications use T86 codes only when organ function is affected, requiring two codes: T86 code plus complication-specific code (Evidence: pg no: 86, L47-L51)",
+    "key_concepts": [
+      "T86 category usage (Evidence: pg no: 86, L47-L48)",
+      "Function-affecting requirement (Evidence: pg no: 86, L48-L49)",
+      "Two-code requirement (Evidence: pg no: 86, L49-L50)",
+      "Pre-existing condition exclusion (Evidence: pg no: 86, L50-L51)",
+      "Cross-reference requirements (Evidence: pg no: 86, L51)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "transplant_function_rule",
+        "rule_text": "A transplant complication code is only assigned if the complication affects the function of the transplanted organ (Evidence: pg no: 86, L48-L49)",
+        "explanation": "T86 codes should only be used when complications directly impact the transplanted organ's function, not for unrelated conditions (Evidence: pg no: 86, L48-L49)",
+        "importance": "critical",
+        "applies_to": "T86",
+        "common_applications": [
+          "Organ rejection",
+          "Transplant failure",
+          "Function-impairing infections"
+        ]
+      },
+      {
+        "rule_id": "two_code_requirement_rule",
+        "rule_text": "Two codes are required to fully describe a transplant complication: the appropriate code from category T86 and a secondary code that identifies the complication (Evidence: pg no: 86, L49-L50)",
+        "explanation": "Complete coding of transplant complications requires both the T86 code and a specific code describing the nature of the complication (Evidence: pg no: 86, L49-L50)",
+        "importance": "critical",
+        "applies_to": "T86",
+        "common_applications": [
+          "All transplant complications"
+        ]
+      },
+      {
+        "rule_id": "pre_existing_exclusion_rule",
+        "rule_text": "Pre-existing conditions or conditions that develop after the transplant are not coded as complications unless they affect the function of the transplanted organs (Evidence: pg no: 86, L50-L51)",
+        "explanation": "Only conditions that directly impact transplanted organ function qualify as transplant complications (Evidence: pg no: 86, L50-L51)",
+        "importance": "high",
+        "applies_to": "T86",
+        "common_applications": [
+          "Post-transplant diabetes",
+          "Hypertension in transplant patients",
+          "Unrelated infections"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify complication in transplant patient",
+      "Step 2: Determine if complication affects transplanted organ function",
+      "Step 3: If yes, assign appropriate T86 code",
+      "Step 4: Add secondary code identifying specific complication",
+      "Step 5: Consider cross-references for special situations"
+    ],
+    "related_terminology": [
+      "Transplant complications",
+      "Organ rejection",
+      "Transplant failure",
+      "Organ function",
+      "Pre-existing conditions",
+      "Post-transplant conditions"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "T86",
+        "description": "Complications of transplanted organs and tissues (Evidence: pg no: 86, L47-L48)",
+        "requirement": "Use only when organ function is affected",
+        "usage_rules": [
+          "Only assign if complication affects organ function (Evidence: pg no: 86, L48-L49)",
+          "Requires secondary code for specific complication (Evidence: pg no: 86, L49-L50)",
+          "Not for pre-existing conditions unless affecting function (Evidence: pg no: 86, L50-L51)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "T86.xx + specific complication code",
+        "description": "Two codes required for transplant complications (Evidence: pg no: 86, L49-L50)",
+        "example": "T86.10 + N18.6",
+        "explanation": "T86 code plus secondary code describing complication"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Transplant complication codes",
+      "Secondary complication codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.21",
+        "title": "Transplant organ removal status",
+        "relationship": "related_to",
+        "explanation": "Referenced for transplant organ removal status coding (Evidence: pg no: 86, L51)"
+      },
+      {
+        "guideline_id": "I.C.2",
+        "title": "Malignant neoplasm associated with transplanted organ",
+        "relationship": "related_to",
+        "explanation": "Referenced for cancer in transplant patients (Evidence: pg no: 86, L51)"
+      },
+      {
+        "guideline_id": "I.C.1.d.4",
+        "title": "Sequencing of sepsis due to infection in transplanted organ",
+        "relationship": "applies_to",
+        "explanation": "Referenced for sepsis sequencing in transplant patients (Evidence: pg no: 86, L51)"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "transplant_rejection_scenario",
+      "scenario": "Heart transplant patient develops acute rejection affecting cardiac function",
+      "documentation_example": "Heart transplant patient presents with acute rejection, echocardiogram shows decreased ejection fraction",
+      "step_by_step": [
+        "Step 1: Identify acute rejection in heart transplant patient",
+        "Step 2: Confirm rejection affects heart function (decreased EF)",
+        "Step 3: Assign T86.21 for heart transplant rejection",
+        "Step 4: No additional specific code needed as rejection is specified"
+      ],
+      "correct_coding": {
+        "primary_code": "T86.21",
+        "secondary_codes": [],
+        "sequencing": "T86.21 as primary code",
+        "rationale": "Transplant rejection affects organ function, qualifying for T86 code (Evidence: pg no: 86, L48-L49)"
+      },
+      "incorrect_coding": {
+        "code": "I50.9",
+        "codes": [
+          "I50.9"
+        ],
+        "rationale": "Should use transplant-specific code when rejection affects function",
+        "common_mistake": "Using general condition codes instead of transplant-specific codes"
+      }
+    },
+    {
+      "scenario_id": "post_transplant_diabetes_scenario",
+      "scenario": "Liver transplant patient develops diabetes not affecting liver function",
+      "documentation_example": "Liver transplant patient develops new-onset diabetes mellitus, liver function tests normal",
+      "step_by_step": [
+        "Step 1: Identify diabetes in liver transplant patient",
+        "Step 2: Determine diabetes does not affect liver function",
+        "Step 3: Do not use T86 code",
+        "Step 4: Code diabetes as primary condition"
+      ],
+      "correct_coding": {
+        "primary_code": "E11.9",
+        "secondary_codes": [
+          "Z94.4"
+        ],
+        "sequencing": "Diabetes first, transplant status as additional",
+        "rationale": "Condition not affecting transplant function is not coded as complication (Evidence: pg no: 86, L50-L51)"
+      },
+      "incorrect_coding": {
+        "code": "T86.40",
+        "codes": [
+          "T86.40",
+          "E11.9"
+        ],
+        "rationale": "Should not use T86 when condition doesn't affect organ function",
+        "common_mistake": "Using T86 codes for unrelated post-transplant conditions"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Only use T86 codes when complications affect transplanted organ function (Evidence: pg no: 86, L48-L49)",
+      "Do not code unrelated conditions as transplant complications (Evidence: pg no: 86, L50-L51)"
+    ],
+    "best_practices": [
+      "Always use two codes for transplant complications (Evidence: pg no: 86, L49-L50)",
+      "Assess whether condition affects organ function before using T86 (Evidence: pg no: 86, L48-L49)",
+      "Review cross-references for special situations (Evidence: pg no: 86, L51)"
+    ],
+    "common_mistakes": [
+      "Using T86 codes for conditions not affecting organ function (Evidence: pg no: 86, L48-L49)",
+      "Using only T86 code without secondary complication code (Evidence: pg no: 86, L49-L50)",
+      "Coding all post-transplant conditions as complications (Evidence: pg no: 86, L50-L51)"
+    ],
+    "tips": [
+      "Focus on organ function impact when determining T86 usage (Evidence: pg no: 86, L48-L49)",
+      "Consider transplant status codes for unrelated conditions (Evidence: pg no: 86, L50-L51)"
+    ],
+    "implementation_notes": [
+      "Requires clinical assessment of organ function",
+      "May need consultation with transplant team"
+    ],
+    "clinical_context": [
+      "Transplant follow-up visits",
+      "Post-transplant complications",
+      "Organ rejection episodes"
+    ]
+  },
+  "search_keywords": [
+    "transplant complications",
+    "organ rejection",
+    "T86 codes",
+    "transplant function",
+    "organ transplant",
+    "post-transplant conditions",
+    "transplant failure"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "complications_of_care",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "transplant",
+      "T86",
+      "organ_rejection",
+      "complications",
+      "organ_function"
+    ]
+  },
+  "page_range_processed": "pages_84_to_87"
+}

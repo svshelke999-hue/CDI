@@ -1,0 +1,199 @@
+{
+  "guideline_id": "IV.P",
+  "semantic_title": "Coding Guidelines for General Medical Examinations with Abnormal Findings",
+  "section_path": "Section IV > Diagnostic Coding and Reporting Guidelines for Outpatient Services > P. Encounters for general medical examinations with abnormal findings",
+  "page_number": 115,
+  "content": {
+    "full_text": "The subcategories for encounters for general medical examinations, Z00.0- and encounter for routine child health examination, Z00.12-, provide codes for with and without abnormal findings. Should a general medical examination result in an abnormal finding, the code for general medical examination with abnormal finding should be assigned as the first-listed diagnosis. An examination with abnormal findings refers to a condition/diagnosis that is newly identified or a change in severity of a chronic condition (such as uncontrolled hypertension, or an acute exacerbation of chronic obstructive pulmonary disease) during a routine physical examination. A secondary code for the abnormal finding should also be coded. (Evidence: pg no: 115, L29-L34)",
+    "summary": "Guidelines for coding general medical examinations when abnormal findings are discovered, requiring specific Z code selection and secondary coding of findings (Evidence: pg no: 115, L29-L34)",
+    "key_concepts": [
+      "Z00.0- and Z00.12- subcategories with/without abnormal findings (Evidence: pg no: 115, L30-L31)",
+      "First-listed diagnosis for examinations with abnormal findings (Evidence: pg no: 115, L32)",
+      "Definition of abnormal findings (Evidence: pg no: 115, L32-L33)",
+      "Secondary coding requirement for abnormal findings (Evidence: pg no: 115, L34)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "IV.P.1",
+        "rule_text": "Use 'with abnormal finding' code as first-listed when examination reveals abnormal findings (Evidence: pg no: 115, L31-L32)",
+        "explanation": "When general medical examination results in abnormal findings, select the appropriate 'with abnormal finding' code from Z00.0- or Z00.12- (Evidence: pg no: 115, L31-L32)",
+        "importance": "critical",
+        "applies_to": "general medical examinations with abnormal findings",
+        "common_applications": [
+          "Annual physical exams with abnormal findings",
+          "Routine child health exams with abnormal findings",
+          "Preventive care visits with discoveries"
+        ]
+      },
+      {
+        "rule_id": "IV.P.2",
+        "rule_text": "Abnormal findings include newly identified conditions or changes in chronic condition severity (Evidence: pg no: 115, L32-L33)",
+        "explanation": "Abnormal findings encompass both new diagnoses and changes in existing chronic conditions like uncontrolled hypertension or COPD exacerbations (Evidence: pg no: 115, L32-L33)",
+        "importance": "high",
+        "applies_to": "definition of abnormal findings",
+        "common_applications": [
+          "Newly diagnosed conditions during routine exam",
+          "Worsening of chronic conditions",
+          "Acute exacerbations discovered during exam"
+        ]
+      },
+      {
+        "rule_id": "IV.P.3",
+        "rule_text": "Assign secondary code for the abnormal finding (Evidence: pg no: 115, L34)",
+        "explanation": "In addition to the examination code with abnormal finding, code the specific abnormal finding as a secondary diagnosis (Evidence: pg no: 115, L34)",
+        "importance": "critical",
+        "applies_to": "general medical examinations with abnormal findings",
+        "common_applications": [
+          "Specific diagnosis codes for discovered conditions",
+          "Codes for chronic condition exacerbations",
+          "Codes for newly identified abnormalities"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify encounter as general medical examination",
+      "Step 2: Determine if abnormal findings were discovered",
+      "Step 3: If abnormal findings present, select 'with abnormal finding' code from Z00.0- or Z00.12-",
+      "Step 4: Assign 'with abnormal finding' code as first-listed diagnosis",
+      "Step 5: Code the specific abnormal finding as secondary diagnosis"
+    ],
+    "related_terminology": [
+      "general medical examination",
+      "abnormal findings",
+      "routine child health examination",
+      "newly identified condition",
+      "chronic condition severity change"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Z00.0-",
+        "description": "Encounters for general medical examinations (Evidence: pg no: 115, L30)",
+        "requirement": "Provides codes for with and without abnormal findings",
+        "usage_rules": [
+          "Use 'with abnormal finding' version when abnormalities discovered (Evidence: pg no: 115, L31-L32)",
+          "Assign as first-listed diagnosis (Evidence: pg no: 115, L32)"
+        ]
+      },
+      {
+        "range": "Z00.12-",
+        "description": "Encounter for routine child health examination (Evidence: pg no: 115, L30-L31)",
+        "requirement": "Provides codes for with and without abnormal findings",
+        "usage_rules": [
+          "Use 'with abnormal finding' version when abnormalities discovered (Evidence: pg no: 115, L31-L32)",
+          "Assign as first-listed diagnosis (Evidence: pg no: 115, L32)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "General medical examination codes",
+      "Routine child health examination codes",
+      "Abnormal finding codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "IV.P.scenario1",
+      "scenario": "Patient presents for annual physical exam, hypertension discovered for first time",
+      "documentation_example": "Patient seen for routine annual physical examination. Blood pressure elevated at 160/95. Patient diagnosed with hypertension.",
+      "step_by_step": [
+        "Step 1: Identify as general medical examination",
+        "Step 2: Note abnormal finding (newly diagnosed hypertension)",
+        "Step 3: Select Z00.01 (with abnormal finding) as first-listed",
+        "Step 4: Code hypertension as secondary diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "Z00.01",
+        "secondary_codes": [
+          "I10"
+        ],
+        "sequencing": "Z00.01 first, then specific abnormal finding",
+        "rationale": "Examination with abnormal finding requires 'with abnormal finding' code first, followed by specific finding (Evidence: pg no: 115, L32-L34)"
+      },
+      "incorrect_coding": {
+        "code": "Z00.00 as primary",
+        "codes": [
+          "Z00.00",
+          "I10"
+        ],
+        "rationale": "Would use 'without abnormal finding' code when abnormal finding was discovered",
+        "common_mistake": "Using 'without abnormal finding' code when abnormalities are present"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "IV.P.example1",
+      "scenario": "Uncontrolled hypertension discovered during routine exam",
+      "code_example": "I10 (Essential hypertension)",
+      "breakdown": {
+        "I10": "Essential hypertension code used as secondary to examination code (Evidence: pg no: 115, L33)"
+      },
+      "rationale": "Example of chronic condition severity change qualifying as abnormal finding (Evidence: pg no: 115, L33)"
+    },
+    {
+      "example_id": "IV.P.example2",
+      "scenario": "COPD exacerbation found during routine exam",
+      "code_example": "J44.1 (Chronic obstructive pulmonary disease with acute exacerbation)",
+      "breakdown": {
+        "J44.1": "COPD with acute exacerbation as example of abnormal finding (Evidence: pg no: 115, L33-L34)"
+      },
+      "rationale": "Acute exacerbation of chronic condition qualifies as abnormal finding (Evidence: pg no: 115, L33-L34)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Must use 'with abnormal finding' code when abnormalities are discovered (Evidence: pg no: 115, L31-L32)"
+    ],
+    "best_practices": [
+      "Always code both the examination with abnormal finding and the specific abnormal finding (Evidence: pg no: 115, L32-L34)",
+      "Consider both newly identified conditions and changes in chronic conditions as abnormal findings (Evidence: pg no: 115, L32-L33)"
+    ],
+    "common_mistakes": [
+      "Using 'without abnormal finding' code when abnormalities are present (Evidence: pg no: 115, L31-L32)",
+      "Omitting secondary code for the specific abnormal finding (Evidence: pg no: 115, L34)"
+    ],
+    "tips": [
+      "Changes in severity of chronic conditions count as abnormal findings (Evidence: pg no: 115, L32-L33)"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Preventive care visits",
+      "Annual physical examinations",
+      "Routine pediatric checkups"
+    ]
+  },
+  "search_keywords": [
+    "general medical examination",
+    "abnormal findings",
+    "Z00.0",
+    "Z00.12",
+    "routine physical exam",
+    "preventive care",
+    "examination coding"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "outpatient_coding",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "examinations",
+      "abnormal_findings",
+      "Z_codes",
+      "preventive_care"
+    ]
+  },
+  "page_range_processed": "pages_114_to_117"
+}

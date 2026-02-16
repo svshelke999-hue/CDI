@@ -1,0 +1,186 @@
+{
+  "guideline_id": "I.B.1",
+  "semantic_title": "Locating Codes Using Both Alphabetic Index and Tabular List",
+  "section_path": "Section I > B. General Coding Guidelines > 1. Locating a code in the ICD-10-CM",
+  "page_number": 12,
+  "content": {
+    "full_text": "To select a code in the classification that corresponds to a diagnosis or reason for visit documented in a medical record, first locate the term in the Alphabetic Index, and then verify the code in the Tabular List. Read and be guided by instructional notations that appear in both the Alphabetic Index and the Tabular List. It is essential to use both the Alphabetic Index and Tabular List when locating and assigning a code. The Alphabetic Index does not always provide the full code. Selection of the full code, including laterality and any applicable 7th character can only be done in the Tabular List. A dash (-) at the end of an Alphabetic Index entry indicates that additional characters are required. Even if a dash is not included at the Alphabetic Index entry, it is necessary to refer to the Tabular List to verify that no 7th character is required. (Evidence: pg no: 12, L76-L86)",
+    "summary": "Essential two-step process requiring use of both Alphabetic Index and Tabular List, with Tabular List verification mandatory for complete code assignment (Evidence: pg no: 12, L76-L86)",
+    "key_concepts": [
+      "Two-step process: Index then Tabular List (Evidence: pg no: 12, L77-L78)",
+      "Verify code in Tabular List (Evidence: pg no: 12, L78)",
+      "Read instructional notations in both (Evidence: pg no: 12, L78)",
+      "Essential to use both Index and Tabular List (Evidence: pg no: 12, L79-L80)",
+      "Index does not always provide full code (Evidence: pg no: 12, L80)",
+      "Tabular List needed for laterality and 7th character (Evidence: pg no: 12, L81-L82)",
+      "Dash indicates additional characters required (Evidence: pg no: 12, L83)",
+      "Always verify 7th character requirement (Evidence: pg no: 12, L84-L86)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "TWO_STEP_PROCESS",
+        "rule_text": "First locate term in Alphabetic Index, then verify code in Tabular List (Evidence: pg no: 12, L77-L78)",
+        "explanation": "This two-step process ensures accurate code selection and complete code assignment (Evidence: pg no: 12, L77-L78)",
+        "importance": "critical",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "All diagnostic coding",
+          "Code verification process"
+        ]
+      },
+      {
+        "rule_id": "TABULAR_VERIFICATION_MANDATORY",
+        "rule_text": "Essential to use both Alphabetic Index and Tabular List (Evidence: pg no: 12, L79-L80)",
+        "explanation": "Alphabetic Index alone is insufficient for complete code assignment (Evidence: pg no: 12, L80)",
+        "importance": "critical",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Code completeness verification",
+          "Character requirement checking"
+        ]
+      },
+      {
+        "rule_id": "SEVENTH_CHARACTER_VERIFICATION",
+        "rule_text": "Always refer to Tabular List to verify 7th character requirement even without dash (Evidence: pg no: 12, L84-L86)",
+        "explanation": "7th character requirements may exist even when not indicated by dash in Index (Evidence: pg no: 12, L84-L86)",
+        "importance": "high",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Injury codes",
+          "Encounter type coding"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Locate diagnosis term in Alphabetic Index",
+      "Step 2: Note the code provided in Index",
+      "Step 3: Go to Tabular List to verify code",
+      "Step 4: Read all instructional notations",
+      "Step 5: Check for laterality requirements",
+      "Step 6: Verify 7th character requirements",
+      "Step 7: Assign complete code"
+    ],
+    "related_terminology": [
+      "Alphabetic Index",
+      "Tabular List",
+      "Two-step process",
+      "Code verification",
+      "Laterality",
+      "7th character",
+      "Dash indicator",
+      "Instructional notations"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "Code with dash (-)",
+        "description": "Indicates additional characters required (Evidence: pg no: 12, L83)",
+        "example": "S72.0- (requires additional characters)",
+        "explanation": "Must go to Tabular List for complete code"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Injury codes requiring 7th character",
+      "Codes with laterality requirements"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "CODE_LOOKUP_PROCESS",
+      "scenario": "Looking up fracture of femur",
+      "documentation_example": "Closed fracture of left femoral neck, initial encounter",
+      "step_by_step": [
+        "Step 1: Look up 'Fracture, femur, neck' in Alphabetic Index",
+        "Step 2: Note code S72.00- with dash",
+        "Step 3: Go to S72.00 in Tabular List",
+        "Step 4: Add laterality (1 for left)",
+        "Step 5: Add 7th character (A for initial encounter)",
+        "Step 6: Final code S72.001A"
+      ],
+      "correct_coding": {
+        "primary_code": "S72.001A",
+        "secondary_codes": [],
+        "sequencing": "Complete code with all required characters",
+        "rationale": "Two-step process ensures complete code with laterality and 7th character (Evidence: pg no: 12, L81-L86)"
+      },
+      "incorrect_coding": {
+        "code": "S72.00",
+        "codes": [
+          "Incomplete code from Index only"
+        ],
+        "rationale": "Missing laterality and 7th character",
+        "common_mistake": "Using Index code without Tabular List verification"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Never use Alphabetic Index alone for code assignment (Evidence: pg no: 12, L79-L80)",
+      "Always verify 7th character requirements even without dash indicator (Evidence: pg no: 12, L84-L86)"
+    ],
+    "best_practices": [
+      "Always use two-step process: Index then Tabular List (Evidence: pg no: 12, L77-L78)",
+      "Read all instructional notations in both Index and Tabular List (Evidence: pg no: 12, L78)"
+    ],
+    "common_mistakes": [
+      "Using incomplete codes from Alphabetic Index only",
+      "Missing laterality requirements",
+      "Missing 7th character requirements",
+      "Ignoring instructional notations"
+    ],
+    "tips": [
+      "Dash in Index always means more characters needed",
+      "Even without dash, check Tabular List for 7th character",
+      "Pay attention to all instructional notes"
+    ],
+    "implementation_notes": [
+      "Fundamental coding process",
+      "Required for accurate code assignment",
+      "Ensures code completeness"
+    ],
+    "clinical_context": [
+      "Critical for accurate diagnosis coding",
+      "Ensures proper code specificity"
+    ]
+  },
+  "search_keywords": [
+    "alphabetic index",
+    "tabular list",
+    "two-step process",
+    "code verification",
+    "laterality",
+    "7th character",
+    "dash indicator",
+    "instructional notations",
+    "code lookup",
+    "complete code"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "code_lookup_process",
+    "complexity_level": "basic",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "alphabetic_index",
+      "tabular_list",
+      "two_step_process",
+      "code_verification",
+      "laterality",
+      "seventh_character"
+    ]
+  },
+  "page_range_processed": "pages_9_to_12"
+}

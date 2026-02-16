@@ -1,0 +1,205 @@
+{
+  "guideline_id": "POA.11",
+  "semantic_title": "Codes That Contain Multiple Clinical Concepts POA Assignment",
+  "section_path": "Present on Admission Guidelines > Assigning the POA Indicator > Codes That Contain Multiple Clinical Concepts",
+  "page_number": 119,
+  "content": {
+    "full_text": "Assign 'N' if at least one of the clinical concepts included in the code was not present on admission (e.g., COPD with acute exacerbation and the exacerbation was not present on admission; gastric ulcer that does not start bleeding until after admission; asthma patient develops status asthmaticus after admission). Assign 'Y' if all of the clinical concepts included in the code were present on admission (e.g., duodenal ulcer that perforates prior to admission). For infection codes that include the causal organism, assign 'Y' if the infection (or signs of the infection) were present on admission, even though the culture results may not be known until after admission (e.g., patient is admitted with pneumonia and the provider documents Pseudomonas as the causal organism a few days later). (Evidence: pg no: 119, L51-L57, pg no: 120, L60-L61)",
+    "summary": "For codes with multiple clinical concepts, assign N if any concept was not present at admission, Y if all concepts were present at admission (Evidence: pg no: 119, L51-L57, pg no: 120, L60-L61)",
+    "key_concepts": [
+      "Multiple clinical concepts in single code (Evidence: pg no: 119, L51)",
+      "At least one concept not present (Evidence: pg no: 119, L52)",
+      "All concepts present (Evidence: pg no: 119, L54)",
+      "Infection codes with organisms (Evidence: pg no: 119, L56, pg no: 120, L60-L61)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "POA.11.1",
+        "rule_text": "Assign N if at least one clinical concept was not present on admission (Evidence: pg no: 119, L52)",
+        "explanation": "When a code contains multiple clinical concepts and any one of those concepts was not present at admission, assign N indicator (Evidence: pg no: 119, L51-L53)",
+        "importance": "critical",
+        "applies_to": "combination_codes",
+        "common_applications": [
+          "COPD with acute exacerbation where exacerbation developed after admission",
+          "Gastric ulcer with bleeding where bleeding started after admission"
+        ]
+      },
+      {
+        "rule_id": "POA.11.2",
+        "rule_text": "Assign Y if all clinical concepts were present on admission (Evidence: pg no: 119, L54)",
+        "explanation": "When a code contains multiple clinical concepts and all concepts were present at admission, assign Y indicator (Evidence: pg no: 119, L54-L55)",
+        "importance": "critical",
+        "applies_to": "combination_codes",
+        "common_applications": [
+          "Duodenal ulcer that perforates prior to admission",
+          "All components of combination code present at admission"
+        ]
+      },
+      {
+        "rule_id": "POA.11.3",
+        "rule_text": "For infection codes with organisms, assign Y if infection was present at admission regardless of culture timing (Evidence: pg no: 119, L56-L57, pg no: 120, L60-L61)",
+        "explanation": "Infection codes that include causal organisms should receive Y if the infection or signs of infection were present at admission, even if culture results came later (Evidence: pg no: 119, L56-L57, pg no: 120, L60-L61)",
+        "importance": "high",
+        "applies_to": "infection_codes",
+        "common_applications": [
+          "Pneumonia with specific organism identified post-admission",
+          "UTI with organism cultured after admission"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify all clinical concepts in the code",
+      "Step 2: Determine POA status for each concept",
+      "Step 3: If any concept not present at admission, assign N",
+      "Step 4: If all concepts present at admission, assign Y",
+      "Step 5: For infections, focus on infection presence, not organism identification timing"
+    ],
+    "related_terminology": [
+      "Multiple clinical concepts",
+      "Combination codes",
+      "Clinical concepts",
+      "Infection codes",
+      "Causal organism"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "COPD with acute exacerbation codes",
+      "Gastric ulcer with bleeding codes",
+      "Duodenal ulcer with perforation codes",
+      "Pneumonia with organism codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": [
+      {
+        "guideline_id": "POA.8",
+        "title": "Chronic Conditions with Acute Exacerbation",
+        "relationship": "uses",
+        "explanation": "Chronic conditions with exacerbations reference this guideline"
+      }
+    ]
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "POA.11.S1",
+      "scenario": "COPD patient develops acute exacerbation after admission",
+      "documentation_example": "Patient with COPD admitted for routine care, develops acute exacerbation on day 2",
+      "step_by_step": [
+        "Step 1: Identify COPD (chronic) and exacerbation (acute) concepts",
+        "Step 2: COPD was present at admission, exacerbation was not",
+        "Step 3: Since one concept not present at admission, assign N"
+      ],
+      "correct_coding": {
+        "primary_code": "COPD with acute exacerbation with N indicator",
+        "secondary_codes": [],
+        "sequencing": "Standard rules apply",
+        "rationale": "Exacerbation component was not present on admission (Evidence: pg no: 119, L52-L53)"
+      },
+      "incorrect_coding": {
+        "code": "COPD with acute exacerbation with Y indicator",
+        "codes": [],
+        "rationale": "Should assign N when any component not present at admission",
+        "common_mistake": "Focusing only on chronic component"
+      }
+    },
+    {
+      "scenario_id": "POA.11.S2",
+      "scenario": "Pneumonia with organism identified post-admission",
+      "documentation_example": "Patient admitted with pneumonia, Pseudomonas identified by culture on day 3",
+      "step_by_step": [
+        "Step 1: Identify pneumonia was present at admission",
+        "Step 2: Note organism identified later by culture",
+        "Step 3: Assign Y because infection was present at admission"
+      ],
+      "correct_coding": {
+        "primary_code": "Pneumonia due to Pseudomonas with Y indicator",
+        "secondary_codes": [],
+        "sequencing": "Standard rules apply",
+        "rationale": "Infection was present at admission despite later organism identification (Evidence: pg no: 119, L56-L57, pg no: 120, L60-L61)"
+      },
+      "incorrect_coding": {
+        "code": "Pneumonia due to Pseudomonas with N indicator",
+        "codes": [],
+        "rationale": "Should assign Y when infection present at admission",
+        "common_mistake": "Focusing on organism identification timing rather than infection presence"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "POA.11.E1",
+      "scenario": "COPD with acute exacerbation",
+      "code_example": "COPD with acute exacerbation code",
+      "breakdown": {
+        "COPD": "Chronic condition present at admission (Evidence: pg no: 119, L53)",
+        "acute_exacerbation": "Developed after admission (Evidence: pg no: 119, L53)"
+      },
+      "rationale": "Assign N because exacerbation was not present on admission (Evidence: pg no: 119, L52-L53)"
+    },
+    {
+      "example_id": "POA.11.E2",
+      "scenario": "Pneumonia with Pseudomonas",
+      "code_example": "Pneumonia due to Pseudomonas code",
+      "breakdown": {
+        "pneumonia": "Present at admission (Evidence: pg no: 120, L60-L61)",
+        "Pseudomonas": "Identified by culture after admission (Evidence: pg no: 120, L60-L61)"
+      },
+      "rationale": "Assign Y because infection was present at admission (Evidence: pg no: 119, L56-L57, pg no: 120, L60-L61)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Must evaluate each clinical concept separately (Evidence: pg no: 119, L51-L55)",
+      "For infections, focus on infection presence, not organism timing (Evidence: pg no: 119, L56-L57, pg no: 120, L60-L61)"
+    ],
+    "best_practices": [
+      "Break down combination codes into component concepts (Evidence: pg no: 119, L51-L55)",
+      "Consider infection signs present at admission for organism codes (Evidence: pg no: 119, L56-L57, pg no: 120, L60-L61)"
+    ],
+    "common_mistakes": [
+      "Not evaluating all components of combination codes (Evidence: pg no: 119, L51-L55)",
+      "Focusing on culture timing rather than infection presence (Evidence: pg no: 119, L56-L57, pg no: 120, L60-L61)"
+    ],
+    "tips": [
+      "List all clinical concepts in the code before assigning POA (Evidence: pg no: 119, L51-L55)",
+      "Remember culture results don't determine infection POA status (Evidence: pg no: 119, L56-L57, pg no: 120, L60-L61)"
+    ],
+    "implementation_notes": [
+      "Train coders to identify all components of combination codes"
+    ],
+    "clinical_context": [
+      "Many ICD-10-CM codes combine multiple clinical concepts"
+    ]
+  },
+  "search_keywords": [
+    "multiple clinical concepts",
+    "combination codes POA",
+    "COPD exacerbation POA",
+    "infection organism POA",
+    "pneumonia Pseudomonas POA",
+    "gastric ulcer bleeding POA"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "POA_assignment",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "POA",
+      "multiple_concepts",
+      "combination_codes",
+      "infections",
+      "organisms"
+    ]
+  },
+  "page_range_processed": "pages_117_to_120"
+}

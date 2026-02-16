@@ -1,0 +1,242 @@
+{
+  "guideline_id": "I.C.9.d.4",
+  "semantic_title": "Subsequent Acute Myocardial Infarction Coding Rules and Category I22 Usage",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 9. Chapter 9: Diseases of the Circulatory System > d. Acute myocardial infarction (AMI) > 4. Subsequent acute myocardial infarction",
+  "page_number": 55,
+  "content": {
+    "full_text": "A code from category I22, Subsequent ST elevation (STEMI) and non-ST elevation (NSTEMI) myocardial infarction, is to be used when a patient who has suffered a type 1 or unspecified AMI has a new AMI within the 4 week time frame of the initial AMI. A code from category I22 must be used in conjunction with a code from category I21. The sequencing of the I22 and I21 codes depends on the circumstances of the encounter. Do not assign code I22 for subsequent myocardial infarctions other than type 1 or unspecified. For subsequent type 2 AMI assign only code I21.A1. For subsequent type 4 or type 5 AMI, assign only code I21.A9. If a subsequent myocardial infarction of one type occurs within 4 weeks of a myocardial infarction of a different type, assign the appropriate codes from category I21 to identify each type. Do not assign a code from I22. Codes from category I22 should only be assigned if both the initial and subsequent myocardial infarctions are type 1 or unspecified. (Evidence: pg no: 55, L30-L33)",
+    "summary": "Guidelines for coding subsequent myocardial infarctions using category I22, including timing restrictions, type requirements, and sequencing rules (Evidence: pg no: 55, L30-L33)",
+    "key_concepts": [
+      "Subsequent AMI within 4-week timeframe (Evidence: pg no: 55, L32)",
+      "Category I22 restricted to type 1 or unspecified AMI only (Evidence: pg no: 55, L32)",
+      "Dual coding requirement with categories I21 and I22 (Evidence: pg no: 55, L32)",
+      "Different type subsequent AMI coding rules (Evidence: pg no: 55, L33)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I22_timing_rule",
+        "rule_text": "Category I22 codes are used only when subsequent AMI occurs within 4 weeks of initial AMI (Evidence: pg no: 55, L32)",
+        "explanation": "The 4-week timeframe is critical for determining when to use category I22 versus other coding approaches (Evidence: pg no: 55, L32)",
+        "importance": "critical",
+        "applies_to": "I22",
+        "common_applications": [
+          "Patient readmitted with new AMI within 4 weeks",
+          "Transfer patient with subsequent AMI during initial episode"
+        ]
+      },
+      {
+        "rule_id": "I22_type_restriction",
+        "rule_text": "Do not assign code I22 for subsequent myocardial infarctions other than type 1 or unspecified (Evidence: pg no: 55, L32)",
+        "explanation": "Category I22 is specifically restricted to type 1 and unspecified AMI types only (Evidence: pg no: 55, L32)",
+        "importance": "critical",
+        "applies_to": "I22",
+        "common_applications": [
+          "Type 1 STEMI followed by type 1 NSTEMI",
+          "Unspecified AMI followed by type 1 AMI"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify if patient had previous AMI within 4 weeks",
+      "Step 2: Determine type of both initial and subsequent AMI",
+      "Step 3: Apply appropriate category I22 or I21 codes based on AMI types",
+      "Step 4: Sequence codes based on encounter circumstances"
+    ],
+    "related_terminology": [
+      "Subsequent myocardial infarction",
+      "Type 1 AMI",
+      "Type 2 AMI",
+      "Type 4 AMI",
+      "Type 5 AMI",
+      "4-week timeframe"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "I22",
+        "description": "Subsequent ST elevation (STEMI) and non-ST elevation (NSTEMI) myocardial infarction (Evidence: pg no: 55, L31)",
+        "requirement": "Must be used with category I21 code",
+        "usage_rules": [
+          "Only for type 1 or unspecified subsequent AMI (Evidence: pg no: 55, L32)",
+          "Must occur within 4 weeks of initial AMI (Evidence: pg no: 55, L32)"
+        ]
+      },
+      {
+        "range": "I21",
+        "description": "Acute myocardial infarction codes (Evidence: pg no: 55, L32)",
+        "requirement": "Must be used in conjunction with I22 when applicable",
+        "usage_rules": [
+          "Use alone for different type subsequent AMI (Evidence: pg no: 55, L33)",
+          "Sequencing depends on encounter circumstances (Evidence: pg no: 55, L32)"
+        ]
+      }
+    ],
+    "specific_codes": [
+      {
+        "code": "I21.A1",
+        "description": "Myocardial infarction type 2 (Evidence: pg no: 55, L32)",
+        "context": "Use only for subsequent type 2 AMI",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "I21": "Acute myocardial infarction category",
+          "A1": "Type 2 specification"
+        }
+      },
+      {
+        "code": "I21.A9",
+        "description": "Other myocardial infarction type (Evidence: pg no: 55, L32)",
+        "context": "Use only for subsequent type 4 or type 5 AMI",
+        "requires_additional_codes": false,
+        "breakdown": {
+          "I21": "Acute myocardial infarction category",
+          "A9": "Other types (4 and 5) specification"
+        }
+      }
+    ],
+    "code_patterns": [
+      {
+        "pattern": "I22.x + I21.x",
+        "description": "Dual coding pattern for subsequent type 1 or unspecified AMI (Evidence: pg no: 55, L32)",
+        "example": "I22.0 with I21.01",
+        "explanation": "Both codes required when subsequent AMI meets I22 criteria"
+      }
+    ],
+    "code_categories_mentioned": [
+      "Category I22 - Subsequent STEMI and NSTEMI",
+      "Category I21 - Acute myocardial infarction"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.9.e.1",
+        "title": "Type 1 STEMI and NSTEMI coding",
+        "relationship": "builds_upon",
+        "explanation": "Subsequent AMI coding builds on initial AMI type classification"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "subsequent_same_type",
+      "scenario": "Patient with type 1 STEMI returns within 3 weeks with new type 1 NSTEMI",
+      "documentation_example": "Patient admitted 3 weeks ago with anterior STEMI, now presents with new inferior NSTEMI",
+      "step_by_step": [
+        "Step 1: Identify both AMIs as type 1",
+        "Step 2: Confirm subsequent AMI within 4-week timeframe",
+        "Step 3: Assign appropriate I22 code for subsequent NSTEMI",
+        "Step 4: Assign appropriate I21 code for initial STEMI"
+      ],
+      "correct_coding": {
+        "primary_code": "I22.2",
+        "secondary_codes": [
+          "I21.01"
+        ],
+        "sequencing": "Based on encounter circumstances",
+        "rationale": "Both AMIs are type 1 and within 4-week timeframe, requiring I22 category usage (Evidence: pg no: 55, L32-L33)"
+      },
+      "incorrect_coding": {
+        "code": "I21.4",
+        "codes": [
+          "I21.4 only"
+        ],
+        "rationale": "Missing subsequent AMI designation with I22 category",
+        "common_mistake": "Using only I21 category for subsequent AMI"
+      }
+    },
+    {
+      "scenario_id": "subsequent_different_type",
+      "scenario": "Patient with type 1 STEMI returns within 2 weeks with type 2 AMI",
+      "documentation_example": "Patient with recent anterior STEMI now has type 2 MI due to septic shock",
+      "step_by_step": [
+        "Step 1: Identify initial AMI as type 1, subsequent as type 2",
+        "Step 2: Note different AMI types",
+        "Step 3: Do not use I22 category",
+        "Step 4: Assign only I21.A1 for type 2 AMI"
+      ],
+      "correct_coding": {
+        "primary_code": "I21.A1",
+        "secondary_codes": [],
+        "sequencing": "Type 2 AMI code only",
+        "rationale": "Different AMI types preclude use of I22 category (Evidence: pg no: 55, L32-L33)"
+      },
+      "incorrect_coding": {
+        "code": "I22.1",
+        "codes": [
+          "I22.1",
+          "I21.A1"
+        ],
+        "rationale": "I22 should not be used for type 2 subsequent AMI",
+        "common_mistake": "Using I22 for non-type 1 subsequent AMI"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "type_4_subsequent",
+      "scenario": "Subsequent type 4 AMI within 4 weeks",
+      "code_example": "I21.A9",
+      "breakdown": {
+        "I21": "Acute myocardial infarction category (Evidence: pg no: 55, L32)",
+        "A9": "Other myocardial infarction types including type 4 (Evidence: pg no: 55, L32)"
+      },
+      "rationale": "Type 4 subsequent AMI uses only I21.A9, not I22 category (Evidence: pg no: 55, L32)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not use I22 for subsequent type 2, 4, or 5 AMI (Evidence: pg no: 55, L32)",
+      "Do not use I22 when initial and subsequent AMI are different types (Evidence: pg no: 55, L33)"
+    ],
+    "best_practices": [
+      "Always verify AMI types before applying I22 codes (Evidence: pg no: 55, L32-L33)",
+      "Confirm 4-week timeframe for I22 eligibility (Evidence: pg no: 55, L32)"
+    ],
+    "common_mistakes": [
+      "Using I22 for type 2 subsequent AMI (Evidence: pg no: 55, L32)",
+      "Forgetting to use dual coding with I21 and I22 (Evidence: pg no: 55, L32)"
+    ],
+    "tips": [
+      "Sequencing of I22 and I21 depends on encounter circumstances (Evidence: pg no: 55, L32)",
+      "Different type subsequent AMI within 4 weeks still uses only I21 codes (Evidence: pg no: 55, L33)"
+    ],
+    "implementation_notes": [
+      "Category I22 must always be used in conjunction with category I21",
+      "4-week timeframe is critical for determining code category usage"
+    ],
+    "clinical_context": [
+      "Subsequent AMI can occur during same hospitalization or readmission",
+      "AMI type classification affects coding category selection"
+    ]
+  },
+  "search_keywords": [
+    "subsequent myocardial infarction",
+    "category I22",
+    "4 week timeframe",
+    "type 1 AMI",
+    "STEMI NSTEMI subsequent",
+    "dual coding I21 I22",
+    "different type AMI"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "circulatory_system_ami",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "AMI",
+      "subsequent",
+      "I22",
+      "timing",
+      "type_specific"
+    ]
+  },
+  "page_range_processed": "pages_54_to_57"
+}

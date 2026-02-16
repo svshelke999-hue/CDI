@@ -1,0 +1,438 @@
+L001: 
+L002: 
+L003: === CHART: tmp9xaqqzb0.pdf (Type: consultation_note) ===
+L004: 10/29/25, 11:24 AM Wallace, William F (MR # MR71970) DOB: 12/15/1938
+L005: 
+L006: Consult Note by Choo, Kevin, MD filed on 10/28/2025 5:41 PM.
+L007: 
+L008: Author: Choo, Kevin, MD Service: Orthopedics Author Type: Physician
+L009: Date of Service: 10/28/2025 Filed: 10/28/2025 5:41 PM Status: Signed
+L010: Editor: Choo, Kevin, MD (Physician)
+L011: 
+L012: Greenwich Hospital
+L013: 
+L014: Orthopedic Consult Note
+L015: 
+L016: atient Data:
+L017: atient Name: William F Wallace
+L018: 
+L019: DOB: 12/15/1938
+L020: MRN: MR71970
+L021: 
+L022: Consult Information:
+L023: 
+L024: Consultation requested by: Rana, Sunil, MD
+L025: Reason for consultation: Left femur fracture
+L026: 
+L027: Presentation History:
+L028: HPI
+L029: 
+L030: 86 y.o. male with recent elective left inguinal hernia repair on Plavix coronary artery disease status post stents
+L031: however holding status post surgery. sustained a fall with head strike on his way to his doctors office. Patient states
+L032: he tripped and fell striking his head. Patient endorses left groin and left lower femur pain. Leg shortened and
+L033: externally rotated.
+L034: 
+L035: Review of Allergies/Medical History/Medications:
+L036: 
+L037: Allergies has no known allergies.
+L038: 
+L039: Past Medical History has a past medical history of A-fib (HC Code) (HC CODE) (2010), Anxiety, Bacteremia due to
+L040: group B Streptococcus (10/10/2022), Basal cell carcinoma, Bleeding, Depression, GERD (gastroesophageal reflux
+L041: disease), Gout, Heart disease, transient ischemic attack (TIA) (2021), Hypercholesteremia, Hypertension, Infection
+L042: due to extended spectrum beta lactamase (ESBL) producing bacteria (08/04/2023), Inguinal hernia (10/2025),
+L043: Melanoma in situ (HC CODE), Mitral valve disease, SOB (shortness of breath), Squamous cell skin cancer, Toe
+L044: infection (02/11/2025), UTI (urinary tract infection) (11/04/2024), and Venous insufficiency of leg.
+L045: 
+L046: Past Surgical History has a past surgical history that includes Total hip arthroplasty (Right, 2015); Hernia repair
+L047: (Right, 2015); Mohs surgery (10/2023); Colonoscopy; Upper gastrointestinal endoscopy; Cataract extraction
+L048: (Bilateral); and Angioplasty.
+L049: 
+L050: Family History family history is not on file.
+L051: 
+L052: Social History reports that he has never smoked. He has never used smokeless tobacco. He reports current alcohol
+L053: use of about 14.0 standard drinks of alcohol per week. He reports that he does not use drugs.
+L054: 
+L055: Inpatient Medications:
+L056: Current Facility-Administered Medications
+L057: 
+L058: Medication Dose Route Frequency Provider Last Last
+L059: Rate Admin
+L060: * acetaminophen 975 mg Oral Q6H Walker, 975 mg
+L061: (TYLENOL) tablet Mackenzie, PA at
+L062: 975 mg 10/28/2
+L063: 5 1147
+L064: * allopurinoL 300 mg Oral Daily Soni, Dhara, PA 300 mg
+L065: (ZYLOPRIM) tablet at
+L066: 300 mg 10/28/2
+L067: 5 0855
+L068: * atenolol 12.5 Oral Daily Rana, Sunil, MD 12.5 mg
+L069: 
+L070: Wallace, William F (MRN MR71970) Printed by Stagno, Cesarina [767] at 10/29/2025 11:24 AM 1/4
+L071: 
+L072: 10/29/25, 11:24 AM Wallace, William F (MR # MR71970) DOB: 12/15/1938
+L073: 
+L074: (TENORMIN) tablet mg at
+L075: 12.5 mg 10/28/2
+L076: 5 1529
+L077: * chlorhexidine Topical (Top) Daily Viola, Tara, PA
+L078: gluconate
+L079: 
+L080: (HIBICLENS/BETA
+L081: 
+L082: SEPT) 4 % topical
+L083: 
+L084: liquid
+L085: 
+L086: mupirocin Topical (Top) BID Viola, Tara, PA
+L087: (BACTROBAN) 2 %
+L088: 
+L089: ointment
+L090: 
+L091: Followed by
+L092: 
+L093: [START ON 1 Nasal Q12H Viola, Tara, PA
+L094: 11/2/2025] ethyl Applicati
+L095: 
+L096: alcohol 62 % nasal on
+L097: 
+L098: swab 1 Application
+L099: 
+L100: * [Held by provider] 40mg _ Oral Daily Soni, Dhara, PA
+L101: furosemide (LASIX)
+L102: tablet 40 mg
+L103: * polyethylene glycol 17g Oral Daily Walker,
+L104: (MIRALAX) packet Mackenzie, PA
+L105: 17g
+L106: * potassium chloride 20 mEq Oral Daily Soni, Dhara, PA 20 mEq
+L107: SA (K-DUR,KLOR- at
+L108: CON M) 24 hr tablet 10/28/2
+L109: 20 mEq 5 0855
+L110: * rosuvastatin 40mg _ Oral Daily Soni, Dhara, PA 40 mg
+L111: (CRESTOR) tablet at
+L112: 40 mg 10/28/2
+L113: 5 0855
+L114: * sodium chloride 0.9 3 mL IV Push Q8H Walker, 3 mL at
+L115: % flush 3 mL Mackenzie, PA 10/28/2
+L116: 5 0059
+L117: * [START ON Topical (Top) Once per Balingcongan,
+L118: 10/29/2025] white day on Jose Ramon
+L119: petrolatum Monday Elbo, PA
+L120: (AQUAPHOR with Wednesday
+L121: NATURAL Friday
+L122: 
+L123: HEALING) ointment
+L124: 
+L125: Review of Systems:
+L126: 
+L127: Review of Systems
+L128: Neg except as noted above
+L129: 
+L130: Physical Exam:
+L131: 
+L132: Vitals:
+L133: 
+L134: Last 24 hours: Temp: [97.3 °F (36.3 °C)-98.2 °F (36.8 °C)] 97.3 °F (36.3 °C)
+L135: Pulse: [66-89] 89
+L136: 
+L137: Resp: [18] 18
+L138: 
+L139: BP: (82-118)/(46-78) 118/78
+L140: 
+L141: SpO2: [94 %-98 %] 94 %
+L142: 
+L143: Physical Exam
+L144: 
+L145: The patient is well appearing
+L146: 
+L147: Alert and oriented x 3, in no acute distress, cooperative with examination
+L148: Breathing comfortable without excessive work of breathing
+L149: 
+L150: Sclera anicteric
+L151: 
+L152: No edema, 2+ pulses and normothermic
+L153: 
+L154: No loss to of sensation to light touch
+L155: 
+L156: Wallace, William F (MRN MR71970) Printed by Stagno, Cesarina [767] at 10/29/2025 11:24 AM 2/4
+L157: 
+L158: 10/29/25, 11:24 AM Wallace, William F (MR # MR71970) DOB: 12/15/1938
+L159: 
+L160: Focused examination demonstrates:
+L161: 
+L162: Left femur
+L163: 
+L164: ROM deferred
+L165: 
+L166: Shortened
+L167: 
+L168: The patient has no focal neurologic or vascular deficit
+L169: Firing EHL FHL TA GSC
+L170: 
+L171: SILT Su Sa SP DP T distribution
+L172: 
+L173: Toes wwp
+L174: 
+L175: Diffuse wounds and ulcerations across the lower legs in various stages of healing
+L176: 
+L177: Review of Labs/Diagnostics:
+L178: 
+L179: Diagnostic Review:
+L180: XR and CT of the left hip
+L181: Severely comminuted and angulated left proximal intertrochanteric femoral fracture
+L182: 
+L183: Impression:
+L184: 
+L185: Severely comminuted left intertrochanteric femoral fracture
+L186: 
+L187: 86year old with serious medical co morbidities
+L188: Patient is optimized, advised by PCP and Cardiology to proceed if remains stable
+L189: 
+L190: | discussed with the patient and son the high risk nature of this surgery, particularly given his frailty and
+L191: medical co morbidities
+L192: There is a chance of serious medical complication and possibly death
+L193: 
+L194: We discussed non operative and operative options
+L195: 
+L196: Given that he was walking prior to the fall, it is within their goals of care to undergo operative fixation of this injury,
+L197: acknowledging the non modifiable high risk nature
+L198: 
+L199: All questions answered
+L200: 
+L201: A careful discussion of the risks and benefits of the surgery was held with the patient including infection, bleeding,
+L202: damage to neurovascular structures and potential for continued pain, continued weakness, worsening pain and
+L203: worsening weakness, stiffness, stability, limb length discrepancy, fracture, infection and the need for revision surgery
+L204: in the future, DVT prophylaxis and the risks for anesthetic complications and pulmonary complications and even
+L205: death. The patient expressed an understanding of these risks and the patient wished to proceed with surgery.
+L206: 
+L207: Electronically Signed:
+L208: Kevin Choo, MD
+L209: 10/28/2025 5:36 PM
+L210: 
+L211: Electronically signed by Choo, Kevin, MD at 10/28/2025 5:41 PM
+L212: 
+L213: ED to Hosp-Admission (Current) on 10/27/2025 Note shared with patient
+L214: 
+L215: Routing History
+L216: 
+L217: Priority Sent On From To Message Type
+L218: t 10/27/2025 1:10 Edi, Rad Results In Mariani, Tania Victoria, MD Results
+L219: 
+L220: PM
+L221: t 10/27/2025 1:08 Edi, Rad Results In Mariani, Tania Victoria, MD Results
+L222: 
+L223: PM
+L224: 
+L225: Wallace, William F (MRN MR71970) Printed by Stagno, Cesarina [767] at 10/29/2025 11:24 AM 3/4
+L226: 
+L227: 10/29/25, 11:24 AM
+L228: 
+L229: Priority
+L230: 
+L231: t
+L232: t
+L233: 
+L234: Sent On
+L235: 10/27/2025 1:08
+L236: PM
+L237: 
+L238: 10/27/2025 1:03
+L239: PM
+L240: 
+L241: 10/27/2025 12:45
+L242: PM
+L243: 
+L244: 10/27/2025 12:44
+L245: PM
+L246: 
+L247: Wallace, William F (MR # MR71970) DOB: 12/15/1938
+L248: 
+L249: From
+L250: Edi, Rad Results In
+L251: 
+L252: Edi, Rad Results In
+L253: 
+L254: Edi, Rad Results In
+L255: 
+L256: Edi, Rad Results In
+L257: 
+L258: To
+L259: Mariani, Tania Victoria, MD
+L260: 
+L261: Mariani, Tania Victoria, MD
+L262: Mariani, Tania Victoria, MD
+L263: 
+L264: Mariani, Tania Victoria, MD
+L265: 
+L266: Wallace, William F (MRN MR71970) Printed by Stagno, Cesarina [767] at 10/29/2025 11:24 AM
+L267: 
+L268: Message Type
+L269: Results
+L270: 
+L271: Results
+L272: Results
+L273: 
+L274: Results
+L275: 
+L276: 4/4
+L277: === END CHART: tmp9xaqqzb0.pdf ===
+L278: 
+L279: 
+L280: === CHART: tmpowdfpygs.pdf (Type: operative_note) ===
+L281: 10/29/25, 11:22 AM Wallace, William F (MR # MR71970) DOB: 12/15/1938
+L282: 
+L283: Operative Note by Choo, Kevin, MD filed on 10/28/2025 9:50 PM.
+L284: 
+L285: Author: Choo, Kevin, MD Service: Orthopedics Author Type: Physician
+L286: Date of Service: 10/28/2025 Filed: 10/28/2025 9:50 PM Status: Signed
+L287: 
+L288: Editor: Choo, Kevin, MD (Physician)
+L289: 
+L290: Orthopedic Surgery Operative Report
+L291: 
+L292: Patient Name: William F Wallace
+L293: 
+L294: Date of Procedure: 10/28/25
+L295: 
+L296: Location: Greenwich Hospital
+L297: 
+L298: MRN: MR71970
+L299: 
+L300: Procedure: Left intertrochanteric femoral fracture open reduction internal fixaion
+L301: Preliminary Diagnosis: Left Intertrochanteric Femur Fracture, displaced
+L302: Postoperative Diagnosis: Left Intertrochanteric Femur Fracture, displaced
+L303: Surgeon: Dr. Kevin Choo
+L304: 
+L305: First Assist: None
+L306: 
+L307: Anesthesia Staff: ANESTHESIOLOGIST: Temme, David William, MD
+L308: Anesthesia Type: General with LMA
+L309: 
+L310: Specimens:
+L311: * No specimens in log *
+L312: 
+L313: Estimated Blood Loss:
+L314: 
+L315: 200mL
+L316: 
+L317: Implants:
+L318: 
+L319: Implant Name Type Inv. Item Serial No. Manufacturer Lot LRB_ No. Action
+L320: No. Used
+L321: 
+L322: lag screw 10.5 x ARTHREX 15374 Left 1 Implanted
+L323: 
+L324: 105mm 045
+L325: 
+L326: anti rotation screw ARTHREX 15219 Left 1 Implanted
+L327: 
+L328: 5.0 x 90 mm 624
+L329: 
+L330: screw 5.0 x 36mm ARTHREX 15452 Left 1 Implanted
+L331: 718
+L332: 
+L333: screw 5.0 x 36 mm ARTHREX 15407 Left 1 Implanted
+L334: 231
+L335: 
+L336: Arthrex short nail
+L337: 
+L338: 105mm lag screw
+L339: 
+L340: 90mm antirotation screw
+L341: 36mm interlocking screws
+L342: 12mm Arthrex short nail
+L343: 
+L344: Indication:
+L345: 
+L346: The patient is a 86 y.o. male who was brought to Greenwich Hospital Emergency Department after a mechanical fall
+L347: after which the patient was unable to bear weight. X rays in the emergency room demonstrated evidence of a
+L348: displaced femoral fracture. Given the nature of the injury, a discussion regarding the risks associated with and the
+L349: alternatives to surgery were discussed. This discussion included the potential complications of deep venous
+L350: thrombosis, infection, nerve or blood vessel injury, ligament injury, dislocation, leg length discrepancy, fracture, mal-
+L351: or non-union, and incomplete resolution of pain, the patient wished to proceed with open reduction internal fixation of
+L352: the intertrochanteric femur.
+L353: 
+L354: Procedure:
+L355: 
+L356: The patient was brought to the Operating Room and after the successful induction of general/LMA anesthesia, a
+L357: closed reduction was performed. Flouroscopy was used to confirm that the reduction was within acceptable
+L358: 
+L359: Wallace, William F (MRN MR71970) Printed by Stagno, Cesarina [767] at 10/29/2025 11:22 AM
+L360: 
+L361: 10/29/25, 11:22 AM Wallace, William F (MR # MR71970) DOB: 12/15/1938
+L362: 
+L363: parameters.The lower extremity was then prepped and draped in the usual sterile manner with the patient in the
+L364: supine position on the fracture table. Prophylactic antibiotics were administered within 30 minutes prior to the
+L365: procedure as well as 1 gram of tranexamic acid. A time out was performed by all members of the surgical team
+L366: confirming patient identity and surgical site laterality.
+L367: 
+L368: A lateral incision was made proximal to, and in-line with, the femur. The entry guidewire was then advanced onto the
+L369: appropriate start site on the greater trochanter. This was confirmed with intraoperative flouroscopy on both the AP
+L370: and lateral views. The guidewire was then advanced with power into the intramedullary canal. Again flouroscopy was
+L371: used to confirm that the entry guidewire was in the appropriate position. The entry reamer was then used through the
+L372: soft tissue protector canula. Flouroscopy was used to confirm appropriate position of the entry reamer within the
+L373: intramedullary canal and that it had been advanced to a sufficient depth. The reamer and entry guidewire were then
+L374: removed.
+L375: 
+L376: The nail was then carefully advanced over the guidewire. During advancement of the nail, all reduction maneuvers
+L377: were employed to maintain the reduction during insertion of the nail. Flouroscopy was again used to confirm that the
+L378: nail had been advanced to the appropriate depth. The long guidewire was then removed. An incision was made over
+L379: the lateral aspect of the thigh and the cannula for the lag screw was advanced until it made contact with the lateral
+L380: cortical bone. Using flouroscopic guidance, the guidewire for the lag screw was then inserted and confirmed to be in
+L381: appropriate position with the guidwire center-center on AP and lateral views of the femoral head. The depth of the
+L382: guidewire was then measured and the 105 mm lag screw selected. The guidewire was then overdrilled and tapped
+L383: for the screw of the appropriate depth. The lag screw was then inserted to the appropriate depth which again
+L384: confirmed using flouroscopy. Similarly the anti rotation screw also placed in the standard fashion.
+L385: 
+L386: We then turned our attention to insertion of the distal interlocking screws. Two small incisions made over the lateral
+L387: thigh in line with the cannula for the distal interlocking screw. The cannula was then advanced through the incision
+L388: and down to bone. The drill was then carefully advanced and the depth of the interlocking screw measured off of the
+L389: drill. The screws of appropriate length was then inserted. Flouroscopy was again used to confirm that the screws
+L390: were in appropriate position.
+L391: 
+L392: The wounds were then copiously irrigated. The fascia was closed with interrupted 0 vicryl suture. The deep
+L393: subcutaneous layers were closed with interrupted 0 vicryl and the dermal layer with 3-0 vicryl. The skin was then
+L394: closed with staples. Sterile dressings were then applied and the patient was awaken from anesthesia. The patient
+L395: was transferred to the recovery room in stable condition. All sponge and instrument counts were correct.
+L396: 
+L397: Postop Plan
+L398: 
+L399: The patient will be partial weight bearing (50% weight bearing for 6 weeks). DVT prophylaxis will be started on
+L400: POD1; additional DVT prophylaxis will include SCDs, compression stockings, progressive mobilization. They will
+L401: receive 24 hours of postoperative antibiotics. The patient will be discharged from the hospital when they are
+L402: medically stable, have met all PT goals, and their pain is well controlled with oral analgesia.
+L403: 
+L404: Kevin Choo, MD
+L405: 
+L406: Electronically signed by Choo, Kevin, MD at 10/28/2025 9:50 PM
+L407: 
+L408: ED to Hosp-Admission (Current) on 10/27/2025 Note shared with patient
+L409: 
+L410: Routing History
+L411: 
+L412: Priority Sent On From To Message Type
+L413: 
+L414: t 10/27/2025 1:10 Edi, Rad Results In Mariani, Tania Victoria, MD Results
+L415: PM
+L416: 
+L417: t 10/27/2025 1:08 Edi, Rad Results In Mariani, Tania Victoria, MD Results
+L418: PM
+L419: 
+L420: t 10/27/2025 1:08 Edi, Rad Results In Mariani, Tania Victoria, MD Results
+L421: PM
+L422: 
+L423: t 10/27/2025 1:03 Edi, Rad Results In Mariani, Tania Victoria, MD Results
+L424: PM
+L425: 
+L426: t 10/27/2025 12:45 Edi, Rad Results In Mariani, Tania Victoria, MD Results
+L427: PM
+L428: 
+L429: t 10/27/2025 12:44 —_ Edi, Rad Results In Mariani, Tania Victoria, MD Results
+L430: PM
+L431: 
+L432: Wallace, William F (MRN MR71970) Printed by Stagno, Cesarina [767] at 10/29/2025 11:22 AM 2/3
+L433: 
+L434: 10/29/25, 11:22 AM Wallace, William F (MR # MR71970) DOB: 12/15/1938
+L435: 
+L436: Wallace, William F (MRN MR71970) Printed by Stagno, Cesarina [767] at 10/29/2025 11:22 AM 3/3
+L437: === END CHART: tmpowdfpygs.pdf ===
+L438: 

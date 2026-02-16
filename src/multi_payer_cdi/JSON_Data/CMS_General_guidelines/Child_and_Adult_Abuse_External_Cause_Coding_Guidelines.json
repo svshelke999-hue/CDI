@@ -1,0 +1,222 @@
+{
+  "guideline_id": "I.C.20.g",
+  "semantic_title": "Child and Adult Abuse External Cause Coding Guidelines",
+  "section_path": "Chapter 20: External Causes of Morbidity > g. Child and Adult Abuse Guideline",
+  "page_number": 90,
+  "content": {
+    "full_text": "Adult and child abuse, neglect and maltreatment are classified as assault. Any of the assault codes may be used to indicate the external cause of any injury resulting from the confirmed abuse. For confirmed cases of abuse, neglect and maltreatment, when the perpetrator is known, a code from Y07, Perpetrator of maltreatment and neglect, should accompany any other assault codes. (Evidence: pg no: 90, L82-L83)",
+    "summary": "Abuse, neglect, and maltreatment are classified as assault, using assault codes for external cause, with Y07 perpetrator codes when perpetrator is known in confirmed cases (Evidence: pg no: 90, L82-L83)",
+    "key_concepts": [
+      "Abuse, neglect, maltreatment classified as assault (Evidence: pg no: 90, L82)",
+      "Use assault codes for external cause (Evidence: pg no: 90, L82-L83)",
+      "Apply to confirmed abuse cases (Evidence: pg no: 90, L83)",
+      "Y07 codes for known perpetrators (Evidence: pg no: 90, L83)",
+      "Y07 accompanies other assault codes (Evidence: pg no: 90, L83)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "ABUSE_001",
+        "rule_text": "Adult and child abuse, neglect and maltreatment are classified as assault (Evidence: pg no: 90, L82)",
+        "explanation": "All forms of abuse, neglect, and maltreatment, whether involving adults or children, are coded using assault external cause codes (Evidence: pg no: 90, L82)",
+        "importance": "critical",
+        "applies_to": "All abuse, neglect, and maltreatment cases",
+        "common_applications": [
+          "Child abuse cases",
+          "Adult abuse cases",
+          "Neglect situations",
+          "Maltreatment incidents"
+        ]
+      },
+      {
+        "rule_id": "ABUSE_002",
+        "rule_text": "Any assault codes may be used for injuries from confirmed abuse (Evidence: pg no: 90, L82-L83)",
+        "explanation": "The full range of assault external cause codes is available for coding injuries that result from confirmed cases of abuse, neglect, or maltreatment (Evidence: pg no: 90, L82-L83)",
+        "importance": "high",
+        "applies_to": "Confirmed abuse cases with injuries",
+        "common_applications": [
+          "Physical abuse injuries",
+          "Assault-related trauma",
+          "Abuse-related medical conditions"
+        ]
+      },
+      {
+        "rule_id": "ABUSE_003",
+        "rule_text": "Y07 perpetrator codes should accompany assault codes when perpetrator is known in confirmed cases (Evidence: pg no: 90, L83)",
+        "explanation": "For confirmed cases of abuse, neglect, or maltreatment where the perpetrator is identified, a Y07 code specifying the perpetrator relationship should be assigned along with the assault external cause code (Evidence: pg no: 90, L83)",
+        "importance": "high",
+        "applies_to": "Confirmed abuse cases with known perpetrators",
+        "common_applications": [
+          "Family member perpetrators",
+          "Caregiver abuse",
+          "Known assailant cases"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Confirm the case involves abuse, neglect, or maltreatment",
+      "Step 2: Code the injury or condition as primary diagnosis",
+      "Step 3: Assign appropriate assault external cause code",
+      "Step 4: If perpetrator is known, assign Y07 perpetrator code",
+      "Step 5: Sequence according to external cause hierarchy (abuse has highest priority)"
+    ],
+    "related_terminology": [
+      "Adult abuse",
+      "Child abuse",
+      "Neglect",
+      "Maltreatment",
+      "Assault",
+      "Perpetrator",
+      "Y07 codes",
+      "Confirmed cases"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Assault codes",
+        "description": "External cause codes for assault used in abuse cases (Evidence: pg no: 90, L82-L83)",
+        "requirement": "Use for confirmed abuse, neglect, maltreatment",
+        "usage_rules": [
+          "Any assault code may be used (Evidence: pg no: 90, L82-L83)",
+          "Apply to confirmed cases (Evidence: pg no: 90, L83)"
+        ]
+      },
+      {
+        "range": "Y07",
+        "description": "Perpetrator of maltreatment and neglect codes (Evidence: pg no: 90, L83)",
+        "requirement": "Use when perpetrator is known in confirmed cases",
+        "usage_rules": [
+          "Accompanies assault codes (Evidence: pg no: 90, L83)",
+          "Only for known perpetrators (Evidence: pg no: 90, L83)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Assault codes",
+      "Y07 perpetrator codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": [
+      {
+        "guideline_id": "I.C.20.f",
+        "title": "Multiple External Cause Coding Priority Hierarchy",
+        "relationship": "referenced_by",
+        "explanation": "Abuse codes have highest priority in external cause hierarchy"
+      }
+    ]
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "ABUSE_001",
+      "scenario": "Child presents with confirmed physical abuse injuries from parent",
+      "documentation_example": "5-year-old child with multiple bruises and fractures, confirmed physical abuse by father",
+      "step_by_step": [
+        "Step 1: Code the injuries (bruises, fractures) as primary diagnoses",
+        "Step 2: Assign assault external cause code for the injuries",
+        "Step 3: Assign Y07.11 (biological father) as perpetrator code",
+        "Step 4: Sequence abuse codes first due to highest priority"
+      ],
+      "correct_coding": {
+        "primary_code": "Fracture code (most serious injury)",
+        "secondary_codes": [
+          "Bruise codes",
+          "Assault external cause code",
+          "Y07.11 (biological father perpetrator)"
+        ],
+        "sequencing": "Injuries first, then assault code, then perpetrator code",
+        "rationale": "Abuse classified as assault, with perpetrator code when known in confirmed cases (Evidence: pg no: 90, L82-L83)"
+      },
+      "incorrect_coding": {
+        "code": "Not using assault codes for abuse",
+        "codes": [
+          "Non-assault external cause codes"
+        ],
+        "rationale": "Abuse must be classified as assault",
+        "common_mistake": "Not recognizing abuse as assault for coding purposes"
+      }
+    },
+    {
+      "scenario_id": "ABUSE_002",
+      "scenario": "Adult with suspected abuse but perpetrator unknown",
+      "documentation_example": "Adult patient with injuries consistent with abuse, perpetrator not identified",
+      "step_by_step": [
+        "Step 1: Code the injuries as primary diagnoses",
+        "Step 2: Assign assault external cause code if abuse is confirmed",
+        "Step 3: Do not assign Y07 code since perpetrator is unknown",
+        "Step 4: Follow standard external cause sequencing"
+      ],
+      "correct_coding": {
+        "primary_code": "Injury codes",
+        "secondary_codes": [
+          "Assault external cause code"
+        ],
+        "sequencing": "Injuries first, then assault code",
+        "rationale": "Y07 perpetrator codes only used when perpetrator is known (Evidence: pg no: 90, L83)"
+      },
+      "incorrect_coding": {
+        "code": "Using Y07 code when perpetrator unknown",
+        "codes": [
+          "Y07 code without known perpetrator"
+        ],
+        "rationale": "Y07 codes only for known perpetrators",
+        "common_mistake": "Using perpetrator codes when perpetrator is not identified"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Only use Y07 codes when perpetrator is known (Evidence: pg no: 90, L83)",
+      "Must be confirmed cases of abuse (Evidence: pg no: 90, L83)"
+    ],
+    "best_practices": [
+      "Classify all abuse as assault (Evidence: pg no: 90, L82)",
+      "Use Y07 codes to specify perpetrator relationship when known (Evidence: pg no: 90, L83)"
+    ],
+    "common_mistakes": [
+      "Not using assault codes for abuse cases (Evidence: pg no: 90, L82)",
+      "Using perpetrator codes when perpetrator unknown (Evidence: pg no: 90, L83)"
+    ],
+    "tips": [
+      "Remember abuse has highest priority in external cause hierarchy (Evidence: pg no: 90, L75)"
+    ],
+    "implementation_notes": [
+      "Requires confirmation of abuse for appropriate coding"
+    ],
+    "clinical_context": [
+      "Abuse cases require sensitive handling and accurate documentation"
+    ]
+  },
+  "search_keywords": [
+    "child adult abuse",
+    "abuse neglect maltreatment",
+    "assault codes abuse",
+    "Y07 perpetrator codes",
+    "confirmed abuse cases",
+    "abuse external cause"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "external_causes",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "external_causes",
+      "abuse",
+      "assault",
+      "perpetrator_codes",
+      "Y07",
+      "chapter_20"
+    ]
+  },
+  "page_range_processed": "pages_87_to_90"
+}

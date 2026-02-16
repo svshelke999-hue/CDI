@@ -1,0 +1,239 @@
+{
+  "guideline_id": "I.C.10.b.1",
+  "semantic_title": "Acute Respiratory Failure as Principal Diagnosis Coding Rules",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 10. Chapter 10: Diseases of the Respiratory System > b. Acute Respiratory Failure > 1. Acute respiratory failure as principal diagnosis",
+  "page_number": 56,
+  "content": {
+    "full_text": "A code from subcategory J96.0, Acute respiratory failure, or subcategory J96.2, Acute and chronic respiratory failure, may be assigned as a principal diagnosis when it is the condition established after study to be chiefly responsible for occasioning the admission to the hospital, and the selection is supported by the Alphabetic Index and Tabular List. However, chapter-specific coding guidelines (such as obstetrics, poisoning, HIV, newborn) that provide sequencing direction take precedence. (Evidence: pg no: 56, L60-L62)",
+    "summary": "Rules for assigning acute respiratory failure as principal diagnosis including conditions and exceptions for chapter-specific guidelines (Evidence: pg no: 56, L60-L62)",
+    "key_concepts": [
+      "Principal diagnosis criteria for respiratory failure (Evidence: pg no: 56, L61)",
+      "Subcategories J96.0 and J96.2 usage (Evidence: pg no: 56, L60-L61)",
+      "Chapter-specific guideline precedence (Evidence: pg no: 56, L62)",
+      "Alphabetic Index and Tabular List support requirement (Evidence: pg no: 56, L61-L62)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "principal_diagnosis_criteria",
+        "rule_text": "Acute respiratory failure may be principal diagnosis when it is the condition chiefly responsible for occasioning the admission (Evidence: pg no: 56, L61)",
+        "explanation": "Respiratory failure must meet standard principal diagnosis definition of being the main reason for admission after study (Evidence: pg no: 56, L61)",
+        "importance": "critical",
+        "applies_to": "J96.0, J96.2",
+        "common_applications": [
+          "Primary respiratory failure admission",
+          "Respiratory failure as main admission reason"
+        ]
+      },
+      {
+        "rule_id": "coding_support_requirement",
+        "rule_text": "Selection must be supported by the Alphabetic Index and Tabular List (Evidence: pg no: 56, L61-L62)",
+        "explanation": "Code assignment must follow standard ICD-10-CM coding conventions and be supported by official coding resources (Evidence: pg no: 56, L61-L62)",
+        "importance": "high",
+        "applies_to": "J96.0, J96.2",
+        "common_applications": [
+          "Verification of code appropriateness",
+          "Following official coding guidance"
+        ]
+      },
+      {
+        "rule_id": "chapter_specific_precedence",
+        "rule_text": "Chapter-specific coding guidelines that provide sequencing direction take precedence (Evidence: pg no: 56, L62)",
+        "explanation": "Special chapter guidelines for obstetrics, poisoning, HIV, newborn override general respiratory failure sequencing rules (Evidence: pg no: 56, L62)",
+        "importance": "critical",
+        "applies_to": "J96.0, J96.2",
+        "common_applications": [
+          "Obstetric complications with respiratory failure",
+          "Poisoning-induced respiratory failure",
+          "HIV-related respiratory failure",
+          "Newborn respiratory failure"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify acute respiratory failure diagnosis",
+      "Step 2: Determine if respiratory failure is chief reason for admission",
+      "Step 3: Check for chapter-specific sequencing guidelines",
+      "Step 4: Verify code selection with Alphabetic Index and Tabular List",
+      "Step 5: Assign appropriate subcategory code as principal diagnosis"
+    ],
+    "related_terminology": [
+      "Acute respiratory failure",
+      "Acute and chronic respiratory failure",
+      "Principal diagnosis",
+      "Chiefly responsible",
+      "Chapter-specific guidelines",
+      "Sequencing direction"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "J96.0",
+        "description": "Acute respiratory failure (Evidence: pg no: 56, L60-L61)",
+        "requirement": "May be principal diagnosis when criteria met",
+        "usage_rules": [
+          "Must be chiefly responsible for admission (Evidence: pg no: 56, L61)",
+          "Subject to chapter-specific guideline precedence (Evidence: pg no: 56, L62)"
+        ]
+      },
+      {
+        "range": "J96.2",
+        "description": "Acute and chronic respiratory failure (Evidence: pg no: 56, L61)",
+        "requirement": "May be principal diagnosis when criteria met",
+        "usage_rules": [
+          "Must be chiefly responsible for admission (Evidence: pg no: 56, L61)",
+          "Subject to chapter-specific guideline precedence (Evidence: pg no: 56, L62)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Subcategory J96.0 - Acute respiratory failure",
+      "Subcategory J96.2 - Acute and chronic respiratory failure"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "Section_II_C",
+        "title": "Principal diagnosis selection",
+        "relationship": "implements",
+        "explanation": "Applies standard principal diagnosis criteria to respiratory failure"
+      }
+    ],
+    "referenced_by": [
+      {
+        "guideline_id": "I.C.10.b.3",
+        "title": "Sequencing of acute respiratory failure and another acute condition",
+        "relationship": "related_to",
+        "explanation": "Builds on principal diagnosis rules for complex cases"
+      }
+    ]
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "primary_respiratory_failure",
+      "scenario": "Patient admitted primarily for acute respiratory failure",
+      "documentation_example": "Patient admitted with acute respiratory failure, no other significant conditions identified",
+      "step_by_step": [
+        "Step 1: Identify acute respiratory failure as primary condition",
+        "Step 2: Confirm it's the chief reason for admission",
+        "Step 3: Check for chapter-specific guidelines (none apply)",
+        "Step 4: Assign J96.0x as principal diagnosis"
+      ],
+      "correct_coding": {
+        "primary_code": "J96.00",
+        "secondary_codes": [],
+        "sequencing": "Respiratory failure as principal",
+        "rationale": "Respiratory failure is the condition chiefly responsible for admission (Evidence: pg no: 56, L61)"
+      },
+      "incorrect_coding": {
+        "code": "secondary position",
+        "codes": [
+          "other condition",
+          "J96.00"
+        ],
+        "rationale": "Should be principal when it's the main reason for admission",
+        "common_mistake": "Placing respiratory failure as secondary when it's the primary reason for admission"
+      }
+    },
+    {
+      "scenario_id": "obstetric_respiratory_failure",
+      "scenario": "Pregnant patient with respiratory failure",
+      "documentation_example": "Pregnant patient at 32 weeks with acute respiratory failure due to pneumonia",
+      "step_by_step": [
+        "Step 1: Identify acute respiratory failure",
+        "Step 2: Note obstetric context",
+        "Step 3: Apply obstetric chapter-specific guidelines",
+        "Step 4: Sequence according to obstetric rules"
+      ],
+      "correct_coding": {
+        "primary_code": "O99.511",
+        "secondary_codes": [
+          "J96.00",
+          "J15.9"
+        ],
+        "sequencing": "Obstetric code first per chapter guidelines",
+        "rationale": "Chapter-specific obstetric guidelines take precedence over general respiratory failure sequencing (Evidence: pg no: 56, L62)"
+      },
+      "incorrect_coding": {
+        "code": "J96.00",
+        "codes": [
+          "J96.00",
+          "O99.511"
+        ],
+        "rationale": "Obstetric guidelines require obstetric code sequencing first",
+        "common_mistake": "Ignoring chapter-specific sequencing requirements"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "acute_respiratory_failure_principal",
+      "scenario": "Acute respiratory failure as principal diagnosis",
+      "code_example": "J96.00",
+      "breakdown": {
+        "J96": "Respiratory failure category (Evidence: pg no: 56, L60)",
+        "0": "Without hypercapnia specification"
+      },
+      "rationale": "Appropriate when respiratory failure is chiefly responsible for admission (Evidence: pg no: 56, L61)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Chapter-specific guidelines take precedence over general sequencing rules (Evidence: pg no: 56, L62)"
+    ],
+    "best_practices": [
+      "Verify code selection with Alphabetic Index and Tabular List (Evidence: pg no: 56, L61-L62)",
+      "Always check for applicable chapter-specific sequencing guidelines (Evidence: pg no: 56, L62)"
+    ],
+    "common_mistakes": [
+      "Ignoring chapter-specific guideline precedence",
+      "Using respiratory failure as principal when other guidelines apply"
+    ],
+    "tips": [
+      "Principal diagnosis criteria must be met for respiratory failure (Evidence: pg no: 56, L61)",
+      "Special chapters override general respiratory failure sequencing (Evidence: pg no: 56, L62)"
+    ],
+    "implementation_notes": [
+      "Requires careful assessment of admission circumstances",
+      "Must consider all applicable coding guidelines"
+    ],
+    "clinical_context": [
+      "Respiratory failure can be primary or secondary condition",
+      "Certain patient populations have special sequencing requirements",
+      "Principal diagnosis drives reimbursement and quality metrics"
+    ]
+  },
+  "search_keywords": [
+    "acute respiratory failure",
+    "principal diagnosis",
+    "J96.0",
+    "J96.2",
+    "chapter specific guidelines",
+    "sequencing",
+    "chiefly responsible",
+    "obstetrics",
+    "poisoning",
+    "HIV",
+    "newborn"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "respiratory_system_failure",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "respiratory_failure",
+      "principal_diagnosis",
+      "sequencing",
+      "chapter_specific"
+    ]
+  },
+  "page_range_processed": "pages_54_to_57"
+}

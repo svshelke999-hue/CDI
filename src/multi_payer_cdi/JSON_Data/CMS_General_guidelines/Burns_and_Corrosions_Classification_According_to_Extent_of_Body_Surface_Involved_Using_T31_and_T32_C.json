@@ -1,0 +1,225 @@
+{
+  "guideline_id": "I.C.19.d.6",
+  "semantic_title": "Burns and Corrosions Classification According to Extent of Body Surface Involved Using T31 and T32 Categories",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 19. Injury, Poisoning, and Certain Other Consequences of External Causes > d. Burns and Corrosions > 6. Burns and corrosions classified according to extent of body surface involved",
+  "page_number": 82,
+  "content": {
+    "full_text": "Assign codes from category T31, Burns classified according to extent of body surface involved, or T32, Corrosions classified according to extent of body surface involved, for acute burns or corrosions when the site of the burn or corrosion is not specified or when there is a need for additional data. It is advisable to use category T31 as additional coding when needed to provide data for evaluating burn mortality, such as that needed by burn units. It is also advisable to use category T31 as an additional code for reporting purposes when there is mention of a third-degree burn involving 20 percent or more of the body surface. Codes from categories T31 and T32 should not be used for sequelae of burns or corrosions. Categories T31 and T32 are based on the classic \"rule of nines\" in estimating body surface involved: head and neck are assigned nine percent, each arm nine percent, each leg 18 percent, the anterior trunk 18 percent, posterior trunk 18 percent, and genitalia one percent. Providers may change these percentage assignments where necessary to accommodate infants and children who have proportionately larger heads than adults, and patients who have large buttocks, thighs, or abdomen that involve burns. (Evidence: pg no: 81-82, L14-L22)",
+    "summary": "Guidelines for using T31 and T32 categories to classify burns and corrosions according to extent of body surface involved, including the rule of nines methodology and special considerations for different patient populations (Evidence: pg no: 81-82, L14-L22)",
+    "key_concepts": [
+      "T31 and T32 categories for body surface extent classification (Evidence: pg no: 81, L15-L16)",
+      "Rule of nines methodology for body surface calculation (Evidence: pg no: 81, L18)",
+      "Additional coding for burn mortality evaluation (Evidence: pg no: 81, L17)",
+      "Special considerations for infants, children, and patients with large body parts (Evidence: pg no: 82, L21-L22)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "T31_T32_USAGE",
+        "rule_text": "Assign codes from category T31 or T32 for acute burns or corrosions when the site is not specified or when additional data is needed (Evidence: pg no: 81, L15-L17)",
+        "explanation": "These categories provide essential data for burn mortality evaluation and are particularly important for burn units and reporting purposes (Evidence: pg no: 81, L17-L18)",
+        "importance": "high",
+        "applies_to": "T31, T32",
+        "common_applications": [
+          "Burn mortality evaluation",
+          "Burn unit reporting",
+          "Third-degree burns involving 20% or more body surface"
+        ]
+      },
+      {
+        "rule_id": "THIRD_DEGREE_20_PERCENT",
+        "rule_text": "Use category T31 as additional code when there is mention of third-degree burn involving 20 percent or more of body surface (Evidence: pg no: 81, L17-L18)",
+        "explanation": "This specific threshold requires additional coding for proper documentation and reporting purposes (Evidence: pg no: 81, L17-L18)",
+        "importance": "critical",
+        "applies_to": "T31",
+        "common_applications": [
+          "Severe burn cases",
+          "Hospital reporting requirements"
+        ]
+      },
+      {
+        "rule_id": "NO_SEQUELAE_T31_T32",
+        "rule_text": "Codes from categories T31 and T32 should not be used for sequelae of burns or corrosions (Evidence: pg no: 81, L18)",
+        "explanation": "These categories are specifically for acute burns and corrosions, not for late effects or sequelae (Evidence: pg no: 81, L18)",
+        "importance": "critical",
+        "applies_to": "T31, T32",
+        "common_applications": [
+          "Acute burn coding",
+          "Avoiding incorrect sequelae coding"
+        ]
+      },
+      {
+        "rule_id": "RULE_OF_NINES",
+        "rule_text": "Categories T31 and T32 are based on the classic \"rule of nines\" with specific percentage assignments for body regions (Evidence: pg no: 81, L18)",
+        "explanation": "Head and neck: 9%, each arm: 9%, each leg: 18%, anterior trunk: 18%, posterior trunk: 18%, genitalia: 1%. Providers may adjust percentages for infants, children, and patients with proportionately different body parts (Evidence: pg no: 81-82, L18-L22)",
+        "importance": "high",
+        "applies_to": "T31, T32",
+        "common_applications": [
+          "Body surface area calculation",
+          "Pediatric burn assessment",
+          "Adult burn assessment"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Determine if burn/corrosion is acute (not sequelae)",
+      "Step 2: Assess if site is unspecified or additional data needed",
+      "Step 3: Calculate body surface area using rule of nines",
+      "Step 4: Adjust percentages if patient is infant/child or has large body parts",
+      "Step 5: Assign appropriate T31 (burns) or T32 (corrosions) code",
+      "Step 6: Use T31 as additional code for third-degree burns ≥20% body surface"
+    ],
+    "related_terminology": [
+      "Rule of nines",
+      "Body surface area",
+      "Burn mortality",
+      "Acute burns",
+      "Sequelae",
+      "Third-degree burns"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "T31",
+        "description": "Burns classified according to extent of body surface involved (Evidence: pg no: 81, L15)",
+        "requirement": "Use for acute burns when site unspecified or additional data needed",
+        "usage_rules": [
+          "Required as additional code for third-degree burns ≥20% body surface (Evidence: pg no: 81, L17-L18)",
+          "Not to be used for sequelae (Evidence: pg no: 81, L18)"
+        ]
+      },
+      {
+        "range": "T32",
+        "description": "Corrosions classified according to extent of body surface involved (Evidence: pg no: 81, L16)",
+        "requirement": "Use for acute corrosions when site unspecified or additional data needed",
+        "usage_rules": [
+          "Not to be used for sequelae (Evidence: pg no: 81, L18)",
+          "Based on rule of nines methodology (Evidence: pg no: 81, L18)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [
+      {
+        "pattern": "Rule of nines percentages",
+        "description": "Standardized body surface area calculation method (Evidence: pg no: 81, L18)",
+        "example": "Head/neck: 9%, each arm: 9%, each leg: 18%, anterior trunk: 18%, posterior trunk: 18%, genitalia: 1%",
+        "explanation": "Classic methodology with adjustments allowed for special populations (Evidence: pg no: 81-82, L18-L22)"
+      }
+    ],
+    "code_categories_mentioned": [
+      "T31 - Burns classified according to extent of body surface involved",
+      "T32 - Corrosions classified according to extent of body surface involved"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "THIRD_DEGREE_BURN_25_PERCENT",
+      "scenario": "Patient with third-degree burns covering 25% of body surface area",
+      "documentation_example": "Third-degree burns involving 25% of total body surface area",
+      "step_by_step": [
+        "Step 1: Identify as third-degree burn >20% body surface",
+        "Step 2: Assign primary burn site code",
+        "Step 3: Assign additional T31 code for body surface extent",
+        "Step 4: Use rule of nines to determine specific T31 subcategory"
+      ],
+      "correct_coding": {
+        "primary_code": "Specific burn site code",
+        "secondary_codes": [
+          "T31.XX (appropriate subcategory for 25% body surface)"
+        ],
+        "sequencing": "Primary burn site code first, then T31 code",
+        "rationale": "T31 required as additional code for third-degree burns ≥20% body surface (Evidence: pg no: 81, L17-L18)"
+      },
+      "incorrect_coding": {
+        "code": "Only primary burn site code without T31",
+        "codes": [
+          "Primary burn code only"
+        ],
+        "rationale": "Missing required T31 additional code for reporting and mortality evaluation",
+        "common_mistake": "Failing to add T31 code for significant third-degree burns"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "RULE_OF_NINES_ADULT",
+      "scenario": "Adult patient with burns requiring body surface calculation",
+      "code_example": "Rule of nines application",
+      "breakdown": {
+        "Head/neck": "9% (Evidence: pg no: 81, L18)",
+        "Each arm": "9% (Evidence: pg no: 81, L18)",
+        "Each leg": "18% (Evidence: pg no: 81, L18)",
+        "Anterior trunk": "18% (Evidence: pg no: 81, L18)",
+        "Posterior trunk": "18% (Evidence: pg no: 81, L18)",
+        "Genitalia": "1% (Evidence: pg no: 81, L18)"
+      },
+      "rationale": "Standard rule of nines methodology for body surface area calculation (Evidence: pg no: 81, L18)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Do not use T31 and T32 codes for sequelae of burns or corrosions (Evidence: pg no: 81, L18)",
+      "Must use T31 as additional code for third-degree burns ≥20% body surface (Evidence: pg no: 81, L17-L18)"
+    ],
+    "best_practices": [
+      "Use T31 for burn mortality evaluation data (Evidence: pg no: 81, L17)",
+      "Adjust rule of nines percentages for infants and children (Evidence: pg no: 82, L21-L22)",
+      "Consider patient body habitus when calculating percentages (Evidence: pg no: 82, L21-L22)"
+    ],
+    "common_mistakes": [
+      "Using T31/T32 codes for burn sequelae",
+      "Failing to add T31 code for significant third-degree burns",
+      "Not adjusting percentages for pediatric patients"
+    ],
+    "tips": [
+      "T31 codes provide essential data for burn units (Evidence: pg no: 81, L17)",
+      "Rule of nines may need adjustment for special populations (Evidence: pg no: 82, L21-L22)"
+    ],
+    "implementation_notes": [
+      "Essential for burn mortality evaluation",
+      "Required for burn unit reporting",
+      "Supports quality metrics and outcomes tracking"
+    ],
+    "clinical_context": [
+      "Critical for burn unit management",
+      "Important for prognosis and treatment planning",
+      "Essential for mortality risk assessment"
+    ]
+  },
+  "search_keywords": [
+    "T31",
+    "T32",
+    "burns body surface",
+    "rule of nines",
+    "burn mortality",
+    "third degree burns",
+    "body surface area",
+    "burn extent",
+    "corrosion extent"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "burns_and_corrosions",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "burns",
+      "corrosions",
+      "body_surface_area",
+      "rule_of_nines",
+      "T31",
+      "T32"
+    ]
+  },
+  "page_range_processed": "pages_81_to_84"
+}

@@ -1,0 +1,156 @@
+{
+  "guideline_id": "I.B.5",
+  "semantic_title": "Integral Signs and Symptoms Should Not Be Coded Separately",
+  "section_path": "Section I > B. General Coding Guidelines > 5. Conditions that are an integral part of a disease process",
+  "page_number": 13,
+  "content": {
+    "full_text": "Signs and symptoms that are associated routinely with a disease process should not be assigned as additional codes, unless otherwise instructed by the classification. (Evidence: pg no: 13, L43-L44)",
+    "summary": "Prohibits coding signs and symptoms that are routinely associated with a disease process as additional codes, unless specifically instructed otherwise by ICD-10-CM. (Evidence: pg no: 13, L43-L44)",
+    "key_concepts": [
+      "Integral symptoms should not be coded separately (Evidence: pg no: 13, L43-L44)",
+      "Routine association with disease process determines integrality (Evidence: pg no: 13, L43-L44)",
+      "Classification instructions can override this rule (Evidence: pg no: 13, L44)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.B.5.1",
+        "rule_text": "Do not assign additional codes for signs/symptoms routinely associated with disease (Evidence: pg no: 13, L43-L44)",
+        "explanation": "When signs and symptoms are typically expected and routinely occur as part of a disease process, they should not be coded separately as additional diagnoses because they are considered integral to the disease itself (Evidence: pg no: 13, L43-L44)",
+        "importance": "high",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Fever with pneumonia",
+          "Chest pain with myocardial infarction",
+          "Shortness of breath with congestive heart failure"
+        ]
+      },
+      {
+        "rule_id": "I.B.5.2",
+        "rule_text": "Classification instructions can override the integral symptom rule (Evidence: pg no: 13, L44)",
+        "explanation": "Even if a symptom is typically integral to a disease, if the ICD-10-CM classification specifically instructs to code it additionally (through 'use additional code' notes or similar), then it should be coded (Evidence: pg no: 13, L44)",
+        "importance": "high",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Following 'use additional code' instructions",
+          "Following 'code also' instructions",
+          "Specific classification guidance overriding general rules"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify the primary disease/condition",
+      "Step 2: Identify any associated signs/symptoms",
+      "Step 3: Determine if symptoms are routinely associated with the disease",
+      "Step 4: Check for any classification instructions requiring additional coding",
+      "Step 5: Code only non-integral symptoms or those specifically instructed"
+    ],
+    "related_terminology": [
+      "integral symptoms",
+      "disease process",
+      "routinely associated",
+      "additional codes",
+      "classification instructions"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Disease processes",
+      "Associated symptoms",
+      "Integral manifestations"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.B.6",
+        "title": "Conditions that are not an integral part of a disease process",
+        "relationship": "related_to",
+        "explanation": "Contrasts with conditions that should be coded when not integral"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "I.B.5.S1",
+      "scenario": "Patient diagnosed with pneumonia and fever",
+      "documentation_example": "Final diagnosis: Community-acquired pneumonia with fever",
+      "step_by_step": [
+        "Step 1: Identify primary condition (pneumonia)",
+        "Step 2: Identify symptom (fever)",
+        "Step 3: Determine fever is routinely associated with pneumonia",
+        "Step 4: Check for classification instructions (none requiring fever code)",
+        "Step 5: Code only pneumonia, not fever separately"
+      ],
+      "correct_coding": {
+        "primary_code": "J18.9",
+        "secondary_codes": [],
+        "sequencing": "Primary diagnosis only",
+        "rationale": "Fever is integral to pneumonia and should not be coded separately (Evidence: pg no: 13, L43-L44)"
+      },
+      "incorrect_coding": {
+        "code": "J18.9 + R50.9",
+        "codes": [
+          "J18.9",
+          "R50.9"
+        ],
+        "rationale": "Fever is integral to pneumonia and should not be coded additionally",
+        "common_mistake": "Coding integral symptoms as additional diagnoses"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not code symptoms that are routinely part of the disease process (Evidence: pg no: 13, L43-L44)"
+    ],
+    "best_practices": [
+      "Always check if symptoms are integral before coding separately (Evidence: pg no: 13, L43-L44)",
+      "Look for classification instructions that may override this rule (Evidence: pg no: 13, L44)"
+    ],
+    "common_mistakes": [
+      "Coding fever with infections when fever is expected (Evidence: pg no: 13, L43-L44)",
+      "Coding chest pain with myocardial infarction (Evidence: pg no: 13, L43-L44)"
+    ],
+    "tips": [
+      "Consider whether the symptom is expected with the disease (Evidence: pg no: 13, L43-L44)",
+      "Check tabular list for any 'use additional code' instructions (Evidence: pg no: 13, L44)"
+    ],
+    "implementation_notes": [
+      "Requires clinical knowledge of disease processes"
+    ],
+    "clinical_context": [
+      "Prevents over-coding of expected symptoms",
+      "Maintains coding accuracy and specificity"
+    ]
+  },
+  "search_keywords": [
+    "integral symptoms",
+    "disease process",
+    "additional codes",
+    "routinely associated",
+    "signs and symptoms",
+    "separate coding",
+    "classification instructions"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "symptom_coding",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "integral_symptoms",
+      "disease_process",
+      "additional_coding",
+      "clinical_knowledge"
+    ]
+  },
+  "page_range_processed": "pages_12_to_15"
+}

@@ -1,0 +1,205 @@
+{
+  "guideline_id": "I.A.14",
+  "semantic_title": "Documentation by Clinicians Other than the Patient's Provider - Exceptions for Code Assignment",
+  "section_path": "Section I > A. Conventions > 14. Documentation by Clinicians Other than the Patient's Provider",
+  "page_number": 16,
+  "content": {
+    "full_text": "Code assignment is based on the documentation by the patient's provider (i.e., physician or other qualified healthcare practitioner legally accountable for establishing the patient's diagnosis). There are a few exceptions when code assignment may be based on medical record documentation from clinicians who are not the patient's provider (i.e., physician or other qualified healthcare practitioner legally accountable for establishing the patient's diagnosis). In this context, \"clinicians\" other than the patient's provider refer to healthcare professionals permitted, based on regulatory or accreditation requirements or internal hospital policies, to document in a patient's official medical record. These exceptions include codes for: Body Mass Index (BMI), Depth of non-pressure chronic ulcers, Pressure ulcer stage, Coma scale, NIH stroke scale (NIHSS), Social determinants of health (SDOH) classified to Chapter 21, Laterality, Blood alcohol level, Underimmunization status, Firearm injury intent. This information is typically, or may be, documented by other clinicians involved in the care of the patient (e.g., a dietitian often documents the BMI, a nurse often documents the pressure ulcer stages, and an emergency medical technician often documents the coma scale). However, the associated diagnosis (such as overweight, obesity, acute stroke, pressure ulcer, or a condition classifiable to category F10, Alcohol related disorders) must be documented by the patient's provider. If there is conflicting medical record documentation, either from the same clinician or different clinicians, the patient's provider should be queried for clarification. The BMI, coma scale, NIHSS, blood alcohol level codes, codes for social determinants of health and underimmunization status should only be reported as secondary diagnoses. (Evidence: pg no: 16, L21-L45)",
+    "summary": "Establishes exceptions where code assignment can be based on documentation by clinicians other than the patient's provider for specific types of codes (Evidence: pg no: 16, L21-L29)",
+    "key_concepts": [
+      "Patient's provider accountability for diagnosis establishment (Evidence: pg no: 16, L22)",
+      "Specific exceptions for non-provider documentation (Evidence: pg no: 16, L29-L39)",
+      "Secondary diagnosis reporting requirement for certain codes (Evidence: pg no: 16, L44-L45)",
+      "Query requirement for conflicting documentation (Evidence: pg no: 16, L43-L44)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "I.A.14.1",
+        "rule_text": "Code assignment is based on the documentation by the patient's provider (Evidence: pg no: 16, L21-L22)",
+        "explanation": "The patient's provider (physician or other qualified healthcare practitioner legally accountable for establishing the patient's diagnosis) is the primary source for code assignment documentation (Evidence: pg no: 16, L21-L23)",
+        "importance": "critical",
+        "applies_to": "all_codes",
+        "common_applications": [
+          "Primary diagnosis establishment",
+          "Secondary diagnosis documentation"
+        ]
+      },
+      {
+        "rule_id": "I.A.14.2",
+        "rule_text": "Specific exceptions allow code assignment based on non-provider documentation (Evidence: pg no: 16, L29-L39)",
+        "explanation": "Ten specific types of codes can be assigned based on documentation by clinicians other than the patient's provider, including BMI, pressure ulcer stages, coma scales, and others (Evidence: pg no: 16, L29-L39)",
+        "importance": "high",
+        "applies_to": "specific_code_types",
+        "common_applications": [
+          "BMI documentation by dietitians",
+          "Pressure ulcer staging by nurses",
+          "Coma scale documentation by EMTs"
+        ]
+      },
+      {
+        "rule_id": "I.A.14.3",
+        "rule_text": "Associated diagnoses must still be documented by the patient's provider (Evidence: pg no: 16, L42-L43)",
+        "explanation": "While specific measurements or assessments can be documented by other clinicians, the underlying medical diagnosis must still be established by the patient's provider (Evidence: pg no: 16, L42-L43)",
+        "importance": "critical",
+        "applies_to": "exception_codes",
+        "common_applications": [
+          "Obesity diagnosis with BMI measurement",
+          "Pressure ulcer diagnosis with staging",
+          "Stroke diagnosis with NIHSS score"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify if the code falls under one of the ten specified exceptions",
+      "Step 2: Verify that other clinician documentation is from qualified healthcare professionals",
+      "Step 3: Ensure the associated diagnosis is documented by the patient's provider",
+      "Step 4: Query provider if there is conflicting documentation",
+      "Step 5: Report exception codes as secondary diagnoses only"
+    ],
+    "related_terminology": [
+      "Patient's provider",
+      "Qualified healthcare practitioner",
+      "Medical record documentation",
+      "Secondary diagnoses",
+      "Regulatory requirements",
+      "Accreditation requirements"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Chapter 21",
+        "description": "Social determinants of health codes (Evidence: pg no: 16, L35)",
+        "requirement": "Can be documented by non-provider clinicians",
+        "usage_rules": [
+          "Report as secondary diagnoses only (Evidence: pg no: 16, L44-L45)"
+        ]
+      },
+      {
+        "range": "F10",
+        "description": "Alcohol related disorders (Evidence: pg no: 16, L43)",
+        "requirement": "Must be documented by patient's provider",
+        "usage_rules": [
+          "Associated with blood alcohol level measurements (Evidence: pg no: 16, L43)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Body Mass Index codes",
+      "Pressure ulcer stage codes",
+      "Coma scale codes",
+      "NIH stroke scale codes",
+      "Social determinants of health codes",
+      "Blood alcohol level codes",
+      "Underimmunization status codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.21.c.17",
+        "title": "Social determinants of health coding",
+        "relationship": "implements",
+        "explanation": "Referenced for additional information on SDOH coding (Evidence: pg no: 16, L46)"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "I.A.14.S1",
+      "scenario": "Patient with obesity and BMI documented by dietitian",
+      "documentation_example": "Dietitian documents BMI 32.5, physician documents obesity",
+      "step_by_step": [
+        "Step 1: Verify BMI is one of the exceptions for non-provider documentation",
+        "Step 2: Confirm obesity diagnosis is documented by physician",
+        "Step 3: Assign obesity code as primary/secondary as appropriate",
+        "Step 4: Assign BMI code as secondary diagnosis only"
+      ],
+      "correct_coding": {
+        "primary_code": "E66.9 (Obesity, unspecified)",
+        "secondary_codes": [
+          "Z68.32 (BMI 32.0-32.9, adult)"
+        ],
+        "sequencing": "BMI code as secondary diagnosis only",
+        "rationale": "Physician documented the diagnosis, dietitian documented the BMI measurement which is an allowed exception (Evidence: pg no: 16, L41-L45)"
+      },
+      "incorrect_coding": {
+        "code": "Z68.32 only",
+        "rationale": "Cannot code BMI without physician-documented obesity diagnosis",
+        "common_mistake": "Using BMI code without associated physician-documented diagnosis"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [
+    {
+      "example_id": "I.A.14.E1",
+      "scenario": "Emergency department visit with coma scale documented by EMT",
+      "code_example": "Glasgow Coma Scale documented by EMT, stroke diagnosis by physician",
+      "breakdown": {
+        "EMT documentation": "Acceptable for coma scale codes (Evidence: pg no: 16, L41-L42)",
+        "Physician documentation": "Required for stroke diagnosis (Evidence: pg no: 16, L42-L43)"
+      },
+      "rationale": "Coma scale is one of the specified exceptions allowing non-provider documentation (Evidence: pg no: 16, L33, L41-L42)"
+    }
+  ],
+  "special_notes": {
+    "warnings": [
+      "Associated diagnoses must still be documented by patient's provider (Evidence: pg no: 16, L42-L43)",
+      "Exception codes should only be reported as secondary diagnoses (Evidence: pg no: 16, L44-L45)"
+    ],
+    "best_practices": [
+      "Query provider when there is conflicting documentation (Evidence: pg no: 16, L43-L44)",
+      "Verify clinician qualifications based on regulatory or accreditation requirements (Evidence: pg no: 16, L24-L25)"
+    ],
+    "common_mistakes": [
+      "Using exception codes as primary diagnoses",
+      "Coding measurements without associated physician-documented diagnosis",
+      "Not querying for conflicting documentation"
+    ],
+    "tips": [
+      "Remember the ten specific exceptions listed",
+      "Always verify the associated diagnosis is physician-documented",
+      "Use secondary diagnosis sequencing for exception codes"
+    ],
+    "implementation_notes": [
+      "Hospital policies may define which clinicians can document specific measurements",
+      "Regulatory requirements vary by healthcare setting"
+    ],
+    "clinical_context": [
+      "Multidisciplinary care teams often document different aspects of patient care",
+      "Quality measures may depend on accurate documentation by various clinicians"
+    ]
+  },
+  "search_keywords": [
+    "non-provider documentation",
+    "clinician exceptions",
+    "BMI documentation",
+    "pressure ulcer staging",
+    "coma scale",
+    "NIHSS",
+    "social determinants",
+    "secondary diagnosis",
+    "provider query",
+    "conflicting documentation"
+  ],
+  "metadata": {
+    "category": "convention",
+    "subcategory": "documentation_requirements",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "all_settings"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "documentation",
+      "provider_responsibility",
+      "exceptions",
+      "secondary_diagnosis"
+    ]
+  },
+  "page_range_processed": "pages_15_to_18"
+}

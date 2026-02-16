@@ -1,0 +1,149 @@
+{
+  "guideline_id": "I.C.1.e.1.d",
+  "semantic_title": "MRSA Colonization and Infection - Coding Both Conditions During Same Admission",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 1. Certain Infectious and Parasitic Diseases > e. Methicillin Resistant Staphylococcus aureus (MRSA) Conditions > 1) Selection and sequencing of MRSA codes > (d) MRSA colonization and infection",
+  "page_number": 28,
+  "content": {
+    "full_text": "If a patient is documented as having both MRSA colonization and infection during a hospital admission, code Z22.322, Carrier or suspected carrier of Methicillin resistant Staphylococcus aureus, and a code for the MRSA infection may both be assigned. (Evidence: pg no: 28, L27-L29)",
+    "summary": "Guidelines for coding when a patient has both MRSA colonization and active MRSA infection during the same hospital stay (Evidence: pg no: 28, L27-L29)",
+    "key_concepts": [
+      "Dual coding for MRSA colonization and infection (Evidence: pg no: 28, L27-L29)",
+      "Hospital admission context (Evidence: pg no: 28, L28)",
+      "Carrier status with active infection (Evidence: pg no: 28, L29)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "MRSA_DUAL_001",
+        "rule_text": "Both MRSA colonization and infection codes may be assigned when documented during same admission (Evidence: pg no: 28, L27-L29)",
+        "explanation": "When a patient has documented MRSA colonization and also develops or has an active MRSA infection during the same hospital admission, both conditions should be coded separately (Evidence: pg no: 28, L27-L29)",
+        "importance": "high",
+        "applies_to": "Z22.322 and MRSA infection codes",
+        "common_applications": [
+          "Patient admitted with MRSA colonization who develops MRSA infection",
+          "Patient with known MRSA carrier status presenting with MRSA infection"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify documentation of MRSA colonization during admission",
+      "Step 2: Identify documentation of MRSA infection during same admission",
+      "Step 3: Assign Z22.322 for colonization",
+      "Step 4: Assign appropriate MRSA infection code"
+    ],
+    "related_terminology": [
+      "MRSA colonization",
+      "MRSA infection",
+      "Hospital admission",
+      "Carrier status"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [],
+    "specific_codes": [
+      {
+        "code": "Z22.322",
+        "description": "Carrier or suspected carrier of Methicillin resistant Staphylococcus aureus (Evidence: pg no: 28, L29)",
+        "context": "Used for MRSA colonization when patient also has active infection",
+        "requires_additional_codes": true,
+        "breakdown": {
+          "Z22": "Carrier of infectious disease",
+          "322": "Methicillin resistant Staphylococcus aureus"
+        }
+      }
+    ],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "MRSA infection codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.C.1.e.1.c",
+        "title": "MRSA and MSSA colonization",
+        "relationship": "builds_upon",
+        "explanation": "Builds upon the basic colonization coding rules"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "MRSA_DUAL_SC001",
+      "scenario": "Patient admitted with known MRSA colonization develops pneumonia due to MRSA during admission",
+      "documentation_example": "Patient with MRSA colonization, developed MRSA pneumonia during hospitalization",
+      "step_by_step": [
+        "Step 1: Identify MRSA colonization documentation",
+        "Step 2: Identify MRSA pneumonia development",
+        "Step 3: Code both conditions"
+      ],
+      "correct_coding": {
+        "primary_code": "J15.212",
+        "secondary_codes": [
+          "Z22.322"
+        ],
+        "sequencing": "MRSA infection as primary, colonization as additional",
+        "rationale": "Both conditions are documented and should be coded separately (Evidence: pg no: 28, L27-L29)"
+      },
+      "incorrect_coding": {
+        "code": "J15.212 only",
+        "codes": [
+          "J15.212"
+        ],
+        "rationale": "Missing the colonization code when both conditions are documented",
+        "common_mistake": "Failing to code colonization when infection is also present"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Both codes may be assigned only when both conditions are documented during the same admission (Evidence: pg no: 28, L27-L29)"
+    ],
+    "best_practices": [
+      "Review documentation carefully to identify both colonization and infection status",
+      "Code both conditions when clearly documented"
+    ],
+    "common_mistakes": [
+      "Coding only the infection and missing the colonization status",
+      "Assuming colonization when only infection is documented"
+    ],
+    "tips": [
+      "Look for documentation of both carrier status and active infection",
+      "Hospital admission context is important for this guideline"
+    ],
+    "implementation_notes": [
+      "Applies specifically to hospital admissions",
+      "Both conditions must be documented"
+    ],
+    "clinical_context": [
+      "Common in hospital settings where patients are screened for MRSA",
+      "Important for infection control and treatment planning"
+    ]
+  },
+  "search_keywords": [
+    "MRSA colonization",
+    "MRSA infection",
+    "dual coding",
+    "Z22.322",
+    "hospital admission",
+    "carrier status"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "infectious_diseases",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "MRSA",
+      "colonization",
+      "infection",
+      "dual_coding"
+    ]
+  },
+  "page_range_processed": "pages_27_to_30"
+}

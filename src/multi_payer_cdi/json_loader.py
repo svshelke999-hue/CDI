@@ -5,7 +5,7 @@ JSON guideline data loader for local file-based knowledge retrieval.
 import os
 import json
 import glob
-from typing import List, Dict, Any, Tuple
+from typing import List, Dict, Any, Tuple, Optional
 
 from .config import Config
 
@@ -418,6 +418,267 @@ class JSONGuidelineLoader:
         
         extract_from_value(source)
         return list(set(all_evidence))  # Remove duplicates
+    
+    def _extract_medical_terms(self, text: str) -> List[str]:
+        """Extract meaningful medical terms from text, filtering out common words."""
+        if not text:
+            return []
+        
+        # Common stop words to filter out
+        stop_words = {
+            'the', 'and', 'or', 'for', 'with', 'from', 'to', 'of', 'in', 'on', 'at', 'by',
+            'a', 'an', 'as', 'is', 'was', 'are', 'were', 'been', 'be', 'have', 'has', 'had',
+            'do', 'does', 'did', 'will', 'would', 'should', 'could', 'may', 'might', 'must',
+            'this', 'that', 'these', 'those', 'it', 'its', 'they', 'them', 'their', 'there',
+            'chart', 'evidence', 'patient', 'procedure', 'diagnosis', 'code', 'codes'
+        }
+        
+        # Extract words (alphanumeric, at least 3 characters)
+        import re
+        words = re.findall(r'\b[a-zA-Z]{3,}\b', text.lower())
+        
+        # Filter out stop words and return unique terms
+        medical_terms = [w for w in words if w not in stop_words and len(w) > 2]
+        return list(set(medical_terms))
+    
+    def search_cms_general_guidelines(
+        self,
+        query: str,
+        cpt_codes: Optional[List[str]] = None,
+        top_k: int = 10,
+        min_relevance_score: float = 15.0
+    ) -> List[Dict[str, Any]]:
+        """
+        Search CMS general guidelines based on query and/or CPT codes with intelligent matching.
+        
+        Args:
+            query: Search query (procedure name, diagnosis, etc.)
+            cpt_codes: Optional list of CPT codes to search for
+            top_k: Maximum number of results to return
+            min_relevance_score: Minimum score threshold for relevance (default 15.0)
+            
+        Returns:
+            List of relevant CMS general guideline documents with scores
+        """
+        cms_guidelines = self.guidelines_cache.get("cms_general", [])
+        
+        if not cms_guidelines:
+            print("[WARNING] No CMS general guidelines loaded")
+            return []
+        
+        # Extract key medical terms from query (focus on procedure name, not full chart text)
+        # Split query by newlines and take first line (usually procedure name)
+        query_lines = query.split('\n')
+        primary_query = query_lines[0].strip() if query_lines else query.strip()
+        
+        # Extract medical terms from primary query
+        query_medical_terms = self._extract_medical_terms(primary_query)
+        query_lower = primary_query.lower()
+        
+        print(f"[INFO] CMS Search - Primary query: '{primary_query[:100]}'")
+        print(f"[INFO] CMS Search - Extracted medical terms: {query_medical_terms[:10]}")
+        
+        scored_guidelines = []
+        
+        # Normalize CPT codes if provided
+        normalized_cpt_codes = []
+        if cpt_codes:
+            for code in cpt_codes:
+                cleaned = str(code).strip().replace("-", "").replace(" ", "").upper()
+                normalized_cpt_codes.append(cleaned)
+        
+        for idx, guideline in enumerate(cms_guidelines):
+            score = 0.0
+            
+            # Convert guideline to searchable text
+            semantic_title = guideline.get("semantic_title", "").lower()
+            guideline_id = guideline.get("guideline_id", "").lower()
+            full_text = guideline.get("content", {}).get("full_text", "").lower()
+            summary = guideline.get("content", {}).get("summary", "").lower()
+            key_concepts = [str(c).lower() for c in guideline.get("content", {}).get("key_concepts", [])]
+            search_keywords = [str(k).lower() for k in guideline.get("search_keywords", [])]
+            tags = [str(t).lower() for t in guideline.get("metadata", {}).get("tags", [])]
+            
+            # Extract medical terms from guideline
+            guideline_medical_terms = self._extract_medical_terms(
+                f"{semantic_title} {summary} {' '.join(key_concepts)}"
+            )
+            
+            # High-value matches: exact procedure name in title or summary
+            if primary_query.lower() in semantic_title or primary_query.lower() in summary:
+                score += 50.0  # Very high score for exact match
+            
+            # Medical term matching (weighted by importance)
+            matching_medical_terms = set(query_medical_terms).intersection(set(guideline_medical_terms))
+            if matching_medical_terms:
+                # More matching terms = higher score
+                score += len(matching_medical_terms) * 8.0
+                
+                # Bonus if key terms match in title
+                title_terms = self._extract_medical_terms(semantic_title)
+                title_matches = set(query_medical_terms).intersection(set(title_terms))
+                if title_matches:
+                    score += len(title_matches) * 10.0
+            
+            # Phrase matching in key fields
+            query_words = set(query_lower.split())
+            if query_words:
+                # Title match (high value)
+                title_words = set(semantic_title.split())
+                title_overlap = query_words.intersection(title_words)
+                if title_overlap:
+                    score += len(title_overlap) * 5.0
+                
+                # Summary match (medium value)
+                summary_words = set(summary.split())
+                summary_overlap = query_words.intersection(summary_words)
+                if summary_overlap:
+                    score += len(summary_overlap) * 3.0
+                
+                # Key concepts match (high value)
+                for concept in key_concepts:
+                    concept_words = set(concept.split())
+                    concept_overlap = query_words.intersection(concept_words)
+                    if concept_overlap:
+                        score += len(concept_overlap) * 6.0
+            
+            # Search keywords match (high value)
+            for keyword in search_keywords:
+                if any(term in keyword for term in query_medical_terms):
+                    score += 8.0
+                if any(word in keyword for word in query_lower.split() if len(word) > 3):
+                    score += 5.0
+            
+            # Tags match (medium value)
+            for tag in tags:
+                if any(term in tag for term in query_medical_terms):
+                    score += 4.0
+            
+            # CPT code matching (if provided) - very high value
+            if normalized_cpt_codes:
+                guideline_str = json.dumps(guideline, default=str).upper()
+                for normalized_code in normalized_cpt_codes:
+                    if normalized_code in guideline_str:
+                        score += 30.0  # High score for CPT match
+                        # Extra score if in code_references
+                        code_refs = guideline.get("code_references", {})
+                        if normalized_code in json.dumps(code_refs, default=str).upper():
+                            score += 20.0
+            
+            # Only add if score meets minimum threshold
+            if score >= min_relevance_score:
+                scored_guidelines.append({
+                    "_score": score,
+                    "_source": guideline,
+                    "_index": "cms_general",
+                    "_id": f"cms_general_{idx}",
+                    "_matching_terms": list(matching_medical_terms) if matching_medical_terms else []
+                })
+        
+        # Sort by score descending
+        scored_guidelines.sort(key=lambda x: x["_score"], reverse=True)
+        
+        # Log top results
+        if scored_guidelines:
+            print(f"[INFO] CMS Search - Top result: '{scored_guidelines[0]['_source'].get('semantic_title', 'N/A')}' (score: {scored_guidelines[0]['_score']:.1f})")
+        
+        return scored_guidelines[:top_k]
+    
+    def build_cms_context_for_procedure(
+        self,
+        proc_name: str,
+        hits: List[Dict[str, Any]],
+        max_chars: int
+    ) -> Tuple[str, List[Dict[str, Any]], bool]:
+        """
+        Build context from CMS general guideline hits.
+        
+        Args:
+            proc_name: Procedure name
+            hits: Search results
+            max_chars: Maximum characters for context
+            
+        Returns:
+            Tuple of (context_text, sources, has_relevant_guidelines)
+        """
+        lines = []
+        sources = []
+        used = 0
+        has_relevant_guidelines = False
+        
+        for rank, h in enumerate(hits, start=1):
+            score = float(h.get("_score", 0.0))
+            source = h.get("_source", {})
+            
+            # Build header
+            semantic_title = source.get("semantic_title", "CMS General Guideline")
+            guideline_id = source.get("guideline_id", "")
+            file_name = f"cms_general_{rank}.json"
+            record_id = h.get("_id", f"cms_general_{rank}")
+            
+            header = f"[CMS_GENERAL | {semantic_title} | {guideline_id} | Chunk {rank} | score={score:.3f} | file={file_name} | id={record_id}]"
+            
+            # Get text content
+            text_parts = []
+            
+            # Add full text
+            content = source.get("content", {})
+            if content.get("full_text"):
+                text_parts.append(content["full_text"])
+            
+            # Add summary
+            if content.get("summary"):
+                text_parts.append(f"Summary: {content['summary']}")
+            
+            # Add key concepts
+            if content.get("key_concepts"):
+                text_parts.append("Key Concepts:")
+                for concept in content["key_concepts"]:
+                    text_parts.append(f"  - {concept}")
+            
+            # Add detailed rules
+            if content.get("detailed_rules"):
+                text_parts.append("Detailed Rules:")
+                for rule in content["detailed_rules"]:
+                    rule_text = rule.get("rule_text", "")
+                    explanation = rule.get("explanation", "")
+                    if rule_text:
+                        text_parts.append(f"  - {rule_text}")
+                    if explanation:
+                        text_parts.append(f"    Explanation: {explanation}")
+            
+            # Add coding scenarios
+            if source.get("coding_scenarios"):
+                text_parts.append("Coding Scenarios:")
+                for scenario in source["coding_scenarios"][:2]:  # Limit to first 2 scenarios
+                    scenario_text = scenario.get("scenario", "")
+                    if scenario_text:
+                        text_parts.append(f"  - {scenario_text}")
+            
+            text = "\n".join(text_parts)
+            block = f"{header}\n{text}\n"
+            
+            if score >= Config.MIN_RELEVANCE_SCORE:
+                has_relevant_guidelines = True
+            
+            if used + len(block) > max_chars and lines:
+                break
+            
+            lines.append(block)
+            used += len(block)
+            
+            sources.append({
+                "header": header,
+                "file": file_name,
+                "record_id": record_id,
+                "chunk_index": rank,
+                "payer": "cms_general",
+                "score": score,
+                "description": str(source)[:1500],
+                "full_source": source
+            })
+        
+        return "\n\n".join(lines), sources, has_relevant_guidelines
     
     @classmethod
     def is_available(cls) -> bool:

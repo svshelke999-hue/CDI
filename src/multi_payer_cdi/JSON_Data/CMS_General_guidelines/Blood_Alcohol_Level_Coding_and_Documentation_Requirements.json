@@ -1,0 +1,183 @@
+{
+  "guideline_id": "I.C.5.b.5",
+  "semantic_title": "Blood Alcohol Level Coding and Documentation Requirements",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 5. Chapter 5: Mental, Behavioral and Neurodevelopmental disorders > b. Mental and behavioral disorders due to psychoactive substance use > 5) Blood Alcohol Level",
+  "page_number": 44,
+  "content": {
+    "full_text": "A code from category Y90, Evidence of alcohol involvement determined by blood alcohol level, may be assigned when this information is documented and the patient's provider has documented a condition classifiable to category F10, Alcohol related disorders. The blood alcohol level does not need to be documented by the patient's provider in order for it to be coded. See Section I.B.14. for blood alcohol level documentation by clinicians other than patient's provider. (Evidence: pg no: 44, L65-L67)",
+    "summary": "Provides guidance on when and how to assign blood alcohol level codes, including documentation requirements and cross-references for non-provider documentation (Evidence: pg no: 44, L65-L67)",
+    "key_concepts": [
+      "Y90 category usage (Evidence: pg no: 44, L65)",
+      "Provider documentation of F10 condition (Evidence: pg no: 44, L66)",
+      "Blood alcohol level documentation flexibility (Evidence: pg no: 44, L66-L67)",
+      "Non-provider documentation allowance (Evidence: pg no: 44, L67)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "BAL_001",
+        "rule_text": "May assign Y90 when blood alcohol level information is documented (Evidence: pg no: 44, L65-L66)",
+        "explanation": "Y90 codes can be used when blood alcohol level information is available in the medical record (Evidence: pg no: 44, L65-L66)",
+        "importance": "medium",
+        "applies_to": "Y90",
+        "common_applications": [
+          "Emergency department visits",
+          "Trauma cases with alcohol involvement"
+        ]
+      },
+      {
+        "rule_id": "BAL_002",
+        "rule_text": "Provider must document F10 condition for Y90 assignment (Evidence: pg no: 44, L66)",
+        "explanation": "The patient's provider must document an alcohol-related disorder (F10) before Y90 codes can be assigned (Evidence: pg no: 44, L66)",
+        "importance": "critical",
+        "applies_to": "Y90, F10",
+        "common_applications": [
+          "Alcohol intoxication",
+          "Alcohol use disorders",
+          "Alcohol-related conditions"
+        ]
+      },
+      {
+        "rule_id": "BAL_003",
+        "rule_text": "Blood alcohol level does not need provider documentation (Evidence: pg no: 44, L66-L67)",
+        "explanation": "The actual blood alcohol level can be documented by clinicians other than the patient's provider (Evidence: pg no: 44, L66-L67)",
+        "importance": "medium",
+        "applies_to": "Y90",
+        "common_applications": [
+          "Laboratory results",
+          "Emergency department testing",
+          "Nursing documentation"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Verify provider documented F10 condition",
+      "Step 2: Confirm blood alcohol level is documented (by any clinician)",
+      "Step 3: Assign appropriate Y90 code based on blood alcohol level",
+      "Step 4: Reference Section I.B.14 if needed for non-provider documentation"
+    ],
+    "related_terminology": [
+      "Blood alcohol level",
+      "Alcohol involvement",
+      "Provider documentation",
+      "Clinician documentation",
+      "Alcohol related disorders"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Y90",
+        "description": "Evidence of alcohol involvement determined by blood alcohol level (Evidence: pg no: 44, L65)",
+        "requirement": "Requires F10 condition documented by provider",
+        "usage_rules": [
+          "Use when blood alcohol level documented (Evidence: pg no: 44, L65-L66)",
+          "Requires provider-documented F10 condition (Evidence: pg no: 44, L66)"
+        ]
+      },
+      {
+        "range": "F10",
+        "description": "Alcohol related disorders (Evidence: pg no: 44, L66)",
+        "requirement": "Must be documented by provider for Y90 use",
+        "usage_rules": [
+          "Provider must document for Y90 assignment (Evidence: pg no: 44, L66)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Evidence of alcohol involvement",
+      "Alcohol related disorders"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "I.B.14",
+        "title": "Blood alcohol level documentation by clinicians other than patient's provider",
+        "relationship": "related_to",
+        "explanation": "Provides guidance on non-provider documentation of blood alcohol levels"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "BAL_001",
+      "scenario": "Patient presents to ED with alcohol intoxication, provider documents acute alcohol intoxication, lab reports BAL of 0.15",
+      "documentation_example": "Provider: Acute alcohol intoxication. Lab: Blood alcohol level 0.15 g/dL",
+      "step_by_step": [
+        "Step 1: Verify provider documented F10 condition (acute intoxication)",
+        "Step 2: Confirm blood alcohol level documented (0.15 by lab)",
+        "Step 3: Assign F10 code for intoxication",
+        "Step 4: Assign appropriate Y90 code for BAL 0.15"
+      ],
+      "correct_coding": {
+        "primary_code": "F10.129",
+        "secondary_codes": [
+          "Y90.6"
+        ],
+        "sequencing": "F10 condition first, then Y90",
+        "rationale": "Provider documented F10 condition and blood alcohol level is documented, allowing Y90 assignment (Evidence: pg no: 44, L65-L67)"
+      },
+      "incorrect_coding": {
+        "code": "Y90.6",
+        "codes": [
+          "Y90.6 only"
+        ],
+        "rationale": "Cannot assign Y90 without provider-documented F10 condition",
+        "common_mistake": "Assigning Y90 without F10 condition"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Cannot assign Y90 without provider-documented F10 condition (Evidence: pg no: 44, L66)"
+    ],
+    "best_practices": [
+      "Verify provider documented alcohol-related condition before using Y90 (Evidence: pg no: 44, L66)",
+      "Blood alcohol level can be documented by any clinician (Evidence: pg no: 44, L66-L67)"
+    ],
+    "common_mistakes": [
+      "Assigning Y90 without F10 condition",
+      "Requiring provider documentation of blood alcohol level"
+    ],
+    "tips": [
+      "F10 condition = provider must document",
+      "Blood alcohol level = any clinician can document"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Common in emergency department settings",
+      "Important for trauma and intoxication cases"
+    ]
+  },
+  "search_keywords": [
+    "blood alcohol level",
+    "Y90",
+    "F10",
+    "alcohol involvement",
+    "provider documentation",
+    "clinician documentation"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "substance_use_disorders",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient",
+      "emergency"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "alcohol",
+      "blood_alcohol_level",
+      "documentation",
+      "Y90"
+    ]
+  },
+  "page_range_processed": "pages_42_to_45"
+}

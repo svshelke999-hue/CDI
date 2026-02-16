@@ -1,0 +1,156 @@
+{
+  "guideline_id": "I.C.9.d.2",
+  "semantic_title": "Coding Guidelines for Using Category I69 with Current Cerebrovascular Disease Codes",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 9. Diseases of the Circulatory System > d. Sequelae of Cerebrovascular Disease > 2) Codes from category I69 with codes from I60-I67",
+  "page_number": 53,
+  "content": {
+    "full_text": "Codes from category I69 may be assigned on a health care record with codes from I60-I67, if the patient has a current cerebrovascular disease and deficits from an old cerebrovascular disease. (Evidence: pg no: 53, L74-L77)",
+    "summary": "Guidelines allowing concurrent use of I69 sequelae codes with current cerebrovascular disease codes I60-I67 (Evidence: pg no: 53, L74-L77)",
+    "key_concepts": [
+      "Concurrent I69 and I60-I67 coding (Evidence: pg no: 53, L74-L75)",
+      "Current cerebrovascular disease (Evidence: pg no: 53, L75-L76)",
+      "Old cerebrovascular disease deficits (Evidence: pg no: 53, L76-L77)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "CVA_CURR_SEQ_001",
+        "rule_text": "May use I69 codes with I60-I67 codes concurrently (Evidence: pg no: 53, L74-L75)",
+        "explanation": "Codes from category I69 may be assigned on the same health care record with codes from I60-I67 under specific circumstances (Evidence: pg no: 53, L74-L75)",
+        "importance": "high",
+        "applies_to": "I69, I60-I67",
+        "common_applications": [
+          "New stroke with old stroke deficits",
+          "Recurrent cerebrovascular events"
+        ]
+      },
+      {
+        "rule_id": "CVA_CURR_SEQ_002",
+        "rule_text": "Requires current CVD and deficits from old CVD (Evidence: pg no: 53, L75-L77)",
+        "explanation": "Concurrent coding is appropriate when patient has current cerebrovascular disease and deficits from an old cerebrovascular disease (Evidence: pg no: 53, L75-L77)",
+        "importance": "critical",
+        "applies_to": "I69, I60-I67",
+        "common_applications": [
+          "New stroke in patient with old stroke deficits",
+          "Multiple cerebrovascular events"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify current cerebrovascular disease",
+      "Step 2: Identify deficits from old cerebrovascular disease",
+      "Step 3: Assign appropriate I60-I67 code for current condition",
+      "Step 4: Assign appropriate I69 code for old deficits"
+    ],
+    "related_terminology": [
+      "Current cerebrovascular disease",
+      "Old cerebrovascular disease",
+      "Neurologic deficits",
+      "Concurrent coding"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "I69",
+        "description": "Sequelae of cerebrovascular disease (Evidence: pg no: 53, L74-L75)",
+        "requirement": "Use for deficits from old cerebrovascular disease",
+        "usage_rules": [
+          "May be used with I60-I67 codes (Evidence: pg no: 53, L74-L75)"
+        ]
+      },
+      {
+        "range": "I60-I67",
+        "description": "Current cerebrovascular diseases (Evidence: pg no: 53, L75-L76)",
+        "requirement": "Use for current cerebrovascular disease",
+        "usage_rules": [
+          "May be used with I69 codes when appropriate (Evidence: pg no: 53, L74-L77)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Sequelae of cerebrovascular disease",
+      "Current cerebrovascular diseases"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "CVA_CURR_SEQ_SC001",
+      "scenario": "Patient with new stroke and residual deficits from previous stroke",
+      "documentation_example": "Acute cerebral infarction, patient has left hemiparesis from previous stroke 2 years ago",
+      "step_by_step": [
+        "Step 1: Identify acute cerebral infarction",
+        "Step 2: Identify left hemiparesis from old stroke",
+        "Step 3: Assign I63.9 for current stroke",
+        "Step 4: Assign I69.352 for old stroke sequelae"
+      ],
+      "correct_coding": {
+        "primary_code": "I63.9",
+        "secondary_codes": [
+          "I69.352"
+        ],
+        "sequencing": "Current condition first, then sequelae",
+        "rationale": "Patient has both current cerebrovascular disease and deficits from old disease (Evidence: pg no: 53, L75-L77)"
+      },
+      "incorrect_coding": {
+        "code": "I63.9",
+        "codes": [
+          "I63.9"
+        ],
+        "rationale": "Would miss the ongoing deficits from previous stroke",
+        "common_mistake": "Not coding residual deficits from previous events"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [],
+    "best_practices": [
+      "Code both current disease and old deficits when present (Evidence: pg no: 53, L75-L77)"
+    ],
+    "common_mistakes": [
+      "Not coding residual deficits from previous strokes",
+      "Confusing current and old cerebrovascular events"
+    ],
+    "tips": [
+      "Distinguish between current disease and old deficits (Evidence: pg no: 53, L75-L77)"
+    ],
+    "implementation_notes": [],
+    "clinical_context": [
+      "Recurrent stroke cases",
+      "Multiple cerebrovascular events",
+      "Stroke with pre-existing deficits"
+    ]
+  },
+  "search_keywords": [
+    "concurrent stroke coding",
+    "current and old stroke",
+    "I69 with I60-I67",
+    "multiple strokes",
+    "recurrent cerebrovascular disease"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "cerebrovascular_disease",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient",
+      "outpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "concurrent_coding",
+      "current_stroke",
+      "old_deficits",
+      "I69",
+      "I60-I67"
+    ]
+  },
+  "page_range_processed": "pages_51_to_54"
+}

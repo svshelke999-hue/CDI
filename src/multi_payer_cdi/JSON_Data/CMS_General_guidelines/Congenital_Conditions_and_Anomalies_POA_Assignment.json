@@ -1,0 +1,180 @@
+{
+  "guideline_id": "POA.12",
+  "semantic_title": "Congenital Conditions and Anomalies POA Assignment",
+  "section_path": "Present on Admission Guidelines > Assigning the POA Indicator > Congenital conditions and anomalies",
+  "page_number": 120,
+  "content": {
+    "full_text": "Assign 'Y' for congenital conditions and anomalies except for categories Q00-Q99, Congenital anomalies, which are on the exempt list. Congenital conditions are always considered present on admission. (Evidence: pg no: 120, L77-L80)",
+    "summary": "Assign Y for congenital conditions except Q00-Q99 codes which are exempt from POA reporting (Evidence: pg no: 120, L77-L80)",
+    "key_concepts": [
+      "Congenital conditions (Evidence: pg no: 120, L77-L80)",
+      "Congenital anomalies (Evidence: pg no: 120, L77-L79)",
+      "Q00-Q99 exempt categories (Evidence: pg no: 120, L78-L79)",
+      "Always present on admission (Evidence: pg no: 120, L80)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "POA.12.1",
+        "rule_text": "Assign Y for congenital conditions and anomalies except Q00-Q99 (Evidence: pg no: 120, L78-L79)",
+        "explanation": "Congenital conditions should receive Y indicator except for categories Q00-Q99 which are on the exempt list (Evidence: pg no: 120, L77-L79)",
+        "importance": "high",
+        "applies_to": "congenital_conditions",
+        "common_applications": [
+          "Congenital heart conditions outside Q00-Q99",
+          "Congenital conditions in other code categories"
+        ]
+      },
+      {
+        "rule_id": "POA.12.2",
+        "rule_text": "Congenital conditions are always considered present on admission (Evidence: pg no: 120, L80)",
+        "explanation": "By definition, congenital conditions exist from birth and are therefore always present at the time of any admission (Evidence: pg no: 120, L80)",
+        "importance": "critical",
+        "applies_to": "all_congenital_conditions",
+        "common_applications": [
+          "Any congenital condition regardless of when diagnosed",
+          "Congenital conditions discovered during hospitalization"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify if condition is congenital",
+      "Step 2: Check if code is in Q00-Q99 range",
+      "Step 3: If Q00-Q99, leave POA field blank (exempt)",
+      "Step 4: If other congenital condition, assign Y"
+    ],
+    "related_terminology": [
+      "Congenital conditions",
+      "Congenital anomalies",
+      "Q00-Q99 categories",
+      "Exempt list"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "Q00-Q99",
+        "description": "Congenital anomalies exempt from POA reporting (Evidence: pg no: 120, L78-L79)",
+        "requirement": "Leave POA field blank",
+        "usage_rules": [
+          "Do not assign any POA indicator (Evidence: pg no: 120, L78-L79)",
+          "These codes are on the exempt list (Evidence: pg no: 120, L79)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "Q00-Q99 Congenital anomalies",
+      "Other congenital condition codes"
+    ]
+  },
+  "cross_references": {
+    "references_to": [
+      {
+        "guideline_id": "POA.1",
+        "title": "Exempt Conditions from POA Reporting",
+        "relationship": "applies_concept",
+        "explanation": "Q00-Q99 codes are on the exempt list"
+      }
+    ],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "POA.12.S1",
+      "scenario": "Patient with congenital heart defect outside Q00-Q99",
+      "documentation_example": "Patient admitted with congenital heart defect coded outside Q00-Q99 range",
+      "step_by_step": [
+        "Step 1: Identify congenital heart defect",
+        "Step 2: Confirm code is not in Q00-Q99 range",
+        "Step 3: Assign Y because congenital conditions are always present at admission"
+      ],
+      "correct_coding": {
+        "primary_code": "Congenital heart defect with Y indicator",
+        "secondary_codes": [],
+        "sequencing": "Standard rules apply",
+        "rationale": "Congenital conditions are always present on admission (Evidence: pg no: 120, L80)"
+      },
+      "incorrect_coding": {
+        "code": "Congenital heart defect with N indicator",
+        "codes": [],
+        "rationale": "Should never assign N to congenital conditions",
+        "common_mistake": "Not recognizing congenital nature of condition"
+      }
+    },
+    {
+      "scenario_id": "POA.12.S2",
+      "scenario": "Patient with Q00-Q99 congenital anomaly",
+      "documentation_example": "Patient with spina bifida (Q05.x)",
+      "step_by_step": [
+        "Step 1: Identify spina bifida as congenital anomaly",
+        "Step 2: Confirm code is in Q00-Q99 range",
+        "Step 3: Leave POA field blank (exempt)"
+      ],
+      "correct_coding": {
+        "primary_code": "Spina bifida with blank POA field",
+        "secondary_codes": [],
+        "sequencing": "Standard rules apply",
+        "rationale": "Q00-Q99 codes are exempt from POA reporting (Evidence: pg no: 120, L78-L79)"
+      },
+      "incorrect_coding": {
+        "code": "Spina bifida with Y indicator",
+        "codes": [],
+        "rationale": "Should leave POA field blank for Q00-Q99 codes",
+        "common_mistake": "Assigning POA indicators to exempt codes"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Q00-Q99 codes are exempt from POA reporting (Evidence: pg no: 120, L78-L79)",
+      "Never assign N to congenital conditions (Evidence: pg no: 120, L80)"
+    ],
+    "best_practices": [
+      "Check if congenital condition code is in Q00-Q99 range (Evidence: pg no: 120, L78-L79)",
+      "Remember congenital conditions are always present at admission (Evidence: pg no: 120, L80)"
+    ],
+    "common_mistakes": [
+      "Assigning POA indicators to Q00-Q99 codes (Evidence: pg no: 120, L78-L79)",
+      "Not recognizing congenital nature of conditions (Evidence: pg no: 120, L77-L80)"
+    ],
+    "tips": [
+      "Learn which congenital conditions are coded outside Q00-Q99 (Evidence: pg no: 120, L77-L79)",
+      "Congenital means present from birth (Evidence: pg no: 120, L80)"
+    ],
+    "implementation_notes": [
+      "Maintain list of Q00-Q99 codes for reference"
+    ],
+    "clinical_context": [
+      "Congenital conditions exist from birth regardless of diagnosis timing"
+    ]
+  },
+  "search_keywords": [
+    "congenital conditions POA",
+    "congenital anomalies POA",
+    "Q00-Q99 exempt",
+    "congenital heart defect POA",
+    "spina bifida POA",
+    "congenital always present"
+  ],
+  "metadata": {
+    "category": "general_guideline",
+    "subcategory": "POA_assignment",
+    "complexity_level": "intermediate",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "POA",
+      "congenital",
+      "anomalies",
+      "Q00-Q99",
+      "exempt",
+      "Y_indicator"
+    ]
+  },
+  "page_range_processed": "pages_117_to_120"
+}

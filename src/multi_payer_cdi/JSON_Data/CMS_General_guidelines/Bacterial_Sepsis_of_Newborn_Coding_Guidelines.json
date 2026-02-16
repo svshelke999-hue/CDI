@@ -1,0 +1,204 @@
+{
+  "guideline_id": "I.C.16.f",
+  "semantic_title": "Bacterial Sepsis of Newborn Coding Guidelines",
+  "section_path": "Section I > C. Chapter-Specific Coding Guidelines > 16. Chapter 16: Certain conditions originating in the perinatal period > f. Bacterial Sepsis of Newborn",
+  "page_number": 74,
+  "content": {
+    "full_text": "Category P36, Bacterial sepsis of newborn, includes congenital sepsis. If a perinate is documented as having sepsis without documentation of congenital or community acquired, the default is congenital and a code from category P36 should be assigned. If the P36 code includes the causal organism, an additional code from category B95, Streptococcus, Staphylococcus, and Enterococcus as the cause of diseases classified elsewhere, or B96, Other bacterial agents as the cause of diseases classified elsewhere, should not be assigned. If the P36 code does not include the causal organism, assign an additional code from category B96. If applicable, use additional codes to identify severe sepsis (R65.2-) and any associated acute organ dysfunction. (Evidence: pg no: 74, L57-L60)",
+    "summary": "P36 includes congenital sepsis and is the default for undocumented sepsis type in neonates, with specific rules for organism coding and severe sepsis identification (Evidence: pg no: 74, L57-L60)",
+    "key_concepts": [
+      "P36 includes congenital sepsis (Evidence: pg no: 74, L57)",
+      "Congenital sepsis default (Evidence: pg no: 74, L58)",
+      "Organism coding rules (Evidence: pg no: 74, L58-L60)",
+      "Severe sepsis coding (Evidence: pg no: 74, L59-L60)",
+      "Acute organ dysfunction (Evidence: pg no: 74, L60)"
+    ],
+    "detailed_rules": [
+      {
+        "rule_id": "p36_congenital_default_rule",
+        "rule_text": "If sepsis is documented without specification of congenital or community acquired, default is congenital (Evidence: pg no: 74, L57-L58)",
+        "explanation": "When documentation does not specify the source of sepsis in a neonate, assume it is congenital and use P36 category codes (Evidence: pg no: 74, L57-L58)",
+        "importance": "critical",
+        "applies_to": "P36 category",
+        "common_applications": [
+          "Neonatal sepsis without specified source",
+          "Early-onset sepsis in newborns"
+        ]
+      },
+      {
+        "rule_id": "p36_organism_coding_rule",
+        "rule_text": "If P36 code includes organism, do not assign additional B95/B96 codes; if not included, assign B96 code (Evidence: pg no: 74, L58-L60)",
+        "explanation": "Avoid duplicate coding of organisms by checking if the P36 code already specifies the causal organism before adding B95/B96 codes (Evidence: pg no: 74, L58-L60)",
+        "importance": "high",
+        "applies_to": "P36, B95, B96 categories",
+        "common_applications": [
+          "Group B Strep sepsis coding",
+          "E. coli sepsis coding"
+        ]
+      },
+      {
+        "rule_id": "p36_severe_sepsis_rule",
+        "rule_text": "Use additional codes for severe sepsis (R65.2-) and associated acute organ dysfunction when applicable (Evidence: pg no: 74, L59-L60)",
+        "explanation": "When neonatal sepsis progresses to severe sepsis with organ dysfunction, additional codes are required to capture the full clinical picture (Evidence: pg no: 74, L59-L60)",
+        "importance": "high",
+        "applies_to": "P36 with severe sepsis",
+        "common_applications": [
+          "Septic shock in newborns",
+          "Multi-organ dysfunction in neonatal sepsis"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      "Step 1: Identify sepsis in neonate",
+      "Step 2: Determine if congenital or community acquired (default to congenital if unspecified)",
+      "Step 3: Select appropriate P36 code",
+      "Step 4: Check if P36 code includes organism",
+      "Step 5: If organism not included, assign B96 code",
+      "Step 6: Assess for severe sepsis and organ dysfunction",
+      "Step 7: Add R65.2- and organ dysfunction codes if applicable"
+    ],
+    "related_terminology": [
+      "Bacterial sepsis",
+      "Congenital sepsis",
+      "Community acquired sepsis",
+      "Causal organism",
+      "Severe sepsis",
+      "Acute organ dysfunction"
+    ]
+  },
+  "code_references": {
+    "code_ranges": [
+      {
+        "range": "P36",
+        "description": "Bacterial sepsis of newborn, includes congenital sepsis (Evidence: pg no: 74, L57)",
+        "requirement": "Default for unspecified sepsis type in neonates",
+        "usage_rules": [
+          "Check if organism is included in code (Evidence: pg no: 74, L58-L59)",
+          "Add severe sepsis codes when applicable (Evidence: pg no: 74, L59-L60)"
+        ]
+      },
+      {
+        "range": "B95",
+        "description": "Streptococcus, Staphylococcus, and Enterococcus as cause of diseases classified elsewhere (Evidence: pg no: 74, L58-L59)",
+        "requirement": "Do not use if P36 code includes organism",
+        "usage_rules": [
+          "Only when P36 doesn't specify organism (Evidence: pg no: 74, L58-L59)"
+        ]
+      },
+      {
+        "range": "B96",
+        "description": "Other bacterial agents as cause of diseases classified elsewhere (Evidence: pg no: 74, L59-L60)",
+        "requirement": "Use when P36 code doesn't include organism",
+        "usage_rules": [
+          "Assign when causal organism not specified in P36 (Evidence: pg no: 74, L59-L60)"
+        ]
+      },
+      {
+        "range": "R65.2-",
+        "description": "Severe sepsis (Evidence: pg no: 74, L59)",
+        "requirement": "Use additional code when applicable",
+        "usage_rules": [
+          "Add when severe sepsis is present (Evidence: pg no: 74, L59-L60)"
+        ]
+      }
+    ],
+    "specific_codes": [],
+    "code_patterns": [],
+    "code_categories_mentioned": [
+      "P36 - Bacterial sepsis of newborn",
+      "B95 - Streptococcus, Staphylococcus, Enterococcus",
+      "B96 - Other bacterial agents",
+      "R65.2- - Severe sepsis"
+    ]
+  },
+  "cross_references": {
+    "references_to": [],
+    "referenced_by": []
+  },
+  "coding_scenarios": [
+    {
+      "scenario_id": "neonatal_sepsis_unspecified",
+      "scenario": "2-day-old newborn with sepsis, blood culture positive for E. coli, no organ dysfunction",
+      "documentation_example": "2-day-old term newborn developed sepsis. Blood culture positive for E. coli. Responding well to antibiotics, no signs of organ dysfunction.",
+      "step_by_step": [
+        "Step 1: Identify sepsis in neonate",
+        "Step 2: No specification of congenital vs community acquired - default to congenital",
+        "Step 3: Select P36.4 (sepsis of newborn due to Escherichia coli)",
+        "Step 4: P36.4 includes the organism (E. coli)",
+        "Step 5: Do not assign additional B96 code",
+        "Step 6: No severe sepsis documented"
+      ],
+      "correct_coding": {
+        "primary_code": "Z38.00",
+        "secondary_codes": [
+          "P36.4"
+        ],
+        "sequencing": "Z38 as principal, P36.4 as secondary",
+        "rationale": "P36 code includes organism, so no additional B96 code needed (Evidence: pg no: 74, L58-L59)"
+      },
+      "incorrect_coding": {
+        "code": "P36.4, B96.20",
+        "codes": [
+          "P36.4",
+          "B96.20"
+        ],
+        "rationale": "Should not assign B96 code when P36 already includes the organism",
+        "common_mistake": "Double-coding organism when P36 code is specific"
+      }
+    }
+  ],
+  "procedure_links": [],
+  "examples": [],
+  "special_notes": {
+    "warnings": [
+      "Do not assign B95/B96 codes when P36 code includes organism (Evidence: pg no: 74, L58-L59)"
+    ],
+    "best_practices": [
+      "Default to congenital sepsis when type not specified (Evidence: pg no: 74, L57-L58)",
+      "Check P36 code specificity before adding organism codes (Evidence: pg no: 74, L58-L59)",
+      "Add severe sepsis codes when applicable (Evidence: pg no: 74, L59-L60)"
+    ],
+    "common_mistakes": [
+      "Double-coding organisms when P36 is specific",
+      "Not defaulting to congenital sepsis when unspecified"
+    ],
+    "tips": [
+      "P36 includes congenital sepsis (Evidence: pg no: 74, L57)",
+      "Check code specificity before adding organism codes (Evidence: pg no: 74, L58-L59)"
+    ],
+    "implementation_notes": [
+      "Requires assessment of sepsis severity and organ function"
+    ],
+    "clinical_context": [
+      "Early-onset and late-onset neonatal sepsis"
+    ]
+  },
+  "search_keywords": [
+    "bacterial sepsis",
+    "newborn sepsis",
+    "congenital sepsis",
+    "P36",
+    "neonatal infection",
+    "severe sepsis",
+    "organism coding"
+  ],
+  "metadata": {
+    "category": "chapter_specific",
+    "subcategory": "perinatal_conditions",
+    "complexity_level": "advanced",
+    "applies_to_settings": [
+      "inpatient"
+    ],
+    "last_updated": "FY 2026",
+    "tags": [
+      "sepsis",
+      "newborn",
+      "P36",
+      "bacterial",
+      "congenital",
+      "organism",
+      "severe sepsis"
+    ]
+  },
+  "page_range_processed": "pages_72_to_75"
+}
